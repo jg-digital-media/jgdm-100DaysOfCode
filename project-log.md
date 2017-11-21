@@ -49,3 +49,32 @@ Android Studio 3.0
 Day 1: Activity creation for the GolfScoreCard App.
 
 ## Day 2
+
+---
+
+### **Plan for the Day**
+
+By the end of this session, I'd hoped to have a working Java object to work with the Golf Scores App.
+
+### **Learning Goals**
+
+To refresh working with Android Studio; how to create a Java/Class Object and use it in a projects' Main Activity.
+
+### **Description**
+
+lorem
+
+### **Observations**
+
+This was a relatively easy stage to start coding with even though at the beginning I did suffer from a bit of "blank canvas" syndrome, it was all done sooner than I realised. Partly because Android Studio generated half of the needed code for me.
+
+Though, I still have a lot to learn.  I knew I needed an array to store an array of Holes but I started writing an array of empty string values rather than a "array of holes" with a given interger of indices.
+
+```
+private Hole[] mHoles = new Hole[18];
+```
+
+### **Technologies used**
+
+Android Studio 3.0
+

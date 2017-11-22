@@ -78,3 +78,34 @@ private Hole[] mHoles = new Hole[18];
 
 Android Studio 3.0
 
+## Day 3
+
+---
+
+### **Plan for the Day**
+
+The plan for today was always to switch focus to practicing JavaScript forEach.
+
+### **Learning Goals**
+
+ForEach method comprehension
+
+### **Description**
+
+This post will cover my observations from my practice of 2 JavaScript "problems" and how I solved. them.
+
+### **Observations**
+
+Today was a useful reminder of the Syntax for the most basic use of JavaScript forEach methods. In my write up I've included my own attempts as well as the correct solution so I could compare them.   
+
+I think I've done well today.  The knowledge is within me, I just have trouble getting started. If I could just remember that I don't need to have absolutely everything memorised I'd be a better developer than I am now.
+
+The official write up for this session along with all my observations is here https://www.jonniegrieve.co.uk/100-days-code-day-3-write/
+
+### **Technologies used**
+
+Node.js on the command line and JavaScript
+
+### **Summary**
+
+The official write up for this session is here https://www.jonniegrieve.co.uk/100-days-code-day-3-write/

@@ -8,6 +8,14 @@ I'm a Dyspraxic which means I have a learning Disability and coding doesn't come
 
 As I write this (24th November 2017) I've been doing the challenge for 5 days. Even now, I've realised I've neglected to update the log on the 4th day.  I won't bother trying to catch up but I'll certainly at this stage link to all the blogs I've written to my websites' blog. Thanks for reading and again, I hope you find this useful.
 
+## Day 6
+
+I wanted Day 6 to be Saturday but certain things conspired against that.  I spoke often about how my brain can sometimes "reset" itself when I'm learning to code and I find myself feeling I have to learn all over again.
+
+This is one of the reasons I'm spending so much time on foreach with JavaScript.  It also means when I switch back to to my Android App tomorrow I'm less that optimistic about how that is going to go go, but as I say one way or the other I will get that project done.
+
+The writeup for Day 6 including all my observations is [here](http://www.jonniegrieve.co.uk/100-days-code-day-6-write/).
+
 ## Day 5
 
 By 5 I've made considerable progress in both the Android App and my exploration of the forEach array iteration methods. in JS.  Since I've already forgotten to upate this log for day 4, I've linked the first 5 day write ups on my blog to this Markdown Blog.  I'll carry on in a similar vain from the next one forward.

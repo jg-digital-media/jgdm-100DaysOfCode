@@ -13,9 +13,9 @@ I won't like 100 straight days this time. My goal is to help myself maintain not
 
 # LOG
 
-### **Day 1**: Friday September 7th 2018
+### **Day 1**: Monday September 10th 2018
 
-+ **Learning Goals:**
++ **Learning Goals:** To refresh my knwoledge of declaring basic JavaScript objects before moving onto applying the basics to a working example.
 + **Progress:**
 + **Thoughts:** 
 + **Link to Work:** [Project](url) 

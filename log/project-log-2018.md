@@ -1,9 +1,9 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 0 of 100.   **Last Update:**  7th September 2018
+### **Status:** Day 1 of 100.   **Last Update:**  10th September 2018
 
 ___
-**Directories**  log | four_in_a_row
+**Directories**  log | four_in_a_row | work
 ___
 ## *Introduction*
 
@@ -15,10 +15,14 @@ I won't like 100 straight days this time. My goal is to help myself maintain not
 
 ### **Day 1**: Monday September 10th 2018
 
-+ **Learning Goals:** To refresh my knwoledge of declaring basic JavaScript objects before moving onto applying the basics to a working example.
-+ **Progress:**
++ **Learning Goals:** To refresh my knowledge of declaring basic JavaScript objects before moving onto applying the basics to a working example.
++ **Progress:** Good working session with some refreshers on adding different types of properties on an object and how to call them.
 + **Thoughts:** 
-+ **Link to Work:** [Project](url) 
+  + There's always more than one way to work out a programming problem but the key takeaway here is that the easiest way isn't always the best way.
+  + One of the reasons I think I struggle so much is because I can overcomplicate things in my mind.
+  + It is okay and even recommended to rely on documentation when you needed. You don't need to work it all out yourself.
+
++ **Link to Work:** [Working Log](https://github.com/jg-digital-media/jgdm-100DaysOfCode/blob/master/work/working.md) 
 
 
 ___

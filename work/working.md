@@ -76,3 +76,30 @@ console.log(myString)
 This is the basics of working with JavaScript Object literals.
 
 ## **ForEach Iterations**
+
+ForEach 1 - Add array integers together using forEach 
+
+ForEach is called on an array or another iterable. takes an **a**nonymous **callback function**.  number is what is called a **value parameter**.
+
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+let total = 0;
+
+
+numbers.forEach(number => total += number)
+```
+
+
+ForEach 2 - copy only the first 2 characters of each string in the days array and store the abbreviations in the dayAbbreviations array.
+
+```javascript
+const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+let dayAbbreviations = [];
+
+days.forEach(day => {
+    const dayAbb = day.slice(0,2);
+    dayAbbreviations.push(dayAbb)
+});
+```
+
+slice takes parameters referring to the index of strings. Wen combined with a value parameter this is matches paremeters to the strings of an integer iterable. Then push values to an empty array

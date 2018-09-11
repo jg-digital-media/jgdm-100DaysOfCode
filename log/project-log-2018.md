@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 1 of 100.   **Last Update:**  10th September 2018
+### **Status:** Day 2 of 100.   **Last Update:**  11th September 2018
 
 ___
 **Directories**  log | four_in_a_row | work
@@ -12,6 +12,17 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't like 100 straight days this time. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media precense.   
 
 # LOG
+
+### **Day 2**: Tuesday September 10th 2018
+
++ **Learning Goals:** Finish Object literal basics practice. Make a start with forEach iteration methods.
++ **Progress:** Finished object literal practice
++ **Thoughts:** 
+ 
+  + Point worth noting, I'm assigning the value of a string property of one object to a new property of the same object
+  + Remembering that updating a property the same syntax as adding a new property on the fly.
+
++ **Link to Work:** [Working Log](https://github.com/jg-digital-media/jgdm-100DaysOfCode/blob/master/work/working.md)  
 
 ### **Day 1**: Monday September 10th 2018
 

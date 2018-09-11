@@ -1,3 +1,6 @@
+# Thought Diary - Workings Out
+
+## **JavaScript Object Literals**
 
 ### JavaScript Objects Practice 1
 
@@ -43,3 +46,33 @@ One of the reasons I think I struggle so much is because I can overcomplicate th
 const numWords = myString.countWords();
 ```
 
+### Practice 4
+
+This is for creating a new property without changing the original object literal. How come this isn't working?  need a colon in the syntax somewhere? No.  Should be able to create an additional property and assign a new value at the same time.
+
+```javascript
+let char = myString.characters;
+```
+
+This was a great way to start but the hard part was finding the right value to assign it to. I knew I needed to use the length property somehow to get the number of characters of another property.
+
+Also I'm overcomplicating things again by trying to assign it another variable.  It works, but for this example a variable declaration isn't really required.
+
+So what's happening is I'm assigning the value of a string property of one object to a new property of the same object.
+
+```javascript
+myString.characters = myString.string.length
+```
+
+### Practice 5 - Update a property's Value.
+
+Remembering that it is the same syntax as adding a new property on the fly.
+
+```javascript
+myString.string = "I love full stack JavaScript";
+console.log(myString)
+```
+
+This is the basics of working with JavaScript Object literals.
+
+## **ForEach Iterations**

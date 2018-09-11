@@ -1,5 +1,8 @@
 # README.ME  (READ THIS FIRST)
 
+## 100 Days of Code Challenge.
+**Status:** Day 2 of 100. **Last Update:** 11th September 2018
+
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
 I won't make 100 straight days this time either. And that's okay, I think. We're all individuals and doing this for different things. My goal is to help myself maintain not just my coding (I can always be found coding), but also an active social media presence, which up until now as died a death.

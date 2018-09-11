@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 2 of 100.   **Last Update:**  11th September 2018
+### **Status:** Day 2 of 100.   **Last Update:**  11gtth September 2018
 
 ___
 **Directories**  log | four_in_a_row | work

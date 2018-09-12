@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 2 of 100.   **Last Update:**  11gtth September 2018
+### **Status:** Day 3 of 100.   **Last Update:**  12th September 2018
 
 ___
 **Directories**  log | four_in_a_row | work
@@ -9,9 +9,30 @@ ___
 
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
-I won't last 100 straight days this time either. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media precense.   
+I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 3**: Wednesday September 12th 2018
+
++ **Learning Goals:** Continuation of exploration of forEach methods and to start working on an OOP JavaScript project
++ **Progress:** 
+  + Great day today working out some problems with using a forEach loop.  I'm hopeful today the forEach syntax is starting to sink in.
+
+  + Also started my first main project of this code challenge.  Making a "four in a row" game. Everything right now feels okay and not unmanageable. Which could change anytime. :)
+
++ **Thoughts:** 
+
+  + Using the value parameter and the arrow function Syntax when working with the forEach method.
+
+  + I've rediscovered why debugging is my favourite part of programming. Getting rid of mistakes and working out problems can be so rewarding.
+
+  + After having worked with Python for so long this year, I'm having to retrain my brain not to think of Python Syntax when using condition statements in JavaScript.
+
++ **Link to Work:** 
+  + [Four in a row ](https://www.jonniegrieve.co.uk/projects/four_in_a_row/index.html) 
+  + [Working Log](https://github.com/jg-digital-media/jgdm-100DaysOfCode)
+
 
 ### **Day 2**: Tuesday September 10th 2018
 

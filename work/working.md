@@ -116,17 +116,19 @@ stringPrices.forEach(stringPrice => {
 })
 ```
 
- value parameter arrow function
+Using the value parameter and the arrow function Syntax
 
-parseFloats, converts String floats into float data type.
+Yesterday I couldn't quite see the obvious. ```parseFloats()```, converts String floats into float data type.
 
-### The way forEach works
+### How forEach works
 
-call an forEach on an array of values with . syntax
+This prompted me to think further about how forEach works.
 
-forEach uses an anonymous hour function with one "value" parameter.
++ Call forEach on an array of values with . syntax
 
-Perform actions in code block of anonymous function.  Use value parameter to reference values of the original iterable.
++ forEach uses an anonymous arrow function with one or more "value" parameter".
+
++ Perform actions in code block of anonymous function.  Use value parameter to reference values of the original iterable.
 
 ```javascript
 const stringPrices = ['5.47', '3.12', '8.00', '5.63', '10.70'];
@@ -145,7 +147,7 @@ stringPrices.forEach(price => {
 
 Hopefully this will be a chance for these fundamentals to sink in.
 
-Finished the 4 challenge successfully with a bit of thought and debugging!  (Which is my favourite part of programming)
+With all this in mind the second forEach challenge was much more successful with a bit of thought and debugging!  (Which is my favourite part of programming)
 
 ```javascript
 const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
@@ -163,4 +165,9 @@ alphabet.forEach( letter => {
 
 Another factor how my brain works is retraining it not to think of Python when using condition statements.  :)
 
+
+## Object Oriented JavaScript
+
 Moving on for now back to OOP JS.
+
+I updated the **four_in_a_row** folder to start the project.  At this point, all JS files are declared JavaScript Classes, nothing more.

@@ -48,7 +48,7 @@ const numWords = myString.countWords();
 
 ### Practice 4
 
-This is for creating a new property without changing the original object literal. How come this isn't working?  need a colon in the syntax somewhere? No.  Should be able to create an additional property and assign a new value at the same time.
+This is for creating a new property without changing the original object literal. How come this isn't working?  need a colon in the syntax somewhere? No. Should be able to create an additional property and assign a new value at the same time.
 
 ```javascript
 let char = myString.characters;
@@ -79,7 +79,7 @@ This is the basics of working with JavaScript Object literals.
 
 ForEach 1 - Add array integers together using forEach 
 
-ForEach is called on an array or another iterable. takes an **a**nonymous **callback function**.  number is what is called a **value parameter**.
+ForEach is called on an array or another iterable. takes an **anonymous callback function**.  number is what is called a **value parameter**.
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5];
@@ -102,4 +102,65 @@ days.forEach(day => {
 });
 ```
 
-slice takes parameters referring to the index of strings. Wen combined with a value parameter this is matches paremeters to the strings of an integer iterable. Then push values to an empty array
+The ```slice()``` takes parameters referring to the index of strings. When combined with a value parameter this is matches paremeters to the strings of an integer iterable and performs actions on each of them. Then push values to an empty array to complete the method.
+
+
+Today was about learning just how valuable "value parameters" are in forEach loops.
+
+forEach Practice 3 - get total value of an array
+
+```javascript
+stringPrices.forEach(stringPrice => {
+    const price = parseFloat(stringPrice);
+    priceTotal += price
+})
+```
+
+ value parameter arrow function
+
+parseFloats, converts String floats into float data type.
+
+### The way forEach works
+
+call an forEach on an array of values with . syntax
+
+forEach uses an anonymous hour function with one "value" parameter.
+
+Perform actions in code block of anonymous function.  Use value parameter to reference values of the original iterable.
+
+```javascript
+const stringPrices = ['5.47', '3.12', '8.00', '5.63', '10.70'];
+let priceTotal = 0;
+
+// priceTotal should be: 32.92
+// Write your code below
+//stringPrices.foreach(price => stringPrices += price)
+//console.log(price)
+
+stringPrices.forEach(price => {
+    let prices = parseFloat(price);
+    priceTotal += price;
+});
+```
+
+Hopefully this will be a chance for these fundamentals to sink in.
+
+Finished the 4 challenge successfully with a bit of thought and debugging!  (Which is my favourite part of programming)
+
+```javascript
+const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+let noel = [];
+
+// noel should be: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+// Write your code below
+
+alphabet.forEach( letter => {
+    if(letter != 'L') {
+        let store_to_noel = noel.push(letter)
+    }
+})
+```
+
+Another factor how my brain works is retraining it not to think of Python when using condition statements.  :)
+
+Moving on for now back to OOP JS.

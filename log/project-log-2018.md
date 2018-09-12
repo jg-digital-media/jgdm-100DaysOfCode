@@ -9,7 +9,7 @@ ___
 
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
-I won't like 100 straight days this time. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media precense.   
+I won't last 100 straight days this time either. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media precense.   
 
 # LOG
 

@@ -13,6 +13,20 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
+### **Day 4**: Thursday September 13th 2018
+
++ **Learning Goals:**
+   + Further work on OOP By Example
+
+   + Practice with brainstorming properties of a clas and their constructor methods.
+
+   + Hopefully soon learn how an Application comes together using JavaScript.
+
++ **Progress:** Wrote the first couple of constructors for the Classes Player and Token.  But most of my time was spent thinking of my own suggestions for state and behaviour to be applied to them.
+   
++ **Thoughts:** Felt like I'd made reasonable suggestions for properties and methods that might go in them but the final solutions were simpler than apparently needed in the end.
++ **Link to Work:** [Link to Repository](https://github.com/jg-digital-media/jgdm-100DaysOfCode)
+
 ### **Day 3**: Wednesday September 12th 2018
 
 + **Learning Goals:** Continuation of exploration of forEach methods and to start working on an OOP JavaScript project

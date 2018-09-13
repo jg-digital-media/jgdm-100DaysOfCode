@@ -75,6 +75,36 @@ console.log(myString)
 
 This is the basics of working with JavaScript Object literals.
 
+## Constructor Methods
+
+Thursday 13th...
+
+```javascript
+
+class Player {
+
+    constructor(name, id, color, active=false) {
+        this.name = name;
+        this.id = id;
+        this.color = color;
+        this.active = active;
+        this.tokens = [];
+    }
+
+}
+
+class Token {
+    constructor(owner, index) {
+        this.owner = owner;
+        this.id = `token-${index}-$(owner.id}`;
+        this.dropped = false;
+        
+    }
+}
+
+```
+
+
 ## **ForEach Iterations**
 
 ForEach 1 - Add array integers together using forEach 

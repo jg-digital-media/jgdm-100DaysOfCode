@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 4 of 100.   **Last Update:**  13th September 2018
+### **Status:** Day 5 of 100.   **Last Update:**  14th September 2018
 
 ___
 **Directories**  log | four_in_a_row | work
@@ -12,6 +12,16 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+### **Day 5**: Friday September 14th 2018
+
++ **Learning Goals:** Continue with the 4 in a row project.
++ **Progress:** Definitely my toughest day yet with the four in a row project.  Trying to interpret instructions and just not doing it properly but once explained, I understood more about what was going on. I got through it! 
++ **Thoughts:** 
+  + What makes things even more difficult is when my brain is convinced my code is right when the truth is staring me in the face.
+
+  + Key takeaway from today: Learning that not every constructor method needs parameters especially if values are hard coded into them.
+
++ **Link to Work:** [Link to Repository](https://github.com/jg-digital-media/jgdm-100DaysOfCode) 
 
 ### **Day 4**: Thursday September 13th 2018
 

@@ -103,6 +103,36 @@ class Token {
 }
 
 ```
+Friday 14th October
+
+
+This was a trickier day for me today.  A lot of things threw me off guard. For one, I seemed to be getting TypeScript errors fed back to me in my copy of Visual Studio Code which thoroughly confused me.  
+
+There were things wrong with my syntax which I was eventually able to work out but most things could be ignored.  (Some errors were simply spell checks that don't know anything about variables or JS keywords :)
+
+Why for example, is this wrong?
+
+```javascript
+createTokens: function(num){
+        
+  return null;
+}
+```
+Because I was writing it as syntax for a method that's in an object literal. The proper syntax is
+
+```javascript
+createTokens(num){
+}
+```
+A method a JavaScript Class.
+
+Key takeaways from today:  
+
+It's okay to take the time to work problems out. You don't need to be coding 24/7 and have the answers straight away.
+
+Also more practice with Constructor methods which was better. Feeling much more practiced with this now.
+
+Learning that not every constructor method needs parameters especially if values are hard coded into them.
 
 
 ## **ForEach Iterations**

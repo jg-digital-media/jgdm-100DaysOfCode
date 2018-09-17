@@ -103,6 +103,75 @@ class Token {
 }
 
 ```
+
+### Monday 17th October
+
+
+first reactions is that again I'm not sure what the instructions mean but when I read and reread, it seems to me that the syntax and code is similar (not the same) to the previous task.
+
+working with a 2 dimensional array though.
+
+
+```javascript
+function createSpaces()  {
+    
+    const spaces = [];
+  
+    for(let i=0; i<spaces; i++) {
+        let space = new Space(i, this)
+        tokens.push();
+    }
+
+    return spaces;
+}
+```
+
+**call to createSpaces method**  - replaces empty spaces array.  Now a call to a method which contains the same empty array.
+this.spaces:  this.createSpaces()
+
+
+Solution: 
+
+```javascript
+createSpaces()  {
+    
+    const spaces = [];
+  
+    for(let x=0; x<this.spaces; x++) {
+	const column = [];
+
+	for(let y=0; y<this.rows; x++) {
+            const space = new Space(x, y);
+            column.push(space);
+        }
+     
+        space.push(column);
+    }
+
+    return spaces;
+}
+```
+**Game class** - Got the constructor part right, but for the fact that apparently I didn't need to add parameters.  I still don't know when parameters are needed but I *think* it's because each property has been assigned a value that can be worked with; A boolean, an Object instance and a method.
+
+
+```javascript
+createPlayers() {
+    const players = [new Player('Player 1', 1, '#e15258', true), new Player('Player 2', 2, '#e59a13')];
+    returns players;
+```
+
+I'm really pleased with my attempts today.  Every time I'm faced with a new task, impostor syndrome and self doubt overwhelm me and each new thing I am asked to do can seem like a mountain to climb.
+
+But with determination and just a tiny amount of faith, I can at least make a stab at it and start writing code for myself.  And if it's not 100% right.  That's okay. You just iterate  (that is start working again and researching until it's right.
+}
+
+
+**Creator methods**  - a way to routinely create several objects at once in a way that is organised and neat  - not formal JS syntax
+
+When **"calling"** methods on a constructor method property you're getting the return value of that method.
+
+
+
 Friday 14th October
 
 

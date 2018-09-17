@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 5 of 100.   **Last Update:**  14th September 2018
+### **Status:** Day 6 of 100.   **Last Update:**  17th September 2018
 
 ___
 **Directories**  log | four_in_a_row | work
@@ -12,6 +12,21 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+
+### **Day 6**: Monday September 17th 2018
+
++ **Learning Goals:** Continuing with OOP designs. Finish constructor methods, and start rendering the game with DOM interaction.
++ **Progress:**
+  + A little bit of DOM interaction finally up at last.
+  + The classes and their constructor methods are now ready. Foundations of the game are complete. Still a long way to go.
+  
++ **Thoughts:** 
+  + I'm really pleased with my attempts today.
+  + Every time I'm faced with a new task, impostor syndrome and self doubt overwhelm me and each new thing I am asked to do can seem like a mountain to climb.
+  + But I enjoyed being able to make some good attempts And if they were not 100% right.  That's okay. You just iterate  (that is start working again) and researching until it's right.
++ **Link to Work:** [Four in a row ](https://www.jonniegrieve.co.uk/projects/four_in_a_row/index.html)
+
 ### **Day 5**: Friday September 14th 2018
 
 + **Learning Goals:** Continue with the 4 in a row project.

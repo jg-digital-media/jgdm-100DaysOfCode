@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 6 of 100.   **Last Update:**  17th September 2018
+### **Status:** Day 7 of 100.   **Last Update:**  18th September 2018
 
 ___
 **Directories**  log | four_in_a_row | work
@@ -13,6 +13,15 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
+### **Day 7**: Tuesday September 18th 2018
+
++ **Learning Goals:** Learn about Render methods in JavaScript applications i.e. that is how to display SVG elements to the browser
++ **Progress:** Implement some render methods to get more elements seen on the screen.  This ended up in a slight impasse. No errors to report but not seeing any new elements yet in the browser window.  Investigatin this.  :)
++ **Thoughts:** 
+  + Today has been about attempting to get some svg elements showing on the screen using DOM scripting.  
+  + I made what I think was a good attempt in code to get this working on my own but since no difference has been made on screen I'm not sure if I've accomplished it.
+  + Will need more work, But it's good I've been able to write code that hasn't really required wholesale refactoring.
++ **Link to Work:** [Project](url) 
 
 ### **Day 6**: Monday September 17th 2018
 

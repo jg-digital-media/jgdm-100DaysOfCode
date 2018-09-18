@@ -25,6 +25,7 @@ class Token {
         token.setAttribute("id", this.id);
         token.setAttribute("class", "token");
         token.style.backgroundColor = this.owner.color;
+        token.style.display = "block";
     }
 
     get htmlToken() {

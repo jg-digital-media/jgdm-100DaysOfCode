@@ -29,6 +29,7 @@ class Token {
     }
 
     get htmlToken() {
+        token = document.getElementById(this.id);
         return token;
     }
 }

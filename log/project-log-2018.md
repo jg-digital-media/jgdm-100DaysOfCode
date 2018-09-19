@@ -21,7 +21,7 @@ I won't last 100 straight days this time either, although I intend to complete 1
   + Today has been about attempting to get some svg elements showing on the screen using DOM scripting.  
   + I made what I think was a good attempt in code to get this working on my own but since no difference has been made on screen I'm not sure if I've accomplished it.
   + Will need more work, But it's good I've been able to write code that hasn't really required wholesale refactoring.
-+ **Link to Work:** [Project](url) 
++ **Link to Work:** [Four in a row](https://www.jonniegrieve.co.uk/projects/four_in_a_row/index.html)
 
 ### **Day 6**: Monday September 17th 2018
 
@@ -34,7 +34,7 @@ I won't last 100 straight days this time either, although I intend to complete 1
   + I'm really pleased with my attempts today.
   + Every time I'm faced with a new task, impostor syndrome and self doubt overwhelm me and each new thing I am asked to do can seem like a mountain to climb.
   + But I enjoyed being able to make some good attempts And if they were not 100% right.  That's okay. You just iterate  (that is start working again) and researching until it's right.
-+ **Link to Work:** [Four in a row ](https://www.jonniegrieve.co.uk/projects/four_in_a_row/index.html)
++ **Link to Work:** [Four in a row](https://www.jonniegrieve.co.uk/projects/four_in_a_row/index.html)
 
 ### **Day 5**: Friday September 14th 2018
 

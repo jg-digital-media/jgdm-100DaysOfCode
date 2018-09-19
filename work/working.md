@@ -1,5 +1,21 @@
 # Thought Diary - Workings Out
 
+## Day 8
+
+  ```javascript
+
+    Uncaught TypeError: this.activePlayer.activeToken.drawHTMLToken is not a function
+    at Game.startGame (Game.js:39)
+    at HTMLButtonElement.<anonymous> (app.js:13)
+    
+```
+filter(returns new array of all elements that pass a condition)
+
+map()  as above but only the first element is returned
+
+
+
+
 ## **JavaScript Object Literals**
 
 ### JavaScript Objects Practice 1

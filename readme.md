@@ -11,6 +11,8 @@ Hopefully this will represent a new start and will help me engage more with the 
 
 Okay.  This commit (7th September 2018) contains a new structure for this repository.  You'll find all my blogs are now located in the blog directory.  This latest 100DaysOfCode effort is now logged in **project-log-2017.md**.  I've kept the other in **project-log-2018**.
 
+If you notice **working.md** in this repository, just think of this as a kind of "notebook" for while I'm working through this round of 100DaysofCode.
+
 You'll find a **four_in_a_row** directory as well. This is my first project focus for 100DaysOfCode.
 
 In **project_log_2018** I'll be sure to my learning goals for the day, my progress in that time, any thoughts that I have and links to deliverable/projects if there are any.  I'll try not to bore you all with essays on all of these, keep it short and sweet. Hopefully you'll see evidence of personal growth and love of coding in this repository.

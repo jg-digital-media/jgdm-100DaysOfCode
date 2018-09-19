@@ -1,14 +1,13 @@
 class Game {
 
-    constructor(board, players, ready) {
+    constructor() {
         this.board =  new Board();
         this.players = this.createPlayers();
         this.ready = false;
-
     }
 
-      /**
-     * Creates two player objects
+    /**
+     * Returns active player
      * @return { Object }    Player - the Active player
      */
     get activePlayer() {
@@ -20,15 +19,21 @@ class Game {
      * Creates two player objects
      * @return  {Array}    An array of two Player objects.
      */
-    createPlayers(){
+    /* createPlayers(){
 
         //array of objects - initialised as empty array.
         let player = []
 
-        let playerOne = new Player("Player 1","#e15258", 1, true);
-        let playerTwo = new Player("Player 2","#e59a13", 2);
+        let playerOne = new Player("Player 1", 1, "#e15258", true);
+        let playerTwo = new Player("Player 2", 2, "#e59a13");
         player.push(playerOne, playerTwo)
         return player;
+    } */
+
+    createPlayers() {
+        const players = [new Player('Player 1', 1, '#e15258', true),
+                         new Player('Player 2', 2, '#e59a13')];
+        return players;
     }
 
     /*

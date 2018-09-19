@@ -1,10 +1,16 @@
 class Token {
-    constructor(owner, index) {
+    constructor(index, owner) {
         this.owner = owner;
         this.id = `token-${index}-${owner.id}`;
         this.dropped = false;
         
+    }    
+
+    get htmlToken() {
+        return document.getElementById(this.id);
+        //return token;
     }
+
 
     /*
     drawHTMLToken() {
@@ -26,10 +32,5 @@ class Token {
         token.setAttribute("class", "token");
         token.style.backgroundColor = this.owner.color;
         token.style.display = "block";
-    }
-
-    get htmlToken() {
-        token = document.getElementById(this.id);
-        return token;
     }
 }

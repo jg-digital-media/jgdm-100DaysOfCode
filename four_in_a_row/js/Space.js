@@ -8,6 +8,9 @@ class Space {
         this.radius = this.diameter / 2;  //33.5
     }
 
+    /**
+     * Draws SVG Space
+     */
     drawSVGSpace() {
 
         const svgSpace = document.createElementNS("http://www.w3.org/2000/svg", "circle");

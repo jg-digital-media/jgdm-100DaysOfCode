@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 7 of 100.   **Last Update:**  18th September 2018
+### **Status:** Day 8 of 100.   **Last Update:**  19th September 2018
 
 ___
 **Directories**  log | four_in_a_row | work
@@ -12,6 +12,22 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+
+### **Day 8**: Wednesday September 19th 2018
+
++ **Learning Goals:** Get the initial game state working and showing on the screen.
+
++ **Progress:**
+  + Almost there but it's been a grueling day, today.
+  + I spent a lot of time in the last day or 2, wondering why the SVG elements weren't actually appearing on the screen. only been slowly dawning on me that the methods needed to be called.
+  + Have to get passed a TypeError on Start button click. Will post my progress in tomorrows entry. 
+ 
++ **Thoughts:** 
+  + One thing that holds me back - i tend to do things "backwards", that is get methods and references to methods mixed up led me up the garden path for a wh
+  + Thoughts on ```filter()``` and ```map()``` methods - ```filter()```returns new array of all elements that pass a condition). ```map()```  as above but only the first element is returned
++ **Link to Work:** [Project URL](https://projects.jonniegrieve.co.uk/four_in_a_row/) 
+
 
 ### **Day 7**: Tuesday September 18th 2018
 

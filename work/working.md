@@ -4,54 +4,52 @@
 
 ### Code Review  OOP JavaScriot
 
-intantiate- new instance of an object.   Game Object
+**Instantiate**- new instance of an object.   Game Object
 game = new Game();
 
-Constructors
+**Constructors**
 
+```javascript
   constructor(name, id, color, active=false) {
      this.name = name;
      this.id = id;
      this.color = color;
      this.active = active;
   }
+```
 
-constructor keyword - properties that are assigned a value do not need to be included as parameters of that constructor.
+**constructor keyword** - properties that are assigned a value do not need to be included as parameters of that constructor.
 
-----> Call a method from the same Class constructor
++ Call a method from the same Class constructor
      this.tokens = this.methods();
 
-----> Call a method on a class.
++ Call a method on a class.
 
+```javascript
 classVariable.method();
 game.startGame();
+```
 
+**Getter methods**
 
-Getter methods
-
-Getter methods in general, perform some logic, and then return a value - allowing the programmer to create an object property with a dynamic value.
+Getter methods, in general, perform some logic and then return a value - allowing the programmer to create an object property with a dynamic value.
 
 A special method that you use when you want to have a dynamic or computed value.
 
-get keyword + name of the property
+```get``` keyword + name of the property
 
-e.g. 
+```javascript
+//e.g. 
 get unusedTokens() {
     return this.tokens.filter(token => !token.dropped)
 }
-
+```
 
 Getters and setters are functions or methods used to get and set the values of variables.
 
-
 const getHour = today.getHours();
 
-
-
-
-
-
-------> Setter methods
+**Setter methods**
 
 Add logic in addition to setting property values via setter methods.
 
@@ -59,14 +57,11 @@ receives a value and performs logic on it.
 
 They always take one parameter.  The name of a property cannot be the same as the  name of the method.  needs to be a "backing" property.
 
-
-Ways to keep code organised into groups of methods that accompish similar tasks.
+**Ways to keep code** organised into groups of methods that accompish similar tasks.
 
 "render" methods
 
 "Creator methods"
-
-
 
 ## Day 8
 

@@ -13,6 +13,25 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
+### **Day 9**: Friday September 20th 2018
+
++ **Learning Goals:**
+  + Review code so far
+  + Start handling keyboard events
++ **Progress:**
+  + I spent the first part of my time reviewing the code that I've written so far.  Added to Day 9 in working.md file
+
+  + As ready as I'll ever be to understanding the code and being ready to move on.
+
+  + Next, write the methods that actually makes the tokens move along the board.
+  
++ **Thoughts:** 
+  + As ready as I'll ever be to understanding the code and being ready to move on.
+
+  + So immersed in the project so I feel like I'm learning a lot more than I'm maybe realising.
+
++ **Link to Work:** [Project URL](https://projects.jonniegrieve.co.uk/four_in_a_row/) 
+  
 
 ### **Day 8**: Wednesday September 19th 2018
 

@@ -18,7 +18,7 @@ class Player {
 
         for(let i=0; i < num; i++) {
             let token = new Token(i, this)
-            tokens.push(num);
+            tokens.push(token);
         }
         
         return tokens;

@@ -46,6 +46,27 @@ class Game {
 
     }
 
+    /**
+     * Branches code, depending on what key player presses
+     * @param   {Object}    e - Keydown event object
+     */
+    handleKeydown(e) {  
+        if(this.ready === true /*this.ready*/) {
+            if(e.key === "ArrowLeft") {
+                //moves the token to the left 1 place on the board
+
+
+            } else if(e.key === "ArrowRight")  {
+                //moves the token to the right 1 place on the board
+
+            } else if(e.key === "ArrowDown") {
+                //Drops a token down the current column on the board
+
+            }
+        } 
+        
+    }
+
     
 
   

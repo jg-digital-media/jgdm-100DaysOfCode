@@ -1,8 +1,12 @@
 # Thought Diary - Workings Out
 
+## Day 10
+
+
+
 ## Day 9
 
-### Code Review  OOP JavaScriot
+### Code Review  OOP JavaScript
 
 **Instantiate**- new instance of an object.   Game Object
 game = new Game();
@@ -57,7 +61,7 @@ receives a value and performs logic on it.
 
 They always take one parameter.  The name of a property cannot be the same as the  name of the method.  needs to be a "backing" property.
 
-**Ways to keep code** organised into groups of methods that accompish similar tasks.
+**Ways to keep code** organised into groups of methods that accomplish similar tasks.
 
 "render" methods
 

@@ -13,6 +13,13 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
+### **Day 10**: Friday September 21st 2018
+
++ **Learning Goals:** Continue development of the four in a row game.
++ **Progress:** Left and Right arrow button press moves the tokens along the board.
++ **Thoughts:** One of those days where I've progressed with the code but not really sure about what I've learned.  This happens when the code expands and I have more to wrap my head around.  But at least the development itself has not stalled.  Pacing myself.
++ **Link to Work:** [Project URL](https://projects.jonniegrieve.co.uk/four_in_a_row/) 
+
 ### **Day 9**: Friday September 20th 2018
 
 + **Learning Goals:**

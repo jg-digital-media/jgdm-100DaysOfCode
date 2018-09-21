@@ -54,13 +54,17 @@ class Game {
         if(this.ready === true /*this.ready*/) {
             if(e.key === "ArrowLeft") {
                 //moves the token to the left 1 place on the board
-
+                //this.token.id.moveLeft();
+                this.activePlayer.activeToken.moveLeft();
 
             } else if(e.key === "ArrowRight")  {
                 //moves the token to the right 1 place on the board
-
+                //this.token.id.moveRight(7);
+                this.activePlayer.activeToken.moveRight(this.board.columns);
+   
             } else if(e.key === "ArrowDown") {
                 //Drops a token down the current column on the board
+                //this.activePlayer.activeToken.drop(this.activeToken, reset );
 
             }
         } 

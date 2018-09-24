@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 10 of 100.   **Last Update:**  21st September 2018
+### **Status:** Day 11 of 100.   **Last Update:**  24th September 2018
 
 ___
 **Directories**  log | four_in_a_row | work
@@ -12,6 +12,23 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+
+### **Day 11**: Monday September 24th 2018
+
++ **Learning Goals:** "Four in a Row" JavaScript Game
++ **Progress:** Almost finished with the game but really struggling with confidence today.  Thoughts below.
++ **Thoughts:** 
+  + Feel like I've taken the project as far as I can. The development of new code and methods is over.  Now it's about debugging which I'll try and tackle for tomorrows goal.
+
+  + Showing my ignorance here I think as I struggled comprehending the requirements of the questions/challenges.  I barely coped but managed to write code before moving on to each challenge.
+
+  + Basically, I can organise my OOP code but game logic is the issue.
+
+  + One key takeaway from the day.  "Store as much as you can in variables. - makes code more succint and easier to read."
+
++ **Link to Work:** [Project URL](https://projects.jonniegrieve.co.uk/four_in_a_row/) 
+
 
 ### **Day 10**: Friday September 21st 2018
 

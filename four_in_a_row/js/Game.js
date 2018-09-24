@@ -65,13 +65,71 @@ class Game {
             } else if(e.key === "ArrowDown") {
                 //Drops a token down the current column on the board
                 //this.activePlayer.activeToken.drop(this.activeToken, reset );
-
+                //this.activePlayer.activeToken.drop();
+                this.playToken();
             }
         } 
-        
     }
+        /**
+         * Finds space object to drop tokens into, drops token
+         */
+        playToken() {
+            let spaces = this.board.spaces;
+            let activeToken = this.activePlayer.activeToken;
+            let targetColumn = spaces[activeToken.columnLocation];
+            let targetSpace = null;
 
+            for (let space of targetColumn) {
+                if(space.token === null) {
+                    targetSpace = space;
+                }
+            }
+
+            if (targetSpace !== null) {
+                game.ready  = false;
+                activeToken.drop(targetSpace, function() {
+                    game.updateGameState(activeToken, targetSpace);  
+                });
+            }
+
+        }
+        
+        /** 
+         * Switches active player. 
+         */
+        switchPlayers(){
+            for(this.players of players) {
+                if(player.active == false) {
+                    player.active = true;
+                } else {
+                    player.active = false;
+                }
+            }
+        }
+
+        gameOver(message) {
+           document.getElementById('game-over').style.dislay = "block";
+           document.getElementById('game-over').textContent = message;
+            
+        }
+
+        updateGameState(token, target) {
+            target.mark(token);
+
+            if(!this.checkForWin(target)) {
+                this.switchPlayers();
+
+                if (this.activePlayer.checkTokens()) {
+                    this.activePlayer.activeToken.drawHTMLToken();
+                    this.ready = true;
+                } else { 
+                    this.gameOver('No more tokens');
+                }
+            } else {
+                this.gameOver(`${target.owner.name} wins!!`);
+            }
+        }
+        
     
-
   
 }

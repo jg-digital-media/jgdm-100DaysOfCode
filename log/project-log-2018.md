@@ -75,7 +75,7 @@ I won't last 100 straight days this time either, although I intend to complete 1
 ### **Day 7**: Tuesday September 18th 2018
 
 + **Learning Goals:** Learn about Render methods in JavaScript applications i.e. that is how to display SVG elements to the browser
-+ **Progress:** Implement some render methods to get more elements seen on the screen.  This ended up in a slight impasse. No errors to report but not seeing any new elements yet in the browser window.  Investigatin this.  :)
++ **Progress:** Implement some render methods to get more elements seen on the screen.  This ended up in a slight impasse. No errors to report but not seeing any new elements yet in the browser window.  g this.  :)
 + **Thoughts:** 
   + Today has been about attempting to get some svg elements showing on the screen using DOM scripting.  
   + I made what I think was a good attempt in code to get this working on my own but since no difference has been made on screen I'm not sure if I've accomplished it.
@@ -158,7 +158,7 @@ I won't last 100 straight days this time either, although I intend to complete 1
 + **Progress:** Good working session with some refreshers on adding different types of properties on an object and how to call them.
 + **Thoughts:** 
   + There's always more than one way to work out a programming problem but the key takeaway here is that the easiest way isn't always the best way.
-  + One of the reasons I think I struggle so much is because I can overcomplicate things in my mind.
+  + One of the reasons I think I struggle so much is because I can over-complicate things in my mind.
   + It is okay and even recommended to rely on documentation when you needed. You don't need to work it all out yourself.
 
 + **Link to Work:** [Working Log](https://github.com/jg-digital-media/jgdm-100DaysOfCode/blob/master/work/working.md) 

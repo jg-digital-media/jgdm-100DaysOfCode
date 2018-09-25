@@ -8,7 +8,7 @@ class Token {
     }    
 
     get htmlToken() {
-        return document.getElementById(this.id);;
+        return document.getElementById(this.id);
         //return token;
     }
 
@@ -20,8 +20,6 @@ class Token {
         return this.htmlToken.offsetLeft;
 
     }
-
-
 
     /*
     drawHTMLToken() {
@@ -42,7 +40,7 @@ class Token {
         token.setAttribute("id", this.id);
         token.setAttribute("class", "token");
         token.style.backgroundColor = this.owner.color;
-        token.style.display = "block";
+        //token.style.display = "block";
     }
 
     /** 

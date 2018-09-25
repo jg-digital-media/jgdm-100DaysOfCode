@@ -1,7 +1,12 @@
 # Thought Diary - Workings Out
 
-## Day 10
 
+
+## Day 12
+
+Four in a Row, is ready!!  #100DaysofCode https://projects.jonniegrieve.co.uk/four_in_a_row/) 
+
+Bit of a change of pace today. Continuing to go through the challenges on FreeCodeCamp so I can get onnto the JavaScript stages as quickly as I can. 112 Code challgnes chalked off. #100daysofcode
 
 
 ## Day 9

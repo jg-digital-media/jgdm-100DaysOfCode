@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 11 of 100.   **Last Update:**  24th September 2018
+### **Status:** Day 12 of 100.   **Last Update:**  25th September 2018
 
 ___
 **Directories**  log | four_in_a_row | work
@@ -12,6 +12,18 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 12**: Tuesday September 25th 2018
+
++ **Learning Goals:** 
+  + Change of pace today. Most of my day spent motoring through the FreeCodeCamp.
++ **Progress:**  
+  + Also finished the main part of the "Four in a Row" Game.  2 players game (same machine for now)
+  + Added some custom game messages to instruct on game play.  More to come.   
++ **Thoughts:** 
+  + In general, I'm glad of the time I spent on this project.  I think it was very good experience but I do need to spend more time immersing myself in problem solving and OOP JS Projects.  I loved the self directed study aspect of the course I was taking.
++ **Link to Work:** [Project URL](https://projects.jonniegrieve.co.uk/four_in_a_row/) 
+
 
 
 ### **Day 11**: Monday September 24th 2018

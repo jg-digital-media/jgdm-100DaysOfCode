@@ -1,9 +1,9 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 12 of 100.   **Last Update:**  25th September 2018
+### **Status:** Day 13 of 100.   **Last Update:**  26th September 2018
 
 ___
-**Directories**  log | four_in_a_row | work
+**Directories**  log | four_in_a_row | python | react - work
 ___
 ## *Introduction*
 
@@ -12,6 +12,29 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 13**: Wednesday September 26th 2018
+
++ **Learning Goals:** 
+  + Practice making a simple Python Script.   
+  + Learn some Web Accessibility Skills.  
+  + Reintroduce myself to React.js
++ **Progress:**
+  + Added python and react subdirectories to repository
+  + Created a new program in python.
+  + Notes written about how to create an element in React.  
+
++ **Thoughts:** 
+  + Practicing making a simple program in Python. A "MadLibs" Word Game.  I ended up making 2 as I tried dividing the program into functions and ran into all sorts of errors relating to variable scope.
+  
+  + As with any program that takes input, it does mean errors need to be checked for and handled so can look into doing that too. But for now I simply wrote a copy of the program that doesn't use functions as the script was so small, it didn't really need them anyway. 
+  
+  + React started out as a library for building interfaces in the browser create a react element. -use the createElement() function
+
+  + "React changes frequently"
+  
++ **Link to Work:** [React Scoreboard](https://projects.jonniegrieve.co.uk/react-scoreboard/) 
+
 
 ### **Day 12**: Tuesday September 25th 2018
 

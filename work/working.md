@@ -1,6 +1,56 @@
 # Thought Diary - Workings Out
 
 
+## Day 13
+
+Practicing making a simple program in Python. A "MadLibs" Word Game.  I ended up making 2 as I tried dividing the program into functions and ran into all sorts of errors relating to variable scope.
+
+As with any program that takes input, it does mean errors need to be checked for and handled so can look into doing that too. But for now I simply wrote a copy of the program that doesn't use functions as the script was so small, it didn't really need them anyway. 
+
+Madl
+
+### React
+
+use Create React App  requires npm 5.2
+
+or CDN Links 
+
+```html
+<body>
+    
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="./app.js"></script>
+  </body>
+```
+
+```crossorigin``` attribute  - for requesting CORS access to content
+
+uses *react* and *react DOM* libraries
+
+React started out as a library for building interfaces in the browser
+create a react element.  -use the createElement() fuunction
+
+```javascript
+
+const title = React.createElement
+    //3 arguments
+    'h1',
+    { id: 'main-title', title: 'This is a title.' },
+    //Can pass in null
+    'My First React Element!'
+    //not a DOM node  - an object representation of a DOM node.
+```
+
+using createElement();
+
+type, [props], [...children]
+
+"Create and return a new React element of the given type. The type argument can be either a tag name string (such as 'div' or 'span'), a React component type (a class or a function), or a React fragment type.
+
+Code written with JSX will be converted to use React.createElement(). You will not typically invoke React.createElement() directly if you are using JSX. See React Without JSX to learn more."
+
+
 
 ## Day 12
 

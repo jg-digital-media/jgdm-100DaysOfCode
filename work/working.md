@@ -1,5 +1,49 @@
 # Thought Diary - Workings Out
 
+## Day 14
+
+Understand how to create a React Element and Render to the DOM   
+
+Refresh and understand how to write in JSX
+
+```javascript
+//Write JSX to store text content that will be passed to the header element
+const desc = 'I just learned how to create a react node and Render it into the DOM';
+const myTitleID = 'main-title';
+const name = "Jonnie";
+
+//header method - references values variables storing JSX
+const header = (
+    <header>
+        <h1 id={ myTitleID }>{ name }'s First React Element</h1>
+        <p> { desc } </p>
+        <input value={ 10 * 20 } />
+    </header>
+);
+
+//console.log(title);  //inspect newly defined React Element
+
+//render header component to the DOM
+ReactDOM.render(
+    header,
+    document.getElementById('root')
+)
+```
+
+Example of simple call to CreateElement on React API and its argument.
+
+```javascript
+
+const title = React.createElement(
+    //3 arguments
+    'h1',
+    { id: 'main-title', title: 'This is a title.' },
+    //Can pass in null
+    'My First React Element!'
+    //not a DOM node  - an object representation of a DOM node.
+)
+
+```
 
 ## Day 13
 

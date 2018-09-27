@@ -13,6 +13,19 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
+### **Day 14**: Thursday September 27th 2018
+
++ **Learning Goals:** To refresh and learn now to create React elements and Render them with JSX.  How to compile JSX with Babel
++ **Progress:**
+  + Understand how to create a React Element and Render to the DOM   
+  + Refresh and understand how to write in JSX.  In working Log.
++ **Thoughts:** 
+  + A lot to think about but I think I'm confident on the absolute basics of React.
+  + It's easy on myself to do this as I'm currently compiling via a CDN.  I probably need more practice actually using build tools like Babel.
+  + Despite the above, this is just about getting to grips with using the React Library which today, I think has gone well.
++ **Link to Work:** [React Scoreboard](https://projects.jonniegrieve.co.uk/react-scoreboard/)
+
+
 ### **Day 13**: Wednesday September 26th 2018
 
 + **Learning Goals:** 

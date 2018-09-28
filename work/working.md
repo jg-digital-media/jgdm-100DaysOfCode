@@ -1,5 +1,38 @@
 # Thought Diary - Workings Out
 
+## Day 15
+
+```javascript
+
+/**
+ *  React Component: Basic Syntax
+ *  @returns JSX 
+ */
+
+function Header(){
+    return(
+        <header>
+            <h1>Scoreboard</h1>
+            <span className="stats">Player 1: </span>
+        </header>
+    );    
+}
+
+/**
+ *  React Component: Arrow Function Syntax
+ *  @returns JSX 
+ */
+
+const Header = () => {
+    return (
+        <header>
+            <h1>Scoreboard</h1>
+            <span className="stats">Player 1: </span>
+        </header>
+    );    
+}
+```
+
 ## Day 14
 
 Understand how to create a React Element and Render to the DOM   

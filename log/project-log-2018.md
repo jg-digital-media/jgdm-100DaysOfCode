@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 13 of 100.   **Last Update:**  26th September 2018
+### **Status:** Day 15 of 100.   **Last Update:**  28th September 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react - work
@@ -12,6 +12,17 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 15**: Friday September 28th 2018
+
++ **Learning Goals:**Learn Syntax of React components with basic function and arrow function expression syntax
++ **Progress:**
+  + Code snippet examples for both sets of syntax.
++ **Thoughts:** 
+  + remembering not to use the function keyword if using arrow function expression syntax. Instead simply store as a variable.
++ **Link to Work:** [React Scoreboard](https://projects.jonniegrieve.co.uk/react-scoreboard/)
+
+
 
 ### **Day 14**: Thursday September 27th 2018
 

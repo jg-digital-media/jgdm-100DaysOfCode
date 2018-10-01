@@ -1,5 +1,33 @@
 # Thought Diary - Workings Out
 
+## Day 16
+
+```javascript
+//React component
+
+function Header(){
+    return (
+         <header>
+             <h1>Scoreboard</h1>
+             <span className="stats">Player 1: </span>
+         </header>
+    );
+}
+
+//Render React Component
+ReactDOM.render(
+    <Header />,
+    document.getElementById('root');
+)
+
+
+ReactDOM.render(
+     
+)
+
+```
+
+
 ## Day 15
 
 ```javascript

@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 16 of 100.   **Last Update:**  1st October 2018
+### **Status:** Day 17 of 100.   **Last Update:**  2nd October 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react - work
@@ -12,6 +12,17 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 17**: Tuesday October 2nd 2018
+
++ **Learning Goals:** React Components and how to work with props
++ **Progress:** Edited my code to reuse components with dynamic and unique data to make the scoreboard app look more like a scoreboard :)
++ **Thoughts:** Key takeaways include:
+  + left the code using a function expression as my value to totalPlayers prop rather than an integer as I think this is a better example. ``` <Header heading="Scoreboard" totalPlayers={ n => n+1 } />```
+
+  + can omit value of a prop when explicitly true.  e.g. ``isFun``` rather than ```isFun=true ```
+
++ **Link to Work:** [React Scoreboard](https://projects.jonniegrieve.co.uk/react-scoreboard/) 
 
 
 ### **Day 16**: Monday October 1st 2018

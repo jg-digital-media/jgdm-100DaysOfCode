@@ -1,5 +1,49 @@
 # Thought Diary - Workings Out
 
+## Day 17
+Using React and JSX  - Summarising what I've learned so far.
+
+### Define a component by assigning an anyonymous function to a variable.
+
+```javascript
+const Head = () => {
+    return (
+        
+    )
+
+}
+```
+
+### Use JSX Syntax to define a representation of DOM elements
+
+```javascript
+const Head = () => {
+    return (
+        <header>
+            <h1></h1>
+            <span></span> 
+    )
+
+}
+```
+
+### Define props and pass to a component.  Use curlybraces to pass numbers or non strings
+
+<Header heading="Scoreboard" totalPlayers={ 2 } /> /*Define props in a component*/
+
+```javascript
+const Head = () => {
+    return (
+        <header>
+            <h1> { props.heading } </h1>
+            <span> { props.totalPlayers } </span> 
+    )
+
+}
+```
+
+```totalPlayers={n => n + 1}     props.totalPlayers(0)  //displays 1 to screen```
+
 ## Day 16
 
 ```javascript

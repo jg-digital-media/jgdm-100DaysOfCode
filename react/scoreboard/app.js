@@ -5,11 +5,31 @@
  *  @returns JSX 
  */
 
+ const players = [
+    {
+        playerName: "Guil",
+        score: 50
+    },
+    {
+        playerName: "Treasure",
+        score: 85
+    },
+    {
+        playerName: "Ashley",
+        score: 95
+    },
+    {
+        playerName: "James",
+        score: 80
+    }
+
+ ];
+
  const Header = (props) => {
     return(
         <header>
             <h1>{ props.heading }</h1>
-            <span className="stats">Players: { props.totalPlayers(0) } </span>
+            <span className="stats">Players: { props.totalPlayers } </span>
         </header>
     );    
 }
@@ -37,17 +57,21 @@ const Counter = (props) => {
     
 }
 
-const App = () => {
+const App = (props) => {
     return (
         <div className="scoreboard">
-            <Header heading="Scoreboard" totalPlayers={ n => n+1 } />
+            <Header 
+            heading="Scoreboard" 
+            totalPlayers={ props.initialPlayers.length} 
+            />
 
             { /*Players list*/ }
+            {props.initialPlayers.map( player =>
+                <Player 
+                playerName={ player.playerName } 
+                score={ player.score } /> 
+            ) }
             
-            <Player playerName="Jack" score={ 75 } />            
-            <Player playerName="Jill" score={ 20 } />            
-            <Player playerName="Guil" score={ 30 } />
-            <Player playerName="Jonnie" score={ 76 } />
         </div>
     );
 }
@@ -56,6 +80,6 @@ const App = () => {
 
 //render Header component to the DOM
 ReactDOM.render(
-    <App/>,
+    <App initialPlayers={ players } />,
     document.getElementById('root')
 )

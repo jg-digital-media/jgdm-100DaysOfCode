@@ -1,5 +1,33 @@
 # Thought Diary - Workings Out
 
+
+## Day 18
+
+iterate over data to produce a list of elements
+
+pass Players data as props to components
+
+
+add initalPlayers as a prop Render to the DOM
+<App initialPlayers={ players }/>,
+
+
+
+ { props.initialPlayers.map( player =>
+                <Player 
+                    name={ player.name }
+                    score={ player.score }    
+                />            
+            ) }
+
+pass props as a parameter
+
+
+map() - Map takes a callback function that receives and processes each item in the array, one by one, and returns a new array of the processed items. 
+
+
+
+
 ## Day 17
 Using React and JSX  - Summarising what I've learned so far.
 

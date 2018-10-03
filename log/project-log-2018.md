@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 17 of 100.   **Last Update:**  2nd October 2018
+### **Status:** Day 18 of 100.   **Last Update:**  3rd October 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react - work
@@ -12,6 +12,17 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 18**: Friday October 3rd 2018
+
++ **Learning Goals:** continue with React.js
++ **Progress:** I haven't had a lot of time today so I'm just doing as much with React today as I can but not too much progress made.
++ **Thoughts:** 
+  + iterate over data to produce a list of elements
+  + ```map() ``` - Map takes a callback function that receives and processes each item in the array, one by one, and returns a new array of the processed items.
+  + Struggled a bit getting the dynamic data to work. But with some persistance and a little reverse engineering I managed to get passed this on my own steam. Proving my understanding of props is improving.  
++ **Link to Work:** [React Scoreboard](https://projects.jonniegrieve.co.uk/react-scoreboard/) 
+
 
 ### **Day 17**: Tuesday October 2nd 2018
 

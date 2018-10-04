@@ -1,5 +1,71 @@
 # Thought Diary - Workings Out
 
+## Day 19
+
+### REACT.JS
+
+Key Props | Functional Component | Stateful Component
+
+```
+unique key props
+
+Error: 
+
+Warning: Each child in an array or iterator should have a unique "key" prop.
+
+Check the render method of `App`. See https://fb.me/react-warning-keys for more information.
+    in Player (created by App)
+    in App
+
+key: 1,   # a property and value of a standard JavaScript object
+
+ {props.initialPlayers.map( player =>
+                <Player 
+                playerName={ player.playerName } 
+                score={ player.score }
+                key={ player.key.toString() } /> 
+            ) }
+
+
+
+
+```
+
+functional component - arrow function format
+```javascript
+const Player = (props) => {
+    return(
+        <div className="player">
+            <span className="player-name">
+                { props.playerName }
+            </span>
+
+            <Counter score = {props.score} />
+        </div>
+    );
+}
+```
+
+stateful class component
+```javascript
+class Counter extends React.Component {  
+    
+    render () {
+        return (
+            <div className="counter">
+               <button className="counter-action decrement"> - </button>
+            <span className="counter-score"> { this.props.score }</span>
+               <button className="counter-action increment"> + </button>
+            </div>
+        );
+         
+    }
+    
+}
+```
+
+```
+```
 
 ## Day 18
 

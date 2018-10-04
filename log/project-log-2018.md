@@ -1,11 +1,11 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 18 of 100.   **Last Update:**  3rd October 2018
+### **Status:** Day 19 of 100.   **Last Update:**  4th October 2018
 
 ___
-**Directories**  log | four_in_a_row | python | react - work
+**Directories**  log | four_in_a_row | python | react | work
 ___
-## *Introduction*
+## **Introduction**
 
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
@@ -13,7 +13,26 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
-### **Day 18**: Friday October 3rd 2018
+### **Day 19**: Thursday October 4th 2018
+
++ **Learning Goals:**
+  + Recapped iterating on an array of objects in React with map();
+
+  + Get a handle on State in React.
+
+  + Start working on Application State
++ **Progress:**
+  + learned about the key prop in React for iterating sibling components.   It has to be a "key" for this to work and get rid of the console warning
+
+  + Also converted one of the components to a class component
++ **Thoughts:** 
+
+  + Good session today. I feel like I have a basic but good understanding of what state is, what a "Stateful" component is, how it relates to class components in React; when to use them as opposed to functional components.
+  + Examples of each, I've left in ```working.md``` for Day 19.
++ **Link to Work:** [React Scoreboard](https://projects.jonniegrieve.co.uk/react-scoreboard/) 
+
+
+### **Day 18**: Wednesday October 3rd 2018
 
 + **Learning Goals:** continue with React.js
 + **Progress:** I haven't had a lot of time today so I'm just doing as much with React today as I can but not too much progress made.

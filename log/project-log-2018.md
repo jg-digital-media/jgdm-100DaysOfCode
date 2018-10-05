@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 19 of 100.   **Last Update:**  4th October 2018
+### **Status:** Day 20 of 100.   **Last Update:**  5th October 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react | work
@@ -12,6 +12,19 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 20**: Friday October 5th 2018
+
++ **Learning Goals:** State management in React.
++ **Progress:**  Used state for the first time but looking forward to learning how this actually updates on the screen.
++ **Thoughts:** 
+  + Main takeaway from today is understanding how objects are passed into the ```setState()``` function and this is where code is added that changes the state.  Change state  --> ```render()``` method called.
+
+  + React does not change state directly, even inside of a method. 
+
+  + What's behind the error message when attaching an event to a method?   (Uncaught TypeError)
+
++ **Link to Work:** [React Scoreboard](https://projects.jonniegrieve.co.uk/react-scoreboard/) 
 
 ### **Day 19**: Thursday October 4th 2018
 

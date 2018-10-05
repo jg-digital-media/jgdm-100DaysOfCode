@@ -1,5 +1,51 @@
 # Thought Diary - Workings Out
 
+## Day 20
+
+State management in React  #1
+
++ define an initial state in a class
+
++ identify what aspects of a component will change.
+
++ State is an object - initialize state within a class inside the constructor method of a class component.
+
+```javascript
+constructor() {
+        super();
+        this.state = {
+            score: 0
+        };
+    }
+```
+
+Access a state property (rather than props)
+
+```javascript
+//access a state property
+this.state.score
+```
+
++ Second way to initialise state in a React component - "class property" Syntax
+
+```javascript
+state = {
+   score: 0;
+}
+```
+
++ create event handlers as methods of a class
+
+```javascript
+incrementScore() {
+
+}
+
+onClick="{ this.methodName }"
+}
+```
+
+
 ## Day 19
 
 ### REACT.JS
@@ -17,8 +63,9 @@ Check the render method of `App`. See https://fb.me/react-warning-keys for more 
     in Player (created by App)
     in App
 
-key: 1,   # a property and value of a standard JavaScript object
+key: 1, # a property and value of a standard JavaScript object
 
+```javascript
  {props.initialPlayers.map( player =>
                 <Player 
                 playerName={ player.playerName } 
@@ -26,7 +73,7 @@ key: 1,   # a property and value of a standard JavaScript object
                 key={ player.key.toString() } /> 
             ) }
 
-
+```
 
 
 ```

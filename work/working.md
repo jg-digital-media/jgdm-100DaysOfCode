@@ -1,5 +1,32 @@
 # Thought Diary - Workings Out
 
+## Day 21
+
+```
+Error: 
+app.js:63 Uncaught TypeError: Cannot read property.
+```
+
+call bind in render method 
+
+-> ```onClick={this.incrementScore.bind(this)}```
+
+-> lexical this binding   - arrow functions bound to the scope in which they are defined.  Arrow function directly in the onClick handler
+
+-> ```onClick={() => this.incrementScore()}```
+
+Define an event handler in React as an Arrow function 
+
+```javascript
+incrementScore = () => {
+    this.setState({
+        score: this.state.score+1
+    })
+}
+```
+
+```onClick={this.incrementScore }```
+
 ## Day 20
 
 State management in React  #1

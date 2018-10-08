@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 20 of 100.   **Last Update:**  5th October 2018
+### **Status:** Day 21 of 100.   **Last Update:**  8th October 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react | work
@@ -12,6 +12,16 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 21**: Monday October 8th 2018
+
++ **Learning Goals:** Learning about binding React event handlers to components so they actually work.
++ **Progress:** I didn't have a lot of time again today due to client work so I devoted my time to working out ways to bind event handlers in React to Components.  I think I'll have to spend a bit more time on this to sync in but I did get it to work.
++ **Thoughts:** 
++ **Link to Work:** [React Scoreboard](https://projects.jonniegrieve.co.uk/react-scoreboard/) 
+
+
+
 
 ### **Day 20**: Friday October 5th 2018
 

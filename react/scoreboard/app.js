@@ -5,30 +5,6 @@
  *  @returns JSX 
  */
 
- //Array of player Objects
- const players = [
-    {
-        playerName: "Guil",
-        score: 50,
-        key: 1
-    },
-    {
-        playerName: "Treasure",
-        score: 85,
-        key: 2
-    },
-    {
-        playerName: "Ashley",
-        score: 95,
-        key: 3
-    },
-    {
-        playerName: "James",
-        score: 80,
-        key: 4
-    }
-
- ];
 
  const Header = (props) => {
     return(
@@ -60,16 +36,18 @@ class Counter extends React.Component {
         };
     }
 
-    incrementScore = () =>{
-        this.setState({
-            score: this.state.score + 1,
-            });
+    incrementScore = () => {
+        this.setState(prevState => {
+            return {
+                score: prevState.score + 1,
+            }
+        });
     }
 
     decrementScore = () =>{
-        this.setState({
-            score: this.state.score - 1,
-        })
+        this.setState(prevState => ({
+                score: prevState.score - 1,
+        }));
         console.log("decrementScore() method has been clicked");
     }
     
@@ -86,29 +64,60 @@ class Counter extends React.Component {
     
 }
 
-const App = (props) => {
-    return (
-        <div className="scoreboard">
-            <Header 
-            heading="Scoreboard" 
-            totalPlayers={ props.initialPlayers.length} 
+class App extends React.Component {
+    state = {
+
+        //array of player objects
+        players: [
+        {
+            playerName: "Guil",
+            key: 1
+        },
+        {
+            playerName: "Treasure",
+            key: 2
+        },
+        {
+            playerName: "Ashley",
+            key: 3
+        },
+        {
+            playerName: "James",
+            key: 4
+        }
+
+       ]
+
+   };
+
+   render() {
+
+       return (
+       <div className="scoreboard">
+            <Header
+                heading="Scoreboard" 
+                totalPlayers={ this.state.players.length} 
             />
 
             { /*Players list*/ }
-            {props.initialPlayers.map( player =>
-                <Player 
-                playerName={ player.playerName } 
-                key={ player.key.toString() } /> 
-            ) }
-            
+            {   this.state.players.map( player =>
+                <Player
+                    playerName={ player.playerName } 
+                    key={ player.key.toString() } 
+
+                /> 
+                ) 
+            }
+                
         </div>
-    );
+        );
+    }
 }
 
 //console.log(title);  //inspect newly defined React Element
 
 //render Header component to the DOM
 ReactDOM.render(
-    <App initialPlayers={ players } />,
+    <App />,
     document.getElementById('root')
 )

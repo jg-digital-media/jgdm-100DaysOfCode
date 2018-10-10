@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 22 of 100.   **Last Update:**  9th October 2018
+### **Status:** Day 23 of 100.   **Last Update:**  10th October 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react | work
@@ -12,6 +12,21 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 23**: Wednesday October 10th 2018
+
+
++ **Learning Goals:** Continue learning with the basics of React.JS
++ **Progress:**  - Important Refresher on Application and Component State. Also recapped what I've learned so far in Day 23 entry of ```working.md```
++ **Thoughts:** 
+  + Most of my day was spent as before yesterday on a website for a client.  I then recapped my thoughts and code snippets for the basics of React. They're currently on Day 23 entry of ```working.md``` in this repository.
+
+  + Updated the scoreboard app to introduce the concept of Application State to the app.
+
+  + Learned how React updates state asyncronously by default for performance reasons.  Passing a callback function to setState() is the way to get around this.
+  
++ **Link to Work:** [React Scoreboard](https://projects.jonniegrieve.co.uk/react-scoreboard/) 
+
 
 ### **Day 22**: Tuesday October 9th 2018
 

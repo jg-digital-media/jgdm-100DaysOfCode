@@ -1,5 +1,7 @@
 # Thought Diary - Workings Out
 
+Repository URL: https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
 ## Day 21
 
 ```

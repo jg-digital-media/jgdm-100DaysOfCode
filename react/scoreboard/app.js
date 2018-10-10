@@ -5,6 +5,7 @@
  *  @returns JSX 
  */
 
+ //Array of player Objects
  const players = [
     {
         playerName: "Guil",

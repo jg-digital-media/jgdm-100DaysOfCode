@@ -15,10 +15,7 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 ### **Day 22**: Tuesday October 9th 2018
 
-+ **Learning Goals:**
-+ **Progress:**
-+ **Thoughts:** 
-+ **Link to Work:** [Project](url) 
+Worked completely on client work today with CSS, HTML and jQuery.
 
 
 ### **Day 21**: Monday October 8th 2018

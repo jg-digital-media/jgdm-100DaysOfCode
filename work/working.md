@@ -2,6 +2,109 @@
 
 Repository URL: https://github.com/jg-digital-media/jgdm-100DaysOfCode
 
+
+## Day 23
+
++ ```React.createElement();```  - Call Create Element on React Library.
+
++ ```ReactDOM.render();``` - Method that renders React Elements to the DOM
+
++ e.g React Functional Component
+
+```javascript
+function Header () {
+    return (
+        <header>
+            <h1>Scoreboard</h1>
+            <span className="stats">Players: 1</span>
+        </header>
+    );
+```
+
+```<Header />```  Exactly match the name of a function. Capitalised Tags refer to a React Component
+
+```javascript
+ReactDOM.render(
+  <Header />,
+  document.getElementById('root);
+)
+
+```
+
++ Arrow Function Component Syntax
+
+```javascript
+const Counter = () => {   
+
+    <div className="counter">
+        <button className="counter-action decrement"> - </button>
+        <span className="counter-score">35</span>
+        <button className="counter-action increment"> + </button>
+    </div>
+}
+```
+
++ Class Component Syntax: 
+
+```javascript
+class Counter extends React.Component {
+    constructor() {
+
+    }
+}
+```
+
++ Props
+  + component and element can receive a list of attributes called properties (or props). 
+
+  + Props are used to get data into a component.  (Pass data to a component).  They look like HTML attributes.
+  
+  + Define the props in the components JSX tag
+  ```<Header title="Scoreboard" totalPlayers={1}>```
+
+  + Enable the use of props in a component.
+  
+  ```javascript
+  const Header = (props) => {  
+      <header>
+        <h1>{ props.title }</h1>
+        <span className="totalPlayers">Players{ props.totalPlayers }</span>
+      </header>
+  }
+ ```
+
++ State
+  + in a Class Component.
+   
+  + use ```setState() method to handle state. pass code n.
+  
+  ```javascript
+      class Counter extends React.Component {  
+
+      constructor() {
+          super();
+          this.state = {
+              score: 0
+          };
+      }
+
+      incrementScore = () =>{
+          this.setState({
+              score: this.state.score + 1,
+              });
+      }
+
+      render(
+        return (
+            <div className="counter">
+               <button className="counter-action decrement" onClick={ this.decrementScore }> - </button>);
+            </div>
+      );
+    }
+  ```
+
+
+
 ## Day 21
 
 ```

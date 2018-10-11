@@ -1,7 +1,7 @@
 # README.ME  (READ THIS FIRST)
 
 ## 100 Days of Code Challenge.
-**Status:** Day 23 of 100. **Last Update:** 10th October 2018
+**Status:** Day 24 of 100. **Last Update:** 11th October 2018
 
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
@@ -9,7 +9,7 @@ I won't make 100 straight days this time either. And that's okay, I think. We're
 
 Hopefully this will represent a new start and will help me engage more with the tech community.
 
-Okay.  This commit (7th September 2018) contains a new structure for this repository.  You'll find all my blogs are now located in the blog directory.  This latest 100DaysOfCode effort is now logged in **project-log-2017.md**.  I've kept the other in **project-log-2018**.
+Okay. This commit (7th September 2018) contains a new structure for this repository.  You'll find all my blogs are now located in the blog directory.  This latest 100DaysOfCode effort is now logged in **project-log-2017.md**.  I've kept the other in **project-log-2018**.
 
 If you notice **working.md** in this repository, just think of this as a kind of "notebook" for while I'm working through this round of 100DaysofCode.
 

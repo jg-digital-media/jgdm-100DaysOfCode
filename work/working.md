@@ -1,6 +1,10 @@
-# Thought Diary - Workings Out
+# 100DaysOfCode - Coders Notes
 
-Repository URL: https://github.com/jg-digital-media/jgdm-100DaysOfCode
++ Repository URL: https://github.com/jg-digital-media/jgdm-100DaysOfCode
++ Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
+
+## Day 24
+
 
 
 ## Day 23

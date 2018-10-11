@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 23 of 100.   **Last Update:**  10th October 2018
+### **Status:** Day 24 of 100.   **Last Update:**  11th October 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react | work
@@ -12,6 +12,20 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 24**: Thursday October 7th 2018
+
++ **Learning Goals:**  React Basics - Scoreboard App.
++ **Progress:**  - Completed the App!! :-)  
++ **Thoughts:** 
+  + Had an issue where the players list wasn't being displayed. No player objects. Apparently, I didn't give the button remove component the proper callback function syntax which meant no props were being passed.
+
+  + Currently the app allows to add (manually), instances of player objects where each instance represents a player name and score.
+
+  + Time spent needed, I think to delve into the application props, state and the React Dev Tools to get more comfortable with these React concepts.
+  
++ Link to Work:** [React Scoreboard](https://projects.jonniegrieve.co.uk/react-scoreboard/) 
+
 
 ### **Day 23**: Wednesday October 10th 2018
 

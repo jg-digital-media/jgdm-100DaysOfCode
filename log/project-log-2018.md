@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 24 of 100.   **Last Update:**  11th October 2018
+### **Status:** Day 25 of 100.   **Last Update:**  12th October 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react | work

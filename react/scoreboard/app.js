@@ -32,24 +32,26 @@ const Player = (props) => {
 
 class Counter extends React.Component {  
 
-    constructor() {
-        super();
-        this.state = {
-            score: 0
-        };
-    }
+    
+    state = {
+        score: 0
+    };
+    
 
+    //as an arrow function
     incrementScore = () => {
         this.setState(prevState => {
             return {
                 score: prevState.score + 1,
             }
         });
+        console.log("incrementScore() method has been clicked");
     }
 
+    //concise arrow function syntax.
     decrementScore = () =>{
         this.setState(prevState => ({
-                score: prevState.score - 1,
+            score: prevState.score - 1,
         }));
         console.log("decrementScore() method has been clicked");
     }

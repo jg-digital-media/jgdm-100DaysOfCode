@@ -13,7 +13,13 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
-### **Day 24**: Thursday October 7th 2018
+### **Day 25**: Friday October 12th 2018
+
+Nothing new in terms of coding today. React Recap.  Everything from Stateless, Functional, Stateful Components.  Props and State.
+
+Also more work on Client website today which is nearly done. Will soon be ready to link to accept Cards via a Online Payment Gateway.  It's been a busy week.  :)
+
+### **Day 24**: Thursday October 11th 2018
 
 + **Learning Goals:**  React Basics - Scoreboard App.
 + **Progress:**  - Completed the App!! :-)  

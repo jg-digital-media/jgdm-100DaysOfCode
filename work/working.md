@@ -3,8 +3,85 @@
 + Repository URL: https://github.com/jg-digital-media/jgdm-100DaysOfCode
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 
-## Day 24
+## Day 25
 
++ Data is handled in React with Props and State
+
++ For any data that is going to changewe have to use State
+
++ State is what allows you to create components that are dynamic and interactive, and it's the only data that changes over time.
+
++ A Stateful Component has both props and State
+
++ State is only available to Class Components.
+
+```javascript
+class Component extends React.Component {
+
+    render() {
+
+        return (
+            JSX
+        );
+        
+    }
+}
+```
+
++ Class Components have a default Render() method
+
++ State is local to a Component
+
+
++ event handlers are functions that are called.   Specifically by inline Events
+
+
++ React needs to be told when State changes.
+
+```javascript
+
+incrementScore() {
+  this.setState({
+     score: this.state.score + 1;
+  })
+}
+
+
+onClick={ this.incrementScore.bind }
+```
+
+
++ Best to update state based on Previous State.
+
+
++ setState() accepts a callback function that produces state based on the previous state in a more reliable way
+
+
+```javascript
+//as an arrow function
+    incrementScore = () => {
+        this.setState(prevState => {
+            return {
+                score: prevState.score + 1,
+            }
+        });
+        console.log("incrementScore() method has been clicked");
+    }
+
+//concise arrow function syntax
+    decrementScore = () =>{
+        this.setState(prevState => ({
+                score: prevState.score - 1,
+        }));
+        console.log("decrementScore() method has been clicked");
+    }
+```
+
++ Application State
+
++ There are 2 types of State.  Component State and Application State.
+
++ Scope of state. Application is global state.
 
 
 ## Day 23
@@ -59,7 +136,7 @@ class Counter extends React.Component {
 ```
 
 + Props
-  + component and element can receive a list of attributes called properties (or props). 
+  + Components and elements can receive a list of attributes called properties (or props). 
 
   + Props are used to get data into a component.  (Pass data to a component).  They look like HTML attributes.
   
@@ -178,7 +255,7 @@ incrementScore() {
 }
 
 onClick="{ this.methodName }"
-}
+
 ```
 
 
@@ -188,20 +265,25 @@ onClick="{ this.methodName }"
 
 Key Props | Functional Component | Stateful Component
 
-```
+
 unique key props
 
 Error: 
 
 Warning: Each child in an array or iterator should have a unique "key" prop.
 
-Check the render method of `App`. See https://fb.me/react-warning-keys for more information.
+```
+Check the render method of ```App```. See https://fb.me/react-warning-keys for more information.
     in Player (created by App)
     in App
-
+```
 key: 1, # a property and value of a standard JavaScript object
 
+```
+
+
 ```javascript
+
  {props.initialPlayers.map( player =>
                 <Player 
                 playerName={ player.playerName } 
@@ -215,6 +297,7 @@ key: 1, # a property and value of a standard JavaScript object
 ```
 
 functional component - arrow function format
+
 ```javascript
 const Player = (props) => {
     return(
@@ -230,6 +313,7 @@ const Player = (props) => {
 ```
 
 stateful class component
+
 ```javascript
 class Counter extends React.Component {  
     
@@ -247,8 +331,6 @@ class Counter extends React.Component {
 }
 ```
 
-```
-```
 
 ## Day 18
 
@@ -280,7 +362,7 @@ map() - Map takes a callback function that receives and processes each item in t
 ## Day 17
 Using React and JSX  - Summarising what I've learned so far.
 
-### Define a component by assigning an anyonymous function to a variable.
+### Define a component by assigning an anonymous function to a variable.
 
 ```javascript
 const Head = () => {
@@ -304,9 +386,9 @@ const Head = () => {
 }
 ```
 
-### Define props and pass to a component.  Use curlybraces to pass numbers or non strings
+### Define props and pass to a component.  Use curly braces to pass numbers or non strings
 
-<Header heading="Scoreboard" totalPlayers={ 2 } /> /*Define props in a component*/
+``` <Header heading="Scoreboard" totalPlayers={ 2 } /> /*Define props in a component*/ ```
 
 ```javascript
 const Head = () => {

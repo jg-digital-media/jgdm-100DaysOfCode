@@ -3,6 +3,15 @@
 + Repository URL: https://github.com/jg-digital-media/jgdm-100DaysOfCode
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 
+## Day 26
+
+Well, I thought I've made a bit of a mess of trying to add my Create React App project to the repo. Something I probably shouldn't have done anyway but I have untracked files in my Git project folder despite the fact everything seems to be included in the repository. And I can't clear them, even after untracking all the files from the root and adding them to the stage again.
+
+Then I simply closed VS Code and restarted. All gone.
+
+.gitignore is still in place on my node_modules folder.  Rookie mistakes  :)
+
+
 ## Day 25
 
 + Data is handled in React with Props and State

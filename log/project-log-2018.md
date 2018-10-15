@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 25 of 100.   **Last Update:**  12th October 2018
+### **Status:** Day 26 of 100.   **Last Update:**  15th October 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react | work
@@ -12,6 +12,23 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 26**: Monday October 26th 2018
+
++ **Learning Goals:** Start working with Create React App to start a React Project.
+
+
+Well, I thought I've made a bit of a mess of trying to add my Create React App project to the repo. 
+
+Something I probably shouldn't have done anyway but I have untracked files in my Git project folder despite the fact everything seems to be included in the repository. 
+
+And I can't clear them, even after untracking all the files from the root and adding them to the stage again.
+
+Then I simply closed VS Code and restarted. All gone, so I'm assuming this was a caching issue in the text editor and Git.
+
+.gitignore is still in place on my node_modules folder.  Rookie mistakes  :)
+
+
 
 ### **Day 25**: Friday October 12th 2018
 

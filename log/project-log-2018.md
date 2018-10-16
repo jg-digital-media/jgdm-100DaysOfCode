@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 26 of 100.   **Last Update:**  15th October 2018
+### **Status:** Day 27 of 100.   **Last Update:**  16th October 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react | work
@@ -13,7 +13,14 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
-### **Day 26**: Monday October 26th 2018
+### **Day 27**: Tuesday October 16th 2018
+
++ **Learning Goals:** How to organise React Components to be more modular.
++ **Progress:** Learned about "named" imports and finally have a better understanding of what exports are; what imports are, scope and how ES modules work in React.
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode 
+
+
+### **Day 26**: Monday October 15th 2018
 
 + **Learning Goals:** Start working with Create React App to start a React Project.
 

@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 27 of 100.   **Last Update:**  16th October 2018
+### **Status:** Day 28 of 100.   **Last Update:**  17th October 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react | work
@@ -12,6 +12,18 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+
+### **Day 28**: Wednesday October 17th 2018
+
++ **Progress:**
+  + Refactored the app to move state to application level rather than multiple components with local state.
++ **Thoughts:** 
+  + Difficult one day. Spent a lot of time on React today. Refactored the app and left it functionally the same as yesterday but still a bit hazy with the concepts.
+  + things like lifting state up
+
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode 
+
 
 ### **Day 27**: Tuesday October 16th 2018
 
@@ -366,7 +378,7 @@ Worked completely on client work today with CSS, HTML and jQuery.
 ___
 
 
-### **Day N**: Friday September 7th 2018
+### **Day N**: Day Month Date 2018
 
 + **Learning Goals:**
 + **Progress:**

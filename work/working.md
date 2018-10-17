@@ -2,6 +2,26 @@
 
 + Repository URL: https://github.com/jg-digital-media/jgdm-100DaysOfCode
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
++ React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
+
+## Day 28
+
+Data flows naturally down the component tree
+
+Data flows from the app's top-level component down to the child components, via props. This is called "unidirectional data flow"
+
+Best practice for data to be handled as far up the component tree as possible so every component has access to it.
+
+How to get data to flow upward in component tree.
+
+Components need to communicate to its parent
+
+delta - indicates a change in state
+
+2 or more Components can share the same State
+
+"lifting state" - When two or more components need access to the same state, we move the state into their common parent. This is called "lifting state up".
+
 
 ## Day 26
 

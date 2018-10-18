@@ -4,6 +4,10 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+Day 29:
+
+
+
 ## Day 28
 
 Data flows naturally down the component tree

@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 28 of 100.   **Last Update:**  17th October 2018
+### **Status:** Day 29 of 100.   **Last Update:**  18th October 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react | work
@@ -12,6 +12,16 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 29**: Thursday October 18th 2018
+
++ **Learning Goals:** Continue learning about Components in React.
++ **Progress:**  Added 2 new components to the scoreboard app.
++ **Thoughts:**
+  + Creating React Apps using the build tool **Create React App** is amazing.  Love the feedback you get in the console when you make errors, helping you to spot and fix them easily.
+  + Great to learn about Controlled Components in React. About how inputs are stateful elements and need to be assigned a Handler in order to work.
+
++ **Link to Work:** (https://github.com/jg-digital-media/jgdm-100DaysOfCode) 
 
 
 ### **Day 28**: Wednesday October 17th 2018

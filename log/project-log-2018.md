@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 29 of 100.   **Last Update:**  18th October 2018
+### **Status:** Day 30 of 100.   **Last Update:**  19th October 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react | work
@@ -13,9 +13,20 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
+### **Day 30**: Friday October 19th 2018
+
++ **Learning Goals:** Continue learning about Components in React
++ **Progress:**  
+  + Add player functionality to component
++ **Thoughts:** 
+  + The application is starting to get increasingly complex and harder to get my head around. But is fully functional.
+  + Started adding some comment around the biggest component files to help keep track of what everything is doing.
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
+
 ### **Day 29**: Thursday October 18th 2018
 
-+ **Learning Goals:** Continue learning about Components in React.
++ **Learning Goals:** .
 + **Progress:**  Added 2 new components to the scoreboard app.
 + **Thoughts:**
   + Creating React Apps using the build tool **Create React App** is amazing.  Love the feedback you get in the console when you make errors, helping you to spot and fix them easily.

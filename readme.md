@@ -1,7 +1,7 @@
 # README.ME  (READ THIS FIRST)
 
 ## 100 Days of Code Challenge.
-**Status:** Day 29 of 100. **Last Update:** 18th October 2018
+**Status:** Day 30 of 100. **Last Update:** 19th October 2018
 
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 

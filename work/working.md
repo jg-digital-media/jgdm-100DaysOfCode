@@ -4,8 +4,42 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-Day 29:
+## Day 30:
 
+React Components Recap: 
+
+Unidirectional Data Flow  - React flows any data changes at the top down through the component tree updating each component.
+
+Lifting State - when two or more components need access to the same state, we hoist the state into their common parent
+
+2 or more Components can share the same State.  A parent component can pass state down to its children via props.
+
+React allows us to use props that are callback functions to communicate data upstream, from a child to a parent.  how a child component can access functions and change state defined in its parent component.
+
+spread operator  - ```...```  - merges existing state with new state.  This way original state is maintaned and not modified.  The Spread operator represents state before it was updated
+
+e.g a Controlled Component that renders an input field
+
+```javascript
+class ControlledInput extends Component {
+  state = {
+    value: ' '
+  };
+  handleChange(e) {
+    this.setState({ value: e.target.value });
+  }
+  render() {
+    return (
+      <input 
+        type="text" 
+        value={ this.state.value }   
+        onChange={ this.handleChange }
+      />
+    );
+  }
+}
+
+```
 
 
 ## Day 28

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+//Controlled Component - Managing the state ofinput fields
 class AddPlayerForm extends Component {
 
     //Initialise a state for the AddPlayerForm input field.
@@ -14,11 +15,20 @@ class AddPlayerForm extends Component {
         });
     }
 
+    //Handle state when button is clicked
+    handleSubmit =(e) => {
+        e.preventDefault();  //Prevent default browser behavior i.e. browser request/refresh
+        this.props.addPlayer(this.state.value);
+        this.setState({
+            value: ""
+        })
+    }
 
     render(){
         console.log(this.state.value)
         return (
-            <form>
+            //Render PlayForm Component to the Browser
+            <form onSubmit={this.handleSubmit}>
 
                 <input 
                     type="text" 

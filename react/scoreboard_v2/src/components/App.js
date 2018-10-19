@@ -3,6 +3,7 @@ import Header from './Header';
 import Player from './Player';
 import AddPlayerForm from './AddPlayerForm';
 
+//Initial Application State.
 class App extends Component {
   state = {
     players: [
@@ -29,11 +30,30 @@ class App extends Component {
     ]
   };
 
+  //initial player id counter
+  prevPlayerId = 4;
+
   handleScoreChange = (index, delta) => {
     this.setState( prevState => ({
       score: prevState.players[index].score += delta
     }));
     
+  }
+
+  //Adds new player to screen with default data
+  handleAddPlayer = (name) => {
+    this.setState( prevState => {
+        return {
+            players: [
+                ...prevState.players,
+                {
+                    name,
+                    score: 0,
+                    id: this.prevPlayerId += 1,
+                }
+            ]
+        };
+     });
   }
 
   handleRemovePlayer = (id) => {
@@ -67,7 +87,7 @@ class App extends Component {
 
         
 
-      <AddPlayerForm />
+      <AddPlayerForm addPlayer={ this.handleAddPlayer }/>
       </div>
     );
   }

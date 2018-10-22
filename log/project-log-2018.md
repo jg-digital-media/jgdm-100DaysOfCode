@@ -13,6 +13,16 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
+### **Day 31**: Monday October 22nd 2018
+
++ **Learning Goals:** Continue learning about Components in React
++ **Progress:**
+  + Moved on to lifecycle methods in React.  Progress made in the app.  
++ **Thoughts:** 
+  + Understand the concept of lifecycle methods which is good.  The app is beginning to grow in code though.  Usually this is the point I start to struggle remembering how these things all come together; specifics not concepts.
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
+
 ### **Day 30**: Friday October 19th 2018
 
 + **Learning Goals:** Continue learning about Components in React

@@ -4,6 +4,47 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 31
+Every Component instance follows a cycle: it's mounted onto the DOM, it's updated with changes in data, and it's unmounted from the DOM. 
+
+React has built in lifecycle methods
+
+lifecycle methods get called at each point in a component's life-cycle
+
+Lifecycle methods let you control what happens when the different lifecycle methods are called.
+
+```javascript
+ tick = () => {
+        console.log('tick method');
+        if(this.state.isRunning) {
+            
+            const now = Date.now();
+
+            this.setState(prevState => ({
+                previousTime: now,
+                elapsedTime: prevState.elapsedTime + ( now - this.state.previousTime)
+            }));
+
+        }
+    }
+
+    handleStopwatch = () => {
+        this.setState(prevState => ({
+            isRunning: !prevState.isRunning
+        }));        
+
+        if(!this.state.isRunning) {
+            console.log('starting');
+            this.setState({
+                previousTime: Date.now()
+            })
+        }
+    }
+
+
+```
+
+
 ## Day 30:
 
 React Components Recap: 

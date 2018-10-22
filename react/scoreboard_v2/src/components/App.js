@@ -84,7 +84,6 @@ class App extends Component {
             removePlayer={this.handleRemovePlayer}           
           />
         )}
-
         
 
       <AddPlayerForm addPlayer={ this.handleAddPlayer }/>

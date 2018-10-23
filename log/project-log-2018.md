@@ -13,6 +13,16 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
+### **Day 32**: Tuesday October 23rd 2018
+
++ **Learning Goals:** Continue learning about Components in React
++ **Progress:**  Added the code to visualse the stopwatch on the screen.
++ **Thoughts:** 
+  + So pleased to have completed this functiinality on my own.  It wasn't the most difficult thing to do on my own I admit but that doesn't matter really.  I feel like it's some sort of progression.
+  + I've proven I knew enough about React to manipulate state and learn how call methods on events. Hopefully I can lean on this knowledge when creating my own React projects.
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
+
 ### **Day 31**: Monday October 22nd 2018
 
 + **Learning Goals:** Continue learning about Components in React

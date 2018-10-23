@@ -4,6 +4,10 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 32
+
+
+
 ## Day 31
 Every Component instance follows a cycle: it's mounted onto the DOM, it's updated with changes in data, and it's unmounted from the DOM. 
 

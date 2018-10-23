@@ -9,8 +9,6 @@ const Stats = (props) => {
     }, 0)
 
     return (
-
-
         <table className="stats">
             <tbody>
                 <tr>

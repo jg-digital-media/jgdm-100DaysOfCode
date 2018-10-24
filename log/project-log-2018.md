@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 30 of 100.   **Last Update:**  19th October 2018
+### **Status:** Day 33 of 100.   **Last Update:**  24th October 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react | work
@@ -12,6 +12,16 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+
+### **Day 33**: Wednesday October 24th 2018
+
++ **Learning Goals:** Continue learning about Components in React
++ **Progress:**  Started refactoring the code to use some React Design patters e.g. A PureComponent, Destructured props and a Ref for the input field.
++ **Thoughts:** 
+  + This wasn't quite as scary as I thought it was going to be and in particular I liked the syntax for Destructuring props. 
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
 
 ### **Day 32**: Tuesday October 23rd 2018
 

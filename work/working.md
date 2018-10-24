@@ -4,9 +4,16 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 33
+
+React provides a special type of component, called PureComponent, that helps prevent unnecessary re-renders.  i.e. Components that are rerended despite not having changed state. 
+
+Refs  let you access and interact with DOM nodes or React elements you created in the render method
+
+Destructuring - syntax you can use to unpack or extract values from arrays, or properties from objects into distinct variables.   in props in react
+
 ## Day 32
-
-
 
 ## Day 31
 Every Component instance follows a cycle: it's mounted onto the DOM, it's updated with changes in data, and it's unmounted from the DOM. 

@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 33 of 100.   **Last Update:**  24th October 2018
+### **Status:** Day 34 of 100.   **Last Update:**  25th October 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react | work
@@ -12,6 +12,19 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+### **Day 34**: Thursday October 25th 2018
+
++ **Learning Goals:**  Continue learning about Components in React
++ **Progress:** Finished the React Scoreboard App  (yay :O) )
++ **Thoughts:** 
+
+  + Feel like I've demystified what the deal is with PropTypes for the first time and how to use them.
+  
+  + Added the high score feature but I have to admit, I couldn't do that on my own.  I can build components in React, and I can learn to trigger events in the React way - The nuts and bolts but the functionality behind those events needs more work.
+
+  + Think I've made significant steps forward though. 
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
 
 
 ### **Day 33**: Wednesday October 24th 2018

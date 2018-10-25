@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import Stats from './Stats';
 import Stopwatch from './Stopwatch';
 
@@ -12,7 +14,19 @@ const Header = ({ players, title}) => {
 
       </header>
     );
-  }
+}
+
+Header.PropTypes = {
+    players:PropTypes.number,
+    title:PropTypes.string,
+
+}
+
+Header.defaultProps = {
+  title: 'Scoreboard'
+}
+
+
 
 export default Header;
 

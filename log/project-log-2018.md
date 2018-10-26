@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 34 of 100.   **Last Update:**  25th October 2018
+### **Status:** Day 35 of 100.   **Last Update:**  26th October 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react | work
@@ -12,6 +12,22 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+
+### **Day 35**: Friday October 26th 2018
+
++ **Progress:** 
+  + Much of today was about organising this repository to include 2 new projects. One is a basic TicTacToe game for new practice with React.  
+  + Another new project is called ```context-api``` which will explore the Scoreboard app and how it can be used to work with the React Context API.
+
++ **Thoughts:** 
+  + As I understand it from what I've learned earlier today, the React Context API is a feature of React that allows to share props with components without using the whole Component Tree. 
+  + Still having trouble getting my FTP unlocked so my previous production build of the Scoreboard App is still not uploaded.
+
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
+
+
 ### **Day 34**: Thursday October 25th 2018
 
 + **Learning Goals:**  Continue learning about Components in React

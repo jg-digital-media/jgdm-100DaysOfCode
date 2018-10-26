@@ -4,6 +4,31 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 35
+
+About the React Context API: 
+
+**Prop Drilling** - Is the cascade of props that gets data to parts of the React Component Tree
+
+React offers a built in API to avoid so much prop drilling
+
+**React Context API** - Provides a way to pass data down to components without having to pass props manually at every single level.
+
+It has 3 main parts.
+
+### React.createContext();
+
+Sets up a context and returns an object with a **Provider** and **Consumer**, the two main components of the Context API.
+
+### Provider
+
+A single Provider Component is used as high as possible up the Component Tree and allows a Consumer to subscribe to context changes. 
+
+### Consumer
+
+Access the Provider to get the data it needs.  The Consumer is what helps avoid Prop Drilling.
+
+The Provider and Consumer Components are constantly communicating.  It's this that makes the Context API work.
 
 ## Day 33
 

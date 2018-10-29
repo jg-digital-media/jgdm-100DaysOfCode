@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 35 of 100.   **Last Update:**  26th October 2018
+### **Status:** Day 36 of 100.   **Last Update:**  29th October 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react | work
@@ -12,6 +12,14 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 36**: Monday October 29th 2018
+
++ **Learning Goals:** React Tic Tac Toe Practice game.
++ **Progress:** Completed most of the game in practice.  Much of this is practice in the basics so wasn't unfamiliar to me. Just about trying to let it sink in.  My notes included in Day 36 notes of ```working.md``` file.
++ **Thoughts:** 
++ **Link to Work:** [Project](url) 
+
 
 
 ### **Day 35**: Friday October 26th 2018

@@ -4,6 +4,95 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 36
+
+3 Class Components Square, Board, Player
+
+ReactDOM is imported to use the Render method.
+
+### Passing Props
+
+Passing props is how information flows in React apps, from parents to children
+
+This is an example of passing a prop: 
+
+```javascript 
+renderSquare(i) {
+    return <Square value={i} />;
+  }
+
+```
+
+### Show a Prop Value
+
+```this.props.value```  - to display a prop.   
+
+
+
+### State
+
+State: To “remember” things, components use state
+
+add a constructor to the class to initialize the state
+
+```javascript
+this.state = {
+  value: null; 
+}
+
+
+//rerender by calling setState(). 
+onClick={() => this.setState({value: 'X'})}
+
+//Render the value of a state prop to the screen
+  {this.state.value}
+```
+
+### Changing Data
+
+There are generally two approaches to changing data. The first approach is to mutate the data by directly changing the data’s values. The second approach is to replace the data with a new copy which has the desired changes.
+
+Interactive Components
+Attach functions to events.
+
+```javascript 
+onClick= {() => console.log("clicked")}>
+onClick= {function(){ console.log("clicked")}}>
+```
+
+### Class Components
+
+```javascript
+ class Board extends React.Component {  
+    constructor(props) {
+        super(props);
+        this.state = {
+        squares: Array(9).fill(null),
+    };
+
+   render() {
+   }
+  }
+```
+
+### Function Components 
+
+```javascript
+function Square(props) {
+  return (
+    <button className="square" onClick={props.onClick}>
+      {props.value}
+    </button>
+  );
+}
+```
+
+### Ternary Operator
+
+```userIsYoungerThan21 ? serveGrapeJuice() : serveWine();```
+
+
 ## Day 35
 
 About the React Context API: 

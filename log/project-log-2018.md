@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 36 of 100.   **Last Update:**  29th October 2018
+### **Status:** Day 37 of 100.   **Last Update:**  30th October 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react | work
@@ -13,12 +13,21 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
+## **Day 37**: Tuesday October 30th 2018
+
++ **Learning Goals:** Learn more about the React Context API.
++ **Progress:** 
+  + Didn't go well to be honest, I can see how what I've done has simplified the code that you'd write as a React Developer but I wish I understood more about what's going on.  Will be good to compare this to the other 2 iterations of this app.
+  + Elsewhere having now pushed the production build to my server I'm having trouble getting a working version from it.  Wish me luck getting behind that problem too.
+  + Finally, I've also submitted my first Certification claim to FreeCodeCamp.  Moving on to JavaScript problems soon.  :)
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
 ### **Day 36**: Monday October 29th 2018
 
 + **Learning Goals:** React Tic Tac Toe Practice game.
 + **Progress:** Completed most of the game in practice.  Much of this is practice in the basics so wasn't unfamiliar to me. Just about trying to let it sink in.  My notes included in Day 36 notes of ```working.md``` file.
 + **Thoughts:** 
-+ **Link to Work:** [Project](url) 
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
 
 
 

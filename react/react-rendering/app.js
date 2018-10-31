@@ -1,3 +1,8 @@
+//import React from 'react';
+//import ReactDOM from 'react-dom';
+
+
+/*State*/
 const planets = [
   {
     id: '1',
@@ -70,10 +75,51 @@ const planets = [
 // =============================================================
 
 // 1: Create a 'Planet' component that renders a planet card
-
+class Planet extends React.Component {
+    render() {
+        return (
+            <div className="card">
+                <div>
+                <img src={ this.props.url} alt= {this.props.name} />
+                </div>
+                <h2>{this.props.name}</h2>
+                <p>{ this.props.desc}</p>
+                <h3>Planet Profile</h3>
+                <ul>
+                <li><strong>Diameter:</strong>{ this.props.diameter} </li>
+                <li><strong>Moons:</strong> {this.props.moons } </li>
+                </ul>
+            </div>
+        );
+    }
+}
 
 // 2: Create a container component that iterates over the planets array 
 //    and renders a 'Planet' component for each object in the array 
 
+const Container = (props) => {
+    return (
+
+        <div className="container"> 
+        {props.planets.map( planet => 
+            <Planet 
+                name={planet.name}
+                diameter={planet.diameter}
+                moons={planet.moons}
+                desc={planet.desc}
+                url={planet.url}
+                key={planet.id}
+                
+             />
+        )}
+        </div>
+
+    );
+}
 
 // 3: Render the container component to the DOM
+
+ReactDOM.render(
+    <Container planets={planets} />, 
+    document.getElementById("root")
+);

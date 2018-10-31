@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 37 of 100.   **Last Update:**  30th October 2018
+### **Status:** Day 38 of 100.   **Last Update:**  31st October 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react | work
@@ -12,6 +12,19 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 38**: Wednesday October 31st 2018
+
++ **Learning Goals:** Continue learning React.js
++ **Progress:**
+  + Completed my work into the React Context API
+  + Added a new App "react-rendering" to the repo which is a basic of example of using props to render a list of data.
++ **Thoughts:** 
+  + Mixed up on the Syntax of ReactDOM. Render and the variaous types of components.  But that's okay. Most of the stuff i was able to fix by looking at apps i've already done. Even if Syntax isn't 100% committed to memory yet, I know where to look for it.
+  + I used as many different examples of React Components as I could, for practice. Most of the behaviours of React itself I'm comfortable with now. 
+  + Didn't know much about the map method  need to look into that more closely in the days to come.  
++ **Link to Work:** [Project](url) 
+
 
 ## **Day 37**: Tuesday October 30th 2018
 

@@ -2,14 +2,15 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Day 37 of 100. **Last Update:** 30th October 2018
++ **Status:** Day 38 of 100. **Last Update:** 31st October 2018
 
 + **Directories**
     + four_in_a_row
     + log
     + python
     + react
-      + context_api  
+      + context_api
+      + react-rendering  
       + scoreboard
       + scoreboard_v2
       + tictactoe

@@ -18,11 +18,11 @@ I won't last 100 straight days this time either, although I intend to complete 1
 + **Learning Goals:** Continue learning React.js
 + **Progress:**
   + Completed my work into the React Context API
-  + Added a new App "react-rendering" to the repo which is a basic of example of using props to render a list of data.
+  + Added a new directory "react-rendering" to the repo which is a basic of example of using props to render a list of data.
 + **Thoughts:** 
-  + Mixed up on the Syntax of ReactDOM. Render and the variaous types of components.  But that's okay. Most of the stuff i was able to fix by looking at apps i've already done. Even if Syntax isn't 100% committed to memory yet, I know where to look for it.
+  + Mixed up on the Syntax of ReactDOM. Render and the various types of components.  But that's okay. Most of the stuff I was able to fix by looking at apps iI've already done. Even if Syntax isn't 100% committed to memory yet, I know where to look for it.
   + I used as many different examples of React Components as I could, for practice. Most of the behaviours of React itself I'm comfortable with now. 
-  + Didn't know much about the map method  need to look into that more closely in the days to come.  
+  + Didn't know much about the map method... will need to look into that more closely in the days to come.  
 + **Link to Work:** [Project](url) 
 
 

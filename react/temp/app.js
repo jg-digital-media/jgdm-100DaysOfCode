@@ -80,6 +80,11 @@ function tryConvert(temperature, convert) {
     return rounded.toString();
   }
 
+  const scaleNames = {
+    c: 'Celsius',
+    f: 'Fahrenheit'
+  };
+
   class TemperatureInput extends React.Component {
     constructor(props) {
       super(props);

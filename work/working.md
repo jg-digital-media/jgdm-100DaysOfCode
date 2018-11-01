@@ -4,7 +4,7 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-## Day 38
+## Day 39
 
 
 

@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 38 of 100.   **Last Update:**  31st October 2018
+### **Status:** Day 39 of 100.   **Last Update:**  1st November 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react | work
@@ -13,6 +13,16 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
+### **Day 39**: Thursday November 1st 2018
+
++ **Progress:**  
+  + Went slightly off course today. Mosty React.js review then spent some time updating JetBrain's IntelliJ program for Java.  
+  + All the Apps, ```context_api```, ```react-rendering```, ```scoreboard```, ```scoreboard_v2```, ```temp``` and ```tictactoe``` contain functional code.
+  + Oh yes, and I also did some practice with OOP JavaScript Classes which went well.
+
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
+
 ### **Day 38**: Wednesday October 31st 2018
 
 + **Learning Goals:** Continue learning React.js
@@ -23,7 +33,7 @@ I won't last 100 straight days this time either, although I intend to complete 1
   + Mixed up on the Syntax of ReactDOM. Render and the various types of components.  But that's okay. Most of the stuff I was able to fix by looking at apps iI've already done. Even if Syntax isn't 100% committed to memory yet, I know where to look for it.
   + I used as many different examples of React Components as I could, for practice. Most of the behaviours of React itself I'm comfortable with now. 
   + Didn't know much about the map method... will need to look into that more closely in the days to come.  
-+ **Link to Work:** [Project](url) 
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
 
 
 ## **Day 37**: Tuesday October 30th 2018

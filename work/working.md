@@ -4,8 +4,120 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-## Day 39
+## Day 41
 
+
+Spent most of the day today working on a simple script for working out what the text label for a golf score should be returned based on both the par and the number of strokes passed.  Took me longer than I care to admit to attempt and in the end I did have to look for a solution but I did get as far as correctly returning half of the scores.
+
+I tried a number of expressions for my condition statements
++ (par <= 0 || par >= 1 && strokes == 1
++ par < 0 )
++ par <= 1 to par >= 3) 
+
+with varying results.
+
+The final code for this challenge can be found here on the FreeCodeCamp forum page. https://www.freecodecamp.org/forum/t/need-help-with-golf-code/2123
+
+Although I was disappointed not to be able to complete it fully on my own I do feel I understand the concept involved. In the end I was getting my variables reversed when putting them through the condition statements... and again, I didn't need to make them so complicated.  A good excercise to keep my JS Skills sharp.
+
+
+
+//WORKINGS OUT
+
+
+/*
+var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+function golfScore(par, strokes) {
+  // Only change code below this line
+  
+  if (par <= 0 || par >=1 && strokes == 1) {
+    console.log(names[0]);
+    return names[0];
+  } else if(par <= 0 || par >= 1 && strokes == 2) {
+    console.log(names[1])
+
+  } else if(par <= 3 || par >= 3 && strokes == 3) {
+    console.log(names[2])
+
+  } else if(par <= 3 || par >= 3 && strokes == 3) {
+    console.log(names[2])
+
+  } else if(par == strokes) {
+    console.log(names[3])
+  }
+
+  */
+
+   /*if(par <= strokes[1]) {
+    console.log(names[1])
+  }
+  
+ else if(par <= 2) {
+    console.log(names[1]);
+    return names[1];
+
+  } else if(par <= 1) {
+    console.log(names[2])
+    return names[2]
+
+  } else if(par >= 1) {
+    console.log(names[4])
+    return names[4]
+
+  } else if(par >= 2) {
+    console.log(names[5])
+    return names[5]
+
+  } else if(par >= 3) {
+    console.log(names[6])
+    return names[6]
+
+  }
+  
+}
+
+// Change these values to test
+golfScore(2, 2);
+
+
+
+
+  if (par <= 0 || par >= 1 && strokes == 1) {
+      console.log(names[0]);
+      return names[0];
+
+    } else if(par <= 0 || par >= 1 && strokes == 2) {
+      console.log(names[1])
+      return names[1];
+
+    } else if(par <= 0 || par >= 1 && strokes == 3) {
+      console.log(names[2])
+      return names[2];
+
+    } else if(par == strokes) {
+      console.log(names[3])
+      return names[3];
+
+    } else if(par <= 0 || par >= 1 && strokes == 3) {
+      console.log(names[4])
+      return names[4];
+    }
+
+
+https://www.freecodecamp.org/forum/t/basic-javascript-golf-code-help/231203
+
+
+// running tests
+
+golfScore(4, 2) should return "Eagle"
+golfScore(5, 2) should return "Eagle"
+golfScore(4, 3) should return "Birdie"
+golfScore(4, 4) should return "Par"
+golfScore(5, 5) should return "Par"
+golfScore(4, 5) should return "Bogey"
+golfScore(4, 6) should return "Double Bogey"
+golfScore(4, 7) should return "Go Home!"
+golfScore(5, 9) should return "Go Home!"
 
 
 ## Day 36

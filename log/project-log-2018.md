@@ -1,9 +1,9 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 40 of 100.   **Last Update:**  2nd November 2018
+### **Status:** Day 41 of 100.   **Last Update:**  5th November 2018
 
 ___
-**Directories**  log | four_in_a_row | python | react | work
+**Directories**  log | four_in_a_row | javascript | python | react | work
 ___
 ## **Introduction**
 
@@ -12,16 +12,26 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+### **Day 41**: Monday November 05 2018
+
++ **Learning Goals:** Working on basic vanilla JavaScript
++ **Progress:**
+  + Added a new folder for ```javascript``` in this repo
+  + new script completed that works out the correct label for a golf score when returning both the par and the number strokes passed to a function.
++ **Thoughts:** 
+  + Although I was disappointed not to be able to complete it fully on my own I do feel I understand the concept involved. In the end I was getting my variables reversed when putting them through the condition statements... and again, I didn't need to make them so complicated.  A good exercise to keep my JS Skills sharp.
++ **Link to Work:** [Repository](url) 
+
 
 
 ### **Day 40**: Friday November 2nd 2018
 
-Doing work today on the next certifiation on FreeCodeCamp.  Practice with JavaScript Getters and Setters. 
+Doing work today on the next certification on FreeCodeCamp.  Practice with JavaScript Getters and Setters. 
 
 ### **Day 39**: Thursday November 1st 2018
 
 + **Progress:**  
-  + Went slightly off course today. Mosty React.js review then spent some time updating JetBrain's IntelliJ program for Java.  
+  + Went slightly off course today. Mostly React.js review then spent some time updating JetBrain's IntelliJ program for Java.  
   + All the Apps, ```context_api```, ```react-rendering```, ```scoreboard```, ```scoreboard_v2```, ```temp``` and ```tictactoe``` contain functional code.
   + Oh yes, and I also did some practice with OOP JavaScript Classes which went well.
 
@@ -33,7 +43,7 @@ Doing work today on the next certifiation on FreeCodeCamp.  Practice with JavaSc
 + **Learning Goals:** Continue learning React.js
 + **Progress:**
   + Completed my work into the React Context API
-  + Added a new directory "react-rendering" to the repo which is a basic of example of using props to render a list of data.
+  + Added a new directory "react-rendering" to the repository which is a basic of example of using props to render a list of data.
 + **Thoughts:** 
   + Mixed up on the Syntax of ReactDOM. Render and the various types of components.  But that's okay. Most of the stuff I was able to fix by looking at apps iI've already done. Even if Syntax isn't 100% committed to memory yet, I know where to look for it.
   + I used as many different examples of React Components as I could, for practice. Most of the behaviours of React itself I'm comfortable with now. 

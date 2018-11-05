@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 39 of 100.   **Last Update:**  1st November 2018
+### **Status:** Day 40 of 100.   **Last Update:**  2nd November 2018
 
 ___
 **Directories**  log | four_in_a_row | python | react | work
@@ -12,6 +12,11 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+
+### **Day 40**: Friday November 2nd 2018
+
+Doing work today on the next certifiation on FreeCodeCamp.  Practice with JavaScript Getters and Setters. 
 
 ### **Day 39**: Thursday November 1st 2018
 

@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 41 of 100.   **Last Update:**  5th November 2018
+### **Status:** Day 42 of 100.   **Last Update:**  6th November 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -12,7 +12,17 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
-### **Day 41**: Monday November 05 2018
+
+
+### **Day 42**: Tuesday November 6th 2018
+
++ **Learning Goals:** Working on basic vanilla JavaScript via FreeCodeCamp
++ **Progress:** Added a new working script -card-counting-blackjack.js
++ **Thoughts:** Followed the read/search/ask rule again. But it's funny how sometimes when you start to ask the question the answer just comes to you.  (So I didn't end up asking).   Basically my conditions were messed up, so while they didn't crash the code in the console they were giving me incorrect results.  Key takeway from today: Always combine with || or && operator, not with a comma where multiple values are being tested as the same.
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
+
+### **Day 41**: Monday November 5th 2018
 
 + **Learning Goals:** Working on basic vanilla JavaScript
 + **Progress:**
@@ -20,7 +30,7 @@ I won't last 100 straight days this time either, although I intend to complete 1
   + new script completed that works out the correct label for a golf score when returning both the par and the number strokes passed to a function.
 + **Thoughts:** 
   + Although I was disappointed not to be able to complete it fully on my own I do feel I understand the concept involved. In the end I was getting my variables reversed when putting them through the condition statements... and again, I didn't need to make them so complicated.  A good exercise to keep my JS Skills sharp.
-+ **Link to Work:** [Repository](url) 
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
 
 
 

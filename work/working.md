@@ -4,8 +4,11 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-## Day 41
+## Day 42
 
+The Key takeaway from today: In condition statements and expressions: Always combine with || or && operator, not with a comma where multiple values are being tested as the same. 
+
+## Day 41
 
 Spent most of the day today working on a simple script for working out what the text label for a golf score should be returned based on both the par and the number of strokes passed.  Took me longer than I care to admit to attempt and in the end I did have to look for a solution but I did get as far as correctly returning half of the scores.
 

@@ -17,7 +17,7 @@ test_balance_data = {
 # Series constructor assigned to a variable
 balances = pd.Series(test_balance_data)
 
-# The Seriies constructor can use Unlabeled balances with an interable. - 
+# The Series constructor can use Unlabeled balances with an interable. - 
 # You can pass any iterable as the first argument
 
 unlabeled_balances = pd.Series([20.00, 20.18, 1.05, 42.42])

@@ -2,13 +2,15 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Day 42 of 100. **Last Update:** 6th November 2018
++ **Status:** Day 43 of 100. **Last Update:** 7th November 2018
 
 + **Directories**
     + four_in_a_row
     + javascript
     + log
     + python
+      + madlibs
+      + pandas
     + react
       + context_api
       + react-rendering  

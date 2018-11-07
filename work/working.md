@@ -4,6 +4,21 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 43
+
+
++ You can create a Series from a dictionary, or an iterable.
+
++ Worked on the Series constructor
+  + From an Iterable
+  + From a dictionary
+  + From an ndArray
+  + From a Scalar
+
+
+
+```pip install pandas```
+
 ## Day 42
 
 The Key takeaway from today: In condition statements and expressions: Always combine with || or && operator, not with a comma where multiple values are being tested as the same. 

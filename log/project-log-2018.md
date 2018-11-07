@@ -13,12 +13,20 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
+### **Day 43**: Wednesday November 7th 2018
+
++ **Learning Goals:**  Take a look at The Python Library Pandas - which is built on Numpy.
++ **Thoughts:**
+  + With my brain it really is difficult for me to Switch tasks but i couldn't wait to get ito the Pandas library
+  + So I went away, had a little break (another project, not an actual break) simply did ```pip install pandas```
+  + The error went away
+
 
 ### **Day 42**: Tuesday November 6th 2018
 
 + **Learning Goals:** Working on basic vanilla JavaScript via FreeCodeCamp
 + **Progress:** Added a new working script -card-counting-blackjack.js
-+ **Thoughts:** Followed the read/search/ask rule again. But it's funny how sometimes when you start to ask the question the answer just comes to you.  (So I didn't end up asking).   Basically my conditions were messed up, so while they didn't crash the code in the console they were giving me incorrect results.  Key takeway from today: Always combine with || or && operator, not with a comma where multiple values are being tested as the same.
++ **Thoughts:** Followed the read/search/ask rule again. But it's funny how sometimes when you start to ask the question the answer just comes to you.  (So I didn't end up asking).   Basically my conditions were messed up, so while they didn't crash the code in the console they were giving me incorrect results.  Key takeaway from today: Always combine with || or && operator, not with a comma where multiple values are being tested as the same.
 + **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
 
 

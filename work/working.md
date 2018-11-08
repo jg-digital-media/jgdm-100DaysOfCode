@@ -4,8 +4,15 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 44
+
+
+
 ## Day 43
 
+https://pandas.pydata.org/pandas-docs/stable/dsintro.html#series
+
++ Series is a one-dimensional labeled array capable of holding any data type (integers, strings, floating point numbers, Python objects, etc.).
 
 + You can create a Series from a dictionary, or an iterable.
 
@@ -17,7 +24,7 @@
 
 
 
-```pip install pandas```
+To Install: ```pip install pandas```
 
 ## Day 42
 

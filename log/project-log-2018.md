@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 42 of 100.   **Last Update:**  6th November 2018
+### **Status:** Day 44 of 100.   **Last Update:**  8th November 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -13,6 +13,19 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
+### **Day 44**: Thursday 8th November 2018
+
++ **Learning Goals:** profile lookup script
++ **Progress:**
+  + Completed the first section of the JavaScript certification in FreeCodeCamp.  
+  + Tackled the profile lookup example. Added the script to the ```javascript``` directory - ```profile-lookup.js``` 
+  + Did a bit more with Python Pandas as well carrying on from Day 43.
++ **Thoughts:** 
+  + Today was one of those days I reached a low point ("I'm not cut out for programming" moments).  When I get these thoughts I just disregard it. Everyone has their strengths and weaknesses and every day is a learning day.
+  + Looking forward to tackling more problems to exercise the programming brain.
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
+
 ### **Day 43**: Wednesday November 7th 2018
 
 + **Learning Goals:**  Take a look at The Python Library Pandas - which is built on Numpy.
@@ -20,7 +33,6 @@ I won't last 100 straight days this time either, although I intend to complete 1
   + With my brain it really is difficult for me to Switch tasks but i couldn't wait to get ito the Pandas library
   + So I went away, had a little break (another project, not an actual break) simply did ```pip install pandas```
   + The error went away
-
 
 ### **Day 42**: Tuesday November 6th 2018
 

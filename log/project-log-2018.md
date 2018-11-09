@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 44 of 100.   **Last Update:**  8th November 2018
+### **Status:** Day 45 of 100.   **Last Update:**  9th November 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -12,6 +12,15 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 45**: Friday 9th November 2018
+
++ **Progress:**
+  + Added 2 new files today to work with python pandas, specifically with vectorization and broadcasting of data.
++ **Thoughts:** 
+  + While I see how they both make working with data simpler than having to loop over data all the time, broadcasting isn't yet doing what I expect it to do with the data.  Yet. :)
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
 
 ### **Day 44**: Thursday 8th November 2018
 

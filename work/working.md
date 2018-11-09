@@ -4,8 +4,9 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-## Day 44
+## Day 45
 
+https://hub.mybinder.org/user/treehouse-proje-roducing-pandas-s99o32zt/notebooks/s1n03-vectorization-and-broadcasting.ipynb
 
 
 ## Day 43

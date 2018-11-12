@@ -21,14 +21,25 @@ test_deposit_data = {
 balances = pd.Series(test_balance_data)
 deposits = pd.Series(test_deposit_data)
 
-coupons = pd.Series(1, ['craig', 'ashley', 'james'])
+print(balances)
+
+#vectorise deposits
+balances += deposits
+print(balances)
+
+#5 is broadcasted and added to each and every value - this returns a new series
+balances + 5
+print(balances)
+
+"""coupons = pd.Series(1, ['craig', 'ashley', 'james'])
 coupons
 
 #perform broadcasting
 balances + coupons
 print(balances)
-## It is possible to fill missing values so that everything aligns. The concept is to use the add method directly along with the the keyword argument fill_value.
+
+ ## It is possible to fill missing values so that everything aligns. The concept is to use the add method directly along with the the keyword argument fill_value.
 # Returns a new Series
 balances.add(coupons, fill_value=0)
 
-print(coupons)
+print(coupons) """

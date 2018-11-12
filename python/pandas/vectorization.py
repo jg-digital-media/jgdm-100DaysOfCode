@@ -21,6 +21,10 @@ test_deposit_data = {
 balances = pd.Series(test_balance_data)
 deposits = pd.Series(test_deposit_data)
 
+print(balances)
+
+balances -= deposits
+
 #use vectorisation - in place addition
 balances += deposits
 balances

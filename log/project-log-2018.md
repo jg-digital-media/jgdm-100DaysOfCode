@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 45 of 100.   **Last Update:**  9th November 2018
+### **Status:** Day 46 of 100.   **Last Update:**  12th November 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -12,6 +12,11 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 46**: Day Month Date 2018
+
++ **Progress:**  Struggling to work out what's wrong with the Broadcasting in Python Pandas.  Vectorisation in that python file is working as expected but broadcasting is having no effect at all.  I'm not sure why but I'm asking around.   Also working progressing on FreeCodeCamp today.
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
 
 ### **Day 45**: Friday 9th November 2018
 

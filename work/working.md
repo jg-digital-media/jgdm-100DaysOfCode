@@ -4,6 +4,22 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 46
+
+```python
+print(balances)
+
+#vectorise deposits
+balances += deposits
+print(balances)
+
+#5 is broadcasted and added to each and every value - this returns a new series
+balances + 5
+print(balances)
+```
+
+
 ## Day 45
 
 https://hub.mybinder.org/user/treehouse-proje-roducing-pandas-s99o32zt/notebooks/s1n03-vectorization-and-broadcasting.ipynb

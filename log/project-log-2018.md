@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 46 of 100.   **Last Update:**  12th November 2018
+### **Status:** Day 47 of 100.   **Last Update:**  13th November 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -13,7 +13,19 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
-### **Day 46**: Day Month Date 2018
+### **Day 47**: Tuesday 13th November 2018
+
++ **Learning Goals:**
+    + Get an understanding of Broadcasting in Pandas (Python library) at last
+    + Start work on DataFrames
++ **Progress:**
+    + I did manage to understand a bit more about what went on with the Broadcasting problem.
++ **Thoughts:** 
+    + There seems to be a difference between which operator should be used to Broadcast data depending on the platform you use. Either the ```+``` or ```+=``` operators to return data.
+    + Broadcasting returns a new Series (set of data) to work with. 
++ + **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
+### **Day 46**: Monday 12th November 2018
 
 + **Progress:**  Struggling to work out what's wrong with the Broadcasting in Python Pandas.  Vectorisation in that python file is working as expected but broadcasting is having no effect at all.  I'm not sure why but I'm asking around.   Also working progressing on FreeCodeCamp today.
 + **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode

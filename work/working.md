@@ -5,6 +5,34 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 47
+
+### Broadcasting
+
+Since Broadcasting returns a new series by default you may need to use the in place addition operator ```+=``` assigned to a variable as apposed to the addition ```+``` operator in order to return the correct results.
+
+A DataFrame is basically just a two dimensional collection of Series.
+"a bunch of series in a lone, one after the other".
+
+### DataFrames
+pd.DataFrame(test_users_list, index=['craigsdennis', 'treasure'],
+            columns=['first_name', 'last_name', 'balance'])
+
+
+### Accessing Data Frames
+
+Retrieving a Specific Series
+
+ -> By Column Name
+ -> By Label
+ -> By Position
+
+ Retrieving a Specific Value by Chaining
+ -> By row and Columns
+ -> Specific Data Frame By slicing
+ -> Using DataFrame.at  (.loc)
+
+
 ## Day 46
 
 ```python

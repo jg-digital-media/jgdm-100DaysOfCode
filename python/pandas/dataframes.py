@@ -51,3 +51,37 @@ by_username = {
 pd.DataFrame.from_dict(by_username, orient="index")
 print("by_username: ") 
 print(by_username)
+
+"""
+# Accessing Data Frames
+Retrieving a Specific Series
+
+ -> By Column Name
+ -> By Label
+ -> By Position
+
+ Retrieving a Specific Value by Chaining
+ -> By row and Columns
+ -> Specific Data Frame By slicing
+ -> Using DataFrame.at  (.loc)
+
+"""
+
+import pandas as pd
+
+# in this example we have 3 columns of data within which
+# usernames data is added as an index
+test_user_data = {
+    'first_name': ['Craig', 'Treasure', 'Ashley', 'Guil'],
+    'last_name': ['Dennis', 'Porth', 'Boucher', 'Hernandez'],
+    'balance': [42.42, 25.00, 2.02, 87.00]
+}
+test_user_names = ['craigsdennis', 'treasure', 'lindsay2000', 'guil']
+
+#generate as a data frame  - each column in the DataFrame is a series
+users = pd.DataFrame(test_user_data, index=test_user_names)
+
+balances = users["balance"]
+balances
+print("\n\nRetrieve a Series By Column Name: \n")
+print(balances)

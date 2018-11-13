@@ -28,18 +28,19 @@ balances += deposits
 print(balances)
 
 #5 is broadcasted and added to each and every value - this returns a new series
-balances + 5
-print(balances)
+broadcasted_balance = balances + 5
+print(broadcasted_balance)
 
-"""coupons = pd.Series(1, ['craig', 'ashley', 'james'])
-coupons
+coupons = pd.Series(1, ['craig', 'ashley', 'james'])
+#coupons
 
 #perform broadcasting
-balances + coupons
+balances += coupons
 print(balances)
+
 
  ## It is possible to fill missing values so that everything aligns. The concept is to use the add method directly along with the the keyword argument fill_value.
 # Returns a new Series
 balances.add(coupons, fill_value=0)
-
-print(coupons) """
+#
+print(coupons)

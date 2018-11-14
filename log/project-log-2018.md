@@ -23,7 +23,7 @@ I won't last 100 straight days this time either, although I intend to complete 1
     + Able to successfully access the data in Pandas DataFrames
     + It took me a while but I also succeeded in finding a regex that matches 0 or more chars in one string but ignores another.  In this case that was possible because in the remaining strings the character only appears once at a time.
 + **Thoughts:**
-    + Bit disappointed to have a lost a lot of tme to the Regex problem but satisfied to have gotten through it.
+    + Bit disappointed to have a lost a lot of time to the Regex problem but satisfied to have gotten through it.
 + **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
 
 

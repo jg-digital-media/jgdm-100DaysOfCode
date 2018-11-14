@@ -14,7 +14,7 @@ access by label
 access by position  index location property
 
 
-access by chanining lookups
+access by chaining lookups
 access by row then column   .loc 
 access by slicing
 
@@ -23,6 +23,16 @@ Using the loc and iloc properties you can slice an existing DataFrame into a new
 loc slices are inclusive
 iloc slices are exclusives
 
+### JavaScript Regex
+Match Characters that Occur Zero or More Times  [TO FINISH]
+
+let chewieQuote = "Aaaaaaaaaaaaaaaarrrgh!";
+let chewieRegex = /Aaa*/; // Change this line
+let result = chewieQuote.match(chewieRegex);
+console.log(result)
+
+matches ```chewieQuote``` correctly but ignores these 2 strings. ```"He made a fair move. Screaming about it can't help you."```
+and  ```"Let him have it. It's not wise to upset a Wookiee."```  (Courtesy of FreeCodeCamp) :)
 
 
 ## Day 47

@@ -5,11 +5,31 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 48
+
+### Accessing DataFrames
+
+access by series
+access by label
+access by position  index location property
+
+
+access by chanining lookups
+access by row then column   .loc 
+access by slicing
+
+
+Using the loc and iloc properties you can slice an existing DataFrame into a new one
+loc slices are inclusive
+iloc slices are exclusives
+
+
+
 ## Day 47
 
 ### Broadcasting
 
-Since Broadcasting returns a new series by default you may need to use the in place addition operator ```+=``` assigned to a variable as apposed to the addition ```+``` operator in order to return the correct results.
+Since Broadcasting returns a new series by default you may need to use the in place addition operator ```+=``` assigned to a variable as opposed to the addition ```+``` operator in order to return the correct results.
 
 A DataFrame is basically just a two dimensional collection of Series.
 "a bunch of series in a lone, one after the other".

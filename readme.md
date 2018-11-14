@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Day 47 of 100. **Last Update:** 13th November 2018
++ **Status:** Day 48 of 100. **Last Update:** 14th November 2018
 
 + **Directories**
     + four_in_a_row

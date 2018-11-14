@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 47 of 100.   **Last Update:**  13th November 2018
+### **Status:** Day 48 of 100.   **Last Update:**  14th November 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -12,6 +12,20 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 48**: Wednesday 14th November 2018
+
++ **Learning Goals:**
+    + Pandas Library in Python
+    + JavaScript Regular Expressions (regex)
+
++ **Progress:**
+    + Able to successfully access the data in Pandas DataFrames
+    + It took me a while but I also succeeded in finding a regex that matches 0 or more chars in one string but ignores another.  In this case that was possible because in the remaining strings the character only appears once at a time.
++ **Thoughts:**
+    + Bit disappointed to have a lost a lot of tme to the Regex problem but satisfied to have gotten through it.
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
 
 ### **Day 47**: Tuesday 13th November 2018
 

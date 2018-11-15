@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 48 of 100.   **Last Update:**  14th November 2018
+### **Status:** Day 49 of 100.   **Last Update:**  15th November 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -12,6 +12,19 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+
+### **Day 49**: Thursday 15th November 2018
+
++ **Learning Goals:**  FreeCodeCamp on JavaScript Regular Expressions and Python Pandas Library.
++ **Progress:**
+    + Learned things about lookaheads in JavaScript.  I'd never heard of these or seen them before now
+    + Good time spent again on the Python Pandas Library and using CSV files to import data.    
++ **Thoughts:**     
+    + The work on Python will take some time to get through so I may stop reporting on pandas from here.    
+    + I'm doing research behind the scenes on JavaScript Higher Order functions.  map, index, filter etc.  I'll do that instead but I'll keep building up the files on python though.
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCod
+
 
 ### **Day 48**: Wednesday 14th November 2018
 

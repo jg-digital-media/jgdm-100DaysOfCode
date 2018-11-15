@@ -4,6 +4,14 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 49
+
+Things about lookaheads in JavaScript.  I'd never heard of these or seen them before now
+
+These will take some time to get through so I may stop reporting on pandas from here.
+
+I'm doing research behind the scenes on JavaScript Higher Order functions.  map, index, filter etc.  I'll do that instead but I'll keep building up the files on python though.
+
 
 ## Day 48
 

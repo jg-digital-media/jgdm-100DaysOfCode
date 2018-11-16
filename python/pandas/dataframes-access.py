@@ -46,3 +46,4 @@ print(slicing2)
 
 useiLoc = users.iloc[1:2, 1:]  #access by iloc slicing
 print(useiLoc)
+

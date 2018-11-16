@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 49 of 100.   **Last Update:**  15th November 2018
+### **Status:** Day 50 of 100.   **Last Update:**  16th November 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -13,6 +13,13 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
+### **Day 50**: Friday 16th November 2018
+
++ **Learning Goals:**
+    + Continue learning about JavaScripts higher order iteration methods.
++ **Thoughts:** 
+    + Key takeaway from this is that just like the standard foreach() method, filter also takes a callback function but removes items and displays the remaining items in a new array. - leaving the original.
++  **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
 
 ### **Day 49**: Thursday 15th November 2018
 
@@ -23,7 +30,7 @@ I won't last 100 straight days this time either, although I intend to complete 1
 + **Thoughts:**     
     + The work on Python will take some time to get through so I may stop reporting on pandas from here.    
     + I'm doing research behind the scenes on JavaScript Higher Order functions.  map, index, filter etc.  I'll do that instead but I'll keep building up the files on python though.
-+ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCod
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
 
 
 ### **Day 48**: Wednesday 14th November 2018

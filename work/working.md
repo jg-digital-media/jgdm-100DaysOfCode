@@ -4,6 +4,27 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 50
+
+```filter()```  - remove items from an array.  does not affect the original array
+
+It takes a callback function that will return wither true or false.
+
+```javascript
+const names = ["Jack", "Graham","Bauer"];
+
+const rem_names = names.filter((rem_name) => {
+   return rem_name !== "Graham";
+});
+
+```
+
+```javascript
+console.log(rem_names);
+
+condensed example: -> const rem_names = names.filter(name => rem_name !== "Graham");
+```
+
 ## Day 49
 
 Things about lookaheads in JavaScript.  I'd never heard of these or seen them before now

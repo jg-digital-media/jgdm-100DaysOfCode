@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 50 of 100.   **Last Update:**  16th November 2018
+### **Status:** Day 51 of 100.   **Last Update:**  19th November 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -12,6 +12,10 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 51**: Monday 19th November 2018
+
+Haven't left myself a lot of time to report but I did manage to get some good time in with the filter iteration method in JavaScript which was useful. Check  ```iteration.js``` 
 
 ### **Day 50**: Friday 16th November 2018
 

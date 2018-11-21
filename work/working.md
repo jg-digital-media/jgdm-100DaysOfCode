@@ -4,7 +4,52 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-## Day 52
+## Day 53
+
+Well, it took me 53 days but I messed up my commit message for Day 53.  Should read R1D53 not R1D53.
+
+Examples of Array methods .forEach and .map()
+
+```javascript
+
+//forEach
+
+const names = ['Selma', 'Ted', 'Mike', 'Sam', 'Sharon', 'Marvin'];
+let beginsS = 0;
+
+names.forEach(name => {
+    if(name[0] == 'S') {
+        console.log(name)
+    }
+});
+
+```
+
+```javascript
+
+//map()
+
+const fruits = ['apple', 'pear', 'cherry'];
+
+let capitalizedFruits = fruits.map(fruit => {
+  let capitalizedFruit = fruit.toUpperCase();
+  capitalizedFruits.push(capitalizedFruit);
+});
+
+console.log(capitalizedFruits);
+
+```
+
+//filter()
+
+```javascript
+const names = ["Jack", "Graham","Bauer"];
+
+const rem_names = names.filter((rem_name) => {
+   return rem_name !== "Graham";
+});
+
+``
 
 ## Day 50
 

@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 52 of 100.   **Last Update:**  20th November 2018
+### **Status:** Day 53 of 100.   **Last Update:**  21st November 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -12,7 +12,19 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
-### **Day 51**: Tuesday 20th November 2018
+
+### **Day 53**: Wednesday 21st November 2018
+
++ **Learning Goals:** Continue learning more about the map() method and various other methods.
++ **Progress:**
+    + Very pleased with the progress I made today. Was able to look up the required methods to complete the map() method example in ```javascript/iteration-methods/map.js```
+    + Cleaned up the ```iteration-methods``` folder to include 1 file for each method type worked on so far.
++ **Thoughts:** 
+    + Trying to lock into my head what the most popular iteration methods to.  ```map()``` for example transforms the contents of an array.
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode 
+
+
+### **Day 52**: Tuesday 20th November 2018
 
 Focusing on a client project today, combining Stripe payment gateway information with my own server side script.  Looking forward to announcing when the project is done.
 

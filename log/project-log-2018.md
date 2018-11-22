@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 53 of 100.   **Last Update:**  21st November 2018
+### **Status:** Day 54 of 100.   **Last Update:**  22nd November 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -12,6 +12,10 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 54**: Thursday 22nd November 2018
+
+Devoted much of today to working with JavaScript and PHP to integrating a Stripe API to a website I'm developing for a client. It was a gruelling day but the job is getting closer to being done.  Really pleased.
 
 ### **Day 53**: Wednesday 21st November 2018
 

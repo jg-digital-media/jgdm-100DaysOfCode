@@ -13,6 +13,12 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
+### ** Day 55** Friday 23rd November 2018
+
+Big breakthrough with the work project today. Subject to confirmation live payments should now be working on the website I've been working on for several weeks. Getting closer to announcing  :)
+
+Reduce.js file currently has errors looking forward to fixing. :)
+
 ### **Day 54**: Thursday 22nd November 2018
 
 Devoted much of today to working with JavaScript and PHP to integrating a Stripe API to a website I'm developing for a client. It was a gruelling day but the job is getting closer to being done.  Really pleased.

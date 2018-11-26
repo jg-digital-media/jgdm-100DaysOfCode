@@ -14,7 +14,8 @@ transactions = pd.read_csv(os.path.join('data', 'transactions.csv'), index_col=0
   # do not attempt to chain and assign. 
   # users[(users.first_name == "Adrian") & (users.last_name == "Fang")]['balance'] = 35.00
 
-#dataframe.loc
+#dataframe.loc - use the DataFrame.loc object to locate the row and specific column to update.
+#setting by enlargement
 users.loc[(users.first_name == "Adrian") & (users.last_name == "Fang"), 'balance'] = 35.00
 # Display our updated user with the new value assigned
 users.loc['adrian']
@@ -51,11 +52,28 @@ transactions.at[latest_id, 'notes'] = 'Adrian called customer support to report 
 print( transactions.tail() )
 
 
+# Renaming Columns - #dataframe.rename()
+# Renaming columns can be achieved using the DataFrame.rename method. 
+# You specify the current name(s) as the key(s) and the new name(s) as the value(s).
+#
+#
 
-#dataframe.rename()
-#
-#Renaming Columns
-#Renaming columns can be acheived using the DataFrame.rename method. You specify the current name(s) as the key(s) and the new name(s) as the value(s).
-#
-#
+transactions.rename(columns={'large': 'big_sender'}, inplace=True)
+transactions.head()
+print( transactions.head() )
+
+#DROPPING DATA
+
+#deleting columns.
 #dataframe.drop()
+
+# transactions.drop(columns=['notes'], inplace=True)
+transactions.head()
+
+#Deleting Rows
+#You can see also use the DataFrame.drop method to remove row(s) by index.
+
+last_key = transactions.index.max()
+transactions.drop(index=[last_key], inplace=True)
+transactions.tail()
+print( transactions.tail() )

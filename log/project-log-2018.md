@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 54 of 100.   **Last Update:**  22nd November 2018
+### **Status:** Day 56 of 100.   **Last Update:**  26th November 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -13,7 +13,15 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
-### ** Day 55** Friday 23rd November 2018
+### **Day 56** Monday 26th November 2018
+
++ Still working on some issues behind the scenes with my client for my next website project, but we're trying.  :)
+
++ Streamlined some files for the array iteration method examples.  The next thing to get my head around is examples that chain different methods together.
+
++ Currently struggling through FreeCodeCamp examples that use common JavaScript algorithms. 
+
+### **Day 55** Friday 23rd November 2018
 
 Big breakthrough with the work project today. Subject to confirmation live payments should now be working on the website I've been working on for several weeks. Getting closer to announcing  :)
 

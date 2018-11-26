@@ -1,5 +1,6 @@
 /**
- * map() - remove items from an array.  does not affect the original array
+ * map()
+ * - remove items from an array.  does not affect the original array
  * 
  * map() returns a new array  
  * 

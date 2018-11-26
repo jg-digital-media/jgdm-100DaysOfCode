@@ -1,7 +1,8 @@
 //using Filter
 
 /**
- * filter() - remove items from an array.  does not affect the original array
+ * filter() 
+ * - remove items from an array.  does not affect the original array
  * 
  * It takes a callback function that will return wither true or false.
  * 

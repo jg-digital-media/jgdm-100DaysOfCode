@@ -1,5 +1,6 @@
 /**
- * forEach accepts 2 more parameters  - index, array.
+ * forEach
+ * - accepts 2 more parameters  - index, array.
  * index assigns an incremental number to each item
  * array.forEach();
  * 
@@ -7,7 +8,7 @@
  *        infinite loops impossible
  * Cons:  Can't break out early  use for or while loops if you need to break from a loop
  * 
- * */ 
+ */ 
 
 
 //Example 1

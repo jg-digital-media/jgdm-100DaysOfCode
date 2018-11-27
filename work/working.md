@@ -4,6 +4,17 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 57
+
+Takeaway from today.
+JavaScript provides three string methods that select a substring from an existing string
+https://www.dyn-web.com/javascript/strings/slice.php
+
+
+-> Slice
+-> Substring
+-> substr
+
 ## Day 53
 
 Well, it took me 53 days but I messed up my commit message for Day 53.  Should read R1D53 not R1D53.

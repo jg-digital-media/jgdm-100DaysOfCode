@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 56 of 100.   **Last Update:**  26th November 2018
+### **Status:** Day 57 of 100.   **Last Update:**  27th November 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -12,6 +12,18 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 57** Tuesday 27th November 2018
+
++ **Learning Goals:** Python pandas library - javascript algorithms and solutions.
++ **Progress:** A bit distracted in the last few days with a lot of focus on client work and sorting out a lot of issues with that. 
++ **Thoughts:** 
+  + As a consequence of what I said above I'm not convinced I'm learning a great deal from the Python Data library at the moment.  The latest file I'm building is to do with that but. I've filled it with some code but the imports are not working for reasons I'm not sure about yet. It seems the Utils Python package doesn't have a render module even though the code requests it as an import.
+  + I also mentioned some work doing some common JS Algorithms.  That's going a bit better.
+  + But again my main work of the day as involved troubleshooting some code with a client.
+
++ **Link to Work:** [Working Log](https://github.com/jg-digital-media/jgdm-100DaysOfCode/blob/master/work/working.md) 
+
 
 ### **Day 56** Monday 26th November 2018
 

@@ -15,7 +15,7 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 ### **Day 58** Wednesday 28th November 2018
 
-Bit of a late update for this one.   I have a potential solution for the DataFrames python file that is struggling with its import.  But try as I might I'm not getting anywhere with the react Production build.
+Bit of a late update for this one. I have a potential solution for the DataFrames python file that is struggling with its import.  But try as I might I'm not getting anywhere with the react Production build.
 
 ### **Day 57** Tuesday 27th November 2018
 

@@ -53,3 +53,24 @@ dupes = requests[requests.duplicated(('from_user', 'to_user', 'amount'), keep=Fa
 # Order by requester and the date of request. 
 #   Note that `request_date` in this case is a string, but this string date format sorts properly still.
 dupes.sort_values(['from_user', 'request_date'])
+
+
+# drop duplicates
+# Let's get our records sorted chronologically
+successful_requests.sort_values('request_date', inplace=True) 
+
+# And then we'll drop dupes keeping only the last one. 
+#  Note the use of the inplace keyword
+successful_requests.drop_duplicates(('from_user', 'to_user', 'amount'), keep='last', inplace=True)
+
+# Statement from previous notebook
+"Wow! ${:,.2f} has passed through the request system in {} transactions!!!".format(
+    successful_requests.amount.sum(),
+    len(successful_requests),
+)
+
+#Always make sure to check for duplicates in situations where you are merging one or more DataFrames together.
+
+# dataframe.isin  - The method isin
+
+# dropna()

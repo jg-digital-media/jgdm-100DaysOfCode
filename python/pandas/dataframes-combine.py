@@ -14,6 +14,7 @@ requests = pd.read_csv(os.path.join('data', 'requests.csv'), index_col=0)
 
 requests.head(2)
 transactions.head(2)
+transactions.head(2)
 
 # Since we are calling merge on the `requests` DataFrame it is considered the left side
 successful_requests = requests.merge(

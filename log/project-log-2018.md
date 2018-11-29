@@ -13,6 +13,14 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 # LOG
 
+### **Day 59** Thursday 29th November 2018
++ **Progress:**
+  + Code wasn't referring to an official python import.  I still don't know what the utils.py exactly is.. all I know is it helps get rid of the errors when doing certain things with the Pandas library in Python. Still so much to learn.
+  + It introduced something called **__psychache__** to my repository.
+
+  + A little step further doing some problem solving with JavaScript.
++ **Thoughts:** Still. So. Much. More. To. Learn.
+
 ### **Day 58** Wednesday 28th November 2018
 
 Bit of a late update for this one. I have a potential solution for the DataFrames python file that is struggling with its import.  But try as I might I'm not getting anywhere with the react Production build.

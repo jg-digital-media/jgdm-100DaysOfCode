@@ -4,6 +4,23 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 59
+
+```javascript
+function repeatStringNumTimes(str, num) {
+    // repeat after me
+    let findString = "";
+
+    for (let i = 0; i< num; i++) {
+        findString += str;
+
+    }
+
+    return findString;
+}
+```
+Working out how to repeat a given string without using the .repeat() method.
+
 ## Day 57
 
 Takeaway from today.

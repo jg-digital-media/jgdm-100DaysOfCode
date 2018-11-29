@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 57 of 100.   **Last Update:**  27th November 2018
+### **Status:** Day 59 of 100.   **Last Update:**  29th November 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -12,6 +12,10 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 58** Wednesday 28th November 2018
+
+Bit of a late update for this one.   I have a potential solution for the DataFrames python file that is struggling with its import.  But try as I might I'm not getting anywhere with the react Production build.
 
 ### **Day 57** Tuesday 27th November 2018
 

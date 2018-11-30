@@ -4,6 +4,106 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+
+## Day 60
+
++ Titlecase a sentence
++ Finders Keepers - find first passing value of a function.
++ Truncate a String.
++ Check for booleans
+
+
+### Titlecase a Sentence
+
+```javascript
+function titleCase(str) {
+    var convertToArray = str.toLowerCase().split(" ");
+    var result = convertToArray.map(function(val){
+        return val.replace(val.charAt(0), val.charAt(0).toUpperCase());
+    });
+
+    return result.join(" ");
+}
+
+titleCase("My name, is Jack Bauer");
+console.log( titleCase("my name is Jack BaUer") )
+
+/*
+Function takes a single argument that is a string
+Using the split method makes an array from the string
+Use a map function which returns a function that transforms the array values
+Use the replace method to change format of Strings.
+Return the joined result to change array back to a string
+
+*/
+```
+
+### Finders Keepers
+
+```javascript
+function findElement(arr, func) {
+    //set num to zero as original value
+    let num = 0;
+
+    //Start a for loop that iterates through an array
+    //array passed at function call.
+    for(let i=0; i< arr.length; i++) {
+    //set num to check each array item.
+    num = arr[i];
+
+
+    //if the function passes a true array index, return the number
+    if(func(num)) {
+        return num;
+    }
+}
+
+return undefined;
+}
+
+```
+
+###Truncate a String
+
+```javascript
+
+function truncateString(str, num) {
+    // Clear out that junk in your trunk
+    let ellipse = "..."
+    if(str.length > num) {
+        return str.slice(0, num) + "...";
+    }
+    return str;
+}
+
+truncateString("A-tisket a-tasket A green and yellow basket", 8);
+console.log( truncateString("A-tisket a-tasket A green and yellow basket", 8) )
+console.log( truncateString("Peter Piper picked a peck of pickled peppers", 11) )
+console.log( truncateString("A-tisket a-tasket A green and yellow basket", "A-tisket a-tasket A green and yellow basket.length") )
+console.log( truncateString("Absolutely Longer", 2) )
+console.log( truncateString("A-", 1) )
+console.log( truncateString("A-tisket a-tasket A green and yellow basket", 8) )
+
+```
+
+### Boolean Check
+
+```javascript
+    function booWho(bool) {
+        // What is the new fad diet for ghost developers? The Boolean.
+        if (bool === true || bool == false) {
+            return true;
+        }
+
+        return false;
+    }
+
+    booWho(null);
+    console.log( booWho(null) )
+```
+
+
 ## Day 59
 
 ```javascript

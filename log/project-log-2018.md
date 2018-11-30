@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 59 of 100.   **Last Update:**  29th November 2018
+### **Status:** Day 60 of 100.   **Last Update:**  30th November 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -12,6 +12,16 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
 # LOG
+
+### **Day 60**: Friday 30th November 2018
+
++ **Learning Goals:** Explore some more common algorithmic problems in JavaScript.
++ **Progress:** Created 4 new files in the repository 
++ **Thoughts:** 
+  +  Truncated string example.  ```truncate-string.js``` Based on an example I found online.  I found that the intermediate example offered was simpler and easier to read than the basic example. Tested against various strings. https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/basic-algorithm-scripting/title-case-a-sentence/
+  + Had a lot of fun doing these ones.  And with some help, looking in the right places I was able to write the scripts myself.  I was even able to write the boolean script myself, basic though the example was, which I was very pleased with.
++ **Link to Work:** [Working Log](https://github.com/jg-digital-media/jgdm-100DaysOfCode/blob/master/work/working.md) 
+
 
 ### **Day 59** Thursday 29th November 2018
 + **Progress:**

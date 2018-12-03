@@ -14,20 +14,31 @@
 </head>
 <body>
 
-    <header>
-        <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
-    </header>
+    <div id="vue">
 
-    <main>
-        <article>
-            <h1>Lorem ipsum dolor</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda doloremque, natus ea modi esse repudiandae facilis et veritatis quae eaque, voluptas minus quos, rem eligendi sapiente quaerat fuga iure facere.</p>
-        </article>
-    </main>
+        <header>
+            <h1>{{ pageTitle }}</h1>
+        </header>
 
-    <footer>
-        <p>&copy; Lorem ipsum dolor, <a href="">sit amet consectetur, .</a></p>
-    </footer>
-    
+        <main>
+            <article>
+                <h2>Lorem ipsum dolor</h2>
+                <p>{{ pageDesc }}</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda doloremque, natus ea modi esse repudiandae facilis et veritatis quae eaque, voluptas minus quos, rem eligendi sapiente quaerat fuga iure facere.</p>
+                
+                <ol>
+                    <to-do></to-do>
+                </ol>
+            </article>
+        </main>
+
+        <footer>
+            <p>&copy; Lorem ipsum dolor, <a href="">sit amet consectetur, .</a></p>
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> 
+    <script src="scripts/app.js"></script>   
 </body>
 </html>

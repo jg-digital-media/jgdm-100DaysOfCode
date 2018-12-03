@@ -5,6 +5,13 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 61
+
++ Created a project in Vue.  in vue directory. For now all it does is makes basic use of declarative Syntax. The idea is to build something that makes use of as much of what Vue has to offer as possible.  
+
++ Trying to work out the issue with Component Syntax in Vue.  
+
+
 
 ## Day 60
 

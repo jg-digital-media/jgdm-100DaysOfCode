@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 60 of 100.   **Last Update:**  30th November 2018
+### **Status:** Day 61 of 100.   **Last Update:**  03rd December 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -11,7 +11,22 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
+
+### **Day 61**: Monday 03 December 2018
+
++ **Learning Goals:** Start working with Vue.js in a project.
++ **Progress:**
+  + Created a project in Vue.  in vue directory. For now all it does is makes basic use of declarative Syntax. The idea is to build something that makes use of as much of what Vue has to offer as possible.  
+
+  + Trying to work out the issue with Component Syntax in Vue.  
+
++ **Thoughts:** 
+  + Vue is an interesting, lightweight JavaScript.  I used it once and I enjoyed it.  But it's been a while and need a refresher.  And I still don't know what exactly I'm going to end up with when it's done.  I'll think of something.  :)
++ **Link to Work:** [Working Log](https://github.com/jg-digital-media/jgdm-100DaysOfCode/blob/master/work/working.md)  
+
+
 # LOG
+
 
 ### **Day 60**: Friday 30th November 2018
 

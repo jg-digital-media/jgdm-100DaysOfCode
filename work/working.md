@@ -5,6 +5,25 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 62
+
+
+Goal - fix react Scoreboard app to server
+
+https://projects.jonniegrieve.co.uk/react-scoreboard-v2/
+
+Unless anyone can tell me otherwise I finally can see the Optimized production build of the app online.
+
+But again it kind of happened by accident because I swear first time around when I tested it again after deploying it to the server I got the usual effor message after which I admitted defeat.  
+
+This was after updating various packages including Babel and Create React App itself.
+
+But then kind of without thinking about it, I refreshed the screen again and there it was in all its glory.
+
+https://blog.logrocket.com/whats-new-in-create-react-app-2-fe8f4f448c75
+
+https://www.andreasreiterer.at/fix-whitescreen-static-react-app/
+
 ## Day 61
 
 + Created a project in Vue.  in vue directory. For now all it does is makes basic use of declarative Syntax. The idea is to build something that makes use of as much of what Vue has to offer as possible.  

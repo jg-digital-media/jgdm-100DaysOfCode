@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 61 of 100.   **Last Update:**  03rd December 2018
+### **Status:** Day 62 of 100.   **Last Update:**  04th December 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -11,8 +11,16 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
+### **Day 62**: Tuesday 4th December 2018
 
-### **Day 61**: Monday 03 December 2018
++ **Learning Goals:** Fix React Scoreboard app to server.
++ **Progress:**  It worked. I finally managed to get a working version of the fully featured React Scoreboard app up and running.  Anyone can tell me otherwise.  Exanded the Vue project a little bit to render a simple array.  And worked a little bit on JavaScript Object Oriented Programming.
++ **Thoughts:** 
++ **Link to Work:** 
+  + [React Scoreboard App](https://projects.jonniegrieve.co.uk/react-scoreboard-v2/) 
+  + https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
+### **Day 61**: Monday 3rd December 2018
 
 + **Learning Goals:** Start working with Vue.js in a project.
 + **Progress:**

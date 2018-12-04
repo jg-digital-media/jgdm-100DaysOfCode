@@ -25,10 +25,15 @@
                 <h2>Lorem ipsum dolor</h2>
                 <p>{{ pageDesc }}</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda doloremque, natus ea modi esse repudiandae facilis et veritatis quae eaque, voluptas minus quos, rem eligendi sapiente quaerat fuga iure facere.</p>
-                
+
                 <ol>
-                    <to-do></to-do>
+                    <li v-for="names in register">{{ names }}</li>
+                    <li v-for="urls in links"><a href="v-bind: {{ urls }}" target="blank"> {{ urls }}</a></li>
+                    
                 </ol>
+
+                <input type="text" value="{{text}}" />
+                <input type="button" value="Add Name">
             </article>
         </main>
 

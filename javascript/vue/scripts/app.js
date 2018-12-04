@@ -1,11 +1,18 @@
 //new vue instance. 
 
+const register = ["Jack Bauer", "Tony Almeida", "Samiya Lynn", "Clayton Sampson", "Claire Holloway"];
+const links = ["http://freewarejava.com", "http://javascriptkit.com", "http://dynamicdrive.com", "http://cnn.com", "https://www.google.com"]
+
+
+//
 const vue = new Vue({
 
     el: '#vue',
     data: {
         pageTitle: 'New Vue Project',
         pageDesc: 'Desc...',
+        register: register,
+        links: links
     },
     methods: {
 

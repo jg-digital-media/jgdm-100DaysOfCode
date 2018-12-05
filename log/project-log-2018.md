@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 62 of 100.   **Last Update:**  04th December 2018
+### **Status:** Day 63 of 100.   **Last Update:**  05th December 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -10,6 +10,14 @@ ___
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
+
+### **Day 63**: Wednesday 5th December 2018
+
++ **Learning Goals:**
++ **Progress:**
++ **Thoughts:** 
++ **Link to Work:** [Project](url) 
+
 
 ### **Day 62**: Tuesday 4th December 2018
 

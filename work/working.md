@@ -5,6 +5,51 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 63
+
+passing in a URL value to the href attribute using Vue.js
+""v-bind:href="''+urls"
+for urls in links
+
+### Basic Java Code  - 2 classes   - built in IntelliJ for working with and unpacking packages.
+
+```java
+package com.company.data;
+
+public class Person {
+
+    String name;
+
+    public Person(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
+
+```
+
+```java
+package com.company;
+
+import com.company.data.Person;
+
+public class Main {
+
+    public static void main(String[] args) {
+        //System.out.println("Hello World");
+
+        Person person = new Person("Jonnie");
+        String name = person.getName();
+        System.out.println(name);
+    }
+}
+
+
+```
+
 ## Day 62
 
 

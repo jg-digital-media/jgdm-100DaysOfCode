@@ -28,7 +28,7 @@
 
                 <ol>
                     <li v-for="names in register">{{ names }}</li>
-                    <li v-for="urls in links"><a href="v-bind: {{ urls }}" target="blank"> {{ urls }}</a></li>
+                    <li v-for="urls in links"><a v-bind:href="''+urls" target="blank"> {{ urls }}</a></li>
                     
                 </ol>
 

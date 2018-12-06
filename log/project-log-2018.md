@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 63 of 100.   **Last Update:**  05th December 2018
+### **Status:** Day 64 of 100.   **Last Update:**  06th December 2018
 
 ___
 **Directories**  log | four_in_a_row | javascript | python | react | work
@@ -11,12 +11,19 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
 
+### **Day 64**: Thursday 6th December 2018
+
+
++ **Progress:**
+  + I know the basics of inheritance in Java
+
+  + More stuff with Vue.js.  I've given the project I was doing some styling and used a few more directives including one that renders some HTML dynamically.
+
++ https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
 ### **Day 63**: Wednesday 5th December 2018
 
-+ **Learning Goals:**
-+ **Progress:**
-+ **Thoughts:** 
-+ **Link to Work:** [Project](url) 
+I was sure that I updated the log for Day 63.  Odd that I would have left it empty and committed that but it doesn't matter I suppose.  I basically spent Day 63 working on things with Vue.js. At this point there was no styling but just some basic use of directives and mustache templating.
 
 
 ### **Day 62**: Tuesday 4th December 2018

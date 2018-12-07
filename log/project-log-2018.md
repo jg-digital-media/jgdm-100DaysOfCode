@@ -1,15 +1,24 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 64 of 100.   **Last Update:**  06th December 2018
+### **Status:** Day 65 of 100.   **Last Update:**  7th December 2018
 
 ___
-**Directories**  log | four_in_a_row | javascript | python | react | work
+**Directories**  log | css | four_in_a_row | javascript | python | react | work
 ___
 ## **Introduction**
 
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
-I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.   
+I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
+
+### **Day 65**: Friday 7th December 2018
+
++ **Learning Goals:**   
+  + Learn something new about targeting different browsers in CSS Responsive Web Design
+  + Continue learing about inheritance in Java
++ **Progress:**
+  + Added a new CSS directory to the repo where the new project lives.  It's not my work.  I might do some work in editing to make it my own later but it was a useful exercise to learning some things about Conditional statements in HTML for targeting CSS for different browsers.  I suspect I need to more as the brief was a few years old but it's a great start.s
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
 
 ### **Day 64**: Thursday 6th December 2018
 

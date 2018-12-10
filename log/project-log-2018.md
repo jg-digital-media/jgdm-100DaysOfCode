@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 65 of 100.   **Last Update:**  7th December 2018
+### **Status:** Day 66 of 100.   **Last Update:**  10th December 2018
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | work
@@ -10,6 +10,16 @@ ___
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
+
+### **Day 66**: Monday 10th December 2018
+
++ **Learning Goals:**
+  + Website design - CSS files targeted to specific web browsers.
++ **Progress:**
+  + Spent most of today getting ready for Christmas! And when not doing that starting on a potential new design for my website, one that will target browsers more specifically.
++ **Thoughts**
+  + The main header of the website is up now. As a single page website I'm going to want to set up the site so the navigation is always visible but reacts to page scroll.  
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
 
 ### **Day 65**: Friday 7th December 2018
 

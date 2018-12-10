@@ -2,10 +2,12 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Day 65 of 100. **Last Update:** 7th December 2018
++ **Status:** Day 66 of 100. **Last Update:** 10th December 2018
 
 + **Directories**
     + css 
+      + geonation
+      + portfolio
     + four_in_a_row
     + javascript
     + log

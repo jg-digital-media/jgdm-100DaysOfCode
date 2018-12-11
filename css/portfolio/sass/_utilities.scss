@@ -1,0 +1,13 @@
+//button
+%button {
+    background: red;
+    padding: 10px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    border-radius: 15px;
+
+    &:hover {
+        background: yellow;
+    }
+}

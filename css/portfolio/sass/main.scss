@@ -1,3 +1,6 @@
+@import "utilities";
+@import "mixins";
+
 body {
     background: lightblue;
     font-family: 'Lato', sans-serif;
@@ -90,7 +93,7 @@ header {
     top: 0;
 }
 
- nav.main-nav {
+nav.main-nav {
 
     width: 100%;
     height: 40px;
@@ -99,7 +102,7 @@ header {
     /*border: solid black 2px;*/
     vertical-align: middle;
     padding-top: 15px;
-    
+
     ol {
         display: inline;
 
@@ -122,18 +125,22 @@ header {
             }
         }
     }
- }
+}
 
- .main-content {
-    width: 60%;
+.main-content {
+    width: 100%;
     position: relative;
     display: block;
     margin: 0 auto;
 
-    article#featured {    
+    article {  
         width: 50%;
         margin: 0 auto;
         line-height: 1.7;
+
+    }
+
+    article#featured {  
 
         img {
             width: 40%;
@@ -147,19 +154,41 @@ header {
         }
     }
 
+    video {
+        width: 100%;
+    }
+
+    article#video {
+
+    }
+
+    .about-box {
+        width: 30%;
+    }
+
+    article#about {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .button {
+        @extend %button;
+    }
+
  }
 
- .show-featured {
-     text-align: center;;
- }
+    .show-featured {
+        text-align: center;;
+    }
 
- footer {
+    footer {
 
     background: grey;
     color: white;
-    
+
     p {
         text-align: center;
         margin: 0; 
     }
- }
+    }

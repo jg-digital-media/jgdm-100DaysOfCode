@@ -130,6 +130,27 @@ header {
     display: block;
     margin: 0 auto;
 
+    article#featured {    
+        width: 50%;
+        margin: 0 auto;
+        line-height: 1.7;
+
+        img {
+            width: 40%;
+            display: inline;
+            margin: 0 auto;
+            opacity: 1;
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+
+ }
+
+ .show-featured {
+     text-align: center;;
  }
 
  footer {

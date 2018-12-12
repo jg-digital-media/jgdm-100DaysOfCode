@@ -132,11 +132,18 @@ nav.main-nav {
     position: relative;
     display: block;
     margin: 0 auto;
+    background: url('img/interior.png');
+    background-size: cover;
+    background-position: fixed;
 
-    article {  
-        width: 50%;
+    article {    
+        width: 65%;
         margin: 0 auto;
         line-height: 1.7;
+        background: lightblue;
+        border-radius: 20px;
+        padding: 12px;
+        margin-bottom: 20px;
 
     }
 
@@ -170,6 +177,35 @@ nav.main-nav {
         display: flex;
         flex-direction: row;
 
+    }
+
+    article#services {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-height: 1vh;
+
+        /* h2 {
+            display: block;
+        } */
+
+        div {
+            display: inline;
+            width: 250px;
+            height: 250px;
+            position: relative;
+        }
+
+        img {
+            /*position: absolute;*/
+        }
+
+        p {
+            position: relative;
+            bottom: 77px;
+            background: gray;
+            opacity: 0.6;
+        }
     }
 
     .button {

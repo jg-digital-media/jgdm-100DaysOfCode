@@ -98,11 +98,18 @@ nav.main-nav {
   width: 100%;
   position: relative;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  background: url("img/interior.png");
+  background-size: cover;
+  background-position: fixed; }
   .main-content article {
-    width: 50%;
+    width: 65%;
     margin: 0 auto;
-    line-height: 1.7; }
+    line-height: 1.7;
+    background: lightblue;
+    border-radius: 20px;
+    padding: 12px;
+    margin-bottom: 20px; }
   .main-content article#featured img {
     width: 40%;
     display: inline;
@@ -117,6 +124,26 @@ nav.main-nav {
   .main-content article#about {
     display: flex;
     flex-direction: row; }
+  .main-content article#services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 1vh;
+    /* h2 {
+        display: block;
+    } */ }
+    .main-content article#services div {
+      display: inline;
+      width: 250px;
+      height: 250px;
+      position: relative; }
+    .main-content article#services img {
+      /*position: absolute;*/ }
+    .main-content article#services p {
+      position: relative;
+      bottom: 77px;
+      background: gray;
+      opacity: 0.6; }
 
 .show-featured {
   text-align: center; }

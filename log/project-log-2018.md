@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 67 of 100.   **Last Update:**  11th December 2018
+### **Status:** Day 68 of 100.   **Last Update:**  12th December 2018
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | work
@@ -10,6 +10,16 @@ ___
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
+
+### **Day 68**: Wednesday December 12th 2018
+
++ **Learning Goals:**Continued to build new pages for the portfolio site.
++ **Progress:** Continued to build new pages for the portfolio site.
++ **Thoughts:** 
+  + I haven't had a lot of time to work on the portfolio today but I've cleaned up the code a little bit, added some images with a placeholder in them and a background interior image.  
+  
+  + I'm envisioning a background image that covers the viewport with solid backgrounds scrolling around it but this effect is not in place yet.
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
 
 ### **Day 67**: Tuesday 11th December 2018
 

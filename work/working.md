@@ -5,9 +5,19 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
-## Day 66
+## Day 69
 
-? 
+```javascript
+//immediately invoked function expression
+
+( function){/*function code goes here*/}();
+
+(function() {
+  console.log("A cozy nest is ready");
+})();
+
+
+```
 
 ## Day 63
 

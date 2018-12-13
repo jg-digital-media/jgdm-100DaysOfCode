@@ -11,6 +11,17 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
 
+
+### **Day 69**: Thursday December 13th 2018
+
++ **Progress:**
+  + Considerable progress today on the portfolio design I'm doing.  The background attachment is now in place and most of the nuts and bolts are now ready.
++ **Thoughts:**  
+  + Sass is in place for quick editing of colours and added a mixin for easy manipulation of the layout of content.
+  + Along the way I also learned about IIFE (Immediately invoked Function Expressions) in JavaScript.
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
+
 ### **Day 68**: Wednesday December 12th 2018
 
 + **Learning Goals:**Continued to build new pages for the portfolio site.

@@ -1,17 +1,21 @@
+@import "colours";
 @import "utilities";
 @import "mixins";
 
 body {
-    background: lightblue;
+    background: $body-background;
     font-family: 'Lato', sans-serif;
     padding: 0;
     margin: 0;
+    background: url("img/interior.png");
+    background-size: 100% 100%;
+    background-attachment: fixed;
 }
 
 header {
 
-    background: #0B053F;
-    color: white;
+    background: $header-background;
+    color: $header-text-col;
     display: flex;
 
     @media(max-width: 620px) {
@@ -98,7 +102,7 @@ nav.main-nav {
     width: 100%;
     height: 40px;
     text-align: center;
-    background: #7adb9f;
+    background: $nav-background;
     /*border: solid black 2px;*/
     vertical-align: middle;
     padding-top: 15px;
@@ -112,11 +116,11 @@ nav.main-nav {
         }
 
         li a {
-            color: black;
+            color: $nav-link-col;
             text-decoration: none;
             font-weight: bold;
             &:hover {
-                color: red;
+                color: $nav-link-hov;
             }
 
             &.selected {
@@ -132,25 +136,50 @@ nav.main-nav {
     position: relative;
     display: block;
     margin: 0 auto;
-    background: url('img/interior.png');
-    background-size: cover;
-    background-position: fixed;
 
     article {    
         width: 65%;
         margin: 0 auto;
         line-height: 1.7;
         background: lightblue;
+        background: $article-main-background;
         border-radius: 20px;
         padding: 12px;
         margin-bottom: 20px;
+        color: $article-text-col;
+        /*opacity: 0.6;*/
 
+    }
+
+    article#intro {
+        background: none;
+        padding: 10% 0 0 0;
+
+        h1 {
+            text-align: center;
+        }
     }
 
     article#featured {  
 
+        @include articlePlacement(block, row, 10%);
+
+        .show-featured {
+            text-align: center;
+        }
+    
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            width: 50%;
+            margin: 0 auto;
+        }
+
         img {
-            width: 40%;
+            width: 35%;
             display: inline;
             margin: 0 auto;
             opacity: 1;
@@ -159,35 +188,43 @@ nav.main-nav {
                 opacity: 0.7;
             }
         }
-    }
-
-    video {
-        width: 100%;
-    }
+    }    
 
     article#video {
+        @include articlePlacement(block, row, 10%);
+        
+        video {
+            width: 100%;
+        }
 
     }
 
     .about-box {
-        width: 30%;
+        width: 35%;
     }
 
     article#about {
-        display: flex;
-        flex-direction: row;
+        @include articlePlacement(flex, row, 10%);
 
     }
 
     article#services {
-        display: flex;
-        flex-direction: row;
+        @include articlePlacement(flex, row, 10%);
+
         flex-wrap: wrap;
         min-height: 1vh;
+        justify-content: center;
 
-        /* h2 {
+        h2 {
             display: block;
-        } */
+            width: 100%;
+            text-align: center;
+        } 
+        
+        h3 {
+            width: 100%;
+            text-align: center;
+        }
 
         div {
             display: inline;
@@ -198,14 +235,41 @@ nav.main-nav {
 
         img {
             /*position: absolute;*/
+            opacity: 0.4;
+            &:hover {
+                opacity: 1;
+            }
         }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        
 
         p {
             position: relative;
             bottom: 77px;
-            background: gray;
+            background: $services-img-background;
             opacity: 0.6;
         }
+    }
+
+    article#hire-me {
+        @include articlePlacement(block, row, 10%);
+        
+    }
+
+    article#dyspraxia {
+        @include articlePlacement(flex, row, 10%);
+
+        h2 {
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+
     }
 
     .button {
@@ -214,17 +278,13 @@ nav.main-nav {
 
  }
 
-    .show-featured {
-        text-align: center;;
-    }
+footer {
 
-    footer {
-
-    background: grey;
-    color: white;
+    background: $footer-background;
+    color: $footer-text-col;
 
     p {
         text-align: center;
         margin: 0; 
     }
-    }
+}

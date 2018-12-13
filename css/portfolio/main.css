@@ -1,3 +1,6 @@
+/**
+Colours
+*/
 .main-content .button {
   background: red;
   padding: 10px;
@@ -12,7 +15,10 @@ body {
   background: lightblue;
   font-family: 'Lato', sans-serif;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  background: url("img/interior.png");
+  background-size: 100% 100%;
+  background-attachment: fixed; }
 
 header {
   background: #0B053F;
@@ -75,7 +81,7 @@ nav.main-nav {
   width: 100%;
   height: 40px;
   text-align: center;
-  background: #7adb9f;
+  background: #eef595;
   /*border: solid black 2px;*/
   vertical-align: middle;
   padding-top: 15px; }
@@ -98,58 +104,106 @@ nav.main-nav {
   width: 100%;
   position: relative;
   display: block;
-  margin: 0 auto;
-  background: url("img/interior.png");
-  background-size: cover;
-  background-position: fixed; }
+  margin: 0 auto; }
   .main-content article {
     width: 65%;
     margin: 0 auto;
     line-height: 1.7;
     background: lightblue;
+    background: gray;
     border-radius: 20px;
     padding: 12px;
-    margin-bottom: 20px; }
-  .main-content article#featured img {
-    width: 40%;
-    display: inline;
-    margin: 0 auto;
-    opacity: 1; }
-    .main-content article#featured img:hover {
-      opacity: 0.7; }
-  .main-content video {
-    width: 100%; }
+    margin-bottom: 20px;
+    color: white;
+    /*opacity: 0.6;*/ }
+  .main-content article#intro {
+    background: none;
+    padding: 10% 0 0 0; }
+    .main-content article#intro h1 {
+      text-align: center; }
+  .main-content article#featured {
+    display: block;
+    flex-direction: row;
+    margin-top: 10%;
+    /*flex, row, 10%*/ }
+    .main-content article#featured .show-featured {
+      text-align: center; }
+    .main-content article#featured h1 {
+      text-align: center; }
+    .main-content article#featured p {
+      width: 50%;
+      margin: 0 auto; }
+    .main-content article#featured img {
+      width: 35%;
+      display: inline;
+      margin: 0 auto;
+      opacity: 1; }
+      .main-content article#featured img:hover {
+        opacity: 0.7; }
+  .main-content article#video {
+    display: block;
+    flex-direction: row;
+    margin-top: 10%;
+    /*flex, row, 10%*/ }
+    .main-content article#video video {
+      width: 100%; }
   .main-content .about-box {
-    width: 30%; }
+    width: 35%; }
   .main-content article#about {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    margin-top: 10%;
+    /*flex, row, 10%*/ }
   .main-content article#services {
     display: flex;
     flex-direction: row;
+    margin-top: 10%;
+    /*flex, row, 10%*/
     flex-wrap: wrap;
     min-height: 1vh;
-    /* h2 {
-        display: block;
-    } */ }
+    justify-content: center; }
+    .main-content article#services h2 {
+      display: block;
+      width: 100%;
+      text-align: center; }
+    .main-content article#services h3 {
+      width: 100%;
+      text-align: center; }
     .main-content article#services div {
       display: inline;
       width: 250px;
       height: 250px;
       position: relative; }
     .main-content article#services img {
-      /*position: absolute;*/ }
+      /*position: absolute;*/
+      opacity: 0.4; }
+      .main-content article#services img:hover {
+        opacity: 1; }
+    .main-content article#services a {
+      color: black;
+      text-decoration: none; }
     .main-content article#services p {
       position: relative;
       bottom: 77px;
       background: gray;
       opacity: 0.6; }
-
-.show-featured {
-  text-align: center; }
+  .main-content article#hire-me {
+    display: block;
+    flex-direction: row;
+    margin-top: 10%;
+    /*flex, row, 10%*/ }
+  .main-content article#dyspraxia {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    /*flex, row, 10%*/ }
+    .main-content article#dyspraxia h2 {
+      display: block;
+      text-align: center;
+      width: 100%; }
 
 footer {
-  background: grey;
+  background: gray;
   color: white; }
   footer p {
     text-align: center;

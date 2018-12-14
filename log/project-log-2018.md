@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 68 of 100.   **Last Update:**  12th December 2018
+### **Status:** Day 70 of 100.   **Last Update:**  14th December 2018
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | work
@@ -10,6 +10,12 @@ ___
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
+
+### **Day 70**: Friday December 14th 2018
+
++ **Learning Goals:** More work on the portfolio design.
++ **Progress:** The website is taking shape, has a more consistent design and is responsive
+
 
 
 ### **Day 69**: Thursday December 13th 2018

@@ -7,7 +7,7 @@ body {
     font-family: 'Lato', sans-serif;
     padding: 0;
     margin: 0;
-    background: url("img/interior.png");
+    background: url("img/interior-dark.png");
     background-size: 100% 100%;
     background-attachment: fixed;
 }
@@ -18,7 +18,7 @@ header {
     color: $header-text-col;
     display: flex;
 
-    @media(max-width: 620px) {
+    @media(max-width: $md) {
         display: block;
 
     }
@@ -28,7 +28,7 @@ header {
         /*height: 200px;*/
         display: inline-block;
 
-        @media(max-width: 620px) {
+        @media(max-width: $md) {
             display: block;
             margin: 0 auto;    
         }
@@ -37,15 +37,24 @@ header {
     #website-title {
         display: inline-block;
         width: 50%;
-        text-align: center;
+        text-align: center;        
 
-        h2 {
-            @media(max-width: 620px) {
+        .green {
+            color: #B4BA66;
+
+        }
+
+        .yellow {
+            color: #F1F6BD;
+        } 
+        
+        h1 {
+            @media(max-width: $md) {
                 display: none;
             }
         }
 
-        @media(max-width: 620px) { 
+        @media(max-width: $md) { 
             display: block;
             margin: 0 auto;
         }
@@ -64,13 +73,14 @@ header {
         li {
             display: inline;
             margin-right: 5px;
-            @media(max-width: 620px) {
+            @media(max-width:$md) {
                 display: inline;
             }
         }
 
-        @media(max-width: 620px) {
+        @media(max-width: $md) {
             text-align: center;
+            padding: 0;
         }
     }
 
@@ -78,15 +88,6 @@ header {
         display: inline-block;
         margin: 20px auto;
         width: 40px;
-    }
-
-    .green {
-        color: #B4BA66;
-
-    }
-
-    .yellow {
-        color: #F1F6BD;
     }
 }
 
@@ -113,6 +114,16 @@ nav.main-nav {
         li {
             display: inline;
             margin-right: 10px;
+
+            @media (max-width: $sm) {
+                display: inline;
+                position: relative;
+                left: 0;
+                text-align: left;
+                font-size: 4vw;
+            }
+            
+
         }
 
         li a {
@@ -157,10 +168,18 @@ nav.main-nav {
 
         h1 {
             text-align: center;
+            @media(max-width: 320px) {
+                font-size: 3vw;
+            }
         }
     }
 
+    article#about-jgdm {
+        background: none;
+    }
+
     article#featured {  
+        color: black;
 
         @include articlePlacement(block, row, 10%);
 
@@ -169,7 +188,7 @@ nav.main-nav {
         }
     
 
-        h1 {
+        h2 {
             text-align: center;
         }
 
@@ -187,24 +206,58 @@ nav.main-nav {
             &:hover {
                 opacity: 0.7;
             }
+            
+            @media(max-width: 620px) {
+                width: 70%;
+            }
+            
         }
-    }    
-
-    article#video {
-        @include articlePlacement(block, row, 10%);
-        
-        video {
-            width: 100%;
-        }
-
-    }
+    } 
 
     .about-box {
         width: 35%;
+
+        @media(max-width: $md) {
+            width: 90%;
+            margin: 0 auto;
+        }
     }
 
     article#about {
         @include articlePlacement(flex, row, 10%);
+        color: black;
+
+        h3 {
+            color: black;
+        }
+
+        @media(max-width: $md) {
+            display: block;
+            width: 70%;
+
+        }
+
+
+    }      
+
+    article#video {
+        @include articlePlacement(block, row, 10%);
+        color: black;
+
+        @media(max-width: $md) {
+            width: 90%;
+        }
+        
+        video {
+            width: 85%;
+            margin: 0 auto;
+            text-align: center;
+            display: block;
+
+            @media(max-width: $md) {
+                width: 100%;
+            }
+        }
 
     }
 
@@ -214,6 +267,10 @@ nav.main-nav {
         flex-wrap: wrap;
         min-height: 1vh;
         justify-content: center;
+
+        @media(max-width: $md) {
+            width: 90%
+        }
 
         h2 {
             display: block;
@@ -258,11 +315,46 @@ nav.main-nav {
 
     article#hire-me {
         @include articlePlacement(block, row, 10%);
+
+        form#hire-form {
+            width: 70%;
+            background: #EEF595;
+            color: black;
+            padding: 10px;
+        }
+
+        input {
+            height: 30px;
+            width: 30%;
+        }
+
+        input[type="submit"] {
+            display: table;
+            content: "";
+            clear: both;
+            margin: 20px auto;
+        }
+        
+        textarea#label4 {
+            width: 30%;
+            height: 68px;
+            display: block;
+        }
+        
+        .div-row {
+            min-height: 50px;
+        }
+        
+        .col-one {
+            float: left;
+            width: 111px;
+        }
         
     }
 
     article#dyspraxia {
-        @include articlePlacement(flex, row, 10%);
+        @include articlePlacement(block, row, 10%);
+        width: 500px;
 
         h2 {
             display: block;
@@ -288,3 +380,5 @@ footer {
         margin: 0; 
     }
 }
+
+/*<a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('terms.html','','scrollbars=yes,width=550,height=250')">*/

@@ -16,7 +16,7 @@ body {
   font-family: 'Lato', sans-serif;
   padding: 0;
   margin: 0;
-  background: url("img/interior.png");
+  background: url("img/interior-dark.png");
   background-size: 100% 100%;
   background-attachment: fixed; }
 
@@ -39,8 +39,12 @@ header {
     display: inline-block;
     width: 50%;
     text-align: center; }
+    header #website-title .green {
+      color: #B4BA66; }
+    header #website-title .yellow {
+      color: #F1F6BD; }
     @media (max-width: 620px) {
-      header #website-title h2 {
+      header #website-title h1 {
         display: none; } }
     @media (max-width: 620px) {
       header #website-title {
@@ -61,15 +65,12 @@ header {
           display: inline; } }
     @media (max-width: 620px) {
       header #social {
-        text-align: center; } }
+        text-align: center;
+        padding: 0; } }
   header #social img {
     display: inline-block;
     margin: 20px auto;
     width: 40px; }
-  header .green {
-    color: #B4BA66; }
-  header .yellow {
-    color: #F1F6BD; }
 
 .sticky {
   position: fixed;
@@ -90,6 +91,13 @@ nav.main-nav {
     nav.main-nav ol li {
       display: inline;
       margin-right: 10px; }
+      @media (max-width: 320px) {
+        nav.main-nav ol li {
+          display: inline;
+          position: relative;
+          left: 0;
+          text-align: left;
+          font-size: 4vw; } }
     nav.main-nav ol li a {
       color: black;
       text-decoration: none;
@@ -110,7 +118,7 @@ nav.main-nav {
     margin: 0 auto;
     line-height: 1.7;
     background: lightblue;
-    background: gray;
+    background: #f8f8f87a;
     border-radius: 20px;
     padding: 12px;
     margin-bottom: 20px;
@@ -121,14 +129,20 @@ nav.main-nav {
     padding: 10% 0 0 0; }
     .main-content article#intro h1 {
       text-align: center; }
+      @media (max-width: 320px) {
+        .main-content article#intro h1 {
+          font-size: 3vw; } }
+  .main-content article#about-jgdm {
+    background: none; }
   .main-content article#featured {
+    color: black;
     display: block;
     flex-direction: row;
     margin-top: 10%;
     /*flex, row, 10%*/ }
     .main-content article#featured .show-featured {
       text-align: center; }
-    .main-content article#featured h1 {
+    .main-content article#featured h2 {
       text-align: center; }
     .main-content article#featured p {
       width: 50%;
@@ -140,20 +154,44 @@ nav.main-nav {
       opacity: 1; }
       .main-content article#featured img:hover {
         opacity: 0.7; }
-  .main-content article#video {
-    display: block;
-    flex-direction: row;
-    margin-top: 10%;
-    /*flex, row, 10%*/ }
-    .main-content article#video video {
-      width: 100%; }
+      @media (max-width: 620px) {
+        .main-content article#featured img {
+          width: 70%; } }
   .main-content .about-box {
     width: 35%; }
+    @media (max-width: 620px) {
+      .main-content .about-box {
+        width: 90%;
+        margin: 0 auto; } }
   .main-content article#about {
     display: flex;
     flex-direction: row;
     margin-top: 10%;
-    /*flex, row, 10%*/ }
+    /*flex, row, 10%*/
+    color: black; }
+    .main-content article#about h3 {
+      color: black; }
+    @media (max-width: 620px) {
+      .main-content article#about {
+        display: block;
+        width: 70%; } }
+  .main-content article#video {
+    display: block;
+    flex-direction: row;
+    margin-top: 10%;
+    /*flex, row, 10%*/
+    color: black; }
+    @media (max-width: 620px) {
+      .main-content article#video {
+        width: 90%; } }
+    .main-content article#video video {
+      width: 85%;
+      margin: 0 auto;
+      text-align: center;
+      display: block; }
+      @media (max-width: 620px) {
+        .main-content article#video video {
+          width: 100%; } }
   .main-content article#services {
     display: flex;
     flex-direction: row;
@@ -162,6 +200,9 @@ nav.main-nav {
     flex-wrap: wrap;
     min-height: 1vh;
     justify-content: center; }
+    @media (max-width: 620px) {
+      .main-content article#services {
+        width: 90%; } }
     .main-content article#services h2 {
       display: block;
       width: 100%;
@@ -192,11 +233,34 @@ nav.main-nav {
     flex-direction: row;
     margin-top: 10%;
     /*flex, row, 10%*/ }
+    .main-content article#hire-me form#hire-form {
+      width: 70%;
+      background: #EEF595;
+      color: black;
+      padding: 10px; }
+    .main-content article#hire-me input {
+      height: 30px;
+      width: 30%; }
+    .main-content article#hire-me input[type="submit"] {
+      display: table;
+      content: "";
+      clear: both;
+      margin: 20px auto; }
+    .main-content article#hire-me textarea#label4 {
+      width: 30%;
+      height: 68px;
+      display: block; }
+    .main-content article#hire-me .div-row {
+      min-height: 50px; }
+    .main-content article#hire-me .col-one {
+      float: left;
+      width: 111px; }
   .main-content article#dyspraxia {
-    display: flex;
+    display: block;
     flex-direction: row;
     margin-top: 10%;
-    /*flex, row, 10%*/ }
+    /*flex, row, 10%*/
+    width: 500px; }
     .main-content article#dyspraxia h2 {
       display: block;
       text-align: center;
@@ -204,9 +268,11 @@ nav.main-nav {
 
 footer {
   background: gray;
-  color: white; }
+  color: black; }
   footer p {
     text-align: center;
     margin: 0; }
+
+/*<a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('terms.html','','scrollbars=yes,width=550,height=250')">*/
 
 /*# sourceMappingURL=main.css.map */

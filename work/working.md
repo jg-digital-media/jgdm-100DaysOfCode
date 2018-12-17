@@ -5,6 +5,34 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 71
+form has a submit event.   uses to send forms on button click or press of enter key.
+
+```javascript
+
+
+//ex 1 how to select elements in the DOM in code.
+const = form.document.getElementById("form");
+const input = form.querySelector('input');
+
+form.addEventListener('submit', (e) => {
+    
+}
+
+//ex: 2
+const = form.document.getElementById("form");
+const input = form.querySelector('input');
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault;
+    console.log("Returned the value " + input.value)
+    input.value = "";
+}
+
+```
+
+
+
 ## Day 69
 
 ```javascript

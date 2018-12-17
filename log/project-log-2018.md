@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 70 of 100.   **Last Update:**  14th December 2018
+### **Status:** Day 71 of 100.   **Last Update:**  17th December 2018
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | work
@@ -10,6 +10,19 @@ ___
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
+
+
+### **Day 71**: Monday December 17th 2018
+
++ **Learning Goals:**
+  + Start a refresher on using DOM Scripting with JavaScript via an example
+  + Continue development of the portfolio website.
++ **Progress:**
+  + The value of text inputs are printed to the browser console.  Next step, to add them as list items of a HTML list element.
++ **Thoughts:** 
+  + This is about trying to finally gain more confidence in DOM Scripting and still building a workable example.
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode 
+
 
 ### **Day 70**: Friday December 14th 2018
 

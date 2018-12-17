@@ -2,14 +2,27 @@
 Colours
 */
 .main-content .button {
-  background: red;
+  background: #B4BA66;
+  border: solid #EEF595 2px;
   padding: 10px;
-  color: white;
+  color: #EEF595;
   text-transform: capitalize;
+  text-decoration: none;
   font-weight: bold;
-  border-radius: 15px; }
+  border-radius: 10px; }
   .main-content .button:hover {
-    background: yellow; }
+    background: #EEF595;
+    color: #B4BA66;
+    border: solid #B4BA66 2px; }
+
+.main-content article#hire-me input[type="submit"] {
+  background: lightgreen;
+  border: solid black 1px;
+  color: black;
+  border-radius: 5px;
+  padding: 10px; }
+  .main-content article#hire-me input[type="submit"]:hover {
+    background: green; }
 
 body {
   background: lightblue;
@@ -28,8 +41,9 @@ header {
     header {
       display: block; } }
   header img {
-    /*width: 200px;*/
+    width: 230px;
     /*height: 200px;*/
+    margin-top: 16px;
     display: inline-block; }
     @media (max-width: 620px) {
       header img {
@@ -42,7 +56,7 @@ header {
     header #website-title .green {
       color: #B4BA66; }
     header #website-title .yellow {
-      color: #F1F6BD; }
+      color: #EEF595; }
     @media (max-width: 620px) {
       header #website-title h1 {
         display: none; } }
@@ -226,30 +240,57 @@ nav.main-nav {
     .main-content article#services p {
       position: relative;
       bottom: 77px;
-      background: gray;
-      opacity: 0.6; }
+      min-height: 55px;
+      background: #f0e68a; }
   .main-content article#hire-me {
     display: block;
     flex-direction: row;
     margin-top: 10%;
     /*flex, row, 10%*/ }
     .main-content article#hire-me form#hire-form {
-      width: 70%;
+      width: 90%;
       background: #EEF595;
       color: black;
-      padding: 10px; }
+      padding: 10px;
+      margin: 0 auto; }
+      @media (max-width: 980px) {
+        .main-content article#hire-me form#hire-form {
+          width: 90%; } }
     .main-content article#hire-me input {
-      height: 30px;
-      width: 30%; }
+      height: 35px;
+      width: 60%;
+      font-family: Lato;
+      font-size: 20px;
+      padding: 3px 20px; }
+      @media (max-width: 980px) {
+        .main-content article#hire-me input {
+          width: 90%; } }
+      @media (max-width: 620px) {
+        .main-content article#hire-me input {
+          width: 80%; } }
+    .main-content article#hire-me input:focus {
+      background: green; }
     .main-content article#hire-me input[type="submit"] {
       display: table;
       content: "";
       clear: both;
+      height: 40px;
       margin: 20px auto; }
     .main-content article#hire-me textarea#label4 {
       width: 30%;
+      width: 60%;
       height: 68px;
-      display: block; }
+      display: block;
+      font-size: 20px;
+      padding: 3px 20px; }
+      @media (max-width: 980px) {
+        .main-content article#hire-me textarea#label4 {
+          width: 90%; } }
+      @media (max-width: 620px) {
+        .main-content article#hire-me textarea#label4 {
+          width: 80%; } }
+    .main-content article#hire-me textarea#label4:focus {
+      background: green; }
     .main-content article#hire-me .div-row {
       min-height: 50px; }
     .main-content article#hire-me .col-one {
@@ -260,7 +301,8 @@ nav.main-nav {
     flex-direction: row;
     margin-top: 10%;
     /*flex, row, 10%*/
-    width: 500px; }
+    width: 500px;
+    color: black; }
     .main-content article#dyspraxia h2 {
       display: block;
       text-align: center;

@@ -6,14 +6,30 @@ $xl: 1200px;
 
 //button
 %button {
-    background: red;
+    background: $jonniegrieve;
+    border: solid $digitalmedia 2px;
     padding: 10px;
-    color: white;
+    color: $digitalmedia;
     text-transform: capitalize;
+    text-decoration: none;
     font-weight: bold;
-    border-radius: 15px;
+    border-radius: 10px;
 
     &:hover {
-        background: yellow;
+        background: $digitalmedia;
+        color: $jonniegrieve;
+        border: solid $jonniegrieve 2px;
+    }
+}
+
+%submitBtn {
+    background: lightgreen;
+    border: solid black 1px;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+
+    &:hover {
+        background: green;
     }
 }

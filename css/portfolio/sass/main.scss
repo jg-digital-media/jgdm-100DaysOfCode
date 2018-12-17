@@ -24,8 +24,9 @@ header {
     }
 
     img {
-        /*width: 200px;*/
+        width: 230px;
         /*height: 200px;*/
+        margin-top: 16px;
         display: inline-block;
 
         @media(max-width: $md) {
@@ -40,12 +41,12 @@ header {
         text-align: center;        
 
         .green {
-            color: #B4BA66;
+            color: $jonniegrieve;
 
         }
 
         .yellow {
-            color: #F1F6BD;
+            color: $digitalmedia;
         } 
         
         h1 {
@@ -308,8 +309,9 @@ nav.main-nav {
         p {
             position: relative;
             bottom: 77px;
+            min-height: 55px;
             background: $services-img-background;
-            opacity: 0.6;
+            //opacity: 0.6;
         }
     }
 
@@ -317,28 +319,63 @@ nav.main-nav {
         @include articlePlacement(block, row, 10%);
 
         form#hire-form {
-            width: 70%;
+            width: 90%;
             background: #EEF595;
             color: black;
             padding: 10px;
+            margin: 0 auto;
+            @media (max-width: $lg) {
+                width: 90%;
+            }
         }
 
         input {
-            height: 30px;
-            width: 30%;
+            height: 35px;
+            width: 60%;
+            font-family: Lato;
+            font-size: 20px;
+            padding: 3px 20px;
+        
+            @media (max-width: $lg) {
+                width: 90%;
+            }
+            
+            @media (max-width: $md) {
+                width: 80%;
+            }
+        }
+
+        input:focus {
+            background: green;
         }
 
         input[type="submit"] {
             display: table;
             content: "";
             clear: both;
+
+            height: 40px;
             margin: 20px auto;
+            @extend %submitBtn;
         }
         
         textarea#label4 {
             width: 30%;
+            width: 60%;
             height: 68px;
             display: block;
+            font-size: 20px;
+            padding: 3px 20px;
+            @media (max-width: $lg) {
+                width: 90%;
+            }
+            @media (max-width: $md) {
+                width: 80%;
+            }
+        }
+
+        textarea#label4:focus {
+            background: green
         }
         
         .div-row {
@@ -355,6 +392,7 @@ nav.main-nav {
     article#dyspraxia {
         @include articlePlacement(block, row, 10%);
         width: 500px;
+        color: black;
 
         h2 {
             display: block;

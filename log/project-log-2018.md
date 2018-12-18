@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 71 of 100.   **Last Update:**  17th December 2018
+### **Status:** Day 72 of 100.   **Last Update:**  18th December 2018
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | work
@@ -10,6 +10,14 @@ ___
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
+
+### **Day 72**: Tuesday December 18th 2018
+
++ **Learning Goals:**  Continued refresher on JavaScript DOM Scripting and on Portfolio website design.
++ **Progress:**
+   + Thinking of opening up my design to one of my landing pages for purposes of feedback.
+   + The Dom Scripting Work adds new items to a list one after the other.  Also adds new checkbox to each new item on the list, the idea of which will be to eventually add the ability to indicate whether an item or "task" is completed.
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
 
 
 ### **Day 71**: Monday December 17th 2018

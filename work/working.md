@@ -4,6 +4,26 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 72
+
+### Creating a new element with DOM Scripting
+
++ Select the required Parent Element
++ Code to create child of parent element
++ Append the child element so it appears in browser
++ perform operations on that child element
+
+```javascript
+
+//Add list item content to the screen.
+    const list = document.getElementById("task-list");  //select element
+    const li = document.createElement("li");    //create an element that'll be child of selected element.
+    list.appendChild(li); //select parent,  appended created element.
+    li.textContent = getText;  //grab text from input box.
+```
+
+### in order to add the functionality to press enter to submit the form as well as the submit button,  call addEventListener on the form and use a submit event.
+
 
 ## Day 71
 form has a submit event.   uses to send forms on button click or press of enter key.

@@ -4,21 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Simple List Maker App</title>
     
+    <title>Simple List Maker App</title>
 
-    <style>
-        * {
-            padding: 0;
-            margin: 0
-        }
-
-        h1 {
-            font-size: 4vw;
-        }
-
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="app.css" />
+    
 </head>
 <body>
 
@@ -27,16 +17,16 @@
 
     <form id="add-to-list">
 
-        <label for="type-list">Add to list: </label>
+        <label for="type-list">Add to list: Type in your note and press enter! </label>
         <input type="text" id="type-list" />
     </form>
 
-    <h2>Your List Today Includes: </h2>
-        
-    <ul id="task-list">
-        <li></li>
-    </ul>
-
+    <article id="display-list">
+        <h2>Your List Today Includes: </h2>
+            
+        <ul id="task-list">
+        </ul>
+    </article>
     <script type="text/javascript" src="app.js"></script>
     
 </body>

@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 72 of 100.   **Last Update:**  18th December 2018
+### **Status:** Day 73 of 100.   **Last Update:**  19th December 2018
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | work
@@ -10,6 +10,16 @@ ___
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
+
+### **Day 73**: Wednesday December 19th 2018
+
++ **Learning Goals:** JavaScript DOM Scripting
++ **Progress:**
+  + It took me a while and lots of experimentation but I did some DOM Traversal and found the correct element to change the state of individual elements using checkboxes.
++ **Thoughts:** 
+  + The next item after this is to delete individual elements on a user generated list of elements.
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode 
+
 
 ### **Day 72**: Tuesday December 18th 2018
 

@@ -4,6 +4,40 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 73
+
+Traversal is based on the Position in the DOM of the current selected element.
+
+PreviousElementSibling is the method that selects other HTML elements rather than DOM nodes. 
+
+```html
+    <article id="display-list">
+        <h2>Your List Today Includes: </h2>
+            
+        <ul id="task-list">
+        </ul>
+    </article>
+    <script type="text/javascript" src="app.js"></script>
+
+```
+
+```javascript
+list.addEventListener('change', (e) => {
+    const checkbox = event.target;
+    const checked = checkbox.checked;
+    const listItem = checkbox.previousElementSibling;
+    
+
+    if(checked) {
+        listItem.className="complete";
+
+    } else {
+        listItem.className="";
+
+    }
+
+```
+
 ## Day 72
 
 ### Creating a new element with DOM Scripting

@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Day 72 of 100. **Last Update:** 18th December 2018
++ **Status:** Day 73 of 100. **Last Update:** 19th December 2018
 
 + **Directories**
     + css 
@@ -10,6 +10,9 @@
       + portfolio
     + four_in_a_row
     + javascript
+      + dom
+      + vue
+      + iteration-methods
     + log
     + python
       + madlibs

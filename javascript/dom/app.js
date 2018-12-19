@@ -5,51 +5,56 @@
 const form = document.getElementById("add-to-list");
 const input = form.querySelector('input');
 const displayList = document.getElementById('display-list');
+const list = document.getElementById("task-list");  //select element be child of selected element.
 
-//ul 
-
+//ul
 form.addEventListener('submit', (e) => {
 
+    //prevent form default behaviour
     e.preventDefault();
-    const getText = input.value;
-    
+
+
+    /*Create input text box*/ 
+    const getText = input.value;    
+    input.value = "";
+
     //Add list item content to the screen.
-    const list = document.getElementById("task-list");  //select element
+    const li = document.createElement("li");    //create an element that'll,  appended created element.
+    list.appendChild(li); //select parent
+    li.textContent = getText;  //grab text from input box.    
 
-    const li = document.createElement("li");    //create an element that'll be child of selected element.
-    list.appendChild(li); //select parent,  appended created element.
-    li.textContent = getText;  //grab text from input box.
-
+    /*Create checkbox*/
     const checkbox = document.createElement('input');
     checkbox.type="checkbox";
-    list.appendChild(checkbox);
-    //label.textContent = "Incomplete!";
-    
+    list.appendChild(checkbox);    
 
-    //console log
-    console.log("The returned message is: " + input.value)
-    input.value = "";
+    //Console log
+    console.log("The returned message is: " + input.value);
 })
 
-// https://teamtreehouse.com/library/rsvp-checkbox
+list.addEventListener('change', (e) => {
+    const checkbox = event.target;
+    const checked = checkbox.checked;
+    const listItem = checkbox.previousElementSibling;
+    
 
-/*
+    if(checked) {
+        listItem.className="complete";
+
+    } else {
+        listItem.className="";
+
+    }
+
+})
+
+
+/* 
+
+    // https://teamtreehouse.com/library/rsvp-checkbox
+
     const deleteLabel = document.createElement('label');
     list.appendChild(deleteLabel);
     label.textContent = "x";
 
 */
-
-displayList.addEventListener('change', (e) => {
-    const checkbox = event.target;
-    const checked = checkbox.checked;
-
-    if(checked) {
-        checked.className="complete";
-
-    } else {
-        checked.className="";
-
-    }
-
-})

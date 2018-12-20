@@ -35,6 +35,13 @@
             color: gray;
         }
         
+        input[type="checkbox"] {
+            width: 29px;
+            height: 25px;
+            vertical-align: top;
+            margin-top: 8px;
+        }
+
         button.remove {
             background: red;
             color: white;

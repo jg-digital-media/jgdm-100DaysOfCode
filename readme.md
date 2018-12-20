@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Day 73 of 100. **Last Update:** 19th December 2018
++ **Status:** Day 74 of 100. **Last Update:** 20th December 2018
 
 + **Directories**
     + css 

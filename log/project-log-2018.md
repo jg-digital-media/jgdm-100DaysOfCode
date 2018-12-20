@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 73 of 100.   **Last Update:**  19th December 2018
+### **Status:** Day 74 of 100.   **Last Update:**  20th December 2018
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | work
@@ -10,6 +10,16 @@ ___
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
+
+### **Day 74**: Thursday December 20th 2018
+
++ **Progress:**
+  + DOM Scripting: Checkboxes change paragraph state individually and now remove list items also individually.
+  + Further streamlined the CSS portfolio site I've been developing.  I removed the fixed background for mobiles as this does not work by default for iOS devices.  Still working on a workaround for that.  :)
+  + I also worked out that conditional HTML formatting does not work for iOs but only for certain versions for Internet Explorer.  This is pretty huge info.  It's part of the reason I started working on this project in the first place, to work out issues with cross browser compatability.  
++ **Thoughts:** 
+  + DOM Scripting: Got remove task functionality working on the project. To do that I had to effectively create a containing list item element for each paragraph, checkbox and button element which meant the sibling element traversal had to go and now I've lost some of the CSS Styling I achieved.  But the DOM Scripting is working
++ **Link to Work:** [Project](url) 
 
 ### **Day 73**: Wednesday December 19th 2018
 
@@ -57,7 +67,6 @@ I won't last 100 straight days this time either, although I intend to complete 1
   + Sass is in place for quick editing of colours and added a mixin for easy manipulation of the layout of content.
   + Along the way I also learned about IIFE (Immediately invoked Function Expressions) in JavaScript.
 + **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
-
 
 ### **Day 68**: Wednesday December 12th 2018
 

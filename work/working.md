@@ -4,6 +4,27 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 74
+
+Remove button - by adding elememt via the DOM in he usual way.
+
+uppercase for TagName  - https://teamtreehouse.com/community/button-uppercase
+
+
+Had to fix the code as I couldn't select the remove button that I'd added as a sibling selector.  Had more luck containing the elements in a single list item which when calling removeChild or addChild on different elements.  But remove functionality works.
+
+```javascript
+list.addEventListener('click', (e) => {
+    if(e.target.tagName === 'BUTTON') {
+        const li = e.target.parentNode;
+        const ul = li.parentNode;
+        ul.removeChild(li);
+    }
+});
+```
+
+Remember I'm modelling this project around another example.  I had hoped to go on my own direction for the remove functionality to develop that skill. Instead I had to work hard to investigate the DOM, experiment and come up with the above code. 
+
 ## Day 73
 
 Traversal is based on the Position in the DOM of the current selected element.

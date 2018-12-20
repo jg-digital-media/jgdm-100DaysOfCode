@@ -6,6 +6,7 @@ const form = document.getElementById("add-to-list");
 const input = form.querySelector('input');
 const displayList = document.getElementById('display-list');
 const list = document.getElementById("task-list");  //select element be child of selected element.
+const removeButton = document.getElementsByClassName('remove');
 
 //ul
 form.addEventListener('submit', (e) => {
@@ -26,17 +27,22 @@ form.addEventListener('submit', (e) => {
     /*Create checkbox*/
     const checkbox = document.createElement('input');
     checkbox.type="checkbox";
-    list.appendChild(checkbox);    
+    li.appendChild(checkbox);   
+
+    /*Create remove button*/
+    const removeButton = document.createElement('button');
+    removeButton.textContent = "Remove";
+    removeButton.className = "remove";
+    li.appendChild(removeButton);    
 
     //Console log
-    console.log("The returned message is: " + input.value);
+    console.log("The returned message is: " + input.value + "empty");
 })
 
 list.addEventListener('change', (e) => {
     const checkbox = event.target;
     const checked = checkbox.checked;
-    const listItem = checkbox.previousElementSibling;
-    
+    const listItem = checkbox.parentNode;    
 
     if(checked) {
         listItem.className="complete";
@@ -47,6 +53,14 @@ list.addEventListener('change', (e) => {
     }
 
 })
+
+list.addEventListener('click', (e) => {
+    if(e.target.tagName === 'BUTTON') {
+        const li = e.target.parentNode;
+        const ul = li.parentNode;
+        ul.removeChild(li);
+    }
+});
 
 
 /* 

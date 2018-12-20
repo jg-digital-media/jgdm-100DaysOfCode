@@ -34,7 +34,18 @@
             text-decoration: line-through;
             color: gray;
         }
-
+        
+        button.remove {
+            background: red;
+            color: white;
+            font-weight: bold;
+            padding: 6px;
+            border-radius: 10px;
+            margin-left: 20px;
+            cursor: pointer;
+            border: black solid 2px;
+        }
+        
         article {
             margin: 20px auto;
             width: 50%;

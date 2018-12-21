@@ -8,18 +8,8 @@ const displayList = document.getElementById('display-list');
 const list = document.getElementById("task-list");  //select element be child of selected element.
 const removeButton = document.getElementsByClassName('remove');
 
-//ul
-form.addEventListener('submit', (e) => {
 
-    //prevent form default behaviour
-    e.preventDefault();
-
-
-    /*Create input text box*/ 
-    const getText = input.value;    
-    input.value = "";
-
-    //Add list item content to the screen.
+function createLi(getText) {//Add list item content to the screen.
     const li = document.createElement("li");    //create an element that'll,  appended created element.
     list.appendChild(li); //select parent
     li.textContent = getText;  //grab text from input box.    
@@ -32,9 +22,26 @@ form.addEventListener('submit', (e) => {
     /*Create remove button*/
     const removeButton = document.createElement('button');
     removeButton.textContent = "Remove";
-    removeButton.className = "remove";
-    li.appendChild(removeButton);    
+    removeButton.className = "remove";     
+    li.appendChild(removeButton); 
+    return li;  
 
+
+}
+//ul
+form.addEventListener('submit', (e) => {
+
+    //prevent form default behaviour
+    e.preventDefault();
+
+
+    /*Create input text box*/ 
+    const getText = input.value;    
+    input.value = "";
+
+    //Add list item to DOM
+    createLi(getText)
+    
     //Console log
     console.log("The returned message is: " + input.value + "empty");
 })
@@ -61,14 +68,3 @@ list.addEventListener('click', (e) => {
         ul.removeChild(li);
     }
 });
-
-
-/* 
-
-    // https://teamtreehouse.com/library/rsvp-checkbox
-
-    const deleteLabel = document.createElement('label');
-    list.appendChild(deleteLabel);
-    label.textContent = "x";
-
-*/

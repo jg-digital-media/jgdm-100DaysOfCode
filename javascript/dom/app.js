@@ -7,17 +7,29 @@ const input = form.querySelector('input');
 const displayList = document.getElementById('display-list');
 const list = document.getElementById("task-list");  //select element be child of selected element.
 const removeButton = document.getElementsByClassName('remove');
+const editButton = document.getElementsByClassName('edit');
 
-
-function createLi(getText) {//Add list item content to the screen.
+function createLi(getText) {
+    
+    //Add list item content to the screen.
     const li = document.createElement("li");    //create an element that'll,  appended created element.
+    const p = document.createElement("p");
     list.appendChild(li); //select parent
-    li.textContent = getText;  //grab text from input box.    
+    li.appendChild(p);
+    li.textContent = getText;  //grab text from input box. 
+    p.textContent = getText;
+    li.className = "task";  
 
     /*Create checkbox*/
     const checkbox = document.createElement('input');
     checkbox.type="checkbox";
-    li.appendChild(checkbox);   
+    li.appendChild(checkbox);  
+
+    /*Create an edit button*/ 
+    const editButton = document.createElement('button')
+    editButton.textContent = "Edit Task";
+    editButton.className = "edit";
+    li.appendChild(editButton); 
 
     /*Create remove button*/
     const removeButton = document.createElement('button');
@@ -38,6 +50,7 @@ form.addEventListener('submit', (e) => {
     /*Create input text box*/ 
     const getText = input.value;    
     input.value = "";
+    input.textContent = getText;
 
     //Add list item to DOM
     createLi(getText)

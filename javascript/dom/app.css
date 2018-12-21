@@ -42,7 +42,14 @@
             margin-top: 8px;
         }
 
-        button.remove {
+        #filter-tasks {
+            position: relative;
+            bottom: 12px;
+            left: 30px;
+        }
+
+        button.remove,
+        button.edit {
             background: red;
             color: white;
             font-weight: bold;

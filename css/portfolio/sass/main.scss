@@ -488,7 +488,44 @@ nav.main-nav {
         @extend %button;
     }
 
- }
+}
+
+.pages-content {
+    color: white;
+    line-height: 1.9;
+
+    h1, h2 {
+        text-align: center;
+    }
+
+    p {
+        padding: 10px;
+    }
+
+    a {
+        color: white;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        max-width: 500px;
+        border: solid white 2px;
+
+        @media screen and (max-width: $md) {
+            width: 96%;
+        }
+    }
+
+    .project-link {
+        color: white;
+        display: block;
+        margin: 0;
+    }
+}
 
 footer {
 

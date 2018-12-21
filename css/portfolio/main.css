@@ -367,6 +367,30 @@ nav.main-nav {
       text-transform: capitalize;
       font-variant: all-petite-caps; }
 
+.pages-content {
+  color: white;
+  line-height: 1.9; }
+  .pages-content h1, .pages-content h2 {
+    text-align: center; }
+  .pages-content p {
+    padding: 10px; }
+  .pages-content a {
+    color: white; }
+    .pages-content a:hover {
+      text-decoration: none; }
+  .pages-content img {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+    border: solid white 2px; }
+    @media screen and (max-width: 620px) {
+      .pages-content img {
+        width: 96%; } }
+  .pages-content .project-link {
+    color: white;
+    display: block;
+    margin: 0; }
+
 footer {
   background: gray;
   color: black;

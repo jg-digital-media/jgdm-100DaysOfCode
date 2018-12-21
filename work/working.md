@@ -4,6 +4,25 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 75
+
+Alright, well I'm winding down for the Christmas Holidays so here are some notes for the Simple List Maker App I've been making.
+
+Individual Tasks able to be marked completed.
+
+Individual Tasks able to be removed via Remove button.
+
+
+Added a checkbox that will eventually filter out task (or list items) that are marked as completed.  Not functional at all at the moment.
+
+Added an "Edit Task" button for each list item.  Not functional at all at the moment.
+
+Individual Tasks removed currently able to be removed via the edit button.  [BUG]
+
+Individual Tasks added currently with no text in the input box  [BUG]
+
+I had intended to make each list item follow each other on a new line.  This is possible but each new task should have a defined size. Ths is not possible because it has no selector that can be added to it.  A visual bug but not essential.  
+
 ## Day 74
 
 Remove button - by adding elememt via the DOM in he usual way.

@@ -4,6 +4,20 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 76
+
+We got an Alexa in our house over Christmas (Happy Days!)  So I've been researching the process of creating Custom Alexa Skills. Summarising my findings.
+
+"Teach Alexa to interpret new questions by giving it dialogue (custom interaction model)"
+
++ **Invocation** - beginning an interaction with a custom skill.  A word that invokes a custom skill
++ **Utterance** - the phrase that comes after an invocation
++ **Intent** - an action napped specifically to the ability that a custom skill can perform
+  + Intent - request or command issued by the user to a custom skill
++ **Slots** - slots are used to give the capabilities of your custom skill the information needed to fulfill the users request
++ **Intent Schema** - A structure containing all intents and expected slots handled by a custom skill.  It is specifically formatted text that receives all the intents that your custom skill can respond to
+Should take the time to plan out invocations, utterances, intents and slots before you start making the Skill Model.
+
 ## Day 75
 
 Alright, well I'm winding down for the Christmas Holidays so here are some notes for the Simple List Maker App I've been making.

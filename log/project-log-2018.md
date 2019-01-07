@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 75 of 100.   **Last Update:**  21st December 2018
+### **Status:** Day 76 of 100.   **Last Update:**  7th January 2019
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | work
@@ -10,6 +10,15 @@ ___
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
+
+### **Day 76**: Monday January 7th 2019
+
++ **Learning Goals:** Client Work + Learn to build an Alexa Skill.
++ **Progress:** 
+  + I started out today with some work making some changes to a client website so this took up half the time for today.
+  + It was a bit tricky to build the example Alexa Skill as I was following a different design to the developer website and the process has changed slightly.  But I was successful in saving my model and doing a build via the Amazon Developer Console. 
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode 
+
 
 ### **Day 75**: Friday December 21st 2018
 

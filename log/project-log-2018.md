@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 76 of 100.   **Last Update:**  7th January 2019
+### **Status:** Day 77 of 100.   **Last Update:**  9th January 2019
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | work
@@ -10,6 +10,12 @@ ___
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
+
+### **Day 77**: Wednesday January 9th 2018
+
++ **Learning Goals:** Modernizr  - Alexa Skill
++ **Progress:**  In truth it's been Gruelling. Understanding the maze of the Amazon Developer console is not easy especially when the process has been changed probably more than once since its inception.   Elsewhere I've also set up a small website that has Modernizr set up on it.  Will probably add it to an existing web project of mine to see what effect it has on the existing code.
++ **Link to Work:** https://github.com/jg-digital-media/jgdm-100DaysOfCode
 
 ### **Day 76**: Monday January 7th 2019
 

@@ -1,0 +1,109 @@
+
+$content-background: red;
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(../img/balloon-over-bath.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: arial;
+}
+
+header {
+
+    background: $content-background;
+    height: 160px;
+    color: white;
+
+    h1 {
+        text-align: center;
+
+    }
+
+    img.header-image {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        float: left;
+        margin: 10px;
+    }
+
+    
+    nav {
+        .main-nav {
+            display: block;
+            position: relative;
+            text-align: right;
+            margin-right: 20px;
+            top: 95px;
+
+            li {
+                color: blue;
+                display: inline-block;
+                margin-left: 15px;
+            }
+
+            a {
+                color: white;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+        }
+
+        
+    }
+}
+
+section {
+    width: 100%;
+    height: calc(100vh - 200px);
+}
+
+article {
+    //background: rgba(231, 53, 53, 0.449);
+
+    div {
+        width: 50%;
+        margin: 0 auto;
+
+    }
+
+    //float: left;
+
+    h2 {
+        font-size: 49px;
+    }
+
+    p {
+        line-height: 1.9;
+    }
+}
+
+aside {
+    ul li {
+        color: green;
+        font-weight: bold;
+    }
+}
+
+footer {
+    background: $content-background;
+
+    p {
+        padding: 20px 0;
+        font-weight: bold;
+        color: white;
+        width: 100%;
+        text-align: center;
+        a {
+            letter-spacing: 2pt;
+        }
+    }
+}

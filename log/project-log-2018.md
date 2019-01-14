@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 79 of 100.   **Last Update:**  11th January 2019
+### **Status:** Day 80 of 100. s  **Last Update:**  14th January 2019
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | work
@@ -10,6 +10,10 @@ ___
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
+
+### **Day 80**: Monday January 14th 2018
+
+I've had more work come in since the weekend so this remains my focus on #100daysofcode for now.  But progress made on the CSS project. I still don't know where and how Modernizr does its work but that's the learning curve.  :)
 
 ### **Day 79**: Friday January 11th 2018
 

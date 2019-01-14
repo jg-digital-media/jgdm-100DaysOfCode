@@ -8,10 +8,11 @@ $content-background: red;
 }
 
 body {
-    background: url(../img/balloon-over-bath.jpg);
+    background: url('../img/balloon-over-bath1.png');
     background-size: cover;
     background-repeat: no-repeat;
     font-family: arial;
+    color: white;
 }
 
 header {
@@ -69,9 +70,9 @@ section {
 article {
     //background: rgba(231, 53, 53, 0.449);
 
-    div {
+    div.intro {
         width: 50%;
-        margin: 0 auto;
+        margin: 30% auto;
 
     }
 
@@ -83,6 +84,21 @@ article {
 
     p {
         line-height: 1.9;
+    }
+
+    div.stock-images {
+        display: block;
+        width: 40%;
+        border: solid red 3px;
+
+    }
+
+    div.gallery {
+        display: block;
+        width: 40%;
+        border: solid red 3px;
+
+
     }
 }
 

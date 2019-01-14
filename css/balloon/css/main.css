@@ -3,10 +3,11 @@
   margin: 0; }
 
 body {
-  background: url(../img/balloon-over-bath.jpg);
+  background: url("../img/balloon-over-bath1.png");
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: arial; }
+  font-family: arial;
+  color: white; }
 
 header {
   background: red;
@@ -39,13 +40,21 @@ section {
   width: 100%;
   height: calc(100vh - 200px); }
 
-article div {
+article div.intro {
   width: 50%;
-  margin: 0 auto; }
+  margin: 30% auto; }
 article h2 {
   font-size: 49px; }
 article p {
   line-height: 1.9; }
+article div.stock-images {
+  display: block;
+  width: 40%;
+  border: solid red 3px; }
+article div.gallery {
+  display: block;
+  width: 40%;
+  border: solid red 3px; }
 
 aside ul li {
   color: green;

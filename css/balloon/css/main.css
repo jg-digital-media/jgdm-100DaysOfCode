@@ -37,31 +37,61 @@ header {
         text-decoration: none; }
 
 section {
-  width: 100%;
-  height: calc(100vh - 200px); }
-
-article div.intro {
-  width: 50%;
-  margin: 30% auto; }
-article h2 {
-  font-size: 49px; }
-article p {
-  line-height: 1.9; }
-article div.stock-images {
-  display: block;
-  width: 40%;
-  border: solid red 3px; }
-article div.gallery {
-  display: block;
-  width: 40%;
-  border: solid red 3px; }
+  width: 100%; }
+  section div.intro {
+    width: 50%;
+    margin: 0% auto;
+    padding: 30% 0;
+    line-height: 1.7; }
+  section section.balloon-content {
+    display: flex;
+    width: 98%;
+    margin: 0 auto; }
+    @media (max-width: 740px) {
+      section section.balloon-content {
+        display: block; } }
+    section section.balloon-content h2 {
+      font-size: 49px; }
+    section section.balloon-content p {
+      line-height: 1.9; }
+    section section.balloon-content div.video {
+      display: block;
+      width: 400px;
+      min-height: 200px;
+      border: solid red 3px;
+      margin: 0 auto;
+      /*media query 740px*/ }
+      @media (max-width: 740px) {
+        section section.balloon-content div.video {
+          width: 95%; } }
+    section section.balloon-content div.stock-images {
+      display: block;
+      width: 40%;
+      min-height: 200px;
+      margin: 0 auto;
+      border: solid red 3px;
+      /*media query 740px*/ }
+      @media (max-width: 740px) {
+        section section.balloon-content div.stock-images {
+          width: 95%; } }
+    section section.balloon-content div.gallery {
+      display: block;
+      width: 40%;
+      min-height: 200px;
+      margin: 0 auto;
+      border: solid red 3px;
+      /*media query 740*/ }
+      @media (max-width: 740px) {
+        section section.balloon-content div.gallery {
+          width: 95%; } }
 
 aside ul li {
   color: green;
   font-weight: bold; }
 
 footer {
-  background: red; }
+  background: red;
+  margin-top: 20px; }
   footer p {
     padding: 20px 0;
     font-weight: bold;
@@ -70,5 +100,14 @@ footer {
     text-align: center; }
     footer p a {
       letter-spacing: 2pt; }
+
+/*
+
+Breakpoints:
+
+740px
+
+
+*/
 
 /*# sourceMappingURL=main.css.map */

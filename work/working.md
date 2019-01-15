@@ -5,6 +5,39 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 81
+
+Optimising SVG with SVGO
+
+
+
+```npm install -g svgo``` -Gets SVGO up and running.
+
+ Check how to use section of the repository for SVGO
+
+```
+cd projectFolder
+cd svgo nameoffile.svg
+```
+
+SVGO removes whitespace automatically
+
+```svgo --pretty truck.svg``` - minify the specified file. 
+
+```svgo truck.svg truck.min.svg``` - save minified version of a file as a copy
+
+
+```svg truck.min.svg --datauri=base64``` - 
+
+```svgo -f icons/``` - Working with folders of SVGs
+
+
+In Browser App for SVGO  - 
+https://jakearchibald.github.io/svgomg/
+
+https://github.com/svg/svgo  SVGO  
+
+
 
 ## Day 76
 

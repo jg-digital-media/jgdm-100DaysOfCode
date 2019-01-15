@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 80 of 100. s  **Last Update:**  14th January 2019
+### **Status:** Day 81 of 100.  **Last Update:**  15th January 2019
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | work
@@ -10,6 +10,10 @@ ___
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
+
+### **Day 81**: Tuesday January 15th 2018
+
+Progress made on the CSS project again and added a new folder to the repo called SVG. learning a bit about front end optimisation with the SVGO Build tool!  :)
 
 ### **Day 80**: Monday January 14th 2018
 

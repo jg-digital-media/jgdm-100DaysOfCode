@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Day 80 of 100. **Last Update:** 14th January 2018
++ **Status:** Day 81 of 100. **Last Update:** 15th January 2018
 
 + **Directories**
     + css 
@@ -24,6 +24,7 @@
       + scoreboard
       + scoreboard_v2
       + tictactoe
+    + svg
     + work
 
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  

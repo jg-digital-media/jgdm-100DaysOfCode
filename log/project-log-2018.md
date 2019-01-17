@@ -1,9 +1,9 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 82 of 100.  **Last Update:**  16th January 2019
+### **Status:** Day 83 of 100.  **Last Update:**  17th January 2019
 
 ___
-**Directories**  log | css | four_in_a_row | javascript | python | react | work
+**Directories**  log | css | four_in_a_row | javascript | python | react | svg | work
 ___
 ## **Introduction**
 
@@ -11,7 +11,13 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
 
-### **Day 82**: Tuesday January 15th 2018
+### **Day 83**: Thursday January 17th 2018
+
+Ever feel like things are so chaotic that you don't know what you should put your focus on? Just a few minor updates today.
+++ Taken off the redirect on projects.jonniegrieve.co.uk
+++ Added a new little project to test an issue with ::first-line pseudo selector
+
+### **Day 82**: Wednesday January 16th 2018
 
 Just some time spent doing some coding with Bootstrap today.  There's never a bad time to refresh on the basics and looking forward to pressing on with the Front End Libraries certification on FreeCodeCamp.
 

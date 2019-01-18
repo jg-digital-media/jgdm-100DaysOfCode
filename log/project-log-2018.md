@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 83 of 100.  **Last Update:**  17th January 2019
+### **Status:** Day 84 of 100.  **Last Update:**  18th January 2019
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | svg | work
@@ -10,6 +10,12 @@ ___
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
+
+### **Day 84**: Thursday January 17th 2018
+
+Added an example of an optimised SVG file.  Not sure why the image element won't display it in the same file with no console error but I'll keep looking into that. https://github.com/jg-digital-media/jgdm-100DaysOfCode  #100daysOfCode
+
+Earlier ontoday also updated the projects section of my portfolio.
 
 ### **Day 83**: Thursday January 17th 2018
 

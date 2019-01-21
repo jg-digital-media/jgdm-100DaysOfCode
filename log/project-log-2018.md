@@ -13,7 +13,7 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 ### **Day 85**: Monday January 21st 2018
 
-Spent the day organising my repositories.  I have too many.  Best to organise them by containing folders and make them Git Repositories. Soon keeping up to date will be a simple matter of a git pull command!
+Spent the day organising my repositories.  I have too many.  Best to organise them by containing folders and make them Git Repositories. Soon keeping my up to date will be a simple matter of a git pull command!
 
 ### **Day 84**: Friday January 18th 2018
 

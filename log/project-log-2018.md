@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 86 of 100.  **Last Update:**  22nd January 2019
+### **Status:** Day 87 of 100.  **Last Update:**  23rd January 2019
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | svg | work
@@ -11,6 +11,10 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
 
+
+### **Day 87**: Tuesday January 23rd 2019
+
+Continued reorganising my Github repositories. Pressing ahead with this as I think doing so will help me work with my code better.  No use being buried in Repos. Elsewhere getting closer to finishing some exciting updates to amconsultants.org.uk
 
 ### **Day 86**: Tuesday January 22nd 2019
 

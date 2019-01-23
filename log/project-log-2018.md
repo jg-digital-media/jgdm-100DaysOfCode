@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 85 of 100.  **Last Update:**  21st January 2019
+### **Status:** Day 86 of 100.  **Last Update:**  22nd January 2019
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | svg | work
@@ -11,44 +11,49 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
 
-### **Day 85**: Monday January 21st 2018
+
+### **Day 86**: Tuesday January 22nd 2019
+
+Doing my update for 86 on day 87 :) Work for clients took priority today doing some important updates to our work on amconsultants.org.
+
+### **Day 85**: Monday January 21st 2019
 
 Spent the day organising my repositories.  I have too many.  Best to organise them by containing folders and make them Git Repositories. Soon keeping my up to date will be a simple matter of a git pull command!
 
-### **Day 84**: Friday January 18th 2018
+### **Day 84**: Friday January 18th 2019
 
 Added an example of an optimised SVG file.  Not sure why the image element won't display it in the same file with no console error but I'll keep looking into that. https://github.com/jg-digital-media/jgdm-100DaysOfCode  #100daysOfCode
 
 Earlier ontoday also updated the projects section of my portfolio.
 
-### **Day 83**: Thursday January 17th 2018
+### **Day 83**: Thursday January 17th 2019
 
 Ever feel like things are so chaotic that you don't know what you should put your focus on? Just a few minor updates today.
 ++ Taken off the redirect on projects.jonniegrieve.co.uk
 ++ Added a new little project to test an issue with ::first-line pseudo selector
 
-### **Day 82**: Wednesday January 16th 2018
+### **Day 82**: Wednesday January 16th 2019
 
 Just some time spent doing some coding with Bootstrap today.  There's never a bad time to refresh on the basics and looking forward to pressing on with the Front End Libraries certification on FreeCodeCamp.
 
-### **Day 81**: Tuesday January 15th 2018
+### **Day 81**: Tuesday January 15th 2019
 
 Progress made on the CSS project again and added a new folder to the repo called SVG. learning a bit about front end optimisation with the SVGO Build tool!  :)
 
-### **Day 80**: Monday January 14th 2018
+### **Day 80**: Monday January 14th 2019
 
 I've had more work come in since the weekend so this remains my focus on #100daysofcode for now.  But progress made on the CSS project. I still don't know where and how Modernizr does its work but that's the learning curve.  :)
 
-### **Day 79**: Friday January 11th 2018
+### **Day 79**: Friday January 11th 2019
 
 Most of the work today was strictly client based with HTML and CSS.  But again, I found time to expand on the new CSS Project I started yesterday.  Been a busy week. :)
 
-### **Day 78**: Thursday January 10th 2018
+### **Day 78**: Thursday January 10th 2019
 
 Most of the work today was strictly client based with HTML and CSS.  But I did find the time to add a new project to the CSS folder of this repo.
 
 
-### **Day 77**: Wednesday January 9th 2018
+### **Day 77**: Wednesday January 9th 2019
 
 + **Learning Goals:** Modernizr  - Alexa Skill
 + **Progress:**  In truth it's been Gruelling. Understanding the maze of the Amazon Developer console is not easy especially when the process has been changed probably more than once since its inception.   Elsewhere I've also set up a small website that has Modernizr set up on it.  Will probably add it to an existing web project of mine to see what effect it has on the existing code.

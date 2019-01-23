@@ -2,13 +2,14 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Day 85 of 100. **Last Update:** 21st January 2018
++ **Status:** Day 86 of 100. **Last Update:** 22nd January 2018
 
 + **Directories**
     + css 
       + geonation
       + portfolio
       + modernizr
+      + balloon
     + four_in_a_row
     + javascript
       + dom

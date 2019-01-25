@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Day 87 of 100. **Last Update:** 23rd January 2018
++ **Status:** Day 88 of 100. **Last Update:** 25th January 2018
 
 + **Directories**
     + css 
@@ -34,7 +34,9 @@ I won't make 100 straight days this time either. And that's okay, I think. We're
 
 Hopefully this will represent a new start and will help me engage more with the tech community.
 
-Okay. This commit (7th September 2018) contains a new structure for this repository.  You'll find all my blogs are now located in the blog directory.  This latest 100DaysOfCode effort is now logged in **project-log-2017.md**.  I've kept the other in **project-log-2018.md**.
+Okay. This commit (**7th September 2018**) contains a new structure for this repository.  You'll find all my blogs are now located in the blog directory.  This latest 100DaysOfCode effort is now logged in **project-log-2018.md**.  I've kept the other in **project-log-2017.md**.
+
+In my commit for **25th January 2019**, I posted that I've completed my re-organisation of my work via [GitHub](https://github.com/jg-digital-media) reducing the number of my repositories.  All my projects are either backed up online, on Amazon S3 or on version control.  Most of my repos are now set to private.  I may end up switching back to public from time to time. But don't worry, anything I deem fit for public viewing will be available to see via my domain at https://projects.jonniegrieve.co.uk
 
 If you notice **working.md** in this repository, just think of this as a kind of "notebook" for while I'm working through this round of 100DaysofCode.
 

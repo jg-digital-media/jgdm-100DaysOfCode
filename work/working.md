@@ -1,8 +1,14 @@
 # 100DaysOfCode - Coders Notes
 
++ Repository Overview: https://github.com/jg-digital-media
 + Repository URL: https://github.com/jg-digital-media/jgdm-100DaysOfCode
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
+
+## Day 88
+
+
+Finally completed reducing my repositories in Github.  All my projects are either backup online, on Amazon S3 or on version control.  Most of my repos are now set to private.  I may end up switching back to public from time o time. But don't worry, anything I deem fit for public viewing will be available to see via my domain at https://projects.jonniegrieve.co.uk
 
 ## Day 83
 

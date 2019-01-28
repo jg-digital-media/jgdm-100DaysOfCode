@@ -11,6 +11,10 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
 
+### **Day 89**: Monday January 28th 2019  
+
+Admittedly I haven't given myself a lot of time here but I added a new project for the purposes of practising State in react.  Have initialised state to show a set of 5 stars to rate a particular product or service.  How the different parts relate to each other though I don't know.
+
 ### **Day 88**: Friday January 25th 2019
 
 Finally completed reducing my repositories in Github.  All my projects are either backup online, on Amazon S3 or on version control.  Most of my repos are now set to private.  I may end up switching back to public from time o time. But don't worry, anything I deem fit for public viewing will be available to see via my domain at https://projects.jonniegrieve.co.uk

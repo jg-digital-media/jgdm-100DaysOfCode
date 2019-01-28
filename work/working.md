@@ -5,6 +5,51 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 89
+
+### Practicing State in React.
+
+A practice project to understand how to use State in React.
+
+```javascript
+
+  // Initialize a 'rating' state
+state = {
+  rating: 0
+}
+
+  // Write a function that returns 5 Star components
+renderStars = () => {
+  let stars = [];
+  let maxRating = 5;
+
+  for(let i = 0; i < maxRating; i++) {
+    stars.push(
+      <Star key = {i} />
+      );
+  }
+
+  //return stars array
+  return stars
+}
+
+//render method 
+  render() {
+    return (
+      <ul className="course--stars">
+        {/* Render the Star components */}
+        { this.renderStars() }
+      </ul>
+    );
+  }
+
+
+```
+
+How does the initialisation of State related to the method?
+
+
 ## Day 88
 
 

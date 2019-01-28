@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Day 88 of 100. **Last Update:** 25th January 2018
++ **Status:** Day 89 of 100. **Last Update:** 29th January 2018
 
 + **Directories**
     + css 
@@ -25,6 +25,7 @@
       + scoreboard
       + scoreboard_v2
       + tictactoe
+      + practice-state
     + svg
     + work
 

@@ -6,6 +6,25 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 90
+
+### Tip for Git Repositories
+
+Making commits to the master branch is widely considered to be a bad idea. Create multiple branches and merge those into the master branch.  It is in these branches that you thoroughly test the code and then merge to master.
+
+If you've just finished some code that isn't thoroughly tested and ready to share, it shouldn't be committed to the master branch.
+
+### React State notes 
+
+Each instance of a star rating should manage it's own state.
+
+use a unique key prop when iterating over values.
+
+Initialize State
+
+Update State
+
+
 ## Day 89
 
 ### Practicing State in React.

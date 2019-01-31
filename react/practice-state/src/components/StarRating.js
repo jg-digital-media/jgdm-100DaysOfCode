@@ -15,7 +15,9 @@ renderStars = () => {
 
   for(let i = 0; i < maxRating; i++) {
     stars.push(
-      <Star key = {i} />
+      <Star
+      setRating={ () => this.handleSetRating( i + 1 ) } 
+      key = {i} />
       );
   }
 
@@ -26,6 +28,13 @@ renderStars = () => {
   // Write an event handler that updates the rating state.
   // Pass the function to a Star component via props
 
+  handleSetRating = (rating) => {
+    this.setState({
+      rating: rating
+      //rating - shorthand syntax
+    })
+
+  }
 
   render() {
     return (

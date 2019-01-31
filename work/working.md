@@ -6,6 +6,36 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 91
+
+### Created a new function that sets the correct rating based on the individual star clicked.
+
+```javascript
+  handleStarRating = (rating) => {
+    this.setState({
+      rating: rating
+      //rating - shorthand syntax
+    })
+
+  }
+  ```
+
+This happens when the function is called via props.
+
+```javascript
+ <Star
+      setRating={ () => this.handleSetRating( i + 1 ) } 
+      key = {i} />
+      );
+      
+```
+
+in the Star component
+
+```javascript
+ <li onClick={ props.setRating }
+```
+
 ## Day 90
 
 ### Tip for Git Repositories

@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 91 of 100.  **Last Update:**  31st January 2019
+### **Status:** Day 92 of 100.  **Last Update:**  1st February 2019
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | svg | work
@@ -10,6 +10,11 @@ ___
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
+
+### **Day 92**: Friday February 1st 2019   
+
+Just some stuff with Sass and HTML5 today.  Uploaded some images to serve as screenshot for my main portfolio page.  Looking forward to seeing how I can incorporate some Font Awesome icons for the rest. :)  
+
 
 ### **Day 91**: Thursday January 31st 2019  
 

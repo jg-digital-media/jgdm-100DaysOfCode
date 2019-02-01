@@ -19,10 +19,13 @@ Colours
   background: lightgreen;
   border: solid black 1px;
   color: black;
-  border-radius: 5px;
-  padding: 10px; }
+  border-radius: 15px; }
   .main-content article#hire-me input[type="submit"]:hover {
     background: green; }
+
+.main-content article#services div, .main-content article#services img {
+  width: 250px;
+  height: 250px; }
 
 body {
   background: lightblue;
@@ -262,8 +265,6 @@ nav.main-nav {
       text-align: center; }
     .main-content article#services div {
       display: block;
-      width: 250px;
-      height: 250px;
       position: relative;
       margin-bottom: 10px;
       margin: 22px 6px; }
@@ -310,12 +311,14 @@ nav.main-nav {
       .main-content article#hire-me a:hover {
         color: red; }
     .main-content article#hire-me input {
-      height: 35px;
+      height: 50px;
       width: 60%;
       font-family: Lato;
       font-size: 20px;
       padding: 3px 20px;
-      margin-bottom: 35px; }
+      margin-bottom: 35px;
+      border-color: black;
+      border-radius: 15px; }
       @media (max-width: 980px) {
         .main-content article#hire-me input {
           width: 90%; } }
@@ -337,7 +340,9 @@ nav.main-nav {
       height: 68px;
       display: block;
       font-size: 20px;
-      padding: 3px 20px; }
+      padding: 3px 20px;
+      border-color: black;
+      border-radius: 15px; }
       @media (max-width: 980px) {
         .main-content article#hire-me textarea#label4 {
           width: 90%; } }
@@ -363,17 +368,18 @@ nav.main-nav {
       display: block;
       text-align: center;
       width: 100%; }
+    .main-content article#dyspraxia h3 {
+      font-size: 16pt; }
     .main-content article#dyspraxia a {
       color: inherit; }
       .main-content article#dyspraxia a:hover {
         text-decoration: none; }
     .main-content article#dyspraxia quote {
       color: indigo;
-      width: 50%;
+      width: 39%;
       display: block;
       margin: 0 auto;
-      /* text-orientation: sideways; */
-      text-transform: capitalize;
+      font-style: italic;
       font-variant: all-petite-caps; }
 
 .pages-content {

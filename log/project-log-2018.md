@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 93 of 100.  **Last Update:**  4th February 2019
+### **Status:** Day 94 of 100.  **Last Update:**  5th February 2019
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | svg | work
@@ -10,6 +10,10 @@ ___
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
+
+### **Day 94**: Tuesday February 5th 2019 
+
+Life elsewhere has been getting in the way today but I did sneak in some work with Git today - a refresher on using branch merges effectively.  Using that for Day 94.  :)
 
 ### **Day 93**: Monday February 4th 2019   
 

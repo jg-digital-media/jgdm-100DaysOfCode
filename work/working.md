@@ -11,7 +11,18 @@ Bizaarly, switching off the reference to the font Awesome font seems to make all
 
 Took out this SHIM version of Font Awesome
 
+css note....
 line 234 - main.scss:   width critical to design. group of 4 images central on the browser window.  Keep for now.
+
+```html
+<i class="far fa-object-group"></i>  - web design icon
+<i class="fab fa-google"></i>  - GWD Icon
+<i class="fas fa-image"></i> - digital design
+<i class="fab fa-twitter"></i> - social media icon
+<i class="fab fa-wordpress"></i> - wordpress icon
+<i class="fal fa-cash-register"></i> - e-commerce icon
+```
+
 
 ## Day 91
 

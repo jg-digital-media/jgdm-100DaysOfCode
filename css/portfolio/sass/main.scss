@@ -232,7 +232,7 @@ nav.main-nav {
         }
 
         img {
-            width: 35%;
+            width: 35%;  /*width*/
             display: inline;
             margin: 0 auto;
             opacity: 1;
@@ -344,9 +344,11 @@ nav.main-nav {
             opacity: 0.4;
             border-radius: 10px;
             @extend %services-images-size;
+            transition: .2s;
 
             &:hover {
                 opacity: 1;
+                transition: .2s;
             }
         }
 
@@ -358,6 +360,7 @@ nav.main-nav {
         
 
         p {
+            font-family: roboto;
             position: relative;
             /*bottom: 77px;*/
             min-height: 55px;
@@ -379,13 +382,14 @@ nav.main-nav {
         }
 
         
-        .far {    
-            font-family: "Font Awesome 5 Free";
+        .far, .fab, .fal, .fas {    
+            /*font-family: "Font Awesome 5 Free";*/
             font-size: 143px;
             color: lightblue;
             color: lightgray;
+            color: #fff185;
             position: relative;
-            top: 27px;
+            top: 10px;
             margin: 0 auto;
             width: 100%;
             display: block;
@@ -396,6 +400,7 @@ nav.main-nav {
             &:hover {
                 transform: scale(1.1);
                 color: blue;
+                color: #25893b;
                 transition-duration: .2s;
             }
         }       

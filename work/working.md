@@ -5,6 +5,13 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 95
+
+Bizaarly, switching off the reference to the font Awesome font seems to make all the icons show up. Not sure why this is. 
+
+Took out this SHIM version of Font Awesome
+
+line 234 - main.scss:   width critical to design. group of 4 images central on the browser window.  Keep for now.
 
 ## Day 91
 

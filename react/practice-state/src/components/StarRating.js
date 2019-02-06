@@ -16,6 +16,7 @@ renderStars = () => {
   for(let i = 0; i < maxRating; i++) {
     stars.push(
       <Star
+      isSelected={this.state.rating > i}
       setRating={ () => this.handleSetRating( i + 1 ) } 
       key = {i} />
       );
@@ -29,11 +30,13 @@ renderStars = () => {
   // Pass the function to a Star component via props
 
   handleSetRating = (rating) => {
-    this.setState({
-      rating: rating
-      //rating - shorthand syntax
-    })
 
+    if(this.state.rating === rating) {
+        this.setState({rating: 0});
+    } else {
+        this.setState({rating: rating})
+
+    }
   }
 
   render() {

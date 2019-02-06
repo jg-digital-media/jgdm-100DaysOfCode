@@ -7,7 +7,24 @@
 
 ## Day 95
 
-Bizaarly, switching off the reference to the font Awesome font seems to make all the icons show up. Not sure why this is. 
+### **React**
+
+
++ 'react-scripts' is not recognized as an internal or external command,
+
+This is a common issue. I'm thinking what's happened is since I'm pulling and cloning content the ```node_modules``` folder is not included and therefore the dependencies required for the project are not available.
+
+To fix
+
++ npm install  - to install dependendencies based on the package.json file.
+
++ npm start - Start the development server again
+
+
+
+### **Portfolio**
+
+Bizaarly, switching off the font-family style for the Font Awesome font seems to make all the icons show up. Not sure why this is. 
 
 Took out this SHIM version of Font Awesome
 

@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 95 of 100.  **Last Update:**  6th February 2019
+### **Status:** Day 96 of 100.  **Last Update:**  7th February 2019
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | svg | work
@@ -11,7 +11,13 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
 
-### **Day 95**: Tuesday February 6th 2019 
+### **Day 96**: Thursday February 6th 2019 
+
+Reorganised the Vue Project and created a plan for what it will be. A project that will display completed and incomplete status depending on values in a JSON file.   Created a design for a single page app in Balsamiq.
+
+Also wrote notes for working with Remote Branches in Git and deploying React Apps with C.R.A. by various means. 
+
+### **Day 95**: Wednesday February 6th 2019 
 
 Great to get back into full flow at last.  Completed my practice into React State and organised more things behind the scenes in my portfolio site. Some interesting observations. See working.md for those  :)
 

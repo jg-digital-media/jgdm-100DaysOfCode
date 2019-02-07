@@ -1,8 +1,8 @@
-# README.ME  (READ THIS FIRST)
+# README.MD  (READ THIS FIRST)
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Day 95 of 100. **Last Update:** 6th February 2019
++ **Status:** Day 96 of 100. **Last Update:** 7th February 2019
 
 + **Directories**
     + css 

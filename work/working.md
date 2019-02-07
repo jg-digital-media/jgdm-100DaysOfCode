@@ -5,6 +5,55 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 96
+
+### Vue.js Coders notes
+
+```{{ templateSyntax }}``` - for rendering values directly to the screen via the html file.
+
+Directives are prefixed with v- to indicate that they are special attributes provided by Vue, 
+
+
+```v-bind``` - for declarative rendering syntax  - Mustaches cannot be used inside HTML attributes. Instead, use a v-bind directive:
+
+```v-if``` - loops and conditions
+
+```v-for``` - ```<li v-for="todo in todos">```  used for looping through arrays and values
+
+```v-model``` - used for 2 way data binding.
+
+```v-on ``` - used for handling user inputs
+
+```javascript
+Vue.component('repeated-element')  <repeated-element></repeated-element>
+
+Vue.component('to-do',{
+    template: '<li>Use of Component</li>'
+})
+```
+Properties: methods vs computed vs watched
+
+### Git Remote Branches
+
+Process - Working with Remote Branches
+
+-----> Go to remote Repo  make changes
+
++ cd ../decoder/
++ git add decoder.rb
++ git commit -m "Add Y Conversion"
++ cd ../decoder-local  - back to local repo
+
+-----> Use git fetch to update synch to remote remote/branch
+
++ git status
++ git fetch origin
++ git status
+
+-----> Now local repository reports as behind on git status
+
++ git merge origin  - merge origin master into local repository
+
 ## Day 95
 
 ### **React**

@@ -52,4 +52,13 @@ Vue.component('to-do',{
 
 Properties: methods vs computed vs watched
 
+computed: {
+}
+
+
+->  for any complex logic, you should use a computed property
+
+-> a method invocation will always run the function whenever a re-render happens.
+
+->  more generic way to observe and react to data changes on a Vue instance: watch properties
 */ 

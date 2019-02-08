@@ -2,18 +2,99 @@
   padding: 0;
   margin: 0; }
 
-h1 {
-  text-align: center; }
+header {
+  width: 100%;
+  min-height: 150px;
+  background: lightgreen;
+  border-bottom: 20px black solid; }
+  @media (max-width: 940px) {
+    header {
+      min-height: 100px; } }
+  header h1 {
+    text-align: center;
+    position: relative; }
+    @media (max-width: 680px) {
+      header h1 {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 4vw;
+        top: 0;
+        padding-bottom: 15px; } }
+  header .key {
+    width: 95%;
+    text-align: right; }
+    header .key h2 {
+      width: auto;
+      display: inline-block; }
+    header .key span#green-complete {
+      display: inline-block;
+      background: green;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 5px; }
+    header .key span#red-complete {
+      display: inline-block;
+      background: red;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 5px; }
+    @media (max-width: 1290px) {
+      header .key {
+        display: block;
+        text-align: center; } }
 
-article {
+#container {
   position: relative;
-  display: block;
-  margin: 0 auto;
+  display: flex;
+  grid-auto-columns: 1fr 1fr;
+  margin: 20px auto;
   line-height: 2.1;
   width: 60%;
   background: #ffd272; }
-  article ol {
-    margin-left: 40pt; }
+  @media (max-width: 940px) {
+    #container {
+      flex-direction: column-reverse;
+      width: 80%; } }
+  #container .project-list {
+    border: solid black 1px;
+    width: 28%;
+    display: block; }
+    @media (max-width: 940px) {
+      #container .project-list {
+        width: 90%;
+        margin: 0 auto; } }
+    #container .project-list ul {
+      list-style-type: none; }
+      @media (max-width: 940px) {
+        #container .project-list ul {
+          margin: 0 auto; } }
+    #container .project-list span.complete {
+      display: inline-block;
+      background: green;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 5px; }
+    #container .project-list span.imcomplete {
+      display: inline-block;
+      background: red;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 5px; }
+  #container .main-content {
+    width: 66%;
+    display: block;
+    padding: 20px; }
+    @media (max-width: 940px) {
+      #container .main-content {
+        width: 90%; } }
+    #container .main-content h2 {
+      text-align: center; }
+    #container .main-content p {
+      line-height: 1.6; }
 
 footer {
   text-align: center; }
@@ -21,5 +102,14 @@ footer {
 body {
   background: lightgray;
   font-family: Arial; }
+
+/*
+breakpoints:
+
+1290px;
+940px;
+680px;
+
+*/
 
 /*# sourceMappingURL=main.css.map */

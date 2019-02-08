@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 96 of 100.  **Last Update:**  7th February 2019
+### **Status:** Day 97 of 100.  **Last Update:**  8th February 2019
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | svg | work
@@ -11,7 +11,11 @@ I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
 
-### **Day 96**: Thursday February 6th 2019 
+### **Day 97**: Friday February 8th 2019 
+
+I like Vue.js. Spent most of today getting reacquainted with a lot of its concept. Happy with how much I've retained.  Will need to look into more of its looping syntax though and how it can be used with JSON rather than arrays. 
+
+### **Day 96**: Thursday February 7th 2019 
 
 Reorganised the Vue Project and created a plan for what it will be. A project that will display completed and incomplete status depending on values in a JSON file.   Created a design for a single page app in Balsamiq.
 

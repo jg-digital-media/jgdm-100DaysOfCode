@@ -5,6 +5,38 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 97 
+
+```v-for``` - used for list rendering
+
+used to loop through values of an array
+
+v-for are like for-in loops in JS
+
+```html
+<ul>
+<li v-for="names in names">
+<p> {{ name}} </p>
+</ul>
+
+```
+
+### vue instance
+
+```javascript
+const registerNames = [
+'Jack','Jill','Tony','Richard','Peter',
+];
+
+new Vue({
+   el: "#root",
+   data: {
+    names: registerNames
+   }
+});
+```
+
 ## Day 96
 
 ### Vue.js Coders notes

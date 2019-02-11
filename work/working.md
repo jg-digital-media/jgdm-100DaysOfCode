@@ -6,6 +6,38 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 98
+
+Vue.js Directives used so far.
+
++ v-text
++ v-bind
++ v-on
++ v-show
++ v-for
++ v-if
+
+### Notes on Vue.js Computed Properties
+
+Computed properties are a feature of Vue that help us perform more complex calculations or operations that affect the way our data is displayed.
+
+define a property of an object in a Vue instance and assign it a method.
+
+```javascript
+computed: {
+    proeprtyName: function(){
+         //do something
+    }
+}
+```
+
+Conputed Properties update automatically when the data it relies upon changes.
+
+Whereas methods only run when they are explicitly called.
+
+Computed Properties only update when the data changes
+
+
 ## Day 97 
 
 ```v-for``` - used for list rendering

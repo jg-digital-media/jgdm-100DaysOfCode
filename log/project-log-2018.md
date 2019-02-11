@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 97 of 100.  **Last Update:**  8th February 2019
+### **Status:** Day 98 of 100.  **Last Update:**  11th February 2019
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | svg | work
@@ -10,6 +10,10 @@ ___
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
+
+### **Day 98**: Monday February 11th 2019 
+
+Started today much like I finished Friday. Plan of action ahead for my Vue.js project. Also made some cosmetic changes to a single page jQuery app I made a while back.
 
 ### **Day 97**: Friday February 8th 2019 
 

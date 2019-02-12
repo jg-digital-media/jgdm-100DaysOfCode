@@ -368,6 +368,7 @@ nav.main-nav {
             border-bottom: 6px solid #25893b;
             margin-top: 40px;
             padding: 5px;
+            width: 50%;
             //opacity: 0.6;
         }
         .elsewhere p {
@@ -473,6 +474,10 @@ nav.main-nav {
 
             cursor: pointer;
             @extend %submitBtn;
+        }
+
+        input#submit {
+            width: 20%;
         }
         
         textarea#label4 {

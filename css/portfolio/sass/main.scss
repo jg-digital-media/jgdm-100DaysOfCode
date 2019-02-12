@@ -532,6 +532,7 @@ nav.main-nav {
             }
         }
 
+        /*selects quote element successfully*/
         quote {
             color: indigo;
             width: 39%;
@@ -560,6 +561,9 @@ nav.main-nav {
 
     p {
         padding: 10px;
+        background: #00000031;
+        width: 90%;
+        margin: 0 auto;
     }
 
     a {
@@ -578,6 +582,10 @@ nav.main-nav {
         @media screen and (max-width: $md) {
             width: 96%;
         }
+    }
+
+    .pages-title {
+        font-size: 5vw;
     }
 
     .project-link {

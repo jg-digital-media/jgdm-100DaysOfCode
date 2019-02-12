@@ -194,6 +194,7 @@ nav.main-nav {
       margin: 0 auto; }
     .main-content article#featured img {
       width: 35%;
+      /*width*/
       display: inline;
       margin: 0 auto;
       opacity: 1; }
@@ -395,7 +396,8 @@ nav.main-nav {
     /*flex, row, 10%*/
     color: black;
     padding-top: 10vh;
-    font-weight: bold; }
+    font-weight: bold;
+    /*selects quote element successfully*/ }
     .main-content article#dyspraxia h2 {
       display: block;
       text-align: center;
@@ -420,7 +422,10 @@ nav.main-nav {
   .pages-content h1, .pages-content h2 {
     text-align: center; }
   .pages-content p {
-    padding: 10px; }
+    padding: 10px;
+    background: #00000031;
+    width: 90%;
+    margin: 0 auto; }
   .pages-content a {
     color: white; }
     .pages-content a:hover {
@@ -433,6 +438,8 @@ nav.main-nav {
     @media screen and (max-width: 620px) {
       .pages-content img {
         width: 96%; } }
+  .pages-content .pages-title {
+    font-size: 5vw; }
   .pages-content .project-link {
     color: white;
     display: block;

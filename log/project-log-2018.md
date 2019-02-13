@@ -1,6 +1,6 @@
 # 100 Days of Code Challenge.   
 
-### **Status:** Day 99 of 100.  **Last Update:**  12th February 2019
+### **Status:** Day 100 of 100.  **Last Update:**  13th February 2019
 
 ___
 **Directories**  log | css | four_in_a_row | javascript | python | react | svg | work
@@ -10,6 +10,10 @@ ___
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  
 
 I won't last 100 straight days this time either, although I intend to complete 100 Days. My goal is to help myself maintain not just my coding (I can always be found coding) but also an active social media presence.  
+
+### Day 100**: Wednesday February 13th 2019
+
+This is it!  I've reached the 100th Day of Round 1 of #100DaysofCode.  To round off my first time I've finalised the portfolio design I've been working for a while.  I'm hoping to beta test for feedback very soon but I'm pleased with what I've managed so far. 
 
 ### **Day 99**: Tuesday February 12th 2019 
 

@@ -19,6 +19,10 @@ body {
         background: url("img/ios-bg.png") repeat-y;
     }
 
+    h2 {
+        font-size: 30pt;
+    }
+
     /*
     @media(max-width: 720px) {
         
@@ -212,10 +216,9 @@ nav.main-nav {
     }
 
     article#featured {  
-        color: black;
-        padding-top: 10vh;
 
         @include articlePlacement(block, row, 10%);
+        @extend %sections;
 
         .show-featured {
             text-align: center;
@@ -232,13 +235,12 @@ nav.main-nav {
         }
 
         img {
-            width: 35%;  /*width*/
             display: inline;
             margin: 0 auto;
-            opacity: 1;
+            opacity: 0.6;
 
             &:hover {
-                opacity: 0.7;
+                opacity: 1;
             }
             
             @media(max-width: 620px) {
@@ -249,7 +251,8 @@ nav.main-nav {
     } 
 
     .about-box {
-        width: 35%;
+
+        padding: 10px;
 
         @media(max-width: $md) {
             width: 90%;
@@ -258,12 +261,16 @@ nav.main-nav {
 
         p {
             min-height: 200px;
+
+            @media(max-width: $md) {
+                min-height: 0;
+            }
         }
     }
 
     article#about {
         @include articlePlacement(flex, row, 10%);
-        color: black;
+        @extend %sections;
 
         h3 {
             color: black;
@@ -271,7 +278,7 @@ nav.main-nav {
 
         @media(max-width: $md) {
             display: block;
-            width: 70%;
+            width: 90%;
 
         }
 
@@ -279,8 +286,8 @@ nav.main-nav {
     }      
 
     article#video {
-        @include articlePlacement(block, row, 10%);
-        color: black;
+        @include articlePlacement(block, row, 10%); 
+        @extend %sections;
 
         h2 {
             display: block;
@@ -307,8 +314,7 @@ nav.main-nav {
 
     article#services {
         @include articlePlacement(flex, row, 10%);
-        color: black;
-        padding-top: 10vh;
+        @extend %sections;
 
         flex-wrap: wrap;
         min-height: 1vh;
@@ -334,7 +340,7 @@ nav.main-nav {
             @extend %services-images-size;
             position: relative;
             margin-bottom: 10px;
-            margin: 22px 6px;
+            margin: 55px 10px;
             width: 250px;
             height: 250px;
         }
@@ -368,12 +374,11 @@ nav.main-nav {
             border-bottom: 6px solid #25893b;
             margin-top: 40px;
             padding: 5px;
-            width: 50%;
             //opacity: 0.6;
         }
         .elsewhere p {
             position: relative;
-            bottom: 77px;
+            bottom: 60px;
             min-height: 55px;
             background: $services-img-background;
             border-bottom: 6px solid #25893b;
@@ -389,6 +394,7 @@ nav.main-nav {
             color: lightblue;
             color: lightgray;
             color: #fff185;
+            color: #3f50a9;
             position: relative;
             top: 10px;
             margin: 0 auto;
@@ -409,13 +415,52 @@ nav.main-nav {
 
     article#hire-me {
         @include articlePlacement(block, row, 10%);
-        color: black;
-        padding-top: 10vh;
+        @extend %sections;
 
         h2 {
             display: block;
             text-align: center;
             width: 100%;
+        }
+
+        aside {
+            margin: 0 auto;
+            display: block;
+            width: 90%;
+        }
+
+        .hire-me-content {
+            color: black;
+            width: 30%;
+            height: 320px;
+            background: lightgray;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            cursor: crosshair;
+            border: solid black 1px;
+
+            @media (max-width: $md) {
+                display: block;
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            &:hover {
+                background: #EEF595;
+                border: solid green 1px;
+            }
+
+            strong {
+                color: green;
+            }
+        }
+
+        form {
+
+            span {
+                color: #be0909;
+            }
         }
 
         form#hire-form {
@@ -473,20 +518,27 @@ nav.main-nav {
             margin: 20px auto;
 
             cursor: pointer;
-            @extend %submitBtn;
+            @extend %submit_btn;
         }
 
         input#submit {
-            width: 20%;
+            @extend %submit_btn;
+            width: 40%;
+
+            @media(max-width: $md ) {
+                width: 80%;
+
+            }
         }
         
-        textarea#label4 {
+        textarea#message {
             width: 30%;
             width: 60%;
             height: 68px;
             display: block;
             font-size: 20px;
-            padding: 3px 20px;
+            padding: 10px 20px;
+            font-family: lato;
             border-color: black;
             border-radius: 15px;
 
@@ -498,7 +550,7 @@ nav.main-nav {
             }
         }
 
-        textarea#label4:focus {
+        textarea#message:focus {
             background: #eef595
         }
         
@@ -508,7 +560,7 @@ nav.main-nav {
         
         .col-one {
             float: left;
-            width: 111px;
+            width: 125px;
         }
         
     }
@@ -516,9 +568,7 @@ nav.main-nav {
     article#dyspraxia {
         @include articlePlacement(block, row, 10%);
         //max-width: 500px;
-        color: black;
-        padding-top: 10vh;
-        font-weight: bold;
+        @extend %sections;
 
         h2 {
             display: block;
@@ -527,7 +577,11 @@ nav.main-nav {
         }
 
         h3 {
-            font-size: 16pt;
+            font-size: 20pt;
+            color: $jonniegrieve;
+            color: $digitalmedia;
+            color: red;
+            color: black;
         }
 
         a {
@@ -540,18 +594,18 @@ nav.main-nav {
         /*selects quote element successfully*/
         quote {
             color: indigo;
-            width: 39%;
+            width: 70%;
             display: block;
             margin: 0 auto;
             font-style: italic;
-            font-variant: all-petite-caps;
+            font-size: large;
         }
         
 
     }
 
     .button {
-        @extend %button;
+        @extend %prices-button;
     }
 
 }

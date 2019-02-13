@@ -1,11 +1,11 @@
 //breakpoints
 $sm: 320px; 
-$md: 620px;
+$md: 780px;
 $lg: 980px;
 $xl: 1200px;
 
 //buttons
-%button {
+%prices-button {
     background: $jonniegrieve;
     border: solid $digitalmedia 2px;
     padding: 10px;
@@ -14,15 +14,23 @@ $xl: 1200px;
     text-decoration: none;
     font-weight: bold;
     border-radius: 10px;
+    text-align: center;
+    width: 40%;
+    margin: 20px auto;
+    font-size: 18px;
 
     &:hover {
         background: $digitalmedia;
         color: $jonniegrieve;
         border: solid $jonniegrieve 2px;
     }
+
+    @media (max-width: $md) {
+        width: 90%;
+    }
 }
 
-%submitBtn {
+%submit_btn {
     background: lightgreen;
     border: solid black 1px;
     color: black;
@@ -36,4 +44,10 @@ $xl: 1200px;
 %services-images-size {
     width: 250px;
     height: 250px;
+}
+
+%sections {    
+    color: black;
+    font-weight: bold;
+    padding: 10vh 0 10px 10px;
 }

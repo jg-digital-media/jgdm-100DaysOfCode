@@ -70,12 +70,16 @@ header {
 
     .project-list {    
         border: solid black 1px;
-        width: 28%;
+        width: 60%;
         display: block;
 
         @media (max-width: 940px) {
             width: 90%;
             margin: 0 auto;
+        }
+
+        h2 {
+            text-align: center;
         }
 
         ul {
@@ -84,6 +88,11 @@ header {
             @media (max-width: 940px) {
                 margin: 0 auto
             }
+        }
+
+        ul#project-status {
+            float: left;
+            margin: 0 5% 0 5%;
         }
 
         span.complete {

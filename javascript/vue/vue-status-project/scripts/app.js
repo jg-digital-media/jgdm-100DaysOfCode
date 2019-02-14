@@ -1,19 +1,44 @@
-//Declare arrays
-const register = ["Jack Bauer", "Tony Almeida", "Samiya Lynn", "Clayton Sampson", "Claire Holloway"];
-const links = ["http://freewarejava.com", "http://javascriptkit.com", "http://dynamicdrive.com", "http://cnn.com", "https://www.google.com"]
+//Array of objects for data
 
+const projectList = {
+}
 
 //New Vue Instance
 const vue = new Vue({
 
-    el: '#vue',
+    el: '.project-list',
     data: {
-        pageTitle: 'Vue.js Blog Page', //render with mustache syntax
-        articleTitle: 'Using Vue',
-        pageDesc: 'Article name generated via the Vue Instance',
-        register: register,  //rendering arrays
-        links: links,
-        rawHtml: '<span style="color: red">Written by: </span>',  //rendering html
+        list: "Project List",
+        projects:  [{
+            project_name: "Vue Project",
+            project_status: "Complete",
+            status: true,
+        },
+        {
+            project_name: "jQuery Project",
+            project_status: "Incomplete",
+            status: false,    
+        },
+        {
+            project_name: "JavaScript",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "HTML5",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "PHP",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "Python",
+            project_status: "Incomplete",
+            status: false,
+        }]
     },
     methods: {
 

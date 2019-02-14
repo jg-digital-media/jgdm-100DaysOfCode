@@ -59,17 +59,22 @@ header {
       width: 80%; } }
   #container .project-list {
     border: solid black 1px;
-    width: 28%;
+    width: 60%;
     display: block; }
     @media (max-width: 940px) {
       #container .project-list {
         width: 90%;
         margin: 0 auto; } }
+    #container .project-list h2 {
+      text-align: center; }
     #container .project-list ul {
       list-style-type: none; }
       @media (max-width: 940px) {
         #container .project-list ul {
           margin: 0 auto; } }
+    #container .project-list ul#project-status {
+      float: left;
+      margin: 0 5% 0 5%; }
     #container .project-list span.complete {
       display: inline-block;
       background: green;

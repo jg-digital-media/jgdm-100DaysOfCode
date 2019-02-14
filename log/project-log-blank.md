@@ -1,27 +1,5 @@
-## Day 1
+### **R1D00**: Day Month Date 2018
 
----
-
-### **Plan for the Day**
-
-lorem
-
-### **Learning Goals**
-
-lorem
-
-### **Description**
-
-lorem
-
-### **Observations**
-
-lorem
-
-### **Technologies used**
-
-lorem
-
-### **Summary**
-
-lorem
++ **Notes:** - 
++ **Technologies Used:** -
++ **Link to Work:** - [Project](url) 

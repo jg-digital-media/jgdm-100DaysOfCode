@@ -1,10 +1,7 @@
-# 100 Days of Code Challenge.   
+# 100 Days of Code - Round 1.   
 
 ### **Status:** Day 100 of 100.  **Last Update:**  13th February 2019
 
-___
-**Directories**  log | css | four_in_a_row | javascript | python | react | svg | work
-___
 ## **Introduction**
 
 I've rejigged my blog to restart my 100DaysofCode challenge.  The last one was a dud, really. I didn't last a week and even then I think I missed a day.  

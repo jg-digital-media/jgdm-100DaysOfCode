@@ -1,4 +1,4 @@
-# 100DaysOfCode - Coders Notes
+# 100DaysOfCode - Coders Notes (Round 1)
 
 + Repository Overview: https://github.com/jg-digital-media
 + Repository URL: https://github.com/jg-digital-media/jgdm-100DaysOfCode

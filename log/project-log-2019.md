@@ -8,8 +8,8 @@ ___
 
 ### **R2D01:** Thursday 14th February 2019
 
-+ **Notes:** - Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum impedit et quaerat? Praesentium a doloribus suscipit ipsum
-+ **Technologies Used:** - JavaScript, HTML5, CSS
++ **Notes:** - Used Vue.js to display a list of data from an array of Objects. Next I'll need to learn now to toggle a HTML class on and off depending on the value of a property. 
++ **Technologies Used:** - JavaScript, Vue.js HTML5, CSS
 + **Links to Work:** -  
 
 

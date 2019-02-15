@@ -9,6 +9,8 @@
     
     <!-- CSS-->
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Allerta|Lato|Mali|Marvel|Roboto" rel="stylesheet">
+
 
     <!-- Page Title-->
     <title>Vue.js Project.</title>
@@ -40,7 +42,8 @@
                 <h2>{{ list }}</h2> 
                 <ul id="project-status">
                     <li v-for="status in projects">
-                        <span v-bind:class="{'complete': projects[true], 'incomplete': !projects[false]}">{{ status.project_status }} </span>
+                        <span v-bind:class="{'complete': status.status, 'incomplete': !status.status}"><link href="https://fonts.googleapis.com/css?family=Allerta|Lato|Mali|Marvel|Roboto" rel="stylesheet">
+</span>
                     </li>
                 </ul>
                 <ul id="project-names">
@@ -62,18 +65,18 @@
 
         <article class="main-content">
 
-            <h2>Main Content</h2>
+            <h2>Created with Vue.js</h2>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel facere at mollitia placeat dolores omnis atque expedita, eaque sequi hic nulla amet. Debitis, nesciunt! Dicta, in. Commodi tempore ea recusandae?</p>
+            <p>This is a simple single page app that uses Vue.js to visually the status of projects based on the values of an array of Objects. It contains projects on JavaScript, PHP, Java, Python, Ruby and Web Design Projects.</p>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel facere at mollitia placeat dolores omnis atque expedita, eaque sequi hic nulla amet. Debitis, nesciunt! Dicta, in. Commodi tempore ea recusandae?</p>
+            <p><a href="https://projects.jonniegrieve.co.uk">https://projects.jonniegrieve.co.uk</a></p>
             
         </article>
 
 
     </div>
 
-    <footer>&copy; 2019 Footer notice </footer>
+    <footer>&copy; 2019 Designed by Jonnie Grieve Digital Media </footer>
 
 </body>
 

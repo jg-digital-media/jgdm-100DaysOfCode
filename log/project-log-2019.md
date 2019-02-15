@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 1 of 100.  **Last Update:**  14th February 2019
+## **Status:** Day 2 of 100.  **Last Update:**  15th February 2019
 
 ___
 **Directories:** log | css | four_in_a_row | javascript | python | react | svg | work
 ___
+
+### **R2D01:** Friday 15th February 2019
+
++ **Notes:** - Used Vue.js to display a list of data from an array of Objects. With some help I've learned why the CSS classes weren't reacting to the data in the array of objects. Wrote about that in notes for this repo. 
++ **Technologies Used:** - JavaScript, Vue.js HTML5, CSS
++ **Links to Work:** -  
 
 ### **R2D01:** Thursday 14th February 2019
 

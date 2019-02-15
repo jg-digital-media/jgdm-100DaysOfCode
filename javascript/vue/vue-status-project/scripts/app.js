@@ -21,13 +21,13 @@ const vue = new Vue({
         },
         {
             project_name: "JavaScript",
-            project_status: "Incomplete",
-            status: false,
+            project_status: "Complete",
+            status: true,
         },
         {
             project_name: "HTML5",
-            project_status: "Incomplete",
-            status: false,
+            project_status: "Complete",
+            status: true,
         },
         {
             project_name: "PHP",

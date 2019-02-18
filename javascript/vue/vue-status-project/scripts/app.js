@@ -146,7 +146,7 @@ const vue = new Vue({
             project_type: "HTML/CSS",
             project_status: "Incomplete",
             status: false,
-        },
+        },,
         {
             project_name: "HTML NAV Single Page",
             project_type: "HTML/CSS",

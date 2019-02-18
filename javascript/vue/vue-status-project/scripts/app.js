@@ -10,36 +10,157 @@ const vue = new Vue({
     data: {
         list: "Project List",
         projects:  [{
-            project_name: "Vue Project",
+            project_name: "Angular Project",
+            project_type: "JavaScript",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "Fetch API",
+            project_type: "JavaScript",
+            project_status: "Complete",
+            status: true,    
+        },
+        {
+            project_name: "CSS Grid Project",
+            project_type: "HTML/CSS",
             project_status: "Complete",
             status: true,
+        },
+        {
+            project_name: "Infographics",
+            project_type: "Miscelleanous",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "Java",
+            project_type: "Java",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "Landing Page",
+            project_type: "HTML/CSS",
+            project_status: "Complete",
+            status: true,
+        },
+        {
+            project_name: "Node",
+            project_type: "JavaScript",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "Time Tracker",
+            project_type: "PHP",
+            project_status: "Complete",
+            status: true,
+        },
+        {
+            project_name: "Walks",
+            project_type: "HTML/CSS",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "Web Design Rehash",
+            project_type: "HTML/CSS",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "Castle Eden in Bootstrap",
+            project_type: "HTML/CSS",
+            project_status: "Complete",
+            status: true,
+        },
+        {
+            project_name: "Castle Eden in CSS",
+            project_type: "HTML/CSS",
+            project_status: "Complete",
+            status: true,
+        },
+        {
+            project_name: "Dynamic Site",
+            project_type: "JavaScript",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "Final Year Project",
+            project_type: "HTML/CSS",
+            project_status: "Complete",
+            status: true,
+        },
+        {
+            project_name: "How to Web Design Project",
+            project_type: "HTML/CSS",
+            project_status: "Complete",
+            status: true,
+        },
+        {
+            project_name: "How to Web Design Project",
+            project_type: "HTML/CSS",
+            project_status: "Complete",
+            status: true,
+        },
+        {
+            project_name: "Interactive JavaScript",
+            project_type: "JavaScript",
+            project_status: "Complete",
+            status: true,
+        },
+        {
+            project_name: "Learning Notes Website",
+            project_type: "HTML/CSS",
+            project_status: "Complete",
+            status: false,
+        },
+        {
+            project_name: "Web Design Practice",
+            project_type: "HTML/CSS",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "Web Authoring Project",
+            project_type: "HTML/CSS",
+            project_status: "Complete",
+            status: true,
+        },
+        {
+            project_name: "Wep - Web Portfolio Project",
+            project_type: "HTML/CSS",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "Endangered Species Project",
+            project_type: "HTML/CSS",
+            project_status: "Complete",
+            status: true,
+        },
+        {
+            project_name: "The Games Yard",
+            project_type: "HTML/CSS",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "HTML NAV Single Page",
+            project_type: "HTML/CSS",
+            project_status: "Incomplete",
+            status: false,
         },
         {
             project_name: "jQuery Project",
+            project_type: "JavaScript",
             project_status: "Incomplete",
-            status: false,    
-        },
-        {
-            project_name: "JavaScript",
-            project_status: "Complete",
             status: true,
-        },
-        {
-            project_name: "HTML5",
-            project_status: "Complete",
-            status: true,
-        },
-        {
-            project_name: "PHP",
-            project_status: "Incomplete",
-            status: false,
-        },
-        {
-            project_name: "Python",
-            project_status: "Incomplete",
-            status: false,
         }]
     },
+
     methods: {
 
     },
@@ -53,6 +174,8 @@ const vue = new Vue({
 
 
 /*NOTES: 
+
+Project Types: HTML/CSS, JavaScript, React.js, PHP, Java, Ruby
 
 {{ templateSyntax }} - for rendering values directly to the screen via the html file.
 

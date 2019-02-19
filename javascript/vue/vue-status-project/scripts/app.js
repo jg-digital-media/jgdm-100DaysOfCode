@@ -156,8 +156,80 @@ const vue = new Vue({
         {
             project_name: "jQuery Project",
             project_type: "JavaScript",
-            project_status: "Incomplete",
+            project_status: "Complete",
             status: true,
+        },
+        {
+            project_name: "Sass Project",
+            project_type: "HTML/CSS",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "Projects in Vue.js",
+            project_type: "HTML/CSS",
+            project_status: "Complete",
+            status: true,
+        },
+        {
+            project_name: ".WebP Images",
+            project_type: "HTML/CSS",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "Crook2Hook",
+            project_type: "HTML/CSS",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "PHP Directory Site",
+            project_type: "PHP",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "PHP Storybuilder App",
+            project_type: "PHP",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "PHP Cookbook Site",
+            project_type: "PHP",
+            project_status: "Complete",
+            status: true,
+        },
+        {
+            project_name: "React Starter Page",
+            project_type: "React.js",
+            project_status: "Complete",
+            status: true,
+        },
+        {
+            project_name: "React Basics", //npm start - npm
+            project_type: "React.js",
+            project_status: "Complete",
+            status: false,
+        },
+        {
+            project_name: "React Redux", //npm start - npm
+            project_type: "React.js",
+            project_status: "Complete",
+            status: false,
+        },
+        {
+            project_name: "RSVP App", //npm start - npm
+            project_type: "React.js",
+            project_status: "Complete",
+            status: false,
+        },
+        {
+            project_name: "Selenium Web Driver", 
+            project_type: "JavaScript",
+            project_status: "Incomplete",
+            status: false,
         }]
     },
 

@@ -534,13 +534,14 @@ nav.main-nav {
         textarea#message {
             width: 30%;
             width: 60%;
-            height: 68px;
+            height: 145px;
             display: block;
             font-size: 20px;
             padding: 10px 20px;
             font-family: lato;
-            border-color: black;
+            border: black solid 2px;
             border-radius: 15px;
+            margin-bottom: 10%;
 
             @media (max-width: $lg) {
                 width: 90%;

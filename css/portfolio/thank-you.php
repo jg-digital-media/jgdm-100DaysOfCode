@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- CSS-->
+    <link rel="stylesheet" type="text/css" href="main.css" />
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Page Title-->
+    <title>Jonnie Grieve Digital Media - Web Designer</title>
+</head>
+<body>
+
+<?php echo "Form text" ?> -->
+
+    <header>
+        <a href="" title="">
+            <img id="" title="" alt="" src="img/logo-1.png" />
+        </a>
+
+        <span id="website-title">
+            <h1>
+                <span class="green">Jonnie Grieve</span> 
+                <span class="yellow">Digital Media:</span><br />            
+
+                <span class="green">Designs and Prototypes</span> 
+                <span class="yellow">for Web and Multimedia</span>
+            </h1>
+        </span>
+
+        <ol id = "social">
+            <li><a href="#" target="blank"><img class="" id="" title="" alt="" src="img/facebook.png" /></a></li>
+            <li><a href="#" target="blank"><img class="" id="" title="" alt="" src="img/twitter.png" /></a></li>
+            <li><a href="#" target="blank"><img class="" id="" title="" alt="" src="img/linkedin.png" /></a></li>
+            <li><a href="#" target="blank"><img class="" id="" title="" alt="" src="img/youtube.png" /></a></li>
+        </ol>
+
+    </header>
+
+    <nav class="main-nav">
+        <ol>
+            <li><a href="index.html" title="">Home </a></li>
+            <li><a href="#about-jgdm" title="">About </a></li>
+            <li><a href="#services" title="">Services </a></li>
+            <li><a href="#hire-me" title="">Hire Me </a></li>
+            <li><a href="#dyspraxia" title="">Dyspraxia </a></li>
+        </ol>
+    </nav>
+
+    <main class="main-content">
+
+        <article id="intro">
+
+            <h1>Thanks</h1>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo quam ad aspernatur omnis impedit animi ex, itaque, alias deleniti laborum nihil quasi doloribus tempore quae eveniet minima! Perspiciatis, perferendis vitae!</p>
+
+        </article>
+
+        <article id="services">
+
+            <h2>Services</h2>
+
+            <div class="main-services">
+                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/webdesign.html','','scrollbars=yes,width=550,height=250')">
+                    <i class="fas fa-object-group">&nbsp;</i>
+                </a>
+                <p>Website Design: Secure your online presence</p>       
+
+            </div>
+
+            <div class="main-services">
+                 <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/gwd-creatives.html','','scrollbars=yes,width=550,height=250')">
+                    <i class="fab fa-google">&nbsp;</i>           
+                </a>
+                <p>Google Web Designer Creatives for web advert generation</p>
+            </div>
+
+            <div class="main-services">
+                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/social-media.html','','scrollbars=yes,width=550,height=250')">
+                    <i class="fab fa-twitter">&nbsp;</i>
+                </a>
+                
+                <p>Social Media: To help you get noticed.</p>       
+            </div>
+
+            <div class="main-services">
+                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/wordpress.html','','scrollbars=yes,width=550,height=250')">
+                    <i class="fab fa-wordpress-simple">&nbsp;</i>
+                </a>                
+                <p>WordPress: Most Websites use this popular platform</p>       
+            </div>
+
+            <div class="main-services">
+                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/e-commerce.html','','scrollbars=yes,width=550,height=250')">
+                    <i class="fas fa-cash-register">&nbsp;</i>
+                </a>               
+                <p>E-Commerce: Sell products via your website.</p>     
+            </div>
+
+            <div class="main-services">
+                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/digital-design.html','','scrollbars=yes,width=550,height=250')">
+                    <i class="fas fa-image">&nbsp;</i>
+                </a>                   
+                <p>Photoshop/Digital Design: Stunning digital images!</p>    
+            </div>
+
+            <h3>Elsewhere... </h3>
+
+            <div class="elsewhere">
+                <a href="https://projects.jonniegrieve.co.uk" target="blank">
+                    <img src="img/services/sub-projects.png" />
+                </a>
+                <p>projects.jonniegrieve.co.uk</p>       
+            </div>
+
+            <div class="elsewhere">
+                <a href="https://wordpress.jonniegrieve.co.uk" target="blank">
+                    <img src="img/services/sub-wordpress.png" />
+                </a>   
+                <p>wordpress.jonniegrieve.co.uk</p>    
+            </div>
+
+            <div class="elsewhere">
+                <a href="https://android.jonniegrieve.co.uk" target="blank">
+                    <img src="img/services/sub-android.png" />
+                </a> 
+                <p>android.jonniegrieve.co.uk</p>      
+            </div>
+
+            <div class="elsewhere">
+                <a href="https://dyspraxia.jonniegrieve.co.uk" target="blank">
+                    <img src="img/services/sub-dyspraxia.png" />
+                </a>   
+                <p>dyspraxia.jonniegrieve.co.uk</p>    
+            </div>
+
+        </article>
+    
+    <footer>
+        <p>&copy; Jonnie Grieve Digital Media 2019. All Rights Reserved</p>
+    </footer>
+
+
+    <div class="ios-background"></div>
+    <!--jquery 
+
+    <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>-->
+
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/app.js"></script>
+</body>
+</html>

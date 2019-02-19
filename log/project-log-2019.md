@@ -6,7 +6,7 @@ ___
 **Directories:** log | css | four_in_a_row | javascript | python | react | svg | work
 ___
 
-### **R2D02:** Friday 15th February 2019
+### **R2D03:** Monday 18th February 2019
 
 + **Notes:** - Used Vue.js to display a list of data from an array of Objects. Next I'll need to learn now to toggle a HTML class on and off depending on the value of a property. 
 + **Technologies Used:** - JavaScript, Vue.js, HTML5, CSS

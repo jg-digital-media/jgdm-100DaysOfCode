@@ -5,6 +5,22 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 4 - 
+
+### Common Terminal Commands
++ ls - list files in the current directory
+
++ whoami - username of current user on the computer
++ cat -  output contents of file to terminal
+
++ Ctrl + C - send signal to bash that you want to quit the current commit
+
++ clear - clears output from the terminal screen  Ctrl + L for shortcut
+
++ echo - render arguments to the terminal
+
+### 
+
 ## Day 3 - 
 
 Filling in some projects and their completed status into the Vue.js page I made.  More to get done tomorrow. Looking forward to finding a way to integrate this into one of my websites  :)

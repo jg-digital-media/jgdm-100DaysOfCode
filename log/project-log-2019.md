@@ -1,15 +1,21 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 3 of 100.  **Last Update:**  18th February 2019
+## **Status:** Day 4 of 100.  **Last Update:**  19th February 2019
 
 ___
 **Directories:** log | css | four_in_a_row | javascript | python | react | svg | work
 ___
 
+### **R2D04:** Tuesday 19th February 2019
+
++ **Notes:** - Completed a list of all my projects using Vue.js.  Now to find a way to make all that data filterable and use the code on a new page.  Still working on a way to use that in my new portfolio design. 
++ **Technologies Used:** - JavaScript, Vue.js, HTML5, CSS
+
+
 ### **R2D03:** Monday 18th February 2019
 
 + **Notes:** - Used Vue.js to display a list of data from an array of Objects. Next I'll need to learn now to toggle a HTML class on and off depending on the value of a property. 
-+ **Technologies Used:** - JavaScript, Vue.js, HTML5, CSS
++ **Technologies Used:** - JavaScript, Vue.js
 
 Filling in some projects and their completed status into the Vue.js page I made.  More to get done tomorrow. Looking forward to finding a way to integrate this into one of my websites  :)
 

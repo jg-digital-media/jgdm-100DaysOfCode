@@ -11,6 +11,7 @@
 + ls - list files in the current directory
 
 + whoami - username of current user on the computer
+
 + cat -  output contents of file to terminal
 
 + Ctrl + C - send signal to bash that you want to quit the current commit
@@ -19,7 +20,7 @@
 
 + echo - render arguments to the terminal
 
-### 
+
 
 ## Day 3 - 
 

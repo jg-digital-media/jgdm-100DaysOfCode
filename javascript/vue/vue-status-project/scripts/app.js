@@ -94,13 +94,7 @@ const vue = new Vue({
             status: true,
         },
         {
-            project_name: "How to Web Design Project",
-            project_type: "HTML/CSS",
-            project_status: "Complete",
-            status: true,
-        },
-        {
-            project_name: "How to Web Design Project",
+            project_name: "'How To' Web Design Project",
             project_type: "HTML/CSS",
             project_status: "Complete",
             status: true,
@@ -146,7 +140,7 @@ const vue = new Vue({
             project_type: "HTML/CSS",
             project_status: "Incomplete",
             status: false,
-        },,
+        },
         {
             project_name: "HTML NAV Single Page",
             project_type: "HTML/CSS",
@@ -230,6 +224,42 @@ const vue = new Vue({
             project_type: "JavaScript",
             project_status: "Incomplete",
             status: false,
+        },
+        {
+            project_name: "Form Project", 
+            project_type: "PHP",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "PHP Authorisation", 
+            project_type: "PHP",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "PHP Environment Variables", 
+            project_type: "PHP",
+            project_status: "Complete",
+            status: true,
+        },
+        {
+            project_name: "PHP Basics (2016)", 
+            project_type: "PHP",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "React Fetch API", 
+            project_type: "React.js",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "Transition Gallery Example", 
+            project_type: "HTML/CSS",
+            project_status: "Complete",
+            status: true,
         }]
     },
 
@@ -276,9 +306,11 @@ computed: {
 }
 
 
-->  for any complex logic, you should use a computed property
+-> for any complex logic, you should use a computed property
 
 -> a method invocation will always run the function whenever a re-render happens.
 
-->  more generic way to observe and react to data changes on a Vue instance: watch properties
+-> more generic way to observe and react to data changes on a Vue instance: watch properties
+
+
 */ 

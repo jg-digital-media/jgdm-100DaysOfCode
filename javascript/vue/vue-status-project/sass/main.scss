@@ -76,21 +76,32 @@ header {
     width: 60%;
     background: #ffd272;
 
+    @media (max-width: 1080px) {
+        width: 95%;
+    }
+
     @media (max-width: 940px) {
         flex-direction: column-reverse;
         width: 80%;
     }
 
+    @media (max-width: 680px) {
+        width: 95%;
+    }
+
     .project-list {    
         border: solid black 1px;
-        width: 60%;
+        width: 90%;
         display: block;
 
         @media (max-width: 940px) {
             width: 90%;
             margin: 0 auto;
         }
-
+        
+        @media (max-width: 680px) {
+            font-size: 3vw;
+        }
         h2 {
             text-align: center;
         }
@@ -105,6 +116,10 @@ header {
 
         li {
             height: 45px;
+
+            em {
+                font-weight: bold;
+            }
         }
 
         ul#project-status {
@@ -130,6 +145,10 @@ header {
             width: 90%;
         }
 
+        @media (max-width: 680px) {
+            font-size: 3.5vw;
+        }
+
         h2 {
             text-align: center;
         }
@@ -143,6 +162,7 @@ header {
             font-weight: bold;
             &:hover {
                 text-decoration: none;
+                color: green;
             }
         }
     }

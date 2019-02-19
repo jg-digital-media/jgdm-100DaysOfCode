@@ -65,18 +65,27 @@ header {
   line-height: 2.1;
   width: 60%;
   background: #ffd272; }
+  @media (max-width: 1080px) {
+    #container {
+      width: 95%; } }
   @media (max-width: 940px) {
     #container {
       flex-direction: column-reverse;
       width: 80%; } }
+  @media (max-width: 680px) {
+    #container {
+      width: 95%; } }
   #container .project-list {
     border: solid black 1px;
-    width: 60%;
+    width: 90%;
     display: block; }
     @media (max-width: 940px) {
       #container .project-list {
         width: 90%;
         margin: 0 auto; } }
+    @media (max-width: 680px) {
+      #container .project-list {
+        font-size: 3vw; } }
     #container .project-list h2 {
       text-align: center; }
     #container .project-list ul {
@@ -86,6 +95,8 @@ header {
           margin: 0 auto; } }
     #container .project-list li {
       height: 45px; }
+      #container .project-list li em {
+        font-weight: bold; }
     #container .project-list ul#project-status {
       float: left;
       margin: 0 5% 0 5%; }
@@ -110,6 +121,9 @@ header {
     @media (max-width: 940px) {
       #container .main-content {
         width: 90%; } }
+    @media (max-width: 680px) {
+      #container .main-content {
+        font-size: 3.5vw; } }
     #container .main-content h2 {
       text-align: center; }
     #container .main-content p {
@@ -118,7 +132,8 @@ header {
       color: red;
       font-weight: bold; }
       #container .main-content a:hover {
-        text-decoration: none; }
+        text-decoration: none;
+        color: green; }
 
 footer {
   text-align: center; }

@@ -12,8 +12,8 @@ const vue = new Vue({
         projects:  [{
             project_name: "Angular Project",
             project_type: "JavaScript",
-            project_status: "Incomplete",
-            status: false,
+            project_status: "Complete",
+            status: true,
         },
         {
             project_name: "Fetch API",

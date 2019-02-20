@@ -19,7 +19,7 @@
 </head>
 <body>
 
-<?php echo "Form text" ?> -->
+<?php echo "Form text" ?> 
 
     <header>
         <a href="" title="">
@@ -151,6 +151,34 @@
 
 
     <div class="ios-background"></div>
+
+    <?php
+        //Build email message
+        $msg = "<h3>You have a received a new message from Jonnie Grieve Digital Media (https://www.jonniegrieve.co.uk)</h3>";
+        $msg .= "<hr />";
+
+        $_POST["email"];
+        $_POSR["name"];
+        $_POST["your-email"];
+
+        $_POST["subject"];
+        $_POST["message"];
+        $_POST["confirm"];
+        
+        //Send email
+        $recipient = "mail@jonniegrieve.co.uk";
+        $subject = "New email from JGDM Website";
+        $mailheaders = "MIME-Version: 1.0\r\n";
+        $mailheaders .= "From: Jonnie Grieve Digital Media <www.jonniegrieve.co.uk> \n";
+        $mailheaders .= "Content-type: text/html; charset=ISO-8859-1\r\n";
+        $mailheaders .= "Reply-To: " . $_POST["email"];
+
+        //get HTML headers
+        mail($recipient, $subject, $msg, $mailheaders);
+
+    ?>
+
+
     <!--jquery 
 
     <script defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>-->

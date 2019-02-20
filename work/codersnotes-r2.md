@@ -5,6 +5,33 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 5 - 
+
+### **Serving an Angular.js Project**
+
+Angular JS is not loading properly and looking into the reason why is difficult as it is so long since I've even tried to develop and Angular Project.  How far I will actually get trying to debug this, I do not know.
+
+npm install has added most of the modules needed to run Angular with a few deprecations.
+
+```npm install```   
+
+```npm run build```  
+
+```npm audit fix```  
+
+```npm run serve```  - to activate project on localhost:/8080
+
+Working on port :8080   This project is working and now seems to be complete.  Whether or not I do anything more in the future with it is doubtful at the moment but here it is.  :)
+
+### **JavaScript Fetch API**
+
+Using the JS Fetch API  - verified this project is functional and complete.
+
+### **Grid Project**
+
+Fixed a few bugs, added some content and website now fully responsive on all breakpoints. Complete.
+
+
 ## Day 4 - 
 
 ### Common Terminal Commands

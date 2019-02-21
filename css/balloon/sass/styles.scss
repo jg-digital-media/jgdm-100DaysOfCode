@@ -20,6 +20,7 @@ header {
     background: $content-background;
     height: 160px;
     color: white;
+    border-bottom: white 6px solid;
 
     h1 {
         text-align: center;
@@ -50,7 +51,9 @@ header {
             }
 
             a {
-                color: white;
+                color: #ffffff;
+                font-weight: bold;
+                text-decoration: none;
                 &:hover {
                     text-decoration: none;
                 }
@@ -102,11 +105,15 @@ section {
                 width: 95%;
             }
 
+            video, img {
+                width: 100%;
+            }
+
         }
 
         div.stock-images {
             display: block;
-            width: 40%;
+            width: 30%;
             min-height: 200px;
             margin: 0 auto;
             border: solid red 3px;
@@ -119,7 +126,7 @@ section {
 
         div.gallery {
             display: block;
-            width: 40%;
+            width: 30%;
             min-height: 200px;
             margin: 0 auto;
             border: solid red 3px;
@@ -129,6 +136,19 @@ section {
             }
 
 
+        }
+
+        //Custom Slick Styles:
+        .slick-next {
+            /*position: relative;*/
+            right: 5px;
+            z-index: 1000;
+        }
+        
+        .slick-prev {
+            position: relative;
+            left: 5px;
+            z-index: 1000;	
         }
     }
 }

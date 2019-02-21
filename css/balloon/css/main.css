@@ -12,7 +12,8 @@ body {
 header {
   background: red;
   height: 160px;
-  color: white; }
+  color: white;
+  border-bottom: white 6px solid; }
   header h1 {
     text-align: center; }
   header img.header-image {
@@ -32,7 +33,9 @@ header {
       display: inline-block;
       margin-left: 15px; }
     header nav .main-nav a {
-      color: white; }
+      color: #ffffff;
+      font-weight: bold;
+      text-decoration: none; }
       header nav .main-nav a:hover {
         text-decoration: none; }
 
@@ -64,9 +67,11 @@ section {
       @media (max-width: 740px) {
         section section.balloon-content div.video {
           width: 95%; } }
+      section section.balloon-content div.video video, section section.balloon-content div.video img {
+        width: 100%; }
     section section.balloon-content div.stock-images {
       display: block;
-      width: 40%;
+      width: 30%;
       min-height: 200px;
       margin: 0 auto;
       border: solid red 3px;
@@ -76,7 +81,7 @@ section {
           width: 95%; } }
     section section.balloon-content div.gallery {
       display: block;
-      width: 40%;
+      width: 30%;
       min-height: 200px;
       margin: 0 auto;
       border: solid red 3px;
@@ -84,6 +89,14 @@ section {
       @media (max-width: 740px) {
         section section.balloon-content div.gallery {
           width: 95%; } }
+    section section.balloon-content .slick-next {
+      /*position: relative;*/
+      right: 5px;
+      z-index: 1000; }
+    section section.balloon-content .slick-prev {
+      position: relative;
+      left: 5px;
+      z-index: 1000; }
 
 aside ul li {
   color: green;

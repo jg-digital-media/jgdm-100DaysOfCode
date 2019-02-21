@@ -1,7 +1,10 @@
 //check for jQuery
 //alert("jQuery in place");
 
-//testimonials
+//vue.js instance
+
+
+//testimonials page
 const testimonials = [
  "I’ve always been pleased with the results Jonnie Grieve Digital Media has given me.",
  "Not only did he give my website an important new visual look his SEO changes vastly improved my website ranking",
@@ -11,7 +14,6 @@ const testimonials = [
  "I have been delighted with the service we have had.  Excellent and caring, with a real determination to get it right.  Would thoroughly recommend."
 
 ]
-
 
 //sticky header
 $(document).ready(function() {
@@ -27,8 +29,11 @@ $(document).ready(function() {
     });
 });
 
-//lite window
-
+//lite browser window for pages. 
 function MM_openBrWindow(theURL,winName,features) { //v2.0
     window.open(theURL,winName,features);
   }
+
+//project status code
+
+

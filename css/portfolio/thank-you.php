@@ -19,8 +19,6 @@
 </head>
 <body>
 
-<?php echo "Form text" ?> 
-
     <header>
         <a href="" title="">
             <img id="" title="" alt="" src="img/logo-1.png" />

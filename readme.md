@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 2: Day 5 of 100. **Last Update:** 20gtth February 2019
++ **Status:** Round 2: Day 6 of 100. **Last Update:** 21st February 2019
 
 + **Directories**
     + css 

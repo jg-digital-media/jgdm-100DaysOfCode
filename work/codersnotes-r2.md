@@ -5,6 +5,18 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 6 - 
+
+**infographics**  - complete but ongoing 
+
+**node project** - , incomplete.  numerous bugs throughout the directories. probably needs me to refresh on node.js basics
+ 
+the first directory is the only version of the code that actually returns anything.  So I'm keeping this in, I may do something with it later on but it's staying for now as an incomplete project. 
+
+fix javascript for walks website
+
+
 ## Day 5 - 
 
 ### **Serving an Angular.js Project**

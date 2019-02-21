@@ -1,12 +1,17 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 5 of 100.  **Last Update:**  20th February 2019
+## **Status:** Day 6 of 100.  **Last Update:**  21st February 2019
 
 ___
 **Directories:** log | css | four_in_a_row | javascript | python | react | svg | work
 ___
 
-### **R2D04:** Wednesday 20th February 2019
+### **R2D06:** Thursday 21st February 2019
++ **Notes:** - Working through my projects, making sure they're up to date, seeing what's shareable and what's not. Lots of updates pushed up to 
++ **Technologies Used:** - JavaScript, node.js, HTML5, CSS
+
+
+### **R2D05:** Wednesday 20th February 2019
 
 + **Notes:** - This "project status" page I made is a good motivator to look at the various projects I've made and finalise them. A reminder on how Angular projects are served in particular. All in Coders notes :) 
 + **Technologies Used:** - JavaScript, Vue.js, HTML5, CSS

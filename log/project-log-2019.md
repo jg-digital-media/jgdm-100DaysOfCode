@@ -1,13 +1,18 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 6 of 100.  **Last Update:**  21st February 2019
+## **Status:** Day 7 of 100.  **Last Update:**  22nd February 2019
 
 ___
 **Directories:** log | css | four_in_a_row | javascript | python | react | svg | work
 ___
 
+### **R2D07:** Friday 22nd February 2019
+
++ **Notes:** - Main takeaway from today is I have added a new wordpress installation where my new blog will live.  blog.jonniegrieve.co.uk.  Happy with the theme currently in place but I sense at some point I'll add my own. :)  One step further.  :)
++ **Technologies Used:** - WordPress HTML5, CSS
+
 ### **R2D06:** Thursday 21st February 2019
-+ **Notes:** - Working through my projects, making sure they're up to date, seeing what's shareable and what's not. Lots of updates pushed up to 
++ **Notes:** - Working through my projects, making sure they're up to date, seeing what's shareable and what's not. Lots of updates pushed up to GitHub.
 + **Technologies Used:** - JavaScript, node.js, HTML5, CSS
 
 

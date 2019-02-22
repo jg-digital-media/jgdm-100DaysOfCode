@@ -446,6 +446,8 @@ nav.main-nav {
       color: #EEF595;
       color: red;
       color: black; }
+    .main-content article#dyspraxia p {
+      padding: 15px; }
     .main-content article#dyspraxia a {
       color: inherit; }
       .main-content article#dyspraxia a:hover {

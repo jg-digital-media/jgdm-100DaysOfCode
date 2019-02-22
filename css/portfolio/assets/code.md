@@ -2,10 +2,7 @@
 
 ### Featured Projects       
 
-```html
-
-            <div class="show-featured">          
-
+```html 
             <div class="show-featured">
 
                     <a href="http://www.autoc.co.uk" target="blank"><img src="img/featured/autocleansenortheast.png" class="site-images" alt="Go to Auto Cleanse North East" title="Go to Auto Cleanse North East" /></a>
@@ -41,10 +38,5 @@
                  </div>
    
    <!--crook2hook  castle eden walks -->
-
-
-
-
-
 
 ```

@@ -5,6 +5,7 @@
 body {
     background: $body-background;
     font-family: 'Lato', sans-serif;
+    /*font-weight: bold;*/
     padding: 0;
     margin: 0;
     background: url("img/interior-darker.png");
@@ -207,6 +208,14 @@ nav.main-nav {
             @media(max-width: 320px) {
                 font-size: 6vw;
             }
+        }
+
+        a {
+            color: white;
+            &:hover {
+                color: #fdeab2;
+                text-decoration: none;
+            } 
         }
     }
 
@@ -509,28 +518,6 @@ nav.main-nav {
             background: #eef595;
         }
 
-        input[type="submit"] {
-            display: table;
-            content: "";
-            clear: both;
-
-            height: 40px;
-            margin: 20px auto;
-
-            cursor: pointer;
-            @extend %submit_btn;
-        }
-
-        input#submit {
-            @extend %submit_btn;
-            width: 40%;
-
-            @media(max-width: $md ) {
-                width: 80%;
-
-            }
-        }
-        
         textarea#message {
             width: 30%;
             width: 60%;
@@ -553,6 +540,35 @@ nav.main-nav {
 
         textarea#message:focus {
             background: #eef595
+        }
+        
+
+        input#confirm {
+            border: red solid 1px;
+            width: 15%;
+            height: 35px;
+        }
+
+        input[type="submit"] {
+            display: table;
+            content: "";
+            clear: both;
+
+            height: 40px;
+            margin: 20px auto;
+
+            cursor: pointer;
+            @extend %submit_btn;
+        }
+
+        input#submit {
+            @extend %submit_btn;
+            width: 40%;
+
+            @media(max-width: $md ) {
+                width: 80%;
+
+            }
         }
         
         .div-row {
@@ -633,7 +649,8 @@ nav.main-nav {
     a {
         color: white;
         &:hover {
-            text-decoration: none;
+            color: #fdeab2;
+            text-decoration: underline;
         }
     }
 
@@ -668,6 +685,7 @@ footer {
     p {
         text-align: center;
         padding-top: 20px;
+        font-weight: bold;
     }
 }
 

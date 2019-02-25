@@ -23,12 +23,13 @@ Colours
       width: 90%; } }
 
 .main-content article#hire-me input[type="submit"], .main-content article#hire-me input#submit {
-  background: lightgreen;
-  border: solid black 1px;
+  background: #888e42;
+  border: solid #EEF595 1px;
   color: black;
+  font-weight: bold;
   border-radius: 15px; }
   .main-content article#hire-me input[type="submit"]:hover, .main-content article#hire-me input#submit:hover {
-    background: green; }
+    background: #a8af54; }
 
 .main-content article#services div, .main-content article#services img {
   width: 250px;
@@ -42,6 +43,7 @@ Colours
 body {
   background: lightblue;
   font-family: 'Lato', sans-serif;
+  /*font-weight: bold;*/
   padding: 0;
   margin: 0;
   background: url("img/interior-darker.png");
@@ -189,6 +191,11 @@ nav.main-nav {
       @media (max-width: 320px) {
         .main-content article#intro h1 {
           font-size: 6vw; } }
+    .main-content article#intro a {
+      color: white; }
+      .main-content article#intro a:hover {
+        color: #fdeab2;
+        text-decoration: none; }
   .main-content article#about-jgdm {
     background: none;
     padding: 10vh 0 0 0; }
@@ -394,18 +401,6 @@ nav.main-nav {
           width: 80%; } }
     .main-content article#hire-me input:focus {
       background: #eef595; }
-    .main-content article#hire-me input[type="submit"] {
-      display: table;
-      content: "";
-      clear: both;
-      height: 40px;
-      margin: 20px auto;
-      cursor: pointer; }
-    .main-content article#hire-me input#submit {
-      width: 40%; }
-      @media (max-width: 780px) {
-        .main-content article#hire-me input#submit {
-          width: 80%; } }
     .main-content article#hire-me textarea#message {
       width: 30%;
       width: 60%;
@@ -425,6 +420,22 @@ nav.main-nav {
           width: 80%; } }
     .main-content article#hire-me textarea#message:focus {
       background: #eef595; }
+    .main-content article#hire-me input#confirm {
+      border: red solid 1px;
+      width: 15%;
+      height: 35px; }
+    .main-content article#hire-me input[type="submit"] {
+      display: table;
+      content: "";
+      clear: both;
+      height: 40px;
+      margin: 20px auto;
+      cursor: pointer; }
+    .main-content article#hire-me input#submit {
+      width: 40%; }
+      @media (max-width: 780px) {
+        .main-content article#hire-me input#submit {
+          width: 80%; } }
     .main-content article#hire-me .div-row {
       min-height: 50px; }
     .main-content article#hire-me .col-one {
@@ -473,7 +484,8 @@ nav.main-nav {
   .pages-content a {
     color: white; }
     .pages-content a:hover {
-      text-decoration: none; }
+      color: #fdeab2;
+      text-decoration: underline; }
   .pages-content img {
     display: block;
     margin: 0 auto;
@@ -490,12 +502,13 @@ nav.main-nav {
     margin: 0; }
 
 footer {
-  background: gray;
+  background: #eef595;
   color: black;
   height: 50px; }
   footer p {
     text-align: center;
-    padding-top: 20px; }
+    padding-top: 20px;
+    font-weight: bold; }
 
 /*<a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('terms.html','','scrollbars=yes,width=550,height=250')">*/
 

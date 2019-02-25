@@ -141,6 +141,20 @@
                 <p>dyspraxia.jonniegrieve.co.uk</p>    
             </div>
 
+            <div class="elsewhere">
+                <a href="https://projects.jonniegrieve.co.uk/jquery_project" target="blank">
+                    <img src="img/services/skills-page.png" />
+                </a>   
+                <p>Skills: Single Page App</p>    
+            </div>
+
+            <div class="elsewhere">
+                <a href="https://projects.jonniegrieve.co.uk/vue_project" target="blank">
+                    <img src="img/services/project-status-page.png" />
+                </a>   
+                <p>Project Status: Single Page App</p>    
+            </div>
+
         </article>
     
     <footer>

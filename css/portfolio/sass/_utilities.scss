@@ -31,13 +31,14 @@ $xl: 1200px;
 }
 
 %submit_btn {
-    background: lightgreen;
-    border: solid black 1px;
+    background: $jonniegrieve;
+    border: solid $digitalmedia 1px;
     color: black;
+    font-weight: bold;
     border-radius: 15px;
 
     &:hover {
-        background: green;
+        background: lighten($jonniegrieve, 10%);
     }
 }
 

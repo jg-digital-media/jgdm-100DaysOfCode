@@ -224,7 +224,7 @@
 
             <h2>Hire Me!</h2>
 
-            <p>I’m available for <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/page.html','','scrollbars=yes,width=550,height=250')">hire for Web Design work</a>.
+            <p>I’m available for <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/prices.html','','scrollbars=yes,width=550,height=250')">hire for Web Design work</a>.
 
             <p>Jonnie Grieve Digital Media prides itself on providing a quality service at an affordable and competitive price. </p>
             
@@ -292,7 +292,8 @@
                         </div>
 
                         <div class="col-two">
-                            <input type="text" id="name" name="name" placeholder="Enter your name..." />
+                            <input type="text" id="name" name="name" required  
+                            oninvalid="this.setCustomValidity('Please Enter Your Name!  :-)')" oninput="this.setCustomValidity('')" placeholder="Enter your name..." />
                         </div>
                     
                     </div> 
@@ -304,7 +305,7 @@
                         </div>
 
                         <div class="col-two">
-                            <input type="email" id="email" name="email" placeholder="Enter your email..." />
+                            <input type="email" id="email" name="email" required oninvalid="this.setCustomValidity('Please enter a valid email :-)')" oninput="this.setCustomValidity('')" placeholder="Enter your email..." />
                         </div>
                         
                     </div>    
@@ -329,7 +330,7 @@
 
                         <div class="col-two">
         
-                            <input type="text" id="subject" name="subject" placeholder="Service or help you require..." />
+                            <input type="text" id="subject" name="subject" required oninvalid="this.setCustomValidity('Please enter a subject for your message')" oninput="this.setCustomValidity('')" placeholder="Service or help you require..." />
                         
                         </div>
                         
@@ -343,7 +344,7 @@
 
                         <div class="col-two">
         
-                            <textarea id="message" name="message" placeholder="How can I help?"></textarea>
+                            <textarea id="message" name="message" required oninvalid="this.setCustomValidity('Enter a message!')"  oninput="this.setCustomValidity('')" placeholder="How can I help?"></textarea>
                         
                         </div>
                         
@@ -355,8 +356,8 @@
                             <label for="confirm">The boring consent bit. :) <span>*</span> </label>
                         </div>
 
-                        <div class="col-two">Please let me know you have read and agree with my <a href="pages/gdpr.html">privacy policy</a>.
-                            <input type="checkbox" id="confirm" name="confirm" value="Confirmed Consent" placeholder="Click Consent" />
+                        <div class="col-two">Please let me know you have read and agree with my <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/gdpr.html','','scrollbars=yes,width=550,height=250')">privacy policy</a>.
+                            <input type="checkbox" id="confirm" name="confirm" value="Confirmed Consent" required oninvalid="this.setCustomValidity('Have you read my privacy policy? It won\'t take long :)')" oninput="this.setCustomValidity('')"  placeholder="Click Consent" />
                         
                         </div>
                         
@@ -364,7 +365,7 @@
                                     
                 </div>
 
-                <input type="submit" id="submit" value="Send My Message!" />
+                <input type="submit" id="submit" value="Send!" />
             </form>
 
         </article>

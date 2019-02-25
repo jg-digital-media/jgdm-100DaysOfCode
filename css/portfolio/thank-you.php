@@ -20,7 +20,7 @@
 <body>
 
     <header>
-        <a href="" title="">
+        <a href="index.html" title="">
             <img id="" title="" alt="" src="img/logo-1.png" />
         </a>
 
@@ -46,10 +46,6 @@
     <nav class="main-nav">
         <ol>
             <li><a href="index.html" title="">Home </a></li>
-            <li><a href="#about-jgdm" title="">About </a></li>
-            <li><a href="#services" title="">Services </a></li>
-            <li><a href="#hire-me" title="">Hire Me </a></li>
-            <li><a href="#dyspraxia" title="">Dyspraxia </a></li>
         </ol>
     </nav>
 
@@ -166,17 +162,23 @@
 
     <?php
         //Build email message
-        $msg = "<h3>You have a received a new message from Jonnie Grieve Digital Media (https://www.jonniegrieve.co.uk)</h3>";
+        $msg = "<h3>You have a received a new message from  " . $_POST["name"] . " on Jonnie Grieve Digital Media (https://www.jonniegrieve.co.uk)</h3>";
         $msg .= "<hr />";
 
-        $_POST["email"];
-        $_POSR["name"];
-        $_POST["your-email"];
+        $msg .="<h3>Message Contents</h3>";
 
-        $_POST["subject"];
-        $_POST["message"];
-        $_POST["confirm"];
+        $msg .= $_POST["message"];
+
+        $msg .="<h3>Contact Details: </h3>";
+
+        $msg .="<ul>";
+        $msg .="<li>" . "<strong>Name:</strong> " . $_POST["name"] . "</li>";
+        $msg .="<li>" . "<strong>Email Address:</strong> " . $_POST["email"] . "</li>";
+        $msg .="<li>" . "<strong>Subject:</strong> " . $_POST["subject"] . "</li>";
+        $msg .="<li>" . "<strong>Privacy Check Confirmation:</strong> " . $_POST["confirm"] . "</li>";
+        $msg .="</ul>";
         
+
         //Send email
         $recipient = "mail@jonniegrieve.co.uk";
         $subject = "New email from JGDM Website";

@@ -426,7 +426,8 @@ nav.main-nav {
     .main-content article#hire-me input#confirm {
       border: red solid 1px;
       width: 15%;
-      height: 35px; }
+      height: 35px;
+      cursor: pointer; }
     .main-content article#hire-me input[type="submit"] {
       display: table;
       content: "";
@@ -498,7 +499,8 @@ nav.main-nav {
       .pages-content img {
         width: 96%; } }
   .pages-content .pages-title {
-    font-size: 5vw; }
+    font-size: 5vw;
+    color: #fdeab2; }
   .pages-content .project-link {
     color: white;
     display: block;

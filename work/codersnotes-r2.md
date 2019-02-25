@@ -6,6 +6,19 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+
+## Day 8
+
+
+```html 
+
+https://stackoverflow.com/questions/5272433/html5-form-required-attribute-set-custom-validation-message
+
+<input type="text" id="username" required placeholder="Enter Name"
+    oninvalid="this.setCustomValidity('Enter User Name Here')"
+    oninput="this.setCustomValidity('')"  />
+```
+
 ## Day 6 - 
 
 **infographics**  - complete but ongoing 

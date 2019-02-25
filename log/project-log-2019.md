@@ -1,15 +1,20 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 7 of 100.  **Last Update:**  22nd February 2019
+## **Status:** Day 8 of 100. **Last Update:** 25th February 2019
 
 ___
 **Directories:** log | css | four_in_a_row | javascript | python | react | svg | work
 ___
 
+### **R2D08:** Monday 25th February 2019
+
++ **Notes:** - Almost, Almost, Almost ready to launch now.  I added the default HTML5 Validation to my web form.  Will be adding another layer to it at some point.  Will populate my blog with some of my old posts next  :)
++ **Technologies Used:** - HTML5, CSS, JavaScript
+
 ### **R2D07:** Friday 22nd February 2019
 
 + **Notes:** - Main takeaway from today is I have added a new wordpress installation where my new blog will live.  blog.jonniegrieve.co.uk.  Happy with the theme currently in place but I sense at some point I'll add my own. :)  One step further.  :)
-+ **Technologies Used:** - WordPress HTML5, CSS
++ **Technologies Used:** - WordPress, HTML5, CSS
 
 ### **R2D06:** Thursday 21st February 2019
 + **Notes:** - Working through my projects, making sure they're up to date, seeing what's shareable and what's not. Lots of updates pushed up to GitHub.

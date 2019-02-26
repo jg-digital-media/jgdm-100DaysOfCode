@@ -5,7 +5,39 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 9
 
+
+```php
+ echo $_SERVER['SERVER_ADDR'];
+```
+
+
+
+https://stackoverflow.com/questions/21450303/how-to-track-ip-address-of-email-sender
+
+```php
+function getUserIpAddr()
+{
+    if (!empty($_SERVER['HTTP_CLIENT_IP'])) //if from shared
+    {
+        return $_SERVER['HTTP_CLIENT_IP'];
+    }
+    else if (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))   //if from a proxy
+    {
+        return $_SERVER['HTTP_X_FORWARDED_FOR'];
+    }
+    else
+    {
+        return $_SERVER['REMOTE_ADDR'];
+    }
+}
+
+```
+
+https://www.whatismyip.com/how-to-trace-an-e-mail-address/
+
+https://www.technologyhint.com/find-ip-address-email-sender/
 
 ## Day 8
 

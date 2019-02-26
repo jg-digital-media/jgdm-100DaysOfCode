@@ -1,3 +1,10 @@
+<!--
+Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
+Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
+Email:          mail@jonniegrieve.co.uk
+Last Updated:   26th February 2019
+--->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +52,7 @@
 
     <nav class="main-nav">
         <ol>
-            <li><a href="index.html" title="">Home </a></li>
+            <li><a href="index.html" title="Click to go back to the homepage.">Home </a></li>
         </ol>
     </nav>
 
@@ -53,9 +60,9 @@
 
         <article id="intro">
 
-            <h1>Thanks</h1>
+            <h1>Thanks for contacting me. I'm looking forward to working with you.</h1>
 
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo quam ad aspernatur omnis impedit animi ex, itaque, alias deleniti laborum nihil quasi doloribus tempore quae eveniet minima! Perspiciatis, perferendis vitae!</p>
+            <p>I've received your message and will contact you shortly.</p>
 
         </article>
 
@@ -177,6 +184,10 @@
         $msg .="<li>" . "<strong>Subject:</strong> " . $_POST["subject"] . "</li>";
         $msg .="<li>" . "<strong>Privacy Check Confirmation:</strong> " . $_POST["confirm"] . "</li>";
         $msg .="</ul>";
+
+        $msg .= "<h3>IP Address of Sender:</h3>";
+
+        $msg .= "<strong>The IP address is:</strong> " . $_SERVER['SERVER_ADDR'];
         
 
         //Send email

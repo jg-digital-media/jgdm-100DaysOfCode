@@ -11,7 +11,7 @@
 
 
 
-### Removing focus outline from Tabindex
+### Removing focus outline from Tab indexes
 
 https://stackoverflow.com/questions/1457849/how-to-remove-the-border-highlight-on-an-input-text-element
 

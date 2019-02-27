@@ -1,16 +1,20 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 9 of 100. **Last Update:** 26th February 2019
+## **Status:** Day 10 of 100. **Last Update:** 27th February 2019
 
 ___
 **Directories:** log | css | four_in_a_row | javascript | python | react | svg | work
 ___
 
-### **R2D08:** Tuesday 26th February 2019
+### **R2D10:** Wednesday 27th February 2019
++ **Notes:** - I posted a little teaser for you all about my new portfolio. Tomorrow is LAUNCH DAY! :) Also spent time earlier today taking care of security vulnerablities in my React project dev dependencies! All clear for now! :)
++ **Technologies Used:** - HTML5, CSS, JavaScript
+
+### **R2D09:** Tuesday 26th February 2019
 + **Notes:** - Tomorrow I'll start proceedings to prepare my new portfolio to go online. I've migrated some of my blogs to the new location. Also enjoyed learning about Generics and Lists in Java  :)
 + **Technologies Used:** - HTML5, CSS, JavaScript, WordPress, PHP, Java
 
-### **R2D09:** Monday 25th February 2019
+### **R2D08:** Monday 25th February 2019
 
 + **Notes:** - Almost, Almost, Almost ready to launch now.  I added the default HTML5 Validation to my web form.  Will be adding another layer to it at some point.  Will populate my blog with some of my old posts next  :)
 + **Technologies Used:** - HTML5, CSS, JavaScript

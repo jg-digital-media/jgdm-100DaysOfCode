@@ -460,7 +460,14 @@ nav.main-nav {
             vertical-align: top;
             text-align: center;
             cursor: crosshair;
-            border: solid black 1px;
+            border: solid black 2px;
+
+            h2 {
+                font-size: 20pt;
+                @media (max-width: $lg) {
+                    font-size: 20pt;            
+                }
+            }
 
             @media (max-width: $md) {
                 display: block;
@@ -470,7 +477,7 @@ nav.main-nav {
 
             &:hover {
                 background: #EEF595;
-                border: solid green 1px;
+                border: solid green 2px;
             }
 
             strong {

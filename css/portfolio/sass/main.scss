@@ -211,14 +211,18 @@ nav.main-nav {
         background: none;
         padding: 40vh 0 0 0;
         margin-top: 150px;
+
+        @media(max-width: $lg) {
+            margin-top: 5%;
+        }
         
-        @media(max-width: 320px) {
+        @media(max-width: $sm) {
             padding: 20vh 0 0 0;
         }
 
         h1 {
             text-align: center;
-            @media(max-width: 320px) {
+            @media(max-width: $sm) {
                 font-size: 6vw;
             }
         }
@@ -265,7 +269,7 @@ nav.main-nav {
                 opacity: 1;
             }
             
-            @media(max-width: 620px) {
+            @media(max-width: $md) {
                 width: 70%;
             }
             
@@ -456,6 +460,7 @@ nav.main-nav {
             width: 30%;
             height: 320px;
             background: lightgray;
+            transition: 0.5s;
             display: inline-block;
             vertical-align: top;
             text-align: center;
@@ -477,6 +482,7 @@ nav.main-nav {
 
             &:hover {
                 background: #EEF595;
+                transition: 0.5s;
                 border: solid green 2px;
             }
 

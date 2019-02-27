@@ -5,6 +5,27 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 10
+
+### Cleared out security vulnerabilities with React Context Project
+
+
+
+### Removing focus outline from Tabindex
+
+https://stackoverflow.com/questions/1457849/how-to-remove-the-border-highlight-on-an-input-text-element
+
+```css
+body:focus {
+	outline-width: 0;
+}
+
+*:focus {
+    outline: none;
+}
+```
+Keep in mind that the focus outline is an accessibility and usability feature; it clues the user into what element is currently focused.
+
 ## Day 9
 
 

@@ -7,7 +7,7 @@ ___
 ___
 
 ### **R2D10:** Wednesday 27th February 2019
-+ **Notes:** - I posted a little teaser for you all about my new portfolio. Tomorrow is LAUNCH DAY! :) Also spent time earlier today taking care of security vulnerablities in my React project dev dependencies! All clear for now! :)
++ **Notes:** - I posted a little teaser for you all about my new portfolio. Tomorrow is LAUNCH DAY! :) Also spent time earlier today taking care of security vulnerabilities in my React project dev dependencies! All clear for now! :)
 + **Technologies Used:** - HTML5, CSS, JavaScript
 
 ### **R2D09:** Tuesday 26th February 2019

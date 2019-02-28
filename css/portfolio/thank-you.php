@@ -50,7 +50,7 @@ Last Updated:   27th February 2019
 
     <nav class="main-nav">
         <ol>
-            <li><a href="index.html" title="Click to go back to the homepage." tabindex="6">Home </a></li>
+            <li><a href="index.html" title="Click to go back to the homepage." tabindex="6">Home</a></li>
         </ol>
     </nav>
 

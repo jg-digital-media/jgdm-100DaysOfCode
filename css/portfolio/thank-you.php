@@ -60,7 +60,7 @@ Last Updated:   27th February 2019
 
             <h1>Thanks for contacting me. I'm looking forward to working with you.</h1>
 
-            <p>I've received your message and will contact you shortly.</p>
+            <p>I've received your message and I'll be in touch soon! In the meantime please continue to browse my other services below.</p>
 
         </article>
 

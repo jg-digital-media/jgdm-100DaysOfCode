@@ -158,7 +158,11 @@ nav.main-nav {
                 position: relative;
                 left: 0;
                 text-align: left;
-                font-size: 3vw;
+                font-size: 3.5vw;
+            }
+
+            @media (max-width: $sm) {                
+                font-size: 4vw;
             }
             
 
@@ -713,7 +717,7 @@ footer {
 
     p {
         text-align: center;
-        padding-top: 20px;
+        padding-top: 5px;
         font-weight: bold;
     }
 }

@@ -156,7 +156,10 @@ nav.main-nav {
           position: relative;
           left: 0;
           text-align: left;
-          font-size: 3vw; } }
+          font-size: 3.5vw; } }
+      @media (max-width: 320px) {
+        nav.main-nav ol li {
+          font-size: 4vw; } }
     nav.main-nav ol li a {
       color: black;
       text-decoration: none;
@@ -530,7 +533,7 @@ footer {
   height: 50px; }
   footer p {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 5px;
     font-weight: bold; }
 
 /*<a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('terms.html','','scrollbars=yes,width=550,height=250')">*/

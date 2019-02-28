@@ -179,6 +179,7 @@ Last Updated:   27th February 2019
         $msg .="<ul>";
         $msg .="<li>" . "<strong>Name:</strong> " . $_POST["name"] . "</li>";
         $msg .="<li>" . "<strong>Email Address:</strong> " . $_POST["email"] . "</li>";
+        $msg .="<li>" . "<strong>Any URL:</strong> " . $_POST["your-url"] . "</li>"; 
         $msg .="<li>" . "<strong>Subject:</strong> " . $_POST["subject"] . "</li>";
         $msg .="<li>" . "<strong>Privacy Check Confirmation:</strong> " . $_POST["confirm"] . "</li>";
         $msg .="</ul>";

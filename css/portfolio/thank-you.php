@@ -27,7 +27,7 @@ Last Updated:   27th February 2019
 <body>
 
     <header>
-        <img title="Logo for Jonnie Grieve Digital Media" alt="Logo for Jonnie Grieve Digital Media" src="img/logo-1.png" tabindex="1" />
+        <img title="Logo for Jonnie Grieve Digital Media" alt="Logo for Jonnie Grieve Digital Media" src="img/logo.png" tabindex="1" />
 
         <span id="website-title">
             <h1>
@@ -43,20 +43,22 @@ Last Updated:   27th February 2019
             <li><a href="https://www.facebook.com/jgDigitalMedia/" target="blank"><img class="social-icon" title="Find me on Facebook" alt="Find me on Facebook" src="img/facebook.png" tabindex="2"  /></a></li>
             <li><a href="https://www.twitter.com/jg_digitalMedia/" target="blank"><img class="social-icon" title="Follow me on Twitter" alt="Follow me on Twitter" src="img/twitter.png" tabindex="3"  /></a></li>
             <li><a href="https://www.linkedin.com/in/jonathan-grieve-6a944659/" target="blank"><img class="social-icon" title="Let's connect on LinkedIn" alt="Let's connect on LinkedIn" src="img/linkedin.png" tabindex="4"  /></a></li>
-            <li><a href="https://www.youtube.com/" target="blank"><img class="social-icon" title="Watch me on YouTube" alt="Watch me on YouTube" src="img/youtube.png" tabindex="5"  /></a></li>
+            <li><a href="https://www.instagram.com/jonniegrievedigitalmedia/" target="blank"><img class="social-icon" title="Find me on Instagram" alt="Find me on Instagram" src="img/instagram.png" tabindex="5"  /></a></li>
+            <li><a href="https://www.youtube.com/" target="blank"><img class="social-icon" title="Watch me on YouTube" alt="Watch me on YouTube" src="img/youtube.png" tabindex="6"  /></a></li>
+            
         </ol>
 
     </header>
 
     <nav class="main-nav">
         <ol>
-            <li><a href="index.html" title="Click to go back to the homepage." tabindex="6">Home</a></li>
+            <li><a href="index.html" title="Click to go back to the homepage." tabindex="7">Home</a></li>
         </ol>
     </nav>
 
     <main class="main-content">
 
-        <article id="intro" tabindex="7">
+        <article id="intro" tabindex="8">
 
             <h1>Thanks for contacting me. I'm looking forward to working with you.</h1>
 
@@ -68,7 +70,7 @@ Last Updated:   27th February 2019
 
             <h2>Services</h2>
 
-            <div class="main-services" tabindex="8">
+            <div class="main-services" tabindex="9">
                 <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/webdesign.html','','scrollbars=yes,width=550,height=250')">
                     <i class="fas fa-object-group">&nbsp;</i>
                 </a>
@@ -76,14 +78,14 @@ Last Updated:   27th February 2019
 
             </div>
 
-            <div class="main-services" tabindex="9">
+            <div class="main-services" tabindex="10">
                  <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/gwd-creatives.html','','scrollbars=yes,width=550,height=250')">
                     <i class="fab fa-google">&nbsp;</i>           
                 </a>
                 <p>Google Web Designer Creatives for web advert generation</p>
             </div>
 
-            <div class="main-services" tabindex="10">
+            <div class="main-services" tabindex="11">
                 <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/social-media.html','','scrollbars=yes,width=550,height=250')">
                     <i class="fab fa-twitter">&nbsp;</i>
                 </a>
@@ -91,21 +93,21 @@ Last Updated:   27th February 2019
                 <p>Social Media: To help you get noticed.</p>       
             </div>
 
-            <div class="main-services" tabindex="11">
+            <div class="main-services" tabindex="12">
                 <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/wordpress.html','','scrollbars=yes,width=550,height=250')">
                     <i class="fab fa-wordpress-simple">&nbsp;</i>
                 </a>                
                 <p>WordPress: Most Websites use this popular platform</p>       
             </div>
 
-            <div class="main-services" tabindex="12">
+            <div class="main-services" tabindex="13">
                 <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/e-commerce.html','','scrollbars=yes,width=550,height=250')">
                     <i class="fas fa-cash-register">&nbsp;</i>
                 </a>               
                 <p>E-Commerce: Sell products via your website.</p>     
             </div>
 
-            <div class="main-services" tabindex="13">
+            <div class="main-services" tabindex="14">
                 <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/digital-design.html','','scrollbars=yes,width=550,height=250')">
                     <i class="fas fa-image">&nbsp;</i>
                 </a>                   
@@ -114,42 +116,42 @@ Last Updated:   27th February 2019
 
             <h3>Elsewhere... </h3>
 
-            <div class="elsewhere" tabindex="14">
+            <div class="elsewhere" tabindex="15">
                 <a href="https://projects.jonniegrieve.co.uk" target="blank">
                     <img src="img/services/sub-projects.png" />
                 </a>
                 <p>projects.jonniegrieve.co.uk</p>       
             </div>
 
-            <div class="elsewhere" tabindex="15">
+            <div class="elsewhere" tabindex="16">
                 <a href="https://wordpress.jonniegrieve.co.uk" target="blank">
                     <img src="img/services/sub-wordpress.png" />
                 </a>   
                 <p>wordpress.jonniegrieve.co.uk</p>    
             </div>
 
-            <div class="elsewhere" tabindex="16">
+            <div class="elsewhere" tabindex="17">
                 <a href="https://android.jonniegrieve.co.uk" target="blank">
                     <img src="img/services/sub-android.png" />
                 </a> 
                 <p>android.jonniegrieve.co.uk</p>      
             </div>
 
-            <div class="elsewhere" tabindex="17">
+            <div class="elsewhere" tabindex="18">
                 <a href="https://dyspraxia.jonniegrieve.co.uk" target="blank">
                     <img src="img/services/sub-dyspraxia.png" />
                 </a>   
                 <p>dyspraxia.jonniegrieve.co.uk</p>    
             </div>
 
-            <div class="elsewhere" tabindex="18">
+            <div class="elsewhere" tabindex="19">
                 <a href="https://projects.jonniegrieve.co.uk/jquery_project" target="blank">
                     <img src="img/services/skills-page.png" />
                 </a>   
                 <p>Skills: Single Page App</p>    
             </div>
 
-            <div class="elsewhere" tabindex="19">
+            <div class="elsewhere" tabindex="20">
                 <a href="https://projects.jonniegrieve.co.uk/vue_project" target="blank">
                     <img src="img/services/project-status-page.png" />
                 </a>   

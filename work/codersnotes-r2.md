@@ -5,6 +5,35 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 11
+
+Common methods for Java Lists.
+
+```java
+  List<String> shopList = new ArrayList<>();
+
+        shopList.add("Coffee");
+        shopList.add("Chicken");
+        shopList.add("Burgers");
+        shopList.add("Bread");
+
+        System.out.println(shopList);
+
+        shopList.remove("Coffee");
+        shopList.remove(3);
+
+        shopList.get(2)  //returns "Bread"
+
+```
+
++ add()
++ remove()
++ get()
++ size()
++ set()
++ toArray()
++ clear()
+
 ## Day 10
 
 ### Cleared out security vulnerabilities with React Context Project

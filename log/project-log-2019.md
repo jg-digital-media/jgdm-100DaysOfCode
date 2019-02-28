@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 10 of 100. **Last Update:** 27th February 2019
+## **Status:** Day 11 of 100. **Last Update:** 28th February 2019
 
 ___
 **Directories:** log | css | four_in_a_row | javascript | python | react | svg | work
 ___
+
+
+### **R2D11:** Thursday 28th February 2019
++ **Notes:** - Earlier today I launched my new portfolio at https://www.jonniegrieve.co.uk.  Long time in the making. Work begins soon on designing a custom WordPress theme for my new blog. :)
++ **Technologies Used:** - HTML5, CSS, JavaScript
 
 ### **R2D10:** Wednesday 27th February 2019
 + **Notes:** - I posted a little teaser for you all about my new portfolio. Tomorrow is LAUNCH DAY! :) Also spent time earlier today taking care of security vulnerabilities in my React project dev dependencies! All clear for now! :)

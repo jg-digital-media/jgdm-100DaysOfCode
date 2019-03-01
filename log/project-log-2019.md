@@ -1,11 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 11 of 100. **Last Update:** 28th February 2019
+## **Status:** Day 12 of 100. **Last Update:** 01 March 2019
 
 ___
-**Directories:** log | css | four_in_a_row | javascript | python | react | svg | work
+**Directories:** log | css | four_in_a_row | java | javascript | python | react | svg | work
 ___
 
+
+### **R2D12:** Friday 1st March 2019
++ **Notes:** - Been working on some Java Data collections recently, Lists, Maps and Interfaces.  I feel like I've gained more of an understanding on each of those that I didn't really have before! :)
++ **Technologies Used:** - Java
 
 ### **R2D11:** Thursday 28th February 2019
 + **Notes:** - Earlier today I launched my new portfolio at https://www.jonniegrieve.co.uk.  Long time in the making. Work begins soon on designing a custom WordPress theme for my new blog. :)

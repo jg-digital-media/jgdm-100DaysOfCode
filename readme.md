@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 2: Day 11 of 100. **Last Update:** 28th February 2019
++ **Status:** Round 2: Day 12 of 100. **Last Update:** 1st March 2019
 
 + **Directories**
     + css 
@@ -11,6 +11,7 @@
       + modernizr
       + balloon
     + four_in_a_row
+    + java
     + javascript
       + dom
       + vue

@@ -5,6 +5,33 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 12
+
+```java
+package com.company;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Map<String, String> meals = new HashMap<>();
+
+        //Add values to the map with the put function
+        meals.put("Drink","Coffee");
+        meals.put("Food", "Chicken");
+        meals.put("Object", "Cup");
+        meals.put("Cutlery", "Fork");
+
+        //print to console
+        System.out.println(meals);
+    }
+}
+
+```
+
 ## Day 11
 
 Common methods for Java Lists.

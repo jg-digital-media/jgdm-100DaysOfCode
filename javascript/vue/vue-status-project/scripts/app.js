@@ -60,8 +60,8 @@ const vue = new Vue({
         {
             project_name: "Walks",
             project_type: "HTML/CSS",
-            project_status: "Incomplete",
-            status: false,
+            project_status: "Complete",
+            status: true,
         },
         {
             project_name: "Web Design Rehash",
@@ -109,11 +109,17 @@ const vue = new Vue({
             project_name: "Learning Notes Website",
             project_type: "HTML/CSS",
             project_status: "Complete",
-            status: false,
+            status: true,
         },
         {
             project_name: "Web Design Practice",
             project_type: "HTML/CSS",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "Ruby Files",
+            project_type: "Ruby",
             project_status: "Incomplete",
             status: false,
         },
@@ -138,8 +144,8 @@ const vue = new Vue({
         {
             project_name: "The Games Yard",
             project_type: "HTML/CSS",
-            project_status: "Incomplete",
-            status: false,
+            project_status: "Complete",
+            status: true,
         },
         {
             project_name: "HTML NAV Single Page",
@@ -162,14 +168,14 @@ const vue = new Vue({
         {
             project_name: "Projects in Vue.js",
             project_type: "HTML/CSS",
-            project_status: "Complete",
-            status: true,
+            project_status: "Incomplete",
+            status: false,
         },
         {
             project_name: ".WebP Images",
             project_type: "HTML/CSS",
-            project_status: "Incomplete",
-            status: false,
+            project_status: "Complete",
+            status: true,
         },
         {
             project_name: "Crook2Hook",
@@ -180,8 +186,8 @@ const vue = new Vue({
         {
             project_name: "PHP Directory Site",
             project_type: "PHP",
-            project_status: "Incomplete",
-            status: false,
+            project_status: "Complete",
+            status: true,
         },
         {
             project_name: "PHP Storybuilder App",
@@ -204,26 +210,26 @@ const vue = new Vue({
         {
             project_name: "React Basics", //npm start - npm
             project_type: "React.js",
-            project_status: "Complete",
+            project_status: "Incomplete",
             status: false,
         },
         {
             project_name: "React Redux", //npm start - npm
             project_type: "React.js",
-            project_status: "Complete",
+            project_status: "Incomplete",
             status: false,
         },
         {
             project_name: "RSVP App", //npm start - npm
             project_type: "React.js",
-            project_status: "Complete",
+            project_status: "Incomplete",
             status: false,
         },
         {
             project_name: "Selenium Web Driver", 
             project_type: "JavaScript",
-            project_status: "Incomplete",
-            status: false,
+            project_status: "Complete",
+            status: true,
         },
         {
             project_name: "Form Project", 
@@ -246,8 +252,8 @@ const vue = new Vue({
         {
             project_name: "PHP Basics (2016)", 
             project_type: "PHP",
-            project_status: "Incomplete",
-            status: false,
+            project_status: "Complete",
+            status: true,
         },
         {
             project_name: "React Fetch API", 

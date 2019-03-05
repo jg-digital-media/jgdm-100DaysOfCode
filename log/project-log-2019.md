@@ -1,11 +1,19 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 12 of 100. **Last Update:** 01 March 2019
+## **Status:** Day 14 of 100. **Last Update:** 04 March 2019
 
 ___
 **Directories:** log | css | four_in_a_row | java | javascript | python | react | svg | work
 ___
 
+
+### **R2D14:** Tuesday 5th March 2019
++ **Notes:** - I didn't have a chance to do my report yesterday but the last couple of days have been about refreshing and sharpening my skills in Input and output in Python.
++ **Technologies Used:** - Python
+
+### **R2D13:** Monday 4th March 2019
++ **Notes:** - I didn't have a chance to do my report yesterday but the last couple of days have been about refreshing and sharpening my skills in Input and output in Python. :)
++ **Technologies Used:** - Python
 
 ### **R2D12:** Friday 1st March 2019
 + **Notes:** - Been working on some Java Data collections recently, Lists, Maps and Interfaces.  I feel like I've gained more of an understanding on each of those that I didn't really have before! :)

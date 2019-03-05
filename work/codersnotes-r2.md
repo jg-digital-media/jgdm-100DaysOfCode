@@ -6,6 +6,67 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 14
+
+I didn't have a chance to do my report yesterday but the last couple of days have been about refreshing and sharpenin my skills in Input and output in Python.
+
+I've got the basis of the little project nailed down (which was basically a mini Madlibs game script and here it is.
+
+```python
+
+print("---------------------------------")
+print("Welcome to my Simple Madlibs game")
+print("---------------------------------")
+
+verb = input("Give me a Verb: ")
+noun = input("Give me noun: ")
+adjective = input("Give me an adjective: ")
+
+# TODO: Output the template to the screen with the blanks filled out with what the user stated
+
+print("\nThank you.  Here are your results\n")
+
+print("I enjoy practice! I find it helps me to {%verb} better", verb)
+print("Without practice, {%s} would probably not even work", noun)
+print("My code is getting more {%d} every single day!", adjective)
+print("\n\nThat's it! Thanks for using Madlibs\n\n")
+```
+
+So it takes in input, captures it correctly with the input method. The tricky part is getting the input to display correctly in the "results" part of the script.  My main issue is that I think I'm confusing the syntax with Java with the use of format specifiers and variables as an argument to the print method. 
+
+```python
+print("I enjoy practice! I find it helps me to {%verb} better", verb)
+print("I enjoy practice! I find it helps me to {%verb} better", verb)
+```
+
+
+which merely outputs things like 
+
+I enjoy practice! I find it helps me to {%s} better raf
+
+
+The Syntax is more like
+
+```print("I enjoy practice! I find it helps me to", verb, "better.")```
+
+Being sure to perfect things like spacing of words between the variable and the rest of the string.
+
+```javascript
+print("I enjoy practice! I find it helps me to " +  verb + " better.")
+print("Without practice my", noun, "would probably not even work.")
+print("My code is getting more", adjective,"every single day!")
+```
+
+If you concatenate (join strings together with the + operator, you need to include spaces in your strings.  If you do it with a comma as above, the strings seem to be applied to the output variables. 
+
+### check a value is not divisible by 2
+
+```python
+def is_odd(num):
+    if num % 2 != 0:
+    	return True
+```
+
 ## Day 12
 
 ```java

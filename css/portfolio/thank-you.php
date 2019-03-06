@@ -168,6 +168,11 @@ Last Updated:   27th February 2019
     <div class="ios-background"></div>
 
     <?php
+
+        // get real ip address
+        $realIP = file_get_contents("http://ipecho.net/plain");
+        $checkIP = file_get_contents('http://checkip.dyndns.com/');
+
         //Build email message
         $msg = "<h3>You have a received a new message from  " . $_POST["name"] . " on Jonnie Grieve Digital Media (https://www.jonniegrieve.co.uk)</h3>";
         $msg .= "<hr />";
@@ -186,10 +191,35 @@ Last Updated:   27th February 2019
         $msg .="<li>" . "<strong>Privacy Check Confirmation:</strong> " . $_POST["confirm"] . "</li>";
         $msg .="</ul>";
 
-        $msg .= "<h3>IP Address of Sender:</h3>";
+        $msg .= "<h3>Details of Sender IP Address:</h3>";
 
-        $msg .= "<strong>The IP address is:</strong> " . $_SERVER['SERVER_ADDR'];
+        $msg .= "<ul>";
+
+        $msg .= "<li><strong>The Email Server IP address is:</strong> " . $_SERVER['SERVER_ADDR'] . "</li>";
+        $msg .= "<li><strong>The Public IP address is:</strong> " . $_SERVER['SERVER_ADDR'] . "</li>";
+        $msg .= "<li><strong>The ipecho.com returned address is:</strong> " . $realIP . "</li>";
+        $msg .= "<li><strong>The checkIP returned address is:</strong> " . $checkIP . "</li>";
+
+        $msg .= "</ul>";
         
+        /* function getUserIpAddr()
+        {
+            if (!empty($_SERVER['HTTP_CLIENT_IP'])) //if from shared
+            {
+                $msg .= $_SERVER['HTTP_CLIENT_IP'];
+            }
+            else if (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))   //if from a proxy
+            {
+                $msg .= $_SERVER['HTTP_X_FORWARDED_FOR'];
+            }
+            else
+            {
+                $msg .= $_SERVER['REMOTE_ADDR'];
+            }
+        }
+
+        getUserIpAddr(); */
+                
 
         //Send email
         $recipient = "mail@jonniegrieve.co.uk";

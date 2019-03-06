@@ -7,6 +7,52 @@
 
 ## Day 15
 
+### Practicing Semantic HTML
+
+#### Introductory content.
+
++ needs a containing header tag.
+
++ Introduce a paragraph for the non heading content. 
+
++ use nav as a containing element for list tags.
+
+#### About content
+
++ Switch level 1 heading to be a level 2 heading.  
++ Replace the h1 heading of the introductory content to be a level 1 heading as the first heading of the document - the title of the document.
+
++ change h3 tag to be a paragraph tag. 
+
++ Surround in a article tag.
+
+#### Facts Content
+
++ Surround in an article tag.
+
++ Make first sentence a level 2 heading.
+
++ Use an ordered list to replace the content
+
+#### Pets content. 
+
++ Use heading level 2 tags Strong tag. (although this may not be neccessary as level 2 headings have default styling.
+
++ paragraph tags.
+
+
+#### Footer content
+
++ use footer tag for the footer content
+
++ ```&copy;``` character for browser readable text
+
+### Summary
++ I didn't think of everything but I reckon I got the general idea. 
+
++ main element - used to group together the main content of a page. 
+
+### Get IP Addresses
 + Get external IP address - Stackoverflow - https://stackoverflow.com/questions/7909362/how-do-i-get-the-external-ip-of-my-server-using-php
 + https://ipecho.net/extra 
 + https://www.iplocation.net/find-ip-address

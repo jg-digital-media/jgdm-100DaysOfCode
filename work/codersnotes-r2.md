@@ -47,10 +47,23 @@
 
 + ```&copy;``` character for browser readable text
 
-### Summary
+#### Summary
 + I didn't think of everything but I reckon I got the general idea. 
 
 + main element - used to group together the main content of a page. 
+
+### Grouping and Struturing HTML Content
++ nav  ->  ul   li   - semantic navigation in HTML
+
++ main - groups main content of a page. only the main content not the header or footer.
+
++ section - semantically group sections of main content together. 
+
++ aside - sectioning content that is a deviation from the main content
+
++ footer -  in HTML the footer tag also lets us add separate information about a quote in a semantic way - as well as footer of a website
+
+
 
 ### Get IP Addresses
 + Get external IP address - Stackoverflow - https://stackoverflow.com/questions/7909362/how-do-i-get-the-external-ip-of-my-server-using-php

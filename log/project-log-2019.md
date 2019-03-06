@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 14 of 100. **Last Update:** 04 March 2019
+## **Status:** Day 15 of 100. **Last Update:** 05 March 2019
 
 ___
 **Directories:** log | css | four_in_a_row | java | javascript | python | react | svg | work
 ___
+
+
+### **R2D15:** Wednesday 6th March 2019
++ **Notes:** - Some practice in today with writing Semantic HTML and how to group content together. Some eye opening things learned. Sometimes when you think you've got it sussed there's more to learn :) 
++ **Technologies Used:** - Python, HTML5
 
 
 ### **R2D14:** Tuesday 5th March 2019

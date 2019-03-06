@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 2: Day 14 of 100. **Last Update:** 4th March 2019
++ **Status:** Round 2: Day 15 of 100. **Last Update:** 6th March 2019
 
 + **Directories**
     + css 
@@ -10,6 +10,7 @@
       + portfolio
       + modernizr
       + balloon
+      + semantic-html
     + four_in_a_row
     + java
     + javascript
@@ -20,6 +21,7 @@
     + python
       + madlibs
       + pandas
+      + python-input-output
     + react
       + context_api
       + react-rendering  

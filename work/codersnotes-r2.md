@@ -5,6 +5,13 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 15
+
++ Get external IP address - Stackoverflow - https://stackoverflow.com/questions/7909362/how-do-i-get-the-external-ip-of-my-server-using-php
++ https://ipecho.net/extra 
++ https://www.iplocation.net/find-ip-address
+
+
 
 ## Day 14
 

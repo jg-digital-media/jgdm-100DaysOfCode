@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 15 of 100. **Last Update:** 05 March 2019
+## **Status:** Day 16 of 100. **Last Update:** 06 March 2019
 
 ___
 **Directories:** log | css | four_in_a_row | java | javascript | python | react | svg | work
 ___
+
+
+### **R2D16:** Thursday 7th March 2019
++ **Notes:** - Lots of work with CSS and HTML5 today, with a slight change to design coming up my projects sub domain as well as the Balloon Flight site. Trying to salvage something shareable with that one.  :) 
++ **Technologies Used:** - HTML5, CSS
 
 
 ### **R2D15:** Wednesday 6th March 2019

@@ -10,10 +10,10 @@ body {
   color: white; }
 
 header {
-  background: red;
+  background: #d88282;
   height: 160px;
   color: white;
-  border-bottom: white 6px solid; }
+  border-bottom: red 6px solid; }
   header h1 {
     text-align: center; }
   header img.header-image {
@@ -29,7 +29,6 @@ header {
     margin-right: 20px;
     top: 95px; }
     header nav .main-nav li {
-      color: blue;
       display: inline-block;
       margin-left: 15px; }
     header nav .main-nav a {
@@ -46,6 +45,12 @@ section {
     margin: 0% auto;
     padding: 30% 0;
     line-height: 1.7; }
+    section div.intro p {
+      line-height: 2;
+      padding: 15px 0px; }
+    section div.intro .link {
+      font-size: 10px;
+      color: white; }
   section section.balloon-content {
     display: flex;
     width: 98%;
@@ -79,6 +84,11 @@ section {
       @media (max-width: 740px) {
         section section.balloon-content div.stock-images {
           width: 95%; } }
+      section section.balloon-content div.stock-images ~ p {
+        font-weight: bold;
+        position: relative;
+        font-size: 20pt;
+        right: 147px; }
     section section.balloon-content div.gallery {
       display: block;
       width: 30%;
@@ -89,6 +99,11 @@ section {
       @media (max-width: 740px) {
         section section.balloon-content div.gallery {
           width: 95%; } }
+      section section.balloon-content div.gallery ~ p {
+        font-weight: bold;
+        position: relative;
+        font-size: 20pt;
+        right: 147px; }
     section section.balloon-content .slick-next {
       /*position: relative;*/
       right: 5px;
@@ -103,7 +118,7 @@ aside ul li {
   font-weight: bold; }
 
 footer {
-  background: red;
+  background: #d88282;
   margin-top: 20px; }
   footer p {
     padding: 20px 0;

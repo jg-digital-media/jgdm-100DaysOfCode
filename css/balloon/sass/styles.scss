@@ -1,5 +1,8 @@
 
-$content-background: red;
+$content-background: #d88282;
+$border-colour: red;
+$content-text: white;
+$link-text: #ffffff;
 
 
 * {
@@ -12,15 +15,15 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: arial;
-    color: white;
+    color: $content-text;
 }
 
 header {
 
     background: $content-background;
     height: 160px;
-    color: white;
-    border-bottom: white 6px solid;
+    color: $content-text;
+    border-bottom: $border-colour 6px solid;
 
     h1 {
         text-align: center;
@@ -45,13 +48,12 @@ header {
             top: 95px;
 
             li {
-                color: blue;
                 display: inline-block;
                 margin-left: 15px;
             }
 
             a {
-                color: #ffffff;
+                color: $link-text;
                 font-weight: bold;
                 text-decoration: none;
                 &:hover {
@@ -73,6 +75,16 @@ section {
         margin: 0% auto;
         padding: 30% 0;
         line-height: 1.7;
+
+        p {
+            line-height: 2;
+            padding: 15px 0px;
+        }
+
+        .link {
+            font-size: 10px;
+            color: $content-text;
+        }
 
     }
 
@@ -98,7 +110,7 @@ section {
             display: block;
             width: 400px;
             min-height: 200px;
-            border: solid red 3px;
+            border: solid $border-colour 3px;
             margin: 0 auto;
             /*media query 740px*/
             @media (max-width: 740px) {
@@ -116,10 +128,17 @@ section {
             width: 30%;
             min-height: 200px;
             margin: 0 auto;
-            border: solid red 3px;
+            border: solid $border-colour 3px;
             /*media query 740px*/
             @media (max-width: 740px) {
                 width: 95%;
+            }
+
+            &~p {
+               font-weight: bold;
+               position: relative;
+               font-size: 20pt;
+               right: 147px;
             }
 
         }
@@ -129,13 +148,18 @@ section {
             width: 30%;
             min-height: 200px;
             margin: 0 auto;
-            border: solid red 3px;
+            border: solid $border-colour 3px;
             /*media query 740*/
             @media (max-width: 740px) {
                 width: 95%;
             }
 
-
+            &~p {
+                font-weight: bold;
+                position: relative;
+                font-size: 20pt;
+                right: 147px;
+            } 
         }
 
         //Custom Slick Styles:
@@ -167,7 +191,7 @@ footer {
     p {
         padding: 20px 0;
         font-weight: bold;
-        color: white;
+        color: $content-text;
         width: 100%;
         text-align: center;
         a {

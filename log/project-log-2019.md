@@ -1,11 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 16 of 100. **Last Update:** 06 March 2019
+## **Status:** Day 18 of 100. **Last Update:** 08 March 2019
 
 ___
 **Directories:** log | css | four_in_a_row | java | javascript | python | react | svg | work
 ___
 
+### **R2D17:** Friday 8th March 2019
+
++ **Notes:** - One of the ways I gaugae how much I'm actually learning is by returning to topics and refreshing my knowledge.  Going back to Regex today and pleased with how much is making sense.  Oh and I found a great new resource along the way https://regex101.com/ :) 
++ **Technologies Used:** - HTML5, Regex
 
 ### **R2D16:** Thursday 7th March 2019
 + **Notes:** - Lots of work with CSS and HTML5 today, with a slight change to design coming up my projects sub domain as well as the Balloon Flight site. Trying to salvage something shareable with that one.  :) 

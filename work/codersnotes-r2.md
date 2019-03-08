@@ -5,6 +5,39 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 18
+
+```regex
+[Ttj]oy-? ?[bB]oa?ts?
+
+Matches
+toyboat
+toyboats
+toybots
+Toy boats
+toy boats
+toy-boats
+Toy boats
+Toybots
+toy Boat
+
+
+g - global  - return all matches, not just the first
+
+m - multiline - treat each new line as a separate test string
+
+?  - match the preceding character but don't require it. (0 or 1 time)
+
+[] - character set   e.g [a-zA-Z]  - include all letters in the given range
+toy boa?ts?   - matches toyboat, toyboats, toybots, toy boats
+
+[Tt]oy boa?ts?
+Tweets    - matches toyboat, toyboats, toybots, toy boats, Toy boats, Toybots
+
+[Ttj]oy-? ?[bB]oa?ts?
+
+```
+
 ## Day 15
 
 ### Practicing Semantic HTML

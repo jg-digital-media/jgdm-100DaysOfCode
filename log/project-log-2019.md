@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 18 of 100. **Last Update:** 08 March 2019
+## **Status:** Day 18 of 100. **Last Update:** 11 March 2019
 
 ___
 **Directories:** log | css | four_in_a_row | java | javascript | python | react | svg | work
 ___
+
+
+
+### **R2D18:** Friday 11th March 2019
+
++ **Notes:** - The main goal of today was to animate the captions for an image gallery with jQuery which I've made a great start with. It's not perfect. Still a lot to work out with smaller screens but the animation itself is in place.  :) 
++ **Technologies Used:** - HTML5, CSS, jQuery, JavaScript, Regex
 
 ### **R2D17:** Friday 8th March 2019
 

@@ -5,7 +5,29 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
 ## Day 18
+
+```javascript
+//caption slider
+    //TODO: add slider interaction.   show caption on hover.
+    $('.slick-slider').mouseenter(function() {
+        $('.caption').animate({
+            bottom: "60px",
+
+        },500);
+    });
+
+    $('.slick-slider').mouseleave(function() {
+        $('.caption').animate({
+            bottom: "-60px",
+
+        },500);
+    });
+  }); 
+```
+
+## Day 17
 
 ```regex
 [Ttj]oy-? ?[bB]oa?ts?

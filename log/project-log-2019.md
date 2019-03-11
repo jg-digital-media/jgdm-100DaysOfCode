@@ -8,7 +8,7 @@ ___
 
 ### **R2D17:** Friday 8th March 2019
 
-+ **Notes:** - One of the ways I gaugae how much I'm actually learning is by returning to topics and refreshing my knowledge.  Going back to Regex today and pleased with how much is making sense.  Oh and I found a great new resource along the way https://regex101.com/ :) 
++ **Notes:** - One of the ways I gauge how much I'm actually learning is by returning to topics and refreshing my knowledge.  Going back to Regex today and pleased with how much is making sense.  Oh and I found a great new resource along the way https://regex101.com/ :) 
 + **Technologies Used:** - HTML5, Regex
 
 ### **R2D16:** Thursday 7th March 2019

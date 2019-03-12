@@ -5,6 +5,97 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 19
+
+### Common Commands for working in the Terminal
+
++ **ls** - list files in the current directory
+
++ **whoami** - username of current user on the computer
+
++ **Ctrl + C** - send signal to bash that you want to quit the current program
+
++ **clear** - clears output from the terminal screen  Ctrl + L for shortcut
+
++ **q** - exit from any executable or paper programs within the terminal
+
++ **echo** - render arguments to the terminal
+
+### Displaying the contents of a file
+
+**pager programs**  - interactive programs that display a file on your terminal screen, one page at a time.  waits for input from the user
+
++ **cat filename.txt** - prints the contents of a file; leaves the contents visible when finished running 
+
++ **more terminal.txt** - indicates how much content is left to display page by page. Superceded by ```less``` command.
+
++ **less terminal.txt** - Starts by showing the top of the file.  use spacebar or allow keys to move around the file.   removes contents when done. [functional on windows git bash]
+
+### Directories
+
+
++ **pwd** - print working directory  - shows current directory
+
++ **~** - tilde character
+
++ **cd** - change between directories - Change Directory. cd accepts name of directory you want to changed into as the argument
+
++ **ls** - list files and directories in current directories
+
+makes it easy to work with...
+
++ **./**  - indicates current directory  
+
++ **../**  - refers to parent directory
+
++ **cd .** - change to current directory
+
+
++ **cd ..** - go to parent directory  (one level directory up)
+
++ **cd .** - refers to the current directory
+
++ **cd ..** - takes us back up one directory
+each slash separates one directory from another - file system path
+
+### Files
+
+#### cp  - copy files
+
++ **cp bird.txt pigeon.txt**   - copy the contents of bird.txt into a new file.
+
++ **cp bird.txt mall/**
+
++ **cp bird.txt ..**  - copy bird.text into parent directory
+
++ **cp -r directory/ copied_directory**  - copy recursively to enable copying of directories.
+
+#### mv - move files
+
++ **mv bird.txt sparrow.txt** - change a filename without copying it. Rename a file within the current directory
+
++ **mv cart.txt mall/**  - specify a directory to move a file to
+
+#### rm  - remove files
+
+**WARNING** - no undo for removing files  - no recycle bin/trash folder.  no file recovery
+
+
++ **rm filename.txt** - remove a file of the given name
+
++ **rm directory/**  - for files but not directories
+
++ **rm -r directory** - for deleting directories recursively
+
+#### mkdir  - to create directories
+
+mkdir directory_name
+
++ **-p** - make a parent directory
+
++ **mkdir -p dir/dir/dir** - make several directories in parent directory
+
+
 
 ## Day 18
 

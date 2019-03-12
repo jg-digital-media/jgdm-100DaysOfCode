@@ -1,6 +1,6 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 18 of 100. **Last Update:** 11 March 2019
+## **Status:** Day 19 of 100. **Last Update:** 12 March 2019
 
 ___
 **Directories:** log | css | four_in_a_row | java | javascript | python | react | svg | work
@@ -8,7 +8,12 @@ ___
 
 
 
-### **R2D18:** Friday 11th March 2019
+### **R2D19:** Tuesday 12th March 2019
+
++ **Notes:** - Not much time today so I've simply curated a few of the most common commands and their uses in the Linux Terminal/Windows Bash Terminal.  In the coders notes for Day 19.
++ **Technologies Used:** - The Terminal
+
+### **R2D18:** Monday 11th March 2019
 
 + **Notes:** - The main goal of today was to animate the captions for an image gallery with jQuery which I've made a great start with. It's not perfect. Still a lot to work out with smaller screens but the animation itself is in place.  :) 
 + **Technologies Used:** - HTML5, CSS, jQuery, JavaScript, Regex

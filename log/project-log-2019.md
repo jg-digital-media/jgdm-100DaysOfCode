@@ -1,12 +1,17 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 19 of 100. **Last Update:** 12 March 2019
+## **Status:** Day 20 of 100. **Last Update:** 13 March 2019
 
 ___
 **Directories:** log | css | four_in_a_row | java | javascript | python | react | svg | work
 ___
 
 
+
+### **R2D20:** Wednesday 13th March 2019
+
++ **Notes:** - Amongst other things today with HTML and CSS I'm delighted to learn some things today about HTML Data Attributes and how to separate CSS and JavaScript selectors in JS Projects. 
++ **Technologies Used:** - HTML5, CSS, JavaScript, Markdown
 
 ### **R2D19:** Tuesday 12th March 2019
 

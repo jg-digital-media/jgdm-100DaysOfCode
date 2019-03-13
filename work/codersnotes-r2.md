@@ -5,6 +5,29 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 20
+
+### HTML Data Attributes
+
++ It is common to use a dedicated prefix (or hook), like js-, if a class will be used by JavaScript only. This helps distinct between classes used for styling and those for JavaScript functionality. 
+
++ How to use HTML Data Attributes
+
+```html
+<div data-columns="8">...</div>
+<div data-columns="6">...</div>
+
+```
+```css
+[data-columns="8"] {
+}
+```
+
+```js
+var data = document.querySelector('[data-columns="8"]');
+
+```
+
 ## Day 19
 
 ### Common Commands for working in the Terminal

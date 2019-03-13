@@ -1,3 +1,4 @@
+/*BREAKPOINTS*/
 * {
   padding: 0;
   margin: 0; }
@@ -14,23 +15,41 @@ header {
   height: 160px;
   color: white;
   border-bottom: red 6px solid; }
-  header h1 {
-    text-align: center; }
+  header div {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    position: relative;
+    top: 50px; }
+    @media (max-width: 780px) {
+      header div {
+        text-align: center; } }
   header img.header-image {
     width: 100px;
     height: 100px;
     border-radius: 100%;
     float: left;
     margin: 10px; }
+    @media (max-width: 780px) {
+      header img.header-image {
+        margin-top: 40px; } }
   header nav .main-nav {
     display: block;
     position: relative;
     text-align: right;
     margin-right: 20px;
     top: 95px; }
+    @media (max-width: 780px) {
+      header nav .main-nav {
+        top: 65px;
+        text-align: left;
+        font-size: 3vw; } }
     header nav .main-nav li {
       display: inline-block;
       margin-left: 15px; }
+      @media (max-width: 480px) {
+        header nav .main-nav li {
+          margin-left: 5px; } }
     header nav .main-nav a {
       color: #ffffff;
       font-weight: bold;
@@ -43,8 +62,14 @@ section {
   section div.intro {
     width: 50%;
     margin: 0% auto;
-    padding: 30% 0;
+    padding: 15% 0;
     line-height: 1.7; }
+    @media (max-width: 780px) {
+      section div.intro {
+        width: 60%; } }
+    @media (max-width: 480px) {
+      section div.intro {
+        width: 90%; } }
     section div.intro p {
       line-height: 2;
       padding: 15px 0px; }
@@ -66,7 +91,6 @@ section {
       display: block;
       width: 400px;
       min-height: 200px;
-      border: solid red 3px;
       margin: 0 auto;
       /*media query 740px*/ }
       @media (max-width: 740px) {
@@ -78,8 +102,7 @@ section {
       display: block;
       width: 30%;
       min-height: 200px;
-      margin: 0 auto;
-      border: solid red 3px;
+      margin: -20px auto;
       /*media query 740px*/ }
       @media (max-width: 740px) {
         section section.balloon-content div.stock-images {
@@ -93,8 +116,7 @@ section {
       display: block;
       width: 30%;
       min-height: 200px;
-      margin: 0 auto;
-      border: solid red 3px;
+      margin: -20px auto;
       /*media query 740*/ }
       @media (max-width: 740px) {
         section section.balloon-content div.gallery {

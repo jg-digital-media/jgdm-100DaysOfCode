@@ -5,6 +5,12 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 21
+
+### Integrate Recaptcha to a PHP form
+
+https://stevencotterill.com/articles/adding-google-recaptcha-v3-to-a-php-form 
+
 ## Day 20
 
 ### HTML Data Attributes

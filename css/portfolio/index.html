@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   27th February 2019
+Last Updated:   14th March 2019
 --->
 
 <!DOCTYPE html>
@@ -376,6 +376,10 @@ Last Updated:   27th February 2019
 
                 <input type="submit" id="submit" value="Send!" tabindex="53" />
 
+                <!--- HIDDEN FIELD-->                        
+                    <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                
+
             </form>
 
         </article>
@@ -421,5 +425,17 @@ Last Updated:   27th February 2019
     
     <script type="text/javascript" src="scripts/jquery.js"></script>
     <script type="text/javascript" src="scripts/app.js"></script>
+
+    <!-- recaptcha front end integration-->
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lc9o5cUAAAAACm3RTkLuU4iMdqfDzOhLpzLY-Ea"></script>
+    <script>
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6Lc9o5cUAAAAACm3RTkLuU4iMdqfDzOhLpzLY-Ea', {action: 'homepage'}).then(function(token) {
+           //connect to a hidden field via the DOM
+           var recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+        });
+    });
+    </script>
 </body>
 </html>

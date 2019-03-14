@@ -39,7 +39,7 @@
     
                     <a href="https://android.jonniegrieve.co.uk/" target="blank"><img src="img/featured/sub-android.png" class="site-images" alt="Code repository and Android Project Showcase website" title="Code repository and Android Project Showcase website" /></a>
     
-                    <a href="https://dyspraxia.jonniegrieve.co.uk/" target="blank"><img src="img/featured/sub-android.png" class="site-images" alt="Awareness website for Neurological condition Dyspraxia" title="Awareness website for Neurological condition Dyspraxia" /></a>
+                    <a href="https://dyspraxia.jonniegrieve.co.uk/" target="blank"><img src="img/featured/sub-dyspraxia.png" class="site-images" alt="Awareness website for Neurological condition Dyspraxia" title="Awareness website for Neurological condition Dyspraxia" /></a>
     
                  </div>
    

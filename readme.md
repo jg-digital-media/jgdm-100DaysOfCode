@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 2: Day 20 of 100. **Last Update:** 13th March 2019
++ **Status:** Round 2: Day 21 of 100. **Last Update:** 14th March 2019
 
 + **Directories**
     + css 
@@ -11,13 +11,15 @@
       + modernizr
       + balloon
       + semantic-html
-    + four_in_a_row
     + java
     + javascript
       + dom
-      + vue
+      + four_in_a_row
       + iteration-methods
+      + library
+      + vue
     + log
+    + php
     + python
       + madlibs
       + pandas

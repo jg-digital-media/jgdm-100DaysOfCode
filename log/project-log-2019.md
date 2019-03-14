@@ -1,16 +1,26 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 20 of 100. **Last Update:** 13 March 2019
+## **Status:** Day 21 of 100. **Last Update:** 14 March 2019
 
 ___
-**Directories:** log | css | four_in_a_row | java | javascript | python | react | svg | work
+**Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | svg | work
 ___
 
+
+
+### **R2D21:** Thursday 14th March 2019
+
++ **Notes:** - 
+
+  + Got through lots today.  Firstly, tried to apply a Recaptcha v3 to my web form to try and ward off Spam. It crashed my site. So went back to the drawing board on that one.  
+  
+  + Preparing to work on some new prrojects today including practice with a new Objected Oriented JavaScript project. Will be doing some work with PHP later too.
 
 
 ### **R2D20:** Wednesday 13th March 2019
 
 + **Notes:** - Amongst other things today with HTML and CSS I'm delighted to learn some things today about HTML Data Attributes and how to separate CSS and JavaScript selectors in JS Projects. 
+
 + **Technologies Used:** - HTML5, CSS, JavaScript, Markdown
 
 ### **R2D19:** Tuesday 12th March 2019

@@ -32,8 +32,14 @@
                     <a href="https://projects.jonniegrieve.co.uk/free-code-camp/responsive-web-design/project-tribute/index.html" target="blank"><img src="img/featured/fcc_tribute.png" class="site-images" alt="Go to website for FreeCodeCamp tribute page" title="Go to website for FreeCodeCamp tribute page" /></a>
     
                     <a href="https://www.crook2hook.co.uk" target="blank"><img src="img/featured/crook2hook.png" class="site-images" alt="Go to Crook2Hook website" title="Go to Crook2Hook website" /></a>
+    <!-- --->
+                    <a href="https://projects.jonniegrieve.co.uk/walks" target="blank"><img src="img/featured/castlewalks.png" class="site-images" alt="Go to Castle Walk website" title="Go to Castle Walk website" /></a>                    
     
-                    <a href="https://projects.jonniegrieve.co.uk/walks" target="blank"><img src="img/featured/castlewalks.png" class="site-images" alt="Go to Castle Walk website" title="Go to Castle Walk website" /></a>
+                    <a href="https://projects.jonniegrieve.co.uk/" target="blank"><img src="img/featured/sub-projects.png" class="site-images" alt="Projects Subdomain website for Jonnie Grieve Digital Media" title="Projects Subdomain website for Jonnie Grieve Digital Media" /></a>
+    
+                    <a href="https://android.jonniegrieve.co.uk/" target="blank"><img src="img/featured/sub-android.png" class="site-images" alt="Code repository and Android Project Showcase website" title="Code repository and Android Project Showcase website" /></a>
+    
+                    <a href="https://dyspraxia.jonniegrieve.co.uk/" target="blank"><img src="img/featured/sub-android.png" class="site-images" alt="Awareness website for Neurological condition Dyspraxia" title="Awareness website for Neurological condition Dyspraxia" /></a>
     
                  </div>
    

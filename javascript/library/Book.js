@@ -1,4 +1,4 @@
-class Books {
+class Book {
 
     //to ensure values are initialised when object is created
     //pass in properties to the constructor method

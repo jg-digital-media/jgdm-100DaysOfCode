@@ -1,12 +1,25 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 21 of 100. **Last Update:** 14 March 2019
+## **Status:** Day 22 of 100. **Last Update:** 15 March 2019
 
 ___
 **Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | svg | work
 ___
 
 
+
+### **R2D22:** Friday 15th March 2019
+
++ **Notes:** - 
+
+  +  Been busy again today. Refined a Slick Carousel Gallery animation for the captions by changing the target.  Still not perfect but now working much better.  
+  
+  +  Practice with Object Oriented JS went well today.  Able to replicate most of the Class Constructors required for the project, and was close to getting it 100%.   That was the easy bit however but was happy with how it started. 
+  
+  + Finally, I started a project with the PHP Slick Microframework today. Need more time to look into a problem Currently showing up as "object not found" on my local server but still early days.  :)
+
+
++ **Technologies Used:** - HTML5, CSS, JavaScript, jQuery, PHP
 
 ### **R2D21:** Thursday 14th March 2019
 
@@ -16,6 +29,7 @@ ___
   
   + Preparing to work on some new prrojects today including practice with a new Objected Oriented JavaScript project. Will be doing some work with PHP later too.
 
++ **Technologies Used:** - HTML5, CSS, JavaScript, Markdown
 
 ### **R2D20:** Wednesday 13th March 2019
 

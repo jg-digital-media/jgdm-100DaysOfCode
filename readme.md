@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 2: Day 21 of 100. **Last Update:** 14th March 2019
++ **Status:** Round 2: Day 22 of 100. **Last Update:** 15th March 2019
 
 + **Directories**
     + css 
@@ -20,6 +20,7 @@
       + vue
     + log
     + php
+      + slimmin
     + python
       + madlibs
       + pandas

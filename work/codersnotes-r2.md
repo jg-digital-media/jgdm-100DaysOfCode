@@ -5,6 +5,58 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 22
+
++ http://www.slimframework.com/
++ https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies
+
+### Slim - Minimal Viable Product
+
+```php
+<?php
+use Psr\Http\Message\ServerRequestInterface as Request;
+use Psr\Http\Message\ResponseInterface as Response;
+
+require 'vendor/autoload.php';
+
+$app = new \Slim\App;
+$app->get('/hello/{name}', function (Request $request, Response $response, array $args) {
+    $name = $args['name'];
+    $response->getBody()->write("Hello, $name");
+
+    return $response;
+});
+
+$app->run();
+
+```
+
+Currently showing up as object not found so needs looking at.
+
+### JavaScript
+
+Object Oriented JS went well.  Able to replicate most of the Class Constructors required for the project, and was close.   That was the easy bit however but was happy with how it started. 
+
+### jQuery. 
+
+    $('.js-img').mouseenter(function() {
+        $('.caption').animate({
+            bottom: "60px",
+            opacity: "1",
+
+        },300);
+    });
+
+    $('.js-img').mouseleave(function() {
+        $('.caption').animate({
+            bottom: "-60px",
+            opacity:"0",
+
+        },300);
+    });
+
+Refined a Slick Carousel Gallery animation for the captions by changing the target.  Still not perfect but now working much better.  landing.jonniegrieve.co.uk/jgdm-projects
+
 ## Day 21
 
 ### Integrate Recaptcha to a PHP form

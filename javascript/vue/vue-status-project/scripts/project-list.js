@@ -54,12 +54,6 @@
     status: false,
 },
 {
-    project_name: "Web Design Rehash",
-    project_type: "HTML/CSS",
-    project_status: "Incomplete",
-    status: false,
-},
-{
     project_name: "Castle Eden in Bootstrap",
     project_type: "HTML/CSS",
     project_status: "Complete",
@@ -250,4 +244,16 @@
     project_type: "HTML/CSS",
     project_status: "Complete",
     status: true,
+},
+{
+    project_name: "Four in a Row", 
+    project_type: "OOP JavaScript",
+    project_status: "Complete",
+    status: true,
+},
+{
+    project_name: "Simple List Maker App", 
+    project_type: "JavaScript",
+    project_status: "Incomplete",
+    status: false,
 }]

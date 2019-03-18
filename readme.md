@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 2: Day 22 of 100. **Last Update:** 15th March 2019
++ **Status:** Round 2: Day 23 of 100. **Last Update:** 18th March 2019
 
 + **Directories**
     + css 
@@ -32,6 +32,7 @@
       + scoreboard_v2
       + tictactoe
       + practice-state
+    + regex
     + svg
     + work
 

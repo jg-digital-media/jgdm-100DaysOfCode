@@ -5,6 +5,57 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 23
+
+### php Slim MicroFramework
+
+MVP for ```php/slimmin/hello``` is now functional on a web host but not localhost. made the following change to .htaccess
+
+```
+RewriteRule ^ slimmin/index.php [QSA,L]
+```
+
++ https://landing.jonniegrieve.co.uk/slimmin/
++ https://landing.jonniegrieve.co.uk/slimmin/
+
+### Curated Regex Practie
+
+```javascript
+//Matching Characters. 
+//Regex - lady ?bugs?
+ladybug
+ladybugs
+lady bugs
+Match literal characters
+
+
+
+//Regex - la[a-z]y ?[a-z]ugs?
+ladybug
+lady bugs
+lazy bug
+lazy lug
+Match literal characters
+
+
+
+//Regex - [lh]a[a-z]y[ ]?[a-z]?l?ugs?
+ladybug
+lazy lug
+lazy slug
+hazy slug
+
+//Regex - [fladying]+ ?[br]ug!?
+ladybug
+fading rug!
+```
++ **+** --- match preceding character from once to as many times as possible: unlimited.
+
++ **[]** --- character ranges - match the characters or range of characters in the set
+
++ **?** --- matches 0 or more of the previous characters
+
 ## Day 22
 
 + http://www.slimframework.com/

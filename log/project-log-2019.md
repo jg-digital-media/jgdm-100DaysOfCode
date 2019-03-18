@@ -1,12 +1,20 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 22 of 100. **Last Update:** 15 March 2019
+## **Status:** Day 23 of 100. **Last Update:** 18 March 2019
 
 ___
-**Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | svg | work
+**Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+### **R2D23:** Monday 18th March 2019
 
++ **Notes:** - 
+
+  + It took me a while, but I curated my first set of Regular Expressions for practice, with the beginnings of a new page to go with it. 
+
+  + MVP for server is now functional on a web host but not local host. made the following change to .htaccess
+
+  + + **Technologies Used:** - HTML5, CSS, Regex, PHP
 
 ### **R2D22:** Friday 15th March 2019
 

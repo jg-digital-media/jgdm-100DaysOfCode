@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <!-- styles-->
+    <style>
+
+        body {
+            background: #fae292;
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #container {
+            display: block;
+            background: #addaff;
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        #container article {
+            background: lightblue;
+            padding: 0 40px;
+            margin: 0 20px;
+        }
+
+        #container article span {
+            color: green;
+        }
+        
+        #container article span~span {
+            color: red;
+        } 
+
+        #container .list-container {
+            display: block;
+            position: relative;
+            top: 15px;
+            margin: 20px auto;
+            width: 50%;
+            border: solid 3px black;
+        }
+
+        section h2 {
+            border-bottom: 2px solid black;
+            width: 30%;
+            margin: 10px 20px;
+        }
+    
+    
+    </style>
+
+
+    <title>Regex Practice</title>
+</head>
+<body>
+
+    <header>
+        <h1>Regex</h1>
+    </header>
+
+    <main id="container">
+
+        <aside class="list-container">
+            <ul>Contents
+                <li><a href="#" class="list">Matching Specific Characters</a></li>
+                <li><a href="#" class="list">Matching Character Ranges</a></li>
+                <li><a href="#" class="list">Using Wildcard Characters</a></li>
+                <li><a href="#" class="list">Finding Repeated Characters</a></li>
+                <li><a href="#" class="list">Excluding Characters</a></li>
+                <li><a href="#" class="list">Atnernation</a></li>
+                <li><a href="#" class="list">Groups</a></li>
+                <li><a href="#" class="list">Beginning and Ending of Strings</a></li>
+            </ul>
+        </aside>
+
+        <section id="specific">
+
+            <h2>Matching Specific Characters</h2>
+
+            <article>
+
+                <h3><span>Regex</span> - <span>lady ?bugs?</span> </h3>
+
+                <ul>
+                    <li>ladybug</li>
+                    <li>ladybugs</li>
+                    <li>lady bugs</li>
+                </ul>
+
+                <p>Match literal characters </p>
+
+                <p>? matches 0 or more of the previous characters</p> 
+
+                <h3><span>Regex</span> - <span>la[a-z]y ?[a-z]ugs?</span> </h3>
+
+                <ul>                    
+                    <li>ladybug</li>
+                    <li>lady bugs</li>
+                    <li>lazy bug</li>
+                    <li>lazy lug</li>
+                </ul>
+
+                <p>Match literal characters </p>
+
+                <p>[] character ranges - match the characters or range of characters in the set</p>
+
+                <h3><span>Regex</span> - <span>[lh]a[a-z]y[ ]?[a-z]?l?ugs?</span></h3>
+
+                <ul>
+                    <li>ladybug</li>
+                    <li>lazy lug</li>
+                    <li>lazy slug</li>
+                    <li>hazy slug</li>
+                </ul>
+
+                <h3><span>Regex</span> - <span>[fladying]+ ?[br]ug!?</span></h3>
+
+                <ul>
+                    <li>ladybug</li>
+                    <li>fading rug!</li>
+                </ul>
+
+                <p>+ - match preceding character from once to as many times as possible: unlimited.</p>
+
+                <ul>
+                    <li>ladybug</li>
+                    <li>lazy lug</li>
+                    <li>lazy slug</li>
+                    <li>hazy slug</li>
+                </ul>
+
+          </article>        
+
+        </section>
+
+        <section id="two">
+
+                <h2>Matching Character Ranges</h2>
+    
+                <article>
+
+                    <h3> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+
+                    <ul>
+                        <li>one</li>
+                        <li>two</li>
+                        <li>three</li>
+                    </ul>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </article>
+
+
+        </section>
+
+        <section id="two">
+
+                <h2>Using Wildcard Characters</h2>
+    
+                <article>
+
+                    <h3> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+
+                    <ul>
+                        <li>one</li>
+                        <li>two</li>
+                        <li>three</li>
+                    </ul>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </article>
+
+
+        </section>
+
+    </main>
+    
+</body>
+</html>

@@ -12,7 +12,7 @@ ___
 
   + It took me a while, but I curated my first set of Regular Expressions for practice, with the beginnings of a new page to go with it. 
 
-  + MVP for server is now functional on a web host but not local host. made the following change to .htaccess
+  + MVP for server is now functional on a web host but not local host.
 
   + + **Technologies Used:** - HTML5, CSS, Regex, PHP
 

@@ -17,7 +17,7 @@ RewriteRule ^ slimmin/index.php [QSA,L]
 ```
 
 + https://landing.jonniegrieve.co.uk/slimmin/
-+ https://landing.jonniegrieve.co.uk/slimmin/
++ https://landing.jonniegrieve.co.uk/slimmin/hello/Jonnie
 
 ### Curated Regex Practie
 

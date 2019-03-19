@@ -15,6 +15,8 @@ session_start();
 
 // Instantiate the app
 $settings = require __DIR__ . '/../src/settings.php';
+
+// Create a new application object and pass in settings file
 $app = new \Slim\App($settings);
 
 // Set up dependencies

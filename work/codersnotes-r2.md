@@ -6,6 +6,20 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 24
+
+
+
+```php
+//redirect for web host server
+RewriteRule ^ slimmin/index.php [QSA,L]
+
+//redirect for web host server
+RewriteRule ^ jgdm-100daysofcode/php/slimmin/index.php [QSA,L]
+```
+
+`
+
 ## Day 23
 
 ### php Slim MicroFramework

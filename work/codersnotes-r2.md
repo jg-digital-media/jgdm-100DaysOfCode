@@ -8,8 +8,6 @@
 
 ## Day 24
 
-
-
 ```php
 //redirect for web host server
 RewriteRule ^ slimmin/index.php [QSA,L]
@@ -18,7 +16,10 @@ RewriteRule ^ slimmin/index.php [QSA,L]
 RewriteRule ^ jgdm-100daysofcode/php/slimmin/index.php [QSA,L]
 ```
 
-`
++ http://www.slimframework.com/
++ https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies
+
+Use command when when ```composer.json``` and ```composer.lock``` file is present  ```install```  or ```composer```
 
 ## Day 23
 

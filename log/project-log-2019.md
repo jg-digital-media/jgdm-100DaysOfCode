@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 23 of 100. **Last Update:** 18 March 2019
+## **Status:** Day 24 of 100. **Last Update:** 19 March 2019
 
 ___
 **Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D24:** Tuesday 19th March 2019
+
++ **Notes:** - 
+  + Today has mainly been about getting familiar with the Slim Microframework, in particular the structure of how a website with MVC design pattern is put together.  I've also been revamping my social media promotion in recent days. Take a peek at my new cover photo  :)
+
++ **Technologies Used:** - PHP, HTML, CSS, MarkDown
 
 ### **R2D23:** Monday 18th March 2019
 
@@ -14,7 +21,7 @@ ___
 
   + MVP for server is now functional on a web host but not local host.
 
-  + + **Technologies Used:** - HTML5, CSS, Regex, PHP
++ **Technologies Used:** - HTML5, CSS, Regex, PHP
 
 ### **R2D22:** Friday 15th March 2019
 

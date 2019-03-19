@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 2: Day 23 of 100. **Last Update:** 18th March 2019
++ **Status:** Round 2: Day 24 of 100. **Last Update:** 19th March 2019
 
 + **Directories**
     + css 
@@ -21,17 +21,19 @@
     + log
     + php
       + slimmin
+      + mvc-framework
     + python
       + madlibs
       + pandas
       + python-input-output
     + react
       + context_api
+      + practice-state
       + react-rendering  
       + scoreboard
       + scoreboard_v2
+      + temp
       + tictactoe
-      + practice-state
     + regex
     + svg
     + work

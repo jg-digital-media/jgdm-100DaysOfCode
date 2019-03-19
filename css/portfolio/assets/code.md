@@ -40,6 +40,32 @@
                     <a href="https://android.jonniegrieve.co.uk/" target="blank"><img src="img/featured/sub-android.png" class="site-images" alt="Code repository and Android Project Showcase website" title="Code repository and Android Project Showcase website" /></a>
     
                     <a href="https://dyspraxia.jonniegrieve.co.uk/" target="blank"><img src="img/featured/sub-dyspraxia.png" class="site-images" alt="Awareness website for Neurological condition Dyspraxia" title="Awareness website for Neurological condition Dyspraxia" /></a>
+                    
+                    <a href="https://projects.jonniegrieve.co.uk/howto-web/" target="blank"><img src="img/featured/howto_website.png" class="site-images" alt="Created alongside the online course at TeamTreehouse" title="Created alongside the online course at TeamTreehouse" /></a>
+                    
+                    <a href="https://projects.jonniegrieve.co.uk/fyp" target="blank"><img src="img/featured/fyp_running" class="site-images" alt="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." title="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." /></a>
+                    
+                    <a href="https://projects.jonniegrieve.co.uk/esp" target="blank"><img src="img/featured/esp.png" class="site-images" alt="Legacy website for the fictional Endangered Species Project" title="Legacy website for the fictional Endangered Species Project" /></a>
+                    
+                    <a href="https://projects.jonniegrieve.co.uk/gamesyard" target="blank"><img src="img/featured/games_yard.png" class="site-images" alt="First created in 2004, this website was created to be an informational site for playing various popular games from Card games to Pool" title="First created in 2004, this website was created to be an informational site for playing various popular games from Card games to Pool" /></a>
+                    
+                    <a href="https://projects.jonniegrieve.co.uk/castle-eden-css/" target="blank"><img src="img/featured/cs_world.png" class="site-images" alt="Castle Eden World Example site built in pure CSS" title="Castle Eden World Example site built in pure CSS" /></a>
+                    
+                    <a href="#" target="blank"><img src="img/featured/time_tracker.png" class="site-images" alt="" title="" /></a>
+                    
+                    <a href="#" target="blank"><img src="img/featured/skills_page.png" class="site-images" alt="" title="" /></a>
+                    
+                    <a href="#" target="blank"><img src="img/featured/react.png" class="site-images" alt="" title="" /></a>
+                    
+                    <a href="#" target="blank"><img src="img/featured/react_v2.png" class="site-images" alt="" title="" /></a>
+                    
+                    <a href="#" target="blank"><img src="img/featured/project_status" class="site-images" alt="" title="" /></a>
+                    
+                    <a href="#" target="blank"><img src="img/featured/practice_css_grid" class="site-images" alt="" title="" /></a>
+                    
+                    <a href="#" target="blank"><img src="img/featured/php_oop.png" class="site-images" alt="" title="" /></a>
+                    
+                    <a href="#" target="blank"><img src="img/featured/interactive_js.png" class="site-images" alt="" title="" /></a>
     
                  </div>
    

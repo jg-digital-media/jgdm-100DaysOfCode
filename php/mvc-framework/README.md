@@ -25,3 +25,10 @@ Run this command in the application directory to run the test suite
 	php composer.phar test
 
 That's it! Now go build something cool.
+
+##  Running this project - Waldo (Slim Framework Example)
+
+This project was built using the Slim MicroFramework.  www.slimframework.com
+
+If there is no vendor file in this directory, simply run ```composer install``` to install the project dependencies and get up and running. 
+

@@ -13,15 +13,18 @@
 <script>
   // our test code here
   
-  //create a new library object and log it to the console
+  //Create a new library object and log it to the console
   let library = new Library();
-  console.log(library);
-
   let book = new Book('Harry Potter and the Philosopher\'s Stone', 'J.K. Rowling', '978-0439708180');
-  console.log(book);
-
+  //console.log(book);
   let patron = new Patron("Jack Bauer", "jack@bauer.com");
-  console.log(patron);
+  //console.log(patron);
+
+  //add a new book and patron with
+  library.addBook(book);
+  library.addPatron(patron);
+  
+  console.log(library);
 
   
   

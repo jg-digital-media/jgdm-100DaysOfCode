@@ -5,4 +5,13 @@ class Library {
         this.books = [];
         this.patrons = [];
     }
+
+    //class methods
+    addBook(book) {
+        this.books.push(book);
+    }
+
+    addPatron(patrons) {
+        this.patrons.push(patrons);
+    }
 }

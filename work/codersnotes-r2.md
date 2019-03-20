@@ -6,6 +6,41 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 25
+
+```javascript
+addPatron();
+
+//add books or patrons to the library
+
+    //class methods
+    addBook(book) {
+        this.books.push(book);
+    }
+
+    addPatron(patrons) {
+        this.patrons.push(patrons);
+    }
+}
+
+app.js  script block in home page
+
+let library = new Library();
+  let book = new Book('Harry Potter and the Philosopher\'s Stone', 'J.K. Rowling', '978-0439708180');
+  //console.log(book);
+  let patron = new Patron("Jack Bauer", "jack@bauer.com");
+
+
+  //add a new book and patron with
+  library.addBook(book);
+  library.addPatron(patron);
+  
+  console.log(library);
+
+```
+Since library refers to a  Library object (in Libary.js)  we can refer to it when we call the addBook and addPatron methods.  We then passs in the contents of the objects that were declared when the object was instantiated. 
+
+
 ## Day 24
 
 ```php

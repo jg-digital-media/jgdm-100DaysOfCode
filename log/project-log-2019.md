@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 24 of 100. **Last Update:** 19 March 2019
+## **Status:** Day 25 of 100. **Last Update:** 20 March 2019
 
 ___
 **Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D25:** Tuesday 20th March 2019
+
++ **Notes:** - 
+  + Added more regex to project.  connected js to the project in prep to add some jQuery later 
+
++ **Technologies Used:** - HTML, CSS, MarkDown, JavaScript
 
 ### **R2D24:** Tuesday 19th March 2019
 

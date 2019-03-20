@@ -8,12 +8,8 @@ Build the 3 classes that are needed for this project
 ----
 
 
-Your instructions are as follows:
+1) In the Library.js file, add two methods to the Library class: addPatron() and addBook()
 
-1) In the Library.js file, add a constructor method to the Library class. In the constructor method, initialize the following properties: books, patrons.
+2) addPatron() receives one argument, a Patron object. This object (stored in the patron variable) should be added to the Library object's (stored in thelibrary variable) patrons property, which is an array.
 
-2) In the Book.js file, add a constructor method to the Book class. In the constructor method, initialize the following properties: title, author, isbn.
-
-3) In the Patron.js file, add a constructor method to the Patron class. In the constructor method, initialize the following properties: name, email, currentBook.
-
-Don't forget to add parameters for any values that need to be passed in to each of the constructor methods.
+3) addBook() receives one argument, a Book object. This object (stored in the book variable) should be added to the Library object's books property, which is an array.

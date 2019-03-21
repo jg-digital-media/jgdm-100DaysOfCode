@@ -5,6 +5,10 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 26:
+
+### Regex project
+A lot of content for a single page app, so I converted the project to PHP so I can concentrate on building up the individual parts. 
 
 ## Day 25
 

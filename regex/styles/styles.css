@@ -1,0 +1,47 @@
+        body {
+            background: #fae292;
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #container {
+            display: block;
+            background: #addaff;
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        #container article {
+            background: lightblue;
+            padding: 0 40px;
+            margin: 30px 20px;
+        }
+
+        #container article span {
+            color: green;
+        }
+        
+        #container article span~span {
+            color: red;
+        } 
+
+        #container .list-container {
+            display: block;
+            position: relative;
+            top: 15px;
+            margin: 20px auto;
+            width: 50%;
+            border: solid 3px black;
+        }
+
+        section h2 {
+            border-bottom: 2px solid black;
+            width: 30%;
+            margin: 30px 20px;
+            cursor: pointer;
+        }
+    
+    

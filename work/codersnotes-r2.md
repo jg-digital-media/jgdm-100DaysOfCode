@@ -36,6 +36,10 @@ class Book {
 
 ```
 
+A property to calculate the due date of a book (14 days in the future)
+
+I should have known it wouldn't be a simple as book.dueDate += 14.  A bit of practice with using dates in JavaScript in the end.
+
 
 ## Day 25
 

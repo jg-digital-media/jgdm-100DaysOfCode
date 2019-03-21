@@ -5,7 +5,7 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-## Day 26:
+## Day 26
 
 ### Regex project
 A lot of content for a single page app, so I converted the project to PHP so I can concentrate on building up the individual parts. 
@@ -19,26 +19,38 @@ Some doubt in my mind about whether to add the new variables as parameters of th
  But the greyed out highlighting hints to me that I don't need them, which makes sense to me because the new properties have initial values set to them.  I'm taking them out now. 
 
 ```javascript
-class Book {
+    class Book {
 
-    //to ensure values are initialised when object is created
-    //pass in properties to the constructor method
-    constructor(title, author, isbn) {
-        this.title = title;
-        this.author = author;
-        this.isbn = isbn;
-        this.out = false;
-        this.dueDate = null;
-        this.patron = null
+        //to ensure values are initialised when object is created
+        //pass in properties to the constructor method
+        constructor(title, author, isbn) {
+            this.title = title;
+            this.author = author;
+            this.isbn = isbn;
+            this.out = false;
+            this.dueDate = null;
+            this.patron = null
+        }
+
     }
-
-}
 
 ```
 
 A property to calculate the due date of a book (14 days in the future)
 
 I should have known it wouldn't be a simple as book.dueDate += 14.  A bit of practice with using dates in JavaScript in the end.
+
+```javaacript
+
+    const newDueDate = new Date();
+    newDueDate.setDate(newDueDate.getDate() + 14);
+    book.dueDate = newDueDate;
+
+```
+
++ sets a new Date object to a variable.
++ calls setDate() on the Date object and calculates a new date 14 days into the future
++ Sets the dueDate in the Book class to be newDueDate
 
 
 ## Day 25

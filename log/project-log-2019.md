@@ -1,12 +1,24 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 25 of 100. **Last Update:** 20 March 2019
+## **Status:** Day 26 of 100. **Last Update:** 21 March 2019
 
 ___
 **Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | regex | svg | work
 ___
 
-### **R2D25:** Tuesday 20th March 2019
+### **R2D26:** Thursday 21st March 2019
+
++ **Notes:** - 
+  +  Added some jQuery that makes the Regex Practice page, a single page app more interactive. Also converted it to a PHP app rather than just HTML.  It's going to be a long page  1/2 
+
+  + Making a PHP page allows me to divide the code into logical files and build the site in sections. The page has now grown and is a lot more organised
+
+  + Also added my notes on the OOP JavaScript Library app.
+
++ **Technologies Used:** - HTML, CSS, jQuery, JavaScript, PHP
+
+
+### **R2D25:** Wednesday 20th March 2019
 
 + **Notes:** - 
   + Added more regex to project.  connected js to the project in prep to add some jQuery later 

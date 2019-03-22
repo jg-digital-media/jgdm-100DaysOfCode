@@ -5,6 +5,25 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 27
+
+
+### Library App, - OOP JavaSscript Coding challenge.
+Going to go back again try this practice challenge again. For 2 reasons, One, because I find it to be an interesting and enjoyable coding challenge and secondly because I'm not getting the results I think I should be getting when I log the objects to the console.  It's working but there's some bugs in the log output. 
+
+```javascript
+
+    //Demo 
+
+    patron.checkOut(book);
+    patron.returnBook(book);
+
+    console.log(patron);
+    console.log(book);
+```
+
+And after a good look, I'm not sure where the problem is.  Hopefully it'll become clear to me once I've seen a complete solution.
+
 ## Day 26
 
 ### Regex project

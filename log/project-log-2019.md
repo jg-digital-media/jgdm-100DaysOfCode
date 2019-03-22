@@ -1,11 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 26 of 100. **Last Update:** 21 March 2019
+## **Status:** Day 27 of 100. **Last Update:** 22 March 2019
 
 ___
 **Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+### **R2D27:** Friday 22nd March 2019
++ **Notes:** - Tacking OOP JavaScript again today. It's working but there are some bugs in the log output when testing functionality, calling methods from different classes. More in CodersNotes file. :)
+  
++ **Technologies Used:** - HTML, CSS, JavaScript
 ### **R2D26:** Thursday 21st March 2019
 
 + **Notes:** - 

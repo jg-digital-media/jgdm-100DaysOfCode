@@ -9,18 +9,15 @@ Build the 3 classes that are needed for this project
 
 Your instructions are as follows:
 
-1) Inside the Patron class, add two methods: checkOut() and returnBook()
+1) Change the out property initialization in the Book class constructor method to _out.
 
-The checkOut() method should receive one argument, a Book object.
-It should update the currentBook property to the Book object that's passed in.
-It should update that Book object's out property to true.
-It should update that Book object's patron property to the Patron object itself
-It should calculate the due date (14 days in the future) and then set the Book object's dueDate property to that due date.
+2) Add a setter method called out() to the Book class. It should receive one argument, a boolean value.
 
+Inside the setter method, set the value of the _out backing property to the parameter.
 
+Then, inside the setter method, check the value of the _out backing property. If it's true, calculate the due date and set the Book object's dueDate property. If it's false, set the dueDate property to null.
 
-The returnBook() method should receive one argument, a Book object.
-It should update the currentBook property to null
-It should update that Book object's out property to false
-It should update that Book object's patron property to null
+3) Add a getter method to the Book class called out(). It should return the value of the _out backing property.
+
+4) Back in the Patron class, refactor your checkOut() method to use the new out() setter method instead of your existing code.
 It should update that Book object's dueDate property to null

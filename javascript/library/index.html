@@ -11,20 +11,49 @@
 </body>
 
 <script>
-  // our test code here
-  
-  //Create a new library object and log it to the console
-  let library = new Library();
-  let book = new Book('Harry Potter and the Philosopher\'s Stone', 'J.K. Rowling', '978-0439708180');
-  //console.log(book);
-  let patron = new Patron("Jack Bauer", "jack@bauer.com");
-  //console.log(patron);
+    // our test code here
 
-  //add a new book and patron with
-  library.addBook(book);
-  library.addPatron(patron);
-  
-  console.log(library);
+    //Create a new library object and log it to the console
+    let library = new Library();
+    let book = new Book('Harry Potter and the Philosopher\'s Stone', 'J.K. Rowling', '978-0439708180');
+    //console.log(book);
+    let patron = new Patron("Jack Bauer", "jack@bauer.com");
+
+    //add a new book and patron to the library
+    library.addBook(book);
+    library.addPatron(patron);
+
+
+
+
+    //Demo 
+
+    patron.checkOut(book);
+    patron.returnBook(book);
+
+    console.log(patron);
+    console.log(book);
+/*
+    //Demo Checkout and Return: 
+
+    my Demo
+    //Display patron
+    console.log(patron);
+    console.log("\n-------");
+
+    patron.checkOut(book);
+
+    //Book is now checked out
+    console.log("The book has now been checked out!");
+    console.log(patron);
+    console.log(book);
+
+    patron.returnBook(book);
+
+    //Book has now been returned.
+    console.log("The book has now been returned!");
+    console.log(patron);
+    console.log(book);*/
 
   
   

@@ -11,7 +11,7 @@ class Patron {
     }
 
     set out(out) {
-        this._out = true;
+        this._out = out;
 
         if (out) {
             const newDueDate = new Date();
@@ -21,18 +21,18 @@ class Patron {
             this.dueDate = null;
         }
     }
+
     
-    checkout(book) {
+    checkOut(book) {
         this.out = true;
         this.currentBook = book;
-        book.patron = this.patron; 
+        book.patron = this; 
 
     }
 
     returnBook(book) {
         this.currentBook = null;
         book.out = false;
-        book.dueDate = null;
         book.patron = null
 
     }

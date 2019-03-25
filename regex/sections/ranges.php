@@ -1,4 +1,5 @@
-        <section id="ranges">
+       
+       <section id="ranges">
 
             <h2>Matching Character Ranges</h2>
 

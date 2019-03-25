@@ -14,6 +14,20 @@ $(document).ready(function(){
             
         });
     });
+
+    //Specific to second box    
+    $("#ranges > h2").click(function(){
+        $("#ranges > article").slideToggle("slow", function(){
+            
+        });
+    });
+    
+    //Specific to third box    
+    $("#wildcard > h2").click(function(){
+        $("#wildcard > article").slideToggle("slow", function(){
+            
+        });
+    });
 });
 
 

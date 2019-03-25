@@ -1,4 +1,9 @@
-//array of objects.
+/*****
+ * Authored by:  @jg_digitalMedia
+ * Web:          https://www.jonniegrieve.co.uk
+ * Last Update:  25th March 2019
+ * Description:   Curation of all Projects in JSON format - to be copied to app.js *  
+ * */
 [{
     project_name: "Angular Project",
     project_type: "JavaScript",

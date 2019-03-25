@@ -1,9 +1,6 @@
 //Array of objects for data
 
-const projectList = {
-}
-
-//New Vue Instance
+//Vue instance that holds the Project status data in JSON format. 
 const vue = new Vue({
 
     el: '.project-list',

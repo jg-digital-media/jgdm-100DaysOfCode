@@ -2,16 +2,23 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 2: Day 27 of 100. **Last Update:** 22nd March 2019
++ **Status:** Round 2: Day 28 of 100. **Last Update:** 25th March 2019
 
 + **Directories**
     + css 
-      + geonation
-      + portfolio
-      + modernizr
       + balloon
+      + first-line
+      + geonation
+      + modernizr
+      + portfolio
+      + portfolio-gallery
       + semantic-html
     + java
+      + Generics
+      + Interfaces
+      + Lists
+      + Maps
+      + MyFirstApp
     + javascript
       + dom
       + four_in_a_row

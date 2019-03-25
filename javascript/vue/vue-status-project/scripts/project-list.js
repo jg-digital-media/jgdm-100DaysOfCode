@@ -113,7 +113,7 @@
     status: true,
 },
 {
-    project_name: "Wep - Web Portfolio Project",
+    project_name: "myPortfolio - Web Portfolio Project",
     project_type: "HTML/CSS",
     project_status: "Incomplete",
     status: false,
@@ -262,3 +262,23 @@
     project_status: "Incomplete",
     status: false,
 }]
+
+/*,
+{
+    project_name: "Portfolio Gallery: Single Page Site", 
+    project_type: "HTML/CSS",
+    project_status: "Incomplete",
+    status: false,
+},
+{
+    project_name: "Balloon Flight Experiences Website", 
+    project_type: "HTML/CSS",
+    project_status: "Incomplete",
+    status: false,
+},
+{
+    project_name: "Regex Examples: Single Page Site", 
+    project_type: "HTML/CSS",
+    project_status: "Incomplete",
+    status: false,
+}*/

@@ -121,7 +121,7 @@ const vue = new Vue({
             status: true,
         },
         {
-            project_name: "Wep - Web Portfolio Project",
+            project_name: "myPortfolio - Web Portfolio Project",
             project_type: "HTML/CSS",
             project_status: "Incomplete",
             status: false,

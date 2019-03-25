@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: lightgray;
+    font-family: arial;
+}
+
+/************
+HEADER
+************/
+header {
+    width: 100%;
+    background: purple;
+    min-height: 150px;
+    border-bottom: lightpink 3px solid;
+    margin: 0 auto;
+    color: white; 
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+header h1 {
+    text-align: center;
+}
+
+main {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*****************
+SECTION: INTRO
+******************/
+

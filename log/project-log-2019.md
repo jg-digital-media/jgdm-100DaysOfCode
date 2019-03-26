@@ -7,7 +7,7 @@ ___
 ___
 
 ### **R2D28:** Monday 25th March 2019
-+ **Notes** - Slightly truncated day today. Building a couple more single page websites today starting with a gallery of projects rather than a slider of images. Tided up a few things elsewhere too.
++ **Notes** - Slightly truncated day today. Building a couple more single page websites today starting with a gallery of projects rather than a slider of images. Tidied up a few things elsewhere too.
 + **Technologies Used** - HTML, CSS, JavaScript 
 
 ### **R2D27:** Friday 22nd March 2019

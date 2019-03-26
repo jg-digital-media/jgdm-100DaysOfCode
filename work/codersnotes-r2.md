@@ -5,8 +5,63 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-## Day 27
 
+## Day 29
+
+Final code for the library class constructor  - includes new property that assigns a daily fine initialised in constructor
+
+```javascript
+ constructor() {
+    this.books = [];
+    this.patrons = [];
+    this.dailyFine = .1;
+ }
+ ```
+
+Final solution for the patron class constructor method.
+
+```javascript
+constructor(name, email) {
+    this.name = name;
+    this.email = email;
+    this.currentBook = null;
+    this.balance = 0;
+}
+```
+
+Solution for the ```chargeFines()``` Method
+
+This is new method on the Library class
+
+uses the ```filter()``` method.
+
+```
+chargeFines() {
+    const now = new Date();
+
+    const latePatrons = this.patrons.filter(patron => 
+        (patron.currentBook !== null && patron.currentBook.dueDate < now)
+    );
+
+    for (let patron of latePatrons) {
+        const dateDiff = new Date(now - patron.currentBook.dueDate);
+        const daysLate = dateDiff.getDate();
+        patron.balance += this.dailyFine * daysLate;
+    }
+}
+```
+Test fines by marking books as overdue   - change plus sign to a minus 
+
+demo: 
+use ```library.chargeFines()``` to implement a fine in the system.
+
+```javascript
+patron.checkOut(book);
+library.chargeFines();
+console.log(patron);
+```
+
+## Day 27
 
 ### Library App, - OOP JavaSscript Coding challenge.
 Going to go back again try this practice challenge again. For 2 reasons, One, because I find it to be an interesting and enjoyable coding challenge and secondly because I'm not getting the results I think I should be getting when I log the objects to the console.  It's working but there's some bugs in the log output. 

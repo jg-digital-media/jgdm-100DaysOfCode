@@ -1,10 +1,14 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 28 of 100. **Last Update:** 25 March 2019
+## **Status:** Day 29 of 100. **Last Update:** 26 March 2019
 
 ___
 **Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D29:** Monday 26th March 2019
++ **Notes** - Finished off the library project. It's not finished and not 100% correct as discussed previously, so it'll be going in the new bin folder in this repo. more in the updated readme.md. 
++ **Technologies Used** - HTML, CSS, JavaScript 
 
 ### **R2D28:** Monday 25th March 2019
 + **Notes** - Slightly truncated day today. Building a couple more single page websites today starting with a gallery of projects rather than a slider of images. Tidied up a few things elsewhere too.

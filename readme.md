@@ -2,10 +2,11 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 2: Day 28 of 100. **Last Update:** 25th March 2019
++ **Status:** Round 2: Day 29 of 100. **Last Update:** 26th March 2019
 
-+ **Directories**
-    + css 
+## Directories
+  + bin
+  + css 
       + balloon
       + first-line
       + geonation
@@ -13,37 +14,46 @@
       + portfolio
       + portfolio-gallery
       + semantic-html
-    + java
-      + Generics
-      + Interfaces
-      + Lists
-      + Maps
-      + MyFirstApp
-    + javascript
-      + dom
-      + four_in_a_row
-      + iteration-methods
-      + library
-      + vue
-    + log
-    + php
-      + slimmin
-      + mvc-framework
-    + python
-      + madlibs
-      + pandas
-      + python-input-output
-    + react
-      + context_api
-      + practice-state
-      + react-rendering  
-      + scoreboard
-      + scoreboard_v2
-      + temp
-      + tictactoe
-    + regex
-    + svg
-    + work
+  + java
+    + Generics
+    + Interfaces
+    + Lists
+    + Maps
+    + MyFirstApp
+  + javascript
+    + dom
+    + four_in_a_row
+    + iteration-methods
+    + library
+    + vue
+  + log
+  + php
+    + slimmin
+    + mvc-framework
+  + python
+    + madlibs
+    + pandas
+    + python-input-output
+  + react
+    + context_api
+    + practice-state
+    + react-rendering  
+    + scoreboard
+    + scoreboard_v2
+    + temp
+    + tictactoe
+  + regex
+  + svg
+  + work
+
+## What's in this Repo....
+
+    + **bin** - Discarded or duplicate projects - will not be developed further.
+    + **log** - Additions to log for #100daysofcode will go here
+    + **work** - Coders notes directory - interesting or helpful notes and tops will go in this folder.
+    + Other folders are organised by language, library or platform name.
+
+## Description
 
 I rejigged my blog to restart my 100DaysofCode challenge. And if you've been following along I started today (**14th February 2019**) Round 2 of the #100DaysOfCode challenge.  
 

@@ -28,6 +28,20 @@ $(document).ready(function(){
             
         });
     });
+    
+    //Specific to fourth box    
+    $("#repeated > h2").click(function(){
+        $("#repeated > article").slideToggle("slow", function(){
+            
+        });
+    });
+    
+    //Specific to fifth box    
+    $("#excluding > h2").click(function(){
+        $("#excluding > article").slideToggle("slow", function(){
+            
+        });
+    });
 });
 
 

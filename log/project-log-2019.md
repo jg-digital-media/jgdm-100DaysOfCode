@@ -1,12 +1,23 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 29 of 100. **Last Update:** 26 March 2019
+## **Status:** Day 30 of 100. **Last Update:** 27 March 2019
 
 ___
 **Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | regex | svg | work
 ___
 
-### **R2D29:** Monday 26th March 2019
+### **R2D30:** Wednesday 27th March 2019
+
++ **Notes** 
+
+  + Main business of the day... I've spent a lot of time trying to delve into the mvc-framework project. Learned how to add routes in PHP and link the correct content to them.
+
+  + It hasn't gone 100% according to plan though. The post route for the form should be logging an email to a file and redirecting to the thank you page. It isn't.
+
+  + Added some more Regex practice to the repository.  Including boilerplates for the rest of the sections of the page. Should make building the rest of this less labourious :)
++ **Technologies Used** - HTML, CSS, JavaScript, PHP
+
+### **R2D29:** Tuesday 26th March 2019
 + **Notes** - Finished off the library project. It's not finished and not 100% correct as discussed previously, so it'll be going in the new bin folder in this repo. more in the updated readme.md. 
 + **Technologies Used** - HTML, CSS, JavaScript 
 

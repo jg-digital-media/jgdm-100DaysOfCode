@@ -6,6 +6,31 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 30
+
+Today I've spent a lot of time trying to delve into the mvc-framework project.  I've successfully applied a route to display the contact page and another route on the same page to post the date with the post route.
+
+ but for whatever reason the thank you page is not returned and no log is generated for this. 
+
+```php routes.php
+<?php 
+$app->post('/contact', function (Request $request, Response $response, array $args) {
+    // Render index view
+    return $this->renderer->render($response, 'contact-form.phtml', $args);
+
+    $args = array_merge($args, $request->getParsedBody());
+    if(!empty($args['name']) && !empty($args['email']) && !empty($args['msg'])) {
+        $mail = json_encode([$args['name'], $args['email'], $args['msg']]);
+        // Sample log message
+        $this->logger->notice($mail);
+
+        return $this->renderer->render($response, 'thankyou.phtml', $args);
+
+    }
+});
+
+
+
 ## Day 29
 
 Final code for the library class constructor  - includes new property that assigns a daily fine initialised in constructor

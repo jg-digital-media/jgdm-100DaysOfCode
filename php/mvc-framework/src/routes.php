@@ -12,9 +12,10 @@ $app->get('/contact', function (Request $request, Response $response, array $arg
 
 $app->post('/contact', function (Request $request, Response $response, array $args) {
     // Render index view
-    return $this->renderer->render($response, 'contact-form.phtml', $args);
-
+    
     $args = array_merge($args, $request->getParsedBody());
+
+    return $this->renderer->render($response, 'contact-form.phtml', $args);
     if(!empty($args['name']) && !empty($args['email']) && !empty($args['msg'])) {
         $mail = json_encode([$args['name'], $args['email'], $args['msg']]);
         // Sample log message

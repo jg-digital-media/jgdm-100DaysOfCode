@@ -3,7 +3,8 @@
     require "sections/specific.php";
     require "sections/ranges.php";
     require "sections/wildcard.php";   
-    require "sections/repeated.php";    
+    require "sections/repeated.php";  
+    require "sections/excluding.php";  
     require "sections/footer.php";
 
 ?>

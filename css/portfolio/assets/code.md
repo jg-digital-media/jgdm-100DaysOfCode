@@ -43,7 +43,7 @@
                     
                     <a href="https://projects.jonniegrieve.co.uk/howto-web/" target="blank"><img src="img/featured/howto_website.png" class="site-images" alt="Created alongside the online course at TeamTreehouse" title="Created alongside the online course at TeamTreehouse" /></a>
                     
-                    <a href="https://projects.jonniegrieve.co.uk/fyp" target="blank"><img src="img/featured/fyp_running" class="site-images" alt="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." title="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." /></a>
+                    <a href="https://projects.jonniegrieve.co.uk/fyp" target="blank"><img src="img/featured/fyp_running.png" class="site-images" alt="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." title="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." /></a>
                     
                     <a href="https://projects.jonniegrieve.co.uk/esp" target="blank"><img src="img/featured/esp.png" class="site-images" alt="Legacy website for the fictional Endangered Species Project" title="Legacy website for the fictional Endangered Species Project" /></a>
                     
@@ -65,7 +65,7 @@
                     
                     <a href="#" target="blank"><img src="img/featured/php_oop.png" class="site-images" alt="" title="" /></a>
                     
-                    <a href="#" target="blank"><img src="img/featured/interactive_js.png" class="site-images" alt="" title="" /></a>
+                    <a href="https://projects.jonniegrieve.co.uk/int_js/" target="blank"><img src="img/featured/interactive_js.png" class="site-images" alt="Interactive JS website  - A simple to do list application using DOM Scripting" title="Interactive JS website  - A simple to do list application using DOM Scripting" /></a>
     
                  </div>
    

@@ -1,10 +1,20 @@
+/***
+Colours: 
+*/
+/***
+Breakpoints: 
+*/
+/**
+Fonts: 
+*/
 * {
   padding: 0;
   margin: 0; }
 
 body {
   background: lightgray;
-  font-family: arial; }
+  font-family: verdana;
+  color: black; }
 
 /************
 HEADER
@@ -32,15 +42,6 @@ main {
     main {
       width: 1244px; } }
 
-/***
-Colours: 
-*/
-/***
-Breakpoints: 
-*/
-/**
-Fonts: 
-*/
 /*****************
 SECTION: INTRO
 ******************/

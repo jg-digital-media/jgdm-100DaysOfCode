@@ -75,10 +75,31 @@ img.image {
 
 
 /*****************
-SECTION: GALLERY TWO
+SECTION: GALLERY THREE
 ******************/
 
 .gallery-two {
     width: 80%;
     margin: 0 auto;
 }
+
+ul li  {
+    display: inline-block;
+    width: 30%;
+
+}
+
+ul li img {
+    width: 95%;
+}
+
+/*****************
+SECTION: GALLERY THREE
+******************/
+
+.gallery-three {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Responsive Layout*/

@@ -1,0 +1,36 @@
+
+/*****************
+SECTION: GALLERY TWO
+******************/
+
+.gallery-two {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gallery-two h2 {
+    width: 100%;
+}
+
+ul li  {
+    display: inline-block;
+    width: 30%;
+
+    @media(max-width: $md) {
+        width: 49%;
+    }
+    @media(max-width: $sm) {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+
+}
+
+ul li img {
+    width: 95%;
+
+    @media(max-width: $md) {
+        width: 100%;
+    }
+}

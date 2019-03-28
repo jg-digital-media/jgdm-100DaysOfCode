@@ -1,0 +1,25 @@
+
+/*****************
+SECTION: INTRO
+******************/
+
+.intro-section {
+    display: block;
+    margin: 15pt auto;
+    width: 40%;
+
+    @media (max-width: $sm) {
+        width: 70%;
+
+    }
+
+}
+
+.intro-section h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.intro-section p {
+    line-height: 1.6;
+}

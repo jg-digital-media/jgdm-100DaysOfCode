@@ -1,0 +1,38 @@
+
+
+/*****************
+SECTION: GALLERY ONE
+******************/
+
+.gallery-one {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gallery-one div {
+    display: inline-block;
+    width: 30%;
+
+    @media(max-width: $md) {
+        width: 49%;
+    }
+    @media(max-width: $sm) {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.gallery-one h2 {
+    width: 100%;
+}
+
+img.image {
+    width: 95%;
+    display: inline-block;
+
+    @media(max-width: $md) {
+        width: 100%;
+    }
+}
+

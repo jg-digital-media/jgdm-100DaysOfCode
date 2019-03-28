@@ -29,6 +29,7 @@ ul li  {
 
 ul li img {
     width: 95%;
+    position: relative;
 
     @media(max-width: $md) {
         width: 100%;

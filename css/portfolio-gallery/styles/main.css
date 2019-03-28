@@ -112,7 +112,8 @@ ul li {
       display: block; } }
 
 ul li img {
-  width: 95%; }
+  width: 95%;
+  position: relative; }
   @media (max-width: 980px) {
     ul li img {
       width: 100%; } }
@@ -123,10 +124,38 @@ SECTION: GALLERY THREE
 .gallery-three {
   width: 80%;
   margin: 0 auto; }
-
-.gallery-three h2 {
-  width: 100%; }
-
-/*Responsive Layout*/
+  .gallery-three h2 {
+    width: 100%; }
+  .gallery-three ul li {
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    overflow: hidden; }
+    @media (max-width: 980px) {
+      .gallery-three ul li {
+        width: 49%; } }
+    @media (max-width: 680px) {
+      .gallery-three ul li {
+        width: 80%;
+        margin: 0 auto;
+        display: block; } }
+    .gallery-three ul li .caption {
+      width: 89%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0;
+      background: black;
+      padding: 9px;
+      transition: opacity, .9s; }
+      @media (max-width: 980px) {
+        .gallery-three ul li .caption {
+          width: 100%; } }
+      .gallery-three ul li .caption:hover {
+        opacity: 0.9;
+        transition: opacity, .9s;
+        color: white; }
 
 /*# sourceMappingURL=main.css.map */

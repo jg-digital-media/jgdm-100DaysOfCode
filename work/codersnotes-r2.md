@@ -5,6 +5,54 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 31
+
+```css
+/*using a Sass implementation*/
+ul li  {
+        display: inline-block;
+        width: 30%;
+        position: relative;
+        overflow: hidden;
+
+        @media(max-width: $md) {
+            width: 49%;
+        }
+
+        @media(max-width: $sm) {
+            width: 80%;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .caption {
+            width: 89%;
+        
+            @media(max-width: $md) {
+                width: 100%;
+            }
+        
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0;
+            background: black;
+            padding: 9px;
+            transition: opacity, .9s;
+
+            &:hover {
+                opacity: 0.9;
+                transition: opacity, .9s;
+                color: white;
+            }
+            
+        }
+        
+
+    }
+```
 
 ## Day 30
 

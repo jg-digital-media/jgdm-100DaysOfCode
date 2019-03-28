@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: lightgray;
+    font-family: arial;
+}
+
+/************
+HEADER
+************/
+header {
+    width: 100%;
+    background: purple;
+    min-height: 150px;
+    border-bottom: lightpink 3px solid;
+    margin: 0 auto;
+    color: white; 
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+header h1 {
+    text-align: center;
+}
+
+main {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*****************
+SECTION: INTRO
+******************/
+
+.intro-section {
+    display: block;
+    margin: 15pt auto;
+    width: 40%;
+}
+
+.intro-section h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.intro-section p {
+    line-height: 1.6;
+}
+
+/*****************
+SECTION: GALLERY ONE
+******************/
+
+.gallery-one {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.gallery-one div {
+    display: inline-block;
+    width: 30%;
+}
+
+img.image {
+    width: 95%;
+    display: inline-block;
+}
+
+
+
+/*****************
+SECTION: GALLERY TWO
+******************/
+
+.gallery-two {
+    width: 80%;
+    margin: 0 auto;
+}

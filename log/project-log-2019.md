@@ -10,6 +10,7 @@ ___
 + **Notes** - Worked today on the gallery project putting it together in Sass and coding a caption overlay for the images.  It works but not sure why the padding isn't hiding the overflow like it should.
   
 + **Technologies Used** - HTML, CSS
+
 ### **R2D30:** Wednesday 27th March 2019
 
 + **Notes** 

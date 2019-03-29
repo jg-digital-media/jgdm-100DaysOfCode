@@ -5,6 +5,12 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 32
+
+Really pleased to have fixed the PHP problem with routes and loggings for the contact form. Turns out I was returning the view too soon so it was already redirecting to a defunct or blank page. Now I move on!.  :)
+
+
+
 ## Day 31
 
 ```css

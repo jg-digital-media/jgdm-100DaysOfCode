@@ -34,7 +34,8 @@ SECTION: GALLERY THREE
             @media(max-width: $md) {
                 width: 100%;
             }
-        
+
+            height: auto;
             position: absolute;
             left: 0;
             top: 0;
@@ -44,16 +45,43 @@ SECTION: GALLERY THREE
             background: black;
             padding: 9px;
             transition: opacity, .9s;
+            /* display: block; */
+            /* overflow: hidden; */
 
             &:hover {
                 opacity: 0.9;
                 transition: opacity, .9s;
                 color: white;
             }
+
+            h3 {
+                margin-bottom: 15px;
+            }
+
+            p {
+                width: 100%;
+                line-height: 1.7;
+            }
+
+            a {
+                color: white;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
             
         }
         
 
+    }
+    
+    ul li img {
+        width: 95%;
+        position: relative;
+
+        @media(max-width: $md) {
+            width: 100%;
+        }
     }
     
 }

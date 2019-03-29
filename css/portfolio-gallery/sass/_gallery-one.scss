@@ -13,6 +13,10 @@ SECTION: GALLERY ONE
     display: inline-block;
     width: 30%;
 
+    p { 
+        @extend %gal-one-btn;
+    }
+
     @media(max-width: $md) {
         width: 49%;
     }

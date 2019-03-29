@@ -1,6 +1,4 @@
-/***
-Colours: 
-*/
+//Colours: 
 $header-txt-col: white;
 $header-bg-col: purple;
 $border-col: lightpink;
@@ -11,15 +9,25 @@ $main-txt-col: black;
 $btn-bg-col: white;
 
 
-/***
-Breakpoints: 
-*/
+//Breakpoints: 
 $desktop: 1400px;
 $md: 980px;
 $sm: 680px;
 
-/**
-Fonts: 
-*/
 
+//Fonts: 
 $main-font: verdana;
+
+//Buttons
+%gal-one-btn {
+    display: block;
+    height: 30px;
+    padding: 1px 0;
+    border-radius: 15px;
+    background: grey;
+    color: black;
+    border: solid red 3px;
+    width: 90%;
+    margin: 20px 1%;
+    text-align: center;
+}

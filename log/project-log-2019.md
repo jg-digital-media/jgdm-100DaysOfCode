@@ -1,10 +1,20 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 31 of 100. **Last Update:** 28 March 2019
+## **Status:** Day 32 of 100. **Last Update:** 29 March 2019
 
 ___
 **Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D32:** Friday 29th March 2019
++ **Notes** 
+
+  + Really pleased to have fixed the PHP problem with routes and loggings for the contact form. Turns out I was returning the view too soon so it was already redirecting to a defunct or blank page. Now I move on!.  :)
+
+  + Went on to learn some things about combining request methods in routes and using named routes. All this for using the Slim Framework in PHP.
+
+
++ **Technologies Used** - HTML, CSS, JavaScript, PHP
 
 ### **R2D31:** Thursday 28th March 2019
 + **Notes** - Worked today on the gallery project putting it together in Sass and coding a caption overlay for the images.  It works but not sure why the padding isn't hiding the overflow like it should.

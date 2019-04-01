@@ -1,7 +1,7 @@
         
         <section id="strings">
 
-            <h2></h2>
+            <h2>Match the beggining and ending of Strings</h2>
 
             <article>
 

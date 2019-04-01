@@ -42,6 +42,27 @@ $(document).ready(function(){
             
         });
     });
+    
+    //Specific to sixth box    
+    $("#alternation > h2").click(function(){
+        $("#alternation> article").slideToggle("slow", function(){
+            
+        });
+    });
+    
+    //Specific to seventh box    
+    $("#groups > h2").click(function(){
+        $("#groups > article").slideToggle("slow", function(){
+            
+        });
+    });
+    
+    //Specific to seventh box    
+    $("#strings > h2").click(function(){
+        $("#strings > article").slideToggle("slow", function(){
+            
+        });
+    });
 });
 
 

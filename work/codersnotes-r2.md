@@ -5,6 +5,28 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 33
+ + Added Middleware to the MVC Project which completes this simple project. Looking forward to using this project for another practice with a project of my choosing.
+
+  + I'll be using the Slim Framework Tutorial to base this on and refer back to this project if necessary.
+
+  + I also completed the main content for the Regex Practice website. Looking forward to stying this site before thinking about releasing this as a new project.
+
+  
+
+Slim Tutorial - https://www.slimframework.com/docs/v3/tutorial/first-app.html
+
+
++ Symfony
++ Laravel
++ Zend Framework
++ Expressive
++ CodeIgniter
++ CakePHP
++ Phalcon
++ Fuel PHP Framework
++ Yii
+
 ## Day 32
 
 Really pleased to have fixed the PHP problem with routes and loggings for the contact form. Turns out I was returning the view too soon so it was already redirecting to a defunct or blank page. Now I move on!.  :)

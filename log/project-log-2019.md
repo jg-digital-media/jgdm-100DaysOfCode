@@ -1,11 +1,21 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 32 of 100. **Last Update:** 29 March 2019
+## **Status:** Day 33 of 100. **Last Update:** 01 April 2019
 
 ___
 **Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+### **R2D33:** Monday 1st April 2019
+
++ **Notes**
+  + Added Middleware to the MVC Project which completes this simple project. Looking forward to using this project for another practice with a project of my choosing.
+
+  + I'll be using the Slim Framework Tutorial to base this on and refer back to this project if necessary.
+
+  + I also completed the main content for the Regex Practice website. Looking forward to stying this site before thinking about releasing this as a new project.
+
++ **Technologies Used** - HTML, CSS, JavaScript, jQuery, PHP 
 ### **R2D32:** Friday 29th March 2019
 + **Notes** 
 

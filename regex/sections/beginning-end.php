@@ -5,7 +5,7 @@
 
             <article>
 
-                <h3> <span>Regex:</span> - <span></span></h3>
+                <h3> <span>Regex:</span> - <span>^tart$</span></h3>
 
                 <ul>
                     <li>tart</li>
@@ -20,7 +20,7 @@
 
                 <p></p>
 
-                <h3> <span>Regex:</span> - <span></span></h3>
+                <h3> <span>Regex:</span> - <span>^img_\d{2}.(jpg|png|gif)$^img_\d{2}.(jpg|png|gif)$</span></h3>
 
                 <ul>
                     <li>img_01.jpg</li>
@@ -40,7 +40,7 @@
                 <p></p>
 
 
-                <h3> <span>Regex:</span> - <span></span></h3>
+                <h3> <span>Regex:</span> - <span>^pro(jec|trac)(|ted|tor)$</span></h3>
 
                 <ul>
                     <li>projector</li>
@@ -59,7 +59,7 @@
 
                 <p></p>
 
-                <h3> <span>Regex:</span> - <span></span></h3>
+                <h3> <span>Regex:</span> - <span>^[3-7]+$</span></h3>
 
                 <ul>
                     <li>3456</li>
@@ -75,7 +75,7 @@
 
                 <p></p>
 
-                <h3> <span>Regex:</span> - <span></span></h3>
+                <h3> <span>Regex:</span> - <span>^[3-7]+$</span></h3>
 
                 <ul>
                     <li></li>
@@ -84,7 +84,7 @@
                     <li></li>
                 </ul>
 
-                <p></p>
+                <p>Match characters in the set between the range of 3 and 7 and beyond.</p>
 
                 <p></p>
 

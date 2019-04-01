@@ -2,12 +2,12 @@
         <section id="groups">
 
             <h2>Grouping</h2>
-            
-            <p>Grouping characters allow you to apply modifications to multiple characters the way you have learned to do with single characters.</p>
 
             <article>
 
-                <h3> <span>Regex:</span> - <span>img_\d{2}.(jpg|png|gif)</span></h3>
+                <h3> <span>Regex:</span> - <span>img_\d{2}.(jpg|png|gif)</span></h3>                
+            
+                <p>Grouping characters allow you to apply modifications to multiple characters the way you have learned to do with single characters.</p>
 
                 <ul>
                     <li>img_01.jpg</li>

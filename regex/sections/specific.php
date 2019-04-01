@@ -30,7 +30,7 @@
 
                 <p>[] character ranges - match the characters or range of characters in the set</p>
 
-                <h3><span>Regex</span> - <span>[lh]a[a-z]y[ ]?[a-z]?l?ugs?</span></h3>
+                <h3><span>Regex</span> - <span>[lh]a[a-z]y ?[a-z]?l?ug?</span></h3>
 
                 <ul>
                     <li>ladybug</li>
@@ -38,6 +38,16 @@
                     <li>lazy slug</li>
                     <li>hazy slug</li>
                 </ul>
+
+                <p>Use character set to ensure the first letter always matches [lh]</p>
+
+                <p>Match a range of literal characters and range in a character set - a[a-z]y<p>
+
+                <p>Match an optional space<p>
+
+                <p>Finish with the literal ug string.<p>
+
+                <p>Match a stange of characters after any space in the set of strings above.<p>
 
                 <h3><span>Regex</span> - <span>[fladying]+ ?[br]ug!?</span></h3>
 
@@ -46,14 +56,7 @@
                     <li>fading rug!</li>
                 </ul>
 
-                <p>+ - match preceding character from once to as many times as possible: unlimited.</p>
-
-                <ul>
-                    <li>ladybug</li>
-                    <li>lazy lug</li>
-                    <li>lazy slug</li>
-                    <li>hazy slug</li>
-                </ul>
+                <p>+ - match preceding character from once to as many times as possible: unlimited</p>
 
             </article>        
 

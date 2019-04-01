@@ -5,7 +5,7 @@
 
             <article>
 
-                <h3> <span>Regex:</span> - <span>^tart$</span></h3>
+                <h3><span>Regex:</span> - <span>^tart$</span></h3>
 
                 <ul>
                     <li>tart</li>
@@ -14,13 +14,13 @@
                 </ul>
 
 
-                <p></p>
+                <p>^ - match the start of the string</p>
+
+                <p>$ - match the end of the string</p>
 
                 <p></p>
 
-                <p></p>
-
-                <h3> <span>Regex:</span> - <span>^img_\d{2}.(jpg|png|gif)$^img_\d{2}.(jpg|png|gif)$</span></h3>
+                <h3><span>Regex:</span> - <span>^img_\d{2}.(jpg|png|gif)$</span></h3>
 
                 <ul>
                     <li>img_01.jpg</li>
@@ -33,14 +33,16 @@
                     <li>mov_01.avi (exclude)</li>
                 </ul>
 
-                <p></p>
+                <p>^ - match the start of the string</p>
 
-                <p></p>
+                <p>$ - match the end of the string</p>
 
-                <p></p>
+                <p>Literally match "img_" followed by 2 digit characters</p>
+
+                <p>Match an alternating set of strings and place in a group</p>
 
 
-                <h3> <span>Regex:</span> - <span>^pro(jec|trac)(|ted|tor)$</span></h3>
+                <h3><span>Regex:</span> - <span>^pro(jec|trac)(|ted|tor)$</span></h3>
 
                 <ul>
                     <li>projector</li>
@@ -53,13 +55,17 @@
                 </ul>
 
 
-                <p></p>
+                <p>^ - match the start of the string</p>
+
+                <p>$ - match the end of the string</p>
+
+                <p>literally match the letters pro</p>
+
+                <p>2 groups of alternating strings to match the first 3 strings above</p>
 
                 <p></p>
 
-                <p></p>
-
-                <h3> <span>Regex:</span> - <span>^[3-7]+$</span></h3>
+                <h3><span>Regex:</span> - <span>^[3-7]+$</span></h3>
 
                 <ul>
                     <li>3456</li>
@@ -69,26 +75,12 @@
                 </ul>
 
 
-                <p></p>
+                <p>^ - match the start of the string</p>
 
-                <p></p>
+                <p>$ - match the end of the string</p>
 
-                <p></p>
-
-                <h3> <span>Regex:</span> - <span>^[3-7]+$</span></h3>
-
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-
-                <p>Match characters in the set between the range of 3 and 7 and beyond.</p>
-
-                <p></p>
-
-                <p></p>
+                <p>Match characters in the set between the range of 3 and 7 and beyond</p>
 
             </article>
+
         </section>

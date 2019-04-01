@@ -15,9 +15,9 @@
                     <li>fast</li>
                 </ul>
 
-                <p>Character ranges within character sets.</p>
+                <p>Character ranges within character sets</p>
 
-                <p>Matches 5 times, one for each word with +.</p>
+                <p>Matches 5 times, one for each word with +</p>
 
                 <h3><span>Regex</span> - <span>[0-9] ?[a-b]</span></h3> 
 
@@ -31,9 +31,9 @@
                     <li>9 b</li>
                 </ul> 
 
-                <p>Character ranges within character sets.</p>
+                <p>Character ranges within character sets</p>
 
-                <p>Matches 7 times, one for each word.  Optional (0 or 1) space with ?</p>                    
+                <p>Matches 7 times, one for each word. Optional (0 or 1) space with ?</p>                    
 
                 <h3><span>Regex</span> - <span>[0-9]+ ?[a-zA-z]+</span></h3> 
 
@@ -46,9 +46,9 @@
                     <li>1047 Zable</li>
                 </ul>
                 
-                <p>Character ranges within character sets matched whenever required with +.</p>
+                <p>Character ranges within character sets matched whenever required with +</p>
 
-                <p>Matches 6 times, one for each word.  Optional (0 or 1) space with ?</p>                    
+                <p>Matches 6 times, one for each word. Optional (0 or 1) space with ?</p>                    
 
                 <h3><span>Regex</span> - <span>[0-9]+</span></h3> 
 
@@ -61,9 +61,9 @@
                     <li>40496</li>
                 </ul>
 
-                <p>Character ranges within character sets.</p>
+                <p>Character ranges within character sets</p>
 
-                <p>Matches 5 times, one for each word with +.</p>
+                <p>Matches 5 times, one for each word with +</p>
 
             </article>
 

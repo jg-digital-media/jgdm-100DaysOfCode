@@ -18,7 +18,9 @@
                     <li>ABCDE</li>
                 </ul>
 
-                <p>Matches first 6 lines, not the last 2.</p>
+                <p>Use the digit wildcard expression as many times as needed</p> 
+                
+                <p>Matches first 6 lines, not the last 2</p>
 
                 <h3> <span>Regex:</span> - <span>\d ?[ab]</span></h3>
                 
@@ -34,9 +36,9 @@
                     <li>4 E</li>
                 </ul>
 
-                <p>Matches first 7 lines, not the last 2.</p>
+                <p>Exercise uses wildcard \d character for first part but needs to exclude last 2 strings for letters which cannot be done using wildcard strings \w</p>
 
-                <p>Exercise uses wildcard \d character for first part but needs to exclude last 2 strings for letters which cannot be done using wildcard strings \w.</p>
+                <p>Matches first 7 lines, not the last 2</p>
 
                 <h3><span>Regex</span> - <span>\d+ ?[GTCFZ]\w+</span></h3>
 
@@ -51,7 +53,7 @@
                     <li>jklh 3able</li>
                 </ul>
 
-                <p>Matches first 6 strings, not the last 2.</p>
+                <p>Matches first 6 strings, not the last 2</p>
 
                 <p>Achieved again by mixing character sets and wildcard sets</p>
 

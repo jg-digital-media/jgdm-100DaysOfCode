@@ -5,7 +5,7 @@
 
             <article>
 
-                <h3> <span>Regex:</span> - <span>\d+ ?pieces?+</span></h3>
+                <h3><span>Regex:</span> - <span>\d+ ?pieces?+</span></h3>
 
                 <ul>
                     <li>8 pieces</li>
@@ -18,13 +18,13 @@
                     <li></li>
                 </ul>
 
-                <p>match only digits for the first character followed by a literal space - 0 or more times</p>
+                <p>Match only digits for the first character followed by a literal space - 0 or more times</p>
 
-                <p>match optional s character at the end of an expression</p>
+                <p>Match optional s character at the end of an expression</p>
 
                 
 
-                <h3> <span>Regex:</span> - <span>\d \w{4,}|\d \w{3,}+ \w{1,}</span></h3>
+                <h3><span>Regex:</span> - <span>\d \w{4,}|\d \w{3,}+ \w{1,}</span></h3>
 
                 <ul>
                     <li>8 pieces</li>
@@ -39,13 +39,13 @@
 
                 <p>Match a single non word character at start of expresson followed by a literal space</p>
 
-                <p>match at least 4 word characters</p>
+                <p>Match at least 4 word characters</p>
 
                 <p>Add a second grouping for an alternative expression</p>
 
-                <p>start with a non digit and a space.</p>
+                <p>Start with a non digit and a space</p>
 
-                <h3> <span>Regex:</span> - <span>\d{1,}</span></h3>
+                <h3><span>Regex:</span> - <span>\d{1,}</span></h3>
 
                 <ul>
                     <li>1234</li>
@@ -58,7 +58,7 @@
                     <li>bat! (exclude)</li>
                 </ul>
 
-                <p>Digit characters at match at least 1 time.</p>
+                <p>Digit characters at match at least 1 time</p>
 
 
                 <h3> <span>Regex:</span> - <span>\d{3}\w{1,}</span></h3>
@@ -71,7 +71,7 @@
                     <li>12statues (exclude)</li>
                 </ul>
 
-                <p>Match 3 digit characters first... then any word character at least once. </p>
+                <p>Match 3 digit characters first... then any word character at least once</p>
 
             </article>
 

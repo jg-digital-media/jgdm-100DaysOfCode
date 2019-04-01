@@ -20,6 +20,17 @@ $app->map(['GET', 'POST'],'/contact', function (Request $request, Response $resp
             }
             $args["error"] = "all fields required!";        
     }
+
+    $nameKey = $this->csrf->getTokenNameKey();
+    $valueKey = $this->csrf->getTokenValueKey();
+
+    $args['csrf'] = [
+        $nameKey => $request->getAttribute($nameKey),
+        $valueKey => $request->getAttribute($valueKey)
+    ];
+
+
+    //Render index view
     return $this->renderer->render($response, 'contact-form.phtml', $args);
 });
 

@@ -3,6 +3,11 @@
 
 $container = $app->getContainer();
 
+//register for all routes
+$container['csrf'] = function ($c) {
+    return new \Slim\Csrf\Guard;
+};
+
 // view renderer
 $container['renderer'] = function ($c) {
     $settings = $c->get('settings')['renderer'];

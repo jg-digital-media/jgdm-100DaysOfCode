@@ -12,5 +12,12 @@ if (isset($error)) {
         <textarea name="msg" placeholder="Your message..."><?php if (isset($msg)) echo htmlspecialchars($msg); ?></textarea>
     </fieldset>
     <input type="submit" class="button">
+
+    <?php 
+        foreach ($csrf as $key=>$value) {
+            echo "<input type=\"hidden\" name=\"$key\" value=\"$value\">";
+        }
+
+    ?>
 </form>
 <?php include __DIR__ . '/footer.phtml';

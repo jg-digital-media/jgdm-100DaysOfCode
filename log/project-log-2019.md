@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 33 of 100. **Last Update:** 01 April 2019
+## **Status:** Day 34 of 100. **Last Update:** 02 April 2019
 
 ___
 **Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D34:** Tuesday 2nd April 2019
+
++ **Notes**
+  + Worked mostly with PHP today.  Studying how to use a Templating engine .e.g. Twig. So far so good.
+
++ **Technologies Used:**  - HTML, CSS, PHP
 
 ### **R2D33:** Monday 1st April 2019
 

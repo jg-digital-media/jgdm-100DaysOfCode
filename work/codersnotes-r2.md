@@ -5,6 +5,34 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 34
+
+Source: 
+https://twig.symfony.com/doc/2.x/intro.html#installation
+
+### Installing Twig
+```php
+composer require "twig/twig:^2.0"
+```
+
+### Basic usage 
+```php
+
+require_once '/path/to/vendor/autoload.php';
+
+$loader = new \Twig\Loader\ArrayLoader([
+    'index' => 'Hello {{ name }}!',
+]);
+$twig = new \Twig\Environment($loader);
+
+echo $twig->render('index', ['name' => 'Fabien']);
+```
+
+### Directory Templating
+```php
+$loader = new \Twig\Loader\FilesystemLoader('/path/to/templates');
+```
+
 ## Day 33
  + Added Middleware to the MVC Project which completes this simple project. Looking forward to using this project for another practice with a project of my choosing.
 

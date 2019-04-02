@@ -1,17 +1,26 @@
 //fonts
 $main-font: 'Times New Roman', Times, serif;
+$main-font: 'Mallanna', Times, serif;
+$main-font: 'Harmattan', Times, serif;
+$main-font: 'Roboto', Times, serif;
 $secondary-font: 'arial';
+
+/* font-family: 'Mallanna', sans-serif;
+font-family: 'Harmattan', sans-serif;
+font-family: 'Roboto', sans-serif; */
 
 //colours
 
-$body-bg: #fae292;
+$body-bg: lightgray; //fae292
 $body-col: black;
-$container-bg: #addaff;
-$container-article-bg: lightblue;
-$container-article-span: green;
+$container-bg: darken($body-bg, 8%);
+$container-article-bg: darken($container-bg, 4%);
+$container-article-span: lightgreen;
 $container-article-dbspan: red;
 $container-link-color: black;
 $container-link-hovercolor: gray;
+$header-bg: black;
+$header-col: white;
 
 //breakpoints
 

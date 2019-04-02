@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Harmattan|Mallanna|Roboto" rel="stylesheet">
 
     <!-- styles-->
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+
+
 
 
     <title>Regex Practice</title>
@@ -15,7 +19,7 @@
 <body>
 
     <header>
-        <h1>Regex</h1>
+        <h1>Regex: Examples and Practice</h1>
     </header>
 
     <main id="container">

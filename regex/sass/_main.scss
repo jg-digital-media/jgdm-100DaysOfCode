@@ -1,13 +1,26 @@
 body {
+
+    margin: 0;  
+    padding: 0;
+
     background: $body-bg;
     font-family: $main-font;
 
 }
 
 header {
+    width: 100%;
+    display: block;
+    min-height: 100px;
+    background: $header-bg;
+    color: $header-col;
+    border-bottom: solid white 5px;
 
     h1 {
         text-align: center;
+        margin: 0;
+        padding-top: 15px;
+
     }
 }
 
@@ -44,7 +57,7 @@ header {
         color: $container-link-color;
         &:hover {
             text-decoration: none;
-            color: $container-link-hovercolor;
+            color: lighten($container-link-color, 20%);
         }
     }
 }

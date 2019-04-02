@@ -1,14 +1,28 @@
+/* font-family: 'Mallanna', sans-serif;
+font-family: 'Harmattan', sans-serif;
+font-family: 'Roboto', sans-serif; */
 body {
-  background: #fae292;
-  font-family: "Times New Roman", Times, serif; }
+  margin: 0;
+  padding: 0;
+  background: lightgray;
+  font-family: "Roboto", Times, serif; }
 
-header h1 {
-  text-align: center; }
+header {
+  width: 100%;
+  display: block;
+  min-height: 100px;
+  background: black;
+  color: white;
+  border-bottom: solid white 5px; }
+  header h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 15px; }
 
 #container {
   display: block;
   margin: 0 auto;
-  background: #addaff;
+  background: #bfbfbf;
   width: 70%; }
   #container section h2 {
     border-bottom: 2px solid black;
@@ -29,16 +43,16 @@ header h1 {
     color: black; }
     #container .list-container a:hover {
       text-decoration: none;
-      color: gray; }
+      color: #333333; }
 
 #container article {
-  background: lightblue;
+  background: #b4b4b4;
   padding: 0 40px;
   margin: 30px 20px; }
   #container article h3 {
     font-size: 17pt; }
   #container article span {
-    color: green; }
+    color: lightgreen; }
   #container article span ~ span {
     color: red; }
 

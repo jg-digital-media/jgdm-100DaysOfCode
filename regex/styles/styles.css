@@ -1,47 +1,45 @@
-        body {
-            background: #fae292;
+body {
+  background: #fae292;
+  font-family: "Times New Roman", Times, serif; }
 
-        }
+header h1 {
+  text-align: center; }
 
-        h1 {
-            text-align: center;
-        }
+#container {
+  display: block;
+  margin: 0 auto;
+  background: #addaff;
+  width: 70%; }
+  #container section h2 {
+    border-bottom: 2px solid black;
+    width: 30%;
+    font-size: 20pt;
+    margin: 30px 20px;
+    color: black;
+    cursor: pointer; }
 
-        #container {
-            display: block;
-            background: #addaff;
-            width: 70%;
-            margin: 0 auto;
-        }
+#container .list-container {
+  display: block;
+  position: relative;
+  top: 15px;
+  margin: 20px auto;
+  width: 50%;
+  border: solid 3px black; }
+  #container .list-container a {
+    color: black; }
+    #container .list-container a:hover {
+      text-decoration: none;
+      color: gray; }
 
-        #container article {
-            background: lightblue;
-            padding: 0 40px;
-            margin: 30px 20px;
-        }
+#container article {
+  background: lightblue;
+  padding: 0 40px;
+  margin: 30px 20px; }
+  #container article h3 {
+    font-size: 17pt; }
+  #container article span {
+    color: green; }
+  #container article span ~ span {
+    color: red; }
 
-        #container article span {
-            color: green;
-        }
-        
-        #container article span~span {
-            color: red;
-        } 
-
-        #container .list-container {
-            display: block;
-            position: relative;
-            top: 15px;
-            margin: 20px auto;
-            width: 50%;
-            border: solid 3px black;
-        }
-
-        section h2 {
-            border-bottom: 2px solid black;
-            width: 30%;
-            margin: 30px 20px;
-            cursor: pointer;
-        }
-    
-    
+/*# sourceMappingURL=styles.css.map */

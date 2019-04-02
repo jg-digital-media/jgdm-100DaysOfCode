@@ -1,0 +1,69 @@
+body {
+    background: $body-bg;
+    font-family: $main-font;
+
+}
+
+header {
+
+    h1 {
+        text-align: center;
+    }
+}
+
+#container {
+    display: block;    
+    margin: 0 auto;
+
+    background: $container-bg;
+    width: 70%;
+
+    section {
+        
+        h2 {
+            border-bottom: 2px solid $body-col;
+            width: 30%;
+            font-size: 20pt;
+            margin: 30px 20px;
+            color: $body-col;
+            cursor: pointer;
+        }
+
+    }
+}
+
+#container .list-container {
+    display: block;
+    position: relative;
+    top: 15px;
+    margin: 20px auto;
+    width: 50%;
+    border: solid 3px $body-col;
+
+    a {
+        color: $container-link-color;
+        &:hover {
+            text-decoration: none;
+            color: $container-link-hovercolor;
+        }
+    }
+}
+
+#container article {
+    background: $container-article-bg;;
+    padding: 0 40px;
+    margin: 30px 20px;
+    
+    h3 {
+        font-size: 17pt;
+    }
+
+    span {
+        color: $container-article-span;
+    }
+    
+    span~span {
+        color: $container-article-dbspan;
+    } 
+    
+}

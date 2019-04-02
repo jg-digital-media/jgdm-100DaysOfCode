@@ -21,6 +21,8 @@
     <main id="container">
 
         <aside class="list-container">
+
+            <h2>Contents</h2>
             <ul>Contents
                 <li><a href="#" class="list">Matching Specific Characters</a></li>
                 <li><a href="#" class="list">Matching Character Ranges</a></li>

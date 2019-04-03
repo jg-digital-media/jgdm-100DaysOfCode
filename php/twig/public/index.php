@@ -14,5 +14,5 @@ $loader = new \Twig\Loader\FilesystemLoader( __DIR__ . '/../templates');
 $twig = new \Twig\Environment($loader);
 
 //specify a template or a file to render
-echo $twig->render('home.twig', ['name' => 'Jonnie']);
+echo $twig->render('home.twig', ['name' => 'jonnie']);
 ?>

@@ -12,7 +12,19 @@
 
 <h1>This is the Twig Homepage</h1>
 
-<p>Hello World! My name is {{ name }}</p>
-    
+<p>Hello World! My name is {{ name|title }}</p>
+
+{# Basic Twig Syntax #}
+
+
+ {{- "<em>"~name~"</em>"|title|raw -}}
+ {% set namestr = '<em>'~names~'</em>' %}
+ {{- namestr|title|raw -}} 
+ {{- "<em>world</em>"|title|raw -}}
+
+    {% filter upper|raw %}
+        <em>world</em>
+    {% endfilter %}
+ {# #}  
 </body>
 </html>

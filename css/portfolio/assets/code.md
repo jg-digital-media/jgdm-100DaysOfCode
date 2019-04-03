@@ -51,19 +51,22 @@
                     
                     <a href="https://projects.jonniegrieve.co.uk/castle-eden-css/" target="blank"><img src="img/featured/cs_world.png" class="site-images" alt="Castle Eden World Example site built in pure CSS" title="Castle Eden World Example site built in pure CSS" /></a>
                     
-                    <a href="#" target="blank"><img src="img/featured/time_tracker.png" class="site-images" alt="" title="" /></a>
+                    <a href="https://projects.jonniegrieve.co.uk/vue_project/" target="blank"><img src="img/featured/project_status.png" class="site-images" alt="Project Status page created with Vue.js" title="Project Status page created with Vue.js" /></a>
                     
-                    <a href="#" target="blank"><img src="img/featured/skills_page.png" class="site-images" alt="" title="" /></a>
+                    <a href="https://projects.jonniegrieve.co.uk/grid_project" target="blank"><img src="img/featured/practice_css_grid.png" class="site-images" alt="Practice website for showcasing CSS Grid Techniques" title="Practice website for showcasing CSS Grid Techniques" /></a>
                     
-                    <a href="#" target="blank"><img src="img/featured/react.png" class="site-images" alt="" title="" /></a>
+                    <a href="https://projects.jonniegrieve.co.uk/phpbasics-2016/" target="blank"><img src="img/featured/php_basics.png" class="site-images" alt="PHP Basics - A website created in PHP" title="PHP Basics - A website created in PHP" /></a>
                     
-                    <a href="#" target="blank"><img src="img/featured/react_v2.png" class="site-images" alt="" title="" /></a>
+                    <a href="https://projects.jonniegrieve.co.uk/php-cookbook/" target="blank"><img src="img/featured/php_oop.png" class="site-images" alt="Example Cookbook website that uses an Object Oriented PHP methodology" title="Example Cookbook website that uses an Object Oriented PHP methodology" /></a>
                     
-                    <a href="#" target="blank"><img src="img/featured/project_status" class="site-images" alt="" title="" /></a>
+                    <a href="https://projects.jonniegrieve.co.uk/time_tracker/" target="blank"><img src="img/featured/time_tracker.png" class="site-images" alt="An dynamic application that manages your time using PHP and interacting with and SQLite3 database" title="An dynamic application that manages your time using PHP and interacting with and SQLite3 database" /></a>
                     
-                    <a href="#" target="blank"><img src="img/featured/practice_css_grid" class="site-images" alt="" title="" /></a>
+                    <a href="https://projects.jonniegrieve.co.uk/jquery_project" target="blank"><img src="img/featured/skills_page.png" class="site-images" alt="An interactive single page application with the popular JavaScript library, jQuery" title="An interactive single page application with the popular JavaScript library, jQuery" /></a>
                     
-                    <a href="#" target="blank"><img src="img/featured/php_oop.png" class="site-images" alt="" title="" /></a>
+                    <a href="https://projects.jonniegrieve.co.uk/react-scoreboard/" target="blank"><img src="img/featured/react.png" class="site-images" alt="" title="" /></a>
+                    
+                    <a href="https://projects.jonniegrieve.co.uk/react-scoreboard-v2" target="blank"><img src="img/featured/react_v2.png" class="site-images" alt="" title="" /></a> 
+                    
                     
                     <a href="https://projects.jonniegrieve.co.uk/int_js/" target="blank"><img src="img/featured/interactive_js.png" class="site-images" alt="Interactive JS website  - A simple to do list application using DOM Scripting" title="Interactive JS website  - A simple to do list application using DOM Scripting" /></a>
     

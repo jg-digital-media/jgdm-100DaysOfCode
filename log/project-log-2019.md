@@ -9,7 +9,7 @@ ___
 ### **R2D34:** Tuesday 2nd April 2019
 
 + **Notes**
-  + Worked mostly with PHP today.  Studying how to use a Templating engine .e.g. Twig. So far so good.
+  + Worked mostly with PHP today.  Studying how to use a Templating engine .e.g. Twig. So far so good. It was fun to set up a Twig project via a Template Directory and in it's own file.
 
 + **Technologies Used:**  - HTML, CSS, PHP
 

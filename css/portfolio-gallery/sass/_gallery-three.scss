@@ -15,9 +15,10 @@ SECTION: GALLERY THREE
     
     ul li  {
         display: inline-block;
-        width: 30%;
+        width: 32%;
         position: relative;
         overflow: hidden;
+        border: solid red 1px;
 
         @media(max-width: $md) {
             width: 49%;
@@ -28,67 +29,62 @@ SECTION: GALLERY THREE
             display: block;
         }
 
-        .caption {
-            width: 89%;
+        .photo {
+            display: block;
+            .caption {
+                width: 100%;
+            
+                @media(max-width: $md) {
+                    width: 100%;
+                }
+    
+                height: auto;
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                opacity: 0;
+                background: black;
+                padding: 9px;
+                transition: opacity, .9s;
+                /* display: block; */
+                /* overflow: hidden; */
+    
+                &:hover {
+                    opacity: 0.7;
+                    transition: opacity, .9s;
+                    color: white;
+                }
+    
+                h3 {
+                    margin-bottom: 15px;
+                }
+    
+                p {
+                    width: 100%;
+                    line-height: 1.7;
+                }
+    
+                a {
+                    color: white;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+                
+            }            
+    
+        }
         
+        img {
+            width: 100%;
+            position: relative;
+    
             @media(max-width: $md) {
                 width: 100%;
             }
-
-            height: auto;
-            position: absolute;
-            left: 0;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            opacity: 0;
-            background: black;
-            padding: 9px;
-            transition: opacity, .9s;
-            /* display: block; */
-            /* overflow: hidden; */
-
-            &:hover {
-                opacity: 0.9;
-                transition: opacity, .9s;
-                color: white;
-            }
-
-            h3 {
-                margin-bottom: 15px;
-            }
-
-            p {
-                width: 100%;
-                line-height: 1.7;
-            }
-
-            a {
-                color: white;
-                &:hover {
-                    text-decoration: none;
-                }
-            }
-            
         }
-        
-
-    }
+    }        
     
-    ul li img {
-        width: 95%;
-        position: relative;
-
-        @media(max-width: $md) {
-            width: 100%;
-        }
-    }
-    
-}
-
-
-
-ul li 
-ul li .caption:hover{
-   
 }

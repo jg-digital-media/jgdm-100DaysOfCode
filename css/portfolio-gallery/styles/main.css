@@ -131,9 +131,10 @@ SECTION: GALLERY THREE
     width: 100%; }
   .gallery-three ul li {
     display: inline-block;
-    width: 30%;
+    width: 32%;
     position: relative;
-    overflow: hidden; }
+    overflow: hidden;
+    border: solid red 1px; }
     @media (max-width: 980px) {
       .gallery-three ul li {
         width: 49%; } }
@@ -142,42 +143,44 @@ SECTION: GALLERY THREE
         width: 80%;
         margin: 0 auto;
         display: block; } }
-    .gallery-three ul li .caption {
-      width: 89%;
-      height: auto;
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      opacity: 0;
-      background: black;
-      padding: 9px;
-      transition: opacity, .9s;
-      /* display: block; */
-      /* overflow: hidden; */ }
-      @media (max-width: 980px) {
-        .gallery-three ul li .caption {
-          width: 100%; } }
-      .gallery-three ul li .caption:hover {
-        opacity: 0.9;
-        transition: opacity, .9s;
-        color: white; }
-      .gallery-three ul li .caption h3 {
-        margin-bottom: 15px; }
-      .gallery-three ul li .caption p {
+    .gallery-three ul li .photo {
+      display: block; }
+      .gallery-three ul li .photo .caption {
         width: 100%;
-        line-height: 1.7; }
-      .gallery-three ul li .caption a {
-        color: white; }
-        .gallery-three ul li .caption a:hover {
-          text-decoration: none; }
-  .gallery-three ul li img {
-    width: 95%;
-    position: relative; }
-    @media (max-width: 980px) {
-      .gallery-three ul li img {
-        width: 100%; } }
+        height: auto;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        background: black;
+        padding: 9px;
+        transition: opacity, .9s;
+        /* display: block; */
+        /* overflow: hidden; */ }
+        @media (max-width: 980px) {
+          .gallery-three ul li .photo .caption {
+            width: 100%; } }
+        .gallery-three ul li .photo .caption:hover {
+          opacity: 0.7;
+          transition: opacity, .9s;
+          color: white; }
+        .gallery-three ul li .photo .caption h3 {
+          margin-bottom: 15px; }
+        .gallery-three ul li .photo .caption p {
+          width: 100%;
+          line-height: 1.7; }
+        .gallery-three ul li .photo .caption a {
+          color: white; }
+          .gallery-three ul li .photo .caption a:hover {
+            text-decoration: none; }
+    .gallery-three ul li img {
+      width: 100%;
+      position: relative; }
+      @media (max-width: 980px) {
+        .gallery-three ul li img {
+          width: 100%; } }
 
 footer {
   text-align: center; }

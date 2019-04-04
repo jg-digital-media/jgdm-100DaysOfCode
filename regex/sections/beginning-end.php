@@ -1,5 +1,5 @@
         
-        <section id="strings">
+        <section id="strings" class="js-beginning">
 
             <h2>Match the beginning and ending of Strings</h2>
 

@@ -1,5 +1,5 @@
         
-        <section id="groups">
+        <section id="groups" class="js-groups">
 
             <h2>Grouping</h2>
 

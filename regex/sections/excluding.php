@@ -1,5 +1,5 @@
 
-        <section id="excluding">
+        <section id="excluding" class="js-exclude">
 
             <h2>Excluding Characters</h2>
 

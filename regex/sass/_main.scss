@@ -40,6 +40,9 @@ header {
             margin: 30px 20px;
             color: $body-col;
             cursor: pointer;
+            background: $container-article-bg;
+            border-radius: 20px;
+            text-align: center;
         }
 
     }

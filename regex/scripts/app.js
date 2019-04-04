@@ -7,58 +7,58 @@ $(document).ready(function(){
             
         });
     });
-
+    
     //Specific to first box    
-    $("#specific > h2").click(function(){
+    $(".js-specific").click(function(){
         $("#specific > article").slideToggle("slow", function(){
             
         });
     });
 
     //Specific to second box    
-    $("#ranges > h2").click(function(){
+    $(".js-ranges").click(function(){
         $("#ranges > article").slideToggle("slow", function(){
             
         });
     });
     
     //Specific to third box    
-    $("#wildcard > h2").click(function(){
+    $(".js-wildcard").click(function(){
         $("#wildcard > article").slideToggle("slow", function(){
             
         });
     });
     
     //Specific to fourth box    
-    $("#repeated > h2").click(function(){
+    $(".js-repeated").click(function(){
         $("#repeated > article").slideToggle("slow", function(){
             
         });
     });
     
     //Specific to fifth box    
-    $("#excluding > h2").click(function(){
+    $(".js-exclude").click(function(){
         $("#excluding > article").slideToggle("slow", function(){
             
         });
     });
     
     //Specific to sixth box    
-    $("#alternation > h2").click(function(){
+    $(".js-alternation").click(function(){
         $("#alternation> article").slideToggle("slow", function(){
             
         });
     });
     
     //Specific to seventh box    
-    $("#groups > h2").click(function(){
+    $(".js-groups").click(function(){
         $("#groups > article").slideToggle("slow", function(){
             
         });
     });
     
     //Specific to seventh box    
-    $("#strings > h2").click(function(){
+    $(".js-beginning").click(function(){
         $("#strings > article").slideToggle("slow", function(){
             
         });

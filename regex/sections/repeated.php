@@ -1,5 +1,5 @@
     
-        <section id="repeated">
+        <section id="repeated" class="js-repeated">
 
             <h2>Finding Repeated Characters </h2>
 

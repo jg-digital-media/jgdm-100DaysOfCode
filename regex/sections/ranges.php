@@ -1,5 +1,5 @@
        
-       <section id="ranges">
+       <section id="ranges" class="js-ranges">
 
             <h2>Matching Character Ranges</h2>
 

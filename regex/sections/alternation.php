@@ -1,5 +1,5 @@
 
-        <section id="alternation">
+        <section id="alternation" class="js-alternation">
 
             <h2>Alternation</h2>
 

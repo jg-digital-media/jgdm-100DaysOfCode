@@ -1,5 +1,5 @@
         
-        <section id="wildcard">
+        <section id="wildcard" class="js-wildcard">
 
             <h2>Using Wildcard Characters</h2>
 

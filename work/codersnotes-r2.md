@@ -5,6 +5,94 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 36
+
+### Twig Syntax
+
+```php
+$twig = new \Twig\Environment($loader);
+
+echo $twig->render('index', ['name' => 'Fabien']);
+
+$nav = [
+    'home' => [
+        'href' => '/jgdm-100daysofcode/php/twig/index.php',
+        'caption' => 'Welcome',
+        'status' => 'active'
+    ],
+    'contact' => [
+        'href' => '/contact',
+        'caption' => 'Contact Us',
+        'status' => false
+    ]
+
+];
+
+//specify a template or a file to render
+echo $twig->render('home.twig', ['name' => 'jonnie', 'nav' => $nav]);
+```
+
+```twig
+
+{# Basic Twig Syntax #}
+
+<p>Hello World! My name is {{ name|title }}</p> <!-- returns "Jonnie" -->
+
+<h2> {{ name }} </h2>
+
+{# Filters #}
+
+
+{% set namestr '<em>'~name~'</em>' %}
+
+{{ namestr|title }} <!-- Capitalize namestr -->
+
+{{ "<em>"~name~"</em>"|title|raw }}  <!-- Display raw html not the tags-->
+
+{{-  -}} <!-- Remove whitespace -->
+
+{% verbatim %} <!-- Show twig tags in the browser -->
+  <!-- content -->
+{% endverbatim> %}
+
+{# example #}
+{{- "<em>"~name~"</em>"|title|raw -}}
+{% set namestr = '<em>'~names~'</em>' %}
+{{- namestr|title|raw -}}
+{{- "<em>world</em>"|title|raw -}}
+
+    {% filter upper|raw %}
+        <em>world</em>
+    {% endfilter %}
+
+
+{# for loops in twig #}
+
+{% for item in actions %}
+{{ item }}
+{% endfor %}
+
+{# display an array and display as a comma separated string #}
+
+{{ skills|join(',')}}
+
+{# conditional display of data #}
+
+{% if confidence < 5 %}
+“Nothing in the world is worth having or worth doing unless it means effort, pain, difficulty… I have never in my life envied a human being who led an easy life. I have envied a great many people who led difficult lives and led them well.” ― Theodore Roosevelt
+{% endif %}
+
+{# Display data based on a condition #}
+
+<h1>Hello <em> {% if name is not empty %}}
+{{ name }}
+{% else %}
+World
+{% endif %}
+
+</em></h1>
+
+
 ## Day 34
 
 Source: 

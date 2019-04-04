@@ -1,10 +1,21 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 34 of 100. **Last Update:** 02 April 2019
+## **Status:** Day 36 of 100. **Last Update:** 04 April 2019
 
 ___
 **Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D36:** Thursday 4th April 2019 (and Wednesday) :)
+
++ **Notes**
+  + Flat out forgot to report during yesterdays #100daysofcode. :)  Here's a catch up. Further experminented with Twig syntax for creating web page content. In the coders notes for day 36.
+
+  + Elsewhere I've got a lot further in my styling for the Portfolio gallery I've been working on including separating them to different "versions" for each type.
+
+  + Updated the styling on my regex project, so I'm getting nearer to publishing that too. Progression  :)
+
++ **Technologies Used** - HTML, CSS, jQuery, PHP
 
 ### **R2D34:** Tuesday 2nd April 2019
 

@@ -9,7 +9,7 @@ ___
 ### **R2D36:** Thursday 4th April 2019 (and Wednesday) :)
 
 + **Notes**
-  + Flat out forgot to report during yesterdays #100daysofcode. :)  Here's a catch up. Further experminented with Twig syntax for creating web page content. In the coders notes for day 36.
+  + Flat out forgot to report during yesterdays #100daysofcode. :)  Here's a catch up. Further experimented with Twig syntax with PHP for creating web page content. In the coders notes for day 36.
 
   + Elsewhere I've got a lot further in my styling for the Portfolio gallery I've been working on including separating them to different "versions" for each type.
 

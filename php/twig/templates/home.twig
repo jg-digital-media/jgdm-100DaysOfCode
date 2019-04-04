@@ -10,12 +10,39 @@
 </head>
 <body>
 
-<h1>This is the Twig Homepage</h1>
+<h1>This is a page created with TWIG in PHP</h1>
 
-<p>Hello World! My name is {{ name|title }}</p>
+{{- nav|keys|join(' | ') -}}
 
-{# Basic Twig Syntax #}
+<p>Hello <em> {% if name is not empty %}
+{{- name|title -}}
+{% else -%}
+World
+{%- endif %}
 
+</em></p>
+
+{# navigation #}
+<ul>
+{% for item in nav %}
+<li><a class="{{ item.status }}" href="{{ item['href'] }}">{{ item.caption }}</li></a>
+{% else %}
+
+{% endfor %}
+</ul>
+{# basic countdown timer #}
+
+{% if date() < date('2020-01-01') %}
+{% set difference = date().diff(date('2020-01-01')) %}
+{{ difference.days }} until the end!
+{% else %}
+Countdown over
+{% endif %}
+
+<footer>
+<p>&copy; {{ "now"|date('Y') }} Jonnie Grieve Digital Media</p>
+</footer>
+{# Basic Twig Syntax 
 
  {{- "<em>"~name~"</em>"|title|raw -}}
  {% set namestr = '<em>'~names~'</em>' %}
@@ -25,6 +52,7 @@
     {% filter upper|raw %}
         <em>world</em>
     {% endfilter %}
- {# #}  
+
+  #}  
 </body>
 </html>

@@ -4,6 +4,7 @@ $main-font: 'Mallanna', Times, serif;
 $main-font: 'Harmattan', Times, serif;
 $main-font: 'Roboto', Times, serif;
 $secondary-font: 'arial';
+$regex-font: 'arial';
 
 /* font-family: 'Mallanna', sans-serif;
 font-family: 'Harmattan', sans-serif;
@@ -23,4 +24,21 @@ $header-bg: black;
 $header-col: white;
 
 //breakpoints
+
+//button
+%button{
+    display: block;
+    margin: 0 auto;
+    background: $container-article-bg;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    text-transform: capitalize;
+    border: solid black 3px;
+    &:hover {
+        background: gray;
+    }
+}
 

@@ -43,6 +43,11 @@ header {
         }
 
     }
+
+    .toggle-btn {
+       @extend %button;
+
+    }
 }
 
 #container .list-container {
@@ -50,8 +55,13 @@ header {
     position: relative;
     top: 15px;
     margin: 20px auto;
-    width: 50%;
+    width: 30%;
     border: solid 3px $body-col;
+    border-radius: 10px;
+
+    h2 {        
+        padding-left: 10px;
+    }
 
     a {
         color: $container-link-color;
@@ -77,6 +87,7 @@ header {
     
     span~span {
         color: $container-article-dbspan;
+        $font-family: $regex-font;
     } 
     
 }

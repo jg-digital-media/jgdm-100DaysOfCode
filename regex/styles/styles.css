@@ -1,6 +1,20 @@
 /* font-family: 'Mallanna', sans-serif;
 font-family: 'Harmattan', sans-serif;
 font-family: 'Roboto', sans-serif; */
+#container .toggle-btn {
+  display: block;
+  margin: 0 auto;
+  background: #b4b4b4;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  text-transform: capitalize;
+  border: solid black 3px; }
+  #container .toggle-btn:hover {
+    background: gray; }
+
 body {
   margin: 0;
   padding: 0;
@@ -37,8 +51,11 @@ header {
   position: relative;
   top: 15px;
   margin: 20px auto;
-  width: 50%;
-  border: solid 3px black; }
+  width: 30%;
+  border: solid 3px black;
+  border-radius: 10px; }
+  #container .list-container h2 {
+    padding-left: 10px; }
   #container .list-container a {
     color: black; }
     #container .list-container a:hover {

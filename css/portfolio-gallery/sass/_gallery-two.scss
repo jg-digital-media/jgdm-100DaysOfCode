@@ -6,32 +6,37 @@ SECTION: GALLERY TWO
 .gallery-two {
     width: 80%;
     margin: 0 auto;
-}
 
-.gallery-two h2 {
-    width: 100%;
-}
-
-ul li  {
-    display: inline-block;
-    width: 30%;
-
-    @media(max-width: $md) {
-        width: 49%;
-    }
-    @media(max-width: $sm) {
-        width: 80%;
-        margin: 0 auto;
-        display: block;
-    }
-
-}
-
-ul li img {
-    width: 95%;
-    position: relative;
-
-    @media(max-width: $md) {
+    h2 {
         width: 100%;
+    }
+
+    ul li  {
+        display: inline-block;
+        width: 32%;
+        margin: 3px;
+
+        @media(max-width: $md) {
+            width: 49%;
+        }
+        @media(max-width: $sm) {
+            width: 80%;
+            margin: 0 auto;
+            display: block;
+        }
+
+        img {
+            width: 100%;
+            position: relative;
+        
+            @media(max-width: $md) {
+                width: 100%;
+            }}
+
+        p {
+            font-size: 10pt;
+            margin-bottom: 10px;
+        }
+
     }
 }

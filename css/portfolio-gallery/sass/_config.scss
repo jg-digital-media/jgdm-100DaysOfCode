@@ -22,12 +22,18 @@ $main-font: verdana;
 %gal-one-btn {
     display: block;
     height: 30px;
-    padding: 1px 0;
+    padding: 5px 0;
     border-radius: 15px;
     background: grey;
-    color: black;
-    border: solid red 3px;
+    color: white;
+    border: solid black 3px;
     width: 90%;
-    margin: 20px 1%;
+    margin: 15px auto;
     text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+        background: lighten(grey, 10%);
+    }
 }

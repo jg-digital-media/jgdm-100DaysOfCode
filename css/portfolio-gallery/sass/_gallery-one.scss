@@ -11,9 +11,13 @@ SECTION: GALLERY ONE
 
 .gallery-one div {
     display: inline-block;
-    width: 30%;
+    width: 32%;
+    margin: 3px;
 
     p { 
+       a {
+            text-decoration: none;
+        }
         @extend %gal-one-btn;
     }
 
@@ -21,8 +25,8 @@ SECTION: GALLERY ONE
         width: 49%;
     }
     @media(max-width: $sm) {
-        width: 80%;
-        margin: 0 auto;
+        width: 90%;
+        margin: 15px auto;
         display: block;
     }
 }
@@ -32,7 +36,7 @@ SECTION: GALLERY ONE
 }
 
 img.image {
-    width: 95%;
+    width: 100%;
     display: inline-block;
 
     @media(max-width: $md) {

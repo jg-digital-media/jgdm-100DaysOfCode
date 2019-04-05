@@ -19,13 +19,14 @@ SECTION: GALLERY THREE
         position: relative;
         overflow: hidden;
         border: solid red 1px;
+        margin: 3px;
 
         @media(max-width: $md) {
             width: 49%;
         }
         @media(max-width: $sm) {
-            width: 80%;
-            margin: 0 auto;
+            width: 90%;
+            margin: 15px auto;
             display: block;
         }
 

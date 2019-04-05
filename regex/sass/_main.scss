@@ -43,6 +43,10 @@ header {
             background: $container-article-bg;
             border-radius: 20px;
             text-align: center;
+
+            &:hover {
+                background: darken($container-article-bg, 10%);
+            }
         }
 
     }

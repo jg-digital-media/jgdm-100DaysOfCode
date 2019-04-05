@@ -1,7 +1,7 @@
         
         <section id="strings" class="js-beginning">
 
-            <h2>Match the beginning and ending of Strings</h2>
+            <h2>Beginning and Ending of Strings</h2>
 
             <article>
 

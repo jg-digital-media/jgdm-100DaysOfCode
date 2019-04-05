@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 36 of 100. **Last Update:** 04 April 2019
+## **Status:** Day 37 of 100. **Last Update:** 05 April 2019
 
 ___
 **Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D37:** Friday 5th April 2019
++ **Notes** - Not much time for anything else today except some sprucing up of my work with the regex and gallery pages. Slightly disappointed I didn't get to do more with Twig but that will come.  :)
+
++ **Technologies Used** - HTML, CSS
 
 ### **R2D36:** Thursday 4th April 2019 (and Wednesday) :)
 

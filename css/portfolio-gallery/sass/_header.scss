@@ -16,17 +16,22 @@ header {
     width: 100%;
     background: $header-bg-col;
     min-height: 150px;
-    border-bottom: $border-col 3px solid;
+    border-bottom: $border-col 5px solid;
     margin: 0 auto;
     color: $header-txt-col; 
-}
 
-header img {
-    display: block;
-    margin: 0 auto;
-}
-header h1 {
-    text-align: center;
+    img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+        background: purple;
+        width: 50px;
+        height: 50px;
+    }
+
+    h1 {
+        text-align: center;
+    }
 }
 
 main {

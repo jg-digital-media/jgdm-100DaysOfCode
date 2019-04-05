@@ -28,18 +28,20 @@ HEADER
 ************/
 header {
   width: 100%;
-  background: purple;
+  background: #585358;
   min-height: 150px;
-  border-bottom: lightpink 3px solid;
+  border-bottom: #ffffff 5px solid;
   margin: 0 auto;
   color: white; }
-
-header img {
-  display: block;
-  margin: 0 auto; }
-
-header h1 {
-  text-align: center; }
+  header img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    background: purple;
+    width: 50px;
+    height: 50px; }
+  header h1 {
+    text-align: center; }
 
 main {
   width: 90%;
@@ -59,13 +61,18 @@ SECTION: INTRO
   @media (max-width: 680px) {
     .intro-section {
       width: 70%; } }
-
-.intro-section h2 {
-  text-align: center;
-  margin-bottom: 25px; }
-
-.intro-section p {
-  line-height: 1.6; }
+  .intro-section h2 {
+    text-align: center;
+    margin-bottom: 25px; }
+  .intro-section p {
+    line-height: 1.9; }
+  .intro-section .gallery-type li {
+    display: inline-block;
+    margin: 10px 0; }
+    .intro-section .gallery-type li a {
+      color: darkred; }
+    .intro-section .gallery-type li a.selected {
+      color: black; }
 
 /*****************
 SECTION: GALLERY ONE

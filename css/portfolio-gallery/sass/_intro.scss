@@ -13,13 +13,27 @@ SECTION: INTRO
 
     }
 
-}
+    h2 {
+        text-align: center;
+        margin-bottom: 25px;
+    }
 
-.intro-section h2 {
-    text-align: center;
-    margin-bottom: 25px;
-}
+    p {
+        line-height: 1.9;
+    }
 
-.intro-section p {
-    line-height: 1.6;
+    .gallery-type {
+        li {
+            display: inline-block;
+            margin: 10px 0;
+
+            a {
+                color: $intro-link-col;
+            }
+
+            a.selected {
+                color: $intro-link-selected;
+            }
+        }
+    }
 }

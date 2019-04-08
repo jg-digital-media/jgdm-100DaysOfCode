@@ -2,13 +2,13 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 2: Day 37 of 100. **Last Update:** 5th April 2019
++ **Status:** Round 2: Day 38 of 100. **Last Update:** 8th April 2019
 
 ## Directories
   + bin
   + css 
       + balloon
-      + first-line
+      + first-linE
       + geonation
       + modernizr
       + portfolio

@@ -5,6 +5,22 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 38
+
+Tough day today, Trying to wrap my head around how to combine Twig templates, specifically the difference between Extending and including. Applying the techniques to my own files is helping  :)
+
+```twig
+{% block content %}
+{% endblock %}
+
+{% extends "filename.twig" %}   {# Use a template#}
+
+/* using a layout template....  */
+
+Besides extending blocks, you can include other template files
+{{include("filename.twig") }}
+```
 ## Day 36
 
 ### Twig Syntax

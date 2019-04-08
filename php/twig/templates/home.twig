@@ -1,58 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Twig Homepage</title>
+{% extends "base.twig" %}
 
-    <link rel="stylesheet" type="text/css" href="../public/css/styles.css" />
-</head>
-<body>
+{% block title %}Home {% endblock %}
 
-<h1>This is a page created with TWIG in PHP</h1>
+{% block content %}
 
-{{- nav|keys|join(' | ') -}}
+    {# array of keys #}
+    {{- nav|keys|join(' | ') -}}
 
-<p>Hello <em> {% if name is not empty %}
-{{- name|title -}}
-{% else -%}
-World
-{%- endif %}
+    <p>Hello <em> {% if name is not empty %}
+    {{- name|title -}}
+    {% else -%}
+    World
+    {%- endif %}
 
-</em></p>
+    </em></p>
 
-{# navigation #}
-<ul>
-{% for item in nav %}
-<li><a class="{{ item.status }}" href="{{ item['href'] }}">{{ item.caption }}</li></a>
-{% else %}
+    {# navigation #}
+    <ul>
+        {% for item in nav %}
+            {{ include("nav-item.twig") }}
+        {% else %}
 
-{% endfor %}
-</ul>
-{# basic countdown timer #}
+        {% endfor %}
+    </ul>
 
-{% if date() < date('2020-01-01') %}
-{% set difference = date().diff(date('2020-01-01')) %}
-{{ difference.days }} until the end!
-{% else %}
-Countdown over
-{% endif %}
+    {# basic countdown timer #}
+    {% if date() < date('2020-01-01') %}
+    {% set difference = date().diff(date('2020-01-01')) %}
+    {{ difference.days }} until the end!
+    {% else %}
+    Countdown over
+    {% endif %}
 
-<footer>
-<p>&copy; {{ "now"|date('Y') }} Jonnie Grieve Digital Media</p>
-</footer>
-{# Basic Twig Syntax 
+    {# Basic Twig Syntax 
+    {{- "<em>"~name~"</em>"|title|raw -}}
+    {% set namestr = '<em>'~names~'</em>' %}
+    {{- namestr|title|raw -}} 
+    {{- "<em>world</em>"|title|raw -}}
 
- {{- "<em>"~name~"</em>"|title|raw -}}
- {% set namestr = '<em>'~names~'</em>' %}
- {{- namestr|title|raw -}} 
- {{- "<em>world</em>"|title|raw -}}
+        {% filter upper|raw %}
+            <em>world</em>
+        {% endfilter %}
 
-    {% filter upper|raw %}
-        <em>world</em>
-    {% endfilter %}
+    #}  
 
-  #}  
-</body>
-</html>
+{% endblock %}
+
+{% block footer %}
+    <footer>
+        <p>&copy; {{ "now"|date('Y') }} Jonnie Grieve Digital Media</p>
+    </footer>
+
+    </body>
+    </html>
+
+{% endblock %}

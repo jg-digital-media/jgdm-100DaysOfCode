@@ -5,7 +5,7 @@
 
             <article>
 
-                <h3><span>Regex:</span> - <span>grizzlybear|pandabear</span></h3>
+                <h3><span>Regex:</span> <span>grizzlybear|pandabear</span></h3>
 
                 <ul>
                     <li>grizzlybearr</li>
@@ -20,7 +20,7 @@
 
                 <p>Use grizzlybear|pandabear|[^(|koalabear|bear)] to negate the last 2 words</p>
 
-                <h3><span>Regex:</span> - <span>firestation|firehouse</span></h3>
+                <h3><span>Regex:</span> <span>firestation|firehouse</span></h3>
 
                 <ul>
                     <li>firestation</li>
@@ -35,7 +35,7 @@
 
                 <p>fire(station|house)  - would match the literal word fire and 2 other words with alternation</p>
 
-                <h3><span>Regex:</span> - <span>farmhouse|firehouse|bighouse</span></h3>
+                <h3><span>Regex:</span> <span>farmhouse |firehouse| bighouse</span></h3>
 
                 <ul>
                     <li>farmhouse</li>

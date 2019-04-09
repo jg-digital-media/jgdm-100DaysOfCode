@@ -1,11 +1,11 @@
         
         <section id="strings" class="js-beginning">
 
-            <h2>Beginning and Ending of Strings</h2>
+            <h2>Match Beginning &amp; Ending of Strings</h2>
 
             <article>
 
-                <h3><span>Regex:</span> - <span>^tart$</span></h3>
+                <h3><span>Regex:</span><span>^tart$</span></h3>
 
                 <ul>
                     <li>tart</li>
@@ -20,7 +20,7 @@
 
                 <p></p>
 
-                <h3><span>Regex:</span> - <span>^img_\d{2}.(jpg|png|gif)$</span></h3>
+                <h3><span>Regex:</span><span>^img_\d{2}.(jpg|png|gif)$</span></h3>
 
                 <ul>
                     <li>img_01.jpg</li>
@@ -42,7 +42,7 @@
                 <p>Match an alternating set of strings and place in a group</p>
 
 
-                <h3><span>Regex:</span> - <span>^pro(jec|trac)(|ted|tor)$</span></h3>
+                <h3><span>Regex:</span><span>^pro(jec|trac)(|ted|tor)$</span></h3>
 
                 <ul>
                     <li>projector</li>
@@ -63,9 +63,7 @@
 
                 <p>2 groups of alternating strings to match the first 3 strings above</p>
 
-                <p></p>
-
-                <h3><span>Regex:</span> - <span>^[3-7]+$</span></h3>
+                <h3><span>Regex:</span><span>^[3-7]+$</span></h3>
 
                 <ul>
                     <li>3456</li>

@@ -5,7 +5,7 @@
 
             <article>
 
-                <h3><span>Regex:</span> - <span>\d+ ?pieces?+</span></h3>
+                <h3><span>Regex:</span> <span>\d+ ?pieces?+</span></h3>
 
                 <ul>
                     <li>8 pieces</li>
@@ -24,7 +24,7 @@
 
                 
 
-                <h3><span>Regex:</span> - <span>\d \w{4,}|\d \w{3,}+ \w{1,}</span></h3>
+                <h3><span>Regex:</span> <span>\d \w{4,}|\d \w{3,}+ \w{1,}</span></h3>
 
                 <ul>
                     <li>8 pieces</li>
@@ -45,7 +45,7 @@
 
                 <p>Start with a non digit and a space</p>
 
-                <h3><span>Regex:</span> - <span>\d{1,}</span></h3>
+                <h3><span>Regex:</span> <span>\d{1,}</span></h3>
 
                 <ul>
                     <li>1234</li>
@@ -61,7 +61,7 @@
                 <p>Digit characters at match at least 1 time</p>
 
 
-                <h3> <span>Regex:</span> - <span>\d{3}\w{1,}</span></h3>
+                <h3> <span>Regex:</span> <span>\d{3}\w{1,}</span></h3>
 
                 <ul>
                     <li>123abc</li>

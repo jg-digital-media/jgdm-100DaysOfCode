@@ -5,7 +5,7 @@
 
             <article>
 
-                <h3> <span>Regex:</span> - <span>\d+</span></h3>
+                <h3> <span>Regex:</span> <span>\d+</span></h3>
 
                 <ul>
                     <li>7849</li>
@@ -22,7 +22,7 @@
                 
                 <p>Matches first 6 lines, not the last 2</p>
 
-                <h3> <span>Regex:</span> - <span>\d ?[ab]</span></h3>
+                <h3> <span>Regex:</span> <span>\d ?[ab]</span></h3>
                 
                 <ul>
                     <li>1 a</li>
@@ -40,7 +40,7 @@
 
                 <p>Matches first 7 lines, not the last 2</p>
 
-                <h3><span>Regex</span> - <span>\d+ ?[GTCFZ]\w+</span></h3>
+                <h3><span>Regex:</span> <span>\d+ ?[GTCFZ]\w+</span></h3>
 
                 <ul>
                     <li>8345 Gable</li>
@@ -59,7 +59,7 @@
 
                 <p>Matches 6 times, one for each word with +</p>
 
-                <h3><span>Regex</span> - <span>\w+</span></h3>
+                <h3><span>Regex:</span> <span>\w+</span></h3>
 
                 <ul>
                     <li>bat</li>

@@ -5,7 +5,7 @@
 
             <article>
 
-                <h3><span>Regex</span> - <span>lady ?bugs?</span> </h3>
+                <h3><span>Regex:</span> <span>lady ?bugs?</span> </h3>
 
                 <ul>
                     <li>ladybug</li>
@@ -17,7 +17,7 @@
 
                 <p>? matches 0 or more of the previous characters</p> 
 
-                <h3><span>Regex</span> - <span>la[a-z]y ?[a-z]ugs?</span> </h3>
+                <h3><span>Regex:</span> <span>la[a-z]y ?[a-z]ugs?</span> </h3>
 
                 <ul>                    
                     <li>ladybug</li>
@@ -30,7 +30,7 @@
 
                 <p>[] character ranges - match the characters or range of characters in the set</p>
 
-                <h3><span>Regex</span> - <span>[lh]a[a-z]y ?[a-z]?l?ug?</span></h3>
+                <h3><span>Regex:</span> <span>[lh]a[a-z]y ?[a-z]?l?ug?</span></h3>
 
                 <ul>
                     <li>ladybug</li>
@@ -49,7 +49,7 @@
 
                 <p>Match a stange of characters after any space in the set of strings above.<p>
 
-                <h3><span>Regex</span> - <span>[fladying]+ ?[br]ug!?</span></h3>
+                <h3><span>Regex:</span> <span>[fladying]+ ?[br]ug!?</span></h3>
 
                 <ul>
                     <li>ladybug</li>

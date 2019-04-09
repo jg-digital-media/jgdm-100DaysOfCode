@@ -5,7 +5,7 @@
 
             <article>
 
-                <h3><span>Regex</span> - <span>[a-z]+</span></h3>
+                <h3><span>Regex:</span> <span>[a-z]+</span></h3>
 
                 <ul>
                     <li>bat</li>
@@ -19,7 +19,7 @@
 
                 <p>Matches 5 times, one for each word with +</p>
 
-                <h3><span>Regex</span> - <span>[0-9] ?[a-b]</span></h3> 
+                <h3><span>Regex:</span> <span>[0-9] ?[a-b]</span></h3> 
 
                 <ul>
                     <li>1 a</li>
@@ -35,7 +35,7 @@
 
                 <p>Matches 7 times, one for each word. Optional (0 or 1) space with ?</p>                    
 
-                <h3><span>Regex</span> - <span>[0-9]+ ?[a-zA-z]+</span></h3> 
+                <h3><span>Regex:</span> <span>[0-9]+ ?[a-zA-z]+</span></h3> 
 
                 <ul>
                     <li>8345 Gable</li>
@@ -50,7 +50,7 @@
 
                 <p>Matches 6 times, one for each word. Optional (0 or 1) space with ?</p>                    
 
-                <h3><span>Regex</span> - <span>[0-9]+</span></h3> 
+                <h3><span>Regex:</span> <span>[0-9]+</span></h3> 
 
                 <ul>
                     <li>4849</li>

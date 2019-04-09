@@ -5,7 +5,7 @@
 
             <article>
 
-                <h3><span>Regex:</span> - <span>img_\d{2}.(jpg|png|gif)</span></h3>                
+                <h3><span>Regex:</span> <span>img_\d{2}.(jpg|png|gif)</span></h3>                
             
                 <p>Grouping characters allow you to apply modifications to multiple characters the way you have learned to do with single characters.</p>
 
@@ -25,7 +25,7 @@
 
                 <p>One option is to match 1 literal dot followed by a group of alternating strings. </p>
 
-                <h3><span>Regex:</span> - <span>pro(jector|tractor|ctor)</span></h3>
+                <h3><span>Regex:</span> <span>pro(jector|tractor|ctor)</span></h3>
 
                 <ul>
                     <li>projector</li>
@@ -39,7 +39,7 @@
 
                 <p>Follow this by a group of alternating strings.</p>
 
-                <h3><span>Regex:</span> - <span>img\w+.(jpg|png)</span></h3>
+                <h3><span>Regex:</span> <span>img\w+.(jpg|png)</span></h3>
 
                 <ul>
                     <li>img_sm_01.jpg</li>
@@ -59,7 +59,7 @@
 
                 <p>Match a group of alternating strings.</p>
 
-                <h3><span>Regex:</span> - <span>(www.|api.)?(github.com|teamtreehouse.com)</span></h3>
+                <h3><span>Regex:</span> <span>(www.|api.)?(github.com | teamtreehouse.com)</span></h3>
 
                 <ul>
                     <li>www.github.com</li>
@@ -74,8 +74,6 @@
                 <p>Match a group of alternating strings.  Include the ? wildcard character which makes this group optional.</p>
 
                 <p>Match a second group of alternating strings</p>
-
-                <p></p>
 
             </article>
         </section>

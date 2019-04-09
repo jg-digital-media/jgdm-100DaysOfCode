@@ -16,7 +16,7 @@
                     <li>img_04.png</li>
                     <li>img_05.gif</li>
                     <li>img_06.jpg</li>
-                    <li>mov_01.avi (exclude)</li>
+                    <li>mov_01.avi <strong>(exclude)</strong></li>
                 </ul>
 
                 <p>Grouping characters allow you to apply modifications to multiple characters the way you have learned to do with single characters.</p>
@@ -31,7 +31,7 @@
                     <li>projector</li>
                     <li>protractor</li>
                     <li>proctor</li>
-                    <li>prospector (exclude)</li>
+                    <li>prospector <strong>(exclude)</strong></li>
 
                 </ul>
 
@@ -50,7 +50,7 @@
                     <li>img_03.jpg</li>
                     <li>img_sm_04.png</li>
                     <li>img_04.png</li>
-                    <li>img.gif (exclude)</li>
+                    <li>img.gif <strong>(exclude)</strong></li>
                 </ul>
 
                 <p>Match the literal img string.</p>
@@ -67,8 +67,8 @@
                     <li>www.teamtreehouse.com</li>
                     <li>teamtreehouse.com</li>
                     <li>api.github.com</li>
-                    <li>jsfiddle.net (exclude)</li>
-                    <li>www.jsfiddle.net (exclude)</li>
+                    <li>jsfiddle.net <strong>(exclude)</strong></li>
+                    <li>www.jsfiddle.net <strong>(exclude)</strong></li>
                 </ul>
 
                 <p>Match a group of alternating strings.  Include the ? wildcard character which makes this group optional.</p>

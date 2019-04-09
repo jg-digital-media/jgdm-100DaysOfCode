@@ -11,7 +11,7 @@
                     <li>foxes</li>
                     <li>jumping</li>
                     <li>dogs</li>
-                    <li>aaaaa (exclude)</li>
+                    <li>aaaaa <strong>(exclude)</strong></li>
                 </ul>
 
                 <p>Exclude characters using a character set and a ^ e.g. [^]</p>
@@ -21,9 +21,9 @@
                 <ul>
                     <li>34522</li>
                     <li>72379</li>
-                    <li>1234k (exclude)</li>
-                    <li>5784k (exclude)</li>
-                    <li>5784k (exclude)</li>
+                    <li>1234k <strong>(exclude)</strong></li>
+                    <li>5784k <strong>(exclude)</strong></li>
+                    <li>5784k <strong>(exclude)</strong></li>
                 </ul>
 
                 <p>Pretty sure there's another way I should be doing this one but it does the job</p>

@@ -19,7 +19,7 @@
 <body>
 
     <header>
-        <h1>Regex: Examples and Practice</h1>
+        <h1>Using Regular Expressions (Regex): Examples and Practice</h1>
     </header>
 
     <main id="container">

@@ -9,8 +9,8 @@
 
                 <ul>
                     <li>tart</li>
-                    <li>start (exclude)</li>
-                    <li>tartan (exclude)</li>
+                    <li>start <strong>(exclude)</strong></li>
+                    <li>tartan <strong>(exclude)</strong></li>
                 </ul>
 
 
@@ -29,8 +29,8 @@
                     <li>img_04.png</li>
                     <li>img_05.gif</li>
                     <li>img_06.jpg</li>
-                    <li>6_img_07.gif (exclude)</li>
-                    <li>mov_01.avi (exclude)</li>
+                    <li>6_img_07.gif <strong>(exclude)</strong></li>
+                    <li>mov_01.avi <strong>(exclude)</strong></li>
                 </ul>
 
                 <p>^ - match the start of the string</p>
@@ -48,10 +48,10 @@
                     <li>projector</li>
                     <li>protractor</li>
                     <li>projected</li>
-                    <li>proctor (exclude) </li>
-                    <li>my projector (exclude)</li>
-                    <li>projecting (exclude)</li>
-                    <li>projectorlight (exclude)</li>
+                    <li>proctor <strong>(exclude)</strong> </li>
+                    <li>my projector <strong>(exclude)</strong></li>
+                    <li>projecting <strong>(exclude)</strong></li>
+                    <li>projectorlight <strong>(exclude)</strong></li>
                 </ul>
 
 
@@ -70,8 +70,8 @@
                 <ul>
                     <li>3456</li>
                     <li>34567</li>
-                    <li>23456 (exclude)</li>
-                    <li>345678 (exclude)</li>
+                    <li>23456 <strong>(exclude)</strong></li>
+                    <li>345678 <strong>(exclude)</strong></li>
                 </ul>
 
 

@@ -13,8 +13,8 @@
                     <li>6 pieces</li>
                     <li>5 pieces</li>
                     <li>4 pieces</li>
-                    <li>A piece (exclude)</li>
-                    <li>A 12345 (exclude)</li>
+                    <li>A piece <strong>(exclude)</strong></li>
+                    <li>A 12345 <strong>(exclude)</strong></li>
                     <li></li>
                 </ul>
 
@@ -33,8 +33,8 @@
                     <li>5 pieces</li>
                     <li>4 pieces</li>
                     <li>2 pie slices</li>
-                    <li>A piece (exclude)</li>
-                    <li>A 12345 (exclude)</li>
+                    <li>A piece <strong>(exclude)</strong></li>
+                    <li>A 12345 <strong>(exclude)</strong></li>
                 </ul>
 
                 <p>Match a single non word character at start of expresson followed by a literal space</p>
@@ -52,10 +52,10 @@
                     <li>5678</li>
                     <li>845753</li>
                     <li>78930</li>
-                    <li>abcde (exclude)</li>
-                    <li>abcde (exclude)</li>
-                    <li>power (exclude)</li>
-                    <li>bat! (exclude)</li>
+                    <li>abcde <strong>(exclude)</strong></li>
+                    <li>abcde <strong>(exclude)</strong></li>
+                    <li>power <strong>(exclude)</strong></li>
+                    <li>bat! <strong>(exclude)</strong></li>
                 </ul>
 
                 <p>Digit characters at match at least 1 time</p>
@@ -67,8 +67,8 @@
                     <li>123abc</li>
                     <li>821_Plants</li>
                     <li>769___</li>
-                    <li>454!_Minutes (exclude)</li>
-                    <li>12statues (exclude)</li>
+                    <li>454!_Minutes <strong>(exclude)</strong></li>
+                    <li>12statues <strong>(exclude)</strong></li>
                 </ul>
 
                 <p>Match 3 digit characters first... then any word character at least once</p>

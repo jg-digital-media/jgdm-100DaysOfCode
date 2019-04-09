@@ -17,18 +17,29 @@ $twig = new \Twig\Environment($loader);
 //an array for navigation
 $nav = [
     'home' => [
-        'href' => '/jgdm-100daysofcode/php/twig/index.php',
+        'href' => '/jgdm-100daysofcode/php/twig/public/',
         'caption' => 'Welcome',
-        'status' => 'active'
+        'status' => 'false'
     ],
     'contact' => [
-        'href' => '/contact',
+        'href' => '/jgdm-100daysofcode/php/twig/public/contact',
         'caption' => 'Contact Us',
         'status' => false
     ]
 
 ];
 
+// Routing  - routing is not showing contact.twig on click.
+if (substr($_SERVER['REQUEST_URI'], 0, 8) == '/contact') {
+    $nav['contact']['status'] = "active";
+    echo $twig->render('contact.twig', array('name'=>'jonnie', 'nav' => $nav));
+} else {
+    $nav['home']['status'] = "active";
+    echo $twig->render('home.twig', array('name'=> 'jonnie', 'nav' => $nav));
+}
+
 //specify a template or a file to render
-echo $twig->render('home.twig', ['name' => 'jonnie', 'nav' => $nav]);
+//echo $twig->render('home.twig', ['name' => 'jonnie', 'nav' => $nav]);
+//echo $twig->render('home.twig', array('navigation'=>$nav, 'nav' => $nav));
+
 ?>

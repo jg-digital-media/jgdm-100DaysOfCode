@@ -1,14 +1,22 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 38 of 100. **Last Update:** 08 April 2019
+## **Status:** Day 39 of 100. **Last Update:** 09 April 2019
 
 ___
 **Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+### **R2D39:** Tuesday 9th April 2019
++ **Notes** 
+
+  + Setting up routing for Twig templating in PHP today. Well not quite sadly. The routes are not routing. And I'm not sure why. Looking forward to investigating why.
+
+  + Finally finished styling my latest 2 projects, Regex Practice and Portfolio Gallery.
+
++ **Technologies Used** - HTML, CSS, JavaScript, PHP
 ### **R2D38:** Monday 8th April 2019
 
-+ **Notes**: - Tough day today, Trying to wrap my head around how to combine Twig templates, specifically the difference between Extending and including. Applying the techniques to my own files is helping  :)
++ **Notes** - Tough day today, Trying to wrap my head around how to combine Twig templates, specifically the difference between Extending and including. Applying the techniques to my own files is helping  :)
 
 + **Technologies Used** - PHP
 

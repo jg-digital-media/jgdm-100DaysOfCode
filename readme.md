@@ -2,18 +2,19 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 2: Day 38 of 100. **Last Update:** 8th April 2019
++ **Status:** Round 2: Day 9 of 100. **Last Update:** 9th April 2019
 
 ## Directories
   + bin
+    + first-line
+    + geonation
   + css 
-      + balloon
-      + first-linE
-      + geonation
-      + modernizr
-      + portfolio
-      + portfolio-gallery
-      + semantic-html
+    + balloon
+    + modernizr
+    + portfolio
+    + portfolio-gallery
+    + sass_project
+    + semantic-html
   + java
     + Generics
     + Interfaces

@@ -5,6 +5,35 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 39
+
+
+```twig
+
+Using macros in Twig   - custom functions 
+{% macro input() %}
+{% endmacro %}
+
+forms.twig
+{% macro input(name, value, type = "text", help) %}
+    <div class="form-group">
+        <label for="input{{ name }}">{{ name|title }}</label>
+        <input class="form-control" type="{{ type }}" id="input{{ name }}" name="{{ name }}" value="{{ value|e }}" placeholder="Enter your {{ name }}" />
+        {% if help %}<small class="form-text text-muted">{{ help }}</small>{% endif %}
+    </div>
+{% endmacro %}
+
+```
+```php
+// Routing  - routing is not showing contact.twig on click.
+if (substr($_SERVER['REQUEST_URI'], 0, 8) == '/contact') {
+    $nav['contact']['status'] = "active";
+    echo $twig->render('contact.twig', array('name'=>'jonnie', 'nav' => $nav));
+} else {
+    $nav['home']['status'] = "active";
+    echo $twig->render('home.twig', array('name'=> 'jonnie', 'nav' => $nav));
+}
+```
 
 ## Day 38
 

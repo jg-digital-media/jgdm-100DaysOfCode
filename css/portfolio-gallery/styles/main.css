@@ -12,7 +12,8 @@
   text-decoration: none;
   text-transform: uppercase; }
   .gallery-one div p:hover {
-    background: #9a9a9a; }
+    background: #9a9a9a;
+    color: black; }
 
 * {
   padding: 0;
@@ -37,11 +38,12 @@ header {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
-    background: purple;
+    background: #030111;
     width: 50px;
     height: 50px; }
   header h1 {
-    text-align: center; }
+    text-align: center;
+    padding-top: 10px; }
 
 main {
   width: 90%;
@@ -149,7 +151,6 @@ SECTION: GALLERY THREE
     width: 32%;
     position: relative;
     overflow: hidden;
-    border: solid red 1px;
     margin: 3px; }
     @media (max-width: 980px) {
       .gallery-three ul li {

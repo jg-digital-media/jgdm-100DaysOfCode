@@ -188,8 +188,9 @@ SECTION: GALLERY THREE
           margin-bottom: 15px;
           line-height: 2; }
         .gallery-three ul li .photo .caption p {
-          width: 100%;
-          line-height: 1.7; }
+          width: 85%;
+          line-height: 1.7;
+          padding: 20px 10px; }
         .gallery-three ul li .photo .caption a {
           color: white; }
           .gallery-three ul li .photo .caption a:hover {

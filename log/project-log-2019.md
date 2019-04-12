@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 39 of 100. **Last Update:** 09 April 2019
+## **Status:** Day 40 of 100. **Last Update:** 12 April 2019
 
 ___
 **Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D40:** Friday 12th April 2019
++ **Notes**
+   + Missed a couple of days due to illness. Devoted today to finishing the course about Twig but with still so many questions.  If I could just work out the issue with the routing. More about that in the notes with this repo.
++ **Technologies Used** - PHP
 
 ### **R2D39:** Tuesday 9th April 2019
 + **Notes** 

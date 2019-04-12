@@ -5,6 +5,102 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 40
+
+A couple of things I don't understand about Twig
+
+This might be quite long winded but I'll try and keep it as concise as I can.  I've just finished the [Twig](https://teamtreehouse.com/library/templating-with-twig) course and instead of following along 100% of the course I made for myself an (albeit small and ugly) site for myself which is almost working except for 1 important thing.  The routing doesn't work and I'm not sure why.
+
+So
++ Not sure why the routing is not working
++ Why we need 2 sets of content blocks for each portion of the site
+
+Here's my controller index.php file where routing is made.
+
+```index.php 
+<?php 
+
+//path to the composer vendor file
+require_once __DIR__. '/../vendor/autoload.php';
+
+//render index template to same file
+/* $loader = new \Twig\Loader\ArrayLoader([
+    'index' => 'Hello {{ name }}!',
+]); */
+
+
+//render a directory template
+$loader = new \Twig\Loader\FilesystemLoader( __DIR__ . '/../templates');
+$twig = new \Twig\Environment($loader);
+
+
+//an array for navigation
+$nav = [
+    'home' => [
+        'href' => '/jgdm-100daysofcode/php/twig/public/',
+        'caption' => 'Welcome',
+        'status' => 'false'
+    ],
+    'contact' => [
+        'href' => '/jgdm-100daysofcode/php/twig/public/contact',
+        'caption' => 'Contact Us',
+        'status' => false
+    ]
+
+];
+
+// Routing  - routing is not showing contact.twig on click.
+if (substr($_SERVER['REQUEST_URI'], 0, 8) == '/contact') {
+    $nav['contact']['status'] = "active";
+    echo $twig->render('contact.twig', array('name'=>'jonnie', 'nav' => $nav, 'post' => $_POST));
+} else {
+    $nav['home']['status'] = "active";
+    echo $twig->render('home.twig', array('name'=> 'jonnie', 'nav' => $nav));
+}
+
+//specify a template or a file to render
+//echo $twig->render('home.twig', ['name' => 'jonnie', 'nav' => $nav]);
+//echo $twig->render('home.twig', array('navigation'=>$nav, 'nav' => $nav));
+
+?>
+```
+
+Secondly, I have a question about content blocks in Twig. I don't understand why we need so many duplicates of the content blocks.  e.g. 
+
+```twig
+{% block footer %}
+{% endblock %}
+
+```
+
+Let's use the project footer as the example. In my project, I have 3 sets of content blocks for the footer.
+
+```twig
+{% block footer %}
+{% endblock %}
+```
+
+Which is an empty content block. It's where I'd ideally like to put the HTML content for the footer.
+
+```twig
+{% block footer %}
+{% endblock %}
+```
+Also an empty content block.
+
+```twig
+{% block footer %}
+    <footer>
+        <p>&copy; {{ "now"|date('Y') }} Jonnie Grieve Digital Media</p>
+    </footer>
+
+    </body>
+    </html>
+
+{% endblock %}
+```
+This is where the content for the header currently lives. But if I put this in ```footer.twig``` it disappears despite the fact the block is defined in base.twig.  I don't know if it's anything I've done wrong but the way this is structured doesn't seem right. 
+
 ## Day 39
 
 

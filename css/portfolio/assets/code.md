@@ -63,15 +63,15 @@
                     
                     <a href="https://projects.jonniegrieve.co.uk/jquery_project" target="blank"><img src="img/featured/skills_page.png" class="site-images" alt="An interactive single page application with the popular JavaScript library, jQuery" title="An interactive single page application with the popular JavaScript library, jQuery" tabindex="" /></a>
                     
-                    <a href="https://projects.jonniegrieve.co.uk/react-scoreboard/" target="blank"><img src="img/featured/react.png" class="site-images" alt="" title="" tabindex="" /></a>
+                    <a href="https://projects.jonniegrieve.co.uk/react-scoreboard/" target="blank"><img src="img/featured/react.png" class="site-images" alt="Single Page Scoreboard Application created in React.js" title="Single Page Scoreboard Application created in React.js" tabindex="" /></a>
                     
-                    <a href="https://projects.jonniegrieve.co.uk/react-scoreboard-v2" target="blank"><img src="img/featured/react_v2.png" class="site-images" alt="" title="" tabindex="" /></a>
+                    <a href="https://projects.jonniegrieve.co.uk/react-scoreboard-v2" target="blank"><img src="img/featured/react_v2.png" class="site-images" alt="Single Page Scoreboard Application created in React.js" title="Single Page Scoreboard Application created in React.js" tabindex="" /></a>
                     
                     <a href="https://projects.jonniegrieve.co.uk/int_js/" target="blank"><img src="img/featured/interactive_js.png" class="site-images" alt="Interactive JS website  - A simple to do list application using DOM Scripting" title="Interactive JS website  - A simple to do list application using DOM Scripting" tabindex="" /></a>
                     
-                    <a href="" target="blank"><img src="img/featured/interactive_js.png" class="site-images" alt="" title="" tabindex="" /></a>
+                    <a href="https://projects.jonniegrieve.co.uk/regex/" target="blank"><img src="img/featured/regex.png" class="site-images" alt="An explainer webpage for using Regular Expressions built with jQuery" title="An explainer webpage for using Regular Expressions built with jQuery" tabindex="" /></a>
                     
-                    <a href="" target="blank"><img src="img/featured/interactive_js.png" class="site-images" alt="" title="" tabindex="" /></a>
+                    <a href="https://projects.jonniegrieve.co.uk/portfolio-gallery/" target="blank"><img src="img/featured/portfolio-gallery.png" class="site-images" alt="Using HTML5 and CSS to create various versions of portfolio images" title="Using HTML5 and CSS to create various versions of portfolio images" tabindex="" /></a>
                     
                     <a href="" target="blank"><img src="img/featured/interactive_js.png" class="site-images" alt="" title="" tabindex="" /></a>
                     

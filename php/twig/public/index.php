@@ -32,7 +32,7 @@ $nav = [
 // Routing  - routing is not showing contact.twig on click.
 if (substr($_SERVER['REQUEST_URI'], 0, 8) == '/contact') {
     $nav['contact']['status'] = "active";
-    echo $twig->render('contact.twig', array('name'=>'jonnie', 'nav' => $nav));
+    echo $twig->render('contact.twig', array('name'=>'jonnie', 'nav' => $nav, 'post' => $_POST));
 } else {
     $nav['home']['status'] = "active";
     echo $twig->render('home.twig', array('name'=> 'jonnie', 'nav' => $nav));

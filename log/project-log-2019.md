@@ -1,10 +1,19 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 40 of 100. **Last Update:** 12 April 2019
+## **Status:** Day 41 of 100. **Last Update:** 15 April 2019
 
 ___
 **Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D41:** Monday 15th April 2019
++ **Notes**
+   + Determined to finish off the example "Balloon Flight Experience" site but there's an issue with the Slick "slider" arrows and their placement on smaller screens. Looking for a solution for that issue.
+   
+   + I did however manage to find an solution for the horizontal browser scroll. One problem solved replaced by another. One Workaround would be to simply remove the arrows from the Carousels 
+
+   + Started a new directory ```slim``` that uses the official Slim Tutorial to try and consolidate what I've already been exposed to in Slim.
++ **Technologies Used** - PHP, HTML, CSS   
 
 ### **R2D40:** Friday 12th April 2019
 + **Notes**

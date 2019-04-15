@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 2: Day 40 of 100. **Last Update:** 12th April 2019
++ **Status:** Round 2: Day 41 of 100. **Last Update:** 15th April 2019
 
 ## Directories
   + bin
@@ -29,8 +29,10 @@
     + vue
   + log
   + php
-    + slimmin
     + mvc-framework
+    + slim
+    + slimmin
+    + twig
   + python
     + madlibs
     + pandas

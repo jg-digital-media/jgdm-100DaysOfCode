@@ -5,6 +5,34 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 41
+
+### Slim 
+https://www.slimframework.com/docs/v3/tutorial/first-app.html
+
+Installed Slim to the src folder with 
+
+composer.phar require slim/slim
+
+### CSS
+
+```css
+
+body {
+    font-family: arial;
+    color: white;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.slick-next {
+
+}
+
+.slick-prev {
+```
+Considering removing arrows completely from the Carousels 
+
 ## Day 40
 
 A couple of things I don't understand about Twig

@@ -1,0 +1,6 @@
+Issue logged with Slick Styling  - arrows moving on position on smaller screens.
+
+$xl: 1300px;
+$lg: 960px;
+$md: 780px;
+$sm: 480px;

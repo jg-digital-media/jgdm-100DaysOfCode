@@ -8,7 +8,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   font-family: arial;
-  color: white; }
+  color: white;
+  margin: 0;
+  overflow-x: hidden;
+  /*solves issue of horizontal scrolllbar on mouseover*/ }
 
 header {
   background: #d88282;
@@ -34,7 +37,7 @@ header {
     bottom: 20px; }
     @media (max-width: 780px) {
       header img.header-image {
-        margin-top: 40px; } }
+        margin-top: 65px; } }
   header nav .main-nav {
     display: block;
     position: relative;
@@ -61,6 +64,10 @@ header {
 
 section {
   width: 100%; }
+  @media (min-width: 1300px) {
+    section {
+      width: 1283px;
+      margin: 0 auto; } }
   section div.intro {
     width: 50%;
     margin: 0% auto;
@@ -81,7 +88,7 @@ section {
   section section.balloon-content {
     display: flex;
     width: 98%;
-    margin: 0 auto; }
+    margin: 5% auto; }
     @media (max-width: 740px) {
       section section.balloon-content {
         display: block; } }
@@ -94,10 +101,14 @@ section {
       width: 400px;
       min-height: 200px;
       margin: 0 auto;
+      /*media query 740px*/
       /*media query 740px*/ }
-      @media (max-width: 740px) {
+      @media (max-width: 780px) {
         section section.balloon-content div.video {
           width: 95%; } }
+      @media (max-width: 480px) {
+        section section.balloon-content div.video {
+          width: 75%; } }
       section section.balloon-content div.video video, section section.balloon-content div.video img {
         width: 100%; }
     section section.balloon-content div.stock-images {
@@ -137,13 +148,10 @@ section {
       left: 5px;
       z-index: 1000; }
 
-aside ul li {
-  color: green;
-  font-weight: bold; }
-
 footer {
   background: #d88282;
-  margin-top: 20px; }
+  margin-top: 20px;
+  border-top: red 6px solid; }
   footer p {
     padding: 20px 0;
     font-weight: bold;
@@ -151,15 +159,10 @@ footer {
     width: 100%;
     text-align: center; }
     footer p a {
-      letter-spacing: 2pt; }
-
-/*
-
-Breakpoints:
-
-740px
-
-
-*/
+      letter-spacing: 2pt;
+      /**/
+      color: #ffffff; }
+      footer p a:hover {
+        text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */

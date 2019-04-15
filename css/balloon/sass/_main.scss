@@ -1,0 +1,241 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url('../img/balloon-over-bath1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: arial;
+    color: $content-text;
+    margin: 0;
+    overflow-x: hidden;  /*solves issue of horizontal scrolllbar on mouseover*/
+}
+
+header {
+
+    background: $content-background;
+    height: 160px;
+    color: $content-text;
+    border-bottom: $border-colour 6px solid;
+
+    div {
+        text-align: center;
+        font-size: 24pt;
+        font-weight: bold;
+        position: relative;
+        top: 50px;
+
+        @media (max-width: $md) {
+            text-align: center;
+
+        }
+    }
+
+    img.header-image {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        float: left;
+        margin: 10px;
+        position: relative;
+        bottom: 20px;
+        @media (max-width: $md) { 
+            margin-top: 65px;
+        }
+    }
+
+    
+    nav {
+        .main-nav {
+            display: block;
+            position: relative;
+            text-align: right;
+            margin-right: 20px;
+            top: 95px;
+
+            @media (max-width: $md) {
+                top: 65px;
+                text-align: left;
+                font-size: 3vw;
+    
+            }
+
+            li {
+                display: inline-block;
+                margin-left: 15px;
+
+                @media (max-width: $sm) {
+                    margin-left: 5px;
+        
+                }
+            }
+
+            a {
+                color: $link-text;
+                font-weight: bold;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+        }
+
+        
+    }
+}
+
+section {
+    width: 100%;  
+    
+    @media(min-width: $xl) {
+        width: 1283px;
+        margin: 0 auto;
+
+    }
+
+    div.intro {
+        width: 50%;
+        margin: 0% auto;
+        padding: 15% 0;
+        line-height: 1.7;
+                    
+
+        @media (max-width: $md) {
+            width: 60%;
+
+        }            
+
+        @media (max-width: $sm) {
+            width: 90%;
+
+        }
+
+        p {
+            line-height: 2;
+            padding: 15px 0px;
+        }
+
+        .link {
+            font-size: 10px;
+            color: $content-text;
+        }
+
+    }
+
+    section.balloon-content {
+        //background: rgba(231, 53, 53, 0.449);
+        display: flex;
+        width: 98%;
+        margin: 5% auto;
+
+        @media(max-width: 740px) {
+            display: block;
+        }
+
+        h2 {
+            font-size: 49px;
+        }
+
+        p {
+            line-height: 1.9;
+        }
+
+        div.video {
+            display: block;
+            width: 400px;
+            min-height: 200px;
+            margin: 0 auto;
+
+            /*media query 740px*/
+            @media (max-width: $md) {
+                width: 95%;
+            } 
+            
+            /*media query 740px*/
+            @media (max-width: $sm) {
+                width: 75%;
+            }
+
+            video, img {
+                width: 100%;
+            }
+
+        }
+
+        div.stock-images {
+            display: block;
+            width: 30%;
+            min-height: 200px;
+            margin: -20px auto;
+            /*media query 740px*/
+            @media (max-width: 740px) {
+                width: 95%;
+            }
+
+            &~p {
+               font-weight: bold;
+               position: relative;
+               font-size: 20pt;
+               right: 147px;
+            }
+
+        }
+
+        div.gallery {
+            display: block;
+            width: 30%;
+            min-height: 200px;
+            margin: -20px auto;
+            /*media query 740*/
+            @media (max-width: 740px) {
+                width: 95%;
+            }
+
+            &~p {
+                font-weight: bold;
+                position: relative;
+                font-size: 20pt;
+                right: 147px;
+            } 
+        }
+
+        //Custom Slick Styles:
+        .slick-next {
+            /*position: relative;*/
+            right: 5px;
+            z-index: 1000;
+        }
+        
+        .slick-prev {
+            position: relative;
+            left: 5px;
+            z-index: 1000;	
+        }
+    }
+}
+
+
+footer {
+    background: $content-background;
+    margin-top: 20px;
+    border-top: $border-colour 6px solid;
+
+    p {
+        padding: 20px 0;
+        font-weight: bold;
+        color: $content-text;
+        width: 100%;
+        text-align: center;
+        a {
+            letter-spacing: 2pt;/**/
+            color: $link-text;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

@@ -4,6 +4,7 @@ $(document).ready(function(){
     $('.stock-images').slick({
       infinite: true,
       slidesToShow: 1,
+      arrows: false
 
     });
   });

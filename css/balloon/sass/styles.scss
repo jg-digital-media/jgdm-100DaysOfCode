@@ -49,6 +49,8 @@ header {
         border-radius: 100%;
         float: left;
         margin: 10px;
+        position: relative;
+        bottom: 20px;
         @media (max-width: $md) { 
             margin-top: 40px;
         }
@@ -85,7 +87,7 @@ header {
                 font-weight: bold;
                 text-decoration: none;
                 &:hover {
-                    text-decoration: none;
+                    text-decoration: underline;
                 }
             }
 

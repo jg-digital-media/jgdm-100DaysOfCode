@@ -5,6 +5,61 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 42
+
+Process - Making the most Simple Slim Application
+
++ Make Request and Response Classes available to the code
++ Make Slim Framework and its dependencies available to the project
++ Create a new Slim object
++ Create a Get Route - This has a callback function - request, response, array of arguments.
++ Get the response
+
+Then finally not forgetting to run the app with ```$app->run()```
+
+```php
+<?php 
+
+    //Make Request and Response Classes available to the code
+    use \Psr\Http\Message\ServerRequestInterface as Request;
+    use \Psr\Http\Message\ResponseInterface as Response;
+
+    
+    require '../vendor/autoload.php';
+
+    //Slim Project Configuration
+    $config['displayErrorDetails'] = true;
+    $config['addContentLengthHeader'] = false;
+
+    /*$config['db']['host']   = 'localhost';
+    $config['db']['user']   = 'user';
+    $config['db']['pass']   = 'password';
+    $config['db']['dbname'] = 'exampleapp';*/
+
+    //Create a new Slim object
+    $app = new \Slim\App;
+
+    //Create a Get Route - This has a callback function - request, response, array of arguments.
+    $app->get('/hello/{name}', function (Request $request, Response $response, array $args) {
+        $name = $args['name'];
+        $response->getBody()->write("Hello, $name");
+
+        //get the response
+        return $response;
+    });
+    
+    //run the app
+    $app->run()
+```
+
+```php -S localhost:8080```
+
+The htaccess file makes website available locally with XAMPP.  Further testing required for other local servers.
++ http://localhost:8080/hello/jonnie - PHP Development Server
++ http://localhost/jgdm-100daysofcode/php/slim/src/public/hello/Jonnie - from XAMPP
+
+
+
 ## Day 41
 
 ### Slim 

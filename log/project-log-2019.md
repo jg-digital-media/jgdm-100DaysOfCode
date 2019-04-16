@@ -1,10 +1,14 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 41 of 100. **Last Update:** 15 April 2019
+## **Status:** Day 42 of 100. **Last Update:** 16 April 2019
 
 ___
 **Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D42:** Tuesday 16th April 2019
++ **Notes** Today was about building up a Slim app with PHP, including using a Dependency Container and learning how to add to development logs. The Skeleton of an Slim app in place. Lots more to explore.
++ **Technologies Used** - PHP
 
 ### **R2D41:** Monday 15th April 2019
 + **Notes**

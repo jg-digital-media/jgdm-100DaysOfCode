@@ -53,3 +53,32 @@ RewriteRule . index.php [L]
 The htaccess file makes website available locally with XAMPP.  Further testing required for other local servers.
 + http://localhost:8080/hello/jonnie - PHP Development Server
 + http://localhost/jgdm-100daysofcode/php/slim/src/public/hello/Jonnie - from XAMPP
+
+## Application Dependences - Slim handles them nicely using a DIC (Dependency Injection Container) 
+
+```$container = $app->getContainer();```
+
+## Monolog
+
+Monolog is called on the DIC.
+
+```php
+//Monolog logging dependency.
+$container['logger'] = function($c) {
+    $logger = new \Monolog\Logger('my_logger');
+    $file_handler = new \Monolog\Handler\StreamHandler('../logs/app.log');
+    $logger->pushHandler($file_handler);
+    return $logger;
+};
+
+
+ $this->logger->addInfo('Write a log for "hello" route'); // log some text on the route
+```
+
+Returns output such as 
+
+```php
+[2019-04-16 13:51:32] my_logger.INFO: Write a log for "hello" route [] []
+[2019-04-16 13:53:32] my_logger.INFO: Write a log for "hello" route [] []
+
+```

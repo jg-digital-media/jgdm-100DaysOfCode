@@ -132,7 +132,7 @@ section {
         width: 98%;
         margin: 5% auto;
 
-        @media(max-width: 740px) {
+        @media(max-width: $md) {
             display: block;
         }
 
@@ -148,7 +148,7 @@ section {
             display: block;
             width: 400px;
             min-height: 200px;
-            margin: 0 auto;
+            margin: -20px auto;
 
             /*media query 740px*/
             @media (max-width: $md) {
@@ -172,7 +172,7 @@ section {
             min-height: 200px;
             margin: -20px auto;
             /*media query 740px*/
-            @media (max-width: 740px) {
+            @media (max-width: $md) {
                 width: 95%;
             }
 
@@ -191,7 +191,7 @@ section {
             min-height: 200px;
             margin: -20px auto;
             /*media query 740*/
-            @media (max-width: 740px) {
+            @media (max-width: $md) {
                 width: 95%;
             }
 

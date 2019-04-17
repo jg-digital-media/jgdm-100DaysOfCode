@@ -82,3 +82,30 @@ Returns output such as
 [2019-04-16 13:53:32] my_logger.INFO: Write a log for "hello" route [] []
 
 ```
+
+### Creating Routes - http://www.slimframework.com/docs/v3/objects/router.html
+
++ GET Route -  $app->get() - 
++ POST Route -  $app->post()
++ PUT Route -  $app->put()
++ DELETE Route -  $delete->put()
++ OPTIONS Route -  $app->options()
++ PATCH Route -  $app->patch()
++ Any Route -  $app->any()
++ Custom Route -  $app->map()
+
+Reminder: Run PHP server on the public folder
+
+For now I won't follow the database connection stuff
+
+Routes with Named Placeholders - URLs with Variables in them.
+
+So I now have 3 Routes
+
+hello/{name}
+/about
+/list
+
+Now to make them display something meaninful with Views/Templates
+
+It works but I'm not sure why [Wed Apr 17 14:23:09 2019] ::1:62064 Invalid request (Unexpected EOF) keeps being returned in the command line.

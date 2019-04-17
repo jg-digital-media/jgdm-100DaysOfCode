@@ -1,2 +1,6 @@
 [2019-04-16 13:51:32] my_logger.INFO: Write a log for "hello" route [] []
 [2019-04-16 13:53:32] my_logger.INFO: Write a log for "hello" route [] []
+[2019-04-17 15:07:01] my_logger.INFO: Write a log for "hello" route [] []
+[2019-04-17 15:07:07] my_logger.INFO: Request made for About Route [] []
+[2019-04-17 15:07:35] my_logger.INFO: Request made for About Route [] []
+[2019-04-17 15:23:00] my_logger.INFO: Request made for list Route [] []

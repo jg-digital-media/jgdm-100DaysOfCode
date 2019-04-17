@@ -11,7 +11,9 @@ require '../vendor/autoload.php';
 $config['displayErrorDetails'] = true;
 $config['addContentLengthHeader'] = false;
 
-/*$config['db']['host']   = 'localhost';
+/*
+//database configuration settings
+$config['db']['host']   = 'localhost';
 $config['db']['user']   = 'user';
 $config['db']['pass']   = 'password';
 $config['db']['dbname'] = 'exampleapp';*/
@@ -37,6 +39,21 @@ $app->get('/hello/{name}', function (Request $request, Response $response, array
     $this->logger->addInfo('Write a log for "hello" route'); // log some text on the route
 
     //get the response
+    return $response;
+});
+
+//Get route - list page
+$app->get('/list', function (Request $request, Response $response) {
+    $this->logger->addInfo("Request made for list Route");
+    $response->getBody()->write("Welcome to the list Route");
+    return $response;
+});
+
+//Get route - list page
+$app->get('/about', function (Request $request, Response $response) {
+    $this->logger->addInfo("Request made for About Route");
+
+    $response->getBody()->write("Welcome to the About Route");
     return $response;
 });
 

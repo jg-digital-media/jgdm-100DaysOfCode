@@ -5,6 +5,31 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 43
+
+### The different routes available in Slim
++ GET Route -  $app->get()
++ POST Route -  $app->post()
++ PUT Route -  $app->put()
++ DELETE Route -  $delete->put()
++ OPTIONS Route -  $app->options()
++ PATCH Route -  $app->patch()
++ Any Route -  $app->any()
++ Custom Route -  $app->map()
+
+
+```php 
+$app->get('/', function (Request $request, Response $response, array $args) {    
+    $this->logger->addInfo('Write a log the home page'); // log some text on the route
+    $response->getBody()->write("Home Page");
+    //$response = $this->view->render($response, "home.php");
+    $response = $this->view->render($response, "home.php");
+
+    //get the response
+    return $response;
+});
+```
+
 ## Day 42
 
 Process - Making the most Simple Slim Application

@@ -85,7 +85,7 @@ Returns output such as
 
 ### Creating Routes - http://www.slimframework.com/docs/v3/objects/router.html
 
-+ GET Route -  $app->get() - 
++ GET Route -  $app->get()
 + POST Route -  $app->post()
 + PUT Route -  $app->put()
 + DELETE Route -  $delete->put()
@@ -100,13 +100,37 @@ For now I won't follow the database connection stuff
 
 Routes with Named Placeholders - URLs with Variables in them.
 
-So I now have 3 Routes
+So I now have 4 Routes
 
+/
 hello/{name}
 /about
 /list
 
-Now to make them display something meaningful with Views/Templates
+e.g. 
+
+```php 
+$app->get('/', function (Request $request, Response $response, array $args) {    
+    $this->logger->addInfo('Write a log the home page'); // log some text on the route
+    $response->getBody()->write("Home Page");
+    //$response = $this->view->render($response, "home.php");
+    $response = $this->view->render($response, "home.php");
+
+    //get the response
+    return $response;
+});
+```
+
+### Now to make them display something meaningful with Views/Templates
+
+With a templates directory with 1 PHP template for each view. Also added a header.php template file.  I'm not sure if I've structured it to convention but it proves to me how flexible the Slim Framework is.
+
++ slim
+    + src
+        + log
+        + public
+        + templates
+        + vendor
 
 It works but I'm not sure why [Wed Apr 17 14:23:09 2019] ::1:62064 Invalid request (Unexpected EOF) keeps being returned in the command line.
 
@@ -115,3 +139,15 @@ It works but I'm not sure why [Wed Apr 17 14:23:09 2019] ::1:62064 Invalid reque
 Organise Routes into a single routes.php file rather than 1 route for a single file in a routes directory.
 
 Reminder: Run PHP server on the public folder
+
+### Code to "help" built in PHP Development Server 
+
+```php
+if (PHP_SAPI == 'cli-server') {
+	$url = parse_url($_SERVER['REQUEST_URI']
+	$file = __DIR__ . $url['path'];
+        if (is_file($file)) {
+	   return false;
+        }
+}
+```

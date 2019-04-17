@@ -18,3 +18,7 @@
 [2019-04-17 16:58:12] my_logger.INFO: Request made for About Route [] []
 [2019-04-17 16:58:13] my_logger.INFO: Write a log for "hello" route [] []
 [2019-04-17 16:58:14] my_logger.INFO: Write a log the home page [] []
+[2019-04-17 17:21:18] my_logger.INFO: Write a log the home page [] []
+[2019-04-17 17:21:21] my_logger.INFO: Request made for list Route [] []
+[2019-04-17 17:21:23] my_logger.INFO: Request made for About Route [] []
+[2019-04-17 17:21:24] my_logger.INFO: Write a log the home page [] []

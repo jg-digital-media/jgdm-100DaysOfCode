@@ -106,6 +106,12 @@ hello/{name}
 /about
 /list
 
-Now to make them display something meaninful with Views/Templates
+Now to make them display something meaningful with Views/Templates
 
 It works but I'm not sure why [Wed Apr 17 14:23:09 2019] ::1:62064 Invalid request (Unexpected EOF) keeps being returned in the command line.
+
+### Slim Project Management Tips: 
+
+Organise Routes into a single routes.php file rather than 1 route for a single file in a routes directory.
+
+Reminder: Run PHP server on the public folder

@@ -32,31 +32,11 @@ $container['logger'] = function($c) {
     return $logger;
 };
 
-//Create a Get Route - This has a callback function - request, response, array of arguments.
-$app->get('/hello/{name}', function (Request $request, Response $response, array $args) {
-    $name = $args['name'];
-    $response->getBody()->write("Hello, $name");
-    $this->logger->addInfo('Write a log for "hello" route'); // log some text on the route
+//Adding php-view for the view element
+$container['view'] = new \Slim\Views\PhpRenderer('../templates/');
 
-    //get the response
-    return $response;
-});
-
-//Get route - list page
-$app->get('/list', function (Request $request, Response $response) {
-    $this->logger->addInfo("Request made for list Route");
-    $response->getBody()->write("Welcome to the list Route");
-    return $response;
-});
-
-//Get route - list page
-$app->get('/about', function (Request $request, Response $response) {
-    $this->logger->addInfo("Request made for About Route");
-
-    $response->getBody()->write("Welcome to the About Route");
-    return $response;
-});
-
+//Add our routes
+require('routes.php');
 //run the app
 $app->run();
 

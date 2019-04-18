@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 43 of 100. **Last Update:** 17 April 2019
+## **Status:** Day 44 of 100. **Last Update:** 18 April 2019
 
 ___
-**Directories:** | css | four_in_a_row | java | javascript | log | php | python | react | regex | svg | work
+**Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D44:** Thursday 18th April 2019
+
++ **Notes** 
+  + Completed the front end of the Balloon Flight Experience site including hooking it up to Modernizr (the reason I created the project in the first place). It'll be a platform to learn and investigate how the library works
+  + The front end design of the Slim Framework project is also in place now.  Turning my attention back to Twig now.
++ **Technologies Used** - HTML, CSS, PHP
 
 ### **R2D43:** Wednesday 17th April 2019
 + **Notes** 

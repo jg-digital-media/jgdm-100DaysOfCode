@@ -5,6 +5,11 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 44 
+
+
+WIN.   ```<?php if(isset($page_title)) {echo $page_title;} else {echo "Default Title";} ?>```  using code to check for the existence of a variable and display a title based on this variable or a default string
+
 ## Day 43
 
 ### The different routes available in Slim

@@ -14,10 +14,10 @@ body {
   /*solves issue of horizontal scrolllbar on mouseover*/ }
 
 header {
-  background: #d88282;
+  background: #da4848;
   height: 160px;
   color: white;
-  border-bottom: red 6px solid; }
+  border-bottom: #f59f9f 6px solid; }
   header div {
     text-align: center;
     font-size: 24pt;
@@ -27,6 +27,10 @@ header {
     @media (max-width: 1124px) {
       header div {
         text-align: center; } }
+    @media (max-width: 480px) {
+      header div {
+        position: relative;
+        top: 10px; } }
   header img.header-image {
     width: 100px;
     height: 100px;
@@ -105,7 +109,7 @@ section {
       /*media query 740px*/ }
       @media (max-width: 1124px) {
         section section.balloon-content div.video {
-          width: 95%; } }
+          width: 65%; } }
       @media (max-width: 480px) {
         section section.balloon-content div.video {
           width: 75%; } }
@@ -149,9 +153,9 @@ section {
       z-index: 1000; }
 
 footer {
-  background: #d88282;
+  background: #da4848;
   margin-top: 20px;
-  border-top: red 6px solid; }
+  border-top: #f59f9f 6px solid; }
   footer p {
     padding: 20px 0;
     font-weight: bold;

@@ -269,6 +269,42 @@ const vue = new Vue({
             project_type: "JavaScript",
             project_status: "Incomplete",
             status: false,
+        },
+        {
+            project_name: "Slim - Custom PHP Site Complete", 
+            project_type: "PHP",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
+            project_name: "Balloon Flight Experience Site", 
+            project_type: "HTML/CSS",
+            project_status: "Complete",
+            status: true,
+        },
+        {
+            project_name: "Twig Project", 
+            project_type: "HTML/CSS",
+            project_status: "Incomplete",
+            status: true,
+        },
+        {
+            project_name: "Explaining Regex: Single Page App", 
+            project_type: "HTML/CSS",
+            project_status: "Complete",
+            status: true,
+        },
+        {
+            project_name: "New Portfolio Gallery", 
+            project_type: "HTML/CSS",
+            project_status: "Complete",
+            status: true,
+        },
+        {
+            project_name: "Twig_project", 
+            project_type: "HTML/CSS",
+            project_status: "Incomplete",
+            status: false,
         }]
     },
 

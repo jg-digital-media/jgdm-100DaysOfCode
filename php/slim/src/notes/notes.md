@@ -37,7 +37,7 @@ Installed Slim to the src folder with - ```php composer.phar require slim/slim``
 ?>
 ```
 
-## Run server from command line - With PHP’s Webserver
+## Run server from command line - With PHP’s Web server
 
 php -S localhost:8080
 
@@ -54,7 +54,7 @@ The htaccess file makes website available locally with XAMPP.  Further testing r
 + http://localhost:8080/hello/jonnie - PHP Development Server
 + http://localhost/jgdm-100daysofcode/php/slim/src/public/hello/Jonnie - from XAMPP
 
-## Application Dependences - Slim handles them nicely using a DIC (Dependency Injection Container) 
+## Application Dependencies - Slim handles them nicely using a DIC (Dependency Injection Container) 
 
 ```$container = $app->getContainer();```
 

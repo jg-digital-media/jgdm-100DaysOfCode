@@ -1,0 +1,34 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [L]
+
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteRule ^$ projects.jonniegrieve.co.uk/slim/     [L]
+   RewriteRule (.*) projects.jonniegrieve.co.ul/slim/$1 [L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteRule ^$ projects.jonniegrieve.co.uk/slim/src/public     [L]
+   RewriteRule (.*) projects.jonniegrieve.co.ul/slim/src/public$1 [L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteRule ^$ jonniegrieve.co.uk/projects/slim/     [L]
+   RewriteRule (.*) jonniegrieve.co.uk/projects/slim/$1 [L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteRule ^$ jonniegrieve.co.uk/     [L]
+   RewriteRule (.*) jonniegrieve.co.uk/$1 [L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteRule ^$ https://www.jonniegrieve.co.uk/     [L]
+   RewriteRule (.*) https://www.jonniegrieve.co.uk/$1 [L]
+</IfModule>

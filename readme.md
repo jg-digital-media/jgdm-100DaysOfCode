@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 2: Day 44 of 100. **Last Update:** 18th April 2019
++ **Status:** Round 2: Day 45 of 100. **Last Update:** 29th April 2019
 
 ## Directories
   + bin
@@ -30,9 +30,11 @@
   + log
   + php
     + mvc-framework
+    + php_tests
     + slim
     + slimmin
     + twig
+    + twig_projects
   + python
     + madlibs
     + pandas

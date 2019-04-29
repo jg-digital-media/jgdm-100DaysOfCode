@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 44 of 100. **Last Update:** 18 April 2019
+## **Status:** Day 45 of 100. **Last Update:** 29 April 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D45:** Monday 29th April 2019
+
++ **Notes** Having hit a brick wall with my Slim and Twig projects in PHP, I turned my attention to PHP Unit Testing. Something I really need to get into the habit of doing but never quite managed.
+
++ **Technologies Used** - HTML, CSS, PHP
 
 ### **R2D44:** Thursday 18th April 2019
 

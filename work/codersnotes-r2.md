@@ -5,6 +5,51 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 45
+
+I had hoped that after a a break I'd be able to work out the problem of deploying a Skim project to a specific directory on my web server.  But it doesn't work to the instructor of the Slim Documentation.  Why it won't work with my domain name in the .htaccess file I just don't know.
+
+But it does work partially with this code used in the file
+
+```
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . index.php [L]
+```
+
+When I say "partially", only the home page works on my local server. 
+
+It works completely when using the PHP Development server. ``` php -S localhost:8080```
+
+So for now I'm going to park this and move on.
+
+### PHP Unit Testing
+
+```php
+class FirstTest extends PHPUnit\Framework\TestCase {
+
+    function firstAssertion() {
+        $this->assertTrue(false);
+    }
+
+    //this function will fail
+    /*function testSecondAssertion() {
+        $this->assertTrue(false);
+    }*/
+
+    /** @test */
+    function ThirdAssertion() {
+        $this->assertTrue(true);
+    }
+
+    function testFourthFunction() {
+        $this->assertTrue(true);
+    }
+}
+
+```
+
 ## Day 44 
 
 
@@ -82,7 +127,7 @@ Then finally not forgetting to run the app with ```$app->run()```
     $app->run()
 ```
 
-```php -S localhost:8080```
+```php -S localhost:8080``` - Start PHP Development Server
 
 The htaccess file makes website available locally with XAMPP.  Further testing required for other local servers.
 + http://localhost:8080/hello/jonnie - PHP Development Server

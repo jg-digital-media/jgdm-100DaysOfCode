@@ -45,9 +45,7 @@
                     
                     <a href="https://projects.jonniegrieve.co.uk/fyp" target="blank"><img src="img/featured/fyp_running.png" class="site-images" alt="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." title="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." tabindex="" /></a>
                     
-                    <a href="https://projects.jonniegrieve.co.uk/esp" target="blank"><img src="img/featured/esp.png" class="site-images" alt="Legacy website for the fictional Endangered Species Project" title="Legacy website for the fictional Endangered Species Project" tabindex="" /></a>
-                    
-                    <a href="https://projects.jonniegrieve.co.uk/gamesyard" target="blank"><img src="img/featured/games_yard.png" class="site-images" alt="First created in 2004, this website was created to be an informational site for playing various popular games from Card games to Pool" title="First created in 2004, this website was created to be an informational site for playing various popular games from Card games to Pool" tabindex="" /></a>
+                    <a href="https://projects.jonniegrieve.co.uk/esp" target="blank"><img src="img/featured/esp.png" class="site-images" alt="Legacy website for the fictional Endangered Species Project" title="Legacy website for the fictional Endangered Species Project" tabindex="" /></a> 
                     
                     <a href="https://projects.jonniegrieve.co.uk/castle-eden-css/" target="blank"><img src="img/featured/cs_world.png" class="site-images" alt="Castle Eden World Example site built in pure CSS" title="Castle Eden World Example site built in pure CSS" tabindex="" /></a>
                     
@@ -73,9 +71,21 @@
                     
                     <a href="https://projects.jonniegrieve.co.uk/portfolio-gallery/" target="blank"><img src="img/featured/portfolio-gallery.png" class="site-images" alt="Using HTML5 and CSS to create various versions of portfolio images" title="Using HTML5 and CSS to create various versions of portfolio images" tabindex="" /></a>
                     
-                    <a href="" target="blank"><img src="img/featured/interactive_js.png" class="site-images" alt="" title="" tabindex="" /></a>
+                    <a href="https://projects.jonniegrieve.co.uk/gamesyard" target="blank"><img src="img/featured/games_yard.png" class="site-images" alt="First created in 2004, this website was created to be an informational site for playing various popular games from Card games to Pool" title="First created in 2004, this website was created to be an informational site for playing various popular games from Card games to Pool" tabindex="" /></a>
+                    
+                    <a href="https://projects.jonniegrieve.co.uk/wep/" target="blank"><img src="img/featured/interactive_js.png" class="site-images" alt="Example Legacy Project: Purporting to be the number 1 students reference guide to making a portfolio of work" title="Example Legacy Project: Purporting to be the number 1 students reference guide to making a portfolio of work" tabindex="" /></a>
+                    
+                    <a href="https://projects.jonniegrieve.co.uk/practice/" target="blank"><img src="img/featured/interactive_js.png" class="site-images" alt="Web Design practice site - Showcasing different web design layout techniques and all about them" title="Web Design practice site - Showcasing different web design layout techniques and all about them" tabindex="" /></a>
+                    
+                    <a href="https://projects.jonniegrieve.co.uk/four_in_a_row/" target="blank"><img src="img/featured/interactive_js.png" class="site-images" alt="Four in a Row interactive game using Object Oriented JavaScript programming" title="Four in a Row interactive game using Object Oriented JavaScript programming" tabindex="" /></a>
                     
                     <a href="" target="blank"><img src="img/featured/interactive_js.png" class="site-images" alt="" title="" tabindex="" /></a>
+
+                    FEATURED PROJECT OF THE DAY: Example Legacy project... Purporting to be the number 1 students reference guide to making a portfolio of work https://projects.jonniegrieve.co.uk/wep/
+
+                    FEATURED PROJECT OF THE DAY:  Web Design practice site https://projects.jonniegrieve.co.uk/practice/
+
+                    FEATURED PROJECT OF THE DAY:  Four in a Row interactive game using Object Oriented JavaScript programming https://projects.jonniegrieve.co.uk/wep/
     
                  </div>
    

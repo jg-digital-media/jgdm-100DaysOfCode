@@ -5,6 +5,34 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 46
+
+Got a handle on how to run unit tests when set up. But I'm not sure yet on how to set them up. What links a Unit test to production code? 
+
+### Running Tests
+
++ simplest command to run a test - ```vendor/bin/phpunit tests```
+
++ run a specific file in a given directory - ```vendor/bin/phpunit tests/EmailTest.php```
++ run all tests in the given directory that end with Test.php - ```vendor/bin/phpunit tests```
++ using testdox - ```vendor/bin/phpunit --textdox tests```
+
+### Composer.json file 
+
+```javascript
+{   
+    
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+},
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
+```
+
 ## Day 45
 
 I had hoped that after a a break I'd be able to work out the problem of deploying a Skim project to a specific directory on my web server.  But it doesn't work to the instructor of the Slim Documentation.  Why it won't work with my domain name in the .htaccess file I just don't know.

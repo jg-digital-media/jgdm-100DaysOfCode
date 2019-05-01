@@ -1,10 +1,14 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 46 of 100. **Last Update:** 30 April 2019
+## **Status:** Day 47 of 100. **Last Update:** 1 May 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D47:** Wednesday 1st May 2019
++ **Notes** Today I learned TDD. Test Driven Development.  I never really understood what that was all about until now. I've been applying this methodology to PHP today.
++ **Technologies Used** - PHP
 
 ### **R2D46:** Tuesday 30th April 2019
 + **Notes** Got the basics of Unit Testing nailed down now. How to run unit tests when set up. But I'm not sure yet on how to set them up. What links a Unit test to production code? 

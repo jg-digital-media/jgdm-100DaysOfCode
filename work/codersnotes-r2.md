@@ -5,6 +5,20 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 47
+
+
+```printerClass="Codedungeon\PHPUnitPrettyResultPrinter\Printer"``` - The printer class for using CodeDungeons Unit Test Printer is not working so I've removed it for now.  It's not critical to use and run unit testing but it seems to be incompatible no matter what I try :)
+
+### The Process of Test Driven Development
++ Write Test as if the code was there and was working.
+   + Write Descriptive function name for each test
+   + Write an assertion - something to compare as true for a pass or false for a fail 
+   + All any assertions on the ```this``` keyword
++ Write production code for each test
++ Run the command ```composer update```.
++ Repeat the process.
+
 ## Day 46
 
 Got a handle on how to run unit tests when set up. But I'm not sure yet on how to set them up. What links a Unit test to production code? 

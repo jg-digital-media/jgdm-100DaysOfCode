@@ -1,7 +1,6 @@
 <phpunit
     bootstrap="vendor/autoload.php"
-    colors="true"
-    printerClass="Codedungeon\PHPUnitPrettyResultPrinter\Printer">    
+    colors="true">    
 
     <logging>
         <log type="testdox-html" target="tests/log/testdox.html"/>

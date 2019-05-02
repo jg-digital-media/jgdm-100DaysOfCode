@@ -5,6 +5,20 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 48
+
+$this refers to the current object in this case PigLatin object which is a class
+
+  ```if(in_array($firstTwoLetters, $this->digraphs)) {```
+
+To reference the array in the condition do not use the $ character. This means the tests will not pass as the objects cannot be found in the TestCase file.
+
+So, I learned yesterday about what TDD is.  Today was about learning how to apply TDD and how it can diagnose bugs in code. 
+
+```ematicshay``` not ```hematiscay``` for the new word.  It kept coming back at ematischay, which I thought was odd.  I didn't understand why it should be so different baring in mind the code in the class was wrapped in condition blocks.  
+
+It turns out what's happening is the code is being tested in order so tests for digraphs are being run first rather than trigraphs. 
+
 ## Day 47
 
 

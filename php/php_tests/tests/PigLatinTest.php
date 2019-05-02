@@ -37,4 +37,19 @@ class PigLatinTest extends TestCase {
             "the conversion did not work"
         );
     }
+        /** @test */
+    function convertTrigraphWordToPigLatin() {
+        $word = "schematic";
+        $expectedResult = "ematicschay";
+
+        $pigLatin = new PigLatin();
+        $result = $pigLatin->convert($word);
+
+        //make an assertion
+        $this->assertEquals(
+            $expectedResult,
+            $result,
+            "the conversion did not work"
+        );
+    }
 }

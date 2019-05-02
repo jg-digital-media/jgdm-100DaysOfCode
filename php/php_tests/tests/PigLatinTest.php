@@ -21,4 +21,20 @@ class PigLatinTest extends TestCase {
             "the conversion did not work"
         );
     }
+
+    /** @test */
+    function convertDiagraphWordToPigLatin() {
+        $word = "treehouse";
+        $expectedResult = "eehousetray";
+
+        $pigLatin = new PigLatin();
+        $result = $pigLatin->convert($word);
+
+        //make an assertion
+        $this->assertEquals(
+            $expectedResult,
+            $result,
+            "the conversion did not work"
+        );
+    }
 }

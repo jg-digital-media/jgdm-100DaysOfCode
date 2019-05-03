@@ -14,19 +14,16 @@ class PigLatin {
 
         if(in_array($firstThreeLetters, $this->trigraphs)) {
 
-            $newWord = substr($word, 3);
-            $newWord .= $firstThreeLetters . 'ay';
-
-        } else if (in_array($firstTwoLetters, $this->digraphs)) {
-
-            $newWord = substr($word, 2);
-            $newWord .= $firstTwoLetters . 'ay';
-        } else {
-            $newWord = substr($word, 1);
-            $newWord .= $firstLetter . 'ay';
+            return $newWord = substr($word, 3) . $firstThreeLetters . 'ay';
 
         }
-        return $newWord;
+        
+        if (in_array($firstTwoLetters, $this->digraphs)) {
+
+            return $newWord = substr($word, 2) . $firstTwoLetters . 'ay';
+        } 
+        
+        return $newWord = substr($word, 1) . $firstLetter . 'ay';
     }
 
 }

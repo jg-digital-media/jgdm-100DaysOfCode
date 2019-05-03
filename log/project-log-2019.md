@@ -1,10 +1,14 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 48 of 100. **Last Update:** 2 May 2019
+## **Status:** Day 49 of 100. **Last Update:** 3 May 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D49** Friday 3rd May 2019
++ **Notes** - I have now written 4 unit Tests in PHP. I'm not an expert on how it all works by means but I've been able to use TDD and the feedback it provides to solve problems, write code and pass tests. 
++ **Technologies Used** - PHP
 
 ### **R2D48:** Thursday 2nd May 2019
 + **Notes** - I learned yesterday about what TDD is. Today was about learning how to apply TDD and how it can diagnose bugs in code. 

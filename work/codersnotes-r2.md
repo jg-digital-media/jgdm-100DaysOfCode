@@ -5,6 +5,23 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 49
+
+### TTD Notes
+
+Each method that you test leaves your code better and more documented than it was before. Unit tests help to verify that a refactor does not add break changes to an application.
+
+
+You don't need to take an all or nothing approach.
+
+One test is better than no test.
+
+You can add additional tests while you're fixing bugs or adding new features.
+
+Early Return: - As soon as a condition is met, return the results.
+
+Each method you test leaves your code better and more documented then it was before.
+
 ## Day 48
 
 $this refers to the current object in this case PigLatin object which is a class

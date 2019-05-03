@@ -37,7 +37,8 @@ class PigLatinTest extends TestCase {
             "the conversion did not work"
         );
     }
-        /** @test */
+
+    /** @test */
     function convertTrigraphWordToPigLatin() {
         $word = "schematic";
         $expectedResult = "ematicschay";
@@ -50,6 +51,22 @@ class PigLatinTest extends TestCase {
             $expectedResult,
             $result,
             "the conversion did not work"
+        );
+    }
+
+    /** @test */
+    function convertWordsStartingWithAVowel() {
+        $word = "apple";
+        $expectedResult = "appleay";        
+
+        $pigLatin = new PigLatin();
+        $result = $pigLatin->convert($word);
+
+        //make an assertion
+        $this->assertEquals(
+            $expectedResult,
+            $result,
+            "The vowel word conversion did not work"
         );
     }
 }

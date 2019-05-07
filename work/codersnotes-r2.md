@@ -5,6 +5,30 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 50
+
+Composer install is not currently working.
+
+phpunit requires PHP version 7.2
+
+Tried installing.. it seems to have worked but isn't overriding the previous installation.
+
+```php
+$ php -v
+PHP 7.1.1 (cli) (built: Jan 18 2017 18:51:14) ( ZTS MSVC14 (Visual C++ 2015) x86 )
+Copyright (c) 1997-2017 The PHP Group
+Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
+```
+
+```php
+$ where php
+C:\xamp\php\php.exe
+C:\PHP7\php.exe
+```
+Maybe it's time to remove XAMP, where my current version of PHP lives and do a clean install preferably with the latest version of PHP.
+
+```vendor/bin/phpunit  testsDirectory```
+
 ## Day 49
 
 ### TTD Notes

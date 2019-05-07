@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 49 of 100. **Last Update:** 3 May 2019
+## **Status:** Day 50 of 100. **Last Update:** 7 May 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D50** Tuesday 7th May 2019
+
++ **Notes** -  Set up a new project to test using PHPUnit and CodeDungeons Unit testing printer. Looks like I'll need to first spend time to make sure PHP 7.2 is set up on my system.
+
+* **Technologies Used** - PHP
 
 ### **R2D49** Friday 3rd May 2019
 + **Notes** - I have now written 4 unit Tests in PHP. I'm not an expert on how it all works by means but I've been able to use TDD and the feedback it provides to solve problems, write code and pass tests. 

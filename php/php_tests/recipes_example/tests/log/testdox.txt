@@ -1,3 +1,11 @@
+FullRecipe
+ [x] Has title
+ [x] Has all ingredients
+ [x] Has all instructions
+ [x] Has yield
+ [x] Has source
+ [x] Has tags
+
 Recipes
  [x] Can be created with empty title
 

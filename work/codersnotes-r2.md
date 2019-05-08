@@ -5,6 +5,35 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 51
+
+So proud of me today.
+
+Did xampp reinstallation and all the research i needed and solved the problem.
+
+https://stackoverflow.com/questions/35249620/the-openssl-extension-is-required-for-ssl-tls-protection
+
+https://stackoverflow.com/questions/38818464/configuration-does-not-allow-connection-to-http-packagist-org-packages-json
+
+You can enable it from your php.ini file:
+
+extension=php_openssl.dll
+
+ vendor/bin/phpunit tests/
+
+PHPUnit 8.1.3 by Sebastian Bergmann and contributors.
+
+
+ ==> RecipesTest                ✔  
+
+Time: 2.87 seconds, Memory: 4.00 MB
+
+OK (1 test, 2 assertions)
+
+https://xdebug.org/docs/install
+
+
+
 ## Day 50
 
 Composer install is not currently working.

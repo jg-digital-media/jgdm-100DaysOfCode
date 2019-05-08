@@ -9,13 +9,11 @@
 
 So proud of me today.
 
-Did xampp reinstallation and all the research i needed and solved the problem.
+Did a XAMPP reinstallation and all the research i needed and solved the problem.
 
 https://stackoverflow.com/questions/35249620/the-openssl-extension-is-required-for-ssl-tls-protection
 
 https://stackoverflow.com/questions/38818464/configuration-does-not-allow-connection-to-http-packagist-org-packages-json
-
-You can enable it from your php.ini file:
 
 extension=php_openssl.dll
 

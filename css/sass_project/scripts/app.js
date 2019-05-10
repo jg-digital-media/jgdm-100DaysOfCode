@@ -1,3 +1,5 @@
 $(document).ready(function() {
-    $('.carousel').slick();
+    $('.js-carousel').slick({
+        arrows: false,
+    });
 });

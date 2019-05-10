@@ -15,5 +15,20 @@ return [
             'path' => isset($_ENV['docker']) ? 'php://stdout' : __DIR__ . '/../logs/app.log',
             'level' => \Monolog\Logger::DEBUG,
         ],
+
+        // API
+        'api' => [
+            'version' => 'v1',
+            'base_url' => 'https://localhost',
+        ],
+
+        // Database
+
+        'db' => [
+            'dsn' => 'sqlite',
+            'database' => __DIR__ . '/course_reviews.db'
+        ],
+
+
     ],
 ];

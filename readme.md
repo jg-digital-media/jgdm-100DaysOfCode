@@ -58,6 +58,19 @@
     + **work** - Coders notes directory - interesting or helpful notes and tops will go in this folder.
     + Other folders are organised by language, library or platform name.
 
+## Slim Projects 
+
+```html
+<ul>
+    <li><strong>mvc-framework</strong> - Treehouse Example - Ralph Waldo Emerson. </li>
+    <li><strong>php_test</strong> -  Getting into practice with Unit testing for PHP.</li>
+    <li><strong>slim</strong> - Custom Project - A Website built with Slim Routing. </li>
+    <li><strong>slimmin</strong> - Single page App with Slim.</li>
+    <li><strong>twig</strong> - Custom Project with the Twig Template Engine in Slim.</li> 
+    <li><strong>twig_project</strong> - Currently empty - A new project in Twig.</li>
+</ul>
+```
+
 ## Description
 
 I rejigged my blog to restart my 100DaysofCode challenge. And if you've been following along I started today (**14th February 2019**) Round 2 of the #100DaysOfCode challenge.  

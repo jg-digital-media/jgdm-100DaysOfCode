@@ -6,6 +6,10 @@ ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+### **R2D52** Thursday 9th May 2019
++ **Notes** - Finished off Unit Testing exercise
++ **Technologies Used** - PHP 
+
 ### **R2D51** Wednesday 8th May 2019
 + **Notes** - Reinstalled PHP and my local XAMPP server as a result I'm finally up to speed on my Unit Testing.  A win for perseverance, research and problem solving!  
 + **Technologies Used** - PHP

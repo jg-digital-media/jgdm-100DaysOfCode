@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 51 of 100. **Last Update:** 8 May 2019
+## **Status:** Day 53 of 100. **Last Update:** 10 May 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D53** Friday 10th May 2019
++ **Notes**
+  + Looking into REST API's now with PHP and SLIM.  It was tricky to set up with the need to verify the sqlite database was functional but looks like I'm through the first hurdle.
++ **Technologies Used** - PHP, HTML5, CSS
 
 ### **R2D52** Thursday 9th May 2019
 + **Notes** - Finished off Unit Testing exercise

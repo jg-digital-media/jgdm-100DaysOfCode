@@ -5,6 +5,24 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 53
+
+When creating ````.db```` files on the command line make sure database tables are populated  do not forget the semi colon.
+
+Verify with a program like DB Browser for SQLite.
+
+For now, I've set the base URL for the API in ````settings.php```` to the following
+  
+  ```php
+  <?php
+  'api' => [
+            'version' => 'v1',
+            'base_url' => 'https://localhost',
+        ],
+```
+
+This doesn't seem to be having any negative effects at the moment but it may need changing later.
+
 ## Day 51
 
 So proud of me today.

@@ -5,6 +5,17 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 54
+
+Big problems setting up this Course Review App with a REST Application and the Slim Framework.
+
++ Uncaught Error: Function name must be a string in C:\xampp\htdocs\jgdm-100daysofcode\php\php_rest_api\public\index.php:22 Stack trace: #0 {main} thrown in C:\xampp\htdocs\jgdm-100daysofcode\php\php_rest_api\public\index.php on line 22
+
++ Slim Application Error:  Cannot find a particular class
+
+It's one or the other.  The best thing I can do for now is try and build up the rest of the methods so I can move on with the app until I can get this sorted. When successful, the App will as it stands return JSON data only which proves data has been sucessfully accessed.  A lot to get through.
+
+
 ## Day 53
 
 When creating ````.db```` files on the command line make sure database tables are populated  do not forget the semi colon.

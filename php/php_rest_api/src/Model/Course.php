@@ -18,13 +18,29 @@ class Course {
         $statement->execute();
         return $statement->fetchAll();
     }
+
     public function getCourse($course_id) {
         $statement = $this->database->prepare(
 	        'SELECT * FROM courses WHERE id=: id'
         );
-        $statement->bind('id', $course_id);
+        $statement->bindParam('id', $course_id);
         $statement->execute();
         return $statement->fetchAll();
     }
+
+    public function getReview() {
+
+    }
+    public function createReview() {
+
+    }
+    public function updateReview() {
+
+    }
+    public function deleteReview() {
+
+    }
+
+    public function getReviewsByCourseId() {}
 }
 }

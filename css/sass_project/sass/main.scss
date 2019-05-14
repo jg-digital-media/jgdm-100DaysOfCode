@@ -1,10 +1,23 @@
+//Config
+
+//colours
+$main-bg: yellowgreen;
+$sec-bg: green;
+$sec-col: white;
+$border-bg: black;
+
+//font
+$font-secondary: arial;
+$font-primary: verdana;
+
+
 * {
     padding: 0;
     margin: 0;
 }
 
 body {
-    background: yellowgreen;
+    background: $main-bg;
 }
 
 header {
@@ -13,22 +26,26 @@ header {
     height: 90px;
     /* display: flex; */
     text-align: center;
+    color: $sec-col;
     /* align-content: center; */
     /* align-self: center; */
     /* flex-basis: auto; */
-    margin: 10px auto;
+    margin-bottom: 10px;
     font-size: large;
+    background: $sec-bg;
 }
 
-#main {
+#container {
     width: 1483px;
+    display: block;
+    margin: 0 auto;
 }
 
 .js-carousel {
     width: 100%;
     display: block;
     margin: 0 auto;
-    border: solid black 2px;
+    border: solid $border-bg 2px;
 }
 
 .js-carousel img {
@@ -38,16 +55,18 @@ header {
 
 /*Size of slides*/
 .slick-slide img {
-    width: 50% !important;
-    margin: 0 auto !important;
+    width: 40% !important;
+    margin: 50px auto !important;
     display: block !important;
+    cursor: pointer;
 }
 
 footer {
     text-align: center;
+    background: $sec-bg;
 }
 
-/*Switch off prev and next buttond*/
+/*Switch off prev and next buttons*/
 
 button.slick-prev.slick-arrow,
 button.slick-next.slick-arrow {

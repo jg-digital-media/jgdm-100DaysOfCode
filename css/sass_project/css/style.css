@@ -10,14 +10,18 @@ header {
   height: 90px;
   /* display: flex; */
   text-align: center;
+  color: white;
   /* align-content: center; */
   /* align-self: center; */
   /* flex-basis: auto; */
-  margin: 10px auto;
-  font-size: large; }
+  margin-bottom: 10px;
+  font-size: large;
+  background: green; }
 
-#main {
-  width: 1483px; }
+#container {
+  width: 1483px;
+  display: block;
+  margin: 0 auto; }
 
 .js-carousel {
   width: 100%;
@@ -31,13 +35,15 @@ header {
 
 /*Size of slides*/
 .slick-slide img {
-  width: 50% !important;
-  margin: 0 auto !important;
-  display: block !important; }
+  width: 40% !important;
+  margin: 50px auto !important;
+  display: block !important;
+  cursor: pointer; }
 
 footer {
-  text-align: center; }
+  text-align: center;
+  background: green; }
 
-/*Switch off prev and next buttond*/
+/*Switch off prev and next buttons*/
 
 /*# sourceMappingURL=style.css.map */

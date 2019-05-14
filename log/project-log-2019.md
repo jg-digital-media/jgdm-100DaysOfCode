@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 54 of 100. **Last Update:** 13 May 2019
+## **Status:** Day 55 of 100. **Last Update:** 14 May 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D55:** Tuesday 14th May 2019
++ **Notes**
+  + Short of time today so I spent some time converting some colour values in CSS to Sass Variables and some other minor changes to a small project
++ **Technologies Used** - HTML5, CSS
 
 ### **R2D54:** Monday 13th May 2019
 + **Notes**

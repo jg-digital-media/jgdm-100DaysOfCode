@@ -5,6 +5,60 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 56
+
++ define a protected ```$database``` property that refers to database connection
++ declare a method
++ assign a SQL statement to a variable within that method
++ bind a table column to a parameter of the method
++ execute the SQL statement
++ fetch the statement in a function return
+
+```php
+//get a one course by a specific ID  - READ
+    public function getCourse($course_id) {
+        $statement = $this->database->prepare(
+	        'SELECT * FROM courses WHERE id=: id'
+        );
+        $statement->bindParam('id', $course_id);
+        $statement->execute();
+        return $statement->fetch();
+    }
+    
+    //use INSERT INTO to add a new course to the table. - READ
+    public function createCourse($data) {
+        $statement = $this->database->prepare(
+	        'INSERT INTO courses(title, url) VALUES (:title, :url)'
+        );
+        $statement->bindParam('title', $data['title']);
+        $statement->bindParam('url', $data['url']);
+        $statement->execute();
+        return $this->getCourse($this->database->lastInsertId());
+    }
+    
+    //UPDATE a course by a specific id - UPDATE
+    public function updateCourse($data) {
+        $statement = $this->database->prepare(
+	        'UPDATE courses SET title=:title, url=:url) WHERE id:= id'
+        );
+        $statement->bindParam('title', $data['title']);
+        $statement->bindParam('url', $data['url']);
+        $statement->bindParam('id', $data['course_id']);
+        $statement->execute();
+        return $this->getCourse($data['course_id']);
+    }
+    
+    //DELETE a specific course from table. - DELETE
+    public function deleteCourse($course_id) {
+        $statement = $this->database->prepare(
+	        'DELETE FROM courses WHERE id:= id'
+        );
+        $statement->bindParam('id', $data['course_id']);
+        $statement->execute();
+        return $this->getCourse($data['course_id']);
+    }
+```
+
 ## Day 54
 
 Big problems setting up this Course Review App with a REST Application and the Slim Framework.

@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 55 of 100. **Last Update:** 14 May 2019
+## **Status:** Day 56 of 100. **Last Update:** 14 May 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D56:** Wednesday 15th May 2019
++ **Notes**
+  + After looking around I managed to fix the issue I encountered on Tuesday. Serves as a useful refresher on how to code CRUD operations with PHP and SQLite3.
++ **Technologies Used** - PHP, SQL
 
 ### **R2D55:** Tuesday 14th May 2019
 + **Notes**

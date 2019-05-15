@@ -43,4 +43,3 @@ class Course {
 
     public function getReviewsByCourseId() {}
 }
-}

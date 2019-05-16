@@ -5,6 +5,41 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 57
+
+API endpoints - Endpoints are specific locations where we will retrieve, create, and modify, and even delete data defined in the model
+
+### on the home route
+
+```php
+$endpoints = [
+        'all courses' => $this->api['api_url'].'/courses',
+        'single course' => $this->api['api_url'].'/courses/{course_id}',
+        'reviews by course' => $this->api['api_url'].'/courses/{course_id}/reviews',
+        'single review' => $this->api['api_url'].'/courses/{course_id}/reviews/{review_id}',
+        'help' => $this->api['base_url'].'/',
+    ];
+
+    $result = [
+        'endpoints' => $endpoints,
+        'version' => $this->api['version'],
+        'timestamp' => time(),
+    ];
+```
+
+### returned with JSON
+
+```php
+
+
+$app->get('/', function (Request $request, Response $response, array $args) {
+
+    //code
+
+    return $response->withJson($result, 200, 
+JSON_PRETTY_PRINT);
+});
+```
 ## Day 56
 
 + define a protected ```$database``` property that refers to database connection

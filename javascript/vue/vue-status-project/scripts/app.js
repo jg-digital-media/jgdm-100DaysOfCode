@@ -25,12 +25,6 @@ const vue = new Vue({
             status: true,
         },
         {
-            project_name: "Infographics",
-            project_type: "Miscelleanous",
-            project_status: "Incomplete",
-            status: false,
-        },
-        {
             project_name: "Java",
             project_type: "Java",
             project_status: "Incomplete",
@@ -73,13 +67,7 @@ const vue = new Vue({
             status: true,
         },
         {
-            project_name: "Dynamic Site",
-            project_type: "JavaScript",
-            project_status: "Incomplete",
-            status: false,
-        },
-        {
-            project_name: "Final Year Project",
+            project_name: "Final Year Project - fyp",
             project_type: "HTML/CSS",
             project_status: "Complete",
             status: true,
@@ -123,8 +111,8 @@ const vue = new Vue({
         {
             project_name: "myPortfolio - Web Portfolio Project",
             project_type: "HTML/CSS",
-            project_status: "Incomplete",
-            status: false,
+            project_status: "Complete",
+            status: true,
         },
         {
             project_name: "Endangered Species Project",
@@ -271,7 +259,7 @@ const vue = new Vue({
             status: false,
         },
         {
-            project_name: "Slim - Custom PHP Site Complete", 
+            project_name: "Slim - Custom PHP Site", 
             project_type: "PHP",
             project_status: "Incomplete",
             status: false,
@@ -286,7 +274,7 @@ const vue = new Vue({
             project_name: "Twig Project", 
             project_type: "HTML/CSS",
             project_status: "Incomplete",
-            status: true,
+            status: false,
         },
         {
             project_name: "Explaining Regex: Single Page App", 

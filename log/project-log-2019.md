@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 57 of 100. **Last Update:** 16 May 2019
+## **Status:** Day 58 of 100. **Last Update:** 17 May 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D58:** Friday 17th May 2019
++ **Notes**
+  + I've been having so much fun today finally getting my hands dirty with Sonic Pi. Today I abandoned any other plans I might have had for today and played around with Sonic Pi.  It has its own text editor but it seems to run on Ruby
+  + I would highly recommend you try this if you are in any way interested in digital music creation or performance.  I wrote about this here in my blog. 
++ **Technologies Used** - Ruby - Sonic Pi
 
 ### **R2D57:** Thursday 16th May 2019
 + **Notes**

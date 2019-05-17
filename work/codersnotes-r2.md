@@ -5,6 +5,40 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 58
+
+I've been having so much fun today. Finally getting my hands dirty with Sonic Pi.  Digital Music through code.  https://sonic-pi.net
+
+Here's an example
+
+```ruby
+# Welcome to Sonic Pi v3.1
+use_synth :blade
+
+# Lily's Theme: Harry Potter*/
+
+define :bar1 do
+  play :d3,  amp: 1
+  sleep 0.2
+  play :d4
+  sleep 1
+  play :a4
+  sleep 1
+  play :g4
+  sleep 0.6
+  play :f4
+  sleep 0.6
+  play :e4
+  sleep 0.5
+  play :d4
+  sleep 0.5
+  play :d4
+end
+
+bar1
+
+```
+
 ## Day 57
 
 API endpoints - Endpoints are specific locations where we will retrieve, create, and modify, and even delete data defined in the model

@@ -141,8 +141,8 @@ const vue = new Vue({
         {
             project_name: "Sass Project",
             project_type: "HTML/CSS",
-            project_status: "Incomplete",
-            status: false,
+            project_status: "Complete",
+            status: true,
         },
         {
             project_name: "Projects in Vue.js",
@@ -205,6 +205,12 @@ const vue = new Vue({
             status: false,
         },
         {
+            project_name: "React Fetch API", 
+            project_type: "React.js",
+            project_status: "Incomplete",
+            status: false,
+        },
+        {
             project_name: "Selenium Web Driver", 
             project_type: "JavaScript",
             project_status: "Complete",
@@ -233,12 +239,6 @@ const vue = new Vue({
             project_type: "PHP",
             project_status: "Complete",
             status: true,
-        },
-        {
-            project_name: "React Fetch API", 
-            project_type: "React.js",
-            project_status: "Incomplete",
-            status: false,
         },
         {
             project_name: "Transition Gallery Example", 
@@ -287,12 +287,6 @@ const vue = new Vue({
             project_type: "HTML/CSS",
             project_status: "Complete",
             status: true,
-        },
-        {
-            project_name: "Twig_project", 
-            project_type: "HTML/CSS",
-            project_status: "Incomplete",
-            status: false,
         }]
     },
 

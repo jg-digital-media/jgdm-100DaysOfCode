@@ -6,9 +6,16 @@ $sec-bg: green;
 $sec-col: white;
 $border-bg: black;
 
-//font
+//fonts
+$font-primary: 'Oxygen', sans-serif;
 $font-secondary: arial;
-$font-primary: verdana;
+
+//breakpoints
+$lg: 1480px;
+$md: 780px;
+$sm: 640px;
+
+//utilities
 
 
 * {
@@ -18,6 +25,7 @@ $font-primary: verdana;
 
 body {
     background: $main-bg;
+    font-family: $font-primary;
 }
 
 header {
@@ -25,7 +33,6 @@ header {
     display: block;
     height: 90px;
     /* display: flex; */
-    text-align: center;
     color: $sec-col;
     /* align-content: center; */
     /* align-self: center; */
@@ -33,12 +40,33 @@ header {
     margin-bottom: 10px;
     font-size: large;
     background: $sec-bg;
+
+    p {        
+        text-align: center;
+        display: block;
+        position: relative;
+        top: 20px;
+        font-weight: bold;
+    }
 }
 
 #container {
     width: 1483px;
     display: block;
     margin: 0 auto;
+
+    @media (max-width: 1480px) {
+        width: 100%;
+    }
+}
+
+aside {
+    margin: 20px 0;
+    font-weight: bold;
+    text-align: center;
+    p {
+        font-weight: bold;
+    }
 }
 
 .js-carousel {
@@ -46,11 +74,15 @@ header {
     display: block;
     margin: 0 auto;
     border: solid $border-bg 2px;
+    @media (max-width: 640px) {
+        border: none;
+    }
 }
 
 .js-carousel img {
     width: 70%;
     margin: 0 auto;
+
 }
 
 /*Size of slides*/
@@ -59,11 +91,20 @@ header {
     margin: 50px auto !important;
     display: block !important;
     cursor: pointer;
+    
+    @media (max-width: 1480px) {
+        width: 70% !important;
+    }
+    
+    @media (max-width: 640px) {
+        width: 95% !important;
+        border: solid 3px black;
+    }
 }
 
 footer {
     text-align: center;
-    background: $sec-bg;
+    //background: $sec-bg;
 }
 
 /*Switch off prev and next buttons*/

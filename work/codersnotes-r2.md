@@ -5,6 +5,41 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 59
+
+```ruby
+
+# Sonic Pi play methods
+
+play :e4
+sleep 1
+play :b3
+sleep 0.5
+play :c4
+sleep 0.5
+play :d4
+sleep 1
+
+play_pattern [:e4, :b3, :c4]
+play_pattern_timed [:e4, :b3, :c4, :d4, :c4, :b3],
+  [1, 0.5, 0.5]
+
+```
+
+```php
+
+# Nested Routes with group routes - group()
+
+$app->group('/api/v1/courses', function() use($app) {
+    // code 
+
+    $app->group('/{course_id}/reviews', function() use($app) {
+        // code 
+    }
+}
+
+```
+
 ## Day 58
 
 I've been having so much fun today. Finally getting my hands dirty with Sonic Pi.  Digital Music through code.  https://sonic-pi.net

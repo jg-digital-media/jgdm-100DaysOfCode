@@ -24,7 +24,28 @@ $app->get('/', function (Request $request, Response $response, array $args) {
 JSON_PRETTY_PRINT);
 });
 
-$app->get('/courses', function (Request $request, Response $response, array $args) {
-    $result = $this->course->getCourses();
-    return $response->withJson($result, 200, JSON_PRETTY_PRINT);
+
+
+$app->group('/api/v1/courses', function() use($app) {
+    $app->get('', function (Request $request, Response $response, array $args) {
+        $result = $this->course->getCourses();
+        return $response->withJson($result, 200, JSON_PRETTY_PRINT);
+    });
+    $app->get('/{course_id}', function (Request $request, Response $response, array $args) {
+        $result = $this->course->getCourse($args['course_id']);
+        return $response->withJson($result, 200, JSON_PRETTY_PRINT);
+    });
+
+    $app->group('/{course_id}/reviews', function() use($app) {
+        $app->get('/', function (Request $request, Response $response, array $args) {
+            $result = $this->review->getReviewsByCourseId($args['course_id']);
+            return $response->withJson($result, 200, JSON_PRETTY_PRINT);
+        });
+
+        $app->get('/{id}', function (Request $request, Response $response, array $args) {
+            $result = $this->review->getReview($args['id']);
+            return $response->withJson($result, 200, JSON_PRETTY_PRINT);
+        });  
+
+    });
 });

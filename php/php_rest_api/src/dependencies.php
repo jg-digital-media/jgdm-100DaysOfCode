@@ -36,3 +36,7 @@ $container['db'] = function($c) {
 $container['course'] = function($c) {
     return new App\Model\Course($c->get('db'));
 };
+
+$container['review'] = function($c) {
+    return new App\Model\Review($c->get('db'));
+};

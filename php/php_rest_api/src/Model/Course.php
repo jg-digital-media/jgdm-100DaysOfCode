@@ -22,7 +22,7 @@ class Course {
     //get a one course by a specific ID
     public function getCourse($course_id) {
         $statement = $this->database->prepare(
-	        'SELECT * FROM courses WHERE id=: id'
+	        'SELECT * FROM courses WHERE id= :id'
         );
         $statement->bindParam('id', $course_id);
         $statement->execute();
@@ -43,7 +43,7 @@ class Course {
     //UPDATE a course by a specific id
     public function updateCourse($data) {
         $statement = $this->database->prepare(
-	        'UPDATE courses SET title=:title, url=:url) WHERE id:= id'
+	        'UPDATE courses SET title=:title, url=:url) WHERE id= id'
         );
         $statement->bindParam('title', $data['title']);
         $statement->bindParam('url', $data['url']);

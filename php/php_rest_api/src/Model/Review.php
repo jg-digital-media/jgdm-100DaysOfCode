@@ -3,7 +3,7 @@
 //Autoload the class
 namespace App\Model;
 
-class Course {
+class Review {
 
     public function getReviewsByCourseId($course_id)
     {
@@ -18,7 +18,7 @@ class Course {
     //Reviews CRUD operations
     public function getReview($review_id) {
         $statement = $this->database->prepare(
-            'SELECT * FROM reviews WHERE id=: id'
+            'SELECT * FROM reviews WHERE id= :id'
         );
 
         $statement->bindParam('id', $course_id);
@@ -50,17 +50,6 @@ class Course {
         }
     }
 
-    
-    public function deleteReview($id) {
-        $statement = $this->database->prepare(
-	        'DELETE FROM reviews WHERE id:= id'
-        );
-        $statement->bindParam('id', $data['course_id']);
-        $statement->execute();
-        return $this->getCourse($data['course_id']);
-
-    }
-    
     public function deleteReview($review_id) {
         $statement = $this->database->prepare('DELETE FROM reviews WHERE id=:id');
         $statement->bindParam('id', $review_id);

@@ -1,12 +1,16 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 59 of 100. **Last Update:** 20 May 2019
+## **Status:** Day 60 of 100. **Last Update:** 20 May 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
-### **R2D59:** Friday 20th May 2019
+### **R2D60:** Tuesday 21st May 2019
++ **Notes** - Tax and NI day today. So not much time for coding but I did dip into Sonic Pi a bit today. Slowly learning more and more as I go including how to define code blocks order the music. Learning curve goes on.  :)
++ **Technologies Used** - Sonic Pi
+
+### **R2D59:** Monday 20th May 2019
 + **Notes**
   + Expanded a little bit on my knowledge of Slim Routing with Route Groups. Not all of them are working which as far as I can tell is a database issue. Fixed some bugs along the way.
   + Sonic Pi. I learned a bit more about how to code simple melodies with Sonic Pi. I've managed to code the Tetris theme and now trying to add some depths with a drum bass to it.  Lots of fun

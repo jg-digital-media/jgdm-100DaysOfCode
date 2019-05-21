@@ -5,6 +5,25 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 60
+
+### Define Sonic Pi Code Blocks
+
+
+Use define to wrap music in a named code block.   
+
+call the defined code block typing its name.  Use to play music wherever you want in the script
+
+```ruby
+
+define :fj do
+    #code
+end
+
+```
+
+
+
 ## Day 59
 
 ```ruby

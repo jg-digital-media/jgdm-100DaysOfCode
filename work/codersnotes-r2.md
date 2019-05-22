@@ -5,17 +5,48 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-## Day 6
-
+## Day 61
 
 forgot to add constructor method and database property for the review model. 
 
+Worked on testing API requests of all types to add change and delete database records.
 
+Update functionality works... not 100% sure about the delete functionality.  All I know is I've been left with 4 records which is what I want.
+
+A postman collection is a place to store regular requests to an API  - add new data with JSON
+
+
+
++ make sure you have the right URL for your project
+
++ import the collection if necessary
+
+```php
+<?php 
+    //post request route - post action
+    $app->post('', function (Request $request, Response $response, array $args) {
+        $result = $this->course->createCourse($request->getParsedBody());
+        return $response->withJson($result, 201, JSON_PRETTY_PRINT);
+    });
+
+    //update request route  - put action
+    $app->put('/{course_id}', function (Request $request, Response $response, array $args) {
+        $data = $request->getParsedBody();
+        $data['course_id'] = $args['course_id'];
+          $result = $this->course->updateCourse($data);
+          return $response->withJson($result, 201, JSON_PRETTY_PRINT);
+      });
+
+    //delete request route - delete action
+    $app->delete('/{course_id}', function (Request $request, Response $response, array $args) {
+        $result = $this->course->deleteCourse($args['course_id']);
+        return $response->withJson($result, 200, JSON_PRETTY_PRINT);
+    });
+```
 
 ## Day 60
 
 ### Define Sonic Pi Code Blocks
-
 
 Use define to wrap music in a named code block.   
 

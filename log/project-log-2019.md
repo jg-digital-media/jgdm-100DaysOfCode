@@ -1,11 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 60 of 100. **Last Update:** 20 May 2019
+## **Status:** Day 61 of 100. **Last Update:** 22 May 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+### **R2D61:** Wednesday 22nd May 2019
++ **Notes** - Proud of my progress today. Learning Postman to manage API requests, reading error messages, solving them, seeing the changes made to the database in JSON. Rewarding
++ The reason the review data wasn't showing up by the way, was because I forgot to add the constructor for the Review class. Sometimes you need a break to see this things
++ **Technologies Used** - PHP, json
 ### **R2D60:** Tuesday 21st May 2019
 + **Notes** - Tax and NI day today. So not much time for coding but I did dip into Sonic Pi a bit today. Slowly learning more and more as I go including how to define code blocks order the music. Learning curve goes on.  :)
 + **Technologies Used** - Sonic Pi

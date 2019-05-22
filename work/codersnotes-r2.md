@@ -5,6 +5,13 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 6
+
+
+forgot to add constructor method and database property for the review model. 
+
+
+
 ## Day 60
 
 ### Define Sonic Pi Code Blocks

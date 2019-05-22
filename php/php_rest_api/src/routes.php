@@ -36,6 +36,23 @@ $app->group('/api/v1/courses', function() use($app) {
         return $response->withJson($result, 200, JSON_PRETTY_PRINT);
     });
 
+    $app->post('', function (Request $request, Response $response, array $args) {
+        $result = $this->course->createCourse($request->getParsedBody());
+        return $response->withJson($result, 201, JSON_PRETTY_PRINT);
+    });
+
+    $app->put('/{course_id}', function (Request $request, Response $response, array $args) {
+        $data = $request->getParsedBody();
+        $data['course_id'] = $args['course_id'];
+          $result = $this->course->updateCourse($data);
+          return $response->withJson($result, 201, JSON_PRETTY_PRINT);
+      });
+
+    $app->delete('/{course_id}', function (Request $request, Response $response, array $args) {
+        $result = $this->course->deleteCourse($args['course_id']);
+        return $response->withJson($result, 200, JSON_PRETTY_PRINT);
+    });
+
     $app->group('/{course_id}/reviews', function() use($app) {
         $app->get('', function (Request $request, Response $response, array $args) {
             $result = $this->review->getReviewsByCourseId($args['course_id']);

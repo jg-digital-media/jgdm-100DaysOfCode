@@ -43,7 +43,7 @@ class Course {
     //UPDATE a course by a specific id
     public function updateCourse($data) {
         $statement = $this->database->prepare(
-	        'UPDATE courses SET title=:title, url=:url) WHERE id= id'
+	        'UPDATE courses SET title=:title, url=:url) WHERE id=:id'
         );
         $statement->bindParam('title', $data['title']);
         $statement->bindParam('url', $data['url']);
@@ -55,11 +55,11 @@ class Course {
     //DELETE a specific course from table.
     public function deleteCourse($course_id) {
         $statement = $this->database->prepare(
-	        'DELETE FROM courses WHERE id:= id'
+	        'DELETE FROM courses WHERE id=:id'
         );
-        $statement->bindParam('id', $data['course_id']);
+        $statement->bindParam('id', $course_id);
         $statement->execute();
-        return $this->getCourse($data['course_id']);
+        return $this->getCourse($course_id);
     }
 
 }

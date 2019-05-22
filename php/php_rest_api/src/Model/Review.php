@@ -3,13 +3,19 @@
 //Autoload the class
 namespace App\Model;
 
+
 class Review {
+    protected $database;
+    public function __construct(\PDO $database)
+    {
+        $this->database = $database;
+    }
 
     public function getReviewsByCourseId($course_id)
     {
         
-        $statement = $this->database->prepare('SELECT * FROM reviews WHERE course_id=:course_id');
-        $statement->bindParam('course_id', $course_id);
+        $statement = $this->database->prepare('SELECT * FROM reviews WHERE course_id=:id');
+        $statement->bindParam('id', $course_id);
         $statement->execute();
         $reviews = $statement->fetchAll();
         return $reviews;
@@ -29,7 +35,7 @@ class Review {
     
     public function createReview($data) {
         $statement = $this->database->prepare('INSERT INTO reviews (course_id, rating, comment) VALUES (:course_id, :rating, :comment)');
-        $statement->bindParam('course_id', $data['course_id']);
+        $statement->bindParam('id', $data['course_id']);
         $statement->bindParam('rating', $data['rating']);
         $statement->bindParam('comment', $data['comment']);
         $statement->execute();

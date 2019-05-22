@@ -37,13 +37,13 @@ $app->group('/api/v1/courses', function() use($app) {
     });
 
     $app->group('/{course_id}/reviews', function() use($app) {
-        $app->get('/', function (Request $request, Response $response, array $args) {
+        $app->get('', function (Request $request, Response $response, array $args) {
             $result = $this->review->getReviewsByCourseId($args['course_id']);
             return $response->withJson($result, 200, JSON_PRETTY_PRINT);
         });
 
-        $app->get('/{id}', function (Request $request, Response $response, array $args) {
-            $result = $this->review->getReview($args['id']);
+        $app->get('/{review_id}', function (Request $request, Response $response, array $args) {
+            $result = $this->review->getReview($args['review_id']);
             return $response->withJson($result, 200, JSON_PRETTY_PRINT);
         });  
 

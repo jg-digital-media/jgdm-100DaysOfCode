@@ -43,7 +43,7 @@ class Course {
     //UPDATE a course by a specific id
     public function updateCourse($data) {
         $statement = $this->database->prepare(
-	        'UPDATE courses SET title=:title, url=:url) WHERE id=:id'
+	        'UPDATE courses SET title=:title, url=:url WHERE id=:id'
         );
         $statement->bindParam('title', $data['title']);
         $statement->bindParam('url', $data['url']);

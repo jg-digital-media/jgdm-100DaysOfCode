@@ -40,3 +40,15 @@ $container['course'] = function($c) {
 $container['review'] = function($c) {
     return new App\Model\Review($c->get('db'));
 };
+
+//Exception handler container - this is the exception Error Hanlder 
+$container['errorHandler'] = function ($c) {
+    return function ($request, $response, $exception) use ($c) {
+        $data = [
+            'status' => 'error',
+            'code' => $exception->getCode(),
+            'message' => $exception->getMessage(),
+        ];
+        return $response->withJson($data,$statusCode);
+    };
+};

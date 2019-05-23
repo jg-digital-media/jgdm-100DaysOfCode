@@ -2,6 +2,7 @@
 
 //Autoload the class
 namespace App\Model;
+use App\Exception\ApiException;
 
 class Course {
     protected $database;
@@ -16,7 +17,11 @@ class Course {
 	        'SELECT * FROM courses ORDER BY id'
         );
         $statement->execute();
-        return $statement->fetchAll();
+        $courses = $statement->fetchAll();
+        if(empty($courses)) {
+            throw new ApiException(ApiException::COURSE_NOT_FOUND, 404);
+        }
+        return $courses;
     }
 
     //get a one course by a specific ID
@@ -26,7 +31,11 @@ class Course {
         );
         $statement->bindParam('id', $course_id);
         $statement->execute();
-        return $statement->fetch();
+        $course = $statement->fetchAll();
+        if(empty($courses)) {
+            throw new ApiException(ApiException::COURSE_NOT_FOUND, 404);
+        }
+        return $course;
     }
     
     //use INSERT INTO to add a new course to the table.
@@ -36,7 +45,9 @@ class Course {
         );
         $statement->bindParam('title', $data['title']);
         $statement->bindParam('url', $data['url']);
-        $statement->execute();
+        $statement->execute();if($statement->rowCount()<1) {
+            throw new ApiException(ApiException::COURSE_CREATION_FAILED);
+        }
         return $this->getCourse($this->database->lastInsertId());
     }
     
@@ -49,16 +60,24 @@ class Course {
         $statement->bindParam('url', $data['url']);
         $statement->bindParam('id', $data['course_id']);
         $statement->execute();
+        if($statement->rowCount()<1) {
+            throw new ApiException(ApiException::COURSE_UPDATE_FAILED);
+        }
         return $this->getCourse($data['course_id']);
     }
     
     //DELETE a specific course from table.
     public function deleteCourse($course_id) {
+        $this->getCourse($course_id);
         $statement = $this->database->prepare(
 	        'DELETE FROM courses WHERE id=:id'
         );
         $statement->bindParam('id', $course_id);
         $statement->execute();
+        if($statement->rowCount()<1) {
+            throw new ApiException(ApiException::COURSE_DELETE_FAILED);
+        }
+        
         return $this->getCourse($course_id);
     }
 

@@ -25,7 +25,7 @@ JSON_PRETTY_PRINT);
 });
 
 
-
+//Course Routes
 $app->group('/api/v1/courses', function() use($app) {
     $app->get('', function (Request $request, Response $response, array $args) {
         $result = $this->course->getCourses();
@@ -64,5 +64,34 @@ $app->group('/api/v1/courses', function() use($app) {
             return $response->withJson($result, 200, JSON_PRETTY_PRINT);
         });  
 
+    });
+});
+
+//Review Routes 
+$app->group('/{course_id}/reviews', function () use ($app) {
+    $app->get('', function ($request, $response, $args) {
+        $result = $this->review->getReviewsByCourseId($args['course_id']);
+        return $response->withJson($result, 200, JSON_PRETTY_PRINT);
+    });
+    $app->get('/{review_id}', function ($request, $response, $args) {
+        $result = $this->review->getReview($args['review_id']);
+        return $response->withJson($result, 200, JSON_PRETTY_PRINT);
+    });
+    $app->post('', function ($request, $response, $args) {
+        $data = $request->getParsedBody();
+        $data['course_id'] = $args['course_id'];
+        $result = $this->review->createReview($data);
+        return $response->withJson($result, 201, JSON_PRETTY_PRINT);
+    });
+    $app->put('/{review_id}', function ($request, $response, $args) {
+        $data = $request->getParsedBody();
+        $data['course_id'] = $args['course_id'];
+        $data['review_id'] = $args['review_id'];
+        $result = $this->review->updateReview($data);
+        return $response->withJson($result, 201, JSON_PRETTY_PRINT);
+    });
+    $app->delete('/{review_id}', function ($request, $response, $args) {
+        $result = $this->review->deleteReview($args['review_id']);
+        return $response->withJson($result, 200, JSON_PRETTY_PRINT);
     });
 });

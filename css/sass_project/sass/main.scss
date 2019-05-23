@@ -5,6 +5,7 @@ $main-bg: yellowgreen;
 $sec-bg: green;
 $sec-col: white;
 $border-bg: black;
+$border-btm: #f5de5e;
 
 //fonts
 $font-primary: 'Oxygen', sans-serif;
@@ -40,6 +41,7 @@ header {
     margin-bottom: 10px;
     font-size: large;
     background: $sec-bg;
+    border-bottom: $border-btm 4px solid;
 
     p {        
         text-align: center;

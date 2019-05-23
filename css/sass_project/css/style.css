@@ -16,7 +16,8 @@ header {
   /* flex-basis: auto; */
   margin-bottom: 10px;
   font-size: large;
-  background: green; }
+  background: green;
+  border-bottom: #f5de5e 4px solid; }
   header p {
     text-align: center;
     display: block;

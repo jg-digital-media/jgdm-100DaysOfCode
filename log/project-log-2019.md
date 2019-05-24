@@ -1,15 +1,19 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 62 of 100. **Last Update:** 23 May 2019
+## **Status:** Day 63 of 100. **Last Update:** 24 May 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
-
-### **R2D62:** Wednesday 22nd May 2019
+### **R2D63:** Friday 24th May 2019
++ **Notes**
+  + Transitioning from the end of my REST API stuff to working on how handle PHP user authentication. Time to give this another crack.
+  +
+### **R2D62:** Thursday 23rd May 2019
 + **Notes**
   + Wrote some exceptions for my Slim routes today.  Going to try and finish the Exceptions for the review model tomorrow.  Hard work but it's nice to have not met brick walls 2 days in a row. 
   + Also played pretend DJ with Sonic Pi.  It's nice to get down to actual live coding with live_loops. Learning more and more about what can be done!  
++ **Technologies Used** - PHP, json
 ### **R2D61:** Wednesday 22nd May 2019
 + **Notes**
   + Proud of my progress today. Learning Postman to manage API requests, reading error messages, solving them, seeing the changes made to the database in JSON. Rewarding

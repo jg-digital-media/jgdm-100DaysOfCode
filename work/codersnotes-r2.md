@@ -5,6 +5,10 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 63
+
+Finished the work on the REST API in PHP and SLIM.  I'm as sure I can be that I've set up all the routes and the API requests properly having tested them all in Postman
+
 ## Day 62
 
 ```ruby

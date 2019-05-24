@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 2: Day 62 of 100. **Last Update:** 23rd May 2019
++ **Status:** Round 2: Day 63 of 100. **Last Update:** 24th May 2019
 
 ## Directories
   + bin
@@ -30,6 +30,7 @@
   + log
   + php
     + mvc-framework
+    + php_auth
     + php_rest_api
     + php_tests
     + slim

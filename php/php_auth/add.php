@@ -5,9 +5,12 @@ require_once __DIR__ . '/templates/nav.php';
 ?>
 <div class="container">
     <div class="well">
-        <h2>Book Voting System</h2>
-        <p>Welcome to the book voting system.  Use this system to submit books you like and see if others like them as well
-        by letting them upvote it.</p>
+        <h2>Add a book</h2>
+
+        <form class="form-horizontal" method="post" action="/procedures/addBook.php">
+        <?php include_once __DIR__ .'/templates/bookForm.php'; ?>
+        </form>
+
     </div>
 </div>
 <?php

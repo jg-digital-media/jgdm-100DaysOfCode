@@ -9,19 +9,19 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Book Voting</a>
+            <a class="navbar-brand" href="/jgdm-100daysofcode/php/php_auth/">Book Voting</a>
         </div>
 
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a href="/">Home</a></li>
-                <li><a href="/books.php">Book List</a></li>
-                <li><a href="/add.php">Add Book</a></li>
+                <li><a href="/jgdm-100daysofcode/php/php_auth/">Home</a></li>
+                <li><a href="/jgdm-100daysofcode/php/php_auth/books.php">Book List</a></li>
+                <li><a href="/jgdm-100daysofcode/php/php_auth/add.php">Add Book</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/login.php">Login</a></li>
-                <li><a href="/register.php">Register</a></li>
+                <li><a href="/jgdm-100daysofcode/php/php_auth/login.php">Login</a></li>
+                <li><a href="/jgdm-100daysofcode/php/php_auth/register.php">Register</a></li> <!-- "/" -->
             </ul>
         </div>
     </div>

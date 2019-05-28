@@ -1,14 +1,21 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 63 of 100. **Last Update:** 24 May 2019
+## **Status:** Day 64 of 100. **Last Update:** 28 May 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D64:** Tuesday 28th May 2019
++ **Notes**
+  + Started the process for adding registration functionality to a prepepared website. This is with PHP. Accessing form values and doing checks on them. Next, the scary topic of securing passwords
++ **Technologies Used** - PHP
+
 ### **R2D63:** Friday 24th May 2019
 + **Notes**
   + Transitioning from the end of my REST API stuff to working on how handle PHP user authentication. Time to give this another crack.
-  +
++ **Technologies Used** - PHP, json
+
 ### **R2D62:** Thursday 23rd May 2019
 + **Notes**
   + Wrote some exceptions for my Slim routes today.  Going to try and finish the Exceptions for the review model tomorrow.  Hard work but it's nice to have not met brick walls 2 days in a row. 

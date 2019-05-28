@@ -5,6 +5,35 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 64
+
+form fields are:
++ username
++ password
++ confirm password
+
+This form can be extended to require any other information that you would like to have associated with the user.
+
+Steps
++ require the bootstrap file
++ Capture the variables that we need from the request object. name attribute from the form fields  - $variable = request()->get('form_attribute')
++ Do registration checks
+
+```php
+#Capture registration variables from the request object
+$username = require()->get('username');
+$password = require()->get('password');
+$confirmPassword = require()->get('confirm_password');
+
+
+//check passwords are the same
+if($password != $confirmPassword) {
+    $session->getFlashBag()->add('error', 'Passwords do NOT match');
+    redirect('/register.php');
+}
+```
+
 ## Day 63
 
 Finished the work on the REST API in PHP and SLIM.  I'm as sure I can be that I've set up all the routes and the API requests properly having tested them all in Postman

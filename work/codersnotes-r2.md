@@ -10,6 +10,15 @@
 
 Too many requests to before making a user successfully?  I did it but had to try again because I never saw the flash message. 
 
+In the end I simply reverted the database to retrieve the deleted data and simply tested adding a second user. 
+
+I export the sql file (which exposes the plain text password - I won't be committing that file, I can see the result the password hashing - finally I'm beginning to understand the complete process and how it works in practice)   $2y$10$wuc1OCihuur5KiFLCdey3OKUNV8u6dbpTu/TT72uIFp/dzlIaRfPe
+
+```sql
+INSERT INTO "users" ("id","username","password","role_id","created_at") VALUES (1,'some_password_I_used','$2y$10$wuc1OCihuur5KiFLCdey3OKUNV8u6dbpTu/TT72uIFp/dzlIaRfPe',2,'2019-06-03 12:25:54'),
+ (2,'another_password_I_used','$2y$10$rqPW0ZTI8yd6WmQwOWqjTeVu0lj8A.qzCgkA8sZ1Els3PODpg44oC',2,'2019-06-03 13:00:27');
+```
+
 https://stackoverflow.com/questions/27902831/sqlite3-sqlstatehy000-general-error-5-database-is-locked  "wait for 2 minutes for table to unlock.
 
 ## Day 64

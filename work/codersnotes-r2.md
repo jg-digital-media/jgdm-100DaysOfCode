@@ -12,6 +12,8 @@ Too many requests to before making a user successfully?  I did it but had to try
 
 In the end I simply reverted the database to retrieve the deleted data and simply tested adding a second user. 
 
+password_hash()
+
 I export the sql file (which exposes the plain text password - I won't be committing that file, I can see the result the password hashing - finally I'm beginning to understand the complete process and how it works in practice)   $2y$10$wuc1OCihuur5KiFLCdey3OKUNV8u6dbpTu/TT72uIFp/dzlIaRfPe
 
 ```sql

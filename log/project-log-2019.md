@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 64 of 100. **Last Update:** 28 May 2019
+## **Status:** Day 65 of 100. **Last Update:** 28 May 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D64:** Wednesday 3rd June 2019
++ **Notes**
+  + Password hashing today. Finally understood today what it is to put it into practice.  There may be an issue though with whether the correct data is being stored in the database. Are the plain text passwords somehow being stored as usernames? Regardless I'm delighted to have demystified password hashing in PHP.
++ **Technologies Used** - PHP
 
 ### **R2D64:** Tuesday 28th May 2019
 + **Notes**

@@ -8,9 +8,13 @@
 
 ## Day 65
 
+## Password Hashing
+
 Too many requests to before making a user successfully?  I did it but had to try again because I never saw the flash message. 
 
-In the end I simply reverted the database to retrieve the deleted data and simply tested adding a second user. 
+https://stackoverflow.com/questions/27902831/sqlite3-sqlstatehy000-general-error-5-database-is-locked  "wait for 2 minutes for table to unlock.
+
+In the end I simply reverted the database to retrieve the deleted data and tested adding a second user. 
 
 password_hash()
 
@@ -21,7 +25,8 @@ INSERT INTO "users" ("id","username","password","role_id","created_at") VALUES (
  (2,'another_password_I_used','$2y$10$rqPW0ZTI8yd6WmQwOWqjTeVu0lj8A.qzCgkA8sZ1Els3PODpg44oC',2,'2019-06-03 13:00:27');
 ```
 
-https://stackoverflow.com/questions/27902831/sqlite3-sqlstatehy000-general-error-5-database-is-locked  "wait for 2 minutes for table to unlock.
+But that doesn't seem right.  Will probably have to create a new user to test login functionality later.  One thing is for sure though, passwords are definitely hashing.
+
 
 ## Day 64
 

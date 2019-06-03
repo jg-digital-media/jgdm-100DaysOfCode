@@ -6,7 +6,7 @@ require_once __DIR__ . '/templates/nav.php';
 
 <div class="container">
     <div class="well col-sm-6 col-sm-offset-3">
-        <form class="form-signin" method="post" action="/procedures/doRegister.php">
+        <form class="form-signin" method="post" action="/jgdm-100daysofcode/php/php_auth/procedures/doRegister.php">
             <h2 class="form-signin-heading">Registration</h2>
             <label for="inputUsername" class="sr-only">Username</label>
             <input type="username" id="inputUsername" name="username" class="form-control" placeholder="Username" required autofocus>

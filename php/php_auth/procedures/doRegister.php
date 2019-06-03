@@ -12,7 +12,7 @@ $confirmPassword = request()->get('confirm_password');
 //check passwords are the same
 if($password != $confirmPassword) {
     $session->getFlashBag()->add('error', 'Passwords do NOT match');
-    redirect('/register.php');
+    redirect('/jgdm-100daysofcode/php/php_auth/register.php');
 }
 
 //Check that a username already exists
@@ -21,3 +21,10 @@ if(!empty($user)) {
     $session->getFlashBag()->add('error', 'User Already Exists');
     redirect('/register.php');
 }
+
+$hashed = password_hash($password, PASSWORD_DEFAULT);
+
+/*CREATE A NEW USER:  uses the createUser function to do this*/
+$user = createUser($password, $hashed);
+$session->getFlashBag()->add('success', 'User Added');
+redirect('/jgdm-100daysofcode/php/php_auth/');

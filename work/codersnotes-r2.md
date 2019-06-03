@@ -6,6 +6,12 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 65
+
+Too many requests to before making a user successfully?  I did it but had to try again because I never saw the flash message. 
+
+https://stackoverflow.com/questions/27902831/sqlite3-sqlstatehy000-general-error-5-database-is-locked  "wait for 2 minutes for table to unlock.
+
 ## Day 64
 
 form fields are:

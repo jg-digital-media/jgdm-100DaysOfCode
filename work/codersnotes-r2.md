@@ -5,6 +5,23 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 66
+
+PROBLEM: usernames being stored as passwords.   i presume the opposite is happening for passwords but this is hard to verify for hashed passwords. This must be happening at registration. 
+
+Fixed... I was calling both plain text and hashed passwords to be stored instead of a username and a hashed password.  I've cleared all existing credentials from the site and retested the registration. All now working perfectly and problem solved.
+
+```php
+/*CREATE A NEW USER:  uses the createUser function to do this*/
+$user = createUser($username, $hashed);
+```
+
+not 
+
+```php
+/*CREATE A NEW USER:  uses the createUser function to do this*/
+$user = createUser($password, $hashed);
+```
 
 ## Day 65
 

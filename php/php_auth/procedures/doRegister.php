@@ -19,7 +19,7 @@ if($password != $confirmPassword) {
 $user = findUserByUserName($username);
 if(!empty($user)) {
     $session->getFlashBag()->add('error', 'User Already Exists');
-    redirect('/register.php');
+    redirect('/jgdm-100daysofcode/php/php_auth/register.php');
 }
 
 $hashed = password_hash($password, PASSWORD_DEFAULT);

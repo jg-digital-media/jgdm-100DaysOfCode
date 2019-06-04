@@ -25,6 +25,6 @@ if(!empty($user)) {
 $hashed = password_hash($password, PASSWORD_DEFAULT);
 
 /*CREATE A NEW USER:  uses the createUser function to do this*/
-$user = createUser($password, $hashed);
+$user = createUser($username, $hashed);
 $session->getFlashBag()->add('success', 'User Added');
 redirect('/jgdm-100daysofcode/php/php_auth/');

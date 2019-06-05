@@ -5,7 +5,7 @@
 const form = document.getElementById("add-to-list");
 const input = form.querySelector('input');
 const displayList = document.getElementById('display-list');
-const list = document.getElementById("task-list");  //select element be child of selected element.
+const list = document.getElementById("task-list");  //select element to be child of selected element.
 const removeButton = document.getElementsByClassName('remove');
 const editButton = document.getElementsByClassName('edit');
 
@@ -15,10 +15,11 @@ function createLi(getText) {
     const li = document.createElement("li");    //create an element that'll,  appended created element.
     const p = document.createElement("p");
     list.appendChild(li); //select parent
-    li.appendChild(p);
-    li.textContent = getText;  //grab text from input box. 
-    p.textContent = getText;
+    li.appendChild(p);    
     li.className = "task";  
+    
+    //li.textContent = getText;  //grab text from input box. 
+    p.textContent = getText;
 
     /*Create checkbox*/
     const checkbox = document.createElement('input');
@@ -38,14 +39,13 @@ function createLi(getText) {
     li.appendChild(removeButton); 
     return li;  
 
-
 }
+
 //ul
 form.addEventListener('submit', (e) => {
 
     //prevent form default behaviour
     e.preventDefault();
-
 
     /*Create input text box*/ 
     const getText = input.value;    
@@ -69,7 +69,6 @@ list.addEventListener('change', (e) => {
 
     } else {
         listItem.className="";
-
     }
 
 })

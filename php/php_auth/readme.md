@@ -5,5 +5,7 @@
 + Root Path (server):  Tbc
 
 ## Project Stages
-+ Registration Implemented
-+ Basic Login implemented  - success message verified
++ Registration - implemented
++ Basic Login - implemented  
++ Basic logout - implementedq
++ Logged in on registration - implemented

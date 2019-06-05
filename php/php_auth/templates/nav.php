@@ -23,7 +23,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <?php if(isAuthenticated()) : ?>
-                    <li><a href="/jgdm_100daysofcode/php/php_auth/procedures/doLogout.php">Logout</a></li>
+                    <li><a href="/jgdm-100daysofcode/php/php_auth/procedures/doLogout.php">Logout</a></li>
                 <?php else : ?>    
                     <li><a href="/jgdm-100daysofcode/php/php_auth/login.php">Login</a></li>
                     <li><a href="/jgdm-100daysofcode/php/php_auth/register.php">Register</a></li> <!-- "/" -->

@@ -17,11 +17,17 @@
             <ul class="nav navbar-nav">
                 <li><a href="/jgdm-100daysofcode/php/php_auth/">Home</a></li>
                 <li><a href="/jgdm-100daysofcode/php/php_auth/books.php">Book List</a></li>
-                <li><a href="/jgdm-100daysofcode/php/php_auth/add.php">Add Book</a></li>
+                <?php if(isAuthenticated()) : ?>
+                    <li><a href="/jgdm-100daysofcode/php/php_auth/add.php">Add Book</a></li>
+                <?php  endif ?>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="/jgdm-100daysofcode/php/php_auth/login.php">Login</a></li>
-                <li><a href="/jgdm-100daysofcode/php/php_auth/register.php">Register</a></li> <!-- "/" -->
+                <?php if(isAuthenticated()) : ?>
+                    <li><a href="/jgdm_100daysofcode/php/php_auth/procedures/doLogout.php">Logout</a></li>
+                <?php else : ?>    
+                    <li><a href="/jgdm-100daysofcode/php/php_auth/login.php">Login</a></li>
+                    <li><a href="/jgdm-100daysofcode/php/php_auth/register.php">Register</a></li> <!-- "/" -->
+                <?php endif ?>
             </ul>
         </div>
     </div>

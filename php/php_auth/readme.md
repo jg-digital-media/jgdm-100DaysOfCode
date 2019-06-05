@@ -7,5 +7,5 @@
 ## Project Stages
 + Registration - implemented
 + Basic Login - implemented  
-+ Basic logout - implementedq
++ Basic logout - implemented
 + Logged in on registration - implemented

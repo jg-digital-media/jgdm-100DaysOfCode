@@ -1,20 +1,23 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 66 of 100. **Last Update:** 04 June 2019
+## **Status:** Day 66 of 100. **Last Update:** 05 June 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+### **R2D67:** Wednesday 5th June 2019
++ **Notes**
+  + Have a website that now logs in, logs out, and logs in automatically on registration, all successfully.  Hard work still to go but I now have the capability of building a members website with PHP and SQLite3.  Step Forward.
 
-### **R2D66:** Thursday 4th June 2019
+### **R2D66:** Tuesday 4th June 2019
 + **Notes**
   + Got login functionality with PHP and SQL working. Turns out the issue with the current data was passing in the wrong columns when creating registrations in my registration procedure.
   + These things are harder to spot initially when scripts are fully working before the bugs show themselves up. 
   + I was calling both plain text and hashed passwords to be stored instead of a username and a hashed password.  I've cleared all existing credentials from the site and retested the registration. All now working perfectly and problem solved
 + **Technologies Used** - PHP
 
-### **R2D65:** Wednesday 3rd June 2019
+### **R2D65:** Monday 3rd June 2019
 + **Notes**
   + Password hashing today. Finally understood today what it is to put it into practice.  There may be an issue though with whether the correct data is being stored in the database. 
   + Are the plain text passwords somehow being stored as usernames? Regardless I'm delighted to have demystified password hashing in PHP.

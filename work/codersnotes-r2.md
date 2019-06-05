@@ -5,6 +5,20 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 67
+
+### PHP Authentication Steps  - PHP and SQLite
+
++ Capture registration variables from the request object - form attributes
++ check passwords are the same
++ Check that a username already exists
++ Remove session variables so user is logged out
++ automatically log in a newly registered user
++ add a conditional to show a link only when verified
++ function to verify if a user is logged in
++ store user details in a session and then log in
++ check the provided passwords match
+
 ## Day 66
 
 PROBLEM: usernames being stored as passwords.   i presume the opposite is happening for passwords but this is hard to verify for hashed passwords. This must be happening at registration. 

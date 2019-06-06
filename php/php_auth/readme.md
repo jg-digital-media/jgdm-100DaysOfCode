@@ -1,8 +1,8 @@
 # PHP AUTHORISATION PROJECT
 
 ## Root Directories
-+ Root Path (local): '/jgdm-100daysofcode/php/php_auth/login.php');
-+ Root Path (server):  Tbc
++ Root Path (local): '/jgdm-100daysofcode/php/php_auth/';
++ Root Path (server):  '/jgdm-100daysofcode/php/php_auth/
 
 ## Project Stages
 + Registration - implemented

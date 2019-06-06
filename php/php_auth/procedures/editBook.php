@@ -7,8 +7,8 @@ $bookDescription = request()->get('description');
 
 if (updateBook($book['id'], $bookTitle, $bookDescription)) {
     $session->getFlashBag()->add('success', 'Book Updated');
-    redirect('/books.php');
+    redirect('/jgdm-100daysofcode/php/php_auth/books.php');
 } else {
     $session->getFlashBag()->add('error', 'Unable to Update Book');
-    redirect('/edit.php?bookId='.$book['id']);
+    redirect('/jgdm-100daysofcode/php/php_auth/edit.php?bookId='.$book['id']);
 }

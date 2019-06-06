@@ -8,4 +8,4 @@ if (deleteBook($book['id'])) {
 } else {
     $session->getFlashBag()->add('error', 'Unable to Delete Book');
 }
-redirect('/books.php');
+redirect('/jgdm-100daysofcode/php/php_auth/books.php');

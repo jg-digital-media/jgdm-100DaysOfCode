@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import propTypes from 'prop-types';
 
 import Stats from './Stats';
 import Stopwatch from './Stopwatch';
@@ -16,9 +16,9 @@ const Header = ({ players, title}) => {
     );
 }
 
-Header.PropTypes = {
-    players:PropTypes.number,
-    title:PropTypes.string,
+Header.propTypes = {
+    players:propTypes.number,
+    title:propTypes.string,
 
 }
 

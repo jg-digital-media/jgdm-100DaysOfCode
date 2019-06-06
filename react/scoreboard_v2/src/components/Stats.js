@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import propTypes from 'prop-types';
 
 
 const Stats = (props) => {
@@ -26,9 +26,9 @@ const Stats = (props) => {
     );
 }
 
-Stats.PropTypes = {
-    totalPlayers: PropTypes.number,
-    totalPoints: PropTypes.number
+Stats.propTypes = {
+    totalPlayers: propTypes.number,
+    totalPoints: propTypes.number
 }
 
 export default Stats;

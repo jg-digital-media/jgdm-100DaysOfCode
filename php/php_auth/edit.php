@@ -13,7 +13,7 @@ $buttonText = 'Update Book';
     <div class="well">
         <h2>Update book</h2>
 
-        <form class="form-horizontal" method="post" action="/procedures/editBook.php">
+        <form class="form-horizontal" method="post" action="/jgdm-100daysofcode/php/php_auth/procedures/editBook.php">
             <input type="hidden" name="bookId" value="<?php echo $book['id']; ?>" />
         <?php include_once __DIR__ .'/templates/bookForm.php'; ?>
         </form>

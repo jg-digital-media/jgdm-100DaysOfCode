@@ -4,6 +4,16 @@ function isAuthenticated() {
     return $session->get('auth_logged_in', false);
 }
 
+//Require authentication with this function
+
+function requireAuth() {
+    if(!isAuthenticated()) {
+        global $session;
+        $session->getFlashBag()->add('error', 'Error: You are not authorised to use this page!');
+        redirect('/jgdm-100daysofcode/php/php_auth/login.php');
+        }
+}
+
 function saveUserSession($user) {
     global $session;
     

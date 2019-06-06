@@ -5,7 +5,8 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-## Day 67
+
+## Day 67 & 68
 
 ### PHP Authentication Steps  - PHP and SQLite
 
@@ -18,6 +19,16 @@
 + function to verify if a user is logged in
 + store user details in a session and then log in
 + check the provided passwords match
++ Lock out certain portions of a page conditional around certain potions of a page
+
+```php
+<?php if (isAuthenticated()) : ?>
+
+  code
+
+<?php endif; ?>
+```
+
 
 ## Day 66
 

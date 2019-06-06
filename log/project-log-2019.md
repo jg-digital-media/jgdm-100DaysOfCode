@@ -1,14 +1,18 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 66 of 100. **Last Update:** 05 June 2019
+## **Status:** Day 68 of 100. **Last Update:** 06 June 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+### **R2D67:** Thursday 6th June 2019
++ **Notes**
+  + Finished off the Authentication part of my project today.  Next comes Authorisation which is the really tricky part. Making sure the right people have the right access to website features.
+
 ### **R2D67:** Wednesday 5th June 2019
 + **Notes**
-  + Have a website that now logs in, logs out, and logs in automatically on registration, all successfully.  Hard work still to go but I now have the capability of building a members website with PHP and SQLite3.  Step Forward.
+  + Have a website that now logs in, logs out, and logs in automatically on registration, all successfully. Hard work still to go but I now have the capability of building a members website with PHP and SQLite3.  Step Forward.
 
 ### **R2D66:** Tuesday 4th June 2019
 + **Notes**

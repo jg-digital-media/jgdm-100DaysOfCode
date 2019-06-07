@@ -5,6 +5,10 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 69
+
+Left Sided navigation example
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push 
 
 ## Day 67 & 68
 

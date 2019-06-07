@@ -1,18 +1,24 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 68 of 100. **Last Update:** 06 June 2019
+## **Status:** Day 69 of 100. **Last Update:** 07 June 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+### **R2D69:** Friday 7th June 2019
++ **Notes**
+  + PHP and SQlite Set up the ability to change password.  HTML and CSS - studying and expanding an example of using a SideNav push navigation and explore styling with the remaining available space. 
+  + **Technologies Used** - PHP, JavaScript, HTML, CSS
 ### **R2D68:** Thursday 6th June 2019
 + **Notes**
   + Finished off the Authentication part of my project today.  Next comes Authorisation which is the really tricky part. Making sure the right people have the right access to website features.
+  + **Technologies Used** - PHP
 
 ### **R2D67:** Wednesday 5th June 2019
 + **Notes**
   + Have a website that now logs in, logs out, and logs in automatically on registration, all successfully. Hard work still to go but I now have the capability of building a members website with PHP and SQLite3.  Step Forward.
+  + **Technologies Used** - PHP
 
 ### **R2D66:** Tuesday 4th June 2019
 + **Notes**

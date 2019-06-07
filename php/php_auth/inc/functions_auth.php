@@ -4,8 +4,13 @@ function isAuthenticated() {
     return $session->get('auth_logged_in', false);
 }
 
-//Require authentication with this function
+//
+function getAuthenticatedUser() {
+    global $session;
+    return findUserById($session->get('auth_user_id'));
+}
 
+//Require authentication with this function
 function requireAuth() {
     if(!isAuthenticated()) {
         global $session;

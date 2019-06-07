@@ -6,7 +6,7 @@ ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
-### **R2D67:** Thursday 6th June 2019
+### **R2D68:** Thursday 6th June 2019
 + **Notes**
   + Finished off the Authentication part of my project today.  Next comes Authorisation which is the really tricky part. Making sure the right people have the right access to website features.
 

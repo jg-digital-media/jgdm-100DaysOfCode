@@ -5,6 +5,12 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 70
+
+### PHP Authentication Steps  - PHP and SQLite
+
+
 ## Day 69
 
 Left Sided navigation example

@@ -13,13 +13,16 @@ function createLi(getText) {
     
     //Add list item content to the screen.
     const li = document.createElement("li");    //create an element that'll,  appended created element.
+    const span = document.createElement("span");     //li.textContent = getText;  //grab text from input box. 
     const p = document.createElement("p");
+    p.textContent = getText;
+    span.textContent = getText;
+    li.appendChild(span);
     list.appendChild(li); //select parent
     li.appendChild(p);    
     li.className = "task";  
     
-    //li.textContent = getText;  //grab text from input box. 
-    p.textContent = getText;
+
 
     /*Create checkbox*/
     const checkbox = document.createElement('input');
@@ -75,8 +78,21 @@ list.addEventListener('change', (e) => {
 
 list.addEventListener('click', (e) => {
     if(e.target.tagName === 'BUTTON') {
-        const li = e.target.parentNode;
+
+        const button = e.target;
+        const li = button.parentNode;
         const ul = li.parentNode;
-        ul.removeChild(li);
+
+        if(button.textContent == "Remove") {
+            ul.removeChild(li);
+        } else if (button.textContent == "Edit Task") {
+            //console.log("Edit button was clicked" + input.textContent);
+
+            const span = li.firstElementChild;
+            const input = document.createElement('input');
+            input.type = 'text';
+            li.insertBefore(input, span);
+            li.removeChild(span);
+        }
     }
 });

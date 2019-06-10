@@ -14,4 +14,5 @@
     + Require authentication for certain pages and features - implemented
 
  + Authorisation
-   + to come   
+   + Administration control panel - implemented
+   + Promote and Demote users - implemented

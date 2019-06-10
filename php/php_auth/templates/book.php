@@ -13,9 +13,11 @@
             <div class="media-body">
               <h4 class="media-heading"><?php echo $book['name']; ?></h4>
               <p><?php echo $book['description']; ?></p>
-                <p>
-                <span><a href="/jgdm-100daysofcode/php/php_auth/edit.php?bookId=<?php echo $book['id']; ?>">Edit</a> | </span>
-                <span><a href="/jgdm-100daysofcode/php/php_auth/procedures/deleteBook.php?bookId=<?php echo $book['id']; ?>">Delete</a></span>
-                </p>
+                <?php if (isAuthenticated()) : ?>
+                    <p>
+                    <span><a href="/jgdm-100daysofcode/php/php_auth/edit.php?bookId=<?php echo $book['id']; ?>">Edit</a> | </span>
+                    <span><a href="/jgdm-100daysofcode/php/php_auth/procedures/deleteBook.php?bookId=<?php echo $book['id']; ?>">Delete</a></span>
+                    </p>
+                <?php endif; ?>
             </div>
         </div>

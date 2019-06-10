@@ -26,7 +26,7 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push
   }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: #9edff3;
   }
   
   .sidenav .closebtn {
@@ -37,12 +37,16 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push
     margin-left: 50px;
   }
   
-  #main {
-    transition: margin-left .5s;
-    padding: 16px;
-  }
 
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  /*main site*/
+
+
+  body {
+    background: #fff564;
+    background: #9edff3;
+    font-family: verdana;
+}
+
   #main {
     transition: margin-left .5s;
     padding: 20px;
@@ -52,8 +56,63 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push
     background: #947e7e;
     padding: 7px;
     border-radius: 10px;
+    z-index: 1000;
+  }
+
+  .main-content {
+      display: flex;
+  }
+
+  .main-content article {
+      margin: 10px;
+  }
+
+  .main-content article img {
+        text-align: center;
+  }
+  .main-content article h3 {
+        text-align: center;
+  }
+
+  .read-more {
+      font-weight: bold;
+      text-decoration: none;
+      color: red;
   }
 
   header {
       text-align: center;
   }
+
+  header h1 {
+        /*
+        position: relative;
+        bottom: 60px;
+        width: 50%;
+        */
+        text-align: center;
+  }
+
+  footer {
+      text-align: center;
+  }
+
+  @media screen and (min-width: 1500px) {
+      .main-content {
+          width: 1170px;
+          margin: 0 auto;
+      }
+  }
+
+  @media screen and (max-width: 580px) {
+
+        .main-content {
+            display: block;
+        }
+        .main-content article {
+            display: block;
+
+        }
+  }
+
+  /*780px mobile breakpoint*/

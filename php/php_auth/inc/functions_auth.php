@@ -4,6 +4,42 @@ function isAuthenticated() {
     return $session->get('auth_logged_in', false);
 }
 
+
+
+//Function that checks role of a user if user not logged in, not admin 
+function isAdmin() {
+    if (!is_authenticated()) {
+        //if user not logged in, not admin
+        return false;
+    }
+
+    global $session;
+    //check if user has an admin role
+    return $session->get('auth_roles') === 1;
+
+}
+
+//function that checks if user is an admin
+function requireAdmin() {
+	if (!isAdmin()) {
+        global $session;
+        $session->getFlashBag()->add('error', 'Not Authorised. Requires Admin privileges');
+        redirect('/jgdm-100daysofcode/php/php_auth/login.php');
+    }
+}
+ 
+
+//function check a user whos is logged in is the owner of a book.
+function isOwner($owner_id) {
+	//if not logged in, user cannot be the owner
+    if (!isAuthenticated()) {
+        return false;
+	}
+	
+    global $session;
+	return $ownerId == $session->get('auth_user_id');
+}
+
 //
 function getAuthenticatedUser() {
     global $session;

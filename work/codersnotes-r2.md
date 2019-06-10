@@ -10,11 +10,37 @@
 
 ### PHP Authentication Steps  - PHP and SQLite
 
++ Capture registration variables from the request object - form attributes
++ check passwords are the same
++ Check that a username already exists
++ Remove session variables so user is logged out
++ automatically log in a newly registered user
++ add a conditional to show a link only when verified
++ function to verify if a user is logged in
++ store user details in a session and then log in
++ check the provided passwords match
++ Lock out certain portions of a page conditional around certain potions of a page  
++ Administration control panel (Authorisation) - implemented
++ Promote and Demote users (Authorisation) - implemented
+
 
 ## Day 69
 
 Left Sided navigation example
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push 
+
+```javascript
+//display left hand menu with a width of 250px.  Push main content to the right
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  //display left hand menu with a width of 0px.  Push main content to the left, reversing openNav();
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+  ```
 
 ## Day 67 & 68
 

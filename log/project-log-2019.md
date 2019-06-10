@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 69 of 100. **Last Update:** 07 June 2019
+## **Status:** Day 70 of 100. **Last Update:** 10 June 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D70:** Monday 10th June 2019
++ **Notes**
+  +  Got my bearings back on my little project using the DOM to create a Simple list maker app, made further progress on the PHP authentication site I've been building and styled the page with left sided push navigation. All good.
+  + **Technologies Used** - PHP, JavaScript, HTML, CSS
 
 ### **R2D69:** Friday 7th June 2019
 + **Notes**

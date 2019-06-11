@@ -1,7 +1,7 @@
 <?php
 //add bootstrap file
 require_once __DIR__ .'/../inc/bootstrap.php';
-requireAuth();
+requireAdmin();
 
 
 $user = changeRole(request()->get('userId'), request()->get('roleId'));

@@ -1,4 +1,4 @@
-git status<?php
+<?php
 /*
  * Functions to interface with `user` table
  */

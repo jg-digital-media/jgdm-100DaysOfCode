@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/inc/bootstrap.php';
-requireAuth();
+requireAdmin();
 require_once __DIR__ . '/templates/header.php';
 require_once __DIR__ . '/templates/nav.php';
 ?>
@@ -22,27 +22,28 @@ require_once __DIR__ . '/templates/nav.php';
                     <!-- loop through each user and provide admin buttons -->
                     <?php foreach (getAllUsers() as $user) : ?>
                         <tr>
-                        <td><?php echo $user['username']; ?></td>
-                        <td><?php echo $user['created_at']; ?></td>
-                        <td><?php if (isOwner($user['id'])) : ?>
-                                <span class="btn btn-xs btn-default"> Cannot alter your own role</span>
-                            <?php else : ?> 
-                                <?php if ($user['role_id'] == 1) : ?>
-                                  
-                                <!-- demote user-->
-                                <a href="/jgdm-100daysofcode/php/php_auth/procedures/adjustRole.php?roleId=2&userId=<?php echo $user['id']; ?>" class="btn btn-xs btn-warning">Demote to Regular User</a> <br />
-                        
-                                
-                                <?php elseif ($user['role_id'] == 2) : ?>
+                            <td><?php echo $user['username']; ?></td>
+                            <td><?php echo $user['created_at']; ?></td>
+                            <td><?php if (isOwner($user['id'])) : ?>
+                                    <span class="btn btn-xs btn-default">Cannot alter your own role</span>
+                                <?php else : ?> 
+                                    <?php if ($user['role_id'] == 1) : ?>
+                                    
+                                    <!-- demote user-->
+                                    <a href="/jgdm-100daysofcode/php/php_auth/procedures/adjustRole.php?roleId=2&userId=<?php echo $user['id']; ?>" class="btn btn-xs btn-warning">Demote to Regular User</a> <br />
+                            
+                                    
+                                    <?php elseif ($user['role_id'] == 2) : ?>
 
-                                <!-- promote user -->
-                                <a href="/jgdm-100daysofcode/php/php_auth/procedures/adjustRole.php?roleId=1&userId=<?php echo $user['id']; ?>" class="btn btn-xs btn-success">Promote to Administrator</a><br /> 
+                                    <!-- promote user -->
+                                    <a href="/jgdm-100daysofcode/php/php_auth/procedures/adjustRole.php?roleId=1&userId=<?php echo $user['id']; ?>" class="btn btn-xs btn-success">Promote to Administrator</a><br /> 
 
+                                    <?php endif; ?>
                                 <?php endif; ?>
-                            <?php endif; ?>   </td>
-                            </tr>
+                            </td>
+                        </tr>
 
-                            <?php endforeach; ?>
+                    <?php endforeach; ?>
                      
                 </tbody>
              </table>

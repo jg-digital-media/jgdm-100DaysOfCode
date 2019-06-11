@@ -8,7 +8,7 @@ function isAuthenticated() {
 
 //Function that checks role of a user if user not logged in, not admin 
 function isAdmin() {
-    if (!is_authenticated()) {
+    if (!isAuthenticated()) {
         //if user not logged in, not admin
         return false;
     }
@@ -30,7 +30,7 @@ function requireAdmin() {
  
 
 //function check a user whos is logged in is the owner of a book.
-function isOwner($owner_id) {
+function isOwner($ownerId) {
 	//if not logged in, user cannot be the owner
     if (!isAuthenticated()) {
         return false;

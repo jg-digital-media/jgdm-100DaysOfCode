@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Using AJAX</title>
+
+    <script>
+
+        //instantiate a new object to work with AJAX
+        const xhr = new XMLHttpRequest();
+
+
+        // callback function  the programming you want to run the function
+        // when requested done by a browser event. This event is onreadystatechange. 
+        // AJAX has its own browser events
+        xhr.onreadystatechange = function() {
+
+
+            if (xhr.readyState === 4) {
+                //code
+                document.getElementById('ajax').innerHTML = xhr.responseText;
+            } /*else {
+                document.write("Error loading file");
+            }*/
+
+        };
+
+        //open an ajax request
+        xhr.open('GET', 'ajax.html');
+        //Send an ajax request
+        xhr.send();
+    </script>
+</head>
+<body>
+    <header>
+        <p></p>
+    </header>
+
+    <main>
+        <h2>Project AJAX</h2>
+
+        <a href="index.html" target="blank" class="ajax-nav">Ex: 1</a> |
+        <a href="example2.html" target="blank" class="ajax-nav">Ex: 2</a> 
+         
+        <article id="ajax"></article>
+    </main>
+
+    <footer>
+        <p></p>
+    </footer>
+    
+</body>
+</html>

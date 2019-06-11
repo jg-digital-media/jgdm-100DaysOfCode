@@ -91,8 +91,19 @@ list.addEventListener('click', (e) => {
             const span = li.firstElementChild;
             const input = document.createElement('input');
             input.type = 'text';
+            input.value = span.textContent;
+            button.textContent = 'Save Task';
             li.insertBefore(input, span);
             li.removeChild(span);
+            
+        } else if (button.textContent == "Save Task") {
+            const input = li.firstElementChild;
+            const span = document.createElement('span');
+            span.textContent = input.value;
+            button.textContent = 'Edit Task';
+
+            li.insertBefore(span, input);
+            li.removeChild(input);
         }
     }
 });

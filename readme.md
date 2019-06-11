@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 2: Day 70 of 100. **Last Update:** 10th June 2019
++ **Status:** Round 2: Day 71 of 100. **Last Update:** 11th June 2019
 
 ## Directories
   + bin
@@ -22,6 +22,7 @@
     + Maps
     + MyFirstApp
   + javascript
+    + ajax
     + dom
     + four_in_a_row
     + iteration-methods

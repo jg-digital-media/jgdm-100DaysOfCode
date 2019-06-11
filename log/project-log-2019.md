@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 70 of 100. **Last Update:** 10 June 2019
+## **Status:** Day 71 of 100. **Last Update:** 11 June 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D70:** Tuesday 10th June 2019
++ **Notes**
+  +  Very pleased again with progress and understanding again on PHP Authentication.  Application is almost complete. Also did a refresher on AJAX programming today with JavaScript. 
+  + **Technologies Used** - PHP, JavaScript, AJAX, HTML, CSS
 
 ### **R2D70:** Monday 10th June 2019
 + **Notes**

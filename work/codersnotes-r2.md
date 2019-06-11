@@ -6,6 +6,55 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 71
+
+### PHP Administration panel authentication
+
+
+```php
+<?php if (isOwner($user['id'])) : ?>
+
+<?php else : ?>
+    <?php ($user['role_id'] == 1) : ?>
+
+
+    <?php elseif ($user['role_id'] == 2) : ?>
+
+    <?php endif; ?>
+<?php endif; ?>
+```
+
+### JavaScript and AJAX
+
+```javascript
+
+    //instantiate a new object to work with AJAX
+    const xhr = new XMLHttpRequest();
+
+
+    // callback function  the programming you want to run the function
+    // when requested done by a browser event. This event is onreadystatechange. 
+    // AJAX has its own browser events
+    xhr.onreadystatechange = function() {
+
+
+        if (xhr.readyState === 4) {
+            //code
+            document.getElementById('ajax').innerHTML = xhr.responseText;
+        } /*else {
+            document.write("Error loading file");
+        }*/
+
+    };
+
+    //open an ajax request
+    xhr.open('GET', 'ajax.html');
+    //Send an ajax request
+    xhr.send()
+
+```
+
+
 ## Day 70
 
 ### PHP Authentication Steps  - PHP and SQLite

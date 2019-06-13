@@ -9,20 +9,32 @@ const list = document.getElementById("task-list");  //select element to be child
 const removeButton = document.getElementsByClassName('remove');
 const editButton = document.getElementsByClassName('edit');
 
+//filter elements
+const filterDiv = document.createElement('div');
+const filterLabel = document.createElement('label');
+const filterCheckBox = document.createElement('input');
+
+filterLabel.textContent = "Remove/Hide completed tasks";
+filterLabel.htmlFor = "filter-tasks";
+filterCheckBox.id = "filter-tasks";
+filterCheckBox.type ="checkbox";
+
+filterDiv.appendChild(filterLabel);
+filterDiv.appendChild(filterCheckBox);
+displayList.insertBefore(filterDiv, list);
+
 function createLi(getText) {
     
     //Add list item content to the screen.
     const li = document.createElement("li");    //create an element that'll,  appended created element.
     const span = document.createElement("span");     //li.textContent = getText;  //grab text from input box. 
     const p = document.createElement("p");
-    p.textContent = getText;
+    
     span.textContent = getText;
     li.appendChild(span);
     list.appendChild(li); //select parent
     li.appendChild(p);    
     li.className = "task";  
-    
-
 
     /*Create checkbox*/
     const checkbox = document.createElement('input');
@@ -62,6 +74,31 @@ form.addEventListener('submit', (e) => {
     console.log("The returned message is: " + input.value + "empty");
 })
 
+
+filterCheckBox.addEventListener('change', (e) => {
+    const isChecked = e.target.checked;
+    const lis = list.children;
+ 
+    if(isChecked) {
+        for(let i=0; i<lis.length; i += 1) {
+            let li = lis[i];
+            if (li.className === "complete") {
+            li.style.display = '';
+            } else {
+            li.style.display = 'none';
+            }
+        }
+    } else {
+        for(let i=0; i<lis.length; i+= 1) {
+            let li = lis[i];
+            li.style.display = '';
+ 
+        }
+    }
+ 
+});
+
+//redundant code?
 list.addEventListener('change', (e) => {
     const checkbox = event.target;
     const checked = checkbox.checked;

@@ -5,6 +5,27 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 72
+
+### Ajax
+
+
+```javascript
+var xhr = new XMLHttpRequest();
+xhr.onreadystatechange = function() {
+  if(xhr.readyState === 4) {
+    //code
+    if(xhr.status === 200) {
+      //code
+    }  
+    //get response text from tyhe server
+    document.getElementById('sidebar').innerHTML = xhr.responseText;
+  }
+
+};
+xhr.open('GET', 'sidebar.html');
+xhr.send();
+```
 
 ## Day 71
 

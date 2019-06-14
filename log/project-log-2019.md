@@ -1,12 +1,17 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 72 of 100. **Last Update:** 11 June 2019
+## **Status:** Day 73 of 100. **Last Update:** 14 June 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
-### **R2D72:** Wednesday 13th June 2019
+### **R2D73:** Friday 14th June 2019
++ **Notes**
+  + JavaScript and Ajax were the order of today.  Putting Ajax to an example project using JSON as my data source. Next up for this project, building up the data and styling the bulk of the static site before preparing it to pull the data using Ajax. 
++ **Technologies Used** - JavaScript, AJAX, HTML, CSS
+
+### **R2D72:** Thursday 13th June 2019
 + **Notes**
   + Finished off the authentication part of the PHP project.  Spent some more time dabbling in DOM manipulation too with JavaScript. I love doing that I'm going to keep sharpening my skills with this.  It's almost done.
 + **Technologies Used** - PHP, JavaScript, AJAX, HTML, CSS

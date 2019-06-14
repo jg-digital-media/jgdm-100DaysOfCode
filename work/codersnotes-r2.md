@@ -5,6 +5,31 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 73
+
+### JSON working example
+
+```javascript
+project example
+
+[
+
+  {
+    "name": "aimee",
+    "inoffice" : false
+  },
+  {
+    "name": "Amit",
+    "inoffice" : true
+  },
+  {
+    "name": "Ben",
+    "inoffice" : true
+  },
+]
+```
+
+
 ## Day 72
 
 ### Ajax

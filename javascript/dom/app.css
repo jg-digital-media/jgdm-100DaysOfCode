@@ -77,7 +77,7 @@
         
         article ul li {
             line-height: 2;
-            width: 48%;
+            width: 60%;   /*48*/
             display: inline-block;
             margin-right: 10px;
             height: 51px;

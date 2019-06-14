@@ -23,6 +23,15 @@ filterDiv.appendChild(filterLabel);
 filterDiv.appendChild(filterCheckBox);
 displayList.insertBefore(filterDiv, list);
 
+//Define task number
+let num = 0;
+
+function taskNumber(num) {
+    num = num + 1;
+
+    return num;
+}
+
 function createLi(getText) {
     
     //Add list item content to the screen.
@@ -52,9 +61,14 @@ function createLi(getText) {
     removeButton.textContent = "Remove";
     removeButton.className = "remove";     
     li.appendChild(removeButton); 
-    return li;  
+    //return li;  
+
+    taskNumber(num);
 
 }
+
+
+
 
 //ul
 form.addEventListener('submit', (e) => {
@@ -63,12 +77,14 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
 
     /*Create input text box*/ 
-    const getText = input.value;    
+    //const taskNumber = num + 1;
+    const getText = "Task: " + taskNumber(num) + " " + input.value;    
     input.value = "";
     input.textContent = getText;
 
     //Add list item to DOM
-    createLi(getText)
+    createLi(getText);
+    //const getText = "Task: " + taskNumber(num) + " " + input.value; 
     
     //Console log
     console.log("The returned message is: " + input.value + "empty");
@@ -83,9 +99,9 @@ filterCheckBox.addEventListener('change', (e) => {
         for(let i=0; i<lis.length; i += 1) {
             let li = lis[i];
             if (li.className === "complete") {
-            li.style.display = '';
+                li.style.display = 'none';
             } else {
-            li.style.display = 'none';
+                li.style.display = '';
             }
         }
     } else {

@@ -26,3 +26,22 @@ header img {
     padding: 20px;
 }
 
+
+/*stock*/
+.in-stock {
+    background: green;
+}
+
+.out-stock {
+    background: red;
+}
+
+.low-stock {
+    background: yellow;
+}
+
+/*main styles*/
+
+/*key*/
+
+/*footer*/

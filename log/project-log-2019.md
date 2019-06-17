@@ -1,35 +1,40 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 73 of 100. **Last Update:** 14 June 2019
+## **Status:** Day 74 of 100. **Last Update:** 17 June 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+### **R2D74:** Monday 17th June 2019
++ **Notes**
+  + Switching to client work today. Building a website design that will become a brand new WordPress theme! Tied up with the content layer so far. It's going to be very exciting!  :) 
++ **Technologies Used** - HTML5, CSS
+
 ### **R2D73:** Friday 14th June 2019
 + **Notes**
   + JavaScript and Ajax were the order of today.  Putting Ajax to an example project using JSON as my data source. Next up for this project, building up the data and styling the bulk of the static site before preparing it to pull the data using Ajax. 
-+ **Technologies Used** - JavaScript, AJAX, HTML, CSS
++ **Technologies Used** - JavaScript, AJAX, HTML5, CSS
 
 ### **R2D72:** Thursday 13th June 2019
 + **Notes**
   + Finished off the authentication part of the PHP project.  Spent some more time dabbling in DOM manipulation too with JavaScript. I love doing that I'm going to keep sharpening my skills with this.  It's almost done.
-+ **Technologies Used** - PHP, JavaScript, AJAX, HTML, CSS
++ **Technologies Used** - PHP, JavaScript, AJAX, HTML5, CSS
 
 ### **R2D71:** Tuesday 11th June 2019
 + **Notes**
   +  Very pleased again with progress and understanding again on PHP Authentication.  Application is almost complete. Also did a refresher on AJAX programming today with JavaScript. 
-  + **Technologies Used** - PHP, JavaScript, AJAX, HTML, CSS
+  + **Technologies Used** - PHP, JavaScript, AJAX, HTML5, CSS
 
 ### **R2D70:** Monday 10th June 2019
 + **Notes**
   +  Got my bearings back on my little project using the DOM to create a Simple list maker app, made further progress on the PHP authentication site I've been building and styled the page with left sided push navigation. All good.
-  + **Technologies Used** - PHP, JavaScript, HTML, CSS
+  + **Technologies Used** - PHP, JavaScript, HTML5, CSS
 
 ### **R2D69:** Friday 7th June 2019
 + **Notes**
   + PHP and SQlite Set up the ability to change password.  HTML and CSS - studying and expanding an example of using a SideNav push navigation and explore styling with the remaining available space. 
-  + **Technologies Used** - PHP, JavaScript, HTML, CSS
+  + **Technologies Used** - PHP, JavaScript, HTML5, CSS
 ### **R2D68:** Thursday 6th June 2019
 + **Notes**
   + Finished off the Authentication part of my project today.  Next comes Authorisation which is the really tricky part. Making sure the right people have the right access to website features.

@@ -1,14 +1,19 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 75 of 100. **Last Update:** 18 June 2019
+## **Status:** Day 76 of 100. **Last Update:** 24 June 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+### **R2D76:** Monday 24th June 2019
++ **Notes**
+  + As Monday  R2D75 :) 
++ **Technologies Used** - HTML5, CSS
+
 ### **R2D75:** Tuesday 18th June 2019
 + **Notes**
-  + As Monday  :) 
+  + As Monday  R2D74 :) 
 + **Technologies Used** - HTML5, CSS
 
 ### **R2D74:** Monday 17th June 2019

@@ -5,6 +5,22 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 76
+ 
+ ### Refactor an existing authentication project by using cookies and JSON Web Token to increase security
+
+```php
+<?php
+//Creating a Cookie using the Foundation package 
+
+create a cookie with.... 
+
+//functions_auth.php 
+
+$cookie = new Symfony\Component\HttpFoundation\Cookie('auth_user_id', (int) $user['id']);
+```
+
 ## Day 73
 
 ### JSON working example

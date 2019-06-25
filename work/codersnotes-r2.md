@@ -8,16 +8,14 @@
 
 ## Day 76
  
- ### Refactor an existing authentication project by using cookies and JSON Web Token to increase security
+### Refactor an existing authentication project by using cookies and JSON Web Token to increase security
+ 
+#### Creating a Cookie using the Foundation package 
 
 ```php
-<?php
-//Creating a Cookie using the Foundation package 
+<?php  
 
-create a cookie with.... 
-
-//functions_auth.php 
-
+//functions_auth.php
 $cookie = new Symfony\Component\HttpFoundation\Cookie('auth_user_id', (int) $user['id']);
 ```
 

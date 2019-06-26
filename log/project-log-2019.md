@@ -1,14 +1,19 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 77 of 100. **Last Update:** 27 June 2019
+## **Status:** Day 78 of 100. **Last Update:** 26 June 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+### **R2D78:** Wednesday 26th June 2019
++ **Notes**
+  + Busy with lots of things today.  Presented my draft to a client. Reviewing what I need to learn about Custom Post Types in WordPress. Also caught up with some other projects in AJAX and JavaScript.
++ **Technologies Used** - HTML5, CSS, JavaScript, PHP
+
 ### **R2D77:** Tuesday 25th June 2019
 + **Notes**
-  + Almost finished the design for my new WordPress theme for a client.  I'm really happy with what I've put together (Sticky Nav Bar and responsive grid clicable grid system)  Hope my client will be too.  :-)
+  + Almost finished the design for my new WordPress theme for a client.  I'm really happy with what I've put together (Sticky Nav Bar and responsive grid clickable grid system)  Hope my client will be too.  :-)
   + Also started looking into Cookies in PHP again today - how to create them and manage them. Will be exploring how to do this with and without the Symfony HTTP package.
 + **Technologies Used** - HTML5, CSS, JavaScript
 

@@ -5,6 +5,48 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 78
+
+### Cookies
+
+Example 1
+```php
+<?php
+//functions_auth.php
+$cookie = new Symfony\Component\HttpFoundation\Cookie('auth_user_id', (int) $user['id']);
+?>
+
+```
+
+Example 2
+
+```php
+<?php
+setcookie("user_name", "Guru99", time()+ 60,'/');
+?>
+
+```
+
++ cookies allow us to track the state of the application using small files stored on the user’s computer.
+
++ Personalise the user experience 
+
++ Track pages visited by a user
+
+
+### Creating Cookies - Basic Syntax
+
+```php
+
+ setcookie(cookie_name, cookie_value, [expiry_time], [cookie_path], [domain], [secure], [httponly]);
+
+```
++ cookie_name and cookie_value are mandatory parameters
++ cookie_path - set the path of the cookie on the server
++ secure - sent by https or http.  
++ domain e.g. www.cookiedomain.com
+
+setcookie("user_name", "Guru99", time()+ 60,'/'); // expires after 60 seconds
 
 ## Day 76
  

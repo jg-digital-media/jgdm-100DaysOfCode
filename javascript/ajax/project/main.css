@@ -1,4 +1,5 @@
 /**/
+
 * {
     padding: 0;
     margin: 0;
@@ -6,6 +7,7 @@
 
 body {
     background: #d8d1d1;
+    font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -26,6 +28,22 @@ header img {
     padding: 20px;
 }
 
+header #main-title {
+    color: white
+}
+
+header #main-logo {
+    width: 81px;
+    height: 51px;
+    display: block;
+}
+
+header #slogan {
+    color: white;
+    padding: 20px;
+    font-size: 20pt;
+}
+
 
 main {
     display: flex;
@@ -33,7 +51,7 @@ main {
 }
 
 #main-content {
-    width: 40%;
+    width: 33%;
     margin: 10px;
 }
 
@@ -58,12 +76,22 @@ main {
     border: solid red 1px;
 }
 
+.stock-image {
+    /**/
+}
+
+.description {
+    text-align: left;
+    padding: 3px;
+}
+
 .in-stock {
     background: green;
     display: inline-block;
     width: 200px;
     text-align: center;
     padding: 10px 0px;
+    font-weight: bold;
 }
 
 .out-stock {
@@ -72,6 +100,7 @@ main {
     width: 200px;
     text-align: center;
     padding: 10px 0px;
+    font-weight: bold;
 }
 
 .low-stock {
@@ -80,6 +109,7 @@ main {
     width: 200px;
     text-align: center;
     padding: 10px 0px;
+    font-weight: bold;
 }
 
 #key {
@@ -90,8 +120,23 @@ main {
     margin-left: 37px;
 }
 
+
+
+#main-content h2 {
+    font-size: 20pt;
+    margin-bottom: 15px;
+}
+
+#main-content p {
+    line-height: 1.9;
+}
+
 footer {
     text-align: center;
+}
+
+footer p {
+    margin-top: 10px;
 }
 
 /*main styles*/
@@ -106,6 +151,22 @@ footer {
 /*1200px breakpoint  #list*/
 
 /*868px breakpoint #list*/
+
+@media screen and (max-width: 868px) {
+    .list-item {
+        width: 300px;
+    }
+
+    .list-item img {
+        width: 100%;
+    }
+
+    .list-item .low-stock,
+    .list-item .out-stock,
+    .list-item .in-stock {
+        width: 100%;
+    }
+}
 
 /*780px breakpoint*/
 
@@ -135,6 +196,5 @@ footer {
         
 
     }
-
 
 }

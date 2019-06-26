@@ -37,12 +37,12 @@ function createLi(getText) {
     //Add list item content to the screen.
     const li = document.createElement("li");    //create an element that'll,  appended created element.
     const span = document.createElement("span");     //li.textContent = getText;  //grab text from input box. 
-    const p = document.createElement("p");
+    //const p = document.createElement("p");
     
     span.textContent = getText;
     li.appendChild(span);
     list.appendChild(li); //select parent
-    li.appendChild(p);    
+    //li.appendChild(p);    
     li.className = "task";  
 
     /*Create checkbox*/
@@ -145,6 +145,7 @@ list.addEventListener('click', (e) => {
             const input = document.createElement('input');
             input.type = 'text';
             input.value = span.textContent;
+            input.className = "task-edit";
             button.textContent = 'Save Task';
             li.insertBefore(input, span);
             li.removeChild(span);

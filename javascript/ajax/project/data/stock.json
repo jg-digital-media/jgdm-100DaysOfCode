@@ -1,0 +1,20 @@
+[
+    {
+        "img": "img/stock/stock.png",
+        "description":"This is an item description",
+        "stock_level": "In Stock",
+        "stock_class": "in-stock"
+    }, {
+        
+        "img": "img/stock/stock.png",
+        "description":"This is an item description",
+        "stock_level": "Out of Stock",
+        "stock_class": "out-stock"
+    }, {
+        
+        "img": "img/stock/stock.png",
+        "description":"This is an item description",
+        "stock_level": "Low Stock",
+        "stock_class": "low-stock"
+    }
+]

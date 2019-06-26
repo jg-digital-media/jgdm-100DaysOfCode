@@ -10,20 +10,38 @@ console.log("connected!");
     //.in-stock
     //.out-stock
 
-/*ajax
-
-       //instantiate a new object to work with AJAX
-        const xhr = new XMLHttpRequest();
-
-        xhr.onreadystatechange = function() {
 
 
-            if (xhr.readyState === 4) {
-                //code
-                document.getElementById('ajax').innerHTML = xhr.responseText;
-            } else {
-                document.write("Error loading file");
-            }
+//instantiate a new object to work with AJAX
+let xhr = new XMLHttpRequest();
 
-        };
-*/
+xhr.onreadystatechange = function() {
+
+
+    if (xhr.readyState === 4) {
+        
+       
+
+        var stock = JSON.parse(xhr.responseText);
+        var writeHTML = "<h1>Stock</h1>";
+        writeHTML += "<ul>";
+        writeHTML += stock[0].img;
+        writeHTML += "</ul>";        
+
+        
+        console.log(writeHTML); 
+
+        //code
+        xhr = document.getElementById('list').innerHTML = writeHTML;
+        //document.write("Ajax loaded");
+        console.log("Ajax loaded!");
+    } else {
+        //document.write("Error loading file");
+        console.log("Problem loading Ajax");
+    }
+
+};
+
+xhr.open('GET', '../project/data/stock.json');
+
+xhr.send();

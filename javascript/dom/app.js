@@ -124,7 +124,7 @@ list.addEventListener('change', (e) => {
         listItem.className="complete";
 
     } else {
-        listItem.className="";
+        listItem.className="task";
     }
 
 })

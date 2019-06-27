@@ -6,13 +6,16 @@
 
         body {
             background: lavender;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         }
 
         header {
             background: blue;
             color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             margin-bottom: 20px;
             border-bottom: darkblue solid 5px;
+            height: 100px;
         }
 
         label {
@@ -22,6 +25,7 @@
 
         h1 {
             font-size: 4vw;
+            letter-spacing: 3px;
             text-align: center;
         }
 
@@ -33,6 +37,7 @@
         .complete {
             text-decoration: line-through;
             color: gray;
+            width: 100%;
         }
 
         input[type="text"] {
@@ -68,10 +73,10 @@
         
         article {
             margin: 20px auto;
-            width: 50%;
+            width: 73%;
             background: greenyellow;
             padding: 20px;
-            font-family: arial;
+            /*font-family: arial;*/
             font-size: 20px;
         }
 
@@ -103,8 +108,18 @@
         }
 
         /*media query*/
-        @media screen and (max-width: 1100px) {
-            li.task {
+        @media screen and (min-width: 1600px) {
+            header h1 {
+                font-size: 64px;
+            }
+
+            #display-list {
+                width: 1158px;
+            }
+        }
+        @media screen and (max-width: 1200px) {
+            li.task,
+            li.complete {
                 width: 100%;
                 display: block;
             }
@@ -119,4 +134,27 @@
             #task-list {
                 width: 95%;
             }
+
+            header {
+                height: 45px;
+            }
+
+            input[type="text"] {
+                padding: 10px;
+                display: block;
+                margin-top: 5px;
+            }
+        }
+
+        @media screen and (max-width: 650px) {
+            article ul li {
+                display: block;
+                height: auto;              
+            }
+
+            article ul li span, 
+            article ul li input.task-edit {
+                display: block;
+            }
+
         }

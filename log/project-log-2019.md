@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 78 of 100. **Last Update:** 26 June 2019
+## **Status:** Day 79 of 100. **Last Update:** 27 June 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D79:** Thursday 27th June 2019
++ **Notes**
+  + Worked on finishing one of my side projects with JS DOM Scripting.  Here it is!  https://projects.jonniegrieve.co.uk/list_maker/ Based on material I've learned but taught me a bit about JS and the DOM
++ **Technologies Used** - HTML5, CSS, JavaScript, PHP
 
 ### **R2D78:** Wednesday 26th June 2019
 + **Notes**

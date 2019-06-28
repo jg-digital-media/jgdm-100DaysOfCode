@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 79 of 100. **Last Update:** 27 June 2019
+## **Status:** Day 80 of 100. **Last Update:** 28 June 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D80:** Friday 28th June 2019
++ **Notes**
+  + Got in some crucial practice in working with WordPress Custom Post Types and gained that new skill in the process. I'm itching to put this into practice for my next client project.
++ **Technologies Used** - HTML5, CSS, PHP, WordPress
+
 
 ### **R2D79:** Thursday 27th June 2019
 + **Notes**

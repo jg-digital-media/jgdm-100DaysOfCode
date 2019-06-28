@@ -5,6 +5,23 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 80
+
+WordPress Steps - Enqueuing Styles and themes.
+
+-> Install WordPress
+
+-> Create Database
+
+-> Theme Files    style.css, screenshot.png, index.php
+
+-> header.php   ( wp_head(); );  - loads in any enqueued scripts and styles
+
+-> footer.php   ( wp_footer() ); - displays WordPress admin bar.
+
+
+-> Using comments to differentiate between Themes and Theme Templates 
+
 ## Day 78
 
 ### Cookies

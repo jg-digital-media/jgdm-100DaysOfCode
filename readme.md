@@ -56,23 +56,44 @@
 
 ## What's in this Repo....
 
-    + **bin** - Discarded or duplicate projects - will not be developed further.
-    + **log** - Additions to log for #100daysofcode will go here
-    + **work** - Coders notes directory - interesting or helpful notes and tops will go in this folder.
-    + Other folders are organised by language, library or platform name.
++ **bin** - Discarded or duplicate projects - will not be developed further.
++ **log** - Additions to log for #100daysofcode will go here
++ **work** - Coders notes directory - interesting or helpful notes and topics will go in this folder.
++ Other folders are organised by language, library or platform name.
 
-## Slim Projects 
+### Project Links
 
-```html
-<ul>
-    <li><strong>mvc-framework</strong> - Treehouse Example - Ralph Waldo Emerson. </li>
-    <li><strong>php_test</strong> -  Getting into practice with Unit testing for PHP.</li>
-    <li><strong>slim</strong> - Custom Project - A Website built with Slim Routing. </li>
-    <li><strong>slimmin</strong> - Single page App with Slim.</li>
-    <li><strong>twig</strong> - Custom Project with the Twig Template Engine in Slim.</li> 
-    <li><strong>twig_project</strong> - Currently empty - A new project in Twig.</li>
-</ul>
-```
+CSS
+
++ **css/balloon** - Balloon Flight Experience Website - https://projects.jonniegrieve.co.uk/balloon/
++ **css/Modernizr** - Simple List Maker App - https://projects.jonniegrieve.co.uk/list_maker
++ **css/portfolio-gallery** - Portfolio Gallery - https://project.jonniegrieve.co.uk/portfolio-gallery
++ **css/sass_project** - Sass Project - Single Image Swipe Gallery - https://projects.jonniegriece.co.uk/sass_project
+
+JavaScript
+
++ **javascript/ajax** - Balloon Flight Experience Website - https://projects.jonniegrieve.co.uk/balloon/
++ **javascript/dom** - Balloon Flight Experience Website - https://projects.jonniegrieve.co.uk/balloon/
++ **javascript/four_in_a_row** - Balloon Flight Experience Website - https://projects.jonniegrieve.co.uk/balloon/
+* **javascript/library** - library based JS OOP Project - not yet uploaded
++ **javascript/vue/vue-status-project** - Balloon Flight Experience Website - https://projects.jonniegrieve.co.uk/vue_project/
+
+PHP
+
++ **php/mvc-framework** - Treehouse Example - Ralph Waldo Emerson - not yet uploaded
++ **php/php_auth** - PHP Authentication (with Symfony PHP Package) - not yet uploaded  
++ **php/php_test** - Getting into practice with Unit testing for PHP - not yet uploaded 
++ **php/slim** - Custom Project - A Website built with Slim Routing - not yet uploaded  
++ **php/slimmin** - Single page App with Slim - not yet uploaded 
++ **php/twig** - Custom Project with the Twig Template Engine in Slim - not yet uploaded 
++ **php/twig_project** - Currently empty - A new project in Twig - not yet uploaded
+
+React
+
++ **react/scoreboard** - Basic version of the scoreboard counter app  - not yet uploaded
++ **react/scoreboard_v2** - Second version of the scoreboard counter App  - not yet uploaded
++ **react/tictactoe** - practice app for React building a simple tictactoe game  - not yet uploaded
+
 
 ## Description
 

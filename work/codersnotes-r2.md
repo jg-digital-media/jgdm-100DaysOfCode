@@ -5,6 +5,59 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 81
+
+
+Have set up a cookie.  But still no way to see how and where it is stored other than a ```var_dump()```;
+
+
+### Define the details of individual cookies are created using Symfony's Foundation package. 
+
+```php
+<?php
+    //Create Cookies
+    $cookieId = new Symfony\Component\HttpFoundation\Cookie(
+        'auth_user_id',
+        (int) $user['id']
+    );
+    
+    
+    $cookieRoles = new Symfony\Component\HttpFoundation\Cookie(
+        'auth_roles',
+        (int) $user['role_id']
+    );
+```
+
+### setCookie is the function that actually creates the cookie
+
+```php
+<?php
+
+function redirect($path, $extra = []) {
+    $response = \Symfony\Component\HttpFoundation\Response::create(null, \Symfony\Component\HttpFoundation\Response::HTTP_FOUND, ['Location' => $path]);
+
+    if(key_exists('cookies', $extra)) {
+        foreach ($extra['cookies'] as $cookie) {
+             $response->headers->setCookie($cookie);
+        }
+    }
+    $response->send();
+    exit;
+}
+?>
+
+```
+
+### pass cookies to the redirect function
+    
+```php
+    <?php 
+
+    redirect('/jgdm-100daysofcode/php/php_auth/', ['cookies' => [$cookieId, $cookieRoles]]);
+
+    ?>
+```
+
 ## Day 80
 
 WordPress Steps - Enqueuing Styles and themes.

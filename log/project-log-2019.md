@@ -1,10 +1,14 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 80 of 100. **Last Update:** 28 June 2019
+## **Status:** Day 81 of 100. **Last Update:** 1 July 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D80:** Monday 1st July 2019
++ **Notes** - Worked on retrieving JSON data with AJAX and JavaScript. Looking forward to seeing how this will be possible with a SQL Database.
++ **Technologies Used** - Ajax, PHP
 
 ### **R2D80:** Friday 28th June 2019
 + **Notes**

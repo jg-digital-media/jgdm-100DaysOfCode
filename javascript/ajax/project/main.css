@@ -68,6 +68,10 @@ main {
     text-align: center;
 }
 
+.stock-list {
+    display: blockl
+}
+
 .list-item {
     list-style: none;
     width: 200px;
@@ -81,7 +85,7 @@ main {
 }
 
 .description {
-    text-align: left;
+    text-align: center;
     padding: 3px;
 }
 

@@ -26,17 +26,21 @@ xhr.onreadystatechange = function() {
         console.log(typeof stock);
 
         var writeHTML = "<h1>Stock</h1>";
-        writeHTML += "<ul>";
+        writeHTML += '<ul class="stock-list">';
 
         for(i=0; i < stock.length; i++) {
-            writeHTML += '<li class= + "list-item">';
+            writeHTML += '<li class="list-item">';
             writeHTML += '<img class="stock-image" src="' 
-              + stock[i].img 
-              + '" alt="Image"/>';
+                + stock[i].img 
+                + '" alt="Image"/>';
             //stock description
-                
-            //stock level
+            writeHTML += '<p class="description">' 
+                + stock[i].description + '</p>';
 
+            //stock level
+            writeHTML += '<p class="in-stock">'
+                + "In Stock"
+                + '</p>';
 
             writeHTML += "</li>";
         }

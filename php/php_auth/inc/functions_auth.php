@@ -55,13 +55,29 @@ function requireAuth() {
         }
 }
 
-function saveUserSession($user) {
+function saveUserData($user) {
     global $session;
     
     //store user details in a session and then log in
     $session->set('auth_logged_in', true);
     $session->set('auth_user_id', (int) $user['id']);
     $session->set('auth_roles', (int) $user['role_id']);
+
+    //Create Cookies
+    $cookieId = new Symfony\Component\HttpFoundation\Cookie(
+        'auth_user_id',
+        (int) $user['id']
+    );
     
+    
+    $cookieRoles = new Symfony\Component\HttpFoundation\Cookie(
+        'auth_roles',
+        (int) $user['role_id']
+    );
+
+    //pass cookies to the redirect function
+    redirect('/jgdm-100daysofcode/php/php_auth/', ['cookies' => [$cookieId, $cookieRoles]]);
+    
+    //Success message
     $session->getFlashBag()->add('success', 'Successfully Logged In');
 }

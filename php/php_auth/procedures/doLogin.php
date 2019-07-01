@@ -19,5 +19,4 @@ if(!password_verify(request()->get('password'), $user['password'])) {
 }
 
 
-saveUserSession($user);
-redirect('/jgdm-100daysofcode/php/php_auth/');
+saveUserData($user);

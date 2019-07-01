@@ -23,9 +23,23 @@ xhr.onreadystatechange = function() {
        
 
         var stock = JSON.parse(xhr.responseText);
+        console.log(typeof stock);
+
         var writeHTML = "<h1>Stock</h1>";
         writeHTML += "<ul>";
-        writeHTML += stock[0].img;
+
+        for(i=0; i < stock.length; i++) {
+            writeHTML += '<li class= + "list-item">';
+            writeHTML += '<img class="stock-image" src="' 
+              + stock[i].img 
+              + '" alt="Image"/>';
+            //stock description
+                
+            //stock level
+
+
+            writeHTML += "</li>";
+        }
         writeHTML += "</ul>";        
 
         
@@ -42,6 +56,6 @@ xhr.onreadystatechange = function() {
 
 };
 
-xhr.open('GET', '../project/data/stock.json');
+xhr.open('GET', 'data/stock.json');
 
 xhr.send();

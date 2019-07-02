@@ -11,4 +11,7 @@ $session->remove('auth_roles');
 
 //redirect to login page
 $session->getFlashBag()->add('success', 'Successfully Logged Out');
-redirect('/jgdm-100daysofcode/php/php_auth/login.php'); 
+
+//clear cookie on logout
+$cookie = setAuthCookie('expired', time() - 3601);
+redirect('/jgdm-100daysofcode/php/php_auth/login.php', ['cookies' => $cookie]); 

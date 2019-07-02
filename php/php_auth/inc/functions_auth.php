@@ -63,6 +63,9 @@ function saveUserData($user) {
     $session->set('auth_user_id', (int) $user['id']);
     $session->set('auth_roles', (int) $user['role_id']);
 
+    //Success message
+    $session->getFlashBag()->add('success', 'Successfully Logged In');
+
     //Create Cookies
     $cookieId = new Symfony\Component\HttpFoundation\Cookie(
         'auth_user_id',
@@ -75,9 +78,32 @@ function saveUserData($user) {
         (int) $user['role_id']
     );
 
-    //pass cookies to the redirect function
-    redirect('/jgdm-100daysofcode/php/php_auth/', ['cookies' => [$cookieId, $cookieRoles]]);
+    $data = [
+        'auth_user_id' => (int) $user['id'],
+        'auth_roles' => (int) $user['role_id']
+    ];
     
-    //Success message
-    $session->getFlashBag()->add('success', 'Successfully Logged In');
+    $expTime = time() + 3600;
+    $cookie = setAuthCookie(json_encode($data), $expTime);
+
+    //pass cookies to the redirect function
+    redirect('/jgdm-100daysofcode/php/php_auth/', ['cookies' => [$cookie]]);
+    
+
+}
+
+function setAuthCookie($data, $expTime) {
+
+    $cookie = new Symfony\Component\HttpFoundation\Cookie(
+        'auth', 
+        $data,
+        $expTime,
+        '/jgdm-100daysofcode/php/php_auth/',
+        'localhost',
+        false,
+        true
+    );
+
+    return $cookie;
+
 }

@@ -13,8 +13,8 @@ require_once __DIR__ . '/templates/nav.php';
 
 <?php
 var_dump(
-    request()->cookies->has('auth_user_id'),
-    request()->cookies->get('auth_roles')  //retrieves the role id for user as stored in the cookie. 
+    request()->cookies->has('auth'),
+    //request()->cookies->get('auth_roles')  //retrieves the role id for user as stored in the cookie. 
 
 );
 

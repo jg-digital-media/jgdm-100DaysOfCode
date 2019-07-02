@@ -1,12 +1,17 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 81 of 100. **Last Update:** 1 July 2019
+## **Status:** Day 82 of 100. **Last Update:** 2 July 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
-### **R2D80:** Monday 1st July 2019
+### **R2D82:** Tuesday 2nd July 2019
++ **Notes** - Cookie authentication almost completed. Annoying bug through that cookie is not deleted on logging out. Still working that one out but in JavaScript, AJAX Project with JSON is finished. 
++ **Technologies Used** - Ajax, PHP
+
+
+### **R2D81:** Monday 1st July 2019
 + **Notes** - Worked on retrieving JSON data with AJAX and JavaScript. Looking forward to seeing how this will be possible with a SQL Database.
 + **Technologies Used** - Ajax, PHP
 

@@ -5,6 +5,16 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 82
+
+
+### Cookie problems 
+
+It's hard, working on these things with Cookies and Authentication.  Almost got Cookie authentication up and running but when logging out the cookie does not delete as it should.  Possibly because it thinks its deleting another cookie, I'm not sure.
+
+var_dump() verifies the cookie remains in place. even when logged out.
+
 ## Day 81
 
 

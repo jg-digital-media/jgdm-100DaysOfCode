@@ -16,3 +16,6 @@
  + Authorisation
    + Administration control panel - implemented
    + Promote and Demote users - implemented
+
++ Bugs
+   + Logging out does not delete cookie

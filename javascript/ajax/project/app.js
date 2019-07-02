@@ -25,22 +25,37 @@ xhr.onreadystatechange = function() {
         var stock = JSON.parse(xhr.responseText);
         console.log(typeof stock);
 
-        var writeHTML = "<h1>Stock</h1>";
+        var writeHTML = "<h2>Stock</h2>";
         writeHTML += '<ul class="stock-list">';
 
         for(i=0; i < stock.length; i++) {
             writeHTML += '<li class="list-item">';
             writeHTML += '<img class="stock-image" src="' 
                 + stock[i].img 
-                + '" alt="Image"/>';
+                + '" alt="'
+                + stock[i].img_alt
+                + '"/>';
             //stock description
             writeHTML += '<p class="description">' 
                 + stock[i].description + '</p>';
 
             //stock level
-            writeHTML += '<p class="in-stock">'
-                + "In Stock"
+            if(stock[i].stock_class === "in-stock") {
+                writeHTML += '<p class="in-stock">'
+                + stock[i].stock_level
                 + '</p>';
+            } else if (stock[i].stock_class === "out-stock") {
+                writeHTML += '<p class="out-stock">'
+                + stock[i].stock_level
+                + '</p>';
+
+            } else if(stock[i].stock_class === "low-stock") {
+                writeHTML += '<p class="low-stock">'
+                + stock[i].stock_level
+                + '</p>';
+
+            }
+            
 
             writeHTML += "</li>";
         }

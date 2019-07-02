@@ -1,20 +1,44 @@
 [
     {
         "img": "img/stock/stock.png",
-        "description":"This is an item description",
+        "img_alt": "Img alt",
+        "description":"This is an item description 1",
         "stock_level": "In Stock",
         "stock_class": "in-stock"
     }, {
         
         "img": "img/stock/stock.png",
-        "description":"This is an item description",
+        "img_alt": "Img alt 2",
+        "description":"This is an item description 2",
         "stock_level": "Out of Stock",
         "stock_class": "out-stock"
     }, {
         
         "img": "img/stock/stock.png",
-        "description":"This is an item description",
+        "img_alt": "Img alt 3",
+        "description":"This is an item description 3",
         "stock_level": "Low Stock",
         "stock_class": "low-stock"
+    }, {
+        
+        "img": "img/stock/stock.png",
+        "img_alt": "Img alt 4",
+        "description":"This is an item description 4",
+        "stock_level": "Out of Stock",
+        "stock_class": "out-stock"
+    }, {
+        
+        "img": "img/stock/stock.png",
+        "img_alt": "Img alt 5",
+        "description":"This is an item description 5",
+        "stock_level": "Low Stock",
+        "stock_class": "low-stock"
+    }, {
+        
+        "img": "img/stock/stock.png",
+        "img_alt": "Img alt 6",
+        "description":"This is an item description 6",
+        "stock_level": "In Stock",
+        "stock_class": "in-stock"
     }
 ]

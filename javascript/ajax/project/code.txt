@@ -48,3 +48,20 @@
                     <p class="description">Lorem ipsum, dolor sit amet </p>
                     <p class="out-stock">Out of Stock</p>
                 </li>
+
+                //
+                if(stock[i].stock_class === "in-stock") {
+                writeHTML += '<p class="in-stock">'
+                + stock[i].stock_level
+                + '</p>';
+            } else if (stock[i].stock_class === "out-stock") {
+                writeHTML += '<p class="out-stock">'
+                + stock[i].stock_level
+                + '</p>';
+
+            } else if(stock[i].stock_class === "low-stock") {
+                writeHTML += '<p class="low-stock">'
+                + stock[i].stock_level
+                + '</p>';
+
+            }

@@ -1,10 +1,14 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 82 of 100. **Last Update:** 2 July 2019
+## **Status:** Day 83 of 100. **Last Update:** 3 July 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D83:** Wednesday 3rd July 2019
++ **Notes** - Day of 2 halves.  Spent the first half refreshing myself on the types of React Components.  Later I got started on the second draft of a design for my client. Busy but enjoyable day! 
++ **Technologies Used** - React, SASS, HTML5
 
 ### **R2D82:** Tuesday 2nd July 2019
 + **Notes** - Cookie authentication almost completed. Annoying bug through that cookie is not deleted on logging out. Still working that one out but in JavaScript, AJAX Project with JSON is finished. 

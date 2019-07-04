@@ -1,10 +1,14 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 83 of 100. **Last Update:** 3 July 2019
+## **Status:** Day 84 of 100. **Last Update:** 4 July 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D83:** Wednesday 3rd July 2019
++ **Notes** - Submitted the second draft of my latest web project today! Looking forward to kicking on and getting it converted to a WordPress Theme! 
++ **Technologies Used** - React, SASS, HTML5
 
 ### **R2D83:** Wednesday 3rd July 2019
 + **Notes** - Day of 2 halves.  Spent the first half refreshing myself on the types of React Components.  Later I got started on the second draft of a design for my client. Busy but enjoyable day! 

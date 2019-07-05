@@ -55,9 +55,9 @@
   + work
 
 ## What's in this Repo....
-
+----
 + **bin** - Discarded or duplicate projects - will not be developed further.
-+ **log** - Additions to log for #100daysofcode will go here
++ **log** - Additions to log for #100DaysOfCode will go here
 + **work** - Coders notes directory - interesting or helpful notes and topics will go in this folder.
 + Other folders are organised by language, library or platform name.
 
@@ -72,27 +72,27 @@ CSS
 
 JavaScript
 
-+ **javascript/ajax** - Balloon Flight Experience Website - https://projects.jonniegrieve.co.uk/balloon/
-+ **javascript/dom** - Balloon Flight Experience Website - https://projects.jonniegrieve.co.uk/balloon/
-+ **javascript/four_in_a_row** - Balloon Flight Experience Website - https://projects.jonniegrieve.co.uk/balloon/
-* **javascript/library** - library based JS OOP Project - not yet uploaded
-+ **javascript/vue/vue-status-project** - Balloon Flight Experience Website - https://projects.jonniegrieve.co.uk/vue_project/
++ **javascript/ajax** - Fictional Stock Check Application with AJAX - https://projects.jonniegrieve.co.uk/ajax_project/
++ **javascript/dom** - Simple List Maker App - https://projects.jonniegrieve.co.uk/list_maker/
++ **javascript/four_in_a_row** - Balloon Flight Experience Website - https://projects.jonniegrieve.co.uk/four_in_a _row/
++ **javascript/library** - library based JS OOP Project - **not yet uploaded**
++ **javascript/vue/vue-status-project** - Project Status List to update - https://projects.jonniegrieve.co.uk/vue_project/
 
 PHP
 
-+ **php/mvc-framework** - Treehouse Example - Ralph Waldo Emerson - not yet uploaded
-+ **php/php_auth** - PHP Authentication (with Symfony PHP Package) - not yet uploaded  
-+ **php/php_test** - Getting into practice with Unit testing for PHP - not yet uploaded 
-+ **php/slim** - Custom Project - A Website built with Slim Routing - not yet uploaded  
-+ **php/slimmin** - Single page App with Slim - not yet uploaded 
-+ **php/twig** - Custom Project with the Twig Template Engine in Slim - not yet uploaded 
-+ **php/twig_project** - Currently empty - A new project in Twig - not yet uploaded
++ **php/mvc-framework** - Treehouse Example - Ralph Waldo Emerson - **not yet uploaded**
++ **php/php_auth** - PHP Authentication (with Symfony PHP Package) - **not yet uploaded**  
++ **php/php_test** - Getting into practice with Unit testing for PHP - **not yet uploaded** 
++ **php/slim** - Custom Project - A Website built with Slim Routing - **not yet uploaded**  
++ **php/slimmin** - Single page App with Slim - **not yet uploaded** 
++ **php/twig** - Custom Project with the Twig Template Engine in Slim - **not yet uploaded** 
++ **php/twig_project** - Currently empty - A new project in Twig - **not yet uploaded**
 
 React
 
-+ **react/scoreboard** - Basic version of the scoreboard counter app  - not yet uploaded
-+ **react/scoreboard_v2** - Second version of the scoreboard counter App  - not yet uploaded
-+ **react/tictactoe** - practice app for React building a simple tictactoe game  - not yet uploaded
++ **react/scoreboard** - The basic version of the scoreboard counter app  - **not yet uploaded**
++ **react/scoreboard_v2** - Second version of the scoreboard counter App  - **not yet uploaded**
++ **react/tictactoe** - Practice app from the official React Documentation. Building a simple tictactoe game  - **not yet uploaded**
 
 
 ## Description

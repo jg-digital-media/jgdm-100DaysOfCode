@@ -66,7 +66,7 @@
 CSS
 
 + **css/balloon** - Balloon Flight Experience Website - https://projects.jonniegrieve.co.uk/balloon/
-+ **css/Modernizr** - Simple List Maker App - https://projects.jonniegrieve.co.uk/list_maker
++ **css/modernizr** - Left push navigation for mobiles - https://projects.jonniegrieve.co.uk/modernizr
 + **css/portfolio-gallery** - Portfolio Gallery - https://project.jonniegrieve.co.uk/portfolio-gallery
 + **css/sass_project** - Sass Project - Single Image Swipe Gallery - https://projects.jonniegriece.co.uk/sass_project
 
@@ -74,7 +74,7 @@ JavaScript
 
 + **javascript/ajax** - Fictional Stock Check Application with AJAX - https://projects.jonniegrieve.co.uk/ajax_project/
 + **javascript/dom** - Simple List Maker App - https://projects.jonniegrieve.co.uk/list_maker/
-+ **javascript/four_in_a_row** - Balloon Flight Experience Website - https://projects.jonniegrieve.co.uk/four_in_a _row/
++ **javascript/four_in_a_row** - Object Oriented JavaScript project that builds version of the "Four in a Row" game. - https://projects.jonniegrieve.co.uk/four_in_a _row/
 + **javascript/library** - library based JS OOP Project - **not yet uploaded**
 + **javascript/vue/vue-status-project** - Project Status List to update - https://projects.jonniegrieve.co.uk/vue_project/
 

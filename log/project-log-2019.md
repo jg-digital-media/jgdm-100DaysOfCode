@@ -6,7 +6,11 @@ ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
-### **R2D83:** Wednesday 3rd July 2019
+### **R2D84:** Friday 5th July 2019
++ **Notes** - Bit of a quiet day today, so I took the opportunity to catalogue the projects I've made so far in my readme.md files for my repositories. A little bit more organised now. :)
++ **Technologies Used** - Markdown
+
+### **R2D84:** Thursday 4th July 2019
 + **Notes** - Submitted the second draft of my latest web project today! Looking forward to kicking on and getting it converted to a WordPress Theme! 
 + **Technologies Used** - React, SASS, HTML5
 

@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 84 of 100. **Last Update:** 4 July 2019
+## **Status:** Day 86 of 100. **Last Update:** 8 July 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
-### **R2D84:** Friday 5th July 2019
+### **R2D86:** Monday 8th July 2019 
+
++ **Notes** - WordPress Theme Design Polished up the CSS a bit more and made other minor updates and also updated the JSON data for my project Status list.
++ **Technologies Used** - Vue.js, HTML5, CSS
+
+
+### **R2D85:** Friday 5th July 2019
 + **Notes** - Bit of a quiet day today, so I took the opportunity to catalog the projects I've made so far in my readme.md files for my repositories. A little bit more organised now. :)
 + **Technologies Used** - Markdown
 

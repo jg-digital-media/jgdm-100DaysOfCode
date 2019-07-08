@@ -7,12 +7,6 @@ const vue = new Vue({
     data: {
         list: "Project List",
         projects:  [{
-            project_name: "Angular Project",
-            project_type: "JavaScript",
-            project_status: "Complete",
-            status: true,
-        },
-        {
             project_name: "Fetch API",
             project_type: "JavaScript",
             project_status: "Complete",
@@ -25,19 +19,7 @@ const vue = new Vue({
             status: true,
         },
         {
-            project_name: "Java",
-            project_type: "Java",
-            project_status: "Incomplete",
-            status: false,
-        },
-        {
-            project_name: "Landing Page",
-            project_type: "HTML/CSS",
-            project_status: "Complete",
-            status: true,
-        },
-        {
-            project_name: "Node",
+            project_name: "Node.js",
             project_type: "JavaScript",
             project_status: "Incomplete",
             status: false,
@@ -49,19 +31,19 @@ const vue = new Vue({
             status: true,
         },
         {
-            project_name: "Walks",
+            project_name: "Walks Website",
             project_type: "HTML/CSS",
             project_status: "Complete",
             status: true,
         },
         {
-            project_name: "Castle Eden in Bootstrap",
+            project_name: "Castle Eden with Bootstrap",
             project_type: "HTML/CSS",
             project_status: "Complete",
             status: true,
         },
         {
-            project_name: "Castle Eden in CSS",
+            project_name: "Castle Eden with CSS",
             project_type: "HTML/CSS",
             project_status: "Complete",
             status: true,
@@ -105,8 +87,8 @@ const vue = new Vue({
         {
             project_name: "Web Authoring Project",
             project_type: "HTML/CSS",
-            project_status: "Complete",
-            status: true,
+            project_status: "incomplete",
+            status: false,
         },
         {
             project_name: "myPortfolio - Web Portfolio Project",
@@ -145,10 +127,10 @@ const vue = new Vue({
             status: true,
         },
         {
-            project_name: "Projects in Vue.js",
+            project_name: "Vue.js Project",
             project_type: "HTML/CSS",
-            project_status: "Incomplete",
-            status: false,
+            project_status: "Complete",
+            status: true,
         },
         {
             project_name: ".WebP Images",
@@ -187,25 +169,19 @@ const vue = new Vue({
             status: true,
         },
         {
-            project_name: "React Basics", //npm start - npm
+            project_name: "React Planet Rendering", //npm start - npm
             project_type: "React.js",
             project_status: "Incomplete",
             status: false,
         },
         {
-            project_name: "React Redux", //npm start - npm
+            project_name: "React Scoreboard", //npm start - npm
             project_type: "React.js",
             project_status: "Incomplete",
             status: false,
         },
         {
-            project_name: "RSVP App", //npm start - npm
-            project_type: "React.js",
-            project_status: "Incomplete",
-            status: false,
-        },
-        {
-            project_name: "React Fetch API", 
+            project_name: "React Scoreboard v2", //npm start - npm
             project_type: "React.js",
             project_status: "Incomplete",
             status: false,
@@ -241,12 +217,6 @@ const vue = new Vue({
             status: true,
         },
         {
-            project_name: "Transition Gallery Example", 
-            project_type: "HTML/CSS",
-            project_status: "Complete",
-            status: true,
-        },
-        {
             project_name: "Four in a Row", 
             project_type: "OOP JavaScript",
             project_status: "Complete",
@@ -255,8 +225,8 @@ const vue = new Vue({
         {
             project_name: "Simple List Maker App", 
             project_type: "JavaScript",
-            project_status: "Incomplete",
-            status: false,
+            project_status: "Complete",
+            status: true,
         },
         {
             project_name: "Slim - Custom PHP Site", 
@@ -269,12 +239,6 @@ const vue = new Vue({
             project_type: "HTML/CSS",
             project_status: "Complete",
             status: true,
-        },
-        {
-            project_name: "Twig Project", 
-            project_type: "HTML/CSS",
-            project_status: "Incomplete",
-            status: false,
         },
         {
             project_name: "Explaining Regex: Single Page App", 

@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 86 of 100. **Last Update:** 8 July 2019
+## **Status:** Day 87 of 100. **Last Update:** 9 July 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D87:** Tuesday 9th July 2019 
+
++ **Notes** - Today I updated the web design practice website by updating links, smartening up responsive design and starting a new aspect on Parallax design. 
++ **Technologies Used** - React.js, HTML5, CSS
 
 ### **R2D86:** Monday 8th July 2019 
 

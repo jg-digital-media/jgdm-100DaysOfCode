@@ -5,6 +5,13 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 87
+
+```php
+/*Pass reference to cookie as an array  $cookie*/
+$cookie = setAuthCookie('expired', 1);
+redirect('/jgdm-100daysofcode/php/php_auth/login.php', ['cookies' => [$cookie]]); 
+```
 
 ## Day 83
 

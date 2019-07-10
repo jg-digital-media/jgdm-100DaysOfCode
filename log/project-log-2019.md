@@ -1,11 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 87 of 100. **Last Update:** 9 July 2019
+## **Status:** Day 88 of 100. **Last Update:** 10 July 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+### **R2D88:** Wednesday 10th July 2019 
+
++ **Notes** - Problem Solved.  The reason those cookies in my PHP project were not removing on log out was they cookies were not being passed to the function properly. 
++ **Technologies Used** - React.js, HTML5, CSS, PHP
 ### **R2D87:** Tuesday 9th July 2019 
 
 + **Notes** - Today I updated the web design practice website by updating links, smartening up responsive design and starting a new aspect on Parallax design. 

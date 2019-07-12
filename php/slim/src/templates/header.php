@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php if(isset($page_title)) {echo $page_title;} else {echo "Default Title";} ?></title>
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
 
     <header class="slim-header">
-        <img src="./img/clearLogo.png" title="" class="logo"/>
+        <img src="/img/clearLogo.png" title="" class="logo"/>
 
         <nav>
             <ul class="main-nav">

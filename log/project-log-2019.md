@@ -1,25 +1,27 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 88 of 100. **Last Update:** 10 July 2019
+## **Status:** Day 89 of 100. **Last Update:** 12 July 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+### **R2D89:** Friday 12th July 2019 
++ **Notes** - Submitted the third draft for my client work.  Hoping I've finally nailed this one but it must not only be done but done right.  Also made a start on some parallax scrolling work which I think is going to be look great once complete. 
++ **Technologies Used** - HTML5, CSS, PHP
+
 ### **R2D88:** Wednesday 10th July 2019 
 
 + **Notes** - Problem Solved.  The reason those cookies in my PHP project were not removing on log out was they cookies were not being passed to the function properly. 
 + **Technologies Used** - React.js, HTML5, CSS, PHP
-### **R2D87:** Tuesday 9th July 2019 
 
+### **R2D87:** Tuesday 9th July 2019 
 + **Notes** - Today I updated the web design practice website by updating links, smartening up responsive design and starting a new aspect on Parallax design. 
 + **Technologies Used** - React.js, HTML5, CSS
 
 ### **R2D86:** Monday 8th July 2019 
-
 + **Notes** - WordPress Theme Design Polished up the CSS a bit more and made other minor updates and also updated the JSON data for my project Status list.
 + **Technologies Used** - Vue.js, HTML5, CSS
-
 
 ### **R2D85:** Friday 5th July 2019
 + **Notes** - Bit of a quiet day today, so I took the opportunity to catalog the projects I've made so far in my readme.md files for my repositories. A little bit more organised now. :)

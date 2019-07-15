@@ -107,3 +107,18 @@ function setAuthCookie($data, $expTime) {
     return $cookie;
 
 }
+
+//Read cookie properties with helper function 
+function decodeAuthCookie($prop = null) {
+    $cookie = json_decode(request()->cookies->get('auth'));
+
+    if($prop === null) {
+        return $cookie;
+    }
+
+    if (!isset($cookie->$prop)) {
+        return false;
+    }
+
+    return $cookie->$prop;
+}

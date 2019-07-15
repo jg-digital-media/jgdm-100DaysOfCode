@@ -1,7 +1,6 @@
 <?php
 function isAuthenticated() {
-    global $session;
-    return $session->get('auth_logged_in', false);
+    return decodeAuthCookie();
 }
 
 
@@ -12,10 +11,8 @@ function isAdmin() {
         //if user not logged in, not admin
         return false;
     }
-
-    global $session;
     //check if user has an admin role
-    return $session->get('auth_roles') === 1;
+    return decodeAuthCookie('auth_roles') === 1;
 
 }
 
@@ -36,14 +33,13 @@ function isOwner($ownerId) {
         return false;
 	}
 	
-    global $session;
-	return $ownerId == $session->get('auth_user_id');
+	return $ownerId == decodeAuthCookie('auth_user_id');
 }
 
 //
 function getAuthenticatedUser() {
-    global $session;
-    return findUserById($session->get('auth_user_id'));
+    
+    return findUserById(decodeAuthCookie('auth_user_id'));
 }
 
 //Require authentication with this function
@@ -58,11 +54,6 @@ function requireAuth() {
 function saveUserData($user) {
     global $session;
     
-    //store user details in a session and then log in
-    $session->set('auth_logged_in', true);
-    $session->set('auth_user_id', (int) $user['id']);
-    $session->set('auth_roles', (int) $user['role_id']);
-
     //Success message
     $session->getFlashBag()->add('success', 'Successfully Logged In');
 

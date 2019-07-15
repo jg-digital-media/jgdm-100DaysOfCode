@@ -21,7 +21,7 @@ function requireAdmin() {
 	if (!isAdmin()) {
         global $session;
         $session->getFlashBag()->add('error', 'Not Authorised. Requires Admin privileges');
-        redirect('/jgdm-100daysofcode/php/php_auth/login.php');
+        redirect('/jgdm-100daysofcode/php/git php_auth/login.php');
     }
 }
  

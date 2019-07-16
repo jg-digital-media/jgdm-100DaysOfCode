@@ -1,16 +1,24 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 90 of 100. **Last Update:** 15 July 2019
+## **Status:** Day 91 of 100. **Last Update:** 16 July 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+### **R2D91:** Monday 16th July 2019 
++ **Notes** 
+  + Tremendous Progress made today in WordPress project.  Single custom post type template is picking up most of the custom fields, slick slider is functional. Much more work still to be done  :)
++ **Technologies Used** - WordPress, , PHP, JavaScript, HTML5 CSS
+
+
+
 ### **R2D90:** Monday 15th July 2019 
 + **Notes** 
   + Busy one today. Building is underway on Theme Development for my latest client project. Got styles and Scripts enqueued, Navigation hooked up. Next bit is using the right loops for the right content 
   + Also worked a bit on cookie authentication on a separate project. This bit is pretty much tied up now.  Now to make it more secure with token authentication.  :)
-+ **Technologies Used** - WordPress, PHP, HTML5 CSS
++ **Technologies Used** - WordPress, PHP, HTML5, CSS
 
 ### **R2D89:** Friday 12th July 2019 
 + **Notes** - Submitted the third draft for my client work.  Hoping I've finally nailed this one but it must not only be done but done right.  Also made a start on some parallax scrolling work which I think is going to be look great once complete. 

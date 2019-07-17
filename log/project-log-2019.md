@@ -1,16 +1,20 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 91 of 100. **Last Update:** 16 July 2019
+## **Status:** Day 92 of 100. **Last Update:** 17 July 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
-### **R2D91:** Monday 16th July 2019 
+### **R2D92:** Wednesday 17th July 2019 
++ **Notes** - Built the core functionality for the WordPress theme I'm building.  Need a specific capability for your theme?  There's a plugin for that.  Most likely  :)
++ **Technologies Used** - WordPress, PHP
+
+### **R2D91:** Tuesday 16th July 2019 
 + **Notes** 
   + Tremendous Progress made today in WordPress project.  Single custom post type template is picking up most of the custom fields, slick slider is functional. Much more work still to be done  :)
-+ **Technologies Used** - WordPress, , PHP, JavaScript, HTML5 CSS
++ **Technologies Used** - WordPress, PHP, JavaScript, HTML5 CSS
 
 
 

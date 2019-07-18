@@ -1,11 +1,15 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 92 of 100. **Last Update:** 17 July 2019
+## **Status:** Day 93 of 100. **Last Update:** 18 July 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+### **R2D93:** Thursday 18th July 2019 
++ **Notes** - Core functionality of the WordPress client project complete. Will be working on widgetising the theme next. Elsewhere making plans to build a parallax showcase webpage for my business with Sass and CSS.
++ **Technologies Used** - WordPress, PHP, Sass, HTML5
 
 ### **R2D92:** Wednesday 17th July 2019 
 + **Notes** - Built the core functionality for the WordPress theme I'm building.  Need a specific capability for your theme?  There's a plugin for that.  Most likely  :)

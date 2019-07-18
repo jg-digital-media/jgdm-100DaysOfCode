@@ -5,7 +5,38 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-## Day 92
+## Day 93
+### JSON WEB Tokens
+### The JWT contains 3 parts
+
++ A header
+
++ Claims
+
++ Signature
+
+  + the header contains all the cryptographic information that defines the JWT.  It contains an algorithm.  The other is the Type - T.Y.P
+
+  + the claims section contains all the information that you want to store in the JWT.
+    + There are public and private claims
+
+    + "iss" (Issuer)  - Who issues this claim?
+
+    + "sub" (Subject) - Who is the subject?
+
+    + "iat" (Issued At) - Seconds since epoch
+
+    + "nbf" (Not Before - Seconds since epoch
+
+    + "jti" (JWT ID)    - Unique ID for JWT
+
+
++ The signature is the last section and makes JWT secure
+
+  + Sign with a private key
+
+  + allows us to tell if the JWT was modifed after it was created
+
 
 ## Day 89
 

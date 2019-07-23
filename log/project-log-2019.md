@@ -1,12 +1,16 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 95 of 100. **Last Update:** 22 July 2019
+## **Status:** Day 95 of 100. **Last Update:** 23 July 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
-### **R2D95:** Friday 22nd July 2019 
+### **R2D96:** Tuesday 23rd July 2019 
++ **Notes** - The building for the WordPress theme is now complete. Tomorrow the process of migrating from localhost to web server begins. 
++ **Technologies Used** - WordPress, PHP, Sass, HTML5
+
+### **R2D95:** Monday 22nd July 2019 
 + **Notes** - Added the archive and search templates to the WordPress theme. Getting closer to being ready to migrate the database to the web host! 
 + **Technologies Used** - WordPress, PHP, Sass, HTML5
 

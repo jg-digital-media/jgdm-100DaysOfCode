@@ -5,7 +5,32 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-## Day 96
+## Day 97
+
+I'm wondering If I'm trying to be too clever by passing in sass variables to use as the value for a mixin. I keep getting different results in the colour output than what I am passing in.
+
+e.g. 
+
+```css
+
+/* colours defined as variables */
+$border-col-one: yellow;
+$text-col-one: lighten($border-col-one, 15%);
+$bg-one: yellowgreen;
+
+/* define a mixin */
+@mixin div-styling($text-colour, $border, $background) {
+    
+    color: $text-colour;        
+    border: $border;
+    background: $background;
+
+}
+
+/* include as a Mixin */
+@include div-styling($text-col-one, $border-col-one solid 2px, $bg-one);
+
+```
 
 ## Day 93
 ### JSON WEB Tokens

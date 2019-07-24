@@ -1,10 +1,19 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 95 of 100. **Last Update:** 23 July 2019
+## **Status:** Day 97 of 100. **Last Update:** 24 July 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D97:** Wednesday 24th July 2019  
++ **Notes** 
+  + This morning I completed migrating WordPress theme to server for my client marking the end of that stage of the project. Waiting for feedback and to add more content as needed.
+  + Secondly today stared styling section one of the SASS Parallax project, using Mixins and Extends to organise development code.
+  + I'm wondering If I'm trying to be too clever by passing in SASS variables to use as the value for a mixin. I keep getting different results in the colour output than what I am passing in.
+ 
++ **Technologies Used** - WordPress, PHP, Sass, HTML5, 
+
 
 ### **R2D96:** Tuesday 23rd July 2019 
 + **Notes** - The building for the WordPress theme is now complete. Tomorrow the process of migrating from localhost to web server begins. 

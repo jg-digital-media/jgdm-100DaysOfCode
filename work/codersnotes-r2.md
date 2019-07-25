@@ -5,6 +5,19 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+
+
+## Day 98
+
+```css
+li:nth-child(3n -3) 
+li:nth-child(2)
+li:nth-child(7)
+```
+It's a bit picky and not perfect by combining pseudo selectors with CSS you can achieve a checked background colour effect
+
+
 ## Day 97
 
 I'm wondering If I'm trying to be too clever by passing in sass variables to use as the value for a mixin. I keep getting different results in the colour output than what I am passing in.

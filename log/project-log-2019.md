@@ -1,10 +1,14 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 97 of 100. **Last Update:** 24 July 2019
+## **Status:** Day 98 of 100. **Last Update:** 25 July 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D98:** Thursday 25th July 2019  
++ **Notes** - Concentrated today on my Parallax Web design page... and for the home page for this project coded a checked colour design with CSS pseudo selectors.
++ **Technologies Used** - Sass, HTML5
 
 ### **R2D97:** Wednesday 24th July 2019  
 + **Notes** 

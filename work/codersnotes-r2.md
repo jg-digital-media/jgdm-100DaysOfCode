@@ -6,6 +6,29 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 99
+
+Great Success!!  Able to fix the website at https://projects.jonniegrieve.co.uk/php_auth_v3 to read the cookie at the appropriate domain, with lots of determination and trial and error.  I was able to determine quite quickly that the problem here in the function to set the actual cookie.
+
+```php
+function setAuthCookie($data, $expTime) {
+
+    $cookie = new Symfony\Component\HttpFoundation\Cookie(
+        'auth', 
+        $data,
+        $expTime,
+        '/php_auth_v3/',
+        'projects.jonniegrieve.co.uk',
+        false,
+        true
+    );
+
+    return $cookie;
+
+}
+```
+
+Now I feel ready to start encrypting the cookies with JWT. 
 
 
 ## Day 98

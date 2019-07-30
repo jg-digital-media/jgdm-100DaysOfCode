@@ -1,4 +1,8 @@
 <?php
+
+$dotenv = Dotenv\::create(__DIR__);
+$dotenv->load();
+
 /*
  * Set up database connection
  */

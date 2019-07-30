@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 2
 
-## **Status:** Day 99 of 100. **Last Update:** 29 July 2019
+## **Status:** Day 100 of 100. **Last Update:** 30 July 2019
 
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R2D100:** Tuesday 30th July 2019 
++ **Notes** - 
+
+  + Round 2 all done!  I want to round this one off by showing off this little parallax page which is a web design showcase.  Needs a bit more polish but is presentable. :) 
+  + Finished the authentication course. However, putting it into practice has proven fruitless and will return to it as soon as possible.  There seems to be JWT encoding going on in the cookie but on testing the navigation doesn't recognise the user role and update accordingly.
+  + So I've reverted back to the last working state for now.  There's a whole new round of #100DaysOfCode to sort this one out.  :)
 
 ### **R2D99:** Monday 29th July 2019    
 + **Notes** - 

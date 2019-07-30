@@ -5,6 +5,9 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 100
+
+Finished the authentication course. However putting it into practice has proven fruitless and will return to it as soon as Possible.  There seems to be JWT encoding going on in the cookie but on testing the navigation doesn't recognise the user role and update accordingly. So I've reverted back to the last working state for now
 
 ## Day 99
 

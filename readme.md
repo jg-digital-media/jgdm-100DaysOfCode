@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 2: Day 99 of 100. **Last Update:** 29th July 2019
++ **Status:** Round 2: Day 100 of 100. **Last Update:** 30th July 2019
 
 ## Directories
   + bin

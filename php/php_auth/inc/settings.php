@@ -1,6 +1,6 @@
 <?php
 
-$dotenv = Dotenv\::create(__DIR__);
+$dotenv = Dotenv\DotEnv::create(__DIR__);
 $dotenv->load();
 
 /*

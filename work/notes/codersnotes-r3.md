@@ -5,4 +5,13 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-## Day 100
+## Day 1
+
+Planned projects to start Round 3 #100DaysOfCode
+
++ Python Basics - Beginning Python Track - (Python)
++ PHP Authentication  - (PHP)
++ Front End Performance Optimisation
++ Form_project - server (PHP)
++ Vue.js - Refactor project status app - to use project images (JavaScript)
++ Twig project. (PHP - Twig) 

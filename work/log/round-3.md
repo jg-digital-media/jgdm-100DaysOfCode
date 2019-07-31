@@ -1,6 +1,6 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 100 of 100. **Last Update:** 30 July 2019
+## **Status:** Day 1 of 100. **Last Update:** 31 July 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___

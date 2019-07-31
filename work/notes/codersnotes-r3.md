@@ -15,3 +15,19 @@ Planned projects to start Round 3 #100DaysOfCode
 + Form_project - server (PHP)
 + Vue.js - Refactor project status app - to use project images (JavaScript)
 + Twig project. (PHP - Twig) 
+
+### Python
+
+```python
+hello.py
+
+first_name = "Ada"
+print(first_name)
+print("These", "will be", "joined together by spaces")
+
+print('Hello,', first_name)
+print(first_name, "is learning Python")
+
+## Catch a NameError: 
+## Catch a SyntaxError: 
+```

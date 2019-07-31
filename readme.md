@@ -5,9 +5,6 @@
 + **Status:** Round 2: Day 100 of 100. **Last Update:** 30th July 2019
 
 ## Directories
-  + bin
-    + first-line
-    + geonation
   + css 
     + balloon
     + modernizr
@@ -28,7 +25,6 @@
     + iteration-methods
     + library
     + vue
-  + log
   + php
     + mvc-framework
     + php_auth
@@ -53,12 +49,17 @@
   + regex
   + svg
   + work
+    + bin      
+        + first-line
+        + geonation    
+    + log
+    + notes
 
-## What's in this Repo....
+## "Work" Directory....
 ----
 + **bin** - Discarded or duplicate projects - will not be developed further.
 + **log** - Additions to log for #100DaysOfCode will go here
-+ **work** - Coders notes directory - interesting or helpful notes and topics will go in this folder.
++ **notes** - Coders notes directory - interesting or helpful notes and topics will go in this folder.
 + Other folders are organised by language, library or platform name.
 
 ### Project Links
@@ -97,20 +98,16 @@ React
 
 ## Description
 
-I rejigged my blog to restart my 100DaysofCode challenge. And if you've been following along I started today (**14th February 2019**) Round 2 of the #100DaysOfCode challenge.  
+I rejigged my blog to restart my 100DaysofCode challenge. Starting today (**31st July 2019**) Round 3 is underwaY.  
 
 My goal remains to help myself maintain not just my coding (I can always be found coding), but also an active social media presence.
 
 Hopefully this will help me engage more with the tech community.
 
-My commit on **7th September 2018** contains a new structure for this repository.  You'll find all my blogs are now located in the blog directory.  This latest 100DaysOfCode effort is now logged in **project-log-2019.md**.  I've kept the others in **project-log-2017.md** and **project-log-2019.md**.
+My commit on **31st July 2019** contains a new structure for this repository.  You'll find all my blogs are now located in the blog directory.  This latest 100DaysOfCode effort is now logged in **round-3.md**.  I've kept the others in **round-1.md** and **round-2.md**.
 
 In my commit for **25th January 2019**, I posted that I've completed my re-organisation of my work via [GitHub](https://github.com/jg-digital-media) reducing the number of my repositories.  All my projects are either backed up online, on Amazon S3 or on version control.  Most of my repos are now set to private.  I may end up switching back to public from time to time. But don't worry, anything I deem fit for public viewing will be available to see via my domain at https://projects.jonniegrieve.co.uk
 
-If you notice **codersnotes-r1.md** in this repository, just think of this as a kind of "notebook" for while I'm working through this round of 100DaysofCode.
+If you notice **codersnotes-r3.md** in this repository, just think of this as a kind of "notebook" for while I'm working through this round of 100DaysofCode..
 
-You'll find a **four_in_a_row** directory as well. This is my first project focus for 100DaysOfCode.
-
-In **project_log_2019.md** I'll be sure to my learning goals for the day, my progress in that time, any thoughts that I have and links to deliverable projects if there are any.  I'll try not to bore you all with essays on all of these, keep it short and sweet. Hopefully you'll see evidence of personal growth and passion for coding in this repository.
-
-Wish me luck!  :)
+Thanks for following my journey!

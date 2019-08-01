@@ -1,9 +1,14 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 1 of 100. **Last Update:** 31 July 2019
+## **Status:** Day 2 of 100. **Last Update:** 1 August 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R3D2:** Thursday 1st August 2019 
++ **Notes** -
+  + Just time for a few lines of Python code today. Been doing some Wireframes for an incoming web project today
++ **Technologies Used** - Sass,  HTML5, PHP, Python
 
 ### **R3D1:** Wednesday 31st July 2019 
 + **Notes** - 

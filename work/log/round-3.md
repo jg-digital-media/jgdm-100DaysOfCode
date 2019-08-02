@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 2 of 100. **Last Update:** 1 August 2019
+## **Status:** Day 3 of 100. **Last Update:** 2 August 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R3D3:** Friday 2nd August 2019 
++ **Notes** - 
+  + Most of my coding day involved doing some behind the scenes editing in WordPress.  Itching to show you the full website but that is at my clients behest!  We're content building!
+  + Managed to find some time, after Wireframing for another web project to do some Python coding too. Busy day!  :-)
++ **Technologies Used** - WordPress, Python
+
 
 ### **R3D2:** Thursday 1st August 2019 
 + **Notes** -

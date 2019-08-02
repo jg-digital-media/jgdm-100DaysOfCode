@@ -1,9 +1,29 @@
-# 100DaysOfCode - Coders Notes (Round 2)
+# 100DaysOfCode - Coders Notes (Round 3)
 
 + Repository Overview: https://github.com/jg-digital-media
 + Repository URL: https://github.com/jg-digital-media/jgdm-100DaysOfCode
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
+
+## Day 3
+
+```python
+
+# bool(1)  - coerce a boolean value.
+# Any non 0 number is true. Any non empty object is true
+# Truthey or falsey
+
+# Condition Syntax
+if expression
+    # content
+elif: expression
+    # content
+else: 
+    # content
+
+
+
+```
 
 ## Day 2
 

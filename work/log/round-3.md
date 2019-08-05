@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 3 of 100. **Last Update:** 2 August 2019
+## **Status:** Day 4 of 100. **Last Update:** 5 August 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+### **R3D4:** Monday 5th August 2019
++ **Notes** - 
+  + Wrote the HTML Content for my latest client project today.  Good to also get into the digital content side of my business too with mockups and Wireframes. Good day today.  :)
+  + Managed to fit in some time for Python coding too. 
+  
++ **Technologies Used** - HTML5, Python
 
 ### **R3D3:** Friday 2nd August 2019 
 + **Notes** - 

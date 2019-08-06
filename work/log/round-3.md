@@ -5,6 +5,14 @@ ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+
+### **R3D5:** Tuesday 6th August 2019
++ **Notes** - 
+  + Started some boilerplate Sass as a way of working out how to fit some video images into a responsive design. Today has mostly been about that an exporting some video drafts. 
+  
++ **Technologies Used** - HTML5, Sass
+
 ### **R3D4:** Monday 5th August 2019
 + **Notes** - 
   + Wrote the HTML Content for my latest client project today.  Good to also get into the digital content side of my business too with mockups and Wireframes. Good day today.  :)

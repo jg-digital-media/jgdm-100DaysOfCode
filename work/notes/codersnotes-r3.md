@@ -5,6 +5,41 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 6
+
+```python
+# Return values from a function
+
+def split_check(total, num_people):
+    cost_per_person = math.ceil(total / num_people)
+    return cost_per_person
+
+#coerce an input into a float value
+total_due = float(input("what is the total?  "))
+#coerce an input into an int value
+number_of_people = int(input("How many people? "))
+
+```
+
+```python
+
+# Exceptions
+
+try:
+    #code
+    #code    
+except TypeOfError:   
+    #code to handle error print("Unable to accept that answer. Please give a number
+else:
+    #code 
+
+# raise an exception - raise our own exceptions to help prevent invalid values from being added
+
+if num_people <= 1:
+    raise ValueError("More than 1 person is required to split the check")
+```
+
 ## Day 4
 
 ```Python

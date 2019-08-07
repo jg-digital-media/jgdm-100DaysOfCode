@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 3: Day 5 of 100. **Last Update:** 6th August 2019
++ **Status:** Round 3: Day 6 of 100. **Last Update:** 7th August 2019
 
 ## Directories
   + css 
@@ -35,9 +35,8 @@
     + twig
     + twig_projects
   + python
+    + basics
     + madlibs
-    + pandas
-    + python-input-output
   + react
     + context_api
     + practice-state
@@ -48,12 +47,16 @@
     + tictactoe
   + regex
   + svg
+    + icons
   + work
     + bin      
         + first-line
-        + geonation    
+        + geonation
+        + pandas
+        + python-input-output    
     + log
     + notes
+    + status
 
 ## "Work" Directory....
 ----

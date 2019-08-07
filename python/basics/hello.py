@@ -17,4 +17,4 @@ print("Thanks for your interest in Python! Have a great day")
 
 ## Catch a NameError: 
 ## Catch a SyntaxError: 
-## Cach a TypeError
+## Catch a TypeError

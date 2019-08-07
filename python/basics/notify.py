@@ -2,10 +2,9 @@
 #functions
 def notify(message): 
     message = message
-    praise += message.upper();
+    message += message.upper()
     number_of_characters = len(message)	
-    result = message + "!" * (number_ofcharacters// 2)
-end
+    result = message += "!" * (number_of_characters / 2)
 
 notify("You are doing great")
 

@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 6 of 100. **Last Update:** 7 August 2019
+## **Status:** Day 7 of 100. **Last Update:** 8 August 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+
+### **R3D7:** Thursday 8th August 2019
++ **Notes** - 
+  + Finally got into some coding for Python exceptions in the last couple of days; the difference between catching and raising.  Elsewhere my day has been about exporting and testing dozens of video drafts. 
+    
++ **Technologies Used** - Python, Sass
+
 
 
 ### **R3D6:** Wednesday 7th August 2019

@@ -6,6 +6,109 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 7
+
+
+### Try/Catch and Exceptions
+
+```python
+
+# Exceptions
+
+try:
+    #code
+
+except TypeOfError:   
+    #code to handle error print("Unable to accept that answer. Please give a number
+else:
+    #code 
+
+# raise an exception - raise our own exceptions to help prevent invalid values from being added
+
+if num_people <= 1:
+    raise ValueError("More than 1 person is required to split the check")
+```
+
+
+### Raising Exceptions - Example
+
+do not add parentheses in Python conditions.
+
+Use len to coerce length of a string to return a number
+
+```python
+if len(product_idea) < 3:
+    raise ValueError("Helpful message for ValueError Exception")
+```
+
+### Python While Loops
+
+```python
+import sys
+
+password = input(": ")
+attempt_count = 1
+
+while password != 'opensesame':
+    if attempt_count > 3:
+        sys.exit("Too many errors")
+    password = input("Invalid password, try again:  ")
+    attempt_count += 1
+print("Welcome to secret town")
+
+password_check.py
+
+#use a constant variable as a master password
+```
+### Python For Loops
+
+```python
+for set_variable in iterable_variable:
+    #do some code
+
+banner = "this is a message"
+
+for letter in banner:
+    print(letter)
+
+```
+
+### Python conditions and expressions
+
+```python
+# Condition Syntax
+if expression:
+    # content
+elif: expression:
+    # content
+else: 
+    # content
+
+
+# Example 
+
+if age <= 16: 
+   print("too young")
+else if age >= 18:
+   print("too old")
+else:
+   print("Just the right age")
+```
+
+### Python Functions
+
+```python
+
+   #Simple function stntax
+   def function_name():
+        # do some code
+
+   # Return values from a function
+   def split_check(total, num_people):
+    cost_per_person = math.ceil(total / num_people)
+    return cost_per_person     
+```
+
 ## Day 6
 
 ```python
@@ -45,18 +148,16 @@ if num_people <= 1:
 ```Python
 
     def function_name():
-
-        # content
+        # dp some code
                 
 
 
     #functions
     def notify(message): 
         message = message
-        praise += message.upper();
+        praise += message.upper()
         number_of_characters = len(message)	
         result = message + "!" * (number_ofcharacters// 2)
-    end
 
     notify("You are doing great")
 
@@ -75,9 +176,9 @@ if num_people <= 1:
 # Truthey or falsey
 
 # Condition Syntax
-if expression
+if expression:
     # content
-elif: expression
+elif: expression:
     # content
 else: 
     # content

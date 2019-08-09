@@ -1,10 +1,14 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 7 of 100. **Last Update:** 8 August 2019
+## **Status:** Day 8 of 100. **Last Update:** 9 August 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+### **R3D8:** Friday 9th August 2019
+  + Swamped with admin today. But I did have a problem today with some jQuery form validation on a PHP page that simply isn't kicking in.  Unable to determine why yet but it's on my ToDo list.  :)
+   **Technologies Used** - Sass, jQuery, Python
 
 ### **R3D7:** Thursday 8th August 2019
 + **Notes** - 

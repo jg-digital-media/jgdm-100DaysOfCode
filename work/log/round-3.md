@@ -1,14 +1,21 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 8 of 100. **Last Update:** 9 August 2019
+## **Status:** Day 9 of 100. **Last Update:** 12 August 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
+### **R3D9:** Monday 12th August 2019
+
++ **Notes** - 
+  + Started the styling for the next web project. Lots of gruelling testing and trial and error but the fundamentals of the layout seem to be in place.  I am considering just going ahead and using CSS Grid.  Support may not be 100% but it might be easier to put together  :)
++ **Technologies Used** - Sass, HTML5  
+
 ### **R3D8:** Friday 9th August 2019
++ **Notes** - 
   + Swamped with admin today. But I did have a problem today with some jQuery form validation on a PHP page that simply isn't kicking in.  Unable to determine why yet but it's on my ToDo list.  :)
-   **Technologies Used** - Sass, jQuery, Python
++  **Technologies Used** - Sass, jQuery, Python
 
 ### **R3D7:** Thursday 8th August 2019
 + **Notes** - 

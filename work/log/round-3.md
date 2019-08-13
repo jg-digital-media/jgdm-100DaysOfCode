@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 9 of 100. **Last Update:** 12 August 2019
+## **Status:** Day 10 of 100. **Last Update:** 13 August 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+### **R3D9:** Tuesday 13th August 2019
+
++ **Notes** - 
+  + Styled the homepage and well on the with the style framework for rest of the pages. Keen to get this going then do a Grid Layout version to compare as I mentioned yesterday. Good Progress!  :)
++ **Technologies Used** - Sass, HTML5 
 
 ### **R3D9:** Monday 12th August 2019
 

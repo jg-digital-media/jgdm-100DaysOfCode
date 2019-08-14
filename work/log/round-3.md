@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 10 of 100. **Last Update:** 13 August 2019
+## **Status:** Day 11 of 100. **Last Update:** 14 August 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
-### **R3D9:** Tuesday 13th August 2019
+### **R3D11:** Wednesday 14th August 2019
+
++ **Notes** - 
+  + Got the responsive layout for the website sorted.
++ **Technologies Used** - Sass, HTML5 
+
+### **R3D10:** Tuesday 13th August 2019
 
 + **Notes** - 
   + Styled the homepage and well on the with the style framework for rest of the pages. Keen to get this going then do a Grid Layout version to compare as I mentioned yesterday. Good Progress!  :)

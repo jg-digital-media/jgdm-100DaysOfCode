@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 11 of 100. **Last Update:** 14 August 2019
+## **Status:** Day 12 of 100. **Last Update:** 15 August 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+### **R3D12:** Thursday 15th August 2019
++ **Notes** - 
+  + Really pleased to have coded the layout in both Grid and standard layout.  Grid works better but I'll certainly be reviewing browser support before releasing that version. Now to build the rest of the site!
++ **Technologies Used** - Sass, HTML5 
 
 ### **R3D11:** Wednesday 14th August 2019
 

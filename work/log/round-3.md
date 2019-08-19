@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 13 of 100. **Last Update:** 16 August 2019
+## **Status:** Day 14 of 100. **Last Update:** 17 August 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
-### **R3D16:** Friday 16th August 2019
+### **R3D14:** Monday 17th August 2019
++ **Notes** - 
+  + Website now starting to take shape. I hope by tomorrow to present it for first evaluation to my client!
++ **Technologies Used** - Sass, HTML5 
+
+
+### **R3D13:** Friday 16th August 2019
 + **Notes** - 
   + Approaching the final stages of the website.  Adding transitions, responsive images and a google map to the site.  Hoping to finish the project by the end of the next week.
 + **Technologies Used** - Sass, HTML5 

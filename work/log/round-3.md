@@ -1,12 +1,17 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 14 of 100. **Last Update:** 17 August 2019
+## **Status:** Day 15 of 100. **Last Update:** 20 August 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
-### **R3D14:** Monday 17th August 2019
+### **R3D15:** Tuesday 20th August 2019
++ **Notes** - 
+  + After finishing up first website draft for evaluation to my client, I found some time to get into some Python Practice  :)
++ **Technologies Used** - Sass, HTML5, Python
+
+### **R3D14:** Monday 19th August 2019
 + **Notes** - 
   + Website now starting to take shape. I hope by tomorrow to present it for first evaluation to my client!
 + **Technologies Used** - Sass, HTML5 

@@ -1,14 +1,16 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 15 of 100. **Last Update:** 20 August 2019
+## **Status:** Day 16 of 100. **Last Update:** 21 August 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
+### **R3D16:** Wednesday 20th August 2019
+
 ### **R3D15:** Tuesday 20th August 2019
 + **Notes** - 
-  + After finishing up first website draft for evaluation to my client, I found some time to get into some Python Practice  :)
+  + I can announce my latest website is live as of a few minutes ago. For Route Office Supplies Ltd.  I've been working hard on this for the past few weeks and I have a very happy client. Built in SASS, HTML5 with a dash of embedded JS. 
 + **Technologies Used** - Sass, HTML5, Python
 
 ### **R3D14:** Monday 19th August 2019

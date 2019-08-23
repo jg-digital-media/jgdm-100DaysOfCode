@@ -1,16 +1,27 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 16 of 100. **Last Update:** 21 August 2019
+## **Status:** Day 18 of 100. **Last Update:** 23 August 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
-### **R3D16:** Wednesday 20th August 2019
+## R3D18:  Friday 23rd
+
+Time to get back into some other projects today.  It's time I did some proper practice and research into server side form validation.  I have many projects that could benefit from this.
+Elsewhere I got started on a command line Python App that serves as an interface for a ticket purchase app.
+
+
+### **R3D17:** Thursday 22nd August 2019
+I can announce my latest website is live as of a few minutes ago. For Route Office Supplies Ltd.  I've been working hard on this for the past few weeks and I have a very happy client. Built in SASS, HTML5 with a dash of embedded JS.
+
+
+### **R3D16:** Wednesday 21st August 2019
+I'm Cricket mad this summer.  I wrote a small script in Python in about 10 minutes that calculates the batting run rate based on inputs of total runs and overs used.
 
 ### **R3D15:** Tuesday 20th August 2019
 + **Notes** - 
-  + I can announce my latest website is live as of a few minutes ago. For Route Office Supplies Ltd.  I've been working hard on this for the past few weeks and I have a very happy client. Built in SASS, HTML5 with a dash of embedded JS. 
+  + I can announce my latest website is live as of a few minutes ago. For Route Office Supplies Ltd.  I've been working hard on this for the past few weeks and I have a very happy client. Built in SASS, HTML5 with a dash of embedded JS. After finishing up first website draft for evaluation to my client, I found some time to get into some Python Practice  :)  #100DaysOfCode
 + **Technologies Used** - Sass, HTML5, Python
 
 ### **R3D14:** Monday 19th August 2019

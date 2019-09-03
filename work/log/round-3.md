@@ -1,23 +1,31 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 18 of 100. **Last Update:** 23 August 2019
+## **Status:** Day 19 of 100. **Last Update:** 2 September 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
-## R3D18:  Friday 23rd
+## R3D19:  Monday 2nd September 2019
++ **Notes** - 
+  + Back in action after a short break! I've done some work organising my web forms project. The annoying thing was I lost some of my local databases as I had to reinstall my local server. All set now though.  The Python script I mentioned on Day 18 is also progressing.
++ **Technologies Used** - Sass, HTML5, Python
 
-Time to get back into some other projects today.  It's time I did some proper practice and research into server side form validation.  I have many projects that could benefit from this.
-Elsewhere I got started on a command line Python App that serves as an interface for a ticket purchase app.
-
+## R3D18:  Friday 23rd August 2019
++ **Notes** - 
+  + Time to get back into some other projects today.  It's time I did some proper practice and research into server side form validation.  I have many projects that could benefit from this.
+  + Elsewhere I got started on a command line Python App that serves as an interface for a ticket purchase app.
++ **Technologies Used** - Sass, HTML5, Python
 
 ### **R3D17:** Thursday 22nd August 2019
-I can announce my latest website is live as of a few minutes ago. For Route Office Supplies Ltd.  I've been working hard on this for the past few weeks and I have a very happy client. Built in SASS, HTML5 with a dash of embedded JS.
-
++ **Notes**
+  + I can announce my latest website is live as of a few minutes ago. For Route Office Supplies Ltd.  I've been working hard on this for the past few weeks and I have a very happy client. Built in SASS, HTML5 with a dash of embedded JS.
++ **Technologies Used** - Sass, HTML5
 
 ### **R3D16:** Wednesday 21st August 2019
-I'm Cricket mad this summer.  I wrote a small script in Python in about 10 minutes that calculates the batting run rate based on inputs of total runs and overs used.
++ **Notes** - 
+  + I'm Cricket mad this summer.  I wrote a small script in Python in about 10 minutes that calculates the batting run rate based on inputs of total runs and overs used.
++ **Technologies Used** - Python
 
 ### **R3D15:** Tuesday 20th August 2019
 + **Notes** - 

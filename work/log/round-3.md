@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 19 of 100. **Last Update:** 2 September 2019
+## **Status:** Day 20 of 100. **Last Update:** 3 September 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+## R3D20:  Tuesday 3rd September 2019
++ **Notes** -
+  + Wrote a form that validates Email, website and otherwise text inputs on Server side. Main question: I'm researching if it is possible in PHP to prevention submission of form if validation fails.
++ **Technologies Used** - Sass, HTML5, Python
 
 ## R3D19:  Monday 2nd September 2019
 + **Notes** - 

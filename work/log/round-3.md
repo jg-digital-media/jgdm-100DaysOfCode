@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 20 of 100. **Last Update:** 3 September 2019
+## **Status:** Day 21 of 100. **Last Update:** 4 September 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+## R3D21:  Wednesday 4th September 2019
++ **Notes** -
+  + Making progress every day with my Form Project.  My main win was writing my script to react differently depending on what or if any values are submitted to my forms.  
++ **Technologies Used** - Sass, HTML5, PHP.
 
 ## R3D20:  Tuesday 3rd September 2019
 + **Notes** -

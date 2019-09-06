@@ -1,12 +1,16 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 22 of 100. **Last Update:** 5 September 2019
+## **Status:** Day 23 of 100. **Last Update:** 6 September 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
-## R3D22:  Wednesday 5th September 2019
+## R3D23:  Friday 6th September 2019
++ **Notes** - One of those days today.  Just time for a session of coding in Python - refresher on lists and mutability. 
++ **Technologies Used** - Python.
+
+## R3D22:  Thursday 5th September 2019
 + **Notes** - Form processing and handling is hard and I'm finding it tough but this is why I'm putting these hours in now. I've started on new technique in a new script and will see how this goes.
 + **Technologies Used** - Sass, HTML5, PHP.
 

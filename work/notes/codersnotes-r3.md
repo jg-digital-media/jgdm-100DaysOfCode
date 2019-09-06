@@ -5,9 +5,44 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-## Day 21
+## Day 23
+
+
+### create a list
+
+####list literals
+
+```python
+
+[]  #- empty list
+
+["Cricket", "Football", "Tennis"] #- list of 3 items
+
+languages = ["Cricket", "Football", "Tennis"] #- stored to a variable.
+
+list(languages) #- count the number of items in a list
+
+bool(languages)  #- list is truthy - therefore true
+bool([]) #- empty list - therefore false
+
+#meeting.py
+
+attendees = ["ken". "alena", "Treasure"]
+
+print("there are", len(attendees), "attendees currently")
+
+## lists are mutable - they can be changed.
+
+## List methods do not return a new list, they modify the existing lists, because lists are mutable.
+
+## extend - add items from one list to another
 
 ```
+
+
+## Day 21
+
+
 ------>  htmlspecialchars()
 
 Return the flename of the currently executing script

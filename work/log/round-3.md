@@ -1,10 +1,14 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 23 of 100. **Last Update:** 6 September 2019
+## **Status:** Day 24 of 100. **Last Update:** 9 September 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+## R3D24:  Monday 9th September 2019
++ **Notes** - Spend my #100DaysOfCode time today compartmentialising forms and form styling in the hope it'll make this rather large project easier to organise. 
++ **Technologies Used** - Python.
 
 ## R3D23:  Friday 6th September 2019
 + **Notes** - One of those days today.  Just time for a session of coding in Python - refresher on lists and mutability. 

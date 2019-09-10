@@ -5,7 +5,27 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-## Day 24
+## Day 25
+
+
+```html
+<style>
+     
+    /*By Gajus Kuizinas  @kuizinas
+    
+    URL:  https://dev.to/gajus/my-favorite-css-hack-32g3*/
+        * { background-color: rgba(255,0,0,.2); }
+        * * { background-color: rgba(0,255,0,.2); }
+        * * * { background-color: rgba(0,0,255,.2); }
+        * * * * { background-color: rgba(255,0,255,.2); }
+        * * * * * { background-color: rgba(0,255,255,.2); }
+        * * * * * * { background-color: rgba(255,255,0,.2); }
+        * * * * * * * { background-color: rgba(255,0,0,.2); }
+        * * * * * * * * { background-color: rgba(0,255,0,.2); }
+        * * * * * * * * * { background-color: rgba(0,0,255,.2); }
+
+    </style>
+```
 
 ## Day 23
 

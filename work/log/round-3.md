@@ -1,13 +1,16 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 24 of 100. **Last Update:** 9 September 2019
+## **Status:** Day 25 of 100. **Last Update:** 10 September 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
+## R3D25:  Wednesday 10th September 2019
++ **Notes** - Most of the forms I'm working on are working. But the CSS Stying in the validation is slightly off and finding out why is tricky.  It's down to some CSS rules overriding another - a drawback of building the project the way I am.  #100DaysOfCode.
+
 ## R3D24:  Monday 9th September 2019
-+ **Notes** - Spend my #100DaysOfCode time today compartmentialising forms and form styling in the hope it'll make this rather large project easier to organise. 
++ **Notes** - Spend my #100DaysOfCode time today compartmentalising forms and form styling in the hope it'll make this rather large project easier to organise. 
 + **Technologies Used** - Python.
 
 ## R3D23:  Friday 6th September 2019

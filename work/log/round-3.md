@@ -1,30 +1,35 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 25 of 100. **Last Update:** 10 September 2019
+## **Status:** Day 26 of 100. **Last Update:** 11 September 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
-## R3D25:  Wednesday 10th September 2019
-+ **Notes** - Most of the forms I'm working on are working. But the CSS Stying in the validation is slightly off and finding out why is tricky.  It's down to some CSS rules overriding another - a drawback of building the project the way I am.  #100DaysOfCode.
+## R3D26:  Wednesday 11th September 2019
++ **Notes** - Did something a little different today. I came by SoloLearn.com today and with it learned some useful things about the DOM, JS Form validation and JS Objects. 
++ **Technologies Used** - JavaScript.
+
+## R3D25:  Tuesday 10th September 2019
++ **Notes** - Most of the forms I'm working on are working. But the CSS Styling in the validation is slightly off and finding out why is tricky.  It's down to some CSS rules overriding another - a drawback of building the project the way I am.  #100DaysOfCode.
++ **Technologies Used** - HTML5, Sass, PHP
 
 ## R3D24:  Monday 9th September 2019
 + **Notes** - Spend my #100DaysOfCode time today compartmentalising forms and form styling in the hope it'll make this rather large project easier to organise. 
-+ **Technologies Used** - Python.
++ **Technologies Used** - HTML5, Sass, PHP
 
 ## R3D23:  Friday 6th September 2019
 + **Notes** - One of those days today.  Just time for a session of coding in Python - refresher on lists and mutability. 
-+ **Technologies Used** - Python.
++ **Technologies Used** - Python
 
 ## R3D22:  Thursday 5th September 2019
 + **Notes** - Form processing and handling is hard and I'm finding it tough but this is why I'm putting these hours in now. I've started on new technique in a new script and will see how this goes.
-+ **Technologies Used** - Sass, HTML5, PHP.
++ **Technologies Used** - Sass, HTML5, PHP
 
 ## R3D21:  Wednesday 4th September 2019
 + **Notes** -
   + Making progress every day with my Form Project.  My main win was writing my script to react differently depending on what or if any values are submitted to my forms.  
-+ **Technologies Used** - Sass, HTML5, PHP.
++ **Technologies Used** - Sass, HTML5, PHP
 
 ## R3D20:  Tuesday 3rd September 2019
 + **Notes** -

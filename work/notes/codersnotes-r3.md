@@ -5,6 +5,58 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+
+## Day 26
+
+###  simple day and time counter
+
+```javascript
+
+//Courtesy of SoloLearn.com - The Date object enables us to work with dates.
+//A date consists of a year, a month, a day, an hour, a minute, a second, and milliseconds.
+
+
+//Let's create a program that prints the current time to the browser once every second.
+function printTime() {
+  var d = new Date();
+  var hours = d.getHours();
+  var mins = d.getMinutes();
+  var secs = d.getSeconds();
+  document.body.innerHTML = hours+":"+mins+":"+secs;
+}
+setInterval(printTime, 1000);
+
+```
+
+### JS form Validation
+
+```javascript
+<form onsubmit="return validate()" method="post">
+  Number: <input type="text" name="num1" id="num1" />
+  <br />
+  Repeat: <input type="text" name="num2" id="num2" />
+  <br />
+  <input type="submit" value="Submit" />
+</form>
+
+Now we need to define the validate() function:
+function validate() {
+  var n1 = document.getElementById("num1");
+  var n2 = document.getElementById("num2");
+  if(n1.value != "" && n2.value != "") {
+    if(n1.value == n2.value) {
+      return true;
+    }
+  }
+  alert("The values should be equal and not blank");
+  return false;
+}
+
+//We return true only when the values are not blank and are equal.
+//The form will not get submitted if its onsubmit event returns false.
+```
+
 ## Day 25
 
 

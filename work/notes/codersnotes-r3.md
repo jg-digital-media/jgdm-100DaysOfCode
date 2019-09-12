@@ -7,6 +7,32 @@
 
 
 
+## Day 27
+
+### Sanitising Form input and output
+
+
+```php
+// retrieve a value without filter_input
+$email = '';
+if (isset($_GET['email'])) {
+    $email = $_GET['email'];
+}
+
+
+// filter_input can be used from PHP 5.2 onwards
+$email = filter_input(INPUT_GET, 'email');
+
+For example, with an email address there is the FILTER_SANITIZE_EMAIL filter, which removes all characters except letters, digits and !#$%&’*±/=?^_`{|}~@..
+
+
+$email = filter_input(INPUT_GET, 'email', FILTER_SANITIZE_EMAIL);
+
+$name = trim(filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING));
+
+# Source:  https://www.sitepoint.com/community/t/php-and-mysql-coding-tips/3081/16
+```
+
 ## Day 26
 
 ###  simple day and time counter

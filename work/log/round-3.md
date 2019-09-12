@@ -1,10 +1,14 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 26 of 100. **Last Update:** 11 September 2019
+## **Status:** Day 27 of 100. **Last Update:** 12 September 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+## R3D27:  Thursday 12th September 2019
++ **Notes** - Much better day today.  I now have 3 examples of client side validation and 1 example that seems to be working for Server side form validation. I still have a lot to learn about how to get both ends to work together well. But a productive time. 
++ **Technologies Used** - HTML5, Sass, PHP.
 
 ## R3D26:  Wednesday 11th September 2019
 + **Notes** - Did something a little different today. I came by SoloLearn.com today and with it learned some useful things about the DOM, JS Form validation and JS Objects. 

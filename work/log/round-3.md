@@ -1,13 +1,18 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 28 of 100. **Last Update:** 13 September 2019
+## **Status:** Day 29 of 100. **Last Update:** 16 September 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
+## R3D29:  Monday 16th September 2019
++ **Notes** - Got some styling back working on for instant validation feedback using JavaScript. Got to work on fixing up the placement of certain fields before I get to more server side validation. 
++ **Technologies Used** - HTML5, Sass, PHP.
+
 ## R3D28:  Friday 13th September 2019
 + **Notes** - Got some of my form styles back.  I had wanted to structure the project so all the styles lived in one place but with so many form examples used it wasn't practical. So each form example is now its own mini site with its own styles.  Looking forward to continuing to build on this.  
++ **Technologies Used** - HTML5, Sass, PHP.
 
 ## R3D27:  Thursday 12th September 2019
 + **Notes** - Much better day today.  I now have 3 examples of client side validation and 1 example that seems to be working for Server side form validation. I still have a lot to learn about how to get both ends to work together well. But a productive time. 

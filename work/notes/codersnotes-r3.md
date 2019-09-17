@@ -5,6 +5,28 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 30
+
+### Python Loops  
+
+```python
+video_games = [
+    "The Legend of Zelda: Breath of the Wild",
+    "Splatoon 2",
+    "Super Mario Odyssey",
+]
+
+#For in
+
+for game in video_games:
+   print (game)
+```
+
++ Lists are mutable and methods can change their contents!
+
++ Modifying a list while looping through it is discouraged as it will produce unexpected results. This code is looping through a copy and then modifying the original.
+
++ Served better with something called List Comprehensions
 
 
 ## Day 27

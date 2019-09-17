@@ -1,10 +1,14 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 29 of 100. **Last Update:** 16 September 2019
+## **Status:** Day 30 of 100. **Last Update:** 17 September 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+## R3D30:  Tuesday 17th September 2019
++ **Notes** - Worked mostly on the client side again today and made what I think are some pretty style features for invalid states.  Tomorrow I start thinking about the server side again. 
++ **Technologies Used** - HTML5, Sass, PHP.
 
 ## R3D29:  Monday 16th September 2019
 + **Notes** - Got some styling back working on for instant validation feedback using JavaScript. Got to work on fixing up the placement of certain fields before I get to more server side validation. 

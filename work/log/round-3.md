@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 30 of 100. **Last Update:** 17 September 2019
+## **Status:** Day 31 of 100. **Last Update:** 18 September 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+## R3D30:  Wednesday 18th September 2019
++ **Notes** - 
+  + New example of a server side validated form is up.  It tells us when there are fields that still need filling in and identifies which fields are missing.  Will be working on refining this tomorrow with better styling. https://projects.jonniegrieve.co.uk/form_project/w3schools/index.php 
+  + In Python I was able to code a nice command line Shopping List App on pretty much the first go. Am pleased with what I was able to run on my own when prompted 
++ **Technologies Used** - HTML5, Sass, PHP, Python.
 
 ## R3D30:  Tuesday 17th September 2019
 + **Notes** - Worked mostly on the client side again today and made what I think are some pretty style features for invalid states.  Tomorrow I start thinking about the server side again. 

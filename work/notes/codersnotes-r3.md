@@ -5,6 +5,53 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 31
+
+
+### Python Split and Join Examples 
+
+```python
+
+
+# split - turn a string into a List
+
+import time
+
+for word in words:
+   print(word)
+   time.sleep(1)  #pause execution for a second 
+
+list = string.split(", ")
+list 
+
+you can join any iterable together. with  .join
+
+#", ".list
+
+games = ["Super Mario Kart","Super Mario World","Yoshi's Island"]
+
+#", ".games
+
+```
+
+### Multi-dimensional lists
+
+```python
+
+travel_expenses = [
+    [5.00, 2.75, 22.00, 0.00, 0.00],
+    [24.75, 5.50, 15.00, 22.00, 8.00],
+    [2.75, 5.50, 0.00, 29.00, 5.00],
+]
+
+len(travel_expenses)  = 3
+
+travel_expenses[0]
+travel_expenses[0][1]
+
+```
+
 ## Day 30
 
 ### Python Loops  

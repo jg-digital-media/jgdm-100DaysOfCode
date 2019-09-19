@@ -147,7 +147,9 @@ nav.main-nav {
   background: #eef595;
   /*border: solid black 2px;*/
   vertical-align: middle;
-  padding-top: 15px; }
+  padding-top: 15px;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.52);
+  /* box-shadow: inset 0px -5px 5px 0px rgba(0,0,0,0.52);*/ }
   nav.main-nav ol {
     display: inline; }
     nav.main-nav ol li {

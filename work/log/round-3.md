@@ -1,12 +1,20 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 31 of 100. **Last Update:** 18 September 2019
+## **Status:** Day 32 of 100. **Last Update:** 19 September 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
-## R3D30:  Wednesday 18th September 2019
+## R3D32:  Thursday 19th September 2019
++ **Notes** - 
+
+  + Started a script courtesy of The Art of The Web Tutorials that unless I'm mistaken should pause submission of an email form depending on existence of validation errors. https://www.the-art-of-web.com/php/form-handler/ 
+  + Still needs some work. I'm not getting emails returned regardlessThat effort goes on.  :)  Python wise I learned some interesting things about Tuples I wasn't aware of before.
+
++ **Technologies Used** - HTML5, Sass, PHP, Python.
+
+## R3D31:  Wednesday 18th September 2019
 + **Notes** - 
   + New example of a server side validated form is up.  It tells us when there are fields that still need filling in and identifies which fields are missing.  Will be working on refining this tomorrow with better styling. https://projects.jonniegrieve.co.uk/form_project/w3schools/index.php 
   + In Python I was able to code a nice command line Shopping List App on pretty much the first go. Am pleased with what I was able to run on my own when prompted 

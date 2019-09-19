@@ -6,6 +6,25 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 32
+
+## Use Cases  - Lists and Tuples in Python
+
++ lists are commonly used when you want to loop over data and perform an action on each item
+
++ Use lists when you need to change your data or append more items.
+
++ Use Tuples when your data is fixed and pre-determined.  hey are a good choice if you have a fixed set of data.
+
++ Use Tuples for heterogeneous data and lists for homogeneous data
+
+(Homogeneuous means lists of the same data type)
+
++ Use Tuples when you need a Schema that describes something.
+
++ Use Tuples for a more memory efficent option for data that won't change.
+
+
 ## Day 31
 
 

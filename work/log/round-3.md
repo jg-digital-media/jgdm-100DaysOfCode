@@ -1,17 +1,20 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 32 of 100. **Last Update:** 19 September 2019
+## **Status:** Day 33 of 100. **Last Update:** 20 September 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+## R3D33:  Friday 20th September 2019
++ **Notes** - I'm at a loss for this one. There must be a subtle difference in PHP versions causing different behaviour in localhost and online. Why is the redirect not working on successful form submission?
++ **Technologies Used** - HTML5, Sass, PHP
 
 ## R3D32:  Thursday 19th September 2019
 + **Notes** - 
 
   + Started a script courtesy of The Art of The Web Tutorials that unless I'm mistaken should pause submission of an email form depending on existence of validation errors. https://www.the-art-of-web.com/php/form-handler/ 
   + Still needs some work. I'm not getting emails returned regardlessThat effort goes on.  :)  Python wise I learned some interesting things about Tuples I wasn't aware of before.
-
 + **Technologies Used** - HTML5, Sass, PHP, Python.
 
 ## R3D31:  Wednesday 18th September 2019

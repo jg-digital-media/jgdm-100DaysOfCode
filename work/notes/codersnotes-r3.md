@@ -6,6 +6,25 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 33
+
+
+
+
+```python 
+# Defining a function
+def print_favorite_move():
+    print('Mean Girls')
+
+# calling a function
+print_favorite_move()
+
+https://teamtreehouse.com/library/calling-a-function()
+```
+
+
+
+
 ## Day 32
 
 ## Use Cases  - Lists and Tuples in Python

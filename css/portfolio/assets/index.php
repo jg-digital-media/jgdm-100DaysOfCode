@@ -23,7 +23,7 @@ Last Updated:   19th September 2019
     <meta property="og:title" content="Jonnie Grieve Digital Media | Independent Web Design Agency" />
     <meta property="og:description" content="Jonnie Grieve Digital Media is an independent website & multimedia design agency based in the North East of England." />		
     <meta property="og:site_name" content="Jonnie Grieve Digital Media"/>	
-    <meta property="og:url" content="http://www.jonniegrieve.co.uk" />
+    <meta property="og:url" content="https://www.jonniegrieve.co.uk" />
     
     <!--Twitter Cards-->
     <meta name="twitter:card" content="Jonnie Grieve Digital Media is an independent website & multimedia design agency based in the North East of England."></meta>

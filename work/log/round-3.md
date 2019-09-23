@@ -1,10 +1,14 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 33 of 100. **Last Update:** 20 September 2019
+## **Status:** Day 34 of 100. **Last Update:** 23 September 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+## R3D34:  Monday 23rd September 2019
++ **Notes** - I've finally written a suitable form handling script that validates form data OR sends an email. Worked a lot of hours and looked at a lot of tutorials to do it but it's paying off. Looking forward to sharing.
++ **Technologies Used** - HTML5, Sass, PHP
 
 ## R3D33:  Friday 20th September 2019
 + **Notes** - I'm at a loss for this one. There must be a subtle difference in PHP versions causing different behaviour in localhost and online. Why is the redirect not working on successful form submission?

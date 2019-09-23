@@ -6,10 +6,11 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 34
+
+
+
 ## Day 33
-
-
-
 
 ```python 
 # Defining a function
@@ -20,6 +21,7 @@ def print_favorite_move():
 print_favorite_move()
 
 https://teamtreehouse.com/library/calling-a-function()
+
 ```
 
 

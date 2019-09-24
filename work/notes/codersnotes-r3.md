@@ -6,7 +6,35 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
-## Day 34
+## Day 35
+
+### Returning Values from functions in Python
+
+
+```python
+e.g.1  #print a returned value
+def two_plus_two():
+    val = 2+2
+    return val
+
+print( two_plus_two() )
+
+
+e.g.2 #assign returns to a variable.
+def two_plus_two():
+    val = 2+2
+    return val
+
+sum = two_plus_two()
+print(sum)
+
+e.g.3 # use a function call in an expression
+def two_plus_two():
+    val = 2+2
+    return val
+
+print( two_plus_two() * 2)
+```
 
 
 

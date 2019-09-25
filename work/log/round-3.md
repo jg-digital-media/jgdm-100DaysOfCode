@@ -1,14 +1,18 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 35 of 100. **Last Update:** 24 September 2019
+## **Status:** Day 36 of 100. **Last Update:** 25 September 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
+## R3D36:  Wednesday 25th September 2019
++ **Notes** - More work on my big "Form project" today. And some practice on returning Python values in functions. Much like Yesterday. I've been going through a round of bugs and inconconsitencies in the code.
++ **Technologies** - HTML5, Sass, PHP, Python
+
 ## R3D35:  Tuesday 24th September 2019
 + **Notes** - More work on my big "Form project" today. And some practice on returning Python values in functions.  I think the lightbulb has finally switched on about what returning values actually means.  I've always understood it syntactically but not what it means.
-+ **Technologies Used** - HTML5, Sass, PHP
++ **Technologies Used** - HTML5, Sass, PHP, Python
 
 ## R3D34:  Monday 23rd September 2019
 + **Notes** - I've finally written a suitable form handling script that validates form data OR sends an email. Worked a lot of hours and looked at a lot of tutorials to do it but it's paying off. Looking forward to sharing.

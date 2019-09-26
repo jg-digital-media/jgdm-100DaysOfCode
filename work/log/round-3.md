@@ -1,10 +1,14 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 36 of 100. **Last Update:** 25 September 2019
+## **Status:** Day 37 of 100. **Last Update:** 26 September 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+## R3D37:  Thursday 26th September 2019
++ **Notes** - Another round of bug fixes on my form project work.  Felt like I'd gained more understanding of what it is to process good web forms today but still a lot more work to come.  With Python I learned about "packing" arguments in functions.
++ **Technologies** - HTML5, Sass, PHP, Python
 
 ## R3D36:  Wednesday 25th September 2019
 + **Notes** - More work on my big "Form project" today. And some practice on returning Python values in functions. Much like Yesterday. I've been going through a round of bugs and inconconsitencies in the code.

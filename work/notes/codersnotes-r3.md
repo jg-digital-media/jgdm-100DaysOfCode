@@ -5,7 +5,15 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-## Day 36
+## Day 37
+
+```python
+# Examples of using Packing in Python
+def packing(*args):
+    print(args)
+
+packing(33, 24, 46)
+```
 
 
 ## Day 35

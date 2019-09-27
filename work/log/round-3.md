@@ -1,10 +1,19 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 37 of 100. **Last Update:** 26 September 2019
+## **Status:** Day 38 of 100. **Last Update:** 27 September 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+## R3D38:  Friday 27th September 2019
++ **Notes** - 
+
+  + Big update today. I've found a solution to organise common stylesheets to one directory so I can update the main styles in one place with individual stylesheets in their own place. 
+  + I'll still need to run sass --watch commands in several locations to update the different content but it's a good solution. 
+  + Where yesterday I learned about Packing in Python today I learned the opposite pattern in unpacking.
+
++ **Technologies** - HTML5, Sass, PHP, Python
 
 ## R3D37:  Thursday 26th September 2019
 + **Notes** - Another round of bug fixes on my form project work.  Felt like I'd gained more understanding of what it is to process good web forms today but still a lot more work to come.  With Python I learned about "packing" arguments in functions.

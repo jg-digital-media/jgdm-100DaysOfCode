@@ -5,7 +5,17 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-## Day 38
+## Day 39
+
+###Looping on Python iterables with unumerate. 
+
+```python
+enumerate
+groceries = ["Fish", "Chips", "Salt", "Chicken", "Sausages"]
+
+for index, item in enumerate(groceries, 1):
+    print(f '{index}. {item}')
+```
 
 ## Day 37
 

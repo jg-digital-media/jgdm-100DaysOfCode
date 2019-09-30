@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 38 of 100. **Last Update:** 27 September 2019
+## **Status:** Day 39 of 100. **Last Update:** 30 September 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+## R3D39:  Monday 30th September 2019
++ **Notes** - 
+
+  + Coded the styling of error messages on forms today.  Hoping to show you all what I've been working on very soon
+
++ **Technologies Used** - HTML5, Sass, PHP, Python
 
 ## R3D38:  Friday 27th September 2019
 + **Notes** - 

@@ -5,6 +5,49 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 40
+
+### Python
+
+### PHP Mail Script Example 1
+
+```php
+
+<?php 
+
+#if form and fields are set
+if($_POST && isset($_POST['form_field'], $_POST['form_field']) {
+
+    # Based on -https://www.the-art-of-web.com/php/form-handler/
+
+    #store and assign superglobal variables separately
+    $variable = $_POST['name'];
+    //more as needed
+
+    //Form validation segment. Catch validation errors. Don't submit form if validation errors exist.
+    if(!$variable) {
+    } elseif(!$variable) {
+    } elseif(!$variable) {
+    } elseif(!$email || !preg_match("regex to check email", $email)) {)
+    } else {
+      //if no validation errors - send email.
+      $to = "recipient";
+      if(!$subject) $subject = "email title";
+      $headers = "From: email_address" . "\r\n";
+       
+      //sendmail() function
+      mail($to, $subject, $message, $headers);
+      redirect to new locatiom
+      header("Location: https://new-url.html");
+      exit;
+  }
+}
+
+?>
+
+```
+
+
 ## Day 39
 
 ###Looping on Python iterables with unumerate. 

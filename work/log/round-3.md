@@ -6,6 +6,15 @@ ___
 ___
 
 
+## R3D40:  Tuesday 1st October 2019
+
++ **Notes** - 
+
+  +  Writing a blog to discuss the "Form Project" I've been working on... what I've been doing, why I've been doing it, what I've learned. why it's been worth doing. So that's most of the #100DaysOfCode I've been doing today.  Also learned a bit more about Python Sequences.
+
+
++ **Technologies Used** - HTML5, Sass, PHP, Python
+
 ## R3D39:  Monday 30th September 2019
 + **Notes** - 
 

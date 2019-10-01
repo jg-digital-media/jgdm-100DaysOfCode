@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 3: Day 39 of 100. **Last Update:** 30 September 2019
++ **Status:** Round 3: Day 40 of 100. **Last Update:** 1 October 2019
 
 ## Directories
   + css 

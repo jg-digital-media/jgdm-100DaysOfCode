@@ -5,6 +5,28 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 41
+
+```python
+
+# e.g.
+rainbow = ['red','orange','yellow','green','blue','indigo','violet']
+
+rainbow[1]
+rainbow[1:4]  starting and ending index  ending index is eclusive
+rainbow[3:]
+rainbow[:3]
+rainbow[::4]
+rainbow[::-1] # - reverse a sequence
+
+# works with all iterables
+
+my_name = 'Ashley';
+my_name[:3] - returns 'Ash'
+```
+
+
 ## Day 40
 
 ### Python

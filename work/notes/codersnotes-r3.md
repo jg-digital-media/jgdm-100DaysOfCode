@@ -6,6 +6,29 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 43
+
+### Min, Max and Len in Python
+
+```python
+
+nums = (1,2,3,5,7)
+
+len(nums)
+max(nums)
+min(nums)
+
+they're common for all python sequences
+
+my_string = "treehouse"
+
+len(my_string)  returns 10
+max(my_string)  returns u 
+min(my_string)  returns e
+
+```
+
+
 ## Day 41
 
 ```python

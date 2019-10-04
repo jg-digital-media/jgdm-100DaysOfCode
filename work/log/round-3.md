@@ -1,40 +1,40 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 42 of 100. **Last Update:** 3 October 2019
+## **Status:** Day 43 of 100. **Last Update:** 4 October 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
 
-## R3D41:  Thursday 3rd October 2019
+## R3D43:  Friday 4th October 2019
++ **Notes** - 
 
+  +  Finished my look into Python sequences, learned the concept of Membership Testing and Concatenation. Next up, Python Dictionaries.
+  + **Technologies Used** - Python
+
+## R3D42:  Thursday 3rd October 2019
 + **Notes** - 
 
   +  "Form Project" is live! This is a collection of pages and web forms of various types. https://projects.jonniegrieve.co.uk/form_project/  I wrote a blog about what this project is all about which you can find here!  #100DaysOfCode
-## R3D41:  Wednesday 2nd October 2019
+  + **Technologies Used** - HTML5, Sass, PHP, Python
 
+## R3D41:  Wednesday 2nd October 2019
 + **Notes** - 
 
   + Finally launching "Form Project" tomorrow. Had intended to do it today but had matters elsewhere to attend to. Just been doing some last minute checks which will continue into tomorrow. 
-
-
 + **Technologies Used** - HTML5, Sass, PHP, Python
 
 ## R3D40:  Tuesday 1st October 2019
-
 + **Notes** - 
 
   +  Writing a blog to discuss the "Form Project" I've been working on... what I've been doing, why I've been doing it, what I've learned. why it's been worth doing. So that's most of the #100DaysOfCode I've been doing today.  Also learned a bit more about Python Sequences.
-
-
 + **Technologies Used** - HTML5, Sass, PHP, Python
 
 ## R3D39:  Monday 30th September 2019
 + **Notes** - 
 
   + Coded the styling of error messages on forms today.  Hoping to show you all what I've been working on very soon
-
 + **Technologies Used** - HTML5, Sass, PHP, Python
 
 ## R3D38:  Friday 27th September 2019

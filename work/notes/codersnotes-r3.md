@@ -8,6 +8,30 @@
 
 ## Day 43
 
+```python
+
+### Membership Testing
+
+colours = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+food_list = ('Bread', 'Butter', 'Sausages', 'Chicken', 'spuds', 'Pork')
+
+print("***With Lists and Tuples***\n")
+print("Membership Testing\n\n")
+print( 'red' in colours )  # returns true
+print( 'Chicken' not in food_list )  # returns false
+
+### Concatenation 
+
+name = "Jonathan "
+last_name = "Grieve"
+
+full_name = name+last_name
+print(full_name)
+
+```
+
+## Day 42
+
 ### Min, Max and Len in Python
 
 ```python

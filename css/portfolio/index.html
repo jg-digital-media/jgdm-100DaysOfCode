@@ -57,7 +57,7 @@ Last Updated:   14th March 2019
             </h1>
         </span>
 
-        <ol id = "social">
+        <ol id = "social" role="social-platforms">
             <li><a href="https://www.facebook.com/jgDigitalMedia/" target="blank">&nbsp;<img class="social-icon" title="Find me on Facebook" alt="Find me on Facebook" src="img/facebook.png" tabindex="1"  /></a></li>
             <li><a href="https://www.twitter.com/jg_digitalMedia/" target="blank">&nbsp;<img class="social-icon" title="Follow me on Twitter" alt="Follow me on Twitter" src="img/twitter.png" tabindex="2"  /></a></li>
             <li><a href="https://www.linkedin.com/in/jonathan-grieve-6a944659/" target="blank">&nbsp;<img class="social-icon" title="Let's connect on LinkedIn" alt="Let's connect on LinkedIn" src="img/linkedin.png" tabindex="3"  /></a></li>
@@ -71,10 +71,10 @@ Last Updated:   14th March 2019
     <nav class="main-nav">
         <ol>
             <li><a href="index.html" title="Click here to go back to the top" tabindex="5">Home</a></li>
-            <li><a href="#about-jgdm" title="Click here to jump to the About section" tabindex="6" >About</a></li>
-            <li><a href="#services" title="Click here to jump to the Services section" tabindex="7" >Services</a></li>
-            <li><a href="#hire-me" title="Click here to go jump to the hire me section" tabindex="8" >Hire Me</a></li>
-            <li><a href="#dyspraxia" title="Click here to jump to the Dyspraxia section" tabindex="9" >Dyspraxia</a></li>
+            <li><a href="#about-jgdm" title="Click here to jump to the About section" tabindex="6">About</a></li>
+            <li><a href="#services" title="Click here to jump to the Services section" tabindex="7">Services</a></li>
+            <li><a href="#hire-me" title="Click here to go jump to the hire me section" tabindex="8">Hire Me</a></li>
+            <li><a href="#dyspraxia" title="Click here to jump to the Dyspraxia section" tabindex="9">Dyspraxia</a></li>
         </ol>
     </nav>
 
@@ -235,7 +235,7 @@ Last Updated:   14th March 2019
                 <p>Skills: Single Page App</p>    
             </div>
 
-            <div class="elsewhere" tabindex="35" >
+            <div class="elsewhere" tabindex="35" role="elsewhere-div">
                 <a href="https://projects.jonniegrieve.co.uk/vue_project" target="blank" role="Elsewhere">
                     <img src="img/services/project-status-page.png" />&nbsp;
                 </a>   
@@ -303,8 +303,7 @@ Last Updated:   14th March 2019
                         </div>
 
                         <div class="col-two">
-                            <input type="text" id="name" name="name" required  
-                            oninvalid="this.setCustomValidity('Please Enter Your Name!  :-)')" oninput="this.setCustomValidity('')" placeholder="Enter your name..." tabindex="42"  />
+                            <input type="text" id="name" name="name" oninvalid="this.setCustomValidity('Please Enter Your Name!  :-)')" oninput="this.setCustomValidity('')" placeholder="Enter your name..." tabindex="42"  />
                         </div>
                     
                     </div> 
@@ -316,7 +315,7 @@ Last Updated:   14th March 2019
                         </div>
 
                         <div class="col-two">
-                            <input type="email" id="email" name="email" required oninvalid="this.setCustomValidity('Please enter a valid email :-)')" oninput="this.setCustomValidity('')" placeholder="Enter your email..." tabindex="44"  />
+                            <input type="email" id="email" name="email" oninvalid="this.setCustomValidity('Please enter a valid email :-)')" oninput="this.setCustomValidity('')" placeholder="Enter your email..." tabindex="44"  />
                         </div>
                         
                     </div>    
@@ -341,7 +340,7 @@ Last Updated:   14th March 2019
 
                         <div class="col-two">
         
-                            <input type="text" id="subject" name="subject" required oninvalid="this.setCustomValidity('Please enter a subject for your message')" oninput="this.setCustomValidity('')" placeholder="Service or help you require..." tabindex="48"  />
+                            <input type="text" id="subject" name="subject" oninvalid="this.setCustomValidity('Please enter a subject for your message')" oninput="this.setCustomValidity('')" placeholder="Service or help you require..." tabindex="48"  />
                         
                         </div>
                         
@@ -355,7 +354,7 @@ Last Updated:   14th March 2019
 
                         <div class="col-two">
         
-                            <textarea id="message" name="message" required oninvalid="this.setCustomValidity('Enter a message!')"  oninput="this.setCustomValidity('')" placeholder="How can I help?" tabindex="50" ></textarea>
+                            <textarea id="message" name="message" oninvalid="this.setCustomValidity('Enter a message!')"  oninput="this.setCustomValidity('')" placeholder="How can I help?" tabindex="50" ></textarea>
                         
                         </div>
                         

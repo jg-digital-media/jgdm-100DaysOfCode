@@ -29,23 +29,24 @@ Last Updated:   14th March 2019
     <header>
         <img title="Logo for Jonnie Grieve Digital Media" alt="Logo for Jonnie Grieve Digital Media" src="img/logo.png" tabindex="1" />
 
-        <span id="website-title">
-            <h1>
-                <span class="green">Jonnie Grieve</span> 
-                <span class="yellow">Digital Media:</span><br />            
+        
 
-                <span class="green">Designs and Prototypes</span> 
-                <span class="yellow">for Web and Multimedia</span>
+        <span id="website-title" role="title">
+            <h1>
+                <span class="green" title="Jonnie Grieve" role="Jonnie Grieve">Jonnie Grieve</span> 
+                <span class="yellow" title="Digital Media" role="Digital Media">Digital Media:</span><br />            
+
+                <span class="green" title="Designs and Prototypes" role="Designs and Prototypes">Designs and Prototypes</span> 
+                <span class="yellow" title="for Web and Multimedia" role="for Web and Multimedia">for Web and Multimedia</span>
             </h1>
         </span>
 
-        <ol id = "social">
-            <li><a href="https://www.facebook.com/jgDigitalMedia/" target="blank"><img class="social-icon" title="Find me on Facebook" alt="Find me on Facebook" src="img/facebook.png" tabindex="2"  /></a></li>
-            <li><a href="https://www.twitter.com/jg_digitalMedia/" target="blank"><img class="social-icon" title="Follow me on Twitter" alt="Follow me on Twitter" src="img/twitter.png" tabindex="3"  /></a></li>
-            <li><a href="https://www.linkedin.com/in/jonathan-grieve-6a944659/" target="blank"><img class="social-icon" title="Let's connect on LinkedIn" alt="Let's connect on LinkedIn" src="img/linkedin.png" tabindex="4"  /></a></li>
-            <li><a href="https://www.instagram.com/jonniegrievedigitalmedia/" target="blank"><img class="social-icon" title="Find me on Instagram" alt="Find me on Instagram" src="img/instagram.png" tabindex="5"  /></a></li>
-            <li><a href="https://www.youtube.com/" target="blank"><img class="social-icon" title="Watch me on YouTube" alt="Watch me on YouTube" src="img/youtube.png" tabindex="6"  /></a></li>
-            
+        <ol id = "social" role="social-platforms">
+            <li><a href="https://www.facebook.com/jgDigitalMedia/" target="blank">&nbsp;<img class="social-icon" title="Find me on Facebook" alt="Find me on Facebook" src="img/facebook.png" tabindex="1"  /></a></li>
+            <li><a href="https://www.twitter.com/jg_digitalMedia/" target="blank">&nbsp;<img class="social-icon" title="Follow me on Twitter" alt="Follow me on Twitter" src="img/twitter.png" tabindex="2"  /></a></li>
+            <li><a href="https://www.linkedin.com/in/jonathan-grieve-6a944659/" target="blank">&nbsp;<img class="social-icon" title="Let's connect on LinkedIn" alt="Let's connect on LinkedIn" src="img/linkedin.png" tabindex="3"  /></a></li>
+            <li><a href="https://www.instagram.com/jonniegrievedigitalmedia/" target="blank">&nbsp;<img class="social-icon" title="Find me on Instagram" alt="Find me on Instagram" src="img/instagram.png" tabindex="3"  /></a></li>
+            <li><a href="https://www.youtube.com/" target="blank">&nbsp;<img class="social-icon" title="Watch me on YouTube" alt="Watch me on YouTube" src="img/youtube.png" tabindex="4"  /></a></li>
         </ol>
 
     </header>
@@ -70,7 +71,7 @@ Last Updated:   14th March 2019
 
             <h2>Services</h2>
 
-            <div class="main-services" tabindex="9">
+            <div class="main-services" tabindex="9" role="Main Services">
                 <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/webdesign.html','','scrollbars=yes,width=550,height=250')">
                     <i class="fas fa-object-group">&nbsp;</i>
                 </a>
@@ -78,14 +79,14 @@ Last Updated:   14th March 2019
 
             </div>
 
-            <div class="main-services" tabindex="10">
+            <div class="main-services" tabindex="10" role="Main Services">
                  <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/gwd-creatives.html','','scrollbars=yes,width=550,height=250')">
                     <i class="fab fa-google">&nbsp;</i>           
                 </a>
                 <p>Google Web Designer Creatives for web advert generation</p>
             </div>
 
-            <div class="main-services" tabindex="11">
+            <div class="main-services" tabindex="11" role="Main Services">
                 <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/social-media.html','','scrollbars=yes,width=550,height=250')">
                     <i class="fab fa-twitter">&nbsp;</i>
                 </a>
@@ -93,21 +94,21 @@ Last Updated:   14th March 2019
                 <p>Social Media: To help you get noticed.</p>       
             </div>
 
-            <div class="main-services" tabindex="12">
+            <div class="main-services" tabindex="12" role="Main Services">
                 <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/wordpress.html','','scrollbars=yes,width=550,height=250')">
                     <i class="fab fa-wordpress-simple">&nbsp;</i>
                 </a>                
                 <p>WordPress: Most Websites use this popular platform</p>       
             </div>
 
-            <div class="main-services" tabindex="13">
+            <div class="main-services" tabindex="13" role="Main Services">
                 <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/e-commerce.html','','scrollbars=yes,width=550,height=250')">
                     <i class="fas fa-cash-register">&nbsp;</i>
                 </a>               
                 <p>E-Commerce: Sell products via your website.</p>     
             </div>
 
-            <div class="main-services" tabindex="14">
+            <div class="main-services" tabindex="14" role="elsewhere-div">
                 <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/digital-design.html','','scrollbars=yes,width=550,height=250')">
                     <i class="fas fa-image">&nbsp;</i>
                 </a>                   
@@ -116,44 +117,44 @@ Last Updated:   14th March 2019
 
             <h3>Elsewhere... </h3>
 
-            <div class="elsewhere" tabindex="15">
+            <div class="elsewhere" tabindex="15" role="elsewhere-div">
                 <a href="https://projects.jonniegrieve.co.uk" target="blank">
-                    <img src="img/services/sub-projects.png" />
+                    <img src="img/services/sub-projects.png" role="Elsewhere" />
                 </a>
                 <p>projects.jonniegrieve.co.uk</p>       
             </div>
 
-            <div class="elsewhere" tabindex="16">
+            <div class="elsewhere" tabindex="16" role="elsewhere-div">
                 <a href="https://wordpress.jonniegrieve.co.uk" target="blank">
-                    <img src="img/services/sub-wordpress.png" />
+                    <img src="img/services/sub-wordpress.png" role="Elsewhere" />
                 </a>   
                 <p>wordpress.jonniegrieve.co.uk</p>    
             </div>
 
-            <div class="elsewhere" tabindex="17">
+            <div class="elsewhere" tabindex="17" role="elsewhere-div">
                 <a href="https://android.jonniegrieve.co.uk" target="blank">
-                    <img src="img/services/sub-android.png" />
+                    <img src="img/services/sub-android.png" role="Elsewhere" />
                 </a> 
                 <p>android.jonniegrieve.co.uk</p>      
             </div>
 
-            <div class="elsewhere" tabindex="18">
+            <div class="elsewhere" tabindex="18" role="elsewhere-div">
                 <a href="https://dyspraxia.jonniegrieve.co.uk" target="blank">
-                    <img src="img/services/sub-dyspraxia.png" />
+                    <img src="img/services/sub-dyspraxia.png" role="Elsewhere" />
                 </a>   
                 <p>dyspraxia.jonniegrieve.co.uk</p>    
             </div>
 
-            <div class="elsewhere" tabindex="19">
+            <div class="elsewhere" tabindex="19" role="elsewhere-div">
                 <a href="https://projects.jonniegrieve.co.uk/jquery_project" target="blank">
-                    <img src="img/services/skills-page.png" />
+                    <img src="img/services/skills-page.png" role="Elsewhere" />
                 </a>   
                 <p>Skills: Single Page App</p>    
             </div>
 
-            <div class="elsewhere" tabindex="20">
+            <div class="elsewhere" tabindex="20" role="elsewhere-div">
                 <a href="https://projects.jonniegrieve.co.uk/vue_project" target="blank">
-                    <img src="img/services/project-status-page.png" />
+                    <img src="img/services/project-status-page.png" role="Elsewhere" />
                 </a>   
                 <p>Project Status: Single Page App</p>    
             </div>
@@ -172,6 +173,21 @@ Last Updated:   14th March 2019
         // get real ip address
         $realIP = file_get_contents("http://ipecho.net/plain");
         $checkIP = file_get_contents('http://checkip.dyndns.com/');
+
+
+        //To do: Server side Validation.
+
+            // get access to form fields with superglobal variables.
+            $name = $_POST["name"];
+            $email = $_POST["email"];
+            $your_url = $_POST["your-url"];
+            $message = $_POST["message"];
+            $subject = $_POST["subject"];
+            $confirm = $_POST["confirm"];
+
+            if(isset($_POST["submit"])) {
+
+            }
 
         //Build email message
         $msg = "<h3>You have a received a new message from  " . $_POST["name"] . " on Jonnie Grieve Digital Media (https://www.jonniegrieve.co.uk)</h3>";

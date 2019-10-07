@@ -8,6 +8,8 @@
 
 ## Day 44
 
+
+### Calculate Ticket price - Functions - Python
 ```python
 #function to calculate the price of a ticket.  1 argument.  
 def calc_price(num_tickets):
@@ -23,6 +25,17 @@ def calc_price(num_tickets):
     return calc
     #where SERVICE_CHARGE is a constant variable with the value of 2
 
+```
+
+### Python Dictionaries
+
+```python
+
+{ key : value, key : value }
+
+{ name : 'Jack' }
+
+# keys in a dictionary should be unique.  
 
 ```
 

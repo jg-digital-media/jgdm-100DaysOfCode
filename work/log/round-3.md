@@ -1,23 +1,32 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 43 of 100. **Last Update:** 4 October 2019
+## **Status:** Day 44 of 100. **Last Update:** 7 October 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
 
+## R3D44:  Monday 7th October 2019
++ **Notes** - 
+  + Following on from my form project work I've applied more client side validation to the main form on my website.  Server side will be next up.
+  + It was hard to tell if it worked initially however as it seems HTML5 Validation takes priority.  So I removed that for now.  I'll be sure to add that later.
+  + 2 more versions of the masterticket python script added today and went on furter to study Python Dictionary syntax..
+
+
++ **Technologies Used** - HTML5, JavaScript, PHP,  Python
+
 ## R3D43:  Friday 4th October 2019
 + **Notes** - 
 
   +  Finished my look into Python sequences, learned the concept of Membership Testing and Concatenation. Next up, Python Dictionaries.
-  + **Technologies Used** - Python
++ **Technologies Used** - Python
 
 ## R3D42:  Thursday 3rd October 2019
 + **Notes** - 
 
   +  "Form Project" is live! This is a collection of pages and web forms of various types. https://projects.jonniegrieve.co.uk/form_project/  I wrote a blog about what this project is all about which you can find here!  #100DaysOfCode
-  + **Technologies Used** - HTML5, Sass, PHP, Python
++ **Technologies Used** - HTML5, Sass, PHP, Python
 
 ## R3D41:  Wednesday 2nd October 2019
 + **Notes** - 

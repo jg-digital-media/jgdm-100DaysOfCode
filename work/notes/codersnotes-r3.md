@@ -6,6 +6,26 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 44
+
+```python
+#function to calculate the price of a ticket.  1 argument.  
+def calc_price(num_tickets):
+    calc = num_tickets * TICKET_PRICE
+    return calc
+    #return num_tickets * TICKET_PRICE
+
+def calc_price(num_tickets):
+    return num_tickets * TICKET_PRICE
+
+def calc_price(num_tickets):
+    calc = num_tickets * TICKET_PRICE + SERVICE_CHARGE
+    return calc
+    #where SERVICE_CHARGE is a constant variable with the value of 2
+
+
+```
+
 ## Day 43
 
 ```python

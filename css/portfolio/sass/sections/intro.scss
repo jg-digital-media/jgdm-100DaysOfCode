@@ -1,0 +1,35 @@
+.main-content {
+    width: 100%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    
+    article#intro {
+        background: none;
+        padding: 40vh 0 0 0;
+        margin-top: 150px;
+
+        @media(max-width: $lg) {
+            margin-top: 5%;
+        }
+        
+        @media(max-width: $sm) {
+            padding: 20vh 0 0 0;
+        }
+
+        h1 {
+            text-align: center;
+            @media(max-width: $sm) {
+                font-size: 6vw;
+            }
+        }
+
+        a {
+            color: white;
+            &:hover {
+                color: #fdeab2;
+                text-decoration: none;
+            } 
+        }
+    }
+}

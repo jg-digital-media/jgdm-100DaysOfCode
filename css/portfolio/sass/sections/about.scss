@@ -1,0 +1,39 @@
+.main-content {
+
+    .about-box {
+
+        padding: 10px;
+
+        @media(max-width: $md) {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        p {
+            min-height: 200px;
+
+            @media(max-width: $md) {
+                min-height: 0;
+            }
+        }
+    }
+
+    article#about {
+        @include articlePlacement(flex, row, 10%);
+        @extend %sections;
+
+        h3 {
+            color: black;
+            font-size: 20pt;
+        }
+
+        @media(max-width: $md) {
+            display: block;
+            width: 90%;
+
+        }
+
+
+    }  
+
+}

@@ -92,3 +92,18 @@
    <!--crook2hook  castle eden walks add tabindexes -->
 
 ```
+
+
+```html
+
+    <!--TO PASTE -->
+
+    <a href="https://projects.jonniegrieve.co.uk/fyp" target="blank"><img src="img/featured/fyp_running.png" class="site-images" alt="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." title="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." tabindex="" /></a>
+
+    <a href="https://projects.jonniegrieve.co.uk/portfolio-gallery/" target="blank"><img src="img/featured/portfolio-gallery.png" class="site-images" alt="Using HTML5 and CSS to create various versions of portfolio images" title="Using HTML5 and CSS to create various versions of portfolio images" tabindex="" /></a><br /><br />
+                    
+    <a href="https://projects.jonniegrieve.co.uk/gamesyard" target="blank"><img src="img/featured/games_yard.png" class="site-images" alt="First created in 2004, this website was created to be an informational site for playing various popular games from Card games to Pool" title="First created in 2004, this website was created to be an informational site for playing various popular games from Card games to Pool" tabindex="" /></a>
+                    
+    <a href="https://projects.jonniegrieve.co.uk/regex/" target="blank"><img src="img/featured/regex.png" class="site-images" alt="An explainer webpage for using Regular Expressions built with jQuery" title="An explainer webpage for using Regular Expressions built with jQuery" tabindex="" /></a>
+                    
+```

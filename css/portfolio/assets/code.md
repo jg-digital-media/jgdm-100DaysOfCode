@@ -107,3 +107,24 @@
     <a href="https://projects.jonniegrieve.co.uk/regex/" target="blank"><img src="img/featured/regex.png" class="site-images" alt="An explainer webpage for using Regular Expressions built with jQuery" title="An explainer webpage for using Regular Expressions built with jQuery" tabindex="" /></a>
                     
 ```
+
+```php
+
+
+    echo '<div class="error_list">';
+    echo '<ul>';
+        if(empty($name)) {echo '<li>' . $err_name . '</li>';}
+        if(empty($email)) {echo '<li>' . $err_email .'</li>';}
+        if(empty($your_url)) {echo '<li>' . $err_url . '</li>';}
+        if(empty($message)) {echo '<li>' . $err_contactMsg . '</li>';}
+        if(empty($subject)) {echo '<li>' . $err_subject . '</li>';}
+        if(empty($confirm)) {echo '<li>' . $err_confirm . '</li>';} 
+    echo '</ul></div>';
+
+
+    // form submit expression
+    if(isset($_POST["submit"]) && empty($name)
+                 || empty($email) || empty($your_url)
+                 || empty($message) || empty($subject) || empty($confirm)) {
+
+```

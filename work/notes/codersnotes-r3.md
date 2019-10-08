@@ -6,6 +6,31 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 45
+
+https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html
+
+
+### Updating Python Dictionaries
+
+```python
+
+
+course['teacher'] = 'Treasure'
+course
+{'teacher':'Treasure', 'title':'Introducing Dictionaries', 'level':'Beginner'}
+
+course['level'] = "Intermediate
+{'teacher':'Treasure', 'title':'Introducing Dictionaries', 'level':'Intermediate'}
+
+course['stages'] = 2
+{'teacher':'Treasure', 'title':'Introducing Dictionaries', 'level':'Intermediate', 'stages': 2}
+
+del(course['stages'])
+{'teacher':'Treasure', 'title':'Introducing Dictionaries', 'level':'Intermediate'}
+```
+
+
 ## Day 44
 
 

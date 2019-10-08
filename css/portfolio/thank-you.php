@@ -5,6 +5,12 @@ Email:          mail@jonniegrieve.co.uk
 Last Updated:   7th October 2019
 --->
 
+<?php   
+    // get real ip address
+    $realIP = file_get_contents("http://ipecho.net/plain");
+    $checkIP = file_get_contents('http://checkip.dyndns.com/');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,11 +48,11 @@ Last Updated:   7th October 2019
         </span>
 
         <ol id = "social" role="social-platforms">
-            <li><a href="https://www.facebook.com/jgDigitalMedia/" target="blank">&nbsp;<img class="social-icon" title="Find me on Facebook" alt="Find me on Facebook" src="img/facebook.png" tabindex="1"  /></a></li>
-            <li><a href="https://www.twitter.com/jg_digitalMedia/" target="blank">&nbsp;<img class="social-icon" title="Follow me on Twitter" alt="Follow me on Twitter" src="img/twitter.png" tabindex="2"  /></a></li>
-            <li><a href="https://www.linkedin.com/in/jonathan-grieve-6a944659/" target="blank">&nbsp;<img class="social-icon" title="Let's connect on LinkedIn" alt="Let's connect on LinkedIn" src="img/linkedin.png" tabindex="3"  /></a></li>
-            <li><a href="https://www.instagram.com/jonniegrievedigitalmedia/" target="blank">&nbsp;<img class="social-icon" title="Find me on Instagram" alt="Find me on Instagram" src="img/instagram.png" tabindex="3"  /></a></li>
-            <li><a href="https://www.youtube.com/" target="blank">&nbsp;<img class="social-icon" title="Watch me on YouTube" alt="Watch me on YouTube" src="img/youtube.png" tabindex="4"  /></a></li>
+            <li><a href="https://www.facebook.com/jgDigitalMedia/" target="blank">&nbsp;<img class="social-icon" title="Find me on Facebook" alt="Find me on Facebook" src="img/facebook.png" tabindex="2"  /></a></li>
+            <li><a href="https://www.twitter.com/jg_digitalMedia/" target="blank">&nbsp;<img class="social-icon" title="Follow me on Twitter" alt="Follow me on Twitter" src="img/twitter.png" tabindex="3"  /></a></li>
+            <li><a href="https://www.linkedin.com/in/jonathan-grieve-6a944659/" target="blank">&nbsp;<img class="social-icon" title="Let's connect on LinkedIn" alt="Let's connect on LinkedIn" src="img/linkedin.png" tabindex="4"  /></a></li>
+            <li><a href="https://www.instagram.com/jonniegrievedigitalmedia/" target="blank">&nbsp;<img class="social-icon" title="Find me on Instagram" alt="Find me on Instagram" src="img/instagram.png" tabindex="5"  /></a></li>
+            <li><a href="https://www.youtube.com/" target="blank">&nbsp;<img class="social-icon" title="Watch me on YouTube" alt="Watch me on YouTube" src="img/youtube.png" tabindex="6"  /></a></li>
         </ol>
 
     </header>
@@ -61,9 +67,88 @@ Last Updated:   7th October 2019
 
         <article id="intro" tabindex="8">
 
-            <h1>Thanks for contacting me. I'm looking forward to working with you.</h1>
+            <?php            
 
-            <p>I've received your message and I'll be in touch soon! In the meantime please continue to browse my other services below.</p>
+                //To do: Server side Validation.   
+                
+
+                //Get access to form fields with superglobal variables.
+                //Get access to form fields with superglobal variables.
+                $name = $_POST["name"];
+                $email = $_POST["email"];
+                $your_url = $_POST["your-url"];
+                $message = $_POST["message"];
+                $subject = $_POST["subject"];
+                $confirm = $_POST["confirm"];
+
+                //store form error messages.
+
+                if(isset($_POST["submit"]) && empty($name)
+                 || empty($email) || empty($your_url)
+                 || empty($message) || empty($subject) || empty($confirm)) {
+
+                    echo "<h1>There were form errors<h1>";
+                    
+                    //Error message display.                    
+                    if(empty($message)) {
+                        echo "<p>" . $err_contactMsg = "Message field error." . "</p>";
+                    }
+
+                    echo 'Click here to try again. <a href="index.php">index</a>';
+
+                    //require form snippet.
+
+                } else {
+
+                    //Build email message
+                    $msg = "<h3>You have a received a new message from  " 
+                    . $_POST["name"] 
+                    . " on Jonnie Grieve Digital Media (https://www.jonniegrieve.co.uk)</h3>";
+
+                    $msg .= "<hr />";
+
+                    $msg .="<h3>Message Contents</h3>";
+
+                    $msg .= $_POST["message"];
+
+                    $msg .="<h3>Contact Details: </h3>";
+
+                    $msg .="<ul>";
+                    $msg .="<li>" . "<strong>Name:</strong> " . $_POST["name"] . "</li>";
+                    $msg .="<li>" . "<strong>Email Address:</strong> " . $_POST["email"] . "</li>";
+                    $msg .="<li>" . "<strong>Any URL:</strong> " . $_POST["your-url"] . "</li>"; 
+                    $msg .="<li>" . "<strong>Subject:</strong> " . $_POST["subject"] . "</li>";
+                    $msg .="<li>" . "<strong>Privacy Check Confirmation:</strong> " . $_POST["confirm"] . "</li>";
+                    $msg .="</ul>";
+
+                    $msg .= "<h3>Details of Sender IP Address:</h3>";
+
+                    $msg .= "<ul>";
+
+                    $msg .= "<li><strong>The Email Server IP address is:</strong> " . $_SERVER['SERVER_ADDR'] . "</li>";
+                    $msg .= "<li><strong>The Public IP address is:</strong> " . $_SERVER['SERVER_ADDR'] . "</li>";
+                    $msg .= "<li><strong>The ipecho.com returned address is:</strong> " . $realIP . "</li>";
+                    $msg .= "<li><strong>The checkIP returned address is:</strong> " . $checkIP . "</li>";
+
+                    $msg .= "</ul>";
+
+                    //Send email
+                    $recipient = "mail@jonniegrieve.co.uk";
+                    $subject = "New email from JGDM Website";
+                    $mailheaders = "MIME-Version: 1.0\r\n";
+                    $mailheaders .= "From: Jonnie Grieve Digital Media <www.jonniegrieve.co.uk> \n";
+                    $mailheaders .= "Content-type: text/html; charset=ISO-8859-1\r\n";
+                    $mailheaders .= "Reply-To: " . $_POST["email"];
+
+                    //get HTML headers
+                    mail($recipient, $subject, $msg, $mailheaders);                
+                
+                    //On successful submit
+                    echo "<h1>Thanks for contacting me. I'm looking forward to working with you.</h1>";
+
+                    echo "<p>I've received your message and I'll be in touch soon! In the meantime please continue to browse my other services below.</p>";
+                }
+            ?>
 
         </article>
 
@@ -168,85 +253,8 @@ Last Updated:   7th October 2019
 
     <div class="ios-background"></div>
 
-    <?php
-
-        // get real ip address
-        $realIP = file_get_contents("http://ipecho.net/plain");
-        $checkIP = file_get_contents('http://checkip.dyndns.com/');
-
-
-        //To do: Server side Validation.
-
-            // get access to form fields with superglobal variables.
-            $name = $_POST["name"];
-            $email = $_POST["email"];
-            $your_url = $_POST["your-url"];
-            $message = $_POST["message"];
-            $subject = $_POST["subject"];
-            $confirm = $_POST["confirm"];
-
-            if(isset($_POST["submit"])) {
-
-            }
-
-        //Build email message
-        $msg = "<h3>You have a received a new message from  " . $_POST["name"] . " on Jonnie Grieve Digital Media (https://www.jonniegrieve.co.uk)</h3>";
-        $msg .= "<hr />";
-
-        $msg .="<h3>Message Contents</h3>";
-
-        $msg .= $_POST["message"];
-
-        $msg .="<h3>Contact Details: </h3>";
-
-        $msg .="<ul>";
-        $msg .="<li>" . "<strong>Name:</strong> " . $_POST["name"] . "</li>";
-        $msg .="<li>" . "<strong>Email Address:</strong> " . $_POST["email"] . "</li>";
-        $msg .="<li>" . "<strong>Any URL:</strong> " . $_POST["your-url"] . "</li>"; 
-        $msg .="<li>" . "<strong>Subject:</strong> " . $_POST["subject"] . "</li>";
-        $msg .="<li>" . "<strong>Privacy Check Confirmation:</strong> " . $_POST["confirm"] . "</li>";
-        $msg .="</ul>";
-
-        $msg .= "<h3>Details of Sender IP Address:</h3>";
-
-        $msg .= "<ul>";
-
-        $msg .= "<li><strong>The Email Server IP address is:</strong> " . $_SERVER['SERVER_ADDR'] . "</li>";
-        $msg .= "<li><strong>The Public IP address is:</strong> " . $_SERVER['SERVER_ADDR'] . "</li>";
-        $msg .= "<li><strong>The ipecho.com returned address is:</strong> " . $realIP . "</li>";
-        $msg .= "<li><strong>The checkIP returned address is:</strong> " . $checkIP . "</li>";
-
-        $msg .= "</ul>";
-        
-        /* function getUserIpAddr()
-        {
-            if (!empty($_SERVER['HTTP_CLIENT_IP'])) //if from shared
-            {
-                $msg .= $_SERVER['HTTP_CLIENT_IP'];
-            }
-            else if (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))   //if from a proxy
-            {
-                $msg .= $_SERVER['HTTP_X_FORWARDED_FOR'];
-            }
-            else
-            {
-                $msg .= $_SERVER['REMOTE_ADDR'];
-            }
-        }
-
-        getUserIpAddr(); */
-                
-
-        //Send email
-        $recipient = "mail@jonniegrieve.co.uk";
-        $subject = "New email from JGDM Website";
-        $mailheaders = "MIME-Version: 1.0\r\n";
-        $mailheaders .= "From: Jonnie Grieve Digital Media <www.jonniegrieve.co.uk> \n";
-        $mailheaders .= "Content-type: text/html; charset=ISO-8859-1\r\n";
-        $mailheaders .= "Reply-To: " . $_POST["email"];
-
-        //get HTML headers
-        mail($recipient, $subject, $msg, $mailheaders);
+    <?php     
+     //empty
 
     ?>
 

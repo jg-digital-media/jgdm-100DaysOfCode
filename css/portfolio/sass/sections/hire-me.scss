@@ -179,7 +179,17 @@
             float: left;
             width: 125px;
         }
+
+        .col-two {
+            min-height: 10px;
+        }
         
+
+        .field-error {
+            font-weight: bold;
+            color: red;
+        }
+
     }
 
 }

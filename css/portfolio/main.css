@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   19th September 2019
+Last Updated:   09 October 2019
 */
 /**
 Colours
@@ -223,6 +223,19 @@ nav.main-nav {
       .main-content article#intro a:hover {
         color: #fdeab2;
         text-decoration: none; }
+    .main-content article#intro .form-error {
+      line-height: 1;
+      border-width: 4px;
+      border-style: dashed;
+      border-color: red;
+      border-image: initial;
+      background: #d84c4c;
+      padding: 30px; }
+    .main-content article#intro .form-success {
+      line-height: 1;
+      background: lightgreen;
+      border: solid green 4px;
+      padding: 30px; }
 
 .main-content {
   width: 100%;
@@ -513,6 +526,11 @@ nav.main-nav {
   .main-content article#hire-me .col-one {
     float: left;
     width: 125px; }
+  .main-content article#hire-me .col-two {
+    min-height: 10px; }
+  .main-content article#hire-me .field-error {
+    font-weight: bold;
+    color: red; }
 
 .main-content article#dyspraxia {
   display: block;

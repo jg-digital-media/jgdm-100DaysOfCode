@@ -59,7 +59,7 @@ Last Updated:   7th October 2019
 
     <nav class="main-nav">
         <ol>
-            <li><a href="index.html" title="Click to go back to the homepage." tabindex="7">Home</a></li>
+            <li><a href="index.php" title="Click to go back to the homepage." tabindex="7">Home</a></li>
         </ol>
     </nav>
 

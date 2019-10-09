@@ -86,14 +86,39 @@ Last Updated:   7th October 2019
                  || empty($message) || empty($subject) || empty($confirm)) {
 
                     echo '<article id="intro" tabindex="8">';
-                    echo "<h1>There were form errors<h1>";
+
+                    echo '<div class="form-error">';
+                    echo "<h1>Ack! I'm sorry but there were form errors.  But it's an easy fix. See the messages below!</h1>";
                     
                     //Error message display.                    
-                    if(empty($message)) {
-                        echo "<p>" . $err_contactMsg = "Message field error." . "</p>";
+                    if(empty($message)) {                     
+                        echo "<p>" . $err_message = "Message field error." . "</p>";
                     }
 
+                    if(empty($name)){                        
+                        echo "<p>" . $err_name = "name field error." . "</p>";
+                    }
+                    
+                    if(empty($email)){
+                        echo "<p>" . $err_email = "email field error." . "</p>";
+                    }
+
+                    if(empty($your_url)){ 
+                        echo "<p>" . $err_yourUrl = "Your URL field error." . "</p>";  
+                    }
+
+                    if(empty($subject)){
+                        echo "<p>" . $err_subject = "Subject error." . "</p>";
+                    }  
+
+                    if(empty($confirm)){
+                        echo "<p>" . $err_privacy = "Confirm privacy error." . "</p>";
+                    }
+
+
                     echo 'Click here to try again. <a href="index.php#hire-me">index</a>';
+                    echo "</div>";
+
                     echo '</article>';
                     echo '<article id="hire-me" tabindex="0">';
                         //require form snippet.

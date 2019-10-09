@@ -367,7 +367,7 @@ Last Updated:   9th October 2019
                         </div>
 
                         <div class="col-two">Please let me know you have read and agree with my <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/gdpr.html','','scrollbars=yes,width=550,height=250')" title="Click this link to go to our privacy policy" alt="Click this link to go to our privacy policy">privacy policy</a>.
-                            <input type="checkbox" id="confirm" name="confirm" value="Confirmed Consent" required oninvalid="this.setCustomValidity('Have you read my privacy policy? It won\'t take long :)')" oninput="this.setCustomValidity('')"  placeholder="Click Consent" tabindex="0"  />
+                            <input type="checkbox" id="confirm" name="confirm[]" value="Confirmed Consent" oninvalid="this.setCustomValidity('Have you read my privacy policy? It won\'t take long :)')" oninput="this.setCustomValidity('')"  placeholder="Click Consent" tabindex="0"  />
                         
                         </div>
                         
@@ -428,7 +428,6 @@ Last Updated:   9th October 2019
     <script type="text/javascript" src="scripts/app.js"></script>
 
     <!-- recaptcha front end integration-->
-
-    </script>
+    
 </body>
 </html>

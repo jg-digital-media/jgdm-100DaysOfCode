@@ -62,7 +62,7 @@
 
                         <div class="col-two">
 
-                            <textarea id="message" name="message" oninvalid="this.setCustomValidity('Enter a message!')"  oninput="this.setCustomValidity('')" placeholder="How can I help?" tabindex="0"> <?php if( isset($_POST["message"])) { echo $_POST["message"]; } ?> </textarea>
+                            <textarea id="message" name="message" oninvalid="this.setCustomValidity('Enter a message!')" oninput="this.setCustomValidity('')" placeholder="How can I help?" tabindex="0" value=""><?php if(isset($_POST["message"])){echo$_POST["message"];}?></textarea>
                         
                         </div>
                         

@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   7th October 2019
+Last Updated:   9th October 2019
 --->
 
 <!DOCTYPE html>
@@ -290,7 +290,7 @@ Last Updated:   7th October 2019
 
             <!-- PHP SERVER SIDE RECAPTCHA INTEGRATION -->
 
-            <form action = "thank-you.php" method = "POST" id="hire-form" tabindex="0">
+            <form action = "process.php" method = "POST" id="hire-form" tabindex="0">
 
                 <span role="required-field">Required fields (*)</span>
 
@@ -303,7 +303,7 @@ Last Updated:   7th October 2019
                         </div>
 
                         <div class="col-two">
-                            <input type="text" id="name" name="name" oninvalid="this.setCustomValidity('Please Enter Your Name!  :-)')" oninput="this.setCustomValidity('')" placeholder="Enter your name..." tabindex="0"  />
+                            <input type="text" id="name" name="name" oninvalid="this.setCustomValidity('Please Enter Your Name!  :-)')" oninput="this.setCustomValidity('')" placeholder="Enter your name..." value="<?php if( isset($_POST["name"])){ echo $_POST["name"]; } ?>" tabindex="0"  />
                         </div>
                     
                     </div> 
@@ -315,7 +315,7 @@ Last Updated:   7th October 2019
                         </div>
 
                         <div class="col-two">
-                            <input type="email" id="email" name="email" oninvalid="this.setCustomValidity('Please enter a valid email :-)')" oninput="this.setCustomValidity('')" placeholder="Enter your email..." tabindex="0"  />
+                            <input type="email" id="email" name="email" oninvalid="this.setCustomValidity('Please enter a valid email :-)')" oninput="this.setCustomValidity('')" placeholder="Enter your email..." value="<?php if( isset($_POST["email"])){ echo $_POST["email"]; } ?>" tabindex="0"  />
                         </div>
                         
                     </div>    
@@ -327,7 +327,7 @@ Last Updated:   7th October 2019
                         </div>
 
                         <div class="col-two">
-                            <input type="text" id="your-url" name="your-url" placeholder="Any website you'd like me to look at..." tabindex="0"  />
+                            <input type="text" id="your-url" name="your-url" placeholder="Any website you'd like me to look at..." value="<?php if( isset($_POST["your-url"])){ echo $_POST["your-url"]; } ?>" tabindex="0"  />
                         </div>
                         
                     </div>    
@@ -340,7 +340,7 @@ Last Updated:   7th October 2019
 
                         <div class="col-two">
         
-                            <input type="text" id="subject" name="subject" oninvalid="this.setCustomValidity('Please enter a subject for your message')" oninput="this.setCustomValidity('')" placeholder="Service or help you require..." tabindex="0"  />
+                            <input type="text" id="subject" name="subject" oninvalid="this.setCustomValidity('Please enter a subject for your message')" oninput="this.setCustomValidity('')" placeholder="Service or help you require..." value="<?php if( isset($_POST["subject"])){ echo $_POST["subject"]; } ?>" tabindex="0"  />
                         
                         </div>
                         
@@ -354,7 +354,7 @@ Last Updated:   7th October 2019
 
                         <div class="col-two">
         
-                            <textarea id="message" name="message" oninvalid="this.setCustomValidity('Enter a message!')"  oninput="this.setCustomValidity('')" placeholder="How can I help?" tabindex="0" ></textarea>
+                            <textarea id="message" name="message" oninvalid="this.setCustomValidity('Enter a message!')"  oninput="this.setCustomValidity('')" placeholder="How can I help?" tabindex="0"> <?php if( isset($_POST["message"])) { echo $_POST["message"]; } ?> </textarea>
                         
                         </div>
                         

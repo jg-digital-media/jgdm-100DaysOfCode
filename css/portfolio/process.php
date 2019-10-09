@@ -65,8 +65,6 @@ Last Updated:   7th October 2019
 
     <main class="main-content">
 
-        <article id="intro" tabindex="8">
-
             <?php            
 
                 //To do: Server side Validation.   
@@ -87,6 +85,7 @@ Last Updated:   7th October 2019
                  || empty($email) || empty($your_url)
                  || empty($message) || empty($subject) || empty($confirm)) {
 
+                    echo '<article id="intro" tabindex="8">';
                     echo "<h1>There were form errors<h1>";
                     
                     //Error message display.                    
@@ -94,9 +93,18 @@ Last Updated:   7th October 2019
                         echo "<p>" . $err_contactMsg = "Message field error." . "</p>";
                     }
 
-                    echo 'Click here to try again. <a href="index.php">index</a>';
+                    echo 'Click here to try again. <a href="index.php#hire-me">index</a>';
+                    echo '</article>';
+                    echo '<article id="hire-me" tabindex="0">';
+                        //require form snippet.
 
-                    //require form snippet.
+                        echo '<form action = "process.php" method = "POST" id="hire-form" tabindex="0">';
+
+                        require "assets/main-form.php";
+
+                        echo '</form>';
+
+                    echo '</article>';
 
                 } else {
 
@@ -144,9 +152,12 @@ Last Updated:   7th October 2019
                     mail($recipient, $subject, $msg, $mailheaders);                
                 
                     //On successful submit
+
+                    echo '<article id="intro" tabindex="0">';
                     echo "<h1>Thanks for contacting me. I'm looking forward to working with you.</h1>";
 
                     echo "<p>I've received your message and I'll be in touch soon! In the meantime please continue to browse my other services below.</p>";
+                    echo '</article>';
                 }
             ?>
 

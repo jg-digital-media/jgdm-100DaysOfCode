@@ -1,0 +1,434 @@
+<!--
+Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
+Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
+Email:          mail@jonniegrieve.co.uk
+Last Updated:   9th October 2019
+--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <meta name = "keywords" content = "Web Design North East, Digital Media North East, independent design agency, web design work, multimedia design, WordPress Websites, mobile development, front end websites, online presence, social media work, free quote, competitive price." />
+    <meta name = "description" content = "Jonnie Grieve Digital Media is an independent website & multimedia design agency based in the North East of England." />
+    
+    <link rel = "image_src" href="https://www.jonniegrieve.co.uk/img/icon.png" />
+    
+    <link rel="canonical" href="https://www.jonniegrieve.co.uk/index.html" />
+    
+    <!--Facebook open graph links--> 	
+    <meta property="og:title" content="Jonnie Grieve Digital Media | Independent Web Design Agency" />
+    <meta property="og:description" content="Jonnie Grieve Digital Media is an independent website & multimedia design agency based in the North East of England." />		
+    <meta property="og:site_name" content="Jonnie Grieve Digital Media"/>	
+    <meta property="og:url" content="https://www.jonniegrieve.co.uk" />
+    
+    <!--Twitter Cards-->
+    <meta name="twitter:card" content="Jonnie Grieve Digital Media is an independent website & multimedia design agency based in the North East of England."></meta>
+    <meta name="twitter:site" content="@jg_digitalMedia"></meta>
+    <meta name="twitter:creator" content="@jg_digitalMedia"></meta>	    
+
+    <!-- Font Awesome for Services Icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+
+    <!-- CSS-->
+    <link rel="stylesheet" type="text/css" href="main.css" />    
+
+    <!-- Page Title-->
+    <title>Jonnie Grieve Digital Media | Independent Web Design Agency</title>
+</head>
+<body>
+
+    <header>
+        <img title="Logo for Jonnie Grieve Digital Media" alt="Logo for Jonnie Grieve Digital Media" src="img/logo.png" tabindex="0" />
+
+        <span id="website-title" role="title">
+            <h1>
+                <span class="green" title="Jonnie Grieve" role="Jonnie Grieve">Jonnie Grieve</span> 
+                <span class="yellow" title="Digital Media" role="Digital Media">Digital Media:</span><br />            
+
+                <span class="green" title="Designs and Prototypes" role="Designs and Prototypes">Designs and Prototypes</span> 
+                <span class="yellow" title="for Web and Multimedia" role="for Web and Multimedia">for Web and Multimedia</span>
+            </h1>
+        </span>
+
+        <ol id = "social" role="social-platforms">
+            <li><a href="https://www.facebook.com/jgDigitalMedia/" target="blank">&nbsp;<img class="social-icon" title="Find me on Facebook" alt="Find me on Facebook" src="img/facebook.png" tabindex="0"  /></a></li>
+            <li><a href="https://www.twitter.com/jg_digitalMedia/" target="blank">&nbsp;<img class="social-icon" title="Follow me on Twitter" alt="Follow me on Twitter" src="img/twitter.png" tabindex="0"  /></a></li>
+            <li><a href="https://www.linkedin.com/in/jonathan-grieve-6a944659/" target="blank">&nbsp;<img class="social-icon" title="Let's connect on LinkedIn" alt="Let's connect on LinkedIn" src="img/linkedin.png" tabindex="0"  /></a></li>
+            <li><a href="https://www.instagram.com/jonniegrievedigitalmedia/" target="blank">&nbsp;<img class="social-icon" title="Find me on Instagram" alt="Find me on Instagram" src="img/instagram.png" tabindex="0"  /></a></li>
+            <li><a href="https://www.youtube.com/" target="blank">&nbsp;<img class="social-icon" title="Watch me on YouTube" alt="Watch me on YouTube" src="img/youtube.png" tabindex="0"  /></a></li>
+            
+        </ol>
+
+    </header>
+
+    <nav class="main-nav">
+        <ol>
+            <li><a href="index.php" title="Click here to go back to the top" tabindex="0">Home</a></li>
+            <li><a href="#about-jgdm" title="Click here to jump to the About section" tabindex="0">About</a></li>
+            <li><a href="#services" title="Click here to jump to the Services section" tabindex="0">Services</a></li>
+            <li><a href="#hire-me" title="Click here to go jump to the hire me section" tabindex="0">Hire Me</a></li>
+            <li><a href="#dyspraxia" title="Click here to jump to the Dyspraxia section" tabindex="0">Dyspraxia</a></li>
+        </ol>
+    </nav>
+
+    <main class="main-content">
+
+        <article id="intro" tabindex="0">
+            <h1>Welcome to Jonnie Grieve Digital Media</h1>
+
+            <p>Jonnie Grieve Digital Media is an independent website & multimedia design agency based in the North East of England.</p>
+
+        </article>             
+        
+        <article id="about-jgdm" tabindex="0">  
+
+            <h2>About</h2>
+
+            <p>We design front end websites across a range of industries, combining competitive pricing with a comprehensive and professional service.</p>
+
+            <p>We believe that a quality online presence shouldn’t always have to cost the earth. This is why we offer a free, no obligation quote, in order to develop a project that is suited to your budget.</p>
+
+        </article>
+
+        <article id="featured" tabindex="0">
+
+            <h2>Featured Projects</h2>  
+
+            <div class="show-featured">
+                <a href="https://projects.jonniegrieve.co.uk/fyp" target="blank" role="Featured work">&nbsp;<img src="img/featured/fyp_running.png" class="site-images" alt="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." title="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." tabindex="0" /></a>
+
+                <a href="https://projects.jonniegrieve.co.uk/portfolio-gallery/" target="blank" role="Featured work">&nbsp;<img src="img/featured/portfolio-gallery.png" class="site-images" alt="Using HTML5 and CSS to create various versions of portfolio images" title="Using HTML5 and CSS to create various versions of portfolio images" tabindex="0" /></a><br /><br />
+                                
+                <a href="https://projects.jonniegrieve.co.uk/gamesyard" target="blank" role="Featured work">&nbsp;<img src="img/featured/games_yard.png" class="site-images" alt="First created in 2004, this website was created to be an informational site for playing various popular games from Card games to Pool" title="First created in 2004, this website was created to be an informational site for playing various popular games from Card games to Pool" tabindex="0" /></a>
+                                
+                <a href="https://projects.jonniegrieve.co.uk/regex/" target="blank" role="Featured work">&nbsp;<img src="img/featured/regex.png" class="site-images" alt="An explainer webpage for using Regular Expressions built with jQuery" title="An explainer webpage for using Regular Expressions built with jQuery" tabindex="0" /></a>
+                    
+    
+                </div>
+
+        </article>
+
+        <article id="about">
+
+            <div class="about-box" tabindex="0" role="About Section">
+                <h3>My Work</h3>
+                <p>We're able to help our clients with a range digital media work. This includes Web Design, Multimedia Design, Social Media campaigns and more.</p>
+                <a href="javascript:" class="button" onMouseDown="MM_openBrWindow('./pages/work.html','','scrollbars=yes,width=550,height=250')">View More</a>
+                
+            </div>
+
+            <div class="about-box" tabindex="0" role="About Section">
+                <h3>Testimonials</h3>
+                <p>Don't just take our word for it. Hear from our happy customers who have given their testimonials of their service from Jonnie Grieve Digital Media.</p>
+                <a href="javascript:" class="button" onMouseDown="MM_openBrWindow('./pages/testimonials.html','','scrollbars=yes,width=550,height=250')">View More</a>            
+            </div> 
+
+            <div class="about-box" tabindex="0" role="About Section">
+                <h3>Blog</h3>
+                <p>Check out our very latest blogs for the latest on what's happening at JGDM. For more on particular topics check out the post categories.</p>
+                <a href="https://blog.jonniegrieve.co.uk" class="button" target="blank">View More</a>
+            </div>
+
+        </article>
+
+        <article id="video" tabindex="0" >
+
+            <h2>See our promotional video!</h2>
+
+            <video controls >
+                <source src="assets/video.mp4" type="video/mp4" id="play-video" tabindex="0" >
+            </video>
+
+            <p class="button" tabindex="0" >Our Prices Really Do Take Some Beating!</p>
+
+        </article>
+
+        <article id="services" tabindex="0" >
+
+            <h2>Services</h2>
+
+            <div class="main-services" tabindex="0" role="Main Services">
+                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/webdesign.html','','scrollbars=yes,width=550,height=250')">
+                    <i class="fas fa-object-group">&nbsp;</i>
+                </a>
+                <p>Website Design: Secure your online presence</p>       
+
+            </div>
+
+            <div class="main-services" tabindex="0" role="Main Services">
+                 <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/gwd-creatives.html','','scrollbars=yes,width=550,height=250')">
+                    <i class="fab fa-google">&nbsp;</i>           
+                </a>
+                <p>Google Web Designer Creatives: for web advert generation</p>
+            </div>
+
+            <div class="main-services" tabindex="0" role="Main Services">
+                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/social-media.html','','scrollbars=yes,width=550,height=250')">
+                    <i class="fab fa-twitter">&nbsp;</i>
+                </a>
+                
+                <p>Social Media: To help you get noticed</p>       
+            </div>
+
+            <div class="main-services" tabindex="0" role="Main Services">
+                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/wordpress.html','','scrollbars=yes,width=550,height=250')">
+                    <i class="fab fa-wordpress-simple">&nbsp;</i>
+                </a>                
+                <p>WordPress: Most Websites use this popular platform</p>       
+            </div>
+
+            <div class="main-services" tabindex="0" role="Main Services">
+                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/e-commerce.html','','scrollbars=yes,width=550,height=250')">
+                    <i class="fas fa-cash-register">&nbsp;</i>
+                </a>               
+                <p>E-Commerce: Sell products via your website</p>     
+            </div>
+
+            <div class="main-services" tabindex="0" role="Main Services">
+                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/digital-design.html','','scrollbars=yes,width=550,height=250')">
+                    <i class="fas fa-image">&nbsp;</i>
+                </a>                   
+                <p>Photoshop/Digital Design: For stunning digital images</p>    
+            </div>
+
+            <h3>Elsewhere... </h3>
+
+            <div class="elsewhere" tabindex="0" role="elsewhere-div">
+                <a href="https://projects.jonniegrieve.co.uk" target="blank" role="Elsewhere">
+                    <img src="img/services/sub-projects.png" />&nbsp;
+                </a>
+                <p>projects.jonniegrieve.co.uk</p>       
+            </div>
+
+            <div class="elsewhere" tabindex="0" role="elsewhere-div">
+                <a href="https://wordpress.jonniegrieve.co.uk" target="blank" role="Elsewhere">
+                    <img src="img/services/sub-wordpress.png" />&nbsp;
+                </a>   
+                <p>wordpress.jonniegrieve.co.uk</p>    
+            </div>
+
+            <div class="elsewhere" tabindex="0" role="elsewhere-div">
+                <a href="https://android.jonniegrieve.co.uk" target="blank" role="Elsewhere">
+                    <img src="img/services/sub-android.png" />&nbsp;
+                </a> 
+                <p>android.jonniegrieve.co.uk</p>      
+            </div>
+
+            <div class="elsewhere" tabindex="0" role="elsewhere-div">
+                <a href="https://dyspraxia.jonniegrieve.co.uk" target="blank" role="Elsewhere">
+                    <img src="img/services/sub-dyspraxia.png" />&nbsp;
+                </a>   
+                <p>dyspraxia.jonniegrieve.co.uk</p>    
+            </div>
+
+            <div class="elsewhere" tabindex="0" role="elsewhere-div">
+                <a href="https://projects.jonniegrieve.co.uk/jquery_project" target="blank" role="Elsewhere">
+                    <img src="img/services/skills-page.png" />&nbsp;
+                </a>   
+                <p>Skills: Single Page App</p>    
+            </div>
+
+            <div class="elsewhere" tabindex="0" role="elsewhere-div">
+                <a href="https://projects.jonniegrieve.co.uk/vue_project" target="blank" role="Elsewhere">
+                    <img src="img/services/project-status-page.png" />&nbsp;
+                </a>   
+                <p>Project Status: Single Page App</p>    
+            </div>
+
+        </article>
+
+        <article id="hire-me" tabindex="0" >
+
+            <h2>Hire Me!</h2>
+
+            <p>I’m available for <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/prices.html','','scrollbars=yes,width=550,height=250')">hire for Web Design work</a>.</p>
+
+            <p>Jonnie Grieve Digital Media prides itself on providing a quality service at an affordable and competitive price. </p>
+            
+            <p>As a guide, our starting prices for web design work include:</p>
+
+            <aside>
+
+                <div class="hire-me-content" role="hire-me-content" tabindex="0" >
+
+                    <h2><strong>Flat Rate:</strong></h2>
+
+                    <strong>£220:</strong> 1 – 5 pages<br />
+                    <strong>£250:</strong> 6 – 10 pages<br />
+                    <strong>£300:</strong> 10 – 15 pages<br />
+                    <strong>£400:</strong> 15+ pages<br />     
+
+
+                </div>
+
+                <div class="hire-me-content" role="hire-me-content" tabindex="0" >
+                
+                    <h2><strong>Hourly Rate:</strong></h2> 
+                    
+                    <h3><strong>£20</strong></h3>
+
+                </div>         
+
+                <div class="hire-me-content" role="hire-me-content" tabindex="0" >
+                
+                    <h2><strong>Monthly Rate:</strong></h2> 
+                    
+                    <p><strong>£20 - £30 pcm</strong> (excluding hosting and domain rates)</p>
+
+                </div>
+
+            </aside>
+
+            <p>Feel free to enquire by filling out the short form below for a free quote or go further on to learn about my competitive rates.</p>
+
+            <!-- PHP SERVER SIDE RECAPTCHA INTEGRATION -->
+
+            <form action = "process.php" method = "POST" id="hire-form" tabindex="0">
+
+                <span role="required-field">Required fields (*)</span>
+
+                <div class="form-layout">
+
+                    <div class="div-row">
+                        
+                        <div class="col-one">
+                            <label for="name" tabindex="0" >Your Name: <span role="required-field">*</span> </label>
+                        </div>
+
+                        <div class="col-two">
+                            <input type="text" id="name" name="name" oninvalid="this.setCustomValidity('Please Enter Your Name!  :-)')" oninput="this.setCustomValidity('')" placeholder="Enter your name..." value="<?php if( isset($_POST["name"])){ echo $_POST["name"]; } ?>" tabindex="0"  />
+                        </div>
+                    
+                    </div> 
+
+                    <div class="div-row">
+                    
+                        <div class="col-one">
+                            <label for="email" tabindex="0" >Your Email: <span role="required-field">*</span> </label>
+                        </div>
+
+                        <div class="col-two">
+                            <input type="email" id="email" name="email" oninvalid="this.setCustomValidity('Please enter a valid email :-)')" oninput="this.setCustomValidity('')" placeholder="Enter your email..." value="<?php if( isset($_POST["email"])){ echo $_POST["email"]; } ?>" tabindex="0"  />
+                        </div>
+                        
+                    </div>    
+
+                    <div class="div-row">
+                    
+                        <div class="col-one">
+                            <label for="your-url" tabindex="0" >Your URL: </label>
+                        </div>
+
+                        <div class="col-two">
+                            <input type="text" id="your-url" name="your-url" placeholder="Any website you'd like me to look at..." value="<?php if( isset($_POST["your-url"])){ echo $_POST["your-url"]; } ?>" tabindex="0"  />
+                        </div>
+                        
+                    </div>    
+
+                    <div class="div-row">
+                    
+                        <div class="col-one">
+                            <label for="subject" tabindex="0" >Your Subject: <span role="required-field">*</span> </label>
+                        </div>
+
+                        <div class="col-two">
+        
+                            <input type="text" id="subject" name="subject" oninvalid="this.setCustomValidity('Please enter a subject for your message')" oninput="this.setCustomValidity('')" placeholder="Service or help you require..." value="<?php if( isset($_POST["subject"])){ echo $_POST["subject"]; } ?>" tabindex="0"  />
+                        
+                        </div>
+                        
+                    </div>       
+
+                    <div class="div-row">
+                    
+                        <div class="col-one">
+                            <label for="message" tabindex="0" >Your Message: <span role="required-field">*</span> </label>
+                        </div>
+
+                        <div class="col-two">
+        
+                            <textarea id="message" name="message" oninvalid="this.setCustomValidity('Enter a message!')"  oninput="this.setCustomValidity('')" placeholder="How can I help?" tabindex="0"> <?php if( isset($_POST["message"])) { echo $_POST["message"]; } ?> </textarea>
+                        
+                        </div>
+                        
+                    </div>     
+
+                    <div class="div-row">
+                    
+                        <div class="col-one">
+                            <label for="confirm" tabindex="0" >The boring consent bit. :) <span role="required-field">*</span> </label>
+                        </div>
+
+                        <div class="col-two">Please let me know you have read and agree with my <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/gdpr.html','','scrollbars=yes,width=550,height=250')" title="Click this link to go to our privacy policy" alt="Click this link to go to our privacy policy">privacy policy</a>.
+                            <input type="checkbox" id="confirm" name="confirm" value="Confirmed Consent" required oninvalid="this.setCustomValidity('Have you read my privacy policy? It won\'t take long :)')" oninput="this.setCustomValidity('')"  placeholder="Click Consent" tabindex="0"  />
+                        
+                        </div>
+                        
+                    </div>
+                                    
+                </div>
+
+                <input type="submit" id="submit" value="Send!" tabindex="0" role="Submit Form" aria-label="submit-form" />
+
+                <!--- HIDDEN FIELD-->
+                <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                
+
+            </form>
+
+        </article>
+
+        <article id="dyspraxia" tabindex="0">
+
+            <h2>Dyspraxia</h2>
+    
+            <h3>Dyspra-xa-what now?</h3>
+
+            <p>I believe in being honest with customers about myself and my abilities to perform the service you want me to give you. So I want to talk to you about Dyspraxia. It is a little known neurological condition that affects sufferers in different ways. Approximately 2-5% of the UK population have Dyspraxia and the average classroom or workplace is likely to have at least one person with the condition.</p>
+
+            <h3>So, what is Dyspraxia?</h3>            
+
+            <p>According to the <a target="blank" title="Take me to the Dyspraxia Foundation Website" href="http://www.dyspraxiafoundation.org.uk">Dyspraxia Foundation UK</a></p>
+
+            <p><quote>“Dyspraxia is a common disorder affecting fine and/or gross motor coordination in children and adults. DCD is formally recognised by international organisations including the World Health Organisation. DCD is distinct from other motor disorders such as cerebral palsy and stroke, and occurs across the range of intellectual abilities.” [Dyspraxia Foundation UK].</quote></p>
+            
+            <p>It's a form of limited motor impairment of the way my brain transmits information. This affects simple things like my movement, reaction to stimulus, emotional impacts but more importantly my ability to learn. 
+                
+            <p>I like to think that I have a very meticulous approach to my work and that if it wasn't for this I could learn to take my skills to that of a confident web developer who can solve problems writing code “out of the box”.</p>
+            
+            <h3>Okay all that's great, but what does it mean for you and me?</h3>
+
+            <p>If I feel I can't perform the service you're asking of me, I will say so. I'm always keen to learn new things and I will always be clear about the kind of service I can offer you. </p>
+                
+            <p>But please don't let me stop you coming to me with potential for working together.</p>
+                
+            <p>Working life for Dyspraxic people can be harder than for non neurodiverse people but there can be positive impacts too, such as empathy, determination and finding creative answers to solving problems.</p>
+            
+            <p>I hope you find this description of Dyspraxia a useful and interesting read.</p>
+    
+        </article>
+        
+    </main>
+    
+    <footer>
+        <p>&copy; Jonnie Grieve Digital Media 2019. All Rights Reserved</p>
+    </footer>
+
+
+    <div class="ios-background"></div>
+    
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/app.js"></script>
+
+    <!-- recaptcha front end integration-->
+
+    </script>
+</body>
+</html>

@@ -121,15 +121,16 @@ Last Updated:   7th October 2019
 
                     echo '</article>';
                     echo '<article id="hire-me" tabindex="0">';
-                        //require form snippet.
+                ?>  
+                    <form action = "<?php echo htmlspecialchars("process.php"); ?>" method = "POST" id="hire-form" tabindex="0">
+                        <?php
+                            //require form snippet.
+                            require "assets/main-form.php";
+                        ?>
 
-                        echo '<form action = "process.php" method = "POST" id="hire-form" tabindex="0">';
+                    </form>
 
-                        require "assets/main-form.php";
-
-                        echo '</form>';
-
-                    echo '</article>';
+                   <?php echo '</article>';
 
                 } else {
 

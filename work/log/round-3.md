@@ -1,11 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 45 of 100. **Last Update:** 8 October 2019
+## **Status:** Day 46 of 100. **Last Update:** 9 October 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
+
+## R3D46:  Wednesday 9th October 2019
++ **Notes** - Got some simple server side validation sorted on my website now.  2 versions of the form loaded until I can find a better solution, but users will find their forms are saved so they don't have to fill in everything again.  Will be uploaded to server soon!
++ **Technologies Used** - HTML5, JavaScript, PHP,  Python
 
 ## R3D45:  Tuesday 8th October 2019
 + **Notes** - Took a little while but I've got the basis of some server side validation scripting for the web form on my website. From memory. Got a plan together now for completing the rest. But how to make it a good user experience?

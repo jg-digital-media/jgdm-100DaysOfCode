@@ -6,6 +6,39 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 46
+
+### Python Dictionaries
+
+```python
+#PACKING
+
+def print_courses(**kwargs):
+    for key, value in kwargs.items():
+        print(key)
+        print(value)
+
+print_courses(name='jQuery')
+
+# UNPACKING
+
+teacher = {
+  'name':'Ashley',
+  'job':'Instructor',
+  'topic':'Python'
+}
+
+#function that unpacks a python dictionary
+def print_teacher(name, job, topic):
+    print(name)
+    print(job)
+    print(topic)
+
+# call a function that unpacks a python dictionary
+print_teacher(**teacher)
+
+```
+
 ## Day 45
 
 https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html

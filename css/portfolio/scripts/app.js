@@ -15,7 +15,7 @@ const testimonials = [
 
 ]
 
-/*jQuery Code*/
+/*Sticky Header Element*/
 $(document).ready(function() {
 
     //Apply Sticky header element
@@ -31,7 +31,7 @@ $(document).ready(function() {
     });
 
 
-    /*jQuery Form Validation.*/
+    /*//jQuery Form Validation.
     
 	// Place ID's of all required fields here.
 	required = ["name", "email", "your-url", "subject"];
@@ -60,7 +60,7 @@ $(document).ready(function() {
 			email.val(emailerror);
 		}
 
-		//if any inputs on the page have the class 'needsfilled' the form will not submit
+		// If any inputs on the page have the class 'needsfilled' the form will not submit
 		if ($(":input").hasClass("js-needsfilled")) {
 			return false;
 		} else {
@@ -79,9 +79,8 @@ $(document).ready(function() {
 				$("#error").remove();
 			});
 	   }
-	});
+	});*/
 	
-	/**/
 });
 
 //project status code

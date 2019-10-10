@@ -31,6 +31,22 @@ $(document).ready(function() {
     });
 
 
+    //Dismiss form error messages
+    $('span.field-error').click(function() {
+        //$(this).remove();
+        //$(this).hide(300);
+        $(this).fadeOut(200);
+
+    }); 
+    
+    //Dismiss form error messages
+    $('p.field-error').click(function() {
+        //$(this).remove();
+        //$(this).hide(300);
+        $(this).fadeOut(200);
+
+    });
+
     /*//jQuery Form Validation.
     
 	// Place ID's of all required fields here.

@@ -6,6 +6,45 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 47
+
+File and CLI commands for using a Python Class; its attributes and methods. 
+
+```python
+e.g. 
+import random
+
+class Thief:
+    sneaky = True
+
+
+    def __init__ (self, name, sneaky=True, **kwargs):
+        self.name = name
+        self.sneaky = sneaky
+
+         for key, value in kwargs.items():
+            setattr(self, key, value)
+
+    def pickpocket(self):
+        return self.sneaky and bool(random.randint(0,1))
+
+    def hide(self, light_level):
+        return self.sneaky and light_level < 10
+
+
+    >>> from character import Thief
+    >>> jonnie = Thief()
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    TypeError: __init__() missing 1 required positional argument: 'name'
+    >>> jonnie = Thief("Jonnie")
+    >>> jonnie = Thief("Jonnie")
+    >>> jonnie                  
+    <character.Thief object at 0x000001EA5A235320>
+    >>> jonnie.name
+    'Jonnie'
+    >>> jonnie = Thief("Jonnie", bravery = 10, favourite_weapon='Wit', scars=None)
+```
 ## Day 46
 
 ### Python Dictionaries

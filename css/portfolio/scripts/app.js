@@ -99,6 +99,13 @@ $(document).ready(function() {
 	
 });
 
+
+// Open Small Browser window
+
+function openWindow(url, width, height) {
+    window.open(url, width, height);
+}
+
 //project status code
 
 

@@ -381,7 +381,7 @@ Last Updated:   9th October 2019
                             <label for="confirm" tabindex="0">The boring consent bit. :) <span role="required-field">*</span> </label>
                         </div>
 
-                        <div class="col-two">Please let me know you have read and agree with my <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/gdpr.html','','scrollbars=yes,width=550,height=250')" title="Click this link to go to our privacy policy" alt="Click this link to go to our privacy policy">privacy policy</a>.
+                        <div class="col-two">Please let me know you have read and agree with my <a href="#" onClick="openWindow('./pages/gdpr.html', '250', '250')" class="text2" onMouseDown="MM_openBrWindow('./pages/gdpr.html','','scrollbars=yes,width=550,height=250')" title="Click this link to go to our privacy policy" alt="Click this link to go to our privacy policy">privacy policy</a>.
                             <input type="checkbox" id="confirm" name="confirm" value="Confirmed Consent" 
                             oninvalid="this.setCustomValidity('Have you read my privacy policy? It won\'t take long :)')"
                             placeholder="Click Consent" tabindex="0" />

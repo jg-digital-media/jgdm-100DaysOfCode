@@ -187,7 +187,16 @@
 
         .field-error {
             font-weight: bold;
-            color: #be0909;
+            color: white;
+            background: #be0909;
+            width: 50%;
+            font-size: 12px;
+            padding: 6px 5px;
+            display: inline-block;
+            cursor: pointer;
+            &:hover {
+                background: lighten(#be0909, 10%);
+            }
         }
 
     }

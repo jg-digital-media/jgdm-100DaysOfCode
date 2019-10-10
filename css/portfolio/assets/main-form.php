@@ -94,7 +94,7 @@
                             oninvalid="this.setCustomValidity('Please enter a message!')" 
                             placeholder="How can I help?" tabindex="0"><?php if( isset($_POST["message"])) { echo $_POST["message"]; } ?></textarea>
 
-                            <?php if ( empty($message) ) { echo '<span class="field-error">' . $err_message . '</span>'; }  ?>                            
+                            <?php if ( empty($message) ) { echo '<p class="field-error">' . $err_message . '</p>'; }  ?>                            
 
                         </div>
 

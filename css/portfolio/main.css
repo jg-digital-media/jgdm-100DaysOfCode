@@ -530,7 +530,15 @@ nav.main-nav {
     min-height: 10px; }
   .main-content article#hire-me .field-error {
     font-weight: bold;
-    color: #be0909; }
+    color: white;
+    background: #be0909;
+    width: 50%;
+    font-size: 12px;
+    padding: 6px 5px;
+    display: inline-block;
+    cursor: pointer; }
+    .main-content article#hire-me .field-error:hover {
+      background: #ef0b0b; }
 
 .main-content article#dyspraxia {
   display: block;

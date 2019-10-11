@@ -570,6 +570,29 @@ nav.main-nav {
     font-style: italic;
     font-size: large; }
 
+.pages-content {
+  color: white;
+  display: block;
+  width: 70%;
+  background: #ffffff3d;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px; }
+  .pages-content h1.pages-title {
+    color: #eee27b;
+    font-size: 3em; }
+  .pages-content h2 {
+    color: #eee27b;
+    font-size: 15pt; }
+  .pages-content strong {
+    color: #70b45c; }
+  .pages-content p {
+    line-height: 2.1; }
+  .pages-content a {
+    color: #eee27b; }
+    .pages-content a:hover {
+      color: yellow; }
+
 footer {
   background: #eef595;
   color: black;

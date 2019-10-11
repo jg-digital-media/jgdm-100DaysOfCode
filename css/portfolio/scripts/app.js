@@ -50,11 +50,13 @@ $(document).ready(function() {
 	// Place ID's of all required fields here.
 	required = ["name", "email", "your-url", "subject"];
 	// If using an ID other than #email or #error then replace it here
-	email = $("#email");
+    email = $("#email");
+    url = $("#url");
 	errornotice = $("#error");
 	// The text to show up within a field when it is incorrect
-	emptyerror = "Please fill out this field.";
-	emailerror = "Please enter a valid e-mail.";
+	emptyerror = "Please complete this field";
+    emailerror = "Please enter a valid e-mail.";
+    urlerror = "please enter a URL";
 
 	$("#hire-form").submit(function(){	
 		//Validate required fields
@@ -67,13 +69,20 @@ $(document).ready(function() {
 			} else {
 				input.removeClass("js-needsfilled");
 			}
-		}
+        }
+        
 		// Validate the e-mail.
 		if (!/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(email.val())) {
 			email.addClass("js-needsfilled");
 			email.val(emailerror);
-		}
-
+        }
+        
+        /*
+        // Validate the url
+        if (url.test(url.val())) {
+           url.addClass("js-needsfilled");
+            url.val(urlerror);
+}*/
 		// If any inputs on the page have the class 'needsfilled' the form will not submit
 		if ($(":input").hasClass("js-needsfilled")) {
 			return false;

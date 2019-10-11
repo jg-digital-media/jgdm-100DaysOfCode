@@ -88,31 +88,31 @@ Last Updated:   7th October 2019
                     echo '<article id="intro" tabindex="0">';
 
                     echo '<div class="form-error">';
-                    echo "<h1>Ack! I'm sorry but there were form errors.  But it's an easy fix. See the messages below!</h1>";
+                    echo "<h1>Oh No! I'm sorry but there were form errors.  But it's an easy fix. See the messages below!</h1>";
                     
                     //Error message display.                    
                     if(empty($message)) {                     
-                        echo "<p>" . $err_message = "Message field error." . "</p>";
+                        echo "<p>" . $err_message = "Please give a brief message about your enquiry." . "</p>";
                     }
 
                     if(empty($name)){                        
-                        echo "<p>" . $err_name = "name field error." . "</p>";
+                        echo "<p>" . $err_name = "Please enter your name." . "</p>";
                     }
                     
                     if(empty($email)){
-                        echo "<p>" . $err_email = "email field error." . "</p>";
+                        echo "<p>" . $err_email = "Please an enter your email address." . "</p>";
                     }
 
                     if(empty($your_url)){ 
-                        echo "<p>" . $err_yourUrl = "Your URL field error." . "</p>";  
+                        echo "<p>" . $err_yourUrl = "Please enter a URL for me to see. If you have none to share just enter 0 or 'None'." . "</p>";  
                     }
 
                     if(empty($subject)){
-                        echo "<p>" . $err_subject = "Subject error." . "</p>";
+                        echo "<p>" . $err_subject = "A brief subject for your enquiry." . "</p>";
                     }  
 
                     if(empty($confirm)){
-                        echo "<p>" . $err_privacy = "Confirm privacy error." . "</p>";
+                        echo "<p>" . $err_privacy = "Have you read my privacy policy? It won't take long :)" . "</p>";
                     }
 
 
@@ -184,8 +184,7 @@ Last Updated:   7th October 2019
                     echo '<h1>Form Submitted Successfully!</h1>';
                     echo '</div>';
 
-
-                    echo "<h2>Thank you for contacting me. I'm looking forward to working with you.</h2>";
+                    echo "<h2>Thank you for contacting me. I'm looking forward to the potential of working together.</h2>";
 
                     echo "<p>I've received your message and I'll be in touch soon! In the meantime please continue to browse my other services below.</p>";
                     echo '</article>';

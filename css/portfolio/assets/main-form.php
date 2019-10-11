@@ -31,7 +31,7 @@
 
                         <div class="col-two">
                             <input type="email" id="email" name="email" 
-                            oninvalid="this.setCustomValidity('Please enter a valid email')" 
+                            oninvalid="this.setCustomValidity('Please enter your email address.')" 
                             placeholder="Enter your email..." 
                             value="<?php if( isset($_POST["email"])){ echo $_POST["email"]; } ?>" tabindex="0" />
                             
@@ -50,7 +50,7 @@
 
                         <div class="col-two">
                             <input type="url" id="your-url" name="your-url" 
-                            oninvalid="this.setCustomValidity('Enter a valid URL')" 
+                            oninvalid="this.setCustomValidity('Please enter a URL for me to see. If you have none to share just enter 0 or \'None\'.')" 
                             placeholder="Any website you'd like me to look at..." 
                             value="<?php if( isset($_POST["your-url"])){ echo $_POST["your-url"]; } ?>" tabindex="0" />
                             
@@ -70,7 +70,7 @@
                         <div class="col-two">
 
                             <input type="text" id="subject" name="subject" 
-                            oninvalid="this.setCustomValidity('Please enter a helpful subject for your message')" 
+                            oninvalid="this.setCustomValidity('A brief subject for your enquiry.')" 
                             placeholder="Service or help you require..." 
                             value="<?php if( isset($_POST["subject"])){ echo $_POST["subject"]; } ?>" tabindex="0" />
                             
@@ -91,7 +91,7 @@
                         <div class="col-two">
 
                             <textarea id="message" name="message" 
-                            oninvalid="this.setCustomValidity('Please enter a message!')" 
+                            oninvalid="this.setCustomValidity('Please give a brief message about your enquiry.')" 
                             placeholder="How can I help?" tabindex="0"><?php if( isset($_POST["message"])) { echo $_POST["message"]; } ?></textarea>
 
                             <?php if ( empty($message) ) { echo '<p class="field-error">' . $err_message . '</p>'; }  ?>                            
@@ -112,7 +112,7 @@
 
                         <div class="col-two">Please let me know you have read and agree with my <a href="#" onClick="openWindow('./pages/gdpr.html', '550', '250')" title="Click this link to go to our privacy policy" alt="Click this link to go to our privacy policy">privacy policy</a>.
                             <input type="checkbox" id="confirm" name="confirm" value="Confirmed Consent" 
-                            oninvalid="this.setCustomValidity('Have you read my privacy policy? It won\'t take long :)')"
+                            oninvalid="this.setCustomValidity('Have you read and understood my privacy policy? It won\'t take long :)')"
                             placeholder="Click Consent" tabindex="0" />
 
                             <?php if ( empty($confirm) ) { echo '<p class="field-error">' . $err_privacy . '</p>'; }  ?>

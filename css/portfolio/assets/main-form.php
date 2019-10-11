@@ -49,7 +49,7 @@
                         </div>
 
                         <div class="col-two">
-                            <input type="url" id="your-url" name="your-url" 
+                            <input type="text" id="your-url" name="your-url" 
                             oninvalid="this.setCustomValidity('Please enter a URL for me to see. If you have none to share just enter 0 or \'None\'.')" 
                             placeholder="Any website you'd like me to look at..." 
                             value="<?php if( isset($_POST["your-url"])){ echo $_POST["your-url"]; } ?>" tabindex="0" />

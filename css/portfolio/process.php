@@ -104,7 +104,7 @@ Last Updated:   7th October 2019
                     }
 
                     if(empty($your_url)){ 
-                        echo "<p>" . $err_yourUrl = "Please enter a URL for me to see. If you have none to share just enter 0 or 'None'." . "</p>";  
+                        echo "<p>" . $err_yourUrl = "Please enter a URL for me to see. If you have none to share just enter 0 or None." . "</p>";  
                     }
 
                     if(empty($subject)){

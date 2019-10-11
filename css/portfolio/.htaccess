@@ -1,9 +1,9 @@
 #error 404 redirect
-ErrorDocument 404 https://landing.jonniegrieve.co.uk/jgdm/not-found.html
+ErrorDocument 404 https://jonniegrieve.co.uk/not-found.html
 
 
 RewriteEngine On
 RewriteBase /
 
 RewriteCond %{REQUEST_URI} ^/404/$
-RewriteRule ^(.*)$ /jgdm/not-found.html [L]
+RewriteRule ^(.*)$ /not-found.html [L]

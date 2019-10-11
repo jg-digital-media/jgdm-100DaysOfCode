@@ -6,6 +6,8 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 48
+
 ## Day 47
 
 File and CLI commands for using a Python Class; its attributes and methods. 

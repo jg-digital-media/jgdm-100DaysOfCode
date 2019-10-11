@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 47 of 100. **Last Update:** 10 October 2019
+## **Status:** Day 48 of 100. **Last Update:** 11 October 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
+
+## R3D48:  Friday 11th October 2019
++ **Notes** - 
+
+   + Some updates to my website are now live.  Includes additions to form validation on both the client and server side which means several layers of form validation are now in place.  My website is available as always by logging on to jonniegrieve.co.uk 
+   + I'd still like to do further updates to the validation by checking for correct URL's and email addresses via the main form
++ **Technologies Used** - HTML5, JavaScript, PHP,  Python
 
 ## R3D47:  Thursday 10th October 2019
 + **Notes** - 

@@ -85,7 +85,7 @@ Last Updated:   7th October 2019
                  || empty($email) || empty($your_url)
                  || empty($message) || empty($subject) || empty($confirm)) {
 
-                    echo '<article id="intro" tabindex="8">';
+                    echo '<article id="intro" tabindex="0">';
 
                     echo '<div class="form-error">';
                     echo "<h1>Ack! I'm sorry but there were form errors.  But it's an easy fix. See the messages below!</h1>";
@@ -178,9 +178,14 @@ Last Updated:   7th October 2019
                     mail($recipient, $subject, $msg, $mailheaders);                
                 
                     //On successful submit
+                    echo '<article id="intro" tabindex="0">';                    
 
-                    echo '<article id="intro" tabindex="0">';
-                    echo "<h1>Thanks for contacting me. I'm looking forward to working with you.</h1>";
+                    echo '<div class="form-success">';
+                    echo '<h1>Form Submitted Successfully!</h1>';
+                    echo '</div>';
+
+
+                    echo "<h2>Thank you for contacting me. I'm looking forward to working with you.</h2>";
 
                     echo "<p>I've received your message and I'll be in touch soon! In the meantime please continue to browse my other services below.</p>";
                     echo '</article>';
@@ -194,7 +199,7 @@ Last Updated:   7th October 2019
             <h2>Services</h2>
 
             <div class="main-services" tabindex="9" role="Main Services">
-                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/webdesign.html','','scrollbars=yes,width=550,height=250')">
+                <a href="javascript:" onClick="openWindow('./pages/webdesign.html', '550', '250')">
                     <i class="fas fa-object-group">&nbsp;</i>
                 </a>
                 <p>Website Design: Secure your online presence</p>       
@@ -202,14 +207,14 @@ Last Updated:   7th October 2019
             </div>
 
             <div class="main-services" tabindex="10" role="Main Services">
-                 <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/gwd-creatives.html','','scrollbars=yes,width=550,height=250')">
+                 <a href="javascript:" onClick="openWindow('./pages/gwd-creatives.html', '550', '250')">
                     <i class="fab fa-google">&nbsp;</i>           
                 </a>
                 <p>Google Web Designer Creatives for web advert generation</p>
             </div>
 
             <div class="main-services" tabindex="11" role="Main Services">
-                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/social-media.html','','scrollbars=yes,width=550,height=250')">
+                <a href="javascript:" onClick="openWindow('./pages/social-media.html', '550', '250')">
                     <i class="fab fa-twitter">&nbsp;</i>
                 </a>
                 
@@ -217,21 +222,21 @@ Last Updated:   7th October 2019
             </div>
 
             <div class="main-services" tabindex="12" role="Main Services">
-                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/wordpress.html','','scrollbars=yes,width=550,height=250')">
+                <a href="javascript:" onClick="openWindow('./pages/wordpress.html', '550', '250')">
                     <i class="fab fa-wordpress-simple">&nbsp;</i>
                 </a>                
                 <p>WordPress: Most Websites use this popular platform</p>       
             </div>
 
             <div class="main-services" tabindex="13" role="Main Services">
-                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/e-commerce.html','','scrollbars=yes,width=550,height=250')">
+                <a href="javascript:" onClick="openWindow('./pages/e-commerce.html', '550', '250')">
                     <i class="fas fa-cash-register">&nbsp;</i>
                 </a>               
                 <p>E-Commerce: Sell products via your website.</p>     
             </div>
 
             <div class="main-services" tabindex="14" role="elsewhere-div">
-                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/digital-design.html','','scrollbars=yes,width=550,height=250')">
+                <a href="javascript:" onClick="openWindow('./pages/digital-design.html', '550', '250')">
                     <i class="fas fa-image">&nbsp;</i>
                 </a>                   
                 <p>Photoshop/Digital Design: Stunning digital images!</p>    

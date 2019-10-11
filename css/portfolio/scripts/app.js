@@ -1,8 +1,7 @@
 //check for jQuery
 //alert("jQuery in place");
 
-//vue.js instance
-
+//Vue.js instance
 
 //testimonials page
 const testimonials = [
@@ -12,7 +11,6 @@ const testimonials = [
  "Jonnie is professional, devoted to his work and always available to help no matter how small the job. Highly recommended",
  "Sam Payne: Auto Cleanse North East: ",
  "I have been delighted with the service we have had.  Excellent and caring, with a real determination to get it right.  Would thoroughly recommend."
-
 ]
 
 /*Sticky Header Element*/
@@ -31,7 +29,7 @@ $(document).ready(function() {
     });
 
 
-    //Dismiss form error messages
+    //Dismiss form error messages - span
     $('span.field-error').click(function() {
         //$(this).remove();
         //$(this).hide(300);
@@ -39,7 +37,7 @@ $(document).ready(function() {
 
     }); 
     
-    //Dismiss form error messages
+    //Dismiss form error messages - p
     $('p.field-error').click(function() {
         //$(this).remove();
         //$(this).hide(300);
@@ -47,7 +45,7 @@ $(document).ready(function() {
 
     });
 
-    /*//jQuery Form Validation.
+    //jQuery Form Validation.  /**/
     
 	// Place ID's of all required fields here.
 	required = ["name", "email", "your-url", "subject"];
@@ -95,13 +93,12 @@ $(document).ready(function() {
 				$("#error").remove();
 			});
 	   }
-	});*/
+	});
 	
 });
 
 
 // Open Small Browser window
-
 function openWindow(url, width, height) {
     window.open(url, width, height);
 }

@@ -120,14 +120,14 @@ Last Updated:   9th October 2019
             <div class="about-box" tabindex="0" role="About Section">
                 <h3>My Work</h3>
                 <p>We're able to help our clients with a range digital media work. This includes Web Design, Multimedia Design, Social Media campaigns and more.</p>
-                <a href="javascript:" class="button" onMouseDown="MM_openBrWindow('./pages/work.html','','scrollbars=yes,width=550,height=250')">View More</a>
+                <a href="javascript:" class="button" onClick="openWindow('./pages/work.html', '550', '250')">View More</a>
                 
             </div>
 
             <div class="about-box" tabindex="0" role="About Section">
                 <h3>Testimonials</h3>
                 <p>Don't just take our word for it. Hear from our happy customers who have given their testimonials of their service from Jonnie Grieve Digital Media.</p>
-                <a href="javascript:" class="button" onMouseDown="MM_openBrWindow('./pages/testimonials.html','','scrollbars=yes,width=550,height=250')">View More</a>            
+                <a href="javascript:" class="button" onClick="openWindow('./pages/testimonials.html', '550', '250')">View More</a>            
             </div> 
 
             <div class="about-box" tabindex="0" role="About Section">
@@ -155,7 +155,7 @@ Last Updated:   9th October 2019
             <h2>Services</h2>
 
             <div class="main-services" tabindex="0" role="Main Services">
-                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/webdesign.html','','scrollbars=yes,width=550,height=250')">
+                <a href="javascript:" onClick="openWindow('./pages/webdesign.html', '550', '250')">
                     <i class="fas fa-object-group">&nbsp;</i>
                 </a>
                 <p>Website Design: Secure your online presence</p>       
@@ -163,14 +163,14 @@ Last Updated:   9th October 2019
             </div>
 
             <div class="main-services" tabindex="0" role="Main Services">
-                 <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/gwd-creatives.html','','scrollbars=yes,width=550,height=250')">
+                 <a href="javascript:" onClick="openWindow('./pages/gwd-creatives.html', '550', '250')">
                     <i class="fab fa-google">&nbsp;</i>           
                 </a>
                 <p>Google Web Designer Creatives: for web advert generation</p>
             </div>
 
             <div class="main-services" tabindex="0" role="Main Services">
-                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/social-media.html','','scrollbars=yes,width=550,height=250')">
+                <a href="javascript:" onClick="openWindow('./pages/social-media.html', '550', '250')">
                     <i class="fab fa-twitter">&nbsp;</i>
                 </a>
                 
@@ -178,21 +178,21 @@ Last Updated:   9th October 2019
             </div>
 
             <div class="main-services" tabindex="0" role="Main Services">
-                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/wordpress.html','','scrollbars=yes,width=550,height=250')">
+                <a href="javascript:" onClick="openWindow('./pages/wordpress.html', '550', '250')">
                     <i class="fab fa-wordpress-simple">&nbsp;</i>
                 </a>                
                 <p>WordPress: Most Websites use this popular platform</p>       
             </div>
 
             <div class="main-services" tabindex="0" role="Main Services">
-                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/e-commerce.html','','scrollbars=yes,width=550,height=250')">
+                <a href="javascript:" onClick="openWindow('./pages/e-commerce.html', '550', '250')">
                     <i class="fas fa-cash-register">&nbsp;</i>
                 </a>               
                 <p>E-Commerce: Sell products via your website</p>     
             </div>
 
             <div class="main-services" tabindex="0" role="Main Services">
-                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/digital-design.html','','scrollbars=yes,width=550,height=250')">
+                <a href="javascript:" onClick="openWindow('./pages/digital-design.html', '550', '250')">
                     <i class="fas fa-image">&nbsp;</i>
                 </a>                   
                 <p>Photoshop/Digital Design: For stunning digital images</p>    
@@ -248,7 +248,7 @@ Last Updated:   9th October 2019
 
             <h2>Hire Me!</h2>
 
-            <p>I’m available for <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/prices.html','','scrollbars=yes,width=550,height=250')">hire for Web Design work</a>.</p>
+            <p>I’m available for <a href="javascript:" onClick="openWindow('./pages/prices.html', '550', '250')" >hire for Web Design work</a>.</p>
 
             <p>Jonnie Grieve Digital Media prides itself on providing a quality service at an affordable and competitive price. </p>
             
@@ -381,7 +381,7 @@ Last Updated:   9th October 2019
                             <label for="confirm" tabindex="0">The boring consent bit. :) <span role="required-field">*</span> </label>
                         </div>
 
-                        <div class="col-two">Please let me know you have read and agree with my <a href="#" onClick="openWindow('./pages/gdpr.html', '250', '250')" class="text2" onMouseDown="MM_openBrWindow('./pages/gdpr.html','','scrollbars=yes,width=550,height=250')" title="Click this link to go to our privacy policy" alt="Click this link to go to our privacy policy">privacy policy</a>.
+                        <div class="col-two">Please let me know you have read and agree with my <a href="#" onClick="openWindow('./pages/gdpr.html', '550', '250')" title="Click this link to go to our privacy policy" alt="Click this link to go to our privacy policy">privacy policy</a>.
                             <input type="checkbox" id="confirm" name="confirm" value="Confirmed Consent" 
                             oninvalid="this.setCustomValidity('Have you read my privacy policy? It won\'t take long :)')"
                             placeholder="Click Consent" tabindex="0" />

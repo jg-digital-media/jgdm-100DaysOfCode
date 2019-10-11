@@ -320,7 +320,6 @@ Last Updated:   9th October 2019
                         <div class="col-two">
                             <input type="email" id="email" name="email" 
                             oninvalid="this.setCustomValidity('Please enter a valid email')" 
-                            oninput="this.setCustomValidity('Please enter a valid email')" 
                             placeholder="Enter your email..." 
                             value="<?php if( isset($_POST["email"])){ echo $_POST["email"]; } ?>" tabindex="0" />
                         </div>

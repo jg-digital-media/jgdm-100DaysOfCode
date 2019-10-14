@@ -3,18 +3,19 @@
 
 import random
 
-class Thief:
-
-    # attributes of class
-    sneaky = True
-
+class Character:
+    
     # init controls how the classes are created or initialized,  Sneaky set true by default
     def __init__ (self, name, sneaky=True, **kwargs):
         self.name = name
-        self.sneaky = sneaky
 
         for key, value in kwargs.items():
             setattr(self, key, value)
+
+class Thief(Character):
+
+    # attributes of class
+    sneaky = True
 
     def pickpocket(self):
         return self.sneaky and bool(random.randint(0,1))

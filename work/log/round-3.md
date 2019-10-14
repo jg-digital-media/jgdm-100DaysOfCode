@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 48 of 100. **Last Update:** 11 October 2019
+## **Status:** Day 49 of 100. **Last Update:** 14 October 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
+
+## R3D49:  Monday 14th October 2019
++ **Notes** - Spent most of today starting on some important updates to the front end for a client. Hopefully this will be finished by tomorrow.  :)  Found some time for Python OOP inheritance practice too.
+
+
++ **Technologies Used** - HTML5, JavaScript, PHP, Python
 
 ## R3D48:  Friday 11th October 2019
 + **Notes** - 

@@ -6,7 +6,20 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
-## Day 48
+## Day 49
+
+```python
+
+class Character:
+    # class Content
+
+class Thief(Character):
+
+    # class Content
+
+
+Thief inherits from Character
+```
 
 ## Day 47
 

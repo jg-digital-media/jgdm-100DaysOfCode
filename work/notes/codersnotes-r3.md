@@ -6,6 +6,28 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 50
+
+### OOP Classes in Python - using classes, attributes and methods.  # Inheritance.  super()
+
+```python
+class Inventory:
+    def __init__(self):
+        self.slots = []
+
+    def add_item(self, item):
+        self.slots.append(item)
+
+#1. sortedInventory is a sub class of Inventory        
+class SortedInventory(Inventory):
+    #2. override the add_item method. Use super() in it to make sure the item still gets added to the list
+    def add_item(self, item):
+        super().self.slots.append(item)
+    #3. Use the list.sort() method to make sure the slots list gets sorted after an item is added.
+    self.slots.sort(item)
+```
+
+
 ## Day 49
 
 ```python

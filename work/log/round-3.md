@@ -1,11 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 49 of 100. **Last Update:** 14 October 2019
+## **Status:** Day 50 of 100. **Last Update:** 15 October 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
+
+## R3D50:  Tuesday 15th October 2019
++ **Notes** - The updates I talked about yesterday are now live and can be viewed here at https://kevinmangles-magician.com/  It's great to be able to use my skills to enhance the work I do for my clients!
++ **Technologies Used** - HTML5, JavaScript, PHP, Python
 
 ## R3D49:  Monday 14th October 2019
 + **Notes** - Spent most of today starting on some important updates to the front end for a client. Hopefully this will be finished by tomorrow.  :)  Found some time for Python OOP inheritance practice too.

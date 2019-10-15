@@ -1,4 +1,4 @@
-## OOP Classes in Python - using classes, attributes and methods.
+## OOP Classes in Python - using classes, attributes and methods.  # Inheritance.  super()
 
 
 import random
@@ -16,6 +16,11 @@ class Thief(Character):
 
     # attributes of class
     sneaky = True
+
+    # override the init method
+    def __init__ (self, name, sneaky=True, **kwargs):
+        super().__init__(name, **kwargs)
+        self.sneaky = sneaky
 
     def pickpocket(self):
         return self.sneaky and bool(random.randint(0,1))

@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 50 of 100. **Last Update:** 15 October 2019
+## **Status:** Day 51 of 100. **Last Update:** 16 October 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+
+## R3D51:  Wednesday 16th October 2019
++ **Notes** - Explored how to make multiple classes work together in a set of Python scripts.
++ **Technologies Used** - Python
 
 
 ## R3D50:  Tuesday 15th October 2019

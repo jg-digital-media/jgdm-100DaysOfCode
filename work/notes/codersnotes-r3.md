@@ -6,6 +6,15 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 51
+
+```
+Summary:
+Syntax  - isinstance(<object>, <class>)
+Syntax  - isinstance(<class>,<class>)
+Syntax  - type(<instance>)
+```
+
 ## Day 50
 
 ### OOP Classes in Python - using classes, attributes and methods.  # Inheritance.  super()

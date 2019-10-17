@@ -154,7 +154,12 @@
         }
 
         textarea#message:focus {
-            background: #eef595
+            background: #eef595;
+
+            &:hover {
+                transition: background .4s;
+                background: yellow;
+            }
         }
         
 

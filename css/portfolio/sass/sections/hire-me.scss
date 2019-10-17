@@ -97,6 +97,7 @@
             margin-top: 35px;
             border-color: black;
             border-radius: 15px;
+            transition: background .2s;
 
             //fill in on js error
             .js-needsfilled {
@@ -111,10 +112,20 @@
             @media (max-width: $md) {
                 width: 80%;
             }
+
+            &:hover {
+                background: #eef595;
+            }
         }
 
         input:focus {
             background: #eef595;
+            transition: background .4s;
+
+            &:hover {
+                transition: background .4s;
+                background: yellow;
+            }
         }
 
         textarea#message {
@@ -128,6 +139,11 @@
             border: black solid 2px;
             border-radius: 15px;
             margin-top: 10%;
+            transition: background .2s;
+
+            &:hover {
+                background: #eef595;
+            }
 
             @media (max-width: $lg) {
                 width: 90%;

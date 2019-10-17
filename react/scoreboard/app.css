@@ -23,6 +23,31 @@ header h1 {
   font-weight: normal;
 }
 
+/*html header*/
+
+
+
+/*additional header element*/
+header.html-header {
+    
+  display: block;
+  margin: 20px auto;
+  border: solid #6c6363 3px;
+  width: 75%;
+  text-align: center;
+  height: 40px;
+  background: grey;
+  padding-top: 10px;
+}  
+
+header.html-header a {
+  color: white;
+}
+
+header.html-header a:hover {
+  text-decoration: none;
+}
+
 /* FORMS */
 
 form {

@@ -6,6 +6,34 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 53
+
+```python
+
+class Letter:
+    def __init__(self, pattern=None):
+        self.pattern = pattern
+        
+    def __str__(self):
+        
+        hyphen = [];
+        
+        #loop through pattern
+        for i in self.pattern:
+            if i == ".":
+                hyphen.append("dot")
+            elif i == "_":
+                hyphen.append("dash")
+                
+        return "-".join(hyphen)
+
+class S(Letter):
+    def __init__(self):
+        pattern = ['.', '.', '.']
+        super().__init__(pattern)
+
+```
+
 ## Day 51
 
 ```

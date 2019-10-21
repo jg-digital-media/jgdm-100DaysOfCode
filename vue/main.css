@@ -1,0 +1,43 @@
+/*CSS*/
+
+*{ 
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    background: #999999;
+}
+
+.todoapp {
+    margin: 0 auto;
+    border: solid 1px black;
+}
+
+.main {
+
+}
+
+.completed {
+
+}
+
+.view {
+    
+}
+
+.footer {
+
+}
+
+.info {
+
+}
+
+.filters .selected {
+
+}
+
+.todo-list {
+
+}

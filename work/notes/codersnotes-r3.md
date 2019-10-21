@@ -6,6 +6,36 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 54
+
+### Vue.js
+
+```javascript
+const todoApp = new Vue({
+  el: '.todoapp',
+  data: {
+    title: 'Hello Vue!'
+  }
+});
+
+<h1 v-text="title"> To-Do</h1>
+<h1> {{ title }} </h1>
+
+console command in DevTools: app.title = "B"
+```
+
+
+Right, well today I felt it was time to move onto something new.  I'm delving back into Vue.js. I have a project in mind to use it... but... it has been so long and as ever, I am out of practice.
+
+So in order to facilitate the above, I have started a new project based on this tutorial.  https://adrianmejia.com/vue-js-tutorial-for-beginners-create-a-todo-app/ that will hopefully give me the tools and confidence to work on my own.  It is a project by   - A To-Do list app.  
+
+I've ensured that a new Vue instance is working with the HTML.  I've ensured that the stylesheet is hooked up properly although there aren't many styles in place at the moment.
+
+Since I'm already using a Git repository, I haven't bothered to clone the repository the tutorial is based on and made some minor tweaks to the markup.
+
+This the the Vue instance so far and some of the Declarative syntax I have used
+
+
 ## Day 53
 
 ```python

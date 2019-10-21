@@ -1,10 +1,14 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 53 of 100. **Last Update:** 18 October 2019
+## **Status:** Day 54 of 100. **Last Update:** 21 October 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+### R3D54:  Monday 21st October 2019
++ **Notes** - Started a new project today with Vue.js.  One of my goals with #100DaysOfCode this year was to make a project image viewer dynamically with the Vue.js technology.  I found this tutorial to help refresh me and maybe give me some pointers along the way.  :)
++ **Technologies Used** - Python, Vue.js
 
 ### R3D53:  Friday 18th October 2019
 + **Notes** - additional maths operations with magic methods
@@ -13,7 +17,6 @@ ___
 ### R3D52:  Thursday 17th October 2019
 + **Notes** - url focus animation  fade in on focus
 + **Technologies Used** - CSS, HTML5 
-
 
 ### R3D51:  Wednesday 16th October 2019
 + **Notes** - Explored how to make multiple classes work together in a set of Python scripts.

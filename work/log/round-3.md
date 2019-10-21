@@ -1,10 +1,14 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 52 of 100. **Last Update:** 17 October 2019
+## **Status:** Day 53 of 100. **Last Update:** 18 October 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+### R3D53:  Friday 18th October 2019
++ **Notes** - additional maths operations with magic methods
++ **Technologies Used** - Python 
 
 ### R3D52:  Thursday 17th October 2019
 + **Notes** - url focus animation  fade in on focus

@@ -23,6 +23,10 @@ body {
     text-decoration: line-through;
 }
 
+.editing {
+  background: orange;
+}
+
 .view {
     
 }

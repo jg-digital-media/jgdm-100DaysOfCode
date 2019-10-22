@@ -5,10 +5,151 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 55
+
+### Using VUE.JS
+
+By Adrian Mejia - https://adrianmejia.com/vue-js-tutorial-for-beginners-create-a-todo-app/#Vue-Conditional-Rendering-v-show-vs-v-if
+
+```javascript
+//USING v-for
+
+//It's easy to display an array of data using v-for, 
+
+//Array of Todo's in Vue instance.List rendering
+
+/*todos: [
+            { text: 'Buy lunch', isDone: true},
+            { text: 'Cleaning', isDone: false},
+            { text: 'Pick up Luke', isDone: false}
+       ]
+
+v-for="todo in todos"*/
+```
++ In markup, everything starting with v- is defined by the Vue library.
+
++ v-for is used to iterate through elements. - So we can iterate through the Todos- array defined in the view instance.
+
++ v-for="todo in todos" - it will create as many list items with tasks as are needed. This covers the READ part of CRUD operations with Vue.js.
+
++ Now I know how to iterate through a list of values from an iterable Vue property.
+
+```javascript
+//CREATE
+
+@keyup.enter = "createToDo"
+v-on:keyup.enter = "createToDo"
+```
++ createToDo is a reference to a method and is how Vue identifies the element that the actions should be tied to.
+
++ To implement this will require a new property, methods on a Vue instance.
+
+```javascript
+methods: {
+
+}
+
+methods: {
+    createToDo(event) {
+        //target the textbox
+        const textbox = event.target;
+	//add new task to the todos array. Should be an empty value.
+        this.todos.push({ text: textbox.value, isDone: false});
+            textbox.value = '';
+        }
+    }
+```
+
+### Apply class dynamically
+
+```javascript
+v-bind:class={ completed: todo.isDone }
+:class={ completed: todo.isDone }
+```
+
++ use v-bind and v-model to change the state of an element.
+
++ v-bind will change the DOM so any styles applied to the class will come into effect.
+
++ v-model is the directive that actually changes the data.
+
+```html
+<li v-for="todo in todos" v-bind:class="{completed: todo.isDone}">
+
+<input class="toggle" type="checkbox" v-model="todo.isDone">
+```
+
+### Next, using UPDATE AND DELETE from CRUD
+
++ : is the shorthand for v-bind
+
++ Update functionality is now working.  Since however I've not cloned the repository I think that I'm missing some of the styles and perhaps the JS so I'm experiencing UX issues with how it works.
+
++ I think it can be resolved perhaps with some styling if not JS but it needs working out to avoid problems with UX confusion.  I've also added a holding style to make sure I can visually see a list item is in editing mode.
+
++ To get this to work functionally requires setting up 2 new methods in the methods property a Vue instance.  finishEditing, cancelEditing.
+
++ Double clicking on the text box with the class of "edit"
+
+<input class="edit" 
+            @keyup.esc="cancelEditing" #
+            @keyup.enter="finishEditing" 
+            @blur="finishEditing" 
+            :value="todo.text" value="Rule the web">
+
+These are shorthands for v-on. They functions via events.  esc, enter and blur.#
+
+### DELETE
+
+```javascript
+        destroyTodo(todo) {
+            const index = this.todos.indexOf(todo)
+            this.todos.splice(index, 1)
+        }
+```
+
++ The indexOf() method returns the position of the first occurrence of a specified value in a string. 
+
++ So in this context it seems to me that what this line is doing is returning the position of the index of the property in this todos list. This is how Vue is identifying the button that is relevant to the list item we want to delete.
+
++ delete that item with splice()  - splice is a method that removes the contents of an array.  It returns an array but splice is used because it changes the original array and does not make a copy.
+1
+### COMPUTED PROPERTIES
+
+new property in vue instance
+
+```javascript
+computed: {
+    
+}
+
+computed: {
+    activeTodos() {
+        return this.todos.filters(t => !t.isDone);
+    }
+}
+```
+
+This one was tricky.  Uses the filter method again. But it was tricky because I didn't quite see that the change was happening with the right button.  
+
+### Summary
+
++ Computed properties are cached and updated when their dependencies change
+
++ Methods always run the function.
+
++ v-if removes the element from the DOM and disable events, 
+
++ while v-show hides it with the CSS display: none;. So, v-if is more expensive than v-show.
+
++ If you foresee the element being toggling visibility very often then you should use v-show. If not, then use v-if.
+
+
+```
 
 ## Day 54
 
-### Vue.js
+### Vue.js  - Todo List App
 
 ```javascript
 const todoApp = new Vue({
@@ -23,7 +164,6 @@ const todoApp = new Vue({
 
 console command in DevTools: app.title = "B"
 ```
-
 
 Right, well today I felt it was time to move onto something new.  I'm delving back into Vue.js. I have a project in mind to use it... but... it has been so long and as ever, I am out of practice.
 

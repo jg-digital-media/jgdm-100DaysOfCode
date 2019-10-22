@@ -1,10 +1,19 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 54 of 100. **Last Update:** 21 October 2019
+## **Status:** Day 55 of 100. **Last Update:** 22 October 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+### R3D55:  Tuesday 22nd October 2019
++ **Notes** -
+
+  + Have made a number of commits today.  As it happens the tutorial I started today is incomplete so not everything has been done.  But I think this time has served its purpose.
+
+  + I have wired up a number of CRUD operations with Vue.  I've refreshed myself on a number of Vue concepts. I only have one more thing I want to explore which is using Local Storage with Vue.
+
++ **Technologies Used** - Vue.js
 
 ### R3D54:  Monday 21st October 2019
 + **Notes** - Started a new project today with Vue.js.  One of my goals with #100DaysOfCode this year was to make a project image viewer dynamically with the Vue.js technology.  I found this tutorial to help refresh me and maybe give me some pointers along the way.  :)

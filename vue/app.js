@@ -36,6 +36,11 @@ const app = new Vue({
 
         cancelEditing() {
             this.editing = null;
+        },
+
+        destroyTodo(todo) {
+            const index = this.todos.indexOf(todo)
+            this.todos.splice(index, 1)
         }
     }
     

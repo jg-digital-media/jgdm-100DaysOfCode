@@ -12,11 +12,43 @@ body {
 .todoapp {
     margin: 0 auto;
     border: solid 1px black;
+    width: 70%;
 }
 
+/*header*/
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main .header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*main*/
 .main {
-
+  border: solid 3px black;
 }
+
+.main .toggle-all {
+  text-align: right;
+  margin: 20px 0;
+}
+
+.todo-list li {
+  list-style: none;
+  padding: 20px 10px;
+}
+
+.mark-complete {
+  width: 100%;
+  text-align: right;
+  position: relative;
+  right: 10px;
+}
+
+
 
 .completed {
     color: grey;

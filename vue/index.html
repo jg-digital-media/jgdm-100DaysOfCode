@@ -16,7 +16,9 @@
   <section class="todoapp">
     <header class="header">
       <h1 v-text="title"> To-Do</h1>
-      <input class="new-todo" placeholder="What needs to be done?" autofocus>
+
+      <!-- my note: this is where we create todos-->
+      <input class="new-todo" placeholder="What needs to be done?" v-on:keyup.enter = "createToDo" autofocus>
     </header>
 
     <!-- This section should be hidden by default and shown when there are todos -->

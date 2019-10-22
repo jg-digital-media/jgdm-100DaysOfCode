@@ -11,6 +11,13 @@ const app = new Vue({
             { text: 'Cleaning', isDone: false},
             { text: 'Pick up Luke', isDone: false}
         ]
+    },
+    methods: {
+        createToDo(event) {
+            const textbox = event.target;
+            this.todos.push({ text: textbox.value, isDone: false});
+            textbox.value = '';
+        }
     }
     
   });

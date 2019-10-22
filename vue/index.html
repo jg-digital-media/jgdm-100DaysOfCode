@@ -36,13 +36,17 @@
           </div>
           <input class="edit" value="Create a TodoMVC template">
         </li>
-        <li v-for="todo in todos" v-bind:class="{completed: todo.isDone}">
+        <li v-for="todo in todos" v-bind:class="{completed: todo.isDone, editing: todo === editing }">
           <div class="view">
             <input class="toggle" type="checkbox" v-model="todo.isDone">
-            <label>{{ todo.text }}</label>
+            <label @dblclick="startEditing(todo)">{{ todo.text }}</label>
             <button class="destroy"></button>
           </div>
-          <input class="edit" value="Rule the web">
+          <input class="edit" 
+            @keyup.esc="cancelEditing" #
+            @keyup.enter="finishEditing" 
+            @blur="finishEditing" 
+            :value="todo.text" value="Rule the web">
         </li>
       </ul>
     </section>

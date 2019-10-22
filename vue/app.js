@@ -5,7 +5,12 @@
 const app = new Vue({
     el: '.todoapp',
     data: {
-        title: "Title",
+        title: "To Do App",
+        todos: [
+            { text: 'Buy lunch', isDone: true},
+            { text: 'Cleaning', isDone: false},
+            { text: 'Pick up Luke', isDone: false}
+        ]
     }
     
   });

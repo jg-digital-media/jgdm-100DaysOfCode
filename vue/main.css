@@ -26,6 +26,12 @@ body {
   margin-bottom: 20px;
 }
 
+input.new-todo {
+  padding: 6px;
+  border-radius: 13px;
+  border: solid black 2px;
+}
+
 /*main*/
 .main {
   border: solid 3px black;
@@ -71,10 +77,52 @@ body {
 
 }
 
-.filters .selected {
+.filters li  {
+  text-align: center;
+  list-style: none;
+  background: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: inline-block;
+  width: 90px;
+  font-weight: bold;
 
+}
+
+.filters li a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button.destroy {
+  color: red;
+    background: #e38a8a;
+    border-radius: 30px;
+    padding: 4px;
+    border: solid red 1px;
+    width: 26px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+span.todo-count {
+  display: block;
+  margin: 20px 0;
+  font-weight: bold;
+  font-family: arial;
 }
 
 .todo-list {
 
+}
+
+button.clear-completed {
+  margin: 18px;
+  padding: 7px;
+  border: solid 2px red;
+  border-radius: 5px;
+  background: lightgoldenrodyellow;
+  text-transform: uppercase;
+  font-weight: bold;
 }

@@ -41,7 +41,23 @@ const app = new Vue({
         destroyTodo(todo) {
             const index = this.todos.indexOf(todo)
             this.todos.splice(index, 1)
+        },
+
+        clearCompleted() {
+            this.todos = this.activeTodos;
+        }
+        
+    },
+    
+    computed: {
+        activeTodos() {
+            return this.todos.filter(t => !t.isDone);
+        },
+
+        completedTodos() {
+            return this.todos.filter(t => t.isDone);
         }
     }
+
     
   });

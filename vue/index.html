@@ -36,9 +36,9 @@
           </div>
           <input class="edit" value="Create a TodoMVC template">
         </li>
-        <li v-for="todo in todos">
+        <li v-for="todo in todos" v-bind:class="{completed: todo.isDone}">
           <div class="view">
-            <input class="toggle" type="checkbox">
+            <input class="toggle" type="checkbox" v-model="todo.isDone">
             <label>{{ todo.text }}</label>
             <button class="destroy"></button>
           </div>
@@ -78,7 +78,10 @@
   <!-- Scripts here ↓ -->
   <script src="node_modules/vue/dist/vue.js"></script>
   <script src="node_modules/vue-router/dist/vue-router.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+  <!-- production and development builds-->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script><!---->
+  <!--<script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
   <script src="app.js"></script>
 </body>
 

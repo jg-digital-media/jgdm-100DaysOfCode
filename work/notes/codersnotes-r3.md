@@ -5,6 +5,41 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 56
+
+### Localhost  - LocalStorage with Vue.js
+
+First, store a localstorage key in a constant variable
+
+const LOCAL_STORAGE_KEY = "to-do-app-in-vue";
+
+Retrieve items with local storage using with getItem() method. 
+
+JSON.parse(localhost.getItem(LOCAL_STORAGE_KEY) || {
+    
+}
+
+### Set up a vue watcher to link to the property that retrieves the data.
+
+```
+watch: {
+    todos: {
+        deep: true,
+        handler(newValue) {
+            localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(newValue));
+        }
+    }
+}
+```
+
+Watchers allow you to “watch” for changes on a single property. This is useful for performing expensive operations like saving to DB, API calls and so on.
+
+Deep means that it recursively watches for
+
+Vue Watchers are how data is saved to local storage
+
+Storage is browser specific.
+
 ## Day 55
 
 ### Using VUE.JS

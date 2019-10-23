@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 55 of 100. **Last Update:** 22 October 2019
+## **Status:** Day 56 of 100. **Last Update:** 23 October 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+### R3D56:  Wednesday 23rd October 2019
++ **Notes** -
+
+  + Today hasn't gone as well as I hoped on Vue.js but I was able to create persistent date using localStorage so that was useful. Think tomorrow I'm just going to press on and build by project image viewer. I know enough now I think with what I've learned. :) 
+
++ **Technologies Used** - Vue.js
 
 ### R3D55:  Tuesday 22nd October 2019
 + **Notes** -

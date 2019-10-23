@@ -1,41 +1,73 @@
-console.log("https://sabe.io/tutorials/getting-started-with-vue-js#the-takeaway")
-//https://sabe.io/tutorials/getting-started-with-vue-js#the-takeaway
+// Base Url of the API
+const baseUrl = "https://jsonplaceholder.typicode.com";
 
-Vue.component('static-posts', {
-   template: '#static-posts-template',
-   name: 'static-posts',
-   
-   data: () =>({
-        posts: []
-
-   }),
-
-
-   mounted() {
-       this.getPosts();
-   },
-
-   methods: {
+// List component
+const List = {
+    template: '#list-template',
+    data: () => ({
+        posts: [],
+        search: ""
+    }),
+    mounted() {
+        this.getPosts();
+    },
+    methods: {
         getPosts() {
-           
-            this.posts = [
-                {
-                    "title": "The first post title!"
-                },
-                {
-                    "title": "The second post title!"
-                },
-                {
-                    "title": "The third post title!"
-                }
-            ];
+            axios.get(baseUrl + `/posts`).then(response => {
+                this.posts = response.data
+                console.log(this.posts);
+            }).catch(error => {
+                console.log(error);
+            })
         }
-   }
-   
-})
+    },
+    computed: {
+        filteredPosts() {
+          return this.posts.filter(post => {
+             return post.title.includes(this.search);
+          })
+        }
+    }
+};
 
-//Vue Component  - must be placed after any components
+// Post component
+const Post = {
+    template: '#post-template',
+    data: () => ({
+        post: null
+    }),
+    mounted() {
+        this.getPosts();
+    },
+    methods: {
+        getPosts() {
+            var id = this.$route.params.id;
+            axios.get(baseUrl + `/posts/` + id).then(response => {
+                this.post = response.data
+                console.log(this.post);
+            }).catch(error => {
+                console.log(error);
+            })
+        }
+    }
+};
 
-app = new Vue({
-    el: '#app',
+// Create vue router
+var router = new VueRouter({
+    mode: 'history',
+    routes: [
+        {
+            name: 'homepage',
+            path: '/',
+            component: List
+        }, {
+            name: 'post',
+            path: '/:id',
+            component: Post
+        }
+    ]
 });
+
+// Create vue instance and mount onto #app
+var vue = new Vue({router});
+var app = vue.$mount('#app');

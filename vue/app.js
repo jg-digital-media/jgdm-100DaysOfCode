@@ -6,7 +6,7 @@ const LOCAL_STORAGE_KEY = "to-do-app-in-vue";
 
 
 const app = new Vue({
-    el: '.todoapp',
+    el: '#app',
     data: {
         title: "To Do App",
         todos: JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)) || [

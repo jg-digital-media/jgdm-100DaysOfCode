@@ -2,11 +2,14 @@
 
 //Used from this repo. - https://github.com/amejiarosario/vue-todo-app.git   start-here branch
 
+const LOCAL_STORAGE_KEY = "to-do-app-in-vue";
+
+
 const app = new Vue({
     el: '.todoapp',
     data: {
         title: "To Do App",
-        todos: [
+        todos: JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)) || [
             { text: 'Buy lunch', isDone: true},
             { text: 'Cleaning', isDone: false},
             { text: 'Pick up Luke', isDone: false}
@@ -56,6 +59,15 @@ const app = new Vue({
 
         completedTodos() {
             return this.todos.filter(t => t.isDone);
+        }
+    },
+
+    watch: {
+        todos: {
+            deep: true,
+            handler(newValue) {
+                localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(newValue));
+            }
         }
     }
 

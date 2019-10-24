@@ -7,6 +7,7 @@
 
 body {
     background: #999999;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .todoapp {
@@ -19,6 +20,22 @@ body {
 .header {
   text-align: center;
   margin-bottom: 20px;
+  background: indigo;
+  padding: 10px 0;
+}
+
+.header h1 {
+  color: white;
+}
+
+.header p a {
+  font-size: 10px;
+  color: white;
+  font-style: italic;
+}
+
+.header p a:hover {
+  text-decoration: none;
 }
 
 .main .header {
@@ -73,8 +90,11 @@ input.new-todo {
 
 }
 
-.info {
-
+ul.filters {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 20px;
+  width: 50%;
 }
 
 .filters li  {
@@ -86,13 +106,26 @@ input.new-todo {
   display: inline-block;
   width: 90px;
   font-weight: bold;
+  cursor: pointer;
 
+}
+
+.filters li:hover {
+  border-bottom: solid black 3px;
 }
 
 .filters li a {
   color: black;
   cursor: pointer;
   text-decoration: none;
+}
+
+.info {
+  display: inline-block;
+}
+
+.info p {
+  line-height: 2;
 }
 
 button.destroy {
@@ -102,15 +135,19 @@ button.destroy {
     padding: 4px;
     border: solid red 1px;
     width: 26px;
+    margin: 5px 10px;
     cursor: pointer;
-    margin: 0 10px;
 }
 
 span.todo-count {
   display: block;
-  margin: 20px 0;
+  margin: 20px auto;
   font-weight: bold;
   font-family: arial;
+  text-align: center;
+  background: lightgreen;
+  padding: 10px 0;
+  width: 30%;
 }
 
 .todo-list {
@@ -125,4 +162,5 @@ button.clear-completed {
   background: lightgoldenrodyellow;
   text-transform: uppercase;
   font-weight: bold;
+  cursor: pointer;
 }

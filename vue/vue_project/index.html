@@ -1,0 +1,100 @@
+<!--
+Authored by:  @jg_digitalMedia
+Web:          https://www.jonniegrieve.co.uk
+Last Update:  8th July 2019
+Description:  Project Status Homepage  
+ 
+-->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Font-->
+    
+    <!-- CSS-->
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Allerta|Lato|Mali|Marvel|Roboto" rel="stylesheet">
+
+
+    <!-- Page Title-->
+    <title>Project Status | A project with Vue.js</title>
+
+
+</head>
+<body>
+
+    <header>
+
+        <h1>Project Status <span>A project with Vue.js</span></h1>
+
+        <aside class="key">
+
+            <h2>Key:</h2>
+
+            <span id="green-complete" alt="Incomplete"></span> Incomplete
+            <span id="red-complete" alt="Complete"></span> Complete
+    
+        </aside>
+
+    </header>
+
+    <div id="container">
+
+        <!-- DROPDOWN BOX TO GO HERE -->
+
+        <article class="project-list">
+            
+            <h2>{{ list }}</h2> 
+
+            <ul id="project-status">
+                <li v-for="project in projects">
+                    <span v-bind:class="{'complete': project.status, 'incomplete': !project.status}"></span>
+                </li>
+            </ul>
+            <ul id="project-names">
+                <li v-for="name in projects">{{ name.project_name }} 
+                    <em>({{  name.project_type }})</em>
+                </li>
+                <!-- Project Types: HTML/CSS, JavaScript, React.js, PHP, Java, Ruby -->
+            </ul>
+
+        </article>
+
+        <article class="main-content">
+
+            <h2>Created with Vue.js</h2>
+
+            <p>This is a simple single page app that uses Vue.js to visually the status of projects based on the values of an array of Objects. It contains projects on JavaScript, PHP, Java, Python, Ruby and Web Design Projects.</p>
+
+            <p><a href="https://projects.jonniegrieve.co.uk">https://projects.jonniegrieve.co.uk</a></p>
+
+            <h2>Status Notes</h2>
+
+            <ul>
+                <li>Node: s2 directory app throws an error. s4 is incomplete. s3 returns nothing</li>
+                <li>Web Design Practice - Grid, Flexbox, Layout, Sticky Nav working</li>
+                <li>Ruby</li> - a bunch of files, not resembling a project yet,
+                <li>HTML_NAV - possibly redundent. Consider abandoning</li>
+                <li>php_authorisation - not working. to be redone</li>
+                <li>PHP Storybuilder app - functioning on local server</li>
+                <li>react-basics - app.js file completely empty.</li>
+                <li>react-fetch  - all directories have no errors but no output to browsers</li>
+                <li>rsvp - react project 3 console errors. </li>
+                </li>
+            </ul>
+            
+        </article>
+
+    </div>
+
+    <footer>&copy; 2019 Designed by Jonnie Grieve Digital Media </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> 
+    <script src="scripts/app.js"></script>
+
+</body>
+</html>

@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 56 of 100. **Last Update:** 23 October 2019
+## **Status:** Day 57 of 100. **Last Update:** 24 October 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
+
+
+### R3D57:  Thursday 24th October 2019
++ **Notes** -
+  + Started on the placeholder content for the new project status list.  But it's a mess in terms of how I've coded it as I've adapted it from the previous version. This could take some time but I'll try to look at that next.  :)
++ **Technologies Used** - Vue.js
 
 
 ### R3D56:  Wednesday 23rd October 2019

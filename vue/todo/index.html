@@ -15,11 +15,17 @@
 
   <section class="todoapp">
     <header class="header">
-      <h1 v-text="title"> To-Do</h1>
+        <h1 v-text="title"> To-Do</h1>
+  
+        <!-- my note: this is where we create todos-->
+        <input class="new-todo" placeholder="What needs to be done?" v-on:keyup.enter = "createToDo" autofocus>
 
-      <!-- my note: this is where we create todos-->
-      <input class="new-todo" placeholder="What needs to be done?" v-on:keyup.enter = "createToDo" autofocus>
-    </header>
+        <h1>Simple To-Do List App. - Type a task to start the app.</h1>
+  
+        <p><a href="https://adrianmejia.com/vue-js-tutorial-for-beginners-create-a-todo-app/#" target="blank">Based on a Vue Tutorial by Adrian Mejia</a></p>
+      </header>
+
+  
 
     <!-- This section should be hidden by default and shown when there are todos -->
     <section class="main" v-if="todos.length">
@@ -66,17 +72,23 @@
         </li>
       </ul>
 
+      
+
+    <footer class="info">
+        <h2>How to use the App</h2>
+        <p>Double-click to edit a todo</p>
+        <p>Create a new task in the input box above ad press enter.</p>
+        <p>Delete a task at any time using the X buttons</p>
+        <p>Tasks are saved by cicking out fron the task text boxes.</p>
+      </footer>
+
       <!-- Hidden if no completed items are left ↓ -->
       <button class="clear-completed" @click="clearCompleted" v-show="completedTodos.length">Clear completed</button>
     </footer>
   </section>
-
-  <footer class="info">
-    <p>Double-click to edit a todo</p>
-  </footer>
   
   <!-- Scripts here ↓ -->
-  <script src="node_modules/vue/dist/vue.js"></script>
+  <script src="node_modules/vue/dist/vue.js"></script></section>
   <script src="node_modules/vue-router/dist/vue-router.js"></script>
 
   <!-- production and development builds-->

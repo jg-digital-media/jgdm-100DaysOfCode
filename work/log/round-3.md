@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 57 of 100. **Last Update:** 24 October 2019
+## **Status:** Day 58 of 100. **Last Update:** 25 October 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+### R3D58:  Friday 25th October 2019
++ **Notes** -
+  + Good progress today. I managed to edit my data, bind file paths to an image attribute to load images dynamically.  What I'd like to do now is add clickable images and the ability to change the complete/incomplete project data via localStorage.
+
+* **Technologies Used** - Vue.js
 
 ### R3D57:  Thursday 24th October 2019
 + **Notes** -

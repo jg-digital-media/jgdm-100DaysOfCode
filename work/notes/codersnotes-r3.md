@@ -5,6 +5,16 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 58
+
+```javascript
+ v-bind:src="project.project_image" alt="Project image."
+
+   project_image: "images/ajax_project.png"
+   
+```
+
 ## Day 56
 
 ### Localhost  - LocalStorage with Vue.js

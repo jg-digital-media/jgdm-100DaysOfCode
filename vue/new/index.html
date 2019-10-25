@@ -45,7 +45,31 @@ Description:  Project Status Homepage
 
         <article class="project-list">
 
-            <div class="project-status-group" role="Project Status">
+            <div class="project-status-group" role="Project Status" v-for="project in projects">
+
+                    <article class="project-item" role = "Project List Item">
+                
+                        <img class="project-image" v-bind:src="project.project_image" alt="Project image." />
+                        <div class="status" role="Status colour code" v-bind:class="{'complete': project.status, 'incomplete': !project.status}"></div>
+                        <div class="name-and-topic" role="Project name and topic">{{project.project_name}} <br /> <em>( {{project.project_type}} )</em></div>
+                    
+                    </article>
+        
+            </div>
+
+            <div class="project-status-group" role="Project Stat">
+
+                    <article class="project-item" role = "Project List Item">
+                
+                        <img class="project-image" src="images/ajax_project.png" alt="Project image." />
+                        <div class="status" role="Status colour code"></div>
+                        <div class="name-and-topic" role="Project name and topic">Name (Topic )</div>
+                    
+                    </article>
+        
+            </div>
+
+            <div class="project-status-group" role="Project Stat">
 
                     <article class="project-item" role = "Project List Item">
                 

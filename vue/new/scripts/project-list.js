@@ -2,7 +2,7 @@
  * Authored by:  @jg_digitalMedia
  * Web:          https://www.jonniegrieve.co.uk
  * Last Update:  25th March 2019
- * Description:   Curation of all Projects in JSON format - to be copied to app.js *  
+ * Description:  Curation of all Projects in JSON format - to be copied/added to app.js *  
  * */
 [{
     project_name: "Angular Project",
@@ -41,7 +41,7 @@
     status: true,
 },
 {
-    project_name: "Node",
+    project_name: "Node.js",
     project_type: "JavaScript",
     project_status: "Incomplete",
     status: false,

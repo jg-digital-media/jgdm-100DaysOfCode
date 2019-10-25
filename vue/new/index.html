@@ -1,7 +1,7 @@
 <!--
 Authored by:  @jg_digitalMedia
 Web:          https://www.jonniegrieve.co.uk
-Last Update:  8th July 2019
+Last Update:  25th October 2019
 Description:  Project Status Homepage  
  
 -->
@@ -28,80 +28,83 @@ Description:  Project Status Homepage
 
     <header>
 
-        <h1>Project Status <span>A project with Vue.js</span></h1>
+        <h1>Project Status <span role="Status Complete">A project with Vue.js</span></h1>
 
         <aside class="key">
 
             <h2>Key:</h2>
 
-            <span id="green-complete" alt="Incomplete"></span> Incomplete
-            <span id="red-complete" alt="Complete"></span> Complete
+            <span id="green-complete" alt="Incomplete" role="Status Incomplete"></span> Incomplete
+            <span id="red-complete" alt="Complete" role="Status Complete"></span> Complete
     
         </aside>
 
     </header>
 
-    <div id="container">
-
-        <!-- DROPDOWN BOX TO GO HERE -->
+    <main id="container">
 
         <article class="project-list">
 
-            <div id="project-status">
+            <div class="project-status-group" role="Project Status">
 
-                    <div class="project-item">
+                    <article class="project-item" role = "Project List Item">
                 
                         <img class="project-image" src="images/ajax_project.png" alt="Project image." />
-                        <div class="status"></div>
-                        <div class="name-and-topic">Name (Topic )</div>
+                        <div class="status" role="Status colour code"></div>
+                        <div class="name-and-topic" role="Project name and topic">Name (Topic )</div>
                     
-                    </div>
+                    </article>
         
             </div>
 
+            <div class="project-status-group" role="Project Stat">
 
-            <div id="project-status">
-
-                    <div class="project-item">
+                    <article class="project-item" role = "Project List Item">
                 
                         <img class="project-image" src="images/ajax_project.png" alt="Project image." />
-                        <div class="status"></div>
-                        <div class="name-and-topic">Name (Topic )</div>
+                        <div class="status" role="Status colour code"></div>
+                        <div class="name-and-topic" role="Project name and topic">Name (Topic )</div>
                     
-                    </div>
+                    </article>
         
             </div>
 
+            <div class="project-status-group" role="Project Stat">
 
-            <div id="project-status">
-
-                    <div class="project-item">
+                    <article class="project-item" role = "Project List Item">
                 
                         <img class="project-image" src="images/ajax_project.png" alt="Project image." />
-                        <div class="status"></div>
-                        <div class="name-and-topic">Name (Topic )</div>
+                        <div class="status" role="Status colour code"></div>
+                        <div class="name-and-topic" role="Project name and topic">Name (Topic )</div>
                     
-                    </div>
+                    </article>
         
             </div>
-            
-            
-            
 
         </article>
 
         <article class="main-content">
-                <h2>Title</h2>
+                <h2>Created with Vue.js</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum repudiandae officiis repellat suscipit corrupti dolores qui sequi animi, magnam illum ea omnis maxime veniam ab placeat. Esse modi quo eveniet?</p>
+                <p>This is a simple single page app that uses Vue.js to visually the status of projects based on the values of an array of Objects. It contains projects on JavaScript, PHP, Java, Python, Ruby and Web Design Projects</p>
+
+                <h2>Status Notes</h2>
 
                 <ul>
-                    <li>lorem</li>
-                    <li>ipsum</li>
+                    <li>Node: s2 directory app throws an error. s4 is incomplete. s3 returns nothing</li>
+                    <li>Web Design Practice - Grid, Flexbox, Layout, Sticky Nav working</li>
+                    <li>Ruby</li> - a bunch of files, not resembling a project yet,
+                    <li>HTML_NAV - possibly redundant. Consider abandoning</li>
+                    <li>php_authorisation - not working. to be redone</li>
+                    <li>PHP Story-builder app - functioning on local server</li>
+                    <li>react-basics - app.js file completely empty.</li>
+                    <li>react-fetch - all directories have no errors but no output to browsers</li>
+                    <li>rsvp - react project 3 console errors. </li>
+                    </li>
                 </ul>
         </article>
 
-    </div>
+    </main>
 
     
     <footer>&copy; 2019 Designed by Jonnie Grieve Digital Media </footer>

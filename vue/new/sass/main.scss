@@ -125,14 +125,16 @@ header {
         }
 
         .project-status-group {
-            float: left;
+            /* float: left; */
+            display: inline-block;
             margin: 0 5% 0 5%;
-            padding:15px;
+            padding: 15px;
             width: 15%;
+            vertical-align: top;
         }
 
         .project-item {
-            width: 138%;
+            width: 170%;
 
             img.project-image {
                 width: 100%;
@@ -141,26 +143,29 @@ header {
             .name-and-topic {
                 display: inline-block;
                 vertical-align: top;
+                width: 75%;
             }
             
             .status {
                 border-radius: 50%;
                 background: yellow;
-                width: 40px;
-                height: 40px;
+                width: 30px;
+                height: 30px;
                 display: inline-block;
             } 
+
+            //Complete and Incomplete Project icon colours.
+            div.complete {
+                @include span-colours(inline-block, green, 30px, 30px, 50%, 5px);
+            }
+
+            div.incomplete {
+                @include span-colours(inline-block, red, 30px, 30px, 50%, 5px);
+            }
         }
                 
         
-        //Complete and Incomplete Project icon colours.
-        span.complete {
-            @include span-colours(inline-block, green, 30px, 30px, 50%, 5px);
-        }
-
-        span.incomplete {
-            @include span-colours(inline-block, red, 30px, 30px, 50%, 5px);
-        }
+        
 
        
     }

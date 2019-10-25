@@ -98,37 +98,40 @@ header {
       #container .project-list li em {
         font-weight: bold; }
     #container .project-list .project-status-group {
-      float: left;
+      /* float: left; */
+      display: inline-block;
       margin: 0 5% 0 5%;
       padding: 15px;
-      width: 15%; }
+      width: 15%;
+      vertical-align: top; }
     #container .project-list .project-item {
-      width: 138%; }
+      width: 170%; }
       #container .project-list .project-item img.project-image {
         width: 100%; }
       #container .project-list .project-item .name-and-topic {
         display: inline-block;
-        vertical-align: top; }
+        vertical-align: top;
+        width: 75%; }
       #container .project-list .project-item .status {
         border-radius: 50%;
         background: yellow;
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
         display: inline-block; }
-    #container .project-list span.complete {
-      display: inline-block;
-      background: green;
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      margin-right: 5px; }
-    #container .project-list span.incomplete {
-      display: inline-block;
-      background: red;
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      margin-right: 5px; }
+      #container .project-list .project-item div.complete {
+        display: inline-block;
+        background: green;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 5px; }
+      #container .project-list .project-item div.incomplete {
+        display: inline-block;
+        background: red;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 5px; }
   #container .main-content {
     width: 33%;
     display: block;

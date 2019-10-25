@@ -97,19 +97,24 @@ header {
       height: 45px; }
       #container .project-list li em {
         font-weight: bold; }
-    #container .project-list #project-status {
+    #container .project-list .project-status-group {
       float: left;
       margin: 0 5% 0 5%;
       padding: 15px;
       width: 15%; }
     #container .project-list .project-item {
       width: 138%; }
-    #container .project-list .status {
-      border-radius: 50%;
-      background: yellow;
-      width: 40px;
-      height: 40px;
-      display: inline-block; }
+      #container .project-list .project-item img.project-image {
+        width: 100%; }
+      #container .project-list .project-item .name-and-topic {
+        display: inline-block;
+        vertical-align: top; }
+      #container .project-list .project-item .status {
+        border-radius: 50%;
+        background: yellow;
+        width: 40px;
+        height: 40px;
+        display: inline-block; }
     #container .project-list span.complete {
       display: inline-block;
       background: green;
@@ -124,11 +129,6 @@ header {
       height: 30px;
       border-radius: 50%;
       margin-right: 5px; }
-    #container .project-list img.project-image {
-      width: 100%; }
-    #container .project-list .name-and-topic {
-      display: inline-block;
-      vertical-align: top; }
   #container .main-content {
     width: 33%;
     display: block;

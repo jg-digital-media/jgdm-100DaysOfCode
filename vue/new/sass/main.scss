@@ -89,6 +89,7 @@ header {
         width: 95%;
     }
 
+    //project list item
     .project-list {    
         border: solid black 1px;
         width: 90%;
@@ -102,6 +103,7 @@ header {
         @media (max-width: 680px) {
             font-size: 3vw;
         }
+
         h2 {
             text-align: center;
         }
@@ -122,7 +124,7 @@ header {
             }
         }
 
-        #project-status {
+        .project-status-group {
             float: left;
             margin: 0 5% 0 5%;
             padding:15px;
@@ -131,16 +133,27 @@ header {
 
         .project-item {
             width: 138%;
-        }
 
-        .status {
-            border-radius: 50%;
-            background: yellow;
-            width: 40px;
-            height: 40px;
-            display: inline-block;
+            img.project-image {
+                width: 100%;
+            }
+    
+            .name-and-topic {
+                display: inline-block;
+                vertical-align: top;
+            }
+            
+            .status {
+                border-radius: 50%;
+                background: yellow;
+                width: 40px;
+                height: 40px;
+                display: inline-block;
+            } 
         }
-
+                
+        
+        //Complete and Incomplete Project icon colours.
         span.complete {
             @include span-colours(inline-block, green, 30px, 30px, 50%, 5px);
         }
@@ -149,14 +162,7 @@ header {
             @include span-colours(inline-block, red, 30px, 30px, 50%, 5px);
         }
 
-        img.project-image {
-            width: 100%;
-        }
-
-        .name-and-topic {
-            display: inline-block;
-            vertical-align: top;
-        }
+       
     }
 
     .main-content {

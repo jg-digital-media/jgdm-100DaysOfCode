@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 58 of 100. **Last Update:** 25 October 2019
+## **Status:** Day 59 of 100. **Last Update:** 28 October 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+### R3D59:  Monday 28th October 2019
++ **Notes** -
+  + Bound more data using vue directives and updated the appropriate project images.  Once I did that I spent some time looking at best practices for performance optimisation.
+
+* **Technologies Used** - Vue.js
 
 ### R3D58:  Friday 25th October 2019
 + **Notes** -

@@ -17,13 +17,18 @@ Last Updated:   9th October 2019
     
     <link rel = "image_src" href="https://www.jonniegrieve.co.uk/img/icon.png" />
     
-    <link rel="canonical" href="https://www.jonniegrieve.co.uk/index.html" />
+    <link rel="canonical" href="https://www.jonniegrieve.co.uk/index.php" />
     
     <!--Facebook open graph links--> 	
+    <meta prefix="fb: http://ogo.me/ns/fb#" property="app_id" content="2458621401127654" />
+    <meta property="og:type" content="website" />
     <meta property="og:title" content="Jonnie Grieve Digital Media | Independent Web Design Agency" />
     <meta property="og:description" content="Jonnie Grieve Digital Media is an independent website & multimedia design agency based in the North East of England." />		
-    <meta property="og:site_name" content="Jonnie Grieve Digital Media"/>	
+    <meta property="og:site_name" content="Jonnie Grieve Digital Media" />	
     <meta property="og:url" content="https://www.jonniegrieve.co.uk" />
+    <meta property="og:image" content = "https://www.jonniegrieve.co.uk/assets/opengraph/og-logo.png" />
+    <meta property="og:image" content = "https://www.jonniegrieve.co.uk/assets/opengraph/og-image-2.png" />
+    <meta property="og:image" content = "https://www.jonniegrieve.co.uk/assets/opengraph/og-large-logo.png" />
     
     <!--Twitter Cards-->
     <meta name="twitter:card" content="Jonnie Grieve Digital Media is an independent website & multimedia design agency based in the North East of England."></meta>

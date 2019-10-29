@@ -52,7 +52,7 @@ Description:  Project Status Homepage
                         <a v-bind:href="project.project_url" target="blank">
                         <img class="project-image" v-bind:src="project.project_image" v-bind:alt="project.project_alt" v-bind:title="project.project_alt" />
                         </a>
-                        <div class="status" role="Status colour code" v-bind:class="{'complete': project.status, 'incomplete': !project.status}"></div>
+                        <div class="status" role="Status colour code" v-bind:class="{'complete': project.status, 'incomplete': !project.status}" v-on:click="switchStatus()"></div>
                         <div class="name-and-topic" role="Project name and topic">{{project.project_name}} <br /> <strong><em>( {{project.project_type}} )</em></strong>
                         </div>
                     

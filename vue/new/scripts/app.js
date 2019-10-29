@@ -1,12 +1,16 @@
 //Array of objects for data
 
 //Vue instance that holds the Project status data in JSON format. 
+
+const LOCAL_STORAGE_KEY = "project-status";
+
+
 const vue = new Vue({
 
     el: '.project-list',
     data: {
         list: "Project List",
-        projects:  [
+        projects:  JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)) ||[
         {
             project_name: "Ajax Project",
             project_url: "https://www.",
@@ -509,11 +513,35 @@ const vue = new Vue({
     },
 
     methods: {
+         /*switchStatus(){
+            //code
+            if (this.projects = this.status == "Complete") {
+                this.projects _status = "Incomplete";
+            } else {
+                this.projects _status = "Complete";
+            }
+         }*/
 
+         switchStatus: function(e){
+             if(this.projects.status) {
+                 this.projects.status = false;
+             } else {
+                 this.projects.status = true;
+             }
+         }
     },
 
     computed: {
 
+    },
+
+    watch: {
+        todos: {
+            deep: true,
+            handler(newValue) {
+                localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(newValue));
+            }
+        }
     }
 
 });

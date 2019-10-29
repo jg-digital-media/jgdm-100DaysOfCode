@@ -51,22 +51,29 @@ $(document).ready(function() {
 	required = ["name", "email", "your-url", "subject"];
 	// If using an ID other than #email or #error then replace it here
     email = $("#email");
-    url = $("#url");
+    url = $("#your-url");
 	errornotice = $("#error");
-	// The text to show up within a field when it is incorrect
+    
+    
+    // The text to show up within a field when it is incorrect
 	emptyerror = "Please complete this field";
     emailerror = "Please enter a valid e-mail.";
-    urlerror = "please enter a URL";
+    urlerror = "Please enter a valid URL";
 
 	$("#hire-form").submit(function(){	
 		//Validate required fields
 		for (i=0;i<required.length;i++) {
-			var input = $('#'+required[i]);
+			var input = $('#'+ required[i]);
 			if ((input.val() == "") || (input.val() == emptyerror)) {
 				input.addClass("js-needsfilled");
 				input.val(emptyerror);
-				errornotice.fadeIn(750);
-			} else {
+                errornotice.fadeIn(750);
+                
+			} else if(!empty(input.val() = "") || (input.val() == urlerror)) {
+                input.addClass("js-needsfilled");
+                input.val(urlerror);
+
+            } else {
 				input.removeClass("js-needsfilled");
 			}
         }
@@ -75,14 +82,14 @@ $(document).ready(function() {
 		if (!/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(email.val())) {
 			email.addClass("js-needsfilled");
 			email.val(emailerror);
-        }
+        }        
         
-        /*
         // Validate the url
-        if (url.test(url.val())) {
-           url.addClass("js-needsfilled");
+        if (/^[https:\/\/www.+]*/.test(url.val())) {
+            url.addClass("js-needsfilled");
             url.val(urlerror);
-}*/
+        } /**/
+
 		// If any inputs on the page have the class 'needsfilled' the form will not submit
 		if ($(":input").hasClass("js-needsfilled")) {
 			return false;

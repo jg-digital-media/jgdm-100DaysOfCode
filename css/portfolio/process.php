@@ -7,8 +7,8 @@ Last Updated:   7th October 2019
 
 <?php   
     // get real ip address
-    $realIP = file_get_contents("http://ipecho.net/plain");
-    $checkIP = file_get_contents('http://checkip.dyndns.com/');
+    // $realIP = file_get_contents("http://ipecho.net/plain");
+    // $checkIP = file_get_contents('http://checkip.dyndns.com/');
 ?>
 
 <!DOCTYPE html>
@@ -104,11 +104,11 @@ Last Updated:   7th October 2019
                     }
 
                     if(empty($your_url)){ 
-                        echo "<p>" . $err_yourUrl = "Please enter a URL for me to see. If you have none to share just enter 0 or None." . "</p>";  
+                        echo "<p>" . $err_yourUrl = "Please enter a URL for me to see. If you have none to share just enter \"0\" or \"None\"." . "</p>";  
                     }
 
                     if(empty($subject)){
-                        echo "<p>" . $err_subject = "A brief subject for your enquiry." . "</p>";
+                        echo "<p>" . $err_subject = "Enter a brief subject for your enquiry." . "</p>";
                     }  
 
                     if(empty($confirm)){

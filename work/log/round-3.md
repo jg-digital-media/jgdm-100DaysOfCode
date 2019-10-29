@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 59 of 100. **Last Update:** 28 October 2019
+## **Status:** Day 69 of 100. **Last Update:** 29 October 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
+
+### R3D60:  Tuesday 29th October 2019
++ **Notes** -
+  + Wanted to create some interactivity to my Vue App by changing the status of a project both visually and syncing with the data via local storage. This has proved tricky. But it remains on my todo list.
+  + Learned some interesting things about front end performance optimisation that I am looking forward to putting in practice. I did a performance check. Speed ratings are very good but could be even better.
+  + I see my site currently downloads 2mb of resources in less than 2 seconds over 38 HTTP Requests. This is something I'm looking forward to fixing.
+
+* **Technologies Used** - Vue.js
 
 ### R3D59:  Monday 28th October 2019
 + **Notes** -

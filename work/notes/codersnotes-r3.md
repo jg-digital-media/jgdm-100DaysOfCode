@@ -6,6 +6,24 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 60
+
+```javascript
+
+// <img src="" />
+// <img data-original src="" />
+
+//https://www.github.com/verlok/lazyload
+
+
+<script>
+
+new lazyLoad();
+
+</script>
+
+```
+
 ## Day 58
 
 ```javascript

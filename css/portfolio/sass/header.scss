@@ -121,6 +121,19 @@ header {
             transform: scale(1.4);
         }
     }
+
+    #social svg {
+        display: inline-block;
+        margin: 20px auto;
+        width: 40px;
+
+        transition: transform .2s;
+
+        &:hover {
+            transform: scale(1.2);
+            transform-origin: center;
+        }
+    }
 }
 
 .sticky {

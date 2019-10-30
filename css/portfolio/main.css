@@ -133,6 +133,14 @@ header {
     transition: transform .2s; }
     header #social img:hover {
       transform: scale(1.4); }
+  header #social svg {
+    display: inline-block;
+    margin: 20px auto;
+    width: 40px;
+    transition: transform .2s; }
+    header #social svg:hover {
+      transform: scale(1.2);
+      transform-origin: center; }
 
 .sticky {
   position: fixed;
@@ -517,6 +525,9 @@ nav.main-nav {
         width: 80%; } }
   .main-content article#hire-me textarea#message:focus {
     background: #eef595; }
+    .main-content article#hire-me textarea#message:focus:hover {
+      transition: background .4s;
+      background: yellow; }
   .main-content article#hire-me input#confirm {
     border: red solid 1px;
     width: 15%;

@@ -2,6 +2,13 @@
 
 //Vue instance that holds the Project status data in JSON format. 
 
+// main.js
+import Vue from "vue";
+import { VLazyImagePlugin } from "v-lazy-image";
+
+Vue.use(VLazyImagePlugin);
+
+
 const LOCAL_STORAGE_KEY = "project-status";
 
 

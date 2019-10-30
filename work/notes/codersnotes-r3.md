@@ -6,6 +6,39 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 61
+
+### Creating a Sprite Map SVG to combine image assets
+
+```html
+
+<!-- The Viewbox is the size and placement of the SVG image within the SCG area.  -->
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;" width="" height="">
+
+    <symbol id="id_name" viewbox="">
+
+        <path d="" fill="" />
+   
+    </symbol>
+
+    <symbol id="id_name" viewbox="">
+
+        <path d="" fill="" />
+   
+    </symbol>
+
+<!-- Embed into various parts of the document with the following markup -->
+
+<svg class="social-icon">
+    <use xlink:href="#twitter-wrap" />
+</svg>
+
+<svg>
+    <use xlink:href="#phone" />
+</svg>
+```
+
 ## Day 60
 
 ```javascript

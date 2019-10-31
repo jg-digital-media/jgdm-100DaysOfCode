@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 61 of 100. **Last Update:** 30 October 2019
+## **Status:** Day 62 of 100. **Last Update:** 30 October 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
-### R3D60:  Wednesday 30th October 2019
+### R3D62:  Thursday 31st October 2019
++ **Notes** - 
+  + Worked on cleanimg up some redundant and/or unused styles in my website.  In Python I worked on a dice roller utility using OOP programming.
+
+* **Technologies Used** - CSS, Python
+
+### R3D61:  Wednesday 30th October 2019
 + **Notes** - 
   + Converted the social media icons on my website to a single SVG Sprite map. This has reduced HTTP requests by 5.  I can reduce bandwitdh even further by replacing PNG's with JPEGs for most images. will do that next.
   + Lazy loading hasn't worked out yet. I'm having trouble trying to make it worth with NPM but I'm sure there are other ways to make it worth but it doesn't like Vue.js very much at all.  :)

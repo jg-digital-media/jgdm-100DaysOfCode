@@ -282,7 +282,8 @@ nav.main-nav {
   .main-content article#services p {
     font-family: 'Lato', sans-serif;
     padding: 5px;
-    background: #f0e68a; }
+    background: #f0e68a;
+    border-bottom: 6px solid #25893b; }
   .main-content article#services .elsewhere p {
     position: relative;
     bottom: 90px;

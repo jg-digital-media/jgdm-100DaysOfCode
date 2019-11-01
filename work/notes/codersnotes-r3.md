@@ -5,6 +5,51 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 63
+
+```python
+hands.py
+
+class Hand(list):
+    def __init__(self, size=0, die_class=None, *args, **kwargs):
+        if not die_class:
+            raise ValueError("You must provide a Die classs")
+        super().__init__()
+
+        for _ in range(size):
+            self.append(die_class())
+
+class YatsyHand(Hand):
+    def __init__(self, *args, **kwargs):
+        super().__init__(size=5, die_class=D6, *args, **kwargs)
+
+
+
+```
+
+```in the console
+
+from hands import YatsyHand
+
+yh = YatzyHand()
+yh
+[2,2,4,5,5]
+
+```
+
+### Basics of Python Date and Time code
+
+```python
+#import the datetime library
+import datetime
+
+#variable with current timestamp - the result of datetime.datetime.now()
+now = datetime.datetime.now()
+
+#variable called two that holds the value of now with the hour set to 14. Use the .replace() method.  minute set to 30
+two = now.replace(hour=14, minute=30)
+
+```
 
 ## Day 61
 

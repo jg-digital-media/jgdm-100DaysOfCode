@@ -1,14 +1,21 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 62 of 100. **Last Update:** 30 October 2019
+## **Status:** Day 63 of 100. **Last Update:** 1 November 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
 ___
 
 
+### R3D63:  Friday 1st November 2019
++ **Notes** - 
+  + Finished off the card game utility class example in Python, the responsive styling for the Vue.js todo app example and tidied up that directory a little bit in preparation for more examples to go there. 
+  + Also started studying some code of Dates and Times in Python
+
+* **Technologies Used** - HTML5, CSS, Vue.js, Python
+
 ### R3D62:  Thursday 31st October 2019
 + **Notes** - 
-  + Worked on cleanimg up some redundant and/or unused styles in my website.  In Python I worked on a dice roller utility using OOP programming.
+  + Worked on cleaning up some redundant and/or unused styles in my website.  In Python I worked on a dice roller utility using OOP programming.
 
 * **Technologies Used** - CSS, Python
 

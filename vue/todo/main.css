@@ -1,8 +1,8 @@
 /*CSS*/
 
 *{ 
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -18,118 +18,136 @@ body {
 
 /*header*/
 .header {
-  text-align: center;
-  margin-bottom: 20px;
-  background: indigo;
-  padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    background: indigo;
+    padding: 10px 0;
 }
 
 .header h1 {
-  color: white;
+    color: white;
+    height: 30px;
+}
+
+.header h2 {
+        color: white;
+        font-size: 20px;
 }
 
 .header p a {
-  font-size: 10px;
-  color: white;
-  font-style: italic;
+    font-size: 10px;
+    color: white;
+    font-style: italic;
 }
 
 .header p a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .main .header {
-  text-align: center;
-  margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 input.new-todo {
-  padding: 6px;
-  border-radius: 13px;
-  border: solid black 2px;
+    padding: 6px;
+    border-radius: 13px;
+    border: solid black 2px;
 }
 
 /*main*/
 .main {
-  border: solid 3px black;
+    border: solid 3px black;
 }
 
 .main .toggle-all {
-  text-align: right;
-  margin: 20px 0;
+    text-align: right;
+    margin: 20px 0;
 }
 
 .todo-list li {
-  list-style: none;
-  padding: 20px 10px;
+    list-style: none;
+    padding: 20px 10px;
+    background: lightblue;
+    border-bottom: solid black 1px;
+    border-top: solid black 1px;
+}
+
+.todo-list li.completed {
+    color: grey;
+    text-decoration: line-through;
+    background: #800000;
 }
 
 .mark-complete {
-  width: 100%;
-  text-align: right;
-  position: relative;
-  right: 10px;
-}
-
-
-
-.completed {
-    color: grey;
-    text-decoration: line-through;
+    width: 100%;
+    text-align: right;
+    position: relative;
+    right: 10px;
 }
 
 .editing {
-  background: orange;
-}
-
-.view {
-    
+    background: orange;
 }
 
 .footer {
+    text-align: center;
 
 }
 
-ul.filters {
-  display: inline-block;
-  vertical-align: top;
-  margin: 0 20px;
-  width: 50%;
+.filters {
+    display: block;
+    /* vertical-align: top; */
+    margin: 0 auto;
+    width: 50%;
+    height: 40px;
+    text-align: center;
 }
 
 .filters li  {
-  text-align: center;
-  list-style: none;
-  background: white;
-  padding: 5px;
-  border-radius: 20px;
-  display: inline-block;
-  width: 90px;
-  font-weight: bold;
-  cursor: pointer;
+    text-align: center;
+    list-style: none;
+    background: white;
+    padding: 5px;
+    border-radius: 20px;
+    display: inline-block;
+    width: 90px;
+    font-weight: bold;
+    cursor: pointer;
 
 }
 
 .filters li:hover {
-  border-bottom: solid black 3px;
+    border-bottom: solid black 3px;
 }
 
 .filters li a {
-  color: black;
-  cursor: pointer;
-  text-decoration: none;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .info {
-  display: inline-block;
+    display: inline-block;
+    margin: 20px auto;
+    padding: 25px;
+    display: block;
+    width: 90%;
+    text-align: left;
+    background: #aaa7a7;
+    border-radius: 20px;
+}
+
+.info h2 {
+    font-size: 20pt;
 }
 
 .info p {
-  line-height: 2;
+    line-height: 2.2;
 }
 
 button.destroy {
-  color: red;
+    color: red;
     background: #e38a8a;
     border-radius: 30px;
     padding: 4px;
@@ -140,27 +158,44 @@ button.destroy {
 }
 
 span.todo-count {
-  display: block;
-  margin: 20px auto;
-  font-weight: bold;
-  font-family: arial;
-  text-align: center;
-  background: lightgreen;
-  padding: 10px 0;
-  width: 30%;
-}
-
-.todo-list {
-
+    display: inline-block;
+    margin: 20px;
+    font-weight: bold;
+    font-family: arial;
+    text-align: center;
+    background: lightgreen;
+    padding: 10px 0;
+    width: 30%;
 }
 
 button.clear-completed {
-  margin: 18px;
-  padding: 7px;
-  border: solid 2px red;
-  border-radius: 5px;
-  background: lightgoldenrodyellow;
-  text-transform: uppercase;
-  font-weight: bold;
-  cursor: pointer;
+    margin: 18px;
+    padding: 10px 10px;
+    border: solid 2px red;
+    border-radius: 5px;
+    background: lightgoldenrodyellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*Responsive Styles*/
+@media (max-width: 980px) {
+    .todoapp {
+        width: 90%;
+    }
+
+    .info {
+        width: 90%;
+    }
+
+    .filters {
+        width: 90%;
+    }
+}
+
+@media (max-width: 680px) {
+    .info {
+        width: 60%;
+    }
 }

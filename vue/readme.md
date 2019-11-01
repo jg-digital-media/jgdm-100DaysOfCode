@@ -4,11 +4,11 @@
 
 
 ## List: 
+  + todos
   + Vue Project v1 - original project design no image display
-  + Adrian Mejia - ToDos:
   + Vue Project v2  - image display
 
-### Tutorial 1
+### Tutorial 1 - todos
 + By Adrian Mejia - https://adrianmejia.com/vue-js-tutorial-for-beginners-create-a-todo-app/#Vue-Conditional-Rendering-v-show-vs-v-if
 
   + Binding
@@ -24,7 +24,7 @@
     + watched:
 
 
-### Tutorial 2
+### Tutorial 2 - Vue Projects
 
 
 

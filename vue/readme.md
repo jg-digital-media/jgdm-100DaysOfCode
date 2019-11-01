@@ -1,9 +1,12 @@
-# Vue Project
+# Vue Project Directory
+
+
 
 
 ## List: 
+  + Vue Project v1 - original project design no image display
   + Adrian Mejia - ToDos:
-  + Two... 
+  + Vue Project v2  - image display
 
 ### Tutorial 1
 + By Adrian Mejia - https://adrianmejia.com/vue-js-tutorial-for-beginners-create-a-todo-app/#Vue-Conditional-Rendering-v-show-vs-v-if

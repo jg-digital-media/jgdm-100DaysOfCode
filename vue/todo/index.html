@@ -20,7 +20,7 @@
         <!-- my note: this is where we create todos-->
         <input class="new-todo" placeholder="What needs to be done?" v-on:keyup.enter = "createToDo" autofocus>
 
-        <h1>Simple To-Do List App. - Type a task to start the app.</h1>
+        <h2>Simple To-Do List App: <br /> Type a task to start the app.</h2>
   
         <p><a href="https://adrianmejia.com/vue-js-tutorial-for-beginners-create-a-todo-app/#" target="blank">Based on a Vue Tutorial by Adrian Mejia</a></p>
       </header>
@@ -57,7 +57,11 @@
     <footer class="footer" v-if="todos.length">
       <!-- This should be `0 items left` by default -->
       <span class="todo-count">
-        <strong>{{ activeTodos.length }}</strong> item(s) left</span>
+        <strong>{{ activeTodos.length }}</strong> item(s) left
+    </span>    
+
+    <!-- Hidden if no completed items are left ↓ -->
+    <button class="clear-completed" @click="clearCompleted" v-show="completedTodos.length">Clear completed</button>
 
       <!-- Remove this if you don't implement routing -->
       <ul class="filters">
@@ -74,17 +78,16 @@
 
       
 
-    <footer class="info">
+    <div class="info">
         <h2>How to use the App</h2>
         <p>Double-click to edit a todo</p>
         <p>Create a new task in the input box above ad press enter.</p>
         <p>Delete a task at any time using the X buttons</p>
-        <p>Tasks are saved by cicking out fron the task text boxes.</p>
-      </footer>
+        <p>Tasks are saved by clicking out fron the task text boxes.</p>
+    </div>
 
-      <!-- Hidden if no completed items are left ↓ -->
-      <button class="clear-completed" @click="clearCompleted" v-show="completedTodos.length">Clear completed</button>
     </footer>
+
   </section>
   
   <!-- Scripts here ↓ -->

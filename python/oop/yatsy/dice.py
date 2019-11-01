@@ -11,13 +11,17 @@ class Die:
         if not isinstance(sides, int):
             raise ValueError("Sides must be a whole number")
         self.value = value or random.randint(1, sides)    
-        
+
+    #convert instance of Die class to integer    
+    def __int__(self):
+        return self.value
+
     #compare dice using magic methods for a range of game scenarios 
     def __eq__(self, other):
         return int(self) == other
      
     def __ne__(self, other):
-        return not int(self) == other
+        return int(self) != other
      
     def __gt__(self, other):
         return int(self) > other
@@ -32,7 +36,7 @@ class Die:
         return int(self) < other or int(self) == other
 
     def __add__(self, other):
-        return int(self, other)
+        return int(self) + other
         
     def __radd__(self, other):
         return int(self) + other            

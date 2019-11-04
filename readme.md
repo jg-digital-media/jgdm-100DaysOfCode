@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 3: Day 63 of 100. **Last Update:** 1 November 2019
++ **Status:** Round 3: Day 64 of 100. **Last Update:** 4 November 2019
 
 ## Directories
   + bin      
@@ -15,6 +15,7 @@
     + modernizr
     + portfolio
     + portfolio-gallery
+    + project_sub
     + sass_project
     + semantic-html
   + java
@@ -53,6 +54,11 @@
   + regex
   + svg
     + icons
+  + vue
+    + tania_rascia
+    + todo
+    + vue_project
+    + vue_project_v2
   + work
     + log
     + notes
@@ -73,6 +79,7 @@ CSS
 + **css/modernizr** - Left push navigation for mobiles - https://projects.jonniegrieve.co.uk/modernizr
 + **css/portfolio-gallery** - Portfolio Gallery - https://project.jonniegrieve.co.uk/portfolio-gallery
 + **css/sass_project** - Sass Project - Single Image Swipe Gallery - https://projects.jonniegriece.co.uk/sass_project
++ **css/portfolio** - Project Subdomain - Homepage of curated JGDM Projects - https://projects.jonniegriece.co.uk
 
 JavaScript
 
@@ -98,6 +105,12 @@ React
 + **react/scoreboard_v2** - Second version of the scoreboard counter App  - **not yet uploaded**
 + **react/tictactoe** - Practice app from the official React Documentation. Building a simple tictactoe game  - **not yet uploaded**
 
+Vue
+
++ **tania_rascia** - new tutorial.
++ **todo** - interactive to do list with VueJs - connects to LocalStorage.
++ **vue_project** -  Retrieves and displays values of a set of structured JSON Data.
++ **vue_project_v2** - Retrieves and displays values of a set of structured JSON Data including image paths
 
 ## Description
 

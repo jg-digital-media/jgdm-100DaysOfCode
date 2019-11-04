@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 63 of 100. **Last Update:** 1 November 2019
+## **Status:** Day 64 of 100. **Last Update:** 4 November 2019
 ___
-**Directories:** | css | java | javascript | log | php | python | react | regex | svg | work
+**Directories:** | css | java | javascript | log | php | python | react | regex | svg | vue | work
 ___
+
+
+### R3D64:  Monday 4th November 2019
++ **Notes** - 
+  + Python Dates and Times, more attempts at VueJS Lazyloading and some prep for future projects.  In particular making space for another Vue Basics tutorial. Oh yes, and I've replaced some images reducing the pageload on my website. 
+
+* **Technologies Used** - HTML5, CSS, Vue.js, Python
 
 
 ### R3D63:  Friday 1st November 2019

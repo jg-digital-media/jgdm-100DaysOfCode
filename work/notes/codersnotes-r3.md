@@ -5,6 +5,56 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 64
+
+
+
+### Time Deltas
+
+**Time Deltas** - represent a gap of time. They are returned when you subtract one datetime from another. They can also be assigned to a variable and then used to augment datetime objects.  represent "now"
+
+```
+Now  = datetime.datetime.now()
+now
+datetime.datetime(2014, 10,15, 18,30 1, 855249)
+
+>>> datetime.timedelta(hours=5)
+datetime.timedelta(0, 18000)
+
+
+### new DateTime value
+now + datetime.timedelta(days=3)
+datetime.datetime(2014, 10, 18, 18, 30, 1, 855249)
+
+
+### Date Methods 
+
+```
+import datetime
+now = datetime.datetime.now()
+now
+now.strftime('%B, %d');
+
+# Month, shortYear  = October 15
+```
+
+
+```
+now.strftime('%B, %d');
+
+Month, shortYear  = October 15
+
+
+birthday = datetime.datetime.strptime('2015-04-21 12:00', '%Y-%m-%d %Y-%H-%M')
+    datetime.datetime(2014, 4, 21, 12, 0)
+
+https://docs.python.org/3/library/datetime.html?highlight=datetime#strftime-and-strptime-behavior
+datetime.datetime(2014, 10, 15, 20, 11, 45, 410327)
+```
+
+
+
 ## Day 63
 
 ```python

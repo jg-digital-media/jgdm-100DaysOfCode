@@ -2,14 +2,14 @@ body {
     font-family: 'Lato', sans-serif;
     padding: 0;
     margin: 0;
-    background: url("img/interior-darker.png");
+    background: url("img/interior-darker.jpg");
     background-size: cover;
     background-attachment: fixed;
     
     @supports (-webkit-overflow-scrolling: touch) {
         /* CSS specific to iOS devices */ 
         background-size: 100% 100%;
-        background: url("img/ios-bg.png") repeat-y;
+        background: url("img/ios-bg.jpg") repeat-y;
     }
 
     h2 {

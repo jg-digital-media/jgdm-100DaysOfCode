@@ -15,7 +15,7 @@ Last Updated:   9th October 2019
     <meta name = "keywords" content = "Web Design North East, Digital Media North East, independent design agency, web design work, multimedia design, WordPress Websites, mobile development, front end websites, online presence, social media work, free quote, competitive price." />
     <meta name = "description" content = "Jonnie Grieve Digital Media is an independent website & multimedia design agency based in the North East of England." />
     
-    <link rel = "image_src" href="https://www.jonniegrieve.co.uk/img/icon.png" />
+    <link rel = "image_src" href="https://www.jonniegrieve.co.uk/img/icon.jpg" />
     
     <link rel="canonical" href="https://www.jonniegrieve.co.uk/index.php" />
     
@@ -85,7 +85,7 @@ Last Updated:   9th October 2019
 
 
     <header>
-        <img title="Logo for Jonnie Grieve Digital Media" alt="Logo for Jonnie Grieve Digital Media" src="img/logo.png" tabindex="0" />
+        <img title="Logo for Jonnie Grieve Digital Media" alt="Logo for Jonnie Grieve Digital Media" src="img/logo.jpg" tabindex="0" />
 
         <span id="website-title" role="title">
             <h1>

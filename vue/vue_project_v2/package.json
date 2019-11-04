@@ -1,0 +1,15 @@
+{
+  "name": "vue_project_v2",
+  "version": "1.0.0",
+  "description": "Vue.js lazy loading example project",
+  "main": "scripts/main.js",
+  "dependencies": {
+    "vue-tiny-lazyload-img": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -540,6 +540,7 @@ const vue = new Vue({
 
 
 
+
 /*NOTES: 
 
 Project Types: HTML/CSS, JavaScript, React.js, PHP, Java, Ruby

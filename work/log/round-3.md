@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 64 of 100. **Last Update:** 4 November 2019
+## **Status:** Day 65 of 100. **Last Update:** 5 November 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | vue | work
 ___
 
+
+### R3D64:  Tuesday 5th November 2019
++ **Notes** - 
+  + The main takeaway from today is that I explored using Vue Create App CLI to make VueJS Projects. I had intended to do my next VueJS expample without it but the pull was too great.  :) Need to get comfortable with Component Syntax 
+
+* **Technologies Used** - HTML5, CSS, Vue.js, Python
 
 ### R3D64:  Monday 4th November 2019
 + **Notes** - 

@@ -10,7 +10,6 @@
 
 I had wanted to do the new Vue example project by Tania Rascia as a single html page with CDN support. But was encouraged to try out the Create Vue App via the Vue CLI.
 
-
 ### Vue using Create Vue App + setup
 
 ```

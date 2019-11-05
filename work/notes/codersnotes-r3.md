@@ -15,7 +15,7 @@ I had wanted to do the new Vue example project by Tania Rascia as a single html 
 
 ```
 
-npm  i -g @vue/cli @vue-cli-service-global
+npm  i -g @vue/cli @vue/cli-service-global
 
 vue create vue-app   - Create Vue App   new -app
 

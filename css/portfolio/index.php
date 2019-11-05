@@ -140,14 +140,6 @@ Last Updated:   9th October 2019
                 </a>    
             </li>
 
-
-            <!-- png images 
-            <li><a href="https://www.facebook.com/jgDigitalMedia/" target="blank">&nbsp;<img class="social-icon" title="Find me on Facebook" alt="Find me on Facebook" src="img/facebook.png" tabindex="0"  /></a></li>
-            
-            <li><a href="https://www.twitter.com/jg_digitalMedia/" target="blank">&nbsp;<img class="social-icon" title="Follow me on Twitter" alt="Follow me on Twitter" src="img/twitter.png" tabindex="0"  /></a></li>
-            <li><a href="https://www.linkedin.com/in/jonathan-grieve-6a944659/" target="blank">&nbsp;<img class="social-icon" title="Let's connect on LinkedIn" alt="Let's connect on LinkedIn" src="img/linkedin.png" tabindex="0"  /></a></li>
-            <li><a href="https://www.instagram.com/jonniegrievedigitalmedia/" target="blank">&nbsp;<img class="social-icon" title="Find me on Instagram" alt="Find me on Instagram" src="img/instagram.png" tabindex="0"  /></a></li>
-            <li><a href="https://www.youtube.com/" target="blank">&nbsp;<img class="social-icon" title="Watch me on YouTube" alt="Watch me on YouTube" src="img/youtube.png" tabindex="0"  /></a></li>--><!---->
             
         </ol>
 
@@ -187,13 +179,13 @@ Last Updated:   9th October 2019
             <h2>Featured Projects</h2>  
 
             <div class="show-featured">
-                <a href="https://projects.jonniegrieve.co.uk/fyp" target="blank" role="Featured work">&nbsp;<img src="img/featured/fyp_running.png" class="site-images" alt="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." title="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." tabindex="0" /></a>
+                <a href="https://projects.jonniegrieve.co.uk/fyp" target="blank" role="Featured work">&nbsp;<img src="img/featured/fyp_running.jpg" class="site-images" alt="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." title="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." tabindex="0" /></a>
 
-                <a href="https://projects.jonniegrieve.co.uk/portfolio-gallery/" target="blank" role="Featured work">&nbsp;<img src="img/featured/portfolio-gallery.png" class="site-images" alt="Using HTML5 and CSS to create various versions of portfolio images" title="Using HTML5 and CSS to create various versions of portfolio images" tabindex="0" /></a><br /><br />
+                <a href="https://projects.jonniegrieve.co.uk/portfolio-gallery/" target="blank" role="Featured work">&nbsp;<img src="img/featured/portfolio-gallery.jpg" class="site-images" alt="Using HTML5 and CSS to create various versions of portfolio images" title="Using HTML5 and CSS to create various versions of portfolio images" tabindex="0" /></a><br /><br />
                                 
-                <a href="https://projects.jonniegrieve.co.uk/gamesyard" target="blank" role="Featured work">&nbsp;<img src="img/featured/games_yard.png" class="site-images" alt="First created in 2004, this website was created to be an informational site for playing various popular games from Card games to Pool" title="First created in 2004, this website was created to be an informational site for playing various popular games from Card games to Pool" tabindex="0" /></a>
+                <a href="https://projects.jonniegrieve.co.uk/gamesyard" target="blank" role="Featured work">&nbsp;<img src="img/featured/games_yard.jpg" class="site-images" alt="First created in 2004, this website was created to be an informational site for playing various popular games from Card games to Pool" title="First created in 2004, this website was created to be an informational site for playing various popular games from Card games to Pool" tabindex="0" /></a>
                                 
-                <a href="https://projects.jonniegrieve.co.uk/regex/" target="blank" role="Featured work">&nbsp;<img src="img/featured/regex.png" class="site-images" alt="An explainer webpage for using Regular Expressions built with jQuery" title="An explainer webpage for using Regular Expressions built with jQuery" tabindex="0" /></a>
+                <a href="https://projects.jonniegrieve.co.uk/regex/" target="blank" role="Featured work">&nbsp;<img src="img/featured/regex.jpg" class="site-images" alt="An explainer webpage for using Regular Expressions built with jQuery" title="An explainer webpage for using Regular Expressions built with jQuery" tabindex="0" /></a>
                     
     
                 </div>
@@ -227,7 +219,7 @@ Last Updated:   9th October 2019
 
             <h2>See our promotional video!</h2>
 
-            <video controls >
+            <video controls>
                 <source src="assets/video.mp4" type="video/mp4" id="play-video" tabindex="0" >
             </video>
 
@@ -287,42 +279,42 @@ Last Updated:   9th October 2019
 
             <div class="elsewhere" tabindex="0" role="elsewhere-div">
                 <a href="https://projects.jonniegrieve.co.uk" target="blank" role="Elsewhere">
-                    <img src="img/services/sub-projects.png" />&nbsp;
+                    <img src="img/services/sub-projects.jpg" />&nbsp;
                 </a>
                 <p>projects.jonniegrieve.co.uk</p>       
             </div>
 
             <div class="elsewhere" tabindex="0" role="elsewhere-div">
                 <a href="https://wordpress.jonniegrieve.co.uk" target="blank" role="Elsewhere">
-                    <img src="img/services/sub-wordpress.png" />&nbsp;
+                    <img src="img/services/sub-wordpress.jpg" />&nbsp;
                 </a>   
                 <p>wordpress.jonniegrieve.co.uk</p>    
             </div>
 
             <div class="elsewhere" tabindex="0" role="elsewhere-div">
                 <a href="https://android.jonniegrieve.co.uk" target="blank" role="Elsewhere">
-                    <img src="img/services/sub-android.png" />&nbsp;
+                    <img src="img/services/sub-android.jpg" />&nbsp;
                 </a> 
                 <p>android.jonniegrieve.co.uk</p>      
             </div>
 
             <div class="elsewhere" tabindex="0" role="elsewhere-div">
                 <a href="https://dyspraxia.jonniegrieve.co.uk" target="blank" role="Elsewhere">
-                    <img src="img/services/sub-dyspraxia.png" />&nbsp;
+                    <img src="img/services/sub-dyspraxia.jpg" />&nbsp;
                 </a>   
                 <p>dyspraxia.jonniegrieve.co.uk</p>    
             </div>
 
             <div class="elsewhere" tabindex="0" role="elsewhere-div">
                 <a href="https://projects.jonniegrieve.co.uk/jquery_project" target="blank" role="Elsewhere">
-                    <img src="img/services/skills-page.png" />&nbsp;
+                    <img src="img/services/skills-page.jpg" />&nbsp;
                 </a>   
                 <p>Skills: Single Page App</p>    
             </div>
 
             <div class="elsewhere" tabindex="0" role="elsewhere-div">
                 <a href="https://projects.jonniegrieve.co.uk/vue_project" target="blank" role="Elsewhere">
-                    <img src="img/services/project-status-page.png" />&nbsp;
+                    <img src="img/services/project-status-page.jpg" />&nbsp;
                 </a>   
                 <p>Project Status: Single Page App</p>    
             </div>

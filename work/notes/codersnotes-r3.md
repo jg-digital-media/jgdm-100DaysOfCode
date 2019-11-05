@@ -6,6 +6,39 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 65
+
+I had wanted to do the new Vue example project by Tania Rascia as a single html page with CDN support. But was encouraged to try out the Create Vue App via the Vue CLI.
+
+
+### Vue using Create Vue App + setup
+
+```
+
+npm  i -g @vue/cli @vue-cli-service-global
+
+vue create vue-app   - Create Vue App   new -app
+
+
+npm run serve  npm run serve - starts project in localhost in the browser.
+
+Uses Vue CLI v4.0.5   creates a vue-app directory which contains the project.
+
+npm run build - creates a build of the vue app for production.
+
+
+main.js is the default entry point and won't need to be changed.
+
+App.Vue files and components
+
+.vue file, which always consists of three things:
+
+<template>
+<script>
+<style scoped> -  "scoped" attribute to limit CSS to this component
+
+```
+
 ## Day 64
 
 

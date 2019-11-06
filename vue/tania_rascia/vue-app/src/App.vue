@@ -4,20 +4,70 @@
   
     <h1>Table of Employees</h1>
 
-    <employee-table />
+    <employee-form @add:employee="addEmployee" />
+    <!-- pass employees data to v-bind-->
+    <employee-table v-bind:employees="employees" />
   </div>
 
 </template>
 
 <script>
 
+    //imports EmployeeData Component from the Vue Component file.
     import EmployeeTable from '@/components/EmployeeTable.vue'
+    import EmployeeForm from '@/components/EmployeeForm.vue'
 
     export default {
         name: 'app',
         components: {
+            EmployeeForm,
             EmployeeTable,
         },
+
+        /*data method that returns an employees array*/
+        data() {
+            return {
+                employees: [
+                    {
+                        id: 1,
+                        name: "Jonnie" ,
+                        status: true,
+                        email: "mail@jonniegrieve.co.uk",
+                    }, 
+                    {
+                        id: 2,
+                        name: "Jack" ,
+                        status: true,
+                        email: "jack@jonniegrieve.co.uk",
+
+                    },  
+                    {
+                        id: 3,
+                        name: "Jill" ,
+                        status: true,
+                        email: "jill@jonniegrieve.co.uk",
+
+                    }, 
+                ]
+            }
+        },
+
+        methods: {
+            addEmployee(employee) {
+
+                const lastId =
+                    this.employees.length > 0
+                    ? this.employees[this.employees.length - 1].id
+                    : 0;
+                const id = lastId + 1;
+                const newEmployee = { ...employee, id };
+
+                this.employees = [...this.employees, newEmployee];
+
+                this.employees = [...this.employees, employee]
+            }       
+
+        }
     }
 </script>
 

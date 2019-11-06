@@ -1,3 +1,9 @@
+"""
+Source video: 
+https://teamtreehouse.com/library/dates-and-times-in-python/lets-build-a-timed-quiz-app/ 
+
+"""
+
 import datetime
 import random
 
@@ -7,6 +13,8 @@ class Quiz:
     questions = []
     answers = []
     
+
+    """initialise quiz with random 10 questions"""
     def __init__(self):
         # call the class
         question_types = (Add, Multiply)

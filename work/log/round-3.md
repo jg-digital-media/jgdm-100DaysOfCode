@@ -1,12 +1,17 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 65 of 100. **Last Update:** 5 November 2019
+## **Status:** Day 66 of 100. **Last Update:** 6 November 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | vue | work
 ___
 
 
-### R3D64:  Tuesday 5th November 2019
+### R3D66:  Wednesday 6th November 2019
++ **Notes** - 
+  + Added read and addition functionality (CRUD) in the latest VueJS app, some functionality to the python timed math quiz CLI and did a mockup wireframe for a new PHP website. 
+* **Technologies Used** - HTML5, CSS, Vue.js, Python
+
+### R3D65:  Tuesday 5th November 2019
 + **Notes** - 
   + The main takeaway from today is that I explored using Vue Create App CLI to make VueJS Projects. I had intended to do my next VueJS expample without it but the pull was too great.  :) Need to get comfortable with Component Syntax 
 

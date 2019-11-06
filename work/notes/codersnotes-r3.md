@@ -5,6 +5,20 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 66
+
+### Employee Table Example
+
+```
+An attribute that begins with a colon : will allow you to pass data.  :employees which is the same as v-bind:employees
+
+v-for  
+
+
+Written Read part of a Vue App with Component Syntax.  read data with v-for
+
+v-model - Form functionality .  can be used to update the state of form inputs  - add to data. 
+```
 
 ## Day 65
 

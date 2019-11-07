@@ -19,19 +19,29 @@
         <nav class="nav-space">
             <ul class="main-menu" id="">
                 <li class="">
-                    <a href="#" class="" id="" title="Home">Home</a>
+                    <a href="index.php" class="" id="" title="Home">Home</a>
                 </li>
                 <li class="">
-                    <a href="#" class="" id="" title="About">About</a>
+                    <a href="page.php" class="" id="" title="About">About</a>
                 </li>
                 <li class="">
-                    <a href="#" class="" id="" title="Suggestions">Suggestions</a>
+                    <a href="page.php" class="" id="" title="Suggestions">Suggestions</a>
                 </li>
-                <li class="" id=""> Inventory: 
-                    <select>
+                <li class="" id="">
+
+                    <label for="inventory">Inventory: </label>
+                    
+                    <select name="inventory" id="inventory">
                         <option value="Select">Select an option</option>
                         <option value="tv" id="tv" class=""><a href="#">TV</a></option>
-                        <option value="tv" id="tv" class=""><a href="#">Religion/Spirituality</a></option>
+                        <option value="religion" id="religion" class=""><a href="#">Religion/Spirituality</a></option>
+                        <option value="sport" id="sport" class="">Sport</option>
+                        <option value="action" id="action" class="">Action</option>
+                        <option value="drama" id="drama" class="">Drama</option>
+                        <option value="history" id="" class="history">History</option>
+                        <option value="tv" id="tv" class="">TV</option>
+                        <option value="horror" id="horror" class="">Horror</option>
+                        <option value="music" id="music" class="">Musical</option>
                     </select> 
                 </li>
             </ul>

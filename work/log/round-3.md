@@ -1,15 +1,20 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 66 of 100. **Last Update:** 6 November 2019
+## **Status:** Day 67 of 100. **Last Update:** 7 November 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | vue | work
 ___
 
 
+### R3D67:  Thursday 7th November 2019
++ **Notes** - 
+  + Finished the timed Maths quiz app in Python. Looking forward to attempting on expanding that. Added the markup for a new PHP Website and the VueApp now has basic form validation added.  Productive day! 
++ **Technologies used** - Python, HTML5, Vue.js
+
 ### R3D66:  Wednesday 6th November 2019
 + **Notes** - 
   + Added read and addition functionality (CRUD) in the latest VueJS app, some functionality to the python timed math quiz CLI and did a mockup wireframe for a new PHP website. 
-* **Technologies Used** - HTML5, CSS, Vue.js, Python
++ **Technologies Used** - HTML5, CSS, Vue.js, Python
 
 ### R3D65:  Tuesday 5th November 2019
 + **Notes** - 

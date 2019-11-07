@@ -5,6 +5,23 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 67
+
+```
+In Vue, we can use computed properties, which are functions that are automatically computed when something changes
+
+Problem: submitting 2 copies of the data to the list on form submit and adding to the list of employees
+
+"paul@jonniegrieve.co.uk"
+
+Fix: Fixed it by removing a duplicate line that wasn't picking up the ID's for a new employee, it was picking up the correct and the duplicate line which is why 2 names and emails were added at a time. 
+
+this.employees = [...this.employees, employee]  not
+this.employees = [...this.employees, newEmployee]
+
+```
+
+
 ## Day 66
 
 ### Employee Table Example

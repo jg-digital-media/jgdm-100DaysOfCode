@@ -63,8 +63,7 @@
                 const newEmployee = { ...employee, id };
 
                 this.employees = [...this.employees, newEmployee];
-
-                this.employees = [...this.employees, employee]
+                
             }       
 
         }

@@ -5,6 +5,94 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+## Day 88
+
+```php 
+
+# basic array syntax
+$catalog = array(
+"Example 1",
+"Example 2",
+"Example 3"
+);
+
+
+# good practice to declare an array first as an empty array  like this 
+$catalog = array();
+
+#add to an an existing array
+$catalog[0] = "Example 1";
+$catalog[1] = "Example 2";
+$catalog[2] = "Example 3";
+$catalog[3] = "Example 4";
+
+#foreach as  syntax
+echo foreach($letters as $l) { echo $l;}
+
+echo foreach($letters as $l) 
+{
+   echo $l;
+}
+
+
+<div class="wrapper">
+    <h1> Page Title </h1>
+
+    <ul>
+        <?php  
+            //is this PHP syntax?
+            foreach $item in $catalog  {
+        echo "<li>" . $item . "</li>";
+        }
+        ?>
+
+        <?php  
+            //syntax per the video?
+            foreach ($catalog as $item)  {
+        echo "<li>" . $item . "</li>";
+        }
+        ?>
+    </ul>
+</div>
+
+
+# associate array syntax
+<?php
+
+    $catalog = [];
+    
+    $catalog[101] = [
+        "" => "", 
+        "" => "",
+        "" => [
+	  "",
+          "", 
+        ]
+    ]
+   
+
+?>
+
+
+# example 
+<h1><?php echo $movie["title"]; ?> (<?php echo $movie["year"]; ?>)</h1>
+
+<table>
+  <tr>
+    <th>Director</th>
+    <td><?php echo $movie["director"]; ?></td>
+  </tr>
+  <tr>
+    <th>IMDB Rating</th>
+    <td><?php echo $movie["imdb_rating"]; ?></td>
+  </tr>
+  <tr>
+    <th>IMDB Ranking</th>
+    <td><?php echo $movie["imdb_ranking"]; ?></td>
+  </tr>
+</table>
+```
+
 ## Day 67
 
 ```

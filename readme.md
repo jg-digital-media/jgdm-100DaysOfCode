@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 3: Day 67 of 100. **Last Update:** 7 November 2019
++ **Status:** Round 3: Day 68 of 100. **Last Update:** 8 November 2019
 
 ## Directories
   + bin      
@@ -36,6 +36,7 @@
     + php_auth
     + php_rest_api
     + php_tests
+    + php_website
     + slim
     + slimmin
     + twig

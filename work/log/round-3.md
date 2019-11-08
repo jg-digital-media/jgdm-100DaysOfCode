@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 67 of 100. **Last Update:** 7 November 2019
+## **Status:** Day 68 of 100. **Last Update:** 8 November 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | vue | work
 ___
 
+
+### R3D68:  Friday 8th November 2019
++ **Notes** - 
+  + Started building the header styling for the php website I'm building. Will be using array data initially to build the main dynamic content. Initially. Have studied examples of array syntax to get grounding on how this can be done.  
+  + Also spent a little time looking into how the Visual Code Debugger works.
++ **Technologies used** - HTML5, SASS/CSS, PHP
 
 ### R3D67:  Thursday 7th November 2019
 + **Notes** - 

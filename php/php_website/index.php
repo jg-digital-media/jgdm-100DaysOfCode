@@ -32,7 +32,7 @@
 
         <article class="sub-content" id="religion-space">
 
-            <h2>Sub title</h2>
+            <h2>Religion/Spirituality</h2>
         
             <ul class="sub-content-list">
 
@@ -43,6 +43,55 @@
                     <a href="#" class="sub-content-title">title</a>
 
                 </li>
+
+                <li>
+
+                    <img src="img/religion/not-available.jpg" class="" title="" style="border: solid 1px black;" />
+
+                    <a href="#" class="sub-content-title">title</a>
+
+                </li>
+
+                <li>
+
+                    <img src="img/religion/not-available.jpg" class="" title="" style="border: solid 1px black;" />
+
+                    <a href="#" class="sub-content-title">title</a>
+
+                </li>
+            </ul>
+        </article>
+
+        <article class="sub-content" id="tv-space">
+
+            <h2>Religion/Spirituality</h2>
+
+            <ul class="sub-content-list">
+
+                <li>
+
+                    <img src="img/religion/not-available.jpg" class="" title="" style="border: solid 1px black;" />
+
+                    <a href="#" class="sub-content-title">title</a>
+
+                </li>
+
+                <li>
+
+                    <img src="img/religion/not-available.jpg" class="" title="" style="border: solid 1px black;" />
+
+                    <a href="#" class="sub-content-title">title</a>
+
+                </li>
+
+                <li>
+
+                    <img src="img/religion/not-available.jpg" class="" title="" style="border: solid 1px black;" />
+
+                    <a href="#" class="sub-content-title">title</a>
+
+                </li>
+
             </ul>
         </article>
     </main>

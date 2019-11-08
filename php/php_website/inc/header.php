@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PHP Lib </title>
+
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
 </head>
 <body>
 
     <header>
-        <img src="img/logo.jpg" title="logo" alt="logo" id="" class="main-logo" />
 
-        <div class="main-title">
-            <p>PHP Website - TV, Movie and Gaming Directory</p>
-            <a href="#">based on......  </a>
+        <article>
+            <img src="img/logo.jpg" title="logo" alt="logo" id="" class="main-logo" />
+        </article>
+
+        <article>
+            <div class="title-space">
+                <p class="main-title">PHP Website - TV, Movie and Gaming Directory</p>
+                <a href="#" target="blank">based on......  </a>
             </div>
+        </article>
 
         <nav class="nav-space">
             <ul class="main-menu" id="">
@@ -46,4 +53,5 @@
                 </li>
             </ul>
         </nav>
+        </article>
     </header>

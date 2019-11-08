@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   9th October 2019
+Last Updated:   8th November 2019
 --->
 
 <!DOCTYPE html>
@@ -42,7 +42,7 @@ Last Updated:   9th October 2019
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
 
     <!-- CSS-->
-    <link rel="stylesheet" type="text/css" href="main.css" />    
+    <link rel="stylesheet" type="text/css" href="main.min.css" />    
 
     <!-- Page Title-->
     <title>Jonnie Grieve Digital Media | Independent Web Design Agency</title>
@@ -518,7 +518,7 @@ Last Updated:   9th October 2019
     <div class="ios-background"></div>
     
     <script type="text/javascript" src="scripts/jquery.js"></script>
-    <script type="text/javascript" src="scripts/app.js"></script>
+    <script type="text/javascript" src="scripts/app.min.js"></script>
 
     <!-- recaptcha front end integration-->
     

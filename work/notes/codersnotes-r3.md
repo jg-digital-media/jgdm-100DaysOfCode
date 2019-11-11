@@ -6,9 +6,9 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
-## Day 89
+## Day 69
 
-### Image resolutiom method
+### Image resolution method
 ```
 1024 by 768 becomes
 532 by 399   (twice the resolutuon)
@@ -23,7 +23,7 @@ So I'm going to look at this further but for now I'm happy with the performance 
 
 ```
 
-## Day 88
+## Day 68
 
 ```php 
 

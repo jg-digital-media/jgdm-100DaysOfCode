@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 68 of 100. **Last Update:** 8 November 2019
+## **Status:** Day 69 of 100. **Last Update:** 11 November 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | vue | work
 ___
 
+
+### R3D69:  Monday 11th November 2019
++ **Notes** - 
+  + Much more confident in using the VS Code debugger now.  Will keep working on that to make sure it sticks. Started a new Carousel project to serve as a landing page for Google Ads.
++ **Technologies used** - HTML5, SASS/CSS
 
 ### R3D68:  Friday 8th November 2019
 + **Notes** - 

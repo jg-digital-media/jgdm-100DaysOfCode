@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 3: Day 68 of 100. **Last Update:** 8 November 2019
++ **Status:** Round 3: Day 69 of 100. **Last Update:** 11 November 2019
 
 ## Directories
   + bin      
@@ -12,6 +12,7 @@
       + python-input-output    
   + css 
     + balloon
+    + carousel
     + modernizr
     + portfolio
     + portfolio-gallery
@@ -30,6 +31,7 @@
     + four_in_a_row
     + iteration-methods
     + library
+    + node
     + vue
   + php
     + mvc-framework

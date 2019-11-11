@@ -5,6 +5,24 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 89
+
+### Image resolutiom method
+```
+1024 by 768 becomes
+532 by 399   (twice the resolutuon)
+
+266 by 200 pixels
+Natural 532 by 399
+
+So the pixels rendered should be showing reduced compared to natural/intrisic value. But at the moment, this is not happening.  
+
+So I'm going to look at this further but for now I'm happy with the performance savings I have so far made. 
+
+
+```
+
 ## Day 88
 
 ```php 

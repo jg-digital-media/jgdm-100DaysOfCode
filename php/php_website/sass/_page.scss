@@ -4,6 +4,13 @@ aside {
     width: 40%;
     border: solid 1px black;
 
+    @media (max-width: $md) {
+        display: block;
+        width: 90%;
+        margin: 20px auto;
+
+    }
+
     h2 {
         font-size: 30pt;
     }

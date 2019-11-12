@@ -152,6 +152,11 @@ aside {
   vertical-align: top;
   width: 40%;
   border: solid 1px black; }
+  @media (max-width: 980px) {
+    aside {
+      display: block;
+      width: 90%;
+      margin: 20px auto; } }
   aside h2 {
     font-size: 30pt; }
   aside p {

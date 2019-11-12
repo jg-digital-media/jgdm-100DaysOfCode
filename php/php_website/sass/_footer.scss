@@ -1,0 +1,18 @@
+//footer
+footer {
+    width: 100%;
+    background: $bg-primary;
+    min-height: 36px;
+    padding-top: 20px;
+    margin-top: 20px;
+    display: block;
+
+    div {
+        text-align: center;
+        color: $txt-col-primary;
+
+        a {
+            color: white;
+        }
+    }
+}

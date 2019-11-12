@@ -1,0 +1,127 @@
+//main styles
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: $bg-main;
+    font-family: $font;
+}
+
+//main-content
+.main-content {
+    /*padding: 4px;*/
+
+    width: 100%;
+
+    .intro {
+
+        height: auto;
+        display: block;
+        margin: 30px auto;
+        width: 80%;
+        border: saddlebrown;
+        border: solid 2px black;
+
+        @media (max-width: $sm) {
+            width: 90%;
+        }
+
+        h1.page-title {
+
+            text-align: center;
+            width: 200px;
+            display: block;
+            margin: 0 auto;
+            width: 30%;
+            font-size: 5vw;
+        }
+
+        .intro-content {
+
+            display: inline-block;
+            width: 30%;
+            border: solid red 1px;
+            line-height: 2;
+
+            @media(max-width: $xs) {
+                display: block;
+                margin: 20px auto;
+                width: 90%;            
+            }
+
+        }
+    }
+
+    .sub-content {
+
+        padding-top: 20px;
+
+        h2 {
+
+            text-decoration: underline 3px;
+            text-transform: uppercase;
+            font-size: 20pt;
+            width: 205px;
+            width: 50%;
+            border: solid blue 2px;
+            left: 15px;
+            position: relative;
+
+        }
+
+        .sub-content-list {
+            li {
+
+                width: 20%;
+                display: inline-block;
+                position: relative;
+                margin: 0 15px;
+                overflow: hidden;
+
+                @media (max-width: $lg) {
+                    width: 30%;
+                }
+
+                @media (max-width: $md) {
+                    width: 45%;
+                }
+                
+                @media (max-width: $sm) {
+                    width: 90%;
+                    margin: 0 auto;
+                    text-align: center;
+                    display: block;
+                }
+
+                .media-img {
+                    width: 100%;
+                    transition: transform .2s;
+
+                    &:hover {
+                        transform:scale(1.2);
+                    }
+                }
+
+                a.sub-content-title {
+                    position: absolute;
+                    background: #4a4a4a;
+                    color: white;
+                    color: lightcoral;
+                    color: gold;
+                    font-size: 20px;
+                    font-size: 12px;
+                    text-transform: capitalize;
+                    text-decoration: none;
+                    bottom: 0;
+                    left: 0px;
+                    width: 94%;
+                    padding: 6px 3%;
+
+                }
+            }
+        }
+    }
+}
+

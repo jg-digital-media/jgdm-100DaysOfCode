@@ -1,0 +1,101 @@
+
+//header
+header {
+    background: $bg-primary;
+    min-height: 160px;
+
+    article {
+        
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+
+        padding: 10px;
+
+        @media(max-width: $md) {
+            display: block;
+            width: 90%;
+            text-align: center;
+        }
+
+        img {
+            
+            display: block;
+            height: 140px;
+            width: 275px;
+            margin: 0 auto;
+        }
+
+        .title-space {
+
+            color: $txt-col-secondary;
+            .main-title {
+                font-size: 20pt;
+            }
+        }
+
+        a {
+            font-size: small;
+            color: $txt-col-secondary;
+            &:hover {
+                text-decoration: none;
+                color: $txt-col-tertiary;
+            }
+
+            &.selected {
+                color: $txt-col-primary;
+            }
+        }    
+    
+    }
+
+    
+    nav.nav-space {
+        display: inline-block;
+        width: 30%;
+        margin-left: 20px;
+        padding: 10px;
+
+        @media (max-width: $md) {
+            display: block;
+            width: 90%;
+            text-align: center;
+        }
+
+        ul {
+            li  {
+                display: inline-block;
+                margin-left: 20px;
+                font-size: 13pt;
+
+                label {
+                    color: $txt-col-secondary;
+                }
+
+                a {
+                    color: $txt-col-secondary;
+                    text-decoration: underline;
+                    &:hover {
+                        text-decoration: none;
+                        color: $txt-col-tertiary
+                    }
+
+                    &.selected {
+                        color: $txt-col-tertiary;
+                    }
+
+                }
+
+                //dropdown shadwo
+                select#inventory {
+                    background: radial-gradient(black, transparent);
+                    background: lightpink;
+                    color: darkblue;
+                    height: 33px;
+                    border-radius: 17px;
+                    box-shadow: springgreen;
+                }
+            }
+        }
+    }
+}

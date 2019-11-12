@@ -6,7 +6,7 @@
 
     <employee-form @add:employee="addEmployee" />
     <!-- pass employees data to v-bind-->
-    <employee-table v-bind:employees="employees" />
+    <employee-tableq v-bind:employees="employees" @delete:employee = "deleteEmployee" />
   </div>
 
 </template>
@@ -64,7 +64,13 @@
 
                 this.employees = [...this.employees, newEmployee];
                 
-            }       
+            },
+            
+            deleteEmployee(id) {
+                this.employees = this.employees.filter(
+                employee => employee.id !== id)
+
+            }
 
         }
     }

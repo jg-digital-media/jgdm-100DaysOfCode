@@ -6,7 +6,10 @@
 
     <employee-form @add:employee="addEmployee" />
     <!-- pass employees data to v-bind-->
-    <employee-tableq v-bind:employees="employees" @delete:employee = "deleteEmployee" />
+    <employee-table
+     v-bind:employees = "employees"
+      @delete:employee = "deleteEmployee" 
+      @edit:employee = "editEmployee" />
   </div>
 
 </template>
@@ -70,6 +73,12 @@
                 this.employees = this.employees.filter(
                 employee => employee.id !== id)
 
+            }, 
+
+            editEmployee(id, updatedEmployee) {
+                this.employees = this.employees.map(employee => 
+                    employee.id === id ? updatedEmployee : employee
+                )
             }
 
         }

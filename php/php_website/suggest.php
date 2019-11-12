@@ -5,15 +5,16 @@
 
     <article class="intro">
 
-        <h1 class="page-title">Page Title</h1>
+        <h1 class="page-title">Make a Suggestion</h1>
 
     </article>
 
     <aside>
 
-        <h2>Page content</h2>
+        <h2>Make a Suggestion</h2>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magnam eveniet rerum voluptas dolores labore repellendus quia quos nobis debitis, possimus asperiores ratione magni iste tempore mollitia non earum quod.</p>
+        <?php require "inc/form.php"; ?>
+
     </aside>
 
     <aside class="our-picks">

@@ -36,7 +36,7 @@
                     <a href="page.php" class="" id="" title="About">About</a>
                 </li>
                 <li class="">
-                    <a href="page.php" class="" id="" title="Suggestions">Suggestions</a>
+                    <a href="suggest.php" class="" id="" title="Suggestions">Suggestions</a>
                 </li>
                 <li class="" id="">
 

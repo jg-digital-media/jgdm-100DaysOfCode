@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 69 of 100. **Last Update:** 11 November 2019
+## **Status:** Day 70 of 100. **Last Update:** 12 November 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | vue | work
 ___
 
+
+### R3D70:  Tuesday 12th November 2019
++ **Notes** - 
+  + Worked mostly in Sass and HTML5 today. But I spent most of my time working out a runtime bug in VueJS which in the end turned out to be missplaced method in a Vue Component! 
++ **Technologies used** - HTML5, SASS/CSS, VueJS
 
 ### R3D69:  Monday 11th November 2019
 + **Notes** - 

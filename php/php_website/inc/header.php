@@ -7,6 +7,10 @@
     <title>PHP Lib </title>
 
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
+
+    <!-- Google Font-->
+
+
 </head>
 <body>
 
@@ -40,8 +44,8 @@
                     
                     <select name="inventory" id="inventory">
                         <option value="Select">Select an option</option>
-                        <option value="tv" id="tv" class=""><a href="#">TV</a></option>
-                        <option value="religion" id="religion" class=""><a href="#">Religion/Spirituality</a></option>
+                        <option value="tv" id="tv" class=""><a href="#tv">TV</a></option>
+                        <option value="religion" id="religion" class=""><a href="#religion">Religion/Spirituality</a></option>
                         <option value="sport" id="sport" class="">Sport</option>
                         <option value="action" id="action" class="">Action</option>
                         <option value="drama" id="drama" class="">Drama</option>

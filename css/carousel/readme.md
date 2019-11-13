@@ -1,1 +1,0 @@
-# Carousel Landing Page readme.

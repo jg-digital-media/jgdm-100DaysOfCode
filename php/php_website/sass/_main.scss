@@ -7,6 +7,10 @@
 body {
     background: $bg-main;
     font-family: $font;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Permanent Marker', cursive;
 }
 
 //main-content
@@ -34,8 +38,8 @@ body {
             width: 200px;
             display: block;
             margin: 0 auto;
-            width: 30%;
-            font-size: 5vw;
+            width: 60%;
+            font-size: 3.5vw;
         }
 
         .intro-content {
@@ -44,6 +48,7 @@ body {
             width: 30%;
             border: solid red 1px;
             line-height: 2;
+            font-family: 'Comfortaa', cursive;
 
             @media(max-width: $xs) {
                 display: block;

@@ -2,7 +2,7 @@
 //header
 header {
     background: $bg-primary;
-    min-height: 160px;
+    min-height: 115px;
 
     article {
         
@@ -21,8 +21,8 @@ header {
         img {
             
             display: block;
-            height: 140px;
-            width: 275px;
+            /*height: 140px;*/
+            /*width: 275px;*/
             margin: 0 auto;
         }
 
@@ -94,6 +94,8 @@ header {
                     height: 33px;
                     border-radius: 17px;
                     box-shadow: springgreen;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-family: 'Comfortaa', cursive;
                 }
             }
         }

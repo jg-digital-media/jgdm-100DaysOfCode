@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
 
     <!-- Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Cairo|Comfortaa|Permanent+Marker&display=swap" rel="stylesheet">
 
 
 </head>
@@ -22,7 +23,7 @@
 
         <article>
             <div class="title-space">
-                <p class="main-title">PHP Website - TV, Movie and Gaming Directory</p>
+                <p class="main-title">TV, Movie and Gaming Directory</p>
                 <a href="#" target="blank">based on......  </a>
             </div>
         </article>

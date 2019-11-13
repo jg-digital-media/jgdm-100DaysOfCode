@@ -1,6 +1,6 @@
 header {
   background: darkmagenta;
-  min-height: 160px; }
+  min-height: 115px; }
   header article {
     display: inline-block;
     width: 30%;
@@ -13,8 +13,8 @@ header {
         text-align: center; } }
     header article img {
       display: block;
-      height: 140px;
-      width: 275px;
+      /*height: 140px;*/
+      /*width: 275px;*/
       margin: 0 auto; }
     header article .title-space {
       color: white; }
@@ -58,7 +58,9 @@ header {
         color: darkblue;
         height: 33px;
         border-radius: 17px;
-        box-shadow: springgreen; }
+        box-shadow: springgreen;
+        font-family: 'Times New Roman', Times, serif;
+        font-family: 'Comfortaa', cursive; }
 
 * {
   padding: 0;
@@ -66,7 +68,11 @@ header {
 
 body {
   background: #99dfef;
-  font-family: arial; }
+  font-family: arial;
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Permanent Marker', cursive; }
 
 .main-content {
   /*padding: 4px;*/
@@ -86,13 +92,14 @@ body {
       width: 200px;
       display: block;
       margin: 0 auto;
-      width: 30%;
-      font-size: 5vw; }
+      width: 60%;
+      font-size: 3.5vw; }
     .main-content .intro .intro-content {
       display: inline-block;
       width: 30%;
       border: solid red 1px;
-      line-height: 2; }
+      line-height: 2;
+      font-family: 'Comfortaa', cursive; }
       @media (max-width: 580px) {
         .main-content .intro .intro-content {
           display: block;
@@ -160,7 +167,8 @@ aside {
   aside h2 {
     font-size: 30pt; }
   aside p {
-    line-height: 1.8; }
+    line-height: 1.8;
+    font-family: "comfortaa", "cursive"; }
   aside .page-img {
     width: 30%; }
   aside .our-picks-img {
@@ -172,11 +180,15 @@ footer {
   min-height: 36px;
   padding-top: 20px;
   margin-top: 20px;
-  display: block; }
+  display: block;
+  font-family: arial; }
   footer div {
     text-align: center;
     color: white; }
     footer div a {
       color: white; }
+      footer div a:hover {
+        color: #14e448;
+        text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */

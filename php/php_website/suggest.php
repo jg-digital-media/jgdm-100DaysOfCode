@@ -11,7 +11,7 @@
 
     <aside>
 
-        <h2>Make a Suggestion</h2>
+        <h2>Suggest a title with the form below</h2>
 
         <?php require "inc/form.php"; ?>
 

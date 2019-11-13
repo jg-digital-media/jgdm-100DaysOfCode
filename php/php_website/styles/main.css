@@ -165,7 +165,8 @@ aside {
       width: 90%;
       margin: 20px auto; } }
   aside h2 {
-    font-size: 30pt; }
+    font-size: 30pt;
+    padding: 10px 5px; }
   aside p {
     line-height: 1.8;
     font-family: "comfortaa", "cursive"; }
@@ -173,6 +174,25 @@ aside {
     width: 30%; }
   aside .our-picks-img {
     width: 47%; }
+
+form {
+  padding: 5px;
+  border: red solid 2px; }
+  form .form-label {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px; }
+  form .form-inputs {
+    height: 25px; }
+  form textarea {
+    width: 80%; }
+  form .form-submit {
+    border: solid 1px black;
+    background: purple;
+    color: white;
+    padding: 10px;
+    cursor: pointer; }
 
 footer {
   width: 100%;

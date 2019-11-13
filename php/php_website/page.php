@@ -5,13 +5,13 @@
 
     <article class="intro">
 
-        <h1 class="page-title">Page Title</h1>
+        <h1 class="page-title">About the Directory</h1>
 
     </article>
 
     <aside>
 
-        <h2>Page content</h2>
+        <h2>About the directory</h2>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magnam eveniet rerum voluptas dolores labore repellendus quia quos nobis debitis, possimus asperiores ratione magni iste tempore mollitia non earum quod.</p>
     </aside>

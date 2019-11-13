@@ -51,9 +51,10 @@
                         <option value="action" id="action" class="">Action</option>
                         <option value="drama" id="drama" class="">Drama</option>
                         <option value="history" id="" class="history">History</option>
-                        <option value="tv" id="tv" class="">TV</option>
                         <option value="horror" id="horror" class="">Horror</option>
                         <option value="music" id="music" class="">Musical</option>
+                        <option value="science" id="science" class="">Sci-fi</option>
+                        <option value="documentary" id="documentary" class="">Documentary</option>
                     </select> 
                 </li>
             </ul>

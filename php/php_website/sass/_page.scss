@@ -3,6 +3,7 @@ aside {
     vertical-align: top;
     width: 40%;
     border: solid 1px black;
+    text-align: left;
 
     @media (max-width: $md) {
         display: block;
@@ -28,5 +29,12 @@ aside {
 
     .our-picks-img {
         width: 47%;
+
+        @media(max-width: $sm) {
+            width: 90%;
+            display: block;
+            margin: 0 auto;
+
+        }
     }
 }

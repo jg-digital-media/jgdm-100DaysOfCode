@@ -18,6 +18,7 @@ body {
     /*padding: 4px;*/
 
     width: 100%;
+    text-align: center;
 
     .intro {
 
@@ -49,6 +50,7 @@ body {
             border: solid red 1px;
             line-height: 2;
             font-family: 'Comfortaa', cursive;
+            text-align: left;
 
             @media(max-width: $xs) {
                 display: block;
@@ -62,6 +64,7 @@ body {
     .sub-content {
 
         padding-top: 20px;
+        text-align: left;
 
         h2 {
 

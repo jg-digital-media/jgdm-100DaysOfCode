@@ -5,7 +5,40 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-## Day 71
+## Day 72
+
+don't use forms as links 
+
+learned the concept of Idempotence - denoting an element of a set which is unchanged in value when multiplied or otherwise operated on by itself.
+
+```php
+
+
+
+#A function to be adapted later that grabs information from an array and displays data
+
+
+<?php 
+
+function get_item_html($id, $item) {
+    $output = "<li><a href='#'><img src = '"
+                            . $item["img"] . "' alt='"
+                            . $item["title"] . "' />"
+                            . "<p>View Details</p>"
+                            . "</a></li>";   
+    return $output;
+}
+
+
+#random array of catalog data.
+$random = array_rand($catalog, 4);
+
+foreach($random as $id) {
+    echo get_item_html($id, $catalog[$id]);
+}
+?>
+
+```
 
 
 ## Day 69

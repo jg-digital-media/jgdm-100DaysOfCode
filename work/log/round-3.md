@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 71 of 100. **Last Update:** 13 November 2019
+## **Status:** Day 72 of 100. **Last Update:** 14 November 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | vue | work
 ___
 
+
+### R3D72:  Thursday 14th November 2019
++ **Notes** - 
+  + Implemented PHP code to remove  navigation items depending on the value of a string variable. Extremely useful for serving only the web content that is needed.
+  + This means the website is nearer now to completion but still need to work out the best styling for when the sub menu is needed.
+  + I've changed plan on this slightly as I was intending to Jump through portions of the menu using a drop down box but when researching found this considered to be bad practice. So I made a jQuery toggle menu instead.
+  + I haven't built it to production yet but finally completed the VueJS app. It handles data from a REST API but not local storage. I'll try one more Vue Project that does this before I move on from Vue.
++ **Technologies used** - HTML5, SASS/CSS, jQuery, VueJS
 
 ### R3D71:  Wednesday 13th November 2019
 + **Notes** - 

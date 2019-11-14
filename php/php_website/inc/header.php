@@ -31,14 +31,16 @@
         <nav class="nav-space">
             <ul class="main-menu" id="">
                 <li class="">
-                    <a href="index.php" class="" id="" title="Home">Home</a>
+                    <a href="index.php" class="<?php if($selected == "index") {echo "selected"; } ?>" id="" title="Home">Home</a>
                 </li>
                 <li class="">
-                    <a href="page.php" class="" id="" title="About">About</a>
+                    <a href="page.php" class="<?php if($selected == "about") {echo "selected"; } ?>" id="" title="About">About</a>
                 </li>
                 <li class="">
-                    <a href="suggest.php" class="" id="" title="Suggestions">Suggestions</a>
+                    <a href="suggest.php" class="<?php if($selected == "suggestions") {echo "selected"; } ?>" id="" title="Suggestions">Suggestions</a>
                 </li>
+
+                <?php if($media != null) { ?>
                 <li class="" id="">
 
                     <label for="inventory">Inventory: </label>
@@ -57,6 +59,8 @@
                         <option value="documentary" id="documentary" class="">Documentary</option>
                     </select> 
                 </li>
+
+                <?php } ?>
             </ul>
         </nav>
         </article>

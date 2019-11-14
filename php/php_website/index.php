@@ -1,5 +1,13 @@
+<?php
 
-<?php require "inc/header.php"; ?>
+$selected = "index";
+$pageTitle = "Media Library:  Curation of the best Digital Media";
+$media = "selectCategory";
+
+require "inc/header.php"; 
+
+
+?>
 
     <main class="main-content">
 

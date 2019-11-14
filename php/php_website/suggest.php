@@ -1,5 +1,14 @@
+<?php
 
-<?php require "inc/header.php"; ?>
+$selected = "suggestions";
+$pageTitle = "Make a suggestion";
+$media = null;
+
+require "inc/header.php"; 
+
+
+
+?>
 
 <main class="main-content">
 

@@ -55,8 +55,68 @@
             }
         },
 
+
+        //mounted - perform these actions only when component is inserted into the DOM - This method uses the data in the API
+        mounted() {
+            this.getEmployees()
+        },
+
         methods: {
-            addEmployee(employee) {
+
+            //get Employeees  - Retrieve a resource - simple example
+            async getEmployees() {
+                try {
+                    const response = await fetch('https://jsonplaceholder.typicode.com/users');
+                    const data = await response.json();
+                    this.employees = data;
+                } catch (error) {
+                    //console.error(error);
+                }
+            },
+
+            /*POST - addEmployee*/
+            async addEmployee(employee) {
+                try {
+                    const response = await fetch('https://jsonplaceholder.typicode.com/users', {
+                    method: 'POST',
+                    body: JSON.stringify(employee),
+                    headers: { 'Content-type': 'application/json; charset=UTF-8' },
+                    })
+                    const data = await response.json();
+                    this.employees = [...this.employees, data];
+                } catch(error) {
+                    //console.error(error);
+                }
+            },
+
+            /*PUT*/
+            async editEmployee(id, updatedEmployee) {
+                try {
+                    const response = await fetch(`https://jsonplaceholder.typicode.com/users/${id}`, {
+                    method: 'PUT',
+                    body: JSON.stringify(updatedEmployee),
+                    headers: { 'Content-type': 'application/json; charset=UTF-8' },
+                    })
+                    const data = await response.json();
+                    this.employees = this.employees.map(employee => (employee.id === id ? data : employee));
+                } catch (error) {
+                    //console.error(error);
+                }
+            },
+
+            /*DELETE*/
+            async deleteEmployee(id) {
+                try {
+                    await fetch(`https://jsonplaceholder.typicode.com/users/${id}`, {
+                    method: "DELETE"
+                    });
+                    this.employees = this.employees.filter(employee => employee.id !== id);
+                } catch (error) {
+                    //console.error(error);
+                }
+            },
+
+            /*addEmployee(employee) {
 
                 const lastId =
                     this.employees.length > 0
@@ -79,9 +139,9 @@
                 this.employees = this.employees.map(employee => 
                     employee.id === id ? updatedEmployee : employee
                 )
-            }
+            }*/
 
-        }
+        },        
     }
 </script>
 

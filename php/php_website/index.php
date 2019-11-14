@@ -94,7 +94,7 @@ require "inc/header.php";
             </ul>
         </article>
 
-        <article class="sub-content" id="tv-space">
+        <article class="sub-content" id="sport-space">
 
             <h2>Sport</h2>
 

@@ -87,6 +87,10 @@ header {
 
                 }
 
+                .inventory {
+                    display: block;
+                }
+
                 //dropdown shadwo
                 select#inventory {
                     background: radial-gradient(black, transparent);
@@ -98,6 +102,18 @@ header {
                     font-family: 'Times New Roman', Times, serif;
                     font-family: 'Comfortaa', cursive;
                 }
+
+                .inventory-menu  {
+                    position: absolute;
+                    display: block;
+                    background: red;
+                    
+                    li {
+                        display: block;
+                    }
+                
+                }
+
             }
         }
     }

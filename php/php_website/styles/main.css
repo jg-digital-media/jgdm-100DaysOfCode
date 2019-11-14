@@ -52,6 +52,8 @@ header {
           color: #14e448; }
         header nav.nav-space ul li a.selected {
           color: #14e448; }
+      header nav.nav-space ul li .inventory {
+        display: block; }
       header nav.nav-space ul li select#inventory {
         background: radial-gradient(black, transparent);
         background: lightpink;
@@ -61,6 +63,12 @@ header {
         box-shadow: springgreen;
         font-family: 'Times New Roman', Times, serif;
         font-family: 'Comfortaa', cursive; }
+      header nav.nav-space ul li .inventory-menu {
+        position: absolute;
+        display: block;
+        background: red; }
+        header nav.nav-space ul li .inventory-menu li {
+          display: block; }
 
 * {
   padding: 0;

@@ -41,14 +41,29 @@
                 </li>
 
                 <?php if($media != null) { ?>
-                <li class="" id="">
+                <li class="inventory" id="">
 
+                    <a href="#">Inventory: </a>
+
+                    <ul class="inventory-menu">
+                        <li><a href="#tv-space">TV/Box-Set</a></li>
+                        <li><a href="#religion-space">Religion/Spirituality</a></li>
+                        <li><a href="#sport">Sport</a></li>
+                        <li><a href="#action">Action</a></li>
+                        <li><a href="#drama">Drama</a></li>
+                        <li><a href="#history">History</a></li>
+                        <li><a href="#horror">Horror</a></li>
+                        <li><a href="#music">Music</a></li>
+                        <li><a href="#science">Science</a></li>
+                        <li><a href="#documentary">Documentary</a></li>
+                    </ul>
+                    <!-- 
                     <label for="inventory">Inventory: </label>
                     
-                    <select name="inventory" id="inventory">
+                    <select name="inventory" id="inventory" onchange="location = this.value">
                         <option value="Select">Select an option</option>
-                        <option value="tv" id="tv" class=""><a href="#tv">TV</a></option>
-                        <option value="religion" id="religion" class=""><a href="#religion">Religion/Spirituality</a></option>
+                        <a href="#tv-space"><option value="#tv-space" id="tv-space" class="">TV</option></a>
+                        <option value="#religion-space" id="religion-space" class=""><a href="#religion-space">Religion/Spirituality</a></option>
                         <option value="sport" id="sport" class="">Sport</option>
                         <option value="action" id="action" class="">Action</option>
                         <option value="drama" id="drama" class="">Drama</option>
@@ -57,7 +72,7 @@
                         <option value="music" id="music" class="">Musical</option>
                         <option value="science" id="science" class="">Sci-fi</option>
                         <option value="documentary" id="documentary" class="">Documentary</option>
-                    </select> 
+                    </select> -->
                 </li>
 
                 <?php } ?>

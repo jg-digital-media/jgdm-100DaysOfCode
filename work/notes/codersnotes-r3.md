@@ -10,8 +10,8 @@
 
 ### Applying LazyLoading requires
 
-+ The Data-src attribute  attaching a class  e.g.  <img class ="... lazy">
-+ e.g.  <img data-src="img/documentary/not-available.jpg" class="media-img lazy" title="" />
++ The Data-src attribute  attaching a class  e.g.  ```<img class ="... lazy">```
++ e.g.  ```<img data-src="img/documentary/not-available.jpg" class="media-img lazy" title="" />```
 + A LazyLoad Object Instance
 + the LazyLoad Library
 

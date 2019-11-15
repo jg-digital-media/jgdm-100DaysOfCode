@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 72 of 100. **Last Update:** 14 November 2019
+## **Status:** Day 73 of 100. **Last Update:** 15 November 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | vue | work
 ___
 
+
+### R3D73:  Friday 15th November 2019
++ **Notes** - 
+  + Implemented LazyLoad on a web project I'm working on, and elsewhere worked on a new "Form Project" section that deals specifically with $_GET superglobals.
++ **Technologies used** - HTML5, SASS/CSS, jQuery, VueJS
 
 ### R3D72:  Thursday 14th November 2019
 + **Notes** - 

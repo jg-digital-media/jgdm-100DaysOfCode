@@ -27,12 +27,8 @@ require "inc/header.php";
     <aside class="our-picks">
         <h2 class="our-picks-title">Our Picks</h2>
 
-        <article>
-            <img src="img/tv/not-available.jpg" class="our-picks-img" alt="image" title="image" />
-            <img src="img/tv/not-available.jpg" class="our-picks-img" alt="image" title="image" /><br />
-            <img src="img/tv/not-available.jpg" class="our-picks-img" alt="image" title="image" />
-            <img src="img/tv/not-available.jpg" class="our-picks-img" alt="image" title="image" />
-        </article>
+        <?php require "inc/picks.php"; ?>
+        
     </aside>
 
 </main>

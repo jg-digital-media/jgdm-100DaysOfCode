@@ -13,3 +13,10 @@ $(document).ready(function () {
         $('.inventory-menu').toggle();
         });
 });
+
+//lazyloading
+var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy",
+    // ... more custom settings?
+    //threshold: 1472,
+});

@@ -5,6 +5,32 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+## Day 73
+
+### Applying LazyLoading requires
+
++ The Data-src attribute  attaching a class  e.g.  <img class ="... lazy">
++ e.g.  <img data-src="img/documentary/not-available.jpg" class="media-img lazy" title="" />
++ A LazyLoad Object Instance
++ the LazyLoad Library
+
+```html
+<img data-src="img/documentary/not-available.jpg" class="media-img lazy" title="" />
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.3.0/dist/lazyload.min.js"></script>
+
+```
+
+```javascript
+
+var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+    // ... more custom settings?
+});
+
+//Source: https://github.com/verlok/lazyload
+```
+
 ## Day 72
 
 don't use forms as links 

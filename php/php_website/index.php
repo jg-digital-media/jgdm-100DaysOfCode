@@ -30,7 +30,7 @@ require "inc/header.php";
 
                 <li>
 
-                    <img src="img/tv/not-available.jpg" class="media-img" title="" />
+                    <img data-src="img/tv/not-available.jpg" class="media-img lazy" title="" />
 
                     <a href="#" class="sub-content-title">title</a>
 
@@ -38,7 +38,7 @@ require "inc/header.php";
 
                 <li>
 
-                    <img src="img/tv/not-available.jpg" class="media-img" title="" />
+                    <img data-src="img/tv/not-available.jpg" class="media-img lazy" title="" />
 
                     <a href="#" class="sub-content-title">title</a>
 
@@ -46,7 +46,7 @@ require "inc/header.php";
 
                 <li>
 
-                    <img src="img/tv/not-available.jpg" class="media-img" title="" />
+                    <img data-src="img/tv/not-available.jpg" class="media-img lazy" title="" />
 
                     <a href="#" class="sub-content-title">title</a>
 
@@ -54,7 +54,7 @@ require "inc/header.php";
 
                 <li>
 
-                    <img src="img/tv/not-available.jpg" class="media-img" title="" />
+                    <img data-src="img/tv/not-available.jpg" class="media-img lazy" title="" />
 
                     <a href="#" class="sub-content-title">title</a>
 
@@ -70,7 +70,7 @@ require "inc/header.php";
 
                 <li>
                 
-                    <img src="img/religion/not-available.jpg" class="media-img" title="" />
+                    <img data-src="img/religion/not-available.jpg" class="media-img lazy" title="" />
                 
                     <a href="#" class="sub-content-title">title</a>
 
@@ -78,7 +78,7 @@ require "inc/header.php";
 
                 <li>
 
-                    <img src="img/religion/not-available.jpg" class="media-img" title="" />
+                    <img data-src="img/religion/not-available.jpg" class="media-img lazy" title="" />
 
                     <a href="#" class="sub-content-title">title</a>
 
@@ -86,7 +86,7 @@ require "inc/header.php";
 
                 <li>
 
-                    <img src="img/religion/not-available.jpg" class="media-img" title="" />
+                    <img data-src="img/religion/not-available.jpg" class="media-img lazy" title="" />
 
                     <a href="#" class="sub-content-title">title</a>
 
@@ -102,7 +102,7 @@ require "inc/header.php";
 
                 <li>
 
-                    <img src="img/religion/not-available.jpg" class="media-img" title="" />
+                    <img data-src="img/sport/not-available.jpg" class="media-img lazy" title="" />
 
                     <a href="#" class="sub-content-title">title</a>
 
@@ -110,7 +110,7 @@ require "inc/header.php";
 
                 <li>
 
-                    <img src="img/religion/not-available.jpg" class="media-img" title="" />
+                    <img data-src="img/sport/not-available.jpg" class="media-img lazy" title="" />
 
                     <a href="#" class="sub-content-title">title</a>
 
@@ -118,13 +118,188 @@ require "inc/header.php";
 
                 <li>
 
-                    <img src="img/religion/not-available.jpg" class="media-img" title="" />
+                    <img data-src="img/sport/not-available.jpg" class="media-img lazy" title="" />
 
                     <a href="#" class="sub-content-title">title</a>
 
                 </li>
 
             </ul>
+        </article>
+
+        
+
+        <article class="sub-content" id="action-space">
+
+            <h2>Action</h2>
+
+            <ul class="sub-content-list">
+                <li>
+                    <img data-src="img/action/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+
+                <li>
+                    <img data-src="img/action/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+
+                <li>
+                    <img data-src="img/action/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+            </ul>
+
+        </article>
+
+        <article class="sub-content" id="drama-space">
+
+            <h2>Drama</h2>
+
+            <ul class="sub-content-list">
+                <li>
+                    <img data-src="img/drama/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+
+                <li>
+                    <img data-src="img/drama/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+
+                <li>
+                    <img data-src="img/drama/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+
+                <li>
+                    <img data-src="img/drama/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+            </ul>
+
+        </article>
+
+        <article class="sub-content" id="history-space">
+
+            <h2>History</h2>
+
+            <ul class="sub-content-list">
+                <li>
+                    <img data-src="img/history/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+
+                <li>
+                    <img data-src="img/history/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+
+                <li>
+                    <img data-src="img/history/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+
+                <li>
+                    <img data-src="img/history/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+            </ul>
+
+        </article>
+
+        <article class="sub-content" id="music-space">
+
+            <h2>Music/Musical</h2>
+
+            <ul class="sub-content-list">
+                <li>
+                    <img data-src="img/musical/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+
+                <li>
+                    <img data-src="img/musical/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+
+                <li>
+                    <img data-src="img/musical/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+
+                <li>
+                    <img data-src="img/musical/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+            </ul>
+
+        </article>
+
+        <article class="sub-content" id="science-space">
+
+            <h2>Science</h2>
+
+            <ul class="sub-content-list">
+                <li>
+                    <img data-src="img/science/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+
+                <li>
+                    <img data-src="img/science/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+
+                <li>
+                    <img data-src="img/science/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+            </ul>
+
+        </article>
+
+        <article class="sub-content" id="documentary-space">
+
+            <h2>Documentary</h2>
+
+            <ul class="sub-content-list">
+                <li>
+                    <img data-src="img/documentary/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+                
+                <li>
+                    <img data-src="img/documentary/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+                <li>
+                    <img data-src="img/documentary/not-available.jpg" class="media-img lazy" title="" />
+
+                    <a href="#" class="sub-content-title">title</a>
+                </li>
+            </ul>
+
         </article>
     </main>
 

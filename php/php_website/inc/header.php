@@ -48,15 +48,16 @@
                     <ul class="inventory-menu">
                         <li><a href="#tv-space">TV/Box-Set</a></li>
                         <li><a href="#religion-space">Religion/Spirituality</a></li>
-                        <li><a href="#sport">Sport</a></li>
-                        <li><a href="#action">Action</a></li>
-                        <li><a href="#drama">Drama</a></li>
-                        <li><a href="#history">History</a></li>
-                        <li><a href="#horror">Horror</a></li>
-                        <li><a href="#music">Music</a></li>
-                        <li><a href="#science">Science</a></li>
-                        <li><a href="#documentary">Documentary</a></li>
+                        <li><a href="#sport-space">Sport</a></li>
+                        <li><a href="#action-space">Action</a></li>
+                        <li><a href="#drama-space">Drama</a></li>
+                        <li><a href="#history-space">History</a></li>
+                        <li><a href="#horror-space">Horror</a></li>
+                        <li><a href="#music-space">Music</a></li>
+                        <li><a href="#science-space">Science</a></li>
+                        <li><a href="#documentary-space">Documentary</a></li>
                     </ul>
+                    
                     <!-- 
                     <label for="inventory">Inventory: </label>
                     

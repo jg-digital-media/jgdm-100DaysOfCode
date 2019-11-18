@@ -69,7 +69,9 @@ header {
       header nav.nav-space ul li .inventory-menu {
         position: absolute;
         display: block;
-        background: red; }
+        background: #490954;
+        padding: 15px;
+        border-radius: 20px; }
         header nav.nav-space ul li .inventory-menu li {
           display: block; }
 
@@ -130,6 +132,17 @@ body {
       border: solid blue 2px;
       left: 15px;
       position: relative; }
+      .main-content .sub-content h2 span > .top {
+        color: green;
+        font-size: 10px;
+        text-transform: capitalize;
+        font-family: arial;
+        color: red;
+        text-decoration: none;
+        font-style: italic;
+        margin-left: 10px; }
+        .main-content .sub-content h2 span > .top:hover {
+          text-decoration: underline; }
     .main-content .sub-content .sub-content-list li {
       width: 20%;
       display: inline-block;

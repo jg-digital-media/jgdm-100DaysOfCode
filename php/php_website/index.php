@@ -24,7 +24,7 @@ require "inc/header.php";
 
         <article class="sub-content" id="tv-space">
 
-            <h2>TV/Box Set</h2>
+            <h2>TV/Box Set <span><a href="#" class="top">(back to the top)</a></span></h2>
         
             <ul class="sub-content-list">
 
@@ -64,7 +64,7 @@ require "inc/header.php";
 
         <article class="sub-content" id="religion-space">
 
-            <h2>Religion/Spirituality</h2>
+            <h2>Religion/Spirituality <span><a href="#" class="top">(back to the top)</a></span></h2>
         
             <ul class="sub-content-list">
 
@@ -96,7 +96,7 @@ require "inc/header.php";
 
         <article class="sub-content" id="sport-space">
 
-            <h2>Sport</h2>
+            <h2>Sport <span><a href="#" class="top">(back to the top)</a></span></h2>
 
             <ul class="sub-content-list">
 
@@ -131,7 +131,7 @@ require "inc/header.php";
 
         <article class="sub-content" id="action-space">
 
-            <h2>Action</h2>
+            <h2>Action <span><a href="#" class="top">(back to the top)</a></span></h2>
 
             <ul class="sub-content-list">
                 <li>
@@ -157,7 +157,7 @@ require "inc/header.php";
 
         <article class="sub-content" id="drama-space">
 
-            <h2>Drama</h2>
+            <h2>Drama <span><a href="#" class="top">(back to the top)</a></span></h2>
 
             <ul class="sub-content-list">
                 <li>
@@ -189,7 +189,7 @@ require "inc/header.php";
 
         <article class="sub-content" id="history-space">
 
-            <h2>History</h2>
+            <h2>History <span><a href="#" class="top">(back to the top)</a></span></h2>
 
             <ul class="sub-content-list">
                 <li>
@@ -221,7 +221,7 @@ require "inc/header.php";
 
         <article class="sub-content" id="music-space">
 
-            <h2>Music/Musical</h2>
+            <h2>Music/Musical <span><a href="#" class="top">(back to the top)</a></span></h2>
 
             <ul class="sub-content-list">
                 <li>
@@ -253,7 +253,7 @@ require "inc/header.php";
 
         <article class="sub-content" id="science-space">
 
-            <h2>Science</h2>
+            <h2>Science <span><a href="#" class="top">(back to the top)</a></span></h2>
 
             <ul class="sub-content-list">
                 <li>
@@ -279,7 +279,7 @@ require "inc/header.php";
 
         <article class="sub-content" id="documentary-space">
 
-            <h2>Documentary</h2>
+            <h2>Documentary <span><a href="#" class="top">(back to the top)</a></span></h2>
 
             <ul class="sub-content-list">
                 <li>

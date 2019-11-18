@@ -10,7 +10,7 @@ $(document).ready(function () {
     $('.inventory-menu').hide();
 
     $('.inventory > a').click(function() {
-        $('.inventory-menu').toggle();
+        $('.inventory-menu').toggle(400);
         });
 });
 

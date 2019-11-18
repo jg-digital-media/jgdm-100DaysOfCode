@@ -77,6 +77,19 @@ body {
             left: 15px;
             position: relative;
 
+            span > .top {color: green;
+                font-size: 10px;
+                text-transform: capitalize;
+                font-family: arial;
+                color: red;
+                text-decoration: none;
+                font-style: italic;
+                margin-left: 10px;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
         }
 
         .sub-content-list {

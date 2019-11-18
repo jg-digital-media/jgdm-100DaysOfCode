@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 73 of 100. **Last Update:** 15 November 2019
+## **Status:** Day 74 of 100. **Last Update:** 15 November 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | vue | work
 ___
 
+
+### R3D74:  Monday 18th November 2019
++ **Notes** - 
+  + Continued with PHP website example to implement document jumps in the inventory submenu and improved the styling for the sub menu itself.
+  + Updated the form project to include details about using security best practices for working with GET and POST methods for sending data. https://projects.jonniegrieve.co.uk/form_project
+  + Another Vue App for my Vue Project which is a Simple voting application. This one WILL provide a means to practice using localStorage to persist data.
 
 ### R3D73:  Friday 15th November 2019
 + **Notes** - 

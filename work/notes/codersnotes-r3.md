@@ -6,6 +6,98 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 74
+
+### Vue.js  ve-on  v-for
+
+```javascript
+
+v-for   f in frameworks
+
+<li v-for = "f in frameworks">{{ f.name }} has {{ f.votes }}</li>
+```
+
+
+url: [Creating data with Vue.js  - Step 5 Creating Data  - ] (medium.com/@warrenfrancis/step-by-step-a-simple-vue-js-app-55f8eb3ffc63)
+
+
+
+
++ Proficient in creating Vue Instances
++ Mustache Syntax
++ using v-for to display array data
+```
+    frameworks: [
+                {key: "value", key: value 0},
+                {key: "value", key: value 0},
+                {key: "value", key: value 0}
+            ]
+
+```
++ **because, by default, Vue event listeners send the event itself to event handlers** so they pareameters don't need to be defined on v-on event handlers
+
+### PHP
+
+```php
+
+<?php 
+
+e.g. 
+
+if(isset($_GET['name'], $_GET['lang'])) {
+            
+            //safe inputs
+            $name = filter_input(INPUT_GET, "name", FILTER_SANITIZE_STRING);
+            $lang = filter_input(INPUT_GET, "lang", FILTER_SANITIZE_STRING);
+
+            //Unsafe input
+
+            //$name = $_GET['name'];
+            //$lang = $_GET['lang'];
+            echo '<p>' . htmlspecialchars(strip_tags($name, "p img")) . '</p>';
+            echo '<p>' . htmlspecialchars(strip_tags($lang, "p img")) . '</p>';
+}
+
+?>
+```
+
+### filter inputs   - filter_input()
+
++ The filter_input() function filters and validates external variables coming from insecure sources, such as input forms. 
+
++ This function is commonly used to prevent some security threats like SQL Injection(SQLi) attacks.
+
++ To avoid input that could lead to improper links or executing malicious code, you should filter all input with the filter_input() function like
+
+The Filter Types are
+
++ INPUT_GET
++ INPUT_POST
++ INPUT_COOKIE
++ INPUT_SERVER
++ INPUT_ENV
+
+### security conscious forms
+
+The three main functions for doing this are
+
++ Strip Tags  strip_tags()
++ htmlspecialchars()
++ htmlentities()
+
+### Sanitize Filters for form inputs
+
++ FILTER_UNSAFE_RAW
++ FILTER_SANITIZE_STRING
++ FILTER_SANITIZE_ENCODED
++ FILTER_SANITIZE_STRIPPED
++ FILTER_SANITIZE_FULL_SPECIAL_CHARS
++ FILTER_SANITIZE_NUMBER_INT
++ FILTER_SANITIZE_EMAIL
++ FILTER_SANITIZE_NUMBER_FLOAT
++ FILTER_SANITIZE_MAGIC_QUOTES
+
+
 ## Day 73
 
 ### Applying LazyLoading requires

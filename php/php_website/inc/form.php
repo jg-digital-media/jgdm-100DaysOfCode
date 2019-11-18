@@ -56,7 +56,8 @@
 
 
     <p class="form-section">Send Your Suggestion: </p>
-    <input type="submit" value="send!" class="form-submit" />
+    <input type="submit" value="Send" class="form-submit" />
+    <input type="reset" value="Reset" class="form-submit" />
 
     
 </form>

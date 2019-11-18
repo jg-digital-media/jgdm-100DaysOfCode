@@ -11,10 +11,18 @@ form {
 
     .form-inputs {
         height: 25px;
+        padding: 10px;
+        width: 90%;
+
+        @media (max-width: 550px) {
+            width: 90%;
+
+        }
     }
 
     textarea {
         width: 80%;
+        padding: 10px;
     }
 
     .form-submit {
@@ -24,6 +32,13 @@ form {
         padding: 15px;
         cursor: pointer;
         width: 200px;
+        border: white 2px solid;
+        border-radius: 3px;
+        margin-top: 10px;
+
+        &:hover {
+            background: lighten(purple, 15%);
+        }
     }
 
     .inventory-label {
@@ -36,7 +51,7 @@ form {
 
     .form-section {
         border-bottom: 1px solid red;
-        margin: 10px 0;
+        margin: 30px 0 0px 0;
     }
 
     table {

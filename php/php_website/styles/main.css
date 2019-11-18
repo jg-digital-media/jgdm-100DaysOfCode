@@ -1,6 +1,7 @@
 header {
   background: darkmagenta;
   min-height: 115px;
+  /*min-height: 220px;*/
   background: url("../img/header/header_1.jpg"); }
   header article {
     display: inline-block;
@@ -230,16 +231,27 @@ form {
     vertical-align: top;
     margin-top: 10px; }
   form .form-inputs {
-    height: 25px; }
+    height: 25px;
+    padding: 10px;
+    width: 90%; }
+    @media (max-width: 550px) {
+      form .form-inputs {
+        width: 90%; } }
   form textarea {
-    width: 80%; }
+    width: 80%;
+    padding: 10px; }
   form .form-submit {
     border: solid 1px black;
     background: purple;
     color: white;
     padding: 15px;
     cursor: pointer;
-    width: 200px; }
+    width: 200px;
+    border: white 2px solid;
+    border-radius: 3px;
+    margin-top: 10px; }
+    form .form-submit:hover {
+      background: #cd00cd; }
   form .inventory-label {
     margin-right: 40px; }
     @media (max-width: 780px) {
@@ -247,7 +259,7 @@ form {
         margin-right: 0px; } }
   form .form-section {
     border-bottom: 1px solid red;
-    margin: 10px 0; }
+    margin: 30px 0 0px 0; }
   @media (max-width: 780px) {
     form table td {
       width: 20%; } }

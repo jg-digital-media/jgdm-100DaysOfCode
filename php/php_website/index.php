@@ -19,6 +19,15 @@ require "inc/header.php";
             <div class="intro-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nesciunt quisquam sunt iste iure vel</div>
             <div class="intro-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nesciunt quisquam sunt iste iure vel</div>
 
+            <!-- What it's for
+            The TV Movie and Gaming Directory is designed to be #1 tool that helps digital media and entertainment find the best content out there and easily add to their collection
+
+            What it does
+            If you enjoy movies you've come to the right place, we have the biggest curation of digital content on the web and it continues to grow thanks to our dedicated members.
+
+            Why we do it
+            Find out where to get the content and how you can use it. No need to constantly search the web to find out where to get your favourite content. Just go to the TV, Movie and Gaming Directory. -->
+
         </article>
 
 

@@ -1,6 +1,7 @@
 header {
   background: darkmagenta;
-  min-height: 115px; }
+  min-height: 115px;
+  background: url("../img/header/header_1.jpg"); }
   header article {
     display: inline-block;
     width: 30%;

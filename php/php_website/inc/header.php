@@ -18,13 +18,13 @@
     <header>
 
         <article>
-            <img src="img/logo.jpg" title="logo" alt="logo" id="" class="main-logo" />
+            <img src="img/logo.png" title="logo" alt="logo" id="" class="main-logo" />
         </article>
 
         <article>
             <div class="title-space">
                 <p class="main-title">TV, Movie and Gaming Directory</p>
-                <a href="#" target="blank">based on......  </a>
+                <a href="https://teamtreehouse.com/library/build-a-basic-php-website-2" target="blank">based on material taught by Treehouse</a>
             </div>
         </article>
 

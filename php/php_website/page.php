@@ -21,7 +21,7 @@ require "inc/header.php";
 
         <h2>About the directory</h2>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magnam eveniet rerum voluptas dolores labore repellendus quia quos nobis debitis, possimus asperiores ratione magni iste tempore mollitia non earum quod.</p>
+        <p>The TV Movie and Gaming Directory is designed to be #1 tool that helps digital media and entertainment find the best content out there and easily add to their collection.</p>
     </aside>
 
     <aside class="our-picks">

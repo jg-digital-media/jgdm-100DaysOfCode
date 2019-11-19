@@ -2,9 +2,15 @@
 //header
 header {
     background: $bg-primary;
-    min-height: 115px;
-    /*min-height: 220px;*/
-    background: url("../img/header/header_1.jpg");
+    /*min-height: 115px;*/
+    min-height: 220px;
+    background: url("../img/header/header_2.jpg");
+    background-size: 50%;
+
+    @media(max-width: $md) {
+        background: $bg-primary;
+    }
+    
 
     article {
         
@@ -25,11 +31,17 @@ header {
             display: block;
             /*height: 140px;*/
             /*width: 275px;*/
+            width: 360px;
             margin: 0 auto;
             transition: transform .1s;
+            cursor: pointer;
 
             &:hover {
                 transform:scale(1.1);
+            }
+
+            @media(max-width: $md) {
+                margin: 0 auto;
             }
         }
 
@@ -38,6 +50,8 @@ header {
             color: $txt-col-secondary;
             .main-title {
                 font-size: 20pt;
+                font-size: 31pt;
+                text-align: center;
             }
         }
 

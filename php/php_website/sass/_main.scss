@@ -6,6 +6,7 @@
 
 body {
     background: $bg-main;
+    background: #ffebc7;
     font-family: $font;
     font-family: 'Cabin', sans-serif;
     font-family: 'Comfortaa', cursive;
@@ -51,6 +52,9 @@ body {
             line-height: 2;
             font-family: 'Comfortaa', cursive;
             text-align: left;
+            min-height: 150px;
+            padding: 5px;
+            background: gainsboro;
 
             @media(max-width: $xs) {
                 display: block;

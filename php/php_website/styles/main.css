@@ -1,9 +1,16 @@
+/*font-family: 'arial', sans-serif;*/
+/*font-family: 'verdana', sans-serif;*/
+/*font-family: 'Cabin', sans-serif;*/
+/*font-family: 'Comfortaa', cursive;*/
+/*font-family: 'Cairo', sans-serif;*/
+/*font-family: 'Permanent Marker', cursive;*/
 header {
   background: darkmagenta;
   /*min-height: 115px;*/
   min-height: 220px;
   background: url("../img/header/header_2.jpg");
-  background-size: 50%; }
+  background-size: 50%;
+  border-bottom: 7px #f5a7f5 solid; }
   @media (max-width: 980px) {
     header {
       background: darkmagenta; } }
@@ -24,18 +31,21 @@ header {
       width: 360px;
       margin: 0 auto;
       transition: transform .1s;
-      cursor: pointer; }
+      background: #490954;
+      border-radius: 20px; }
       header article img:hover {
         transform: scale(1.1); }
       @media (max-width: 980px) {
         header article img {
           margin: 0 auto; } }
     header article .title-space {
-      color: white; }
+      color: white;
+      text-align: center; }
       header article .title-space .main-title {
         font-size: 20pt;
         font-size: 31pt;
-        text-align: center; }
+        text-align: center;
+        font-weight: bold; }
     header article a {
       font-size: small;
       color: white; }
@@ -48,7 +58,8 @@ header {
     display: inline-block;
     width: 30%;
     margin-left: 20px;
-    padding: 10px; }
+    padding: 10px;
+    font-weight: bold; }
     @media (max-width: 980px) {
       header nav.nav-space {
         display: block;
@@ -62,7 +73,8 @@ header {
         color: white; }
       header nav.nav-space ul li a {
         color: white;
-        text-decoration: underline; }
+        text-decoration: underline;
+        transition: color .2s; }
         header nav.nav-space ul li a:hover {
           text-decoration: none;
           color: #14e448; }
@@ -81,7 +93,7 @@ header {
         font-family: 'Comfortaa', cursive; }
       header nav.nav-space ul li .inventory-menu {
         position: absolute;
-        display: block;
+        display: none;
         background: #490954;
         padding: 15px;
         border-radius: 20px; }
@@ -95,60 +107,69 @@ header {
 body {
   background: #99dfef;
   background: #ffebc7;
-  font-family: arial;
-  font-family: 'Cabin', sans-serif;
-  font-family: 'Comfortaa', cursive;
-  font-family: 'Cairo', sans-serif;
-  font-family: 'Permanent Marker', cursive; }
+  font-family: "Cairo", sans-serif;
+  background-image: url("../img/bg-one.jpg");
+  background-attachment: fixed; }
 
 .main-content {
   /*padding: 4px;*/
   width: 100%;
   text-align: center; }
-  .main-content .intro {
+  .main-content .intro, .main-content .page {
     height: auto;
     display: block;
     margin: 30px auto;
     width: 80%;
     border: saddlebrown;
-    border: solid 2px black; }
+    border: solid 2px black;
+    background: white;
+    background: #f5ebd9; }
     @media (max-width: 780px) {
-      .main-content .intro {
+      .main-content .intro, .main-content .page {
         width: 90%; } }
-    .main-content .intro h1.page-title {
+    .main-content .intro h1.page-title, .main-content .page h1.page-title {
       text-align: center;
       width: 200px;
       display: block;
       margin: 0 auto;
       width: 60%;
       font-size: 3.5vw; }
-    .main-content .intro .intro-content {
+    .main-content .intro .intro-content, .main-content .page .intro-content {
       display: inline-block;
       width: 30%;
-      border: solid red 1px;
       line-height: 2;
-      font-family: 'Comfortaa', cursive;
+      font-family: "Comfortaa", cursive;
       text-align: left;
       min-height: 150px;
-      padding: 5px;
-      background: gainsboro; }
+      padding: 10px;
+      background: gainsboro;
+      vertical-align: top;
+      cursor: text;
+      transition: background .2s; }
+      .main-content .intro .intro-content:hover, .main-content .page .intro-content:hover {
+        background: #fbeeee; }
       @media (max-width: 580px) {
-        .main-content .intro .intro-content {
+        .main-content .intro .intro-content, .main-content .page .intro-content {
           display: block;
           margin: 20px auto;
           width: 90%; } }
+  .main-content .page {
+    min-height: auto; }
+  .main-content .intro {
+    min-height: 330px; }
   .main-content .sub-content {
     padding-top: 20px;
     text-align: left; }
     .main-content .sub-content h2 {
-      text-decoration: underline 3px;
       text-transform: uppercase;
       font-size: 20pt;
+      font-family: "Comfortaa", cursive;
       width: 205px;
-      width: 50%;
-      border: solid blue 2px;
+      width: 25%;
       left: 15px;
-      position: relative; }
+      position: relative;
+      border-bottom: black 3px solid;
+      margin-bottom: 10px; }
       .main-content .sub-content h2 span > .top {
         color: green;
         font-size: 10px;
@@ -180,7 +201,8 @@ body {
           display: block; } }
       .main-content .sub-content .sub-content-list li .media-img {
         width: 100%;
-        transition: transform .2s; }
+        transition: transform .2s;
+        cursor: copy; }
         .main-content .sub-content .sub-content-list li .media-img:hover {
           transform: scale(1.2); }
       .main-content .sub-content .sub-content-list li a.sub-content-title {
@@ -191,6 +213,7 @@ body {
         color: gold;
         font-size: 20px;
         font-size: 12px;
+        font-family: "Comfortaa", cursive;
         text-transform: capitalize;
         text-decoration: none;
         bottom: 0;
@@ -204,7 +227,8 @@ aside {
   width: 40%;
   border: solid 1px black;
   text-align: left;
-  overflow: hidden; }
+  overflow: hidden;
+  background: #f5ebd9; }
   @media (max-width: 980px) {
     aside {
       display: block;
@@ -215,27 +239,32 @@ aside {
     padding: 10px 5px; }
   aside p {
     line-height: 1.8;
-    font-family: "comfortaa", "cursive"; }
+    font-family: "comfortaa", "cursive";
+    padding: 5px; }
   aside .page-img {
     width: 30%; }
   aside .our-picks article {
     overflow: hidden; }
-  aside .our-picks-list li {
-    overflow: hidden;
-    display: inline-block;
-    width: 30%;
-    opacity: 0.7; }
-    aside .our-picks-list li .our-picks-img {
-      width: 100%;
-      transition: transform, opacity .2s; }
-      aside .our-picks-list li .our-picks-img:hover {
-        transform: scale(1.1);
-        opacity: 0.9; }
-  @media (max-width: 780px) {
-    aside .our-picks-list {
-      width: 90%;
-      display: block;
-      margin: 0 auto; } }
+  aside .our-picks-list {
+    display: block;
+    margin: 0 auto; }
+    aside .our-picks-list li {
+      overflow: hidden;
+      display: inline-block;
+      width: 30%;
+      opacity: 0.7;
+      cursor: crosshair; }
+      aside .our-picks-list li .our-picks-img {
+        width: 100%;
+        transition: transform .2s, opacity .2s; }
+        aside .our-picks-list li .our-picks-img:hover {
+          transform: scale(1.1);
+          opacity: 0.9; }
+    @media (max-width: 780px) {
+      aside .our-picks-list {
+        width: 90%;
+        display: block;
+        margin: 0 auto; } }
 
 form {
   padding: 5px;

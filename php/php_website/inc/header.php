@@ -11,19 +11,25 @@
     <!-- Google Font-->
     <link href="https://fonts.googleapis.com/css?family=Cabin|Cairo|Comfortaa|Permanent+Marker&display=swap" rel="stylesheet">
 
-
 </head>
 <body>
 
     <header>
 
         <article>
-            <img src="img/logo.png" title="logo" alt="logo" id="" class="main-logo" />
+
+            <?php if($media != "selectCategory") { ?>
+                <a href="index.php" title="Click for the homepage. ">
+            <?php } ?>
+                <img src="img/logo.png" title="logo" alt="logo" id="" class="main-logo" />
+            <?php if($media != "selectCategory") { ?> 
+                </a>
+            <?php } ?>
         </article>
 
         <article>
             <div class="title-space">
-                <p class="main-title">TV, Movie and Gaming Directory</p>
+                <p class="main-title">The TV &amp; Movie DVD Directory</p>
                 <a href="https://teamtreehouse.com/library/build-a-basic-php-website-2" target="blank">based on material taught by Treehouse</a>
             </div>
         </article>
@@ -46,16 +52,15 @@
                     <a href="#">Inventory: </a>
 
                     <ul class="inventory-menu">
-                        <li><a href="#tv-space">TV/Box-Set</a></li>
+                        <li><a href="#action-space">Action</a></li>
                         <li><a href="#religion-space">Religion/Spirituality</a></li>
                         <li><a href="#sport-space">Sport</a></li>
-                        <li><a href="#action-space">Action</a></li>
                         <li><a href="#drama-space">Drama</a></li>
                         <li><a href="#history-space">History</a></li>
-                        <li><a href="#horror-space">Horror</a></li>
                         <li><a href="#music-space">Music</a></li>
                         <li><a href="#science-space">Science</a></li>
                         <li><a href="#documentary-space">Documentary</a></li>
+                        <li><a href="#tv-space">TV/Box-Set</a></li>
                     </ul>
                     
                     <!-- 

@@ -6,6 +6,7 @@ header {
     min-height: 220px;
     background: url("../img/header/header_2.jpg");
     background-size: 50%;
+    border-bottom: 7px #f5a7f5 solid;
 
     @media(max-width: $md) {
         background: $bg-primary;
@@ -34,7 +35,8 @@ header {
             width: 360px;
             margin: 0 auto;
             transition: transform .1s;
-            cursor: pointer;
+            background: #490954;
+            border-radius: 20px;
 
             &:hover {
                 transform:scale(1.1);
@@ -48,10 +50,13 @@ header {
         .title-space {
 
             color: $txt-col-secondary;
+            text-align: center;
+
             .main-title {
                 font-size: 20pt;
                 font-size: 31pt;
                 text-align: center;
+                font-weight: bold;
             }
         }
 
@@ -77,6 +82,7 @@ header {
         width: 30%;
         margin-left: 20px;
         padding: 10px;
+        font-weight: bold;
 
         @media (max-width: $md) {
             display: block;
@@ -97,6 +103,7 @@ header {
                 a {
                     color: $txt-col-secondary;
                     text-decoration: underline;
+                    transition: color .2s;
                     &:hover {
                         text-decoration: none;
                         color: $txt-col-tertiary
@@ -126,7 +133,7 @@ header {
 
                 .inventory-menu  {
                     position: absolute;
-                    display: block;
+                    display: none;
                     background: #490954;
                     padding: 15px;
                     border-radius: 20px;

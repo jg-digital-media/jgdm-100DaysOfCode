@@ -1,7 +1,6 @@
 //Utility - Fonts
-$font: arial;
-
-$font-sec: verdana;
+$font: 'Cairo', sans-serif;
+$font-sec: 'Comfortaa', cursive;
 $font-ter: calibri;
 
 //utility - colours
@@ -18,9 +17,17 @@ $txt-col-tertiary: #14e448;
 
 //utilities  
 
-    //breakpoints   // xl, lg, md, sm, xs
-    $xl: 1900px;
-    $lg: 1600px;
-    $md: 980px;
-    $sm: 780px;
-    $xs: 580px;  //dropdown input for mobile screens
+//breakpoints   // xl, lg, md, sm, xs
+$xl: 1900px;
+$lg: 1600px;
+$md: 980px;
+$sm: 780px;
+$xs: 580px;  //dropdown input for mobile screens
+
+
+/*font-family: 'arial', sans-serif;*/
+/*font-family: 'verdana', sans-serif;*/
+/*font-family: 'Cabin', sans-serif;*/
+/*font-family: 'Comfortaa', cursive;*/
+/*font-family: 'Cairo', sans-serif;*/
+/*font-family: 'Permanent Marker', cursive;*/

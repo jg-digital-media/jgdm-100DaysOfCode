@@ -12,7 +12,7 @@ require "inc/header.php";
 
 <main class="main-content">
 
-    <article class="intro">
+    <article class="page">
 
         <h1 class="page-title">Make a Suggestion</h1>
 

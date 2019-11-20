@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 75 of 100. **Last Update:** 19 November 2019
+## **Status:** Day 76 of 100. **Last Update:** 20 November 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | vue | work
 ___
 
+
+### R3D76:  Wednesday 20th November 2019
++ **Notes** - 
+  +  Just launched my latest website project https://projects.jonniegrieve.co.uk/php_website The purpose of which is to practice and develop my PHP Skills.  It also uses jQuery and the JavaScript LazyLoad library. Planning to add more dynamic elements to it in due course!
++ **Technologies used** - PHP, Sass, HTML5
 
 ### R3D75:  Tuesday 19th November 2019
 + **Notes** - 

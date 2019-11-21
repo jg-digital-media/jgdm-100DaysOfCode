@@ -11,8 +11,11 @@
     
     <div id="app"> 
         <ul>
-            <li v-for="f in frameworks">{{f.name}} has {{f.votes}} votes
-            <button v-on:click="voteFor(f)">Click</button></li>
+            <li v-for="f in frameworks">
+                {{f.name}} has {{f.votes}} votes
+                <button v-on:click="voteFor(f)">Click</button>        
+                <a href="#" v-on:click="del(f)">&cross;</a>
+            </li>
         </ul>
 
         <input placeholder="Add New" v-on:keyup.enter="addNew" />

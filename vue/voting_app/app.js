@@ -21,7 +21,10 @@ let app = new Vue({
             })
 
             event.target.value = '';
-        }
+        },
+
+        del: function(f) {
+            this.frameworks = this.frameworks.filter(i => i != f)
+        },
     }
-    
 })

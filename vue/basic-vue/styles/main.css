@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+h1 {
+  text-align: center; }
+
+article {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  line-height: 2.1;
+  width: 60%;
+  background: #ffd272; }
+  article ol {
+    margin-left: 40pt; }
+
+footer {
+  text-align: center; }
+
+body {
+  background: lightgray;
+  font-family: Arial; }
+
+/*# sourceMappingURL=main.css.map */

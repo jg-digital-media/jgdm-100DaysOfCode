@@ -2,14 +2,15 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 3: Day 76 of 100. **Last Update:** 20 November 2019
++ **Status:** Round 3: Day 77 of 100. **Last Update:** 21 November 2019
 
 ## Directories
   + bin      
       + first-line
       + geonation
       + pandas
-      + python-input-output    
+      + python-input-output
+      + vue-status-project    
   + css 
     + balloon
     + modernizr
@@ -31,7 +32,7 @@
     + iteration-methods
     + library
     + node
-    + vue
+  + nodeJS
   + php
     + mvc-framework
     + php_auth
@@ -57,8 +58,10 @@
   + svg
     + icons
   + vue
+    + basic-vue
     + tania_rascia
     + todo
+    + voting_app
     + vue_project
     + vue_project_v2
   + work

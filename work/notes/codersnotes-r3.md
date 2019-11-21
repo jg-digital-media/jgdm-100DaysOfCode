@@ -69,6 +69,9 @@ created: function() {
 + destroyed
 
 
+### Where localStorage is saved per browser (dated 2011)
+
+https://stackoverflow.com/questions/8634058/where-the-sessionstorage-and-localstorage-stored
 
 
 

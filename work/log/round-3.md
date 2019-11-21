@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 76 of 100. **Last Update:** 20 November 2019
+## **Status:** Day 77 of 100. **Last Update:** 21 November 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | vue | work
 ___
 
+
+### R3D77:  Thursday 21st November 2019
++ **Notes** - 
+  +  Focused on persisting data in VueJS Applications again with localStorage. App now adds new items, and persists them but does not persist deletes. Yet. What are Computed properties again?  Will be working on that next.  :)
++ **Technologies used** - PHP, Sass, HTML5
 
 ### R3D76:  Wednesday 20th November 2019
 + **Notes** - 

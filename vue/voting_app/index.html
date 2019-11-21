@@ -20,7 +20,7 @@
 
         <button v-on:click="toggleEditMode">{{ editMode ? 'Done' : 'Edit' }}</button>
 
-        <input placeholder="Add new" v-if="editMode" v-on:keyup.enter="addNew">
+        <input placeholder="Add new" v-if="editMode" v-on:keyup.enter="addNew" aria-label="Add a new item">
 
     </div>
 

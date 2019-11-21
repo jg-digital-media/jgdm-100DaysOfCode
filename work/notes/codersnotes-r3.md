@@ -6,7 +6,69 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
-## Day 76
+## Day 77
+
++ ```v-if```  is a conditional rendering attribute
++ 
+
+### **Implementing localStorage**
+
+localStorage is an API.
+
+
+### **.getItem()**
+
+load: function() {
+    let data = localStorage.getItem('saved')
+    if (data) {
+        this.frameworks = JSON.parse(data)
+    }
+},
+
+getItem() is assigned to localStorage method and is passed a string
+
+The above is assigned to as variable with is then passed to the JSON.parse method.
+
+### **.setItem()**
+
+the opposite of getItem()
+
+save: function() {
+    let data = JSON.stringify(this.frameworks)
+    localStorage.setItem('saved', data)
+}
+
+setItem is called on localStorage which receives the same string as getItem and the data aa aegumentrs.  Returns the JSON values as a string value./
+
+
+### **updating the data and implementing localStorage**
+
+Calling the save function modifies the localStorage API so the data is always up to date.
+
+uses 'saved' as the key for this app
+
+stringify prpduces a string like this [{"name":"React","votes":0},{"name":"VueJS","votes":0},{"name":"Angular","votes":0},{"name":"Jonnie","votes":0}]
+
+
+
+### **created: is a lifecycle method.**
+
+created: function() {
+   this.load()
+}
+
+### **The other lifecycle methods are**
+
++ beforeCreate
++ created
++ beforeMount
++ mounted
++ beforeUpdate
++ updated
++ beforeDestroy
++ destroyed
+
+
 
 
 

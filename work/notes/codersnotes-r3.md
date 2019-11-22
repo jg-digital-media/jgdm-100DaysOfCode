@@ -6,6 +6,8 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 78
+
 ## Day 77
 
 + ```v-if```  is a conditional rendering attribute

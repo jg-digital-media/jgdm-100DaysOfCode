@@ -8,8 +8,8 @@ ___
 
 ### R3D78:  Friday 22nd November 2019
 + **Notes** - 
-  +  Spending today working on some behind the scenes changes to web form on Auto Cleanse North East Website.  The code as a whole needs a behind the scenes refit which I'm looking forward to implementing.
-+ **Technologies used** - PHP, Sass, HTML5
+  +  Spending today working on some behind the scenes changes to web form on Auto Cleanse North East Website.  The code as a whole needs a behind the scenes refit which I'm looking forward to implementing. The Form handling code I've written hasn't worked though. Have to troubleshoot why.
++ **Technologies used** - PHP, CSS, HTML5
 
 ### R3D77:  Thursday 21st November 2019
 + **Notes** - 

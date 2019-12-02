@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 78 of 100. **Last Update:** 22 November 2019
+## **Status:** Day 79 of 100. **Last Update:** 02 December 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | vue | work
 ___
 
+### R3D79:  Monday 2nd December 2019
++ **Notes** - 
+  + After a week off due to illness I got back to what I was working on for my client, Auto Cleanse North East. Thrilled to get to the bottom of the issue that was causing the PHP form handler to fail. 
+  + An issue with the conditional statement checking the submission of the form as a whole rather than the value of the specific form submit button.
++ **Technologies used** - PHP, CSS, HTML5
 
 ### R3D78:  Friday 22nd November 2019
 + **Notes** - 

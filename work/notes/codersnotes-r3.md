@@ -6,7 +6,19 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
-## Day 79
+## Day 80
+
+```javascript
+
+//make a node http.get request
+const request = https.get(`https://teamtreehouse.com/${username}.json`, response => {
+    
+    //LOG THE Status Code
+    console.log(response.statusCode);
+
+}
+
+```
 
 ## Day 77
 

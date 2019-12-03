@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 79 of 100. **Last Update:** 02 December 2019
+## **Status:** Day 80 of 100. **Last Update:** 03 December 2019
 ___
 **Directories:** | css | java | javascript | log | php | python | react | regex | svg | vue | work
 ___
+
+### R3D80:  Tuesday 3rd December 2019
++ **Notes** - 
+  + Presented my form update to my client and will be putting that live tomorrow.  Looking forward to making some behind the scenes changes to the CSS too.  
+  + Also delved into a little bit of node.js worked on the bones of making a simple HTTPS get request. The aim being to learn to make a website powered by node just as I've tried with Slim via PHP.
++ **Technologies used** - PHP, CSS, HTML5, node.js
 
 ### R3D79:  Monday 2nd December 2019
 + **Notes** - 

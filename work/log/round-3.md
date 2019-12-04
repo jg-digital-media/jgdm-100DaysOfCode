@@ -1,9 +1,14 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 80 of 100. **Last Update:** 03 December 2019
+## **Status:** Day 81 of 100. **Last Update:** 04 December 2019
 ___
-**Directories:** | css | java | javascript | log | php | python | react | regex | svg | vue | work
+**Directories:** | css | java | javascript | nodeJs | php | python | react | regex | svg | vue | work
 ___
+
+### R3D81:  Wednesday 4th December 2019
++ **Notes** - 
+  + Learned to parse a string as JSON in node.js using the responses on method. Got some things working but the why's are still a bit of a mystery right now. What's the difference between "data" and "end" on on() events for example? 
++ **Technologies used** - PHP, CSS, HTML5, node.js
 
 ### R3D80:  Tuesday 3rd December 2019
 + **Notes** - 

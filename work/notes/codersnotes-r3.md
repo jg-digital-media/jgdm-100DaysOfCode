@@ -6,6 +6,26 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 81
+
+```javascript
+
+//Get the respoonse body from the api
+        response.on("data", data => {
+            body += data.toString();
+            //console.log(body)
+        })
+
+        //Retrieve the JSON data for a given username
+        response.on('end', () => {
+            //parse the data
+            const profile = JSON.parse(body);
+            
+            //print the data
+            printMessage(username, profile.badges.length, profile.points.JavaScript);
+        })
+```
+
 ## Day 80
 
 ```javascript

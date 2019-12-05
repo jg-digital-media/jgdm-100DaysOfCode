@@ -83,6 +83,7 @@ System Events in Node.js
         request.on('error', error => console.error(`Problem with request: ${error.message}:`))
 
         
+        //emitted error
         try {
             //code to try
 
@@ -90,11 +91,18 @@ System Events in Node.js
             console.error(error.message)
         }
 
-        //Status Code
-        if(response.statusCode === 200) {
-    
+        //Status Code Handling
+        try {
+            if(response.statusCode === 200) {
+                    //code to run
+        
+            } else {
+                const message = "error occurred";
+                const statusCodeError = new Error(message)
+                
+            }
         } catch (error) {
-            
+            console.error(error.message);
         }
 
     ```

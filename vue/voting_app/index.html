@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>VueJS: Voting App</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <body>
 
     
     <div id="app"> 
+
+        <h1> Basic Voting/Scoring App </h1>
         <ul>
             <li v-for="f in frameworks">
                 {{f.name}} has {{f.votes}} votes
@@ -18,7 +22,7 @@
             </li>
         </ul>
 
-        <p>Current Winner(s): {{ winnerString }}</p>
+        <p>Current Winner(s): <strong>{{ winnerString }}</strong></p>
 
         <button v-on:click="toggleEditMode">{{ editMode ? 'Done' : 'Edit' }}</button>
 

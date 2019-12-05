@@ -6,9 +6,17 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
-## Day 81
+## Day 82
 
 ```javascript
+
+//make a node http.get request
+const request = https.get(`https://teamtreehouse.com/${username}.json`, response => {
+    
+    //LOG THE Status Code
+    console.log(response.statusCode);
+
+}
 
 //Get the respoonse body from the api
         response.on("data", data => {
@@ -24,19 +32,14 @@
             //print the data
             printMessage(username, profile.badges.length, profile.points.JavaScript);
         })
-```
 
-## Day 80
+        //exceptions and error types
+        const request = https.get(`https://wwwteamtreehouse.com/${username}.json`, response => {
+        
+        })
 
-```javascript
-
-//make a node http.get request
-const request = https.get(`https://teamtreehouse.com/${username}.json`, response => {
-    
-    //LOG THE Status Code
-    console.log(response.statusCode);
-
-}
+        //handing an error with an error event
+        request.on('error', error => console.error(`Problem with request: ${error.message}:`))
 
 ```
 

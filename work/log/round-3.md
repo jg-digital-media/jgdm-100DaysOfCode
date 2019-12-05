@@ -1,9 +1,13 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 81 of 100. **Last Update:** 04 December 2019
+## **Status:** Day 82 of 100. **Last Update:** 05 December 2019
 ___
 **Directories:** | css | java | javascript | nodeJs | php | python | react | regex | svg | vue | work
 ___
+
+### R3D82:  Wednesday 5th December 2019
++ **Notes** - Working with VueJS and later on with Node.  I feel like I have a better understanding on Stream events and how to use them in Node requests.
++ **Technologies used** - VueJS, CSS, HTML5, node.js
 
 ### R3D81:  Wednesday 4th December 2019
 + **Notes** - 

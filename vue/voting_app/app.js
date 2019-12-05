@@ -41,7 +41,7 @@ let app = new Vue({
             this.frameworks = this.frameworks.filter(i => i != f)
 
             //call save function
-            //ss
+            this.save()
 
         },
 
@@ -64,6 +64,8 @@ let app = new Vue({
 
         toggleEditMode() {
             this.editMode = !this.editMode
+            //call save function
+            //this.save();
         }
     },
 

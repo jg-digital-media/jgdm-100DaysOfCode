@@ -67,6 +67,17 @@ let app = new Vue({
         }
     },
 
+    computed: {
+        //code to display winning names
+        winnerString: function() {
+            let scores = this.frameworks.map(f => f.votes)
+            let highscore = Math.max.apply(Math, scores)
+            let bestList = this.frameworks.filter(f => f.votes == highscore)
+            let bestNames = bestList.map(f => f.name)
+            return bestNames.join(', ')
+        }
+    },
+
     //call load function
     created: function() {
         this.load();

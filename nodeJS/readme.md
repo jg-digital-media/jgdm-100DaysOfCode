@@ -114,8 +114,74 @@ System Events in Node.js
             console.error(error.message)
         }
 
-        printError(error) - function call.
+        printError(error) //- function call.
     ```
+
+  + Error Handling with the Error Event
+
+
+```javascript
+const https = require("https");
+
+let request = https.get("https://teamtreehouse.com/chalkers.json", response => {
+  console.log(response.statusCode);
+  
+
+});
+  request.on("error", error => {
+    console.error(error.message)
+  });
+  
+```
+
+  + An emitted error using a Try Catch Block
+
+
+```javascript
+try {
+  const jsonString = 'This is not a JSON String';
+  const jsonObject = JSON.parse(jsonString);
+} catch (error) {
+  console.error(error.message)
+}
+```
+
++ Catch a parsing error with try/catch.
+
+```javascript
+const personString = '{"name": "Lauren"}';
+try {
+  const person = JSON.parse(personString);
+  console.log(person.name);
+} catch(err) {
+  console.error("Couldn't parse the JSON");
+}
+```
+
+## Project 1.1: Open Weather API
+
+Make a request to the API
+Search the documentation and locate API key.  
+stringify is a method on the JSON object used to convert JSON values into strings. It is used on the API call.
+
+```javascript
+const request = https.get(url, response => {
+
+        let body = "";
+
+        //read the data
+        response.on('data', chunk => {
+            body += chunk;
+        });
+
+        //the end event
+        response.on('end', () => {
+            console.log(body);
+            //Parse data
+            //Print the data
+        });
+    });
+```
 
 ## Project 2: Dynamic Website with Node
 

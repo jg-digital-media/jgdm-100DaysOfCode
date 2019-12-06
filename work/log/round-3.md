@@ -1,24 +1,30 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 82 of 100. **Last Update:** 05 December 2019
+## **Status:** Day 83 of 100. **Last Update:** 06 December 2019
 ___
 **Directories:** | css | java | javascript | nodeJs | php | python | react | regex | svg | vue | work
 ___
 
-### R3D82:  Wednesday 5th December 2019
+### R3D83:  Friday 6th December 2019
+
++ **Notes** - Made a request to a Weather Data API with nodeJS and data is being retrieved. Now to work out how to filter and get back the data the way I want it. Currently it's only for ZIP codes but I can work on that.  :)
+
++ **Technologies used** - VueJS, CSS, HTML5, Node.js
+
+### R3D82:  Thursday 5th December 2019
 + **Notes** - Working with VueJS and later on with Node.  I feel like I have a better understanding on Stream events and how to use them in Node requests.
-+ **Technologies used** - VueJS, CSS, HTML5, node.js
++ **Technologies used** - VueJS, CSS, HTML5, Node.js
 
 ### R3D81:  Wednesday 4th December 2019
 + **Notes** - 
   + Learned to parse a string as JSON in node.js using the responses on method. Got some things working but the why's are still a bit of a mystery right now. What's the difference between "data" and "end" on on() events for example? 
-+ **Technologies used** - PHP, CSS, HTML5, node.js
++ **Technologies used** - PHP, CSS, HTML5, Node.js
 
 ### R3D80:  Tuesday 3rd December 2019
 + **Notes** - 
   + Presented my form update to my client and will be putting that live tomorrow.  Looking forward to making some behind the scenes changes to the CSS too.  
   + Also delved into a little bit of node.js worked on the bones of making a simple HTTPS get request. The aim being to learn to make a website powered by node just as I've tried with Slim via PHP.
-+ **Technologies used** - PHP, CSS, HTML5, node.js
++ **Technologies used** - PHP, CSS, HTML5, Node.js
 
 ### R3D79:  Monday 2nd December 2019
 + **Notes** - 

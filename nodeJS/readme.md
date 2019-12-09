@@ -1,6 +1,6 @@
 # Node.js Project
 
-Last Update:   05/12/2019
+Last Update:   09/12/2019
 
 ## Project 1  NodeJS Basics
 
@@ -185,7 +185,60 @@ const request = https.get(url, response => {
 
 ## Project 2: Dynamic Website with Node
 
-In the browser with localhost
+### In the browser with localhost
+
+#### http servers 
+
++ 4 P's of Problem Solving: Prepare Plan Perform Perfect
+
+**Aim of Project:** Creating an HTTP server, serving files, and generating dynamic content all in Node.js.
+
+### Demonstrate:   
+
+1 -> Creating a Simple Web server with node.
+
+2 -> Handle HTTP Route and Get
+
+3 -> Handle HTTP route GET /:parameter e.g. username  /parameter
+
+4 -> Function that handles reading of files and merge in value  read from file and get a string.
+
+
+### Example:  
+
+```javascript
+//Creating a Simple Web Server with node
+
+const http = require('http');
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((request, response) => {
+  response.statusCode = 200;
+  response.setHeader('Content-Type', 'text/plain');
+  resonse.write("This is before the end\n);
+  response.end('Hello World\n');
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+```
+
+This opens a server on ```http://127.0.0.1:3000/``` and ```http://localhost:3000```.
+
+```ps --help```
+
+```ps -a``` - list all processes
+
+```ps aux```
+
+```kill -9 <PID>``` - kill a process by its given process id
+
+When we call response.end() we can't write to the response anymore
+
+###Handling multiple routes
 
 ## Project 3: Express
 

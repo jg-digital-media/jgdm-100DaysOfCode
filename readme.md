@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 3: Day 83 of 100. **Last Update:** 06 December 2019
++ **Status:** Round 3: Day 84 of 100. **Last Update:** 09 December 2019
 
 ## Directories
   + bin      
@@ -34,6 +34,8 @@
     + node
   + nodeJS
     + basics
+    + open_weather
+    + dynamic_site
   + php
     + mvc-framework
     + php_auth

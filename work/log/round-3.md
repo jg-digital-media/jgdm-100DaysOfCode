@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 83 of 100. **Last Update:** 06 December 2019
+## **Status:** Day 84 of 100. **Last Update:** 09 December 2019
 ___
 **Directories:** | css | java | javascript | nodeJs | php | python | react | regex | svg | vue | work
 ___
+
+### R3D84:  Monday 9th December 2019
+
++ **Notes** - Made some progress rewriting a large CSS codebase into Sass... more than I made on Friday.  Then later on with node I successfully created a local web server and learned some things about killing node processes on the command line  :)
+
++ **Technologies used** - SASS, HTML5, Node.js
 
 ### R3D83:  Friday 6th December 2019
 

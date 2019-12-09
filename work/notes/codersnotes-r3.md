@@ -6,7 +6,28 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
-## Day 83
+## Day 84
+
+```javascript
+//Creating a Simple Web Server with node
+
+const http = require('http');
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((request, response) => {
+  response.statusCode = 200;
+  response.setHeader('Content-Type', 'text/plain');
+  response.write("This is before the end\n);
+  response.end('Hello World\n');
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+
+```
 
 ## Day 82
 

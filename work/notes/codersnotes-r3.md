@@ -6,6 +6,65 @@
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
 
+## Day 85
+
+```javascript
+
+//app.js
+//create a web server 
+const server = http.createServer((request, response) => {
+    response.statusCode = 200;
+    router.home(request, response);
+    router.user(request, response);
+    router.about(request, response);
+    //response.write("This is after the end");
+});
+
+
+///Handling multiple routes in Node.js  - router.js
+
+home = (request, response) => {
+
+    if (request.url == "/") {
+        response.writeHead(200, {'Content-Type': 'text/plain'});
+        response.write("Header Templating\n");
+        response.write("Search Templating\n");
+        response.end('Footer\n');
+    }
+};
+
+user = (request, response) => {
+
+    var username = request.url.replace("/", "");
+    
+    if(username.length > 0) {
+        response.writeHead(200, {'Content-Type': 'text/plain'});
+        response.write("Header Templating\n");
+        response.write(username + "\n");
+        response.end('Footer\n');
+
+    }
+};
+
+about = (request, response) => {
+
+    if (request.url == "/about") {
+        response.writeHead(200, {'Content-Type': 'text/plain'});
+        response.write("Header Templating\n");
+        response.write("About Templating\n");
+        response.end('Footer\n');
+    }
+
+};
+
+module.exports.home = home;
+module.exports.user = user;
+module.exports.about = about;
+
+
+
+```
+
 ## Day 84
 
 ```javascript

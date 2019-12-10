@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 84 of 100. **Last Update:** 09 December 2019
+## **Status:** Day 85 of 100. **Last Update:** 10 December 2019
 ___
 **Directories:** | css | java | javascript | nodeJs | php | python | react | regex | svg | vue | work
 ___
+
+### R3D85:  Tuesday 10th December 2019
+
++ **Notes** - Wrote a script in node that handles multiple routes.  They don't do anything too exciting yet but that's to come.   :)
+
++ **Technologies used** - SASS, HTML5, Node.js
 
 ### R3D84:  Monday 9th December 2019
 

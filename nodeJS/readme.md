@@ -217,7 +217,7 @@ const port = 3000;
 const server = http.createServer((request, response) => {
   response.statusCode = 200;
   response.setHeader('Content-Type', 'text/plain');
-  response.write("This is before the end\n);
+  response.write("This is before the end\n");
   response.end('Hello World\n');
 });
 
@@ -238,7 +238,40 @@ This opens a server on ```http://127.0.0.1:3000/``` and ```http://localhost:3000
 
 When we call response.end() we can't write to the response anymore
 
-###Handling multiple routes
+### Handling multiple routes
+
+```javascript
+// - router.js
+const server = http.createServer((request, response) => {
+  response.statusCode = 200;
+  homeRoute(request, response);
+  aboutRoute(request, response);
+  //response.write("This is after the end");
+});
+
+//home route 
+homeRoute = (request, response) => {
+
+    if (request.url == "/") {
+        //do some code. 
+    }
+}
+
+//home route 
+aboutRoute = (request, response) => {
+
+    if (request.url == "/about") {
+        //do some code. 
+    }
+}
+
+module.exports.home = home;
+module.exports.user = user;
+module.exports.about = about;
+
+```
+
+
 
 ## Project 3: Express
 

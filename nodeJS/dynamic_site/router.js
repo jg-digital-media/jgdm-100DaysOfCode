@@ -1,10 +1,13 @@
+var renderer = require("./render.js")
+
 home = (request, response) => {
 
     if (request.url == "/") {
-        response.writeHead(200, {'Content-Type': 'text/plain'});
-        response.write("Header Templating\n");
-        response.write("Search Templating\n");
-        response.end('Footer\n');
+        response.writeHead(200, {'Content-Type': 'text/html'});
+        renderer.view("header", {}, response);
+        renderer.view("page_content", {}, response);
+        renderer.view("footer", {}, response);
+        response.end();
     }
 };
 
@@ -24,10 +27,11 @@ user = (request, response) => {
 about = (request, response) => {
 
     if (request.url == "/about") {
-        response.writeHead(200, {'Content-Type': 'text/plain'});
-        response.write("Header Templating\n");
-        response.write("About Templating\n");
-        response.end('Footer\n');
+        response.writeHead(200, {'Content-Type': 'text/html'});
+        renderer.view("header", {}, response);
+        renderer.view("page_content", {}, response);
+        renderer.view("footer", {}, response);
+        response.end();
     }
 
 };

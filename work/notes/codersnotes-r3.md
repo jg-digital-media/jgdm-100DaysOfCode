@@ -5,6 +5,27 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+### Day 86
+
+```javascript
+//retrieve values from an API
+
+var studentProfile = new Profile("username");
+
+studentProfile.on("end", function(profileJSON) {
+});
+
+var values = {
+   avatarUrl: profileJSON.gravatar_url,
+   username: profileJSON.profile_name,
+   badges: profileJSON.badges.length,
+   javascriptPoints: profileJSON.points.JavaScript
+}
+
+response.write(values.username + "has " + values.badges + " badges\n");
+```
+
+
 
 ## Day 85
 

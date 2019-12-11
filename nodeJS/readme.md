@@ -195,14 +195,17 @@ const request = https.get(url, response => {
 
 ### Demonstrate:   
 
-1 -> Creating a Simple Web server with node.
+1. Creating a Simple Web server with node.
 
-2 -> Handle HTTP Route and Get
+2. Handle HTTP Route and Get
 
-3 -> Handle HTTP route GET /:parameter e.g. username  /parameter
+3. Handle HTTP route GET /:parameter e.g. username  /parameter
 
-4 -> Function that handles reading of files and merge in value  read from file and get a string.
+4. Function that handles reading of files and merge in value  read from file and get a string.
 
+5. Handling Routes in node.js
+
+6. Template Engines in Node.js 
 
 ### Example:  
 
@@ -270,6 +273,38 @@ module.exports.user = user;
 module.exports.about = about;
 
 ```
+
+### Rendering with a Template Engine
+
+```javascript
+var fs = require("fs");
+
+//template engine
+function view(templateName, values, response) {
+    var fileContents = fs.readFileSync('./views/' + templateName + '.html');
+    
+    response.write(fileContents);
+  
+}
+
+module.exports.view = view;
+```
+
+### Rendering a view
+
+```javascript
+home = (request, response) => {
+
+    if (request.url == "/") {
+        response.writeHead(200, {'Content-Type': 'text/html'});
+        renderer.view("header", {}, response);
+        renderer.view("page_content", {}, response);
+        renderer.view("footer", {}, response);
+        response.end();
+    }
+};
+```
+
 
 
 

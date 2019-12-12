@@ -12,7 +12,7 @@ const server = http.createServer((request, response) => {
     router.home(request, response);
     router.user(request, response);
     router.about(request, response);
-    //response.write("This is after the end");
+    router.testimonial(request, response);
 });
 
 

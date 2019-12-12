@@ -10,7 +10,7 @@ const port = 3000;
 const server = http.createServer((request, response) => {
     response.statusCode = 200;
     router.home(request, response);
-    router.user(request, response);
+    //router.user(request, response);
     router.about(request, response);
     router.testimonial(request, response);
 });

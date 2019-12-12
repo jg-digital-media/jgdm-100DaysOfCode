@@ -1,15 +1,23 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 86 of 100. **Last Update:** 11 December 2019
+## **Status:** Day 87 of 100. **Last Update:** 12 December 2019
 ___
 **Directories:** | css | java | javascript | nodeJs | php | python | react | regex | svg | vue | work
 ___
 
-### R3D86:  Wednesday 10th December 2019
+### R3D87:  Thursday 12th December 2019
+
++ **Notes** - Added a new route to the simple node site I'm making but I still don't know how to make the pages recognise the routes correctly. Struggling and still have a lot to learn.
+
++ **Technologies used** - CSS, HTML5, Node.js
+
+
+### R3D86:  Wednesday 11th December 2019
 
 + **Notes** - Rendered some HTML via Node Routes to 2 routes today.  Bit of progress but right now it's only 1 route seems to be working with the rest being conflicted with another. So next, it's sorting that and binding more values and templates.
 
 + **Technologies used** - SASS, HTML5, Node.js
+
 ### R3D85:  Tuesday 10th December 2019
 
 + **Notes** - Wrote a script in node that handles multiple routes.  They don't do anything too exciting yet but that's to come.   :)

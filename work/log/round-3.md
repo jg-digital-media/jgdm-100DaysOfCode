@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 87 of 100. **Last Update:** 12 December 2019
+## **Status:** Day 88 of 100. **Last Update:** 16 December 2019
 ___
 **Directories:** | css | java | javascript | nodeJs | php | python | react | regex | svg | vue | work
 ___
+
+### R3D88:  Monday 16th December 2019
+
++ **Notes** - Devoted the day to continuing my conversion of CSS Code to Sass.  The Code has now been completely converted. Still a few bugs to sort out followed by a root and branch search of redundant styles. Progress.
+
++ **Technologies used** - HTML5, Sass
 
 ### R3D87:  Thursday 12th December 2019
 

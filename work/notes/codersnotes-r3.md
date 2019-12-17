@@ -5,7 +5,7 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
-### Day 88
+### Day 87
 
 Struggling with this one.  I've added one route, just like the last one, made the content type part of the route more DRY and managed to get rid of the runtime error when I click a URL to switch route so that's something.  
 

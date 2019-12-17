@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 88 of 100. **Last Update:** 16 December 2019
+## **Status:** Day 89 of 100. **Last Update:** 17 December 2019
 ___
 **Directories:** | css | java | javascript | nodeJs | php | python | react | regex | svg | vue | work
 ___
+
+### R3D89:  Tuesday 17th December 2019
+
++ **Notes** - Sorted out the display bugs in the Sass.  Now to sort out any extra unneeded lines of CSS to decrease the lines of code used even further before then applying variables mixins etc
+
++ **Technologies used** - HTML5, Sass
 
 ### R3D88:  Monday 16th December 2019
 

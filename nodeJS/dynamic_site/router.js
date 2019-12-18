@@ -8,7 +8,7 @@ home = (request, response) => {
         if(request.method.toLowerCase() === "get") {
             response.writeHead(200, commonHeaders);
             renderer.view("header", {}, response);
-            renderer.view("page_content", {}, response);
+            renderer.view("index", {}, response);
             renderer.view("footer", {}, response);
             response.end();
         }
@@ -21,7 +21,7 @@ about = (request, response) => {
         if(request.method.toLowerCase() === "get") {
             response.writeHead(200, commonHeaders);
             renderer.view("header", {}, response);
-            renderer.view("page_content", {}, response);
+            renderer.view("about", {}, response);
             renderer.view("footer", {}, response);
             response.end();
         }
@@ -35,7 +35,7 @@ testimonial = (request, response) => {
         if(request.method.toLowerCase() === "get") {
             response.writeHead(200, commonHeaders);
             renderer.view("header", {}, response);
-            renderer.view("page_content", {}, response);
+            renderer.view("testimonial", {}, response);
             renderer.view("footer", {}, response);
             response.end();
         }

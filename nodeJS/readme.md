@@ -25,6 +25,14 @@ System Events in Node.js
 
 -> Error Events 
 
+### Demonstrate
+
+1. Making a GET Request with https
+2. Getting the response body
+3. Parsing JSON
+4. Implementing an error handler for error events
+5. Print out error messages from an error object.s
+
 ### Node Concepts
   + Making a GET Request with https
 
@@ -160,9 +168,12 @@ try {
 
 ## Project 1.1: Open Weather API
 
-Make a request to the API
-Search the documentation and locate API key.  
-stringify is a method on the JSON object used to convert JSON values into strings. It is used on the API call.
+
+### Demonstrate
+
+1. Make a request to the API
+2. Search the documentation and locate API key.  
+3. Stringify is a method on the JSON object used to convert JSON values into strings. It is used on the API call.
 
 ```javascript
 const request = https.get(url, response => {
@@ -183,15 +194,9 @@ const request = https.get(url, response => {
     });
 ```
 
-## Project 2: Dynamic Website with Node
+## Project 2: Basic Website with Node (currently using dynamic_site directory)
 
-### In the browser with localhost
-
-#### http servers 
-
-+ 4 P's of Problem Solving: Prepare Plan Perform Perfect
-
-**Aim of Project:** Creating an HTTP server, serving files, and generating dynamic content all in Node.js.
+### In the browser with localhost, handledin app.js
 
 ### Demonstrate:   
 
@@ -207,7 +212,13 @@ const request = https.get(url, response => {
 
 6. Template Engines in Node.js 
 
-### Example:  
+#### http servers 
+
++ 4 P's of Problem Solving: Prepare Plan Perform Perfect
+
+**Aim of Project:** Creating an HTTP server, serving files, and generating dynamic content all in Node.js.
+
+### Examples:  
 
 ```javascript
 //Creating a Simple Web Server with node
@@ -227,9 +238,11 @@ const server = http.createServer((request, response) => {
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
+
+//This example opens a server on http://127.0.0.1:3000/ and http://localhost:3000.
 ```
 
-This opens a server on ```http://127.0.0.1:3000/``` and ```http://localhost:3000```.
+### Server instance commands (CLI)
 
 ```ps --help```
 
@@ -305,7 +318,15 @@ home = (request, response) => {
 };
 ```
 
+### Deployment
 
+Can't deploy to my web host.
+
+[Medium - Quick Deployment Guide](https://medium.com/swlh/quick-nodejs-deploy-guide-dbe836811c3e) 
+
+
+
+## Project 2.1
 
 
 ## Project 3: Express

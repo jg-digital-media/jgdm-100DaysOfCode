@@ -11,6 +11,41 @@ Struggling with this one.  I've added one route, just like the last one, made th
 
 I next intend to find a way to work out how to serve unique content in the templates, not just common elements then do another site that follows the tutorial I'm following more to the letter before moving onto Express.
 
+```javascript
+var renderer = require("./render.js")
+
+commonHeaders = {'Content-Type': 'text/html'}
+
+home = (request, response) => {
+
+    if (request.url == "/") {
+        if(request.method.toLowerCase() === "get") {
+            response.writeHead(200, commonHeaders);
+            renderer.view("header", {}, response);
+            renderer.view("index", {}, response);
+            renderer.view("footer", {}, response);
+            response.end();
+        }
+    }
+};
+
+//snip
+module.exports.home = home;
+//snip
+
+
+//Rendering the Views
+function view(templateName, values, response) {
+    var fileContents = fs.readFileSync('./views/' + templateName + '.html');
+    
+    response.write(fileContents);
+  
+}
+
+module.exports.view = view;
+
+//app.js is where the server is created, served and handles
+```
 
 ### Day 86
 

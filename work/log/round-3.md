@@ -1,9 +1,18 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 89 of 100. **Last Update:** 17 December 2019
+## **Status:** Day 90 of 100. **Last Update:** 18 December 2019
 ___
 **Directories:** | css | java | javascript | nodeJs | php | python | react | regex | svg | vue | work
 ___
+
+### R3D90:  Wednesday 18th December 2019
+
++ **Notes** - 
+  + Started examining and removing duplicate or redundant styles in my code, up to the navigation and header. Also planned ways I can use mixins to configure the width of the main interface of the website.
+  + Found a way forward in my NodeJS Project.  I have a project that stands on its own, render a set of HTML views using a template engine. I can now work on a more dynamic site that grabs data from an API.
+  + Very happy with what I've accomplished today.  
+
++ **Technologies used** - HTML5, Sass, NodeJS
 
 ### R3D89:  Tuesday 17th December 2019
 

@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 90 of 100. **Last Update:** 18 December 2019
+## **Status:** Day 91 of 100. **Last Update:** 19 December 2019
 ___
 **Directories:** | css | java | javascript | nodeJs | php | python | react | regex | svg | vue | work
 ___
+
+### R3D91:  Thursday 19th December 2019
+
++ **Notes** - 
+  + Reduced a codebase of 2000 lines of CSS code to around 1200 with more changes still to come.  The root and branch approach will continue with a focus on building config files for colours and fonts.
+
++ **Technologies used** - HTML5, Sass,
 
 ### R3D90:  Wednesday 18th December 2019
 

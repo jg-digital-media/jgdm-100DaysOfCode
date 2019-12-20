@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 91 of 100. **Last Update:** 19 December 2019
+## **Status:** Day 92 of 100. **Last Update:** 20 December 2019
 ___
 **Directories:** | css | java | javascript | nodeJs | php | python | react | regex | svg | vue | work
 ___
+
+### R3D92:  Friday 20th December 2019
+
++ **Notes** - 
+  + Now down to around 1000 lines of code with some mixins, extends and colour variables applied.  One final push for redundant styles to root out before looking at the markup.
+
++ **Technologies used** - HTML5, Sass,
 
 ### R3D91:  Thursday 19th December 2019
 

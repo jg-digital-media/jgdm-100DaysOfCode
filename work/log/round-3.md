@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 92 of 100. **Last Update:** 20 December 2019
+## **Status:** Day 93 of 100. **Last Update:** 6 January 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | python | react | regex | svg | vue | work
 ___
+
+### R3D93:  Monday 6th January 2020
++ **Notes** - 
+  + Just bits and bobs done today on my first day back.  Made some updates to my website including its 404 page which had some missing assets. Feeling my way back into work mode.  :)
+
++ **Technologies used** - HTML5, Sass,
 
 ### R3D92:  Friday 20th December 2019
 

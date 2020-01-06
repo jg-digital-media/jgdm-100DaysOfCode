@@ -5,6 +5,15 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+
+### Day 93
+
+Goals for2020
+
+Redesign projects domain website
+Node.js and Express
+Deploying a node project to the web
+
 ### Day 91
 
 ```javascript

@@ -5,6 +5,24 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+### Day 94
+
+**Setting up Droploets on Digital Ocean**
+
+Droplet Name: jg-digital-media
+IP Address: 209.97.190.97
+
+Password stored on keypass database. 
+
+command: cd nodejs/basics
+
+command: ssh root@209.97.190.96
+
+Public URL: http://do.co/node1804  
+
+[Medium - Deploy Guide for Node with DigitalOcean](https://medium.com/swlh/quick-nodejs-deploy-guide-dbe836811c3e)
+
+
 
 ### Day 93
 

@@ -1,29 +1,34 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 93 of 100. **Last Update:** 6 January 2020
+## **Status:** Day 94 of 100. **Last Update:** 7 January 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | python | react | regex | svg | vue | work
 ___
+
+### R3D94:  Tuesday 7th January 2020
++ **Notes** - 
+  + I had hoped I'd be able to show you a freely available Node Project via Digital Ocean but the droplet isn't working properly.  May be a bug in the app itself. Plenty of time to get it done in the future!
++ **Technologies used** - Node.js
 
 ### R3D93:  Monday 6th January 2020
 + **Notes** - 
   + Just bits and bobs done today on my first day back.  Made some updates to my website including its 404 page which had some missing assets. Feeling my way back into work mode.  :)
 
-+ **Technologies used** - HTML5, Sass,
++ **Technologies used** - HTML5, Sass
 
 ### R3D92:  Friday 20th December 2019
 
 + **Notes** - 
   + Now down to around 1000 lines of code with some mixins, extends and colour variables applied.  One final push for redundant styles to root out before looking at the markup.
 
-+ **Technologies used** - HTML5, Sass,
++ **Technologies used** - HTML5, Sass
 
 ### R3D91:  Thursday 19th December 2019
 
 + **Notes** - 
   + Reduced a codebase of 2000 lines of CSS code to around 1200 with more changes still to come.  The root and branch approach will continue with a focus on building config files for colours and fonts.
 
-+ **Technologies used** - HTML5, Sass,
++ **Technologies used** - HTML5, Sass
 
 ### R3D90:  Wednesday 18th December 2019
 

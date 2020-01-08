@@ -1,9 +1,14 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 94 of 100. **Last Update:** 7 January 2020
+## **Status:** Day 95 of 100. **Last Update:** 8 January 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | python | react | regex | svg | vue | work
 ___
+
+### R3D95:  Wednesday 8th January 2020
++ **Notes** - 
+  + Today we welcomed a kitten into our family! So it's been unusual and chaotic today. :)  But I think I've finished the Sass portion of my web design refit for Auto Cleanse North East!
++ **Technologies used** - HTML5, Sass
 
 ### R3D94:  Tuesday 7th January 2020
 + **Notes** - 

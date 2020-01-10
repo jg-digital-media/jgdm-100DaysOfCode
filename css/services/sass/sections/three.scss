@@ -1,0 +1,54 @@
+
+  .parallax-three {
+    background: url("../img/elim.png");
+
+    /* Set a specific height */
+    height: 500px; 
+    height: 100vh;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    color: black;
+    padding: 15% 0;
+    margin-bottom: 30%;
+
+}
+
+.three {
+
+    div {
+
+		@extend %box-styling;
+
+      	@include div-styling($text-col-three, $border-col-three solid 2px, $bg-three);
+        transition: transform .1s, background .2s;
+
+        &:hover {
+            background: $bg-three-hover;
+            transform: scale(1.07);
+            transition: transform .1s, background .2s;
+        }
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 16pt;
+    }
+
+    p {
+        font-size: 12pt;
+    }
+
+    a {
+        color: $text-col-three;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+}

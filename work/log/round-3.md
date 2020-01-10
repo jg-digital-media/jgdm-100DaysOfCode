@@ -1,9 +1,14 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 95 of 100. **Last Update:** 8 January 2020
+## **Status:** Day 96 of 100. **Last Update:** 9 January 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | python | react | regex | svg | vue | work
 ___
+
+### R3D96:  Thursday 9th January 2020
++ **Notes** - 
+  + The website refit I've been working on is nearly ready to go live!  Built for easy configuration with Sass. 
++ **Technologies used** - HTML5, Sass
 
 ### R3D95:  Wednesday 8th January 2020
 + **Notes** - 

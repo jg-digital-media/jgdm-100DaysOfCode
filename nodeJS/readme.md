@@ -1,6 +1,6 @@
 # Node.js Project
 
-Last Update:   09/12/2019
+Last Update:   10/01/2020
 
 ## Project 1  NodeJS Basics
 
@@ -194,7 +194,9 @@ const request = https.get(url, response => {
     });
 ```
 
-## Project 2: Basic Website with Node (currently using dynamic_site directory)
+## Project 2: Basic Website with Node (currently using dynamic directory)
+
+Handles basic routing and a Template engine.
 
 ### In the browser with localhost, handledin app.js
 
@@ -326,8 +328,9 @@ Can't deploy to my web host.
 
 
 
-## Project 2.1
+## Project 2.1 - Dynamic Site using the TreeHouse API.
 
+tbc
 
 ## Project 3: Express
 

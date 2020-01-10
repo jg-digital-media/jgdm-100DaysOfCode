@@ -47,6 +47,7 @@
     + slimmin
     + twig
     + twig_projects
+  + project_api 
   + python
     + basics
     + madlibs

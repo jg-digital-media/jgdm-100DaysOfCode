@@ -3,6 +3,33 @@
 + Repository Overview: https://github.com/jg-digital-media
 + Repository URL: https://github.com/jg-digital-media/jgdm-100DaysOfCode
 
+
+### Day 2
+
+#### Create a Simple Server  - Node.js
+
+```javascript
+//Create a webserver
+const http = require('http');
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((request, response) => {
+  response.statusCode = 200;
+  response.setHeader('Content-Type', 'text/plain');
+  response.write("This is before the end");
+  response.end('Hello World');
+  //response.write("This is after the end");
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+```
+
+When you call response.end*() you cannot write to the response anymore. 
+
 ### Day 1
 
 #### Goals for 2020

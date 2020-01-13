@@ -10,7 +10,7 @@ const server = http.createServer((request, response) => {
   response.setHeader('Content-Type', 'text/plain');
   response.write("This is before the end");
   response.end('Hello World');
-  response.write("This is after the end");
+  //response.write("This is after the end");
 });
 
 server.listen(port, hostname, () => {

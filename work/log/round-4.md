@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 01 of 100. **Last Update:** 10 January 2020
+## **Status:** Day 02 of 100. **Last Update:** 13 January 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | svg | vue | work
 ___
 
-### R4D01:  Friday 10th January 2020
+### R4D02:  Monday 13th January 2020
++ **Notes** - 
+  + Made a start exploring an example of an API... the Spotify API using Craig Dennis's course via YouTube.  Then went on to make sure I have a localhost server running via Node.js
+
++ **Technologies used** - API, JavaScript, Node.js
+
+### R4D02:  Friday 10th January 2020
 + **Notes** - 
   + I've started Round 4 of the challenge a few day early! Round 3 kinda ran out of steam.  :)
   + Built the directories and ground work for a project examining api's

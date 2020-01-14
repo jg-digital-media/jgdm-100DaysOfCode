@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animating with Greensock</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+
+    <div class="ball">
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>  
+    
+    <script type="text/javascript">
+    
+    //animate ball
+
+    gsap.to('.ball', {
+        duration: 1.5,
+        y: 200,
+        scale: 2,
+        ease: "bounce"
+
+    })
+
+    gsap.to('.ball', {
+        duration: 1.0,
+        delay: 1.5,
+        y: 0,
+        scale: 1,
+        ease: 'back.inOut(3)'
+
+    })
+
+    //chained timelines
+    //gsap.timeline().to({}).to({});
+    
+    
+    </script>
+</body>
+</html>

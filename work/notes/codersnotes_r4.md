@@ -2,7 +2,30 @@
 
 + Repository Overview: https://github.com/jg-digital-media
 + Repository URL: https://github.com/jg-digital-media/jgdm-100DaysOfCode
++ API Video link:  https://youtube.com/watch?v=GZvSYJDk-us&feature=youtu.be
++ Dynamic Site Course Treehouse:  https://teamtreehouse.com/library/build-a-simple-dynamic-site-with-nodejs
 
+### Day 4
+
+#### Greensock notes
+
+**gsap.from()** - from x of 100 and animate to an x of 0 (or whatever it was when the tween started). In other words, it's animating FROM the values you provide to whatever they currently are.
+
+**fromTo()** -  allows you to define the starting values and the ending values
+
+####  need position property to show zindexes 
+
+[Get Started - Greensock Docs](https://greensock.com/get-started/#loading-gsap)
+
+[CSS Tricks Tutorial](https://css-tricks.com/how-to-animate-on-the-web-with-greensock/)
+
+[Greensock CDN](https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js)
+
+#### Node.js - Code that connects to the Treehouse api.
+
+ + **app.js** - This is where the server is created and routes are served. Imports router.js
+ + **router.js** - This is the file that handles routing and requesting the data from the api.  imports profile.js
+ + **profile.js** -  Returns status codes and handles responses to requests to the api, Handles Treehouse profile information
 
 ### Day 3
 
@@ -31,7 +54,7 @@ Tutorial:  https://css-tricks.com/how-to-animate-on-the-web-with-greensock/
     //yoyo: true  - repeat infinitely
 ```
 
-#### Node.js   - import routes from file and reference in app.js
+#### Node.js   - import routes from a file and reference in app.js
 
 ```javascript
 let router = require("./router.js")

@@ -29,6 +29,7 @@
     + ajax
     + dom
     + four_in_a_row
+    + greensock
     + iteration-methods
     + library
     + node

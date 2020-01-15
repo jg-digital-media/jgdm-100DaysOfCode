@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 03 of 100. **Last Update:** 14 January 2020
+## **Status:** Day 04 of 100. **Last Update:** 15 January 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | svg | vue | work
 ___
+
+### R4D04:  Wednesday 15th January 2020
++ **Notes** - 
+  + Made a simple Greensock animation for practice. So much more to delve into there. https://projects.jonniegrieve.co.uk/greensock/sunrise/  With node.js I got the user route successfully requesting data from an API.
+
++ **Technologies used** - JavaScript, Node.js
 
 ### R4D03:  Tuesday 14th January 2020
 + **Notes** - 

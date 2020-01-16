@@ -349,6 +349,7 @@ home = (request, response) => {
 + Node.js Routes
 + import routes from file and reference in app.js
 + Code that connects to the Treehouse api.
++ Read file and Render Template
 
 ```javascript
 /* create a simple server*/
@@ -413,7 +414,38 @@ response.end("footer");
 ```
 
 ```javascript
-//Engine templating
+//Read file and render template - render.js
+
+var fs = require("fs");
+
+function view(templateName, values, response) {
+    //read from the template file
+
+ 
+   var fileContents = fs.readFileSync("./views/" + templateName + ".html");
+
+        response.write(fileContents);
+};
+  
+module.exports.view = view;
+
+```
+
+
+```javascript
+
+//change routes to read file file templates
+var Render = require("./render.js")
+
+function home(request, response) {
+    if(request.url === "/") {
+        response.writeHead(200, {"content-type":"text/plain"});
+        Render.view("header", {}, response);
+        Render.view("search", {}, response);
+        Render.view("footer", {}, response);
+        response.end();
+    }
+}
 ```
 
 ## Project 3: Express

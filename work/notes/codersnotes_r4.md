@@ -2,8 +2,27 @@
 
 + Repository Overview: https://github.com/jg-digital-media
 + Repository URL: https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
+### Focus
 + API Video link:  https://youtube.com/watch?v=GZvSYJDk-us&feature=youtu.be
 + Dynamic Site Course Treehouse:  https://teamtreehouse.com/library/build-a-simple-dynamic-site-with-nodejs
++ Greensock:  https://greensock.com/get-started/#loading-gsap
+
+
+### Day 5
+
+```javascript
+
+//greensock chaining methods
+bond.to(box1, {
+    duration: 3.6,
+    x: 500,
+    ease: "none",
+}).to(box1, {
+    delay: 0,
+    opacity: 0,
+   
+```
 
 ### Day 4
 

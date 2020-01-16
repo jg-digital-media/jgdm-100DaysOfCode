@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 04 of 100. **Last Update:** 15 January 2020
+## **Status:** Day 05 of 100. **Last Update:** 16 January 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | svg | vue | work
 ___
+
+### R4D04:  Thursday 16th January 2020
++ **Notes** -
+  + Started learning about Greensock .timeline() methods for animation.  I'm doing the James Bond Gunbarrel lsequence. Took some time but I managed to sort out the first part. Node.js is going well too, getting routes to handle html files.
+
++ **Technologies used** - JavaScript, Node.js
 
 ### R4D04:  Wednesday 15th January 2020
 + **Notes** - 

@@ -8,6 +8,34 @@
 + Dynamic Site Course Treehouse:  https://teamtreehouse.com/library/build-a-simple-dynamic-site-with-nodejs
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
+### Day 6
+
+I know a bit now about how to use an API using postman.
+
+You have an endpoint - a url
+You have code that makes a request - which includes parameters to query which can all be found on good documentation for an API.
+You have request methods   - GET, POST -etc
+You have JSON - used to store, next and display data.  a structured language.
+
+### Greensock CSS
+
+I'm not sure why the overflow property wasn't working before but it seems to be doing the job now, containing the visible CSS to the confines of the canvas area.
+
+```css
+
+.canvas {
+    display: block;
+    position: relative;
+    margin: 20px auto;
+    /*width: 400px;*/
+    width: 428px;
+    background: lightgreen;
+    background: black;
+    height: 400px;
+    overflow: hidden;
+}
+```
+
 
 ### Day 5
 

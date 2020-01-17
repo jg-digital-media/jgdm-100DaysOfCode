@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 05 of 100. **Last Update:** 16 January 2020
+## **Status:** Day 06 of 100. **Last Update:** 17 January 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | svg | vue | work
 ___
 
-### R4D04:  Thursday 16th January 2020
+### R4D06:  Friday 17th January 2020
++ **Notes** -
+  + I know a bit now about how to use an API using postman. Most of the issues I had with using the Twilio API were about incorrectly named variables. Messages successfully sent to my phone
+
++ **Technologies used** - API
+
+### R4D05:  Thursday 16th January 2020
 + **Notes** -
   + Started learning about Greensock .timeline() methods for animation.  I'm doing the James Bond Gunbarrel lsequence. Took some time but I managed to sort out the first part. Node.js is going well too, getting routes to handle html files.
 

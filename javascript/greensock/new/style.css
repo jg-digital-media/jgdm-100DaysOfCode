@@ -15,7 +15,8 @@ body {
     width: 428px;
     background: lightgreen;
     background: black;
-    height: 400px
+    height: 400px;
+    overflow: hidden;
 }
 
 .box1 {

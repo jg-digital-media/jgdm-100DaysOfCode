@@ -27,10 +27,10 @@ function user(request, response) {
             //store the values which we need
 
             var values = {
-                avatarUrl: profileJSON.gravatar_url,
-                username: profileJSON.profile_name,
-                badges: profileJSON.badges.length,
-                javascriptPoints: profileJSON.points.JavaScript,
+                avatarUrl: stringify(profileJSON.gravatar_url),
+                username: stringify(profileJSON.profile_name),
+                badges: stringify(profileJSON.badges.length),
+                javascriptPoints: stringify(profileJSON.points.JavaScript),
             }
 
             //simple response

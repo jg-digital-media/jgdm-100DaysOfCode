@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 06 of 100. **Last Update:** 17 January 2020
+## **Status:** Day 07 of 100. **Last Update:** 20 January 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | svg | vue | work
 ___
+
+### R4D06:  Monday 20th January 2020
++ **Notes** -
+  + Was able to request last message from Twilio API in a small node.js project. But not when trying to apply environment variables. Odd that this should be so problematic as the dot file is solid and I can see that the variables are set.
+
++ **Technologies used** - node.js, API
+
 
 ### R4D06:  Friday 17th January 2020
 + **Notes** -

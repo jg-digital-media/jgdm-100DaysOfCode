@@ -8,6 +8,26 @@
 + Dynamic Site Course Treehouse:  https://teamtreehouse.com/library/build-a-simple-dynamic-site-with-nodejs
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
+### Day 8
+
+Use dotnev package and process.env.variable name to store and reference environment variables. 
+
+Dynamic site... need to render as html
+
+sort out user route which is not currently rendering content
+
+Error on serving home route
+```
+Server running at http://127.0.0.1:3000/
+fs.js:646
+  return binding.open(pathModule._makeLong(path), stringToFlags(flags), mode);
+                 ^
+
+Error: ENOENT: no such file or directory, open 'C:\xampp\htdocs\jgdm-100daysofcode\nodejs\dynamic_site\views\[object Object]
+.html'
+```
+
+
 ### Day 7
 
 Setting up environment variables

@@ -6,7 +6,8 @@ Last Update:  15/01/2020
 + **Project 1.1 - Open Weather API**
 + **Project 2.1 - Basic Website with Node**
 + **Project 2.2 - Dynamic Site Treehouse**
-+ **Project - Node Deployment**
++ **Project 3 - Express**
++ **Project [N] - Node Deployment**
 ---
 
 ## Project 1 - NodeJS Basics
@@ -211,6 +212,8 @@ const request = https.get(url, response => {
         });
     });
 ```
+
+Project 1.1 is a command line application example.
 
 ## Project 2.1: Basic Website with Node (currently using dynamic directory)
 
@@ -450,9 +453,14 @@ function home(request, response) {
 
 ## Project 3: Express
 
-tbc
+### Demonstrate
 
-## Project Node Deployment
+1. Templates
+2. Routing
+3. Middleware
+4. What it is to Serve Static files
+
+## Project [N]: Node Deployment
 
 Can't deploy to my web host.
 

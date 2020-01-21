@@ -8,5 +8,7 @@ Setting up the project:
 
 3. Use the following format for storing .env variables.
 
+```
 TW_SID = <your TW_SID here>
 TW_AUTH = <your TW_AUTH here>
+```

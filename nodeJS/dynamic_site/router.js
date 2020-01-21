@@ -1,5 +1,5 @@
 var Profile = require("./profile.js");
-var Render = require("./render.js")
+var Render = require("./render.js");
 
 function home(request, response) {
     if(request.url === "/") {
@@ -27,10 +27,10 @@ function user(request, response) {
             //store the values which we need
 
             var values = {
-                avatarUrl: stringify(profileJSON.gravatar_url),
-                username: stringify(profileJSON.profile_name),
-                badges: stringify(profileJSON.badges.length),
-                javascriptPoints: stringify(profileJSON.points.JavaScript),
+                avatarUrl: profileJSON.gravatar_url,
+                username: profileJSON.profile_name,
+                badges: sprofileJSON.badges.length,
+                javascriptPoints: profileJSON.points.JavaScript,
             }
 
             //simple response

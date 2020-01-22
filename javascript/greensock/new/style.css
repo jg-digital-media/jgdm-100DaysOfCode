@@ -56,11 +56,13 @@ body {
     position: relative;
 }
 
-.box2 {
-
+.gunbarrel {
+    left: 428px;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+    position: absolute;
+    height: auto;
+    height: 100%;
 }
 
-.box3 {
-
-
-}

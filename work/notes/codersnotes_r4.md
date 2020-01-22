@@ -8,6 +8,39 @@
 + Dynamic Site Course Treehouse:  https://teamtreehouse.com/library/build-a-simple-dynamic-site-with-nodejs
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
+### Day 9
+
+#### Create a local server using Express
+```javascript
+const express = require('express');
+
+//express function
+const app = express();
+
+//set up the development server listen method - port number
+app.listen(3000);
+```
+
+#### routing with Express
+```javascript
+// Create a route
+const express = require('express');
+
+//express function
+const app = express();
+
+//set up the development server listen method - port number
+app.listen(3000);
+
+///served a hello world application
+app.get('/', (request, response) => {
+    
+   //basic response with the send method
+    response.send('I love Treehouse');
+});
+
+```
+
 ### Day 8
 
 Use dotnev package and process.env.variable name to store and reference environment variables. 

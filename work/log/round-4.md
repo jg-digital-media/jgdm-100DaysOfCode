@@ -1,11 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 08 of 100. **Last Update:** 21 January 2020
+## **Status:** Day 09 of 100. **Last Update:** 22 January 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | svg | vue | work
 ___
 
-### R4D08:  Monday 21st January 2020
+### R4D09:  Wednesday 22nd January 2020
++ **Notes** - Created an Express App with 1 route and local server. Found the Heroku platform for later deploying a Node/Express App but eventually still want to host my own. And I added a little more to my Greensock animation, separating animation methods into separate "scenes"
+
++ **Technologies used** - node.js, JavaScript API
+
+### R4D08:  Tuesday 21st January 2020
 + **Notes** -
   + Fixed the API issue from yesterday. I'm at an impasse with the other problem though so I've decided to set it aside and delve into working with Express.js projects.  I will be returning to it though.
 

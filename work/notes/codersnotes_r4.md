@@ -8,6 +8,41 @@
 + Dynamic Site Course Treehouse:  https://teamtreehouse.com/library/build-a-simple-dynamic-site-with-nodejs
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
+### Day 10
+
+#### Heroku Node Deployment commands
+npm commands list  ``` - npm install npm@latest -g```
+
+install heroku globally ``` -  npm install -g heroku```
+
+
+```heroku help```
+
+```heroku help apps```
+
+```heroku-apps:create```
+
+https://pacific-inlet-81790.herokuapp.com/ 
+
+https://git.heroku.com/pacific-inlet-81790.git
+
+
+
+Deploy to heroku remote git repository
+     ```git push heroku master```
+
+server on local machine ``` heroku local```
+
+open project in web browser  ```git push heroku master```
+
+restart Heroku
+    ```Heroku Restart```
+
+check heroku error logs
+```heroku logs --tail```
+
+
+
 ### Day 9
 
 #### Create a local server using Express

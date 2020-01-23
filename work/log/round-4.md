@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 09 of 100. **Last Update:** 22 January 2020
+## **Status:** Day 10 of 100. **Last Update:** 23 January 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | svg | vue | work
 ___
+
+### R4D10:  Thursday 23rd January 2020
++ **Notes** - 
+  + Thread:  Spent a lot of hours trying to deploy an Express app with 2 routes to HerokuThere seems to be an application error at the moment but it's up there and certainly loads properly on localhost. https://pacific-inlet-81790.herokuapp.com/
+  + There are 2 routes up there right now, which each write a simple HTML response. 
+  + Not the grand announcement I had planned and I realise it's not the most exciting of apps. But it's a deployment. Hopefully tomorrow I can start getting to the bottom of why Heroku won't show the site when Git's repository reports no errors with the push.
+
++ **Technologies used** - node.js, JavaScript API
 
 ### R4D09:  Wednesday 22nd January 2020
 + **Notes** - Created an Express App with 1 route and local server. Found the Heroku platform for later deploying a Node/Express App but eventually still want to host my own. And I added a little more to my Greensock animation, separating animation methods into separate "scenes"

@@ -1,9 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 10 of 100. **Last Update:** 23 January 2020
+## **Status:** Day 11 of 100. **Last Update:** 24 January 2020
 ___
-**Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | svg | vue | work
+**Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R4D11:  Friday 24th January 2020
++ **Notes** - Decided to change tac slightly today and rediscover my love and appreciation of Sonic Pi. Have a listen to this live code music piece I DJ'ed this afternoon! I'm clearly not as talented as actual musicians but I am rather proud of this piece of work! https://www.youtube.com/watch?v=qEmMpHZCsYI
+
+The thumbnail is the code that does the magic. You edit the code on the fly to change the music. You have to be be on your toes and quick about it, mind!
+
+I hope you like it! I ended making my first attempt at recording a live coding piece.  It's online here!   Perhaps not the most exciting but I'm proud of it as an attempt. (You have to be quick off the mark to live code)
+
++ **Technologies used** - Ruby, Sonic Pi
+
 
 ### R4D10:  Thursday 23rd January 2020
 + **Notes** - 

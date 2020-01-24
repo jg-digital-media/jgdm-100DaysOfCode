@@ -8,6 +8,44 @@
 + Dynamic Site Course Treehouse:  https://teamtreehouse.com/library/build-a-simple-dynamic-site-with-nodejs
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
+### Day 11
+
+#### Ruby - Sonic Pi
+
+```ruby
+# Welcome to Sonic Pi v3.1
+
+# live performance practice
+# https://codeclubprojects.org/en-GB/sonic-pi/live-dj/
+
+use_bpm 65
+
+use_synth :prophet
+
+set_volume! 1.5
+
+live_loop :drums do
+  sample :drum_heavy_kick
+  #play :c3, release: 3
+  sleep 0.3
+  
+  cue :tick
+end
+
+in_thread(name: :looper) do
+  
+  live_loop :drum_tick do
+    sample :drum_cowbell
+    sleep 1
+    #sample :ambi_drone
+    #play :d3
+    sync :tick
+  end
+end
+
+
+```
+
 ### Day 10
 
 #### Heroku Node Deployment commands

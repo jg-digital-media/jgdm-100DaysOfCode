@@ -8,9 +8,26 @@
 + Dynamic Site Course Treehouse:  https://teamtreehouse.com/library/build-a-simple-dynamic-site-with-nodejs
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
-### Day 11
 
-#### Ruby - Sonic Pi
+### Day 12
+
+I've reached the "Alright, I give up" stage with Heroku deployment.  For now.  I will return to it.  Maybe i just need to road test the process a few tines,
+
+The site is loading just fine locally
+
+Added Pug as a templating engine for an express.js site.  Everything serving properly except for the CSS.  As for Heroku still not getting to grips with this. my CLI is not even picking up the Heroku command! 
+
+#### Serving CSS in Pug Templates
+https://stackoverflow.com/questions/46850330/how-to-include-a-css-file-in-pugjs-template
+
+
+```javascript
+//set the view engine to use pug for templating
+app.set("view engine", "pug");
+```
+
+
+### Day 11
 
 ```ruby
 # Welcome to Sonic Pi v3.1

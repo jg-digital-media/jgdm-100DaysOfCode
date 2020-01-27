@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 11 of 100. **Last Update:** 24 January 2020
+## **Status:** Day 12 of 100. **Last Update:** 27 January 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R4D12:  Monday 27th January 2020
++ **Notes** - Added Pug as a templating engine for an express.js site.  Everything serving properly except for the CSS.  As for Heroku still not getting to grips with this. my CLI is not even picking up the Heroku command! 
+
++ **Technologies used** - Node.js, PUG
 
 ### R4D11:  Friday 24th January 2020
 + **Notes** - Decided to change tac slightly today and rediscover my love and appreciation of Sonic Pi. Have a listen to this live code music piece I DJ'ed this afternoon! I'm clearly not as talented as actual musicians but I am rather proud of this piece of work! https://www.youtube.com/watch?v=qEmMpHZCsYI

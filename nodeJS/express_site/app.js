@@ -9,11 +9,14 @@ app.listen(3000, function(){
 
 });
 
+//set the view engine to use pug for templating
+app.set("view engine", "pug");
+
 ///served the home route
 app.get('/', (req, res) => {
     
     //basic response with the send method
-     res.send('<h1>This is the home route</h1>');
+     res.render('index');
      res.end();
  });
 

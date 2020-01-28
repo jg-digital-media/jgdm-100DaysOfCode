@@ -9,6 +9,20 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
 
+### Day 13
+
+3 routes now served and templates now use logic and loops using Pug.  Had some trouble looping over values from  2 arrays to form data in a table elment.
+
+https://teamtreehouse.com/community/2-column-table-attempt
+
+So I looked around and found the above link.  There's some solutions there or at least some options to try.
+
+To do...
+
++ Iterate over multiple arrays in Pug
++ Serve CSS using Pug
+
+
 ### Day 12
 
 I've reached the "Alright, I give up" stage with Heroku deployment.  For now.  I will return to it.  Maybe i just need to road test the process a few tines,

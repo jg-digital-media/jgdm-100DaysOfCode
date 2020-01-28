@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 12 of 100. **Last Update:** 27 January 2020
+## **Status:** Day 13 of 100. **Last Update:** 28 January 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R4D13:  Tuesday 28th January 2020
++ **Notes** - Built a bit more into the Express app. 3 routes now served and templates now use logic and loops using Pug as the template engine. 
+
++ **Technologies used** - Node.js, PUG
 
 ### R4D12:  Monday 27th January 2020
 + **Notes** - Added Pug as a templating engine for an express.js site.  Everything serving properly except for the CSS.  As for Heroku still not getting to grips with this. my CLI is not even picking up the Heroku command! 

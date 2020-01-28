@@ -1,5 +1,17 @@
 const express = require('express');
 
+// data
+
+const names = [
+    "Jack",
+    "Jill",
+    "John",
+    "Jonah",
+    "Jamaal",
+    "Joe"
+]
+
+
 //express function
 const app = express();
 
@@ -12,7 +24,7 @@ app.listen(3000, function(){
 //set the view engine to use pug for templating
 app.set("view engine", "pug");
 
-///served the home route
+///serve the home route
 app.get('/', (req, res) => {
     
     //basic response with the send method
@@ -20,11 +32,19 @@ app.get('/', (req, res) => {
      res.end();
  });
 
- ///served the second route
- app.get('/second', (req, res) => {
+ ///serve the second route
+ app.get('/cards', (req, res) => {
      
     //basic response with the send method
-     res.send('<h1>This is the second route</h1>');
+     res.render('cards', {prompt: "Who is buried in Grant's tomb?"});
+     res.end();
+ });
+
+  ///serve the third route
+  app.get('/register', (req, res) => {
+     
+    //basic response with the send method
+     res.render('register', {title: "Register of users", names});
      res.end();
  });
  

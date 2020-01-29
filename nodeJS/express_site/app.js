@@ -43,7 +43,25 @@ app.get('/', (req, res) => {
   app.get('/register', (req, res) => {
      
     //basic response with the send method
-     res.render('register', {page_title: "Register of users", names});
+     res.render('register', {page_title: "Flash Card App: Register of users", names});
      res.end();
+    
+ });
+
+  ///serve the 4th route which will be a post route 
+  app.get('/hello', (req, res) => {
+     
+    //basic response with the send method
+     res.render('hello', { page_title: "Flash Card App: Hello Route"});
+     res.end();
+    
+ });
+ 
+ app.post('/hello', (req, res) => {
+     
+    //basic response with the send method
+     res.render('hello');
+     res.end();
+    
  });
  

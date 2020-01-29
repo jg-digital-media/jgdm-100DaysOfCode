@@ -1,29 +1,15 @@
-<!DOCTYPE html>
-html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title Flash Cards
+extends layout.pug
 
-        // Stylesheets
-        link(rel="stylesheet" type="text/css" href="./style.css")
-    body
-        header
-            h1 Name Register
+block content
+    h1 Name Register
 
-        section#content
-            h2= title
+    section#content
+        table
+            tr
+                th First Name 
+                th Last Name 
             
-            table
-                tr
-                    th First Name 
-                    th Last Name 
-                
-                    each name in names    
-                        tr                   
-                            td #{name.split( ' ' )[0]} 
-                            td #{name.split( ' ' )[1]}                             
-
-        footer
-            p An app to help you study!
+                each name in names    
+                    tr                   
+                        td #{name.split( ' ' )[0]} 
+                        td #{name.split( ' ' )[1]}    

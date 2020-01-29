@@ -1,18 +1,12 @@
-<!DOCTYPE html>
-html(lang="en")
-    head
-        meta(charset="UTF-8")
-        meta(name="viewport", content="width=device-width, initial-scale=1.0")
-        meta(http-equiv="X-UA-Compatible", content="ie=edge")
-        title Home Route
+extends layout.pug
 
-        // Stylesheets
-        link(rel="stylesheet" type="text/css" href="./style.css")
-    body
-        header Home Route
-            .nav
-              ul
-                li Home
-                li Cards
-                li Register
-        section#content The future home of something magical
+block content
+    h1 Home Route
+    .nav
+        ul
+        li Home
+        li Cards
+        li Register
+
+    section#content 
+        h2 The future home of something magical

@@ -27,7 +27,7 @@ app.set("view engine", "pug");
 app.get('/', (req, res) => {
     
     //basic response with the send method
-     res.render('index');
+     res.render('index', {page_title: "Flash Card App"});
      res.end();
  });
 
@@ -35,7 +35,7 @@ app.get('/', (req, res) => {
  app.get('/cards', (req, res) => {
      
     //basic response with the send method
-     res.render('cards', {prompt: "Who is buried in Grant's tomb?"});
+     res.render('cards', {page_title: "Flash Card App", prompt: "Who is buried in Grant's tomb?"});
      res.end();
  });
 
@@ -43,7 +43,7 @@ app.get('/', (req, res) => {
   app.get('/register', (req, res) => {
      
     //basic response with the send method
-     res.render('register', {title: "Register of users", names});
+     res.render('register', {page_title: "Register of users", names});
      res.end();
  });
  

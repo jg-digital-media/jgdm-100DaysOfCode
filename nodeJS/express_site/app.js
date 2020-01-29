@@ -1,14 +1,13 @@
 const express = require('express');
 
 // data
-
 const names = [
-    "Jack",
-    "Jill",
-    "John",
-    "Jonah",
-    "Jamaal",
-    "Joe"
+    "Jack Bauer",
+    "Jill Green",
+    "John Joe",
+    "Jonah Whale",
+    "Jamaal LH",
+    "Joe Fisher"
 ]
 
 

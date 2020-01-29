@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 13 of 100. **Last Update:** 28 January 2020
+## **Status:** Day 14 of 100. **Last Update:** 29 January 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R4D14:  Wednesday 29th January 2020
++ **Notes** -  I introduced myself to the put method in Express routing for handling user interaction and made sure my Pug templates were organised. Looking forward to learning a bit more about Express's Request and Response objects. Thw express website/app is taking shape!  :)
+
+
++ **Technologies used** - Node.js, PUG, Sonic Pi
 
 ### R4D13:  Tuesday 28th January 2020
 + **Notes** - Built a bit more into the Express app. 3 routes now served and templates now use logic and loops using Pug as the template engine. 

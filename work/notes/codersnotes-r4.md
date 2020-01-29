@@ -9,6 +9,41 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
 
+### Day 14
+
+------> extends vs includes
+
+-> In a template, a block is simply a “block” of Pug that a child template may replace. This process is recursive.   Content that inherits content from another file and that content is placed in a certain area of the parent file
+
+-> Includes allow you to insert the contents of one pug file to another.
+
+
+https://pugjs.org/language/inheritance.html
+
+
+For post Requests, you require 2 different routes 
+
+.get() and .post()
+
+```javascript
+------> The basics of using .post()
+///serve the 4th route which will be a post route 
+  app.get('/hello', (req, res) => {
+     
+    //basic response with the send method
+     res.render('hello', { page_title: "Flash Card App: Hello Route"});
+     res.end();
+    
+ });
+ 
+ app.post('/hello', (req, res) => {
+     
+    //basic response with the send method
+     res.render('hello');
+     res.end();
+    
+ });```
+
 ### Day 13
 
 3 routes now served and templates now use logic and loops using Pug.  Had some trouble looping over values from  2 arrays to form data in a table elment.

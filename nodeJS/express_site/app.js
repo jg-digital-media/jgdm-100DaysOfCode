@@ -1,5 +1,8 @@
 const express = require('express');
 
+//import body-parser middleware
+const bodyParser = require("body-parser");
+
 // data
 const names = [
     "Jack Bauer",
@@ -22,6 +25,11 @@ app.listen(3000, function(){
 
 //set the view engine to use pug for templating
 app.set("view engine", "pug");
+
+//use bodyParser middleware
+app.use(bodyParser.urlencoded({extended: false}));
+
+/*ROUTES*/
 
 ///serve the home route
 app.get('/', (req, res) => {
@@ -61,6 +69,7 @@ app.get('/', (req, res) => {
      
     //basic response with the send method
      res.render('hello');
+     console.log(req.body);
      res.end();
     
  });

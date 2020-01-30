@@ -68,8 +68,8 @@ app.get('/', (req, res) => {
  app.post('/hello', (req, res) => {
      
     //basic response with the send method
-     res.render('hello');
-     console.log(req.body);
+     res.render('hello', {name: req.body.username});
+     //console.log(req.body);
      res.end();
     
  });

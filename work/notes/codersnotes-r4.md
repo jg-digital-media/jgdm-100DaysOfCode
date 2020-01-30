@@ -9,6 +9,28 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
 
+### Day 15 
+
+
+Unit 3
+
+
+https://github.com/craigsdennis/intro-to-apis-flask
+
+https://github.com/craigsdennis/intro-to-apis-flask.git
+
+Glitch Live project link.
+https://craigsdennis-intro-to-apis-flask-9cm9d1hj4i.glitch.me
+
+
+Glitch ----> Tools ----> Logs  ---> console
+
+store new outpout of packages to requirements file
+pip freeze > requirements.txt
+
+
+refresh - show changes in the console
+
 ### Day 14
 
 ------> extends vs includes

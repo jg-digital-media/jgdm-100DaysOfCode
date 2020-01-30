@@ -1,11 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 14 of 100. **Last Update:** 29 January 2020
+## **Status:** Day 15 of 100. **Last Update:** 30 January 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R4D15:  Thursday 30th January 2020
++ **Notes** -  Completed the Request/Response cycle for my app in Express.  I also sent some texts from the Twilio API in Python using Glitch.com. Glitch is the answer to my prayers as to somewhere to serve Node Apps.  :)
+
+
++ **Technologies used** - Node.js, PUG, Python
 ### R4D14:  Wednesday 29th January 2020
 + **Notes** -  I introduced myself to the put method in Express routing for handling user interaction and made sure my Pug templates were organised. Looking forward to learning a bit more about Express's Request and Response objects. Thw express website/app is taking shape!  :)
 

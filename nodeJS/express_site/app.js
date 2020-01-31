@@ -2,6 +2,7 @@ const express = require('express');
 
 //import body-parser middleware
 const bodyParser = require("body-parser");
+const cookieParser = require("cookie-parser");
 
 // data
 const names = [
@@ -28,6 +29,8 @@ app.set("view engine", "pug");
 
 //use bodyParser middleware
 app.use(bodyParser.urlencoded({extended: false}));
+app.use(cookieParser());
+
 
 /*ROUTES*/
 
@@ -60,17 +63,18 @@ app.get('/', (req, res) => {
   app.get('/hello', (req, res) => {
      
     //basic response with the send method
-     res.render('hello', { page_title: "Flash Card App: Hello Route"});
+     res.render('hello', { name: req.cookies.username,  page_title: "Flash Card App: Hello Route"});
      res.end();
     
  });
  
  app.post('/hello', (req, res) => {
      
-    //basic response with the send method
-     res.render('hello', {name: req.body.username});
-     //console.log(req.body);
-     res.end();
+    //basic response with the send method,
+    res.cookie('username', req.body.username);
+    res.render('hello', {name: req.body.username});
+    //console.log(req.body);
+    res.end();
     
  });
  

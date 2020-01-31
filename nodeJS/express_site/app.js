@@ -38,7 +38,7 @@ app.use(cookieParser());
 app.get('/', (req, res) => {
     
     //basic response with the send method
-     res.render('index', {page_title: "Flash Card App"});
+     res.render('index', {name: req.cookies.username, page_title: "Flash Card App"});
      res.end();
  });
 
@@ -63,7 +63,7 @@ app.get('/', (req, res) => {
   app.get('/hello', (req, res) => {
      
     //basic response with the send method
-     res.render('hello', { name: req.cookies.username,  page_title: "Flash Card App: Hello Route"});
+     res.render('hello', { page_title: "Flash Card App: Hello Route"});
      res.end();
     
  });
@@ -72,7 +72,7 @@ app.get('/', (req, res) => {
      
     //basic response with the send method,
     res.cookie('username', req.body.username);
-    res.render('hello', {name: req.body.username});
+    res.redirect('/');
     //console.log(req.body);
     res.end();
     

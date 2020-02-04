@@ -24,12 +24,27 @@ app.listen(3000, function(){
 
 });
 
+
+/*MIDDLEWARE*/
+
 //set the view engine to use pug for templating
 app.set("view engine", "pug");
 
-//use bodyParser middleware
+app.use(() => {
+    console.log("Hello");
+    next();
+ });
+ 
+ app.use(() => {
+     console.log(", World");
+     next();
+ });
+
+//use bodyParser and cookieParser middleware - third party.
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
+
+
 
 
 /*ROUTES*/

@@ -1,13 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 17 of 100. **Last Update:** 03 February 2020
+## **Status:** Day 18 of 100. **Last Update:** 04 February 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R4D18:  Tuesday 03 February 2020
++ **Notes** -  Got some routes to successfully redirect and have a functioning simple app now.  Now diving and learning what Middleware is all about. Not as intimidating as I imagined.
+
++ **Technologies used** - Node.js, Express.js
+
 ### R4D17:  Monday 03 February 2020
-+ **Notes** -  Sonic Pi Sampling and testing for potential incusion in a video. testing.
++ **Notes** -  Sonic Pi Sampling and testing for potential inclusion in a video. testing.
 
 + **Technologies used** - Sonic Pi
 

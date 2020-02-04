@@ -9,6 +9,39 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
 
+### Day 18
+
+#### Notes Express Progress.
+CSS apparently served through something called static assets
+
+I now have a functioning simple app which stores data in a cookie and has multiple routes using both GET and POST Requests.  My app also uses PUG templating for the front end.
+
+Now to learn a bit more about Middleware.
+
+
+```javascript
+app.use((req, res, next) => {
+    console.log('One');
+
+    //call the next function 
+    next();
+}, 
+(req, res, next) => {
+    console.log('Two');
+    next();
+});
+
+app.use((req, res, next) => {
+    console.log('Three');
+    next();
+});
+
+
+```
+
+In middleware, you can also end a function by sending a response to the client.
+
+Either call next() or send a response.
 
 
 ### Day 15 

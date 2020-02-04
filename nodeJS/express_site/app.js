@@ -83,15 +83,21 @@ app.get('/', (req, res) => {
  
  app.post('/hello', (req, res) => {
      
-    const name = 
+    const name = req.body.username
     //basic response with the send method,
 
     
-    res.cookie('username', req.body.username);
+    res.cookie('username', name);
     res.redirect('/');
     
     //console.log(req.body);
     res.end();
     
  });
+
+ app.post('/goodbye', (req, res) => {
+    //res.clearCookie(req.cookies.username);
+    res.clearCookie('username');
+    res.redirect('/hello');
+ })
  

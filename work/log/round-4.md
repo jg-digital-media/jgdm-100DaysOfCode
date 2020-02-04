@@ -1,15 +1,20 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 16 of 100. **Last Update:** 31 January 2020
+## **Status:** Day 17 of 100. **Last Update:** 03 February 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R4D17:  Monday 03 February 2020
++ **Notes** -  Sonic Pi Sampling and testing for potential incusion in a video. testing.
+
++ **Technologies used** - Sonic Pi
+
 ### R4D16:  Friday 31st January 2020
 + **Notes** -  Worked on persisting data in Express with Cookies which is much simpler than it seems.  Also sorted out the templating to something more efficient in Pug.
 
-+ **Technologies used** - Node.js, HTML5 Sonic Pi
++ **Technologies used** - Node.js, HTML5, Sonic Pi
 
 ### R4D15:  Thursday 30th January 2020
 + **Notes** -  Completed the Request/Response cycle for my app in Express.  I also sent some texts from the Twilio API in Python using Glitch.com. Glitch is the answer to my prayers as to somewhere to serve Node Apps.  :)

@@ -36,9 +36,15 @@ app.use(cookieParser());
 
 ///serve the home route
 app.get('/', (req, res) => {
+
+    const name = req.cookies.username;
     
     //basic response with the send method
-     res.render('index', {name: req.cookies.username, page_title: "Flash Card App"});
+    if(name) {        
+        res.render('index', {name, page_title: "Flash Card App"});
+    } else {
+        res.redirect('/hello');
+    }
      res.end();
  });
 
@@ -61,18 +67,29 @@ app.get('/', (req, res) => {
 
   ///serve the 4th route which will be a post route 
   app.get('/hello', (req, res) => {
-     
+    const name = req.cookies.username;
     //basic response with the send method
-     res.render('hello', { page_title: "Flash Card App: Hello Route"});
+
+    if(name) {
+        res.redirect('/');
+    } else 
+    {
+        res.render('hello', { page_title: "Flash Card App: Hello Route"});
+    }
+     
      res.end();
     
  });
  
  app.post('/hello', (req, res) => {
      
+    const name = 
     //basic response with the send method,
+
+    
     res.cookie('username', req.body.username);
     res.redirect('/');
+    
     //console.log(req.body);
     res.end();
     

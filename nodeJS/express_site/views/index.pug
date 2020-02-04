@@ -3,7 +3,8 @@ extends layout.pug
 block content
     h1 Home Route
 
-    h2 Welcome, #{name}
-
+    if name
+        h2 Welcome, #{name}
+    end
     section#content 
        p The future home of something magical

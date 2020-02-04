@@ -7668,7 +7668,7 @@ set-immediate-shim@^1.0.1:
 
 set-value@^2.0.1:
   version "2.0.1"
-  resolved "https://registry.yarnpkg.com/set-value/-/set-value-0.4.3.tgz#7db08f9d3d22dc7f78e53af3c3bf4666ecdfccf1"
+  resolved "https://registry.yarnpkg.com/set-value/-/set-value-2.0.1.tgz#7db08f9d3d22dc7f78e53af3c3bf4666ecdfccf1"
   dependencies:
     extend-shallow "^2.0.1"
     is-extendable "^0.1.1"

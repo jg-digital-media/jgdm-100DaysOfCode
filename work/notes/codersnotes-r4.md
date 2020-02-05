@@ -9,6 +9,29 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
 
+### Day 19
+
+#### Signal to Express.js of an error
+```javascript
+
+/*MIDDLEWARE*/
+
+//set the view engine to use pug for templating
+app.set("view engine", "pug");
+
+app.use((req, res, next) => {
+    console.log("Hello");
+    const err = new Error("Error message");
+    next(err);
+ });
+ 
+ app.use((req, res, next) => {
+     console.log(", World");
+     next();
+ });
+
+```
+
 ### Day 18
 
 #### Notes Express Progress.

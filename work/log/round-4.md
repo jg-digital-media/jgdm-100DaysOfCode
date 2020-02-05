@@ -6,7 +6,12 @@ ___
 ___
 
 
-### R4D18:  Tuesday 03 February 2020
+### R4D19:  Wednesday 05 February 2020
++ **Notes** -  Having a bit of trouble with Express middleware today. I manageg to make a working commit that tells Express an error has occured but error handlig needs more work.  Happy to make it this far. :)
+
++ **Technologies used** - Node.js, Express.js
+
+### R4D18:  Tuesday 04 February 2020
 + **Notes** -  Got some routes to successfully redirect and have a functioning simple app now.  Now diving and learning what Middleware is all about. Not as intimidating as I imagined.
 
 + **Technologies used** - Node.js, Express.js

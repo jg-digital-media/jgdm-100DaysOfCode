@@ -18,24 +18,18 @@ const names = [
 //express function
 const app = express();
 
-//set up the development server listen method - port number
-app.listen(3000, function(){
-    console.log("server currently running on Heroku")
-
-});
-
-
 /*MIDDLEWARE*/
 
 //set the view engine to use pug for templating
 app.set("view engine", "pug");
 
-app.use(() => {
+app.use((req, res, next) => {
     console.log("Hello");
-    next();
+    const err = new Error("Error message");
+    next(err);
  });
  
- app.use(() => {
+ app.use((req, res, next) => {
      console.log(", World");
      next();
  });
@@ -114,5 +108,19 @@ app.get('/', (req, res) => {
     //res.clearCookie(req.cookies.username);
     res.clearCookie('username');
     res.redirect('/hello');
- })
+ });
+
+/*  //error middleware
+ app.use((err, req, res, next) => {
+   // do something
+   res.status(err.status)   
+   res.render('error'), err;
+   res.end();
+
+}); */
  
+//set up the development server listen method - port number
+app.listen(3000, function(){
+    console.log("server currently running on Heroku")
+
+});

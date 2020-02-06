@@ -1,13 +1,23 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 18 of 100. **Last Update:** 04 February 2020
+## **Status:** Day 20 of 100. **Last Update:** 06 February 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R4D20:  Thursday 06 February 2020
++ **Notes** -  
+  + Finished the basic skeleton of an Express app. So happy with what I've learned about doing so far. Now I feel like the real hard work is about to begin.
+
+  + Sometimes all it takes to fix your problem is to come back another day!  Last night I commented out the breaking code from yesterday and committed the last working version of the Express app.  I then re-entered the code and it worked.
+
+  + Also today I wrote some Ruby in Sonic Pi to make a nice little jingle for some video Idents I'm creating.
+
++ **Technologies used** - Node.js, Express.js, Sonic Pi
+
 ### R4D19:  Wednesday 05 February 2020
-+ **Notes** -  Having a bit of trouble with Express middleware today. I manageg to make a working commit that tells Express an error has occured but error handlig needs more work.  Happy to make it this far. :)
++ **Notes** -  Having a bit of trouble with Express middleware today. I managed to make a working commit that tells Express an error has occoured but error handling needs more work.  Happy to make it this far. :)
 
 + **Technologies used** - Node.js, Express.js
 

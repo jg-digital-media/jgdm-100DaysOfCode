@@ -9,6 +9,12 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
 
+### Day 20
+
+Finished the basic skeleton of an Express app. So happy with what I've learned about doing so.
+
+Sometimes all it takes to fix your problem is to come back another day!  Last night I commented out the breaking code from yesterday and committed the last working version of the Express app.  I then re-entered the code and it worked.
+
 ### Day 19
 
 #### Signal to Express.js of an error

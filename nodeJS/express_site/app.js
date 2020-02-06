@@ -26,6 +26,7 @@ app.set("view engine", "pug");
 app.use((req, res, next) => {
     console.log("Hello");
     const err = new Error("Error message");
+    err.status = 500;
     next(err);
  });
  
@@ -110,14 +111,17 @@ app.get('/', (req, res) => {
     res.redirect('/hello');
  });
 
-/*  //error middleware
+
+  //error middleware
  app.use((err, req, res, next) => {
    // do something
-   res.status(err.status)   
-   res.render('error'), err;
+   //res.status(err.status)   
+   res.locals.error = err;
+   res.status(err.status);
+   res.render('error');
    res.end();
 
-}); */
+}); /**/
  
 //set up the development server listen method - port number
 app.listen(3000, function(){

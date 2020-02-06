@@ -25,14 +25,12 @@ app.set("view engine", "pug");
 
 app.use((req, res, next) => {
     console.log("Hello");
-    const err = new Error("Error message");
-    err.status = 500;
-    next(err);
+    next();
  });
  
  app.use((req, res, next) => {
-     console.log(", World");
-     next();
+    console.log(", World");
+    next();
  });
 
 //use bodyParser and cookieParser middleware - third party.
@@ -111,8 +109,15 @@ app.get('/', (req, res) => {
     res.redirect('/hello');
  });
 
+ //404 Middleware!
+ app.use((res, req, next) => {
+    const err = new Error('Page Not Found!');
+    err.status = 404;
+    next(err);
+});
 
-  //error middleware
+
+//error handler middleware
  app.use((err, req, res, next) => {
    // do something
    //res.status(err.status)   

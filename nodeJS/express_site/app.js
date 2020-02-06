@@ -4,7 +4,7 @@ const express = require('express');
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 
-// data
+//list data
 const names = [
     "Jack Bauer",
     "Jill Green",
@@ -15,7 +15,7 @@ const names = [
 ]
 
 
-//express function
+//Express launch function
 const app = express();
 
 /*MIDDLEWARE*/
@@ -33,16 +33,31 @@ app.use((req, res, next) => {
     next();
  });
 
+//404 Middleware!
+app.use((res, req, next) => {
+    const err = new Error('Page Not Found!');
+    err.status = 404;
+    next(err);
+});
+
+//error handler middleware
+app.use((err, req, res, next) => {
+    // do something
+    //res.status(err.status)   
+    res.locals.error = err;
+    res.status(err.status);
+    res.render('error');
+    res.end();
+ 
+ }); 
+
 //use bodyParser and cookieParser middleware - third party.
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 
-
-
-
 /*ROUTES*/
 
-///serve the home route
+//serve the home route
 app.get('/', (req, res) => {
 
     const name = req.cookies.username;
@@ -56,7 +71,7 @@ app.get('/', (req, res) => {
      res.end();
  });
 
- ///serve the second route
+ //serve the second route
  app.get('/cards', (req, res) => {
      
     //basic response with the send method
@@ -64,37 +79,37 @@ app.get('/', (req, res) => {
      res.end();
  });
 
-  ///serve the third route
-  app.get('/register', (req, res) => {
+//serve the third route
+app.get('/register', (req, res) => {
      
     //basic response with the send method
-     res.render('register', {page_title: "Flash Card App: Register of users", names});
-     res.end();
+    res.render('register', {page_title: "Flash Card App: Register of users", names});
+    res.end();
     
  });
 
-  ///serve the 4th route which will be a post route 
-  app.get('/hello', (req, res) => {
-    const name = req.cookies.username;
-    //basic response with the send method
+//serve the 4th route which will be a post route 
+app.get('/hello', (req, res) => {
 
+    //store cookie
+    const name = req.cookies.username;
+    
+    //perform actions based on setting of cookie
     if(name) {
         res.redirect('/');
-    } else 
-    {
+    } else {
         res.render('hello', { page_title: "Flash Card App: Hello Route"});
     }
      
-     res.end();
+    res.end();
     
  });
  
  app.post('/hello', (req, res) => {
      
-    const name = req.body.username
-    //basic response with the send method,
+    const name = req.body.username;
 
-    
+    //basic response with the send method,
     res.cookie('username', name);
     res.redirect('/');
     
@@ -104,32 +119,14 @@ app.get('/', (req, res) => {
  });
 
  app.post('/goodbye', (req, res) => {
+
     //res.clearCookie(req.cookies.username);
     res.clearCookie('username');
     res.redirect('/hello');
  });
 
- //404 Middleware!
- app.use((res, req, next) => {
-    const err = new Error('Page Not Found!');
-    err.status = 404;
-    next(err);
-});
-
-
-//error handler middleware
- app.use((err, req, res, next) => {
-   // do something
-   //res.status(err.status)   
-   res.locals.error = err;
-   res.status(err.status);
-   res.render('error');
-   res.end();
-
-}); /**/
- 
-//set up the development server listen method - port number
+//Set up the development server listen method - port number
 app.listen(3000, function(){
-    console.log("server currently running on Heroku")
+    console.log("server currently running on Heroku");
 
 });

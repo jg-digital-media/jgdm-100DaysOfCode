@@ -9,6 +9,31 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
 
+### Day 21
+
+Modularise App - Move Routes into a separate file.  - this is common practice
+
+Step 1   index.js
+
+Using the Router constructor to create a file with a new set of routes.
+
+const express = require("express");
+const routes = express.Router();
+
+
+module.exports = routes;
+
+
+
+Step 2  - 
+Use the routes by importing them and passing them in as middleware
+
+const indexRouter = require("./routes");
+const cardsRouter = require("./routes/cards");
+
+app.use(indexRouter);
+app.use(cardsRouter);
+
 ### Day 20
 
 Finished the basic skeleton of an Express app. So happy with what I've learned about doing so.

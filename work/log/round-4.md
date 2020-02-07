@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 20 of 100. **Last Update:** 06 February 2020
+## **Status:** Day 21 of 100. **Last Update:** 07 February 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R4D21:  Friday 07 February 2020
++ **Notes** - Made the Express.js code a lot more organised. The app remains functional but there's one route in the app that still does not work.  Trying to get help to work out why that might be.
+
++ **Technologies used** - Node.js, Express.js, Sonic Pi
 
 ### R4D20:  Thursday 06 February 2020
 + **Notes** -  

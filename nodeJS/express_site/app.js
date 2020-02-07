@@ -17,39 +17,9 @@ const names = [
 
 //Express launch function
 const app = express();
-
-/*MIDDLEWARE*/
-
 //set the view engine to use pug for templating
 app.set("view engine", "pug");
 
-app.use((req, res, next) => {
-    console.log("Hello");
-    next();
- });
- 
- app.use((req, res, next) => {
-    console.log(", World");
-    next();
- });
-
-//404 Middleware!
-app.use((res, req, next) => {
-    const err = new Error('Page Not Found!');
-    err.status = 404;
-    next(err);
-});
-
-//error handler middleware
-app.use((err, req, res, next) => {
-    // do something
-    //res.status(err.status)   
-    res.locals.error = err;
-    res.status(err.status);
-    res.render('error');
-    res.end();
- 
- }); 
 
 //use bodyParser and cookieParser middleware - third party.
 app.use(bodyParser.urlencoded({extended: false}));
@@ -123,6 +93,36 @@ app.get('/hello', (req, res) => {
     //res.clearCookie(req.cookies.username);
     res.clearCookie('username');
     res.redirect('/hello');
+ });
+
+ /*MIDDLEWARE*/
+
+/* app.use((req, res, next) => {
+    console.log("Hello");
+    next();
+ });
+ 
+ app.use((req, res, next) => {
+    console.log(", World");
+    next();
+ }); */
+
+//404 Middleware!
+app.use((res, req, next) => {
+    const err = new Error('Page Not Found!');
+    err.status = 404;
+    next(err);
+});
+
+//error handler middleware
+app.use((err, req, res, next) => {
+    // do something
+    //res.status(err.status)   
+    res.locals.error = err;
+    res.status(err.status);
+    res.render('error');
+    res.end();
+ 
  });
 
 //Set up the development server listen method - port number

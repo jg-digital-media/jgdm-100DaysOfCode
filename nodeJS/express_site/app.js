@@ -4,15 +4,6 @@ const express = require('express');
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 
-//list data
-const names = [
-    "Jack Bauer",
-    "Jill Green",
-    "John Joe",
-    "Jonah Whale",
-    "Jamaal LH",
-    "Joe Fisher"
-]
 
 
 //Express launch function
@@ -58,7 +49,7 @@ app.use((err, req, res, next) => {
     res.status(err.status);
     res.render('error');
     next();
-    res.end();
+    //res.end();
  
  });
 

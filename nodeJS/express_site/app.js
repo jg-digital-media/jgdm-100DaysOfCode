@@ -20,7 +20,7 @@ const indexRouter = require("./routes");
 const cardsRouter = require("./routes/cards");
 
 app.use(indexRouter);
-app.use(cardsRouter);
+app.use('/cards', cardsRouter);
 
 /*MIDDLEWARE*/
 

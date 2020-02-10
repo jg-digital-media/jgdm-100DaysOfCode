@@ -1,15 +1,20 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 21 of 100. **Last Update:** 07 February 2020
+## **Status:** Day 22 of 100. **Last Update:** 10 February 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R4D22:  Monday 10 February 2020
++ **Notes** - Fixed the problem with 1 route then introduced another as I learn about Route parameters in Express.  Route params are partially working but the main route now causes 404 error. Still have a bit more to learn about these though.  
+
++ **Technologies used** - Node.js, Express.js, Sonic Pi
+
 ### R4D21:  Friday 07 February 2020
 + **Notes** - Made the Express.js code a lot more organised. The app remains functional but there's one route in the app that still does not work.  Trying to get help to work out why that might be.
 
-+ **Technologies used** - Node.js, Express.js, Sonic Pi
++ **Technologies used** - Node.js, Express.js
 
 ### R4D20:  Thursday 06 February 2020
 + **Notes** -  

@@ -9,6 +9,28 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
 
+### Day 22
+
+```javascript
+
+/*Route Parameters in Express*/
+
+ //serve the cards route
+ routes.get('/:id', (req, res) => {
+     
+    //basic response with the send method
+    res.render('cards', {
+         page_title: "Flash Card App", 
+         prompt: cards[req.params.id].question,
+         hint: cards[req.params.id].hint
+    });
+     
+    //res.end();
+ });
+
+```
+
+
 ### Day 21
 
 Modularise App - Move Routes into a separate file.  - this is common practice

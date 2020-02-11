@@ -20,7 +20,7 @@
 
 ```json
 
-//Boilerplate code for a Web Manifest file
+//Boilerplate code for a Web Manifest file - Documentation: https://developers.google.com/web/fundamentals/web-app-manifest
 
 {
   "name": "",

@@ -2,17 +2,13 @@ const express = require("express");
 const routes = express.Router();
 
 const { data } = require("../data/flashcardData.json");
-const { cards } = data;
+//const { cards } = data;
 
  //serve the cards route
- routes.get('/:id', (req, res) => {
+ routes.get('/', (req, res) => {
      
     //basic response with the send method
-    res.render('cards', {
-         page_title: "Flash Card App", 
-         prompt: cards[req.params.id].question,
-         hint: cards[req.params.id].hint
-    });
+    res.render('cards', { prompt: "who is buried in Grant's Tomb?"});
      
     //res.end();
  });

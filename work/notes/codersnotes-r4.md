@@ -9,6 +9,82 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
 
+### Day 23
+
+
+#### PWA Terms
+
+**Progressive Web App:** A Progressive Web App is a web app that delivers an app-like experience to users by using modern web capabilities.
+
+**Web Manifest File:** The web app manifest is a simple JSON file that informs the browser about your web app and how it should behave when installed on the user's mobile device or desktop.
+
+```json
+
+//Boilerplate code for a Web Manifest file
+
+{
+  "name": "",
+  "short_name": "",
+  "start_url": "index.html",
+  "display": "",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "",
+  "icons": [
+    {
+      "src": "/images/icons/icon-72x72.png",
+      "type": "image/png", "sizes": "72x72"
+    },
+    {
+      "src": "/images/icons/icon-96x96.png",
+      "type": "image/png", "sizes": "96x96"
+    },
+    {
+      "src": "/images/icons/icon-128x128.png",
+      "type": "image/png","sizes": "128x128"
+    },
+    {
+      "src": "/images/icons/icon-144x144.png",
+      "type": "image/png", "sizes": "144x144"
+    },
+    {
+      "src": "/images/icons/icon-152x152.png",
+      "type": "image/png", "sizes": "152x152"
+    },
+    {
+      "src": "/images/icons/icon-192x192.png",
+      "type": "image/png", "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons/icon-384x384.png",
+      "type": "image/png", "sizes": "384x384"
+    },
+    {
+      "src": "/images/icons/icon-512x512.png",
+      "type": "image/png", "sizes": "512x512"
+    }
+  ]
+}
+```
+
+```html
+<!-- HEAD TAG -->
+<link rel="manifest" href="manifest.json" />
+<!-- ios support -->
+<link rel="apple-touch-icon" href="images/icons/icon-72x72.png" />
+<link rel="apple-touch-icon" href="images/icons/icon-96x96.png" />
+<link rel="apple-touch-icon" href="images/icons/icon-128x128.png" />
+<link rel="apple-touch-icon" href="images/icons/icon-144x144.png" />
+<link rel="apple-touch-icon" href="images/icons/icon-152x152.png" />
+<link rel="apple-touch-icon" href="images/icons/icon-192x192.png" />
+<link rel="apple-touch-icon" href="images/icons/icon-384x384.png" />
+<link rel="apple-touch-icon" href="images/icons/icon-512x512.png" />
+<meta name="apple-mobile-web-app-status-bar" content="#db4938" />
+<meta name="theme-color" content="#db4938" />
+```
+
+**Service Worker:**   A service worker is a script that your browser runs in the background in a separate thread.  network requests  only works on https:
+
 ### Day 22
 
 ```javascript

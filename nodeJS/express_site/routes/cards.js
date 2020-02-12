@@ -11,11 +11,11 @@ const { cards } = data;
    const text = cards[id][side];   
    const { hint } = cards[id];
 
-   //console.log(req.query);
-   //console.log(req.params);
-   //console.log(cards[id][side]);
-   //console.log(text);
-   //console.log(cards[id]);
+   console.log(req.query);
+   console.log(req.params);
+   console.log(cards[id][side]);
+   console.log(text);
+   console.log(cards[id]);
 
    const templateData = { text, hint };
    res.render('cards', templateData);

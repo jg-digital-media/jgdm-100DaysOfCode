@@ -8,11 +8,17 @@ const { cards } = data;
  routes.get('/:id', (req, res) => {
    const { side } = req.query;
    const { id } = req.params;
-   const text = cards[id][side];
+   const text = cards[id][side];   
    const { hint } = cards[id];
 
+   //console.log(req.query);
+   //console.log(req.params);
+   //console.log(cards[id][side]);
+   //console.log(text);
+   //console.log(cards[id]);
+
    const templateData = { text, hint };
-   res.render('card', templateData);
+   res.render('cards', templateData);
 });
 
 

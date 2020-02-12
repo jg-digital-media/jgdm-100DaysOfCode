@@ -4,17 +4,15 @@ const express = require('express');
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 
-
-
 //Express launch function
 const app = express();
-//set the view engine to use pug for templating
-app.set("view engine", "pug");
-
 
 //use bodyParser and cookieParser middleware - third party.
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
+
+//set the view engine to use pug for templating
+app.set("view engine", "pug");
 
 const indexRouter = require("./routes");
 const cardsRouter = require("./routes/cards");
@@ -35,7 +33,7 @@ app.use('/cards', cardsRouter);
  }); */
 
 //404 Middleware!
-app.use((res, req, next) => {
+app.use((req, res, next) => {
     const err = new Error('Page Not Found!');
     err.status = 404;
     next(err);
@@ -43,8 +41,6 @@ app.use((res, req, next) => {
 
 //error handler middleware
 app.use((err, req, res, next) => {
-    // do something
-    //res.status(err.status)   
     res.locals.error = err;
     res.status(err.status);
     res.render('error');
@@ -54,7 +50,7 @@ app.use((err, req, res, next) => {
  });
 
 //Set up the development server listen method - port number
-app.listen(3000, function(){
+app.listen(3000, () => {
     console.log("server currently running on Heroku");
 
 });

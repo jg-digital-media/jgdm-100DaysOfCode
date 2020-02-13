@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 23 of 100. **Last Update:** 11 February 2020
+## **Status:** Day 24 of 100. **Last Update:** 12 February 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+### R4D24:  Wednesday 12 February 2020
++ **Notes** - Fixed Cards Route.  Headers still being modified when Query parameters sent.  
+
++ **Technologies used** - Node.js, Express.js, HTML5, CSS
 
 ### R4D23:  Tuesday 11 February 2020
 + **Notes** - Learning curve with Express.js continues.  In the meantime I'm learning some things about implementing Progressive Web Apps using JavaScript.  

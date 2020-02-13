@@ -12,12 +12,23 @@ const { cards } = data;
    const { hint } = cards[id];
 
    console.log(req.query);
+   console.log(req.query.side);
    console.log(req.params);
    console.log(cards[id][side]);
    console.log(text);
    console.log(cards[id]);
 
-   const templateData = { text, hint };
+   const templateData = { id, text };
+
+   if (side === 'question') {
+     templateData.hint = hint;
+     templateData.sideToShow = 'answer';
+     templateData.sideToShowDisplay = 'Answer';
+   } else if (side === 'answer') {
+     templateData.sideToShow = 'question';
+     templateData.sideToShowDisplay = 'Question';
+   }
+   
    res.render('cards', templateData);
 });
 

@@ -9,6 +9,90 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
 
+### Day 25
+
+```layout.put
+
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title= page_title
+
+        // Stylesheets
+        //link(rel="stylesheet" type="text/css" href="./style.css")
+    body
+    
+        include includes/header.pug  
+        if name 
+            h2 Welcome, #{name}
+
+            form(action="/goodbye" method="post")
+                button.submit Goodbye!
+        p
+        a(href='/cards') Begin     
+
+        block content
+
+        include includes/footer.pug
+```
+
+```cards.js
+const express = require("express");
+const routes = express.Router();
+
+const { data } = require("../data/flashcardData.json");
+const { cards } = data;
+
+
+routes.get( '/', ( req, res ) => {
+  const numberOfCards = cards.length;
+  const flashcardId = Math.floor( Math.random() * numberOfCards );
+  res.redirect( `/cards/${flashcardId}?side=question` );
+});
+
+ //serve the cards route
+ routes.get('/:id', (req, res) => {
+   const { side } = req.query;
+   const { id } = req.params;
+
+
+   if ( !side ) {
+     res.redirect( `/cards/${id}?side=question` );
+   }
+
+   const name = req.cookies.username;
+   const text = cards[id][side];   
+   const { hint } = cards[id];
+
+   console.log(req.query);
+   console.log(req.query.side);
+   console.log(req.params);
+   console.log(cards[id][side]);
+   console.log(text);
+   console.log(cards[id]);
+
+   const templateData = { id, text, name};
+
+   if (side === 'question') {
+     templateData.hint = hint;
+     templateData.sideToShow = 'answer';
+     templateData.sideToShowDisplay = 'Answer';
+   } else if (side === 'answer') {
+     templateData.sideToShow = 'question';
+     templateData.sideToShowDisplay = 'Question';
+   }
+   
+   res.render('cards', templateData);
+});
+
+
+ //export cards routes to app.js
+ module.exports = routes;
+```
+
 ### Day 23
 
 

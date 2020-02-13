@@ -7,6 +7,11 @@ ___
 
 
 
+### R4D25:  Thursday 13 February 2020
++ **Notes** - The Express App is now working flawlessly. One little Pug generated link tag in a template has caused me so many headaches in the last week. But it's now fixed.  I've also started a new photography website project.
+
++ **Technologies used** - Node.js, Express.js, HTML5, CSS
+
 ### R4D24:  Wednesday 12 February 2020
 + **Notes** - Fixed Cards Route.  Headers still being modified when Query parameters sent.  
 

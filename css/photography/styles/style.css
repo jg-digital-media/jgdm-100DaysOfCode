@@ -12,3 +12,15 @@ h1 {
     margin: 0 auto;
     display: block;
 }
+
+.animal-slider {
+    border: solid red 1px;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.animals {
+    width: 25px;
+    width: 300px;
+}

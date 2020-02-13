@@ -13,6 +13,14 @@ h1 {
     display: block;
 }
 
+/*Intro Page Slider*/
+.slick-slide.slick-current.slick-active {
+    /* width: 41%; */
+    display: block;
+    margin: 0 auto;
+}
+
+/*Main Animal slider*/
 .animal-slider {
     border: solid red 1px;
     display: block;

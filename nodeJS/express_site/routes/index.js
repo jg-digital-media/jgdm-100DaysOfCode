@@ -11,7 +11,6 @@ const names = [
     "Joe Fisher"
 ]
 
-
 /*ROUTES*/
 
 //serve the home route
@@ -25,7 +24,8 @@ routes.get('/', (req, res) => {
     } else {
         res.redirect('/hello');
     }
-     //res.end();
+
+    res.end();
  });
 
 //serve the register route
@@ -33,7 +33,8 @@ routes.get('/register', (req, res) => {
      
     //basic response with the send method
     res.render('register', {page_title: "Flash Card App: Register of users", names});
-    //res.end();
+    
+    res.end();
     
  });
 
@@ -50,20 +51,21 @@ routes.get('/hello', (req, res) => {
         res.render('hello', { page_title: "Flash Card App: Hello Route"});
     }
      
-    //res.end();
+    res.end();
     
  });
  
+ //post route - send data through input form
  routes.post('/hello', (req, res) => {
      
     const name = req.body.username;
 
-    //basic response with the send method,
+    //set cookie data on the response
     res.cookie('username', name);
     res.redirect('/');
     
     //console.log(req.body);
-    //res.end();
+    res.end();
     
  });
 

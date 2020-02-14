@@ -4,33 +4,25 @@ const routes = express.Router();
 const { data } = require("../data/flashcardData.json");
 const { cards } = data;
 
-
+//randomise display of flash cards/
 routes.get( '/', ( req, res ) => {
   const numberOfCards = cards.length;
   const flashcardId = Math.floor( Math.random() * numberOfCards );
   res.redirect( `/cards/${flashcardId}?side=question` );
 });
 
- //serve the cards route
+ //serve the cards route - query string and route parameters
  routes.get('/:id', (req, res) => {
    const { side } = req.query;
    const { id } = req.params;
 
-
    if ( !side ) {
-     res.redirect( `/cards/${id}?side=question` );
+    return res.redirect( `/cards/${id}?side=question` );
    }
 
    const name = req.cookies.username;
    const text = cards[id][side];   
    const { hint } = cards[id];
-
-   console.log(req.query);
-   console.log(req.query.side);
-   console.log(req.params);
-   console.log(cards[id][side]);
-   console.log(text);
-   console.log(cards[id]);
 
    const templateData = { id, text, name};
 
@@ -38,10 +30,11 @@ routes.get( '/', ( req, res ) => {
      templateData.hint = hint;
      templateData.sideToShow = 'answer';
      templateData.sideToShowDisplay = 'Answer';
+
    } else if (side === 'answer') {
      templateData.sideToShow = 'question';
      templateData.sideToShowDisplay = 'Question';
-   }
+   }   
    
    res.render('cards', templateData);
 });

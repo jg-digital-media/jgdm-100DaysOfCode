@@ -20,6 +20,9 @@ const cardsRouter = require("./routes/cards");
 app.use(indexRouter);
 app.use('/cards', cardsRouter);
 
+//Create static server for front end assets
+app.use('/static', express.static('public') );
+
 /*MIDDLEWARE*/
 
 /* app.use((req, res, next) => {

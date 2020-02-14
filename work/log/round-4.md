@@ -1,16 +1,21 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 24 of 100. **Last Update:** 12 February 2020
+## **Status:** Day 26 of 100. **Last Update:** 14 February 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
+### R4D26:  Friday 14 February 2020
++ **Notes** - Completed the basics of an Express App.  Just a few things to sort out Styling ways and looking forward to deploy. 
+
++ **Technologies used** - Node.js, Express.js, HTML5, CSS
+
 ### R4D25:  Thursday 13 February 2020
 + **Notes** - The Express App is now working flawlessly. One little Pug generated link tag in a template has caused me so many headaches in the last week. But it's now fixed.  I've also started a new photography website project.
 
-+ **Technologies used** - Node.js, Express.js, HTML5, CSS
++ **Technologies used** - Node.js, Express.js, HTML5, CSS2
 
 ### R4D24:  Wednesday 12 February 2020
 + **Notes** - Fixed Cards Route.  Headers still being modified when Query parameters sent.  

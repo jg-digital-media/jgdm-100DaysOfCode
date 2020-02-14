@@ -9,6 +9,52 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
 
+### Day 26
+
+
+#### Serve a Static server in Express
+
+```javascript
+//in app.js
+
+//serve a static server in Express
+app.use( express.static( 'public' ) );
+
+//Create static server for front end assets
+// in a folder called static    localhost:3000/static/stylesheets/style.css
+app.use('/static', express.static('public') );
+
+
+```
+
+```layout.pug
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title= page_title
+
+        // Stylesheets
+        link(rel="stylesheet", type="text/css", href="/static/stylesheet/style.css")
+    body
+    
+        include includes/header.pug  
+        if name 
+            h2 Welcome, #{name}
+
+            form(action="/goodbye" method="post")
+                button.submit Goodbye!
+        p
+        a(href='/cards') Begin     
+
+        block content
+
+        include includes/footer.pug
+```
+
+
 ### Day 25
 
 ```layout.put

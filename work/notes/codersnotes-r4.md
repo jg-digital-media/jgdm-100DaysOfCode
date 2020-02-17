@@ -9,6 +9,29 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
 
+### Day 27
+
+Ditched the idea of Slick Carousels which proved to be too problematic for this project. Have successfully implemented Lightboxes though. 
+
+```html
+
+ data-lightbox= "animal"
+
+    <!-- Lightbox-->
+    <link href="assets/lightbox/dist/css/lightbox.css" rel="stylesheet" />
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+    <script type="text/javascript" src="assets/slick/slick.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+    <script src="assets/lightbox/dist/js/lightbox.js"></script>
+    
+
+    Source/Credit   https://lokeshdhakar.com/projects/lightbox2/
+
+```
+
 ### Day 26
 
 

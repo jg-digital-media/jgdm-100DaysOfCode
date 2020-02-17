@@ -1,13 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 26 of 100. **Last Update:** 14 February 2020
+## **Status:** Day 27 of 100. **Last Update:** 17 February 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
+### R4D27:  Friday 14 February 2020
++ **Notes** - Have the basis of a Photography website planned out and sorted.  Ditched Slick carousels in favour of a static Lightbox style gallery which I'll slowly put together into an interactive site.
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
 ### R4D26:  Friday 14 February 2020
+
 + **Notes** - Completed the basics of an Express App.  Just a few things to sort out Styling ways and looking forward to deploy. 
 
 + **Technologies used** - Node.js, Express.js, HTML5, CSS

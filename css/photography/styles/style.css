@@ -5,12 +5,36 @@
 
 h1 {
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
 }
 
 .coming-img {
-    width: 28%;
+    width: 60%;
     margin: 0 auto;
     display: block;
+}
+
+.intro {
+    width: 100%;
+    display: block;
+    font-size: 35px;
+    padding: 19px;
+    display: grid;
+}
+
+.btn {
+    border: solid 1px black;
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+    background: white;
+    text-decoration: none;
 }
 
 /*Intro Page Slider*/
@@ -18,6 +42,15 @@ h1 {
     /* width: 41%; */
     display: block;
     margin: 0 auto;
+}
+
+.intro-showreel {
+    border: solid red 1px;
+    /* display: block; */
+    display: inline;
+    margin: 0 auto;
+    width: 79%;
+
 }
 
 /*Main Animal slider*/
@@ -32,3 +65,5 @@ h1 {
     width: 25px;
     width: 300px;
 }
+
+/*Breapoints*/

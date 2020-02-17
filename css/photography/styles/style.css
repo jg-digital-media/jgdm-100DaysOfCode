@@ -54,6 +54,13 @@ h1 {
 }
 
 /*Main Animal slider*/
+
+header {
+background: beige;
+color: purple;
+}
+
+
 .animal-slider {
     border: solid red 1px;
     display: block;
@@ -61,9 +68,31 @@ h1 {
     width: 70%;
 }
 
+.animal-slider div {
+    display: inline-block;
+}
+
 .animals {
     width: 25px;
     width: 300px;
+    width: 100px;
 }
 
+
+.ham {
+    content:  "&nbsp;";
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+menu {
+
+
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 0px;
+}
 /*Breapoints*/

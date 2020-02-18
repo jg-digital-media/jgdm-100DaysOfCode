@@ -21,11 +21,17 @@ h1 {
 }
 
 .intro {
-    width: 100%;
+    /*width: 100%;*/
+    width: 95%;
     display: block;
     font-size: 35px;
     padding: 19px;
     display: grid;
+}
+
+.intro h2 {
+    width: 100%;
+    text-align: center;
 }
 
 .btn {
@@ -35,6 +41,55 @@ h1 {
     color: black;
     background: white;
     text-decoration: none;
+}
+
+/*Menu Styling*/
+#mySideNav {
+    border: solid red 1px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidenav .menu ul li {
+    display: block;
+    margin: 10px 0;
+}
+
+.sidenav .menu ul li a {
+    color: white;
+}
+.sidenav .menu ul li a:hover {
+    text-decoration: none;
+}
+
+
+.close_menu {
+    padding: 20px;
+    margin: 15px;
+    /* background: white; */
+    color: red;
+    position: relative;
+    /* right: 10px; */
+    left: 100px;
+    cursor: pointer;
+}
+
+
+.ham {
+    content:  "&nbsp;";
+    font-size: 40pt;
+    cursor: pointer;
+
 }
 
 /*Intro Page Slider*/
@@ -56,19 +111,27 @@ h1 {
 /*Main Animal slider*/
 
 header {
-background: beige;
-color: purple;
+    background: beige;
+    color: purple;
 }
 
-
-.animal-slider {
+.animals-slider,
+.people-slider,
+.buildings-slider,
+.landscapes-slider,
+.misc-slider {
     border: solid red 1px;
     display: block;
     margin: 0 auto;
     width: 70%;
+    margin-bottom: 50px;
 }
 
-.animal-slider div {
+.animals-slider div,
+.people-slider div,
+.buildings-slider div,
+.landscapes-slider div,
+.misc-slider div {
     display: inline-block;
 }
 
@@ -78,21 +141,4 @@ color: purple;
     width: 100px;
 }
 
-
-.ham {
-    content:  "&nbsp;";
-    font-size: 20px;
-    cursor: pointer;
-
-}
-
-menu {
-
-
-}
-
-.menu li {
-    display: inline-block;
-    margin-left: 0px;
-}
-/*Breapoints*/
+/*Breakpoints*/

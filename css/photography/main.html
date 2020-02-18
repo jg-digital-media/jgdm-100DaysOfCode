@@ -23,28 +23,41 @@
 <body>
 
     <header>
-        <h1>Photography (2020)</h1>
 
-        <div class="ham">&#9776;
+        <h1>Jonnie Grieve Photography</h1>
+
+        <div class="ham"  onclick="openNav()" role="open-menu">&#9776;
         </div>
+
+        <div id="mySidenav" class="sidenav" role="button" style="width: 0px;">
         
-        <div class="menu">
-            <ul>
-                <li><a href="#">Menu 1</a></li>
-                <li><a href="#">Menu 2</a></li>
-                <li><a href="#">Menu 3</a></li>
-                <li><a href="#">Menu 4</a></li>
-            </ul>
+            <div class="menu">
+
+                <span class="close_menu" onClick="closeNav()" role="close-menu">X</span> 
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+
+                    <hr />
+                    <li><a href="#animals">Animals/Nature</a></li>
+                    <li><a href="#people">People</a></li>
+                    <li><a href="#buildings">Buildings</a></li>
+                    <li><a href="#landscapes">Landscapes</a></li>
+                    <li><a href="#misc">Miscelleaneous</a></li>
+                </ul>
+            </div>
         </div>
+
     </header>
 
     <div class="intro">
         
+        <!-- photo set 1 -->
         <h2>Photos</h2>
 
-        <article class="animal-slider">
+        <article class="animals-slider" id="animals">
             
-            <!-- photo set 1 -->
+            
             <div><a href="images/animals-nature/IMG_20200212_081640.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_081640.png" alt="&nbsp;" /></a></div>
             <div><a href="images/animals-nature/IMG_20200212_081626.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_081626.png" alt="&nbsp;" /></a></div>
             <div><a href="images/animals-nature/IMG_20200212_082123.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_082123.png" alt="&nbsp;" /></a></div>
@@ -57,13 +70,84 @@
             
         </article>
 
-        <!--
-        <h2>Photos Set 2</h2>            
+        <!-- photo set 2 -->
+        <h2>People</h2>
 
-        <article class="second-slider">
+        <article class="people-slider" id="people">
+            
+            
+            <div><a href="images/animals-nature/IMG_20200212_081640.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_081640.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_081626.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_081626.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_082123.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_082123.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_083217.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_083217.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_083659.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_083659.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_083805.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_083805.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_084951.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_084951.png" alt="&nbsp;" /></a></div>
+
+
             
         </article>
-        -->
+
+        <h2>Buildings</h2>
+        
+
+        <article class="buildings-slider" id="buildings">
+            
+            
+            <div><a href="images/animals-nature/IMG_20200212_081640.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_081640.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_081626.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_081626.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_082123.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_082123.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_083217.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_083217.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_083659.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_083659.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_083805.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_083805.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_084951.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_084951.png" alt="&nbsp;" /></a></div>
+
+
+            
+        </article>
+
+        
+        <h2>Landscapes</h2>
+
+        <article class="landscapes-slider" id="landscapes">
+            
+            
+            <div><a href="images/animals-nature/IMG_20200212_081640.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_081640.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_081626.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_081626.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_082123.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_082123.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_083217.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_083217.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_083659.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_083659.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_083805.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_083805.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_084951.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_084951.png" alt="&nbsp;" /></a></div>
+
+
+            
+        </article>
+
+        
+        <h2>Miscelleaneous</h2>
+
+        <article class="misc-slider" id="misc">
+            
+            
+            <div><a href="images/animals-nature/IMG_20200212_081640.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_081640.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_081626.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_081626.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_082123.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_082123.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_083217.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_083217.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_083659.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_083659.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_083805.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_083805.png" alt="&nbsp;" /></a></div>
+            <div><a href="images/animals-nature/IMG_20200212_084951.jpg" data-lightbox= "animal" ><img class="animals" src="images/animals-nature/thumbnails/IMG_20200212_084951.png" alt="&nbsp;" /></a></div>
+
+
+            
+        </article>
+
+        <footer>
+            <p>&copy; Jonnie Grieve Digital Media (2020)</p>
+        </footer>
+
+      
+   
         
 
     </div>

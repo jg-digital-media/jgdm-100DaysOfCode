@@ -9,27 +9,31 @@ h1 {
 }
 
 .container {
-    display: grid;
+    /*display: grid;*/
+    display: block;
     width: 90%;
-    grid-template-columns: 1fr 1fr;
+    /*grid-template-columns: 1fr 1fr;*/
 }
 
 .coming-img {
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
     display: block;
+    box-shadow: inset;
+    border-radius: 20px;
 }
 
 .intro {
-    /*width: 100%;*/
-    width: 95%;
+    /* width: 100%; */
+    width: 45%;
     display: block;
+    display: inline-block;
     font-size: 35px;
     padding: 19px;
-    display: grid;
+    /* display: grid;*/
 }
 
-.intro h2 {
+.container h2 {
     width: 100%;
     text-align: center;
 }
@@ -41,6 +45,9 @@ h1 {
     color: black;
     background: white;
     text-decoration: none;
+    margin-top: 20px;
+    position: relative;
+    top: 25px;
 }
 
 /*Menu Styling*/
@@ -99,13 +106,26 @@ h1 {
     margin: 0 auto;
 }
 
+.slick-list.draggable {
+    width: 79%;
+}
+
+.slick-slider {
+    display: inline-block;
+    vertical-align: top;
+}
+
 .intro-showreel {
     border: solid red 1px;
     /* display: block; */
-    display: inline;
+    /* display: inline; */
     margin: 0 auto;
-    width: 79%;
+    width: 40%;
 
+}
+
+footer p {
+    text-align: center;
 }
 
 /*Main Animal slider*/

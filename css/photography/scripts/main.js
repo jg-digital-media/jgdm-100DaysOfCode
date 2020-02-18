@@ -3,15 +3,17 @@ console.log("connected!");
 
 $(document).ready(function(){
 
-    /*
+    
     //intro fade slider
     $(".intro-showreel").slick({
+        slidesToShow: 1,
         autoplay: true,
         fade: true,
-        autoplaySpeed: 2000,
-        speed: 400
+        autoplaySpeed: 3000,
+        speed: 800, 
+        dots: true
     });
-    */
+    /**/
     /* 
     //animal slider
     $(".animal-slider").slick({

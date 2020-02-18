@@ -1,13 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 27 of 100. **Last Update:** 17 February 2020
+## **Status:** Day 28 of 100. **Last Update:** 18 February 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
-### R4D27:  Friday 14 February 2020
+### R4D28:  Tuesday 18 February 2020
++ **Notes** - Ditched Grid layout which doesn't work well with Slick Carousels (at least with this design and I now have a Fade carousel in place for the homepage.  Little preview for you all)
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+### R4D27:  Monday 17 February 2020
 + **Notes** - Have the basis of a Photography website planned out and sorted.  Ditched Slick carousels in favour of a static Lightbox style gallery which I'll slowly put together into an interactive site.
 
 + **Technologies used** - HTML5, CSS, JavaScript

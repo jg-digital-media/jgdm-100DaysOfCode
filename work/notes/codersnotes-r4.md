@@ -9,6 +9,10 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
 
+### Day 28
+
+Ditched Grid layout which doesn't work well with Slick Carousels (at least with this design and I now have a Fade carousel in place for the homepage.  Little preview for you all)
+
 ### Day 27
 
 Ditched the idea of Slick Carousels which proved to be too problematic for this project. Have successfully implemented Lightboxes though. 

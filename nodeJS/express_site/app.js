@@ -16,9 +16,11 @@ app.set("view engine", "pug");
 
 const indexRouter = require("./routes");
 const cardsRouter = require("./routes/cards");
+const webDRouter = require("./routes/webdesign");
 
 app.use(indexRouter);
 app.use('/cards', cardsRouter);
+app.use('/webdesign', webDRouter);
 
 //Create static server for front end assets
 app.use('/static', express.static('public') );

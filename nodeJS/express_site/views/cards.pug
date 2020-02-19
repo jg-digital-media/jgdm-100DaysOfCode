@@ -1,7 +1,7 @@
 extends layout.pug
 
 block content
-    h1 Flash Cards
+    h2 Flash Cards
     
     section#content
         h2= text
@@ -9,7 +9,7 @@ block content
         if hint
             p 
                 i Hint: #{hint}
-        a(href=`${id}?side=${sideToShow}`)= sideToShowDisplay
+        a(href=`${id}?side=${sideToShow}` class="switch_side")= sideToShowDisplay
         br
-        a(href='/cards') next card
+        a(href='/cards' class="next_card") Next Card!
     

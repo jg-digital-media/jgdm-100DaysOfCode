@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 28 of 100. **Last Update:** 18 February 2020
+## **Status:** Day 29 of 100. **Last Update:** 19 February 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+### R4D29:  Wednesday 19 February 2020
++ **Notes** - Expanded the Flashcard App by including another set of JSON data for a second set of flashcards. Also the app looks a little better stylistically now with some edited CSS.
+
+I wish I could have deployed the app with Glitch.com but the online app won't seem to accept my file uploads.  Back to Heroku I go. 
+
++ **Technologies used** - HTML5, CSS, JavaScript
 
 ### R4D28:  Tuesday 18 February 2020
 + **Notes** - Ditched Grid layout which doesn't work well with Slick Carousels (at least with this design and I now have a Fade carousel in place for the homepage.  Little preview for you all)

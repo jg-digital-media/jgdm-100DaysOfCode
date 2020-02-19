@@ -8,6 +8,12 @@
 + Dynamic Site Course Treehouse:  https://teamtreehouse.com/library/build-a-simple-dynamic-site-with-nodejs
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
+### Day 29
+
+Glitch ought to be a simple service for hosting an node.js app  But the app has proven impossible to upload the files my project needs.  Back I go looking for options. 
+
+https://makeawebsitehub.com/free-node-js-hosting/
+
 
 ### Day 28
 

@@ -6,6 +6,10 @@ ___
 ___
 
 
+### R4D30:  Thursday 20 February 2020
++ **Notes** - Babysitting duties most of the day but I did have time to do some prep work on my Photography website. Added some placeholder images. Each category now has its own set of images rather than Lightbox counting them all at once. 
+
++ **Technologies used** - HTML5, CSS, JavaScript
 
 ### R4D29:  Wednesday 19 February 2020
 + **Notes** - Expanded the Flashcard App by including another set of JSON data for a second set of flashcards. Also the app looks a little better stylistically now with some edited CSS.

@@ -6,6 +6,7 @@
 h1 {
     text-align: center;
     margin-bottom: 30px;
+    height: 95px;
 }
 
 .container {
@@ -69,7 +70,7 @@ h1 {
 
 .sidenav .menu ul li {
     display: block;
-    margin: 10px 0;
+    margin: 30px 0;
 }
 
 .sidenav .menu ul li a {
@@ -81,21 +82,32 @@ h1 {
 
 
 .close_menu {
-    padding: 20px;
+    /* padding: 20px; */
     margin: 15px;
     /* background: white; */
     color: red;
     position: relative;
-    /* right: 10px; */
+    background: white;
+    font-size: 20pt;
+    right: 10px;
     left: 100px;
     cursor: pointer;
+    height: 36px;
+    width: 36px;
+    display: block;
+    text-align: center;
+    border-radius: 34%;
 }
 
 
 .ham {
-    content:  "&nbsp;";
+    content: "&nbsp;";
     font-size: 40pt;
     cursor: pointer;
+    position: fixed;
+    /* left: 50%; */
+    left: 10px;
+    top: 25px;
 
 }
 
@@ -155,10 +167,23 @@ header {
     display: inline-block;
 }
 
-.animals {
+.thumbnails {
     width: 25px;
     width: 300px;
-    width: 100px;
+    width: 125px;
 }
 
 /*Breakpoints*/
+
+@media screen and (max-width: 480px) {
+
+    .ham {
+        left: 0;
+        right: 20px;
+    }
+
+    .thumbnails {
+        width: 140px;
+    }
+
+}

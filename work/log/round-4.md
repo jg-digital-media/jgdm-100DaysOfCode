@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 29 of 100. **Last Update:** 19 February 2020
+## **Status:** Day 31 of 100. **Last Update:** 21 February 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R4D31:  Friday 21 February 2020
++ **Notes** - remove unused CSS code.  Add responsive styles.  Also went back to JavaScript Basics with Treehouse's latest course. You can never learn too much :) 
+
++ **Technologies used** - HTML5, CSS, JavaScript
 
 ### R4D30:  Thursday 20 February 2020
 + **Notes** - Babysitting duties most of the day but I did have time to do some prep work on my Photography website. Added some placeholder images. Each category now has its own set of images rather than Lightbox counting them all at once. 

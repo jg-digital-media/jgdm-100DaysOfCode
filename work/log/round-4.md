@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 31 of 100. **Last Update:** 21 February 2020
+## **Status:** Day 32 of 100. **Last Update:** 24 February 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R4D32:  Monday 24 February 2020
++ **Notes** - Lots of work done today on my Photography website.   It's nearly launch worthy... just one or 2 minor details to work out. Can't to share this one with you!  :)
+
++ **Technologies used** - HTML5, CSS, JavaScript
 
 ### R4D31:  Friday 21 February 2020
 + **Notes** - remove unused CSS code.  Add responsive styles.  Also went back to JavaScript Basics with Treehouse's latest course. You can never learn too much :) 

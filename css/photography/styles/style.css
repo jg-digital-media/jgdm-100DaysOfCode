@@ -12,8 +12,12 @@ h1 {
     text-align: center;
     margin-bottom: 30px;
     height: 95px;
-    font-size: 35pt;
+    font-size: 30pt;
     color: black;
+}
+
+.intro-header h1 {
+    font-size: 30pt;
 }
 
 .container {
@@ -68,6 +72,7 @@ h1 {
 .btn:hover {
     border-radius: 10px;
     background: #ead7d7;
+    background: beige;
 }
 
 /*Menu Styling*/
@@ -83,6 +88,7 @@ h1 {
     top: 0;
     left: 0;
     background-color: #111;
+    background-color: #323233;
     overflow-x: hidden;
     transition: 0.5s;
 }
@@ -90,6 +96,7 @@ h1 {
 .sidenav .menu ul li {
     display: block;
     margin: 30px 0;
+    padding-left: 15px;
 }
 
 .sidenav .menu ul li a {
@@ -109,8 +116,8 @@ h1 {
     color: red;
     color: white;
     position: relative;
-    background: white;
-    background: #808080;
+    /* background: white; */
+    /* background: #808080; */
     /* background: #d6e09b; */
     font-size: 20pt;
     right: 10px;
@@ -123,35 +130,49 @@ h1 {
     text-align: center;
     border-radius: 34%;
     box-shadow: 0px 0px 5px 1px #ffffff;
-    -webkit-box-shadow: 0px 0px 5px 1px #ffffff;
-    transition: color .2s, background .2s;
+    -webkit-box-shadow: 0px 0px 2px 1px #ffffff;
+    transition: color .2s, background .2s, transform .1s;
+    /* transition: transform .2s;*/
 }
 
 .close_menu:hover {
     color: red;
     background: #a5a4a4;
+    background: beige;
+    transform: scale(1.2);
 }
 
 
 .ham {
     content: "&nbsp;";
-    font-size: 40pt;
+    font-size: 36pt;
     cursor: pointer;
     position: fixed;
     /* left: 50%; */
     left: 10px;
     top: 26px;
-    background: #696961;
-    border-radius: 10px;
-    width: 4pc;
+    /* background: #696961; */
+    background: beige;
+    /* border-radius: 10px; */
+    /* border-radius: 50%; */
+    border-radius: 5px;
+    width: 60px;
     text-align: center;
     /* height: 65px; */
+    height: 60px;
+    height: auto;
     color: white;
-    box-shadow: 0px 0px 40px 3px #000000bf;
-    margin: 0;   
-    border: solid gray 2px;
+    color: black;
+    box-shadow: 0px 0px 3px 3px #000000bf;
+    margin: 0;
+    /* border: solid gray 2px; */
+    /* padding-bottom: 9px; */
+    transition: transform, .3s;
 }
 
+.ham:hover {
+    transform: rotate(1080deg);
+}
 
 /*Intro Page Slider*/
 .slick-slide.slick-current.slick-active {
@@ -241,6 +262,18 @@ header {
 
     .slick-slide {
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    h1 {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    header {
+        height: auto;
+        min-height: 160px;
     }
 }
 

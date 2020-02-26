@@ -16,6 +16,8 @@ header {
   color: #D64226;
   background: #f3bd7c;
   font-size: 14px;
+  border-bottom: 2px #e39696 solid;
+
 }
 
 header img {
@@ -42,6 +44,15 @@ header img {
     width: 300px;
     margin: 13px auto;
     padding: 5px;
+    box-shadow: 0px 0px 5px 1px #ffffff;background: #fda4a4;
+    text-align: center;
+    display: block;
+    width: 159px;
+    margin: 13px auto;
+    padding: 5px;
+    box-shadow: 0px 4px 4px -3px #382d2d;
+    border: solid #dd6666 1px;
+    border-radius: 6px;
 }
 
 
@@ -101,7 +112,7 @@ input {
 .card {
   position: relative;
   max-width: 400px;
-  min-height: 425px;
+  /*min-height: 425px;*/
   box-sizing: border-box;
   margin: auto;
   padding-bottom: 30px;
@@ -119,6 +130,11 @@ input {
   border-top-right-radius: 10px;
 }
 
+.next_card:hover,
+.switch_side:hover {
+  font-weight: bold;
+}
+
 .card-title {
   text-align: center;
   border-top: 2px solid #F5F3ED;
@@ -134,7 +150,7 @@ input {
 
 #content {
     padding: 5% 5%;
-    padding: 5% 35%;
+    padding: 2% 35%;
 }
 
 #content button,
@@ -173,5 +189,19 @@ footer p {
 @media screen and (max-width: 680px) {
     .nav {
         text-align: center;
+    }
+
+    .card {
+      width: 70%;
+      
+    }
+
+    #content {
+      padding: 0;
+    }
+
+    #content table {
+      display: table;
+      margin: 10px auto;
     }
 }

@@ -6,7 +6,7 @@ ___
 ___
 
 ### R4D34:  Wednesday 26 February 2020
-+ **Notes** - Tutnedattention back to Express.js  Ready to deply it but nothing is working.
++ **Notes** - Turned my attention back to Express.js. Ready to deploy the site now but nothing is working. Glitch and Heroku won't serve them though I know the app works on localhost. Will look at this ongoing but time to move onto more express Dev 
 
 + **Technologies used** - HTML5, CSS, JavaScript
 

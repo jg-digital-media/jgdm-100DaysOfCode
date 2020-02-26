@@ -1,9 +1,14 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 33 of 100. **Last Update:** 25 February 2020
+## **Status:** Day 34 of 100. **Last Update:** 26 February 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R4D34:  Wednesday 26 February 2020
++ **Notes** - Tutnedattention back to Express.js  Ready to deply it but nothing is working.
+
++ **Technologies used** - HTML5, CSS, JavaScript
 
 ### R4D33:  Tuesday 25 February 2020
 + **Notes** - Launched my Photography web page today over at https://projects.jonniegrieve.co.uk/photography

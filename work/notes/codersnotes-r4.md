@@ -42,6 +42,51 @@ Ditched the idea of Slick Carousels which proved to be too problematic for this 
 
 ```
 
+### Day 34
+
+Node Deployment notes.
+
+```
+  "engines": {
+    "node": "4.7.0"
+  },  
+
+
+Procfile
+web:  node app.js
+
+
+heroku login
+
+heroku update
+
+heroku help apps
+heroku apps:create FlashCardApp
+heroku apps:create jgdm-flashcardapp
+
+Heroku adds a new remote repository to
+your git repository on your local machine.
+
+
+------> Deply to Github
+
+  git push origin master
+
+------> Deploy to Heroku
+
+  git push heroku master
+
+------> Deploy locally
+
+  heroku local
+
+
+var port = process.env.PORT || 3000
+var port = process.env.PORT || 1337
+```
+
+
+
 ### Day 26
 
 

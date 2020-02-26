@@ -38,6 +38,16 @@ routes.get('/register', (req, res) => {
     
  });
 
+ //serve the more cards route
+ routes.get('/more', (req, res) => {
+      
+     //basic response with the send method
+     res.render('more');
+     
+     res.end();
+     
+  });
+
 //serve the 4th route which will be a post route 
 routes.get('/hello', (req, res) => {
 

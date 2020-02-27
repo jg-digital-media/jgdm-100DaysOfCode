@@ -10,11 +10,13 @@ circle7 =  document.getElementsByClassName("circle7");
 circle8 =  document.getElementsByClassName("circle8");
 
 gunbarrel = document.getElementsByClassName("gunbarrel");
+gunbarrel_red = document.getElementsByClassName("gunbarrel-red");
 
 //animating one timeline
-let scene1 = gsap.timeline({delay: 2})
-let scene2 = gsap.timeline({delay: 2.5})
-let scene3 = gsap.timeline({delay: 6.5})
+let scene1 = gsap.timeline({delay: 2});
+let scene2 = gsap.timeline({delay: 2.5});
+let scene3 = gsap.timeline({delay: 6.5});
+let scene4 = gsap.timeline({delay: 10});
 
 //chain gunbarrel circles
 scene1.to(box1, {
@@ -35,7 +37,7 @@ scene1.to(box1, {
 })*/
 
 
-
+//scene 2
 scene2.to(circle1, {
     opacity: 1,
     duration: 0.1,
@@ -107,8 +109,7 @@ scene2.to([circle1, circle2, circle3, circle4, circle5, circle6, circle7, circle
     delay: 0.5,
 }), "-=2"
 
-
-
+//animate gunbarrel image.
 scene3.to(gunbarrel, {
     opacity: 1,
     duration: 2.5,
@@ -117,3 +118,11 @@ scene3.to(gunbarrel, {
     delay: 0.0,
     ease: "none"
 }), "-=0"
+
+//animate 
+scene4.to(gunbarrel_red, {
+    duration: 3,
+    ease: "none",
+    visibility: "visible",
+    bottom: 0
+})

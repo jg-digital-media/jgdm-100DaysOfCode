@@ -8,6 +8,62 @@
 + Dynamic Site Course Treehouse:  https://teamtreehouse.com/library/build-a-simple-dynamic-site-with-nodejs
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
+
+
+### Day 35
+
+
+#### Note - Depoying Node.js to Heroku via https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app
+
+
+```git clone https://github.com/heroku/node-js-getting-started.git```
+
+```cd node-js-getting-started```
+
+```heroku create ```
+
+Now deployed:  https://serene-citadel-29169.herokuapp.com/
+
+```
+deploy code with
+git push heroku master
+```
+
+The application is now deployed. 
+Ensure that at least one instance of the app is running:
+```heroku ps:scale web=1```
+
+```Heroku Apps```
+
++ https://serene-citadel-29169.herokuapp.com/
++ https://jgdm-simple-express.herokuapp.com/
+
+```
+{
+  "name": "simple_express",
+  "version": "1.0.0",
+  "description": "Simple Express routes for testing Heroku Deployment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}
+
+Procfile
+ web: node app.js
+
+
+```
+
 ### Day 29
 
 Glitch ought to be a simple service for hosting an node.js app  But the app has proven impossible to upload the files my project needs.  Back I go looking for options. 

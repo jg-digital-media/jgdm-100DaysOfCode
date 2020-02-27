@@ -1,9 +1,14 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 34 of 100. **Last Update:** 26 February 2020
+## **Status:** Day 35 of 100. **Last Update:** 27 February 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R4D35:  Thursday 27 February 2020
++ **Notes** - Finally did manage to deploy a node mini site to Heroku but the FlashCard App still needs uploading.  This is ongoing.  More JavaScript with greensock.js animations
+
++ **Technologies used** - HTML5, CSS, JavaScript
 
 ### R4D34:  Wednesday 26 February 2020
 + **Notes** - Turned my attention back to Express.js. Ready to deploy the site now but nothing is working. Glitch and Heroku won't serve them though I know the app works on localhost. Will look at this ongoing but time to move onto more express Dev 

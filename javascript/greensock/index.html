@@ -21,7 +21,7 @@
             height: 0px;
             padding: 20px;
             margin: 10% auto;
-            box-shadow: #3e3e36 0px 3px 27px;
+            box-shadow: #3e3e36 0px 3px 2px;
             border-radius: 15px;  
             opacity: 0
 
@@ -40,6 +40,10 @@
         .menu h1 a {
             color: #0000ee;
         }
+        
+        .menu h1 a:hover {
+            text-decoration: none;
+        }
 
         .menu ul {
             display: block;
@@ -49,6 +53,10 @@
         .menu li a {
             color: #443d3d;
             text-decoration: none;
+        }
+
+        .menu li a:hover {
+            text-decoration: underline;
         }
 
     </style>
@@ -71,7 +79,7 @@
         let menuC = document.getElementsByClassName("menu-content");
 
         let scene1 = gsap.timeline({delay: 0});
-        let scene2 = gsap.timeline({delay: 1});
+        let scene2 = gsap.timeline({delay: 1.4});
 
         scene1.to(menu, {
             duration: 1,
@@ -86,7 +94,7 @@
             duration: 1,
             opacity: 1
         }); /**/
-    </script>
-    ,
+    </script>   
+   
 </body>
 </html>

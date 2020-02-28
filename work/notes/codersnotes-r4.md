@@ -9,6 +9,60 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 
 
+### Day 36
+
+#### Express Async project
+
+
+this project uses nodemon
+
+Express require('path');  
+
+path is a module that provides utilises for working with file and directory paths. 
+
+works with 
+
+node app
+npm start
+
+#### Greensock 
+```javascript
+
+//basics of greensock animating
+movingCircle = document.getElementsByClassName("ani-circle");
+
+let scene5 = gsap.timeline({delay: 15});
+
+//long circle animation
+scene5.to(loneCircle, {
+    opacity: 1,
+    duration: 0.1,
+    delay: 0,
+}).to(loneCircle, {
+    top: 130,
+    duration: 2
+}).to(loneCircle, {
+    left: 100,
+    top: 0,
+    duration: 2
+}).to(loneCircle, {
+    top: 0,
+    right: 230,
+    duration: 2
+}).to(loneCircle, {
+    width: 600,
+    height: 600,
+    left: -90,
+    right: 70,
+    top: -200,
+    duration: 2,
+    bottom: 100
+});
+```
+
+```
+
+```
 
 ### Day 35
 

@@ -27,7 +27,7 @@ app.get('/', (req,res) => {
         if(err) {
            res.render('error', {error:err});
         } else {
-           res.render('index', {title: "Users", users: user.users});
+           res.render('index', {title: "Users", users: users.users});
         }
    });
    

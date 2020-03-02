@@ -1,9 +1,14 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 36 of 100. **Last Update:** 28 February 2020
+## **Status:** Day 37 of 100. **Last Update:** 2 March 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R4D37:  Monday 02 March 2020
++ **Notes** - Build some boilerplate code to turn a website into functionally a progressive web app. Looking forward to building something out from it.   Then went onto look at Promises in Express.js  
+
++ **Technologies used** - HTML5, CSS, JavaScript
 
 ### R4D36:  Friday 28 February 2020
 + **Notes** - Finished Greensock animation and started exploring Asynchronous coding for Express.js. 

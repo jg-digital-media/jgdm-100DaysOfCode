@@ -10,6 +10,43 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 
 
+### Day 37
+
+```javascript
+//PROMISES
+function getUsers() {
+    return new Promise((resolve, reject) => {
+
+        fs.readFile('data.json', 'utf-8', (err, data) => {
+        if(err) {
+            reject(err); 
+        } else {
+            users = JSON.parse(data);
+            resolve(users);
+        }
+
+        });
+
+    });
+}
+  
+//express route
+app.get('/', (req, res) => {
+
+   
+
+    getUsers()
+       .then((users) =>  { 
+            res.render('index', {title: "Users", users: users.users });
+       })
+       .then()
+       .then()
+       .catch((err) => {
+            res.render('error', {error: err});
+       });
+    });
+```
+
 ### Day 36
 
 #### Express Async project

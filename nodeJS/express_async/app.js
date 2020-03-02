@@ -31,14 +31,39 @@ app.get('/', (req,res) => {
         }
    }); */
 
-//PROMISES
 
-function getUsers(){
+//PROMISES
+function getUsers() {
+    return new Promise((resolve, reject) => {
+
+        fs.readFile('data.json', 'utf-8', (err, data) => {
+        if(err) {
+            reject(err); 
+        } else {
+            users = JSON.parse(data);
+            resolve(users);
+        }
+
+        });
+
+    });
 }
   
 //express route
-app.get('/', (req,res) => { 
+app.get('/', (req, res) => {
 
-}); 
+   
+
+    getUsers()
+       .then((users) =>  { 
+            res.render('index', {title: "Users", users: users.users });
+       })
+       .then()
+       .then()
+       .catch((err) => {
+            res.render('error', {error: err});
+       });
+    });
+
 
 app.listen(3000, () => console.log('App listening on port 3000!'));

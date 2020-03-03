@@ -7,14 +7,20 @@
 
 /*@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");*/
 
+body {
+    background: lightblue;
+    font-family: verdana;
+}
 
 .container {
     width: 900px;
     margin: 0 auto;
+    border: solid black 1px;
   }
 
   header {
       background: #000000;
+      height: 50px;
 
   }
 
@@ -36,8 +42,33 @@
 
   h1 {
       text-align: center;
+      font-family: arial;
   }
 
+  .project {
+      margin: 20px; 
+      border: solid black 1px;
+      display: inline-block;
+      width: 250px;
+      position: relative;
+  }
+
+  .project img {
+      width: 100%;
+  }
+
+  .project p {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      opacity: 0;
+  }
+
+  .project p:hover {
+      opacity: 1;
+  }
+
+  
 
   .card {
 

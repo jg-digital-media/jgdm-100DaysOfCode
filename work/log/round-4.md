@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 37 of 100. **Last Update:** 2 March 2020
+## **Status:** Day 38 of 100. **Last Update:** 3 March 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R4D38:  Tuesday 03 March 2020
++ **Notes** - Started and style a webpage to server as a Progressive Web App.  I can see it's been hooked up but not getting any install prompts at the moment.
+
++ I'd like to learn about push notifications too but this is a whole different area, for example when I add or remove a project from my website. 
+
++ **Technologies used** - HTML5, CSS, JavaScript
 
 ### R4D37:  Monday 02 March 2020
 + **Notes** - Build some boilerplate code to turn a website into functionally a progressive web app. Looking forward to building something out from it.   Then went onto look at Promises in Express.js  

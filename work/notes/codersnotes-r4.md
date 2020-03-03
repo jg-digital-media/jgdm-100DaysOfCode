@@ -9,6 +9,23 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 
+### Day 38
+
+
+
+#### Links  - Progressive Web Apps
+
+how to make a PWA
+
++ https://developers.google.com/web/progressive-web-apps/
+
++ https://www.creativebloq.com/how-to/build-a-progressive-web-app
+
++ https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
+
++ https://developers.google.com/web/fundamentals/getting-started/primers/service-workers
+
+
 
 ### Day 37
 

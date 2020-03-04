@@ -85,3 +85,64 @@ body {
       height: 50px;
       margin: 10px auto;
   }
+
+  .install {
+    margin: 0 auto;
+    width: 400px;
+    border: solid 1px white;
+    background: white;
+    /*visibility: hidden;*/
+}
+
+.hidden {
+    display: none !important;
+  }
+
+  
+/*install buttons - change*/
+#install {
+    /*position: absolute;*/
+    bottom: 1em;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+}
+  
+#install button {
+    background-color: inherit;
+    background: purple;
+    border: 1px solid white;
+    color: white;
+    font-size: 1em;
+    padding: 0.75em;
+    cursor: pointer;
+}
+
+#install button:hover { 
+    background: #e074e0; 
+}
+
+/*Responsive CSS*/
+
+@media screen and (max-width: 980px) {
+
+    .container {
+        width: 95%;
+    }
+    .project {
+        width: 43%;
+    }
+    
+    project img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .project {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+}

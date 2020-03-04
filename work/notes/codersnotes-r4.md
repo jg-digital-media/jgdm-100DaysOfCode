@@ -9,6 +9,17 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 
+### Day 39
+
+
+I still have a lot to learn about PWA's but... Using a glitch project i was able to create the functionality to install a PWA button prompt. Then nothing since.
+
+https://projects.jonniegrieve.co.uk/pwa/index.html 
+
+https://web.dev/codelab-make-installable/
+https://respected-checker-carrot.glitch.me/
+
+
 ### Day 38
 
 

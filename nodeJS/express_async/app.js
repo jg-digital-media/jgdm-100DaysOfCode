@@ -72,6 +72,17 @@ app.get('/', (req, res) => {
 
 //ASYNC/WAIT Syntax
 
+//Express error handler middleware
+function asyncHandler(cb) {
+    return async(req, res, next) => {
+        try {
+            await cb(req, res, next);
+        } catch(err) {
+            res.render('error', { error: err});
+        }
+    }
+}
+
 function getUsers() {
     return new Promise((resolve, reject) => {
 
@@ -89,7 +100,16 @@ function getUsers() {
 }
 
 //express route
-app.get('/', (req, res) => {
+app.get('/',  asyncHandler(async (req, res) => {
+
+        const users = await getUsers();
+        res.render('index', {title: "users", users: users.users});
+
+}));
+
+
+
+/* app.get('/', (req, res) => {
 
     try {
         const users = await getUsers();
@@ -99,7 +119,7 @@ app.get('/', (req, res) => {
         res.error('error', {error: err});
     }
 
-});
+}); */
 
 
 

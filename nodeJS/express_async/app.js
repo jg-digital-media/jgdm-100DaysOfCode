@@ -103,6 +103,7 @@ function getUsers() {
 app.get('/',  asyncHandler(async (req, res) => {
 
         const users = await getUsers();
+        //throw new Error("It Broke!");
         res.render('index', {title: "users", users: users.users});
 
 }));

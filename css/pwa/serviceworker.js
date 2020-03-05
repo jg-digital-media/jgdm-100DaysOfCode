@@ -3,6 +3,7 @@ const appName = "JGDM Projects v1.1";
 //const divInstall = document.getElementById('install');
 
 
+//array of assets to cache
 const assets = [
   "/",
   "index.html",
@@ -18,8 +19,7 @@ const assets = [
   "images/mangles.png",
   "images/psychic-reading-online.png",
   "images/walks.png",
-] /* */
-
+] 
 
 /*PWA install event*/
 self.addEventListener("install", installEvent => {

@@ -107,6 +107,8 @@ body {
     justify-content: center;
     width: 100%;
     margin: 20px;
+    /*display: inline-block;*/
+    cursor: pointer;
 }
   
 #install button {
@@ -121,6 +123,13 @@ body {
 
 #install button:hover { 
     background: #e074e0; 
+}
+
+#close  {
+    color: red;
+    cursor: pointer;
+    text-align: center;
+    /* display: inline;*/
 }
 
 /*Responsive CSS*/

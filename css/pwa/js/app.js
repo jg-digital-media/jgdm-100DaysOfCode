@@ -3,6 +3,7 @@ console.log("app.js connected - registers the service worker");
 //select button elements 
 const installer = document.getElementById('install');
 const butInstall = document.getElementById('install_btn');
+const dismiss  = document.getElementById('close');
 
 /* custom install prompt code.  */
 window.addEventListener('beforeinstallprompt', (event) => {
@@ -48,3 +49,10 @@ if ("serviceWorker" in navigator) {
         .catch(err => console.log("service worker not registered", err))
     })
   }
+
+  //dismiss install dialog  
+  function dismiss_btn() {
+      console.log("dismiss");
+      installer.style.display = "none";
+      dismiss.style.display = "none";
+  };

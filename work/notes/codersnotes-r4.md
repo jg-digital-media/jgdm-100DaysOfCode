@@ -9,8 +9,9 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 
-### Day 39
+### Day 40
 
+Medium:  the basic idea is to use browser technologies to build a web application that works offline and has the look and feel of a native application. 
 
 I still have a lot to learn about PWA's but... Using a glitch project i was able to create the functionality to install a PWA button prompt. Then nothing since.
 
@@ -20,19 +21,23 @@ https://web.dev/codelab-make-installable/
 https://respected-checker-carrot.glitch.me/
 
 
-### Day 38
+#### uninstall a pwa
 
-
+chrome://apps
 
 #### Links  - Progressive Web Apps
 
 how to make a PWA
 
++ https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605
+
 + https://developers.google.com/web/progressive-web-apps/
 
 + https://www.creativebloq.com/how-to/build-a-progressive-web-app
 
-+ https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
++ https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5 dev to  pwas 
+
++ https://web.dev/customize-install/   customise install prompt
 
 + https://developers.google.com/web/fundamentals/getting-started/primers/service-workers
 

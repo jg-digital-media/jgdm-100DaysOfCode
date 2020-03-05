@@ -10,7 +10,9 @@ app.set("views", path.join(__dirname, "views"));
 //serve static assets like css
 app.use(express.static('public'));
 
+
 //CALL BACKS
+
 /* function getUsers(cb){
   fs.readFile('data.json', 'utf8', (err, data) => {
     if (err) return cb(err);
@@ -33,7 +35,8 @@ app.get('/', (req,res) => {
 
 
 //PROMISES
-function getUsers() {
+
+/* function getUsers() {
     return new Promise((resolve, reject) => {
 
         fs.readFile('data.json', 'utf-8', (err, data) => {
@@ -47,7 +50,7 @@ function getUsers() {
         });
 
     });
-}
+} 
   
 //express route
 app.get('/', (req, res) => {
@@ -63,7 +66,41 @@ app.get('/', (req, res) => {
        .catch((err) => {
             res.render('error', {error: err});
        });
+});
+*/
+
+
+//ASYNC/WAIT Syntax
+
+function getUsers() {
+    return new Promise((resolve, reject) => {
+
+        fs.readFile('data.json', 'utf-8', (err, data) => {
+        if(err) {
+            reject(err); 
+        } else {
+            users = JSON.parse(data);
+            resolve(users);
+        }
+
+        });
+
     });
+}
+
+//express route
+app.get('/', (req, res) => {
+
+    try {
+        const users = await getUsers();
+        res.render('index', {title: "users", users: users.users});
+    } catch(err) { 
+
+        res.error('error', {error: err});
+    }
+
+});
+
 
 
 app.listen(3000, () => console.log('App listening on port 3000!'));

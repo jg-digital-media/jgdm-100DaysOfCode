@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 40 of 100. **Last Update:** 4 March 2020
+## **Status:** Day 41 of 100. **Last Update:** 9 March 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R4D41:  Monday 09 March 2020
++ **Notes** - Added some new photos to my photography website.
+
++ **Technologies used** - HTML5, CSS, JavaScript
 
 ### R4D40:  Thursday 05 March 2020
 + **Notes** - The beginnings of a Progressive Web App are now in place with a dismissable install prompt on the page. https://projects.jonniegrieve.co.uk/pwa/index.html

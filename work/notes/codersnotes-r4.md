@@ -9,6 +9,16 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 
+
+### Day 41
+
+https://opensource.com/article/20/3/sonic-pi
+
+https://dev.to/sublimemarch/today-i-learned-how-to-generate-music-with-sonic-pi-566g
+
+
+
+
 ### Day 40
 
 Medium:  the basic idea is to use browser technologies to build a web application that works offline and has the look and feel of a native application. 

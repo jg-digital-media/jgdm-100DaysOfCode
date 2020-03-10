@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 41 of 100. **Last Update:** 9 March 2020
+## **Status:** Day 42 of 100. **Last Update:** 10 March 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R4D42:  Tuesday 10 March 2020
++ **Notes** - Apologies for lack of #100DaysOfCode Updates recently. Things have been a bit chaotic recently. But back in action today.  Site updates, tricks with CSS, learned a new JavaScript operator and about using REST API's with Express. 
+
++ **Technologies used** - HTML5, CSS, JavaScript
 
 
 ### R4D41:  Monday 09 March 2020

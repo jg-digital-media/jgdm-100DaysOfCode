@@ -9,12 +9,84 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 
+### Day 42
 
-### Day 41
+link to source -   inspired by  https://css-tricks.com/the-slideout-footer/
+
+Stickout footer example   
+
+```css
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    min-height: 75px;
+    text-align: center;
+    color: white;
+    font-size: 20pt;
+    background: #070f3b;
+
+}
+
+header p {
+    font-family: arial;
+}
+
+.container {
+    
+    width: 100%;
+    font-family: arial;
+    line-height: 1.9;
+   /*  display: block;
+    margin: 0 auto; */
+    background: white;
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+}
+
+.content {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    background: white;
+    border: solid 2px black;
+}
+
+footer {
+    /* place on the bottom */
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  
+    background: #070f3b;
+    display: grid;
+    place-items: center;
+    padding: 50px 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+  }
+
+  @media (max-width: 680px) {
+      .content{
+          width: 90%;
+      }
+  }
+```
+
+#### Sonic Pi Resources
+
+http://sonic-pi.mehackit.org/
 
 https://opensource.com/article/20/3/sonic-pi
 
 https://dev.to/sublimemarch/today-i-learned-how-to-generate-music-with-sonic-pi-566g
+
+#### REST APIs
 
 
 

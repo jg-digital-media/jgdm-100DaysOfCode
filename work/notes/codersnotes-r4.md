@@ -9,7 +9,7 @@
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 
-### Day 42
+### Day 43
 
 link to source -   inspired by  https://css-tricks.com/the-slideout-footer/
 

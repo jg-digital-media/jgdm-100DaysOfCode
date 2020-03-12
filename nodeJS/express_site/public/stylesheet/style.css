@@ -150,6 +150,18 @@ input {
   background-color: #C79735;
   color: #fff; }
 
+#content .more-cards {
+  display: block;
+  margin: 0 auto;
+  width: 320px; }
+  #content .more-cards ul {
+    list-style: none;
+    background: wheat; }
+    #content .more-cards ul li {
+      margin: 10px 0; }
+      #content .more-cards ul li a:hover {
+        color: red; }
+
 /*footer*/
 footer p {
   text-align: center; }

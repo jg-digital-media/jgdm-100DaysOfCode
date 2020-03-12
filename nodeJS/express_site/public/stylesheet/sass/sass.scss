@@ -176,6 +176,25 @@ input {
   color: #fff;
 }
 
+#content .more-cards {
+    display: block;
+    margin: 0 auto;
+    width: 320px;
+
+    ul {
+        list-style: none;
+        background: wheat;
+
+        li {
+            margin: 10px 0;
+
+            a:hover {
+                color: red;
+            }
+        }
+    }
+}
+
 /*footer*/
 
 footer p {
@@ -183,7 +202,6 @@ footer p {
 }
 
 /*404 page styling*/
-
 
 /*responsive*/
 @media screen and (max-width: 680px) {

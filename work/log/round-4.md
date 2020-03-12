@@ -1,12 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 43 of 100. **Last Update:** 11 March 2020
+## **Status:** Day 44 of 100. **Last Update:** 12 March 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-### R4D43:  Wednsday 11 March 2020
+### R4D44:  Thursday 12 March 2020
++ **Notes** - Added a new route to my Flashcard App  in Express.js.  A page to organise the rest of the cards and keep the main navigation simple.  It's erroring though so will need some debugging later!  :)  
+
++ **Technologies used** - HTML5, CSS
+
+### R4D43:  Wednesday 11 March 2020
 + **Notes** - Made some updates to the markup and some styling to my project over at  https://projects.jonniegrieve.co.uk/walks/. Identified some areas I might improve the SASS architecture too.  
 
 + **Technologies used** - HTML5, CSS

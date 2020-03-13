@@ -1,10 +1,14 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 44 of 100. **Last Update:** 12 March 2020
+## **Status:** Day 45 of 100. **Last Update:** 13 March 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R4D45:  Friday 13 March 2020
++ **Notes** Trying again to organise Express routes so they're nested more organised. Again it's erroring. :)  
+
++ **Technologies used** - JavaScript
 
 ### R4D44:  Thursday 12 March 2020
 + **Notes** - Added a new route to my Flashcard App  in Express.js.  A page to organise the rest of the cards and keep the main navigation simple.  It's erroring though so will need some debugging later!  :)  

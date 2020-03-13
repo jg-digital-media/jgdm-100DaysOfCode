@@ -15,14 +15,16 @@ app.use(cookieParser());
 app.set("view engine", "pug");
 
 const indexRouter = require("./routes");
+const webRouter = require("./routes/webdesign");
 const cardsRouter = require("./routes/cards");
-const webDRouter = require("./routes/webdesign");
+const javaScriptRouter = require("./routes/javascript");
 const phpRouter = require("./routes/php");
 
 app.use(indexRouter);
+app.use('/webdesign', webRouter);
 app.use('/cards', cardsRouter);
-app.use('/webdesign', webDRouter);
 app.use('/php', phpRouter);
+app.use('/javascript', javaScriptRouter);
 
 //Create static server for front end assets
 app.use( '/static', express.static( 'public' ) );

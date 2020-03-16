@@ -1,14 +1,14 @@
 const express = require("express");
 const routes = express.Router();
 
-const { data } = require("../../data/phpData.json");
+const { data } = require("../../data/sassData.json");
 const { cards } = data;
 
 //randomise display of flash cards/
 routes.get( '/', ( req, res ) => {
   const numberOfCards = cards.length;
   const flashcardId = Math.floor( Math.random() * numberOfCards );
-  res.redirect( `/php/${flashcardId}?side=question` );
+  res.redirect( `/sass/${flashcardId}?side=question` );
 });
 
  //serve the cards route - query string and route parameters
@@ -17,7 +17,7 @@ routes.get( '/', ( req, res ) => {
    const { id } = req.params;
 
    if ( !side ) {
-    return res.redirect( `/php/${id}?side=question` );
+    return res.redirect( `/sass/${id}?side=question` );
    }
 
    const name = req.cookies.username;
@@ -36,7 +36,7 @@ routes.get( '/', ( req, res ) => {
      templateData.sideToShowDisplay = 'Question';
    }   
    
-   res.render('php', templateData);
+   res.render('sass', templateData);
 });
 
 

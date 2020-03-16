@@ -1,12 +1,13 @@
-# Node.js Project
+# Node and Express.js
 
-Last Update:  15/01/2020
+Last Update:  16/03/2020
 
 + **Project 1 - NodeJS Basics**
-+ **Project 1.1 - Open Weather API**
-+ **Project 2.1 - Basic Website with Node**
-+ **Project 2.2 - Dynamic Site Treehouse**
-+ **Project 3 - Express**
++ **Project 1.1 - open_weather - Open Weather API**
++ **Project 2.1 - dynamic - Basic Website with Node**
++ **Project 2.2 - dynamic_site - Dynamic Site Treehouse**
++ **Project 3 - express_site - Flashcard App**
++ **Project 3.1 - express_async**
 + **Project [N] - Node Deployment**
 ---
 
@@ -143,50 +144,51 @@ System Events in Node.js
   + Error Handling with the Error Event
 
 
-```javascript
-/*Error Handling with the Error Event*/
-const https = require("https");
+    ```javascript
+    /*Error Handling with the Error Event*/
+    const https = require("https");
 
-let request = https.get("https://teamtreehouse.com/chalkers.json", response => {
-    console.log(response.statusCode);
-  
+    let request = https.get("https://teamtreehouse.com/chalkers.json", response => {
+        console.log(response.statusCode);
+    
 
-});
+    });
 
-request.on("error", error => {
-    console.error(error.message)
-});
-  
-```
+    request.on("error", error => {
+        console.error(error.message)
+    });
+    
+    ```
 
   + An emitted error using a Try Catch Block
 
 
-```javascript
-/*An emitted error using a Try Catch Block*/
-try {
-  const jsonString = 'This is not a JSON String';
-  const jsonObject = JSON.parse(jsonString);
-} catch (error) {
-  console.error(error.message)
-}
-```
+    ```javascript
+    /*An emitted error using a Try Catch Block*/
+    try {
+    const jsonString = 'This is not a JSON String';
+    const jsonObject = JSON.parse(jsonString);
+    } catch (error) {
+    console.error(error.message)
+    }
+    ```
 
 + Catch a parsing error with try/catch.
 
-```javascript
-/*Catch a parsing error with try/catch.*/
-const personString = '{"name": "Lauren"}';
-try {
-  const person = JSON.parse(personString);
-  console.log(person.name);
-} catch(err) {
-  console.error("Couldn't parse the JSON");
-}
-```
+    ```javascript
+    /*Catch a parsing error with try/catch.*/
+    const personString = '{"name": "Lauren"}';
+    try {
+    const person = JSON.parse(personString);
+    console.log(person.name);
+    } catch(err) {
+    console.error("Couldn't parse the JSON");
+    }
+    ```
 
-## Project 1.1: Open Weather API
+## Project 1.1: Open Weather API (open_weather)
 
+Project 1.1 is a command line application example.
 
 ### Demonstrate
 
@@ -194,32 +196,32 @@ try {
 2. Search the documentation and locate API key.  
 3. Stringify is a method on the JSON object used to convert JSON values into strings. It is used on the API call.
 
-```javascript
-const request = https.get(url, response => {
+    ```javascript
+    const request = https.get(url, response => {
 
-        let body = "";
+            let body = "";
 
-        //read the data
-        response.on('data', chunk => {
-            body += chunk;
+            //read the data
+            response.on('data', chunk => {
+                body += chunk;
+            });
+
+            //the end event
+            response.on('end', () => {
+                console.log(body);
+                //Parse data
+                //Print the data
+            });
         });
+    ```
 
-        //the end event
-        response.on('end', () => {
-            console.log(body);
-            //Parse data
-            //Print the data
-        });
-    });
-```
 
-Project 1.1 is a command line application example.
 
-## Project 2.1: Basic Website with Node (currently using dynamic directory)
+### Project 2.1: Basic Website with Node (currently using dynamic directory)
 
 Handles basic routing and a Template engine.
 
-### In the browser with localhost, handledin app.js
+### In the browser with localhost, handled in app.js
 
 ### Demonstrate:   
 
@@ -231,17 +233,12 @@ Handles basic routing and a Template engine.
 
 4. Function that handles reading of files and merge in value  read from file and get a string.
 
-5. Handling Routes in node.js
+5. Handling Multiple Routes in node.js
 
 6. Template Engines in Node.js 
 
 #### http servers 
 
-+ 4 P's of Problem Solving: Prepare Plan Perform Perfect
-
-**Aim of Project:** Creating an HTTP server, serving files, and generating dynamic content all in Node.js.
-
-### Examples:  
 
 ```javascript
 //Creating a Simple Web Server with node
@@ -252,14 +249,14 @@ const hostname = '127.0.0.1';
 const port = 3000;
 
 const server = http.createServer((request, response) => {
-  response.statusCode = 200;
-  response.setHeader('Content-Type', 'text/plain');
-  response.write("This is before the end\n");
-  response.end('Hello World\n');
+response.statusCode = 200;
+response.setHeader('Content-Type', 'text/plain');
+response.write("This is before the end\n");
+response.end('Hello World\n');
 });
 
 server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+console.log(`Server running at http://${hostname}:${port}/`);
 });
 
 //This example opens a server on http://127.0.0.1:3000/ and http://localhost:3000.
@@ -267,15 +264,18 @@ server.listen(port, hostname, () => {
 
 ### Server instance commands (CLI)
 
-```ps --help```
 
-```ps -a``` - list all processes
+```javascript
+//```ps --help```
 
-```ps aux```
+//```ps -a``` - list all processes
 
-```kill -9 <PID>``` - kill a process by its given process id
+//```ps aux```
 
-When we call response.end() we can't write to the response anymore
+//```kill -9 <PID>``` - kill a process by its given process id
+
+//When we call ```response.end()``` we can't write to the response anymore
+```
 
 ### Handling multiple routes
 
@@ -341,9 +341,6 @@ home = (request, response) => {
 };
 ```
 
-
-
-
 ## Project 2.2 - Dynamic Site using the TreeHouse API.
 
 ### Demonstrate
@@ -351,7 +348,7 @@ home = (request, response) => {
 + Create a Simple Server 
 + Node.js Routes
 + import routes from file and reference in app.js
-+ Code that connects to the Treehouse api.
++ Code that connects to the Treehouse API.
 + Read file and Render Template
 
 ```javascript
@@ -459,6 +456,186 @@ function home(request, response) {
 2. Routing
 3. Middleware
 4. What it is to Serve Static files
+
+
+####  1. Templates
+
+```javascript
+//set the view engine to use pug for templating
+app.set("view engine", "pug");
+```
+
+
+```pug
+<!-- pug template engine example -->
+extends layout.pug
+
+block content
+
+    if name
+        p
+            a(href='/cards' class="begin_btn") Open Cards!   
+    end
+    section#content 
+       p Welcome to the app, #{name}. Select an option from the menu or open the main cards from the button above.
+```
+
+#### 2. Routing
+
+```javascript
+//serve the home route
+routes.get('/', (req, res) => {
+
+    const name = req.cookies.username;
+    
+    //basic response with the send method
+    if(name) {        
+        res.render('index', {name, page_title: "Flash Card App"});
+    } else {
+        res.redirect('/hello');
+    }
+
+    res.end();
+ });
+
+//serve the register route
+routes.get('/register', (req, res) => {
+     
+    //basic response with the send method
+    res.render('register', {page_title: "Flash Card App: Register of users", names});
+    
+    res.end();
+    
+ });
+```
+
+#### 3. Middleware
+
+Middleware is so integral to Express, just about everything you write in Express is Middleware.  "Middleware" is the "thinking" in the request, response cycle. There can be as many pieces of Middleware as you want to have before sending a response.
+
+```javascript
+app.use((req, res, next) => {
+    console.log("Hello");
+    next();
+ });
+ 
+ app.use((req, res, next) => {
+    console.log(", World");
+    next();
+ }); 
+
+```
+#### 4. Serving Static files
+
+```javascript
+//Create static server for front end assets
+app.use( '/static', express.static( 'public' ) );
+
+```
+
+## Project 3.1 - Express Async
+
+1. Async Callbacks
+2. Async Promises
+3. Async/Await
+
+### Async Callbacks
+
+```javascript
+//code
+//CALL BACKS
+
+function getUsers(cb){
+  fs.readFile('data.json', 'utf8', (err, data) => {
+    if (err) return cb(err);
+    const users = JSON.parse(data);
+    return cb(null, users);
+  });
+}
+
+//express route
+app.get('/', (req,res) => {  
+   
+    //render routes based on error
+    getUsers((err, users) => {
+        if(err) {
+           res.render('error', {error:err});
+        } else {
+           res.render('index', {title: "Users", users: users.users});
+        }
+   }); 
+```
+### Async Promises
+
+```javascript
+
+function getUsers() {
+    return new Promise((resolve, reject) => {
+
+        fs.readFile('data.json', 'utf-8', (err, data) => {
+        if(err) {
+            reject(err); 
+        } else {
+            users = JSON.parse(data);
+            resolve(users);
+        }
+
+        });
+
+    });
+} 
+  
+//express route
+app.get('/', (req, res) => {
+
+   
+
+    getUsers()
+       .then((users) =>  { 
+            res.render('index', {title: "Users", users: users.users });
+       })
+       .then()
+       .then()
+       .catch((err) => {
+            res.render('error', {error: err});
+       });
+});
+
+
+```
+
+### Async/Await
+
+```javascript
+
+//Express error handler middleware
+function asyncHandler(cb) {
+    return async(req, res, next) => {
+        try {
+            await cb(req, res, next);
+        } catch(err) {
+            res.render('error', { error: err});
+        }
+    }
+}
+
+function getUsers() {
+    return new Promise((resolve, reject) => {
+
+        fs.readFile('data.json', 'utf-8', (err, data) => {
+        if(err) {
+            reject(err); 
+        } else {
+            users = JSON.parse(data);
+            resolve(users);
+        }
+
+        });
+
+    });
+}
+
+```
 
 ## Project [N]: Node Deployment
 

@@ -1,9 +1,14 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 46 of 100. **Last Update:** 16 March 2020
+## **Status:** Day 47 of 100. **Last Update:** 17 March 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R4D47:  Tuesday 17 March 2020
++ **Notes** Got to the point now where I'm asking for Debugging help? What is preventing my app deploying correctly to Heroku?   
+
++ **Technologies used** - HTML5, CSS, JavaScript, Express.js 
 
 ### R4D46:  Monday 16 March 2020
 + **Notes** Built everything there is to build in the Flashcard App for now, but the JSON data.  Prepping for another go at deploying tomorrow.  Also uploaded more photos to my photography website. 

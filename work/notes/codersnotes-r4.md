@@ -8,11 +8,12 @@
 + Dynamic Site Course Treehouse:  https://teamtreehouse.com/library/build-a-simple-dynamic-site-with-nodejs
 + Greensock:  https://greensock.com/get-started/#loading-gsap
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
++ Community Post: https://teamtreehouse.com/community/lets-get-this-expressjs-flashcard-app-deployed-to-heroku 
 
 
-### Day 46
+### Day 47
 
-... 
+https://teamtreehouse.com/community/lets-get-this-expressjs-flashcard-app-deployed-to-heroku
 
 ### Day 43
 

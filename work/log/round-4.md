@@ -1,9 +1,14 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 47 of 100. **Last Update:** 17 March 2020
+## **Status:** Day 48 of 100. **Last Update:** 18 March 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R4D48:  Wednesday 18 March 2020
++ **Notes** New currency converter app to test my skills in CSS, HTML5 and JavaScript  
+
++ **Technologies used** - HTML5, CSS, JavaScript, Express.js 
 
 ### R4D47:  Tuesday 17 March 2020
 + **Notes** Got to the point now where I'm asking for Debugging help? What is preventing my app deploying correctly to Heroku?   

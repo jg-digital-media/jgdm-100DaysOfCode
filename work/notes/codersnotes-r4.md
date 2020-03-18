@@ -11,6 +11,11 @@
 + Community Post: https://teamtreehouse.com/community/lets-get-this-expressjs-flashcard-app-deployed-to-heroku 
 
 
+
+### Day 48
+
+Switched focus today to build markup for a currency converter app based on this YouTube tutorial.
+
 ### Day 47
 
 https://teamtreehouse.com/community/lets-get-this-expressjs-flashcard-app-deployed-to-heroku

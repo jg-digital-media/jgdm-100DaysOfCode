@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 3: Day 80 of 100. **Last Update:** 02 December 2019
++ **Status:** Round 4: Day 48 of 100. **Last Update:** 18 March 2020
 
 ## Directories
   + bin      
@@ -14,9 +14,12 @@
   + css 
     + balloon
     + modernizr
+    + photography
     + portfolio
     + portfolio-gallery
     + project_sub
+    + pwa
+    + pwa_2
     + sass_project
     + semantic-html
   + java
@@ -27,13 +30,18 @@
     + MyFirstApp
   + javascript
     + ajax
+    + currency_converter
     + dom
     + four_in_a_row
+    + greensock
     + iteration-methods
     + library
     + node
   + nodeJS
     + basics
+    + open_weather
+    + dynamic
+    + dynamic_site
   + php
     + mvc-framework
     + php_auth
@@ -44,6 +52,7 @@
     + slimmin
     + twig
     + twig_projects
+  + project_api 
   + python
     + basics
     + madlibs
@@ -56,6 +65,7 @@
     + temp
     + tictactoe
   + regex
+  + sonic_pi
   + svg
     + icons
   + vue

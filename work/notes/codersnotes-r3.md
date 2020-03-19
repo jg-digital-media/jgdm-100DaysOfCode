@@ -5,8 +5,187 @@
 + Project URL: https://projects.jonniegrieve.co.uk/react-scoreboard/
 + React Docs - Lifting State: https://reactjs.org/docs/lifting-state-up.html
 
+### Day 94
 
-## Day 80
+**Setting up Droploets on Digital Ocean**
+
+Droplet Name: jg-digital-media
+IP Address: 209.97.190.97
+
+Password stored on keypass database. 
+
+command: cd nodejs/basics
+
+command: ssh root@209.97.190.96
+
+Public URL: http://do.co/node1804  
+
+[Medium - Deploy Guide for Node with DigitalOcean](https://medium.com/swlh/quick-nodejs-deploy-guide-dbe836811c3e)
+
+
+
+### Day 93
+
+Goals for2020
+
+Redesign projects domain website
+Node.js and Express
+Deploying a node project to the web
+
+### Day 91
+
+```javascript
+
+///Basics of serving a local node.js website.
+
+var renderer = require("./render.js")
+
+commonHeaders = {'Content-Type': 'text/html'}
+
+home = (request, response) => {
+
+    if (request.url == "/") {
+        if(request.method.toLowerCase() === "get") {
+            response.writeHead(200, commonHeaders);
+            renderer.view("header", {}, response);
+            renderer.view("index", {}, response);
+            renderer.view("footer", {}, response);
+            response.end();
+        }
+    }
+};
+
+//snip
+module.exports.home = home;
+//snip
+
+
+//Rendering the Views
+function view(templateName, values, response) {
+    var fileContents = fs.readFileSync('./views/' + templateName + '.html');
+    
+    response.write(fileContents);
+  
+}
+
+module.exports.view = view;
+
+//app.js is where the server is created, served and handles
+```
+
+### Day 87
+
+Struggling with this one.  I've added one route, just like the last one, made the content type part of the route more DRY and managed to get rid of the runtime error when I click a URL to switch route so that's something.  
+
+I next intend to find a way to work out how to serve unique content in the templates, not just common elements then do another site that follows the tutorial I'm following more to the letter before moving onto Express.
+
+
+
+### Day 86
+
+```javascript
+//retrieve values from an API
+
+var studentProfile = new Profile("username");
+
+studentProfile.on("end", function(profileJSON) {
+});
+
+var values = {
+   avatarUrl: profileJSON.gravatar_url,
+   username: profileJSON.profile_name,
+   badges: profileJSON.badges.length,
+   javascriptPoints: profileJSON.points.JavaScript
+}
+
+response.write(values.username + "has " + values.badges + " badges\n");
+```
+
+
+
+## Day 85
+
+```javascript
+
+//app.js
+//create a web server 
+const server = http.createServer((request, response) => {
+    response.statusCode = 200;
+    router.home(request, response);
+    router.user(request, response);
+    router.about(request, response);
+    //response.write("This is after the end");
+});
+
+
+///Handling multiple routes in Node.js  - router.js
+
+home = (request, response) => {
+
+    if (request.url == "/") {
+        response.writeHead(200, {'Content-Type': 'text/plain'});
+        response.write("Header Templating\n");
+        response.write("Search Templating\n");
+        response.end('Footer\n');
+    }
+};
+
+user = (request, response) => {
+
+    var username = request.url.replace("/", "");
+    
+    if(username.length > 0) {
+        response.writeHead(200, {'Content-Type': 'text/plain'});
+        response.write("Header Templating\n");
+        response.write(username + "\n");
+        response.end('Footer\n');
+
+    }
+};
+
+about = (request, response) => {
+
+    if (request.url == "/about") {
+        response.writeHead(200, {'Content-Type': 'text/plain'});
+        response.write("Header Templating\n");
+        response.write("About Templating\n");
+        response.end('Footer\n');
+    }
+
+};
+
+module.exports.home = home;
+module.exports.user = user;
+module.exports.about = about;
+
+
+
+```
+
+## Day 84
+
+```javascript
+//Creating a Simple Web Server with node
+
+const http = require('http');
+
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((request, response) => {
+  response.statusCode = 200;
+  response.setHeader('Content-Type', 'text/plain');
+  response.write("This is before the end\n);
+  response.end('Hello World\n');
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+
+```
+
+## Day 82
 
 ```javascript
 
@@ -17,6 +196,29 @@ const request = https.get(`https://teamtreehouse.com/${username}.json`, response
     console.log(response.statusCode);
 
 }
+
+//Get the respoonse body from the api
+        response.on("data", data => {
+            body += data.toString();
+            //console.log(body)
+        })
+
+        //Retrieve the JSON data for a given username
+        response.on('end', () => {
+            //parse the data
+            const profile = JSON.parse(body);
+            
+            //print the data
+            printMessage(username, profile.badges.length, profile.points.JavaScript);
+        })
+
+        //exceptions and error types
+        const request = https.get(`https://wwwteamtreehouse.com/${username}.json`, response => {
+        
+        })
+
+        //handing an error with an error event
+        request.on('error', error => console.error(`Problem with request: ${error.message}:`))
 
 ```
 

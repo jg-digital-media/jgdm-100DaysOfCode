@@ -1,15 +1,111 @@
 # 100 Days of Code - Round 3
 
-## **Status:** Day 80 of 100. **Last Update:** 03 December 2019
+## **Status:** Day 96 of 100. **Last Update:** 9 January 2020
 ___
-**Directories:** | css | java | javascript | log | php | python | react | regex | svg | vue | work
+**Directories:** | css | java | javascript | nodeJs | php | python | react | regex | svg | vue | work
 ___
+
+### R3D96:  Thursday 9th January 2020
++ **Notes** - 
+  + The website refit I've been working on is nearly ready to go live!  Built for easy configuration with Sass. 
++ **Technologies used** - HTML5, Sass
+
+### R3D95:  Wednesday 8th January 2020
++ **Notes** - 
+  + Today we welcomed a kitten into our family! So it's been unusual and chaotic today. :)  But I think I've finished the Sass portion of my web design refit for Auto Cleanse North East!
++ **Technologies used** - HTML5, Sass
+
+### R3D94:  Tuesday 7th January 2020
++ **Notes** - 
+  + I had hoped I'd be able to show you a freely available Node Project via Digital Ocean but the droplet isn't working properly.  May be a bug in the app itself. Plenty of time to get it done in the future!
++ **Technologies used** - Node.js
+
+### R3D93:  Monday 6th January 2020
++ **Notes** - 
+  + Just bits and bobs done today on my first day back.  Made some updates to my website including its 404 page which had some missing assets. Feeling my way back into work mode.  :)
+
++ **Technologies used** - HTML5, Sass
+
+### R3D92:  Friday 20th December 2019
+
++ **Notes** - 
+  + Now down to around 1000 lines of code with some mixins, extends and colour variables applied.  One final push for redundant styles to root out before looking at the markup.
+
++ **Technologies used** - HTML5, Sass
+
+### R3D91:  Thursday 19th December 2019
+
++ **Notes** - 
+  + Reduced a codebase of 2000 lines of CSS code to around 1200 with more changes still to come.  The root and branch approach will continue with a focus on building config files for colours and fonts.
+
++ **Technologies used** - HTML5, Sass
+
+### R3D90:  Wednesday 18th December 2019
+
++ **Notes** - 
+  + Started examining and removing duplicate or redundant styles in my code, up to the navigation and header. Also planned ways I can use mixins to configure the width of the main interface of the website.
+  + Found a way forward in my NodeJS Project.  I have a project that stands on its own, render a set of HTML views using a template engine. I can now work on a more dynamic site that grabs data from an API.
+  + Very happy with what I've accomplished today.  
+
++ **Technologies used** - HTML5, Sass, NodeJS
+
+### R3D89:  Tuesday 17th December 2019
+
++ **Notes** - Sorted out the display bugs in the Sass.  Now to sort out any extra unneeded lines of CSS to decrease the lines of code used even further before then applying variables mixins etc
+
++ **Technologies used** - HTML5, Sass
+
+### R3D88:  Monday 16th December 2019
+
++ **Notes** - Devoted the day to continuing my conversion of CSS Code to Sass.  The Code has now been completely converted. Still a few bugs to sort out followed by a root and branch search of redundant styles. Progress.
+
++ **Technologies used** - HTML5, Sass
+
+### R3D87:  Thursday 12th December 2019
+
++ **Notes** - Added a new route to the simple node site I'm making but I still don't know how to make the pages recognise the routes correctly. Struggling and still have a lot to learn.
+
++ **Technologies used** - CSS, HTML5, Node.js
+
+
+### R3D86:  Wednesday 11th December 2019
+
++ **Notes** - Rendered some HTML via Node Routes to 2 routes today.  Bit of progress but right now it's only 1 route seems to be working with the rest being conflicted with another. So next, it's sorting that and binding more values and templates.
+
++ **Technologies used** - SASS, HTML5, Node.js
+
+### R3D85:  Tuesday 10th December 2019
+
++ **Notes** - Wrote a script in node that handles multiple routes.  They don't do anything too exciting yet but that's to come.   :)
+
++ **Technologies used** - SASS, HTML5, Node.js
+
+### R3D84:  Monday 9th December 2019
+
++ **Notes** - Made some progress rewriting a large CSS codebase into Sass... more than I made on Friday.  Then later on with node I successfully created a local web server and learned some things about killing node processes on the command line  :)
+
++ **Technologies used** - SASS, HTML5, Node.js
+
+### R3D83:  Friday 6th December 2019
+
++ **Notes** - Made a request to a Weather Data API with nodeJS and data is being retrieved. Now to work out how to filter and get back the data the way I want it. Currently it's only for ZIP codes but I can work on that.  :)
+
++ **Technologies used** - VueJS, CSS, HTML5, Node.js
+
+### R3D82:  Thursday 5th December 2019
++ **Notes** - Working with VueJS and later on with Node.  I feel like I have a better understanding on Stream events and how to use them in Node requests.
++ **Technologies used** - VueJS, CSS, HTML5, Node.js
+
+### R3D81:  Wednesday 4th December 2019
++ **Notes** - 
+  + Learned to parse a string as JSON in node.js using the responses on method. Got some things working but the why's are still a bit of a mystery right now. What's the difference between "data" and "end" on on() events for example? 
++ **Technologies used** - PHP, CSS, HTML5, Node.js
 
 ### R3D80:  Tuesday 3rd December 2019
 + **Notes** - 
   + Presented my form update to my client and will be putting that live tomorrow.  Looking forward to making some behind the scenes changes to the CSS too.  
   + Also delved into a little bit of node.js worked on the bones of making a simple HTTPS get request. The aim being to learn to make a website powered by node just as I've tried with Slim via PHP.
-+ **Technologies used** - PHP, CSS, HTML5, node.js
++ **Technologies used** - PHP, CSS, HTML5, Node.js
 
 ### R3D79:  Monday 2nd December 2019
 + **Notes** - 

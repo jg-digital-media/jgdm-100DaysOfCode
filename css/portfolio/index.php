@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   8th November 2019
+Last Updated:   06th January 2019
 --->
 
 <!DOCTYPE html>
@@ -274,6 +274,13 @@ Last Updated:   8th November 2019
                 </a>                   
                 <p>Photoshop/Digital Design: For stunning digital images</p>    
             </div>
+
+            <div class="main-services" tabindex="0">
+                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/print-design.html','','scrollbars=yes,width=550,height=250')">
+                    <i class="fas fa-align-left">&nbsp;</i>
+                </a>                   
+                <p>Customised Design for Print and Publishing</p>    
+            </div> 
 
             <h3>Elsewhere... </h3>
 

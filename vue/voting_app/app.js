@@ -41,7 +41,7 @@ let app = new Vue({
             this.frameworks = this.frameworks.filter(i => i != f)
 
             //call save function
-            //ss
+            this.save()
 
         },
 
@@ -64,6 +64,19 @@ let app = new Vue({
 
         toggleEditMode() {
             this.editMode = !this.editMode
+            //call save function
+            //this.save();
+        }
+    },
+
+    computed: {
+        //code to display winning names
+        winnerString: function() {
+            let scores = this.frameworks.map(f => f.votes)
+            let highscore = Math.max.apply(Math, scores)
+            let bestList = this.frameworks.filter(f => f.votes == highscore)
+            let bestNames = bestList.map(f => f.name)
+            return bestNames.join(', ')
         }
     },
 

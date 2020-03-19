@@ -1,0 +1,242 @@
+/*
+
+Extends and Mixins
+*/
+.one div, .two div, .three div, .four div, .five div {
+  height: 20vh;
+  height: auto;
+  width: 45%;
+  position: relative;
+  top: 30%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 2% 25px;
+  border-radius: 5px;
+  line-height: 2; }
+  @media (max-width: 680px) {
+    .one div, .two div, .three div, .four div, .five div {
+      width: 60%; } }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  color: white;
+  background: black;
+  font-family: 'Cabin', 'Roboto', 'verdana', sans-serif; }
+
+main {
+  background: black; }
+
+header {
+  background: #080749;
+  height: auto;
+  border-bottom: 8px solid white;
+  color: #cff082; }
+  header h1 {
+    font-size: 3vw;
+    text-align: center; }
+    @media (max-width: 680px) {
+      header h1 {
+        font-size: 5vw; } }
+  header p {
+    text-align: center; }
+    header p a {
+      color: white; }
+  header #hdr-link {
+    font-size: 10px; }
+  header div.header-content {
+    /* margin-top: 20px; */
+    margin: 2% auto;
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center; }
+    header div.header-content article {
+      display: inline-block;
+      width: 24%;
+      margin: 0 20px;
+      text-align: left;
+      line-height: 2.1;
+      vertical-align: top; }
+      @media (max-width: 680px) {
+        header div.header-content article {
+          display: block;
+          padding: 0 5px;
+          margin: 20px auto;
+          width: 90%; } }
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/interior.png");
+  /* Set a specific height */
+  height: 500px;
+  height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  padding: 15% 0;
+  margin-bottom: 30%; }
+
+.one div {
+  color: #a691f8;
+  border: #a691f8 solid 2px;
+  background: #150552;
+  transition: transform .1s, background .2s; }
+  .one div:hover {
+    background: #27099a;
+    transform: scale(1.07);
+    transition: transform .1s, background .2s; }
+.one h1 {
+  font-size: 16pt; }
+.one p {
+  font-size: 12pt; }
+.one a {
+  color: #a691f8;
+  text-decoration: none; }
+  .one a:hover {
+    text-decoration: underline; }
+
+.parallax-two {
+  background: url("../img/autoc.png");
+  /* Set a specific height */
+  height: 500px;
+  height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  padding: 15% 0;
+  margin-bottom: 30%; }
+
+.two div {
+  color: #ccccff;
+  border: #ccccff solid 2px;
+  background: #0000ff;
+  transition: transform .1s, background .2s; }
+  .two div:hover {
+    background: #4d4dff;
+    transform: scale(1.07);
+    transition: transform .1s, background .2s; }
+.two h1 {
+  text-align: center;
+  font-size: 16pt; }
+.two p {
+  font-size: 12pt; }
+.two a {
+  color: #ccccff;
+  text-decoration: none; }
+  .two a:hover {
+    text-decoration: underline; }
+
+.parallax-three {
+  background: url("../img/elim.png");
+  /* Set a specific height */
+  height: 500px;
+  height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  padding: 15% 0;
+  margin-bottom: 30%; }
+
+.three div {
+  color: #fbebca;
+  border: #f5d183 solid 2px;
+  background: #ce9211;
+  transition: transform .1s, background .2s; }
+  .three div:hover {
+    background: #efb63d;
+    transform: scale(1.07);
+    transition: transform .1s, background .2s; }
+.three h1 {
+  text-align: center;
+  font-size: 16pt; }
+.three p {
+  font-size: 12pt; }
+.three a {
+  color: #fbebca;
+  text-decoration: none; }
+  .three a:hover {
+    text-decoration: underline; }
+
+.parallax-four {
+  background: url("../img/apr-training.png");
+  /* Set a specific height */
+  height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  padding: 15% 0;
+  margin-bottom: 30%; }
+
+.four div {
+  color: #cfd0e8;
+  border: #adafd7 solid 2px;
+  background: #4d509e;
+  transition: transform .1s, background .2s; }
+  .four div:hover {
+    background: #7a7cbe;
+    transform: scale(1.07);
+    transition: transform .1s, background .2s; }
+.four h1 {
+  text-align: center;
+  font-size: 16pt; }
+.four p {
+  font-size: 12pt; }
+.four a {
+  color: #cfd0e8;
+  text-decoration: none; }
+  .four a:hover {
+    text-decoration: underline; }
+
+.parallax-five {
+  background: url("../img/mangles.png");
+  /* Set a specific height */
+  height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  padding: 15% 0;
+  margin-bottom: 5%; }
+
+.five div {
+  color: #f5d9c0;
+  border: #eebe94 solid 2px;
+  background: #c96f20;
+  transition: transform .1s, background .2s; }
+  .five div:hover {
+    background: #e39652;
+    transform: scale(1.07);
+    transition: transform .1s, background .2s; }
+.five h1 {
+  text-align: center;
+  font-size: 16pt; }
+.five p {
+  font-size: 12pt; }
+.five a {
+  color: #f5d9c0;
+  text-decoration: none; }
+  .five a:hover {
+    text-decoration: underline; }
+
+footer p {
+  text-align: center; }
+
+/*# sourceMappingURL=styles.css.map */

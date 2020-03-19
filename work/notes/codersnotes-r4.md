@@ -7,7 +7,489 @@
 + API Video link:  https://youtube.com/watch?v=GZvSYJDk-us&feature=youtu.be
 + Dynamic Site Course Treehouse:  https://teamtreehouse.com/library/build-a-simple-dynamic-site-with-nodejs
 + Greensock:  https://greensock.com/get-started/#loading-gsap
++ Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
++ Community Post: https://teamtreehouse.com/community/lets-get-this-expressjs-flashcard-app-deployed-to-heroku 
 
+
+
+### Day 48
+
+Switched focus today to build markup for a currency converter app based on this YouTube tutorial.
+
+### Day 47
+
+https://teamtreehouse.com/community/lets-get-this-expressjs-flashcard-app-deployed-to-heroku
+
+### Day 43
+
+link to source -   inspired by  https://css-tricks.com/the-slideout-footer/
+
+Stickout footer example   
+
+```css
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    min-height: 75px;
+    text-align: center;
+    color: white;
+    font-size: 20pt;
+    background: #070f3b;
+
+}
+
+header p {
+    font-family: arial;
+}
+
+.container {
+    
+    width: 100%;
+    font-family: arial;
+    line-height: 1.9;
+   /*  display: block;
+    margin: 0 auto; */
+    background: white;
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+}
+
+.content {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    background: white;
+    border: solid 2px black;
+}
+
+footer {
+    /* place on the bottom */
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  
+    background: #070f3b;
+    display: grid;
+    place-items: center;
+    padding: 50px 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+  }
+
+  @media (max-width: 680px) {
+      .content{
+          width: 90%;
+      }
+  }
+```
+
+#### Sonic Pi Resources
+
+http://sonic-pi.mehackit.org/
+
+https://opensource.com/article/20/3/sonic-pi
+
+https://dev.to/sublimemarch/today-i-learned-how-to-generate-music-with-sonic-pi-566g
+
+#### REST APIs
+
+
+
+
+### Day 40
+
+Medium:  the basic idea is to use browser technologies to build a web application that works offline and has the look and feel of a native application. 
+
+I still have a lot to learn about PWA's but... Using a glitch project i was able to create the functionality to install a PWA button prompt. Then nothing since.
+
+https://projects.jonniegrieve.co.uk/pwa/index.html 
+
+https://web.dev/codelab-make-installable/
+https://respected-checker-carrot.glitch.me/
+
+
+#### uninstall a pwa
+
+chrome://apps
+
+#### Links  - Progressive Web Apps
+
+how to make a PWA
+
++ https://medium.com/james-johnson/a-simple-progressive-web-app-tutorial-f9708e5f2605
+
++ https://developers.google.com/web/progressive-web-apps/
+
++ https://www.creativebloq.com/how-to/build-a-progressive-web-app
+
++ https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5 dev to  pwas 
+
++ https://web.dev/customize-install/   customise install prompt
+
++ https://developers.google.com/web/fundamentals/getting-started/primers/service-workers
+
+
+
+### Day 37
+
+```javascript
+//PROMISES
+function getUsers() {
+    return new Promise((resolve, reject) => {
+
+        fs.readFile('data.json', 'utf-8', (err, data) => {
+        if(err) {
+            reject(err); 
+        } else {
+            users = JSON.parse(data);
+            resolve(users);
+        }
+
+        });
+
+    });
+}
+  
+//express route
+app.get('/', (req, res) => {
+
+   
+
+    getUsers()
+       .then((users) =>  { 
+            res.render('index', {title: "Users", users: users.users });
+       })
+       .then()
+       .then()
+       .catch((err) => {
+            res.render('error', {error: err});
+       });
+    });
+```
+
+### Day 36
+
+#### Express Async project
+
+
+this project uses nodemon
+
+Express require('path');  
+
+path is a module that provides utilises for working with file and directory paths. 
+
+works with 
+
+node app
+npm start
+
+#### Greensock 
+```javascript
+
+//basics of greensock animating
+movingCircle = document.getElementsByClassName("ani-circle");
+
+let scene5 = gsap.timeline({delay: 15});
+
+//long circle animation
+scene5.to(loneCircle, {
+    opacity: 1,
+    duration: 0.1,
+    delay: 0,
+}).to(loneCircle, {
+    top: 130,
+    duration: 2
+}).to(loneCircle, {
+    left: 100,
+    top: 0,
+    duration: 2
+}).to(loneCircle, {
+    top: 0,
+    right: 230,
+    duration: 2
+}).to(loneCircle, {
+    width: 600,
+    height: 600,
+    left: -90,
+    right: 70,
+    top: -200,
+    duration: 2,
+    bottom: 100
+});
+```
+
+```
+
+```
+
+### Day 35
+
+
+#### Note - Depoying Node.js to Heroku via https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app
+
+
+```git clone https://github.com/heroku/node-js-getting-started.git```
+
+```cd node-js-getting-started```
+
+```heroku create ```
+
+Now deployed:  https://serene-citadel-29169.herokuapp.com/
+
+```
+deploy code with
+git push heroku master
+```
+
+The application is now deployed. 
+Ensure that at least one instance of the app is running:
+```heroku ps:scale web=1```
+
+```Heroku Apps```
+
++ https://serene-citadel-29169.herokuapp.com/
++ https://jgdm-simple-express.herokuapp.com/
+
+```
+{
+  "name": "simple_express",
+  "version": "1.0.0",
+  "description": "Simple Express routes for testing Heroku Deployment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}
+
+Procfile
+ web: node app.js
+
+
+```
+
+### Day 29
+
+Glitch ought to be a simple service for hosting an node.js app  But the app has proven impossible to upload the files my project needs.  Back I go looking for options. 
+
+https://makeawebsitehub.com/free-node-js-hosting/
+
+
+### Day 28
+
+Ditched Grid layout which doesn't work well with Slick Carousels (at least with this design and I now have a Fade carousel in place for the homepage.  Little preview for you all)
+
+### Day 27
+
+Ditched the idea of Slick Carousels which proved to be too problematic for this project. Have successfully implemented Lightboxes though. 
+
+```html
+
+ data-lightbox= "animal"
+
+    <!-- Lightbox-->
+    <link href="assets/lightbox/dist/css/lightbox.css" rel="stylesheet" />
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+    <script type="text/javascript" src="assets/slick/slick.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+    <script src="assets/lightbox/dist/js/lightbox.js"></script>
+    
+
+    Source/Credit   https://lokeshdhakar.com/projects/lightbox2/
+
+```
+
+### Day 34
+
+Node Deployment notes.
+
+```
+  "engines": {
+    "node": "4.7.0"
+  },  
+
+
+Procfile
+web:  node app.js
+
+
+heroku login
+
+heroku update
+
+heroku help apps
+heroku apps:create FlashCardApp
+heroku apps:create jgdm-flashcardapp
+
+Heroku adds a new remote repository to
+your git repository on your local machine.
+
+
+------> Deply to Github
+
+  git push origin master
+
+------> Deploy to Heroku
+
+  git push heroku master
+
+------> Deploy locally
+
+  heroku local
+
+
+var port = process.env.PORT || 3000
+var port = process.env.PORT || 1337
+```
+
+
+
+### Day 26
+
+
+#### Serve a Static server in Express
+
+```javascript
+//in app.js
+
+//serve a static server in Express
+app.use( express.static( 'public' ) );
+
+//Create static server for front end assets
+// in a folder called static    localhost:3000/static/stylesheets/style.css
+app.use('/static', express.static('public') );
+
+
+```
+
+```layout.pug
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title= page_title
+
+        // Stylesheets
+        link(rel="stylesheet", type="text/css", href="/static/stylesheet/style.css")
+    body
+    
+        include includes/header.pug  
+        if name 
+            h2 Welcome, #{name}
+
+            form(action="/goodbye" method="post")
+                button.submit Goodbye!
+        p
+        a(href='/cards') Begin     
+
+        block content
+
+        include includes/footer.pug
+```
+
+
+### Day 25
+
+```layout.put
+
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title= page_title
+
+        // Stylesheets
+        //link(rel="stylesheet" type="text/css" href="./style.css")
+    body
+    
+        include includes/header.pug  
+        if name 
+            h2 Welcome, #{name}
+
+            form(action="/goodbye" method="post")
+                button.submit Goodbye!
+        p
+        a(href='/cards') Begin     
+
+        block content
+
+        include includes/footer.pug
+```
+
+```cards.js
+const express = require("express");
+const routes = express.Router();
+
+const { data } = require("../data/flashcardData.json");
+const { cards } = data;
+
+
+routes.get( '/', ( req, res ) => {
+  const numberOfCards = cards.length;
+  const flashcardId = Math.floor( Math.random() * numberOfCards );
+  res.redirect( `/cards/${flashcardId}?side=question` );
+});
+
+ //serve the cards route
+ routes.get('/:id', (req, res) => {
+   const { side } = req.query;
+   const { id } = req.params;
+
+
+   if ( !side ) {
+     res.redirect( `/cards/${id}?side=question` );
+   }
+
+   const name = req.cookies.username;
+   const text = cards[id][side];   
+   const { hint } = cards[id];
+
+   console.log(req.query);
+   console.log(req.query.side);
+   console.log(req.params);
+   console.log(cards[id][side]);
+   console.log(text);
+   console.log(cards[id]);
+
+   const templateData = { id, text, name};
+
+   if (side === 'question') {
+     templateData.hint = hint;
+     templateData.sideToShow = 'answer';
+     templateData.sideToShowDisplay = 'Answer';
+   } else if (side === 'answer') {
+     templateData.sideToShow = 'question';
+     templateData.sideToShowDisplay = 'Question';
+   }
+   
+   res.render('cards', templateData);
+});
+
+
+ //export cards routes to app.js
+ module.exports = routes;
+```
 
 ### Day 23
 
@@ -20,7 +502,7 @@
 
 ```json
 
-//Boilerplate code for a Web Manifest file
+//Boilerplate code for a Web Manifest file - Documentation: https://developers.google.com/web/fundamentals/web-app-manifest
 
 {
   "name": "",

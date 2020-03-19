@@ -3,7 +3,7 @@ var Render = require("./render.js");
 
 function home(request, response) {
     if(request.url === "/") {
-        response.writeHead(200, {"content-type":"text/plain"});
+        response.writeHead(200, {"content-type":"text/html"});
         Render.view("header", {}, response);
         Render.view("search", {}, response);
         Render.view("footer", {}, response);
@@ -15,7 +15,7 @@ function user(request, response) {
     var username = request.url.replace("/","")
     if(username.length > 0) {
 
-        response.writeHead(200, {"content-type":"text/plain"});
+        response.writeHead(200, {"content-type":"text/html"});
         Render.view("header", {}, response);
 
         //get json from Treehouse API

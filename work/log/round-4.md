@@ -1,10 +1,147 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 22 of 100. **Last Update:** 10 February 2020
+## **Status:** Day 48 of 100. **Last Update:** 18 March 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R4D48:  Wednesday 18 March 2020
++ **Notes** New currency converter app to test my skills in CSS, HTML5 and JavaScript  
+
++ **Technologies used** - HTML5, CSS, JavaScript, Express.js 
+
+### R4D47:  Tuesday 17 March 2020
++ **Notes** Got to the point now where I'm asking for Debugging help? What is preventing my app deploying correctly to Heroku?   
+
++ **Technologies used** - HTML5, CSS, JavaScript, Express.js 
+
+### R4D46:  Monday 16 March 2020
++ **Notes** Built everything there is to build in the Flashcard App for now, but the JSON data.  Prepping for another go at deploying tomorrow.  Also uploaded more photos to my photography website. 
+
++ **Technologies used** - HTML5, CSS, JavaScript, Express.js 
+
+### R4D45:  Friday 13 March 2020
++ **Notes** Trying again to organise Express routes so they're nested more organised. Again it's erroring. :)  
+
++ **Technologies used** - JavaScript
+
+### R4D44:  Thursday 12 March 2020
++ **Notes** - Added a new route to my Flashcard App  in Express.js.  A page to organise the rest of the cards and keep the main navigation simple.  It's erroring though so will need some debugging later!  :)  
+
++ **Technologies used** - HTML5, CSS
+
+### R4D43:  Wednesday 11 March 2020
++ **Notes** - Made some updates to the markup and some styling to my project over at  https://projects.jonniegrieve.co.uk/walks/. Identified some areas I might improve the SASS architecture too.  
+
++ **Technologies used** - HTML5, CSS
+
+### R4D42:  Tuesday 10 March 2020
++ **Notes** - Apologies for lack of #100DaysOfCode Updates recently. Things have been a bit chaotic recently. But back in action today.  Site updates, tricks with CSS, learned a new JavaScript operator and about using REST API's with Express. 
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+
+### R4D41:  Monday 09 March 2020
++ **Notes** - Added some new photos to my photography website.
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+### R4D40:  Thursday 05 March 2020
++ **Notes** - The beginnings of a Progressive Web App are now in place with a dismissable install prompt on the page. https://projects.jonniegrieve.co.uk/pwa/index.html
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+### R4D39:  Wednesday 04 March 2020
++ **Notes** - I can see I still have a lot to learn about PWA's but... Using a glitch project i was able to create the functionality to install a PWA button prompt
+
+Use a button to trigger PAW install prompt 
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+### R4D38:  Tuesday 03 March 2020
++ **Notes** - Started and style a webpage to server as a Progressive Web App.  I can see it's been hooked up but not getting any install prompts at the moment.
+
++ I'd like to learn about push notifications too but this is a whole different area, for example when I add or remove a project from my website. 
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+### R4D37:  Monday 02 March 2020
++ **Notes** - Build some boilerplate code to turn a website into functionally a progressive web app. Looking forward to building something out from it.   Then went onto look at Promises in Express.js  
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+### R4D36:  Friday 28 February 2020
++ **Notes** - Finished Greensock animation and started exploring Asynchronous coding for Express.js. 
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+### R4D35:  Thursday 27 February 2020
++ **Notes** - Finally did manage to deploy a node mini site to Heroku but the FlashCard App still needs uploading.  This is ongoing.  More JavaScript with greensock.js animations
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+### R4D34:  Wednesday 26 February 2020
++ **Notes** - Turned my attention back to Express.js. Ready to deploy the site now but nothing is working. Glitch and Heroku won't serve them though I know the app works on localhost. Will look at this ongoing but time to move onto more express Dev 
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+### R4D33:  Tuesday 25 February 2020
++ **Notes** - Launched my Photography web page today over at https://projects.jonniegrieve.co.uk/photography
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+### R4D32:  Monday 24 February 2020
++ **Notes** - Lots of work done today on my Photography website.   It's nearly launch worthy... just one or 2 minor details to work out. Can't to share this one with you!  :)
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+### R4D31:  Friday 21 February 2020
++ **Notes** - remove unused CSS code.  Add responsive styles.  Also went back to JavaScript Basics with Treehouse's latest course. You can never learn too much :) 
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+### R4D30:  Thursday 20 February 2020
++ **Notes** - Babysitting duties most of the day but I did have time to do some prep work on my Photography website. Added some placeholder images. Each category now has its own set of images rather than Lightbox counting them all at once. 
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+### R4D29:  Wednesday 19 February 2020
++ **Notes** - Expanded the Flashcard App by including another set of JSON data for a second set of flashcards. Also the app looks a little better stylistically now with some edited CSS.
+
+I wish I could have deployed the app with Glitch.com but the online app won't seem to accept my file uploads.  Back to Heroku I go. 
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+### R4D28:  Tuesday 18 February 2020
++ **Notes** - Ditched Grid layout which doesn't work well with Slick Carousels (at least with this design and I now have a Fade carousel in place for the homepage.  Little preview for you all)
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+### R4D27:  Monday 17 February 2020
++ **Notes** - Have the basis of a Photography website planned out and sorted.  Ditched Slick carousels in favour of a static Lightbox style gallery which I'll slowly put together into an interactive site.
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+### R4D26:  Friday 14 February 2020
+
++ **Notes** - Completed the basics of an Express App.  Just a few things to sort out Styling ways and looking forward to deploy. 
+
++ **Technologies used** - Node.js, Express.js, HTML5, CSS
+
+### R4D25:  Thursday 13 February 2020
++ **Notes** - The Express App is now working flawlessly. One little Pug generated link tag in a template has caused me so many headaches in the last week. But it's now fixed.  I've also started a new photography website project.
+
++ **Technologies used** - Node.js, Express.js, HTML5, CSS2
+
+### R4D24:  Wednesday 12 February 2020
++ **Notes** - Fixed Cards Route.  Headers still being modified when Query parameters sent.  
+
++ **Technologies used** - Node.js, Express.js, HTML5, CSS
+
+### R4D23:  Tuesday 11 February 2020
++ **Notes** - Learning curve with Express.js continues.  In the meantime I'm learning some things about implementing Progressive Web Apps using JavaScript.  
+
++ **Technologies used** - Node.js, Express.js, HTML5, CSS
 
 ### R4D22:  Monday 10 February 2020
 + **Notes** - Fixed the problem with 1 route then introduced another as I learn about Route parameters in Express.  Route params are partially working but the main route now causes 404 error. Still have a bit more to learn about these though.  

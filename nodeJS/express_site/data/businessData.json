@@ -1,0 +1,32 @@
+{
+    "data": {
+        "title": "Business",
+        "cards": [
+            {
+                "question": "Business 1",
+                "hint": "Business Hint 1",
+                "answer": "Business Answer 1"
+            },
+            {
+                "question": "Business 2",
+                "hint": "Business Hint 2",
+                "answer": "Business Answer 2"
+            },
+            {
+                "question": "Business 3",
+                "hint": "Business Hint 3",
+                "answer": "Business Answer 3"
+            },
+            {
+                "question": "Business 4",
+                "hint": "Business Hint 4",
+                "answer": "Business Answer 4"
+            },
+            {
+                "question": "Business 5",
+                "hint": "Business Hint 5",
+                "answer": "Business Answer 5"
+            }
+        ]
+    }
+}

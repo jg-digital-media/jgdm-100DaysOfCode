@@ -4,23 +4,38 @@ const express = require('express');
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 
-
-
 //Express launch function
 const app = express();
-//set the view engine to use pug for templating
-app.set("view engine", "pug");
-
 
 //use bodyParser and cookieParser middleware - third party.
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
 
+//set the view engine to use pug for templating
+app.set("view engine", "pug");
+
 const indexRouter = require("./routes");
+const webRouter = require("./routes/webdesign");
 const cardsRouter = require("./routes/cards");
+const javaScriptRouter = require("./routes/more/javascript");
+const phpRouter = require("./routes/more/php");
+const rubyRouter = require("./routes/more/ruby");
+const sassRouter = require("./routes/more/sass");
+const businessRouter = require("./routes/more/business");
+const pythonRouter = require("./routes/more/python");
 
 app.use(indexRouter);
+app.use('/webdesign', webRouter);
 app.use('/cards', cardsRouter);
+app.use('/php', phpRouter);
+app.use('/javascript', javaScriptRouter);
+app.use('/ruby', rubyRouter);
+app.use('/sass', sassRouter);
+app.use('/business', businessRouter);
+app.use('/python', pythonRouter);
+
+//Create static server for front end assets
+app.use( '/static', express.static( 'public' ) );
 
 /*MIDDLEWARE*/
 
@@ -35,7 +50,7 @@ app.use('/cards', cardsRouter);
  }); */
 
 //404 Middleware!
-app.use((res, req, next) => {
+app.use((req, res, next) => {
     const err = new Error('Page Not Found!');
     err.status = 404;
     next(err);
@@ -43,8 +58,6 @@ app.use((res, req, next) => {
 
 //error handler middleware
 app.use((err, req, res, next) => {
-    // do something
-    //res.status(err.status)   
     res.locals.error = err;
     res.status(err.status);
     res.render('error');
@@ -54,7 +67,7 @@ app.use((err, req, res, next) => {
  });
 
 //Set up the development server listen method - port number
-app.listen(3000, function(){
+app.listen(3000, () => {
     console.log("server currently running on Heroku");
 
 });

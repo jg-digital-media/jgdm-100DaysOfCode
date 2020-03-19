@@ -1,21 +1,18 @@
-# Welcome to Sonic Pi v3.1
-
+# Lily's Theme: Harry Potter*/
 choose_a_synth = use_synth :blade
 
 sleep 1
 
-first_bar = bar1
-second_bar = bar2
-third_bar = bar3
-four_bar = bar4
-
-# Lily's Theme: Harry Potter*/
+first_bar = :bar1
+second_bar = :bar2
+third_bar = :bar3
+four_bar = :bar4
 
 
 define :bar1 do
-  play :g4, sustain: 1
+  play :d4, sustain: 1
   sleep 1.1
-  play :a4, sustain: 2
+  play :a4, sustain: 1.5
   sleep 2
   play :g4
   sleep 0.6
@@ -76,3 +73,8 @@ define :bar4 do
   sleep 0.5
 end
 
+
+bar1
+bar2
+bar3
+bar4

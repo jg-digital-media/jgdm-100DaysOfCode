@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 4: Day 22 of 100. **Last Update:** 10 February 2020
++ **Status:** Round 4: Day 48 of 100. **Last Update:** 18 March 2020
 
 ## Directories
   + bin      
@@ -14,9 +14,12 @@
   + css 
     + balloon
     + modernizr
+    + photography
     + portfolio
     + portfolio-gallery
     + project_sub
+    + pwa
+    + pwa_2
     + sass_project
     + semantic-html
   + java
@@ -27,6 +30,7 @@
     + MyFirstApp
   + javascript
     + ajax
+    + currency_converter
     + dom
     + four_in_a_row
     + greensock

@@ -17,14 +17,22 @@ app.set("view engine", "pug");
 const indexRouter = require("./routes");
 const webRouter = require("./routes/webdesign");
 const cardsRouter = require("./routes/cards");
-const javaScriptRouter = require("./routes/javascript");
-const phpRouter = require("./routes/php");
+const javaScriptRouter = require("./routes/more/javascript");
+const phpRouter = require("./routes/more/php");
+const rubyRouter = require("./routes/more/ruby");
+const sassRouter = require("./routes/more/sass");
+const businessRouter = require("./routes/more/business");
+const pythonRouter = require("./routes/more/python");
 
 app.use(indexRouter);
 app.use('/webdesign', webRouter);
 app.use('/cards', cardsRouter);
 app.use('/php', phpRouter);
 app.use('/javascript', javaScriptRouter);
+app.use('/ruby', rubyRouter);
+app.use('/sass', sassRouter);
+app.use('/business', businessRouter);
+app.use('/python', pythonRouter);
 
 //Create static server for front end assets
 app.use( '/static', express.static( 'public' ) );

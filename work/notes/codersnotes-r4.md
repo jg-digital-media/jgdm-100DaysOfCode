@@ -16,6 +16,9 @@
 
 Switched focus today to build markup for a currency converter app based on this YouTube tutorial.
 
++ Source Tutorial URL:  https://www.youtube.com/watch?v=ARBvYDNeNdM
++ Source Tutorial URL Part 2: https://www.youtube.com/watch?v=F4TfBopAmaY
+
 ### Day 47
 
 https://teamtreehouse.com/community/lets-get-this-expressjs-flashcard-app-deployed-to-heroku

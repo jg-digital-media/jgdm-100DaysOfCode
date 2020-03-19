@@ -1,9 +1,14 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 48 of 100. **Last Update:** 18 March 2020
+## **Status:** Day 49 of 100. **Last Update:** 19 March 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R4D49:  Friday 19 March 2020
++ **Notes** A few bits behind the scenes today.  A bit of JavaScript review and gave a website project a sticky footer to improve its look and feel
+
++ **Technologies used** - HTML5, CSS, JavaScript, Express.js 
 
 ### R4D48:  Wednesday 18 March 2020
 + **Notes** New currency converter app to test my skills in CSS, HTML5 and JavaScript  

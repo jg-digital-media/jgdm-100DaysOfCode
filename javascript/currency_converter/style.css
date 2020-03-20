@@ -9,29 +9,102 @@ html {
 }
 
 body {
+    background: darkgray
 
 }
 
 .container {
+    background: black;
+    color: white;
+    border: solid yellow 1px;
+    width: 300px;
+    margin: 20px auto;
 
 }
 
 .header {
+    border: solid red 1px;
 
 }
 
 .header h1 {
+    text-align: center;
+    font-size: 3pc;
 
 }
 
-.data {
+.date {
+    font-family: verdana;
+    text-align: right;
 
 }
 
 ul.currencies {
+    height: auto;
+    background: black;
+    border: solid pink 1px;
+
+}
+
+ul.currencies li {
+    background: #472222;
+    border-radius: 5px;
+    list-style: none;
+    margin-bottom: 1rem;
+    padding: 3px;
+
+}
+
+
+ul.currencies li.last-child {
+    margin-bottom: 0;
+}
+
+ul.currencies li.base-currency {
+    background-color: #264d73;
+    background-color: #311919;
+}
+
+
+li.currency {
 
 }
 
 .add-currency-btn {
+    width: 100%;
+    background: lightyellow;
+    height: 30px;
+    font-family: arial;
+    font-weight: bold;
+}
 
+.flag {
+    vertical-align: top;
+    width: 60px;
+    height: 40px
+}
+
+.info {
+    display: inline-block;
+}
+
+.info .input span {
+
+}
+
+.info .input input {
+    border-radius: 5px;
+    border: solid 2px white;
+    background-color: transparent;
+    width: 90%;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.close {
+    color: red;
+}
+
+footer {
+   text-align: center;
 }

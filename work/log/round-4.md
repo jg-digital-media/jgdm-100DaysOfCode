@@ -5,7 +5,12 @@ ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-### R4D49:  Friday 19 March 2020
+### R4D50:  Friday 20 March 2020
++ **Notes** Learned some useful new CSS techniques today as I build the CSS and markup for a Currency Converter app.
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+### R4D49:  Thursday 19 March 2020
 + **Notes** A few bits behind the scenes today.  A bit of JavaScript review and gave a website project a sticky footer to improve its look and feel
 
 + **Technologies used** - HTML5, CSS, JavaScript, Express.js 

@@ -11,6 +11,20 @@
 + Community Post: https://teamtreehouse.com/community/lets-get-this-expressjs-flashcard-app-deployed-to-heroku 
 
 
+### Day 50
+
+#### scrollbar styling  CSS
+
+```
+ul.currencies::-webkit-scrollbar {
+   width: 
+}
+```
+ 
+
+
+32.53 minutes tutorial
+
 
 ### Day 48
 

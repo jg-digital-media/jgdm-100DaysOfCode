@@ -5,10 +5,21 @@
 
 ### Focus
 + API Video link:  https://youtube.com/watch?v=GZvSYJDk-us&feature=youtu.be
-+ Dynamic Site Course Treehouse:  https://teamtreehouse.com/library/build-a-simple-dynamic-site-with-nodejs
-+ Greensock:  https://greensock.com/get-started/#loading-gsap
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Community Post: https://teamtreehouse.com/community/lets-get-this-expressjs-flashcard-app-deployed-to-heroku 
++ Flashcard App (Express.js) - https://jgdm-flashcard-app.herokuapp.com/hello
++ Photography - https://photography.jonniegrieve.co.uk/
+
+
+
+### Day 51
+
+```javascript
+random.js
+
+const dieRoll = Math.floor( Math.random() * 6 ) + 6;
+console.log( `The number is: ${dieRoll} `);
+```
 
 
 ### Day 50

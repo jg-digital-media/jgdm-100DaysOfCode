@@ -79,42 +79,67 @@ ul.currencies li:hover {
     background: #2644d7;
 }
 
-li.currency {
+ul.add-currency-list {
+    position: absolute;
+    bottom: 57px;
+    bottom: 31px;
+    left: 0;
+    background-color: #f1f1f1;
+    color: #333;
+    width: 100%;
+    overflow-y: auto;
+    transition: all 0.25s;
+    height: 0;
 
+}
+ul.add-currency-list:hover {
+    height: calc(100vh -40px - 100px - 55px);
+    display: block;
+}
+
+ul.add-currency-list li {
+    list-style: none;
+    margin: 5px 5px;
 }
 
 .add-currency-btn {
     width: 100%;
     background: lightyellow;
+    /*color: #fff;*/
+    /*padding: 1rem;*/
     height: 30px;
     font-family: arial;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.25s;
+    position: relative;
 }
 
 .add-currency-btn:hover {
-    background-color: red;
-    border: 0;
-    
+    background-color: red;    
 }
+
+.add-currency-btn i { 
+    position: absolute;
+    top: 1px;
+    left: 13PX;
+    font-size: 1.5rem;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    opacity: 0;
+    transition: all 0.25s;
+    color: black;
+}
+.add-currency-btn:hover i {
+    opacity: 1;    
+ }
+
+
+
 
 .add-currency-btn:hover + ul.add-currency-list {
+    height: calc(100vh - 40px - 100px - 55px);
     display: block;
-    
-    height: calc(100vh -40px - 100px - 55px);
-}
-
-.flag {
-    vertical-align: top;
-    width: 60px;
-    height: 40px;
-    margin-left: 5px;
-}
-
-.info {
-    display: inline-block;
-    width: 85%;
 }
 
 .info .input span {
@@ -162,34 +187,21 @@ li.currency {
     right: 0;
 }
 
-.add-currency-list {
-    position: absolute;
-    bottom: 57px;
-    bottom: 31px;
-    left: 0;
-    background-color: #f1f1f1;
-    color: #333;
-    width: 100%;
-    overflow-y: auto;
-    display: none;    
-    transition: all 0.25s;
-
-}
-
-.add-currency-list:hover {
-    display: block;
-    height: calc(100vh -40px - 100px - 55px);
-}
-
-.add-currency-list li {
-    list-style: none;
-    margin: 5px 5px;
-
-}
-
 .disabled {
     opacity: 0.7;
     cursor: not-allowed;
+}
+
+.flag {
+    vertical-align: top;
+    width: 60px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.info {
+    display: inline-block;
+    width: 85%;
 }
 
 footer {

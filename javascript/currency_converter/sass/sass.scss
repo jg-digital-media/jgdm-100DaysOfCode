@@ -1,0 +1,245 @@
+//imports
+@import "utilities/colour";
+@import "utilities/fonts";
+@import "utilities/extends";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: $background-main;
+
+}
+
+.container {
+    position: relative;
+    background: $container-main;
+    color: white;
+    /*border: solid yellow 1px;*/
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+    font-family: $font-main;
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;    
+
+    .header {
+        border: solid red 1px;
+
+        h1 {
+
+            text-align: center;
+            font-size: 3pc;
+            font-family: $font-main;
+        }
+
+    }
+
+    .date {
+        font-family: $font-secondary;
+        text-align: right;
+        margin: 10px 5px;
+    
+    }
+
+}
+
+
+ul.currencies {
+    font-family: $font-secondary;
+    height: auto;
+    height: calc(100vh - 100px);
+    background: black;
+    background-color: #222;
+    border: solid pink 1px;
+    overflow-y: auto;
+
+}
+
+ul.currencies li {
+    background: #472222;
+    border-radius: 5px;
+    list-style: none;
+    margin-bottom: 1rem;
+    padding: 3px;
+    position: relative;
+
+}
+
+ul.currencies li:hover {
+    background: #264d73;
+}
+
+ul.currencies li.last-child {
+    margin-bottom: 0;
+}
+
+ul.currencies li.base-currency {
+    background-color: #264d73;
+    background-color: #311919;
+    position: relative;
+}
+
+ul.currencies li:hover {
+    background: #2644d7;
+}
+
+ul.add-currency-list {
+    position: absolute;
+    bottom: 57px;
+    bottom: 31px;
+    left: 0;
+    background-color: #f1f1f1;
+    color: #333;
+    width: 100%;
+    overflow-y: auto;
+    transition: all 0.25s;
+    height: 0;
+
+}
+ul.add-currency-list:hover {
+    height: calc(100vh -40px - 100px - 55px);
+    display: block;
+}
+
+ul.add-currency-list li {
+    list-style: none;
+    margin: 15px 15px;
+}
+
+.add-currency-btn {
+    width: 100%;
+    background: lightyellow;
+    /*color: #fff;*/
+    /*padding: 1rem;*/
+    height: 30px;
+    font-family: arial;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.25s;
+    color: $currency-btn-col;
+    position: relative;
+}
+
+.add-currency-btn.open {
+    background-color: $currency-btn-bg-hover;  
+    color: $currency-btn-col-hover;  
+}
+
+.add-currency-btn i { 
+    position: absolute;
+    top: 1px;
+    left: 30%;
+    font-size: 1.5rem;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    opacity: 0;
+    transition: all 0.25s;
+    color: black;
+    color: yellow;
+}
+.add-currency-btn.open i {
+    opacity: 1;    
+    left: 1.2rem;
+ }
+
+.add-currency-btn.open + ul.add-currency-list {
+    height: calc(100vh - 40px - 100px - 55px);
+    display: block;
+}
+
+.add-currency-btn.open + ul.add-currency-list li:hover{
+    background-color: #ede;
+}
+
+.info {
+    display: inline-block;
+    width: 85%;
+    color: $colour-main;
+}
+
+
+.info .input span {
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 4rem;
+    text-align: center;
+
+}
+
+.info .input input {
+    
+    border-radius: 5px;
+    border: solid 2px white;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 58%;
+    padding: 0 10px;
+    padding: 0.3rem;
+    font-size: 12px;
+    height: 30px;
+    color: white;
+    margin-left: 1rem;
+    vertical-align: top;
+    margin-bottom: 0.75rem;
+}
+
+.info .base-currency-rate {
+
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    margin-left: 4rem;
+}
+
+.info .currency-name {
+    font-size: 0.8rem;
+    margin-left: 4rem;
+}
+
+.close {
+    position: absolute;
+    cursor: pointer;
+    color: $close-btn;
+    top: 0;
+    right: 0;
+    display: block;
+    margin: 10px;
+}
+
+.disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.flag {
+    vertical-align: top;
+    width: 60px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+footer {
+   text-align: center;
+}
+
+/*Responsivee code*/
+
+@media (max-width: 600px) {
+    html { font-size: 14px; }
+    .container { width: 100%; margin: 0 auto; }
+    ul.currencies { height: calc(100vh - 83px - 34px - 51px); }
+    .header h1 { font-size: 2rem; }
+    .flag { width: 3rem; height: 2rem; }
+    .info .input span { font-size: 1.25rem; width: 3.5rem; }
+    .info .input input { font-size: 1.25rem; width: 76%;}
+    .info .currency-name { margin-left: 3.5rem; }
+    .info .base-currency-rate { margin-left: 3.5rem; }
+    ul.add-currency-list { bottom: 48px; height: calc(100vh - 80px - 51px); }
+    .add-currency-btn i { left: 25%; top:0.65rem; }
+  }

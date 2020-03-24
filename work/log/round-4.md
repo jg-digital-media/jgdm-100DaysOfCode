@@ -1,12 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 51 of 100. **Last Update:** 23 March 2020
+## **Status:** Day 52 of 100. **Last Update:** 24 March 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R4D52:  Tuesday 24 March 2020
++ **Notes** Finished building the markup Currency Converter app I'm building.  Started applying Sass to the app as well and work is ongoing with that trying to apply my own stamp in the styling. Can't tell you how useful the Live server Visual Studio Code extension has been.  :)
+
++ **Technologies used** - HTML5, CSS
+
 ### R4D51:  Monday 23 March 2020
-+ **Notes** Finally deployed my Express.js App via Heroku and built upon a @Treeghouse tutorial Further changes to come.  https://jgdm-flashcard-app.herokuapp.com/ Moved my photography website to https://photography.jonniegrieve.co.uk  It's growing  :)
++ **Notes** Finally deployed my Express.js App via Heroku and built upon a @Treehouse tutorial Further changes to come.  https://jgdm-flashcard-app.herokuapp.com/ Moved my photography website to https://photography.jonniegrieve.co.uk  It's growing  :)
 
 + **Technologies used** - HTML5, CSS, JavaScript
 

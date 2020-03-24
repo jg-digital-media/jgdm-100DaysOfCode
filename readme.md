@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 4: Day 51 of 100. **Last Update:** 23 March 2020
++ **Status:** Round 4: Day 52 of 100. **Last Update:** 24 March 2020
 
 ## Directories
   + bin      
@@ -13,8 +13,8 @@
       + vue-status-project    
   + css 
     + balloon
+    + layout-hack
     + modernizr
-    + photography
     + portfolio
     + portfolio-gallery
     + project_sub
@@ -22,6 +22,7 @@
     + pwa_2
     + sass_project
     + semantic-html
+    + services
   + java
     + Generics
     + Interfaces
@@ -130,7 +131,6 @@ Vue
 
 ## Description
 
-I rejigged my blog to restart my 100DaysofCode challenge. Starting today (**31st July 2019**) Round 3 is underwaY.  
 
 My goal remains to help myself maintain not just my coding (I can always be found coding), but also an active social media presence.
 

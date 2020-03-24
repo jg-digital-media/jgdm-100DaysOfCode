@@ -10,7 +10,15 @@
 + Flashcard App (Express.js) - https://jgdm-flashcard-app.herokuapp.com/hello
 + Photography - https://photography.jonniegrieve.co.uk/
 
+### Day 52
 
+```css
+user-select: none
+
+scrollbar styling 
+
+Things with the sibling selector.
+```
 
 ### Day 51
 

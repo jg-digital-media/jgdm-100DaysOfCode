@@ -1,0 +1,32 @@
+{
+    "data": {
+        "title": "Web Design",
+        "cards": [
+            {
+                "question": "What are the 3 main layers of web design development?",
+                "hint": "They are to do with content, styling and functionality of a site",
+                "answer": "Content, Styling and Interaction"
+            },
+            {
+                "question": "What does CSS do?",
+                "hint": "Think about what makes a website looks nice",
+                "answer": "Styles the HTML elements in a HTML document"
+            },
+            {
+                "question": "What is the name given to the default page on a website?",
+                "hint": "It's an orgaqnisating name.",
+                "answer": "index.html"
+            },
+            {
+                "question": "HTML. What does it stand for?",
+                "hint": "It's sounds hyper and is known as markup",
+                "answer": "Hypertext Markup language"
+            },
+            {
+                "question": "What is the name given to the elements that make up?",
+                "hint": " \"---, you're it!\" ",
+                "answer": "They're commonly known as Tags"
+            }
+        ]
+    }
+}

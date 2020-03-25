@@ -10,6 +10,33 @@
 + Flashcard App (Express.js) - https://jgdm-flashcard-app.herokuapp.com/hello
 + Photography - https://photography.jonniegrieve.co.uk/
 
+
+
+### Day 53:
+
+#### It took some doing, and tried my best on my own but I found the jQuery for what I need. 
+
+Uses a callback function.  
+
+prop gets the property value of an element.  takes the property name and its value.
+
+Requires a condition statement  keyup to trigger changes in state.
+
+```javascript
+$(document).ready(function() {
+     $(':input[type="submit"]').prop('disabled', true);
+     $('input[type="text"]').keyup(function() {
+        if($(this).val() != '') {
+           $(':input[type="submit"]').prop('disabled', false);
+        }
+     });
+ });
+
+ ```
+
+ Link to solution: 
+https://stackoverflow.com/questions/1594952/jquery-disable-enable-submit-button
+
 ### Day 52
 
 ```css

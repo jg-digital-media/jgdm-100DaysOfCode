@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 4: Day 52 of 100. **Last Update:** 24 March 2020
++ **Status:** Round 4: Day 53 of 100. **Last Update:** 25 March 2020
 
 ## Directories
   + bin      
@@ -40,9 +40,11 @@
     + node
   + nodeJS
     + basics
-    + open_weather
     + dynamic
     + dynamic_site
+    + express_site (external)
+    + express_async
+    + open_weather
   + php
     + mvc-framework
     + php_auth

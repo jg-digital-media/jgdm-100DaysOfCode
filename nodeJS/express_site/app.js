@@ -7,6 +7,9 @@ const cookieParser = require("cookie-parser");
 //Express launch function
 const app = express();
 
+//port information for deployment
+const port = process.env.PORT || 1337;
+
 //use bodyParser and cookieParser middleware - third party.
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(cookieParser());
@@ -67,7 +70,7 @@ app.use((err, req, res, next) => {
  });
 
 //Set up the development server listen method - port number
-app.listen(3000, () => {
-    console.log("server currently running on Heroku");
+app.listen(port, () => {
+    console.log("Deployed to heroku on port 1337");
 
 });

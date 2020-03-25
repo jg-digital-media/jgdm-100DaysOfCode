@@ -1,7 +1,7 @@
 const express = require("express");
 const routes = express.Router();
 
-const { data } = require("../../data/JavaScriptData.json");
+const { data } = require("../../data/javaScriptData.json");
 const { cards } = data;
 
 //randomise display of flash cards/

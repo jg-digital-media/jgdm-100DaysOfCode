@@ -4,7 +4,11 @@
   "description": "app.js - entry point",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "13.3.0"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +17,7 @@
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
     "express": "^4.17.1",
+    "heroku": "^7.39.1",
     "pug": "^2.0.4"
   }
 }

@@ -1,13 +1,20 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 53 of 100. **Last Update:** 25 March 2020
+## **Status:** Day 54 of 100. **Last Update:** 26 March 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R4D54:  Thursday 26 March 2020
++ **Notes** Finished the initial styling for the Currency Converter page and made a new deployment to Heroku with some minor styling improvements!
+
++ **Technologies used** - HTML5, CSS, Sass, Express.js
+
 ### R4D53:  Wednesday 25 March 2020
 + **Notes** Managed to apply some more Sass styling... and studied some jQuery that disables an button if a given text box is empty.  It's in the latest version of the Express.js flashcard app.  :)
 + Oh yes, and I started adding some question and answer data for the app too, in plain old JSON. 
+
++ **Technologies used** - HTML5, CSS, Sass, Express.js
 
 ### R4D52:  Tuesday 24 March 2020
 + **Notes** Finished building the markup Currency Converter app I'm building.  Started applying Sass to the app as well and work is ongoing with that trying to apply my own stamp in the styling. Can't tell you how useful the Live server Visual Studio Code extension has been.  :)

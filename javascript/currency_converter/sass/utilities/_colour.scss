@@ -1,14 +1,27 @@
+//main backgrounds
+$body-bg: darkgray;
 $background-main: darkgray;
 $container-main: black;
+$header-bg: #111111;
 
-$colour-main: white;
 
+//currency list colours
 $currency-list-bg:  #472222;
-$currency-list-bg-hover:  #2644d7;
 
+$colour-main: white; /*Add currency colours*/
+$currency-list-bg-hover:  #2644d7;
+$currency-list-bg-hover: lighten($currency-list-bg, 10%);
+$close-btn: #ff0000;
+
+
+//add currency button colours
 $currency-btn-bg: lightyellow;
 $currency-btn-bg-hover: red;
 $currency-btn-col: black;
 $currency-btn-col-hover: black;
 
-$close-btn: red;
+
+//scrollbar colours
+$scrollbar-color: #807d7d;
+$scrollbar-thumb: #333;
+$scrollbar-thumb-hover: #b3aeae;

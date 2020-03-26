@@ -1,5 +1,46 @@
+/*Add currency colours*/
+/**/
+.add-currency-btn {
+  width: 100%;
+  background: lightyellow;
+  /*color: #fff;*/
+  /*padding: 1rem;*/
+  height: 50px;
+  font-family: arial;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  color: black;
+  position: relative; }
+
+.add-currency-btn.open {
+  background-color: red;
+  color: black;
+  height: 50px;
+  color: white; }
+
 * {
   padding: 0; }
+
+/**/
+.add-currency-btn {
+  width: 100%;
+  background: lightyellow;
+  /*color: #fff;*/
+  /*padding: 1rem;*/
+  height: 50px;
+  font-family: arial;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  color: black;
+  position: relative; }
+
+.add-currency-btn.open {
+  background-color: red;
+  color: black;
+  height: 50px;
+  color: white; }
 
 * {
   margin: 0;
@@ -23,7 +64,8 @@ body {
   -webkit-user-select: none;
   -moz-user-select: none; }
   .container .header {
-    border: solid red 1px; }
+    /*border: solid red 1px;*/
+    background: #111111; }
     .container .header h1 {
       text-align: center;
       font-size: 3pc;
@@ -31,16 +73,34 @@ body {
   .container .date {
     font-family: verdana;
     text-align: right;
-    margin: 10px 5px; }
+    margin: 10px 5px;
+    font-size: 10px;
+    /*background: $header-bg;*/ }
+  .container .date > span {
+    color: #e9a042;
+    font-weight: bold; }
 
 ul.currencies {
   font-family: verdana;
   height: auto;
   height: calc(100vh - 100px);
-  background: black;
   background-color: #222;
-  border: solid pink 1px;
+  /*border: solid pink 1px;*/
+  border-top: 1px white solid;
   overflow-y: auto; }
+
+ul.currencies::-webkit-scrollbar {
+  width: 15px;
+  background: #807d7d; }
+
+ul.currencies::-webkit-scrollbar-thumb {
+  background: #333;
+  cursor: pointer;
+  transition: background .2s;
+  border: solid 1px black;
+  border: solid 1px #222121; }
+  ul.currencies::-webkit-scrollbar-thumb:hover {
+    background: #b3aeae; }
 
 ul.currencies li {
   background: #472222;
@@ -57,17 +117,15 @@ ul.currencies li.last-child {
   margin-bottom: 0; }
 
 ul.currencies li.base-currency {
-  background-color: #264d73;
-  background-color: #311919;
+  background: #693333;
   position: relative; }
 
 ul.currencies li:hover {
-  background: #2644d7; }
+  background: #693333; }
 
 ul.add-currency-list {
   position: absolute;
-  bottom: 57px;
-  bottom: 31px;
+  bottom: 50px;
   left: 0;
   background-color: #f1f1f1;
   color: #333;
@@ -82,40 +140,29 @@ ul.add-currency-list:hover {
 
 ul.add-currency-list li {
   list-style: none;
-  margin: 15px 15px; }
+  margin: 0 15px;
+  padding: 10px 15px; }
 
-.add-currency-btn {
-  width: 100%;
-  background: lightyellow;
-  /*color: #fff;*/
-  /*padding: 1rem;*/
-  height: 30px;
-  font-family: arial;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.25s;
-  color: black;
-  position: relative; }
+.flag {
+  vertical-align: top;
+  width: 60px;
+  height: 40px;
+  margin-left: 5px; }
 
-.add-currency-btn.open {
-  background-color: red;
-  color: black; }
-
+/*Currency Button Styles*/
 .add-currency-btn i {
   position: absolute;
   top: 1px;
   left: 30%;
   font-size: 1.5rem;
-  /* padding: 10px; */
-  /* margin: 10px; */
   opacity: 0;
   transition: all 0.25s;
-  color: black;
   color: yellow; }
 
 .add-currency-btn.open i {
   opacity: 1;
-  left: 1.2rem; }
+  left: 1.2rem;
+  margin-top: 10px; }
 
 .add-currency-btn.open + ul.add-currency-list {
   height: calc(100vh - 40px - 100px - 55px);
@@ -124,6 +171,7 @@ ul.add-currency-list li {
 .add-currency-btn.open + ul.add-currency-list li:hover {
   background-color: #ede; }
 
+/*Currency info styles*/
 .info {
   display: inline-block;
   width: 85%;
@@ -149,6 +197,8 @@ ul.add-currency-list li {
   margin-left: 1rem;
   vertical-align: top;
   margin-bottom: 0.75rem; }
+  .info .input input::placeholder {
+    color: white; }
 
 .info .base-currency-rate {
   font-size: 0.8rem;
@@ -159,29 +209,35 @@ ul.add-currency-list li {
   font-size: 0.8rem;
   margin-left: 4rem; }
 
+.disabled {
+  opacity: 0.7;
+  cursor: not-allowed; }
+
+/*Close button*/
 .close {
   position: absolute;
   cursor: pointer;
-  color: red;
+  color: #ff0000;
   top: 0;
   right: 0;
   display: block;
   margin: 10px; }
 
-.disabled {
-  opacity: 0.7;
-  cursor: not-allowed; }
+/*Footer*/
+.page-footer {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin: 28px 0px;
+  display: block; }
+  .page-footer p {
+    font-size: 1.5rem; }
+    .page-footer p a {
+      color: black;
+      color: blue; }
+      .page-footer p a:hover {
+        color: red; }
 
-.flag {
-  vertical-align: top;
-  width: 60px;
-  height: 40px;
-  margin-left: 5px; }
-
-footer {
-  text-align: center; }
-
-/*Responsivee code*/
+/*Responsive code*/
 @media (max-width: 600px) {
   html {
     font-size: 14px; }

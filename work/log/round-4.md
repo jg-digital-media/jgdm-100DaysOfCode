@@ -1,9 +1,14 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 54 of 100. **Last Update:** 26 March 2020
+## **Status:** Day 55 of 100. **Last Update:** 27 March 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R4D55:  Friday 27 March 2020
++ **Notes**  Finished off modifying the data and content for the Flashcard App.  Studied a couple of JS DOM method as I start building the currency converter app. classList and insertAdjacentHTML();
+
++ **Technologies used** - HTML5, CSS JavaScript
 
 ### R4D54:  Thursday 26 March 2020
 + **Notes** Finished the initial styling for the Currency Converter page and made a new deployment to Heroku with some minor styling improvements!

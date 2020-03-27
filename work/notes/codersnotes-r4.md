@@ -10,7 +10,55 @@
 + Flashcard App (Express.js) - https://jgdm-flashcard-app.herokuapp.com/hello
 + Photography - https://photography.jonniegrieve.co.uk/
 
+### Day 55:
 
+https://www.proprofs.com/quiz-school/quizshow.php?title=3dq-ruby-test_2CU&q=1
+
+
+```javascript
+
+// show and hide add-currency list 
+
+// global variables
+const addCurrencyBtn = document.querySelector(".add-currency-btn");
+
+// event listeners
+addCurrencyBtn.addEventListener("click")
+
+// functions
+function addCurrencyBtnClick(event) {
+    addCurrencyBtn.classList.toggle("open");
+}
+
+```
++ This above is simple code that toggles button state using an event listener.. 
+
++ A DOM method to select the button to click and toggle the existence og a class.
+
++ We use classList to access a range of classes.  Then pass a string for the class to toggle existence of that class
+
+
+```javascript
+
+// populateAddCurrencyList
+function populateAddCurrencyList() {
+    for(let i=0; i<currencies.length; i++) {
+        addCurrencyList.insertAdjacentHTML(
+            "beforeend",
+            `<li data-currency="${currencies[i].abbreviation}" class="">
+                        <img src="${currencies[i].flagURL}"  class="flag"><span>${currencies[i].abbreviation} - ${currencies[i].name}</span>
+            </li>` 
+        );
+    }
+	
+}
+
+populateAddCurrencyList();
+```
+
++ Interpolation syntax for Strinf literals```${currencies[i].abbreviation``` The Syntax is array[working_variable].property_object
++ Mozilla website defines ```insertAdjacenentHTML()``` method as:  Parses the specified text as HTML or XML and inserts the resulting nodes into the DOM tree at a specified position. 
++ "DOMString" refers to placing the specified text in a certain positoon i.e in this case Just inside the element, after its last child
 
 ### Day 53:
 

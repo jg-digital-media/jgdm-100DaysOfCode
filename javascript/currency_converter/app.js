@@ -6,7 +6,7 @@ const addCurrencyList = document.querySelector(".add-currency-list");
 const addCurrencyBtn = document.querySelector(".add-currency-btn");
 
 // event listeners
-addEventListener("click", addCurrencyBtnClick);
+addCurrencyBtn.addEventListener("click", addCurrencyBtnClick);
 
 
 // functions

@@ -10,6 +10,44 @@
 + Flashcard App (Express.js) - https://jgdm-flashcard-app.herokuapp.com/hello
 + Photography - https://photography.jonniegrieve.co.uk/
 
+
+### Day 56
+
+### Randon number challenge solution
+
+```javascript
+
+
+
+const inughtHih parseInt()  prompt()
+
+node site challenge
+
+
+const inputHigh = prompt('');
+
+const highNumber = parseInt(inputHigh);
+
+const randomNumber = Math.floor( Math.random() * highNumber ) + 1;
+
+console.log(`${randomNumber} is a random number between 1 and ${highNumber} .`)
+
+
+NaN  = not a number
+
+First check that the input supplied is a number
+
+if (highNumber != NaN) {
+
+} else {
+
+ console.log("Please give a number")
+}
+
+
+```
+
+
 ### Day 55:
 
 https://www.proprofs.com/quiz-school/quizshow.php?title=3dq-ruby-test_2CU&q=1

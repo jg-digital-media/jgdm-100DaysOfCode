@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 56 of 100. **Last Update:** 30 March 2020
+## **Status:** Day 57 of 100. **Last Update:** 31 March 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R4D57:  Tuesday 31 March 2020
++ **Notes**  Photography website coming along nicely, working locally but upload will have to wait til tomorrow. Currently negotiating to do further website changes for a client to hopefully kick off new financial year!  :)
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
 
 ### R4D56:  Monday 30 March 2020
 + **Notes**  Worked on a couple of websites today.  I'm delighted to have worked on a site for a client updating some pages and content at my hourly rate.  Also preparing my Photography site to add new photos to it; should be ready for upload tomorrow!  

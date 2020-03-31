@@ -1,6 +1,6 @@
 # Currency Converter App
 
-time 12:22
+time 15:00
 
 ## Links
 
@@ -10,3 +10,7 @@ time 12:22
 
 ## Flag images 
 http://www.geonames.org/flags/1/us.gif 
+
+need GIF for Euro flag.
+
+15 minutes in.

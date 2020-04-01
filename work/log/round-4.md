@@ -1,9 +1,14 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 57 of 100. **Last Update:** 31 March 2020
+## **Status:** Day 58 of 100. **Last Update:** 01 April 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R4D58:  Wednesday 1 April 2020
++ **Notes**  In the JS currency converter app I successfully problem solved an issue so now Currency data successfully data fed from array of objects not just hard coded. Took some doing but I got there!  
+
++ **Technologies used** - HTML5, CSS, JavaScript
 
 ### R4D57:  Tuesday 31 March 2020
 + **Notes**  Photography website coming along nicely, working locally but upload will have to wait til tomorrow. Currently negotiating to do further website changes for a client to hopefully kick off new financial year!  :)

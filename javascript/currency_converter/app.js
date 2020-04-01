@@ -42,6 +42,180 @@ let currencies = [
         flagURL: "https://upload.wikimedia.org/wikipedia/commons/4/41/Old_EU_flag_5.gif",
         rate: 1
       },
+      {
+        name: "Australian Dollar",
+        abbreviation: "AUD",
+        symbol: "\u0024",
+        flagURL: "http://www.geonames.org/flags/x/au.gif"
+      },
+      {
+        name: "Canadian Dollar",
+        abbreviation: "CAD",
+        symbol: "\u0024",
+        flagURL: "http://www.geonames.org/flags/x/ca.gif"
+      },
+      {
+        name: "Swiss Franc",
+        abbreviation: "CHF",
+        symbol: "\u0043\u0048\u0046",
+        flagURL: "http://www.geonames.org/flags/x/ch.gif"
+      },
+      {
+        name: "Chinese Yuan Renminbi",
+        abbreviation: "CNY",
+        symbol: "\u00A5",
+        flagURL: "http://www.geonames.org/flags/x/cn.gif"
+      },
+      {
+        name: "Swedish Krona",
+        abbreviation: "SEK",
+        symbol: "\u006B\u0072",
+        flagURL: "http://www.geonames.org/flags/x/se.gif"
+      },
+      {
+        name: "New Zealand Dollar",
+        abbreviation: "NZD",
+        symbol: "\u0024",
+        flagURL: "http://www.geonames.org/flags/x/nz.gif"
+      },
+      {
+        name: "Mexican Peso",
+        abbreviation: "MXN",
+        symbol: "\u0024",
+        flagURL: "http://www.geonames.org/flags/x/mx.gif"
+      },
+      {
+        name: "Singapore Dollar",
+        abbreviation: "SGD",
+        symbol: "\u0024",
+        flagURL: "http://www.geonames.org/flags/x/sg.gif"
+      },
+      {
+        name: "Hong Kong Dollar",
+        abbreviation: "HKD",
+        symbol: "\u0024",
+        flagURL: "http://www.geonames.org/flags/x/hk.gif"
+      },
+      {
+        name: "Norwegian Krone",
+        abbreviation: "NOK",
+        symbol: "\u006B\u0072",
+        flagURL: "http://www.geonames.org/flags/x/no.gif"
+      },
+      {
+        name: "South Korean Won",
+        abbreviation: "KRW",
+        symbol: "\u20A9",
+        flagURL: "http://www.geonames.org/flags/x/kr.gif"
+      },
+      {
+        name: "Turkish Lira",
+        abbreviation: "TRY",
+        symbol: "\u20BA",
+        flagURL: "http://www.geonames.org/flags/x/tr.gif"
+      },
+      {
+        name: "Russian Ruble",
+        abbreviation: "RUB",
+        symbol: "\u20BD",
+        flagURL: "http://www.geonames.org/flags/x/ru.gif"
+      },
+      {
+        name: "Indian Rupee",
+        abbreviation: "INR",
+        symbol: "\u20B9",
+        flagURL: "http://www.geonames.org/flags/x/in.gif"
+      },
+      {
+        name: "Brazilian Real",
+        abbreviation: "BRL",
+        symbol: "\u0052\u0024",
+        flagURL: "http://www.geonames.org/flags/x/br.gif"
+      },
+      {
+        name: "South African Rand",
+        abbreviation: "ZAR",
+        symbol: "\u0052",
+        flagURL: "http://www.geonames.org/flags/x/za.gif"
+      },
+      {
+        name: "Philippine Peso",
+        abbreviation: "PHP",
+        symbol: "\u20B1",
+        flagURL: "http://www.geonames.org/flags/x/ph.gif"
+      },
+      {
+        name: "Czech Koruna",
+        abbreviation: "CZK",
+        symbol: "\u004B\u010D",
+        flagURL: "http://www.geonames.org/flags/x/cz.gif"
+      },
+      {
+        name: "Indonesian Rupiah",
+        abbreviation: "IDR",
+        symbol: "\u0052\u0070",
+        flagURL: "http://www.geonames.org/flags/x/id.gif"
+      },
+      {
+        name: "Malaysian Ringgit",
+        abbreviation: "MYR",
+        symbol: "\u0052\u004D",
+        flagURL: "http://www.geonames.org/flags/x/my.gif"
+      },
+      {
+        name: "Hungarian Forint",
+        abbreviation: "HUF",
+        symbol: "\u0046\u0074",
+        flagURL: "http://www.geonames.org/flags/x/hu.gif"
+      },
+      {
+        name: "Icelandic Krona",
+        abbreviation: "ISK",
+        symbol: "\u006B\u0072",
+        flagURL: "http://www.geonames.org/flags/x/is.gif"
+      },
+      {
+        name: "Croatian Kuna",
+        abbreviation: "HRK",
+        symbol: "\u006B\u006E",
+        flagURL: "http://www.geonames.org/flags/x/hr.gif"
+      },
+      {
+        name: "Bulgarian Lev",
+        abbreviation: "BGN",
+        symbol: "\u043B\u0432",
+        flagURL: "http://www.geonames.org/flags/x/bg.gif"
+      },
+      {
+        name: "Romanian Leu",
+        abbreviation: "RON",
+        symbol: "\u006C\u0065\u0069",
+        flagURL: "http://www.geonames.org/flags/x/ro.gif"
+      },
+      {
+        name: "Danish Krone",
+        abbreviation: "DKK",
+        symbol: "\u006B\u0072",
+        flagURL: "http://www.geonames.org/flags/x/dk.gif"
+      },
+      {
+        name: "Thai Baht",
+        abbreviation: "THB",
+        symbol: "\u0E3F",
+        flagURL: "http://www.geonames.org/flags/x/th.gif"
+      },
+      {
+        name: "Polish Zloty",
+        abbreviation: "PLN",
+        symbol: "\u007A\u0142",
+        flagURL: "http://www.geonames.org/flags/x/pl.gif"
+      },
+      {
+        name: "Israeli Shekel",
+        abbreviation: "ILS",
+        symbol: "\u20AA",
+        flagURL: "http://www.geonames.org/flags/x/il.gif"
+      }
       /*paste new currencies here*/ 
 ]
 
@@ -60,7 +234,8 @@ function populateAddCurrencyList() {
         addCurrencyList.insertAdjacentHTML(
             "beforeend",
             `<li data-currency="${currencies[i].abbreviation}">
-                        <img src="${currencies[i].flagURL}" class="flag" /><span>${currencies[i].abbreviation} - ${currencies[i].name}</span>
+                        <img src="${currencies[i].flagURL}" class="flag" />
+                        <span>${currencies[i].abbreviation} - ${currencies[i].name}</span>
             </li>` 
         );
     }

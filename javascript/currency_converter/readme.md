@@ -26,3 +26,29 @@ need GIF for Euro flag.
 + Use Template literals to do just that... generate a string that is a template block of markup.
 
 + Use interpolation syntax to get data from an array of objects.  ```${array_name.[i]object_properties}```
+
+
++ Add and remove currecny list items
+
+    ```javascript
+
+    //with an event listener and handler   dom traversal with parent node. 
+    currenciesList.addEventListener("click", closeCurrency);
+
+    function closeCurrency(event) {
+        if( event.target.classList.contains("close") ) {
+            const parentNode = event.target.parentNode;
+            parentNode.remove();
+            addCurrencyList.querySelector(`[data-currency-${parentNode.id}]`).classList.remove('disabled');
+
+            if(parentNode.classList.contains("base-currency")) {
+                const newBaseCurrencyLi = currenciesList.querySelector(".currency");
+
+                if(newBaseCurrencyLi) {
+                    setNewBaseCurrency(newBaseCurrencyLi);
+                }
+            }
+        }
+    }
+
+    ```

@@ -83,7 +83,7 @@ body {
 ul.currencies {
   font-family: verdana;
   height: auto;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 185px);
   background-color: #222;
   /*border: solid pink 1px;*/
   border-top: 1px white solid;

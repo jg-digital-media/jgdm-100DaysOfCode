@@ -6,7 +6,6 @@ console.log("file connected");
 const addCurrencyBtn = document.querySelector(".add-currency-btn");
 const addCurrencyList = document.querySelector(".add-currency-list");
 const currenciesList = document.querySelector(".currencies");
-const closeCurrencyListItem = document.querySelector(".close");
 
 const initiallyDisplayedCurrencies = ["USD","EUR","GBP","JPY","RUB"];
 let baseCurrency;
@@ -278,25 +277,25 @@ function closeCurrency(event) {
     if( event.target.classList.contains("close") ) {
         const parentNode = event.target.parentNode;
         parentNode.remove();
-        addCurrencyList.querySelector(`[data-currency-${parentNode.id}]`).classList.remove('disabled');
+        addCurrencyList.querySelector(`[data-currency=${parentNode.id}]`).classList.remove('disabled');
 
         if(parentNode.classList.contains("base-currency")) {
-            const newBaseCurrencyLi = currenciesList.querySelector(".currency");
-
-            if(newBaseCurrencyLi) {
-                setNewBaseCurrency(newBaseCurrencyLi);
-            }
+            const newBaseCurrencyLI = currenciesList.querySelector(".currency");
+            if(newBaseCurrencyLI) {
+                setNewBaseCurrency(newBaseCurrencyLI);  
+                baseCurrencyAmount = Number(newBaseCurrencyLI.querySelector(".input input").value);
+            }            
         }
     }
 }
 
-function setNewBaseCurrency() {
-    newBaseCurrencyLi.classList.add("base-currency");
-    baseCurrency = newBaseCurrencyLi.id;
-    const baseCurrencyRate = currencies.find(c=> c.abbreviation === baseCurrency).rate;
+function setNewBaseCurrency(newBaseCurrencyLI) {
+    newBaseCurrencyLI.classList.add("base-currency");
+    baseCurrency = newBaseCurrencyLI.id;
+    const baseCurrencyRate = currencies.find(currency=> currency.abbreviation === baseCurrency).rate;
     currenciesList.querySelectorAll(".currency").forEach(currencyLI => {
-        currency.abbreviation===currencyLI.id.rate;
-    const exchangeRate = currencyLI.id===baseCurrency ? 1 : (currencyRate/baseCurrencyRate).toFixed(4);
+        const currencyRate = currencies.find(currency => currency.abbreviation===currencyLI.id).rate;
+        const exchangeRate = currencyLI.id===baseCurrency ? 1 : (currencyRate/baseCurrencyRate).toFixed(4);
     currencyLI.querySelector(".base-currency-rate").textContent = `1 ${baseCurrency} = ${exchangeRate} ${currencyLI.id}`;
     });
 }
@@ -309,8 +308,8 @@ function populateAddCurrencyList() {
     for(let i=0; i<currencies.length; i++) {
         addCurrencyList.insertAdjacentHTML(
             "beforeend",
-            `<li data-currency="${currencies[i].abbreviation}">
-                        <img src="${currencies[i].flagURL}" class="flag" />
+            `<li data-currency=${currencies[i].abbreviation}>
+                        <img src=${currencies[i].flagURL} class="flag" />
                         <span>${currencies[i].abbreviation} - ${currencies[i].name}</span>
             </li>` 
         );
@@ -337,8 +336,8 @@ function newCurrenciesListItem(currency) {
     const inputValue = baseCurrencyAmount ? (baseCurrencyAmount*exchangeRate).toFixed(4) : "";
 
     currenciesList.insertAdjacentHTML(
-        "beforeend", `
-        <li class="currency ${currency.abbreviation === baseCurrency ? "base-currency" : ""}" id="${currency.abbreviation}">
+        "beforeend", 
+        `<li class="currency ${currency.abbreviation === baseCurrency ? "base-currency" : ""}" id="${currency.abbreviation}">
             <img src="${currency.flagURL}" alt="Flag:  ${currency.abbreviation}" class="flag" />
             <div class="info">
                 <p class="input"><span class="currency-symbol" aria-label="currency-symbol">${currency.symbol}</span>
@@ -349,8 +348,7 @@ function newCurrenciesListItem(currency) {
             </div>
 
             <span class="close">&times;</span>
-        </li>
-        `
+        </li>`
     )
 
 

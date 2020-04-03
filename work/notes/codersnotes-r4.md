@@ -10,6 +10,34 @@
 + Flashcard App (Express.js) - https://jgdm-flashcard-app.herokuapp.com/hello
 + Photography - https://photography.jonniegrieve.co.uk/
 
+### Day 60
+
+
+```javascript
+
+currenciesList.addEventListener("click", closeCurrency);
+
+function closeCurrency(event) {
+    if( event.target.classList.contains("close") ) {
+        const parentNode = event.target.parentNode;
+        parentNode.remove();
+        addCurrencyList.querySelector(`[data-currency=${parentNode.id}]`).classList.remove('disabled');
+
+        if(parentNode.classList.contains("base-currency")) {
+            const newBaseCurrencyLI = currenciesList.querySelector(".currency");
+            if(newBaseCurrencyLI) {
+                setNewBaseCurrency(newBaseCurrencyLI);  
+                baseCurrencyAmount = Number(newBaseCurrencyLI.querySelector(".input input").value);
+            }            
+        }
+    }
+}
+```
+
+```addCurrencyList.querySelector(`[data-currency=${parentNode.id}]`).classList.remove('disabled');
+
+data-currency=${  data-currency-${  
+```
 
 ### Day 57
 

@@ -1,9 +1,14 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 59 of 100. **Last Update:** 02 April 2020
+## **Status:** Day 60 of 100. **Last Update:** 03 April 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R4D60:  Friday 2 April 2020
++ **Notes**  It's been a good day. Helping others, flushing out bugs.Sometimes a single character can cause you hours of problems in programming. Look things up, take breaks  keep at it and learn from your mistakes!
+
++ **Technologies used** - HTML5, CSS, JavaScript
 
 ### R4D59:  Thursday 2 April 2020
 + **Notes**  Uploaded a new update to my photography website.  And made some progress with the Currency Converter app, but with some bugs.  Going to need a fresh brain tomorrow to sort those out!  :)  

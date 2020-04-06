@@ -1,11 +1,14 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 60 of 100. **Last Update:** 03 April 2020
+## **Status:** Day 61 of 100. **Last Update:** 06 April 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-### R4D60:  Friday 2 April 2020
+### R4D61:  Monday 6 April 2020
++ **Notes**  Good to be in a position to be position to earn a bit of money this week.  Going back into some PHP and WordPress work to make some changes for a client. Knocked a few items off the to do list. We will be launching soon.  
+
+### R4D60:  Friday 3 April 2020
 + **Notes**  It's been a good day. Helping others, flushing out bugs.Sometimes a single character can cause you hours of problems in programming. Look things up, take breaks  keep at it and learn from your mistakes!
 
 + **Technologies used** - HTML5, CSS, JavaScript

@@ -10,7 +10,35 @@
 + Flashcard App (Express.js) - https://jgdm-flashcard-app.herokuapp.com/hello
 + Photography - https://photography.jonniegrieve.co.uk/
 
-### Day 61
+### Day 62
+
+
++ ```substr_replace()```  to go through a string and replace text from an index with a hard coded string
++ ```strlen();``` to get the length of the string of a custom field and use it in a condition that will do something with substr_replace
+
+```php
+ <ul class="now-playing">
+                <?php if ( $now_playing->have_posts() ) : while ( $now_playing->have_posts() ) : $now_playing->the_post(); ?>
+
+                    <li>
+
+                        <a href="<?php the_permalink(); ?>" class="production-link">
+                            <img src="<?php the_post_thumbnail( 'full','style=max-width:100%; height:auto; display: block;' ); ?>" />
+
+                            <p class="caption">
+
+                                <?php $captionField = get_field( "title" ); 
+
+                                    if( strlen($captionField) > 40) {
+                                        echo substr_replace($captionField, "...", 21, 35);
+                                    } else {
+                                        the_field( "title");
+                                    }
+
+                                ?>
+                            </p>
+                        </a>
+```
 
 ### Day 60
 

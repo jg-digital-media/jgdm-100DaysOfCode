@@ -28,7 +28,7 @@ need GIF for Euro flag.
 + Use interpolation syntax to get data from an array of objects.  ```${array_name.[i]object_properties}```
 
 
-+ Add and remove currecny list items
++ Add and remove currency list items
 
     ```javascript
 
@@ -49,6 +49,42 @@ need GIF for Euro flag.
                 }
             }
         }
+    }
+
+    ```
+    + Up to date with the functionality so far.  35.36 minutes in
+
+    + removing the base currency sets the next currency in the list to be the base currency
+
+    + Define the behavior when user enters an input.
+
+    ```javascript    
+    // eventfires whenever the values of an input element changes. 
+    currenciesList.addEventListener("input", currenciesListInputChange);
+
+    function currenciesListInputChange(event) {
+
+        const isNewBaseCurrency = event.target.closest("li").id!==baseCurrency;
+
+        if(isNewBaseCurrency) {
+            currenciesList.querySelector(`#${baseCurrency}`).classList.remove("base-currency");
+            setNewBaseCurrency(event.target.closest("li"));
+        }
+
+        const newBaseCurrencyAmount = isNaN(event.target.value) ? 0 : Number(event.target.value);
+
+        if(baseCurrencyAmount !== newBaseCurrencyAmount || isNewBaseCurrency) {
+            baseCurrencyAmount = newBaseCurrencyAmount;
+
+            const baseCurrencyRate = currencies.find(currency => currency.abbreviation === baseCurrency).rate
+            currenciesList.querySelectorAll(".currency").forEach(currencyLI => {
+                const currencyRate = currencies.find(currency => currency.abbreviation===currencyLI.id).rate;
+                const exchangeRate = currencyLI.id===baseCurrency ? 1 : (currencyRate/baseCurrencyRate).toFixed(4);
+                //currencyLI.querySelector(".input input").textContent = `1 ${baseCurrency} = ${exchangeRate} ${currencyLI.id}`;
+                currencyLI.querySelector(".input input").value = exchangeRate*baseCurrencyAmount !==0 ?(exchangeRate*baseCurrencyAmount).toFixed(4) : "";
+        }
+            )};
+
     }
 
     ```

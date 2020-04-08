@@ -258,7 +258,7 @@ function addCurrencyBtnClick(event) {
     addCurrencyBtn.classList.toggle("open");
 }
 
-//add on button click
+//add currency on button click
 addCurrencyList.addEventListener("click", addCurrencyListClick);
 
 function addCurrencyListClick(event) {
@@ -283,7 +283,7 @@ function closeCurrency(event) {
             const newBaseCurrencyLI = currenciesList.querySelector(".currency");
             if(newBaseCurrencyLI) {
                 setNewBaseCurrency(newBaseCurrencyLI);  
-                baseCurrencyAmount = Number(newBaseCurrencyLI.querySelector(".input input").value);
+                baseCurrencyAmount = (newBaseCurrencyLI.querySelector(".input input").value);
             }            
         }
     }

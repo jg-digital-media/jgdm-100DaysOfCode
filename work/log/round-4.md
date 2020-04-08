@@ -1,14 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 62 of 100. **Last Update:** 07 April 2020
+## **Status:** Day 63 of 100. **Last Update:** 08 April 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R4D63:  Wednesday 8 April 2020
++ **Notes**  More items ticked off the to-do list.  Hoping to finish it off tomorrow.  Working out how to customise the way WordPress widgets retrieve data is a hard job though compared to the Loop.  :)
+
++ **Technologies used** - HTML5, CSS, PHP, JavaScript
+
 ### R4D62:  Tuesday 7 April 2020
 + **Notes**  Huge confidence build today with my problem solving skills.  Reading the docs and practicing how to apply that to solve problems. That to-do list is that much shorter.  New snaps on my photography website too.
-
 
 + **Technologies used** - HTML5, CSS, PHP
 

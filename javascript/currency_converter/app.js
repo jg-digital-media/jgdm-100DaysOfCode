@@ -308,13 +308,23 @@ function currenciesListInputChange(event) {
 
         const baseCurrencyRate = currencies.find(currency => currency.abbreviation === baseCurrency).rate
         currenciesList.querySelectorAll(".currency").forEach(currencyLI => {
-            const currencyRate = currencies.find(currency => currency.abbreviation===currencyLI.id).rate;
-            const exchangeRate = currencyLI.id===baseCurrency ? 1 : (currencyRate/baseCurrencyRate).toFixed(4);
-            //currencyLI.querySelector(".input input").textContent = `1 ${baseCurrency} = ${exchangeRate} ${currencyLI.id}`;
-            currencyLI.querySelector(".input input").value = exchangeRate*baseCurrencyAmount !==0 ?(exchangeRate*baseCurrencyAmount).toFixed(4) : "";
-    }
-        )};
 
+            if(currencyLI.id !== baseCurrency) {
+                const currencyRate = currencies.find(currency => currency.abbreviation===currencyLI.id).rate;
+                const exchangeRate = currencyLI.id===baseCurrency ? 1 : (currencyRate/baseCurrencyRate).toFixed(4);
+                //currencyLI.querySelector(".input input").textContent = `1 ${baseCurrency} = ${exchangeRate} ${currencyLI.id}`;
+                currencyLI.querySelector(".input input").value = exchangeRate*baseCurrencyAmount !==0 ?(exchangeRate*baseCurrencyAmount).toFixed(4) : "";        
+            }
+        });
+    }
+}
+
+//docusout event function
+
+currenciesList.addEventListener("focusout", currenciesListFocusOut);
+
+function currenciesListFocusOut(event) {
+    
 }
 
 
@@ -329,6 +339,10 @@ function setNewBaseCurrency(newBaseCurrencyLI) {
     currencyLI.querySelector(".base-currency-rate").textContent = `1 ${baseCurrency} = ${exchangeRate} ${currencyLI.id}`;
     });
 }
+
+
+
+
 
 // populateAddCurrencyList
 function populateAddCurrencyList() {

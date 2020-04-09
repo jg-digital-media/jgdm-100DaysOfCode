@@ -86,5 +86,12 @@ need GIF for Euro flag.
             )};
 
     }
-
     ```
+
+    + fix so value so not changed every time input is changed.
+
+        ```javascript
+        if(currencyLI.id !== baseCurrency) {
+        }
+        ```
+    

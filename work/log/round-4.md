@@ -1,10 +1,13 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 65 of 100. **Last Update:** 20 April 2020
+## **Status:** Day 66 of 100. **Last Update:** 21 April 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R4D66:  Tuesday 21 April 2020
++ **Notes**  Spent most of today doing preparing an online video so my coding time today involved making a simple function and calling it - @treehouse JavaScript functions course. Something more substantial to come tomorrow. 
 
 ### R4D65:  Monday 20 April 2020
 + **Notes**  Uploaded a new update to my photography website. https://photography.jonniegrieve.co.uk

@@ -1,21 +1,30 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 66 of 100. **Last Update:** 21 April 2020
+## **Status:** Day 67 of 100. **Last Update:** 22 April 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R4D67:  Wednesday 22 April 2020
++ **Notes**  Getting closer now pending client approval to announciing our new project. It's been a long time coming but it's worth it to get it right.
+
++ **Technologies used** - HTML5, CSS, PHP
+
 ### R4D66:  Tuesday 21 April 2020
 + **Notes**  Spent most of today doing preparing an online video so my coding time today involved making a simple function and calling it - @treehouse JavaScript functions course. Something more substantial to come tomorrow. 
+
++ **Technologies used** - HTML5, CSS, PHP
 
 ### R4D65:  Monday 20 April 2020
 + **Notes**  Uploaded a new update to my photography website. https://photography.jonniegrieve.co.uk
 
++ **Technologies used** - HTML5, CSS
+
 ### R4D64:  Thursday 9 April 2020
 + **Notes**  Uploaded a new update to my photography website. https://photography.jonniegrieve.co.uk  And made some progress with the Currency Converter app. More items ticked off on my PHP website project too. Progress
 
-+ **Technologies used** - HTML5, CSS, PHP, JavaScript
++ **Technologies used** - HTML5, CSS, JavaScript
 
 ### R4D63:  Wednesday 8 April 2020
 + **Notes**  More items ticked off the to-do list.  Hoping to finish it off tomorrow.  Working out how to customise the way WordPress widgets retrieve data is a hard job though compared to the Loop.  :)

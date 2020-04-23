@@ -1,13 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 67 of 100. **Last Update:** 22 April 2020
+## **Status:** Day 68 of 100. **Last Update:** 23 April 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R4D68:  Thursday 23 April 2020
++ **Notes**  Attention turns today to sprucing up my Dyspraxia Website a bit. Fixed some of the responsiveness and added more image content for the random fact clicker.
+
++ **Technologies used** - HTML5, CSS
+
 ### R4D67:  Wednesday 22 April 2020
-+ **Notes**  Getting closer now pending client approval to announciing our new project. It's been a long time coming but it's worth it to get it right.
++ **Notes**  Getting closer now pending client approval to announcing our new project. It's been a long time coming but it's worth it to get it right.
 
 + **Technologies used** - HTML5, CSS, PHP
 

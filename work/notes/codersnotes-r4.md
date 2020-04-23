@@ -10,6 +10,31 @@
 + Flashcard App (Express.js) - https://jgdm-flashcard-app.herokuapp.com/hello
 + Photography - https://photography.jonniegrieve.co.uk/
 
+### Day 48
+
+```javascript
+
+//Random click content generator
+
+dyspraxiaContent.innerHTML = "Click to generate a new fact";  
+
+
+function randomQuote(quotes) {
+    dyspraxiaContent.addEventListener("click", () =>{
+
+        //for(i=0; i < dyspraxia.length; i++) {} /**/
+        let randomQuote = dyspraxia[Math.floor(Math.random()* dyspraxia.length)];
+        //let text = ;
+
+        dyspraxiaContent.innerHTML = randomQuote;
+    });
+
+}
+
+randomQuote(dyspraxia);
+
+```
+
 ### Day 62
 
 

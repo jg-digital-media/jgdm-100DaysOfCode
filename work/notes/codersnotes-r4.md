@@ -10,7 +10,21 @@
 + Flashcard App (Express.js) - https://jgdm-flashcard-app.herokuapp.com/hello
 + Photography - https://photography.jonniegrieve.co.uk/
 
-### Day 48
+
+### Day 69
+
+```javascript
+//create an exoress get Route handler
+app.get('/greetings', (req, res)=> {
+
+    res.json({greeting: "Hello world"});
+
+
+} );
+```
+
+
+### Day 68
 
 ```javascript
 

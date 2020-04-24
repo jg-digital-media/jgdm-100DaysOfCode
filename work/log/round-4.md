@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 68 of 100. **Last Update:** 23 April 2020
+## **Status:** Day 69 of 100. **Last Update:** 24 April 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R4D69:  Friday 24 April 2020
++ **Notes**  Started a new Express project. So far so good. I understand the concepts. This will be like others I've made but will utilise a REST API
+
++ **Technologies used** - HTML5, CSS, Express.js
 
 
 ### R4D68:  Thursday 23 April 2020

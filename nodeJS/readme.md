@@ -1,6 +1,6 @@
 # Node and Express.js
 
-Last Update:  16/03/2020
+Last Update:  24/04/2020
 
 + **Project 1 - NodeJS Basics**
 + **Project 1.1 - open_weather - Open Weather API**
@@ -8,7 +8,7 @@ Last Update:  16/03/2020
 + **Project 2.2 - dynamic_site - Dynamic Site Treehouse**
 + **Project 3 - express_site - Flashcard App**
 + **Project 3.1 - express_async**
-+ **Project [N] - Node Deployment**
++ **Project [N] - Node and Express Deployment using Heroku**
 ---
 
 ## Project 1 - NodeJS Basics
@@ -637,9 +637,67 @@ function getUsers() {
 
 ```
 
-## Project [N]: Node Deployment
+## Project [N]: Node and Express Deployment using Heroku
 
-Can't deploy to my web host.
+First check app into Git
 
-[Medium - Quick Deployment Guide](https://medium.com/swlh/quick-nodejs-deploy-guide-dbe836811c3e) 
+### Install NPM
 
+Install/Update NPM - ```npm install npm@latest -g```
+
+
+1. Create package.json
+
+    ```npm init```
+    ```npm init -y```
+
+
+2. Specify Node.js Version  (in package.js)
+
+    ```javascript
+    "engines": {
+    "node":4.7.0"
+    }
+    ```
+
+
+3. Create process file  - procfile
+
+    Procfile
+
+    e.g.
+
+    web: node app
+
+4. Create App on Heroku
+
+    need to be in the Heroku CLI  - Heroku Toolkit
+
+    Once in, Use the heroku login command to log in to the Heroku CLI:
+    $  
+
+    ```heroku apps:create helloworld-treehouse```
+
+### Deployment Commands
+
+```git push origin master```
+
++ Deploy to heroku remote git repository
+    - ```git push heroku master```
+
++ server on local machine
+    - ```heroku local```
+
++ push to git repository
+    - ```git push heroku master```
+
++ open project as deployed on heroku
+    - ```heroku open```
+
++ restart Heroku
+    - ```Heroku Restart```
+
++ check heroku error logs
+    - ```heroku logs --tail```
+
+updated to node 4.7.0

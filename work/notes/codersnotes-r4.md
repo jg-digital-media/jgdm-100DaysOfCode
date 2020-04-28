@@ -11,6 +11,38 @@
 + Photography - https://photography.jonniegrieve.co.uk/
 
 
+### Day 70
+
+```javascript
+
+//multiple routes - express.js 
+
+//Create an Exoress get Route Handler
+app.get('/quotes', (req, res)=> {
+
+    res.json({data});
+
+
+} );
+
+//URL parameters in a route
+app.get('/quotes/:id', (req, res) => {
+
+    //res.json({data});
+
+    //compare range of id's to that in the array 
+    const quote = data.quotes.find(quote => quote.id == req.params.id);
+
+    //send quote back to client as json
+    res.json(quote);
+
+    //404 page for incorrect quite id's.
+
+
+} );
+
+```
+
 ### Day 69
 
 ```javascript

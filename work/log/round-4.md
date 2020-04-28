@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 70 of 100. **Last Update:** 27 April 2020
+## **Status:** Day 71 of 100. **Last Update:** 28 April 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R4D70:  Tuesday 28 April 2020
++ **Notes**  
+
++ **Technologies used** - HTML5, CSS, Express.js
 
 ### R4D70:  Monday 27 April 2020
 + **Notes**  Updated Photography website over at  https://photography.jonniegrieve.co.uk.   In Express wrote an Express route that requests a specific piece of data from an Object using REST.

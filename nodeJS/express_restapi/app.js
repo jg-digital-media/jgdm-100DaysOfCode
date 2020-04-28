@@ -1,24 +1,23 @@
 const express = require('express');
 const app = express();
 
-app.listen(3000, () => console.log('Quote API listening on port 3000!'));
+const records = require("./records.js");
 
 //Create an Exoress get Route Handler
-app.get('/quotes', (req, res)=> {
+app.get('/quotes', async (req, res)=> {
+    
+    const quotes = await records.getQuotes();
+    res.json(quotes);
 
-    res.json({data});
+});
 
 
-} );
-
-app.get('/quotes/:id', (req, res) => {
-
-    //res.json({data});
+app.get('/quotes/:id', async (req, res) => {
 
     //compare range of id's to that in the array 
-    const quote = data.quotes.find(quote => quote.id == req.params.id);
+    const quote = await records.getQuote(req.params.id);
 
-    //send quote back to client as json
+    //send to client as JSON
     res.json(quote);
 
     //404 page for incorrect quite id's.
@@ -26,6 +25,11 @@ app.get('/quotes/:id', (req, res) => {
 
 } );
 
+
+app.listen(3000, () => console.log('Quote API listening on port 3000!'));
+
+
+/*
 const data = {
     quotes: [
       {
@@ -44,4 +48,4 @@ const data = {
         author: "Barbara DeAngelis"
       }
     ]
-  }
+  }*/

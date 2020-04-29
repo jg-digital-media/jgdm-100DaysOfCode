@@ -22,6 +22,23 @@
     .then(data => console.log(data))
     .catch(err => console.log(err));
 
+
+    //This route is used when a POST Request is sent.
+    app.post('/quotes', async (req, res) => {
+
+        const quote = await records.createQuote({
+            quote: req.body.quote,
+            author: req.body.author
+        });
+
+        //send as json
+        res.json(quote);
+
+});
+
+
+app.listen(3000, () => console.log('Quote API listening on port 3000!'));
+
 ```
 
 ### Day 71

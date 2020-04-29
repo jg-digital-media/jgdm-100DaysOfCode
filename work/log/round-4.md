@@ -1,13 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 71 of 100. **Last Update:** 28 April 2020
+## **Status:** Day 72 of 100. **Last Update:** 29 April 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-### R4D70:  Tuesday 28 April 2020
-+ **Notes**  
+
+### R4D72:  Wednesday 29 April 2020
++ **Notes**  More stuff with REST API's.  So I finished developing the Currency Converter application following that tutorial which has been fun, useful and mindboggling in equal measure. Looking forward to tinkering further with that.  Also working with Express.js and Postman app.
+
++ **Technologies used** - HTML5, CSS, JavaScript, Express.js
+
+### R4D71:  Tuesday 28 April 2020
++ **Notes**  Used the async and await keywords in JavaScript to get data from an source in REST API fashion.
 
 + **Technologies used** - HTML5, CSS, Express.js
 

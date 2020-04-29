@@ -3,6 +3,10 @@ const app = express();
 
 const records = require("./records.js");
 
+
+//middleware
+app.use( express.json() )
+
 //Create an Exoress get Route Handler
 app.get('/quotes', async (req, res)=> {
     
@@ -23,7 +27,20 @@ app.get('/quotes/:id', async (req, res) => {
     //404 page for incorrect quite id's.
 
 
-} );
+});
+
+//This route is used when a POST Request is sent.
+app.post('/quotes', async (req, res) => {
+
+    const quote = await records.createQuote({
+        quote: req.body.quote,
+        author: req.body.author
+    });
+
+    //send as json
+    res.json(quote);
+
+});
 
 
 app.listen(3000, () => console.log('Quote API listening on port 3000!'));

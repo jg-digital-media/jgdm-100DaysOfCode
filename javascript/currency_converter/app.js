@@ -7,7 +7,7 @@ const addCurrencyBtn = document.querySelector(".add-currency-btn");
 const addCurrencyList = document.querySelector(".add-currency-list");
 const currenciesList = document.querySelector(".currencies");
 
-const dataURL = "https://exchangeratesapi.io/latest";
+const dataURL = "https://api.exchangeratesapi.io/latest";
 
 const initiallyDisplayedCurrencies = ["USD","EUR","GBP","JPY","RUB"];
 let baseCurrency;
@@ -214,7 +214,7 @@ let currencies = [
         symbol: "\u20AA",
         flagURL: "http://www.geonames.org/flags/x/il.gif",
       }
-      
+
       /*paste new currencies here*/ 
 ]
 
@@ -378,14 +378,16 @@ function newCurrenciesListItem(currency) {
 }
 
 //Fetch data from URL via the given endpoint
-
 fetch(dataURL) 
-    .then(res => res.json())
-    .then(data => console.log(data))
-    .catch(err => console.log(err));
+  .then(res => res.json())
+  .then(data => {
+      document.querySelector(".date").textContent = data.date;
+      data.rates["EUR"] = 1;
+      currencies = currencies.filter(currency => data.rates[currency.abbreviation]);
+      currencies.forEach(currency => currency.rate = data.rates[currency.abbreviation]);
 
-
-
-//call functions
-populateAddCurrencyList();
-populateCurrenciesList();
+      //call functions
+      populateAddCurrencyList();
+      populateCurrenciesList();
+   })
+  .catch(err => console.log(err));

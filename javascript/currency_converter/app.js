@@ -319,12 +319,23 @@ function currenciesListInputChange(event) {
     }
 }
 
-//docusout event function
-
+//focusout event function
 currenciesList.addEventListener("focusout", currenciesListFocusOut);
 
 function currenciesListFocusOut(event) {
+    const inputValue = event.target.value;
+    if(isNaN(inputValue) || Number(inputValue) === 0) event.target.value="";
+    else event.target.value = Number(inputValue).toFixed(4);
     
+}
+
+
+//lose focus of input method on enter press
+currenciesList.addEventListener("keydown", currenciesListKeyDown);
+
+function currenciesListKeyDown(event) {
+   if(event.key === "Enter") event.target.blur();
+
 }
 
 

@@ -10,38 +10,53 @@
 + Flashcard App (Express.js) - https://jgdm-flashcard-app.herokuapp.com/hello
 + Photography - https://photography.jonniegrieve.co.uk/
 
+
+### Day 72
+
+```javascript
+
+    const dataURL = "https://api.exchangeratesapi.io/latest";
+
+    fetch(dataURL) 
+    .then(res => res.json())
+    .then(data => console.log(data))
+    .catch(err => console.log(err));
+
+```
+
 ### Day 71
 
 ```javascript
-//Create an Exoress get Route Handler
-app.get('/quotes', (req, res)=> {
-    res.json({data});
-} );
 
-//Create an Exoress get Route Handler  - using records.js module
-app.get('/quotes', (req, res)=> {    
-    const quotes = records.getQuotes();
-});
+    //Create an Exoress get Route Handler
+    app.get('/quotes', (req, res)=> {
+        res.json({data});
+    } );
+
+    //Create an Exoress get Route Handler  - using records.js module
+    app.get('/quotes', (req, res)=> {    
+        const quotes = records.getQuotes();
+    });
 
 
-//using asynchronous code - using records.js module.
-app.get('/quotes', async (req, res)=> {
-    
-    const quotes = await records.getQuotes();
-    res.json(quotes);
+    //using asynchronous code - using records.js module.
+    app.get('/quotes', async (req, res)=> {
+        
+        const quotes = await records.getQuotes();
+        res.json(quotes);
 
-});
+    });
 
-app.get('/quotes/:id', async (req, res) => {
+    app.get('/quotes/:id', async (req, res) => {
 
-    //compare range of id's to that in the array 
-    const quote = await records.getQuote(req.params.id);
-    //send to cient as JSON
-    res.json(quote);
+        //compare range of id's to that in the array 
+        const quote = await records.getQuote(req.params.id);
+        //send to cient as JSON
+        res.json(quote);
 
-    //404 page for incorrect quite id's.
+        //404 page for incorrect quite id's.
 
-} ;
+    };
 
 ```
 

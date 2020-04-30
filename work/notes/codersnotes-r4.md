@@ -11,6 +11,41 @@
 + Photography - https://photography.jonniegrieve.co.uk/
 
 
+### Day 73
+
+```javascript
+
+//This route is used when a POST Request is sent.
+app.post('/quotes', async (req, res) => {
+
+    try {
+        if(req.body.quote && req.body.author) {
+            //throw fake error message
+            throw new Error("Fake error message");
+            
+            const quote = await records.createQuote({
+                quote: req.body.quote,
+                author: req.body.author
+            });
+
+            //send as json
+            res.status(202).json(quote);
+        } else {
+            req.status(400).json( {message: "error: both quote ans author required"} )
+        }
+
+    } catch (err) {
+        res.status(500).json( { message: err.message } )
+
+    }
+
+
+});
+
+
+app.listen(3000, () => console.log('Quote API listening on port 3000!'));
+```
+
 ### Day 72
 
 ```javascript

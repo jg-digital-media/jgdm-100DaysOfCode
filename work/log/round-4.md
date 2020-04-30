@@ -1,11 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 72 of 100. **Last Update:** 29 April 2020
+## **Status:** Day 73 of 100. **Last Update:** 30 April 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+### R4D73:  Thursday 30 April 2020
++ **Notes**  Added conditionals, try catches blocks for catching errors and code to ensure the correct http status codes are met for each Express Route. 
+
++ **Technologies used** - HTML5, CSS, Express.js
 
 ### R4D72:  Wednesday 29 April 2020
 + **Notes**  More stuff with REST API's.  So I finished developing the Currency Converter application following that tutorial which has been fun, useful and mindboggling in equal measure. Looking forward to tinkering further with that.  Also working with Express.js and Postman app.

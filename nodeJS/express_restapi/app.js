@@ -13,9 +13,14 @@ app.get('/quotes', async (req, res)=> {
     try {
     
         const quotes = await records.getQuotes();
+
+        if(quote) {
         res.json(quotes);
+        } else {
+            res.status(404).json ( {message: "Quote not found"} );
+        }
     } catch(err) {
-        res.jsdon( { message: err.message } )
+        res.status(500).json( { message: err.message } )
 
     }
 });
@@ -45,20 +50,23 @@ app.get('/quotes/:id', async (req, res) => {
 app.post('/quotes', async (req, res) => {
 
     try {
+        if(req.body.quote && req.body.author) {
+            //throw fake error message
+            throw new Error("Fake error message");
+            
+            const quote = await records.createQuote({
+                quote: req.body.quote,
+                author: req.body.author
+            });
 
-        //throw fake error message
-        //throw new Error("Fake error message");
-        
-        const quote = await records.createQuote({
-            quote: req.body.quote,
-            author: req.body.author
-        });
-
-        //send as json
-        res.json(quote);
+            //send as json
+            res.status(202).json(quote);
+        } else {
+            req.status(400).json( {message: "error: both quote ans author required"} )
+        }
 
     } catch (err) {
-        res.json( { message: err.message } )
+        res.status(500).json( { message: err.message } )
 
     }
 

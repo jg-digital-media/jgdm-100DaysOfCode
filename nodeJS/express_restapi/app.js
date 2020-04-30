@@ -9,22 +9,34 @@ app.use( express.json() )
 
 //Create an Exoress get Route Handler
 app.get('/quotes', async (req, res)=> {
-    
-    const quotes = await records.getQuotes();
-    res.json(quotes);
 
+    try {
+    
+        const quotes = await records.getQuotes();
+        res.json(quotes);
+    } catch(err) {
+        res.jsdon( { message: err.message } )
+
+    }
 });
 
 
 app.get('/quotes/:id', async (req, res) => {
 
-    //compare range of id's to that in the array 
-    const quote = await records.getQuote(req.params.id);
 
-    //send to client as JSON
-    res.json(quote);
+    try {
+        //compare range of id's to that in the array 
+        const quote = await records.getQuote(req.params.id);
 
-    //404 page for incorrect quite id's.
+        //send to client as JSON
+        res.json(quote);
+
+        //404 page for incorrect quite id's.
+
+    } catch(err) {
+        res.json ( { message: err.message } )
+    }
+
 
 
 });
@@ -32,13 +44,24 @@ app.get('/quotes/:id', async (req, res) => {
 //This route is used when a POST Request is sent.
 app.post('/quotes', async (req, res) => {
 
-    const quote = await records.createQuote({
-        quote: req.body.quote,
-        author: req.body.author
-    });
+    try {
 
-    //send as json
-    res.json(quote);
+        //throw fake error message
+        //throw new Error("Fake error message");
+        
+        const quote = await records.createQuote({
+            quote: req.body.quote,
+            author: req.body.author
+        });
+
+        //send as json
+        res.json(quote);
+
+    } catch (err) {
+        res.json( { message: err.message } )
+
+    }
+
 
 });
 

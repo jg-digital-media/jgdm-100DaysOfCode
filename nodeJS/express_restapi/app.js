@@ -73,6 +73,29 @@ app.post('/quotes', async (req, res) => {
 
 });
 
+//update a quote with a put request
+app.put('/quotes/:id', async (req, res) => {
+
+    try {
+
+        const quote = await records.getQuote(req.params.id);
+
+        if( quote ) {
+            quote.quote = req.body.quote;
+            quote.author = req.body.author;
+
+            await records.updateQuote(quote);
+            res.status(204).end();
+        } else {
+            res.status(404).json({ message: "Quote not found!"});
+        }
+        
+    } catch( err ) {
+        res.status(500).json({ message: err.message});
+    }
+
+})
+
 
 app.listen(3000, () => console.log('Quote API listening on port 3000!'));
 

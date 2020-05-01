@@ -11,6 +11,33 @@
 + Photography - https://photography.jonniegrieve.co.uk/
 
 
+### Day 74
+
+```javascript
+
+
+//e.g.  Express.js PUT request to update data.
+app.put('/quotes/:id', async(req, res) => {
+
+    try {
+        const quote = await records.getQuote(req.params.id);
+        if(quote) {
+            quote.quote = req.body.quote;
+            quote.author = req.body.author;
+
+            await records.updateQuote(quote);
+            res.status(204).end();
+        } else {
+            res.status(404).json({ message: "Quote not found!"});
+        }
+        
+    } catch( err ) {
+        res.status(500).json({ message: err.message});
+    }
+
+}
+```
+
 ### Day 73
 
 ```javascript

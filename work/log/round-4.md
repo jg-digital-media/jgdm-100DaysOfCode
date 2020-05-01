@@ -1,11 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 73 of 100. **Last Update:** 30 April 2020
+## **Status:** Day 74 of 100. **Last Update:** 1 May 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+### R4D74:  Friday 1 May 2020
++ **Notes**  Added some photo captions using data-titles in markup and tested an Express.js put route to edit some JSON data. 
+
++ **Technologies used** - HTML5, CSS, Express.js
 
 ### R4D73:  Thursday 30 April 2020
 + **Notes**  Added conditionals, try catches blocks for catching errors and code to ensure the correct http status codes are met for each Express Route. 

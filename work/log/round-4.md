@@ -7,6 +7,11 @@ ___
 
 
 
+### R4D74:  Monday 4 May 2020
++ **Notes**  Updated the photography website with some new/replacement photos and a slight restructure!  Also spent a bit of time on JavaScript function theory.
+
++ **Technologies used** - HTML5, CSS
+
 ### R4D74:  Friday 1 May 2020
 + **Notes**  Added some photo captions using data-titles in markup and tested an Express.js put route to edit some JSON data. 
 

@@ -226,6 +226,13 @@ ul.add-currency-list li {
   margin: 0 15px;
   padding: 10px 15px; }
 
+.notes {
+  padding: 5px; }
+  .notes ul li a {
+    color: white; }
+    .notes ul li a:hover {
+      text-decoration: none; }
+
 /*Responsive code*/
 @media (max-width: 600px) {
   html {

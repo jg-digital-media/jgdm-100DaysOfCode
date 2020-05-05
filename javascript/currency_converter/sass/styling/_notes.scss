@@ -1,0 +1,13 @@
+.notes {
+    padding: 5px;
+
+    ul {
+
+        li a  {
+            color: white;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

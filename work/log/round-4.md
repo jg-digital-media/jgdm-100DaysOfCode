@@ -1,13 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 74 of 100. **Last Update:** 1 May 2020
+## **Status:** Day 76 of 100. **Last Update:** 5 May 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R4D76:  Tuesday 5 May 2020
 
-### R4D74:  Monday 4 May 2020
++ **Notes**  Currency converter updates to the behind the scenes Sass Code. Added a new page to the app as well.  Successfully created routes that make changes to date using a simple REST API. 
+
++ **Technologies used** - HTML5, CSS, JavaScript, Express.js
+
+### R4D75:  Monday 4 May 2020
 + **Notes**  Updated the photography website with some new/replacement photos and a slight restructure!  Also spent a bit of time on JavaScript function theory.
 
 + **Technologies used** - HTML5, CSS

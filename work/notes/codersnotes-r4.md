@@ -372,7 +372,7 @@ function populateAddCurrencyList() {
 populateAddCurrencyList();
 ```
 
-+ Interpolation syntax for Strinf literals```${currencies[i].abbreviation``` The Syntax is array[working_variable].property_object
++ Interpolation syntax for String literals```${currencies[i].abbreviation``` The Syntax is array[working_variable].property_object
 + Mozilla website defines ```insertAdjacenentHTML()``` method as:  Parses the specified text as HTML or XML and inserts the resulting nodes into the DOM tree at a specified position. 
 + "DOMString" refers to placing the specified text in a certain positoon i.e in this case Just inside the element, after its last child
 

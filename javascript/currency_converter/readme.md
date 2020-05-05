@@ -4,40 +4,27 @@
 
 + Source Tutorial URL:  https://www.youtube.com/watch?v=ARBvYDNeNdM
 + Source Tutorial URL Part 2: https://www.youtube.com/watch?v=F4TfBopAmaY
-+ API used: https://www.youtube.com/redirect?redir_token=_vk1MfAhSnvVZu2DNYyvYyjAGPl8MTU4NDYzMTQzOUAxNTg0NTQ1MDM5&event=video_description&v=ARBvYDNeNdM&q=https%3A%2F%2Fexchangeratesapi.io%2F
++ API used: http://exchangeratesapi.io/
 
 ## Flag images 
-http://www.geonames.org/flags/1/us.gif 
 
-need GIF for Euro flag.
++ http://www.geonames.org/flags/1/us.gif 
++ https://upload.wikimedia.org/wikipedia/commons/4/41/Old_EU_flag_5.gif - Euro Flag Link
+
 
 ## Notes 
 
-+ The below is simple code that toggles button state using an event listener. 
+The below is simple code that toggles button state using an event listener. Removing a specific class from an element - A DOM method to select the button to click and toggle the existence of a class.
 
-    ```javascript
 
-        //click add currency btn
-        addCurrencyBtn.addEventListener("click", addCurrencyBtnClick);
+```javascript
+    //click add currency btn
+    addCurrencyBtn.addEventListener("click", addCurrencyBtnClick);
 
-        function addCurrencyBtnClick(event) {
-            addCurrencyBtn.classList.toggle("open");
-        }
-
-    ``` 
-
-+ A DOM method to select the button to click and toggle the existence og a class.
-
-    ```javascript
-
-        //click add currency btn
-        addCurrencyBtn.addEventListener("click", addCurrencyBtnClick);
-
-        function addCurrencyBtnClick(event) {
-            addCurrencyBtn.classList.toggle("open");
-        }
-
-    ``` 
+    function addCurrencyBtnClick(event) {
+        addCurrencyBtn.classList.toggle("open");
+    }
+```   
 
 
 + We use classList to access a range of classes.  Then pass a string for the class to toggle existence of that class
@@ -105,9 +92,7 @@ need GIF for Euro flag.
     }
 
     ```
-    + Up to date with the functionality so far.  35.36 minutes in
-
-    + removing the base currency sets the next currency in the list to be the base currency
+    + Removing the base currency sets the next currency in the list to be the base currency
 
     + Define the behavior when user enters an input.
 
@@ -141,10 +126,27 @@ need GIF for Euro flag.
     }
     ```
 
-    + fix so value so not changed every time input is changed.
+    + Populate Add Currency List
 
-        ```javascript
-        if(currencyLI.id !== baseCurrency) {
+
+    ```javascript
+
+    // populateAddCurrencyList
+    function populateAddCurrencyList() {
+        for(let i=0; i<currencies.length; i++) {
+            addCurrencyList.insertAdjacentHTML(
+                "beforeend",
+                `<li data-currency="${currencies[i].abbreviation}" class="">
+                            <img src="${currencies[i].flagURL}"  class="flag"><span>${currencies[i].abbreviation} - ${currencies[i].name}</span>
+                </li>` 
+            );
         }
-        ```
-    
+        
+    }
+
+    populateAddCurrencyList();
+    ```
+
++ Interpolation syntax for String literals```${currencies[i].abbreviation``` The Syntax is array[working_variable].property_object
++ Mozilla website defines ```insertAdjacenentHTML()``` method as:  Parses the specified text as HTML or XML and inserts the resulting nodes into the DOM tree at a specified position. 
++ "DOMString" refers to placing the specified text in a certain positoon i.e in this case Just inside the element, after its last child

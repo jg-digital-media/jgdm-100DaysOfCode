@@ -2,7 +2,7 @@ ul.currencies {
     font-family: $font-secondary;
     height: auto;
     height: calc(100vh - 185px);
-    background-color: #222;
+    background-color: $currency-list-bg;
     /*border: solid pink 1px;*/
     border-top: 1px white solid;
     overflow-y: auto;
@@ -27,7 +27,7 @@ ul.currencies::-webkit-scrollbar-thumb {
 }
 
 ul.currencies li {
-    background: $currency-list-bg;
+    background: $currency-list-item-bg;
     border-radius: 5px;
     list-style: none;
     margin-bottom: 1rem;
@@ -45,10 +45,10 @@ ul.currencies li.last-child {
 }
 
 ul.currencies li.base-currency {
-    background: $currency-list-bg-hover;
+    background: $currency-list-item-bg-hover;
     position: relative;
 }
 
 ul.currencies li:hover {
-    background: $currency-list-bg-hover;
+    background: $currency-list-item-bg-hover;
 }

@@ -10,7 +10,7 @@ header.main-header {
     font-family: arial;
 
     a {
-        color: red;
+        color: $main-header-col;
         font-size: 10px;
 
         &:hover {

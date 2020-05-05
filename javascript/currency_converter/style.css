@@ -61,7 +61,8 @@ header.main-header {
   -moz-user-select: none; }
   .container .header {
     /*border: solid red 1px;*/
-    background: #111111; }
+    background: #111111;
+    color: #ffffff; }
     .container .header h1 {
       text-align: center;
       font-size: 3pc;
@@ -132,7 +133,12 @@ header.main-header {
   top: 0;
   right: 0;
   display: block;
-  margin: 10px; }
+  margin: 10px;
+  transform: scale(1); }
+  .close:hover {
+    transform: scale(1.3);
+    transform-origin: center;
+    transition: transform .2s; }
 
 /*Currency Button Styles*/
 .add-currency-btn i {
@@ -160,7 +166,7 @@ ul.currencies {
   font-family: verdana;
   height: auto;
   height: calc(100vh - 185px);
-  background-color: #222;
+  background-color: #472222;
   /*border: solid pink 1px;*/
   border-top: 1px white solid;
   overflow-y: auto; }

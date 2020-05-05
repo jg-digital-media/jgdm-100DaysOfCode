@@ -2,15 +2,17 @@
 $body-bg: darkgray;
 $background-main: darkgray;
 $container-main: black;
+$main-header-col: red;
+$header-col: #ffffff;
 $header-bg: #111111;
 
 
 //currency list colours
+$currency-list-col: white; /*Add currency colours*/
 $currency-list-bg:  #472222;
-
-$colour-main: white; /*Add currency colours*/
-$currency-list-bg-hover:  #2644d7;
-$currency-list-bg-hover: lighten($currency-list-bg, 10%);
+$currency-list-item-bg:  #472222;
+//$currency-list-bg: #222222;
+$currency-list-item-bg-hover: lighten($currency-list-item-bg, 10%);
 $close-btn: #ff0000;
 
 

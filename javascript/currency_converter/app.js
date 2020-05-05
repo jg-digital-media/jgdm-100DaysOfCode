@@ -381,7 +381,7 @@ function newCurrenciesListItem(currency) {
 fetch(dataURL) 
   .then(res => res.json())
   .then(data => {
-      document.querySelector(".date").textContent = data.date;
+      document.querySelector(".date").innerHTML = "Today's Date: <span>" + data.date + "</span>";
       data.rates["EUR"] = 1;
       currencies = currencies.filter(currency => data.rates[currency.abbreviation]);
       currencies.forEach(currency => currency.rate = data.rates[currency.abbreviation]);

@@ -1,5 +1,5 @@
 /*Add currency colours*/
-/**/
+/* BUTTON STYLES - button-main.scss*/
 .add-currency-btn {
   width: 100%;
   background: lightyellow;
@@ -22,7 +22,7 @@
 * {
   padding: 0; }
 
-/**/
+/* BUTTON STYLES - button-main.scss*/
 .add-currency-btn {
   width: 100%;
   background: lightyellow;
@@ -49,6 +49,18 @@
 
 body {
   background: darkgray; }
+
+header {
+  text-align: center;
+  width: 100%;
+  margin: 10px 0;
+  font-weight: bold;
+  font-family: arial; }
+  header a {
+    color: red;
+    font-size: 10px; }
+    header a:hover {
+      text-decoration: none; }
 
 .container {
   position: relative;

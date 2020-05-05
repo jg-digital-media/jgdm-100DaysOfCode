@@ -1,0 +1,33 @@
+/*Currency Button Styles*/
+.add-currency-btn {
+    @extend %add-currency-btn;
+}
+
+.add-currency-btn.open {
+    @extend %add-currency-btn-hover;
+}
+
+.add-currency-btn i { 
+    position: absolute;
+    top: 1px;
+    left: 30%;
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: all 0.25s;
+    color: yellow;
+}
+
+.add-currency-btn.open i {
+    opacity: 1;    
+    left: 1.2rem;
+    margin-top: 10px;
+ }
+
+.add-currency-btn.open + ul.add-currency-list {
+    height: calc(100vh - 40px - 100px - 55px);
+    display: block;
+}
+
+.add-currency-btn.open + ul.add-currency-list li:hover {
+    background-color: #ede;
+}

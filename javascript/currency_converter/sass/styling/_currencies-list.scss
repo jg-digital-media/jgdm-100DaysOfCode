@@ -1,0 +1,24 @@
+
+/* Currencies List Styles*/
+ul.add-currency-list {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    background-color: #f1f1f1;
+    color: #333;
+    width: 100%;
+    overflow-y: auto;
+    transition: all 0.25s;
+    height: 0;
+
+}
+ul.add-currency-list:hover {
+    height: calc(100vh -40px - 100px - 55px);
+    display: block;
+}
+
+ul.add-currency-list li {
+    list-style: none;
+    margin: 0 15px;
+    padding: 10px 15px;
+}

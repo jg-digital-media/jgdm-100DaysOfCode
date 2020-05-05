@@ -14,7 +14,7 @@ app.get('/quotes', async (req, res)=> {
     
         const quotes = await records.getQuotes();
 
-        if(quote) {
+        if(quotes) {
         res.json(quotes);
         } else {
             res.status(404).json ( {message: "Quote not found"} );
@@ -97,7 +97,27 @@ app.put('/quotes/:id', async (req, res) => {
 })
 
 
+
+
+//delete a quote
+app.delete('/quotes/:id', async (req, res) => {
+
+    try {
+        //get id from url parameters and pass to get function
+        const quote = await records.getQuote(req.params.id);
+        await records.deleteQuote(quote);
+        res.status(204).end();
+        
+    } catch( err ) {
+        res.status(500).json({ message: err.message });
+    }
+});
+
+
+
+//listen for server
 app.listen(3000, () => console.log('Quote API listening on port 3000!'));
+
 
 
 /*

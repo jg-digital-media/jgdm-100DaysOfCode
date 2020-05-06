@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 76 of 100. **Last Update:** 5 May 2020
+## **Status:** Day 77 of 100. **Last Update:** 6 May 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R4D77:  Wednesday 6 May 2020
+
++ **Notes**  Wrote some code for a global event handler and Middleware for Express.js and fixed some CSS glitches on a website I'm building up. 
+
++ **Technologies used** - HTML5, CSS, JavaScript, Express.js
 
 ### R4D76:  Tuesday 5 May 2020
 

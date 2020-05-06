@@ -10,6 +10,55 @@
 + Flashcard App (Express.js) - https://jgdm-flashcard-app.herokuapp.com/hello
 + Photography - https://photography.jonniegrieve.co.uk/
 
+### Day 77
+
+```
+
+```
+
+#### Some middleware that creates an error
+
+```javascript
+// Middleware Syntax:
+app.use( (req, res, next) => {
+    const err = new Error("Not Found");
+    //manually set to 404 for bad route
+    err.status == 404;
+    next(err);
+});
+
+
+//custom error handler  err refers to error object
+app.use( (err, req, res, next) => {
+    res.status(err.status || 500);
+    res.json({
+        error: {
+            message: err.message;
+        }
+    })
+    
+});
+
+
+```
+#### Simulate Server error - on delete route 
+
+```javascript
+//delete a quote
+app.delete('/quotes/:id', async (req, res, next) => {
+
+    try {
+        //get id from url parameters and pass to get function
+        const quote = await records.getQuote(req.params.id);
+        await records.deleteQuote(quote);
+        res.status(204).end();
+        
+    } catch( err ) {
+        res.status(500).json({ message: err.message });
+    }
+});
+
+```
 
 ### Day 74
 

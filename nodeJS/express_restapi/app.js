@@ -97,20 +97,44 @@ app.put('/quotes/:id', async (req, res) => {
 })
 
 
-
-
 //delete a quote
-app.delete('/quotes/:id', async (req, res) => {
+app.delete('/quotes/:id', async (req, res, next) => {
 
     try {
+
+        throw new Error("similated server error")
         //get id from url parameters and pass to get function
         const quote = await records.getQuote(req.params.id);
         await records.deleteQuote(quote);
         res.status(204).end();
         
     } catch( err ) {
-        res.status(500).json({ message: err.message });
+        next(err);
+        //res.status(500).json({ message: err.message });
     }
+});
+
+
+//Global error handler middleware
+
+// Middleware Syntax:
+app.use( (req, res, next) => {
+    const err = new Error("Not Found");
+    //manually set to 404 for bad route
+    err.status == 404;
+    next(err);
+});
+
+
+//custom error handler  err refers to error object
+app.use( (err, req, res, next) => {
+    res.status(err.status || 500);
+    res.json({
+        error: {
+            message: err.message
+        }
+    })
+    
 });
 
 

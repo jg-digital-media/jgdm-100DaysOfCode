@@ -3,12 +3,36 @@ const app = express();
 
 const records = require("./records.js");
 
+//async handling function 
+function asyncHandler(cb){
+  return async (req, res, next)=>{
+    try {
+      await cb(req,res, next);
+    } catch(err){
+      next(err);
+    }
+  };
+}
+
 
 //middleware
 app.use( express.json() )
 
-//Create an Exoress get Route Handler
-app.get('/quotes', async (req, res)=> {
+
+//Create an Express get Route Handler
+app.get('/quotes', asyncHandler(async (req, res) => {
+
+    const quotes = await records.getQuotes();
+
+    if(quotes) {
+    res.json(quotes);
+    } else {
+        res.status(404).json ( {message: "Quote not found"} );
+    }
+
+}))
+
+/* app.get('/quotes', async (req, res)=> {
 
     try {
     
@@ -23,10 +47,20 @@ app.get('/quotes', async (req, res)=> {
         res.status(500).json( { message: err.message } )
 
     }
-});
+}); */
 
+app.get('/quotes/:id', asyncHandler (async (req, res) => {
 
-app.get('/quotes/:id', async (req, res) => {
+        //compare range of id's to that in the array 
+        const quote = await records.getQuote(req.params.id);
+
+        //send to client as JSON
+        res.json(quote);
+
+        //404 page for incorrect quite id's.
+}));
+
+/* app.get('/quotes/:id', async (req, res) => {
 
 
     try {
@@ -44,10 +78,28 @@ app.get('/quotes/:id', async (req, res) => {
 
 
 
-});
+}); */
+
 
 //This route is used when a POST Request is sent.
-app.post('/quotes', async (req, res) => {
+app.post('/quotes', asyncHandler( async (req, res) => {
+
+    if(req.body.quote && req.body.author) {
+            //throw fake error message
+            throw new Error("Fake error message");
+            
+            const quote = await records.createQuote({
+                quote: req.body.quote,
+                author: req.body.author
+            });
+
+            //send as json
+            res.status(202).json(quote);
+        }
+
+}));
+
+/* app.post('/quotes', async (req, res) => {
 
     try {
         if(req.body.quote && req.body.author) {
@@ -71,10 +123,25 @@ app.post('/quotes', async (req, res) => {
     }
 
 
-});
+}); */
+
 
 //update a quote with a put request
-app.put('/quotes/:id', async (req, res) => {
+app.post('/quotes/:id', asyncHandler( async (req, res) => {
+    const quote = await records.getQuote(req.params.id);
+
+       if( quote ) {
+           quote.quote = req.body.quote;
+           quote.author = req.body.author;
+
+           await records.updateQuote(quote);
+           res.status(204).end();
+       } else {
+           res.status(404).json({ message: "Quote not found!"});
+       }
+}));
+
+/*app.put('/quotes/:id', async (req, res) => {
 
     try {
 
@@ -95,10 +162,19 @@ app.put('/quotes/:id', async (req, res) => {
     }
 
 })
+ */
 
 
 //delete a quote
-app.delete('/quotes/:id', async (req, res, next) => {
+app.delete('/quotes/:id', asyncHandler(async (req, res, next) => {    
+    throw new Error("similated server error")
+    //get id from url parameters and pass to get function
+    const quote = await records.getQuote(req.params.id);
+    await records.deleteQuote(quote);
+    res.status(204).end();
+}));
+
+/* app.delete('/quotes/:id', async (req, res, next) => {
 
     try {
 
@@ -112,7 +188,8 @@ app.delete('/quotes/:id', async (req, res, next) => {
         next(err);
         //res.status(500).json({ message: err.message });
     }
-});
+}); */
+
 
 
 //Global error handler middleware

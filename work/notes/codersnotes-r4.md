@@ -10,11 +10,30 @@
 + Flashcard App (Express.js) - https://jgdm-flashcard-app.herokuapp.com/hello
 + Photography - https://photography.jonniegrieve.co.uk/
 
+### Day 78
+
+```javascript
+/*for more verbose programming */
+
+//async handling function 
+function asyncHandler(cb){
+  return async (req, res, next)=>{
+    try {
+      await cb(req,res, next);
+    } catch(err){
+      next(err);
+    }
+  };
+
+//pass in an anonymous function to a function call for asyncHandler()
+app.get('/quotes', asyncHandler(async (req, res) => {
+
+}));
+
+
+```
+
 ### Day 77
-
-```
-
-```
 
 #### Some middleware that creates an error
 

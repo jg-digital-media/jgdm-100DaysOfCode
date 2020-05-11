@@ -6,7 +6,7 @@ const records = require("./records");
 
 //middleware
 app.use( express.json() );
-app.use( '/app', router );
+app.use( '/api', router );
 
 
 //Global error handler middleware

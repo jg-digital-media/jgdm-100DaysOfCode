@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 4: Day 78 of 100. **Last Update:** 07 May 2020
++ **Status:** Round 4: Day 79 of 100. **Last Update:** 11 May 2020
 
 ## Directories
   + bin      
@@ -38,14 +38,17 @@
     + iteration-methods
     + library
     + node
+  + laravel <?>
   + nodeJS
     + basics
     + dynamic
     + dynamic_site
     + express_site (external)
     + express_async
+    + express_restapi
     + open_weather
   + php
+    + lockdown
     + mvc-framework
     + php_auth
     + php_rest_api

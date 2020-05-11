@@ -10,6 +10,38 @@
 + Flashcard App (Express.js) - https://jgdm-flashcard-app.herokuapp.com/hello
 + Photography - https://photography.jonniegrieve.co.uk/
 
+
+
+
+
+### Day 79
+
+
+
+```javascript
+
+//Get a random quote
+router.get('/quotes/quote/random', asyncHandler(async (req, res) => {
+
+    try {
+        const quote = await records.getRandomQuote();
+        res.json(quote);
+
+    } catch(err) {
+        next(err);
+    }  
+
+}))
+  
+
+//Get a random quote
+router.get('/quotes/quote/random', asyncHandler(async (req, res) => {
+        const quote = await records.getRandomQuote();
+        res.json(quote);
+}))  
+
+```
+
 ### Day 78
 
 ```javascript

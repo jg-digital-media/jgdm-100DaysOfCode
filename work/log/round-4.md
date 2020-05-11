@@ -1,24 +1,27 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 78 of 100. **Last Update:** 7 May 2020
+## **Status:** Day 79 of 100. **Last Update:** 11 May 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-### R4D78:  Thursday 7 May 2020
+### R4D79:  Monday 11 May 2020
++ **Notes**  New photos uploaded to photography website  and completed my first look into exploring REST API's in Express.js
 
++ **Technologies used** - HTML5, CSS, JavaScript, Express.js
+
+### R4D78:  Thursday 7 May 2020
 + **Notes**  Wrote a function for handling asynchronicity in Express Routes and restructured the file structure to handle routing in a separate file. 
+
 + **Technologies used** - HTML5, CSS, JavaScript, Express.js
 
 ### R4D77:  Wednesday 6 May 2020
-
 + **Notes**  Wrote some code for a global event handler and Middleware for Express.js and fixed some CSS glitches on a website I'm building up. 
 
 + **Technologies used** - HTML5, CSS, JavaScript, Express.js
 
 ### R4D76:  Tuesday 5 May 2020
-
 + **Notes**  Currency converter updates to the behind the scenes Sass Code. Added a new page to the app as well.  Successfully created routes that make changes to date using a simple REST API. 
 
 + **Technologies used** - HTML5, CSS, JavaScript, Express.js

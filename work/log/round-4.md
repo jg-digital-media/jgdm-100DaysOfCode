@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 79 of 100. **Last Update:** 11 May 2020
+## **Status:** Day 80 of 100. **Last Update:** 12 May 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R4D80:  Tuesday 12 May 2020
++ **Notes**  Some general markup, Content and Styling updates to website today.
+
++ **Technologies used** - HTML5, CSS, JavaScript, Express.js
 
 ### R4D79:  Monday 11 May 2020
 + **Notes**  New photos uploaded to photography website  and completed my first look into exploring REST API's in Express.js

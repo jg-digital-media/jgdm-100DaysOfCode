@@ -1,5 +1,5 @@
-/*main container styles */
 
+/*Main container styles */
 .container {
     position: relative;
     background: $container-main;
@@ -14,7 +14,7 @@
     -webkit-user-select: none;
     -moz-user-select: none;    
 
-    .header {
+    .container-header {
         /*border: solid red 1px;*/
         background: $header-bg;
         color: $header-col;

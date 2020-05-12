@@ -1,3 +1,4 @@
+
 /*Currency Button Styles*/
 .add-currency-btn {
     @extend %add-currency-btn;
@@ -25,6 +26,7 @@
 
 .add-currency-btn.open + ul.add-currency-list {
     height: calc(100vh - 40px - 100px - 55px);
+    //background-color: $currency-btn-bg-hover;
     display: block;
 }
 

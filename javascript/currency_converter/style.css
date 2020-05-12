@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 /*Add currency colours*/
-/* BUTTON STYLES - button-main.scss*/
+/* BUTTON STYLES button-main.scss*/
 .add-currency-btn {
   width: 100%;
   background: lightyellow;
@@ -24,9 +24,25 @@
   height: 50px;
   color: white; }
 
+.notes .readme {
+  width: 30%;
+  background: red;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  margin: 5px auto;
+  border-radius: 10px;
+  border: white solid 1px;
+  transition: background .3s; }
+  .notes .readme:hover {
+    background: #ff4d4d; }
+
 * {
   padding: 0; }
 
+/*Header.scss*/
 body {
   background: darkgray; }
 
@@ -45,7 +61,8 @@ header.main-header {
     margin: 20px 0;
     padding: 0 10px; }
 
-/*main container styles */
+/*main.scss*/
+/*Main container styles */
 .container {
   position: relative;
   background: black;
@@ -59,11 +76,11 @@ header.main-header {
   -ms-user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none; }
-  .container .header {
+  .container .container-header {
     /*border: solid red 1px;*/
     background: #111111;
     color: #ffffff; }
-    .container .header h1 {
+    .container .container-header h1 {
       text-align: center;
       font-size: 3pc;
       font-family: "Roboto", sans-serif; }
@@ -162,6 +179,7 @@ header.main-header {
 .add-currency-btn.open + ul.add-currency-list li:hover {
   background-color: #ede; }
 
+/*Currencies.scss*/
 ul.currencies {
   font-family: verdana;
   height: auto;
@@ -205,7 +223,7 @@ ul.currencies li.base-currency {
 ul.currencies li:hover {
   background: #693333; }
 
-/* Currencies List Styles*/
+/* Currencies List Style currencies-list.scss*/
 ul.add-currency-list {
   position: absolute;
   bottom: 50px;
@@ -226,8 +244,19 @@ ul.add-currency-list li {
   margin: 0 15px;
   padding: 10px 15px; }
 
+/*notes.scss*/
 .notes {
   padding: 5px; }
+  .notes h2 {
+    color: red;
+    padding-left: 10px; }
+  .notes p {
+    padding-left: 10px;
+    line-height: 1.6; }
+  .notes ul li {
+    margin: 15px 0;
+    list-style: none;
+    padding-left: 10px; }
   .notes ul li a {
     color: white; }
     .notes ul li a:hover {
@@ -287,7 +316,7 @@ ul.add-currency-list li {
       .page-footer p a:hover {
         color: red; }
 
-/* BUTTON STYLES - button-main.scss*/
+/* BUTTON STYLES button-main.scss*/
 .add-currency-btn {
   width: 100%;
   background: lightyellow;
@@ -306,5 +335,20 @@ ul.add-currency-list li {
   color: black;
   height: 50px;
   color: white; }
+
+.notes .readme {
+  width: 30%;
+  background: red;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  margin: 5px auto;
+  border-radius: 10px;
+  border: white solid 1px;
+  transition: background .3s; }
+  .notes .readme:hover {
+    background: #ff4d4d; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,8 @@
 <?php 
 
-    $title = "Jaunts and Journey's in Lockdown";
-    $pageTitle = "Homepage";
+    $title = "Lockdown Page";
+    $pageTitle = "Route List";
+
 
     $meta_description = "description to go here";
     $meta_keywords = "keywords to go here";
@@ -14,7 +15,7 @@
 
     $canonical = "";
 
-    $selected = "home";
+    $selected = "routes";
 
 ?>
 

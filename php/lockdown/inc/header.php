@@ -16,6 +16,7 @@
     <meta property="og:url" content="<?php echo $fb_url; ?>">
 
     <!-- Styles -->
+    <link ref="stylesheet" type="text/css" href="slick.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
 
     <!-- Canonical link -->

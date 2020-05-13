@@ -5,9 +5,13 @@ ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R4D81:  Wednesday 13 May 2020
++ **Notes**     
+
++ **Technologies used** - HTML5, CSS, JavaScript, Express.js
 
 ### R4D80:  Tuesday 12 May 2020
-+ **Notes**  Some general markup, Content and Styling updates to website today.
++ **Notes**  Some general markup, Content and Styling updates to website today which fixed some JS functionality.  How to make it in a more modular way is the next challenge.
 
 + **Technologies used** - HTML5, CSS, JavaScript, Express.js
 

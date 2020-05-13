@@ -2,6 +2,7 @@
 
     $title = "Lockdown Page";
     $pageTitle = "County Durham Coastal Routes";
+    $trailType = "Coastal";
 
 
     $meta_description = "description to go here";

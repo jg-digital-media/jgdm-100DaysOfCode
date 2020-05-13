@@ -2,6 +2,7 @@
 
     $title = "Castle Eden Dene";
     $pageTitle = "Castle Eden Dene";
+    $trailType = "Dene";
 
     $meta_description = "description to go here";
     $meta_keywords = "keywords to go here";

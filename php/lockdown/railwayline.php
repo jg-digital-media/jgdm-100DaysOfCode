@@ -2,6 +2,7 @@
 
     $title = "Lockdown Page";
     $pageTitle = "Railway Line Routes";
+    $trailType = "railway line";
 
     $meta_description = "description to go here";
     $meta_keywords = "keywords to go here";

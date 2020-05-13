@@ -2,6 +2,7 @@
 
     $title = "Jaunts and Journey's in Lockdown";
     $pageTitle = "Homepage";
+    $trailType = "";
 
     $meta_description = "description to go here";
     $meta_keywords = "keywords to go here";

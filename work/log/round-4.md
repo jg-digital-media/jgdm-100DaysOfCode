@@ -1,14 +1,14 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 80 of 100. **Last Update:** 12 May 2020
+## **Status:** Day 81 of 100. **Last Update:** 13 May 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 ### R4D81:  Wednesday 13 May 2020
-+ **Notes**     
++ **Notes** Spent the day building a PHP Based boilerplate framework for a new website project. The navigation, Sass, and JavaScript assets have all been set up.  Now to build the markup and styling.    
 
-+ **Technologies used** - HTML5, CSS, JavaScript, Express.js
++ **Technologies used** - HTML5, CSS, JavaScript, PHP
 
 ### R4D80:  Tuesday 12 May 2020
 + **Notes**  Some general markup, Content and Styling updates to website today which fixed some JS functionality.  How to make it in a more modular way is the next challenge.

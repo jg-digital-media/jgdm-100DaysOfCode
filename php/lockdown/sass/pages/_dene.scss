@@ -1,0 +1,44 @@
+.dene {
+
+    h2 {
+        font-size: 15pt;
+        color: blue;
+    }
+
+    p {
+        line-height: 1.5;
+    }
+}
+
+.walk {
+    display: grid;
+    grid-template-columns: 36% 55%;
+    margin: 0 auto;
+    /*width: 50%*/
+    width: 900px;
+}
+
+.walk > div {
+
+    h3 {
+
+        font-size: 15pt;
+    }
+
+    p {
+        line-height: 1.6;
+    }
+
+    img {
+        /*width: 75%;*/
+        max-width: 400px;
+        display: block;
+    }
+
+    a {
+
+        @extend %walk-btn;
+
+    }
+
+}

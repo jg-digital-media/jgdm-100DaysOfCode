@@ -5,6 +5,13 @@
 .lockdown .lockdown-intro .main-btn {
   font-weight: bold; }
 
+.walk > div a {
+  font-weight: bold;
+  background: lightyellow;
+  padding: 4px;
+  position: relative;
+  right: 5px; }
+
 body {
   background: #d3d3d3;
   font-family: arial; }
@@ -56,6 +63,17 @@ nav {
     text-align: center; }
   .lockdown .home-image {
     width: 80%; }
+  .lockdown .route-list ul {
+    list-style-type: none;
+    position: relative;
+    left: 15px; }
+    .lockdown .route-list ul li {
+      margin: 5px 0; }
+      .lockdown .route-list ul li a {
+        color: red;
+        font-size: 12px; }
+        .lockdown .route-list ul li a:hover {
+          text-decoration: none; }
 
 .route-slider {
   display: inlne-block;
@@ -66,6 +84,59 @@ nav {
     /*consider original height of image - to be decided*/
     width: 180px;
     display: inline-block; }
+
+.dene h2 {
+  font-size: 15pt;
+  color: blue; }
+.dene p {
+  line-height: 1.5; }
+
+.walk {
+  display: grid;
+  grid-template-columns: 36% 55%;
+  margin: 0 auto;
+  /*width: 50%*/
+  width: 900px; }
+
+.walk > div h3 {
+  font-size: 15pt; }
+.walk > div p {
+  line-height: 1.6; }
+.walk > div img {
+  /*width: 75%;*/
+  max-width: 400px;
+  display: block; }
+
+.railway {
+  color: blue;
+  font-size: 15pt; }
+
+.coastal h2 {
+  color: blue;
+  font-size: 15pt; }
+
+.routes {
+  display: block;
+  margin: 0 auto;
+  width: 50%; }
+  .routes h2 {
+    font-size: 15pt;
+    color: blue; }
+  .routes .route-list {
+    list-style: none;
+    position: relative;
+    left: 10px; }
+    .routes .route-list ul {
+      list-style-type: none;
+      position: relative;
+      left: 15px; }
+    .routes .route-list li {
+      line-height: 2; }
+    .routes .route-list li a {
+      color: red;
+      font-size: 12px; }
+      .routes .route-list li a:hover {
+        text-decoration: none; }
 
 footer {
   width: 100%; }

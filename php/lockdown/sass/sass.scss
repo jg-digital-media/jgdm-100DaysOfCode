@@ -11,6 +11,9 @@
 //inc
 @import "inc/header";
 
+//walks
+@import "walks/walks";
+
 //pages
 @import "pages/lockdown";
 @import "pages/dene";
@@ -18,8 +21,6 @@
 @import "pages/coastal";
 @import "pages/routes";
 
-//walks
-@import "walks/sass-walks";
 
 //main
 @import "main";

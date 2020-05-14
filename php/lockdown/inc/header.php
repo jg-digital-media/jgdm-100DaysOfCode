@@ -23,12 +23,12 @@
 
     <!-- Canonical link -->
     <link rel="canonical" href="<?php echo $canonical;  ?>">
-    <title><?php echo $title; ?></title>
+    <title><?php echo $website_title . " | " .  $pageTitle;  ?></title>
 </head>
 <body>
 
     <header>
-        <h1> <?php echo $title; ?> </h1>
+        <h1> <?php echo $website_title; ?> </h1>
     </header>
 
     <nav>
@@ -41,4 +41,3 @@
         </ul>
 
     </nav>
-    

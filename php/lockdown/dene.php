@@ -1,6 +1,6 @@
 <?php 
 
-    $title = "Castle Eden Dene";
+    $website_title = "Castle Eden Dene";
     $pageTitle = "Castle Eden Dene";
     $trailType = "Dene";
 
@@ -21,9 +21,9 @@
 
 <?php require_once "inc/header.php"; ?>
 
-    <article>
+    <section>
         
-        <p> Dene Routes</p>
+        <h2>Dene Routes</h2>
         
         <p><?php require("inc/walks/walk-one.php"); ?> </p> <!-- -->
 
@@ -35,6 +35,6 @@
         
         <p><?php require("inc/walks/walk-five.php"); ?> </p> <!-- -->
 
-    </article>
+    </section>
 
 <?php require_once "inc/footer.php"; ?>

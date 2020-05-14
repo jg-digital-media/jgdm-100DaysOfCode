@@ -1,6 +1,6 @@
 <?php 
 
-    $title = "Lockdown Page";
+    $website_title = "Lockdown Page";
     $pageTitle = "County Durham Coastal Routes";
     $trailType = "Coastal";
 
@@ -22,9 +22,9 @@
 
 <?php require_once "inc/header.php"; ?>
 
-    <article>
+    <section>
         
-        <p> Coastal Routes</p>
+        <h2>Coastal Routes</h2>
         
         <p><?php require("inc/walks/walk-seven.php"); ?> </p> <!-- -->
 
@@ -42,6 +42,6 @@
 
         <p><?php require("inc/walks/walk-fourteen.php"); ?> </p> <!-- -->  
 
-    </article>
+    </section>
 
 <?php require_once "inc/footer.php"; ?>

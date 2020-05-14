@@ -1,0 +1,48 @@
+
+body {
+    background: $body-bg;
+    font-family: $main-font;
+}
+
+header {
+    background: $main-header-bg;
+    color: $main-header-col;
+    text-align: center;
+    height: 75px;
+
+    h1 {
+        padding: 20px 0;
+    }
+}
+
+a.selected {
+    font-weight: bold;
+    border-bottom: solid 2px $nav-bg-selected;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+
+    ul {
+
+
+        li {
+            display: inline-block;
+            /*background: beige;*/
+            background: $nav-bg;
+            padding: 10px;
+            border-radius: 50%;
+
+            a {
+                text-decoration: none;
+                color: $nav-link-col;
+                &:hover {
+                    color: $nav-link-col-hov;
+                }
+            }
+        }
+    }
+}

@@ -1,7 +1,32 @@
-* {
-    padding: 0;
-    margin: 0;
-}
+//inc
+
+@import "inc/header";
+
+//utilities
+@import "utilities/resets";
+@import "utilities/colours";
+@import "utilities/fonts";
+@import "utilities/breakpoints";
+@import "utilities/mixins";
+@import "utilities/buttons";
+@import "utilities/extends";
+
+//pages
+@import "pages/lockdown";
+@import "pages/dene";
+@import "pages/railway";
+@import "pages/coastal";
+@import "pages/routes";
+
+//walks
+@import "walks/sass-walks";
+
+//main
+@import "main";
+
+//footer
+@import "inc/footer";
+
 
 body {
     background: #d3d3d3;
@@ -13,5 +38,5 @@ header {
 
 a.selected {
     font-weight: bold;
-    border-bottom: solid 2px red;
+    border-bottom: solid 2px blue;
 }

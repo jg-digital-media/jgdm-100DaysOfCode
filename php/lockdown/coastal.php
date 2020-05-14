@@ -25,16 +25,6 @@
     <section class="coastal">
             
         <h2>Coastal Routes</h2>
-        
-        <p><?php require("inc/walks/walk-seven.php"); ?> </p> <!-- -->
-
-        <p><?php require("inc/walks/walk-eight.php"); ?> </p> <!-- -->
-
-        <p><?php require("inc/walks/walk-nine.php"); ?> </p> <!-- -->
-
-        <p><?php require("inc/walks/walk-ten.php"); ?> </p> <!-- -->
-
-        <p><?php require("inc/walks/walk-eleven.php"); ?> </p> <!-- -->
 
         <p><?php require("inc/walks/walk-twelve.php"); ?> </p> <!-- -->
 

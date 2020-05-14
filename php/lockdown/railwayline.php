@@ -25,6 +25,8 @@
         
         <h2>Railway Routes</h2>
         
+        <p><?php require("inc/walks/walk-six.php"); ?> </p> <!-- -->
+        
         <p><?php require("inc/walks/walk-seven.php"); ?> </p> <!-- -->
 
         <p><?php require("inc/walks/walk-eight.php"); ?> </p> <!-- -->

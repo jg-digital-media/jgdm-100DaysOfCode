@@ -1,13 +1,11 @@
-//main route button
 
-%route-btn {
-    font-weight: bold;
+//general extend style rules
+%trail-type-headings {    
+    color: blue;
+    font-size: 15pt;
+    padding-left: 5px;
 }
 
-%walk-btn {
-    font-weight: bold;
-    background: lightyellow;
-    padding: 4px;
-    position: relative;
-    right: 5px;
+%trail-type-para {
+    line-height: 1.5;
 }

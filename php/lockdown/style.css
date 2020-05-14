@@ -2,6 +2,9 @@
   padding: 0;
   margin: 0; }
 
+.lockdown .lockdown-intro .main-btn {
+  font-weight: bold; }
+
 body {
   background: #d3d3d3;
   font-family: arial; }
@@ -35,9 +38,34 @@ nav {
       nav ul li a:hover {
         color: gray; }
 
-section {
+.lockdown {
   width: 100%;
-  border: solid 1px black; }
+  border: solid 1px black;
+  display: grid;
+  grid-template-columns: minmax(30%, 48%) 1fr 1fr; }
+  .lockdown .lockdown-intro,
+  .lockdown .lockdown-img,
+  .lockdown .route-list {
+    border: solid yellow 1px; }
+  .lockdown .lockdown-intro {
+    line-height: 1.7;
+    font-size: 12px; }
+  .lockdown .lockdown-img {
+    width: 100%;
+    padding: 5px;
+    text-align: center; }
+  .lockdown .home-image {
+    width: 80%; }
+
+.route-slider {
+  display: inlne-block;
+  margin: 20px auto;
+  text-align: center;
+  width: 90%; }
+  .route-slider img {
+    /*consider original height of image - to be decided*/
+    width: 180px;
+    display: inline-block; }
 
 footer {
   width: 100%; }

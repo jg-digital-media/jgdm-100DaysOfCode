@@ -22,8 +22,8 @@
 
 <?php require_once "inc/header.php"; ?>
 
-    <section>
-        
+    <section class="coastal">
+            
         <h2>Coastal Routes</h2>
         
         <p><?php require("inc/walks/walk-seven.php"); ?> </p> <!-- -->

@@ -21,7 +21,7 @@
 
 <?php require_once "inc/header.php"; ?>
 
-    <section>
+    <section class="dene">
         
         <h2>Dene Routes</h2>
         

@@ -21,7 +21,7 @@
 
 <?php require_once "inc/header.php"; ?>
 
-    <section>
+    <section class="railway">
         
         <h2>Railway Routes</h2>
         
@@ -41,6 +41,6 @@
 
         <p><?php require("inc/walks/walk-fourteen.php"); ?> </p> <!-- -->  
 
-</section>
+    </section>
 
 <?php require_once "inc/footer.php"; ?>

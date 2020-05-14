@@ -1,0 +1,35 @@
+.routes {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+
+    h2 {
+        font-size: 15pt;
+        color: blue;
+    }
+
+    .route-list {
+        list-style: none;
+        position: relative;
+        left: 10px;
+        
+        ul {
+            list-style-type: none;
+            position: relative;
+            left: 15px;
+        }
+
+        li {
+            line-height: 2;
+        }
+
+        li a {
+            color: red;
+            font-size: 12px;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

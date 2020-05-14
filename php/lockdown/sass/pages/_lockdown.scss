@@ -29,6 +29,28 @@
     .home-image {
         width: 80%;
     }
+
+    .route-list {
+        ul {
+            list-style-type: none;
+            position: relative;
+            left: 15px;
+
+            li {
+                margin: 5px 0;
+                a {
+                    color: red;
+                    font-size: 12px;
+        
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }      
+        
+      
+    }
 }
 
 .route-slider {

@@ -3,13 +3,36 @@
   margin: 0; }
 
 body {
-  background: #d3d3d3; }
+  background: #d3d3d3;
+  font-family: arial; }
 
 header {
-  background: #90ee90; }
+  background: #90ee90;
+  color: black;
+  text-align: center;
+  height: 75px; }
+  header h1 {
+    padding: 20px 0; }
 
 a.selected {
   font-weight: bold;
-  border-bottom: solid 2px red; }
+  border-bottom: solid 2px blue; }
+
+nav {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  margin: 5px 0; }
+  nav ul li {
+    display: inline-block;
+    /*background: beige;*/
+    background: lightgreen;
+    padding: 10px;
+    border-radius: 50%; }
+    nav ul li a {
+      text-decoration: none;
+      color: black; }
+      nav ul li a:hover {
+        color: gray; }
 
 /*# sourceMappingURL=style.css.map */

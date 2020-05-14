@@ -27,9 +27,9 @@
 </head>
 <body>
 
-<header>
-    <h1> <?php echo $title; ?> </h1>
-</header>
+    <header>
+        <h1> <?php echo $title; ?> </h1>
+    </header>
 
     <nav>
         <ul>
@@ -41,3 +41,4 @@
         </ul>
 
     </nav>
+    

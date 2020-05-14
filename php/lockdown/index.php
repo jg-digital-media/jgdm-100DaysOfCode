@@ -22,7 +22,7 @@
 <?php require_once "inc/header.php"; ?>
 
 <article>
-    <p> Main content goes here!</p>
+    <p> Main content to go here!!</p>
 </article>
 
 <?php require_once "inc/footer.php"; ?>

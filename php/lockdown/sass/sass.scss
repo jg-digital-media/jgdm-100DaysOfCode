@@ -1,6 +1,3 @@
-//inc
-
-@import "inc/header";
 
 //utilities
 @import "utilities/resets";
@@ -10,6 +7,9 @@
 @import "utilities/mixins";
 @import "utilities/buttons";
 @import "utilities/extends";
+
+//inc
+@import "inc/header";
 
 //pages
 @import "pages/lockdown";
@@ -26,17 +26,3 @@
 
 //footer
 @import "inc/footer";
-
-
-body {
-    background: #d3d3d3;
-}
-
-header {
-    background: #90ee90;
-}
-
-a.selected {
-    font-weight: bold;
-    border-bottom: solid 2px blue;
-}

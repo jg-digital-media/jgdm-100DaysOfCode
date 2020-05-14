@@ -35,4 +35,15 @@ nav {
       nav ul li a:hover {
         color: gray; }
 
+section {
+  width: 100%;
+  border: solid 1px black; }
+
+footer {
+  width: 100%; }
+  footer p {
+    margin: 20px 0;
+    font-weight: bold;
+    text-align: center; }
+
 /*# sourceMappingURL=style.css.map */

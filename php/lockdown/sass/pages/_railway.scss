@@ -1,4 +1,10 @@
-.railway {
-    color: blue;
-    font-size: 15pt;
+.railway {    
+
+    h2 {
+        @extend %trail-type-headings;
+    }
+
+    p {
+        @extend %trail-type-para;
+    }
 }

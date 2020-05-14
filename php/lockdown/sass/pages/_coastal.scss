@@ -1,6 +1,10 @@
 .coastal {
+
     h2 {
-        color: blue;
-        font-size: 15pt;
+        @extend %trail-type-headings;
+    }
+
+    p {
+        @extend %trail-type-para;
     }
 }

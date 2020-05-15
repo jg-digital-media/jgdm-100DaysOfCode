@@ -3,10 +3,12 @@ console.log("connected");
 
 $(document).ready(function(){
 
-    $('.router-slider').slick({
+    $('.route-slider').slick({
         infinite: true,
-        slidesToShow: 7,
-        slidesToScroll: 7
+        slidesToShow: 8,
+        slidesToScroll: 3,
+        dots: true,
+        draggable: false
     });
-    
+
 });

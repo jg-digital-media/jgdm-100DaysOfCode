@@ -3,6 +3,10 @@
     margin: 0 auto;
     width: 60%;
 
+    @media (max-width: $xs) {
+        width: 90%;
+    }
+
     h2 {
         font-size: 15pt;
         color: blue;

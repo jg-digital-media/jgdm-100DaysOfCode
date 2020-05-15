@@ -1,9 +1,28 @@
 .lockdown {
-    width: 100%;
-    border: solid 1px black;
-
+    
     display: grid;
-    grid-template-columns: minmax(30%, 48%) 1fr 1fr;
+    /*width: 100%;*/  //redundant?
+    border: solid 1px black;
+    padding: 15px;
+    grid-template-columns: minmax(30%, 50%) 1fr 1fr;
+    margin: 0 auto;
+
+    @media (min-width: $xl) {
+        /*color: red;*/
+        width: 1450px;
+    }
+
+    @media (max-width: $lg) {
+        max-width: 1450px;
+    }
+
+    @media (max-width: $xs) {
+        //grid-template-columns: minmax(30%, 35%) 1fr 1fr
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        width: 90%;
+    }
 
     .lockdown-intro,
     .lockdown-img,
@@ -55,14 +74,26 @@
 
 .route-slider {
 
-    display: inlne-block;
+    display: inline-block;
     margin: 20px auto;
     text-align: center;
     width: 90%;
 
     img {
         /*consider original height of image - to be decided*/
-        width: 180px;
+        /*width: 180px;*/
+        width: 130px;
         display: inline-block;
+
+        @media (max-width: $md) {
+            width: 13%;
+        }
+
+        @media (max-width: $sm) {
+            width: 10%;
+    
+            
+    
+        }
     }
 }

@@ -12,6 +12,10 @@ header {
 
     h1 {
         padding: 20px 0;
+
+        @media(max-width: $sm) {
+            font-size: 12pt;
+        }
     }
 }
 
@@ -35,6 +39,11 @@ nav {
             background: $nav-bg;
             padding: 10px;
             border-radius: 50%;
+
+            @media (max-width: $sm) {
+                //nav ul li
+                padding: 10px 2px;
+            } /**/
 
             a {
                 text-decoration: none;

@@ -1,0 +1,31 @@
+
+//breakpoints
+$xl: 1500px;
+$lg: 1499px;
+$md: 1100px;
+$sm: 1024px;
+//$xs: 880px;
+$xs: 720px;  //
+
+//Routes pages
+
+/* routers interface  
+
+margin 0 auto -  center alignment*/
+
+.walk {
+    @media (max-width: $sm) {
+        display: grid;
+        grid-template-columns: 44% 54%;
+        margin: 0 auto;
+        width: 50%;
+        width: 900px;
+    }
+    
+    @media (max-width: $xs) {
+        //grid-template-columns: minmax(30%, 35%) 1fr 1fr
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+    }
+}

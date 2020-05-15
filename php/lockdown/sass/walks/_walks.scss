@@ -6,9 +6,31 @@
     margin: 0 auto;
     /*width: 50%*/
     width: 900px;
+
+    @media (max-width: $sm) {
+        display: grid;
+        grid-template-columns: 44% 54%;
+        margin: 0 auto;
+        width: 50%;
+        width: 900px;
+    }
+
+    @media (max-width: $xs) {
+        //grid-template-columns: minmax(30%, 35%) 1fr 1fr
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+    }
 }
 
 .walk > div {
+
+    
+    //walk content blocks
+    /*background: gray;*/
+    /*border-radius: 5px;*/
+    /*margin-bottom: 10px;*/
+   
 
     h3 {
 
@@ -23,7 +45,12 @@
         /*width: 75%;*/
         max-width: 400px;
         display: block;
+        
+        @media (max-width: $md) {
+                width: 75%;
+        }
     }
+    
 
     a {
 

@@ -2,6 +2,22 @@
   padding: 0;
   margin: 0; }
 
+/* routers interface  
+
+margin 0 auto -  center alignment*/
+@media (max-width: 1024px) {
+  .walk {
+    display: grid;
+    grid-template-columns: 44% 54%;
+    margin: 0 auto;
+    width: 50%;
+    width: 900px; } }
+@media (max-width: 720px) {
+  .walk {
+    display: block;
+    margin: 0 auto;
+    padding: 10px; } }
+
 .lockdown .lockdown-intro .main-btn {
   font-weight: bold; }
 
@@ -11,6 +27,17 @@
   padding: 4px;
   position: relative;
   right: 5px; }
+  @media (max-width: 1024px) {
+    .walk > div a {
+      font-weight: bold;
+      background: lightyellow;
+      padding: 4px;
+      position: relative;
+      /* right: 5px; */
+      display: block;
+      width: 100%;
+      margin: 5px auto;
+      text-align: center; } }
 
 .dene h2, .railway h2, .coastal h2 {
   color: blue;
@@ -31,6 +58,9 @@ header {
   height: 75px; }
   header h1 {
     padding: 20px 0; }
+    @media (max-width: 1024px) {
+      header h1 {
+        font-size: 12pt; } }
 
 a.selected {
   font-weight: bold;
@@ -46,7 +76,11 @@ nav {
     /*background: beige;*/
     background: lightgreen;
     padding: 10px;
-    border-radius: 50%; }
+    border-radius: 50%;
+    /**/ }
+    @media (max-width: 1024px) {
+      nav ul li {
+        padding: 10px 2px; } }
     nav ul li a {
       text-decoration: none;
       color: black; }
@@ -60,21 +94,55 @@ nav {
   margin: 0 auto;
   /*width: 50%*/
   width: 900px; }
+  @media (max-width: 1024px) {
+    .walk {
+      display: grid;
+      grid-template-columns: 44% 54%;
+      margin: 0 auto;
+      width: 50%;
+      width: 900px; } }
+  @media (max-width: 720px) {
+    .walk {
+      display: block;
+      margin: 0 auto;
+      padding: 10px; } }
 
-.walk > div h3 {
-  font-size: 15pt; }
-.walk > div p {
-  line-height: 1.6; }
-.walk > div img {
-  /*width: 75%;*/
-  max-width: 400px;
-  display: block; }
+.walk > div {
+  /*background: gray;*/
+  /*border-radius: 5px;*/
+  /*margin-bottom: 10px;*/ }
+  .walk > div h3 {
+    font-size: 15pt; }
+  .walk > div p {
+    line-height: 1.6; }
+  .walk > div img {
+    /*width: 75%;*/
+    max-width: 400px;
+    display: block; }
+    @media (max-width: 1100px) {
+      .walk > div img {
+        width: 75%; } }
 
 .lockdown {
-  width: 100%;
-  border: solid 1px black;
   display: grid;
-  grid-template-columns: minmax(30%, 48%) 1fr 1fr; }
+  /*width: 100%;*/
+  border: solid 1px black;
+  padding: 15px;
+  grid-template-columns: minmax(30%, 50%) 1fr 1fr;
+  margin: 0 auto; }
+  @media (min-width: 1500px) {
+    .lockdown {
+      /*color: red;*/
+      width: 1450px; } }
+  @media (max-width: 1499px) {
+    .lockdown {
+      max-width: 1450px; } }
+  @media (max-width: 720px) {
+    .lockdown {
+      display: block;
+      margin: 0 auto;
+      padding: 10px;
+      width: 90%; } }
   .lockdown .lockdown-intro,
   .lockdown .lockdown-img,
   .lockdown .route-list {
@@ -101,19 +169,84 @@ nav {
           text-decoration: none; }
 
 .route-slider {
-  display: inlne-block;
+  display: inline-block;
   margin: 20px auto;
   text-align: center;
   width: 90%; }
   .route-slider img {
     /*consider original height of image - to be decided*/
-    width: 180px;
+    /*width: 180px;*/
+    width: 130px;
     display: inline-block; }
+    @media (max-width: 1100px) {
+      .route-slider img {
+        width: 13%; } }
+    @media (max-width: 1024px) {
+      .route-slider img {
+        width: 10%; } }
+
+.dene {
+  border: solid 1px black;
+  margin: 0 auto;
+  padding: 15px;
+  /*display: grid*/ }
+  @media (min-width: 1500px) {
+    .dene {
+      /*color: red;*/
+      width: 1450px; } }
+  @media (max-width: 1499px) {
+    .dene {
+      max-width: 1450px; } }
+  @media (max-width: 720px) {
+    .dene {
+      display: block;
+      margin: 0 auto;
+      padding: 10px;
+      width: 90%; } }
+  @media (max-width: 1024px) {
+    .dene {
+      width: 1000px;
+      max-width: 1000px;
+      margin: 0 auto;
+      /* text-align: center; */
+      border: solid 1px black;
+      padding: 10px; } }
+
+.railway {
+  border: solid 1px black;
+  margin: 0 auto;
+  padding: 15px;
+  /*display: grid*/ }
+  @media (min-width: 1024px) {
+    .railway {
+      width: 1000px;
+      max-width: 1000px;
+      margin: 0 auto;
+      /* text-align: center; */
+      border: solid 1px black;
+      padding: 10px; } }
+
+.coastal {
+  border: solid 1px black;
+  margin: 0 auto;
+  padding: 15px;
+  /*display: grid*/ }
+  @media (min-width: 1024px) {
+    .coastal {
+      width: 1000px;
+      max-width: 1000px;
+      margin: 0 auto;
+      /* text-align: center; */
+      border: solid 1px black;
+      padding: 10px; } }
 
 .routes {
   display: block;
   margin: 0 auto;
   width: 60%; }
+  @media (max-width: 720px) {
+    .routes {
+      width: 90%; } }
   .routes h2 {
     font-size: 15pt;
     color: blue; }

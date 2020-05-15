@@ -4,6 +4,7 @@
     </footer>
    
     <script src="scripts/jquery.js"></script>
+    <script src="assets/slick/slick.js"></script>
     <script src="assets/slick/slick.min.js"></script> 
     <script src="assets/lightbox/dist/js/lightbox.js"></script>
     <script src="scripts/main.js"></script>

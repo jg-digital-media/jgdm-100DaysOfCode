@@ -15,14 +15,21 @@
     <meta property="og:image" content="<?php echo $fb_image; ?>">
     <meta property="og:url" content="<?php echo $fb_url; ?>">
 
-    <!-- Styles -->
-    <link ref="stylesheet" type="text/css" href="slick.css" />   
+    <!-- Slick Styles -->
+    <link ref="stylesheet" type="text/css" href="assets/slick/slick.css" />  
+    <link ref="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />  
+    
+
     <!-- Lightbox-->
     <link href="assets/lightbox/dist/css/lightbox.css" rel="stylesheet" />
+
+    <!-- Main Styles -->
     <link rel="stylesheet" type="text/css" href="style.css" />
 
     <!-- Canonical link -->
     <link rel="canonical" href="<?php echo $canonical;  ?>">
+
+    <!-- Page Title -->
     <title><?php echo $website_title . " | " .  $pageTitle;  ?></title>
 </head>
 <body>

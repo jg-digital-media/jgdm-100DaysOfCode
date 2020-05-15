@@ -66,16 +66,29 @@
 
     <h3>Select</h3>
 
-    <div class="router-slider">
+    <div class="route-slider">
 
-        <img src="img/home.jpg" alt="" class="" />
-        <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
-        <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
-        <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
-        <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
-        <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
-        <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
-        <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
+        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-dene-five-yew-tree.jpg" alt="" /> </a> </div>
+        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-dene-hart-to-haswell-right.jpg" alt="" /> </a> </div>
+        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-dene-one.jpg" alt="" /> </a> </div>
+        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-dene-seven-hesleden-route.jpg" alt="" /> </a> </div>
+        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-dene-six-yew-tree-loop.jpg" alt="" /> </a> </div>
+        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-dene-three.jpg" alt="" /> </a> </div> 
+        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-dene-two.jpg" alt="" /> </a> </div> 
+        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-eleven-bleachery-dene.jpg" alt="" /> </a> </div> 
+        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-four-horden.jpg" alt="" /> </a> </div> 
+        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-fourteen.jpg" alt="" /> </a> </div> 
+        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-thirteen.jpg" alt="" /> </a> </div> 
+        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-ten-bleachery-dene-left.jpg" alt="" /> </a> </div> 
+        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-twelve-to-station-town.jpg" alt="" /> </a> </div> 
+
+        <!--
+            <div> <img src="img/home.jpg" alt="" class="" /> </div>
+            <div> <img src="img/home.jpg" alt="" class="" /> </div>
+            <div>Content 1</div>
+            <div>Content 2</div>
+            <div>Content 3</div> 
+        -->
 
     </div>
 

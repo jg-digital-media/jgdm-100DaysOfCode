@@ -1,10 +1,14 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 82 of 100. **Last Update:** 14 May 2020
+## **Status:** Day 83 of 100. **Last Update:** 15 May 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R4D83:  Friday 15 May 2020
++ **Notes** Wrote the CSS to make the website responsive, had added a slick slider and brought in some of the photos for the main content.  The Slick Carousel though is always tricky.
++ **Technologies used** - HTML5, CSS, PHP
 
 ### R4D82:  Thursday 14 May 2020
 + **Notes** Made a SASS Selector for each element on the new website project I'm building. I've utilised CSS Grid and created PHP and Sass partials for each section of the website.  It's coming together.

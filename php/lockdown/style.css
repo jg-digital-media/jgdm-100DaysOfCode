@@ -93,14 +93,15 @@ nav {
   grid-template-columns: 36% 55%;
   margin: 0 auto;
   /*width: 50%*/
-  width: 900px; }
+  /*width: 900px;*/
+  width: 90%; }
   @media (max-width: 1024px) {
     .walk {
       display: grid;
       grid-template-columns: 44% 54%;
       margin: 0 auto;
-      width: 50%;
-      width: 900px; } }
+      /*width: 50%;*/
+      width: 80 .walk; } }
   @media (max-width: 720px) {
     .walk {
       display: block;
@@ -117,11 +118,13 @@ nav {
     line-height: 1.6; }
   .walk > div img {
     /*width: 75%;*/
+    width: 100%;
     max-width: 400px;
     display: block; }
     @media (max-width: 1100px) {
       .walk > div img {
-        width: 75%; } }
+        /*width: 75%;*/
+        width: 100%; } }
 
 .lockdown {
   display: grid;
@@ -149,7 +152,7 @@ nav {
     border: solid yellow 1px; }
   .lockdown .lockdown-intro {
     line-height: 1.7;
-    font-size: 12px; }
+    /*font-size: 12px;*/ }
   .lockdown .lockdown-img {
     width: 100%;
     padding: 5px;
@@ -168,21 +171,26 @@ nav {
         .lockdown .route-list ul li a:hover {
           text-decoration: none; }
 
-.route-slider {
-  display: inline-block;
+.slider-container {
   margin: 20px auto;
   text-align: center;
   width: 90%; }
-  .route-slider img {
+  .slider-container h3 {
+    color: blue;
+    text-align: left;
+    font-size: 15pt; }
+  .slider-container div.route-slider {
+    display: block; }
+  .slider-container img {
     /*consider original height of image - to be decided*/
     /*width: 180px;*/
     width: 130px;
     display: inline-block; }
     @media (max-width: 1100px) {
-      .route-slider img {
+      .slider-container img {
         width: 13%; } }
     @media (max-width: 1024px) {
-      .route-slider img {
+      .slider-container img {
         width: 10%; } }
 
 .dene {
@@ -193,57 +201,81 @@ nav {
   @media (min-width: 1500px) {
     .dene {
       /*color: red;*/
-      width: 1450px; } }
+      width: 1024px; } }
   @media (max-width: 1499px) {
     .dene {
       max-width: 1450px; } }
+  @media (max-width: 1024px) {
+    .dene {
+      max-width: 1000px;
+      margin: 0 auto;
+      border: solid 1px black;
+      padding: 10px; } }
   @media (max-width: 720px) {
     .dene {
       display: block;
       margin: 0 auto;
       padding: 10px;
       width: 90%; } }
-  @media (max-width: 1024px) {
-    .dene {
-      width: 1000px;
-      max-width: 1000px;
-      margin: 0 auto;
-      /* text-align: center; */
-      border: solid 1px black;
-      padding: 10px; } }
 
 .railway {
   border: solid 1px black;
   margin: 0 auto;
   padding: 15px;
   /*display: grid*/ }
-  @media (min-width: 1024px) {
+  @media (min-width: 1500px) {
     .railway {
-      width: 1000px;
+      /*color: red;*/
+      width: 1024px; } }
+  @media (max-width: 1499px) {
+    .railway {
+      max-width: 1450px; } }
+  @media (max-width: 1024px) {
+    .railway {
       max-width: 1000px;
       margin: 0 auto;
-      /* text-align: center; */
       border: solid 1px black;
       padding: 10px; } }
+  @media (max-width: 720px) {
+    .railway {
+      display: block;
+      margin: 0 auto;
+      padding: 10px;
+      width: 90%; } }
 
 .coastal {
   border: solid 1px black;
   margin: 0 auto;
   padding: 15px;
   /*display: grid*/ }
-  @media (min-width: 1024px) {
+  @media (min-width: 1500px) {
     .coastal {
-      width: 1000px;
+      /*color: red;*/
+      width: 1024px; } }
+  @media (max-width: 1499px) {
+    .coastal {
+      max-width: 1450px; } }
+  @media (max-width: 1024px) {
+    .coastal {
       max-width: 1000px;
       margin: 0 auto;
-      /* text-align: center; */
       border: solid 1px black;
       padding: 10px; } }
+  @media (max-width: 720px) {
+    .coastal {
+      display: block;
+      margin: 0 auto;
+      padding: 10px;
+      width: 90%; } }
 
 .routes {
+  border: solid 1px black;
   display: block;
   margin: 0 auto;
   width: 60%; }
+  @media (min-width: 1500px) {
+    .routes {
+      width: 1450px; } }
   @media (max-width: 720px) {
     .routes {
       width: 90%; } }

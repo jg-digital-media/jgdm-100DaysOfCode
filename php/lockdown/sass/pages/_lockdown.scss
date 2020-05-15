@@ -32,7 +32,7 @@
 
     .lockdown-intro {
         line-height: 1.7;
-        font-size: 12px;
+        /*font-size: 12px;*/
 
         .main-btn {
             @extend %route-btn;
@@ -72,12 +72,21 @@
     }
 }
 
-.route-slider {
-
-    display: inline-block;
+.slider-container {
+    
     margin: 20px auto;
     text-align: center;
     width: 90%;
+
+    h3 {
+        color: blue;
+        text-align: left;
+        font-size: 15pt;
+    }
+
+    div.route-slider {
+        display: block;
+    }
 
     img {
         /*consider original height of image - to be decided*/
@@ -91,8 +100,6 @@
 
         @media (max-width: $sm) {
             width: 10%;
-    
-            
     
         }
     }

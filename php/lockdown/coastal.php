@@ -4,7 +4,6 @@
     $pageTitle = "County Durham Coastal Routes";
     $trailType = "Coastal";
 
-
     $meta_description = "description to go here";
     $meta_keywords = "keywords to go here";
     $meta_image = "";

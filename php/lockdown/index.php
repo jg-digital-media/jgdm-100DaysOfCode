@@ -62,15 +62,21 @@
 </section>
 
 
-<article class="route-slider">
+<article class="slider-container">
 
-    <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
-    <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
-    <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
-    <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
-    <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
-    <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
-    <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
+    <h3>Select</h3>
+
+    <div class="router-slider">
+
+        <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
+        <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
+        <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
+        <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
+        <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
+        <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
+        <a href="#" title="" class=""><img src="img/home.jpg" alt="" /></a>
+
+    </div>
 
 </article>   
 

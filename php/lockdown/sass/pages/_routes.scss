@@ -1,7 +1,13 @@
 .routes {
+    
+    border: solid 1px black;
     display: block;
     margin: 0 auto;
     width: 60%;
+
+    @media (min-width: $xl) {
+        width: 1450px;
+    }
 
     @media (max-width: $xs) {
         width: 90%;

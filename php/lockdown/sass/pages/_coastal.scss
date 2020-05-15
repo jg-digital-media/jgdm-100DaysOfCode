@@ -13,13 +13,27 @@
         @extend %trail-type-para;
     }
 
-    @media (min-width: $sm) {
+    @media (min-width: $xl) {
+        /*color: red;*/
+        width: 1024px;
+    }
 
-        width: 1000px;
+    @media (max-width: $lg) {
+        max-width: 1450px;
+    }    
+
+    @media (max-width: $sm) {
         max-width: 1000px;
         margin: 0 auto;
-        /* text-align: center; */
         border: solid 1px black;
         padding: 10px;
+    }
+
+    @media (max-width: $xs) {
+        //grid-template-columns: minmax(30%, 35%) 1fr 1fr
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+        width: 90%;
     }
 }

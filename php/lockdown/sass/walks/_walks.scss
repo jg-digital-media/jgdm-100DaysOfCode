@@ -5,14 +5,15 @@
     grid-template-columns: 36% 55%;
     margin: 0 auto;
     /*width: 50%*/
-    width: 900px;
+    /*width: 900px;*/
+    width: 90%;
 
     @media (max-width: $sm) {
         display: grid;
         grid-template-columns: 44% 54%;
         margin: 0 auto;
-        width: 50%;
-        width: 900px;
+        /*width: 50%;*/
+        width: 80&;
     }
 
     @media (max-width: $xs) {
@@ -43,11 +44,13 @@
 
     img {
         /*width: 75%;*/
+        width: 100%;
         max-width: 400px;
         display: block;
         
         @media (max-width: $md) {
-                width: 75%;
+                /*width: 75%;*/
+                width: 100%;
         }
     }
     

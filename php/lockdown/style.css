@@ -179,19 +179,37 @@ nav {
     color: blue;
     text-align: left;
     font-size: 15pt; }
-  .slider-container div.route-slider {
-    display: block; }
-  .slider-container img {
-    /*consider original height of image - to be decided*/
-    /*width: 180px;*/
-    width: 130px;
-    display: inline-block; }
-    @media (max-width: 1100px) {
-      .slider-container img {
-        width: 13%; } }
-    @media (max-width: 1024px) {
-      .slider-container img {
-        width: 10%; } }
+
+div.route-slider {
+  display: inline-block; }
+  div.route-slider div {
+    display: inline-block;
+    margin: 0 15px; }
+    div.route-slider div img {
+      /*consider original height of image - to be decided*/
+      /*width: 180px;*/
+      width: 130px;
+      display: inline-block; }
+      @media (max-width: 1100px) {
+        div.route-slider div img {
+          width: 13%; } }
+      @media (max-width: 1024px) {
+        div.route-slider div img {
+          width: 10%; } }
+
+/* Slider */
+.slick-slide, .slick-current, .slick-active {
+  /* width: 41%; */
+  display: block;
+  margin: 0 auto; }
+
+.slick-list.draggable {
+  /*width: 79%;*/
+  width: 100%; }
+
+.slick-slider {
+  display: inline-block;
+  vertical-align: top; }
 
 .dene {
   border: solid 1px black;

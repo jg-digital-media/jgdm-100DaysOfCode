@@ -17,8 +17,7 @@
 
     <!-- Slick Styles -->
     <link ref="stylesheet" type="text/css" href="assets/slick/slick.css" />  
-    <link ref="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />  
-    
+    <link ref="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />      
 
     <!-- Lightbox-->
     <link href="assets/lightbox/dist/css/lightbox.css" rel="stylesheet" />

@@ -70,4 +70,8 @@
         background: none;
     }
 
+    .follow-trail {
+        @extend %follow-the-trail;
+    }
+
 }

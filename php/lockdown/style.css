@@ -171,6 +171,11 @@ nav {
       .walk > div img {
         /*width: 75%;*/
         width: 100%; } }
+  .walk > div .lightbox-slider,
+  .walk > div .trail-image {
+    width: 200px; }
+  .walk > div .lightbox-link {
+    background: none; }
 
 .lockdown {
   display: grid;

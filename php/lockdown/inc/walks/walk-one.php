@@ -30,6 +30,16 @@
                     <p>Route Image</p>
 
                     <div><p>Route Image Div</p></div>
+
+                    <div class="lightboxslider">
+
+                    <img src="http://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-one/IMG_20200507_135445.jpg" data-lightbox="walk-one" data-title="This is a caption" class="trail-image" />
+                    <!--<img src="http://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-one/IMG_20200509_132614.jpg" data-lightbox="walk-one" data-title="This is a caption" class="trail-image" />
+                    <img src="http://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-one/IMG_20200509_132614.jpg" data-lightbox="walk-one" data-title="This is a caption" class="trail-image" />
+                    <img src="http://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-one/IMG_20200509_132614.jpg" data-lightbox="walk-one" data-title="This is a caption" class="trail-image" />
+                    <img src="http://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-one/IMG_20200509_132614.jpg" data-lightbox="walk-one" data-title="This is a caption" class="trail-image" /> -->
+
+                    </div>
                         
                 </div>
 

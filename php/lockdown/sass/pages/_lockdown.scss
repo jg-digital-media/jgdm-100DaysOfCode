@@ -89,6 +89,7 @@
     
 div.route-slider {
     display: inline-block;
+    /*width: 67%;*/
 
     div {
         display: inline-block;
@@ -97,7 +98,8 @@ div.route-slider {
         img {
             /*consider original height of image - to be decided*/
             /*width: 180px;*/
-            width: 130px;
+            /*width: 130px;*/
+            width: 78px; 
             display: inline-block;
     
             @media (max-width: $md) {

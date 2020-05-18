@@ -69,7 +69,7 @@
     <div class="route-slider">
 
         <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-dene-five-yew-tree.jpg" alt="" /> </a> </div>
-        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-dene-hart-to-haswell-right.jpg" alt="" /> </a> </div>
+        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-eight-hart-to-haswell-right.jpg" alt="" /> </a> </div>
         <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-dene-one.jpg" alt="" /> </a> </div>
         <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-dene-seven-hesleden-route.jpg" alt="" /> </a> </div>
         <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-dene-six-yew-tree-loop.jpg" alt="" /> </a> </div>

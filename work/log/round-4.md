@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 83 of 100. **Last Update:** 15 May 2020
+## **Status:** Day 84 of 100. **Last Update:** 18 May 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R4D84:  Monday 18 May 2020
++ **Notes**  
+  +  Added lightbox.js for tapping through walk trail images on my new website. Just a dozen more to add once I've finished testing file paths. I want to serve these on Amazon S3 but that's proving tricky with file permissions.
+  +  Also added more photos to my Photography website.  Updates online at https://photography.jonniegrieve.co.uk
++ **Technologies used** - HTML5, CSS, PHP
 
 ### R4D83:  Friday 15 May 2020
 + **Notes** Wrote the CSS to make the website responsive, had added a slick slider and brought in some of the photos for the main content.  The Slick Carousel though is always tricky.

@@ -30,6 +30,17 @@
                     <p>Route Image</p>
 
                     <div><p>Route Image Div</p></div>
+
+                    <div class="lightbox-slider">
+
+                        <a href="https://projects.jonniegrieve.co.uk/walks/inc/walk-dene-one/IMG_20200507_135545.jpg" data-lightbox="walk-two" data-title="This is a caption 1 route 2" class="lightbox-link"> 
+                        <div class="follow-trail">Follow the Trail</div> </a>
+
+                        <a href="https://projects.jonniegrieve.co.uk/walks/inc/walk-dene-one/IMG_20200507_135545.jpg" data-lightbox="walk-two" data-title="This is a caption 2 route 2" class="lightbox-link"></a>
+
+                        <a href="https://projects.jonniegrieve.co.uk/walks/inc/walk-dene-one/IMG_20200507_135545.jpg" data-lightbox="walk-two" data-title="This is a caption 3 route 2" class="lightbox-link"> </a>
+
+                    </div>
                         
                 </div>
 

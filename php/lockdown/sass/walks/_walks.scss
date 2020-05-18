@@ -62,13 +62,12 @@
     }
 
     .lightbox-slider,
-    .trail-image {
-        width: 200px;
-    }
-
+    .trail-image,
     .lightbox-link {
+        width: 200px;
         background: none;
     }
+
 
     .follow-trail {
         @extend %follow-the-trail;

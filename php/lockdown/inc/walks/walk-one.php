@@ -31,27 +31,46 @@
 
                     <div><p>Route Image Div</p></div>
 
-                    <div class="lightboxslider">
+                    <div class="lightbox-slider">
 
-                        <a href="img/walks/walk-dene-one/IMG_20200507_135445.jpg" href="img/walks/walk-dene-one/IMG_20200507_135535.jpg" href="img/walks/walk-dene-one/IMG_20200507_143151.jpg" data-lightbox="walk-one" data-title="This is a caption" class="lightbox-link"> 
-                            <!-- <img src="img/walks/walk-dene-one/IMG_20200507_135445.jpg" class="trail-image" /> -->
-                                <div class="follow-trail">Follow the Trail</div>
-                        
+                        <!-- TEST FILE PATHS -->
+                        <!-- <a href="img/walks/walk-dene-one/IMG_20200507_135445.jpg" href="img/walks/walk-dene-one/IMG_20200507_135535.jpg" href="img/walks/walk-dene-one/IMG_20200507_143151.jpg" data-lightbox="walk-one" data-title="This is a caption" class="lightbox-link"> 
+                                <div class="follow-trail">Follow the Trail</div>                        
                         </a>
 
                         <a href="img/walks/walk-dene-one/IMG_20200507_135535.jpg" data-lightbox="walk-one" data-title="This is a caption 2" class="lightbox-link"> 
-                            <!-- <img src="img/walks/walk-dene-one/IMG_20200507_135445.jpg" class="trail-image" /> --> 
                         </a>
 
                         <a href="img/walks/walk-dene-one/IMG_20200507_143151.jpg" data-lightbox="walk-one" data-title="This is a caption 3" class="lightbox-link"> 
-                            <!-- <img src="img/walks/walk-dene-one/IMG_20200507_135445.jpg" class="trail-image" /> --> 
+                        </a> -->
+
+                        <!-- LOCAL FILE PATHS -->                            
+                        
+                        <!-- <a href="img/walks/walk-dene-one/IMG_20200507_135445.jpg" data-lightbox="walk-one" data-title="This is a caption" class="lightbox-link">
+                            <div class="follow-trail">Follow the Trail</div>
                         </a>
 
-                        <!--<a href="" data-lightbox="walk-one" data-title="This is a caption 2"> <img src="http://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-one/IMG_20200507_135445.jpg" data-lightbox="walk-one" data-title="This is a caption" class="trail-image" /></a>
-                        <a href=""><img src="http://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-one/IMG_20200509_132614.jpg" data-lightbox="walk-one" data-title="This is a caption" class="trail-image" />
-                        <a href=""><img src="http://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-one/IMG_20200509_132614.jpg" data-lightbox="walk-one" data-title="This is a caption" class="trail-image" />
-                        <a href=""><img src="http://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-one/IMG_20200509_132614.jpg" data-lightbox="walk-one" data-title="This is a caption" class="trail-image" />
-                        <a href=""><img src="http://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-one/IMG_20200509_132614.jpg" data-lightbox="walk-one" data-title="This is a caption" class="trail-image" /> -->
+                        <a href="img/walks/walk-dene-one/IMG_20200507_135445.jpg" data-lightbox="walk-one" data-title="This is a caption 2" class="lightbox-link"> </a>
+
+                        <a href="img/walks/walk-dene-one/IMG_20200507_135445.jpg" data-lightbox="walk-one" data-title="This is a caption 3" class="lightbox-link"> </a>
+
+                        <a href="img/walks/walk-dene-one/IMG_20200507_135445.jpg" data-lightbox="walk-one" data-title="This is a caption 4" class="lightbox-link"> </a>
+
+                        <a href="img/walks/walk-dene-one/IMG_20200507_135445.jpg" data-lightbox="walk-one" data-title="This is a caption 5" class="lightbox-link"> </a> -->
+                       
+                    
+                    
+                        <!-- walks project website URLS -->
+
+                        
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-one/IMG_20200507_135445.jpg" data-lightbox="walk-two" data-title="This is a caption 1 route 2" class="lightbox-link"> 
+                        <div class="follow-trail">Follow the Trail</div> </a>
+
+                        <a href="https://projects.jonniegrieve.co.uk/walks/inc/walk-dene-one/IMG_20200507_135545.jpg" data-lightbox="walk-two" data-title="This is a caption 2 route 2" class="lightbox-link"></a>
+
+                        <a href="https://projects.jonniegrieve.co.uk/walks/inc/walk-dene-one/IMG_20200507_135545.jpg" data-lightbox="walk-two" data-title="This is a caption 3 route 2" class="lightbox-link"> </a> 
+                        
+                        
 
                     </div>
                         

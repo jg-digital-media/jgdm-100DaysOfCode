@@ -14,8 +14,15 @@
  Community Post: https://teamtreehouse.com/community/lets-get-this-expressjs-flashcard-app-deployed-to-heroku -->
 
 
-### Day 83
+### Day 85
 
+
+```
+TypeError
+
+main.js:119 Uncaught TypeError: Cannot set property 'onclick' of null
+    at main.js:119
+```
 
 ### Day 79
 

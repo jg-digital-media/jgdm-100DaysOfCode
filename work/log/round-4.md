@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 84 of 100. **Last Update:** 18 May 2020
+## **Status:** Day 85 of 100. **Last Update:** 19 May 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R4D85:  Tuesday 19 May 2020
++ **Notes**  
+  +  Attempted to write a function to handle all the modal and lightbox interactivity for the website. Seems to be all sorts of glitches happening whether the programing be verbose or procedural. Might have to wait till tomorrow to flush the bugs out. 
+
++ **Technologies used** - HTML5, CSS, JavaScript
 
 ### R4D84:  Monday 18 May 2020
 + **Notes**  

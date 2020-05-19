@@ -14,7 +14,7 @@
         <img src = "img/walks/home.jpg" alt = title title="" />
 
         <!-- opens modal -->
-        <a href="#" class="walk-btn" title="" target="new">Open Route</a>
+        <a href="#" class="walk-btn modal_btn" id="modal_btn_fourteen" title="" target="new">Open Route</a>
         
         <div id="modal-area-fourteen" class="modal">
 
@@ -24,7 +24,7 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Modal Route fourteen</h3>
+                    <h3>Modal Route fourteen (INCOMPLETE) </h3>
 
                     <p>Route Image</p>
 

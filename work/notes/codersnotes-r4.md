@@ -14,6 +14,18 @@
  Community Post: https://teamtreehouse.com/community/lets-get-this-expressjs-flashcard-app-deployed-to-heroku -->
 
 
+### Day 86
+
+Tasks 
+
+Slick Carousel re-engaged. Now to work out how to make the styles then start adding the content.
+
+-> Test Lightbox Walk Trail Galleries
+-> Slick Carousel Route slider
+-> Pages for individual walk  - link these pages to modal pages. 
+-> Start filling in the content.
+-> Final styling.
+
 ### Day 85
 
 

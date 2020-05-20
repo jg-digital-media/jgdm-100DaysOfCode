@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 85 of 100. **Last Update:** 19 May 2020
+## **Status:** Day 86 of 100. **Last Update:** 20 May 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R4D86:  Wednesday 20 May 2020
++ **Notes**  
+  +  Flushed out the bugs I encountered yesterday with a conditional statement that loads a different JavaScript file depending on the page loaded. Focus now turns back to making sure the slick Carousel is appropriately styled.
+
++ **Technologies used** - HTML5, CSS, JavaScript
 
 ### R4D85:  Tuesday 19 May 2020
 + **Notes**  

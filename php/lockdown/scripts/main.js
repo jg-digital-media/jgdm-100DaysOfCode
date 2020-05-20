@@ -1,5 +1,5 @@
 //connection check
-console.log("connected");
+console.log("connected: main script");
 
 
 //Slick Carousel - Homepage Slider
@@ -14,4 +14,3 @@ $(document).ready(function(){
     });
 
 });
-

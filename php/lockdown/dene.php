@@ -25,17 +25,17 @@
         
         <h2>Dene Routes</h2>
         
-        <p><?php require("inc/walks/walk-one.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walks/dene/walk-one.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/walk-two.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walks/dene/walk-two.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/walk-three.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walks/dene/walk-three.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/walk-four.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walks/dene/walk-four.php"); ?> </p> <!-- -->
         
-        <p><?php require("inc/walks/walk-five.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walks/dene/walk-five.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/walk-six.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walks/dene/walk-six.php"); ?> </p> <!-- -->
 
     </section>
 

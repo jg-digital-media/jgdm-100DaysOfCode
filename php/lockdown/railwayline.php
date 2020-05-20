@@ -2,7 +2,7 @@
 
     $website_title = "Lockdown Page";
     $pageTitle = "Railway Line Routes";
-    $trailType = "railway line";
+    $trailType = "railway-routes";
 
     $meta_description = "description to go here";
     $meta_keywords = "keywords to go here";
@@ -25,23 +25,21 @@
         
         <h2>Railway Routes</h2>
         
-        <p><?php require("inc/walks/walk-six.php"); ?> </p> <!-- -->
-        
-        <p><?php require("inc/walks/walk-seven.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walks/railway/walk-seven.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/walk-eight.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walks/railway/walk-eight.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/walk-nine.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walks/railway/walk-nine.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/walk-ten.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walks/railway/walk-ten.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/walk-eleven.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walks/railway/walk-eleven.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/walk-twelve.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walks/railway/walk-twelve.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/walk-thirteen.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walks/railway/walk-thirteen.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/walk-fourteen.php"); ?> </p> <!-- -->  
+        <p><?php require("inc/walks/railway/walk-fourteen.php"); ?> </p> <!-- -->  
 
     </section>
 

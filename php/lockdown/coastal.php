@@ -2,7 +2,7 @@
 
     $website_title = "Lockdown Page";
     $pageTitle = "County Durham Coastal Routes";
-    $trailType = "Coastal";
+    $trailType = "coastal";
 
     $meta_description = "description to go here";
     $meta_keywords = "keywords to go here";
@@ -25,11 +25,17 @@
             
         <h2>Coastal Routes</h2>
 
-        <p><?php require("inc/walks/walk-twelve.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walks/coastal/walk-fifteen.php"); ?> </p> 
 
-        <p><?php require("inc/walks/walk-thirteen.php"); ?> </p> <!-- -->
+        <p><?php /*require("inc/walks/coastal/walk-sixteen.php");*/ ?> </p> 
 
-        <p><?php require("inc/walks/walk-fourteen.php"); ?> </p> <!-- -->  
+        <p><?php /*require("inc/walks/coastal/walk-seventeen.php");*/ ?> </p> 
+
+        <p><?php /*require("inc/walks/coastal/walk-eighteen.php");*/ ?> </p>
+         
+        <p><?php /*require("inc/walks/coastal/walk-nineteen.php");*/ ?> </p> 
+        
+        <p><?php /*require("inc/walks/coastal/walk-twenty.php");*/ ?> </p> 
 
     </section>
 

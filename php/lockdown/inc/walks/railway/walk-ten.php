@@ -14,7 +14,7 @@
         <img src = "img/walks/home.jpg" alt = title title="" />
 
         <!-- opens modal -->
-        <a href="#" class="walk-btn modal_btn" id="modal_btn_ten" title="" target="new">Open Route</a>
+        <a href="#" class="walk-btn modal_btn" id="modal_btn_ten" title="Open Route">Open Route</a>
         
         <div id="modal-area-ten" class="modal">
 
@@ -72,7 +72,7 @@
 
             </div>
 
-        </div>ten
+        </div>
     </div>
 
 </article> 

@@ -233,44 +233,44 @@ nav {
 .slider-container {
   margin: 20px auto;
   text-align: center;
-  width: 90%; }
-  .slider-container h3 {
+  /*background: black;*/
+  border: solid red 1px;
+  width: 95%;
+  /*SLICK STYLING*/
+  /* Slider */ }
+  .slider-container .slick-slider h3 {
     color: blue;
-    text-align: left;
+    /*text-align: left;*/
+    text-align: center;
     font-size: 15pt; }
-
-div.route-slider {
-  display: inline-block;
-  /*width: 67%;*/ }
-  div.route-slider div {
+  .slider-container .slick-slider div.route-slider {
     display: inline-block;
-    margin: 0 15px; }
-    div.route-slider div img {
-      /*consider original height of image - to be decided*/
-      /*width: 180px;*/
-      /*width: 130px;*/
-      width: 78px;
-      display: inline-block; }
-      @media (max-width: 1100px) {
-        div.route-slider div img {
-          width: 13%; } }
-      @media (max-width: 1024px) {
-        div.route-slider div img {
-          width: 10%; } }
-
-/* Slider */
-.slick-slide, .slick-current, .slick-active {
-  /* width: 41%; */
-  display: block;
-  margin: 0 auto; }
-
-.slick-list.draggable {
-  /*width: 79%;*/
-  width: 100%; }
-
-.slick-slider {
-  display: inline-block;
-  vertical-align: top; }
+    /*width: 67%;*/ }
+    .slider-container .slick-slider div.route-slider div {
+      display: inline-block;
+      margin: 0 15px; }
+      .slider-container .slick-slider div.route-slider div img {
+        /*consider original height of image - to be decided*/
+        /*width: 180px;*/
+        /*width: 130px;*/
+        width: 78px;
+        display: inline-block; }
+        @media (max-width: 1100px) {
+          .slider-container .slick-slider div.route-slider div img {
+            width: 13%; } }
+        @media (max-width: 1024px) {
+          .slider-container .slick-slider div.route-slider div img {
+            width: 10%; } }
+  .slider-container .slick-slide, .slider-container .slick-current, .slider-container .slick-active {
+    /* width: 41%; */
+    display: block;
+    margin: 0 auto; }
+  .slider-container .slick-list.draggable {
+    /*width: 79%;*/
+    width: 100%; }
+  .slider-container .slick-slider {
+    display: inline-block;
+    vertical-align: top; }
 
 .dene {
   border: solid 1px black;

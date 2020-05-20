@@ -5,10 +5,10 @@ console.log("connected: main script");
 //Slick Carousel - Homepage Slider
 $(document).ready(function(){
 
-    $('.rout-slider').slick({
+    $('.route-slider').slick({
         infinite: true,
         slidesToShow: 8,
-        slidesToScroll: 3,
+        slidesToScroll: 5,
         dots: true,
         draggable: false
     });

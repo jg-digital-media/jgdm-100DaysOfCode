@@ -88,14 +88,6 @@
         <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-ten-bleachery-dene-left.jpg" alt="" /> </a> </div> 
         <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-twelve-to-station-town.jpg" alt="" /> </a> </div> 
 
-        <!--
-            <div> <img src="img/home.jpg" alt="" class="" /> </div>
-            <div> <img src="img/home.jpg" alt="" class="" /> </div>
-            <div>Content 1</div>
-            <div>Content 2</div>
-            <div>Content 3</div> 
-        -->
-
     </div>
 
 </article>   

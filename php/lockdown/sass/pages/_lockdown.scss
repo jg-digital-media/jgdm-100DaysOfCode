@@ -76,57 +76,12 @@
     
     margin: 20px auto;
     text-align: center;
-    width: 90%;
+    /*background: black;*/
+    border: solid red 1px;
+    width: 95%;
 
-    h3 {
-        color: blue;
-        text-align: left;
-        font-size: 15pt;
-    }
-
-}
-    
-    
-div.route-slider {
-    display: inline-block;
-    /*width: 67%;*/
-
-    div {
-        display: inline-block;
-        margin: 0 15px;
-
-        img {
-            /*consider original height of image - to be decided*/
-            /*width: 180px;*/
-            /*width: 130px;*/
-            width: 78px; 
-            display: inline-block;
-    
-            @media (max-width: $md) {
-                width: 13%;
-            }
-    
-            @media (max-width: $sm) {
-                width: 10%;        
-            }
-        }
-    }
-}
-
-
-/* Slider */
-.slick-slide, .slick-current, .slick-active {
-    /* width: 41%; */
-    display: block;
-    margin: 0 auto; 
-}
-  
-.slick-list.draggable {
-    /*width: 79%;*/
-    width: 100%; 
-}
-  
-.slick-slider {
-    display: inline-block;
-    vertical-align: top; 
+      
+    //slick carousel/slider    
+    @import "../utilities/slick";
+   
 }

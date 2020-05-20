@@ -6,6 +6,7 @@
 @import "utilities/breakpoints";
 @import "utilities/mixins";
 @import "utilities/modal";
+//@import "utilities/slick";
 @import "utilities/buttons";
 @import "utilities/extends";
 
@@ -16,7 +17,7 @@
 @import "walks/walks";
 
 //pages
-@import "pages/lockdown";
+@import "pages/lockdown"; //emcompassing slick.scss partial
 @import "pages/dene";
 @import "pages/railway";
 @import "pages/coastal";

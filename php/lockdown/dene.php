@@ -2,7 +2,7 @@
 
     $website_title = "Castle Eden Dene";
     $pageTitle = "Castle Eden Dene";
-    $trailType = "Dene";
+    $trailType = "dene";
 
     $meta_description = "description to go here";
     $meta_keywords = "keywords to go here";
@@ -34,6 +34,8 @@
         <p><?php require("inc/walks/walk-four.php"); ?> </p> <!-- -->
         
         <p><?php require("inc/walks/walk-five.php"); ?> </p> <!-- -->
+
+        <p><?php require("inc/walks/walk-six.php"); ?> </p> <!-- -->
 
     </section>
 

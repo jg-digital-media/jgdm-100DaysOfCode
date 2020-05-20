@@ -1,3 +1,5 @@
+console.log("railway route file!");
+
 // Select the Modals
 var modalSeven = document.getElementById('modal-area-seven');
 var modalEight = document.getElementById('modal-area-eight');

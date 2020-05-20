@@ -1,3 +1,4 @@
+console.log("dene route file!");
 
 // Select the Modals
 var modalOne = document.getElementById('modal-area-one');

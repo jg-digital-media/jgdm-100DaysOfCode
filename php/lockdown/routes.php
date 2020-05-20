@@ -2,6 +2,7 @@
 
     $website_title = "Lockdown Page";
     $pageTitle = "Route List";
+    $trailType= null;
 
 
     $meta_description = "description to go here";

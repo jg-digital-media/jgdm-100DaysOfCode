@@ -11,7 +11,7 @@
     }    
 
     div.route-slider {
-        display: inline-block;
+        /*display: inline-block;*/
         /*width: 67%;*/
 
         div {
@@ -42,6 +42,10 @@
     /* width: 41%; */
     display: block;
     margin: 0 auto; 
+}
+
+.slick-slide.slick-cloned {
+    display: inline-block;
 }
   
 .slick-list.draggable {

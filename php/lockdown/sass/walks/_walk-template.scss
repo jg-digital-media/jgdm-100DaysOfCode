@@ -1,0 +1,34 @@
+
+/*walk-template.scss*/
+.walk-template {
+
+        
+    border: solid 1px black;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+
+    @media (min-width: $xl) {
+        width: 1450px;
+    }
+
+    @media (max-width: $xs) {
+        width: 40%;
+    }
+
+    h2 {
+        font-size: 15pt;
+        color: blue;
+    }
+
+    img.walk-template-img {
+        width: 90%;
+        width: 67%;
+
+        @media (max-width: $xs) {
+            width: 50%;
+
+        }
+    }
+
+}

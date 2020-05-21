@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 86 of 100. **Last Update:** 20 May 2020
+## **Status:** Day 87 of 100. **Last Update:** 21 May 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R4D87:  Thursday 21 May 2020
++ **Notes**  
+  +  Added a new round of Templates to the work I'm doing.  This involved adding some new conditionals to the template to make sure the header and footer templates would work for them.  It's done now.  Focus tomorrow will be adding the unique content.
+
++ **Technologies used** - HTML5, CSS, JavaScript
 
 ### R4D86:  Wednesday 20 May 2020
 + **Notes**  

@@ -154,7 +154,7 @@ closeThirteen.onclick = function() {
 }
 
 window.onclick = function(event) {
-    if (event.target == Thirteen) {
+    if (event.target == modalThirteen) {
         modalThirteen.style.display = "none";
     }
 }
@@ -166,7 +166,7 @@ closeFourteen.onclick = function() {
 }
 
 window.onclick = function(event) {
-    if (event.target == Fourteen) {
+    if (event.target == modalFourteen) {
         modalFourteen.style.display = "none";
     }
 }

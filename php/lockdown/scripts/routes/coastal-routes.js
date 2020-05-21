@@ -65,7 +65,7 @@ btnFifteen.onclick = function() {
 
 //Close Modals
 closeFifteen.onclick = function() {
-    modalSeven.style.display = "none";
+    modalFifteen.style.display = "none";
     console.log("modal closed!");
 }
 

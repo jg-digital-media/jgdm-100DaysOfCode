@@ -74,19 +74,19 @@
 
     <div class="route-slider">
 
-        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-dene-five-yew-tree.jpg" alt="" /> </a> </div>
-        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-eight-hart-to-haswell-right.jpg" alt="" /> </a> </div>
-        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-dene-one.jpg" alt="" /> </a> </div>
-        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-dene-seven-hesleden-route.jpg" alt="" /> </a> </div>
-        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-dene-six-yew-tree-loop.jpg" alt="" /> </a> </div>
-        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-dene-three.jpg" alt="" /> </a> </div> 
-        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-dene-two.jpg" alt="" /> </a> </div> 
-        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-eleven-bleachery-dene.jpg" alt="" /> </a> </div> 
-        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-four-horden.jpg" alt="" /> </a> </div> 
-        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-fourteen.jpg" alt="" /> </a> </div> 
-        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-thirteen.jpg" alt="" /> </a> </div> 
-        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-ten-bleachery-dene-left.jpg" alt="" /> </a> </div> 
-        <div> <a href="#" title="" class=""> <img src="img/walk_homepage/walk-twelve-to-station-town.jpg" alt="" /> </a> </div> 
+        <div> <a href="#" title="" class="route-slider-link"> <img src="img/walk_homepage/walk-dene-five-yew-tree.jpg" alt="" class="route-slider-image" /> </a> </div>
+        <div> <a href="#" title="" class="route-slider-link"> <img src="img/walk_homepage/walk-eight-hart-to-haswell-right.jpg" alt="" class="route-slider-image" /> </a> </div>
+        <div> <a href="#" title="" class="route-slider-link"> <img src="img/walk_homepage/walk-dene-one.jpg" alt="" class="route-slider-image" /> </a> </div>
+        <div> <a href="#" title="" class="route-slider-link"> <img src="img/walk_homepage/walk-dene-seven-hesleden-route.jpg" alt="" class="route-slider-image" /> </a> </div>
+        <div> <a href="#" title="" class="route-slider-link"> <img src="img/walk_homepage/walk-dene-six-yew-tree-loop.jpg" alt="" class="route-slider-image" /> </a> </div>
+        <div> <a href="#" title="" class="route-slider-link"> <img src="img/walk_homepage/walk-dene-three.jpg" alt="" class="route-slider-image" /> </a> </div> 
+        <div> <a href="#" title="" class="route-slider-link"> <img src="img/walk_homepage/walk-dene-two.jpg" alt="" class="route-slider-image" /> </a> </div> 
+        <div> <a href="#" title="" class="route-slider-link"> <img src="img/walk_homepage/walk-eleven-bleachery-dene.jpg" alt="" class="route-slider-image" /> </a> </div> 
+        <div> <a href="#" title="" class="route-slider-link"> <img src="img/walk_homepage/walk-four-horden.jpg" alt="" class="route-slider-image" /> </a> </div> 
+        <div> <a href="#" title="" class="route-slider-link"> <img src="img/walk_homepage/walk-fourteen.jpg" alt="" class="route-slider-image" /> </a> </div> 
+        <div> <a href="#" title="" class="route-slider-link"> <img src="img/walk_homepage/walk-thirteen.jpg" alt="" class="route-slider-image" /> </a> </div> 
+        <div> <a href="#" title="" class="route-slider-link"> <img src="img/walk_homepage/walk-ten-bleachery-dene-left.jpg" alt="" class="route-slider-image" /> </a> </div> 
+        <div> <a href="#" title="" class="route-slider-link"> <img src="img/walk_homepage/walk-twelve-to-station-town.jpg" alt="" class="route-slider-image" /> </a> </div> 
 
     </div>
 

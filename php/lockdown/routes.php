@@ -28,7 +28,7 @@
 
         <ul class="route-list">
 
-            <li><a href="#" title=""><strong>Route 1</strong - Route Description></a></li>
+            <li><a href="inc/walk-templates/walk-one.php" title=""><strong>Route 1</strong - Route Description></a></li>
 
             <li><a href="#" title=""><strong>Route 2</strong - Route Description></a></li>
 

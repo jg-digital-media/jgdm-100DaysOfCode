@@ -74,7 +74,7 @@
 
     <div class="route-slider">
 
-        <div> <a href="#" title="" class="route-slider-link"> <img src="img/walk_homepage/walk-dene-five-yew-tree.jpg" alt="" class="route-slider-image" /> </a> </div>
+        <div> <a href="inc/walk-templates/walk-one.php" title="" class="route-slider-link"> <img src="img/walk_homepage/walk-dene-five-yew-tree.jpg" alt="" class="route-slider-image" /> </a> </div>
         <div> <a href="#" title="" class="route-slider-link"> <img src="img/walk_homepage/walk-eight-hart-to-haswell-right.jpg" alt="" class="route-slider-image" /> </a> </div>
         <div> <a href="#" title="" class="route-slider-link"> <img src="img/walk_homepage/walk-dene-one.jpg" alt="" class="route-slider-image" /> </a> </div>
         <div> <a href="#" title="" class="route-slider-link"> <img src="img/walk_homepage/walk-dene-seven-hesleden-route.jpg" alt="" class="route-slider-image" /> </a> </div>

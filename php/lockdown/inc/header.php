@@ -15,15 +15,35 @@
     <meta property="og:image" content="<?php echo $fb_image; ?>">
     <meta property="og:url" content="<?php echo $fb_url; ?>">
 
-    <!-- Slick Styles -->
-    <link ref="stylesheet" type="text/css" href="assets/slick/slick.css" />  
-    <link ref="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />      
+    <?php
+    
+    if ($trailType !== "trail-template") : ?>
+    
+        <!-- Slick Styles -->
+        <link ref="stylesheet" type="text/css" href="assets/slick/slick.css" />  
+        <link ref="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />      
 
-    <!-- Lightbox-->
-    <link href="assets/lightbox/dist/css/lightbox.css" rel="stylesheet" />
+        <!-- Lightbox-->
+        <link href="assets/lightbox/dist/css/lightbox.css" rel="stylesheet" />
 
-    <!-- Main Styles -->
-    <link rel="stylesheet" type="text/css" href="style.css" />
+        <!-- Main Styles -->
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <?php else: ?>
+        
+    
+        <!-- Slick Styles -->
+        <link ref="stylesheet" type="text/css" href="../../assets/slick/slick.css" />  
+        <link ref="stylesheet" type="text/css" href="../../assets/slick/slick-theme.css" />      
+.
+        <!-- Lightbox-->
+        <link href="../../assets/lightbox/dist/css/lightbox.css" rel="stylesheet" />
+
+        <!-- Main Styles -->
+        <link rel="stylesheet" type="text/css" href="../../style.css" />
+
+
+    <?php endif; ?>
 
     <!-- Canonical link -->
     <link rel="canonical" href="<?php echo $canonical;  ?>">
@@ -39,11 +59,26 @@
 
     <nav>
         <ul>
+
+            <?php if($trailType === "trail-template") : ?>
+
+            <li><a href="../../index.php" title="Home" <?php if($selected == "home") { echo 'class="selected"'; } ?>>Lockdown</a></li>
+            <li><a href="../../dene.php" title="Castle Eden Dene" <?php if($selected == "dene") { echo 'class="selected"'; }?>>Castle Eden Dene</a></li>
+            <li><a href="../../railwayline.php" title="Railway Line" <?php if($selected == "railwayline") { echo 'class="selected"'; } ?>>Railway Line</a></li>
+            <li><a href="../../coastal.php" title="Coastal" <?php if($selected == "coastal") { echo 'class="selected"'; }?>>Coastal</a></li>
+            <li><a href="../../routes.php" title="Routes" <?php if($selected == "routes") { echo 'class="selected"'; }?>>Routes</a></li>
+
+            <?php else: ?>
+
             <li><a href="index.php" title="Home" <?php if($selected == "home") { echo 'class="selected"'; } ?>>Lockdown</a></li>
             <li><a href="dene.php" title="Castle Eden Dene" <?php if($selected == "dene") { echo 'class="selected"'; }?>>Castle Eden Dene</a></li>
             <li><a href="railwayline.php" title="Railway Line" <?php if($selected == "railwayline") { echo 'class="selected"'; } ?>>Railway Line</a></li>
             <li><a href="coastal.php" title="Coastal" <?php if($selected == "coastal") { echo 'class="selected"'; }?>>Coastal</a></li>
             <li><a href="routes.php" title="Routes" <?php if($selected == "routes") { echo 'class="selected"'; }?>>Routes</a></li>
+                
+                
+            <?php endif; ?>
+
         </ul>
 
     </nav>

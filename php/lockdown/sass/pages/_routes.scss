@@ -4,6 +4,7 @@
     display: block;
     margin: 0 auto;
     width: 60%;
+    padding: 15px;
 
     @media (min-width: $xl) {
         width: 1450px;
@@ -14,8 +15,7 @@
     }
 
     h2 {
-        font-size: 15pt;
-        color: blue;
+        @extend %trail-type-headings;
     }
 
     .route-list {

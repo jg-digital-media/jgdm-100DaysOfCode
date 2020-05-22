@@ -97,7 +97,7 @@ margin 0 auto -  center alignment*/
   .walk > div .follow-trail a {
     text-decoration: none; }
 
-.dene h2, .railway h2, .coastal h2 {
+.dene h2, .railway h2, .coastal h2, .routes h2 {
   color: blue;
   font-size: 15pt;
   padding-left: 5px; }
@@ -407,16 +407,14 @@ nav {
   border: solid 1px black;
   display: block;
   margin: 0 auto;
-  width: 60%; }
+  width: 60%;
+  padding: 15px; }
   @media (min-width: 1500px) {
     .routes {
       width: 1450px; } }
   @media (max-width: 720px) {
     .routes {
       width: 90%; } }
-  .routes h2 {
-    font-size: 15pt;
-    color: blue; }
   .routes .route-list {
     list-style: none;
     position: relative;

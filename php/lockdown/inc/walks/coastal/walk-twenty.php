@@ -6,12 +6,12 @@
 
         <h3>Subtitle 20</h3>
 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam veniam consequuntur, nisi ipsa repellat harum molestias, deserunt error magnam commodi dolor velit deleniti est eaque. Accusamus quidem aspernatur corporis?</p>
+        <p>Lorem</p>
 
     </div>
 
     <div>
-        <img src = "img/walks/home.jpg" alt = "" title="" />
+        <img src = "img/walk_homepage/#" alt = "Subtitle 20" title="Subtitle 20" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_twenty" title="Open Route">Open Route</a>
@@ -25,10 +25,17 @@
                     <span class="close">&times;</span>
 
                     <h3>Modal Route twenty (INCOMPLETE) </h3>
-
-                    <p>Route Image</p>
-
-                    <div><p>Route Image Div</p></div>
+                    
+                    <ol>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                    </ol>
 
                     <div class="lightbox-slider">
 

@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Subtitle 3</h3>
+        <h3>Red Squirrel Trail #3</h3>
 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam veniam consequuntur, nisi ipsa repellat harum molestias, deserunt error magnam commodi dolor velit deleniti est eaque. Accusamus quidem aspernatur corporis?</p>
+        <p>This trail also rakes the Red Bridge route and then diverges up a steep incline toward the main visitor center of the Dene. You'll then find yourselfo n the outskirs of a residential estate but the path to the end is easy to follow.</p>
 
     </div>
 
     <div>
-        <img src = "img/walks/home.jpg" alt = "" title="" />
+        <img src = "img/walk_homepage/walk-dene-three.jpg" alt = "Red Squirrel Trail #3" title="Red Squirrel Trail #3" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_three" title="Open Route">Open Route</a>
@@ -24,11 +24,17 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Modal Route 3</h3>
+                    <h3>Red Squirrel Trail #3</h3>
 
-                    <p>Route Image</p>
-
-                    <div><p>Route Image Div</p></div>
+                    <ol>
+                        <li>follow the path down to the gate. The Castle will be on your right. Continue on the trail straight.</li>
+                        <li>Keep going  on this path until you reach the red bridge.</li>
+                        <li>Cross the red bridge and take the very next left.</li>
+                        <li>Take the left turning and then the next right which takes a steep incline.</li>
+                        <li>Keep going up until you reach a residential estate.</li>
+                        <li>At the estate turn right keeping the estate to your left.</li>
+                        <li>Continue to the end of the trail.</li> 
+                    </ol>
 
                     <div class="lightbox-slider">
 

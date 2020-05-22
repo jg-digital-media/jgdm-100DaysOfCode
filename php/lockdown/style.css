@@ -40,10 +40,14 @@ margin 0 auto -  center alignment*/
   /* Black w/ opacity */
   /* Modal Content/Box */
   /* The Close Button */ }
-  .modal p, .modal h1 {
+  .modal p, .modal h1, .modal h3 {
     color: white;
     line-height: 2.5;
     margin-bottom: 20px; }
+  .modal ul, .modal ol {
+    color: white;
+    margin-left: 5px;
+    padding-left: 5px; }
   .modal .modal-content {
     background-color: #16a054df;
     border-radius: 8px;

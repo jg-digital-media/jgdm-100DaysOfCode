@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Subtitle 4</h3>
+        <h3>Horden Trail: Route 4</h3>
 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam veniam consequuntur, nisi ipsa repellat harum molestias, deserunt error magnam commodi dolor velit deleniti est eaque. Accusamus quidem aspernatur corporis?</p>
+        <p> This will take you to a different part of the Dene.  It's a straight path that followed in whole will take you to the entrance of the Dene opposite the main road between Horden and Blackhall. Across the road is the short hall to Denemouth, the beach and Costal wildlife reserve.</p>
 
     </div>
 
     <div>
-        <img src = "img/walks/home.jpg" alt = "" title="" />
+        <img src = "img/walk_homepage/walk-dene-four-horden.jpg" alt = "Horden Trail: Route 4" title="Horden Trail: Route 4" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_four" title="Open Route">Open Route</a>
@@ -24,11 +24,18 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Modal Route 4</h3>
+                    <h3>Horden Trail: Route 4</h3>
 
-                    <p>Route Image</p>
-
-                    <div><p>Route Image Div</p></div>
+                    <ol>
+                        <li>follow the path down to the gate. The Castle founds will be to the right. </li>
+                        <li>Gross the gate, down the bank and turn left.</li>
+                        <li>Carry on straight at the next crossing.</li>
+                        <li>Cross the stone bridge.</li>
+                        <li>Carry on straight leaving the narrow bridge behind.</li>
+                        <li>Carry on straight. (to the right is the Yew Tree Loop Turning</li>
+                        <li>Continue to the end of the trail.</li> 
+                        <li>Turn left at the incline to finish the trail</li>
+                    </ol>
 
                     <div class="lightbox-slider">
 

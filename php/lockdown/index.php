@@ -48,9 +48,9 @@
         <ul>
             <h3>Featured Trails - Castle Eden Dene</h3>
 
-            <li><a href="inc/walk-templates/walk-one.php" class="route-list-item" title="Castle Eden Dene Trail: 1">Castle Eden Dene Trail: 1</li>
-            <li><a href="inc/walk-templates/walk-two.php" class="route-list-item" title="Castle Eden Dene Trail: 2">Castle Eden Dene Trail: 2</a></li>
-            <li><a href="inc/walk-templates/walk-three.php" class="route-list-item" title="Castle Eden Dene Trail: 3">Castle Eden Dene Trail: 3</a></li>
+            <li><a href="inc/walk-templates/walk-one.php" class="route-list-item" title="Red Squirrel Trail #1">Red Squirrel Trail #1</a</li>
+            <li><a href="inc/walk-templates/walk-two.php" class="route-list-item" title="Red Squirrel Trail #2">Red Squirrel Trail #2</a></li>
+            <li><a href="inc/walk-templates/walk-three.php" class="route-list-item" title="Red Squirrel Trail: #3">Red Squirrel Trail #2</a></li>
             <li><a href="inc/walk-templates/walk-four.php" class="route-list-item" title="Horden Trail: Route 4">Horden Trail: Route 4</a></li>
 
             <h3>Featured Trails: Hart to Haswell Trail</h3>
@@ -81,8 +81,8 @@
 
     <div class="route-slider">
 
-        <div> <a href="inc/walk-templates/walk-one.php" title="Walk Dene: 1" class="route-slider-link"> <img src="img/walk_homepage/walk-dene-one.jpg" alt="Walk Dene: One" class="route-slider-image" /> </a> </div>
-        <div> <a href="inc/walk-templates/walk-two.php" title="Walk Dene: Two" class="route-slider-link"> <img src="img/walk_homepage/walk-dene-two.jpg" alt="Walk Dene: Two" class="route-slider-image" /> </a> </div> 
+        <div> <a href="inc/walk-templates/walk-one.php" title="Red Squirrel Trail #1" class="route-slider-link"> <img src="img/walk_homepage/walk-dene-one.jpg" alt="Red Squirrel Trail #1" class="route-slider-image" /> </a> </div>
+        <div> <a href="inc/walk-templates/walk-two.php" title="Red Squirrel Trail #2" class="route-slider-link"> <img src="img/walk_homepage/walk-dene-two.jpg" alt="Red Squirrel Trail #2" class="route-slider-image" /> </a> </div> 
         <div> <a href="inc/walk-templates/walk-three.php" title="Walk Dene: Three" class="route-slider-link"> <img src="img/walk_homepage/walk-dene-three.jpg" alt="Walk Dene: Three" class="route-slider-image" /> </a> </div> 
         <div> <a href="inc/walk-templates/walk-four.php" title="Walk Trail: Horden Route" class="route-slider-link"> <img src="img/walk_homepage/walk-dene-four-horden.jpg" alt="Walk Trail: Horden Route" class="route-slider-image" /> </a> </div> 
         <div> <a href="inc/walk-templates/walk-five.php" title="Walk Dene 5: Yew Tree Route" class="route-slider-link"> <img src="img/walk_homepage/walk-dene-five-yew-tree.jpg" alt="Walk Dene 5: Yew Tree Route" class="route-slider-image" /> </a> </div>

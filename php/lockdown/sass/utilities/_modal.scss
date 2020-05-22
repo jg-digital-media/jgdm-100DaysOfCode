@@ -12,10 +12,16 @@
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
     
-    p, h1 {
+    p, h1, h3 {
         color: white;
         line-height: 2.5;
         margin-bottom: 20px;
+    }
+
+    ul, ol {
+        color: white;
+        margin-left: 5px;
+        padding-left: 5px;
     }
 
     /* Modal Content/Box */

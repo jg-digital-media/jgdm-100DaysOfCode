@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Subtitle 6</h3>
+        <h3>Walk 6 - Yew Tree Walk Loop</h3>
 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam veniam consequuntur, nisi ipsa repellat harum molestias, deserunt error magnam commodi dolor velit deleniti est eaque. Accusamus quidem aspernatur corporis?</p>
+        <p> The Yew Tree Walk is a lengthy loop towards the right of the Dene from the starting point.  You make a short walk to the visitor centre of the Dene.</p>
 
     </div>
 
     <div>
-        <img src = "img/walks/home.jpg" alt = "" title="" />
+        <img src = "img/walk_homepage/walk-dene-six-yew-tree-loop.jpg" alt = "Walk 6 - Yew Tree Walk Loop" title="Walk 6 - Yew Tree Walk Loop" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_six" title="Open Route">Open Route</a>
@@ -24,11 +24,16 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Modal Route six</h3>
+                    <h3>Walk 6 - Yew Tree Walk Loop</h3>                 
 
-                    <p>Route Image</p>
-
-                    <div><p>Route Image Div</p></div>
+                    <ol>                            
+                        <li>Take the first right.</li>
+                        <li>Carry on down the bank and take the left turn.</li>
+                        <li>At this separation carry on the path right.</li>
+                        <li>At the junction go left and then right up the hill.</li>
+                        <li>With the visitor centre on your left, go on the path to the right.</li>
+                        <li>Follow the path with the housing on the left.</li>
+                    </ol>
 
                     <div class="lightbox-slider">
 
@@ -66,7 +71,7 @@
 
             </div>
 
-        </div>six
+        </div>
     </div>
 
 </article> 

@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Subtitle five</h3>
+        <h3>Walk Dene 5 - Yew Tree Trail</h3>
 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam veniam consequuntur, nisi ipsa repellat harum molestias, deserunt error magnam commodi dolor velit deleniti est eaque. Accusamus quidem aspernatur corporis?</p>
+        <p> The Yew Tree Walk is a lengthy loop towards the right of the Dene from the starting point. You will loop backwards toward the Yew Tree Trail with a left 2 after the incline then take one more steep incline followed by the leisurely finish with Castle Eden on our left.</p>
 
     </div>
 
     <div>
-        <img src = "img/walks/home.jpg" alt = "" title="" />
+        <img src = "img/walk_homepage/walk-dene-five-yew-tree.jpg" alt = "Walk Dene 5 - Yew Tree Trail" title="Walk Dene 5 - Yew Tree Trail" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_five" title="Open Route">Open Route</a>
@@ -24,11 +24,18 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Modal Route five</h3>
+                    <h3>Walk Dene 5 - Yew Tree Trail</h3>
 
-                    <p>Route Image</p>
-
-                    <div><p>Route Image Div</p></div>
+                    <ol> 
+                        <li>Take the first right.</li>
+                        <li>Carry on down the bank and up the bank straight.</li>
+                        <li>At this separation carry on the path right.</li>
+                        <li>Through this fence.</li>
+                        <li>take the path to the left and down the incline.</li>
+                        <li>Turn left.</li>
+                        <li>Over the stone bridge.</li>
+                        <li>Take the path to the left.</li>
+                    </ol>
 
                     <div class="lightbox-slider">
 

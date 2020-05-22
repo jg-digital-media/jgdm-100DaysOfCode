@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Subtitle 12</h3>
+        <h3>Walk 12 - To Station Town</h3>
 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam veniam consequuntur, nisi ipsa repellat harum molestias, deserunt error magnam commodi dolor velit deleniti est eaque. Accusamus quidem aspernatur corporis?</p>
+        <p> Once you traverse the Hart to Haswell Railway line and cross the main field, this is a nice leisurely concreate walk trail offers you stunning landscapes and livestock to view. You will end up in a spot between Wingate and Station Town.</p>
 
     </div>
 
     <div>
-        <img src = "img/walks/home.jpg" alt = "" title="" />
+        <img src = "img/walk_homepage/walk-twelve-to-station-town.jpg" alt = "Walk 12 - To Station Town" title="Walk 12 - To Station Town" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn" id="modal_btn_twelve" title="Open Route">Open Route</a>
@@ -24,11 +24,18 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Modal Route twelve</h3>
-
-                    <p>Route Image</p>
-
-                    <div><p>Route Image Div</p></div>
+                    <h3>Walk 12 - To Station Town</h3>
+                    
+                    <ol>
+                        <li>Turn right, cross the footpath until you reach the railway line.</li>
+                        <li>Turn right at the crossing point.</li>
+                        <li>Castle Eden Inn point.</li>
+                        <li>Go Straight ahead at this point.</li>
+                        <li>Go through the path across the field.</li>
+                        <li>Turn left at the gateway.</li>
+                        <li>Cross the concrete path.</li>
+                        <li>End of the public footpath.</li>
+                    </ol>
 
                     <div class="lightbox-slider">
 

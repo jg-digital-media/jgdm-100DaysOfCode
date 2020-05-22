@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Subtitle 10</h3>
+        <h3>Walk 10 - Bleachery Dene left</h3>
 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam veniam consequuntur, nisi ipsa repellat harum molestias, deserunt error magnam commodi dolor velit deleniti est eaque. Accusamus quidem aspernatur corporis?</p>
+        <p>Keep going straight towards the Dene at the Railway line.</p>
 
     </div>
 
     <div>
-        <img src = "img/walks/home.jpg" alt ="" title="" />
+        <img src = "img/walk_homepage/walk-ten/bleachery-dene-left.jpg" alt ="Walk 10 - Bleachery Dene left" title="Walk 10 - Bleachery Dene left" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_ten" title="Open Route">Open Route</a>
@@ -24,11 +24,22 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Modal Route ten</h3>
-
-                    <p>Route Image</p>
-
-                    <div><p>Route Image Div</p></div>
+                    <h3>Walk 10 - Bleachery Dene left</h3>
+                    
+                    <ol>
+                        <li>Turn right and carry on until you see the school house.</li>
+                        <li>Follow the public footpath.</li>
+                        <li>Castle Eden Dene crossing point.</li>
+                        <li>Turn left until Bleachery Dene crossing point.</li>
+                        <li>Turn right toward Bleachery Dene at this point.</li>
+                        <li>Follow the path toward Bleachery Dene.</li>
+                        <li>Go down the small embankment toward the dene.</li>
+                        <li>Cross the wooden bridge.</li>
+                        <li>Up the bank.</li>
+                        <li>Turn left from here.</li>
+                        <li>Take the next right and follow up to the clearing to the A19.</li>
+                        <li>Follow the path to the left up to this point.</li>
+                    </ol>                               
 
                     <div class="lightbox-slider">
 

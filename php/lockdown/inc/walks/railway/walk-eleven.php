@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Subtitle 11</h3>
+        <h3>Walk 11 - Bleachery Dene Main Route</h3>
 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam veniam consequuntur, nisi ipsa repellat harum molestias, deserunt error magnam commodi dolor velit deleniti est eaque. Accusamus quidem aspernatur corporis?</p>
+        <p>This Route takes you to the edge of Castle Eden Village; a Woodland area known as Bleachery Dene.</p>
 
     </div>
 
     <div>
-        <img src = "img/walks/home.jpg" alt = "" title="" />
+        <img src = "img/walk_homepage/walk-eleven-bleachery-dene.jpg" alt = "Walk 11 - Bleachery Dene Main Route" title="Walk 11 - Bleachery Dene Main Route" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_eleven" title="Open Route">Open Route</a>
@@ -24,11 +24,21 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Modal Route eleven</h3>
+                    <h3>Walk 11 - Bleachery Dene Main Route</h3>
 
-                    <p>Route Image</p>
-
-                    <div><p>Route Image Div</p></div>
+                    <ol>
+                        <li>Turn right and carry on until you see the school house.</li>
+                        <li>Follow the public footpath.</li>
+                        <li>Castle Eden Dene crossing point.</li>
+                        <li>Turn left until bleachery dene crossing point.</li>
+                        <li>Turn right toward bleachery dene at this point.</li>
+                        <li>Follow the path toward bleachery dene.</li>
+                        <li>Go down the small embankment toward the dene.</li>
+                        <li>Cross the wooden bridge.</li>
+                        <li>Up the bank.</li>
+                        <li>Turn right from here.</li>
+                        <li>Take the next right and follow up to the clearing to the A19.</li>
+                    </ol>  
 
                     <div class="lightbox-slider">
 

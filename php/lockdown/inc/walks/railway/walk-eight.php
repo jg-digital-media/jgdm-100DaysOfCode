@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Subtitle 8</h3>
+        <h3>Walk 8 - Hart to Haswell Right</h3>
 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam veniam consequuntur, nisi ipsa repellat harum molestias, deserunt error magnam commodi dolor velit deleniti est eaque. Accusamus quidem aspernatur corporis?</p>
+        <p>Following the simple and straight path on the railway line to the right towards the direction Haswell village, ending at Wellfield.</p>
 
     </div>
 
     <div>
-        <img src = "img/walks/home.jpg" alt = "" title="" />
+        <img src = "img/walk_homepage/walk-eight-hart-to-haswell-right.jpg" alt = "Walk 8 - Hart to Haswell Right" title="Walk 8 - Hart to Haswell Right" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_eight" title="Open Route">Open Route</a>
@@ -24,11 +24,16 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Modal Route eight</h3>
+                    <h3>Walk 8 - Hart to Haswell Right</h3>  
 
-                    <p>Route Image</p>
-
-                    <div><p>Route Image Div</p></div>
+                    <ol>
+                        <li>Turn right, cross the footpath until you reach the railway line</li>
+                        <li>turn right  there and start following the trail</li>
+                        <li>Gateway one - Closest to Castle Eden In. Continue on Straight</li>
+                        <li>Where the paths diverge to a footpath on the field, continue on the path to the right</li>
+                        <li>Where Wellfield is on your left keep going</li>
+                        <li>End of the line (although thr path does continue on the other side of the A181 main road)</li>
+                    </ol>                       
 
                     <div class="lightbox-slider">
 

@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Subtitle 13</h3>
+        <h3>Hart to Haswell - Woodland Route</h3>
 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam veniam consequuntur, nisi ipsa repellat harum molestias, deserunt error magnam commodi dolor velit deleniti est eaque. Accusamus quidem aspernatur corporis?</p>
+        <p>In the Hart to Haswell direction, take the crossing across the farmland and turn right at the end. You'll finish at a small area of Woodland on the Outskirts of Wellfield near Wingate.</p>
 
     </div>
 
     <div>
-        <img src = "img/walks/home.jpg" alt = "" title="" />
+        <img src = "img/walk_homepage/walk-thirteen.jpg" alt = "Hart to Haswell - Woodland Route" title="Hart to Haswell - Woodland Route" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_thirteen" title="Open Route">Open Route</a>
@@ -24,11 +24,18 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Modal Route thirteen</h3>
-
-                    <p>Route Image</p>
-
-                    <div><p>Route Image Div</p></div>
+                    <h3>Hart to Haswell Copse</h3>
+                    
+                    <ol>
+                        <li>Turn right, cross the footpath until you reach the railway line.</li>
+                        <li>Turn right at the crossing point.</li>
+                        <li>Castle Eden Inn point.</li>
+                        <li>Go Straight ahead at this point.</li>
+                        <li>Go through the public footpath across the farmers field.</li>
+                        <li>Turn right at the gateway.</li>
+                        <li>Follow the concrete path.</li>
+                        <li>End of the public footpath in the woodland area.</li>
+                    </ol>
 
                     <div class="lightbox-slider">
 

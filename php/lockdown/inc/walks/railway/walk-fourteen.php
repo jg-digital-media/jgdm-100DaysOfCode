@@ -6,12 +6,12 @@
 
         <h3>Subtitle 14</h3>
 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam veniam consequuntur, nisi ipsa repellat harum molestias, deserunt error magnam commodi dolor velit deleniti est eaque. Accusamus quidem aspernatur corporis?</p>
+        <p> Corporis</p>
 
     </div>
 
     <div>
-        <img src = "img/walks/home.jpg" alt = "" title="" />
+        <img src = "img/walk_homepage/walk-fourteen.jpg" alt = "" title="" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_fourteen" title="Open Route">Open Route</a>
@@ -25,6 +25,17 @@
                     <span class="close">&times;</span>
 
                     <h3>Modal Route fourteen (INCOMPLETE) </h3>
+                    
+                    <ol>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                    </ol>
 
                     <p>Route Image</p>
 

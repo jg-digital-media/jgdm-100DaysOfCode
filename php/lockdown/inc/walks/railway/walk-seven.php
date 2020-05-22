@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Subtitle 7</h3>
+        <h3>Walk 7 - Hesleden Route</h3>
 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam veniam consequuntur, nisi ipsa repellat harum molestias, deserunt error magnam commodi dolor velit deleniti est eaque. Accusamus quidem aspernatur corporis?</p>
+        <p>From the left of the starting point, we cross the main road to the Railway line network leading to the Railway line network. Hesleden is home to a small Dene area where you can loop back towards Castle Eden.</p>
 
     </div>
 
     <div>
-        <img src = "img/walks/home.jpg" alt = "" title="" />
+        <img src = "img/walk_homepage/walk-dene-hesleden-route.jpg" alt = "Walk 7 - Hesleden Route" title="Walk 7 - Hesleden Route" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_seven" title="Open Route">Open Route</a>
@@ -24,11 +24,16 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Modal Route seven</h3>
+                    <h3>Walk 7 - Hesleden Route</h3>                      
 
-                    <p>Route Image</p>
-
-                    <div><p>Route Image Div</p></div>
+                    <ol>
+                        <li>Turn right, cross the footpath until you reach the railway line turn left there.</li>
+                        <li>gateway one - first marker in the route.</li>
+                        <li>turn right at gateway 2. This is the entrance to Hesleden Dene.</li>
+                        <li>Follow the path down until you reach this clearing.</li>
+                        <li>cross the green bridge.</li>
+                        <li> Up the bank to the edge of Hesleden Dene.</li>
+                    </ol>                     
 
                     <div class="lightbox-slider">
 

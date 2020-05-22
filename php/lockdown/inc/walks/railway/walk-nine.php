@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Subtitle 9</h3>
+        <h3>Walk 9 - Hart to Haswell left</h3>
 
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aperiam veniam consequuntur, nisi ipsa repellat harum molestias, deserunt error magnam commodi dolor velit deleniti est eaque. Accusamus quidem aspernatur corporis?</p>
+        <p> Following the simple and straight path on the railway line to the left towards the direction Blackhall Colliery and the East Coast</p>
 
     </div>
 
     <div>
-        <img src = "img/walks/home.jpg" alt = "" title="" />
+        <img src = "img/walk_homepage/walk-nine/hart-to-haswell-left.jpg" alt = "Walk 9 - Hart to Haswell left" title="Walk 9 - Hart to Haswell left" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_nine" title="Open Route">Open Route</a>
@@ -24,11 +24,14 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Modal Route nine</h3>
+                    <h3>Walk 9 - Hart to Haswell left</h3>  
 
-                    <p>Route Image</p>
-
-                    <div><p>Route Image Div</p></div>
+                    <ol>
+                        <li>Turn right, cross the footpath until you reach the railway line.</li>
+                        <li>Turn left there. </li>
+                        <li>gateway one</li>
+                        <li>turn right at gateway 2. This is the entrance to Hesleden Dene</li>
+                    </ol>                            
 
                     <div class="lightbox-slider">
 

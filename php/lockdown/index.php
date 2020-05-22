@@ -1,6 +1,6 @@
 <?php 
 
-    $website_title = "Jaunts and Journey's in Lockdown";
+    $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
     $pageTitle = "Homepage";
     $trailType = "";
 

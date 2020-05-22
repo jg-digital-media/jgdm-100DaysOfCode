@@ -1,7 +1,7 @@
 <?php 
 
-    $website_title = "Castle Eden Dene";
-    $pageTitle = "Castle Eden Dene";
+    $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
+    $pageTitle = "Walking Trails: Castle Eden Dene";
     $trailType = "dene";
 
     $meta_description = "description to go here";

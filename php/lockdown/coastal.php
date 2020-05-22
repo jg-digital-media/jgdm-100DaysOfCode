@@ -1,7 +1,7 @@
 <?php 
 
-    $website_title = "Lockdown Page";
-    $pageTitle = "County Durham Coastal Routes";
+    $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
+    $pageTitle = "Walking Trails: Castle Eden Dene: Coastal Routes";
     $trailType = "coastal";
 
     $meta_description = "description to go here";
@@ -23,7 +23,7 @@
 
     <section class="coastal">
             
-        <h2>Walking Trails: Coastal</h2>
+        <h2>Walking Trails: Castle Eden Dene: Coastal Routes</h2>
 
         <p><?php require("inc/walks/coastal/walk-fifteen.php"); ?> </p> 
 

@@ -1,7 +1,7 @@
 <?php 
 
-    $website_title = "Lockdown Page";
-    $pageTitle = "Railway Line Routes";
+    $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
+    $pageTitle = "Walking Trails: Hart to Haswell Network";
     $trailType = "railway-routes";
 
     $meta_description = "description to go here";

@@ -37,10 +37,6 @@
                         <li>.</li>
                     </ol>
 
-                    <p>Route Image</p>
-
-                    <div><p>Route Image Div</p></div>
-
                     <div class="lightbox-slider">
 
                         <!-- TEST FILE PATHS -->

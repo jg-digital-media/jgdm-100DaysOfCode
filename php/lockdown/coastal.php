@@ -23,7 +23,7 @@
 
     <section class="coastal">
             
-        <h2>Coastal Routes</h2>
+        <h2>Walking Trails: Coastal</h2>
 
         <p><?php require("inc/walks/coastal/walk-fifteen.php"); ?> </p> 
 

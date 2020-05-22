@@ -23,7 +23,7 @@
 
     <section class="dene">
         
-        <h2>Dene Routes</h2>
+        <h2>Walking Trails: Castle Eden Dene</h2>
         
         <p><?php require("inc/walks/dene/walk-one.php"); ?> </p> <!-- -->
 

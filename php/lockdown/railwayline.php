@@ -23,7 +23,7 @@
 
     <section class="railway">
         
-        <h2>Railway Routes</h2>
+        <h2>Walking Trails: Hart to Haswell Network</h2>
         
         <p><?php require("inc/walks/railway/walk-seven.php"); ?> </p> <!-- -->
 

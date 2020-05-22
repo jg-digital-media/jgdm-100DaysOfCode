@@ -234,6 +234,8 @@ nav {
   .lockdown .lockdown-intro {
     line-height: 1.7;
     /*font-size: 12px;*/ }
+    .lockdown .lockdown-intro p {
+      margin-bottom: 15px; }
   .lockdown .lockdown-img {
     width: 100%;
     padding: 5px;

@@ -1,16 +1,24 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 87 of 100. **Last Update:** 21 May 2020
+## **Status:** Day 88 of 100. **Last Update:** 22 May 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+
+### R4D88:  Friday 22 May 2020
++ **Notes**  
+  +  My hope is to unveil my latest project by the end of next week but there's still a lot of work to do. Have today added a lot of the content and tested it. The Lightbox functionality is working. Slick Carousels will maybe be added in later!
+
++ **Technologies used** - HTML5, CSS, JavaScript, PHP
 
 
 ### R4D87:  Thursday 21 May 2020
 + **Notes**  
   +  Added a new round of Templates to the work I'm doing.  This involved adding some new conditionals to the template to make sure the header and footer templates would work for them.  It's done now.  Focus tomorrow will be adding the unique content.
 
-+ **Technologies used** - HTML5, CSS, JavaScript
++ **Technologies used** - HTML5, CSS, JavaScript, PHP
 
 ### R4D86:  Wednesday 20 May 2020
 + **Notes**  
@@ -22,7 +30,7 @@ ___
 + **Notes**  
   +  Attempted to write a function to handle all the modal and lightbox interactivity for the website. Seems to be all sorts of glitches happening whether the programing be verbose or procedural. Might have to wait till tomorrow to flush the bugs out. 
 
-+ **Technologies used** - HTML5, CSS, JavaScript
++ **Technologies used** - HTML5, CSS, JavaScript, PHP
 
 ### R4D84:  Monday 18 May 2020
 + **Notes**  

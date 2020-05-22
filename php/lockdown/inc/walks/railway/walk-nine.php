@@ -11,7 +11,7 @@
     </div>
 
     <div>
-        <img src = "img/walk_homepage/walk-nine/hart-to-haswell-left.jpg" alt = "Walk 9 - Hart to Haswell left" title="Walk 9 - Hart to Haswell left" />
+        <img src = "img/walk_homepage/walk-nine-hart-to-haswell-left.jpg" alt = "Walk 9 - Hart to Haswell left" title="Walk 9 - Hart to Haswell left" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_nine" title="Open Route">Open Route</a>

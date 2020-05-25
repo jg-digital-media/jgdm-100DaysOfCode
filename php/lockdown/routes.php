@@ -39,11 +39,11 @@
 
             <li><a href="inc/walk-templates/walk-four.php" title="Walk Trail: Horden Route"><strong>Route 4</strong> - <?php echo $trailTitleFour; ?></a></li>
 
-            <li><a href="inc/walk-templates/walk-five.php" title="Walk Dene 5: Yew Tree Route"><strong>Route 5</strong> -<?php echo $trailTitleFive; ?></a></li>
+            <li><a href="inc/walk-templates/walk-five.php" title="Walk Dene 5: Yew Tree Route"><strong>Route 5</strong> - <?php echo $trailTitleFive; ?></a></li>
 
             <li><a href="inc/walk-templates/walk-six.php" title="Walk Dene 6: Yew Tree Loop"><strong>Route 6</strong> - <?php echo $trailTitleSix; ?></a></li>
 
-            <li><a href="inc/walk-templates/walk-seven.php" title="Walk Dene Seven: Hesleden Route"><strong>Route 7</strong> -<?php echo $trailTitleSeven; ?></a></li>
+            <li><a href="inc/walk-templates/walk-seven.php" title="Walk Dene Seven: Hesleden Route"><strong>Route 7</strong> - <?php echo $trailTitleSeven; ?></a></li>
 
             <li><a href="inc/walk-templates/walk-eight.php" title="Walk 8:  Hart to Haswell (Right)"><strong>Route 8</strong> - <?php echo $trailTitleEight; ?></a></li>
 

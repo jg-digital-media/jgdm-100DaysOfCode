@@ -4,7 +4,7 @@
     $pageTitle = "Route List #1";
     $trailType= "trail-template";    
     
-    $$trailTitle = trailTitleOne;
+    //$trailTitle = $trailTitleOne;
 
     $meta_description = "description to go here";
     $meta_keywords = "keywords to go here";
@@ -38,6 +38,8 @@
             <article class="content">
         
                 <p>This is one of 3 routes that connect to the Yew Tree Route. After you reach the Red Bridge the journey takes 3 alternative routes. This one leads to the A19 Dene entrance closest to the junction between Wingate and Castle Eden Village. </p>
+
+                <h3>Trail Details</h3>
 
                 <ol>
                     <li>follow the path down to the gate. The Castle will be on your right. Continue on the trail straight.</li>

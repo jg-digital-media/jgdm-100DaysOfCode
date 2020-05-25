@@ -3,11 +3,13 @@
     border: solid 1px black;
     display: block;
     margin: 0 auto;
-    width: 60%;
+    /*width: 60%;*/
     padding: 15px;
 
     @media (min-width: $xl) {
         width: 1450px;
+        width: 1024px;
+
     }
 
     @media (max-width: $xs) {
@@ -16,6 +18,13 @@
 
     h2 {
         @extend %trail-type-headings;
+    }
+    
+    @media (max-width: $sm) {
+        max-width: 1000px;
+        margin: 0 auto;
+        border: solid 1px black;
+        padding: 10px;
     }
 
     .route-list {

@@ -25,7 +25,9 @@
             
         <h2>Walking Trails: Castle Eden Dene: Coastal Routes</h2>
 
-        <p><?php require("inc/walks/coastal/walk-fifteen.php"); ?> </p> 
+        <p>Details of Coastal Routes coming very soon!  <em>Very Soon!</em>  :-)</p>
+
+        <p><?php /*require("inc/walks/coastal/walk-fifteen.php");*/ ?> </p> 
 
         <p><?php /*require("inc/walks/coastal/walk-sixteen.php");*/ ?> </p> 
 

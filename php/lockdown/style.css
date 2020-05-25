@@ -97,6 +97,14 @@ margin 0 auto -  center alignment*/
   .walk > div .follow-trail a {
     text-decoration: none; }
 
+.walk-template .template-content .back-home {
+  margin: 20px;
+  padding: 10px;
+  background: red;
+  display: block;
+  width: 113px;
+  color: white; }
+
 .dene h2, .railway h2, .coastal h2, .routes h2 {
   color: blue;
   font-size: 15pt;
@@ -209,16 +217,24 @@ nav {
     border: solid black 1px;
     flex-direction: row-reverse; }
     .walk-template .template-content p {
-      order: 2; }
+      order: 2;
+      line-height: 1.5;
+      padding: 4px; }
     .walk-template .template-content img.walk-template-img {
       width: 90%;
       width: 67%;
-      order: 1; }
+      width: 55%;
+      display: block;
+      order: 1;
+      padding: 10px; }
       @media (max-width: 720px) {
         .walk-template .template-content img.walk-template-img {
           width: 50%; } }
     .walk-template .template-content ul, .walk-template .template-content ol {
-      display: block; }
+      display: block;
+      margin-left: 20px;
+      position: relative;
+      top: 20px; }
 
 .lockdown {
   display: grid;
@@ -416,14 +432,21 @@ nav {
   border: solid 1px black;
   display: block;
   margin: 0 auto;
-  width: 60%;
+  /*width: 60%;*/
   padding: 15px; }
   @media (min-width: 1500px) {
     .routes {
-      width: 1450px; } }
+      width: 1450px;
+      width: 1024px; } }
   @media (max-width: 720px) {
     .routes {
       width: 90%; } }
+  @media (max-width: 1024px) {
+    .routes {
+      max-width: 1000px;
+      margin: 0 auto;
+      border: solid 1px black;
+      padding: 10px; } }
   .routes .route-list {
     list-style: none;
     position: relative;

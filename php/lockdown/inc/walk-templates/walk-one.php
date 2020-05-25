@@ -34,9 +34,12 @@
 
         <h3>Walk Description</h3>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere tempora culpa ab rem numquam saepe libero earum inventore cumque repellat nulla ipsa aspernatur quas, odio mollitia nisi debitis quod veniam!</p>
+        <div class="template-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere tempora culpa ab rem numquam saepe libero earum inventore cumque repellat nulla ipsa aspernatur quas, odio mollitia nisi debitis quod veniam!</p>
 
-        <img src="<?php echo $walk_homepage_one; ?>" class="walk-template-img" alt="" title="" />
+            <img src="<?php echo $walk_homepage_one; ?>" class="walk-template-img" alt="" title="" />
+
+        </div>
 
         <ul>
             <a href=""><li> </li></a>

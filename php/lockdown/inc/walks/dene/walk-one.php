@@ -1,17 +1,21 @@
-<!--<p> <?php echo "Walk 1";  ?> </p> -->
+<!--<p> <?php 
+
+    //echo "Walk 1";  
+    $trailTitleOne = "Red Squirrel Trail #1";
+?> </p> -->
 
 <article class="walk">
 
     <div>
 
-        <h3>Red Squirrel Trail #1</h3>
+        <h3><?php echo $trailTitleOne;  ?></h3>
 
         <p> This is one of 3 routes that connect to the Yew Tree Route. After you reach the Red Bridge the journey takes 3 alternative routes. This one leads to the A19 Dene entrance closest to the junction between Wingate and Castle Eden Village.</p>
 
     </div>
 
     <div>
-        <img src = "img/walk_homepage/walk-dene-one.jpg" alt = "Red Squirrel Trail #1" title="Red Squirrel Trail #1" />
+        <img src = "img/walk_homepage/walk-dene-one.jpg" alt = "<?php echo $trailTitleOne;  ?>" title="<?php echo $trailTitleOne;  ?>" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_one" title="Open Route">Open Route</a>
@@ -24,7 +28,7 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Red Squirrel Trail #1</h3>
+                    <h3>Trail Summary</h3>
 
                     <ol>
                         <li>follow the path down to the gate. The Castle will be on your right. Continue on the trail straight.</li>

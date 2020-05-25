@@ -4,6 +4,14 @@
     $pageTitle = "Walking Trails: Castle Eden Dene: Coastal Routes";
     $trailType = "coastal";
 
+    
+    $trailTitleFifteen= "Coastal 1";
+    $trailTitleSixteen = "Coastal 2";
+    $trailTitleSeventeen = "Coastal 3";
+    $trailTitleEighteen = "Coastal 4";
+    $trailTitleNineteen = "Coastal 5";
+    $trailTitleTwenty = "Coastal 6";
+
     $meta_description = "description to go here";
     $meta_keywords = "keywords to go here";
     $meta_image = "";

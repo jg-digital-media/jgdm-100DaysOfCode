@@ -6,7 +6,16 @@
 
     $meta_description = "description to go here";
     $meta_keywords = "keywords to go here";
-    $meta_image = "";
+    $meta_image = "";    
+    
+    $trailTitleSeven = "Walk 7 - Hesleden Route";
+    $trailTitleEight = "Walk 8 - Hart to Haswell Right";
+    $trailTitleNine = "Walk 9 - Hart to Haswell left";
+    $trailTitleTen = "Walk 10 - Bleachery Dene left";
+    $trailTitleEleven = "Walk 11 - Bleachery Dene Main Route1";
+    $trailTitleTwelve = "Walk 12 - To Station Town";
+    $trailTitleThirteen = "Hart to Haswell - Woodland Route";
+    $trailTitleFourteen = "Route 14 - Incomplete";
 
     $fb_title = "";
     $fb_description = "";

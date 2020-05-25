@@ -6,7 +6,7 @@
 
         <h3><?php echo $trailTitleEleven; ?></h3>
 
-        <p>This Route takes you to the edge of Castle Eden Village; a Woodland area known as Bleachery Dene.</p>
+        <p>This route takes you to the edge of Castle Eden Village; a Woodland area known as Bleachery Dene.</p>
 
     </div>
 

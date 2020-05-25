@@ -6,7 +6,7 @@
 
         <h3><?php echo $tailTitleTwelve; ?></h3>
 
-        <p> Once you traverse the Hart to Haswell Railway line and cross the main field, this is a nice leisurely concreate walk trail offers you stunning landscapes and livestock to view. You will end up in a spot between Wingate and Station Town.</p>
+        <p>Once you traverse the Hart to Haswell Railway line and cross the main field, this is a nice leisurely concreate walk trail offers you stunning landscapes and livestock to view. You will end up in a spot between Wingate and Station Town.</p>
 
     </div>
 

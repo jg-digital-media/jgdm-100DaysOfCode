@@ -24,13 +24,36 @@
 
 <?php require_once "../../inc/header.php"; ?>
 
-<?php //echo "one"; ?>
-
 <section class="walk-template">
 
     <article>
 
-        <h2><?php echo "Walk 6 Template"; ?> ddd </h2>
+        <h2> <?php echo $trailTitleSeven; ?> </h2>
+
+        <div class="template-content">
+
+            <article class="content">
+        
+                <p>The Yew Tree Walk is a lengthy loop towards the right of the Dene from the starting point.  You make a short walk to the visitor centre of the Dene.</p>
+
+                <h3>Trail Details</h3>
+
+                <ol>                           
+                    <li>Take the first right.</li>
+                    <li>Carry on down the bank and take the left turn.</li>
+                    <li>At this separation carry on the path right.</li>
+                    <li>At the junction go left and then right up the hill.</li>
+                    <li>With the visitor centre on your left, go on the path to the right.</li>
+                    <li>Follow the path with the housing on the left.</li>
+                </ol>    
+                
+                <a href="../../index.php" class="back-home">Back Home</a>
+
+            </article>  
+
+            <img src="<?php echo $walk_homepage_six; ?>" class="walk-template-img" alt="" title="" />
+
+        </div>
 
     </article>
 

@@ -6,7 +6,7 @@
 
         <h3><?php echo $trailTitleFour; ?></h3>
 
-        <p> This will take you to a different part of the Dene.  It's a straight path that followed in whole will take you to the entrance of the Dene opposite the main road between Horden and Blackhall. Across the road is the short hall to Denemouth, the beach and Costal wildlife reserve.</p>
+        <p>This will take you to a different part of the Dene.  It's a straight path that followed in whole will take you to the entrance of the Dene opposite the main road between Horden and Blackhall. Across the road is the short hall to Denemouth, the beach and Costal wildlife reserve.</p>
 
     </div>
 
@@ -24,10 +24,10 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Horden Trail: Route 4</h3>
+                    <h3>Trail Summary</h3>
 
                     <ol>
-                        <li>follow the path down to the gate. The Castle founds will be to the right. </li>
+                        <li>Follow the path down to the gate. The Castle founds will be to the right. </li>
                         <li>Gross the gate, down the bank and turn left.</li>
                         <li>Carry on straight at the next crossing.</li>
                         <li>Cross the stone bridge.</li>

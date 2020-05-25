@@ -25,13 +25,11 @@
 
 <?php require_once "../../inc/header.php"; ?>
 
-<?php //echo "one"; ?>
-
 <section class="walk-template">
 
     <article>
 
-        <h2><?php echo "Walk 1 Template"; ?> <?php echo $trailTitleOne; ?> </h2>
+        <h2> <?php echo $trailTitleOne; ?> </h2>
 
         <div class="template-content">
 
@@ -42,7 +40,7 @@
                 <h3>Trail Details</h3>
 
                 <ol>
-                    <li>follow the path down to the gate. The Castle will be on your right. Continue on the trail straight.</li>
+                    <li>Follow the path down to the gate. The Castle will be on your right. Continue on the trail straight.</li>
                     <li>Keep going  on this path until you reach the red bridge.</li>
                     <li>Cross the red bridge and take the very next left.</li>
                     <li>Carry on down the path straight.</li>
@@ -58,7 +56,6 @@
             <img src="<?php echo $walk_homepage_one; ?>" class="walk-template-img" alt="" title="" />
 
         </div>
-
 
     </article>
 

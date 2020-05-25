@@ -24,7 +24,7 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Walk 7 - Hesleden Route</h3>                      
+                    <h3>Trail Summary</h3>                      
 
                     <ol>
                         <li>Turn right, cross the footpath until you reach the railway line turn left there.</li>

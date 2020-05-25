@@ -24,13 +24,35 @@
 
 <?php require_once "../../inc/header.php"; ?>
 
-<?php //echo "one"; ?>
-
 <section class="walk-template">
 
     <article>
 
-        <h2><?php echo "Walk 9 Template"; ?> ddd </h2>
+        <h2> <?php echo $trailTitleNine; ?> </h2>
+
+        <div class="template-content">
+
+            <article class="content">
+        
+                <p>Following the simple and straight path on the railway line to the left towards the direction Blackhall Colliery and the East Coast.</p>
+
+                <h3>Trail Details</h3>
+
+                <ol>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>    
+                
+                <a href="../../index.php" class="back-home">Back Home</a>
+
+            </article>  
+
+            <img src="<?php echo $walk_homepage_nine; ?>" class="walk-template-img" alt="" title="" />
+
+        </div>
 
     </article>
 

@@ -24,13 +24,38 @@
 
 <?php require_once "../../inc/header.php"; ?>
 
-<?php //echo "one"; ?>
-
 <section class="walk-template">
 
     <article>
 
-        <h2><?php echo "Walk 14 Template"; ?> ddd </h2>
+        <h2> <?php echo $trailTitleFourteen; ?> </h2>
+
+        <div class="template-content">
+
+            <article class="content">
+        
+                <p> Corpori</p>
+
+                <h3>Trail Details</h3>
+
+                <ol>
+                    <li>.</li>
+                    <li>.</li>
+                    <li>.</li>
+                    <li>.</li>
+                    <li>.</li>
+                    <li>.</li>
+                    <li>.</li>
+                    <li>.</li>
+                </ol>    
+                
+                <a href="../../index.php" class="back-home">Back Home</a>
+
+            </article>  
+
+            <img src="<?php echo $walk_homepage_fourteen; ?>" class="walk-template-img" alt="" title="" />
+
+        </div>
 
     </article>
 

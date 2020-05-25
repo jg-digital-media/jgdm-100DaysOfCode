@@ -6,7 +6,7 @@
 
         <h3><?php echo $trailTitleSix; ?></h3>
 
-        <p> The Yew Tree Walk is a lengthy loop towards the right of the Dene from the starting point.  You make a short walk to the visitor centre of the Dene.</p>
+        <p>The Yew Tree Walk is a lengthy loop towards the right of the Dene from the starting point.  You make a short walk to the visitor centre of the Dene.</p>
 
     </div>
 

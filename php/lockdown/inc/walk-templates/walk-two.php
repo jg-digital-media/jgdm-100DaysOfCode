@@ -24,13 +24,35 @@
 
 <?php require_once "../../inc/header.php"; ?>
 
-<?php //echo "one"; ?>
-
 <section class="walk-template">
 
     <article>
 
-        <h2><?php echo "Walk 2 Template"; ?> ddd </h2>
+        <h2> <?php echo $trailTitleTwo; ?> </h2>
+
+        <div class="template-content">
+
+            <article class="content">
+        
+                <p>This is one of 3 routes that connect to the Yew Tree Route. After you reach the Red Bridge the journey takes 3 alternative routes. Red Squirrel Trail 2 takes straight on a steep incline deep through the wood leading us to a crossing point between the Yew Tree and Red Squirrel Trails.</p>
+
+                <h3>Trail Details</h3>
+
+                <ol>
+                    <li>follow the path down to the gate. The Castle will be on your right. Continue on the trail straight.</li>
+                    <li>Keep going  on this path until you reach the red bridge.</li>
+                    <li>Cross the red bridge and take the very next left.</li>
+                    <li>Carry on straight after crossing the bridge.</li>
+                    <li>Keep going up until you reach a residential estate.</li>
+                </ol>    
+                
+                <a href="../../index.php" class="back-home">Back Home</a>
+
+            </article>  
+
+            <img src="<?php echo $walk_homepage_two; ?>" class="walk-template-img" alt="" title="" />
+
+        </div>
 
     </article>
 

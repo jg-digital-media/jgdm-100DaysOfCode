@@ -6,7 +6,7 @@
 
         <h3><?php echo $trailTitleThree; ?></h3>
 
-        <p>This trail also rakes the Red Bridge route and then diverges up a steep incline toward the main visitor center of the Dene. You'll then find yourselfo n the outskirs of a residential estate but the path to the end is easy to follow.</p>
+        <p>This trail also rakes the Red Bridge route and then diverges up a steep incline toward the main visitor center of the Dene. You'll then find yourself n the outskirts of a residential estate but the path to the end is easy to follow.</p>
 
     </div>
 
@@ -24,10 +24,10 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Red Squirrel Trail #3</h3>
+                    <h3>Trail Summary</h3>
 
                     <ol>
-                        <li>follow the path down to the gate. The Castle will be on your right. Continue on the trail straight.</li>
+                        <li>Follow the path down to the gate. The Castle will be on your right. Continue on the trail straight.</li>
                         <li>Keep going  on this path until you reach the red bridge.</li>
                         <li>Cross the red bridge and take the very next left.</li>
                         <li>Take the left turning and then the next right which takes a steep incline.</li>

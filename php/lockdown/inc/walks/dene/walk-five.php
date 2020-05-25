@@ -6,7 +6,7 @@
 
         <h3><?php echo $trailTypeFive; ?></h3>
 
-        <p> The Yew Tree Walk is a lengthy loop towards the right of the Dene from the starting point. You will loop backwards toward the Yew Tree Trail with a left 2 after the incline then take one more steep incline followed by the leisurely finish with Castle Eden on our left.</p>
+        <p>The Yew Tree Walk is a lengthy loop towards the right of the Dene from the starting point. You will loop backwards toward the Yew Tree Trail with a left 2 after the incline then take one more steep incline followed by the leisurely finish with Castle Eden on our left.</p>
 
     </div>
 
@@ -24,7 +24,7 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Walk Dene 5 - Yew Tree Trail</h3>
+                    <h3>Trail Summary</h3>
 
                     <ol> 
                         <li>Take the first right.</li>

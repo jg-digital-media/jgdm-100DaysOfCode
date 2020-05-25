@@ -24,7 +24,7 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Hart to Haswell Copse</h3>
+                    <h3>Hart to Haswell - Woodland Route</h3>
                     
                     <ol>
                         <li>Turn right, cross the footpath until you reach the railway line.</li>

@@ -6,7 +6,7 @@
 
         <h3><?php $trailTitleNine; ?></h3>
 
-        <p> Following the simple and straight path on the railway line to the left towards the direction Blackhall Colliery and the East Coast</p>
+        <p>Following the simple and straight path on the railway line to the left towards the direction Blackhall Colliery and the East Coast.</p>
 
     </div>
 

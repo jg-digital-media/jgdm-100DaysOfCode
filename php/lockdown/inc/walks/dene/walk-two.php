@@ -24,10 +24,10 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Red Squirrel Trail #2</h3>
+                    <h3>Trail Summary</h3>
 
                     <ol>
-                        <li>follow the path down to the gate. The Castle will be on your right. Continue on the trail straight.</li>
+                        <li>Follow the path down to the gate. The Castle will be on your right. Continue on the trail straight.</li>
                         <li>Keep going  on this path until you reach the red bridge.</li>
                         <li>Cross the red bridge and take the very next left.</li>
                         <li>Carry on straight after crossing the bridge.</li>

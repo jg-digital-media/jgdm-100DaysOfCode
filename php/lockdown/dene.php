@@ -3,13 +3,6 @@
     $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
     $pageTitle = "Walking Trails: Castle Eden Dene";
     $trailType = "dene";
-    
-    $trailTitleOne = "Red Squirrel Trail #1";
-    $trailTitleTwo = "Red Squirrel Trail #2";
-    $trailTitleThree = "Red Squirrel Trail #3";
-    $trailTitleFour = "Horden Trail: Route 4";
-    $trailTitleFive = "Walk Dene 5 - Yew Tree Trail";
-    $trailTitleSix = "Walk 6 - Yew Tree Walk Loop";
 
     $meta_description = "description to go here";
     $meta_keywords = "keywords to go here";

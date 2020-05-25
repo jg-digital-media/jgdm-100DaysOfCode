@@ -10,7 +10,7 @@
 
         <h3><?php echo $trailTitleOne;  ?></h3>
 
-        <p> This is one of 3 routes that connect to the Yew Tree Route. After you reach the Red Bridge the journey takes 3 alternative routes. This one leads to the A19 Dene entrance closest to the junction between Wingate and Castle Eden Village.</p>
+        <p>This is one of 3 routes that connect to the Yew Tree Route. After you reach the Red Bridge the journey takes 3 alternative routes. This one leads to the A19 Dene entrance closest to the junction between Wingate and Castle Eden Village.</p>
 
     </div>
 

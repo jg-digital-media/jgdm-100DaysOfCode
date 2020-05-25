@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Horden Trail: Route 4</h3>
+        <h3><?php echo $trailTitleFour; ?></h3>
 
         <p> This will take you to a different part of the Dene.  It's a straight path that followed in whole will take you to the entrance of the Dene opposite the main road between Horden and Blackhall. Across the road is the short hall to Denemouth, the beach and Costal wildlife reserve.</p>
 
     </div>
 
     <div>
-        <img src = "img/walk_homepage/walk-dene-four-horden.jpg" alt = "Horden Trail: Route 4" title="Horden Trail: Route 4" />
+        <img src = "img/walk_homepage/walk-dene-four-horden.jpg" alt = "<?php echo $trailTitleFour; ?>" title="<?php echo $trailTitleFour; ?>" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_four" title="Open Route">Open Route</a>

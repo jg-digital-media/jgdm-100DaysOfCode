@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Red Squirrel Trail #3</h3>
+        <h3><?php echo $trailTitleThree; ?></h3>
 
         <p>This trail also rakes the Red Bridge route and then diverges up a steep incline toward the main visitor center of the Dene. You'll then find yourselfo n the outskirs of a residential estate but the path to the end is easy to follow.</p>
 
     </div>
 
     <div>
-        <img src = "img/walk_homepage/walk-dene-three.jpg" alt = "Red Squirrel Trail #3" title="Red Squirrel Trail #3" />
+        <img src = "img/walk_homepage/walk-dene-three.jpg" alt = "<?php echo $trailTitleThree; ?>" title="<?php echo $trailTitleThree; ?>" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_three" title="Open Route">Open Route</a>

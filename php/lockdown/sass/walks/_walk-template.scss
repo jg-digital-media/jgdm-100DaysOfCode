@@ -21,13 +21,27 @@
         color: blue;
     }
 
-    img.walk-template-img {
-        width: 90%;
-        width: 67%;
+    .template-content {
+        display: flex;
+        border: solid black 1px;
+        flex-direction: row-reverse;
 
-        @media (max-width: $xs) {
-            width: 50%;
+        p {
+            order: 2;
+        }        
+        img.walk-template-img {
+            width: 90%;
+            width: 67%;
+            order: 1;
 
+            @media (max-width: $xs) {
+                width: 50%;
+
+            }
+        }
+
+        ul, ol {
+            display: block;
         }
     }
 

@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Hart to Haswell - Woodland Route</h3>
+        <h3><?php echo $trailTypeThirteen; ?></h3>
 
         <p>In the Hart to Haswell direction, take the crossing across the farmland and turn right at the end. You'll finish at a small area of Woodland on the Outskirts of Wellfield near Wingate.</p>
 
     </div>
 
     <div>
-        <img src = "img/walk_homepage/walk-thirteen.jpg" alt = "Hart to Haswell - Woodland Route" title="Hart to Haswell - Woodland Route" />
+        <img src = "img/walk_homepage/walk-thirteen.jpg" alt = "<?php echo $trailTypeThirteen; ?>" title="<?php echo $trailTypeThirteen; ?>" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_thirteen" title="Open Route">Open Route</a>

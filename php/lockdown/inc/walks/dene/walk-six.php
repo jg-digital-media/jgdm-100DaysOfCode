@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Walk 6 - Yew Tree Walk Loop</h3>
+        <h3><?php echo $trailTitleSix; ?></h3>
 
         <p> The Yew Tree Walk is a lengthy loop towards the right of the Dene from the starting point.  You make a short walk to the visitor centre of the Dene.</p>
 
     </div>
 
     <div>
-        <img src = "img/walk_homepage/walk-dene-six-yew-tree-loop.jpg" alt = "Walk 6 - Yew Tree Walk Loop" title="Walk 6 - Yew Tree Walk Loop" />
+        <img src = "img/walk_homepage/walk-dene-six-yew-tree-loop.jpg" alt = "<?php echo $trailTitleSix; ?>" title="<?php echo $trailTitleSix; ?>" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_six" title="Open Route">Open Route</a>

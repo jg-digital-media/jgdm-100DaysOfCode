@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Walk 10 - Bleachery Dene left</h3>
+        <h3><?php echo $trailTitleTen; ?></h3>
 
         <p>Keep going straight towards the Dene at the Railway line.</p>
 
     </div>
 
     <div>
-        <img src = "img/walk_homepage/walk-ten-bleachery-dene-left.jpg" alt ="Walk 10 - Bleachery Dene left" title="Walk 10 - Bleachery Dene left" />
+        <img src = "img/walk_homepage/walk-ten-bleachery-dene-left.jpg" alt ="<?php echo $trailTitleTen; ?>" title="<?php echo $trailTitleTen; ?>" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_ten" title="Open Route">Open Route</a>

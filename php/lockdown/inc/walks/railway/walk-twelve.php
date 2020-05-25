@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Walk 12 - To Station Town</h3>
+        <h3><?php echo $tailTitleTwelve; ?></h3>
 
         <p> Once you traverse the Hart to Haswell Railway line and cross the main field, this is a nice leisurely concreate walk trail offers you stunning landscapes and livestock to view. You will end up in a spot between Wingate and Station Town.</p>
 
     </div>
 
     <div>
-        <img src = "img/walk_homepage/walk-twelve-to-station-town.jpg" alt = "Walk 12 - To Station Town" title="Walk 12 - To Station Town" />
+        <img src = "img/walk_homepage/walk-twelve-to-station-town.jpg" alt = "<?php echo $tailTitleTwelve; ?>" title="<?php echo $tailTitleTwelve; ?>" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn" id="modal_btn_twelve" title="Open Route">Open Route</a>

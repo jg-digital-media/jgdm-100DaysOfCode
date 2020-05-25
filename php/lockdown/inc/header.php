@@ -29,8 +29,7 @@
         <!-- Main Styles -->
         <link rel="stylesheet" type="text/css" href="style.css" />
 
-    <?php else: ?>
-        
+    <?php else: ?>        
     
         <!-- Slick Styles -->
         <link ref="stylesheet" type="text/css" href="../../assets/slick/slick.css" />  
@@ -42,7 +41,6 @@
         <!-- Main Styles -->
         <link rel="stylesheet" type="text/css" href="../../style.css" />
 
-
     <?php endif; ?>
 
     <!-- Canonical link -->
@@ -50,6 +48,34 @@
 
     <!-- Page Title -->
     <title><?php echo $website_title . " | " .  $pageTitle;  ?></title>
+
+
+    <?php
+        
+        //Trail Titles
+        $trailTitleOne = "Red Squirrel Trail #1";
+        $trailTitleTwo = "Red Squirrel Trail #2";
+        $trailTitleThree = "Red Squirrel Trail #3";
+        $trailTitleFour = "Horden Trail: Route 4";
+        $trailTitleFive = "Walk Dene 5 - Yew Tree Trail";
+        $trailTitleSix = "Walk 6 - Yew Tree Walk Loop";
+        $trailTitleSeven = "Walk 7 - Hesleden Route";
+        $trailTitleEight = "Walk 8 - Hart to Haswell Right";
+        $trailTitleNine = "Walk 9 - Hart to Haswell left";
+        $trailTitleTen = "Walk 10 - Bleachery Dene left";
+        $trailTitleEleven = "Walk 11 - Bleachery Dene Main Route1";
+        $trailTitleTwelve = "Walk 12 - To Station Town";
+        $trailTitleThirteen = "Hart to Haswell - Woodland Route";
+        $trailTitleFourteen = "Route 14 - Incomplete";
+        $trailTitleFifteen= "Coastal 1";
+        $trailTitleSixteen = "Coastal 2";
+        $trailTitleSeventeen = "Coastal 3";
+        $trailTitleEighteen = "Coastal 4";
+        $trailTitleNineteen = "Coastal 5";
+        $trailTitleTwenty = "Coastal 6";
+    
+    ?>    
+
 </head>
 <body>
 

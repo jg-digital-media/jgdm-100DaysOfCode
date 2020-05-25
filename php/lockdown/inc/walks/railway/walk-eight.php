@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Walk 8 - Hart to Haswell Right</h3>
+        <h3><?php echo $trailTitleEight; ?></h3>
 
         <p>Following the simple and straight path on the railway line to the right towards the direction Haswell village, ending at Wellfield.</p>
 
     </div>
 
     <div>
-        <img src = "img/walk_homepage/walk-eight-hart-to-haswell-right.jpg" alt = "Walk 8 - Hart to Haswell Right" title="Walk 8 - Hart to Haswell Right" />
+        <img src = "img/walk_homepage/walk-eight-hart-to-haswell-right.jpg" alt = "<?php echo $trailTitleEight; ?>" title="<?php echo $trailTitleEight; ?>" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_eight" title="Open Route">Open Route</a>

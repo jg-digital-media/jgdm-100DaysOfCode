@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Subtitle 20</h3>
+        <h3><?php echo $trailTypeTwenty; ?></h3>
 
         <p>Lorem</p>
 
     </div>
 
     <div>
-        <img src = "img/walk_homepage/#" alt = "Subtitle 20" title="Subtitle 20" />
+        <img src = "img/walk_homepage/#" alt = "<?php echo $trailTypeTwenty; ?>" title="<?php echo $trailTypeTwenty; ?>" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_twenty" title="Open Route">Open Route</a>

@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Walk 11 - Bleachery Dene Main Route</h3>
+        <h3><?php echo $trailTitleEleven; ?></h3>
 
         <p>This Route takes you to the edge of Castle Eden Village; a Woodland area known as Bleachery Dene.</p>
 
     </div>
 
     <div>
-        <img src = "img/walk_homepage/walk-eleven-bleachery-dene.jpg" alt = "Walk 11 - Bleachery Dene Main Route" title="Walk 11 - Bleachery Dene Main Route" />
+        <img src = "img/walk_homepage/walk-eleven-bleachery-dene.jpg" alt = "<?php echo $trailTitleEleven; ?>" title="<?php echo $trailTitleEleven; ?>" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_eleven" title="Open Route">Open Route</a>

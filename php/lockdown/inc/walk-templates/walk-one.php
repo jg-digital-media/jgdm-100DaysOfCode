@@ -2,8 +2,9 @@
 
     $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
     $pageTitle = "Route List #1";
-    $trailType= "trail-template";
-
+    $trailType= "trail-template";    
+    
+    $$trailTitle = trailTitleOne;
 
     $meta_description = "description to go here";
     $meta_keywords = "keywords to go here";
@@ -30,32 +31,32 @@
 
     <article>
 
-        <h2><?php echo "Walk 1 Template"; ?> ddd </h2>
-
-        <h3>Walk Description</h3>
+        <h2><?php echo "Walk 1 Template"; ?> <?php echo $trailTitleOne; ?> </h2>
 
         <div class="template-content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere tempora culpa ab rem numquam saepe libero earum inventore cumque repellat nulla ipsa aspernatur quas, odio mollitia nisi debitis quod veniam!</p>
+
+            <article class="content">
+        
+                <p>This is one of 3 routes that connect to the Yew Tree Route. After you reach the Red Bridge the journey takes 3 alternative routes. This one leads to the A19 Dene entrance closest to the junction between Wingate and Castle Eden Village. </p>
+
+                <ol>
+                    <li>follow the path down to the gate. The Castle will be on your right. Continue on the trail straight.</li>
+                    <li>Keep going  on this path until you reach the red bridge.</li>
+                    <li>Cross the red bridge and take the very next left.</li>
+                    <li>Carry on down the path straight.</li>
+                    <li>Cross the green bridge.</li>
+                    <li>Follow the path up the bank.</li>
+                    <li>A19 entrance to Dene up ahead.</li> 
+                </ol>    
+                
+                <a href="../../index.php" class="back-home">Back Home</a>
+
+            </article>  
 
             <img src="<?php echo $walk_homepage_one; ?>" class="walk-template-img" alt="" title="" />
 
         </div>
 
-        <ul>
-            <a href=""><li> </li></a>
-            <a href=""><li> </li></a>
-            <a href=""><li> </li></a>
-            <a href=""><li> </li></a>
-        </ul>
-
-        <ul>
-        <li><strong>One</strong> lorem</li>
-        <li><strong>Two</strong> ipsum </li>
-        <li><strong>Three</strong> sit </li>
-        <li><strong>Four</strong> dolor </li>
-        </ul>
-
-        <a href="../../index.php" class="back-home">Back Home</a>
 
     </article>
 

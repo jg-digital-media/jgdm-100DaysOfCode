@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Walk 7 - Hesleden Route</h3>
+        <h3><?php echo $trailTitleSeven; ?>></h3>
 
         <p>From the left of the starting point, we cross the main road to the Railway line network leading to the Railway line network. Hesleden is home to a small Dene area where you can loop back towards Castle Eden.</p>
 
     </div>
 
     <div>
-        <img src = "img/walk_homepage/walk-dene-seven-hesleden-route.jpg" alt = "Walk 7 - Hesleden Route" title="Walk 7 - Hesleden Route" />
+        <img src = "img/walk_homepage/walk-dene-seven-hesleden-route.jpg" alt = "<?php echo $trailTitleSeven; ?>" title="<?php echo $trailTitleSeven; ?>" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_seven" title="Open Route">Open Route</a>

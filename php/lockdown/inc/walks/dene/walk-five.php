@@ -4,14 +4,14 @@
 
     <div>
 
-        <h3>Walk Dene 5 - Yew Tree Trail</h3>
+        <h3><?php echo $trailTypeFive; ?></h3>
 
         <p> The Yew Tree Walk is a lengthy loop towards the right of the Dene from the starting point. You will loop backwards toward the Yew Tree Trail with a left 2 after the incline then take one more steep incline followed by the leisurely finish with Castle Eden on our left.</p>
 
     </div>
 
     <div>
-        <img src = "img/walk_homepage/walk-dene-five-yew-tree.jpg" alt = "Walk Dene 5 - Yew Tree Trail" title="Walk Dene 5 - Yew Tree Trail" />
+        <img src = "img/walk_homepage/walk-dene-five-yew-tree.jpg" alt = "<?php echo $trailTypeFive; ?>" title="<?php echo $trailTypeFive; ?>" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_five" title="Open Route">Open Route</a>

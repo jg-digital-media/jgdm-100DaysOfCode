@@ -3,7 +3,8 @@
     $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
     $pageTitle = "Walking Trails in the Castle Eden area";
     $trailType= null;
-
+    
+   
 
     $meta_description = "description to go here";
     $meta_keywords = "keywords to go here";
@@ -26,9 +27,11 @@
         
         <h2>Walking Trails in the Castle Eden area</h2>
 
+        <p>Route Details</p>
+
         <ul class="route-list">
 
-            <li><a href="inc/walk-templates/walk-one.php" title="Red Squirrel Trail #1"><strong>Route 1</strong> - Red Squirrel Trail #1</a></li>
+            <li><a href="inc/walk-templates/walk-one.php" title="Red Squirrel Trail #1"><strong>Route 1</strong> - <?php echo $trailTitleOne; ?> </a></li>
 
             <li><a href="inc/walk-templates/walk-two.php" title="Red Squirrel Trail #2"><strong>Route 2</strong> - Red Squirrel Trail #2</a></li>
 

@@ -28,20 +28,32 @@
 
         p {
             order: 2;
+            line-height: 1.5;
+            padding: 4px;
         }        
         img.walk-template-img {
             width: 90%;
-            width: 67%;
+            width: 67%;width: 55%;
+            display: block;
             order: 1;
-
+            padding: 10px;
+            
             @media (max-width: $xs) {
                 width: 50%;
 
             }
         }
 
+        .back-home {
+            @extend %btn-backhome;
+        }
+        
+
         ul, ol {
             display: block;
+            margin-left: 20px;
+            position: relative;
+            top: 20px;
         }
     }
 

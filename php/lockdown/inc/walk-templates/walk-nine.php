@@ -39,11 +39,10 @@
                 <h3>Trail Details</h3>
 
                 <ol>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Turn right, cross the footpath until you reach the railway line.</li>
+                    <li>Turn left there. </li>
+                    <li>Gateway one</li>
+                    <li>Turn right at gateway 2. This is the entrance to Hesleden Dene</li>
                 </ol>    
                 
                 <a href="../../index.php" class="back-home">Back Home</a>

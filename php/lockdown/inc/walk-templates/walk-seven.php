@@ -40,8 +40,8 @@
 
                 <ol>
                     <li>Turn right, cross the footpath until you reach the railway line turn left there.</li>
-                    <li>gateway one - first marker in the route.</li>
-                    <li>turn right at gateway 2. This is the entrance to Hesleden Dene.</li>
+                    <li>Gateway one - first marker in the route.</li>
+                    <li>Turn right at gateway 2. This is the entrance to Hesleden Dene.</li>
                     <li>Follow the path down until you reach this clearing.</li>
                     <li>cross the green bridge.</li>
                     <li> Up the bank to the edge of Hesleden Dene.</li>

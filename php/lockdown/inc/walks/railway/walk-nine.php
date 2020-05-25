@@ -29,7 +29,7 @@
                     <ol>
                         <li>Turn right, cross the footpath until you reach the railway line.</li>
                         <li>Turn left there. </li>
-                        <li>gateway one</li>
+                        <li>Gateway one</li>
                         <li>turn right at gateway 2. This is the entrance to Hesleden Dene</li>
                     </ol>                            
 

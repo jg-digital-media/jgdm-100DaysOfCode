@@ -4,7 +4,7 @@
 
     <div>
 
-        <h3><?php echo $trailTitleSeven; ?>></h3>
+        <h3><?php echo $trailTitleSeven; ?></h3>
 
         <p>From the left of the starting point, we cross the main road to the Railway line network leading to the Railway line network. Hesleden is home to a small Dene area where you can loop back towards Castle Eden.</p>
 
@@ -28,11 +28,11 @@
 
                     <ol>
                         <li>Turn right, cross the footpath until you reach the railway line turn left there.</li>
-                        <li>gateway one - first marker in the route.</li>
+                        <li>Gateway one - first marker in the route.</li>
                         <li>turn right at gateway 2. This is the entrance to Hesleden Dene.</li>
                         <li>Follow the path down until you reach this clearing.</li>
                         <li>cross the green bridge.</li>
-                        <li> Up the bank to the edge of Hesleden Dene.</li>
+                        <li>Up the bank to the edge of Hesleden Dene.</li>
                     </ol>                     
 
                     <div class="lightbox-slider">

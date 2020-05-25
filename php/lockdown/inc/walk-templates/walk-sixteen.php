@@ -19,7 +19,7 @@
     $selected = "routes";
 
     //Walk Template - Trail URLS
-    $walk_homepage_sixteen = null;
+    $walk_homepage_sixteen ="../../img/walk_homepage/walk-fourteen.jpg";
 ?>
 
 <?php require_once "../../inc/header.php"; ?>
@@ -34,16 +34,16 @@
 
             <article class="content">
         
-                <p></p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos iste quisquam odio aliquid facere impedit odit suscipit dicta placeat asperiores, aspernatur molestiae. Dolores earum magnam voluptate ipsa harum nemo at.</p>
 
                 <h3>Trail Details</h3>
 
                 <ol>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>.</li>
+                    <li>.</li>
+                    <li>.</li>
+                    <li>.</li>
+                    <li>.</li>
                 </ol>    
                 
                 <a href="../../index.php" class="back-home">Back Home</a>

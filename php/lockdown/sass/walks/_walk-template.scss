@@ -51,6 +51,7 @@
         img.walk-template-img {
             order: 1;
             padding: 10px;
+            width: 65%;
 
             @media (max-width: $md) {
                 width: 100%;

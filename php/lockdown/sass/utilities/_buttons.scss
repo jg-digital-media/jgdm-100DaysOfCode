@@ -8,7 +8,7 @@
     text-decoration: none;
 
     &:hover {
-        background: green;
+        background: $button-bg-hov;
     }
 }
 
@@ -26,6 +26,10 @@
     width: 150px;
     text-align: center;
 
+    &:hover {
+        color: $button-bg-hov;
+    }
+
     @media (max-width: $sm) {
         font-weight: bold;
         /*background: lightyellow;*/
@@ -41,9 +45,13 @@
 
 //follow the trail button
 %follow-the-trail {
-    color: green;
+    color: $button-bg;
     background: white;
     padding: 10px;
+
+    &:hover {
+        color: $button-bg-hov;
+    }
 
     a {
         text-decoration: none;

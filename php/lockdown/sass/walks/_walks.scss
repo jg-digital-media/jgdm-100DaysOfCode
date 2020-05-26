@@ -74,8 +74,12 @@
     .lightbox-slider,
     .trail-image,
     .lightbox-link {
-        width: 200px;
+        
+        /*width: 200px; */
         background: none;
+        height: auto;
+        height: 57px;
+        min-height: 68px;
     }
 
 

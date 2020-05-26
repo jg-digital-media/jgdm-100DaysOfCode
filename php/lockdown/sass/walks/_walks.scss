@@ -1,11 +1,12 @@
 
 /*walks partial*/
 .walk {
+
     display: grid;
-    grid-template-columns: 36% 55%;
+    grid-template-columns: 50% 50%;
     margin: 0 auto;
-    /*width: 50%*/
-    /*width: 900px;*/
+    /* width: 50%; */
+    /* width: 900px; */
     width: 90%;
 
     @media (max-width: $sm) {
@@ -31,11 +32,13 @@
     /*background: gray;*/
     /*border-radius: 5px;*/
     /*margin-bottom: 10px;*/
+    padding: 5px;
    
 
     h3 {
 
         font-size: 15pt;
+        margin-bottom: 10px;
     }
 
     p {
@@ -46,6 +49,7 @@
         /*width: 75%;*/
         width: 100%;
         max-width: 400px;
+        max-width: 100%;
         display: block;
         
         @media (max-width: $md) {

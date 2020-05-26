@@ -69,15 +69,24 @@ margin 0 auto -  center alignment*/
       cursor: pointer; }
 
 .lockdown .lockdown-intro .main-btn {
-  font-weight: bold; }
+  font-weight: bold;
+  background: darkgreen;
+  color: white;
+  padding: 10px;
+  text-decoration: none; }
+  .lockdown .lockdown-intro .main-btn:hover {
+    background: green; }
 
 .walk > div a {
   font-weight: bold;
   background: lightyellow;
   padding: 4px;
   position: relative;
-  right: 5px;
-  text-decoration: none; }
+  text-decoration: none;
+  margin: 20px auto;
+  display: block;
+  width: 150px;
+  text-align: center; }
   @media (max-width: 1024px) {
     .walk > div a {
       font-weight: bold;
@@ -156,10 +165,10 @@ nav {
 /*walks partial*/
 .walk {
   display: grid;
-  grid-template-columns: 36% 55%;
+  grid-template-columns: 50% 50%;
   margin: 0 auto;
-  /*width: 50%*/
-  /*width: 900px;*/
+  /* width: 50%; */
+  /* width: 900px; */
   width: 90%; }
   @media (max-width: 1024px) {
     .walk {
@@ -177,15 +186,18 @@ nav {
 .walk > div {
   /*background: gray;*/
   /*border-radius: 5px;*/
-  /*margin-bottom: 10px;*/ }
+  /*margin-bottom: 10px;*/
+  padding: 5px; }
   .walk > div h3 {
-    font-size: 15pt; }
+    font-size: 15pt;
+    margin-bottom: 10px; }
   .walk > div p {
     line-height: 1.6; }
   .walk > div img {
     /*width: 75%;*/
     width: 100%;
     max-width: 400px;
+    max-width: 100%;
     display: block; }
     @media (max-width: 1100px) {
       .walk > div img {

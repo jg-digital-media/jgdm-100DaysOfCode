@@ -1,10 +1,30 @@
 footer {
     width: 100%;
 
-    p {
-        margin: 20px 0;
+    p {        
         font-weight: bold;
         text-align: center;
+        background: #54b354;
+        padding: 10px;
+        border: solid white 2px;
+        border-radius: 10px;
+        width: 220px;
+        margin: 20px auto;
+        color: white;
+        font-size: 12px;
+
+        @media (max-width: $sm) {
+            width: 80%;
+            padding: 20px 5px;
+        }
+
+        a {
+            color: white;
+            &:hover {
+                text-decoration: none;
+            }
+            
+        }
 
     }
 }

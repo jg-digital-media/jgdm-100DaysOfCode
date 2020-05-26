@@ -1,13 +1,11 @@
-    
-                
+                    
         <footer>
-            <p>&copy; Jonnie Grieve Digital Media 2020</p>
+            <p> &copy; <a href="httos://www.jonniegrieve.co.uk">Jonnie Grieve Digital Media (2020)</a> All Rights Reserved </p>
         </footer>
 
         <?php
     
         if ($trailType !== "trail-template") : ?>
-
     
             <script src="scripts/jquery.js"></script>
             <script src="assets/slick/slick.js"></script>
@@ -33,6 +31,7 @@
             <?php endif; ?>   
 
         <?php endif ?>
+
     </body>
 </html>
 

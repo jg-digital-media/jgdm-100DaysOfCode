@@ -367,9 +367,11 @@ nav {
 
 .dene {
   border: solid 1px black;
+  /*width: 60%;*/
+  /*display: grid;*/
   margin: 0 auto;
   padding: 15px;
-  /*display: grid*/ }
+  background: #d3d3d3; }
   @media (min-width: 1500px) {
     .dene {
       /*color: red;*/
@@ -392,9 +394,11 @@ nav {
 
 .railway {
   border: solid 1px black;
+  /*width: 60%;*/
+  /*display: grid;*/
   margin: 0 auto;
   padding: 15px;
-  /*display: grid*/ }
+  background: #d3d3d3; }
   @media (min-width: 1500px) {
     .railway {
       /*color: red;*/
@@ -417,9 +421,10 @@ nav {
 
 .coastal {
   border: solid 1px black;
+  /*display: grid;*/
   margin: 0 auto;
   padding: 15px;
-  /*display: grid*/ }
+  background: #d3d3d3; }
   .coastal p {
     font-weight: bold;
     /**/
@@ -446,10 +451,11 @@ nav {
 
 .routes {
   border: solid 1px black;
-  display: block;
-  margin: 0 auto;
   /*width: 60%;*/
-  padding: 15px; }
+  /*display: block;*/
+  margin: 0 auto;
+  padding: 15px;
+  background: #d3d3d3; }
   @media (min-width: 1500px) {
     .routes {
       width: 1450px;

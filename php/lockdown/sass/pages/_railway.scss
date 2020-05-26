@@ -1,9 +1,9 @@
 .railway {   
     
     border: solid 1px black;
-    margin: 0 auto;
-    padding: 15px;
-    /*display: grid*/
+    /*width: 60%;*/
+    /*display: grid;*/
+    @include section-layout(0 auto, 15px, #d3d3d3);
 
     h2 {
         @extend %trail-type-headings;

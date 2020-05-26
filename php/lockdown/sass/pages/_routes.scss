@@ -1,10 +1,9 @@
 .routes {
     
     border: solid 1px black;
-    display: block;
-    margin: 0 auto;
     /*width: 60%;*/
-    padding: 15px;
+    /*display: block;*/
+    @include section-layout(0 auto, 15px, #d3d3d3);
 
     @media (min-width: $xl) {
         width: 1450px;

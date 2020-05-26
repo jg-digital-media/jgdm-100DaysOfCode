@@ -48,16 +48,16 @@
         <ul>
             <h3>Featured Trails - Castle Eden Dene</h3>
 
-            <li><a href="inc/walk-templates/walk-one.php" class="route-list-item" title="Red Squirrel Trail #1">Red Squirrel Trail #1</a</li>
-            <li><a href="inc/walk-templates/walk-two.php" class="route-list-item" title="Red Squirrel Trail #2">Red Squirrel Trail #2</a></li>
-            <li><a href="inc/walk-templates/walk-three.php" class="route-list-item" title="Red Squirrel Trail: #3">Red Squirrel Trail #2</a></li>
-            <li><a href="inc/walk-templates/walk-four.php" class="route-list-item" title="Horden Trail: Route 4">Horden Trail: Route 4</a></li>
+            <li><a href="inc/walk-templates/walk-one.php" class="route-list-item" title=<?php echo $trailTitleOne; ?>"><?php echo $trailTitleOne; ?></a</li>
+            <li><a href="inc/walk-templates/walk-two.php" class="route-list-item" title="<?php echo $trailTitleTwo; ?>"><?php echo $trailTitleTwo; ?></a></li>
+            <li><a href="inc/walk-templates/walk-three.php" class="route-list-item" title="<?php echo $trailTitleThree; ?>"><?php echo $trailTitleThree; ?></a></li>
+            <li><a href="inc/walk-templates/walk-four.php" class="route-list-item" title="<?php echo $trailTitleFour; ?>"><?php echo $trailTitleFour; ?>4</a></li>
 
             <h3>Featured Trails: Hart to Haswell Trail</h3>
 
-            <li><a href="inc/walk-templates/walk-seven.php" class="route-list-item" title="Hesleden Trail">Helseden Trail</a></li>
-            <li><a href="inc/walk-templates/walk-eight.php" class="route-list-item" title="Walk 8: Haswell to Hart">Walk 8: Hart to Haswell</a></li>
-            <li><a href="inc/walk-templates/walk-nine.php" class="route-list-item" title="Walk 9: Hart to Haswell">Walk 9: Haswell to Hart</a></li>
+            <li><a href="inc/walk-templates/walk-seven.php" class="route-list-item" title="<?php echo $trailTitleSeven; ?>"><?php echo $trailTitleSeven; ?></a></li>
+            <li><a href="inc/walk-templates/walk-eight.php" class="route-list-item" title="<?php echo $trailTitleEight; ?>"><?php echo $trailTitleEight; ?></a></li>
+            <li><a href="inc/walk-templates/walk-nine.php" class="route-list-item" title="<?php echo $trailTitleNine; ?>"><?php echo $trailTitleNine; ?></a></li>
 
 
             

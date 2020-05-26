@@ -33,6 +33,11 @@
     /*border-radius: 5px;*/
     /*margin-bottom: 10px;*/
     padding: 5px;
+
+    
+    @media (max-width: $md) {
+
+    }
    
 
     h3 {
@@ -55,6 +60,7 @@
         @media (max-width: $md) {
                 /*width: 75%;*/
                 width: 100%;
+                max-width: 100%;
         }
     }
     

@@ -16,6 +16,8 @@
 %walk-btn {    
     font-weight: bold;
     background: lightyellow;
+    background: darkgreen;
+    color: $button-col;
     padding: 4px;
     position: relative;
     text-decoration: none;
@@ -27,12 +29,12 @@
     @media (max-width: $sm) {
         font-weight: bold;
         /*background: lightyellow;*/
-        padding: 4px;
+        padding: 10px 0px;
         position: relative;
         /* right: 5px; */
         display: block;
         width: 100%;
-        margin: 5px auto;
+        margin: 10px auto;
         text-align: center;
     }
 }

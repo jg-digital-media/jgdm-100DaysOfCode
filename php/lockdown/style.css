@@ -48,8 +48,11 @@ margin 0 auto -  center alignment*/
     color: white;
     margin-left: 5px;
     padding-left: 5px; }
+    .modal ul li, .modal ol li {
+      line-height: 1.6; }
   .modal .modal-content {
     background-color: #16a054df;
+    background-color: #0c6e0c;
     border-radius: 8px;
     margin: 15% auto;
     /* 15% from the top and centered */
@@ -58,6 +61,13 @@ margin 0 auto -  center alignment*/
     width: 80%;
     /* Could be more or less, depending on screen size */
     width: 45%; }
+    @media (min-width: 720px) {
+      .modal .modal-content {
+        width: 650px; } }
+    @media (max-width: 1100px) {
+      .modal .modal-content {
+        width: 90%;
+        width: 75%; } }
   .modal .close {
     color: #aaa;
     float: right;
@@ -70,7 +80,7 @@ margin 0 auto -  center alignment*/
 
 .lockdown .lockdown-intro .main-btn {
   font-weight: bold;
-  background: darkgreen;
+  background: #0c6e0c;
   color: white;
   padding: 10px;
   text-decoration: none; }
@@ -80,6 +90,8 @@ margin 0 auto -  center alignment*/
 .walk > div a {
   font-weight: bold;
   background: lightyellow;
+  background: #0c6e0c;
+  color: white;
   padding: 4px;
   position: relative;
   text-decoration: none;
@@ -87,37 +99,45 @@ margin 0 auto -  center alignment*/
   display: block;
   width: 150px;
   text-align: center; }
+  .walk > div a:hover {
+    color: green; }
   @media (max-width: 1024px) {
     .walk > div a {
       font-weight: bold;
       /*background: lightyellow;*/
-      padding: 4px;
+      padding: 10px 0px;
       position: relative;
       /* right: 5px; */
       display: block;
       width: 100%;
-      margin: 5px auto;
+      margin: 10px auto;
       text-align: center; } }
 
 .walk > div .follow-trail {
-  color: green;
+  color: #0c6e0c;
   background: white;
   padding: 10px; }
+  .walk > div .follow-trail:hover {
+    color: green; }
   .walk > div .follow-trail a {
     text-decoration: none; }
 
 .walk-template .template-content .back-home {
+  display: block;
   margin: 20px;
   padding: 10px;
-  background: red;
-  display: block;
-  width: 113px;
-  color: white; }
+  background: #0c6e0c;
+  width: 115px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px; }
 
-.dene h2, .railway h2, .coastal h2, .routes h2 {
+.walk-template, .dene h2, .railway h2, .coastal h2, .routes h2 {
   color: blue;
   font-size: 15pt;
-  padding-left: 5px; }
+  margin: 10px 0;
+  text-align: center; }
 
 .dene p, .railway p, .coastal p {
   line-height: 1.5; }
@@ -209,51 +229,71 @@ nav {
     @media (max-width: 1100px) {
       .walk > div img {
         /*width: 75%;*/
-        width: 100%; } }
+        width: 100%;
+        max-width: 100%; } }
   .walk > div .lightbox-slider,
   .walk > div .trail-image,
   .walk > div .lightbox-link {
-    width: 200px;
-    background: none; }
+    /*width: 200px; */
+    background: none;
+    height: auto;
+    height: 57px;
+    min-height: 68px; }
 
 /*walk-template.scss*/
 .walk-template {
   border: solid 1px black;
-  display: block;
+  /*display: block;*/
+  /*width: 60%;*/
   margin: 0 auto;
-  width: 60%; }
+  padding: 15px;
+  background: #d3d3d3; }
   @media (min-width: 1500px) {
     .walk-template {
       width: 1450px; } }
   @media (max-width: 720px) {
     .walk-template {
-      width: 40%; } }
+      width: 75%; } }
   .walk-template h2 {
     font-size: 15pt;
     color: blue; }
   .walk-template .template-content {
     display: flex;
     border: solid black 1px;
-    flex-direction: row-reverse; }
+    flex-direction: row-reverse;
+    color: black;
+    text-align: left; }
+    @media (max-width: 1100px) {
+      .walk-template .template-content {
+        flex-direction: column-reverse; } }
     .walk-template .template-content p {
       order: 2;
       line-height: 1.5;
-      padding: 4px; }
+      padding: 5px; }
+      @media (max-width: 1100px) {
+        .walk-template .template-content p {
+          padding: 5px 0;
+          font-size: 12px; } }
+    .walk-template .template-content h3 {
+      margin: 15px 0; }
     .walk-template .template-content img.walk-template-img {
-      width: 90%;
-      width: 67%;
-      width: 55%;
-      display: block;
       order: 1;
-      padding: 10px; }
+      padding: 10px;
+      width: 65%; }
+      @media (max-width: 1100px) {
+        .walk-template .template-content img.walk-template-img {
+          width: 100%;
+          display: block;
+          margin: 0 auto;
+          padding: 10px 0; } }
       @media (max-width: 720px) {
         .walk-template .template-content img.walk-template-img {
-          width: 50%; } }
+          /*width: 50%;*/ } }
     .walk-template .template-content ul, .walk-template .template-content ol {
       display: block;
       margin-left: 20px;
       position: relative;
-      top: 20px; }
+      font-size: 10pt; }
 
 .lockdown {
   display: grid;
@@ -291,7 +331,9 @@ nav {
     text-align: center; }
   .lockdown .home-image {
     /*width: 80%;*/
-    width: 95%; }
+    width: 95%;
+    position: relative;
+    bottom: 5px; }
   .lockdown .route-list ul {
     list-style-type: none;
     position: relative;
@@ -300,7 +342,8 @@ nav {
       margin: 5px 0; }
       .lockdown .route-list ul li a {
         color: red;
-        font-size: 12px; }
+        font-size: 12px;
+        line-height: 1.9; }
         .lockdown .route-list ul li a:hover {
           text-decoration: none; }
 

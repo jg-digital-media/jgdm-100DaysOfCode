@@ -2,10 +2,9 @@
     
     display: grid;
     /*width: 100%;*/  //redundant?
-    border: solid 1px black;
-    padding: 15px;
     grid-template-columns: minmax(30%, 50%) 1fr 1fr;
-    margin: 0 auto;
+    /*display: grid;*/
+    @include section-layout(0 auto, 15px, #d3d3d3);
 
     @media (min-width: $xl) {
         /*color: red;*/
@@ -50,7 +49,8 @@
     }
 
     .home-image {
-        width: 80%;
+        /*width: 80%;*/
+        width: 95%;
     }
 
     .route-list {
@@ -83,9 +83,11 @@
     /*background: black;*/
     border: solid red 1px;
     width: 95%;
+    background: #d3d3d3;
 
     h3 {
         text-align: center;
+        margin: 15px 0;
     }
 
     // route slider styles - no slick carousel

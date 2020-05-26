@@ -2,6 +2,13 @@
 body {
     background: $body-bg;
     font-family: $main-font;
+
+    //background images
+    background-image: url("img/panoramic-dene.jpg");
+    background-size: 100% 100%;
+    background-position: fixed;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
 }
 
 header {
@@ -19,24 +26,21 @@ header {
     }
 }
 
-a.selected {
-    font-weight: bold;
-    border-bottom: solid 2px $nav-bg-selected;
-}
-
 nav {
+    
+    background: $main-header-bg;    
+    background: $nav-bg;
     height: 50px;
     width: 100%;
     text-align: center;
-    margin: 5px 0;
+    /*margin: 5px 0;*/
 
     ul {
-
 
         li {
             display: inline-block;
             /*background: beige;*/
-            background: $nav-bg;
+            /*background: $nav-bg;*/
             padding: 10px;
             border-radius: 50%;
 
@@ -50,7 +54,13 @@ nav {
                 color: $nav-link-col;
                 &:hover {
                     color: $nav-link-col-hov;
+                    border-bottom: solid 2px $nav-bg-selected;
                 }
+            }
+            
+            a.selected {
+                font-weight: bold;
+                border-bottom: solid 2px $nav-bg-selected;
             }
         }
     }

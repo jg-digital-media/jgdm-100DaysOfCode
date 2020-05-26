@@ -1,15 +1,15 @@
 $body-bg: #d3d3d3;
 
-$main-header-bg: #90ee90;
-$main-header-col: black;
+$main-header-bg: #0c6e0c;
+$main-header-col: white;
 
 $section-bg:  #d3d3d3;
 $section-col: black;
 
-$nav-link-col: black;
-$nav-link-col-hov: gray;
-$nav-bg: lightgreen;
+$nav-link-col: white;    //black
+$nav-link-col-hov: #ffc830;
+$nav-bg: $main-header-bg;  //lightgreen  0c5ec0c
 $nav-bg-selected: blue;
 
 $background_btn:  black;
-$background_col: black
+$background_col: blacks

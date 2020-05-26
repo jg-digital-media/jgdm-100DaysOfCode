@@ -39,7 +39,7 @@
 
     <article class="lockdown-img">
 
-        <img src="img/home.jpg" class="home-image" alt="lockdown image" title="lockdown image" />
+        <img src="img/visitor_home.jpg" class="home-image" alt="Castle Eden Visitor Center - located around the Walk Trails of the Dene" title="Castle Eden Visitor Center - located around the Walk Trails of the Dene" />
 
     </article>
 

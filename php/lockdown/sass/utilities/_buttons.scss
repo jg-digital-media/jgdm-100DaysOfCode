@@ -2,7 +2,7 @@
 //main route button
 %route-btn {
     font-weight: bold;
-    background: darkgreen;
+    background: $button-bg;
     color: white;
     padding: 10px;
     text-decoration: none;
@@ -16,7 +16,7 @@
 %walk-btn {    
     font-weight: bold;
     background: lightyellow;
-    background: darkgreen;
+    background: $button-bg;
     color: $button-col;
     padding: 4px;
     position: relative;
@@ -52,11 +52,15 @@
 
 //walk templates back home button    
 %btn-backhome {
+    
+    display: block;
     margin: 20px;
     padding: 10px;
-    background: red;
-    display: block;
-    width: 113px;
+    background: $button-bg;
+    width: 115px;
     color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
 
 }

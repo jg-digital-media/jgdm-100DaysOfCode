@@ -2,12 +2,22 @@
 /*walks partial*/
 .walk {
 
+    //style 1 for testing.
     display: grid;
     grid-template-columns: 50% 50%;
     margin: 0 auto;
-    /* width: 50%; */
-    /* width: 900px; */
     width: 90%;
+
+   /*  style 2 for testing
+   
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+    width: 90%;
+    margin: 70px 0;
+    padding: 15px;
+    background: #232345;
+    border-radius: 14px; */    
 
     @media (max-width: $sm) {
         display: grid;

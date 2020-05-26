@@ -8,6 +8,12 @@ ___
 
 
 
+### R4D90:  Tuesday 26 May 2020
++ **Notes**  
+  +  Finalised most of the styling for the PHP website.  Confident of being able to put it live before the end of the week and I can't wait to release it.
+
++ **Technologies used** - HTML5, CSS PHP
+
 ### R4D89:  Monday 25 May 2020
 + **Notes**  
   +  Bank Holiday session to polish off the rest of the currently available content on my new website.  Now to concentrate on the styling before putting it live!

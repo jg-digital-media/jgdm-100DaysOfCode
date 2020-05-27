@@ -33,7 +33,7 @@
         
         <p>I feel so lucky that I've had so many safe and green spaces to go to while the UK was in Lockdown. So I created this website as something nice to remember this strange period by.</p>
 
-        <a href="routes.php" class="main-btn" title="Go to Routes page" target="self">Walk Trail List</a>
+        <a href="routes.php" class="main-btn" title="Go to Routes List Page">Walk Trail List</a>
 
     </article>
 

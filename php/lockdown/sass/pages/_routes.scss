@@ -51,5 +51,15 @@
                 text-decoration: none;
             }
         }
+
+        .trail-type { 
+            color: black;
+            font-size: 11px;
+            display: inline;
+            margin-left: 5px;
+            text-transform: lowercase;
+            font-style: italic;
+            vertical-align: middle;
+        }
     }
 }

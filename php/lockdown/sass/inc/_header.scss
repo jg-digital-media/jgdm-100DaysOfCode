@@ -34,21 +34,18 @@ nav {
     width: 100%;
     text-align: center;
     border-bottom: white solid 3px;
-    /*margin: 5px 0;*/
 
     ul {
 
         li {
             display: inline-block;
-            /*background: beige;*/
-            /*background: $nav-bg;*/
             padding: 10px;
             border-radius: 50%;
 
             @media (max-width: $sm) {
                 //nav ul li
                 padding: 10px 2px;
-            } /**/
+            } 
 
             a {
                 text-decoration: none;
@@ -57,13 +54,13 @@ nav {
 
                 &:hover {
                     color: $nav-link-col-hov;
-                    border-bottom: solid 2px $nav-bg-selected;
+                    /*border-bottom: solid 3px $nav-bg-selected;*/
                 }
             }
             
             a.selected {
                 color: $nav-bg-selected;
-                border-bottom: solid 2px $nav-bg-selected;
+                border-bottom: solid 3px $nav-bg-selected;
             }
         }
     }

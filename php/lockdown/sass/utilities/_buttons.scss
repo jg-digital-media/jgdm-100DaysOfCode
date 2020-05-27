@@ -18,18 +18,19 @@
     background: lightyellow;
     background: $button-bg;
     color: $button-col;
-    padding: 4px;
+    padding: 10px;
     position: relative;
     text-decoration: none;
     margin: 20px auto;
     display: block;
     width: 150px;
     text-align: center;
-
-    &:hover {
-        color: $button-bg-hov;
-    }
-
+    /* 
+        &:hover {
+            background: $button-bg-hov;
+            color: $button-col-hov;
+        }
+    */
     @media (max-width: $sm) {
         font-weight: bold;
         /*background: lightyellow;*/
@@ -45,12 +46,16 @@
 
 //follow the trail button
 %follow-the-trail {
-    color: $button-bg;
+    color: black;
     background: white;
     padding: 10px;
 
+    border: solid 3px black;
+    border: solid 3px #044a04;
+    border-radius: 10px;
+
     &:hover {
-        color: $button-bg-hov;
+        color: $button-bg;
     }
 
     a {

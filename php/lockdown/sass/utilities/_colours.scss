@@ -22,3 +22,4 @@ $button-bg: $main-header-bg;
 $button-bg: $main-header-bg;
 $button-bg-hov: green; 
 $button-col: white;
+$button-col-hov: lighten($button-bg-hov, 15%);

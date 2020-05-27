@@ -48,7 +48,7 @@
         <ul>
             <h3>Featured Trails - Castle Eden Dene</h3>
 
-            <li><a href="inc/walk-templates/dene/walk-one.php" class="route-list-item" title=<?php echo $trailTitleOne; ?>"><?php echo $trailTitleOne; ?></a</li>
+            <li><a href="inc/walk-templates/dene/walk-one.php" class="route-list-item" title="<?php echo $trailTitleOne; ?>"><?php echo $trailTitleOne; ?></a</li>
             <li><a href="inc/walk-templates/dene/walk-two.php" class="route-list-item" title="<?php echo $trailTitleTwo; ?>"><?php echo $trailTitleTwo; ?></a></li>
             <li><a href="inc/walk-templates/dene/walk-three.php" class="route-list-item" title="<?php echo $trailTitleThree; ?>"><?php echo $trailTitleThree; ?></a></li>
             <li><a href="inc/walk-templates/dene/walk-four.php" class="route-list-item" title="<?php echo $trailTitleFour; ?>"><?php echo $trailTitleFour; ?>4</a></li>

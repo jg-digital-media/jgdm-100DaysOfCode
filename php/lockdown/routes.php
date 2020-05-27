@@ -27,7 +27,7 @@
         
         <h2>Walking Trails in the Castle Eden area</h2>
 
-        <p>&nbsp;</p>
+        <p>&nbsp;git</p>
 
         <ul class="route-list">
 

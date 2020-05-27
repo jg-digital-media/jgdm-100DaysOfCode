@@ -64,17 +64,16 @@ btnTwelve.onclick = function() {
     //console.log("modal 3 clicked!");
 }
 
+/* //modal thirteen and fourteen
 btnThirteen.onclick = function() {
     modalThirteen.style.display = "block";
     //console.log("modal 3 clicked!");
 }
 
 btnFourteen.onclick = function() {
-    modalFourteen.style.display = "block";
+    btnFourteen.style.display = "block";
     //console.log("modal 3 clicked!");
-}
-
-
+} */
 
 //Close Modals
 closeSeven.onclick = function() {
@@ -87,6 +86,7 @@ window.onclick = function(event) {
         modalSeven.style.display = "none";
     }
 }
+
 
 closeEight.onclick = function() {
     modalEight.style.display = "none";
@@ -147,7 +147,7 @@ window.onclick = function(event) {
     }
 }
 
-
+/* 
 closeThirteen.onclick = function() {
     modalThirteen.style.display = "none";
     console.log("modal closed!");
@@ -169,4 +169,4 @@ window.onclick = function(event) {
     if (event.target == modalFourteen) {
         modalFourteen.style.display = "none";
     }
-}
+} */

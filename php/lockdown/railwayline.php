@@ -37,9 +37,7 @@
 
         <p><?php require("inc/walks/railway/walk-twelve.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/railway/walk-thirteen.php"); ?> </p> <!-- -->
-
-        <p><?php require("inc/walks/railway/walk-fourteen.php"); ?> </p> <!-- -->  
+        <!-- walk-thirteen walk-fourteen.php -->
 
     </section>
 

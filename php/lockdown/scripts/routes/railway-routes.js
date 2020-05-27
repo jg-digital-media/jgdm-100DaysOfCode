@@ -60,7 +60,7 @@ btnEleven.onclick = function() {
 }
 
 btnTwelve.onclick = function() {
-    modalNine.style.display = "block";
+    modalTwelve.style.display = "block";
     //console.log("modal 3 clicked!");
 }
 

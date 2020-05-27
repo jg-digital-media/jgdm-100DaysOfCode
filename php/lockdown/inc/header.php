@@ -63,16 +63,16 @@
         $trailTitleEight = "Walk 8 - Hart to Haswell Right";
         $trailTitleNine = "Walk 9 - Hart to Haswell left";
         $trailTitleTen = "Walk 10 - Bleachery Dene left";
-        $trailTitleEleven = "Walk 11 - Bleachery Dene Main Route1";
+        $trailTitleEleven = "Walk 11 - Bleachery Dene Main Route";
         $trailTitleTwelve = "Walk 12 - To Station Town";
-        $trailTitleThirteen = "Hart to Haswell - Woodland Route";
-        $trailTitleFourteen = "Route 14 - Incomplete";
-        $trailTitleFifteen= "Coastal 1";
-        $trailTitleSixteen = "Coastal 2";
-        $trailTitleSeventeen = "Coastal 3";
-        $trailTitleEighteen = "Coastal 4";
-        $trailTitleNineteen = "Coastal 5";
-        $trailTitleTwenty = "Coastal 6";
+        $trailTitleThirteen = "Hart to Haswell - Woodland Route (Incomplete)";
+        $trailTitleFourteen = "Route 14 - (Incomplete)";
+        $trailTitleFifteen= "Coastal 1 (Incomplete)";
+        $trailTitleSixteen = "Coastal 2 (Incomplete)";
+        $trailTitleSeventeen = "Coastal 3 (Incomplete)";
+        $trailTitleEighteen = "Coastal 4 (Incomplete)";
+        $trailTitleNineteen = "Coastal 5 (Incomplete)";
+        $trailTitleTwenty = "Coastal 6 (Incomplete)";
     
     ?>    
 

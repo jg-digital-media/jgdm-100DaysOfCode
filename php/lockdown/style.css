@@ -151,7 +151,7 @@ margin 0 auto -  center alignment*/
 
 body {
   background: #d3d3d3;
-  font-family: arial;
+  font-family: "Oxygen", arial, sans-serif;
   background-image: url("img/panoramic-dene.jpg");
   background-size: 100% 100%;
   background-position: fixed;

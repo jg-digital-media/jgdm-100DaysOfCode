@@ -73,6 +73,32 @@
         $trailTitleEighteen = "Coastal 4 (Incomplete)";
         $trailTitleNineteen = "Coastal 5 (Incomplete)";
         $trailTitleTwenty = "Coastal 6 (Incomplete)";
+
+        $trailTypeCoastal = "Coastal";
+        $trailTypeDene = "Dene";
+        $trailTypeRailwayLine = "RailwayLine Network";
+
+        $trailTypeOne = "";
+        $trailTypeTwo = "";
+        $trailTypeThree = "";
+        $trailTypeThree = "";
+        $trailTypeFour = "";
+        $trailTypeFive = "";
+        $trailTypeSix = "";
+        $trailTypeSeven = "";
+        $trailTypeEight = "";
+        $trailTypeNine = "";
+        $trailTypeTen = "";
+        $trailTypeEleven = "";
+        $trailTypeTwelve = "";
+        $trailTypeThirteen = "";
+        $trailTypeFourteen = "";
+        $trailTypeFifteen = "";
+        $trailTypeSixteen = "";
+        $trailTypeSeventeen = "";
+        $trailTypeEighteen = "";
+        $trailTypeNineteen = "";
+        $trailTypeTwenty = "";
     
     ?>    
 

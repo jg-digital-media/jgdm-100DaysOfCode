@@ -175,15 +175,11 @@ nav {
   height: 50px;
   width: 100%;
   text-align: center;
-  border-bottom: white solid 3px;
-  /*margin: 5px 0;*/ }
+  border-bottom: white solid 3px; }
   nav ul li {
     display: inline-block;
-    /*background: beige;*/
-    /*background: $nav-bg;*/
     padding: 10px;
-    border-radius: 50%;
-    /**/ }
+    border-radius: 50%; }
     @media (max-width: 1024px) {
       nav ul li {
         padding: 10px 2px; } }
@@ -193,10 +189,10 @@ nav {
       font-weight: bold; }
       nav ul li a:hover {
         color: #ffe48c;
-        border-bottom: solid 2px #ffe48c; }
+        /*border-bottom: solid 3px $nav-bg-selected;*/ }
     nav ul li a.selected {
       color: #ffe48c;
-      border-bottom: solid 2px #ffe48c; }
+      border-bottom: solid 3px #ffe48c; }
 
 /*walks partial*/
 .walk {
@@ -554,6 +550,14 @@ nav {
       font-size: 12px; }
       .routes .route-list li a:hover {
         text-decoration: none; }
+    .routes .route-list .trail-type {
+      color: black;
+      font-size: 11px;
+      display: inline;
+      margin-left: 5px;
+      text-transform: lowercase;
+      font-style: italic;
+      vertical-align: middle; }
 
 footer {
   width: 100%; }

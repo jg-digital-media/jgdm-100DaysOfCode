@@ -41,12 +41,13 @@
 
                         <!-- walks project website URLS -->
 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-thirteen/IMG_20200506_150940.jpg" data-lightbox="walk-thirteen" data-title="This is a caption 1 route thirteen" class="lightbox-link"> 
+                        
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-thirteen/IMG_20200506_135349.jpg" data-lightbox="walk-thirteen" data-title="" class="lightbox-link">
                             <div class="follow-trail">Follow the Trail</div>
-                        </a>
+                            </a>
 
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-thirteen/IMG_20200506_150940.jpg" data-lightbox="walk-thirteen" data-title="This is a caption 1 route thirteen" class="lightbox-link"></a>
                         <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-thirteen/IMG_20200506_150923.jpg" data-lightbox="walk-thirteen" data-title="This is a caption 2 route thirteen" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-thirteen/IMG_20200506_150722.jpg" data-lightbox="walk-thirteen" data-title="This is a caption 3 route thirteen" class="lightbox-link"></a>
                         <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-thirteen/IMG_20200506_150707.jpg" data-lightbox="walk-thirteen" data-title="This is a caption 3 route thirteen" class="lightbox-link"></a>
                         <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-thirteen/IMG_20200506_150145.jpg" data-lightbox="walk-thirteen" data-title="This is a caption 3 route thirteen" class="lightbox-link"></a>
                         <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-thirteen/IMG_20200506_145122.jpg" data-lightbox="walk-thirteen" data-title="This is a caption 3 route thirteen" class="lightbox-link"></a>
@@ -55,9 +56,8 @@
                         <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-thirteen/IMG_20200506_141305.jpg" data-lightbox="walk-thirteen" data-title="This is a caption 3 route thirteen" class="lightbox-link"></a>
                         <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-thirteen/IMG_20200506_141252.jpg" data-lightbox="walk-thirteen" data-title="This is a caption 3 route thirteen" class="lightbox-link"></a>
                         <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-thirteen/IMG_20200506_141206.jpg" data-lightbox="walk-thirteen" data-title="This is a caption 3 route thirteen" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-thirteen/IMG_20200506_141156.jpg" data-lightbox="walk-thirteen" data-title="This is a caption 3 route thirteen" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-thirteen/IMG_20200506_135401.jpg" data-lightbox="walk-thirteen" data-title="This is a caption 3 route thirteen" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-thirteen/IMG_20200506_135349.jpg" data-lightbox="walk-thirteen" data-title="This is a caption 3 route thirteen" class="lightbox-link"></a>
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-thirteen/IMG_20200506_141156.jpg" data-lightbox="walk-thirteen" data-title="This is a caption 3 route thirteen" class="lightbox-link"></a>                        
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-thirteen/IMG_20200506_150722.jpg" data-lightbox="walk-thirteen" data-title="This is a caption 3 route thirteen" class="lightbox-link"></a>
                        
 
                         <!-- walks directories

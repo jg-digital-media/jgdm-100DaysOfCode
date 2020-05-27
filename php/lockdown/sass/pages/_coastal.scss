@@ -1,7 +1,9 @@
-.coastal {
+.coastal {  
+      
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
     
-    border: solid 1px black;
-    /*display: grid;*/
     
     @include section-layout(0 auto, 15px, #d3d3d3);
 

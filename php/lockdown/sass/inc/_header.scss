@@ -33,6 +33,7 @@ nav {
     height: 50px;
     width: 100%;
     text-align: center;
+    border-bottom: white solid 3px;
     /*margin: 5px 0;*/
 
     ul {
@@ -52,6 +53,8 @@ nav {
             a {
                 text-decoration: none;
                 color: $nav-link-col;
+                font-weight: bold;
+
                 &:hover {
                     color: $nav-link-col-hov;
                     border-bottom: solid 2px $nav-bg-selected;
@@ -59,7 +62,7 @@ nav {
             }
             
             a.selected {
-                font-weight: bold;
+                color: $nav-bg-selected;
                 border-bottom: solid 2px $nav-bg-selected;
             }
         }

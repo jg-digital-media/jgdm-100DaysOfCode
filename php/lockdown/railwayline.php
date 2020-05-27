@@ -25,17 +25,17 @@
         
         <h2>Walking Trails: Hart to Haswell Network</h2>
         
-        <p><?php require("inc/walks/railway/walk-seven.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walk-modals/railway/walk-seven.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/railway/walk-eight.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walk-modals/railway/walk-eight.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/railway/walk-nine.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walk-modals/railway/walk-nine.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/railway/walk-ten.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walk-modals/railway/walk-ten.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/railway/walk-eleven.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walk-modals/railway/walk-eleven.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/railway/walk-twelve.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walk-modals/railway/walk-twelve.php"); ?> </p> <!-- -->
 
         <!-- walk-thirteen walk-fourteen.php -->
 

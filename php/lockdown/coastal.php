@@ -27,17 +27,17 @@
 
         <p>Details of Coastal Routes coming very soon!  <em>Very Soon!</em>  :-)</p>
 
-        <p><?php /*require("inc/walks/coastal/walk-fifteen.php");*/ ?> </p> 
+        <p><?php /*require("inc/walk-modals/coastal/walk-fifteen.php");*/ ?> </p> 
 
-        <p><?php /*require("inc/walks/coastal/walk-sixteen.php");*/ ?> </p> 
+        <p><?php /*require("inc/walk-modals/coastal/walk-sixteen.php");*/ ?> </p> 
 
-        <p><?php /*require("inc/walks/coastal/walk-seventeen.php");*/ ?> </p> 
+        <p><?php /*require("inc/walk-modals/coastal/walk-seventeen.php");*/ ?> </p> 
 
-        <p><?php /*require("inc/walks/coastal/walk-eighteen.php");*/ ?> </p>
+        <p><?php /*require("inc/walk-modals/coastal/walk-eighteen.php");*/ ?> </p>
          
-        <p><?php /*require("inc/walks/coastal/walk-nineteen.php");*/ ?> </p> 
+        <p><?php /*require("inc/walk-modals/coastal/walk-nineteen.php");*/ ?> </p> 
         
-        <p><?php /*require("inc/walks/coastal/walk-twenty.php");*/ ?> </p> 
+        <p><?php /*require("inc/walk-modals/coastal/walk-twenty.php");*/ ?> </p> 
 
     </section>
 

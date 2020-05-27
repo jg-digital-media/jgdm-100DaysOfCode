@@ -48,25 +48,26 @@
         <ul>
             <h3>Featured Trails - Castle Eden Dene</h3>
 
-            <li><a href="inc/walk-templates/walk-one.php" class="route-list-item" title=<?php echo $trailTitleOne; ?>"><?php echo $trailTitleOne; ?></a</li>
-            <li><a href="inc/walk-templates/walk-two.php" class="route-list-item" title="<?php echo $trailTitleTwo; ?>"><?php echo $trailTitleTwo; ?></a></li>
-            <li><a href="inc/walk-templates/walk-three.php" class="route-list-item" title="<?php echo $trailTitleThree; ?>"><?php echo $trailTitleThree; ?></a></li>
-            <li><a href="inc/walk-templates/walk-four.php" class="route-list-item" title="<?php echo $trailTitleFour; ?>"><?php echo $trailTitleFour; ?>4</a></li>
+            <li><a href="inc/walk-templates/dene/walk-one.php" class="route-list-item" title=<?php echo $trailTitleOne; ?>"><?php echo $trailTitleOne; ?></a</li>
+            <li><a href="inc/walk-templates/dene/walk-two.php" class="route-list-item" title="<?php echo $trailTitleTwo; ?>"><?php echo $trailTitleTwo; ?></a></li>
+            <li><a href="inc/walk-templates/dene/walk-three.php" class="route-list-item" title="<?php echo $trailTitleThree; ?>"><?php echo $trailTitleThree; ?></a></li>
+            <li><a href="inc/walk-templates/dene/walk-four.php" class="route-list-item" title="<?php echo $trailTitleFour; ?>"><?php echo $trailTitleFour; ?>4</a></li>
 
             <h3>Featured Trails: Hart to Haswell Trail</h3>
 
-            <li><a href="inc/walk-templates/walk-seven.php" class="route-list-item" title="<?php echo $trailTitleSeven; ?>"><?php echo $trailTitleSeven; ?></a></li>
-            <li><a href="inc/walk-templates/walk-eight.php" class="route-list-item" title="<?php echo $trailTitleEight; ?>"><?php echo $trailTitleEight; ?></a></li>
-            <li><a href="inc/walk-templates/walk-nine.php" class="route-list-item" title="<?php echo $trailTitleNine; ?>"><?php echo $trailTitleNine; ?></a></li>
+            <li><a href="inc/walk-templates/railway/walk-seven.php" class="route-list-item" title="<?php echo $trailTitleSeven; ?>"><?php echo $trailTitleSeven; ?></a></li>
+            <li><a href="inc/walk-templates/railway/walk-eight.php" class="route-list-item" title="<?php echo $trailTitleEight; ?>"><?php echo $trailTitleEight; ?></a></li>
+            <li><a href="inc/walk-templates/railway/walk-nine.php" class="route-list-item" title="<?php echo $trailTitleNine; ?>"><?php echo $trailTitleNine; ?></a></li>
 
 
             
             <h3>Featured Trails: Coastal</h3>
 
             <li>Coming Soon</li>
-            <!--<li><a href="" class="route-list-item" title="">Two</a></li>
-            <li><a href="" class="route-list-item" title="">Three</a></li>
-            <li><a href="" class="route-list-item" title="">Four</a></li>-->
+            
+            <!--<li><a href="inc/walk-templates/coastal" class="route-list-item" title="<?php echo $trailTitleTwo ?>">Two</a></li>
+            <li><a href="inc/walk-templates/coastal" class="route-list-item" title="<?php echo $trailTitleTwo ?>">Three</a></li>
+            <li><a href="inc/walk-templates/coastal" class="route-list-item" title="<?php echo $trailTitleTwo ?>">Four</a></li>-->
         </ul>
 
     </article>

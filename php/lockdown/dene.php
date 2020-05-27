@@ -25,17 +25,17 @@
         
         <h2>Walking Trails: Castle Eden Dene</h2>
         
-        <p><?php require("inc/walks/dene/walk-one.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walk-modals/dene/walk-one.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/dene/walk-two.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walk-modals/dene/walk-two.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/dene/walk-three.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walk-modals/dene/walk-three.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/dene/walk-four.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walk-modals/dene/walk-four.php"); ?> </p> <!-- -->
         
-        <p><?php require("inc/walks/dene/walk-five.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walk-modals/dene/walk-five.php"); ?> </p> <!-- -->
 
-        <p><?php require("inc/walks/dene/walk-six.php"); ?> </p> <!-- -->
+        <p><?php require("inc/walk-modals/dene/walk-six.php"); ?> </p> <!-- -->
 
     </section>
 

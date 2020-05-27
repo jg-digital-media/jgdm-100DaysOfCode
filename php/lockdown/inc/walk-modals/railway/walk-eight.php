@@ -41,16 +41,16 @@
 
                         <!-- walks project website URLS -->
 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eight-hart-to-haswell-right/IMG_2020504_133618.jpg" data-lightbox="walk-eight" data-title="Turn right at the main road. At the bus stop cross the road to the public footpath" class="lightbox-link"> 
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eight-hart-to-haswell-right/IMG_20200504_133618.jpg" data-lightbox="walk-eight" data-title="Turn right at the main road. At the bus stop cross the road to the public footpath" class="lightbox-link"> 
                             <div class="follow-trail">Follow the Trail</div>
                         </a>
 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eight-hart-to-haswell-right/IMG_2020504_133649.jpg" data-lightbox="walk-eight" data-title="Cross the public footpath carrying on straight towards the main crossing" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eight-hart-to-haswell-right/IMG_2020504_134059.jpg" data-lightbox="walk-eight" data-title="Turn right at the main crossing for the Hart to Haswell Network" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eight-hart-to-haswell-right/IMG_2020504_134615.jpg" data-lightbox="walk-eight" data-title="Carry on Straight. To the left is The Foundry Village and Castle Eden Inn" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eight-hart-to-haswell-right/IMG_2020504_135551.jpg" data-lightbox="walk-eight" data-title="Carry on straight at this crossing ignoring the left turn" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eight-hart-to-haswell-right/IMG_2020504_140513.jpg" data-lightbox="walk-eight" data-title="Continue on. This is the outskirts of Wellfield village near Wingate" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eight-hart-to-haswell-right/IMG_2020504_143639.jpg" data-lightbox="walk-eight" data-title="End of the line for this trail. The walk does continue to the right on the other side of the A19 if you wish." class="lightbox-link"></a>
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eight-hart-to-haswell-right/IMG_20200504_133649.jpg" data-lightbox="walk-eight" data-title="Cross the public footpath carrying on straight towards the main crossing" class="lightbox-link"></a>
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eight-hart-to-haswell-right/IMG_20200504_134059.jpg" data-lightbox="walk-eight" data-title="Turn right at the main crossing for the Hart to Haswell Network" class="lightbox-link"></a>
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eight-hart-to-haswell-right/IMG_20200504_134615.jpg" data-lightbox="walk-eight" data-title="Carry on Straight. To the left is The Foundry Village and Castle Eden Inn" class="lightbox-link"></a>
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eight-hart-to-haswell-right/IMG_20200504_135551.jpg" data-lightbox="walk-eight" data-title="Carry on straight at this crossing ignoring the left turn" class="lightbox-link"></a>
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eight-hart-to-haswell-right/IMG_20200504_140513.jpg" data-lightbox="walk-eight" data-title="Continue on. This is the outskirts of Wellfield village near Wingate" class="lightbox-link"></a>
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eight-hart-to-haswell-right/IMG_20200504_143639.jpg" data-lightbox="walk-eight" data-title="End of the line for this trail. The walk does continue to the right on the other side of the A19 if you wish." class="lightbox-link"></a>
                         
 
                         <!-- walks directories

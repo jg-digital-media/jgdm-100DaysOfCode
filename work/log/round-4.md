@@ -1,6 +1,6 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 89 of 100. **Last Update:** 25 May 2020
+## **Status:** Day 91 of 100. **Last Update:** 27 May 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
@@ -8,17 +8,23 @@ ___
 
 
 
+### R4D91:  Wednesday 27 May 2020
++ **Notes**  
+  +  Almost there for unveiling. Going to start looking at behind the scenes stuff for SEO and link sharing next before finishing touches and code cleanup.
+
++ **Technologies used** - HTML5, CSS, PHP
+
 ### R4D90:  Tuesday 26 May 2020
 + **Notes**  
   +  Finalised most of the styling for the PHP website.  Confident of being able to put it live before the end of the week and I can't wait to release it.
 
-+ **Technologies used** - HTML5, CSS PHP
++ **Technologies used** - HTML5, CSS, PHP
 
 ### R4D89:  Monday 25 May 2020
 + **Notes**  
   +  Bank Holiday session to polish off the rest of the currently available content on my new website.  Now to concentrate on the styling before putting it live!
 
-+ **Technologies used** - HTML5, CSS PHP
++ **Technologies used** - HTML5, CSS, PHP
 
 ### R4D88:  Friday 22 May 2020
 + **Notes**  

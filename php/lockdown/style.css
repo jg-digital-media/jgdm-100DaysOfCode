@@ -92,15 +92,19 @@ margin 0 auto -  center alignment*/
   background: lightyellow;
   background: #0c6e0c;
   color: white;
-  padding: 4px;
+  padding: 10px;
   position: relative;
   text-decoration: none;
   margin: 20px auto;
   display: block;
   width: 150px;
-  text-align: center; }
-  .walk > div a:hover {
-    color: green; }
+  text-align: center;
+  /* 
+      &:hover {
+          background: $button-bg-hov;
+          color: $button-col-hov;
+      }
+  */ }
   @media (max-width: 1024px) {
     .walk > div a {
       font-weight: bold;
@@ -114,11 +118,14 @@ margin 0 auto -  center alignment*/
       text-align: center; } }
 
 .walk > div .follow-trail {
-  color: #0c6e0c;
+  color: black;
   background: white;
-  padding: 10px; }
+  padding: 10px;
+  border: solid 3px black;
+  border: solid 3px #044a04;
+  border-radius: 10px; }
   .walk > div .follow-trail:hover {
-    color: green; }
+    color: #0c6e0c; }
   .walk > div .follow-trail a {
     text-decoration: none; }
 
@@ -168,6 +175,7 @@ nav {
   height: 50px;
   width: 100%;
   text-align: center;
+  border-bottom: white solid 3px;
   /*margin: 5px 0;*/ }
   nav ul li {
     display: inline-block;
@@ -181,13 +189,14 @@ nav {
         padding: 10px 2px; } }
     nav ul li a {
       text-decoration: none;
-      color: white; }
+      color: white;
+      font-weight: bold; }
       nav ul li a:hover {
-        color: #ffc830;
-        border-bottom: solid 2px blue; }
+        color: #ffe48c;
+        border-bottom: solid 2px #ffe48c; }
     nav ul li a.selected {
-      font-weight: bold;
-      border-bottom: solid 2px blue; }
+      color: #ffe48c;
+      border-bottom: solid 2px #ffe48c; }
 
 /*walks partial*/
 .walk {
@@ -304,10 +313,11 @@ nav {
       font-size: 10pt; }
 
 .lockdown {
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
   display: grid;
-  /*width: 100%;*/
   grid-template-columns: minmax(30%, 50%) 1fr 1fr;
-  /*display: grid;*/
   margin: 0 auto;
   padding: 15px;
   background: #d3d3d3; }
@@ -324,10 +334,6 @@ nav {
       margin: 0 auto;
       padding: 10px;
       width: 90%; } }
-  .lockdown .lockdown-intro,
-  .lockdown .lockdown-img,
-  .lockdown .route-list {
-    border: solid yellow 1px; }
   .lockdown .lockdown-intro {
     line-height: 1.7;
     /*font-size: 12px;*/ }
@@ -356,10 +362,9 @@ nav {
           text-decoration: none; }
 
 .slider-container {
+  border: solid 1px black;
   margin: 20px auto;
   text-align: center;
-  /*background: black;*/
-  border: solid red 1px;
   width: 95%;
   background: #d3d3d3;
   /*SLICK STYLING*/
@@ -428,9 +433,9 @@ nav {
     vertical-align: top; }
 
 .dene {
-  border: solid 1px black;
-  /*width: 60%;*/
-  /*display: grid;*/
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
   margin: 0 auto;
   padding: 15px;
   background: #d3d3d3; }
@@ -455,9 +460,9 @@ nav {
       width: 90%; } }
 
 .railway {
-  border: solid 1px black;
-  /*width: 60%;*/
-  /*display: grid;*/
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
   margin: 0 auto;
   padding: 15px;
   background: #d3d3d3; }
@@ -482,8 +487,9 @@ nav {
       width: 90%; } }
 
 .coastal {
-  border: solid 1px black;
-  /*display: grid;*/
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
   margin: 0 auto;
   padding: 15px;
   background: #d3d3d3; }
@@ -512,7 +518,9 @@ nav {
       width: 90%; } }
 
 .routes {
-  border: solid 1px black;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
   /*width: 60%;*/
   /*display: block;*/
   margin: 0 auto;

@@ -46,6 +46,9 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
 
+    <!-- favicon -->
+    <link rel="icon" href="img/favicon.png" />
+
     <!-- Canonical link -->
     <link rel="canonical" href="<?php echo $canonical;  ?>">
 

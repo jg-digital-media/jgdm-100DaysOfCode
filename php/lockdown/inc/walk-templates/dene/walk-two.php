@@ -1,28 +1,27 @@
 <?php  
 
     $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
-    $pageTitle = "Route List #2";
+    $pageTitle = "Red Squirrel Trail #2";
     $trailType= "trail-template";
 
+    $meta_description = "Red Squirrel Trail 2 goes straight on a steep incline deep through the wood leading us to a crossing point between the Yew Tree and Red Squirrel Trails";
+    $meta_keywords = "Gravel trail, red bridge route, Red Squirrel Route, Castle Eden, Castle Eden Dene";
+    $meta_image = "../../../img/preview.png";
 
-    $meta_description = "description to go here";
-    $meta_keywords = "keywords to go here";
-    $meta_image = "";
+    $fb_title = $pageTitle;
+    $fb_description = $meta_description;
+    $fb_image = $meta_image;
+    $fb_url = "https://projects.jonniegrieve.co.uk/lockdown/walk-two.php";
 
-    $fb_title = "";
-    $fb_description = "";
-    $fb_image = "";
-    $fb_url = "";
-
-    $canonical = "";
+    $canonical = "https://projects.jonniegrieve.co.uk/lockdown/walk-two.php";
 
     $selected = "routes";
 
     //Walk Template - Trail URLS
-    $walk_homepage_two ="../../img/walk_homepage/walk-dene-two.jpg";
+    $walk_homepage_two ="../../../img/walk_homepage/walk-dene-two.jpg";
 ?>
 
-<?php require_once "../../inc/header.php"; ?>
+<?php require_once "../../../inc/header.php"; ?>
 
 <section class="walk-template">
 
@@ -34,7 +33,7 @@
 
             <article class="content">
         
-                <p>This is one of 3 routes that connect to the Yew Tree Route. After you reach the Red Bridge the journey takes 3 alternative routes. Red Squirrel Trail 2 takes straight on a steep incline deep through the wood leading us to a crossing point between the Yew Tree and Red Squirrel Trails.</p>
+                <p>This is one of 3 routes that connect to the Yew Tree Route. After you reach the Red Bridge the journey takes 3 alternative routes. Red Squirrel Trail 2 goes straight on a steep incline deep through the wood leading us to a crossing point between the Yew Tree and Red Squirrel Trails.</p>
 
                 <h3>Trail Details</h3>
 
@@ -46,7 +45,7 @@
                     <li>Keep going up until you reach a residential estate.</li>
                 </ol>    
                 
-                <a href="../../index.php" class="back-home">Back Home</a>
+                <a href="../../../index.php" class="back-home">Back Home</a>
 
             </article>  
 
@@ -58,4 +57,4 @@
 
 </section>
 
-<?php require_once "../../inc/footer.php"; ?>
+<?php require_once "../../../../inc/footer.php"; ?>

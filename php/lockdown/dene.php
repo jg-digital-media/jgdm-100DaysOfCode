@@ -4,16 +4,16 @@
     $pageTitle = "Walking Trails: Castle Eden Dene";
     $trailType = "dene";
 
-    $meta_description = "description to go here";
-    $meta_keywords = "keywords to go here";
-    $meta_image = "";
+    $meta_description = "Common Walking Trails in Castle Eden Dene. The dene is vast and has trails reaching almost as far as the East coast.";
+    $meta_keywords = "Castle Eden Dene, Coastal Trails, Blackhall Rocks, Crimdon, Denemouth, Walks, Walking, Trails, Walking Castle Eden, Outdoors Castle Eden, Footpaths, Castle Eden";
+    $meta_image = "img/preview.png";
 
-    $fb_title = "";
-    $fb_description = "";
-    $fb_image = "";
-    $fb_url = "";
+    $fb_title = $pageTitle;
+    $fb_description = $meta_description;
+    $fb_image = $meta_image;
+    $fb_url = "https://projects.jonniegrieve.co.uk/lockdown/dene.php";
 
-    $canonical = "";
+    $canonical = "https://projects.jonniegrieve.co.uk/lockdown/dene.php";
 
     $selected = "dene";
 

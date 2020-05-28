@@ -32,14 +32,14 @@
     <?php else: ?>        
     
         <!-- Slick Styles -->
-        <link ref="stylesheet" type="text/css" href="../../assets/slick/slick.css" />  
-        <link ref="stylesheet" type="text/css" href="../../assets/slick/slick-theme.css" />      
+        <link ref="stylesheet" type="text/css" href="../../../assets/slick/slick.css" />  
+        <link ref="stylesheet" type="text/css" href="../../../assets/slick/slick-theme.css" />      
 .
         <!-- Lightbox-->
         <link href="../../assets/lightbox/dist/css/lightbox.css" rel="stylesheet" />
 
         <!-- Main Styles -->
-        <link rel="stylesheet" type="text/css" href="../../style.css" />
+        <link rel="stylesheet" type="text/css" href="../../../style.css" />
 
     <?php endif; ?>
 
@@ -69,9 +69,9 @@
         $trailTitleEleven = "Walk 11 - Bleachery Dene Main Route";
         $trailTitleTwelve = "Walk 12 - To Station Town";
         $trailTitleThirteen = "Hart to Haswell - Woodland Route (Incomplete)";
-        $trailTitleFourteen = "Route 14 - (Incomplete)";
-        $trailTitleFifteen= "Coastal 1 (Incomplete)";
-        $trailTitleSixteen = "Coastal 2 (Incomplete)";
+        $trailTitleFourteen = "Route 14 - Heselden & Bleachery Reverse (Incomplete)";
+        $trailTitleFifteen= "Coastal 1 - Denemouth (Incomplete)";
+        $trailTitleSixteen = "Coastal 2 - Blackhall Rocks (Incomplete)";
         $trailTitleSeventeen = "Coastal 3 (Incomplete)";
         $trailTitleEighteen = "Coastal 4 (Incomplete)";
         $trailTitleNineteen = "Coastal 5 (Incomplete)";
@@ -117,11 +117,11 @@
 
             <?php if($trailType === "trail-template") : ?>
 
-            <li><a href="../../index.php" title="Home" <?php if($selected == "home") { echo 'class="selected"'; } ?>>Lockdown</a></li>
-            <li><a href="../../dene.php" title="Castle Eden Dene" <?php if($selected == "dene") { echo 'class="selected"'; }?>>Castle Eden Dene</a></li>
-            <li><a href="../../railwayline.php" title="Railway Line" <?php if($selected == "railwayline") { echo 'class="selected"'; } ?>>Railway Line</a></li>
-            <li><a href="../../coastal.php" title="Coastal" <?php if($selected == "coastal") { echo 'class="selected"'; }?>>Coastal</a></li>
-            <li><a href="../../routes.php" title="Routes" <?php if($selected == "routes") { echo 'class="selected"'; }?>>Routes</a></li>
+            <li><a href="../../../index.php" title="Home" <?php if($selected == "home") { echo 'class="selected"'; } ?>>Lockdown</a></li>
+            <li><a href="../../../dene.php" title="Castle Eden Dene" <?php if($selected == "dene") { echo 'class="selected"'; }?>>Castle Eden Dene</a></li>
+            <li><a href="../../../railwayline.php" title="Railway Line" <?php if($selected == "railwayline") { echo 'class="selected"'; } ?>>Railway Line</a></li>
+            <li><a href="../../../coastal.php" title="Coastal" <?php if($selected == "coastal") { echo 'class="selected"'; }?>>Coastal</a></li>
+            <li><a href="../../../routes.php" title="Routes" <?php if($selected == "routes") { echo 'class="selected"'; }?>>Routes</a></li>
 
             <?php else: ?>
 

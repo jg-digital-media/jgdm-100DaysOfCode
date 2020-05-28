@@ -1,34 +1,34 @@
 <?php  
 
     $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
-    $pageTitle = "Route List #6";
+    $pageTitle = "Walk 6 - Yew Tree Walk Loop";
     $trailType= "trail-template";
 
 
-    $meta_description = "description to go here";
-    $meta_keywords = "keywords to go here";
-    $meta_image = "";
+    $meta_description = "In this trail, you make a short walk to the visitor centre of the Dene.";
+    $meta_keywords = "Yew Tree Route, Gravel trail, Dene,  Castle Eden, Castle Eden Dene";
+    $meta_image = "../../../img/preview.png";
 
-    $fb_title = "";
-    $fb_description = "";
-    $fb_image = "";
-    $fb_url = "";
+    $fb_title = $pageTitle;
+    $fb_description = $meta_description;
+    $fb_image = $meta_image;
+    $fb_url = "https://projects.jonniegrieve.co.uk/lockdown/walk-six.php";
 
-    $canonical = "";
+    $canonical = "https://projects.jonniegrieve.co.uk/lockdown/walk-six.php";
 
     $selected = "routes";
 
     //Walk Template - Trail URLS
-    $walk_homepage_six ="../../img/walk_homepage/walk-dene-six-yew-tree-loop.jpg";
+    $walk_homepage_six ="../../../img/walk_homepage/walk-dene-six-yew-tree.jpg";
 ?>
 
-<?php require_once "../../inc/header.php"; ?>
+<?php require_once "../../../inc/header.php"; ?>
 
 <section class="walk-template">
 
     <article>
 
-        <h2> <?php echo $trailTitleSeven; ?> </h2>
+        <h2> <?php echo $trailTitleSix; ?> </h2>
 
         <div class="template-content">
 
@@ -47,7 +47,7 @@
                     <li>Follow the path with the housing on the left.</li>
                 </ol>    
                 
-                <a href="../../index.php" class="back-home">Back Home</a>
+                <a href="../../../index.php" class="back-home">Back Home</a>
 
             </article>  
 
@@ -59,4 +59,4 @@
 
 </section>
 
-<?php require_once "../../inc/footer.php"; ?>
+<?php require_once "../../../inc/footer.php"; ?>

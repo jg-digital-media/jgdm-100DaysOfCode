@@ -1,28 +1,28 @@
 <?php  
 
     $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
-    $pageTitle = "Route List #4";
+    $pageTitle = "Horden Trail: Route 4";
     $trailType= "trail-template";
 
 
-    $meta_description = "description to go here";
-    $meta_keywords = "keywords to go here";
-    $meta_image = "";
+    $meta_description = "This trail followed in whole will take you to the entrance of the Dene opposite the main road between Horden and Blackhall";
+    $meta_keywords = "Gravel trail, Castle Eden to Horden, Denemouth, Dene, Castle Eden, Castle Eden Dene";
+    $meta_image = "../../../img/preview.png";
 
-    $fb_title = "";
-    $fb_description = "";
-    $fb_image = "";
-    $fb_url = "";
+    $fb_title = $pageTitle;
+    $fb_description = $meta_description;
+    $fb_image = $meta_image;
+    $fb_url = "https://projects.jonniegrieve.co.uk/lockdown/walk-four.php";
 
-    $canonical = "";
+    $canonical = "https://projects.jonniegrieve.co.uk/lockdown/walk-four.php";
 
     $selected = "routes";
 
     //Walk Template - Trail URLS
-    $walk_homepage_four ="../../img/walk_homepage/walk-dene-four.jpg";
+    $walk_homepage_four ="../../../img/walk_homepage/walk-dene-four-horden.jpg";
 ?>
 
-<?php require_once "../../inc/header.php"; ?>
+<?php require_once "../../../inc/header.php"; ?>
 
 <section class="walk-template">
 
@@ -49,7 +49,7 @@
                     <li>Turn left at the incline to finish the trail</li>
                 </ol>    
                 
-                <a href="../../index.php" class="back-home">Back Home</a>
+                <a href="../../../index.php" class="back-home">Back Home</a>
 
             </article>  
 
@@ -61,4 +61,4 @@
 
 </section>
 
-<?php require_once "../../inc/footer.php"; ?>
+<?php require_once "../../../inc/footer.php"; ?>

@@ -1,28 +1,27 @@
 <?php  
 
     $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
-    $pageTitle = "Route List #3";
+    $pageTitle = "Red Squirrel Trail #3";
     $trailType= "trail-template";
 
+    $meta_description ="In this trail, you'll find yourself n the outskirts of a residential estate but the path to the end is easy to follow.";
+    $meta_keywords = "Gravel trail, red bridge route, Dene Red Squirrel Route, Castle Eden, Castle Eden Denee";
+    $meta_image = "../../../img/preview.png";
 
-    $meta_description = "description to go here";
-    $meta_keywords = "keywords to go here";
-    $meta_image = "";
+    $fb_title = $pageTitle;
+    $fb_description = $meta_description;
+    $fb_image = $meta_image;
+    $fb_url = "https://projects.jonniegrieve.co.uk/lockdown/walk-three.php";
 
-    $fb_title = "";
-    $fb_description = "";
-    $fb_image = "";
-    $fb_url = "";
-
-    $canonical = "";
+    $canonical = "https://projects.jonniegrieve.co.uk/lockdown/walk-three.php";
 
     $selected = "routes";
 
     //Walk Template - Trail URLS
-    $walk_homepage_three ="../../img/walk_homepage/walk-dene-three.jpg";
+    $walk_homepage_three ="../../../img/walk_homepage/walk-dene-three.jpg";
 ?>
 
-<?php require_once "../../inc/header.php"; ?>
+<?php require_once "../../../inc/header.php"; ?>
 
 <section class="walk-template">
 
@@ -48,7 +47,7 @@
                     <li>Continue to the end of the trail.</li> 
                 </ol>    
                 
-                <a href="../../index.php" class="back-home">Back Home</a>
+                <a href="../../../index.php" class="back-home">Back Home</a>
 
             </article>  
 
@@ -60,4 +59,4 @@
 
 </section>
 
-<?php require_once "../../inc/footer.php"; ?>
+<?php require_once "../../../inc/footer.php"; ?>

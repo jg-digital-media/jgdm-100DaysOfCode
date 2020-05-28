@@ -1,29 +1,27 @@
 <?php 
 
     $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
-    $pageTitle = "Route List #1";
+    $pageTitle = "Red Squirrel Trail #1";
     $trailType= "trail-template";    
-    
-    //$trailTitle = $trailTitleOne;
 
-    $meta_description = "description to go here";
-    $meta_keywords = "keywords to go here";
-    $meta_image = "";
+    $meta_description = " This one leads to the A19 Dene entrance closest to the junction between Wingate and Castle Eden Village";
+    $meta_keywords = "Gravel trail, red bridge route, Red Squirrel Route, Castle Eden, Castle Eden Dene";
+    $meta_image = "../../../img/preview.png";
 
-    $fb_title = "";
-    $fb_description = "";
-    $fb_image = "";
-    $fb_url = "";
+    $fb_title = $pageTitle;
+    $fb_description = $meta_description;
+    $fb_image = $meta_image;
+    $fb_url = "https://projects.jonniegrieve.co.uk/lockdown/walk-one.php";
 
-    $canonical = "";
+    $canonical = "https://projects.jonniegrieve.co.uk/lockdown/walk-one.php";
 
     $selected = "routes";
 
     //Walk Template - Trail URLS
-    $walk_homepage_one ="../../img/walk_homepage/walk-dene-one.jpg";
+    $walk_homepage_one ="../../../img/walk_homepage/walk-dene-one.jpg";
 ?>
 
-<?php require_once "../../inc/header.php"; ?>
+<?php require_once "../../../inc/header.php"; ?>
 
 <section class="walk-template">
 
@@ -49,7 +47,7 @@
                     <li>A19 entrance to Dene up ahead.</li> 
                 </ol>    
                 
-                <a href="../../index.php" class="back-home">Back Home</a>
+                <a href="../../../index.php" class="back-home">Back Home</a>
 
             </article>  
 
@@ -61,4 +59,4 @@
 
 </section>
 
-<?php require_once "../../inc/footer.php"; ?>
+<?php require_once "../../../inc/footer.php"; ?>

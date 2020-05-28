@@ -1,28 +1,28 @@
 <?php  
 
     $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
-    $pageTitle = "Route List #5";
+    $pageTitle = "Walk Dene 5 - Yew Tree Trail";
     $trailType= "trail-template";
 
 
-    $meta_description = "description to go here";
-    $meta_keywords = "keywords to go here";
-    $meta_image = "";
+    $meta_description = "The Yew Tree Walk is a lengthy loop towards ";
+    $meta_keywords = "Yew Tree Route, Gravel trail, Dene,  Castle Eden, Castle Eden Dene";
+    $meta_image = "../../../img/preview.png";
 
-    $fb_title = "";
-    $fb_description = "";
-    $fb_image = "";
-    $fb_url = "";
+    $fb_title = $pageTitle;
+    $fb_description = $meta_description;
+    $fb_image = $meta_image;
+    $fb_url = "https://projects.jonniegrieve.co.uk/lockdown/walk-five.php";
 
-    $canonical = "";
+    $canonical = "https://projects.jonniegrieve.co.uk/lockdown/walk-five.php";
 
     $selected = "routes";
 
     //Walk Template - Trail URLS
-    $walk_homepage_five ="../../img/walk_homepage/walk-dene-five-yew-tree.jpg";
+    $walk_homepage_five ="../../../img/walk_homepage/walk-dene-five-yew-tree.jpg";
 ?>
 
-<?php require_once "../../inc/header.php"; ?>
+<?php require_once "../../../inc/header.php"; ?>
 
 <section class="walk-template">
 
@@ -49,7 +49,7 @@
                     <li>Take the path to the left.</li>
                 </ol>    
                 
-                <a href="../../index.php" class="back-home">Back Home</a>
+                <a href="../../../index.php" class="back-home">Back Home</a>
 
             </article>  
 
@@ -60,4 +60,4 @@
     </article>
 
 </section>
-<?php require_once "../../inc/footer.php"; ?>
+<?php require_once "../../../inc/footer.php"; ?>

@@ -4,16 +4,16 @@
     $pageTitle = "Walking Trails: Hart to Haswell Network";
     $trailType = "railway-routes";
 
-    $meta_description = "description to go here";
-    $meta_keywords = "keywords to go here";
-    $meta_image = "";    
+    $meta_description = "These trails cover bridle and concret footpaths that span over 5 miles of network. This covers Hart to Haswell";
+    $meta_keywords = "Walking Trails, Hart to Haswell Network, Coastal Trails, Blackhall Rocks, Crimdon, Denemouth, Walks, Walking, Trails, Walking Castle Eden, Outdoors Castle Eden, Footpaths, Castle Eden";
+    $meta_image = "img/preview.png"; 
 
-    $fb_title = "";
-    $fb_description = "";
-    $fb_image = "";
-    $fb_url = "";
+    $fb_title = $pageTitle;
+    $fb_description = $meta_description;
+    $fb_image = $meta_image;
+    $fb_url = "https://projects.jonniegrieve.co.uk/lockdown/railwayline.php";
 
-    $canonical = "";
+    $canonical = "https://projects.jonniegrieve.co.uk/lockdown/railwayline.php";
 
     $selected = "railwayline";
 

@@ -1,28 +1,28 @@
 <?php  
 
     $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
-    $pageTitle = "Route List #8";
+    $pageTitle = "Walk 8 - Hart to Haswell Right";
     $trailType= "trail-template";
 
 
-    $meta_description = "description to go here";
-    $meta_keywords = "keywords to go here";
-    $meta_image = "";
+    $meta_description = "Following the simple and straight path on the railway line to the right towards the direction Haswell village, ending at Wellfield";
+    $meta_keywords = "Hesleden, Hart to Haswell, National Trust Network, Footpath, Railwayline,  Castle Eden, Castle Eden Dene";
+    $meta_image = "../../../img/preview.png";
 
-    $fb_title = "";
-    $fb_description = "";
-    $fb_image = "";
-    $fb_url = "";
+    $fb_title = $pageTitle;
+    $fb_description = $meta_description;
+    $fb_image = $meta_image;
+    $fb_url = "https://projects.jonniegrieve.co.uk/lockdown/walk-eight.php";
 
-    $canonical = "";
+    $canonical = "https://projects.jonniegrieve.co.uk/lockdown/walk-eight.php";
 
     $selected = "routes";
 
     //Walk Template - Trail URLS
-    $walk_homepage_eight ="../../img/walk_homepage/walk-eight-hart-to-haswell-right.jpg";
+    $walk_homepage_eight ="../../../img/walk_homepage/walk-eight-hart-to-haswell-right.jpg";
 ?>
 
-<?php require_once "../../inc/header.php"; ?>
+<?php require_once "../../../inc/header.php"; ?>
 
 <section class="walk-template">
 
@@ -47,7 +47,7 @@
                     <li>End of the line (although thr path does continue on the other side of the A181 main road)</li>
                 </ol>    
                 
-                <a href="../../index.php" class="back-home">Back Home</a>
+                <a href="../../../index.php" class="back-home">Back Home</a>
 
             </article>  
 
@@ -59,4 +59,4 @@
 
 </section>
 
-<?php require_once "../../inc/footer.php"; ?>
+<?php require_once "../../../inc/footer.php"; ?>

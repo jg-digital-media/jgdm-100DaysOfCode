@@ -2,21 +2,19 @@
 
     $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
     $pageTitle = "Walking Trails in the Castle Eden area";
-    $trailType= null;
+    $trailType= null;   
+
+    $meta_description = "My exhaustive list of the available walking Trails in the Castle Eden area. ";
+    $meta_keywords = "Routes and Trails, Route List, Walks and Trails, Castle Eden Dene, Hart to Haswell Network, Coastal Trails, Blackhall Rocks, Crimdon, Denemouth, Walks, Walking, Trails, Walking Castle Eden, Outdoors Castle Eden, Footpaths, Castle Eden";
+    $meta_image = "img/preview.png";
+
+    $fb_title = $pageTitle;
+    $fb_description = $meta_description;
+    $fb_image = $meta_image;
+    $fb_url = "https://projects.jonniegrieve.co.uk/lockdown/routes.php";
+
+    $canonical = "https://projects.jonniegrieve.co.uk/lockdown/routes.php";
     
-   
-
-    $meta_description = "description to go here";
-    $meta_keywords = "keywords to go here";
-    $meta_image = "";
-
-    $fb_title = "";
-    $fb_description = "";
-    $fb_image = "";
-    $fb_url = "";
-
-    $canonical = "";
-
     $selected = "routes";
 
 ?>

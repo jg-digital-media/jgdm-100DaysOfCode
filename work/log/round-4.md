@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 91 of 100. **Last Update:** 27 May 2020
+## **Status:** Day 92 of 100. **Last Update:** 28 May 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
+
+### R4D92:  Thursday 28 May 2020
++ **Notes**  
+  +  Sorted out meta tags, favicons and final checks on file paths.  This thing is almost ready. Will upload and launch after one more fresh pair of eyes on the project tomorrow!
+
++ **Technologies used** - HTML5, CSS, PHP
 
 ### R4D91:  Wednesday 27 May 2020
 + **Notes**  

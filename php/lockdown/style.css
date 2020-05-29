@@ -169,7 +169,7 @@ header {
     padding: 20px 0; }
     @media (max-width: 1024px) {
       header h1 {
-        font-size: 12pt; } }
+        font-size: 16pt; } }
 
 nav {
   background: #0c6e0c;
@@ -315,7 +315,7 @@ nav {
   border-right: solid 1px black;
   border-bottom: solid 1px black;
   display: grid;
-  grid-template-columns: minmax(30%, 50%) 1fr 1fr;
+  grid-template-columns: minmax(30%, 40%) 1fr 1fr;
   margin: 0 auto;
   padding: 15px;
   background: #d3d3d3; }
@@ -336,7 +336,9 @@ nav {
     line-height: 1.7;
     /*font-size: 12px;*/ }
     .lockdown .lockdown-intro p {
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      font-weight: bold;
+      font-size: 12pt; }
   .lockdown .lockdown-img {
     width: 100%;
     padding: 5px;
@@ -346,6 +348,9 @@ nav {
     width: 95%;
     position: relative;
     bottom: 5px; }
+    @media (max-width: 720px) {
+      .lockdown .home-image {
+        margin: 10px auto; } }
   .lockdown .route-list ul {
     list-style-type: none;
     position: relative;
@@ -367,9 +372,11 @@ nav {
   background: #d3d3d3;
   /*SLICK STYLING*/
   /* Slider */ }
-  .slider-container h3 {
+  .slider-container h2 {
     text-align: center;
-    margin: 15px 0; }
+    margin: 15px 0;
+    color: #07118a;
+    font-size: 15pt; }
   .slider-container .route-slider {
     display: inline-block; }
   .slider-container .route-slider > div {

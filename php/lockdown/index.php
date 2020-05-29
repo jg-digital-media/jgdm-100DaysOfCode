@@ -84,7 +84,7 @@
 
 <article class="slider-container">
 
-    <h3>Select a Route</h3>
+    <h2>Select a Route</h2>
 
     <div class="route-slider">
 

@@ -7,7 +7,7 @@
 
     $meta_description = "description to go here";
     $meta_keywords = "keywords to go here";
-    $meta_image = "../../../img/preview.png";
+    $meta_image = "https://projects.jonniegrieve.co.uk/lockdown/img/preview.png";
 
     $fb_title = $pageTitle;
     $fb_description = $meta_description;

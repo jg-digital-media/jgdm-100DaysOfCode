@@ -7,7 +7,7 @@
 
     $meta_description = "Hesleden is home to a small Dene area which you can go through and then loop back towards Castle Eden.";
     $meta_keywords = "Hesleden, Hart to Haswell, National Trust Network, Footpath, Railwayline,  Castle Eden, Castle Eden Dene";
-    $meta_image = "../../../img/preview.png";
+    $meta_image = "https://projects.jonniegrieve.co.uk/lockdown/img/preview.png";
 
     $fb_title = $pageTitle;
     $fb_description = $meta_description;

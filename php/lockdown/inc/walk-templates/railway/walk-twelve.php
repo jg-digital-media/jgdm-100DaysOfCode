@@ -7,7 +7,7 @@
 
     $meta_description = "This is a nice leisurely concrete walk trail offers you stunning landscapes and livestock to view.";
     $meta_keywords = "Station Town, Hart to Haswell, National Trust Network, Footpath, Railwayline,  Castle Eden";
-    $meta_image = "../../../img/preview.png";
+    $meta_image = "https://projects.jonniegrieve.co.uk/lockdown/img/preview.png";
 
     $fb_title = $pageTitle;
     $fb_description = $meta_description;

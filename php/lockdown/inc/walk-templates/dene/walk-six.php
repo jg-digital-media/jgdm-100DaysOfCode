@@ -7,7 +7,7 @@
 
     $meta_description = "In this trail, you make a short walk to the visitor centre of the Dene.";
     $meta_keywords = "Yew Tree Route, Gravel trail, Dene,  Castle Eden, Castle Eden Dene";
-    $meta_image = "../../../img/preview.png";
+    $meta_image = "https://projects.jonniegrieve.co.uk/lockdown/img/preview.png";
 
     $fb_title = $pageTitle;
     $fb_description = $meta_description;

@@ -6,7 +6,7 @@
 
     $meta_description = "Coastal Trails. This includes trails in the area local to Castle Eden. Find lovely coastal Trails in areas like Crimdon Dene, Blackhall Rocks and Denemouth";
     $meta_keywords = "Coatal Trails Castle Eden Dene, Coastal, Blackhall Rocks, Crimdon, Denemouth, Walks, Walking, Trails, Walking Castle Eden, Outdoors Castle Eden, Footpaths, Castle Eden";
-    $meta_image = "img/preview.png";
+    $meta_image = "https://projects.jonniegrieve.co.uk/lockdown/img/preview.png";
 
     $fb_title = $pageTitle;
     $fb_description = $meta_description;

@@ -6,7 +6,7 @@
 
     $meta_description = "Red Squirrel Trail 2 goes straight on a steep incline deep through the wood leading us to a crossing point between the Yew Tree and Red Squirrel Trails";
     $meta_keywords = "Gravel trail, red bridge route, Red Squirrel Route, Castle Eden, Castle Eden Dene";
-    $meta_image = "../../../img/preview.png";
+    $meta_image = "https://projects.jonniegrieve.co.uk/lockdown/img/preview.png";
 
     $fb_title = $pageTitle;
     $fb_description = $meta_description;

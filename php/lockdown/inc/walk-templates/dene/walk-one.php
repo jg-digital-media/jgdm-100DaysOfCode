@@ -6,7 +6,7 @@
 
     $meta_description = " This one leads to the A19 Dene entrance closest to the junction between Wingate and Castle Eden Village";
     $meta_keywords = "Gravel trail, red bridge route, Red Squirrel Route, Castle Eden, Castle Eden Dene";
-    $meta_image = "../../../img/preview.png";
+    $meta_image = "https://projects.jonniegrieve.co.uk/lockdown/img/preview.png";
 
     $fb_title = $pageTitle;
     $fb_description = $meta_description;

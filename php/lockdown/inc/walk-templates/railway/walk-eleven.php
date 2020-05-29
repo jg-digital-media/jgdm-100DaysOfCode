@@ -7,7 +7,7 @@
 
     $meta_description = "This route takes you to the edge of Castle Eden Village; a Woodland area known as Bleachery Dene.";
     $meta_keywords = "Bleachery Dene, Hart to Haswell, National Trust Network, Footpath, Railwayline ";
-    $meta_image = "../../../img/preview.png";
+    $meta_image = "https://projects.jonniegrieve.co.uk/lockdown/img/preview.png";
 
     $fb_title = $pageTitle;
     $fb_description = $meta_description;

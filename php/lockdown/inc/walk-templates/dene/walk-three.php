@@ -6,7 +6,7 @@
 
     $meta_description ="In this trail, you'll find yourself n the outskirts of a residential estate but the path to the end is easy to follow.";
     $meta_keywords = "Gravel trail, red bridge route, Dene Red Squirrel Route, Castle Eden, Castle Eden Denee";
-    $meta_image = "../../../img/preview.png";
+    $meta_image = "https://projects.jonniegrieve.co.uk/lockdown/img/preview.png";
 
     $fb_title = $pageTitle;
     $fb_description = $meta_description;

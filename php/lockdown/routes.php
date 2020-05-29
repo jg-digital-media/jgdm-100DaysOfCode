@@ -4,9 +4,9 @@
     $pageTitle = "Walking Trails in the Castle Eden area";
     $trailType= null;   
 
-    $meta_description = "My exhaustive list of the available walking Trails in the Castle Eden area. ";
+    $meta_description = "My exhaustive list of the available walking Trails in the Castle Eden area.";
     $meta_keywords = "Routes and Trails, Route List, Walks and Trails, Castle Eden Dene, Hart to Haswell Network, Coastal Trails, Blackhall Rocks, Crimdon, Denemouth, Walks, Walking, Trails, Walking Castle Eden, Outdoors Castle Eden, Footpaths, Castle Eden";
-    $meta_image = "img/preview.png";
+    $meta_image = "https://projects.jonniegrieve.co.uk/lockdown/img/preview.png";
 
     $fb_title = $pageTitle;
     $fb_description = $meta_description;

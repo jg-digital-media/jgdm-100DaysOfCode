@@ -7,7 +7,7 @@
 
     $meta_description = "This trail followed in whole will take you to the entrance of the Dene opposite the main road between Horden and Blackhall";
     $meta_keywords = "Gravel trail, Castle Eden to Horden, Denemouth, Dene, Castle Eden, Castle Eden Dene";
-    $meta_image = "../../../img/preview.png";
+    $meta_image ="https://projects.jonniegrieve.co.uk/lockdown/img/preview.png";
 
     $fb_title = $pageTitle;
     $fb_description = $meta_description;

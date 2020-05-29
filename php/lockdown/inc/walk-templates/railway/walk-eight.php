@@ -7,7 +7,7 @@
 
     $meta_description = "Following the simple and straight path on the railway line to the right towards the direction Haswell village, ending at Wellfield";
     $meta_keywords = "Hesleden, Hart to Haswell, National Trust Network, Footpath, Railwayline,  Castle Eden, Castle Eden Dene";
-    $meta_image = "../../../img/preview.png";
+    $meta_image = "https://projects.jonniegrieve.co.uk/lockdown/img/preview.png";
 
     $fb_title = $pageTitle;
     $fb_description = $meta_description;

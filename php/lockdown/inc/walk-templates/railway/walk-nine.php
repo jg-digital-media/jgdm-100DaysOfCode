@@ -7,7 +7,7 @@
 
     $meta_description = "Following the simple and straight path on the railway line to the left towards the direction Blackhall Colliery and the East Coast.";
     $meta_keywords = "Hesleden, Hart to Haswell, National Trust Network, Footpath, Railwayline";
-    $meta_image = "../../../img/preview.png";
+    $meta_image ="https://projects.jonniegrieve.co.uk/lockdown/img/preview.png";
 
     $fb_title = $pageTitle;
     $fb_description = $meta_description;

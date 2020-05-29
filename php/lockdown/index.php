@@ -35,7 +35,7 @@
 
         <p>Being around nature really does take you out of the Coronavirus bubble and for a short time at least make you feel that it is all going to be okay.</p>
 
-        <p>I feel so lucky that I've had so many safe and green spaces to go to while the UK was in Lockdown. So I created this website as something good to remember mark this strange period in all of our lives.</p>
+        <p>I feel so lucky that I've had so many safe and green spaces to go to while the UK was in Lockdown. So I created this website as something good to mark this strange period in all of our lives.</p>
 
         <p>Have a browse and enjoy!</p>
 
@@ -57,7 +57,7 @@
             <li><a href="inc/walk-templates/dene/walk-one.php" class="route-list-item" title="<?php echo $trailTitleOne; ?>"><?php echo $trailTitleOne; ?></a</li>
             <li><a href="inc/walk-templates/dene/walk-two.php" class="route-list-item" title="<?php echo $trailTitleTwo; ?>"><?php echo $trailTitleTwo; ?></a></li>
             <li><a href="inc/walk-templates/dene/walk-three.php" class="route-list-item" title="<?php echo $trailTitleThree; ?>"><?php echo $trailTitleThree; ?></a></li>
-            <li><a href="inc/walk-templates/dene/walk-four.php" class="route-list-item" title="<?php echo $trailTitleFour; ?>"><?php echo $trailTitleFour; ?>4</a></li>
+            <li><a href="inc/walk-templates/dene/walk-four.php" class="route-list-item" title="<?php echo $trailTitleFour; ?>"><?php echo $trailTitleFour; ?></a></li>
 
             <h3>Featured Trails: Hart to Haswell Trail</h3>
 

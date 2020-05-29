@@ -62,16 +62,16 @@
         $trailTitleTwo = "Red Squirrel Trail #2";
         $trailTitleThree = "Red Squirrel Trail #3";
         $trailTitleFour = "Horden Trail: Route 4";
-        $trailTitleFive = "Walk Dene 5 - Yew Tree Trail";
-        $trailTitleSix = "Walk 6 - Yew Tree Walk Loop";
-        $trailTitleSeven = "Walk 7 - Hesleden Route";
-        $trailTitleEight = "Walk 8 - Hart to Haswell Right";
-        $trailTitleNine = "Walk 9 - Hart to Haswell left";
-        $trailTitleTen = "Walk 10 - Bleachery Dene left";
-        $trailTitleEleven = "Walk 11 - Bleachery Dene Main Route";
-        $trailTitleTwelve = "Walk 12 - To Station Town";
+        $trailTitleFive = "Yew Tree Trail";
+        $trailTitleSix = "Yew Tree Walk Loop";
+        $trailTitleSeven = "Hesleden Route";
+        $trailTitleEight = "Hart to Haswell Right";
+        $trailTitleNine = "Hart to Haswell left";
+        $trailTitleTen = "Bleachery Dene left";
+        $trailTitleEleven = "Bleachery Dene Main Route";
+        $trailTitleTwelve = " To Station Town";
         $trailTitleThirteen = "Hart to Haswell - Woodland Route (Incomplete)";
-        $trailTitleFourteen = "Route 14 - Heselden & Bleachery Reverse (Incomplete)";
+        $trailTitleFourteen = "Hesleden & Bleachery Dene Reverse (Incomplete)";
         $trailTitleFifteen= "Coastal 1 - Denemouth (Incomplete)";
         $trailTitleSixteen = "Coastal 2 - Blackhall Rocks (Incomplete)";
         $trailTitleSeventeen = "Coastal 3 (Incomplete)";
@@ -79,31 +79,10 @@
         $trailTitleNineteen = "Coastal 5 (Incomplete)";
         $trailTitleTwenty = "Coastal 6 (Incomplete)";
 
+        //Trail types
         $trailTypeCoastal = "Coastal";
         $trailTypeDene = "Dene";
         $trailTypeRailwayLine = "RailwayLine Network";
-
-        $trailTypeOne = "";
-        $trailTypeTwo = "";
-        $trailTypeThree = "";
-        $trailTypeThree = "";
-        $trailTypeFour = "";
-        $trailTypeFive = "";
-        $trailTypeSix = "";
-        $trailTypeSeven = "";
-        $trailTypeEight = "";
-        $trailTypeNine = "";
-        $trailTypeTen = "";
-        $trailTypeEleven = "";
-        $trailTypeTwelve = "";
-        $trailTypeThirteen = "";
-        $trailTypeFourteen = "";
-        $trailTypeFifteen = "";
-        $trailTypeSixteen = "";
-        $trailTypeSeventeen = "";
-        $trailTypeEighteen = "";
-        $trailTypeNineteen = "";
-        $trailTypeTwenty = "";
     
     ?>    
 

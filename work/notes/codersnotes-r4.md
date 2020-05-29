@@ -14,6 +14,54 @@
  Community Post: https://teamtreehouse.com/community/lets-get-this-expressjs-flashcard-app-deployed-to-heroku -->
 
 
+### Day 93
+
+```javascript
+
+
+//https://stackoverflow.com/questions/18346577/cross-fade-background-image-with-jquery
+
+const imageBgArray = [
+    'img/panoramic-dene.jpg',
+    'img/panoramic-railway.jpg',
+    'img/panoramic-coastal.jpg',
+    'img/panoramic-dene-two.jpg',
+    'img/panoramic-coastal-two.jpg'
+
+];
+
+let i = 0;
+
+    
+setInterval(function() {
+    $('body').css('background-image', 'url(' + imageBgArray[i] + ')');
+    i++;
+
+    if (i == imageBgArray.length) {
+        i = 0;
+    }
+}, 10000);
+
+
+// https://stackoverflow.com/questions/30198494/how-do-i-cycle-the-background-url-of-a-div-through-several-images
+var i=0;
+var imghead=[
+	"url(http://yoururl.com/picture0.jpg)",
+	"url(http://yoururl.com/picture1.jpg)"
+	];//add as many images as you like
+
+function slideimg() {
+    setTimeout(function () {
+        jQuery('#element').css('background-image', imghead[i]);
+        i++;
+        if(i==imghead.length) i=0;
+        slideimg();
+    }, 6000);
+}
+slideimg();
+
+```
+
 ### Day 87
 
 Tasks 

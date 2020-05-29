@@ -52,10 +52,9 @@
     <!-- Canonical link -->
     <link rel="canonical" href="<?php echo $canonical;  ?>">
 
-    <!-- Page Title -->
+    <!-- Page Title -->  
     <title><?php echo $website_title . " | " .  $pageTitle;  ?></title>
-
-
+  
     <?php
         
         //Trail Titles

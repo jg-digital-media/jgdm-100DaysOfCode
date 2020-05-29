@@ -25,15 +25,19 @@
 
     <article class="lockdown-intro">
 
-        <p>In March 2020 life changed for me and everyone else on the planet, possibly forever </p> 
-        
-        <p>Due to the Covid-19 pandemic we all had to make changes to our daily lives and our routines. This left me feeling strange and disoriented at what was happening and the loss of some of the freedoms that we enjoy. Loss of freedom with good reasons might I had. </p>
-        
-        <p>This prompted me to change some things I discovered that outside was the best way to make myself feel better about life. So I got out and I got walking. I discovered a number of walking trails in and around the area I live in. </p>
-        
-        <p>I feel so lucky that I've had so many safe and green spaces to go to while the UK was in Lockdown. So I created this website as something nice to remember this strange period by.</p>
+        <p>In March 2020 life changed for me and everyone else on the planet, possibly forever. </p>
 
-        <a href="routes.php" class="main-btn" title="Go to Routes List Page">Walk Trail List</a>
+        <p>Due to the Covid-19 pandemic, we all had to make changes to our daily lives and our routines. This left me feeling strange and disoriented at what was happening and the loss of some of the freedoms that we enjoy. Loss of freedom with good reasons might I had.</p>
+
+        <p>This prompted me to change some things. I discovered that being outside was the best way to make myself feel better about life. So I got out and I got walking. I discovered a number of walking trails in and around the area I live in. </p>
+
+        <p>Being around nature really does take you out of the Coronavirus bubble and for a short time at least make you feel that it is all going to be okay.</p>
+
+        <p>I feel so lucky that I've had so many safe and green spaces to go to while the UK was in Lockdown. So I created this website as something good to remember mark this strange period in all of our lives.</p>
+
+        <p>Have a browse and enjoy!</p>
+
+        <a href="routes.php" class="main-btn" title="Go to Routes List Page">View Walk Trail List</a>
 
     </article>
 

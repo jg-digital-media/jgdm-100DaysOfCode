@@ -156,7 +156,8 @@ body {
   background-size: 100% 100%;
   background-position: fixed;
   /* background-repeat: no-repeat; */
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  transition: background-image .4s; }
 
 header {
   background: #0c6e0c;

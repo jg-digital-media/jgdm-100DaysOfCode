@@ -14,3 +14,27 @@ $(document).ready(function(){
     });
 
 });
+
+//cycle through background images
+
+const imageBgArray = [
+    'img/panoramic-dene.jpg',
+    'img/panoramic-railway.jpg',
+    'img/panoramic-coastal.jpg',
+    'img/panoramic-dene-two.jpg',
+    'img/panoramic-coastal-two.jpg'
+
+];
+
+let i = 0;
+
+    
+setInterval(function() {
+    $('body').css('background-image', 'url(' + imageBgArray[i] + ')');
+    i++;
+
+    if (i == imageBgArray.length) {
+        i = 0;
+    }
+}, 10000);
+

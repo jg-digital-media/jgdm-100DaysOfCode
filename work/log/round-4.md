@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 93 of 100. **Last Update:** 29 May 2020
+## **Status:** Day 94 of 100. **Last Update:** 01 June 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
+
+### R4D94:  Monday 01 June 2020
++ **Notes**  
+  +  Uploaded updates to my photography website to show the very latest photos. Beyond that, getting back in touch with some of my other projects.
+
++ **Technologies used** - HTML5, CSS, JavaScript
 
 ### R4D93:  Friday 29 May 2020
 + **Notes**  

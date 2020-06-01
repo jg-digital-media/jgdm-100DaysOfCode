@@ -14,6 +14,15 @@
  Community Post: https://teamtreehouse.com/community/lets-get-this-expressjs-flashcard-app-deployed-to-heroku -->
 
 
+### Day 94
+
+```javascript
+function returnValue ( value ) {
+  
+  return value;
+}
+```
+
 ### Day 93
 
 ```javascript

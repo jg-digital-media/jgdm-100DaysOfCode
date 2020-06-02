@@ -39,26 +39,26 @@
                         <!-- TEST FILE PATHS -->
 
                         <!-- walks project website URLS -->                      
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-one/IMG_20200507_135445.jpg" data-lightbox="walk-two" data-title="Step 1: The Starting point. The Castle and Grounds are to the right. Golf Course to the left." class="lightbox-link">                         
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-two/IMG_20200507_135445.jpg" data-lightbox="walk-two" data-title="Step 1: The Starting point. The Castle and Grounds are to the right. Golf Course to the left." class="lightbox-link">                         
                             <div class="follow-trail">Follow the Trail</div>
                         </a>
 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-one/IMG_20200507_135535.jpg" data-lightbox="walk-two" data-title="Step 2: Follow the trail" class="lightbox-link"></a>                        
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-one/IMG_20200507_150105.jpg" data-lightbox="walk-two" data-title="Step 3: At the gate, carry straight on ignoring the right turn" class="lightbox-link"></a>                        
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-one/IMG_20200507_150121.jpg" data-lightbox="walk-two" data-title="Step 4: The Gravel Trail begins" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-one/IMG_20200507_150407.jpg" data-lightbox="walk-two" data-title="Step 5: Carry on the left hand path in this trail" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-one/IMG_20200507_150929.jpg" data-lightbox="walk-two" data-title="Step 6: Carry on througb this narrow stretch" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-two/IMG_20200516_141502.jpg" data-lightbox="walk-two" data-title="Step This is a caption 3 route 2" class="lightbox-link"></a> 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-two/IMG_20200516_141554.jpg" data-lightbox="walk-two" data-title="Go right at this turning" class="lightbox-link"></a> 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-two/IMG_20200516_141752.jpg" data-lightbox="walk-two" data-title="Carry on straight" class="lightbox-link"></a> 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-two/IMG_20200516_142004.jpg" data-lightbox="walk-two" data-title="Where the paths diverge here keep going left" class="lightbox-link"></a> 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-two/IMG_20200516_142145.jpg" data-lightbox="walk-two" data-title="Go left at this corner" class="lightbox-link"></a> 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-two/IMG_20200516_142435.jpg" data-lightbox="walk-two" data-title="Carry on straight" class="lightbox-link"></a> 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-two/IMG_20200516_142645.jpg" data-lightbox="walk-two" data-title="This the point where the Yew Tree and Red Squirrel Routes cross.  Turn straight right." class="lightbox-link"></a> 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-two/IMG_20200516_142656.jpg" data-lightbox="walk-two" data-title="Head down and turn right" class="lightbox-link"></a> 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-two/IMG_20200516_142843.jpg" data-lightbox="walk-two" data-title="Take the next right upward incline" class="lightbox-link"></a> 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-two/IMG_20200516_143045.jpg" data-lightbox="walk-two" data-title="Follow the path up the inline" class="lightbox-link"></a> 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-two/IMG_20200516_143129.jpg" data-lightbox="walk-two" data-title="Trail ends at the gate!" class="lightbox-link"></a>                       
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-two/IMG_20200507_135535.jpg" data-lightbox="walk-two" data-title="Step 2: Follow the trail" class="lightbox-link"></a>                        
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-two/IMG_20200507_150105.jpg" data-lightbox="walk-two" data-title="Step 3: At the gate, carry straight on ignoring the right turn" class="lightbox-link"></a>                        
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-two/IMG_20200507_150121.jpg" data-lightbox="walk-two" data-title="Step 4: The Gravel Trail begins" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-two/IMG_20200507_150407.jpg" data-lightbox="walk-two" data-title="Step 5: Carry on the left hand path in this trail" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-two/IMG_20200507_150929.jpg" data-lightbox="walk-two" data-title="Step 6: Carry on through this narrow stretch" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-two/IMG_20200516_141502.jpg" data-lightbox="walk-two" data-title="Step 7: Cross the red Bridge and go up the upward gravel path" class="lightbox-link"></a> 
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-two/IMG_20200516_141554.jpg" data-lightbox="walk-two" data-title="Go right at this turning" class="lightbox-link"></a> 
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-two/IMG_20200516_141752.jpg" data-lightbox="walk-two" data-title="Carry on straight" class="lightbox-link"></a> 
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-two/IMG_20200516_142004.jpg" data-lightbox="walk-two" data-title="Where the paths diverge here keep going left" class="lightbox-link"></a> 
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-two/IMG_20200516_142145.jpg" data-lightbox="walk-two" data-title="Go left at this corner" class="lightbox-link"></a> 
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-two/IMG_20200516_142435.jpg" data-lightbox="walk-two" data-title="Carry on straight" class="lightbox-link"></a> 
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-two/IMG_20200516_142645.jpg" data-lightbox="walk-two" data-title="This the point where the Yew Tree and Red Squirrel Routes cross.  Turn straight right." class="lightbox-link"></a> 
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-two/IMG_20200516_142656.jpg" data-lightbox="walk-two" data-title="Head down and turn right" class="lightbox-link"></a> 
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-two/IMG_20200516_142843.jpg" data-lightbox="walk-two" data-title="Take the next right upward incline" class="lightbox-link"></a> 
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-two/IMG_20200516_143045.jpg" data-lightbox="walk-two" data-title="Follow the path up the inline" class="lightbox-link"></a> 
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-two/IMG_20200516_143129.jpg" data-lightbox="walk-two" data-title="Trail ends at the gate!" class="lightbox-link"></a>                       
 
                         <!-- walks directories
              

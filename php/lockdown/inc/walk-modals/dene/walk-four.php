@@ -43,19 +43,19 @@
                   
                         <!-- walks project website URLS -->
 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-four-horden/IMG_20200507_135445.jpg" data-lightbox="walk-four" data-title="This is your starting point. Turn right for the gate into the Dene" class="lightbox-link"> 
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-four-horden/IMG_20200507_135445.jpg" data-lightbox="walk-four" data-title="This is your starting point. Turn right for the gate into the Dene" class="lightbox-link"> 
                             <div class="follow-trail">Follow the Trail</div>
                         </a>
 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-four-horden/IMG_20200507_135454.jpg" data-lightbox="walk-four" data-title="After the gate, go down the bank. Turn right at the crossing point and carry on straight" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-four-horden/IMG_20200513_141509.jpg" data-lightbox="walk-four" data-title="Carry on straight for the trail toward Horden" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-four-horden/IMG_20200513_142202.jpg" data-lightbox="walk-four" data-title="Notice the small stone bridge ahead and cross it" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-four-horden/IMG_20200513_142352.jpg" data-lightbox="walk-four" data-title="Carry on straight ignoring the narrow bridge" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-four-horden/IMG_20200513_142829.jpg" data-lightbox="walk-four" data-title="Go straight on at this point" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-four-horden/IMG_20200513_143316.jpg" data-lightbox="walk-four" data-title="Carry on straight" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-four-horden/IMG_20200513_143616.jpg" data-lightbox="walk-four" data-title="Carry on straight ingnorng the narrow bridge on your right" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-four-horden/IMG_20200513_143842.jpg" data-lightbox="walk-four" data-title="At the last stretch f the trail take the concrete road on the left." class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-four-horden/IMG_20200513_144055.jpg" data-lightbox="walk-four" data-title="You have reached the end of the trail." class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-four-horden/IMG_20200507_135454.jpg" data-lightbox="walk-four" data-title="After the gate, go down the bank. Turn right at the crossing point and carry on straight" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-four-horden/IMG_20200513_141509.jpg" data-lightbox="walk-four" data-title="Carry on straight for the trail toward Horden" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-four-horden/IMG_20200513_142202.jpg" data-lightbox="walk-four" data-title="Notice the small stone bridge ahead and cross it" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-four-horden/IMG_20200513_142352.jpg" data-lightbox="walk-four" data-title="Carry on straight ignoring the narrow bridge" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-four-horden/IMG_20200513_142829.jpg" data-lightbox="walk-four" data-title="Go straight on at this point" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-four-horden/IMG_20200513_143316.jpg" data-lightbox="walk-four" data-title="Carry on straight" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-four-horden/IMG_20200513_143616.jpg" data-lightbox="walk-four" data-title="Carry on straight ingnorng the narrow bridge on your right" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-four-horden/IMG_20200513_143842.jpg" data-lightbox="walk-four" data-title="At the last stretch f the trail take the concrete road on the left." class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-four-horden/IMG_20200513_144055.jpg" data-lightbox="walk-four" data-title="You have reached the end of the trail." class="lightbox-link"></a>
                                              
 
                         <!-- walks directories

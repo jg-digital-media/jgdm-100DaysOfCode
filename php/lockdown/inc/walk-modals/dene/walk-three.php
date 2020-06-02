@@ -46,18 +46,18 @@
                             <div class="follow-trail">Follow the Trail</div>
                         </a>
 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-three/IMG_20200507_135535.jpg" data-lightbox="walk-three" data-title="Step 2: Follow the trail" class="lightbox-link"></a>                        
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-three/IMG_20200507_150105.jpg" data-lightbox="walk-three" data-title="Step 3: At the gate, carry straight on ignoring the right turn" class="lightbox-link"></a>  
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-three/IMG_20200507_150121.jpg" data-lightbox="walk-three" data-title="Step 4: Follow along the trail" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-three/IMG_20200507_150407.jpg" data-lightbox="walk-three" data-title="Step 5: Carry on the left hand path in this trail" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-three/IMG_20200507_150929.jpg" data-lightbox="walk-three" data-title="Step 6: Carry on through this narrow stretch" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-three/IMG_20200507_151151.jpg" data-lightbox="walk-three" data-title="Step 7: You'll see the red bridge soon. Walk on for that bridge." class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-three/IMG_20200507_151201.jpg" data-lightbox="walk-three" data-title="Step 8: Cross over the bridge." class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-three/IMG_20200509_134032.jpg" data-lightbox="walk-three" data-title="Step 9: Once over the bridge go over straight away" class="lightbox-link"></a> 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-three/IMG_20200507_151257.jpg" data-lightbox="walk-three" data-title="Step 10: Take the next right turning up an incline" class="lightbox-link"></a> 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-three/IMG_20200509_135132.jpg" data-lightbox="walk-three" data-title="Step 11: Follow the path." class="lightbox-link"></a> 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-three/IMG_20200509_135431.jpg" data-lightbox="walk-three" data-title="Step 12: Keep going until you reach this residential estate. Turn right keeping the estate on your left." class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-dene-three/IMG_20200509_140835.jpg" data-lightbox="walk-three" data-title="Step 13: Your last stop on this trail." class="lightbox-link"></a>                       
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-three/IMG_20200507_135535.jpg" data-lightbox="walk-three" data-title="Step 2: Follow the trail" class="lightbox-link"></a>                        
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-three/IMG_20200507_150105.jpg" data-lightbox="walk-three" data-title="Step 3: At the gate, carry straight on ignoring the right turn" class="lightbox-link"></a>  
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-three/IMG_20200507_150121.jpg" data-lightbox="walk-three" data-title="Step 4: Follow along the trail" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-three/IMG_20200507_150407.jpg" data-lightbox="walk-three" data-title="Step 5: Carry on the left hand path in this trail" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-three/IMG_20200507_150929.jpg" data-lightbox="walk-three" data-title="Step 6: Carry on through this narrow stretch" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-three/IMG_20200507_151151.jpg" data-lightbox="walk-three" data-title="Step 7: You'll see the red bridge soon. Walk on for that bridge." class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-three/IMG_20200507_151201.jpg" data-lightbox="walk-three" data-title="Step 8: Cross over the bridge." class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-three/IMG_20200509_134032.jpg" data-lightbox="walk-three" data-title="Step 9: Once over the bridge go over straight away" class="lightbox-link"></a> 
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-three/IMG_20200507_151257.jpg" data-lightbox="walk-three" data-title="Step 10: Take the next right turning up an incline" class="lightbox-link"></a> 
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-three/IMG_20200509_135132.jpg" data-lightbox="walk-three" data-title="Step 11: Follow the path." class="lightbox-link"></a> 
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-three/IMG_20200509_135431.jpg" data-lightbox="walk-three" data-title="Step 12: Keep going until you reach this residential estate. Turn right keeping the estate on your left." class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/walk-dene-three/IMG_20200509_140835.jpg" data-lightbox="walk-three" data-title="Step 13: Your last stop on this trail." class="lightbox-link"></a>                       
 
                         <!-- walks directories
 

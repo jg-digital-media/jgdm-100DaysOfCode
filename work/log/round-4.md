@@ -1,11 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 94 of 100. **Last Update:** 01 June 2020
+## **Status:** Day 95 of 100. **Last Update:** 02 June 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+### R4D95:  Tuesday 02 June 2020
++ **Notes**  
+  +  To further enhance the new "lockdown walks" project I made last week, I finally got somewhere in serving the images I use externally via my Amazon S3 bucket.
+
++ **Technologies used** - HTML5, CSS, PHP
+
+R4D94: 
 
 
 ### R4D94:  Monday 01 June 2020

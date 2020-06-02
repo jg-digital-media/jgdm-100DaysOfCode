@@ -48,18 +48,24 @@ body {
 
 header.main-header {
   text-align: center;
-  width: 100%;
-  margin: 10px 0;
+  width: 70%;
+  margin: 10px auto;
   font-weight: bold;
-  font-family: arial; }
+  font-family: arial;
+  font-size: 12px;
+  color: black; }
+  header.main-header h1 {
+    margin: 20px 0;
+    color: black;
+    font-size: 25pt;
+    padding: 0 10px; }
   header.main-header a {
     color: red;
-    font-size: 10px; }
+    font-size: 12px; }
     header.main-header a:hover {
       text-decoration: none; }
-  header.main-header h2, header.main-header p {
-    margin: 20px 0;
-    padding: 0 10px; }
+    header.main-header a.selected {
+      color: black; }
 
 /*main.scss*/
 /*Main container styles */
@@ -80,10 +86,11 @@ header.main-header {
     /*border: solid red 1px;*/
     background: #111111;
     color: #ffffff; }
-    .container .container-header h1 {
+    .container .container-header h2 {
       text-align: center;
-      font-size: 3pc;
-      font-family: "Roboto", sans-serif; }
+      font-size: 25pt;
+      font-family: "Roboto", sans-serif;
+      font-weight: bold; }
   .container .date {
     font-family: verdana;
     text-align: right;
@@ -268,13 +275,13 @@ ul.add-currency-list li {
     font-size: 14px; }
 
   .container {
-    width: 100%;
+    width: 95%;
     margin: 0 auto; }
 
   ul.currencies {
     height: calc(100vh - 83px - 34px - 51px); }
 
-  .header h1 {
+  .main-header h1 {
     font-size: 2rem; }
 
   .flag {
@@ -297,11 +304,14 @@ ul.add-currency-list li {
 
   ul.add-currency-list {
     bottom: 48px;
-    height: calc(100vh - 80px - 51px); }
+    /*height: calc(100vh - 80px - 51px);*/ }
 
   .add-currency-btn i {
     left: 25%;
-    top: 0.65rem; } }
+    top: 0.65rem; }
+
+  header.main-header {
+    width: 85%; } }
 /*Footer Styles*/
 .page-footer {
   text-align: center;
@@ -311,8 +321,8 @@ ul.add-currency-list li {
   .page-footer p {
     font-size: 1.5rem; }
     .page-footer p a {
-      color: black;
-      color: blue; }
+      color: blue;
+      color: #693333; }
       .page-footer p a:hover {
         color: red; }
 

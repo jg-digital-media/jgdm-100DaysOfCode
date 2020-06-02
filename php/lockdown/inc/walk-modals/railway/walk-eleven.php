@@ -46,23 +46,23 @@
 
                         <!-- walks project website URLS -->
 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_135331.jpg" data-lightbox="walk-eleven" data-title="Second bus stop along the Main Road. Prepare to cross at this point. Find the Stile crossing" class="lightbox-link"> 
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_135331.jpg" data-lightbox="walk-eleven" data-title="Second bus stop along the Main Road. Prepare to cross at this point finding the stile crossing." class="lightbox-link"> 
                             <div class="follow-trail">Follow the Trail</div>
                         </a>
 
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_135411.jpg" data-lightbox="walk-eleven" data-title="Begin crossing the public footpath" class="lightbox-link"></a>
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_135411.jpg" data-lightbox="walk-eleven" data-title="Begin crossing the public footpath." class="lightbox-link"></a>
                         <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_135745.jpg" data-lightbox="walk-eleven" data-title="Keep going until you reach this corner. This is a right turn" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_135956.jpg" data-lightbox="walk-eleven" data-title="This gate leads near to Castle Eden Inn.  Turn left across the gravel road." class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_140050.jpg" data-lightbox="walk-eleven" data-title="Keep going in the left direction until" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_140554.jpg" data-lightbox="walk-eleven" data-title="Turn right at the crossing" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_140624.jpg" data-lightbox="walk-eleven" data-title="Move the right of the hedges and follow the trail to Bleachery Dene" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_140628.jpg" data-lightbox="walk-eleven" data-title="" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_141259.jpg" data-lightbox="walk-eleven" data-title="Entrance to Bleachery Dene. Walk through" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_141339.jpg" data-lightbox="walk-eleven" data-title="Go down the incline turn right and follow this path" class="lightbox-link"></a>
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_135956.jpg" data-lightbox="walk-eleven" data-title="This gate leads near to Castle Eden Inn. Turn left across the gravel road." class="lightbox-link"></a>
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_140050.jpg" data-lightbox="walk-eleven" data-title="Keep going in the left direction until you reach the concrete crossing." class="lightbox-link"></a>
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_140554.jpg" data-lightbox="walk-eleven" data-title="Turn right at the crossing." class="lightbox-link"></a>
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_140624.jpg" data-lightbox="walk-eleven" data-title="Move the right of the hedges and follow the trail to Bleachery Dene." class="lightbox-link"></a>
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_140628.jpg" data-lightbox="walk-eleven" data-title="Continue on Bleachery Dene is directly ahead." class="lightbox-link"></a>
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_141259.jpg" data-lightbox="walk-eleven" data-title="Entrance to Bleachery Dene. Walk through." class="lightbox-link"></a>
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_141339.jpg" data-lightbox="walk-eleven" data-title="Go down the incline turn right and follow this path." class="lightbox-link"></a>
                         <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_141449.jpg" data-lightbox="walk-eleven" data-title="Keep going through and cross the narrow wooden bridge." class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_141513.jpg" data-lightbox="walk-eleven" data-title="Follow the narrow path up the hill" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_141558.jpg" data-lightbox="walk-eleven" data-title="Turn right and follow the path around the trees" class="lightbox-link"></a>
-                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_144632.jpg" data-lightbox="walk-eleven" data-title="There will be a right turn with a wooden stile" class="lightbox-link"></a>
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_141513.jpg" data-lightbox="walk-eleven" data-title="Follow the narrow path up the hill." class="lightbox-link"></a>
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_141558.jpg" data-lightbox="walk-eleven" data-title="Turn right and follow the path around the trees." class="lightbox-link"></a>
+                        <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_144632.jpg" data-lightbox="walk-eleven" data-title="There will be a right turn with a wooden stile." class="lightbox-link"></a>
                         <a href="https://projects.jonniegrieve.co.uk/walks/img/walk-eleven-bleachery-dene/IMG_20200505_144727.jpg" data-lightbox="walk-eleven" data-title="Follow this path. Ending the trail at the A19." class="lightbox-link"></a>                       
 
                         <!-- walks directories

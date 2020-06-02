@@ -64,12 +64,12 @@ btnTwelve.onclick = function() {
     //console.log("modal 3 clicked!");
 }
 
-/* //modal thirteen and fourteen
+//modal thirteen and fourteen
 btnThirteen.onclick = function() {
     modalThirteen.style.display = "block";
     //console.log("modal 3 clicked!");
 }
-
+/* 
 btnFourteen.onclick = function() {
     btnFourteen.style.display = "block";
     //console.log("modal 3 clicked!");
@@ -147,7 +147,7 @@ window.onclick = function(event) {
     }
 }
 
-/* 
+
 closeThirteen.onclick = function() {
     modalThirteen.style.display = "none";
     console.log("modal closed!");
@@ -159,7 +159,7 @@ window.onclick = function(event) {
     }
 }
 
-
+/* 
 closeFourteen.onclick = function() {
     modalFourteen.style.display = "none";
     console.log("modal closed!");

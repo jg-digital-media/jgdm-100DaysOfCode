@@ -2,8 +2,7 @@
 //header
 header {
     background: $bg-primary;
-    /*min-height: 115px;*/
-    min-height: 220px;
+    min-height: auto;
     background: url("../img/header/header_2.jpg");
     background-size: 50%;
     border-bottom: 7px #f5a7f5 solid;
@@ -53,18 +52,18 @@ header {
             text-align: center;
 
             .main-title {
-                font-size: 20pt;
-                font-size: 31pt;
+                font-size: 35pt;
                 text-align: center;
                 font-weight: bold;
+                line-height: 1.2;
             }
         }
 
         a {
             font-size: small;
+            text-decoration: none;
             color: $txt-col-secondary;
             &:hover {
-                text-decoration: none;
                 color: $txt-col-tertiary;
             }
 
@@ -94,7 +93,7 @@ header {
             li  {
                 display: inline-block;
                 margin-left: 20px;
-                font-size: 13pt;
+                font-size: 12pt;
 
                 label {
                     color: $txt-col-secondary;
@@ -102,7 +101,7 @@ header {
 
                 a {
                     color: $txt-col-secondary;
-                    text-decoration: underline;
+                    text-decoration: none;
                     transition: color .2s;
                     &:hover {
                         text-decoration: none;
@@ -111,6 +110,7 @@ header {
 
                     &.selected {
                         color: $txt-col-tertiary;
+                        border-bottom: 3px solid $txt-col-tertiary;
                     }
 
                 }

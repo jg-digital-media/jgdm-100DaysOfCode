@@ -6,8 +6,7 @@
 /*font-family: 'Permanent Marker', cursive;*/
 header {
   background: darkmagenta;
-  /*min-height: 115px;*/
-  min-height: 220px;
+  min-height: auto;
   background: url("../img/header/header_2.jpg");
   background-size: 50%;
   border-bottom: 7px #f5a7f5 solid; }
@@ -42,15 +41,15 @@ header {
       color: white;
       text-align: center; }
       header article .title-space .main-title {
-        font-size: 20pt;
-        font-size: 31pt;
+        font-size: 35pt;
         text-align: center;
-        font-weight: bold; }
+        font-weight: bold;
+        line-height: 1.2; }
     header article a {
       font-size: small;
+      text-decoration: none;
       color: white; }
       header article a:hover {
-        text-decoration: none;
         color: #14e448; }
       header article a.selected {
         color: white; }
@@ -68,18 +67,19 @@ header {
     header nav.nav-space ul li {
       display: inline-block;
       margin-left: 20px;
-      font-size: 13pt; }
+      font-size: 12pt; }
       header nav.nav-space ul li label {
         color: white; }
       header nav.nav-space ul li a {
         color: white;
-        text-decoration: underline;
+        text-decoration: none;
         transition: color .2s; }
         header nav.nav-space ul li a:hover {
           text-decoration: none;
           color: #14e448; }
         header nav.nav-space ul li a.selected {
-          color: #14e448; }
+          color: #14e448;
+          border-bottom: 3px solid #14e448; }
       header nav.nav-space ul li .inventory {
         display: block; }
       header nav.nav-space ul li select#inventory {

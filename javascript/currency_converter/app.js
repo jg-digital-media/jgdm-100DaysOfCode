@@ -2,7 +2,6 @@ console.log("file connected");
 
 
 // global variables
-
 const addCurrencyBtn = document.querySelector(".add-currency-btn");
 const addCurrencyList = document.querySelector(".add-currency-list");
 const currenciesList = document.querySelector(".currencies");
@@ -14,7 +13,7 @@ let baseCurrency;
 let baseCurrencyAmount;
 
 
-//data
+//currencies data
 let currencies = [
     {
         name: "US Dollar",
@@ -219,7 +218,7 @@ let currencies = [
 ]
 
 
-// event listeners
+/* Event Listeners */
 
 //click add currency btn
 addCurrencyBtn.addEventListener("click", addCurrencyBtnClick);
@@ -259,7 +258,7 @@ function closeCurrency(event) {
     }
 }
 
-// eventfires whenever the values of an input element changes. 
+// event fires whenever the values of an input element changes. 
 currenciesList.addEventListener("input", currenciesListInputChange);
 
 function currenciesListInputChange(event) {
@@ -309,7 +308,7 @@ function currenciesListKeyDown(event) {
 }
 
 
-/* functions*/
+/* Functions*/
 
 function setNewBaseCurrency(newBaseCurrencyLI) {
     newBaseCurrencyLI.classList.add("base-currency");
@@ -321,10 +320,6 @@ function setNewBaseCurrency(newBaseCurrencyLI) {
     currencyLI.querySelector(".base-currency-rate").textContent = `1 ${baseCurrency} = ${exchangeRate} ${currencyLI.id}`;
     });
 }
-
-
-
-
 
 // Function to populate list with data.  populateAddCurrencyList
 function populateAddCurrencyList() {
@@ -373,9 +368,9 @@ function newCurrenciesListItem(currency) {
             <span class="close">&times;</span>
         </li>`
     )
-
-
+    
 }
+
 
 //Fetch data from URL via the given endpoint
 fetch(dataURL) 

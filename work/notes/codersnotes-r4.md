@@ -14,6 +14,18 @@
  Community Post: https://teamtreehouse.com/community/lets-get-this-expressjs-flashcard-app-deployed-to-heroku -->
 
 
+### Day 96
+
+function max( num1, num2 ) {  
+  
+    if ( num1 > num2 ) {
+      return num1;
+    } else {
+      return num2;
+    }
+  
+}
+
 ### Day 94
 
 ```javascript

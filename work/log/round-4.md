@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 96 of 100. **Last Update:** 03 June 2020
+## **Status:** Day 97 of 100. **Last Update:** 04 June 2020
 ___
 **Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R4D97:  Thursday 04 June 2020
++ **Notes**  
+  +  "Loaded a random set of 6 images by pulling the data from a JSON file. Wanted to do it with a REST API but this is a start and one way of doing what I wanted to do.
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
+Loacded a random set of 6 images
 
 
 ### R4D96:  Wednesday 03 June 2020

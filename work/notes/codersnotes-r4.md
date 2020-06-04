@@ -14,6 +14,53 @@
  Community Post: https://teamtreehouse.com/community/lets-get-this-expressjs-flashcard-app-deployed-to-heroku -->
 
 
+
+### Day 97
+
+#### Random photo from json source
+https://dev.to/desi/using-the-unsplash-api-to-display-random-images-15co
+
+https://github.com/unsplash/unsplash-js#photo-random
+
+https://medium.com/quick-code/how-to-quickly-generate-a-random-gallery-of-images-from-an-unsplash-collection-in-javascript-4ddb2a6a4faf
+
+https://unsplash.com/oauth/applications/139912
+
+Using an Array source - Simple JavaScript
+https://www.dyn-web.com/code/random-image-js/
+
+http://www.marcelpatek.com/blog/2012/08/04/random-images-web/
+
+```html
+<script type="text/javascript">
+  jQuery.getJSON('http://www.yoursite.com/../images_rand/images.json', function(data) { //Ajax call
+         var item = data.images[Math.floor(Math.random()*data.images.length)]; //select image at random
+         //build the complete <img> tag
+         jQuery('<img src="http://yoursite.com/../images_rand/' + item.url + ' " width="665px" height="499px">').appendTo('#singleshot');
+         jQuery('<p>' + item.title + '</p>').appendTo('#singleshot'); //attach "title" to separate <p> tag
+});
+</script>
+```
+
+```javascript
+
+/*
+
+Get Data from JSON and append to page.
+http://www.marcelpatek.com/blog/2012/08/04/random-images-web/
+
+*/
+  jQuery.getJSON('../assets/data/oftheday.json', function(data) { //Ajax call
+         var item = data.images[Math.floor(Math.random() * data.images.length)]; //select image at random
+         //build the complete <img> tag
+         jQuery("<div><img src=" + item.url + " class=" + item.class + " alt='" + item.alt + "' title='" + item.alt +  "'/></div>").appendTo('#img-of-the-day');
+         jQuery('<p>' + item.caption + '</p>').appendTo('#img-of-the-day'); //attach "title" to separate <p> tag
+});
+
+```
+
+
+
 ### Day 96
 
 function max( num1, num2 ) {  

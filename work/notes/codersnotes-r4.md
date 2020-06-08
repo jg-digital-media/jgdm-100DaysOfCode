@@ -13,13 +13,21 @@
 <!--  Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
  Community Post: https://teamtreehouse.com/community/lets-get-this-expressjs-flashcard-app-deployed-to-heroku -->
 
-### Day 98
+
+
+### Day 99
 
 ```javascript
+//
+      jQuery('<div class="photo-item"> <img src="' + photoData[i].thumb_url +'" loading="lazy" data-src= "'  + photoData[i].thumb_url + '" class="' + 'thumbnails ' + photoData[i].class + '" /></div>').appendTo('#all-photos');
+
+      jQuery('<div class="photo-item"> <img src="' + photoData[i].thumb_url +'" loading="lazy" data-src= "'  + photoData[i].thumb_url + '" class="' + 'thumbnails ' + photoData[i].class + '" /></div>').appendTo('#all-photos');
+
 
 
 ```
 
+https://www.sitepoint.com/five-techniques-lazy-load-images-website-performance/
 
 ### Day 97
 

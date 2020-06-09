@@ -13,7 +13,51 @@
 <!--  Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
  Community Post: https://teamtreehouse.com/community/lets-get-this-expressjs-flashcard-app-deployed-to-heroku -->
 
+### Day 100
 
+```javascript
+
+/*
+* Function Scope
+*/
+
+let person 'Lee';
+
+function greeting() {
+   let person = 'Meg';
+   alert(`Hi, ${person}!`)
+
+}
+
+function greeting2() {
+   let person = 'Robert';
+   alert(`Good morning, ${person}!`)
+
+}
+
+
+greeting();  //outputs 'meg';
+alert(`Hi, ${` ${person}!`) //outputs 'Lee'
+greeting2(); // outputs 'meg'
+
+
+/*
+* Function Declaration vs Function Expression
+*/
+
+//e.g. function declaration
+function getRandomNumber( upper ) {
+    const randomNumber = Math.floor( Math.random() * upper + 1 );
+    return randomNumber;
+}
+
+//e.g. function expression
+const getRandomNumber = function( upper ) {
+    const randomNumber = Math.floor( Math.random() * upper + 1 );
+    return randomNumber;
+};
+
+```
 
 ### Day 99
 

@@ -6,6 +6,13 @@ ___
 ___
 
 
+### R4D100: Tuesday 09 June 2020
+
++ **Notes**
+  +  To close out Round 4 I started prepping for things to come in the 5th round of this challenge and did a refresher on JavaScript Functions, scope and the functional differences between declaration and expressions.
+
++ **Technologies used** - HTML5, CSS, JavaScript
+
 ### R4D99: Monday 08 June 2020
 
 + **Notes**

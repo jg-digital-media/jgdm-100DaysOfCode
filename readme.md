@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 4: Day 100 of 100. **Last Update:** 9 June 2020
++ **Status:** Round 5: Day 1 of 100. **Last Update:** 10 June 2020
 
 ## Directories
   + bin      
@@ -38,7 +38,9 @@
     + iteration-methods
     + library
     + node
-  + laravel <?>
+    + random_number_challenge.js
+  + laravel [new directory coming]
+    + 
   + nodeJS
     + basics
     + dynamic
@@ -57,11 +59,13 @@
     + slim
     + slimmin
     + twig
-    + twig_projects
+    + twig_project
   + project_api 
   + python
     + basics
+    + lists
     + madlibs
+    + oop
   + react
     + context_api
     + practice-state
@@ -72,6 +76,11 @@
     + tictactoe
   + regex
   + sonic_pi
+    + jingles
+    + laptop_biffers
+    + live_music_coding_example
+    + tunes
+    + tutorial_buffers
   + svg
     + icons
   + vue
@@ -93,7 +102,7 @@
 + **notes** - Coders notes directory - interesting or helpful notes and topics will go in this folder.
 + Other folders are organised by language, library or platform name.
 
-### Project Links
+## Project Links
 
 CSS
 
@@ -106,8 +115,11 @@ CSS
 JavaScript
 
 + **javascript/ajax** - Fictional Stock Check Application with AJAX - https://projects.jonniegrieve.co.uk/ajax_project/
++ **javascript/currency_converter** - 
 + **javascript/dom** - Simple List Maker App - https://projects.jonniegrieve.co.uk/list_maker/
 + **javascript/four_in_a_row** - Object Oriented JavaScript project that builds version of the "Four in a Row" game. - https://projects.jonniegrieve.co.uk/four_in_a _row/
++ **javascript/greensock** - Animation Library for JavaScript
++ **javascript/iteration-methods** - 
 + **javascript/library** - library based JS OOP Project - **not yet uploaded**
 + **javascript/vue/vue-status-project** - Project Status List to update - https://projects.jonniegrieve.co.uk/vue_project/
 
@@ -133,18 +145,26 @@ Vue
 + **todo** - interactive to do list with VueJs - connects to LocalStorage.
 + **vue_project** -  Retrieves and displays values of a set of structured JSON Data.
 + **vue_project_v2** - Retrieves and displays values of a set of structured JSON Data including image paths
++ **voting_app** - Simple interactive voting app. 
 
 ## Description
 
 
-My goal remains to help myself maintain not just my coding (I can always be found coding), but also an active social media presence.
+My goal remains to help myself maintain not just my coding (I can always be found coding), but also an active social media presence in light of it.
 
 Hopefully this will help me engage more with the tech community.
 
-My commit on **31st July 2019** contains a new structure for this repository.  You'll find all my blogs are now located in the blog directory.  This latest 100DaysOfCode effort is now logged in **round-3.md**.  I've kept the others in **round-1.md** and **round-2.md**.
+As pf my commit on **10th June 2020**  You'll find all my blogs are now located in the "log" directory.  This latest 100DaysOfCode effort is now logged in **round-5.md**.  I've kept the others in **round-1.md** and **round-2.md** etc.
 
 In my commit for **25th January 2019**, I posted that I've completed my re-organisation of my work via [GitHub](https://github.com/jg-digital-media) reducing the number of my repositories.  All my projects are either backed up online, on Amazon S3 or on version control.  Most of my repos are now set to private.  I may end up switching back to public from time to time. But don't worry, anything I deem fit for public viewing will be available to see via my domain at https://projects.jonniegrieve.co.uk
 
-If you notice **codersnotes-r3.md** in this repository, just think of this as a kind of "notebook" for while I'm working through this round of 100DaysofCode..
+If you notice **codersnotes-r4.md** and all the others in this repository, just think of this as a kind of "notebook" for while I'm working through this round of 100DaysofCode.
 
-Thanks for following my journey!
+## Initial goals of this round.
+
++ Update project images for status project.
++ Laravel (Switch Website) - Combining PHP and JavaScript DOM Scripting
++ More work into Express.js - REST API
++ Utilising LazyLoading.js 
+
+Thank you for following my journey!

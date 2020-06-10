@@ -2,13 +2,13 @@
 
 ## **Status:** Day 1 of 100. **Last Update:** 10 June 2020
 ___
-**Directories:** | css | java | javascript | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
+**Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-### R5D1: Wendnesday 10 June 2020
+### R5D1: Wednesday 10 June 2020
 
 + **Notes**
-  +  After much determination, I implemented native browser lazyloading and finally managed to retrieve JSON data that loads hundreds of photos. JavaScript lazy loading not working for reasons that as yet escape me.
+  +  After updating my photography website I spent time trying to install, create and manage a new Laravel project.  Have installed and project serves via composer but database setup doesn't work yet. 
 
 + **Technologies used** - HTML5, CSS, JavaScript

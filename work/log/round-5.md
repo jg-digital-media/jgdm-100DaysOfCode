@@ -6,7 +6,7 @@ ___
 ___
 
 
-### R5D1: Monday 08 June 2020
+### R5D1: Wendnesday 10 June 2020
 
 + **Notes**
   +  After much determination, I implemented native browser lazyloading and finally managed to retrieve JSON data that loads hundreds of photos. JavaScript lazy loading not working for reasons that as yet escape me.

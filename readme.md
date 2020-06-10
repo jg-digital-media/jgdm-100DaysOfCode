@@ -39,7 +39,7 @@
     + library
     + node
     + random_number_challenge.js
-  + laravel [new directory coming]
+  + laravel
     + 
   + nodeJS
     + basics

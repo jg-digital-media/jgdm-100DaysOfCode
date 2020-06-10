@@ -4,13 +4,8 @@
 ##  install laravel  with composer
 
 
-laravel_apps - directory
-
--> switch
-
-create a new project from an existing package
     -> create-project --prefer-dist laravel/laravel project_name
-    -> create-project --prefer-dist laravel/laravel project_name
+    -> create-project --prefer-dist laravel/laravel switch_photos
 
 ```create-project``` - tells Composer to create a new project from an existing package.
 

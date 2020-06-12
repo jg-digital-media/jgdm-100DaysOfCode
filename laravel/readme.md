@@ -14,3 +14,33 @@
 ```laravel/laravel``` - indicates that this type of project,is a Laravel project.
 
 ```project_name``` - type in the chosen name of the project
+
+
+### Important files and directories in a laravel project
+
++ App (Models)
+  + Console
+  + Exceptions
+  + Http
+  + Providers
+
++ Controllers  (app/http)
+  + Controllers
+  + Middleware
+  + (Laravel comes preloaded with Authentication Controllers)
+
++ Resources
+  + js
+  + lang
+  + sass
+  + views - blade templating engine
+
++ Database
+  + factories
+  + migrations  - blueprints for creating and modifying structure of database
+  + seeds - Seeders allow us to insert an initial data set into our database quickly
+
+
+.env
+composer.json
+package.json

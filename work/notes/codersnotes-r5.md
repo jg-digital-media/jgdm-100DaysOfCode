@@ -12,6 +12,34 @@
 + Laravel -  https://projects.jonniegrieve.co.uk/switch_photos - http://localhost/jgdm-100DaysOfCode/laravel/switch_photos/
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 
+### Day 2
+
+
+#### Fixing Laravel Migration
+
+https://stackoverflow.com/questions/46745365/artisan-migrate-could-not-find-driver
+
+
+
+
+XAMP switched on for Apache and mySQL
+
+```
+$ php artisan migrate
+Migration table created successfully.
+Migrating: 2014_10_12_000000_create_users_table
+Migrated:  2014_10_12_000000_create_users_table (1.05 seconds)
+Migrating: 2019_08_19_000000_create_failed_jobs_table
+Migrated:  2019_08_19_000000_create_failed_jobs_table (0.4 seconds)
+```
+
+```extension=php_pdo_mysql```
+
+
+overview
+
+
+```
 
 ### Day 1
 

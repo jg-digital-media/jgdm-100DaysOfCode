@@ -2,6 +2,34 @@
 
 ### Featured Projects       
 
+
+```json
+, {
+            "project_name": "James Grieve",
+            "project_url": "https://www.jgrieve.com",
+            "img_url": "img/featured/jgrieve.jpg",
+            "project_alt": "Go to James Grieve website",
+            "project_type": "Website",
+            "project_status": "Complete",
+            "status": true
+        }, {
+            "project_name": "Landing Page for JGDM",
+            "project_url": "https://jg-digital-media.github.io ",
+            "img_url": "img/featured/landing_jgdm.jpg",
+            "project_alt": "Go to Landing Page for JGDM",
+            "project_type": "Single Page",
+            "project_status": "Complete",
+            "status": true
+        }, {
+            "project_name": "JGDM",
+            "project_url": "https://www.jonniegrieve.co.uk",
+            "img_url": "img/featured/jgdm.jpg",
+            "project_alt": "Go to https://www.jonniegrieve.co.uk",
+            "project_type": "Website",
+            "project_status": "Complete",
+            "status": true
+        }
+```
 ```html 
             <div class="show-featured">
 

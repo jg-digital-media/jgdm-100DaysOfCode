@@ -12,6 +12,30 @@
 + Laravel -  https://projects.jonniegrieve.co.uk/switch_photos - http://localhost/jgdm-100DaysOfCode/laravel/switch_photos/
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 
+### Day 3
+
+```php
+
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/about', function () {
+    return view ('about route');
+}); 
+
+Route::get('/all', function () {
+    return view ('all route');
+}); 
+
+
+Route::get('/contact', function () {
+    return view ('contact route');
+});
+
+```
+
 ### Day 2
 
 

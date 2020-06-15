@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 5: Day 2 of 100. **Last Update:** 12 June 2020
++ **Status:** Round 5: Day 3 of 100. **Last Update:** 15 June 2020
 
 ## Directories
   + bin      
@@ -40,7 +40,7 @@
     + node
     + random_number_challenge.js
   + laravel
-    + 
+    + switch_photos
   + nodeJS
     + basics
     + dynamic

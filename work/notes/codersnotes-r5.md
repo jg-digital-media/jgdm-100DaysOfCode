@@ -11,6 +11,20 @@
 + Lockdown - https://projects.jonniegrieve.co.uk/lockdown
 + Laravel -  https://projects.jonniegrieve.co.uk/switch_photos - http://localhost/jgdm-100DaysOfCode/laravel/switch_photos/
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
++ Project Status - JSON (separate to Vue Project)
+
+### Day 4
+
+```javascript
+
+       //successful delivery of class and image URL            
+        jQuery(`<a href="${photoData.projects[i].project_url}" target="blank"><img src="${photoData.projects[i].img_url}" class="site-images" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" /></a>`).appendTo('.all');     
+
+```
+
+```javascript
+
+```
 
 ### Day 3
 

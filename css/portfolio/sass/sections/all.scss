@@ -1,0 +1,21 @@
+.main-content {
+    article#all-projects { 
+
+        @include articlePlacement(block, row, 10%);
+        @extend %sections;
+
+        .all {
+            text-align: center;        
+
+            a {
+                margin: 10px;
+
+            }
+
+            img {
+                margin: 10px;
+            }
+        }
+
+    } 
+} 

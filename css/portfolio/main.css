@@ -42,7 +42,7 @@ Colours
   width: 250px;
   height: 250px; }
 
-.main-content article#services, .main-content article#featured, .main-content article#about, .main-content article#video, .main-content article#hire-me, .main-content article#dyspraxia {
+.main-content article#services, .main-content article#featured, .main-content article#all-projects, .main-content article#about, .main-content article#video, .main-content article#hire-me, .main-content article#dyspraxia {
   color: black;
   font-weight: bold;
   padding: 10vh 0 10px 10px; }
@@ -329,6 +329,17 @@ nav.main-nav {
     @media (max-width: 780px) {
       .main-content article#featured img {
         width: 70%; } }
+
+.main-content article#all-projects {
+  display: block;
+  flex-direction: row;
+  margin-top: 10%; }
+  .main-content article#all-projects .all {
+    text-align: center; }
+    .main-content article#all-projects .all a {
+      margin: 10px; }
+    .main-content article#all-projects .all img {
+      margin: 10px; }
 
 .main-content .about-box {
   padding: 10px; }

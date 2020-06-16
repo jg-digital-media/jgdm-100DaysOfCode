@@ -111,7 +111,7 @@ Last Updated:   19th September 2019
 
                 <a href="https://dyspraxia.jonniegrieve.co.uk/" target="blank"><img src="img/featured/sub-dyspraxia.png" class="site-images" alt="Awareness website for Neurological condition Dyspraxia" title="Awareness website for Neurological condition Dyspraxia" tabindex="16" /></a>
     
-                </div>
+            </div>
 
         </article>
 
@@ -138,7 +138,7 @@ Last Updated:   19th September 2019
 
         </article>
 
-        <article id="video" tabindex="20" >
+        <article id="video" tabindex="20">
 
             <h2>See our promotional video!</h2>
 
@@ -302,6 +302,7 @@ Last Updated:   19th September 2019
                     // Make and decode POST request:
                     $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
                     $recaptcha = json_decode($recaptcha);
+                }
 
             ?>
 
@@ -394,7 +395,7 @@ Last Updated:   19th September 2019
                 <input type="submit" id="submit" value="Send!" tabindex="53" />
 
                 <!--- HIDDEN FIELD-->                        
-                    <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
+                <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
                 
 
             </form>
@@ -446,13 +447,15 @@ Last Updated:   19th September 2019
     <!-- recaptcha front end integration-->
     <script src="https://www.google.com/recaptcha/api.js?render=6Lc9o5cUAAAAACm3RTkLuU4iMdqfDzOhLpzLY-Ea"></script>
     <script>
-    grecaptcha.ready(function() {
-        grecaptcha.execute('6Lc9o5cUAAAAACm3RTkLuU4iMdqfDzOhLpzLY-Ea', {action: 'homepage'}).then(function(token) {
-           //connect to a hidden field via the DOM
-           var recaptchaResponse = document.getElementById('recaptchaResponse');
-                recaptchaResponse.value = token;
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6Lc9o5cUAAAAACm3RTkLuU4iMdqfDzOhLpzLY-Ea', {action: 'homepage'}).then(function(token) {
+            //connect to a hidden field via the DOM
+            var recaptchaResponse = document.getElementById('recaptchaResponse');
+                    recaptchaResponse.value = token;
+            });
         });
-    });
     </script>
+
+
 </body>
 </html>

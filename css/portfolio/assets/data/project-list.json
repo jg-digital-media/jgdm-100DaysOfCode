@@ -202,8 +202,9 @@
             "status": true
         }, {
             "project_name": "Simple List Maker",
-            "project_url": "img/featured/list-maker.jpg",
-            "project_alt": "Go to Simple List Naker",
+            "project_url": "https://projects.jonniegrieve.co.uk/list_maker",
+            "img_url": "img/featured/list_maker.jpg",
+            "project_alt": "Go to Simple List Maker",
             "project_type": "App",
             "project_status": "Complete",
             "status": true
@@ -390,14 +391,6 @@
             "project_alt": "Go to ",
             "project_type": "",
             "project_status": "Complete",
-            "status": true
-        }, {
-            "project_name": "blank",
-            "project_url": "blank",
-            "img_url": "img/featured/",
-            "project_alt": "blank",
-            "project_type": "blank",
-            "project_status": "blank",
             "status": true
         }
     ]

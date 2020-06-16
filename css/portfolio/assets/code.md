@@ -28,6 +28,14 @@
             "project_type": "Website",
             "project_status": "Complete",
             "status": true
+        }, {
+            "project_name": "blank",
+            "project_url": "blank",
+            "img_url": "img/featured/",
+            "project_alt": "blank",
+            "project_type": "blank",
+            "project_status": "blank",
+            "status": true
         }
 ```
 ```html 

@@ -27,7 +27,7 @@ jQuery.getJSON('assets/data/project-list.json', function(photoData) { //Ajax cal
 
        //successful delivery of class and image URL
             
-        jQuery(`<a href="${photoData.projects[i].project_url}" target="blank"><img src="${photoData.projects[i].img_url}" class="site-images" alt="${photoData.projects[i].img_url}" title="${photoData.project_alt}" tabindex="" /></a>`).appendTo('.show-featured .all');     
+        jQuery(`<a href="${photoData.projects[i].project_url}" target="blank"><img src="${photoData.projects[i].img_url}" class="site-images" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" /></a>`).appendTo('.all');     
 
    }
 

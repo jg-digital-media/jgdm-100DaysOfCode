@@ -1,3 +1,18 @@
+
+
+jQuery.getJSON('../portfolio/assets/data/project-list.json', function(photoData) { 
+    
+    let itemAll = photoData.projects.length;
+    console.log(photoData.projects.length);
+
+    for (let i=0; i < itemAll; i++) { 
+        //jQuery(`<a href="${photoData.projects[i].project_url}" target="blank"><img src="${photoData.projects[i].img_url}" class="site-images" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" /></a>`).appendTo('.project-status-data');
+        jQuery(`<li> <span class="complete"> &nbsp; </span> </li>`).appendTo('#project-status');
+        jQuery(`<li> ${photoData.projects[i].project_name} <strong>(${photoData.projects[i].project_type})</strong> </li>`).appendTo('#project-names');
+    }
+});
+
+
 /* //Array of objects for data
 
 //Vue instance that holds the Project status data in JSON format. 
@@ -263,5 +278,3 @@ const vue = new Vue({
     }
 
 }); */
-
-

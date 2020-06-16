@@ -3,7 +3,7 @@
 
 
 /**
- * Random Featured Projects
+ * Display all featured projects
  */
 
 jQuery.getJSON('assets/data/project-list.json', function(photoData) { //Ajax call

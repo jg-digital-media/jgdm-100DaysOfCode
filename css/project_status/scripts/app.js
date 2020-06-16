@@ -1,6 +1,6 @@
 
 
-jQuery.getJSON('../portfolio/assets/data/project-list.json', function(photoData) { 
+jQuery.getJSON('../assets/data/project-list.json', function(photoData) { 
     
     let itemAll = photoData.projects.length;
     console.log(photoData.projects.length);

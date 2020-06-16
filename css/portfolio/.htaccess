@@ -7,3 +7,5 @@ RewriteBase /
 
 RewriteCond %{REQUEST_URI} ^/404/$
 RewriteRule ^(.*)$ /not-found.html [L]
+
+Header set Access-Control-Allow-Origin "*"

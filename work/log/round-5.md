@@ -9,7 +9,7 @@ ___
 ### R5D5: Wednesday 17 June 2020
 
 + **Notes**
-  +  Learned how to work with Controllers in Laravel. And had a great recap on working with Event Listeners, iterating and bubbling. Productive day!
+  +  Learned how to work with Controllers in Laravel. And had a great recap on working with Event Listeners, iterating and bubbling. Productive day! Gets fun tomorrow where I'll explore making a Laravel Project into a website
 + **Technologies used** - HTML5, CSS, PHP
 
 ### R5D4: Tuesday 16 June 2020

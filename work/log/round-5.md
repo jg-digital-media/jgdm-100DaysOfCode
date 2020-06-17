@@ -1,15 +1,21 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 4 of 100. **Last Update:** 16 June 2020
+## **Status:** Day 5 of 100. **Last Update:** 17 June 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R5D5: Wednesday 17 June 2020
+
++ **Notes**
+  +  Learned how to work with Controllers in Laravel. And had a great recap on working with Event Listeners, iterating and bubbling. Productive day!
++ **Technologies used** - HTML5, CSS, PHP
+
 ### R5D4: Tuesday 16 June 2020
 
 + **Notes**
-  +  Learned about Closures in Laravel, dodged CRSF problems in JSON
+  +  Learned about Closures in Laravel, dodged CRSF problems in JSON. Getting there in my goals.
 + **Technologies used** - HTML5, CSS, PHP
 
 ### R5D3: Monday 15 June 2020

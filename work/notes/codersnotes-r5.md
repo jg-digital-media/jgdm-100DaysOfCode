@@ -13,6 +13,112 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
+
+### Day 5
+
+#### Using Controllers to Navigate Laravel Apps
+
+```php
+
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class AppController extends Controller
+{
+    //
+    public function index() {
+        return view('welcome');
+    }
+}
+
+
+//And as the web route
+Route::get('/', 'AppController@index');
+
+```
+e.g. 
+
+#### pass $data to the ‘welcome’ View
+
+
+```return view(‘welcome’,[‘data’=>$data]);```
+
+
+#### How does information flow in an MVC application?
+
+```View, ---> Controller --->  Model```
+
+#### Dom  events + Responding to user actions 
+
+```javascript
+
+//Reference Elements
+const header = document.querySelector(header);
+const checkboxes = document.querySelectorAll('input[type="checkbox"]');  //returns a node list
+const petList = document.querySelector('.pet-list');
+const btn = document.querySelector('button');
+
+//change fill property of svg
+header.addEventListener('click', () => {
+  const logo = header.firstElementChild
+  logo.style.setProperty('fill', randomHex());
+
+});
+
+//iterate over node list
+/*checkboxes.forEach( checkbox => {
+    checkbox.addEventListener('change', (e) => {
+        //checkbox.parentNode.classList.toggle('selected');
+	e.target.parentNode.classList.toggle('selected');
+    });
+    
+});*/
+
+//event delegation - bubbling
+petList.addEventListener("change", (e) => {
+   const target = e.target;
+   if(target.tagName === 'INPUT') {
+       target.parentNode.classList.toggle('selected');
+   }
+});
+
+
+//show/hide content with event delegation
+petList.addEventListener("click", (e) => {
+   const target = e.target;
+   const petImg = target.firstElementChild;
+   if(target.tagName === 'LI') {
+        petImg.classList.toggle('show');
+   }
+});
+
+//remove selected items
+btn.addEventListener('click', e => {
+   checkboxes.forEach( checkbox => {
+       if ( checkbox.checked ) {
+           checkbox.parentNode.remove();
+       }         
+   });
+});
+
+
+//helper function
+function randomHex() {
+   let max = 1 << 24;
+   let hex = (max + Math.floor(Math.random() + max)).toString(16).slice(-6);
+   return `${hex}`;
+
+}
+
+
+
+
+
+```
+
 ### Day 4
 
 ```javascript

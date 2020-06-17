@@ -386,12 +386,60 @@
             "status": true
         }, {
             "project_name": "Currency Converter App",
-            "project_url": "https://projects.jonniegrieve.co.uk/currency_converter/index.html ",
+            "project_url": "https://projects.jonniegrieve.co.uk/currency_converter/index.html",
             "img_url": "img/featured/currency_converter.jpg",
-            "project_alt": "Go to ",
-            "project_type": "",
+            "project_alt": "Go to Currency Converter App",
+            "project_type": "App",
             "project_status": "Complete",
             "status": true
+        }, {
+            "project_name": "Fetch API (JavaScript)",
+            "project_url": "https://projects.jonniegrieve.co.uk/fetch/",
+            "img_url": "img/featured/fetch.jpg",
+            "project_alt": "Go to Fetch API (JavaScript)",
+            "project_type": "App",
+            "project_status": "incomplete",
+            "status": false
+        }, {
+            "project_name": "Project Status Page (JavaScript)",
+            "project_url": "https://jonniegrieve.co.uk/project_status",
+            "img_url": "img/featured/status.jpg",
+            "project_alt": "Go to Project Status Page (JavaScript)",
+            "project_type": "App",
+            "project_status": "incomplete",
+            "status": false
+        }, {
+            "project_name": "Slim - Custom PHP Website",
+            "project_url": "https://projects.jonniegrieve.co.uk/slim",
+            "img_url": "img/featured/slim.jpg",
+            "project_alt": "Go to Slim - Custom PHP Website",
+            "project_type": "Website",
+            "project_status": "incomplete",
+            "status": false
+        }, {
+            "project_name": "PHP Authorisation Project",
+            "project_url": "https://projects.jonniegrieve.co.uk/php_auth_v4",
+            "img_url": "img/featured/php_auth.jpg",
+            "project_alt": "Go to PHP Authorisation Project",
+            "project_type": "Website",
+            "project_status": "incomplete",
+            "status": false
+        }, {
+            "project_name": "Laravel Switch Project",
+            "project_url": "https://jonniegrieve.co.uk/switch_photos",
+            "img_url": "img/featured/laravel.jpg",
+            "project_alt": "Go to Laravel Switch Project",
+            "project_type": "Website",
+            "project_status": "incomplete",
+            "status": false
+        }, {
+            "project_name": "AM Consulting",
+            "project_url": "#",
+            "img_url": "img/featured/am_consulting.jpg",
+            "project_alt": "Go to AM Consulting",
+            "project_type": "Website",
+            "project_status": "incomplete",
+            "status": false
         }
     ]
 }

@@ -6,6 +6,8 @@
  * Display all featured projects
  */
 
+ //file path to json file - local assets/data/project-list.json
+ //file path to json file - server assets/data/project-list.json
 jQuery.getJSON('assets/data/project-list.json', function(photoData) { //Ajax call
     //var itemAll = data.images[Math.floor(Math.random() * data.images.length)]; //select image at random
 

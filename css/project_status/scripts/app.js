@@ -1,6 +1,8 @@
 
 
-jQuery.getJSON('../assets/data/project-list.json', function(photoData) { 
+ //file path to json file - local   - ../../css/portfolio/assets/data/project-list.json
+ //file path to json file - server  - ../../../assets/data/project-list.json
+jQuery.getJSON('../../css/portfolio/assets/data/project-list.json', function(photoData) { 
     
     let itemAll = photoData.projects.length;
     console.log(photoData.projects.length);

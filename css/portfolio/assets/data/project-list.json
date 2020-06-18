@@ -403,14 +403,14 @@
         }, {
             "project_name": "Project Status Page (JavaScript)",
             "project_url": "https://jonniegrieve.co.uk/project_status",
-            "img_url": "img/featured/status.jpg",
+            "img_url": "img/featured/status_js.jpg",
             "project_alt": "Go to Project Status Page (JavaScript)",
             "project_type": "App",
             "project_status": "incomplete",
             "status": false
         }, {
             "project_name": "Slim - Custom PHP Website",
-            "project_url": "https://projects.jonniegrieve.co.uk/slim",
+            "project_url": "https://projects.jonniegrieve.co.uk/slim/src/public",
             "img_url": "img/featured/slim.jpg",
             "project_alt": "Go to Slim - Custom PHP Website",
             "project_type": "Website",
@@ -427,7 +427,7 @@
         }, {
             "project_name": "Laravel Switch Project",
             "project_url": "https://jonniegrieve.co.uk/switch_photos",
-            "img_url": "img/featured/laravel.jpg",
+            "img_url": "img/featured/switch_photos.jpg",
             "project_alt": "Go to Laravel Switch Project",
             "project_type": "Website",
             "project_status": "incomplete",

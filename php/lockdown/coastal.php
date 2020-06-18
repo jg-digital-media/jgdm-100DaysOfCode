@@ -35,7 +35,7 @@
 
         <p><?php /*require("inc/walk-modals/coastal/walk-eighteen.php");*/ ?> </p>
          
-        <p><?php /*require("inc/walk-modals/coastal/walk-nineteen.php");*/ ?> </p> 
+        <p><?php require("inc/walk-modals/coastal/walk-nineteen.php"); ?> </p> 
         
         <p><?php /*require("inc/walk-modals/coastal/walk-twenty.php");*/ ?> </p> 
 

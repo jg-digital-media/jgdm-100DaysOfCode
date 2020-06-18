@@ -1,11 +1,17 @@
-https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two     <h3><?php echo $trailTitleSixteen; ?></h3>
+<!--<p> <?php echo "Walk 16";  ?> </p> -->
+
+<article class="walk">
+
+    <div>
+
+        <h3><?php echo $trailTitleSixteen; ?></h3>
 
         <p>Lorem</p>
 
     </div>
 
     <div>
-        <img src = "img/walk_homepage/#" alt = "<?php echo $trailTitleSixteen; ?>" title="<?php echo $trailTitleSixteen; ?>" />
+        <img src = "img/walk_homepage/walk-sixteen.jpg" alt = "<?php echo $trailTitleSixteen; ?>" title="<?php echo $trailTitleSixteen; ?>" />
 
         <!-- opens modal -->
         <a href="#" class="walk-btn modal_btn" id="modal_btn_sixteen" title="Open Route">Open Route</a>
@@ -18,7 +24,7 @@ https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two    
                 
                     <span class="close">&times;</span>
 
-                    <h3>Modal Route sixteen (INCOMPLETE) </h3>
+                    <h3>Blackhall Rocks (Incomplete)</h3>
                     
                     <ol>
                         <li>.</li>
@@ -37,17 +43,32 @@ https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two    
 
                         <!-- walks project website URLS -->
 
-                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two" data-lightbox="walk-sixteenn" data-title="This is a caption 1 route fifteen" class="lightbox-link"> 
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two/IMG_20200530_104747.jpg" data-lightbox="walk-sixteen" data-title="This is a caption 1 route fifteen" class="lightbox-link"> 
                             <div class="follow-trail">Follow the Trail</div> 
                         </a>
-                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two" data-lightbox="walk-sixteen" data-title="This is a caption 2 route fifteen" class="lightbox-link"></a>
-                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two" data-lightbox="walk-sixteen" data-title="This is a caption 3 route fifteen" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two/IMG_20200530_104856.jpg" data-lightbox="walk-sixteen" data-title="This is a caption 2 route fifteen" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two/IMG_20200530_104911.jpg" data-lightbox="walk-sixteen" data-title="This is a caption 3 route fifteen" class="lightbox-link"></a>
+
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two/IMG_20200530_105055.jpg" data-lightbox="walk-sixteen" data-title="captioning" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two/IMG_20200530_105226.jpg" data-lightbox="walk-sixteen" data-title="captioning" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two/IMG_20200530_105229.jpg" data-lightbox="walk-sixteen" data-title="captioning" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two/IMG_20200530_105404.jpg" data-lightbox="walk-sixteen" data-title="captioning" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two/IMG_20200530_105426.jpg" data-lightbox="walk-sixteen" data-title="captioning" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two/IMG_20200530_110226.jpg" data-lightbox="walk-sixteen" data-title="captioning" class="lightbox-link"></a>
                          
                         <!-- walks directories
                   
                         img/walks/walk-sixteen
                         https://projects.jonniegrieve.co.uk/walks/img/walk-fourteen
                         walk-fourteen
+
+                        
+
+                        
+                        
+                       
+
+                        
 
                         --> 
 

@@ -74,8 +74,8 @@
         $trailTitleFourteen = "Hesleden & Bleachery Dene Reverse (Incomplete)";
         $trailTitleFifteen= "Denemouth Trail (Incomplete)";
         $trailTitleSixteen = "Coastal 2 - Blackhall Rocks (Incomplete)";
-        $trailTitleSeventeen = "Coastal 3 (Incomplete)";
-        $trailTitleEighteen = "Coastal 4 (Incomplete)";
+        $trailTitleSeventeen = "Crimdon Trail: 1 (Incomplete)";
+        $trailTitleEighteen = "Crimdon Trail: 2 (Incomplete)";
         $trailTitleNineteen = "Limekiln Trail";
         $trailTitleTwenty = "Coastal 6 (Incomplete)";
 

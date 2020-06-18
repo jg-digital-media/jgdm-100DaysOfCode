@@ -13,6 +13,16 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
+### Day 6
+
+#### blade - get CSS and JS Assets
+
+    <link href="{{asset('style.css')}}" rel="stylesheet">
+    <script src="{{asset('app.js')}}"></script>
+
+#### Blade -> Navigation
+                    <a class="nav-link" href="{{env('app_url')}}/tracks"><b>Tracks</b></a>
+
 
 ### Day 5
 

@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 5 of 100. **Last Update:** 17 June 2020
+## **Status:** Day 6 of 100. **Last Update:** 18 June 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R5D6: Thursday 18 June 2020
+
++ **Notes**
+  +  Going to need some more practice but I think I have a good handle now on Modular views with @extends. @yields and @includes with Laravel.
++ **Technologies used** - HTML5, CSS, PHP
 
 ### R5D5: Wednesday 17 June 2020
 

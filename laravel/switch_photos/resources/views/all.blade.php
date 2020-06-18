@@ -1,7 +1,7 @@
 @extends('home')
 
 
-@section('body') 
+@section('content') 
 
    <div>Content All</div>
 

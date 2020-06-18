@@ -16,14 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'AppController@index');
 
 Route::get('/about', function () {
-    return view ('about route');
+    return view('about');
 }); 
 
 Route::get('/all', function () {
-    return view ('all route');
+    return view('all');
 }); 
 
-
 Route::get('/contact', function () {
-    return view ('contact route');
+    return view('contact');
 });

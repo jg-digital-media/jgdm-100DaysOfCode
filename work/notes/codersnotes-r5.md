@@ -13,6 +13,73 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
+### Day 7
+
+#### Function Declaration Syntax
+
+```javascript
+function square(x) {
+    return x * x;
+}
+
+
+```
+
+
+#### Function Expression Syntax
+
+```javascript
+const square = function(x) {
+    return x *x;
+}
+
+```
+
+#### Arrow Function Expression Syntax
+
+```javascript
+
+const getRandomNumber = () => {
+    const randomNumber = Math.floor(Math.random() + 6 ) + 1;
+    return randomNumber;
+};
+```
+
+#### Arrow Functions with Parameters
+
+```javascript
+const getRandomNumber = (upper) => {
+    const randomNumber = Math.floor(Math.random() + upper ) + 1;
+    return randomNumber;
+};
+```
+
+#### Arrow Functions with One Parameter (no brackets)
+
+```javascript
+const square = x => {
+    return x * x;
+}
+```
+
+#### Arrow Functions with Multiple Parameters
+
+```javascript
+const areaRect = (one, two, three, four) => {
+    return one x two x three x four + "cm3";
+}
+
+```
+
+#### Single-line Functions with No Parameters
+
+```javascript
+
+const name = 'Jesse';
+const greeting = () => alert(`Greetings, ${name}!`);
+```
+
+
 ### Day 6
 
 #### blade - get CSS and JS Assets

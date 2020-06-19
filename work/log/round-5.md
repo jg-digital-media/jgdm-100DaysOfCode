@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 6 of 100. **Last Update:** 18 June 2020
+## **Status:** Day 7 of 100. **Last Update:** 19 June 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R5D7: Friday 19 June 2020
+
++ **Notes**
+  +  Today I got the go ahead to release my latest client project https://jgrieve.com. Check it out.  Plenty of updates elsewhere on my Photography site, and practiced on the specifics and pros/cons of Function syntax in JS.
++ **Technologies used** - HTML5, CSS, PHP
 
 ### R5D6: Thursday 18 June 2020
 

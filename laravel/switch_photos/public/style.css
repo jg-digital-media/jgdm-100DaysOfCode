@@ -1,10 +1,11 @@
+/*Sass - 19/06/2020  sass --watch resources/sass/app.scss:public/style.css*/
 body {
-    background: lightgreen;
-    font-family: arial;
-    font-size: 10px;
-}
+  background: lightgreen;
+  font-family: arial;
+  font-size: 10px; }
 
 * {
-    padding: 0;
-    margin: 0;
-}
+  padding: 0;
+  margin: 0; }
+
+/*# sourceMappingURL=style.css.map */

@@ -13,6 +13,51 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
+### Day 8
+
+#### Default Laravel Migration
+
+
+```AppController.php
+
+return view('library', ['photos' => Photos::all()]);
+```
+
+```php
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreatePhotosTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('photos', function (Blueprint $table) {
+            $table->id();
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('photos');
+    }
+}
+
+```
+
 ### Day 7
 
 #### Function Declaration Syntax

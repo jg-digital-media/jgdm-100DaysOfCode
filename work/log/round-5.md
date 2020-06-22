@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 7 of 100. **Last Update:** 19 June 2020
+## **Status:** Day 8 of 100. **Last Update:** 22 June 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R5D8: Monday 22 June 2020
+
++ **Notes**
+  +  Managed to run a default migration in Laravel for a Photo's model. But it's not much use without the markup to build it on. So it's time to build that next.  :)
++ **Technologies used** - HTML5, CSS, PHP
 
 ### R5D7: Friday 19 June 2020
 

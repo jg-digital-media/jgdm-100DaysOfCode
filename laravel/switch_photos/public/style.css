@@ -1,4 +1,11 @@
 /*Sass - 19/06/2020  sass --watch resources/sass/app.scss:public/style.css*/
+.header .logo-container img {
+  width: 30%; }
+.header .website-title h1 {
+  font-size: large; }
+.header .main-nav ul li {
+  display: inline-block; }
+
 body {
   background: lightgreen;
   font-family: arial;

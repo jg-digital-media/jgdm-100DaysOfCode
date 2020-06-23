@@ -1,3 +1,22 @@
 //
 /*Sass - 19/06/2020  sass --watch resources/sass/app.scss:public/style.css*/
+
+//header 
+@import "inc/header";
+//nav
+
+//config
+@import "config/colours";
+@import "config/fonts";
+@import "config/breakpoints";
+
+
+//utilities
+@import "utilities/extends";
+@import "utilities/mixins";
+
+//styles
 @import "main/main";
+
+//footer
+@import "inc/footer";

@@ -13,6 +13,10 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
+### Day 9
+
+
+
 ### Day 8
 
 #### Default Laravel Migration

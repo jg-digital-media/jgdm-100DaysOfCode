@@ -22,7 +22,7 @@
 /*main*/
 body {
   background: lightgreen;
-  font-family: arial;
+  font-family: "arial";
   font-size: 10px; }
 
 * {

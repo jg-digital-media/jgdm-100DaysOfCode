@@ -1,10 +1,11 @@
-//footer
+/*Header*/
+
 .header {
 
     .logo-container {
 
         img {
-            width: 30%;
+            width: 200px;
         }
 
     }
@@ -15,17 +16,38 @@
              font-size: large;
          }
 
-    }
+    }    
 
     .main-nav {
 
-        ul li {
-            display: inline-block;
-        }
-        
-        ul li a {
+        ul {
+
+            border: solid red 1px;
+
+            li {
+                display: inline-block;
+            }
+
+            a {
+                display: inline-block;
+                color: blue;
+
+                img {
+                    width: 20px;
+                }
+            }
+
+            a.selected {
+                font-weight: bold;
+                color: black;
+            }
+
+            a.nav-item {
+                display: list-item;
+            }            
 
         }
+
     }
 
 }

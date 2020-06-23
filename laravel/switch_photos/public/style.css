@@ -1,11 +1,25 @@
 /*Sass - 19/06/2020  sass --watch resources/sass/app.scss:public/style.css*/
+/*Header*/
 .header .logo-container img {
-  width: 30%; }
+  width: 200px; }
 .header .website-title h1 {
   font-size: large; }
-.header .main-nav ul li {
-  display: inline-block; }
+.header .main-nav ul {
+  border: solid red 1px; }
+  .header .main-nav ul li {
+    display: inline-block; }
+  .header .main-nav ul a {
+    display: inline-block;
+    color: blue; }
+    .header .main-nav ul a img {
+      width: 20px; }
+  .header .main-nav ul a.selected {
+    font-weight: bold;
+    color: black; }
+  .header .main-nav ul a.nav-item {
+    display: list-item; }
 
+/*main*/
 body {
   background: lightgreen;
   font-family: arial;
@@ -14,5 +28,8 @@ body {
 * {
   padding: 0;
   margin: 0; }
+
+.footer p {
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

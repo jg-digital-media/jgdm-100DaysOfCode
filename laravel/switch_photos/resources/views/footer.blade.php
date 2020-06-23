@@ -1,5 +1,5 @@
-<footer>
+<footer class="footer">
 
-<p>Footer Copyright notice &copy;  </p>
+    <p>Footer Copyright notice &copy; 2020  </p>
 
 </footer>

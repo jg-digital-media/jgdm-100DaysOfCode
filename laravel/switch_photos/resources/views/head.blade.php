@@ -8,18 +8,17 @@
 
     <!-- Meta Descriptions -->
 
-
     <!-- Canonical -->
-
 
     <!-- Google Font
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Odibee+Sans|Quicksand&display=swap" rel="stylesheet">-->
 
     <!-- Favicon -->
     <link rel="icon" href="favicon.png" type="image/png">
+  
 </head>
 
-<header class=".header">
+<header class="header">
 
     <div class="logo-container">
         <img src="{{ asset('img/main-logo.png')}}" alt="Main Logo" title="Main logo" />

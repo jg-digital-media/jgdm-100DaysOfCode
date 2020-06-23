@@ -1,5 +1,10 @@
-@extends('home')
+<?php 
 
+    $selected = "all";
+
+?>
+
+@extends('main')
 
 @section('content') 
 

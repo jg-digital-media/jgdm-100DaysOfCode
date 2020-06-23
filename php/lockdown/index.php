@@ -101,17 +101,15 @@
         <div> <a href="inc/walk-templates/walk-eleven.php" title="Walk 11: Bleachery Dene" class="route-slider-link"> <img src="img/walk_homepage/walk-eleven-bleachery-dene.jpg" alt="Walk 11: Bleachery Dene" class="route-slider-image" /> </a> </div> 
         <div> <a href="inc/walk-templates/walk-twelve.php" title="Walk 12: To Station Town" class="route-slider-link"> <img src="img/walk_homepage/walk-twelve-to-station-town.jpg" alt="Walk 12: To Station Town" class="route-slider-image" /> </a> </div> 
         <div> <a href="inc/walk-templates/walk-thirteen.php" title="Walk: 13 Hart to Haswell Cross-field Route" class="route-slider-link"> <img src="img/walk_homepage/walk-thirteen.jpg" alt="Walk: 13 Hart to Haswell Cross-field Route" class="route-slider-image" /> </a> </div> 
-        <div> <a href="inc/walk-templates/walk-fourteen.php" title="Walk 14" class="route-slider-link"> <img src="img/walk_homepage/walk-fourteen.jpg" alt="Walk 14" class="route-slider-image" /> </a> </div> 
+        <div> <a href="inc/walk-templates/walk-fourteen.php" title="Walk 14" class="route-slider-link"> <img src="img/walk_homepage/walk-fourteen.jpg" alt="Walk 14" class="route-slider-image" /> </a> </div>
+        <div> <a href="inc/walk-templates/walk-fifteen.php" title="Walk 15: Crimdon Route 1" class="route-slider-link"> <img src="img/walk_homepage/walk-fifteen.jpg" alt="Walk 15: Crimdon Route 1" class="route-slider-image" /> </a> </div> 
+        <div> <a href="inc/walk-templates/walk-sixteen.php" title="Walk 16: Cromdon Route 2" class="route-slider-link"> <img src="img/walk_homepage/walk-sixteen.jpg" alt="Walk 16: Cromdon Route 2" class="route-slider-image" /> </a> </div> 
+        <div> <a href="inc/walk-templates/walk-seventeen.php" title="Blackhall Rocks" class="route-slider-link"> <img src="img/walk_homepage/walk-seventeen.jpg" alt="Blackhall Rocks" class="route-slider-image" /> </a> </div> 
+        <div> <a href="inc/walk-templates/walk-eighteen.php" title="Limekiln Gill Trail" class="route-slider-link"> <img src="img/walk_homepage/walk-eighteen.jpg" alt="Limekiln Gill Trail" class="route-slider-image" /> </a> </div> 
         <div> <a href="inc/walk-templates/walk-nineteen.php" title="Walk 19" class="route-slider-link"> <img src="img/walk_homepage/walk-nineteen.jpg" alt="Walk 19" class="route-slider-image" /> </a> </div> 
 
-        <!--
-        <div> <a href="inc/walk-templates/walk-fifteen.php" title="" class="route-slider-link"> <img src="img/walk_homepage/#" alt="" class="route-slider-image" /> </a> </div> 
-        <div> <a href="inc/walk-templates/walk-sixteen.php" title="" class="route-slider-link"> <img src="img/walk_homepage/#" alt="" class="route-slider-image" /> </a> </div> 
-        <div> <a href="inc/walk-templates/walk-seventeen.php" title="" class="route-slider-link"> <img src="img/walk_homepage/#" alt="" class="route-slider-image" /> </a> </div> 
-        <div> <a href="inc/walk-templates/walk-eighteen.php" title="" class="route-slider-link"> <img src="img/walk_homepage/#" alt="" class="route-slider-image" /> </a> </div> 
-        <div> <a href="inc/walk-templates/walk-twenty.php" title="" class="route-slider-link"> <img src="img/walk_homepage/#" alt="" class="route-slider-image" /> </a> </div> 
-
-        -->
+        
+        <!--<div> <a href="inc/walk-templates/walk-twenty.php" title="" class="route-slider-link"> <img src="img/walk_homepage/#" alt="" class="route-slider-image" /> </a> </div> 
 
     </div>
 

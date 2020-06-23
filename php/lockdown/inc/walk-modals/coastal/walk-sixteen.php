@@ -42,13 +42,11 @@
                         <!-- TEST FILE PATHS -->
 
                         <!-- walks project website URLS -->
-
                         <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two/IMG_20200530_104747.jpg" data-lightbox="walk-sixteen" data-title="This is a caption 1 route fifteen" class="lightbox-link"> 
                             <div class="follow-trail">Follow the Trail</div> 
                         </a>
                         <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two/IMG_20200530_104856.jpg" data-lightbox="walk-sixteen" data-title="This is a caption 2 route fifteen" class="lightbox-link"></a>
                         <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two/IMG_20200530_104911.jpg" data-lightbox="walk-sixteen" data-title="This is a caption 3 route fifteen" class="lightbox-link"></a>
-
                         <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two/IMG_20200530_105055.jpg" data-lightbox="walk-sixteen" data-title="captioning" class="lightbox-link"></a>
                         <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two/IMG_20200530_105226.jpg" data-lightbox="walk-sixteen" data-title="captioning" class="lightbox-link"></a>
                         <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two/IMG_20200530_105229.jpg" data-lightbox="walk-sixteen" data-title="captioning" class="lightbox-link"></a>

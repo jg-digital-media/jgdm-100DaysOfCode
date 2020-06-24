@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 9 of 100. **Last Update:** 23 June 2020
+## **Status:** Day 10 of 100. **Last Update:** 24 June 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R5D10: Wednesday 24 June 2020
+
++ **Notes**
+  +  Got to work today on some big updates for my client Auto Cleanse.  Then got to some study on deploying data migrations with Laravel
++ **Technologies used** - HTML5, CSS, PHP
 
 
 ### R5D9: Tuesday 23 June 2020

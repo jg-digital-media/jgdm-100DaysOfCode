@@ -13,7 +13,46 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
-### Day 9
+### Day 10
+
+
+### Expanded Example - inserting ercords with Laravel
+
+```php
+
+/*Seeders*/
+
+//Command - make seeder
+php artisan make:seeder TableNameTableSeeder
+
+//php artisan migrate
+
+    <?php
+    class TableNameTableSeeder extends Seeder {
+        /**
+        * Run the database seeds
+        *
+        * @return void
+        */
+        
+        public function run() {
+            //
+            DB::table('courses')->insert([
+                'title'=>'Grid Basics',
+                'summary' => 'This courese teaches you everything you need to know about CSS Grid',
+                'duration' => '120',
+                'language' => 'CSS',
+                'difficulty' => 'Beginner',
+                'stages' => '3',
+            ]);
+        }
+    }
+
+    ?>
+
+//php artisan db:seed
+
+```
 
 
 

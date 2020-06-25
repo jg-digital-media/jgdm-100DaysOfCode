@@ -47,13 +47,13 @@
                         </a>
                         <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_115745.jpg" data-lightbox="walk-seventeen" data-title="This is a caption 2 route seventeen" class="lightbox-link"></a>
                         <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_115911.jpg" data-lightbox="walk-seventeen" data-title="This is a caption 3 route seventeen" class="lightbox-link"></a>
-                        <a href="https://jg-photography.s3.eu-west-3.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_115948.jpg" data-lightbox="walk-seventeen" data-title="captioning" class="lightbox-link"></a>
-                        <a href="https://jg-photography.s3.eu-west-3.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_120430.jpg" data-lightbox="walk-seventeen" data-title="captioning" class="lightbox-link"></a>
-                        <a href="https://jg-photography.s3.eu-west-3.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_120532.jpg" data-lightbox="walk-seventeen" data-title="captioning" class="lightbox-link"></a>
-                        <a href="https://jg-photography.s3.eu-west-3.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_120555.jpg" data-lightbox="walk-seventeen" data-title="captioning" class="lightbox-link"></a>
-                        <a href="https://jg-photography.s3.eu-west-3.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_120557.jpg" data-lightbox="walk-seventeen" data-title="captioning" class="lightbox-link"></a>
-                        <a href="https://jg-photography.s3.eu-west-3.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_120703.jpg" data-lightbox="walk-seventeen" data-title="captioning" class="lightbox-link"></a>
-                        <a href="https://jg-photography.s3.eu-west-3.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_120937.jpg" data-lightbox="walk-seventeen" data-title="captioning" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_115948.jpg" data-lightbox="walk-seventeen" data-title="captioning" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_120430.jpg" data-lightbox="walk-seventeen" data-title="captioning" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_120532.jpg" data-lightbox="walk-seventeen" data-title="captioning" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_120555.jpg" data-lightbox="walk-seventeen" data-title="captioning" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_120557.jpg" data-lightbox="walk-seventeen" data-title="captioning" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_120703.jpg" data-lightbox="walk-seventeen" data-title="captioning" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_120937.jpg" data-lightbox="walk-seventeen" data-title="captioning" class="lightbox-link"></a>
                         
                         <!-- walks directories
                   

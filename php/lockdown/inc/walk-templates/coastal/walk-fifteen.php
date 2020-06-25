@@ -34,16 +34,15 @@
 
             <article class="content">
         
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur reprehenderit ipsam molestiae possimus necessitatibus aspernatur culpa sit! Amet delectus ipsam, placeat sed obcaecati nulla rerum nostrum, praesentium odit vero odio?</p>
+                <p>Crimdon is home to the famous caravan and holiday parks and boasts the East Coast.</p>
 
                 <h3>Trail Details</h3>
 
                 <ol>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
+                    <li>Features the stunning East coast to the left</li>
+                    <li>Takes a right turn and follow concrete path along the coast</li>
+                    <li>Route meets entrance to Crimdon Dene</li>
+                    <li>At the Pony Trekking center, turn left</li>
                 </ol>    
                 
                 <a href="../../../index.php" class="back-home">Back Home</a>

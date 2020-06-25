@@ -23,19 +23,17 @@
 
     <section class="coastal">
             
-        <h2>Walking Trails: Castle Eden Dene: Coastal Routes</h2>
-
-        <p>Details of Coastal Routes coming very soon!  <em>Very Soon!</em>  :-)</p>
+        <h2>Walking Trails: Coastal Routes beyond Castle Eden</h2>
 
         <p><?php require("inc/walk-modals/coastal/walk-fifteen.php"); ?> </p> 
 
         <p><?php require("inc/walk-modals/coastal/walk-sixteen.php"); ?> </p> 
 
-        <p><?php require("inc/walk-modals/coastal/walk-seventeen.php"); ?> </p> 
+        <p><?php /*require("inc/walk-modals/coastal/walk-seventeen.php"); */ ?> </p> 
 
-        <p><?php require("inc/walk-modals/coastal/walk-eighteen.php"); ?> </p>
+        <p><?php /*require("inc/walk-modals/coastal/walk-eighteen.php"); */ ?> </p>
          
-        <p><?php require("inc/walk-modals/coastal/walk-nineteen.php"); ?> </p> 
+        <p><?php /*require("inc/walk-modals/coastal/walk-nineteen.php");*/ ?> </p> 
         
         <p><?php /*require("inc/walk-modals/coastal/walk-twenty.php");*/ ?> </p> 
 

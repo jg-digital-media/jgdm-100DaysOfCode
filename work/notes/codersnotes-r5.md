@@ -16,7 +16,7 @@
 ### Day 10
 
 
-### Expanded Example - inserting ercords with Laravel
+### Expanded Example - inserting records with Laravel
 
 ```php
 

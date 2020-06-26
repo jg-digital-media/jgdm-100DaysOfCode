@@ -19,7 +19,7 @@
     $selected = "routes";
 
     //Walk Template - Trail URLS
-    $walk_homepage_eighteen ="../../img/walk_homepage/walk-eighteen.jpg";
+    $walk_homepage_eighteen ="../../../img/walk_homepage/walk-eighteen.jpg";
 ?>
 
 <?php require_once "../../../inc/header.php"; ?>
@@ -34,19 +34,21 @@
 
             <article class="content">
         
-                <p>Denemouth</p>
+                <p>Denemouth - Links with the main Dene Nature reserve of Castle Eden. You'll walk through an expansive green area and travel a short but steep incline that rewards you with a fine view of the North Sea Coast.</p>
 
                 <h3>Trail Details</h3>
 
-                <ol>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
+                <ol>            
+                
+                    <li>Starts in wooded area across the road from the main Castle Eden Dene.</li>
+                    <li>Walk left to reach the main green.</li>
+                    <li>There are 2 ways to the coast.</li>
+                    <li>This trail takes the path that goes right.</li>
+                    <li>There are several steps to traverse up to the top.</li>
+                    <li>The North Sea.</li>
                 </ol>    
                 
-                <a href="../../../index.php" class="back-home">Back Home</a>
+                <a href="../../../../index.php" class="back-home">Back Home</a>
 
             </article>  
 

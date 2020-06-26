@@ -39,14 +39,11 @@
                 <h3>Trail Details</h3>
 
                 <ol>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
+                    <li>Blackhall Rocks:  From the car park turn right and follow the path straight on.</li>
+                    <li>The coastline will be freely visible on your right.</li>
                 </ol>    
                 
-                <a href="../../index.php" class="back-home">Back Home</a>
+                <a href="../../../index.php" class="back-home">Back Home</a>
 
             </article>  
 

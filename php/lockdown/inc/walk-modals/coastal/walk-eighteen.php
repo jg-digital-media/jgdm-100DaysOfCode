@@ -6,7 +6,7 @@
 
         <h3><?php echo $trailTitleEighteen; ?></h3>
 
-        <p>Links with the main Dene Nature reserve of Castle Eden. You'll walk through an expansive green area and travel a short but steep incline that rewards you with a fine view of the North Sea Coast. </p>
+        <p>Denemouth Links with the main Dene Nature reserve of Castle Eden. You'll walk through an expansive green area and travel a short but steep incline that rewards you with a fine view of the North Sea Coast. </p>
 
     </div>
 
@@ -32,9 +32,7 @@
                         <li>There are 2 ways to the coast.</li>
                         <li>This trail takes the path that goes right.</li>
                         <li>There are several steps to traverse up to the top.</li>
-                        <li>The North Sea,</li>
-                        <li>.</li>
-                        <li>.</li>
+                        <li>The North Sea.</li>
                     </ol>
 
                     <div class="lightbox-slider">

@@ -19,7 +19,7 @@
     $selected = "routes";
 
     //Walk Template - Trail URLS
-    $walk_homepage_nineteen ="../../img/walk_homepage/walk-nineteen.jpg";
+    $walk_homepage_nineteen ="../../../img/walk_homepage/walk-nineteen.jpg";
 ?>
 
 <?php require_once "../../../inc/header.php"; ?>
@@ -34,16 +34,16 @@
 
             <article class="content">
         
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium suscipit porro at, deleniti temporibus aut fuga voluptate nihil, unde cupiditate ad ipsum perferendis adipisci rem animi cumque, voluptas cum ea?</p>
+                <p>Not far from Denemouth.  Trail across to the farthest end of the coast. You can walk to shore or loop straight back.</p>
 
                 <h3>Trail Details</h3>
 
-                <ol>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
+                <ol>           
+                    <li>Limekiln is a looping coastal trail.</li>
+                    <li>Half way round there's a step path down to the coast.</li>
+                    <li>On the return trail the east coast will be freelu visible to your left</li>
+                    <li>Route meets entrance to Crimdon Dene</li>
+                    <li>At the Pony Trekking center, turn left</li>
                 </ol>    
                 
                 <a href="../../../index.php" class="back-home">Back Home</a>

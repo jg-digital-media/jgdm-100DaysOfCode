@@ -34,16 +34,14 @@
 
             <article class="content">
         
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos iste quisquam odio aliquid facere impedit odit suscipit dicta placeat asperiores, aspernatur molestiae. Dolores earum magnam voluptate ipsa harum nemo at.</p>
+                <p>Turn left at the main Car park at Crimdon.</p>
 
                 <h3>Trail Details</h3>
 
                 <ol>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
+                    <li>The path at the Caravan park is to the left.</li>
+                    <li>Take the short narrow path take a right turn.</li>
+                    <li>Trail ends at a information point and observational point.</li>
                 </ol>    
                 
                 <a href="../../../index.php" class="back-home">Back Home</a>

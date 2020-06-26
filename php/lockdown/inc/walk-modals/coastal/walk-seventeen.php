@@ -29,8 +29,6 @@
                     <ol>
                         <li>Blackhall Rocks:  From the car park turn right and follow the path straight on.</li>
                         <li>The coastline will be freely visible on your right.</li>
-                        <li>.</li>
-                        <li>.</li>
                     </ol>
 
                     <div class="lightbox-slider">

@@ -64,16 +64,13 @@
             <li><a href="inc/walk-templates/railway/walk-seven.php" class="route-list-item" title="<?php echo $trailTitleSeven; ?>"><?php echo $trailTitleSeven; ?></a></li>
             <li><a href="inc/walk-templates/railway/walk-eight.php" class="route-list-item" title="<?php echo $trailTitleEight; ?>"><?php echo $trailTitleEight; ?></a></li>
             <li><a href="inc/walk-templates/railway/walk-nine.php" class="route-list-item" title="<?php echo $trailTitleNine; ?>"><?php echo $trailTitleNine; ?></a></li>
-
-
             
             <h3>Featured Trails: Coastal</h3>
 
-            <li>Coming Soon</li>
-            
-            <!--<li><a href="inc/walk-templates/coastal" class="route-list-item" title="<?php echo $trailTitleTwo ?>">Two</a></li>
-            <li><a href="inc/walk-templates/coastal" class="route-list-item" title="<?php echo $trailTitleTwo ?>">Three</a></li>
-            <li><a href="inc/walk-templates/coastal" class="route-list-item" title="<?php echo $trailTitleTwo ?>">Four</a></li>-->
+            <li><a href="inc/walk-templates/coastal/walk-nineteen.php" class="route-list-item"  title="<?php echo $trailTitleNineteen; ?>"><?php echo $trailTitleNineteen; ?></a></li>
+            <li><a href="inc/walk-templates/coastal/walk-eighteen.php" class="route-list-item" title="<?php echo $trailTitleEighteen; ?>"><?php echo $trailTitleEighteen; ?></a></li>
+            <li><a href="inc/walk-templates/coastal/walk-fifteen.php" class="route-list-item" title="<?php echo $trailTitleFifteen; ?>"><?php echo $trailTitleFifteen; ?></a></li>
+
         </ul>
 
     </article>

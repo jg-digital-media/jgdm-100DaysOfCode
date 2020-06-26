@@ -45,7 +45,7 @@
 
             <li><a href="inc/walk-templates/railway/walk-eight.php" title="Walk 8:  Hart to Haswell (Right)"><strong>Route 8</strong> - <?php echo $trailTitleEight; ?></a> <div class="trail-type">(<?php echo $trailTypeRailwayLine ?>)</div> </li>
 
-            <li><a href="inc/walk-templates/railway/walk-nine.php" title="Walk 9: Hart to Haswell (Left"><strong>Route 9</strong> - <?php echo $trailTitleNine; ?></a> <div class="trail-type">(<?php echo $trailTypeRailwayLine ?><)/div> </li>
+            <li><a href="inc/walk-templates/railway/walk-nine.php" title="Walk 9: Hart to Haswell (Left"><strong>Route 9</strong> - <?php echo $trailTitleNine; ?></a> <div class="trail-type">(<?php echo $trailTypeRailwayLine ?>)</div> </li>
 
             <li><a href="inc/walk-templates/railway/walk-ten.php" title="Walk 10: Bleachery Dene: Left"><strong>Route 10</strong> - <?php echo $trailTitleTen; ?></a> <div class="trail-type">(<?php echo $trailTypeRailwayLine ?>)</div> </li>
 
@@ -55,23 +55,23 @@
 
             <li><a href="inc/walk-templates/railway/walk-thirteen.php" title="Walk: 13 Hart to Haswell Cross-field Route"><strong>Route 13</strong> - <?php echo $trailTitleThirteen; ?></a> <div class="trail-type">(<?php echo $trailTypeRailwayLine ?>)</div> </li>
 
-             <!--
+            
 
-            <li><a href="inc/walk-templates/railway/walk-fourteen.php" title="Walk 14"><strong>Route 14</strong> - <?php echo $trailTitleFourteen; ?></a> <div class="trail-type">(<?php echo $trailTypeRailwayLine ?>)</div> </li>
+            <!-- <li><a href="inc/walk-templates/railway/walk-fourteen.php" title="Walk 14"><strong>Route 14</strong> - <?php echo $trailTitleFourteen; ?></a> <div class="trail-type">(<?php echo $trailTypeRailwayLine ?>)</div> </li> -->
                    
-            <li><a href="inc/walk-templates/coastal/walk-fifteen.php" title="Route Description"><strong>Route 5</strong> - <?php echo $trailTitlFifteen; ?></a> <div class="trail-type">(<?php echo $trailTypeCoastal ?>)</div> </li>
+            <li><a href="inc/walk-templates/coastal/walk-fifteen.php" title="Route Description"><strong>Route 15</strong> - <?php echo $trailTitleFifteen; ?></a> <div class="trail-type">(<?php echo $trailTypeCoastal ?>)</div> </li>
+ 
+            <li><a href="inc/walk-templates/coastal/walk-sixteen.php" title="Route Description"><strong>Route 16</strong> - <?php echo $trailTitleSixteen; ?></a> <div class="trail-type">(<?php echo $trailTypeCoastal ?>)</div> </li>
 
-            <li><a href="inc/walk-templates/coastal/walk-sixteen.php" title="Route Description"><strong>Route 5</strong> - <?php echo $trailTitleSixteen; ?></a> <div class="trail-type">(<?php echo $trailTypeCoastal ?>)</div> </li>
-(
-            <li><a href="inc/walk-templates/coastal/walk-seventeen.php" title="Route Description"><strong>Route 5</strong> - <?php echo $trailTitleSeventeen; ?></a> <div class="trail-type">(<?php echo $trailTypeCoastal ?>)</div> </li>
+            <li><a href="inc/walk-templates/coastal/walk-seventeen.php" title="Route Description"><strong>Route 17</strong> - <?php echo $trailTitleSeventeen; ?></a> <div class="trail-type">(<?php echo $trailTypeCoastal ?>)</div> </li>
 
-            <li><a href="inc/walk-templates/coastal/walk-eighteen.php" title="Route Description"><strong>Route 5</strong> - <?php echo $trailTitleEighteen; ?></a> <div class="trail-type">(<?php echo $trailTypeCoastal ?>)</div> </li>
+            <li><a href="inc/walk-templates/coastal/walk-eighteen.php" title="Route Description"><strong>Route 18</strong> - <?php echo $trailTitleEighteen; ?></a> <div class="trail-type">(<?php echo $trailTypeCoastal ?>)</div> </li>
 
-            <li><a href="inc/walk-templates/coastal/walk-nineteen.php" title="Route Description"><strong>Route 5</strong> - <?php echo $trailTitleNineteen; ?></a> <div class="trail-type">(<?php echo $trailTypeCoastal ?>)</div> </li>
+            <li><a href="inc/walk-templates/coastal/walk-nineteen.php" title="Route Description"><strong>Route 19</strong> - <?php echo $trailTitleNineteen; ?></a> <div class="trail-type">(<?php echo $trailTypeCoastal ?>)</div> </li>
 
-            <li><a href="inc/walk-templates/coastal/walk-twenty.php" title="Route Description"><strong>Route 5</strong> - <?php echo $trailTitleTwenty; ?></a> <div class="trail-type">(<?php echo $trailTypeCoastal ?>)</div> </li>
-(
-            -->
+            <!--<li><a href="inc/walk-templates/coastal/walk-twenty.php" title="Route Description"><strong>Route 20</strong> - <?php echo $trailTitleTwenty; ?></a> <div class="trail-type">(<?php echo $trailTypeCoastal ?>)</div> </li>-->
+
+             
 
         </ul>
 

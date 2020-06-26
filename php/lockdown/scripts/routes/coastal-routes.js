@@ -52,12 +52,13 @@ btnEighteen.onclick = function() {
     //console.log("modal 3 clicked!");
 }
 
+
 btnNineteen.onclick = function() {
     modalNineteen.style.display = "block";
     //console.log("modal 3 clicked!");
-}
+}/*
 
-/* btnTwenty.onclick = function() {
+ btnTwenty.onclick = function() {
     modalTwenty.style.display = "block";
     //console.log("modal 3 clicked!");
 } */
@@ -122,9 +123,9 @@ window.onclick = function(event) {
         modalNineteen.style.display = "none";
     }
 }
+/*
 
-
-/* closeTwenty.onclick = function() {
+closeTwenty.onclick = function() {
     modalTwenty.style.display = "none";
     console.log("modal closed!");
 }

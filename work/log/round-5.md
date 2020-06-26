@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 11 of 100. **Last Update:** 25 June 2020
+## **Status:** Day 12 of 100. **Last Update:** 26 June 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R5D12: Friday 26 June 2020
+
++ **Notes**
+  + Some updates to my in Journeys in Lockdown Website! It's been gruelling day but I'm glad I've got this done! 💪
+
++ **Technologies used** - HTML5, CSS, PHP
 
 ### R5D11: Thursday 25 June 2020
 

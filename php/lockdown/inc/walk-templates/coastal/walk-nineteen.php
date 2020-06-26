@@ -1,7 +1,7 @@
 <?php  
 
     $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
-    $pageTitle = "Coastal 5 (Incomplete)";
+    $pageTitle = "LimeKiln Gill Trail";
     $trailType= "trail-template";
 
 
@@ -12,9 +12,9 @@
     $fb_title = $pageTitle;
     $fb_description = $meta_description;
     $fb_image = $meta_image;
-    $fb_url = "https://projects.jonniegrieve.co.uk/lockdown/walk-twenty.php";
+    $fb_url = "https://projects.jonniegrieve.co.uk/lockdown/walk-nineteen.php";
 
-    $canonical = "https://projects.jonniegrieve.co.uk/lockdown/walk-twenty.php";
+    $canonical = "https://projects.jonniegrieve.co.uk/lockdown/walk-nineteen.php";
 
     $selected = "routes";
 

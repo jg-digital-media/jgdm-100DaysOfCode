@@ -24,7 +24,7 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Walk 10 - Bleachery Dene left</h3>
+                    <h3>Trail Summary</h3>
                     
                     <ol>
                         <li>Second vus</li>

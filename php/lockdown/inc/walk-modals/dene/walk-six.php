@@ -24,7 +24,7 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Walk 6 - Yew Tree Walk Loop</h3>                 
+                    <h3>Trail Summary</h3>                 
 
                     <ol>                            
                         <li>Take the first right.</li>

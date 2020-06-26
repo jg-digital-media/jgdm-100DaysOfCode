@@ -34,7 +34,7 @@
 
             <article class="content">
         
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel, natus fugiat. Eligendi et quod dolore atque, id quaerat veniam doloremque molestias pariatur laboriosam deleniti at commodi, odit tempora quam ab.</p>
+                <p>Blackhall rocks is one of the nicest most serene spots in the east coast of England on a warm day.</p>
 
                 <h3>Trail Details</h3>
 

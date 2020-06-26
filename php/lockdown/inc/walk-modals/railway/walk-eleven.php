@@ -24,7 +24,7 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Walk 11 - Bleachery Dene Main Route</h3>
+                    <h3>Trail Summary</h3>
 
                     <ol>
                         <li>Turn right and carry on until you see the school house.</li>

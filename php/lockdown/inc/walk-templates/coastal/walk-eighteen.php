@@ -1,7 +1,7 @@
 <?php 
 
     $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
-    $pageTitle = "Coastal 4 (Incomplete)";
+    $pageTitle = "Denemouth Trail (Incomplete)";
     $trailType= "trail-template";
 
 
@@ -34,7 +34,7 @@
 
             <article class="content">
         
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quidem harum, distinctio fugiat voluptates cumque odit ea. Eligendi voluptate sapiente velit possimus! Optio, porro suscipit? Provident voluptate natus dignissimos laudantium?</p>
+                <p>Denemouth</p>
 
                 <h3>Trail Details</h3>
 

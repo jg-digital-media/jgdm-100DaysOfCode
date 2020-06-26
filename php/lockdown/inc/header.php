@@ -69,14 +69,14 @@
         $trailTitleNine = "Hart to Haswell left";
         $trailTitleTen = "Bleachery Dene left";
         $trailTitleEleven = "Bleachery Dene Main Route";
-        $trailTitleTwelve = " To Station Town";
-        $trailTitleThirteen = "Hart to Haswell - Woodland Route (Incomplete)";
-        $trailTitleFourteen = "Hesleden & Bleachery Dene Reverse (Incomplete)";
-        $trailTitleFifteen= "Crimdon 1 (Incomplete)";
-        $trailTitleSixteen = "Crimdon 2 - Blackhall Rocks (Incomplete)";
-        $trailTitleSeventeen = "Blackhall Rocks (Incomplete)";
-        $trailTitleEighteen = "Denemouth (Incomplete)";
-        $trailTitleNineteen = "Limekiln Trail";
+        $trailTitleTwelve = "Hart to Haswell Network - To Station Town";
+        $trailTitleThirteen = "Hart to Haswell Hetwork - Woodland Route";
+        $trailTitleFourteen = "Hesleden & Bleachery Dene Reverse (Coming Soon)";
+        $trailTitleFifteen= "Crimdon 1 - Coastal Trail";
+        $trailTitleSixteen = "Crimdon 2 - Caravan Park Path";
+        $trailTitleSeventeen = "Blackhall Rocks Coastal Trail";
+        $trailTitleEighteen = "Denemouth Coastal Trail";
+        $trailTitleNineteen = "Limekiln Coastal Trail";
         $trailTitleTwenty = "Title Twenty";
 
         //Trail types

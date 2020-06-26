@@ -24,7 +24,7 @@
                 
                     <span class="close">&times;</span>
 
-                    <h3>Modal Route fourteen (INCOMPLETE) </h3>
+                    <h3>Trail Summary</h3>
                     
                     <ol>
                         <li>.</li>

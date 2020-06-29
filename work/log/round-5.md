@@ -1,10 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 12 of 100. **Last Update:** 26 June 2020
+## **Status:** Day 13 of 100. **Last Update:** 29 June 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R5D13: Monday 29 June 2020
+
++ *Notes**
+  + Devoted the day to enhancing my photography website. The data for retrieving the photos is now completely done by JSON and no markup to display it hardcoded.  
+
++ **Technologies used** - HTML5, CSS, PHP
+
+Devoted the day to enhancing my photography website. The data for retrieving the photos is now completely done by JSON and no markup to display it hardcoded.  
 
 ### R5D12: Friday 26 June 2020
 

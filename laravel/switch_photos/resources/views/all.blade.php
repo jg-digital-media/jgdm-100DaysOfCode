@@ -8,6 +8,6 @@
 
 @section('content') 
 
-   <div>Content All</div>
+   <h2>Content All</h2>
 
 @endsection

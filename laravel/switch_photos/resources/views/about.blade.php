@@ -8,6 +8,8 @@
 
 @section('content') 
 
-   <div>Content About</div>
+   <h2>Content About</h2>
+
+   <p></p>
 
 @endsection

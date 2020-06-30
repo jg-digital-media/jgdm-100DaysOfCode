@@ -1,23 +1,54 @@
-/*Sass - 19/06/2020  sass --watch resources/sass/app.scss:public/style.css*/
+/*Sass - 30/06/2020  sass --watch resources/sass/app.scss:public/style.css*/
+* {
+  padding: 0;
+  margin: 0; }
+
 /*Header*/
-.header .logo-container img {
-  width: 200px; }
-.header .website-title h1 {
-  font-size: large; }
-.header .main-nav ul {
-  border: solid red 1px; }
-  .header .main-nav ul li {
-    display: inline-block; }
-  .header .main-nav ul a {
-    display: inline-block;
-    color: blue; }
-    .header .main-nav ul a img {
-      width: 20px; }
-  .header .main-nav ul a.selected {
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  vertical-align: middle;
+  border-bottom: black 3px solid;
+  background: lightblue;
+  /*border: solid black 1px;*/ }
+  .header .logo-container img {
+    width: 200px;
+    width: 100px; }
+  .header .website-title h1 {
+    /*Font-size: 4vw*/
+    font-size: 30pt;
     font-weight: bold;
-    color: black; }
-  .header .main-nav ul a.nav-item {
-    display: list-item; }
+    padding-top: 30px; }
+    @media (max-width: 1048px) {
+      .header .website-title h1 {
+        padding-top: 10px; } }
+  @media (max-width: 1290px) {
+    .header .main-nav {
+      text-align: right; } }
+  @media (max-width: 1048px) {
+    .header .main-nav {
+      padding-top: 10px; } }
+  .header .main-nav ul {
+    padding-top: 30px; }
+    .header .main-nav ul li {
+      display: inline-block;
+      list-style: none;
+      margin-right: 10px;
+      font-size: 14pt; }
+    .header .main-nav ul a {
+      display: inline-block;
+      color: blue;
+      font-weight: bold; }
+      .header .main-nav ul a:hover {
+        text-decoration: none;
+        color: black; }
+      .header .main-nav ul a img {
+        width: 20px; }
+    .header .main-nav ul a.selected {
+      font-weight: bold;
+      color: black; }
+    .header .main-nav ul a.nav-item {
+      display: list-item; }
 
 /*main*/
 body {
@@ -29,7 +60,15 @@ body {
   padding: 0;
   margin: 0; }
 
-.footer p {
-  text-align: center; }
+.footer {
+  background: lightblue;
+  background: lightgreen;
+  height: 100px;
+  margin-top: 20px; }
+  .footer p {
+    text-align: center;
+    color: black;
+    font-size: 10pt;
+    margin-top: 5px; }
 
 /*# sourceMappingURL=style.css.map */

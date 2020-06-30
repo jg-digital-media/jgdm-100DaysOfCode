@@ -2,10 +2,22 @@
 
 .header {
 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    vertical-align: middle;
+    border-bottom: black 3px solid;
+    background: $header-bg;
+    /*border: solid black 1px;*/
+
+    @media(max-width: $xl) {
+
+    }
+
     .logo-container {
 
         img {
             width: 200px;
+            width: 100px;
         }
 
     }
@@ -13,24 +25,51 @@
     .website-title {
 
          h1 {
-             font-size: large;
+             /*Font-size: 4vw*/
+             font-size: 30pt;
+             font-weight: bold;
+
+             
+             padding-top: 30px;
+
+             @media(max-width: $md) {
+                padding-top: 10px;
+             }
          }
 
     }    
 
     .main-nav {
 
-        ul {
+        @media(max-width: $xl) {
+            text-align: right;
+        }
 
-            border: solid red 1px;
+        
+        @media(max-width: $md) {
+            padding-top: 10px;
+         }
+
+        ul {
+            padding-top: 30px;
+            //border: solid red 1px;
 
             li {
                 display: inline-block;
+                list-style: none;
+                margin-right: 10px;
+                font-size: 14pt;
             }
 
             a {
                 display: inline-block;
-                color: blue;
+                color: $link-col;
+                font-weight: bold;
+
+                &:hover {
+                    text-decoration: none;
+                    color: $link-col-h;
+                }
 
                 img {
                     width: 20px;
@@ -39,7 +78,7 @@
 
             a.selected {
                 font-weight: bold;
-                color: black;
+                color: $link-col-h;
             }
 
             a.nav-item {

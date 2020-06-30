@@ -21,11 +21,11 @@
 <header class="header">
 
     <div class="logo-container">
-        <img src="{{ asset('img/main-logo.png')}}" alt="Main Logo" title="Main logo" />
+        <img src="{{ asset('img/main-logo.png')}}" alt="Main Logo" title="Main logo" class="main-logo" />
     </div>
 
     <div class="website-title">
-        <h1>Web Title</h1>
+        <h1>Switch Photo Website</h1>
     </div>
 
     @include ('nav')

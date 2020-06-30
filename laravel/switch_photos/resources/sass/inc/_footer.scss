@@ -1,6 +1,15 @@
 //*footer*/
 .footer {
+
+    background: $footer-bg;
+    background: $body-bg;
+    height: 100px;
+    margin-top: 20px;
+
     p {
         text-align: center;
+        color: black;
+        font-size: 10pt;
+        margin-top: 5px;
     }
 }

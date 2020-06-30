@@ -1,5 +1,5 @@
 <footer class="footer">
 
-    <p>Footer Copyright notice &copy; 2020  </p>
+    <p>&copy; 2020 Designed by Jonnie Grieve Digital Media (2020) All Rights Reserved  </p>
 
 </footer>

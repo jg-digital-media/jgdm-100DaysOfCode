@@ -1,19 +1,24 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 13 of 100. **Last Update:** 29 June 2020
+## **Status:** Day 14 of 100. **Last Update:** 30 June 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R5D14: Tuesday 30 June 2020
+
++ **Notes**
+  +  Auto Cleanse Website updates were finalised and went up today.  More study on deploying data migrations with Laravel and organising my work.
+
++ **Technologies used** - HTML5, CSS, PHP, Laravel
+
 ### R5D13: Monday 29 June 2020
 
-+ *Notes**
++ **Notes**
   + Devoted the day to enhancing my photography website. The data for retrieving the photos is now completely done by JSON and no markup to display it hardcoded.  
 
 + **Technologies used** - HTML5, CSS, PHP
-
-Devoted the day to enhancing my photography website. The data for retrieving the photos is now completely done by JSON and no markup to display it hardcoded.  
 
 ### R5D12: Friday 26 June 2020
 

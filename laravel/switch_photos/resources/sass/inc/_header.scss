@@ -2,27 +2,60 @@
 
 .header {
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    vertical-align: middle;
+    display: grid;    
+    grid-template-columns: minmax(10%, 20%) 700px 1fr;
     border-bottom: black 3px solid;
     background: $header-bg;
     /*border: solid black 1px;*/
+    text-align: center;
+    padding: 10px;
 
-    @media(max-width: $xl) {
+    @media(min-width: $xl) {
+        grid-template-columns: minmax(10%, 20%) 260px 1fr;
 
+    }
+
+    @media(max-width: $lg) {
+        grid-template-columns: minmax(10%, 28%) 260px 1fr;
+        vertical-align: top;
+        padding: 10px;
+
+    }
+
+    @media(max-width: $sm) {
+        display: block;
+        /*grid-template-columns: minmax(10%, 14%) 40% 1fr;*/
+    }
+
+    div {
+        /*border: black 1px solid;*/
+        display: inline-block;
     }
 
     .logo-container {
 
+         @media (max-width: $sm) {
+             text-align: center;
+
+        }
+
         img {
             width: 200px;
             width: 100px;
+            
+            @media (max-width: $sm) {
+                display: block;
+                margin: 0 auto;
+
+            }
         }
 
     }
 
     .website-title {
+
+        vertical-align: top;
+        text-align: center;
 
          h1 {
              /*Font-size: 4vw*/
@@ -30,7 +63,7 @@
              font-weight: bold;
 
              
-             padding-top: 30px;
+             /*padding-top: 30px;*/
 
              @media(max-width: $md) {
                 padding-top: 10px;
@@ -41,8 +74,10 @@
 
     .main-nav {
 
+        text-align: right;
+
         @media(max-width: $xl) {
-            text-align: right;
+            /*text-align: right;*/
         }
 
         
@@ -53,6 +88,10 @@
         ul {
             padding-top: 30px;
             //border: solid red 1px;
+
+            @media(max-width: $sm) {
+                text-align: center;
+            }
 
             li {
                 display: inline-block;

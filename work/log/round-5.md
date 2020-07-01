@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 14 of 100. **Last Update:** 30 June 2020
+## **Status:** Day 15 of 100. **Last Update:** 1 July 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R5D15: Wednesday 30 June 2020
+
++ **Notes**
+  +  Built a responsive navigation and started on markup for the rest of the content in Blade templating through Laravel.
+
++ **Technologies used** - HTML5, CSS, PHP, Laravel
 ### R5D14: Tuesday 30 June 2020
 
 + **Notes**

@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 15 of 100. **Last Update:** 1 July 2020
+## **Status:** Day 16 of 100. **Last Update:** 2 July 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R5D16: Thursday 2 July 2020
 
-### R5D15: Wednesday 30 June 2020
++ **Notes**
+  +  More work with JSON and how I can pull different types of data based on a given condition. I then built more markup including static data in prep for some DOM scripting.
+
++ **Technologies used** - HTML5, CSS, PHP, Laravel, JavaScript
+
+### R5D15: Wednesday 1 July 2020
 
 + **Notes**
   +  Built a responsive navigation and started on markup for the rest of the content in Blade templating through Laravel.

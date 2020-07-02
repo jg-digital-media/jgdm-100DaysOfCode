@@ -23,7 +23,7 @@
             "project_alt": "Go to Android Projects Subdomain",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": null
         }, {
             "project_name": "Autism and Christianity",
             "project_url": "https://www.autismandchristianity.org/",
@@ -31,7 +31,7 @@
             "project_alt": "Go to Autism and Christianity website.",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": null
         }, {
             "project_name": "Elim Church Bishop Auckland",
             "project_url": "https://www.elimchurchbishopauckland.co.uk",
@@ -329,7 +329,7 @@
             "project_status": "Complete",
             "status": true
         }, {
-            "project_name": "Baloon Flight Website",
+            "project_name": "Balloon Flight Website",
             "project_url": "https://projects.jonniegrieve.co.uk/balloon",
             "img_url": "img/featured/balloon_flight.jpg",
             "project_alt": "Go to Balloon Flight website",
@@ -399,7 +399,7 @@
             "project_alt": "Go to Fetch API (JavaScript)",
             "project_type": "App",
             "project_status": "incomplete",
-            "status": false
+            "status": null
         }, {
             "project_name": "Project Status Page (JavaScript)",
             "project_url": "https://jonniegrieve.co.uk/project_status",
@@ -407,7 +407,7 @@
             "project_alt": "Go to Project Status Page (JavaScript)",
             "project_type": "App",
             "project_status": "incomplete",
-            "status": false
+            "status": null
         }, {
             "project_name": "Slim - Custom PHP Website",
             "project_url": "https://projects.jonniegrieve.co.uk/slim/src/public",
@@ -439,7 +439,7 @@
             "project_alt": "Go to AM Consulting",
             "project_type": "Website",
             "project_status": "incomplete",
-            "status": false
+            "status": null
         }
     ]
 }

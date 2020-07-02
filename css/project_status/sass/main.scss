@@ -20,7 +20,7 @@ header {
     width: 100%;
     min-height: 110px;
     background: lightgreen;
-    border-bottom: 20px black solid;
+    border-bottom: 6px green solid;
 
     @media (max-width: 940px) {
         min-height: 110px;
@@ -55,6 +55,11 @@ header {
 
         span#red-complete {
             @include span-colours(inline-block, red, 30px, 30px, 50%, 5px);
+        }
+
+        span#yellow-review {
+            @include span-colours(inline-block, yellow, 30px, 30px, 50%, 5px);
+
         }
 
         @media (max-width: 1290px) {
@@ -133,6 +138,11 @@ header {
 
         span.incomplete {
             @include span-colours(inline-block, red, 30px, 30px, 50%, 5px);
+        }
+
+        span.under-review {
+            @include span-colours(inline-block, yellow, 30px, 30px, 50%, 5px);
+
         }
     }
 

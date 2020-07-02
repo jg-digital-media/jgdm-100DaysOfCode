@@ -179,16 +179,16 @@ Last Updated:   06th January 2019
             <h2>Featured Projects</h2>  
 
             <div class="show-featured">
-                <a href="https://projects.jonniegrieve.co.uk/fyp" target="blank" role="Featured work">&nbsp;<img src="img/featured/fyp_running.jpg" class="site-images" alt="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." title="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." tabindex="0" /></a>
+               <!--  <a href="https://projects.jonniegrieve.co.uk/fyp" target="blank" role="Featured work">&nbsp;<img src="img/featured/fyp_running.jpg" class="site-images" alt="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." title="Originally created for my University Final Year project, was redesigned to strip out the Flash elements originally used to run the video." tabindex="0" /></a>
 
                 <a href="https://projects.jonniegrieve.co.uk/portfolio-gallery/" target="blank" role="Featured work">&nbsp;<img src="img/featured/portfolio-gallery.jpg" class="site-images" alt="Using HTML5 and CSS to create various versions of portfolio images" title="Using HTML5 and CSS to create various versions of portfolio images" tabindex="0" /></a><br /><br />
                                 
                 <a href="https://projects.jonniegrieve.co.uk/gamesyard" target="blank" role="Featured work">&nbsp;<img src="img/featured/games_yard.jpg" class="site-images" alt="First created in 2004, this website was created to be an informational site for playing various popular games from Card games to Pool" title="First created in 2004, this website was created to be an informational site for playing various popular games from Card games to Pool" tabindex="0" /></a>
                                 
-                <a href="https://projects.jonniegrieve.co.uk/regex/" target="blank" role="Featured work">&nbsp;<img src="img/featured/regex.jpg" class="site-images" alt="An explainer webpage for using Regular Expressions built with jQuery" title="An explainer webpage for using Regular Expressions built with jQuery" tabindex="0" /></a>
+                <a href="https://projects.jonniegrieve.co.uk/regex/" target="blank" role="Featured work">&nbsp;<img src="img/featured/regex.jpg" class="site-images" alt="An explainer webpage for using Regular Expressions built with jQuery" title="An explainer webpage for using Regular Expressions built with jQuery" tabindex="0" /></a> -->
                     
     
-                </div>
+            </div>
 
         </article>
 
@@ -525,7 +525,7 @@ Last Updated:   06th January 2019
     <div class="ios-background"></div>
     
     <script type="text/javascript" src="scripts/jquery.js"></script>
-    <script type="text/javascript" src="scripts/app.min.js"></script>
+    <script type="text/javascript" src="scripts/app.js"></script>
 
     <!-- recaptcha front end integration-->
     

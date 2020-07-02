@@ -6,13 +6,10 @@
  * Display all featured projects
  */
 
-jQuery.getJSON('assets/data/project-list.json', function(photoData) { //Ajax call
-
+jQuery.getJSON('assets/data/project-list.json', function(photoData) { 
 
     let itemAll = photoData.projects.length;
-    console.log(photoData.projects.length);
-
-    
+    console.log(photoData.projects.length); 
 
     for (let i=0; i < itemAll; i++) { 
         data.images[Math.floor(Math.random() * photoData.images.length)]; //select image at random  
@@ -33,7 +30,7 @@ jQuery.getJSON('assets/data/project-list.json', function(photoData) { //Ajax cal
     for (let i=0; i < itemAll; i++) { 
 
        //build the complete <img> tag
-      /*  jQuery(`<div class="photo-item">
+       /*jQuery(`<div class="photo-item">
 
            <img src="${itemAll.url}" class="thumbnails" alt="${itemAll.alt}" title="${itemAll.alt}" />
            
@@ -41,10 +38,9 @@ jQuery.getJSON('assets/data/project-list.json', function(photoData) { //Ajax cal
            
        `).appendTo('#all-photos'); */
 
-
-       //successful delivery of class and image URL            
+        //Successful delivery of class and image URL            
         jQuery(`<a href="${photoData.projects[i].project_url}" target="blank"><img src="${photoData.projects[i].img_url}" class="site-images" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" /></a>`).appendTo('.all');     
 
-   }
+    }
 
 });

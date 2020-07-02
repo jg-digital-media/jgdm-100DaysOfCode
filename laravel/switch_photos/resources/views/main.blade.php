@@ -9,7 +9,7 @@
 
     <div>        
 
-        <!-- 
+        <!-- MASTER TEMPLATE
             <h1>Website Title</h1>
 
             <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto in quibusdam rem quasi accusantium ex quae incidunt libero earum! Dolore tempora labore eos. Eligendi, blanditiis. Suscipit sequi labore voluptatum ut.</h2>

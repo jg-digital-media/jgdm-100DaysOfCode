@@ -1,6 +1,7 @@
 <?php 
 
     $selected = "all";
+    $title = "All Images | Switch Photo Library";
 
 ?>
 
@@ -8,24 +9,36 @@
 
 @section('content') 
 
-<article class="category-heading">
+<section class="main">
 
-    <h2>Content: Home</h2>
+    <article class="category-heading">
 
-<article>
+        <h2>Content: Home</h2>
 
-<article class = "main-content">
+    <article>
 
-    <!-- dynamic image content - to be replaced. -->
-    <img class="img zelda-botw" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
-    <img class="img zelda-botw" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
-    <img class="img zelda-botw" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
-    <img class="img zelda-botw" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
-    <img class="img mario" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
-    <img class="img mario" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
-    <img class="img mario" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
-    <img class="img mario" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
+    <article class = "main-content">
 
-</article>
+        <!-- dynamic image content - to be replaced. -->
+        <img class="img zelda-botw" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
+        <img class="img zelda-botw" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
+        <img class="img zelda-botw" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
+        <img class="img zelda-botw" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
+        <img class="img mario" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
+        <img class="img mario" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
+        <img class="img mario" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
+        <img class="img mario" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
+
+    </article>
+
+</section>
+
+<aside class="select-category">
+
+        <h2>A subtitle</h2>
+
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis reiciendis quo id similique eum necessitatibus</div>
+        
+</aside>
 
 @endsection

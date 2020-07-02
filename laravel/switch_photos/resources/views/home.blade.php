@@ -1,6 +1,7 @@
 <?php 
 
     $selected = "main";
+    $title = "Home | Switch Photo Library";
 
 ?>
 
@@ -8,25 +9,29 @@
 
 @section('content') 
 
-    <article class="category-heading">
+    <section class="main">
 
-        <h2>Content: Home</h2>
+        <article class="category-heading">
 
-    <article>
+            <h2>Content: Home</h2>
 
-    <article class = "main-content">
+        <article>
 
-        <!-- dynamic image content - to be replaced. -->
-        <img class="img zelda-botw" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
-        <img class="img zelda-botw" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
-        <img class="img zelda-botw" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
-        <img class="img zelda-botw" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
-        <img class="img mario" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
-        <img class="img mario" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
-        <img class="img mario" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
-        <img class="img mario" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
+        <article class = "category-content">
 
-    </article>
+            <!-- dynamic image content - to be replaced. -->
+            <img class="img zelda-botw" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
+            <img class="img zelda-botw" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
+            <img class="img zelda-botw" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
+            <img class="img zelda-botw" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
+            <img class="img mario" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
+            <img class="img mario" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
+            <img class="img mario" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
+            <img class="img mario" src="img/game-screenshot-placeholder.png"  alt="#"  title="#" />
+
+        </article>
+
+    </section>
 
   
     <aside class="select-category">
@@ -59,6 +64,7 @@
             <label for=""><input type="checkbox" id="sonicmania" />Sonic Mania</p></label>
             <label for=""><input type="checkbox" id="footballmanagertouch" />Football Manager Touch</p></label>
         <article>
+            
     </aside>
 
 @endsection

@@ -1,13 +1,15 @@
 <?php 
 
     $selected = "contact";
+    $title="Contact | Switch Photo Library";
 
 ?>
 
 @extends('main')
 
-
 @section('content') 
+
+<section class="main">
 
    <h2>Content: Contact</h2>
 
@@ -34,5 +36,16 @@
    </form>
 
    <p>Find out more!</p>
+
+</section>
+   
+
+<aside class="select-category">
+
+    <h2>A subtitle</h2>
+
+    <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis reiciendis quo id similique eum necessitatibus</div>
+
+</aside>
 
 @endsection

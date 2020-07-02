@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Blade Template</title>
+    <title>{{ $title }}</title>
 
     <link href="{{asset('style.css')}}" rel="stylesheet">
 
@@ -25,7 +25,7 @@
     </div>
 
     <div class="website-title">
-        <h1>Switch Photo Website</h1>
+        <h1>Switch Photo Library</h1>
     </div>
 
     @include ('nav')

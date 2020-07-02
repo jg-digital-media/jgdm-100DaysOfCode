@@ -1,13 +1,22 @@
+/**
+ *  App.js - project list
+ * 
+ * Authored by:  @jg_digitalMedia
+ * Web:          https://www.jonniegrieve.co.uk
+ * //file path to json file - local   - ../../css/portfolio/assets/data/project-list.json
+ * //file path to json file - server  - ../../../assets/data/project-list.json
+ * Date:  02/07/2020
+ */
 
 
- //file path to json file - local   - ../../css/portfolio/assets/data/project-list.json
- //file path to json file - server  - ../../../assets/data/project-list.json
+ 
 jQuery.getJSON('../../../assets/data/project-list.json', function(photoData) { 
     
     let itemAll = photoData.projects.length;
     console.log(photoData.projects.length);
 
     for (let i=0; i < itemAll; i++) { 
+        
         //jQuery(`<a href="${photoData.projects[i].project_url}" target="blank"><img src="${photoData.projects[i].img_url}" class="site-images" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" /></a>`).appendTo('.project-status-data');
 
         if(photoData.projects[i].status === true) {

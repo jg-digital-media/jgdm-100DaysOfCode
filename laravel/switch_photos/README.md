@@ -3,6 +3,7 @@
 ## Links
 + localhost:8000
 + localhost/jgdm-100DaysOfCode/laravel/switch_photos/public/
++ sass --watch resources/sass/app.scss:public/style.css  **Sass compiler**
 
 
 ## Laravel Notes

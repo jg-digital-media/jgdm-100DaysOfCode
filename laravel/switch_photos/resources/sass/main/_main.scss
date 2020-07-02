@@ -9,3 +9,32 @@ body {
     padding: 0;  
     margin: 0;
 }
+
+//Common Styles
+
+.main {
+    /*border: solid black 1px;*/
+    display: grid;
+    /*width: 60%;*/
+    width: 100%;
+    background: lightblue;
+    grid-template-columns: 1fr 1fr;
+
+    .category-heading {
+        /* border: solid black 1px; */
+
+        h2 {
+            font-size: 16pt;
+        }
+
+    }
+
+    .category-content {
+        /* border: solid black 1px; */
+        display: grid;
+        grid-template-rows: 100px 1fr;
+        p {
+            color: black;
+        }
+    }
+}

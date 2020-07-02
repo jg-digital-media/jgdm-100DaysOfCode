@@ -91,6 +91,24 @@ body {
   padding: 0;
   margin: 0; }
 
+.main {
+  /*border: solid black 1px;*/
+  display: grid;
+  /*width: 60%;*/
+  width: 100%;
+  background: lightblue;
+  grid-template-columns: 1fr 1fr; }
+  .main .category-heading {
+    /* border: solid black 1px; */ }
+    .main .category-heading h2 {
+      font-size: 16pt; }
+  .main .category-content {
+    /* border: solid black 1px; */
+    display: grid;
+    grid-template-rows: 100px 1fr; }
+    .main .category-content p {
+      color: black; }
+
 .footer {
   background: lightblue;
   background: lightgreen;

@@ -11,41 +11,42 @@
 
 <section class="main">
 
-   <h2>Content: Contact</h2>
+    <article class = "category-heading">
 
-    <h3>Form</h3>
+        <h2>Content: Contact</h2>
 
-    <form action="" method="post" class="" id="">
+        <form action="" method="post" class="" id="">
 
-        <label for="name">Name: </label>
-        <input type="" id="name" />
+            <label for="name">Name: </label>
+            <input type="" id="name" />
 
-        <p>
-        <label for="comments">Comments/Requests: </label> 
-        <textarea id="comments" rows="" columns=""> 
-        
-        </textarea>
+            <p>
+            <label for="comments">Comments/Requests: </label> 
+            <textarea id="comments" rows="" columns=""> 
+            
+            </textarea>
 
-        <p>        
-        <label for="privacy">Privacy Check: </label>
-        <input type="checkbox" id="privacy" />
+            <p>        
+            <label for="privacy">Privacy Check: </label>
+            <input type="checkbox" id="privacy" />
 
-        <p>
-        <input type="submit" value="Button" />
+            <p>
+            <input type="submit" value="Button" />
 
-   </form>
+        </form>
 
-   <p>Find out more!</p>
+        <p>Find out more</p>
+
+    </article>
+
+    <aside class="select-category">
+
+        <h2>A subtitle</h2>
+
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis reiciendis quo id similique eum necessitatibus</div>
+
+    </aside>
 
 </section>
-   
-
-<aside class="select-category">
-
-    <h2>A subtitle</h2>
-
-    <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis reiciendis quo id similique eum necessitatibus</div>
-
-</aside>
 
 @endsection

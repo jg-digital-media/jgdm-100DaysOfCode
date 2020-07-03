@@ -14,10 +14,29 @@
 + Project Status - JSON (separate to Vue Project)
 
 
-### Day 16
+### Day 17
+
+```php
+
+    <li><a href= "<?php if( URL::current() == "/home" ) { echo "" . URL::current() . "/home";} else { echo "../home";} ?>" title="Home: Main Page" class="nav-item <?php if ($selected == "main") { echo " selected";} ?>">Home</a></li>
 
 ```
+
+```javascript
+
+
+// functions
+function toggleImage() {
+    if (game_cat_botw.style.display === "inline-block") {
+        game_cat_botw.style.display = "none";
+    } else if ( game_cat_botw.style.display = "none" ) {
+        game_cat_botw.style.display = "inline-block";
+    }
+}
+
 ```
+
+onclick="toggleImage()"
 
 ### Day 14
 

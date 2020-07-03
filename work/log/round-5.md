@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 16 of 100. **Last Update:** 2 July 2020
+## **Status:** Day 17 of 100. **Last Update:** 3 July 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R5D17: Friday 3 July 2020
+
++ **Notes**
+  +  Continued my study into the workings of Laravel and in the same project, started the first embers of coding the functionality of the app itself.
+
++ **Technologies used** - HTML5, CSS, PHP, Laravel, JavaScript
 
 ### R5D16: Thursday 2 July 2020
 

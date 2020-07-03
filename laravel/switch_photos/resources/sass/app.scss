@@ -19,9 +19,13 @@
 //nav
 
 
-//styles
+//common styles
 @import "main/main";
 @import "main/common";
+
+
+//pages
+@import "main/pages/home";
 
 //footer
 @import "inc/footer";

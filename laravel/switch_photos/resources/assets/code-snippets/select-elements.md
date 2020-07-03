@@ -1,7 +1,7 @@
 //select photo groups  - change vars
 const game_cat_botw = document.querySelectorAll(".zelda-botw")[0];
-/* const game_cat_lAwakening = document.querySelectorAll(".zelda-linksawakening");
-const game_cat_three = document.querySelectorAll(".fifa-one");
+const game_cat_lAwakening = document.querySelectorAll(".zelda-linksawakening");
+const game_cat_FifaOne = document.querySelectorAll(".fifa-one");
 const game_cat_four = document.querySelectorAll(".mario-odyssey");
 const game_cat_five = document.querySelectorAll(".animal-crossing");
 const game_cat_six = document.querySelectorAll(".super-mario-maker");
@@ -21,11 +21,11 @@ const game_cat_nineteen = document.querySelectorAll(".tetris");
 const game_cat_twenty = document.querySelectorAll(".asterix-game");
 const game_cat_twentyone = document.querySelectorAll(".mario-kart-duluxe");
 const game_cat_twentytwo = document.querySelectorAll(".sonic-mania");
-const game_cat_twentythree = document.querySelectorAll(".football-manager"); */
+const game_cat_twentythree = document.querySelectorAll(".football-manager"); 
 
 //Select checkboxes
 const toggleZeldaBreathOfWild = document.getElementById("zelda-one");
-/* const toggleZeldaLinksAwakening = document.getElementById("zelda-two");
+const toggleZeldaLinksAwakening = document.getElementById("zelda-two");
 const toggleFifaOne = document.getElementById("fifa-one");
 const toggleMarioOdyssey = document.getElementById("mario-odyssey");
 const toggleAnimalCrossing = document.getElementById("animalcrossing");

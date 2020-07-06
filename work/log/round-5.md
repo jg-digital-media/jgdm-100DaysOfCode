@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 17 of 100. **Last Update:** 3 July 2020
+## **Status:** Day 18 of 100. **Last Update:** 6 July 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R5D18: Monday 6 July 2020
+
++ **Notes**
+  +  Updated my photography website and cracked on writing the json data structures that will hold the photo in my Laravel project.
+
++ **Technologies used** - HTML5, CSS, PHP, Laravel, JavaScript
 
 ### R5D17: Friday 3 July 2020
 

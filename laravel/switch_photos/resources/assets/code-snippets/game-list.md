@@ -25,6 +25,33 @@
 + Sonic Mania
 + Football Manager Touch
 
+## Classes
+
++ zelda-botw
++ zelda-botw
++ zelda-linksawakening
++ fifa-twenty
++ fifa-twenty
++ mario-odyssey
++ animal-crossing
++ super-mario-maker
++ donkey-kong-tropic
++ mario-bros
++ mario-bros-two
++ mario-bros-three
++ mario-bros-four
++ mario-world
++ mario-duluxe
++ zelda-past
++ mega-man-two
++ world-war-two
++ rac-rally-champ
++ fifa-18
++ asterix-game
++ mario-kart-duluxe
++ sonic-mania
++ football-manager
+
 
 
 ```html

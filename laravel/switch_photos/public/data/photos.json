@@ -1,0 +1,63 @@
+{ 
+    "zelda_one": [
+        {
+            "img_title": "Title 1",
+            "img_url": "img/game-screenshot-placeholder.png", 
+            "img_alt": "alt 1", 
+            "img_class": "zelda_botw"
+        }, {
+            "img_title": "Title 2",
+            "img_url": "img/game-screenshot-placeholder.png", 
+            "img_alt": "alt 2", 
+            "img_class": "zelda_botw"
+        }, {
+            "img_title": "Title 3",
+            "img_url": "img/game-screenshot-placeholder.png", 
+            "img_alt": "alt 3", 
+            "img_class": "zelda_botw"
+        }
+    ], 
+    
+    
+    "cat_two": [
+        {
+            "img_title": "Title 4",
+            "img_url": "img/game-screenshot-placeholder.png", 
+            "img_alt": "alt 4", 
+            "img_class": "zelda-linksawakening"
+        },  {
+            "img_title": "Title 5",
+            "img_url": "img/game-screenshot-placeholder.png", 
+            "img_alt": "alt 5", 
+            "img_class": "zelda-linksawakening"
+        },  {
+            "img_title": "Title 6",
+            "img_url": "img/game-screenshot-placeholder.png", 
+            "img_alt": "alt 6", 
+            "img_class": "zelda-linksawakening"
+        }
+
+    ], 
+    
+    
+    "cat_three": [
+        {
+            "img_title": "Title 7",
+            "img_url": "img/game-screenshot-placeholder.png", 
+            "img_alt": "alt 7", 
+            "img_class": "fifa-twenty"
+        },  {
+            "img_title": "Title 8",
+            "img_url": "img/game-screenshot-placeholder.png", 
+            "img_alt": "alt 8", 
+            "img_class": "fifa-twenty"
+        },  {
+            "img_title": "Title 9",
+            "img_url": "img/game-screenshot-placeholder.png", 
+            "img_alt": "alt 9", 
+            "img_class": "fifa-twenty"
+        }
+
+    ]
+
+}

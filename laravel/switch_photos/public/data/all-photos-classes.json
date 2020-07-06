@@ -1,0 +1,387 @@
+{ 
+    "zelda-botw": [ 
+        {
+            "img_title":"Title 1",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Alt 1",
+            "img_class":"zelda_botw"
+        }, {
+            "img_title":"Title 2",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Alt 2",
+            "img_class":"zelda_botw"
+        }, {
+            "img_title":"Title 3",
+            "img_url":"Alt 3",
+            "img_alt":"img/game-screenshot-placeholder.png",
+            "img_class":"zelda_botw"
+        } 
+
+    ], 
+
+
+    "zelda-linksawakening": [ 
+        {
+            "img_title":"Title 4",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Alt 4",
+            "img_class":"zelda-linksawakening"
+        }, {
+            "img_title":"Title 5",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Alt 5",
+            "img_class":"zelda-linksawakening"
+        }, {
+            "img_title":"Title 6",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Alt 6",
+            "img_class":"zelda-linksawakening"
+        } 
+    ],
+
+
+    "fifa-twenty": [ 
+        {
+            "img_title":"Title 7",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Title 7",
+            "img_class":"fifa-twenty"
+        
+        }, {
+            "img_title":"Title 8",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Alt 8",
+            "img_class":"fifa-twenty"
+        
+        }, {
+            "img_title":"Title 9",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Alt 9",
+            "img_class":"fifa-twenty"        
+        }
+    ],
+
+
+    "mario-odyssey": [ 
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"mario-odyssey"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"mario-odyssey"
+        
+        }  
+],
+
+
+    "animal-crossing": [ 
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"animal-crossing"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"animal-crossing"
+        
+        } 
+    ],
+
+
+    "super-mario-maker":[ 
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"super-mario-maker"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"super-mario-maker"
+        
+        } 
+    ],
+
+
+    "donkey-kong-tropic": [
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"donkey-kong-tropic"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"donkey-kong-tropic"
+        
+        } 
+    ],
+
+
+    "mario-bros": [ 
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"mario-bros"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"mario-bros"
+        
+        } 
+    ],
+
+
+    "mario-bros-two":[
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"mario-bros-two"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"mario-bros-two"
+        
+        } 
+    ],
+
+    
+    "mario-bros-three": [
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"mario-bros-three"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"mario-bros-three"
+        
+        } 
+    ],
+
+
+    "mario-bros-four": [
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"mario-bros-four"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"mario-bros-four"
+        
+        } 
+    ],
+
+
+    "mario-world": [
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"mario-world"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"mario-world"
+        
+        } 
+    ],
+
+
+    "mario-duluxe": [
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"mario-duluxe"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"mario-duluxe"
+        
+        } 
+    ],
+
+
+    "zelda-past": [
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"zelda-past"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"zelda-past"
+        
+        } 
+    ],
+
+
+    "mega-man-two": [
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"mega-man-two"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"mega-man-two"
+        
+        } 
+    ],
+
+
+    "world-war-two": [
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"world-war-two"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"world-war-two"
+        
+        } 
+    ],
+
+
+    "rac-rally-champ": [
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"rac-rally-champ"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"rac-rally-champ"
+        
+        } 
+    ],
+
+
+    "fifa-18": [
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"fifa-18"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"fifa-18"
+        
+        } 
+    ],
+
+
+    "asterix-game": [
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"asterix-game"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"asterix-game"
+        
+        } 
+    ],
+
+
+    "mario-kart-duluxe": [
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"mario-kart-duluxe"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"mario-kart-duluxe"
+        
+        } 
+    ],
+
+
+    "sonic-mania": [
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"sonic-mania"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"sonic-mania"
+        
+        } 
+    ],
+
+
+    "football-manager": [
+        {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"football-manager"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"football-manager"
+        
+        } 
+    ]
+
+}

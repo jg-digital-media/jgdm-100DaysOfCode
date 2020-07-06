@@ -1,20 +1,20 @@
 { 
-    "zelda-botw": [ 
+    "zelda_botw": [ 
         {
             "img_title":"Title 1",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"Alt 1",
-            "img_class":"zelda_botw"
+            "img_class":"zelda-botw"
         }, {
             "img_title":"Title 2",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"Alt 2",
-            "img_class":"zelda_botw"
+            "img_class":"zelda-botw"
         }, {
             "img_title":"Title 3",
             "img_url":"Alt 3",
             "img_alt":"img/game-screenshot-placeholder.png",
-            "img_class":"zelda_botw"
+            "img_class":"zelda-botw"
         } 
 
     ], 

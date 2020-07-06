@@ -2,7 +2,7 @@ console.log("js connected");
 
 //select photo groups  - change vars
 let game_cat_botw = document.querySelectorAll(".zelda-botw")[0];
-console.log( game_cat_botw.length );
+//console.log( game_cat_botw.length );
 
 let game_cat_lAwakening = document.querySelectorAll(".zelda-linksawakening")[0];
 let game_cat_fifaOne = document.querySelectorAll(".fifa-twenty")[0];
@@ -59,6 +59,19 @@ function toggleThirdImage() {
 
 
 
-/*
+/** 
+ * Get JSON data.
+ */
 
-*/
+jQuery.getJSON('data/all-photos-classes.json', function(catOne_data) {
+    //let getData;
+
+    for (let i=0; i < catOne_data.length; i++) { 
+        
+        //get all thumbnails in one category
+        //jQuery('<div class="photo-item"> <img src="' + photoData.pets[i].thumb_url +'" loading="lazy" data-src= "'  + photoData.pets[i].thumb_url + '" class="' + 'thumbnails ' + photoData.pets[i].class + '" /></div>').appendTo('.category-photos');
+
+        jQuery(`<img class="img ${ catOne_data.zelda-botw[i].img_class }" src="${ catOne_data.zelda-botw[i].img_url }" alt="${ catOne_data.zelda-botw[i].img_alt }" title="${ catOne_data.zelda-botw[i].img_alt }" /> `).appendTo('.category-photos');
+    }
+
+});

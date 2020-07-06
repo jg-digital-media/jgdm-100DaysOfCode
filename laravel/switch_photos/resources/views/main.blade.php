@@ -19,6 +19,7 @@
     @include('footer')
     
     
-    <script src="{{asset('app.js')}}"></script>
+    <script src="{{asset('js/jquery.js')}}"></script>
+    <script src="{{asset('js/app.js')}}"></script>
 </body>
 </html>

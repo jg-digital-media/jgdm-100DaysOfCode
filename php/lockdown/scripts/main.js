@@ -22,7 +22,9 @@ const imageBgArray = [
     'img/panoramic-railway.jpg',
     'img/panoramic-coastal.jpg',
     'img/panoramic-dene-two.jpg',
+    'img/panoramic-railway-two.jpg',
     'img/panoramic-coastal-two.jpg',
+    'img/panoramic-dene-three.jpg',
     'img/panoramic-coastal-three.jpg'
 
 ];

@@ -18,14 +18,14 @@ $(document).ready(function(){
 //cycle through background images
 
 const imageBgArray = [
-    'img/panoramic-dene.jpg',
-    'img/panoramic-railway.jpg',
-    'img/panoramic-coastal.jpg',
-    'img/panoramic-dene-two.jpg',
-    'img/panoramic-railway-two.jpg',
-    'img/panoramic-coastal-two.jpg',
-    'img/panoramic-dene-three.jpg',
-    'img/panoramic-coastal-three.jpg'
+    'img/panoramics/panoramic-dene.jpg',
+    'img/panoramics/panoramic-railway.jpg',
+    'img/panoramics/panoramic-coastal.jpg',
+    'img/panoramics/panoramic-dene-two.jpg',
+    'img/panoramics/panoramic-railway-two.jpg',
+    'img/panoramics/panoramic-coastal-two.jpg',
+    'img/panoramics/panoramic-dene-three.jpg',
+    'img/panoramics/panoramic-coastal-three.jpg'
 
 ];
 

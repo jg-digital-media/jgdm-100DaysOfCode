@@ -19,6 +19,9 @@ Last Updated:   06th January 2019
     
     <link rel="canonical" href="https://www.jonniegrieve.co.uk/index.php" />
     
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png" type="image/png">
+    
     <!--Facebook open graph links--> 	
     <meta prefix="fb: http://ogo.me/ns/fb#" property="app_id" content="2458621401127654" />
     <meta property="og:type" content="website" />

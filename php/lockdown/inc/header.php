@@ -87,7 +87,7 @@
     ?>    
 
 </head>
-<body>
+<body <?php if( $trailType === "railway-routes" ) { echo 'class="railway_bg"';} else if ( $trailType === "coastal" ) { echo 'class="coastal_bg"'; } else if ( $trailType === "dene" ) { echo 'class="dene_bg"'; } else { echo "";}  ?>>
 
     <header>
         <h1> <?php echo $website_title; ?> </h1>

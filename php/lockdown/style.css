@@ -171,6 +171,15 @@ header {
       header h1 {
         font-size: 16pt; } }
 
+.railway_bg {
+  background-image: url("img/panoramic-railway-two.jpg"); }
+
+.coastal_bg {
+  background-image: url("img/panoramic-coastal-two.jpg"); }
+
+.dene_bg {
+  background-image: url("img/panoramic-dene.jpg"); }
+
 nav {
   background: #0c6e0c;
   background: #0c6e0c;

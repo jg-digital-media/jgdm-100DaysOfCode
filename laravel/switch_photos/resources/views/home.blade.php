@@ -18,11 +18,12 @@
             <article class = "category-photos">
 
                 <!-- dynamic image content - to be replaced. -->
-                <img class="img zelda_botw" src="img/game-screenshot-placeholder.png" alt="#" title="#" />
+
+                <!-- <img class="img zelda_botw" src="img/game-screenshot-placeholder.png" alt="#" title="#" />
                 <img class="img zelda_botw" src="img/game-screenshot-placeholder.png" alt="#" title="#" />
                 <img class="img zelda-linksawakening" src="img/game-screenshot-placeholder.png" alt="#" title="#" />
                 <img class="img fifa-twenty" src="img/game-screenshot-placeholder.png" alt="#" title="#" />
-                <img class="img fifa-twenty" src="img/game-screenshot-placeholder.png" alt="#" title="#" />            
+                <img class="img fifa-twenty" src="img/game-screenshot-placeholder.png" alt="#" title="#" />   -->          
            
             </article> 
 

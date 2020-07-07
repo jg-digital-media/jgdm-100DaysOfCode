@@ -106,7 +106,7 @@
         <div> <a href="inc/walk-templates/walk-nineteen.php" title="Walk 19" class="route-slider-link"> <img src="img/walk_homepage/walk-nineteen.jpg" alt="Walk 19" class="route-slider-image" /> </a> </div> 
 
         
-        <!--<div> <a href="inc/walk-templates/walk-twenty.php" title="" class="route-slider-link"> <img src="img/walk_homepage/#" alt="" class="route-slider-image" /> </a> </div> 
+        <!--<div> <a href="inc/walk-templates/walk-twenty.php" title="" class="route-slider-link"> <img src="img/walk_homepage/#" alt="" class="route-slider-image" /> </a> </div> -->
 
     </div>
 

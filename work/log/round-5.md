@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 18 of 100. **Last Update:** 6 July 2020
+## **Status:** Day 19 of 100. **Last Update:** 7 July 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R5D19: Tuesday 7 July 2020
+
++ **Notes**
+  +  How to toggle display style of a group of elements of the same class was the main question of the day. Work in progress.  :)
+
++ **Technologies used** - HTML5, CSS, PHP, Laravel, JavaScript
 
 ### R5D18: Monday 6 July 2020
 

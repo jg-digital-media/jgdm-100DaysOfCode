@@ -18,7 +18,7 @@ Last Updated:   06th January 2019
     <link rel = "image_src" href="https://www.jonniegrieve.co.uk/img/icon.jpg" />
     
     <link rel="canonical" href="https://www.jonniegrieve.co.uk/index.php" />
-    
+
     <!-- Favicon -->
     <link rel="icon" href="favicon.png" type="image/png">
     
@@ -323,7 +323,7 @@ Last Updated:   06th January 2019
             </div>
 
             <div class="elsewhere" tabindex="0" role="elsewhere-div">
-                <a href="https://projects.jonniegrieve.co.uk/vue_project" target="blank" role="Elsewhere">
+                <a href="https://jonniegrieve.co.uk/assets/project_status/index.html" target="blank" role="Elsewhere">
                     <img src="img/services/project-status-page.jpg" />&nbsp;
                 </a>   
                 <p>Project Status: Single Page App</p>    

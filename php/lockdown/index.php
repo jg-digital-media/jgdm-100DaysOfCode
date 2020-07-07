@@ -6,7 +6,7 @@
 
     $meta_description = "Journeys and Trails I've discovered in the Castle Eden area during the period of Coronavirus Lockdown.";
     $meta_keywords = "Castle Eden Dene, Hart to Haswell Network, Coastal Trails, Blackhall Rocks, Crimdon, Denemouth, Walks, Walking, Trailings, Walking Castle Eden, Outdoors Castle Eden, Footpaths, Castle Eden";
-    $meta_image = "https://projects.jonniegrieve.co.uk/lockdown/img/preview.pnng";
+    $meta_image = "https://projects.jonniegrieve.co.uk/lockdown/img/preview.png";
  
     $fb_title = "Jaunts and Journeys in the time of COVID-19";
     $fb_description = $meta_description;

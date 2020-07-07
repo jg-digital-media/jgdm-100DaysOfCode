@@ -1,3 +1,14 @@
+/**
+ * Date: 07/07/2020
+ * Authored by: @jg_digitalMedia
+ * 
+ * Links:
+ * ------
+ * 
+ * 
+ * https://stackoverflow.com/questions/27830256/how-to-toggle-the-element-that-i-got-with-json 
+ */
+
 console.log("js connected");
 
 //select photo groups  - change vars

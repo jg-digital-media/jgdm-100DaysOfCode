@@ -12,7 +12,7 @@
 console.log("js connected");
 
 //select photo groups  - change vars
-let game_cat_botw = document.querySelectorAll(".zelda_botw");
+var game_cat_botw = document.querySelectorAll(".zelda_botw");
 let game_cat_lAwakening = document.querySelectorAll(".zelda-linksawakening")[0];
 let game_cat_fifaOne = document.querySelectorAll(".fifa-twenty")[0];
 
@@ -26,35 +26,35 @@ let toggleFifaOne = document.getElementById("fifa-one");
  * Get JSON data.
  */
 
+jQuery.getJSON("data/all-photos-classes.json", function( catOne_data ) {
+    let getcatData = catOne_data.zelda_botw.length;        
+
+    for( let i=0; i < getcatData; i++ ) {          
+
+        jQuery(`<img class="img" src="${ catOne_data.zelda_botw[i].img_url }" alt="${ catOne_data.zelda_botw[i].img_alt }" title="${ catOne_data.zelda_botw[i].img_alt }" />"`).appendTo(".category-photos");
+    }
+    
+
+});
+ 
 
 /**
  * Toggle First Category 
  */
+
 function toggleImage(category) {
+    
+    var game_cat_botw = document.querySelectorAll(".zelda_botw");
 
     jQuery.getJSON("data/all-photos-classes.json", function( catOne_data ) {
 
-        let getData = catOne_data.zelda_botw.length;        
+        if( toggleZeldaBreathOfWild.checked == true ) {
+            //game_cat_botw.classList.add("zelda_botw");
+            game_cat_botw.style.display = "inline-block";
 
-        for( let i=0; i < getData; i++ ) {          
-           
-            jQuery(`<img class="img ${ catOne_data.zelda_botw[i].img_class }" src="${ catOne_data.zelda_botw[i].img_url }" alt="${ catOne_data.zelda_botw[i].img_alt }" title="${ catOne_data.zelda_botw[i].img_alt }" />"`).appendTo(".category-photos");
-
-            //console.log("Iterate: " + "\n")
-            /* if( game_cat_botw.style.display === "inline-block" ) {
-
-                game_cat_botw.style.display = "none";
-
-            } else if( game_cat_botw.style.display === "none" ) {
-
-                game_cat_botw.style.display = "inline-block";
-                jQuery(`<img class="img ${ catOne_data.zelda_botw[i].img_class }" src="${ catOne_data.zelda_botw[i].img_url }" alt="${ catOne_data.zelda_botw[i].img_alt }" title="${ catOne_data.zelda_botw[i].img_alt }" />"`).appendTo(".category-photos");
-            */
-        }        
-        
+        }
 
     });
-   
 
 }
 
@@ -131,4 +131,13 @@ catOne_data.zelda_botw.length
 
 } 
 
-*/ 
+//console.log("Iterate: " + "\n")
+            /* if( game_cat_botw.style.display === "inline-block" ) {
+
+                game_cat_botw.style.display = "none";
+
+            } else if( game_cat_botw.style.display === "none" ) {
+
+                game_cat_botw.style.display = "inline-block";
+                jQuery(`<img class="img ${ catOne_data.zelda_botw[i].img_class }" src="${ catOne_data.zelda_botw[i].img_url }" alt="${ catOne_data.zelda_botw[i].img_alt }" title="${ catOne_data.zelda_botw[i].img_alt }" />"`).appendTo(".category-photos");
+            */

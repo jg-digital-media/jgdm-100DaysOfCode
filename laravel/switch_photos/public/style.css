@@ -109,9 +109,10 @@ body {
     .main .category-content p {
       color: black; }
 
-.category-photos img,
-.category-photos .zelda-botw {
+.category-photos img {
   display: none; }
+.category-photos .zelda-botw {
+  display: inline-block; }
 
 .footer {
   background: lightblue;

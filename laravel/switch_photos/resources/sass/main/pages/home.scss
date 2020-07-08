@@ -1,7 +1,12 @@
 //home partial
 .category-photos {
-    img,
-    .zelda-botw {
+
+    img {
         display: none;
+    }   
+    
+    .zelda-botw {
+        display: inline-block;
     }
+    
 }

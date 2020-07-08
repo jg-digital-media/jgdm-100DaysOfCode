@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 19 of 100. **Last Update:** 7 July 2020
+## **Status:** Day 20 of 100. **Last Update:** 8 July 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R5D20: Wednesday 8 July 2020
+
++ **Notes**
+  +  Bit confused as to why nothing I'm trying is affecting toggle of a group of images. 
+
++ **Technologies used** - HTML5, CSS, PHP, Laravel, JavaScript
 
 ### R5D19: Tuesday 7 July 2020
 

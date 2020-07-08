@@ -1,0 +1,38 @@
+{ "featured_projects": [ 
+    {
+        "project_name": "Auto Cleanse North East",
+        "project_url": "http://www.autoc.co.uk/",
+        "img_url": "img/featured/autocleansenortheast.jpg",
+        "project_alt": "Go to Auto Cleanse North East",
+        "project_type": "Website",
+        "project_status": "Complete",
+        "status": true
+    }, {
+        "project_name": "Kevin Mangles: Entertainer",
+        "project_url": "https://www.kevinmangles-magician.com/",
+        "img_url": "img/featured/kevinmangles.jpg",
+        "project_alt": "Go to Kevin Mangles",
+        "project_type": "Website",
+        "project_status": "Complete",
+        "status": true
+    }, {
+        "project_name": "Route Office",
+        "project_url": "https://routeoffice.co.uk",
+        "img_url": "img/featured/route_office.jpg",
+        "project_alt": "Go to Route Office",
+        "project_type": "Website",
+        "project_status": "Complete",
+        "status": true
+    }, {
+        "project_name": "Photography",
+        "project_url": "https://photography.jonniegrieve.co.uk",
+        "img_url": "img/featured/photography.jpg",
+        "project_alt": "Go to Photography",
+        "project_type": "Website",
+        "project_status": "Complete",
+        "status": true
+
+    }
+
+]
+}

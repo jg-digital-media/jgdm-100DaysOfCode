@@ -37,8 +37,8 @@ jQuery.getJSON('assets/data/project-list.json', function(photoData) { //Ajax cal
 
 });
 
-//Four featured projects
-jQuery.getJSON('assets/data/featured-projects.json', function(projectOne) {
+//Four featured projects - for website
+jQuery.getJSON('assets/data/project-list-small.json', function(projectOne) {
 
     jQuery(`
         <a href="${ projectOne.featured_projects[0].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectOne.featured_projects[0].img_url}" class="site-images" alt="${ projectOne.featured_projects[0].project_alt }" title="${ projectOne.featured_projects[0].project_alt }" tabindex="0" /></a>
@@ -46,21 +46,21 @@ jQuery.getJSON('assets/data/featured-projects.json', function(projectOne) {
 
 });
 
-jQuery.getJSON('assets/data/featured-projects.json', function(projectTwo) {
+jQuery.getJSON('assets/data/project-list-small.json', function(projectTwo) {
 
     jQuery(`
         <a href="${ projectTwo.featured_projects[1].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectTwo.featured_projects[1].img_url }" class="site-images" alt=" ${projectTwo.featured_projects[1].project_alt }" title="${ projectTwo.featured_projects[1].project_alt }" tabindex="0" /></a><br />
     `).appendTo('.show-featured');
 });
 
-jQuery.getJSON('assets/data/featured-projects.json', function(projectThree)  {
+jQuery.getJSON('assets/data/project-list-small.json', function(projectThree)  {
     jQuery(`
         <a href="${ projectThree.featured_projects[2].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectThree.featured_projects[2].img_url }" class="site-images" alt=" ${ projectThree.featured_projects[2].project_alt }." title=${ projectThree.featured_projects[2].project_alt }" tabindex="0" /></a>
 
     `).appendTo('.show-featured'); 
 });
 
-jQuery.getJSON('assets/data/featured-projects.json', function(projectFour) {
+jQuery.getJSON('assets/data/project-list-small.json', function(projectFour) {
 
     jQuery(`
         <a href="${ projectFour.featured_projects[3].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectFour.featured_projects[3].img_url }" class="site-images" alt="${projectFour.featured_projects[3].project_alt }." title="${ projectFour.featured_projects[3].project_alt }" tabindex="0" /></a>   

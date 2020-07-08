@@ -401,14 +401,6 @@
             "project_status": "incomplete",
             "status": null
         }, {
-            "project_name": "Project Status Page (JavaScript)",
-            "project_url": "https://jonniegrieve.co.uk/project_status",
-            "img_url": "img/featured/status_js.jpg",
-            "project_alt": "Go to Project Status Page (JavaScript)",
-            "project_type": "App",
-            "project_status": "incomplete",
-            "status": null
-        }, {
             "project_name": "Slim - Custom PHP Website",
             "project_url": "https://projects.jonniegrieve.co.uk/slim/src/public",
             "img_url": "img/featured/slim.jpg",
@@ -437,6 +429,14 @@
             "project_url": "#",
             "img_url": "img/featured/am_consulting.jpg",
             "project_alt": "Go to AM Consulting",
+            "project_type": "Website",
+            "project_status": "incomplete",
+            "status": null
+        }, {
+            "project_name": "Project Status (JS)",
+            "project_url": "https://jonniegrieve.co.uk/assets/project_status/index.html",
+            "img_url": "img/featured/status_js.jpg",
+            "project_alt": "Project Status App in JavaScript",
             "project_type": "Website",
             "project_status": "incomplete",
             "status": null

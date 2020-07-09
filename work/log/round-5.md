@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 20 of 100. **Last Update:** 8 July 2020
+## **Status:** Day 21 of 100. **Last Update:** 9 July 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R5D21: Thursday 9 July 2020
+
++ **Notes**
+  +  Going into my projects and starting to fix social and browser sharing tags for Facebook and Twitter. A lot to do! 
+
++ **Technologies used** - HTML5, CSS, PHP, Laravel, JavaScript
 
 ### R5D20: Wednesday 8 July 2020
 

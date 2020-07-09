@@ -12,7 +12,7 @@
 console.log("js connected");
 
 //select photo groups  - change vars
-var game_cat_botw = document.querySelectorAll(".zelda_botw");
+let game_cat_botw = document.querySelectorAll(".zelda_botw");
 let game_cat_lAwakening = document.querySelectorAll(".zelda-linksawakening")[0];
 let game_cat_fifaOne = document.querySelectorAll(".fifa-twenty")[0];
 
@@ -42,18 +42,25 @@ jQuery.getJSON("data/all-photos-classes.json", function( catOne_data ) {
  * Toggle First Category 
  */
 
-function toggleImage(category) {
+function toggleImage(element, category) {
     
-    game_cat_botw = document.querySelectorAll(".zelda_botw");
+    //game_cat_botw = document.querySelectorAll(".zelda_botw");
 
-    if( toggleZeldaBreathOfWild.checked == true ) {
+    for( let i=0; game_cat_botw.length; i++ ) {
 
-        console.log("images on");
+        if( toggleZeldaBreathOfWild[i].checked == true ) {        
 
-    } else {
+            console.log("images on");
+            game_cat_botw[i].style.display = "inline-block";
+            game_cat_botw[i].addClass("zelda_botw");
 
-        console.log("images off");
+        } else {
 
+            console.log("images off");
+            game_cat_botw[i].style.display = "none";
+            game_cat_botw[i].removeClass("zelda_botw");
+
+        }
     }
 
 }

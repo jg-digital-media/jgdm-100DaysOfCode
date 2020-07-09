@@ -6,12 +6,28 @@
 
     <link href="{{asset('style.css')}}" rel="stylesheet">
 
-    <!-- Meta Descriptions -->
+    <!-- Google Font -->    
+    <link href="<?php echo $page_font; ?> rel="stylesheet">
 
-    <!-- Canonical -->
+    <!-- meta tags -->
+    <meta name="description" content="<?php echo $meta_description;  ?>">
+    <meta name="keywords" content="<?php echo $meta_keywords;  ?>"> 
+    <meta name="image" content="<?php echo $meta_img; ?>">
 
-    <!-- Google Font
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Odibee+Sans|Quicksand&display=swap" rel="stylesheet">-->
+    <!-- FACEBOOK: Open Graph -->
+    <meta property="og:title" content="<?php echo $meta_title;?>">
+    <meta property="og:description" content="<?php echo $meta_description; ?>">
+    <meta property="og:image" content="<?php echo $meta_img; ?>">
+    <meta property="og:url" content="<?php echo $page_url;  ?>">
+
+    <!-- TWITTER: Open Graph -->
+    <meta name="twitter:title" content="<?php echo $meta_title;?>">
+    <meta name="twitter:description" content="<?php echo $meta_description; ?>">
+    <meta name="twitter:image" content="<?php echo $meta_img; ?>">
+    <meta name="twitter:card" content="jonnie_grieve_photography">
+
+    <!-- Canonical link -->
+    <link rel="canonical" href="<?php echo $page_url;  ?>">
 
     <!-- Favicon -->
     <link rel="icon" href="favicon.png" type="image/png">

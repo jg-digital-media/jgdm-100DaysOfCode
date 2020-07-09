@@ -3,6 +3,15 @@
     $selected = "main";
     $title = "Home | Switch Photo Library";
 
+    $meta_title = $title;
+    $meta_description = "desc goes here";
+    $meta_keywords = "photography, website, pets, animals and nature, buildings, people, others";
+    $meta_img = "img/photolib_preview.png";
+
+    $page_url = "";
+    
+    $page_font = "https://fonts.googleapis.com/css?family=Merriweather|Odibee+Sans|Quicksand&display=swap";
+
 ?>
 
 @extends('main')

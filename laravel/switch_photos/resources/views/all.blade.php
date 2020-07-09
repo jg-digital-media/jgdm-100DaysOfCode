@@ -3,6 +3,13 @@
     $selected = "all";
     $title = "All Images | Switch Photo Library";
 
+    $meta_title = $title;
+    $meta_description = "desc goes here";
+    $meta_keywords = "photography, website, pets, animals and nature, buildings, people, others";
+    $meta_img = "img/photolib_preview.png";
+
+    $page_url = "";
+
 ?>
 
 @extends('main')

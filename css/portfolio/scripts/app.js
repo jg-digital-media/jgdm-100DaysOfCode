@@ -8,7 +8,7 @@
 
 
 /**
- * Display all featured projects
+ * Display all featured projects  - all-projects.html  55 Projects
  */
 
 jQuery.getJSON('assets/data/project-list.json', function(photoData) { //Ajax call
@@ -19,23 +19,15 @@ jQuery.getJSON('assets/data/project-list.json', function(photoData) { //Ajax cal
     console.log(photoData.projects.length);
 
     for (let i=0; i < itemAll; i++) { 
-
-        //build the complete <img> tag
-        /*  jQuery(`<div class="photo-item">
-
-            <img src="${itemAll.url}" class="thumbnails" alt="${itemAll.alt}" title="${itemAll.alt}" />
-            
-            </div>  <div>${itemAll.caption}</div>
-            
-        `).appendTo('#all-photos'); */
-
-
+        
         //successful delivery of class and image URL            
         jQuery(`<a href="${photoData.projects[i].project_url}" target="blank"><img src="${photoData.projects[i].img_url}" class="site-images" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" /></a>`).appendTo('.all');     
 
    }
 
 });
+
+
 
 //Four featured projects - for website
 jQuery.getJSON('assets/data/project-list-small.json', function(projectOne) {

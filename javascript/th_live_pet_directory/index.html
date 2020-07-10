@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript - Pet Directory</title>
+    <link href="css/style.css" rel="stylesheet"> 
+  </head>
+  <body>
+    <header>
+      <svg class="logo" viewBox="0 0 17 18">
+        <path d="M7.835 4.741c0 1.125-0.583 2.461-1.878 2.461-1.627 0-2.612-2.049-2.612-3.455 0-1.125 0.583-2.461 1.878-2.461 1.637 0 2.612 2.049 2.612 3.455zM4.4 9.593c0 0.974-0.512 1.989-1.617 1.989-1.607 0-2.782-1.969-2.782-3.425 0-0.974 0.522-1.999 1.617-1.999 1.607 0 2.782 1.979 2.782 3.435zM8.357 9.321c2.461 0 5.786 3.546 5.786 5.916 0 1.276-1.045 1.477-2.069 1.477-1.346 0-2.431-0.904-3.717-0.904-1.346 0-2.491 0.894-3.948 0.894-0.974 0-1.838-0.331-1.838-1.467 0-2.381 3.325-5.916 5.786-5.916zM10.758 7.202c-1.296 0-1.878-1.336-1.878-2.461 0-1.406 0.974-3.455 2.612-3.455 1.296 0 1.878 1.336 1.878 2.461 0 1.406-0.984 3.455-2.612 3.455zM15.097 6.157c1.095 0 1.617 1.025 1.617 1.999 0 1.456-1.175 3.425-2.782 3.425-1.105 0-1.617-1.015-1.617-1.989 0-1.456 1.175-3.435 2.782-3.435z"></path>
+      </svg> 
+      <h1>Pet Directory</h1>
+    </header>
+    <main id="main-content">
+      <!-- <h2>Add Pets</h2>
+      <form>
+        <input type="text" id="pet-name" placeholder="Name">
+        <input type="text" id="pet-photo" placeholder="Photo URL">
+        <input type="submit">
+      </form> -->
+      <ul id="pets" class="pet-list">
+        <li>
+          Joey the Australian Shepherd 🐶
+          <img class="pet-img" src="img/aussie.jpg" alt="Australian Shepherd">
+          <input type="checkbox">
+        </li>
+        <li>
+          Patches the Domestic Shorthair 🐈
+          <img class="pet-img" src="img/tabby.jpg" alt="Domestic Shorthair">     
+          <input type="checkbox">
+        </li>
+        <li>
+          Pugsley the Pug 🐶
+          <img class="pet-img" src="img/pug.jpg" alt="Pug">
+          <input type="checkbox">
+        </li>
+        <li>
+          Simba the Persian 🐈
+          <img class="pet-img" src="img/persian.jpg" alt="Persian">
+          <input type="checkbox">
+        </li>
+        <li>
+          Comet the Golden Retriever 🐶
+          <img class="pet-img" src="img/golden.jpg" alt="Golden Retriever">
+          <input type="checkbox">
+        </li>
+      </ul>
+      <button id="btn-remove">Remove Selected</button>
+    </main>
+    <script type="text/javascript" src="js/pets.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>

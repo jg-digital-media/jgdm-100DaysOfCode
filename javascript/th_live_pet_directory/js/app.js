@@ -1,3 +1,10 @@
+/**
+ * Authored by @guil
+ * URL:    - https://www.youtube.com/watch?v=lpngGdIIgX8
+ * Title:  How to create Insert and remove with the DOM
+ * Date:  10th July 2020
+ */
+
 const petList = document.querySelector('#pets');
 const checkboxes = document.querySelectorAll('input[type="checkbox"]');
 const btn = document.querySelector('#btn-remove');

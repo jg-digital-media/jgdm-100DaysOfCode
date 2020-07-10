@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 21 of 100. **Last Update:** 9 July 2020
+## **Status:** Day 22 of 100. **Last Update:** 10 July 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R5D22: Friday 10 July 2020
+
++ **Notes**
+  +  Was able to follow this tutorial for extra practice on JavaScript DOM Scripting. Prepped for more updatescoming later on my Photography Website
+
++ **Technologies used** - HTML5, CSS, PHP, Laravel, JavaScript
 
 ### R5D21: Thursday 9 July 2020
 

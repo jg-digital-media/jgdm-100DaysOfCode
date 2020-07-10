@@ -14,8 +14,14 @@
 + Project Status - JSON (separate to Vue Project)
 
 
-### Day 20
+### Day 22
 
+TH Pet Directory - Temporary Project - practice DOM Scripting Fundamentals  - https://www.youtube.com/watch?v=lpngGdIIgX8
+```javascript
+```
+
+```javascript
+```
 
 
 ### Day 17

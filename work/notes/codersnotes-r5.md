@@ -14,6 +14,54 @@
 + Project Status - JSON (separate to Vue Project)
 
 
+### Day 23
+
+```javascript
+//Function Expression Syntax
+
+const add = (num1, num2) => {
+ return num1 + num2; 
+};
+
+
+const square = x => {
+  return x * x;
+};
+
+//e.g. 1
+const square = function(x) {
+  return x * x;
+};
+
+const sayGreeting = (greeting, name) => {
+  return `${greeting}, ${name}.`;
+}
+
+e.g. 2
+const sayYay = function() {
+  return "Yay!";
+};
+
+const sayYay = () => "Yay!";
+
+```
+
+### JS Doc for Documenting Code
+
+```javascript
+/**
+ * [A short description of the myFunc function]
+ *
+ * @param {[param type]} param1 - [parameter description]
+ * @param {[param type]} param2 - [parameter description]
+ * @returns {[return type]} [documents the function's return value]
+ */
+
+function myFunc( param1, param2 ) {
+  // function returns a value...
+}
+```
+
 ### Day 22
 
 TH Pet Directory - Temporary Project - practice DOM Scripting Fundamentals  - https://www.youtube.com/watch?v=lpngGdIIgX8

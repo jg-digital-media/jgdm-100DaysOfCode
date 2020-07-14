@@ -27,9 +27,12 @@ let toggleFifaOne = document.getElementById("fifa-one");
  */
 
 jQuery.getJSON("data/all-photos-classes.json", function( catOne_data ) {
-    let getcatData = catOne_data.zelda_botw.length;        
+    let getCatData = catOne_data.zelda_botw.length;
+    
+    //category count
+    console.log( "Zelda BOTW: " + catOne_data.zelda_botw.length );        
 
-    for( let i=0; i < getcatData; i++ ) {          
+    for( let i=0; i < getCatData; i++ ) {          
 
         jQuery(`<img class="img" src="${ catOne_data.zelda_botw[i].img_url }" alt="${ catOne_data.zelda_botw[i].img_alt }" title="${ catOne_data.zelda_botw[i].img_alt }" />"`).appendTo(".category-photos");
     }
@@ -44,23 +47,30 @@ jQuery.getJSON("data/all-photos-classes.json", function( catOne_data ) {
 
 function toggleImage(element, category) {
     
-    //game_cat_botw = document.querySelectorAll(".zelda_botw");
+    game_cat_botw = document.querySelectorAll(".zelda_botw");
+    //console.log(game_cat_botw);
 
-    for( let i=0; game_cat_botw.length; i++ ) {
+    
 
-        if( toggleZeldaBreathOfWild[i].checked == true ) {        
+    /* for( let i=0; game_cat_botw.length; i++ ) {
 
+        console.log( game_cat_botw[i].length )
+
+        if( toggleZeldaBreathOfWild[i].checked ) { 
+            console.log("log");
             console.log("images on");
-            game_cat_botw[i].style.display = "inline-block";
-            game_cat_botw[i].addClass("zelda_botw");
+            game_cat_botw[0].style.display = "inline-block";
+            game_cat_botw[0].addClass("zelda_botw");
 
         } else {
 
             console.log("images off");
-            game_cat_botw[i].style.display = "none";
-            game_cat_botw[i].removeClass("zelda_botw");
+            game_cat_botw[0].style.display = "none";
+            game_cat_botw[0].removeClass("zelda_botw");
 
-        }
-    }
+        } 
+
+    } */
+    
 
 }

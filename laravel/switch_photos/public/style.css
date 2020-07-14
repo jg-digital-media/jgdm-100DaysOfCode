@@ -113,7 +113,8 @@ body {
   display: none; }
   .category-photos img.zelda_botw, .category-photos img.zelda_linkswakening, .category-photos img.fifa_twenty {
     display: inline-block;
-    display: none; }
+    display: none;
+    width: 300px; }
 
 .footer {
   background: lightblue;

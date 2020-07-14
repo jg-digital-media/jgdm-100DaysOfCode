@@ -49,17 +49,21 @@ header {
             width: auto;
             display: inline-block;
         }
+        
         span#green-complete {
-            @include span-colours(inline-block, green, 30px, 30px, 50%, 5px);
+            @include span-colours(inline-block, #008000, 30px, 30px, 50%, 5px);
         }
 
         span#red-complete {
-            @include span-colours(inline-block, red, 30px, 30px, 50%, 5px);
+            @include span-colours(inline-block, #ff0000, 30px, 30px, 50%, 5px);
         }
 
         span#yellow-review {
-            @include span-colours(inline-block, yellow, 30px, 30px, 50%, 5px);
+            @include span-colours(inline-block, #ffff00, 30px, 30px, 50%, 5px);
+        }
 
+        span#orange-upcoming {
+            @include span-colours(inline-block, #ff9005, 30px, 30px, 50%, 5px);
         }
 
         @media (max-width: 1290px) {
@@ -133,16 +137,19 @@ header {
         }
 
         span.complete {
-            @include span-colours(inline-block, green, 30px, 30px, 50%, 5px);
+            @include span-colours(inline-block, #008000, 30px, 30px, 50%, 5px);
         }
 
         span.incomplete {
-            @include span-colours(inline-block, red, 30px, 30px, 50%, 5px);
+            @include span-colours(inline-block, #ff0000, 30px, 30px, 50%, 5px);
         }
 
         span.under-review {
-            @include span-colours(inline-block, yellow, 30px, 30px, 50%, 5px);
+            @include span-colours(inline-block, #ffff00, 30px, 30px, 50%, 5px);
 
+        }
+        span.upcoming {
+            @include span-colours(inline-block, #ff9005, 30px, 30px, 50%, 5px);
         }
     }
 

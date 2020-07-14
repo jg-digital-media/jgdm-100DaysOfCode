@@ -25,6 +25,9 @@ jQuery.getJSON('../../../assets/data/project-list.json', function(photoData) {
         } else if (photoData.projects[i].status === false) {
             jQuery(`<li> <span class="incomplete"> &nbsp; </span> </li>`).appendTo('#project-status');
 
+        } else if (photoData.projects[i].status === "upcoming") {
+            jQuery(`<li> <span class="upcoming"> &nbsp; </span> </li>`).appendTo('#project-status');
+
         } else {
             jQuery(`<li> <span class="under-review"> &nbsp; </span> </li>`).appendTo('#project-status');
         }

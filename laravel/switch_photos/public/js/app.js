@@ -34,33 +34,35 @@ jQuery.getJSON("data/all-photos-classes.json", function( catOne_data ) {
 
     for( let i=0; i < getCatData; i++ ) {          
 
-        jQuery(`<img class="img zelda_botw" src="${ catOne_data.zelda_botw[i].img_url }" alt="${ catOne_data.zelda_botw[i].img_alt }" title="${ catOne_data.zelda_botw[i].img_alt }" />"`).appendTo(".category-photos");
+        jQuery(`<img class="img ${ catOne_data.zelda_botw[i].img_class }" src="${ catOne_data.zelda_botw[i].img_url }" alt="${ catOne_data.zelda_botw[i].img_alt }" title="${ catOne_data.zelda_botw[i].img_alt }" />"`).appendTo(".category-photos");
     }    
 
 });
- 
+
+
 jQuery.getJSON("data/all-photos-classes.json", function( catTwo_data ) {
-    let getCatData = catTwo_data.zelda_linksawakening.length;
+    let getCat2Data = catTwo_data.zelda_linksawakening.length;
     
     //category count
-    console.log( "Zelda BOTW: " + catTwo_data.zelda_botw.length );        
+    console.log( "Zelda LA: " + catTwo_data.zelda_botw.length );        
 
-    for( let i=0; i < getCatData; i++ ) {          
+    for( let i=0; i < getCat2Data; i++ ) {          
 
-        jQuery(`<img class="img" src="${ catTwo_data.zelda_linksawakening[i].img_url }" alt="${ catTwo_data.zelda_linksawakening[i].img_alt }" title="${ catTwo_data.zelda_linksawakening[i].img_alt }" />"`).appendTo(".category-photos");
+        jQuery(`<img class="img ${ catTwo_data.zelda_linksawakening[i].img_class }" src="${ catTwo_data.zelda_linksawakening[i].img_url }" alt="${ catTwo_data.zelda_linksawakening[i].img_alt }" title="${ catTwo_data.zelda_linksawakening[i].img_alt }" />"`).appendTo(".category-photos");
     }    
 
 });
- 
+
+
 jQuery.getJSON("data/all-photos-classes.json", function( catThree_data ) {
-    let getCatData = catThree_data.fifa_twenty.length;
+    let getCat3Data = catThree_data.fifa_twenty.length;
     
     //category count
-    console.log( "Zelda BOTW: " + catThree_data.fifa_twenty.length );        
+    console.log( "Fifa 20: " + catThree_data.fifa_twenty.length );        
 
-    for( let i=0; i < getCatData; i++ ) {          
+    for( let i=0; i < getCat3Data; i++ ) {          
 
-        jQuery(`<img class="img" src="${ catThree_data.fifa_twenty[i].img_url }" alt="${ catThree_data.fifa_twenty[i].img_alt }" title="${ catThree_data.fifa_twenty[i].img_alt }" />"`).appendTo(".category-photos");
+        jQuery(`<img class="img ${ catThree_data.fifa_twenty[i].img_class }" src="${ catThree_data.fifa_twenty[i].img_url }" alt="${ catThree_data.fifa_twenty[i].img_alt }" title="${ catThree_data.fifa_twenty[i].img_alt }" />"`).appendTo(".category-photos");
     }    
 
 });
@@ -118,17 +120,17 @@ $( toggleZeldaBreathOfWild ).click(function(){
 
 })
 
-/* $( toggleZeldaLinksAwakening ).click(function(){
+$( toggleZeldaLinksAwakening ).click(function(){
  
     console.log("clicked");
-    $( "img.zelda-linksawakening" ).toggle(".zelda-linksawakening");
+    $( ".category-photos img.zelda_linksawakening" ).toggle("img.zelda_linksawakening");
 
 })
 
 $( toggleFifaOne ).click(function(){
  
     console.log("clicked");
-    $( "img.fifa-twenty" ).toggle(".fifa-twenty");
+    $( ".category-photos img.fifa_twenty" ).toggle("img.fifa_twenty");
 
 })
- */
+

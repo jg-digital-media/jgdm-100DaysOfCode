@@ -34,9 +34,8 @@ jQuery.getJSON("data/all-photos-classes.json", function( catOne_data ) {
 
     for( let i=0; i < getCatData; i++ ) {          
 
-        jQuery(`<img class="img" src="${ catOne_data.zelda_botw[i].img_url }" alt="${ catOne_data.zelda_botw[i].img_alt }" title="${ catOne_data.zelda_botw[i].img_alt }" />"`).appendTo(".category-photos");
-    }
-    
+        jQuery(`<img class="img zelda_botw" src="${ catOne_data.zelda_botw[i].img_url }" alt="${ catOne_data.zelda_botw[i].img_alt }" title="${ catOne_data.zelda_botw[i].img_alt }" />"`).appendTo(".category-photos");
+    }    
 
 });
  
@@ -48,29 +47,27 @@ jQuery.getJSON("data/all-photos-classes.json", function( catOne_data ) {
 function toggleImage(element, category) {
     
     game_cat_botw = document.querySelectorAll(".zelda_botw");
-    //console.log(game_cat_botw);
 
-    
+    console.log("clicked");
+    console.log( game_cat_botw );
 
-    /* for( let i=0; game_cat_botw.length; i++ ) {
 
-        console.log( game_cat_botw[i].length )
-
-        if( toggleZeldaBreathOfWild[i].checked ) { 
-            console.log("log");
+        if( toggleZeldaBreathOfWild.checked ) { 
+            
             console.log("images on");
-            game_cat_botw[0].style.display = "inline-block";
-            game_cat_botw[0].addClass("zelda_botw");
+            //game_cat_botw.style.display = "inline-block";
+            game_cat_botw.addClass("zelda_botw");
+            //game_cat_botw[i].classList.toggle("zelda_botw");
 
         } else {
 
             console.log("images off");
-            game_cat_botw[0].style.display = "none";
-            game_cat_botw[0].removeClass("zelda_botw");
+            //game_cat_botw.style.display = "none";
+            game_cat_botw.removeClass("zelda_botw");
+            //game_cat_botw[i].classList.toggle("zelda_botw");
 
-        } 
+    } 
 
-    } */
     
 
 }

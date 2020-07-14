@@ -14,6 +14,12 @@
 + Project Status - JSON (separate to Vue Project)
 
 
+### Day 24
+
+#### Trying to find out how to toggle display property of a group of elements of a given class
+
+https://stackoverflow.com/questions/34950249/javascript-using-a-loop-to-change-the-display-of-every-element-that-has-a-specif link
+
 ### Day 23
 
 ```javascript

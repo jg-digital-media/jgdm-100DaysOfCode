@@ -3,10 +3,12 @@
 
     img {
         display: none;
-    }   
+       
     
-    .zelda-botw {
-        display: inline-block;
-    }
+        &.zelda_botw {
+            display: inline-block;
+        }
     
+    }            
+
 }

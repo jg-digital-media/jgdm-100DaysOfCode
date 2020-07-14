@@ -111,8 +111,8 @@ body {
 
 .category-photos img {
   display: none; }
-.category-photos .zelda-botw {
-  display: inline-block; }
+  .category-photos img.zelda_botw {
+    display: inline-block; }
 
 .footer {
   background: lightblue;

@@ -2,17 +2,17 @@
     "zelda_botw": [ 
         {
             "img_title": "Zelda Title 1",
-            "img_url": "img/game-screenshot-placeholder.png",
+            "img_url": "img/zelda_botw/zelda_one.jpg",
             "img_alt": "Zelda Alt 1",
             "img_class": "zelda_botw"
         }, {
             "img_title": "Zelda Title 2",
-            "img_url": "img/game-screenshot-placeholder.png",
+            "img_url": "img/zelda_botw/zelda_two.jpg",
             "img_alt": "Zelda Alt 2",
             "img_class": "zelda_botw"
         }, {
             "img_title": "Zelda Title 3",
-            "img_url": "img/game-screenshot-placeholder.png",
+            "img_url": "img/zelda_botw/zelda_three.jpg",
             "img_alt": "Zelda Alt 3",
             "img_class": "zelda_botw"
         } 
@@ -64,8 +64,8 @@
 
     "mario-odyssey": [ 
         {
-            "img_title":"",
-            "img_url":"",
+            "img_title":"Super Mario Odyssey",
+            "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"",
             "img_class":"mario-odyssey"
         
@@ -81,9 +81,9 @@
 
     "animal-crossing": [ 
         {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
+            "img_title":"Animal Crossing: New Horizons",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Animal Crossing: New Horizons",
             "img_class":"animal-crossing"
         
         }, {
@@ -98,9 +98,9 @@
 
     "super-mario-maker":[ 
         {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
+            "img_title":"Super Mario Maker 2",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Super Mario Maker 2",
             "img_class":"super-mario-maker"
         
         }, {
@@ -115,9 +115,9 @@
 
     "donkey-kong-tropic": [
         {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
+            "img_title":"Donkey Kong: Tropical Freeze",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Donkey Kong: Tropical Freeze",
             "img_class":"donkey-kong-tropic"
         
         }, {
@@ -132,9 +132,9 @@
 
     "mario-bros": [ 
         {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
+            "img_title":"Super Mario Bros",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Super Mario Bros",
             "img_class":"mario-bros"
         
         }, {
@@ -149,9 +149,9 @@
 
     "mario-bros-two":[
         {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
+            "img_title":"Super Mario Bros 2",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Super Mario Bros 2",
             "img_class":"mario-bros-two"
         
         }, {
@@ -166,9 +166,9 @@
     
     "mario-bros-three": [
         {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
+            "img_title":"Super Mario Bros 3",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Super Mario Bros 3",
             "img_class":"mario-bros-three"
         
         }, {
@@ -183,9 +183,9 @@
 
     "mario-bros-four": [
         {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
+            "img_title":"Super Mario Bros: The Lost Levels",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Super Mario Bros: The Lost Levels",
             "img_class":"mario-bros-four"
         
         }, {
@@ -200,9 +200,9 @@
 
     "mario-world": [
         {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
+            "img_title":"Super Mario World",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Super Mario World",
             "img_class":"mario-world"
         
         }, {
@@ -217,9 +217,9 @@
 
     "mario-duluxe": [
         {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
+            "img_title":"Super Mario Bros U (Duluxe)",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Super Mario Bros U (Duluxe)",
             "img_class":"mario-duluxe"
         
         }, {
@@ -234,9 +234,9 @@
 
     "zelda-past": [
         {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
+            "img_title":"The Legend of Zelda: A Link to the Past",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"The Legend of Zelda: A Link to the Past",
             "img_class":"zelda-past"
         
         }, {
@@ -251,9 +251,9 @@
 
     "mega-man-two": [
         {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
+            "img_title":"Mega Man 2",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Mega Man 2",
             "img_class":"mega-man-two"
         
         }, {
@@ -268,13 +268,13 @@
 
     "world-war-two": [
         {
-            "img_title":"",
-            "img_url":"",
+            "img_title":"World War 2: Fighter ",
+            "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"",
             "img_class":"world-war-two"
         
         }, {
-            "img_title":"",
+            "img_title":"World War 2: Fighter ",
             "img_url":"",
             "img_alt":"",
             "img_class":"world-war-two"
@@ -285,13 +285,13 @@
 
     "rac-rally-champ": [
         {
-            "img_title":"",
-            "img_url":"",
+            "img_title":"RAC Rally Champ",
+            "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"",
             "img_class":"rac-rally-champ"
         
         }, {
-            "img_title":"",
+            "img_title":"RAC Rally Champ",
             "img_url":"",
             "img_alt":"",
             "img_class":"rac-rally-champ"
@@ -302,14 +302,14 @@
 
     "fifa-18": [
         {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
+            "img_title":"Fifa 18",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Fifa 18",
             "img_class":"fifa-18"
         
         }, {
             "img_title":"",
-            "img_url":"",
+            "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"",
             "img_class":"fifa-18"
         
@@ -319,9 +319,9 @@
 
     "asterix-game": [
         {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
+            "img_title":"Asterix: XXL",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Asterix: XXL",
             "img_class":"asterix-game"
         
         }, {
@@ -336,9 +336,9 @@
 
     "mario-kart-duluxe": [
         {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
+            "img_title":"Mario Kart Dulux",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Mario Kart Dulux",
             "img_class":"mario-kart-duluxe"
         
         }, {
@@ -353,9 +353,9 @@
 
     "sonic-mania": [
         {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
+            "img_title":"Sonic Mania",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Sonic Mania",
             "img_class":"sonic-mania"
         
         }, {
@@ -370,9 +370,9 @@
 
     "football-manager": [
         {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
+            "img_title":"Football Manager Touch",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Football Manager Touch",
             "img_class":"football-manager"
         
         }, {

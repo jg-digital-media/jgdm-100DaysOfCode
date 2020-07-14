@@ -20,6 +20,26 @@
 
 https://stackoverflow.com/questions/34950249/javascript-using-a-loop-to-change-the-display-of-every-element-that-has-a-specif link
 
+https://clubmate.fi/javascript-adding-and-removing-class-names-from-elements/ 
+
+
+What has taken me days to try and work out I have managed in minutes with jQuery.
+
+```javascript
+/*
+* jQuery Toggle
+* 
+*/
+
+$( toggleZeldaBreathOfWild) .click(function(){
+ 
+    console.log("clicked");
+    $( ".zelda_botw" ).toggle();
+
+})
+```
+
+
 ### Day 23
 
 ```javascript

@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 23 of 100. **Last Update:** 13 July 2020
+## **Status:** Day 24 of 100. **Last Update:** 14 July 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R5D24: Tuesday 14 July 2020
+
++ **Notes**
+  +  Finally got the functionality I want for the Laravel Project I'm building. But achieved it with jQuery rather than the vanilla JS solution I was trying. Will continue that for now going forward.  Taking the win  :). 
+
++ **Technologies used** - HTML5, CSS, PHP, Laravel, JavaScript
 
 ### R5D23: Monday 13 July 2020
 

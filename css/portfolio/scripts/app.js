@@ -11,10 +11,7 @@
  * Display all featured projects  - all-projects.html  55 Projects
  */
 
-jQuery.getJSON('assets/data/project-list.json', function(photoData) { //Ajax call
-    //var itemAll = data.images[Math.floor(Math.random() * data.images.length)]; //select image at random
-
-    //select length of json array
+jQuery.getJSON('assets/data/project-list-all.json', function(photoData) { 
     let itemAll = photoData.projects.length;
     console.log(photoData.projects.length);
 

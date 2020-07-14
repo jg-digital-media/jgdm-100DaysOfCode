@@ -5,8 +5,11 @@
         display: none;
        
     
-        &.zelda_botw {
+        &.zelda_botw,
+        &.zelda_linkswakening,
+        &.fifa_twenty {
             display: inline-block;
+            display: none;
         }
     
     }            

@@ -39,9 +39,9 @@
             <h2>Select Image Category</h2>
         
             <article>
-                <label for="zelda-one"><input type="checkbox" id="zelda-one" onclick="toggleImage()" /><p>Zelda: Breath of the Wild</p></label>
-                <label for="zelda-two"><input type="checkbox" id="zelda-two" onclick="toggleSecondImage()" /><p>Zelda: Links Awakening</p></label>
-                <label for="fifa-one"><input type="checkbox" id="fifa-one" onclick="toggleThirdImage()" /><p>Fifa 20</p></label>
+                <label for="zelda-one"><input type="checkbox" id="zelda-one" /><p>Zelda: Breath of the Wild</p></label>
+                <label for="zelda-two"><input type="checkbox" id="zelda-two" /><p>Zelda: Links Awakening</p></label>
+                <label for="fifa-one"><input type="checkbox" id="fifa-one" /><p>Fifa 20</p></label>
                 <label for="marioodyssey"><input type="checkbox" id="mario-odyssey" /><p>Super Mario Odyssey</p></label>
                 <label for="animalcrossing"><input type="checkbox" id="animalcrossing" /><p>Animal Crossing</p></label>
                 <label for="supermariomaker"><input type="checkbox" id="supermariomaker" /><p>Super Mario Maker</p></label>

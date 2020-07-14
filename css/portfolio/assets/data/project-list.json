@@ -17,22 +17,6 @@
             "project_status": "Complete",
             "status": true
         }, {
-            "project_name": "Android Projects Subdomain",
-            "project_url": "https://android.jonniegrieve.co.uk",
-            "img_url": "img/featured/sub-android.jpg",
-            "project_alt": "Go to Android Projects Subdomain",
-            "project_type": "Website",
-            "project_status": "Complete",
-            "status": null
-        }, {
-            "project_name": "Autism and Christianity",
-            "project_url": "https://www.autismandchristianity.org/",
-            "img_url": "img/featured/autismandchristianity.jpg",
-            "project_alt": "Go to Autism and Christianity website.",
-            "project_type": "Website",
-            "project_status": "Complete",
-            "status": null
-        }, {
             "project_name": "Elim Church Bishop Auckland",
             "project_url": "https://www.elimchurchbishopauckland.co.uk",
             "img_url": "img/featured/elimchurchbishopauckland.jpg",
@@ -359,7 +343,7 @@
             "project_alt": "Go to Parallax Showcase Webpage",
             "project_type": "Single Page",
             "project_status": "Complete",
-            "status": true
+            "status": null
         }, {
             "project_name": "Photography Website",
             "project_url": "https://photography.jonniegrieve.co.uk",
@@ -393,13 +377,13 @@
             "project_status": "Complete",
             "status": true
         }, {
-            "project_name": "Fetch API (JavaScript)",
-            "project_url": "https://projects.jonniegrieve.co.uk/fetch/",
-            "img_url": "img/featured/fetch.jpg",
-            "project_alt": "Go to Fetch API (JavaScript)",
-            "project_type": "App",
+            "project_name": "Project Status (JS)",
+            "project_url": "https://jonniegrieve.co.uk/assets/project_status/index.html",
+            "img_url": "img/featured/status_js.jpg",
+            "project_alt": "Project Status App in JavaScript",
+            "project_type": "Website",
             "project_status": "incomplete",
-            "status": null
+            "status": true
         }, {
             "project_name": "Slim - Custom PHP Website",
             "project_url": "https://projects.jonniegrieve.co.uk/slim/src/public",
@@ -407,7 +391,7 @@
             "project_alt": "Go to Slim - Custom PHP Website",
             "project_type": "Website",
             "project_status": "incomplete",
-            "status": false
+            "status": "upcoming"
         }, {
             "project_name": "PHP Authorisation Project",
             "project_url": "https://projects.jonniegrieve.co.uk/php_auth_v4",
@@ -415,7 +399,7 @@
             "project_alt": "Go to PHP Authorisation Project",
             "project_type": "Website",
             "project_status": "incomplete",
-            "status": false
+            "status": "upcoming"
         }, {
             "project_name": "Laravel Switch Project",
             "project_url": "https://jonniegrieve.co.uk/switch_photos",
@@ -423,7 +407,7 @@
             "project_alt": "Go to Laravel Switch Project",
             "project_type": "Website",
             "project_status": "incomplete",
-            "status": false
+            "status": "upcoming"
         }, {
             "project_name": "AM Consulting",
             "project_url": "#",
@@ -433,12 +417,28 @@
             "project_status": "incomplete",
             "status": null
         }, {
-            "project_name": "Project Status (JS)",
-            "project_url": "https://jonniegrieve.co.uk/assets/project_status/index.html",
-            "img_url": "img/featured/status_js.jpg",
-            "project_alt": "Project Status App in JavaScript",
+            "project_name": "Fetch API (JavaScript)",
+            "project_url": "https://projects.jonniegrieve.co.uk/fetch/",
+            "img_url": "img/featured/fetch.jpg",
+            "project_alt": "Go to Fetch API (JavaScript)",
+            "project_type": "App",
+            "project_status": "incomplete",
+            "status": "upcoming"
+        }, {
+            "project_name": "Autism and Christianity",
+            "project_url": "https://www.autismandchristianity.org/",
+            "img_url": "img/featured/autismandchristianity.jpg",
+            "project_alt": "Go to Autism and Christianity website.",
             "project_type": "Website",
             "project_status": "incomplete",
+            "status": null
+        }, {
+            "project_name": "Android Projects Subdomain",
+            "project_url": "https://android.jonniegrieve.co.uk",
+            "img_url": "img/featured/sub-android.jpg",
+            "project_alt": "Go to Android Projects Subdomain",
+            "project_type": "Website",
+            "project_status": "Complete",
             "status": null
         }
     ]

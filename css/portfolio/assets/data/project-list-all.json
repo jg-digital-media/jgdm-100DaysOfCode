@@ -407,7 +407,7 @@
             "project_alt": "Go to Slim - Custom PHP Website",
             "project_type": "Website",
             "project_status": "incomplete",
-            "status": false
+            "status": "upcoming"
         }, {
             "project_name": "PHP Authorisation Project",
             "project_url": "https://projects.jonniegrieve.co.uk/php_auth_v4",
@@ -415,7 +415,7 @@
             "project_alt": "Go to PHP Authorisation Project",
             "project_type": "Website",
             "project_status": "incomplete",
-            "status": false
+            "status": "upcoming"
         }, {
             "project_name": "Laravel Switch Project",
             "project_url": "https://jonniegrieve.co.uk/switch_photos",
@@ -423,7 +423,7 @@
             "project_alt": "Go to Laravel Switch Project",
             "project_type": "Website",
             "project_status": "incomplete",
-            "status": false
+            "status": "upcoming"
         }, {
             "project_name": "AM Consulting",
             "project_url": "#",
@@ -431,7 +431,7 @@
             "project_alt": "Go to AM Consulting",
             "project_type": "Website",
             "project_status": "incomplete",
-            "status": null
+            "status": "upcoming"
         }, {
             "project_name": "Project Status (JS)",
             "project_url": "https://jonniegrieve.co.uk/assets/project_status/index.html",
@@ -439,7 +439,7 @@
             "project_alt": "Project Status App in JavaScript",
             "project_type": "Website",
             "project_status": "incomplete",
-            "status": null
+            "status": "upcoming"
         }
     ]
 }

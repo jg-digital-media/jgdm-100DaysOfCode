@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 24 of 100. **Last Update:** 14 July 2020
+## **Status:** Day 25 of 100. **Last Update:** 15 July 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R5D25: Wednesday 15 July 2020
+
++ **Notes**
+  +  Lots of work with jQuery today. Linking the checkboxes with the toggle method so they toggle the images - the functionality I described yesterday. Eventually I'll learn this in regular JS as I think it's good practice. 
+
++ **Technologies used** - HTML5, CSS, PHP, Laravel, JavaScript
 
 ### R5D24: Tuesday 14 July 2020
 

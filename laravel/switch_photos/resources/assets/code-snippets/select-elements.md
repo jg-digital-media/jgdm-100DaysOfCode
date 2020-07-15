@@ -44,35 +44,35 @@ const toggleRallyGame = document.getElementById("rac-rally");
 const toggleFifaTwo = document.getElementById("fifa-two");
 const toggleAsterix = document.getElementById("asterix");
 const toggleTetris = document.getElementById("tetris");
-const toggleMariokart_Duluxe = document.getElementById("mariokart-duluxe");
+const toggleMarioKart_Duluxe = document.getElementById("mariokart-duluxe");
 const toggleSonicMania = document.getElementById("sonicmania");
 const toggleFootballManager = document.getElementById("footballmanagertouch");*/
 
 //CSS
 .category-photos {
     img,
-    .zelda-botw,
-    .zelda-linksawakening,
-    .fifa-one,
-    .mario-odyssey,
-    .animal-crossing,
-    .super-mario-maker,
-    .donkey-kong-tropic,
-    .mario-bros,
-    .mario-bros-two,
-    .mario-bros-three,
-    .mario-bros-four,
-    .mario-world,
-    .mario-duluxe,
-    .zelda-past,
-    .mega-man-two,
-    .world-war-two,
-    .rac-rally-champ,
-    .fifa-18,
-    .asterix-game,
-    .mario-kart-duluxe,
-    .sonic-mania,
-    .football-manager {
+    .zelda_botw,
+    .zelda_linksawakening,
+    .fifa_one,
+    .mario_odyssey,
+    .animal_crossing,
+    .super_mario_maker,
+    .donkey_kong_tropic,
+    .mario_bros,
+    .mario_bros_two,
+    .mario-bros_three,
+    .mario_bros_four,
+    .mario_world,
+    .mario_duluxe,
+    .zelda_past,
+    .mega_man_two,
+    .world_war_two,
+    .rac_rally_champ,
+    .fifa_18,
+    .asterix_game,
+    .mario_kart_duluxe,
+    .sonic_mania,
+    .football_manager {
         display: none;
     }
 }

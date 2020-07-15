@@ -62,324 +62,341 @@
     ],
 
 
-    "mario-odyssey": [ 
+    "mario_odyssey": [ 
         {
             "img_title":"Super Mario Odyssey",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"",
-            "img_class":"mario-odyssey"
+            "img_class":"mario_odyssey"
         
         }, {
             "img_title":"",
             "img_url":"",
             "img_alt":"",
-            "img_class":"mario-odyssey"
+            "img_class":"mario_odyssey"
         
         }  
 ],
 
 
-    "animal-crossing": [ 
+    "animal_crossing": [ 
         {
             "img_title":"Animal Crossing: New Horizons",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"Animal Crossing: New Horizons",
-            "img_class":"animal-crossing"
+            "img_class":"animal_crossing"
         
         }, {
             "img_title":"",
             "img_url":"",
             "img_alt":"",
-            "img_class":"animal-crossing"
+            "img_class":"animal_crossing"
         
         } 
     ],
 
 
-    "super-mario-maker":[ 
+    "super_mario_maker":[ 
         {
             "img_title":"Super Mario Maker 2",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"Super Mario Maker 2",
-            "img_class":"super-mario-maker"
+            "img_class":"super_mario_maker"
         
         }, {
             "img_title":"",
             "img_url":"",
             "img_alt":"",
-            "img_class":"super-mario-maker"
+            "img_class":"super_mario_maker"
         
         } 
     ],
 
 
-    "donkey-kong-tropic": [
+    "donkey_kong_tropic": [
         {
             "img_title":"Donkey Kong: Tropical Freeze",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"Donkey Kong: Tropical Freeze",
-            "img_class":"donkey-kong-tropic"
+            "img_class":"donkey_kong_tropic"
         
         }, {
             "img_title":"",
             "img_url":"",
             "img_alt":"",
-            "img_class":"donkey-kong-tropic"
+            "img_class":"donkey_kong_tropic"
         
         } 
     ],
 
 
-    "mario-bros": [ 
+    "mario_bros": [ 
         {
             "img_title":"Super Mario Bros",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"Super Mario Bros",
-            "img_class":"mario-bros"
+            "img_class":"mario_bros"
         
         }, {
             "img_title":"",
             "img_url":"",
             "img_alt":"",
-            "img_class":"mario-bros"
+            "img_class":"mario_bros"
         
         } 
     ],
 
 
-    "mario-bros-two":[
+    "mario_bros_two":[
         {
             "img_title":"Super Mario Bros 2",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"Super Mario Bros 2",
-            "img_class":"mario-bros-two"
+            "img_class":"mario_bros_two"
         
         }, {
             "img_title":"",
             "img_url":"",
             "img_alt":"",
-            "img_class":"mario-bros-two"
+            "img_class":"mario_bros_two"
         
         } 
     ],
 
     
-    "mario-bros-three": [
+    "mario_bros_three": [
         {
             "img_title":"Super Mario Bros 3",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"Super Mario Bros 3",
-            "img_class":"mario-bros-three"
+            "img_class":"mario_bros_three"
         
         }, {
             "img_title":"",
             "img_url":"",
             "img_alt":"",
-            "img_class":"mario-bros-three"
+            "img_class":"mario_bros_three"
         
         } 
     ],
 
 
-    "mario-bros-four": [
+    "mario_bros_four": [
         {
             "img_title":"Super Mario Bros: The Lost Levels",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"Super Mario Bros: The Lost Levels",
-            "img_class":"mario-bros-four"
+            "img_class":"mario_bros_four"
         
         }, {
             "img_title":"",
             "img_url":"",
             "img_alt":"",
-            "img_class":"mario-bros-four"
+            "img_class":"mario_bros_four"
         
         } 
     ],
 
 
-    "mario-world": [
+    "mario_world": [
         {
             "img_title":"Super Mario World",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"Super Mario World",
-            "img_class":"mario-world"
+            "img_class":"mario_world"
         
         }, {
             "img_title":"",
             "img_url":"",
             "img_alt":"",
-            "img_class":"mario-world"
+            "img_class":"mario_world"
         
         } 
     ],
 
 
-    "mario-duluxe": [
+    "mario_duluxe": [
         {
             "img_title":"Super Mario Bros U (Duluxe)",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"Super Mario Bros U (Duluxe)",
-            "img_class":"mario-duluxe"
+            "img_class":"mario_duluxe"
         
         }, {
             "img_title":"",
             "img_url":"",
             "img_alt":"",
-            "img_class":"mario-duluxe"
+            "img_class":"mario_duluxe"
         
         } 
     ],
 
 
-    "zelda-past": [
+    "zelda_past": [
         {
             "img_title":"The Legend of Zelda: A Link to the Past",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"The Legend of Zelda: A Link to the Past",
-            "img_class":"zelda-past"
+            "img_class":"zelda_past"
         
         }, {
             "img_title":"",
             "img_url":"",
             "img_alt":"",
-            "img_class":"zelda-past"
+            "img_class":"zelda_past"
         
         } 
     ],
 
 
-    "mega-man-two": [
+    "mega_man_two": [
         {
             "img_title":"Mega Man 2",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"Mega Man 2",
-            "img_class":"mega-man-two"
+            "img_class":"mega_man_two"
         
         }, {
             "img_title":"",
             "img_url":"",
             "img_alt":"",
-            "img_class":"mega-man-two"
+            "img_class":"mega_man_two"
         
         } 
     ],
 
 
-    "world-war-two": [
+    "world_war_two": [
         {
             "img_title":"World War 2: Fighter ",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"",
-            "img_class":"world-war-two"
+            "img_class":"world_war_two"
         
         }, {
             "img_title":"World War 2: Fighter ",
             "img_url":"",
             "img_alt":"",
-            "img_class":"world-war-two"
+            "img_class":"world_war_two"
         
         } 
     ],
 
 
-    "rac-rally-champ": [
+    "rac_rally_champ": [
         {
             "img_title":"RAC Rally Champ",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"",
-            "img_class":"rac-rally-champ"
+            "img_class":"rac_rally_champ"
         
         }, {
             "img_title":"RAC Rally Champ",
             "img_url":"",
             "img_alt":"",
-            "img_class":"rac-rally-champ"
+            "img_class":"rac_rally_champ"
         
         } 
     ],
 
 
-    "fifa-18": [
+    "fifa_18": [
         {
             "img_title":"Fifa 18",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"Fifa 18",
-            "img_class":"fifa-18"
+            "img_class":"fifa_eighteen"
         
         }, {
             "img_title":"",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"",
-            "img_class":"fifa-18"
+            "img_class":"fifa_eighteen"
         
         } 
     ],
 
 
-    "asterix-game": [
+    "asterix_game": [
         {
             "img_title":"Asterix: XXL",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"Asterix: XXL",
-            "img_class":"asterix-game"
+            "img_class":"asterix_game"
         
         }, {
             "img_title":"",
             "img_url":"",
             "img_alt":"",
-            "img_class":"asterix-game"
+            "img_class":"asterix_game"
         
         } 
     ],
 
 
-    "mario-kart-duluxe": [
+    "mario_kart_duluxe": [
         {
             "img_title":"Mario Kart Dulux",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"Mario Kart Dulux",
-            "img_class":"mario-kart-duluxe"
+            "img_class":"mario_kart_duluxe"
         
         }, {
             "img_title":"",
             "img_url":"",
             "img_alt":"",
-            "img_class":"mario-kart-duluxe"
+            "img_class":"mario_kart_duluxe"
         
         } 
     ],
 
 
-    "sonic-mania": [
+    "sonic_mania": [
         {
             "img_title":"Sonic Mania",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"Sonic Mania",
-            "img_class":"sonic-mania"
+            "img_class":"sonic_mania"
         
         }, {
             "img_title":"",
             "img_url":"",
             "img_alt":"",
-            "img_class":"sonic-mania"
+            "img_class":"sonic_mania"
         
         } 
     ],
 
 
-    "football-manager": [
+    "football_manager": [
         {
             "img_title":"Football Manager Touch",
             "img_url":"img/game-screenshot-placeholder.png",
             "img_alt":"Football Manager Touch",
-            "img_class":"football-manager"
+            "img_class":"football_manager"
         
         }, {
             "img_title":"",
             "img_url":"",
             "img_alt":"",
-            "img_class":"football-manager"
+            "img_class":"football_manager"
+        
+        } 
+    ],
+
+
+    "tetris": [
+        {
+            "img_title":"Tetris-99",
+            "img_url":"img/game-screenshot-placeholder.png",
+            "img_alt":"Tetris-99",
+            "img_class":"tetris"
+        
+        }, {
+            "img_title":"",
+            "img_url":"",
+            "img_alt":"",
+            "img_class":"tetris"
         
         } 
     ]

@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 25 of 100. **Last Update:** 15 July 2020
+## **Status:** Day 26 of 100. **Last Update:** 16 July 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R5D26: Thursday 16 July 2020
+
++ **Notes**
+  +  Doing some more updates for a client today. @autoc. They will be online as soon as possible
+
++ **Technologies used** - HTML5, CSS, PHP, Laravel, JavaScript
 
 ### R5D25: Wednesday 15 July 2020
 

@@ -97,7 +97,8 @@ body {
   /*width: 60%;*/
   width: 100%;
   background: lightblue;
-  grid-template-columns: 1fr 1fr; }
+  grid-template-columns: 1fr 1fr;
+  min-height: 300px; }
   .main .category-heading {
     /* border: solid black 1px; */ }
     .main .category-heading h2 {

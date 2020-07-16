@@ -9,6 +9,8 @@
     $meta_img = "img/photolib_preview.png";
 
     $page_url = "";
+    $page_font = "https://fonts.googleapis.com/css?family=Merriweather|Odibee+Sans|Quicksand&display=swap";
+
 
 ?>
 

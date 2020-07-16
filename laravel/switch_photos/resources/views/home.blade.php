@@ -8,8 +8,7 @@
     $meta_keywords = "photography, website, pets, animals and nature, buildings, people, others";
     $meta_img = "img/photolib_preview.png";
 
-    $page_url = "";
-    
+    $page_url = "";    
     $page_font = "https://fonts.googleapis.com/css?family=Merriweather|Odibee+Sans|Quicksand&display=swap";
 
 ?>
@@ -63,7 +62,7 @@
                 <label for="footballmanagertouch"><input type="checkbox" id="footballmanagertouch" /><p>Football Manager Touch</p></label>
                 <label for="tetris"><input type="checkbox" id="tetris" /><p>Tetris-99</p></label>
 
-
+                <!-- check/uncheck all -->
                 <label for="all"><input type="checkbox" id="all" />ALL</p></label>
             <article>
 

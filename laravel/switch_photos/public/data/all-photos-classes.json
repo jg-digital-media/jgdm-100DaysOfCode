@@ -66,13 +66,13 @@
         {
             "img_title":"Super Mario Odyssey",
             "img_url":"img/game-screenshot-placeholder.png",
-            "img_alt":"",
+            "img_alt":"Super Mario Odyssey",
             "img_class":"mario_odyssey"
         
         }, {
             "img_title":"",
             "img_url":"",
-            "img_alt":"",
+            "img_alt":"Super Mario Odyssey",
             "img_class":"mario_odyssey"
         
         }  
@@ -287,7 +287,7 @@
         {
             "img_title":"RAC Rally Champ",
             "img_url":"img/game-screenshot-placeholder.png",
-            "img_alt":"",
+            "img_alt":"RAC Rally Champ",
             "img_class":"rac_rally_champ"
         
         }, {
@@ -329,9 +329,9 @@
 
     "mario_kart_duluxe": [
         {
-            "img_title":"Mario Kart Dulux",
+            "img_title":"Mario Kart Duluxe",
             "img_url":"img/game-screenshot-placeholder.png",
-            "img_alt":"Mario Kart Dulux",
+            "img_alt":"Mario Kart Duluxe",
             "img_class":"mario_kart_duluxe"
         
         }, {

@@ -1,8 +1,8 @@
-/*home route partial*/
-.category-photos {
+/*all photos*/
+.all_photos {
 
     img {
-        display: none;       
+        display: inline-block;       
     
         &.zelda_botw,
         &.zelda_linkswakening,
@@ -28,7 +28,6 @@
         &.football_manager,
         &.tetris {
             display: inline-block;
-            display: none;
             width: 300px;
         }
     

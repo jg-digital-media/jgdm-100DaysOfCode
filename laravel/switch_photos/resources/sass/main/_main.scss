@@ -19,6 +19,7 @@ body {
     width: 100%;
     background: lightblue;
     grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 260px;
     min-height: 300px;  //refine
 
     .category-heading {

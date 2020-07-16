@@ -32,6 +32,37 @@
             width: 300px;
         }
     
-    }            
+    } 
 
 }
+
+.select-category {
+
+    h2 {
+        font-size: 16pt;
+    }
+
+    article {
+
+        label {
+            display: block;
+            /*vertical-align: top;*/
+
+            input[type="chexkbox"] {
+                display: block;
+            }
+    
+            input[type="checkbox"] + p {
+                display: inline-block;
+                color: red;
+                vertical-align: middle;
+                margin-left: 15px;
+                font-size: larger;
+                margin: 3px 10px;
+            }
+        }
+    }
+
+}
+
+

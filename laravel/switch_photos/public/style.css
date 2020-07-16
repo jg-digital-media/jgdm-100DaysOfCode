@@ -98,6 +98,7 @@ body {
   width: 100%;
   background: lightblue;
   grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 260px;
   min-height: 300px; }
   .main .category-heading {
     /* border: solid black 1px; */ }
@@ -117,6 +118,21 @@ body {
     display: inline-block;
     display: none;
     width: 300px; }
+
+.select-category h2 {
+  font-size: 16pt; }
+.select-category article label {
+  display: block;
+  /*vertical-align: top;*/ }
+  .select-category article label input[type="chexkbox"] {
+    display: block; }
+  .select-category article label input[type="checkbox"] + p {
+    display: inline-block;
+    color: red;
+    vertical-align: middle;
+    margin-left: 15px;
+    font-size: larger;
+    margin: 3px 10px; }
 
 /*all photos*/
 .all-photos img {

@@ -4,12 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>PHP Lib </title>
+    <title><?php echo $pageTitle; ?> </title>
 
     <link rel="stylesheet" type="text/css" href="styles/main.css" />
 
     <!-- Google Font-->
     <link href="https://fonts.googleapis.com/css?family=Cabin|Cairo|Comfortaa|Permanent+Marker&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png" type="image/png">    
+
+    <!-- Page Meta Tags -->
+    <meta name="description" content="<?php echo $meta_description;  ?>">
+    <meta name="keywords" content="<?php echo $meta_keywords;  ?>"> 
+    <meta name="image" content="<?php echo $meta_image;  ?>">
+
+    <!-- Facebook OpenGraph GL -->
+    <meta property="og:title" content="<?php echo $fb_title; ?>">
+    <meta property="og:description" content="<?php echo $fb_description; ?>">
+    <meta property="og:image" content="<?php echo $fb_image; ?>">
+    <meta property="og:url" content="<?php echo $fb_url; ?>">
+
+    <!-- TWITTER: Open Graph -->
+    <meta name="twitter:title" content="<?php echo $fb_title; ?>">
+    <meta name="twitter:description" content="<?php echo $fb_description; ?>">
+    <meta name="twitter:image" content="<?php echo $fb_image; ?>">
+    <meta name="twitter:card" content="php_website">
+
+    <!-- Canonical link -->
+    <link rel="canonical" href="<?php echo $fb_url; ?>">
 
 </head>
 <body>

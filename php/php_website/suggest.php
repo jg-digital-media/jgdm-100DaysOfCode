@@ -1,8 +1,17 @@
 <?php
 
-$selected = "suggestions";
-$pageTitle = "Make a suggestion";
-$media = null;
+    $selected = "suggestions";
+    $pageTitle = "Make a suggestion";
+    $media = null;
+
+    $meta_description = "The TV &amp; Movie DVD Directory is designed to be #1 tool that helps digital media and entertainment enthusiasts find the best content out there.";
+    $meta_keywords = "TV Directory, media library, digital media tool, entertainment";
+    $meta_image = "https://projects.jonniegrieve.co.uk/img/media_lib_preview.png";
+
+    $fb_title= "Media Library:  Curation of the best Digital Media";
+    $fb_description = "The TV &amp; Movie DVD Directory is designed to be #1 tool that helps digital media and entertainment enthusiasts find the best content out there";
+    $fb_image = "https://projects.jonniegrieve.co.uk/img/media_lib_preview.png";
+    $fb_url = "https://projects.jonniegrieve.co.uk/php_website/suggest.php";
 
 require "inc/header.php"; 
 

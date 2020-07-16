@@ -39,7 +39,7 @@
 
                 <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis reiciendis quo id similique eum necessitatibus</div>
                 
-        <aside>
+        </aside>
         
     </section>
 

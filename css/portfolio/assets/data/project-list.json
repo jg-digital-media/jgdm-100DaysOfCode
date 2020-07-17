@@ -384,63 +384,6 @@
             "project_type": "Website",
             "project_status": "incomplete",
             "status": true
-        }, {
-            "project_name": "Slim - Custom PHP Website",
-            "project_url": "https://projects.jonniegrieve.co.uk/slim/src/public",
-            "img_url": "img/featured/slim.jpg",
-            "project_alt": "Go to Slim - Custom PHP Website",
-            "project_type": "Website",
-            "project_status": "incomplete",
-            "status": "upcoming"
-        }, {
-            "project_name": "PHP Authorisation Project",
-            "project_url": "https://projects.jonniegrieve.co.uk/php_auth_v4",
-            "img_url": "img/featured/php_auth.jpg",
-            "project_alt": "Go to PHP Authorisation Project",
-            "project_type": "Website",
-            "project_status": "incomplete",
-            "status": "upcoming"
-        }, {
-            "project_name": "Laravel Switch Project",
-            "project_url": "https://jonniegrieve.co.uk/switch_photos",
-            "img_url": "img/featured/switch_photos.jpg",
-            "project_alt": "Go to Laravel Switch Project",
-            "project_type": "Website",
-            "project_status": "incomplete",
-            "status": "upcoming"
-        }, {
-            "project_name": "AM Consulting",
-            "project_url": "#",
-            "img_url": "img/featured/am_consulting.jpg",
-            "project_alt": "Go to AM Consulting",
-            "project_type": "Website",
-            "project_status": "incomplete",
-            "status": null
-        }, {
-            "project_name": "Fetch API (JavaScript)",
-            "project_url": "https://projects.jonniegrieve.co.uk/fetch/",
-            "img_url": "img/featured/fetch.jpg",
-            "project_alt": "Go to Fetch API (JavaScript)",
-            "project_type": "App",
-            "project_status": "incomplete",
-            "status": "upcoming"
-        }, {
-            "project_name": "Autism and Christianity",
-            "project_url": "https://www.autismandchristianity.org/",
-            "img_url": "img/featured/autismandchristianity.jpg",
-            "project_alt": "Go to Autism and Christianity website.",
-            "project_type": "Website",
-            "project_status": "incomplete",
-            "status": null
-        }, {
-            "project_name": "Android Projects Subdomain",
-            "project_url": "https://android.jonniegrieve.co.uk",
-            "img_url": "img/featured/sub-android.jpg",
-            "project_alt": "Go to Android Projects Subdomain",
-            "project_type": "Website",
-            "project_status": "Complete",
-            "status": null
         }
     ]
 }
-

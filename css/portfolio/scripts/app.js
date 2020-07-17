@@ -11,7 +11,15 @@
  * Display all featured projects  - all-projects.html  55 Projects
  */
 
-jQuery.getJSON('assets/data/project-list-all.json', function(photoData) { 
+jQuery.getJSON('assets/data/project-list.json', function(photoData) { 
+
+    
+    //select project count
+    let project_count = document.getElementById("project_count");
+    let count = "( " + photoData.projects.length + " )";
+
+    project_count.textContent = count;
+
     let itemAll = photoData.projects.length;
     console.log(photoData.projects.length);
 

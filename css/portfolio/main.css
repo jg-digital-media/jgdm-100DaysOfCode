@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   09 October 2019
+Last Updated:   17 July 2020
 */
 /**
 Colours
@@ -340,6 +340,11 @@ nav.main-nav {
       margin: 10px; }
     .main-content article#all-projects .all img {
       margin: 10px; }
+  .main-content article#all-projects span {
+    font-style: italic;
+    color: #2e2d2d;
+    font-size: 13px;
+    font-weight: bold; }
 
 .main-content .about-box {
   padding: 10px; }

@@ -23,17 +23,17 @@
     "zelda_linksawakening": [ 
         {
             "img_title": "Zelda LA: Title 4",
-            "img_url": "img/game-screenshot-placeholder.png",
+            "img_url": "img/links_awakening/la_one.jpg",
             "img_alt": "Zelda LA: Alt 4",
             "img_class": "zelda_linksawakening"
         }, {
             "img_title": "Zelda LA: Title 5",
-            "img_url": "img/game-screenshot-placeholder.png",
+            "img_url": "img/links_awakening/la_two.jpg",
             "img_alt": "Zelda LA: Alt 5",
             "img_class": "zelda_linksawakening"
         }, {
             "img_title": "Zelda LA: Title 6",
-            "img_url": "img/game-screenshot-placeholder.png",
+            "img_url": "img/links_awakening/la_three.jpg",
             "img_alt": "Zelda LA: Alt 6",
             "img_class": "zelda_linksawakening"
         } 
@@ -43,19 +43,19 @@
     "fifa_twenty": [ 
         {
             "img_title": "Fifa 20: Title 7",
-            "img_url": "img/game-screenshot-placeholder.png",
+            "img_url": "img/fifa_20/fifa_one.jpg",
             "img_alt": "Fifa 20: Title 7",
             "img_class": "fifa_twenty"
         
         }, {
             "img_title": "Fifa 20: Title 8",
-            "img_url": "img/game-screenshot-placeholder.png",
+            "img_url": "img/fifa_20/fifa_two.jpg",
             "img_alt": "Fifa 20: Alt 8",
             "img_class": "fifa_twenty"
         
         }, {
             "img_title": "fifa 20: Title 9",
-            "img_url": "img/game-screenshot-placeholder.png",
+            "img_url": "img/fifa_20/fifa_three.jpg",
             "img_alt": "Fifa 20: Alt 9",
             "img_class": "fifa_twenty"        
         }

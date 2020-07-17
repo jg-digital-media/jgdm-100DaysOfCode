@@ -1,8 +1,9 @@
 /**
  * Author: @jg_digitalMedia
- * Date:  02/07/2020
+ * Date:  17/07/2020
  * 
  * file path to json file - local assets/data/project-list.json
+ * photoData - Featured Project image url data
  * file path to json file - server assets/data/project-list.json
  */
 

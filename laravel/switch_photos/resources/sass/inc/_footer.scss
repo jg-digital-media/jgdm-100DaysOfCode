@@ -3,13 +3,15 @@
 
     background: $footer-bg;
     background: $body-bg;
+    background: purple;
     height: 100px;
     margin-top: 20px;
 
     p {
         text-align: center;
-        color: black;
+        color: white;
         font-size: 10pt;
         margin-top: 5px;
+        padding-top: 10px;
     }
 }

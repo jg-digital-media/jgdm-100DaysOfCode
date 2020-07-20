@@ -7,7 +7,8 @@
             "project_alt": "Go to Auto Cleanse North East",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Kevin Mangles: Entertainer",
             "project_url": "https://www.kevinmangles-magician.com/",
@@ -15,7 +16,8 @@
             "project_alt": "Go to Kevin Mangles",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Elim Church Bishop Auckland",
             "project_url": "https://www.elimchurchbishopauckland.co.uk",
@@ -23,7 +25,8 @@
             "project_alt": "Go to Elim Church Website",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Dyspraxia Awareness Website",
             "project_url": "https://www.dyspraxia.jonniegrieve.co.uk",
@@ -31,7 +34,8 @@
             "project_alt": "Go to Dyspraxia Awareness Website ",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Easington Deanery",
             "project_url": "https://easingtondeanery.org",
@@ -39,7 +43,8 @@
             "project_alt": "Go to Easington Deanery website",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Castle Eden Walks",
             "project_url": "https://projects.jonniegrieve.co.uk/walks",
@@ -47,7 +52,8 @@
             "project_alt": "Go to Castle Eden Walks website",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Ajax Project",
             "project_url": "https://projects.jonniegrieve.co.uk/ajax_project",
@@ -55,7 +61,8 @@
             "project_alt": "Go to Ajax Project Website",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "WebDesign Practice site",
             "project_url": "https://projects.jonniegrieve.co.uk/practice/",
@@ -63,7 +70,8 @@
             "project_alt": "Go to WebDesign Practice site",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Time Tracker App with PHP ",
             "project_url": "https://projects.jonniegrieve.co.uk/time_tracker/",
@@ -71,7 +79,8 @@
             "project_alt": "Go to Time Tracker App",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Route Office Supplies Stationery Shop",
             "project_url": "https://routeoffice.co.uk",
@@ -79,7 +88,8 @@
             "project_alt": "Go to Route Office Website",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "My Portfolio Example site",
             "project_url": "https://projects.jonniegrieve.co.uk/wep/",
@@ -87,7 +97,8 @@
             "project_alt": "Go to Portfolio Example site",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "sc"
         }, {
             "project_name": "jQuery Project - Skills Page",
             "project_url": "https://projects.jonniegrieve.co.uk/jquery_project",
@@ -95,7 +106,8 @@
             "project_alt": "Go to jQuery Project - Skills Page",
             "project_type": "App",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Sass Project",
             "project_url": "https://projects.jonniegrieve.co.uk/sass_project",
@@ -103,7 +115,8 @@
             "project_alt": "Go to Sass Project",
             "project_type": "App",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Regex",
             "project_url": "https://projects.jonniegrieve.co.uk/regex",
@@ -111,7 +124,8 @@
             "project_alt": "Go to Regex explainer website",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "React.js Single Page Scoreboard Application",
             "project_url": " https://projects.jonniegrieve.co.uk/react-scoreboard/",
@@ -119,7 +133,8 @@
             "project_alt": "Go to React.js Single Page Scoreboard Application",
             "project_type": "App",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "React.js Single Page Scoreboard Application",
             "project_url": " https://projects.jonniegrieve.co.uk/react-scoreboard-v2/",
@@ -127,7 +142,8 @@
             "project_alt": "Go to React.js Single Page Scoreboard Application",
             "project_type": "App",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Psychic Reading Online",
             "project_url": "https://www.psychic-reading-online.com",
@@ -135,7 +151,8 @@
             "project_alt": "Go to Psychic Reading Online",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Project Status using Vue Framework",
             "project_url": "https://projects.jonniegrieve.co.uk/vue_project",
@@ -143,7 +160,8 @@
             "project_alt": "Go to Project Status page",
             "project_type": "App",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "CSS Grid Practice",
             "project_url": "https://projects.jonniegrieve.co.uk/grid_project",
@@ -151,7 +169,8 @@
             "project_alt": "Go to CSS Grid Practice",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Project Gallery Website Example.",
             "project_url": "https://projects.jonniegrieve.co.uk/portfolio-gallery",
@@ -159,7 +178,8 @@
             "project_alt": "Go to Project Gallery Website ",
             "project_type": "App",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Object Oriented PHP Techniques",
             "project_url": "https://projects.jonniegrieve.co.uk/php-cookbook/",
@@ -167,7 +187,8 @@
             "project_alt": "Go to Object Oriented PHP website",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "PHP Basics",
             "project_url": "https://projects.jonniegrieve.co.uk/phpbasics-2016/",
@@ -175,7 +196,8 @@
             "project_alt": "Go to PHP Basics",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Projects Subdomain",
             "project_url": "https://projects.jonniegrieve.co.uk",
@@ -183,7 +205,8 @@
             "project_alt": "Go to Projects Subdomain",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Simple List Maker",
             "project_url": "https://projects.jonniegrieve.co.uk/list_maker",
@@ -191,7 +214,8 @@
             "project_alt": "Go to Simple List Maker",
             "project_type": "App",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Left Push Nav Example",
             "project_url": "https://projects.jonniegrieve.co.uk/modernizr",
@@ -199,7 +223,8 @@
             "project_alt": "Go to Left Push Nav",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Learning Notes Example",
             "project_url": "https://projects.jonniegrieve.co.uk/learning_notes",
@@ -207,7 +232,8 @@
             "project_alt": "Go to Learning Notes Example",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Joining the Feast",
             "project_url": "https://www.joiningthefeast.org",
@@ -215,7 +241,8 @@
             "project_alt": "Go to Joining the Feast website",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "To-do List - Interactive JS",
             "project_url": "https://projects.jonniegrieve.co.uk/int_js/",
@@ -223,7 +250,8 @@
             "project_alt": "Go to To-do List app",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Portfolio Example",
             "project_url": "https://projects.jonniegrieve.co.uk/howto-web/",
@@ -231,7 +259,8 @@
             "project_alt": "Go to Portfolio example",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "The Games Yard",
             "project_url": "https://projects.jonniegrieve.co.uk/gamesyard ",
@@ -239,7 +268,8 @@
             "project_alt": "Go to Games Yard website",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "An Awful Lot of Running",
             "project_url": "https://projects.jonniegrieve.co.uk/fyp",
@@ -247,7 +277,8 @@
             "project_alt": "Go to Final Year Project Website - An Awful Lot of Running",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Four in a Row ",
             "project_url": "https://projects.jonniegrieve.co.uk/four_in_a_row/",
@@ -255,7 +286,8 @@
             "project_alt": "Go to Four in a Row ",
             "project_type": "App",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Free Code Camp, Tribute Page",
             "project_url": "https://projects.jonniegrieve.co.uk/free-code-camp/responsive-web-design/project-tribute",
@@ -263,7 +295,8 @@
             "project_alt": "Go to Free Code Camp, Tribute Page",
             "project_type": "Single Page",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Free Code Camp, Technical Documentation Page",
             "project_url": "https://projects.jonniegrieve.co.uk/free-code-camp/responsive-web-design/project-techdoc/",
@@ -271,7 +304,8 @@
             "project_alt": "Go to Free Code Camp, Technical Documentation Page",
             "project_type": "Single Page",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Free Code Camp: Survey Project",
             "project_url": "https://projects.jonniegrieve.co.uk/free-code-camp/responsive-web-design/project-survey/",
@@ -279,7 +313,8 @@
             "project_alt": "Go to Free Code Camp: Survey Project",
             "project_type": "Single Page",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Free Code Camp: Product Landing Page",
             "project_url": "https://projects.jonniegrieve.co.uk/free-code-camp/responsive-web-design/project-productpage/",
@@ -287,7 +322,8 @@
             "project_alt": "Go to Free Code Camp: Product Landing Page",
             "project_type": "Single Page",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Free Code Camp: Portfolio Project",
             "project_url": "https://projects.jonniegrieve.co.uk/free-code-camp/responsive-web-design/project-portfolio/",
@@ -295,7 +331,8 @@
             "project_alt": "Go to Free Code Camp: Portfolio Project",
             "project_type": "Single Page",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Endangered Species Project",
             "project_url": "https://projects.jonniegrieve.co.uk/esp",
@@ -303,7 +340,8 @@
             "project_alt": "Go to Endangered Species Project website",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Castle Eden World CSS Site",
             "project_url": "https://projects.jonniegrieve.co.uk/castle-eden-css/",
@@ -311,7 +349,8 @@
             "project_alt": "Go to Castle Eden World website",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Balloon Flight Website",
             "project_url": "https://projects.jonniegrieve.co.uk/balloon",
@@ -319,7 +358,8 @@
             "project_alt": "Go to Balloon Flight website",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Form Project",
             "project_url": "https://projects.jonniegrieve.co.uk/form_project/",
@@ -327,7 +367,8 @@
             "project_alt": "Go to Form Project",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Parallax Webpage",
             "project_url": "https://projects.jonniegrieve.co.uk/practice/parallax",
@@ -335,7 +376,8 @@
             "project_alt": "Go to Parallax Webpage",
             "project_type": "Single Page",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "PHP DVD Library Website",
             "project_url": "https://projects.jonniegrieve.co.uk/php_website/",
@@ -343,7 +385,8 @@
             "project_alt": "Go to Parallax Showcase Webpage",
             "project_type": "Single Page",
             "project_status": "Complete",
-            "status": null
+            "status": null,
+            "img_type": "src"
         }, {
             "project_name": "Photography Website",
             "project_url": "https://photography.jonniegrieve.co.uk",
@@ -351,7 +394,8 @@
             "project_alt": "Go to Photography Website",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Express.js Flashcard App",
             "project_url": " https://jgdm-flashcard-app.herokuapp.com/",
@@ -359,7 +403,8 @@
             "project_alt": "Go to Express.js Flashcard App",
             "project_type": "App",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Jaunts and Journeys in Lockdown",
             "project_url": "https://projects.jonniegrieve.co.uk/lockdown/index.php",
@@ -367,7 +412,8 @@
             "project_alt": "Go to Jaunts and Journeys in Lockdown website",
             "project_type": "Website",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Currency Converter App",
             "project_url": "https://projects.jonniegrieve.co.uk/currency_converter/index.html",
@@ -375,7 +421,8 @@
             "project_alt": "Go to Currency Converter App",
             "project_type": "App",
             "project_status": "Complete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }, {
             "project_name": "Project Status (JS)",
             "project_url": "https://jonniegrieve.co.uk/assets/project_status/index.html",
@@ -383,7 +430,8 @@
             "project_alt": "Project Status App in JavaScript",
             "project_type": "Website",
             "project_status": "incomplete",
-            "status": true
+            "status": true,
+            "img_type": "src"
         }
     ]
 }

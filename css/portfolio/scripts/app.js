@@ -27,7 +27,7 @@ jQuery.getJSON('assets/data/project-list.json', function(photoData) {
     for (let i=0; i < itemAll; i++) { 
         
         //successful delivery of class and image URL            
-        jQuery(`<a href="${photoData.projects[i].project_url}" target="blank"><img src="${photoData.projects[i].img_url}" class="site-images" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" /></a>`).appendTo('.all');     
+        jQuery(`<a href="${photoData.projects[i].project_url}" target="blank"><img ${photoData.projects[i].img_type}="${photoData.projects[i].img_url}" class="site-images lazy" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" /></a>`).appendTo('.all');     
 
    }
 
@@ -39,7 +39,7 @@ jQuery.getJSON('assets/data/project-list.json', function(photoData) {
 jQuery.getJSON('assets/data/project-list-small.json', function(projectOne) {
 
     jQuery(`
-        <a href="${ projectOne.featured_projects[0].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectOne.featured_projects[0].img_url}" class="site-images" alt="${ projectOne.featured_projects[0].project_alt }" title="${ projectOne.featured_projects[0].project_alt }" tabindex="0" /></a>
+        <a href="${ projectOne.featured_projects[0].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectOne.featured_projects[0].img_url}" class="site-images lazy" alt="${ projectOne.featured_projects[0].project_alt }" title="${ projectOne.featured_projects[0].project_alt }" tabindex="0" loading="lazy" /></a>
     `).appendTo('.show-featured');
 
 });
@@ -47,13 +47,13 @@ jQuery.getJSON('assets/data/project-list-small.json', function(projectOne) {
 jQuery.getJSON('assets/data/project-list-small.json', function(projectTwo) {
 
     jQuery(`
-        <a href="${ projectTwo.featured_projects[1].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectTwo.featured_projects[1].img_url }" class="site-images" alt=" ${projectTwo.featured_projects[1].project_alt }" title="${ projectTwo.featured_projects[1].project_alt }" tabindex="0" /></a><br />
+        <a href="${ projectTwo.featured_projects[1].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectTwo.featured_projects[1].img_url }" class="site-images lazy" alt=" ${projectTwo.featured_projects[1].project_alt }" title="${ projectTwo.featured_projects[1].project_alt }" tabindex="0" /></a><br />
     `).appendTo('.show-featured');
 });
 
 jQuery.getJSON('assets/data/project-list-small.json', function(projectThree)  {
     jQuery(`
-        <a href="${ projectThree.featured_projects[2].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectThree.featured_projects[2].img_url }" class="site-images" alt=" ${ projectThree.featured_projects[2].project_alt }." title=${ projectThree.featured_projects[2].project_alt }" tabindex="0" /></a>
+        <a href="${ projectThree.featured_projects[2].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectThree.featured_projects[2].img_url }" class="site-images lazy" alt=" ${ projectThree.featured_projects[2].project_alt }." title=${ projectThree.featured_projects[2].project_alt }" tabindex="0" /></a>
 
     `).appendTo('.show-featured'); 
 });
@@ -61,7 +61,7 @@ jQuery.getJSON('assets/data/project-list-small.json', function(projectThree)  {
 jQuery.getJSON('assets/data/project-list-small.json', function(projectFour) {
 
     jQuery(`
-        <a href="${ projectFour.featured_projects[3].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectFour.featured_projects[3].img_url }" class="site-images" alt="${projectFour.featured_projects[3].project_alt }." title="${ projectFour.featured_projects[3].project_alt }" tabindex="0" /></a>   
+        <a href="${ projectFour.featured_projects[3].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectFour.featured_projects[3].img_url }" class="site-images lazy" alt="${projectFour.featured_projects[3].project_alt }." title="${ projectFour.featured_projects[3].project_alt }" tabindex="0" /></a>   
 
     `).appendTo('.show-featured');
 });
@@ -177,6 +177,60 @@ $(document).ready(function() {
 	
 });
 
+
+
+//css tricks lazyload
+document.addEventListener("DOMContentLoaded", function() {
+    var lazyloadImages;    
+  
+    if ("IntersectionObserver" in window) {
+      lazyloadImages = document.querySelectorAll(".lazy");
+      var imageObserver = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            var image = entry.target;
+            image.src = image.dataset.src;
+            image.classList.remove("lazy");
+            imageObserver.unobserve(image);
+          }
+        });
+      });
+  
+      lazyloadImages.forEach(function(image) {
+        imageObserver.observe(image);
+      });
+    } else {  
+      var lazyloadThrottleTimeout;
+      lazyloadImages = document.querySelectorAll(".lazy");
+      
+      function lazyload () {
+        if(lazyloadThrottleTimeout) {
+          clearTimeout(lazyloadThrottleTimeout);
+        }    
+  
+        lazyloadThrottleTimeout = setTimeout(function() {
+          var scrollTop = window.pageYOffset;
+          lazyloadImages.forEach(function(img) {
+              if(img.offsetTop < (window.innerHeight + scrollTop)) {
+                img.src = img.dataset.src;
+                img.classList.remove('lazy');
+              }
+          });
+          if(lazyloadImages.length == 0) { 
+            document.removeEventListener("scroll", lazyload);
+            window.removeEventListener("resize", lazyload);
+            window.removeEventListener("orientationChange", lazyload);
+          }
+        }, 20);
+      }
+  
+      document.addEventListener("scroll", lazyload);
+      window.addEventListener("resize", lazyload);
+      window.addEventListener("orientationChange", lazyload);
+    }
+  })
+  
+  
 
 // Open Small Browser window
 function openWindow(url, width, height) {

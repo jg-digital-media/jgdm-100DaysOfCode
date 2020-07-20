@@ -16,6 +16,29 @@
 
 ### Day 27
 
+### LazyLoad 
+
+```javascript
+
+// John Sexton Codepen
+[].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+	img.setAttribute('src', img.getAttribute('data-src'));
+	img.onload = function() {
+		img.removeAttribute('data-src');
+	};
+});
+```
+
+```javascript
+
+//verlok
+var lazyLazy = new LazyLoad({
+  elements_selector: ".horizContainer",
+  callback_enter: initOneLazyLoad,
+  unobserve_entered: true // Stop observing .horizContainer(s) after they entered
+});
+```
+
 
 
 ### Day 25

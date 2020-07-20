@@ -1,14 +1,20 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 27 of 100. **Last Update:** 17 July 2020
+## **Status:** Day 28 of 100. **Last Update:** 20 July 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R5D28: Monday 20 July 2020
+
++ **Notes**
+  +  Need more research in lazyloading but made progress elsewhere including my usual weekly update to my photography page, working on @autocleanse website and others. Busy one today!  :-)
+
++ **Technologies used** - HTML5, CSS, PHP, Laravel, JavaScript
 
 
-### R5D27: Fridday 17 July 2020
+### R5D27: Friday 17 July 2020
 
 + **Notes**
   +  Working on various webpages today.  LazyLoading was the biggest challenge as I know I've implemented this in the past but it's not taking effect now.  Looking forward to getting through that challenge.

@@ -8,16 +8,12 @@
 <body>
 
     
-    <!-- MASTER TEMPLATE
-    <img src="{{asset('clearLogo.png')}}" alt="Image" />
-    <img src="clearLogo.png" alt="Image" />
-    -->
+    <!-- MASTER TEMPLATE-->
 
     <!-- Unique content goes here! -->
     @yield('content') 
 
-    @include('footer')
-    
+    @include('footer')    
     
     <script src="{{asset('js/jquery.js')}}"></script>
     <script src="{{asset('js/app.js')}}"></script>

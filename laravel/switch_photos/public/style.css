@@ -3,12 +3,25 @@
   padding: 0;
   margin: 0; }
 
+.main .category-content .category-photos {
+  padding: 10px;
+  background-origin: border-box;
+  background-attachment: revert;
+  background-position: top;
+  background-repeat-x: repeat;
+  background-size: cover;
+  width: 90%;
+  display: grid;
+  display: block;
+  margin: 0 auto; }
+
 /*Header*/
 .header {
   display: grid;
   grid-template-columns: minmax(10%, 20%) 700px 1fr;
   border-bottom: black 3px solid;
   background: lightblue;
+  background: url("../public/img/top_banner.png");
   /*border: solid black 1px;*/
   text-align: center;
   padding: 10px; }
@@ -110,6 +123,8 @@ body {
     grid-template-rows: 100px 1fr; }
     .main .category-content p {
       color: black; }
+    .main .category-content .category-photos {
+      background: url("../public/img/main_bg.jpg"); }
 
 /*home route partial*/
 .category-photos img {

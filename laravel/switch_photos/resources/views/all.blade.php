@@ -4,11 +4,11 @@
     $title = "All Images | Switch Photo Library";
 
     $meta_title = $title;
-    $meta_description = "desc goes here";
+    $meta_description = "A complete list of the library of images can be found on this page.";
     $meta_keywords = "photography, website, pets, animals and nature, buildings, people, others";
     $meta_img = "img/photolib_preview.png";
 
-    $page_url = "";
+    $page_url = "https://projects.jonniegrieve.co.uk/switch_photos/all";
     $page_font = "https://fonts.googleapis.com/css?family=Merriweather|Odibee+Sans|Quicksand&display=swap";
 
 

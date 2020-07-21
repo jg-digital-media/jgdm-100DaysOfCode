@@ -24,7 +24,7 @@
     <meta name="twitter:title" content="<?php echo $meta_title;?>">
     <meta name="twitter:description" content="<?php echo $meta_description; ?>">
     <meta name="twitter:image" content="<?php echo $meta_img; ?>">
-    <meta name="twitter:card" content="jonnie_grieve_photography">
+    <meta name="twitter:card" content="nintendo_switch_photo_library">
 
     <!-- Canonical link -->
     <link rel="canonical" href="<?php echo $page_url;  ?>">

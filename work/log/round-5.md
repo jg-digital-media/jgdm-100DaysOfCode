@@ -9,7 +9,7 @@ ___
 ### R5D29: Tuesday 21 July 2020
 
 + **Notes**
-  +  
+  +  lazy loading
 
 + **Technologies used** - HTML5, CSS, PHP, Laravel, JavaScript
 

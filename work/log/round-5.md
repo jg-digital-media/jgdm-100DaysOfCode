@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 28 of 100. **Last Update:** 20 July 2020
+## **Status:** Day 29 of 100. **Last Update:** 21 July 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R5D29: Tuesday 21 July 2020
+
++ **Notes**
+  +  
+
++ **Technologies used** - HTML5, CSS, PHP, Laravel, JavaScript
 
 ### R5D28: Monday 20 July 2020
 
@@ -12,7 +19,6 @@ ___
   +  Need more research in lazyloading but made progress elsewhere including my usual weekly update to my photography page, working on @autocleanse website and others. Busy one today!  :-)
 
 + **Technologies used** - HTML5, CSS, PHP, Laravel, JavaScript
-
 
 ### R5D27: Friday 17 July 2020
 

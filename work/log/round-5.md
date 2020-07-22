@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 29 of 100. **Last Update:** 21 July 2020
+## **Status:** Day 30 of 100. **Last Update:** 22 July 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R5D30: Wednesday 22 July 2020
+
++ **Notes**
+  +  Final update to my Photography website (in its current form)  https://photography.jonniegrieve.co.uk
+
++ **Technologies used** - HTML5, CSS, PHP, Laravel, JavaScript
 
 ### R5D29: Tuesday 21 July 2020
 

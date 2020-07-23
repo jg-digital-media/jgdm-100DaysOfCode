@@ -90,6 +90,8 @@
             padding-top: 30px;
             //border: solid red 1px;
 
+            @extend %nav-bg;
+
             @media(max-width: $sm) {
                 text-align: center;
             }

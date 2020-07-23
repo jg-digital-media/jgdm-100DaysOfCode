@@ -3,6 +3,8 @@
 .main {
 
     .sub-content {
+
+        padding: 20px;
         
         h2 {
             @extend %headings;

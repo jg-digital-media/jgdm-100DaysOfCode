@@ -26,33 +26,34 @@
 
         <form action="" method="post" class="" id="">
 
-            <label for="name">Name: </label>
+            <label class="form_label" for="name">Name: </label>
             <input type="" id="name" />
 
             <p>
-            <label for="comments">Comments/Requests: </label> 
+            <label class="form_label" for="comments">Comments/Requests: </label> 
             <textarea id="comments" rows="" columns=""> 
             
             </textarea>
 
             <p>        
-            <label for="privacy">Privacy Check: </label>
+            <label class="form_label" for="privacy">Privacy Check: </label>
             <input type="checkbox" id="privacy" />
 
             <p>
-            <input type="submit" value="Button" />
+            <label class="form_label" for="btn">Privacy Check: </label>
+            <input type="submit" id="btn" value="Button" />
 
         </form>
 
-        <p>Find out more</p>
+        <!--<p>Find out more</p> -->
 
     </article>
 
-    <aside class="select-category">
+    <aside class="sub-content">
 
         <h2>A subtitle</h2>
 
-        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis reiciendis quo id similique eum necessitatibus</div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis reiciendis quo id similique eum necessitatibus</p>
 
     </aside>
 

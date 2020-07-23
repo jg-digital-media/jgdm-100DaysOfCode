@@ -10,6 +10,10 @@
     display: grid;
     display: block;
     margin: 0 auto;
+    width: 90%;
+    /* height: auto; */
+    /* height: 300px; */
+    min-height: 400px;
 }
 
 
@@ -21,8 +25,36 @@
 
 }
 
-%content-panels {
+%main-content-panels {
 
+    padding: 20px;
+    background: lightgreen;
     border: 0;
 
+}
+
+%aside-content-panels {
+    border: 0;
+    background: lightgray;
+    padding: 20px;
+}
+
+//Nav BG
+
+%nav-bg {
+    
+    /*padding-top: 15px; */
+    padding: 1px;
+    height: 33px;
+    background: #f6ff64;
+    border-radius: 9px;
+    width: 45%;
+    /* width: 100%; */
+    /* text-align: right; */
+    text-align: center;
+    position: relative;
+    /* right: 20px; */
+    top: 10px;
+    vertical-align: top;
+    display: inline-block;
 }

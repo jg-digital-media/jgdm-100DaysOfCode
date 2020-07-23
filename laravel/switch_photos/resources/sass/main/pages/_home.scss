@@ -1,76 +1,84 @@
 /*home route partial*/
-.category-photos {
 
-    img {
-        display: none;       
-    
-        &.zelda_botw,
-        &.zelda_linksawakening,
-        &.fifa_twenty,
-        &.mario_odyssey,
-        &.animal_crossing,
-        &.super_mario_maker,
-        &.donkey_kong_tropic,
-        &.mario_bros,
-        &.mario_bros_two,
-        &.mario_bros_three,
-        &.mario_bros_four,
-        &.mario_world,
-        &.mario_duluxe,
-        &.zelda_past,
-        &.mega_man_two,
-        &.world_war_two,
-        &.rac_rally_champ,
-        &.fifa_eighteen,
-        &.asterix_game,
-        &.mario_kart_duluxe,
-        &.sonic_mania,
-        &.football_manager,
-        &.tetris {
-            display: inline-block;
-            display: none;
-            width: 300px;
-            padding: 0 20px;
+.main {
+
+    .category-photos {
+
+                  
+        background: url("../public/img/main_bg.jpg");
+        @extend %main_bg_props;
+
+        img {
+            display: none;       
+        
+            &.zelda_botw,
+            &.zelda_linksawakening,
+            &.fifa_twenty,
+            &.mario_odyssey,
+            &.animal_crossing,
+            &.super_mario_maker,
+            &.donkey_kong_tropic,
+            &.mario_bros,
+            &.mario_bros_two,
+            &.mario_bros_three,
+            &.mario_bros_four,
+            &.mario_world,
+            &.mario_duluxe,
+            &.zelda_past,
+            &.mega_man_two,
+            &.world_war_two,
+            &.rac_rally_champ,
+            &.fifa_eighteen,
+            &.asterix_game,
+            &.mario_kart_duluxe,
+            &.sonic_mania,
+            &.football_manager,
+            &.tetris {
+                display: inline-block;
+                display: none;
+                width: 300px;
+                padding: 0 20px;
+            }
+        
+        } 
+
+        .category-heading {
+
+            h2 {
+                @extend %headings;
+            }
         }
-    
-    } 
 
-    .category-heading {
+    }
+
+    .select-category {
 
         h2 {
             @extend %headings;
         }
-    }
 
-}
+        article {
 
-.select-category {
-
-    h2 {
-        @extend %headings;
-    }
-
-    article {
-
-        label {
-            display: block;
-            /*vertical-align: top;*/
-
-            input[type="checkbox"] {
+            label {
                 display: block;
-            }
-    
-            input[type="checkbox"] + p {
-                display: inline-block;
-                color: red;
-                vertical-align: middle;
-                margin-left: 15px;
-                font-size: larger;
-                margin: 3px 10px;
+                /*vertical-align: top;*/
+
+                input[type="checkbox"] {
+                    display: block;
+                }
+        
+                input[type="checkbox"] + p {
+                    display: inline-block;
+                    color: red;
+                    vertical-align: middle;
+                    margin-left: 15px;
+                    font-size: larger;
+                    margin: 3px 10px;
+                }
             }
         }
+
     }
 
+
 }
-
-

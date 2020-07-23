@@ -39,6 +39,14 @@ body {
 
     }
 
+    .select-category {
+        padding: 20px;
+
+        p {
+            line-height: 2;
+        }
+    }
+
     .main-content {
 
         p {
@@ -47,6 +55,8 @@ body {
             line-height: 2.4;
         }
 
+        @extend %main-content-panels;
+
     }
 
     .category-content {
@@ -54,19 +64,21 @@ body {
         display: grid;
         grid-template-rows: 100px 1fr;
 
-        h2 {
-            @extend %headings;
-        }
+       /*  h2 {
+            //@extend %headings;
+        } */
 
         p {
             color: black;
         }
 
-        .category-photos {            
+        /* .category-photos {            
             background: url("../public/img/main_bg.jpg");
-            
+                        
             @extend %main_bg_props;
-        }
+
+            @extend %main-content-panels;
+        } */
 
 
     }

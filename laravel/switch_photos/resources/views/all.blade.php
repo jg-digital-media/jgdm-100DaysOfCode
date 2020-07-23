@@ -32,11 +32,11 @@
 
         </article>
 
-        <aside class="select-category">
+        <aside class="sub-content">
 
                 <h2>A subtitle</h2>
 
-                <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis reiciendis quo id similique eum necessitatibus</div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis reiciendis quo id similique eum necessitatibus</p>
 
                 <p> Find Out more! </p>
                 

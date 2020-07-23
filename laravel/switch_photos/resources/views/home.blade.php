@@ -19,9 +19,9 @@
 
     <section class="main">
 
-        <article class = "category-content">
+        <article class = "category-heading">
 
-            <h2 class = "category-heading">Content: Home</h2>
+            <h2>Content: Home</h2>
 
             <article class = "category-photos">
 

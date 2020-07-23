@@ -21,23 +21,34 @@
 
         <article class = "category-heading">
 
-            <h2>Content: About</h2>      
+            <h2>About this website</h2>      
             
             <article class = "main-content">
 
-                <h2>Lorem</h2>
+                <p>Switch Photo Library</p>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quia, maiores velit blanditiis ipsam cupiditate adipisci aliquid veritatis iusto incidunt tenetur nisi in quaerat deleniti ea, iste distinctio saepe repudiandae?</p>
+                <p>I created this project using the PHP Framework, Laravel</p>
+
+                <p>A number of technologies are used to drive this website including SQL for dynamic content, PHP to dirve the routing ansd navigation and JavaScript for the core functionalioty of the app.</p>
 
             </article>
 
         </article>
 
-        <aside class="select-category">
+        <aside class="sub-content">
 
-                <h2>A subtitle</h2>
+                <h2>Images</h2>
 
-                <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis reiciendis quo id similique eum necessitatibus</div>
+                <!-- Static images -->
+                <div>
+                
+                    <img src="" width= "200" height="150" alt="image" title="image" />
+
+                    <img src="" width= "200" height="150" alt="image" title="image" />
+
+                    <img src="" width= "200" height="150" alt="image" title="image" />                
+                
+                </div>
                 
         </aside>
         

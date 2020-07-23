@@ -1,0 +1,12 @@
+/*about.scss*/
+
+.main {
+
+    .sub-content {
+        
+        h2 {
+            @extend %headings;
+        }
+    }
+
+}

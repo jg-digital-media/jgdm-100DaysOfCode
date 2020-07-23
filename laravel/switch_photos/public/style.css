@@ -1,187 +1,23 @@
-/*Sass - 30/06/2020  sass --watch resources/sass/app.scss:public/style.css*/
-* {
-  padding: 0;
-  margin: 0; }
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - sass/app.scss
 
-.main .category-content .category-photos {
-  padding: 10px;
-  background-origin: border-box;
-  background-attachment: revert;
-  background-position: top;
-  background-repeat-x: repeat;
-  background-size: cover;
-  width: 90%;
-  display: grid;
-  display: block;
-  margin: 0 auto; }
-
-.main .category-heading h2, .main .category-content h2, .category-photos .category-heading h2, .select-category h2 {
-  font-size: 16pt;
-  padding: 20px;
-  background: lightgreen;
-  color: white; }
-
-/*Header*/
-.header {
-  display: grid;
-  grid-template-columns: minmax(10%, 20%) 700px 1fr;
-  border-bottom: black 3px solid;
-  background: lightblue;
-  background: url("../public/img/top_banner.png");
-  /*border: solid black 1px;*/
-  text-align: center;
-  padding: 10px; }
-  @media (min-width: 1290px) {
-    .header {
-      grid-template-columns: minmax(10%, 20%) 260px 1fr; } }
-  @media (max-width: 1289px) {
-    .header {
-      grid-template-columns: minmax(10%, 28%) 260px 1fr;
-      vertical-align: top;
-      padding: 10px; } }
-  @media (max-width: 872px) {
-    .header {
-      display: block;
-      /*grid-template-columns: minmax(10%, 14%) 40% 1fr;*/ } }
-  .header div {
-    /*border: black 1px solid;*/
-    display: inline-block; }
-  @media (max-width: 872px) {
-    .header .logo-container {
-      text-align: center; } }
-  .header .logo-container img {
-    width: 200px;
-    width: 100px; }
-    @media (max-width: 872px) {
-      .header .logo-container img {
-        display: block;
-        margin: 0 auto; } }
-  .header .website-title {
-    vertical-align: top;
-    text-align: center; }
-    .header .website-title h1 {
-      /*Font-size: 4vw*/
-      font-size: 30pt;
-      font-weight: bold;
-      /*padding-top: 30px;*/ }
-      @media (max-width: 1048px) {
-        .header .website-title h1 {
-          padding-top: 10px; } }
-  .header .main-nav {
-    text-align: right; }
-    @media (max-width: 1290px) {
-      .header .main-nav {
-        /*text-align: right;*/ } }
-    @media (max-width: 1048px) {
-      .header .main-nav {
-        padding-top: 10px; } }
-    .header .main-nav ul {
-      padding-top: 30px; }
-      @media (max-width: 872px) {
-        .header .main-nav ul {
-          text-align: center; } }
-      .header .main-nav ul li {
-        display: inline-block;
-        list-style: none;
-        margin-right: 10px;
-        font-size: 14pt; }
-      .header .main-nav ul a {
-        display: inline-block;
-        color: blue;
-        font-weight: bold; }
-        .header .main-nav ul a:hover {
-          text-decoration: none;
-          color: black; }
-        .header .main-nav ul a img {
-          width: 20px; }
-      .header .main-nav ul a.selected {
-        font-weight: bold;
-        color: black; }
-      .header .main-nav ul a.nav-item {
-        display: list-item; }
-
-/*main*/
-body {
-  background: lightgreen;
-  font-family: "arial";
-  font-size: 10px; }
-
-* {
-  padding: 0;
-  margin: 0; }
-
-.main {
-  /*border: solid black 1px;*/
-  display: grid;
-  /*width: 60%;*/
-  width: 100%;
-  background: lightblue;
-  grid-template-columns: 1fr 1fr;
-  grid-template-columns: 2fr 260px;
-  min-height: 300px; }
-  .main .category-heading {
-    /* border: solid black 1px; */
-    padding: 20px;
-    /* margin-bottom: 10px; */
-    height: 100px;
-    /* display: block; */
-    /* position: relative; */ }
-    .main .category-heading h2 {
-      font-size: 16pt;
-      margin-bottom: 10px; }
-  .main .main-content p {
-    color: black;
-    font-size: 15pt;
-    line-height: 2.4; }
-  .main .category-content {
-    /* border: solid black 1px; */
-    display: grid;
-    grid-template-rows: 100px 1fr; }
-    .main .category-content p {
-      color: black; }
-    .main .category-content .category-photos {
-      background: url("../public/img/main_bg.jpg"); }
-
-/*home route partial*/
-.category-photos img {
-  display: none; }
-  .category-photos img.zelda_botw, .category-photos img.zelda_linksawakening, .category-photos img.fifa_twenty, .category-photos img.mario_odyssey, .category-photos img.animal_crossing, .category-photos img.super_mario_maker, .category-photos img.donkey_kong_tropic, .category-photos img.mario_bros, .category-photos img.mario_bros_two, .category-photos img.mario_bros_three, .category-photos img.mario_bros_four, .category-photos img.mario_world, .category-photos img.mario_duluxe, .category-photos img.zelda_past, .category-photos img.mega_man_two, .category-photos img.world_war_two, .category-photos img.rac_rally_champ, .category-photos img.fifa_eighteen, .category-photos img.asterix_game, .category-photos img.mario_kart_duluxe, .category-photos img.sonic_mania, .category-photos img.football_manager, .category-photos img.tetris {
-    display: inline-block;
-    display: none;
-    width: 300px;
-    padding: 0 20px; }
-
-.select-category article label {
-  display: block;
-  /*vertical-align: top;*/ }
-  .select-category article label input[type="checkbox"] {
-    display: block; }
-  .select-category article label input[type="checkbox"] + p {
-    display: inline-block;
-    color: red;
-    vertical-align: middle;
-    margin-left: 15px;
-    font-size: larger;
-    margin: 3px 10px; }
-
-/*all photos*/
-.all-photos img {
-  display: inline-block; }
-  .all-photos img.zelda_botw, .all-photos img.zelda_linkswakening, .all-photos img.fifa_twenty, .all-photos img.mario_odyssey, .all-photos img.animal_crossing, .all-photos img.super_mario_maker, .all-photos img.donkey_kong_tropic, .all-photos img.mario_bros, .all-photos img.mario_bros_two, .all-photos img.mario_bros_three, .all-photos img.mario_bros_four, .all-photos img.mario_world, .all-photos img.mario_duluxe, .all-photos img.zelda_past, .all-photos img.mega_man_two, .all-photos img.world_war_two, .all-photos img.rac_rally_champ, .all-photos img.fifa_eighteen, .all-photos img.asterix_game, .all-photos img.mario_kart_duluxe, .all-photos img.sonic_mania, .all-photos img.football_manager, .all-photos img.tetris {
-    display: inline-block;
-    width: 300px; }
-
-.footer {
-  background: lightblue;
-  background: lightgreen;
-  background: purple;
-  height: 100px;
-  margin-top: 20px; }
-  .footer p {
-    text-align: center;
-    color: white;
-    font-size: 10pt;
-    margin-top: 5px;
-    padding-top: 10px; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:482:in `read'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:482:in `update_stylesheet'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:293:in `watch'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/plugin.rb:108:in `method_missing'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:381:in `watch_or_update'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:51:in `process_result'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.20/bin/sass:13:in `<top (required)>'
+C:/Ruby22-x64/bin/sass:23:in `load'
+C:/Ruby22-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - sass/app.scss"; }

@@ -15,6 +15,12 @@
   display: block;
   margin: 0 auto; }
 
+.main .category-heading h2, .main .category-content h2, .category-photos .category-heading h2, .select-category h2 {
+  font-size: 16pt;
+  padding: 20px;
+  background: lightgreen;
+  color: white; }
+
 /*Header*/
 .header {
   display: grid;
@@ -114,9 +120,19 @@ body {
   grid-template-columns: 2fr 260px;
   min-height: 300px; }
   .main .category-heading {
-    /* border: solid black 1px; */ }
+    /* border: solid black 1px; */
+    padding: 20px;
+    /* margin-bottom: 10px; */
+    height: 100px;
+    /* display: block; */
+    /* position: relative; */ }
     .main .category-heading h2 {
-      font-size: 16pt; }
+      font-size: 16pt;
+      margin-bottom: 10px; }
+  .main .main-content p {
+    color: black;
+    font-size: 15pt;
+    line-height: 2.4; }
   .main .category-content {
     /* border: solid black 1px; */
     display: grid;
@@ -135,12 +151,10 @@ body {
     width: 300px;
     padding: 0 20px; }
 
-.select-category h2 {
-  font-size: 16pt; }
 .select-category article label {
   display: block;
   /*vertical-align: top;*/ }
-  .select-category article label input[type="chexkbox"] {
+  .select-category article label input[type="checkbox"] {
     display: block; }
   .select-category article label input[type="checkbox"] + p {
     display: inline-block;
@@ -160,12 +174,14 @@ body {
 .footer {
   background: lightblue;
   background: lightgreen;
+  background: purple;
   height: 100px;
   margin-top: 20px; }
   .footer p {
     text-align: center;
-    color: black;
+    color: white;
     font-size: 10pt;
-    margin-top: 5px; }
+    margin-top: 5px;
+    padding-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -24,9 +24,27 @@ body {
 
     .category-heading {
         /* border: solid black 1px; */
+        padding: 20px;
+        /* margin-bottom: 10px; */
+        height: 100px;
+        /* display: block; */
+        /* position: relative; */
 
         h2 {
             font-size: 16pt;
+            margin-bottom: 10px;
+            
+            @extend %headings;
+        }
+
+    }
+
+    .main-content {
+
+        p {
+            color: black;
+            font-size: 15pt;
+            line-height: 2.4;
         }
 
     }
@@ -35,6 +53,10 @@ body {
         /* border: solid black 1px; */
         display: grid;
         grid-template-rows: 100px 1fr;
+
+        h2 {
+            @extend %headings;
+        }
 
         p {
             color: black;

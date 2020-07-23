@@ -35,12 +35,19 @@
     
     } 
 
+    .category-heading {
+
+        h2 {
+            @extend %headings;
+        }
+    }
+
 }
 
 .select-category {
 
     h2 {
-        font-size: 16pt;
+        @extend %headings;
     }
 
     article {
@@ -49,7 +56,7 @@
             display: block;
             /*vertical-align: top;*/
 
-            input[type="chexkbox"] {
+            input[type="checkbox"] {
                 display: block;
             }
     

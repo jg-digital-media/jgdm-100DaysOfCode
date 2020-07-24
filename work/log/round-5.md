@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 31 of 100. **Last Update:** 23 July 2020
+## **Status:** Day 32 of 100. **Last Update:** 24 July 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-### R5D30: Wednesday 22 July 2020
+### R5D32: Friday 24 July 2020
+
++ **Notes**
+  +  Fixed some bugs in my Photography website, more bandwidth enhancements still to be done. And progressed with my Laravel project.
+
++ **Technologies used** - HTML5, CSS, PHP, Laravel, JavaScript
+
+### R5D31: Thursday 23 July 2020
 
 + **Notes**
   +  Got my new digital camera, started the process of developing my new photography website locally and continued working on my Laravel Project which meant fixing artisan on my laptop. Busy one. :) 

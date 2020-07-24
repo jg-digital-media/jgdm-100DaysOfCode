@@ -5,7 +5,9 @@
     .category-photos {
 
                   
-        background: url("../public/img/main_bg.jpg");
+        background: url("img/main_bg.jpg");
+        background: url("public/img/main_bg.jpg");        
+        background: url("../img/main_bg.jpg");
         @extend %main_bg_props;
 
         img {

@@ -205,6 +205,12 @@ body {
 /*about.scss*/
 .main .sub-content {
   padding: 20px; }
+  .main .sub-content p {
+    font-size: 12px;
+    line-height: 1.6;
+    margin: 15px 0; }
+  .main .sub-content div img {
+    margin-top: 10px; }
 
 /*all photos*/
 .all-photos img {

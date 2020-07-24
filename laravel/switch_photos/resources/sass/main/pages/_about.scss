@@ -5,9 +5,21 @@
     .sub-content {
 
         padding: 20px;
+
+        p {
+            font-size: 12px;
+            line-height: 1.6;
+            margin: 15px 0;
+        }
         
         h2 {
             @extend %headings;
+        }
+
+        div {
+            img {
+                margin-top: 10px;
+            }
         }
     }
 

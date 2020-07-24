@@ -51,10 +51,17 @@
 
     <aside class="sub-content">
 
-        <h2>A subtitle</h2>
+        <h2>Featured Images</h2>
+        
+        <div>
 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis reiciendis quo id similique eum necessitatibus</p>
+            <img src="img/zelda_botw/zelda_one.jpg" width= "200" height="150" alt="image" title="image" />
 
+            <img src="img/zelda_botw/zelda_one.jpg" width= "200" height="150" alt="image" title="image" />
+
+            <img src="img/zelda_botw/zelda_one.jpg" width= "200" height="150" alt="image" title="image" />
+
+        </div>
     </aside>
 
 </section>

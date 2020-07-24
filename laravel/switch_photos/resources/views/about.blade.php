@@ -37,16 +37,16 @@
 
         <aside class="sub-content">
 
-                <h2>Images</h2>
+                <h2>Featured Images</h2>
 
                 <!-- Static images -->
                 <div>
                 
-                    <img src="" width= "200" height="150" alt="image" title="image" />
+                    <img src="img/zelda_botw/zelda_one.jpg" width= "200" height="150" alt="image" title="image" />
 
-                    <img src="" width= "200" height="150" alt="image" title="image" />
+                    <img src="img/zelda_botw/zelda_one.jpg" width= "200" height="150" alt="image" title="image" />
 
-                    <img src="" width= "200" height="150" alt="image" title="image" />                
+                    <img src="img/zelda_botw/zelda_one.jpg" width= "200" height="150" alt="image" title="image" />                
                 
                 </div>
                 

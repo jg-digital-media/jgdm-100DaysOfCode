@@ -1,0 +1,155 @@
+[ 
+    {
+        "img_class": "slide",
+        "img_src": "images/android.png", 
+        "img_alt":"A Code showcase and repository for Android Projects I've created."
+    }, {
+        "img_class": "slide",
+        "img_src": "images/apr-training.png",
+        "img_alt":"APR Training and Consulting providing expert autism consultancy services to a wide variety of national organisations."
+    }, {
+        "img_class": "slide",
+        "img_src": "images/autism.png",
+        "img_alt":"Ann Memmott - Church Access Consultant for Autism"
+    }, {
+        "img_class": "slide",
+        "img_src": "images/autoc.png",
+        "img_alt":"Auto Cleanse North East"
+    }, {
+        "img_class": "slide",
+        "img_src": "images/balloon_flight.png",
+        "img_alt":"Example website using the Modernizr extension"
+    }, {
+        "img_class": "slide",
+        "img_src": "images/cs_world.png",
+        "img_alt":"Castle Eden World Example site built in pure CSS"
+    }, {
+        "img_class": "slide",
+        "img_src": "images/dyspraxia.png",
+        "img_alt":"A dedicated website to raise awareness of the lesser known learning Disability, Dyspraxia. "},
+    {
+        "img_class": "slide",
+        "img_src": "images/esp.png",
+        "img_alt":"Legacy website for the fictional Endangered Species Project"},
+    {
+    "img_class": "slide",
+    "img_src": "images/fcc_portfolio.png",
+    "img_alt":"FreeCodeCamp: Portfolio Project. An example project created for the freeCodeCamp certification. "},
+    {
+    "img_class": "slide",
+    "img_src": "images/fcc_product.png",
+    "img_alt":"An example product landing page created for the freeCodeCamp certification"},
+    {
+    "img_class": "slide",
+    "img_src": "images/fcc_survey.png",
+    "img_alt":"Example survey form created for the freeCodeCamp certification."},
+    {
+    "img_class": "slide",
+    "img_src": "images/fcc_tribute.png",
+    "img_alt":"Example Tribute Page  created for the freeCodeCamp certification"},
+    {
+    "img_class": "slide",
+    "img_src": "images/fcc_techdoc.png",
+    "img_alt":"FreeCodeCamp Technical Documentation Page created for the freeCodeCamp certification."},
+    {
+    "img_class": "slide",
+    "img_src": "images/elim.png",
+    "img_alt":"WordPress website we made for the Elim Church in Bishop Auckland, County Durham using the Genesis theme."},
+    {
+    "img_class": "slide",
+    "img_src": "images/four_in_a_row.png",
+    "img_alt":"Four in a Row interactive game using Object Oriented JavaScript programming"},
+    {
+    "img_class": "slide",
+    "img_src": "images/fyp_running.png",
+    "img_alt":"An Awful Lot of Running - Fan website and music video animation for my final year project. "},
+    {
+    "img_class": "slide",
+    "img_src": "images/howto_website.png",
+    "img_alt":"Created with the How to make a website course on Treehouse"},
+    {
+    "img_class": "slide",
+    "img_src": "images/interactive_js.png",
+    "img_alt":"Interactive JS website  - A simple to do list application using DOM Scripting"},
+    {
+    "img_class": "slide",
+    "img_src": "images/jgdm_landing.png",
+    "img_alt":"The official landing page for Jonnie Grieve Digital Media"},
+    {
+    "img_class": "slide",
+    "img_src": "images/jgdm.png",
+    "img_alt":"The official website for Jonnie Grieve Digital Media"},
+    {
+    "img_class": "slide",
+    "img_src": "images/joining.png",
+    "img_alt":"Joining the Feast... towards a theology for autism"},
+    {
+    "img_class": "slide",
+    "img_src": "images/mangles.png",
+    "img_alt":"Kevin Mangles is your local Magician, Puppeteer and Entertainer."},
+    {
+    "img_class": "slide",
+    "img_src": "images/myportfolio.png",
+    "img_alt":"Purporting to be the  number 1 students reference guide to making a portfolio of work"},
+    {
+    "img_class": "slide",
+    "img_src": "images/php_basics.png",
+    "img_alt":"A website created in PHP"},
+    {
+    "img_class": "slide",
+    "img_src": "images/php_oop.png",
+    "img_alt":"A website showcasing Object Oriented PHP Techniques "},
+    {
+    "img_class": "slide",
+    "img_src": "images/portfolio-gallery.png",
+    "img_alt":"A structured set of gallery examples"},
+    {
+    "img_class": "slide",
+    "img_src": "images/practice_css_grid.png",
+    "img_alt":"CSS Grid Practice site for showcasing CSS Grid Techniques"},
+    {
+    "img_class": "slide",
+    "img_src": "images/project_status.png",
+    "img_alt":"Project Status page using Vue.js framework"},
+    {
+    "img_class": "slide",
+    "img_src": "images/psychic-reading-online.png",
+    "img_alt":"Psychic Reading Online. For entertainment purposes only not as a replacement for proper advice. Check it out"},
+    {
+    "img_class": "slide",
+    "img_src": "images/react_v2.png",
+    "img_alt":"Single Page interactive Scoreboard Application created in React.js"},
+    {
+    "img_class": "slide",
+    "img_src": "images/react.png",
+    "img_alt":"Single Page interactive Scoreboard Application created in React.js"},
+    {
+    "img_class": "slide",
+    "img_src": "images/regex.png",
+    "img_alt":"Examples of Regular Expressions, how they work and how to use them in a single web page"},
+    {
+    "img_class": "slide",
+    "img_src": "images/skills_page.png",
+    "img_alt":"See What I Can Do - Skills page. A Singe Page web application I made with jQuery for JavaScript"},
+    {
+    "img_class": "slide",
+    "img_src": "images/sub_projects.png",
+    "img_alt":" An extension to my own domain where projects are available to view at your leisure"},
+    {
+    "img_class": "slide",
+    "img_src": "images/time_tracker.png",
+    "img_alt":"Time Tracker Web App with PHP and SQL. sing Crud Operations"},
+    {
+    "img_class": "slide",
+    "img_src": "images/walks.png",
+    "img_alt":"Castle Eden Walks Example website - based on a design for a client project that sadly go ahead."},
+    {
+    "img_class": "slide",
+    "img_src": "images/webdesign_practice.png",
+    "img_alt":"A practice websitr showcasing various web design techniques"},
+    {
+    "img_class": "slide",
+    "img_src": "images/gamesyard.png",
+    "img_alt":"Games Yard  First created in 2004, this website was created to be an informational site for playing various popular games."},
+    {
+}]

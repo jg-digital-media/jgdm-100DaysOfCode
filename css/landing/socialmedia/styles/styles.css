@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: yellow;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.main-header {
+  background: #0b053f;
+  width: 100%; }
+  .main-header h1 {
+    font-size: 30pt;
+    color: white;
+    text-align: center;
+    padding-top: 10px; }
+  .main-header img#main_logo {
+    margin: 10px auto;
+    display: block; }
+
+#blurb {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border-bottom: solid black 18px;
+  width: 250px; }
+  #blurb h2 {
+    color: #8b8b6b;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 15pt; }
+
+#platforms {
+  text-align: center; }
+  #platforms img {
+    margin: 0 auto;
+    width: 70%;
+    width: 90px;
+    display: inline-block; }
+  #platforms img#on_facebook,
+  #platforms img#on_twitter,
+  #platforms img#on_instagram {
+    margin-left: 10px; }
+
+#selling_point {
+  width: 50%;
+  color: blue;
+  display: block;
+  margin: 0 auto; }
+  #selling_point p {
+    line-height: 2; }
+
+#price p {
+  text-align: center;
+  font-size: 200pt; }
+
+#goto_website {
+  width: 200px;
+  background: purple;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  padding: 5px 0;
+  text-align: center; }
+
+.footer {
+  width: 100%;
+  text-align: center; }
+  .footer a {
+    font-size: 12px;
+    color: purple; }
+    .footer a:hover {
+      text-decoration: none; }
+  .footer p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 10px;
+    color: purple; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -24,28 +24,36 @@
 
         <h2>Content: Contact</h2>
 
-        <form action="" method="post" class="" id="">
+        
+        <article class = "main-content all-photos">
 
-            <label class="form_label" for="name">Name: </label>
-            <input type="" id="name" />
+            <h2>Send your Feedback</h2>
 
-            <p>
-            <label class="form_label" for="comments">Comments/Requests: </label> 
-            <textarea id="comments" rows="" columns=""> 
-            
-            </textarea>
+            <form action="" method="post" class="" id="">
 
-            <p>        
-            <label class="form_label" for="privacy">Privacy Check: </label>
-            <input type="checkbox" id="privacy" />
+                <p></p>
+                <label class="form_label" for="name">Name: </label>
+                <input type="" id="name" />
 
-            <p>
-            <label class="form_label" for="btn">Privacy Check: </label>
-            <input type="submit" id="btn" value="Button" />
+                <p></p>
+                <label class="form_label" for="comments">Comments/Requests: </label> 
+                <textarea id="comments" rows="" columns=""> 
+                
+                </textarea>
 
-        </form>
+                <p></p>        
+                <label class="form_label" for="privacy">Privacy Check: </label>
+                <input type="checkbox" id="privacy" />
 
-        <!--<p>Find out more</p> -->
+                <p></p>
+                <label class="form_label" for="btn">Submit Feedback: </label>
+                <input type="submit" id="btn" value="Button" />
+
+            </form>
+
+            <!--<p>Find out more</p> -->
+
+        </article>
 
     </article>
 

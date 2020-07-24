@@ -24,9 +24,12 @@
 
             <h2>Content: All</h2>    
 
-            <article class = "main-content category-photos all-photos">
+            <article class = "main-content all-photos">
 
                <!-- gets dynamic list of photo data -->
+
+               <h2>Content Title</h2>
+               <p>Content paragraph</p>
 
             </article>
 

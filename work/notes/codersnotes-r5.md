@@ -14,6 +14,32 @@
 + Project Status - JSON (separate to Vue Project)
 
 
+### Day 33
+
+```html
+ <!-- photo set 1 -->
+            <article id="boo_category" class="category_boo">             
+
+                <a href="images/canon/boo/IMG_0023.jpg" data-lightbox="boo" data-title="title 1">
+
+                    <img id="image_poster" href="images/canon/boo/IMG_0023.jpg" alt="image poster" title="image poster" src="images/canon/boo/IMG_0023.jpg" class="open_modal" />
+
+                </a>              
+                
+                <a href="images/canon/boo/IMG_0024.jpg" class="image" title="" data-lightbox="boo" data-title="title 1"></a> <!-- <img src="images/canon/boo/IMG_0023.jpg" /></a> -->  
+
+                <a href="images/canon/boo/IMG_0025.jpg" class="image" title="" data-lightbox="boo" data-title="title 2"></a> <!-- <img src="images/canon/boo/IMG_0024.jpg" /></a> -->  
+
+                <a href="images/canon/boo/IMG_0026.jpg" class="image" title="" data-lightbox="boo" data-title="title 3"></a> <!-- <img src="images/canon/boo/IMG_0025.jpg" /></a> -->        
+
+            </article>
+            
+            <!-- photo set 1 button -->
+            <h2 id="pets" class="category-title">Boo</h2>
+
+```
+
+
 ### Day 29
 
 ### LazyLoad 

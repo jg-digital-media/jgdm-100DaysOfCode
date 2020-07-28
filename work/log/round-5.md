@@ -6,10 +6,10 @@ ___
 ___
 
 
-### R5D33: Mpnday 27 July 2020
+### R5D33: Monday 27 July 2020
 
 + **Notes**
-  +  Fixed some bugs in my Photography website, more bandwidth enhancements still to be done. And progressed with my Laravel project.
+  +  Took a white and lots of persistance but I made a stride in my rejig of my photography website. I have the Lightbox code working the way I wanted clicking one image to load the rest in lightbox form. Feeling Accomplished.
 
 + **Technologies used** - HTML5, CSS, PHP, Laravel, JavaScript
 

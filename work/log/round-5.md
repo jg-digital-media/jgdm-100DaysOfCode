@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 33 of 100. **Last Update:** 27 July 2020
+## **Status:** Day 34 of 100. **Last Update:** 28 July 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R5D34: Tuesday 28 July 2020
+
++ **Notes**
+  +  More work today on the photography website and the Laravel site I'm making.
+
++ **Technologies used** - HTML5, CSS, PHP, Laravel, JavaScript
 
 ### R5D33: Monday 27 July 2020
 

@@ -13,6 +13,37 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
+### Day 34
+
+```html
+
+<section class="category_panel">
+
+
+            <div class="photo_set">
+
+                <!-- photo set 1 -->
+                <article id="boo_category" class="category category_boo">             
+
+                    <a href="images/canon/boo/IMG_0023.jpg" data-lightbox="boo" data-title="title 1">
+
+                        <img id="image_poster" href="images/canon/boo/IMG_0023.jpg" alt="image poster" title="image poster" src="images/canon/boo/IMG_0023.jpg" class="open_modal" />
+
+                    </a>              
+                    
+                    <a href="images/canon/boo/IMG_0024.jpg" class="image" title="" data-lightbox="boo" data-title="title 1"></a> <!-- <img src="images/canon/boo/IMG_0023.jpg" /></a> -->  
+
+                    <a href="images/canon/boo/IMG_0025.jpg" class="image" title="" data-lightbox="boo" data-title="title 2"></a> <!-- <img src="images/canon/boo/IMG_0024.jpg" /></a> -->  
+
+                    <a href="images/canon/boo/IMG_0026.jpg" class="image" title="" data-lightbox="boo" data-title="title 3"></a> <!-- <img src="images/canon/boo/IMG_0025.jpg" /></a> -->        
+
+                </article>
+            
+                <!-- photo set 1 button -->
+                <h2 id="pets" class="category-title">Boo</h2>
+                
+            </div>
+```
 
 ### Day 33
 

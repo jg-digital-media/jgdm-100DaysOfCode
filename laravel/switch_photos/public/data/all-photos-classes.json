@@ -181,71 +181,100 @@
     ],
 
 
-    "super_mario_maker":[ 
+    "super_mario_maker": [ 
         {
             "img_title":"Super Mario Maker 2",
-            "img_url":"img/game-screenshot-placeholder.png",
+            "img_url":"http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mario_maker_two/2019062914534200-BF19FBEA37724338D87F26F17A3B97B2.jpg",
             "img_alt":"Super Mario Maker 2",
             "img_class":"super_mario_maker"
         
         }, {
-            "img_title":"",
-            "img_url":"",
+            "img_title":"Super Mario Maker 2",
+            "img_url":"http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mario_maker_two/2019062915593400-BF19FBEA37724338D87F26F17A3B97B2.jpg",
             "img_alt":"",
             "img_class":"super_mario_maker"
         
-        } 
+        }, {
+            "img_title": "Super Mario Maker 2",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mario_maker_two/2019062916021600-BF19FBEA37724338D87F26F17A3B97B2.jpg",
+            "img_alt": "",
+            "img_class": "super_mario_maker"
+
+        }, {
+            "img_title": "Super Mario Maker 2",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mario_maker_two/2019070323274500-BF19FBEA37724338D87F26F17A3B97B2.jpg",
+            "img_alt": "",
+            "img_class": "super_mario_maker"
+
+        }, {
+            "img_title": "Super Mario Maker 2",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mario_maker_two/2019071022083500-BF19FBEA37724338D87F26F17A3B97B2.jpg",
+            "img_alt": "",
+            "img_class": "super_mario_maker"
+
+        }
     ],
 
 
     "donkey_kong_tropic": [
         {
             "img_title":"Donkey Kong: Tropical Freeze",
-            "img_url":"img/game-screenshot-placeholder.png",
+            "img_url":"http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/donkey_kong_country/2019020822322000-BD0EB87287646F662EB9875856FE05AB.jpg",
             "img_alt":"Donkey Kong: Tropical Freeze",
             "img_class":"donkey_kong_tropic"
         
         }, {
             "img_title":"",
-            "img_url":"",
+            "img_url":"http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/donkey_kong_country/2019020822363500-BD0EB87287646F662EB9875856FE05AB.jpg",
             "img_alt":"",
             "img_class":"donkey_kong_tropic"
         
-        } 
+        }, {
+            "img_title": "",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/donkey_kong_country/2019020822364200-BD0EB87287646F662EB9875856FE05AB.jpg",
+            "img_alt": "",
+            "img_class": ""
+
+        }, {
+            "img_title": "",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/donkey_kong_country/2019020822365700-BD0EB87287646F662EB9875856FE05AB.jpg",
+            "img_alt": "",
+            "img_class": ""
+
+        }
+
     ],
 
 
     "mario_bros": [ 
         {
             "img_title":"Super Mario Bros",
-            "img_url":"img/game-screenshot-placeholder.png",
+            "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2017102921123400-8AEDFF741E2D23FBED39474178692DAF.jpg",
             "img_alt":"Super Mario Bros",
             "img_class":"mario_bros"
         
         }, {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
-            "img_class":"mario_bros"
-        
-        } 
+            "img_title": "Super Mario Bros", 
+            "img_url": "https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2017103122310400-8AEDFF741E2D23FBED39474178692DAF.jpg",
+            "img_alt": "Super Mario Bros",
+            "img_class": "mario_bros"
+        }, {
+            "img_title": "Super Mario Bros",
+            "img_url": "https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2017111221445900-8AEDFF741E2D23FBED39474178692DAF.jpg",
+            "img_alt": "Super Mario Bros",
+            "img_class": "mario_bros"
+        }
     ],
 
 
-    "mario_bros_two":[
+    "mario_bros_two": [
         {
             "img_title":"Super Mario Bros 2",
-            "img_url":"img/game-screenshot-placeholder.png",
+            "img_url": "https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros_two/2019033120333200-8F655652CF5441D7471D936F3F07324D.mp4",
             "img_alt":"Super Mario Bros 2",
             "img_class":"mario_bros_two"
         
-        }, {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
-            "img_class":"mario_bros_two"
-        
-        } 
+        }
     ],
 
     
@@ -256,37 +285,26 @@
             "img_alt":"Super Mario Bros 3",
             "img_class":"mario_bros_three"
         
-        }, {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
-            "img_class":"mario_bros_three"
-        
-        } 
+        }
     ],
 
 
     "mario_bros_four": [
         {
             "img_title":"Super Mario Bros: The Lost Levels",
-            "img_url":"img/game-screenshot-placeholder.png",
+            "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_lost_levels/2019041310094400-8F655652CF5441D7471D936F3F07324D.jpg",
             "img_alt":"Super Mario Bros: The Lost Levels",
             "img_class":"mario_bros_four"
         
-        }, {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
-            "img_class":"mario_bros_four"
-        
-        } 
+        }
+
     ],
 
 
     "mario_world": [
         {
             "img_title":"Super Mario World",
-            "img_url":"img/game-screenshot-placeholder.png",
+            "img_url":"img/game-screenshot-placeholder.pnghttps://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mario_world/.jpg",
             "img_alt":"Super Mario World",
             "img_class":"mario_world"
         
@@ -303,17 +321,11 @@
     "mario_duluxe": [
         {
             "img_title":"Super Mario Bros U (Duluxe)",
-            "img_url":"img/game-screenshot-placeholder.png",
+            "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mario_bros_u_duluxe/2020041416065700-33B8CC310F76D76B17C6DB0011A75C8A.jpg",
             "img_alt":"Super Mario Bros U (Duluxe)",
             "img_class":"mario_duluxe"
         
-        }, {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
-            "img_class":"mario_duluxe"
-        
-        } 
+        }
     ],
 
 
@@ -324,74 +336,91 @@
             "img_alt":"The Legend of Zelda: A Link to the Past",
             "img_class":"zelda_past"
         
-        }, {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
-            "img_class":"zelda_past"
-        
-        } 
+        }
     ],
 
 
     "mega_man_two": [
         {
             "img_title":"Mega Man 2",
-            "img_url":"img/game-screenshot-placeholder.png",
+            "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mega_man_two/2020011110135100-5231726F089D9E3CF4B271F54AE199AC.jpg",
             "img_alt":"Mega Man 2",
             "img_class":"mega_man_two"
         
-        }, {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
-            "img_class":"mega_man_two"
-        
-        } 
+        }
     ],
 
 
     "world_war_two": [
         {
             "img_title":"World War 2: Fighter ",
-            "img_url":"img/game-screenshot-placeholder.png",
+            "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/world_war_two/2020041017511000-D931632788EAC08F205BFC18ACC79B89.jpg",
             "img_alt":"",
             "img_class":"world_war_two"
         
-        }, {
-            "img_title":"World War 2: Fighter ",
-            "img_url":"",
-            "img_alt":"",
-            "img_class":"world_war_two"
-        
-        } 
+        }
     ],
 
 
     "rac_rally_champ": [
         {
             "img_title":"RAC Rally Champ",
-            "img_url":"img/game-screenshot-placeholder.png",
+            "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/rac_rally/2020032112411300-D7B5A51A98F2DFCD491468473BD0C6DA.jpg",
             "img_alt":"RAC Rally Champ",
             "img_class":"rac_rally_champ"
         
         }, {
             "img_title":"RAC Rally Champ",
-            "img_url":"",
-            "img_alt":"",
+            "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/rac_rally/2020032521350300-D7B5A51A98F2DFCD491468473BD0C6DA.jpg",
+            "img_alt":"RAC Rally Champ",
             "img_class":"rac_rally_champ"
-        
-        } 
+
+        }, {
+            "img_title":"RAC Rally Champ",
+            "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/rac_rally/2020040623410900-D7B5A51A98F2DFCD491468473BD0C6DA.jpg",
+            "img_alt":"RAC Rally Champ",
+            "img_class":"rac_rally_champ"
+
+        }
+
     ],
 
 
     "fifa_18": [
         {
             "img_title":"Fifa 18",
-            "img_url":"img/game-screenshot-placeholder.png",
+            "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/fifa_18/2018011122335500-062DD3BC3CF59885A6762E5A30A14CD1.jpg",
             "img_alt":"Fifa 18",
             "img_class":"fifa_eighteen"        
-        } 
+        }, {
+            "img_title":"Fifa 18",
+            "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/fifa_18/2018101822565900-062DD3BC3CF59885A6762E5A30A14CD1.jpg",
+            "img_alt":"Fifa 18",
+            "img_class":"fifa_eighteen"   
+
+        
+        }, {
+            "img_title":"Fifa 18",
+            "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/fifa_18/2018102123163800-062DD3BC3CF59885A6762E5A30A14CD1.jpg",
+            "img_alt":"Fifa 18",
+            "img_class":"fifa_eighteen"   
+
+        
+        }, {
+            "img_title":"Fifa 18",
+            "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/fifa_18/2018111011374900-062DD3BC3CF59885A6762E5A30A14CD1.jpg",
+            "img_alt":"Fifa 18",
+            "img_class":"fifa_eighteen"  
+        }, {
+       
+
+            "img_title":"Fifa 18",
+            "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/fifa_18/2018111011375100-062DD3BC3CF59885A6762E5A30A14CD1.jpg",
+            "img_alt":"Fifa 18",
+            "img_class":"fifa_eighteen"  
+        
+        }
+        
     ],
 
 
@@ -403,9 +432,9 @@
             "img_class":"asterix_game"
         
         }, {
-            "img_title":"",
-            "img_url":"http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/asterix/2019072711150500-23A6B5C3A1B8F8267A0DC91495AC1101.jpg",
-            "img_alt":"",
+            "img_title":"Asterix: XXL",
+            "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/asterix/2019072711231300-23A6B5C3A1B8F8267A0DC91495AC1101.jpg",
+            "img_alt":"Asterix: XX:",
             "img_class":"asterix_game"
         
         } 
@@ -462,21 +491,29 @@
         } 
     ],
 
+    "nes_tennis": [
+        {
+            "img_title": "",
+            "img_url": "https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/tennis/2019090622532100-05DC14F80A13996B94160CD375AFD506.jpg",
+            "img_alt": "",
+            "img_class": "tennis"
+        }
+    ],
 
     "tetris": [
         {
             "img_title":"Tetris-99",
-            "img_url":"img/game-screenshot-placeholder.png",
+            "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/tetris_99/2019021612504100-691C9B2C6D1F1E032DDC01FD026159FD.jpg",
             "img_alt":"Tetris-99",
             "img_class":"tetris"
         
         }, {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
+            "img_title":"Tetris-99",
+            "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/tetris_99/2019021720024200-691C9B2C6D1F1E032DDC01FD026159FD.jpg",
+            "img_alt":"Tetris-99",
             "img_class":"tetris"
         
-        } 
+        }
     ]
 
 }

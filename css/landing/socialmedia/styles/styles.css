@@ -4,7 +4,8 @@
 
 body {
   background: yellow;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "font-family: 'Roboto', sans-serif"; }
 
 .main-header {
   background: #0b053f;
@@ -22,8 +23,12 @@ body {
   display: block;
   margin: 20px auto;
   text-align: center;
-  border-bottom: solid black 18px;
-  width: 250px; }
+  border-bottom: solid black 5px;
+  width: 250px;
+  width: 60%;
+  height: 35px;
+  display: block;
+  margin: 20px auto; }
   #blurb h2 {
     color: #8b8b6b;
     text-transform: lowercase;
@@ -31,7 +36,8 @@ body {
     font-size: 15pt; }
 
 #platforms {
-  text-align: center; }
+  text-align: center;
+  height: 150px; }
   #platforms img {
     margin: 0 auto;
     width: 70%;
@@ -40,7 +46,12 @@ body {
   #platforms img#on_facebook,
   #platforms img#on_twitter,
   #platforms img#on_instagram {
-    margin-left: 10px; }
+    margin-left: 10px;
+    transition: transform .2s, transform .2s; }
+    #platforms img#on_facebook:hover,
+    #platforms img#on_twitter:hover,
+    #platforms img#on_instagram:hover {
+      transform: rotate(1080deg) scale(1.04); }
 
 #selling_point {
   width: 50%;
@@ -48,11 +59,21 @@ body {
   display: block;
   margin: 0 auto; }
   #selling_point p {
-    line-height: 2; }
+    line-height: 1.96;
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 15pt; }
 
-#price p {
-  text-align: center;
-  font-size: 200pt; }
+#price {
+  color: red; }
+  #price p:first-child {
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    margin: 0; }
+  #price p {
+    text-align: center;
+    font-size: 200pt; }
 
 #goto_website {
   width: 200px;
@@ -61,7 +82,11 @@ body {
   display: block;
   margin: 0 auto;
   padding: 5px 0;
-  text-align: center; }
+  text-align: center;
+  transition: transform .1s;
+  cursor: pointer; }
+  #goto_website:hover {
+    transform: scale(1.2); }
 
 .footer {
   width: 100%;

@@ -58,8 +58,9 @@
                 <label for="fifa-two"><input type="checkbox" id="fifa-two" /><p>Fifa 18</p></label>
                 <label for="asterix"><input type="checkbox" id="asterix" /><p>Asterix</p></label>
                 <label for="mariokart-duluxe"><input type="checkbox" id="mariokart-duluxe" /><p>Mario Kart Duluxe</p></label>
-                <label for="sonicmania"><input type="checkbox" id="sonicmania" /><p>Sonic Mania</p></label>
-                <label for="footballmanagertouch"><input type="checkbox" id="footballmanagertouch" /><p>Football Manager Touch</p></label>
+                <!-- <label for="sonicmania"><input type="checkbox" id="sonicmania" /><p>Sonic Mania</p></label> -->
+                <label for="starwing"><input type="checkbox" id="starwing" /><p>StarWing</p></label>
+                <!-- <label for="footballmanagertouch"><input type="checkbox" id="footballmanagertouch" /><p>Football Manager Touch</p></label> -->
                 <label for="tetris"><input type="checkbox" id="tetris" /><p>Tetris-99</p></label>
 
                 <!-- check/uncheck all -->

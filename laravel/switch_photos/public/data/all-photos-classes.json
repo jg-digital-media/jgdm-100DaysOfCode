@@ -139,15 +139,30 @@
             "img_class":"mario_odyssey"
         
         }, {
-            "img_title":"",
+            "img_title":"Super Mario Odyssey",
             "img_url":"http://jg-photography.s3-eu-west-2.amazonaws.com/switch_photos/catalog/mario_odyssey/2020040722121600-8AEDFF741E2D23FBED39474178692DAF.jpg",
             "img_alt":"Super Mario Odyssey",
             "img_class":"mario_odyssey"
         
-        }  
+        } , {
+            "img_title":"Super Mario Odyssey",
+            "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2017102921123400-8AEDFF741E2D23FBED39474178692DAF.jpg",
+            "img_alt":"Super Mario Bros",
+            "img_class":"mario_odyssey"
+    
+        }, {
+            "img_title": "Super Mario Odyssey", 
+            "img_url": "https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2017103122310400-8AEDFF741E2D23FBED39474178692DAF.jpg",
+            "img_alt": "Super Mario Bros",
+            "img_class": "mario_odyssey"
+        }, {
+            "img_title": "Super Mario Odyssey",
+            "img_url": "https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2017111221445900-8AEDFF741E2D23FBED39474178692DAF.jpg",
+            "img_alt": "Super Mario Bros",
+            "img_class": "mario_odyssey" 
+        }
 
-
-],
+    ],
 
 
     "animal_crossing": [ 
@@ -218,28 +233,28 @@
 
     "donkey_kong_tropic": [
         {
-            "img_title":"Donkey Kong: Tropical Freeze",
+            "img_title":"Donkey Kong Country: Tropical Freeze",
             "img_url":"http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/donkey_kong_country/2019020822322000-BD0EB87287646F662EB9875856FE05AB.jpg",
-            "img_alt":"Donkey Kong: Tropical Freeze",
+            "img_alt":"Donkey Kong Country: Tropical Freeze",
             "img_class":"donkey_kong_tropic"
         
         }, {
-            "img_title":"",
+            "img_title":"Donkey Kong Country: Tropical Freeze",
             "img_url":"http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/donkey_kong_country/2019020822363500-BD0EB87287646F662EB9875856FE05AB.jpg",
-            "img_alt":"",
+            "img_alt":"Donkey Kong Country: Tropical Freeze",
             "img_class":"donkey_kong_tropic"
         
         }, {
-            "img_title": "",
+            "img_title": "Donkey Kong Country: Tropical Freeze",
             "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/donkey_kong_country/2019020822364200-BD0EB87287646F662EB9875856FE05AB.jpg",
-            "img_alt": "",
-            "img_class": ""
+            "img_alt": "Donkey Kong Country: Tropical Freeze",
+            "img_class": "donkey_kong_tropic"
 
         }, {
-            "img_title": "",
+            "img_title": "Donkey Kong Country: Tropical Freeze",
             "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/donkey_kong_country/2019020822365700-BD0EB87287646F662EB9875856FE05AB.jpg",
-            "img_alt": "",
-            "img_class": ""
+            "img_alt": "Donkey Kong Country: Tropical Freeze",
+            "img_class": "donkey_kong_tropic"
 
         }
 
@@ -248,45 +263,86 @@
 
     "mario_bros": [ 
         {
-            "img_title":"Super Mario Bros",
-            "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2017102921123400-8AEDFF741E2D23FBED39474178692DAF.jpg",
-            "img_alt":"Super Mario Bros",
-            "img_class":"mario_bros"
+            "img_title": "Super Mario Bros (Nes)",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2019020914531800-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt": "Super Mario Bros (Nes)",
+            "img_class": "mario_bros"
+
+        }, {
+            "img_title": "Super Mario Bros (Nes)",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2019011323354500-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt": "Super Mario Bros (Nes)",
+            "img_class": "mario_bros"
+
+        }, {
+            "img_title": "Super Mario Bros (Nes)",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2018120223163201-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt": "Super Mario Bros (Nes)",
+            "img_class": "mario_bros"
+
+        }, {
+            "img_title": "Super Mario Bros (Nes)",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2018120223150800-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt": "Super Mario Bros (Nes)",
+            "img_class": "mario_bros"
+
+        }           
         
-        }, {
-            "img_title": "Super Mario Bros", 
-            "img_url": "https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2017103122310400-8AEDFF741E2D23FBED39474178692DAF.jpg",
-            "img_alt": "Super Mario Bros",
-            "img_class": "mario_bros"
-        }, {
-            "img_title": "Super Mario Bros",
-            "img_url": "https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2017111221445900-8AEDFF741E2D23FBED39474178692DAF.jpg",
-            "img_alt": "Super Mario Bros",
-            "img_class": "mario_bros"
-        }
     ],
 
 
     "mario_bros_two": [
         {
             "img_title":"Super Mario Bros 2",
-            "img_url": "https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros_two/2019033120333200-8F655652CF5441D7471D936F3F07324D.mp4",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros_two/2019033120312500-8F655652CF5441D7471D936F3F07324D.jpg",
             "img_alt":"Super Mario Bros 2",
             "img_class":"mario_bros_two"
         
+        }, {
+            "img_title":"Super Mario Bros 2",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros_two/2019033120314100-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt":"Super Mario Bros 2",
+            "img_class":"mario_bros_two"
+
+        }, {
+            "img_title":"Super Mario Bros 2",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros_two/2019033120351300-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt":"Super Mario Bros 2",
+            "img_class":"mario_bros_two"
+
         }
+
+        
+        
+        
     ],
 
     
     "mario_bros_three": [
         {
             "img_title":"Super Mario Bros 3",
-            "img_url":"img/game-screenshot-placeholder.png",
+            "img_url":"http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros_three/2020010317085200-8F655652CF5441D7471D936F3F07324D.jpg",
             "img_alt":"Super Mario Bros 3",
             "img_class":"mario_bros_three"
         
+        }, {
+            "img_title":"Super Mario Bros 3",
+            "img_url":"http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros_three/2020010316593900-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt":"Super Mario Bros 3",
+            "img_class":"mario_bros_three"
+
+        }, {
+            "img_title":"Super Mario Bros 3",
+            "img_url":"http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros_three/2018120812161500-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt":"Super Mario Bros 3",
+            "img_class":"mario_bros_three"
+
         }
     ],
+
+    
+    
+    
 
 
     "mario_bros_four": [
@@ -304,19 +360,14 @@
     "mario_world": [
         {
             "img_title":"Super Mario World",
-            "img_url":"img/game-screenshot-placeholder.pnghttps://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mario_world/.jpg",
+            "img_url":"http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mario_world/2019111614152600-05DC14F80A13996B94160CD375AFD506.jpg",
             "img_alt":"Super Mario World",
             "img_class":"mario_world"
         
-        }, {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
-            "img_class":"mario_world"
-        
-        } 
+        }
     ],
 
+    
 
     "mario_duluxe": [
         {
@@ -332,13 +383,32 @@
     "zelda_past": [
         {
             "img_title":"The Legend of Zelda: A Link to the Past",
-            "img_url":"img/game-screenshot-placeholder.png",
+            "img_url":"http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/zelda_past/2019120714385400-05DC14F80A13996B94160CD375AFD506.jpg",
             "img_alt":"The Legend of Zelda: A Link to the Past",
             "img_class":"zelda_past"
         
+        }, {
+            "img_title:":"The Legend of Zelda: A Link to the Past",
+            "img_url":"http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/zelda_past/2019121122072000-05DC14F80A13996B94160CD375AFD506.jpg",
+            "img_alt": "The Legend of Zelda: A Link to the Past",
+            "img_class": "zelda_past"
+        }, {
+
+            "img_title:": "The Legend of Zelda: A Link to the Past",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/zelda_past/2019121923260800-05DC14F80A13996B94160CD375AFD506.jpg",
+            "img_alt": "The Legend of Zelda: A Link to the Past",
+            "img_class": "zelda_past"
+        }, {
+            "img_title:": "The Legend of Zelda: A Link to the Past",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/zelda_past/2019122220094100-05DC14F80A13996B94160CD375AFD506.jpg",
+            "img_alt": "The Legend of Zelda: A Link to the Past",
+            "img_class": "zelda_past"
         }
     ],
-
+    
+    
+    
+    
 
     "mega_man_two": [
         {
@@ -411,9 +481,7 @@
             "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/fifa_18/2018111011374900-062DD3BC3CF59885A6762E5A30A14CD1.jpg",
             "img_alt":"Fifa 18",
             "img_class":"fifa_eighteen"  
-        }, {
-       
-
+        }, {      
             "img_title":"Fifa 18",
             "img_url":"https://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/fifa_18/2018111011375100-062DD3BC3CF59885A6762E5A30A14CD1.jpg",
             "img_alt":"Fifa 18",
@@ -444,17 +512,26 @@
     "mario_kart_duluxe": [
         {
             "img_title":"Mario Kart Duluxe",
-            "img_url":"img/game-screenshot-placeholder.png",
+            "img_url":"http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mario_kart_duluxe/2017112022294400-16851BE00BC6068871FE49D98876D6C5.jpg",
             "img_alt":"Mario Kart Duluxe",
             "img_class":"mario_kart_duluxe"
         
         }, {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
-            "img_class":"mario_kart_duluxe"
-        
-        } 
+            "img_title": "Mario Kart Duluxe",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mario_kart_duluxe/2017081522382600-16851BE00BC6068871FE49D98876D6C5.jpg",
+            "img_alt": "Mario Kart Duluxe",
+            "img_class": "mario_kart_duluxe"
+        }, {
+            "img_title": "Mario Kart Duluxe",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mario_kart_duluxe/2017112022255000-16851BE00BC6068871FE49D98876D6C5.jpg",
+            "img_alt": "Mario Kart Duluxe",
+            "img_class": "mario_kart_duluxe"
+        }, { 
+            "img_title": "Mario Kart Duluxe",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mario_kart_duluxe/2017112022254100-16851BE00BC6068871FE49D98876D6C5.jpg",
+            "img_alt": "Mario Kart Duluxe",
+            "img_class": "mario_kart_duluxe"
+        }
     ],
 
 
@@ -465,13 +542,31 @@
             "img_alt":"Sonic Mania",
             "img_class":"sonic_mania"
         
+        }
+    ],
+
+    "star_wing": [
+        {
+            "img_title": "Starwing (Snes)",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/star_wing/2019090609074100-05DC14F80A13996B94160CD375AFD506.jpg",
+            "img_alt": "Starwing",
+            "img_class": "star_wing"
         }, {
-            "img_title":"",
-            "img_url":"",
-            "img_alt":"",
-            "img_class":"sonic_mania"
-        
-        } 
+            "img_title": "Starwing (Snes)",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/star_wing/2019090609080500-05DC14F80A13996B94160CD375AFD506.jpg",
+            "img_alt": "Starwing",
+            "img_class": "star_wing"
+        }, {
+            "img_title": "Starwing (Snes)",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/star_wing/2019090609082700-05DC14F80A13996B94160CD375AFD506.jpg",
+            "img_alt": "Starwing",
+            "img_class": "star_wing"
+        }, {
+            "img_title": "Starwing (Snes)",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/star_wing/2019090609083800-05DC14F80A13996B94160CD375AFD506.jpg",
+            "img_alt": "Starwing",
+            "img_class": "star_wing"
+        }
     ],
 
 

@@ -39,6 +39,7 @@ let toggleAsterix = document.getElementById("asterix");
 let toggleTetris = document.getElementById("tetris");
 let toggleMarioKart_Duluxe = document.getElementById("mariokart-duluxe");
 let toggleSonicMania = document.getElementById("sonicmania");
+let toggleStarwing = document.getElementById("starwing");
 let toggleFootballManager = document.getElementById("footballmanagertouch");
 
 
@@ -324,6 +325,8 @@ jQuery.getJSON('data/all-photos-classes.json', function( catTwentyOne_data ) {
 });
 
 
+
+
 jQuery.getJSON('data/all-photos-classes.json', function( catTwentyTwo_data ) {
     let getCatData =  catTwentyTwo_data.football_manager.length;
 
@@ -349,6 +352,19 @@ jQuery.getJSON('data/all-photos-classes.json', function( catTwentyThree_data ) {
         jQuery(`<img class="img ${ catTwentyThree_data.tetris[i].img_class }" src="${ catTwentyThree_data.tetris[i].img_url }" alt="${ catTwentyThree_data.tetris[i].img_alt }" title="${ catTwentyThree_data.tetris[i].img_alt }" />"`).appendTo(".category-photos");
     }
 
+});
+
+
+jQuery.getJSON('data/all-photos-classes.json', function( catTwentyFour_data ) {
+    let getCatData = catTwentyFour_data.star_wing.length;
+
+    //category count
+    console.log( "Starwing: " + catTwentyFour_data.star_wing.length );
+    
+    for( let i=0; i < getCatData; i++ ) {
+        jQuery(`<img class="img ${ catTwentyFour_data.star_wing[i].img_class }" src="${ catTwentyFour_data.star_wing[i].img_url }" alt="${ catTwentyFour_data.star_wing[i].img_alt }" title="${ catTwentyFour_data.star_wing[i].img_alt }" />"`).appendTo(".category-photos");
+
+    }
 });
 
 /**
@@ -555,4 +571,13 @@ $( toggleFootballManager ).click(function() {
     console.log("clicked");
     $( ".category-photos img.football_manager" ).toggle("img.football_manager");
 
-});
+}); 
+
+
+$( toggleStarwing ).click(function() {
+
+    console.log("clicked");
+    $( ".category-photos img.star_wing" ).toggle("img.star_wing");
+
+})
+

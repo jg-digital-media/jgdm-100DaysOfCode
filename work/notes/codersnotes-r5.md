@@ -13,6 +13,62 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
+### Day 35
+
+
+#### Photography - data retrieval frrom json example
+
+
+```javascript
+
+jQuery.getJSON('assets/data/canon_photos.json', function(photoData) { 
+
+    //select length of json array
+    let itemAll = photoData.length;
+    let categoryTotal = 
+        photoData.boo.length + 
+        photoData.luke.length +
+        photoData.animals.length + 
+        photoData.nature.length + 
+        photoData.landscapes.length + 
+        photoData.buildings.length + 
+        photoData.misc.length +
+        photoData.coastal.length +
+        photoData.birds_in_flight.length +
+        photoData.wellfield_lake.length +
+        photoData.dene.length +
+        photoData.other.length 
+        ;
+
+    console.log("**Sum Category Total** " +  "\n>>>  " + categoryTotal + "\n\n");
+        
+});
+
+
+//CATEGORY: BOO
+jQuery.getJSON('../assets/data/canon_photos.json', function(photoData) { 
+
+    let pet_boo_items = photoData.boo.length;
+    console.log("Boo: Category Total (" + photoData.boo.length + ")");
+
+    jQuery(`<a href="${ photoData.boo[0].url }" data-lightbox="${ photoData.boo[0].lightbox }" data-title="${ photoData.boo[0].caption}">
+
+      <img id="image_poster" href=${ photoData.boo[0].url }" alt="Boo Image poster" title="Image poster" src="${ photoData.boo[0].url }" class="open_modal" />
+
+    </a>`).appendTo('#boo_category');
+
+        for (let i=1; i <pet_boo_items; i++) { 
+
+            jQuery(
+                    `<a href="${ photoData.boo[i].url }" class="image${ photoData.boo[i].class }" title="${ photoData.boo[i].caption }" data-lightbox="${ photoData.boo[i].lightbox }" data-title="${ photoData.boo[i].caption }"></a>`
+
+            ).appendTo('#boo_category');
+}
+
+});
+
+```
+
 ### Day 34
 
 ```html

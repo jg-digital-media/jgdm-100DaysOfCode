@@ -197,14 +197,19 @@ body {
   display: block;
   /*vertical-align: top;*/ }
   .main .select-category article label input[type="checkbox"] {
-    display: block; }
+    display: inline-block;
+    margin-left: 5px; }
   .main .select-category article label input[type="checkbox"] + p {
     display: inline-block;
     color: red;
     vertical-align: middle;
     margin-left: 15px;
     font-size: larger;
-    margin: 3px 10px; }
+    margin: 3px 10px;
+    font-size: 16px;
+    transition: color .5s; }
+    .main .select-category article label input[type="checkbox"] + p:hover {
+      color: black; }
 
 /*about.scss*/
 .main .sub-content {

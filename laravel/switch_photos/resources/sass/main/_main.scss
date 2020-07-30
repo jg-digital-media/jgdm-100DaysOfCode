@@ -20,13 +20,14 @@ body {
     background: lightblue;
     grid-template-columns: 1fr 1fr;
     grid-template-columns: 2fr 260px;
-    min-height: 300px;  //refine
+    /*min-height: 300px;*/  //refine
+    height: auto;
 
     .category-heading {
         /* border: solid black 1px; */
         padding: 20px;
         /* margin-bottom: 10px; */
-        height: 100px;
+        /*height: 100px;*/
         /* display: block; */
         /* position: relative; */
 

@@ -8,6 +8,8 @@
         background: url("img/main_bg.jpg");
         background: url("public/img/main_bg.jpg");        
         background: url("../img/main_bg.jpg");
+        background-size: cover;
+
         @extend %main_bg_props;
 
         img {

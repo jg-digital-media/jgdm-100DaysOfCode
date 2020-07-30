@@ -257,36 +257,71 @@
             "img_class": "donkey_kong_tropic"
 
         }
-
     ],
 
 
     "mario_bros": [ 
         {
-            "img_title": "Super Mario Bros (Nes)",
+            "img_title": "Super Mario Bros (NES)",
             "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2019020914531800-8F655652CF5441D7471D936F3F07324D.jpg",
-            "img_alt": "Super Mario Bros (Nes)",
+            "img_alt": "Super Mario Bros (NES)",
             "img_class": "mario_bros"
 
         }, {
-            "img_title": "Super Mario Bros (Nes)",
+            "img_title": "Super Mario Bros (NES)",
             "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2019011323354500-8F655652CF5441D7471D936F3F07324D.jpg",
-            "img_alt": "Super Mario Bros (Nes)",
+            "img_alt": "Super Mario Bros (NES)",
             "img_class": "mario_bros"
 
         }, {
-            "img_title": "Super Mario Bros (Nes)",
+            "img_title": "Super Mario Bros (NES)",
             "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2018120223163201-8F655652CF5441D7471D936F3F07324D.jpg",
-            "img_alt": "Super Mario Bros (Nes)",
+            "img_alt": "Super Mario Bros (NES)",
             "img_class": "mario_bros"
 
         }, {
-            "img_title": "Super Mario Bros (Nes)",
+            "img_title": "Super Mario Bros (NES)",
             "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2018120223150800-8F655652CF5441D7471D936F3F07324D.jpg",
-            "img_alt": "Super Mario Bros (Nes)",
+            "img_alt": "Super Mario Bros (NES)",
             "img_class": "mario_bros"
 
-        }           
+        }, {
+            "img_title": "Super Mario Bros (NES)",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2020073010515700-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt": "Super Mario Bros (NES)",
+            "img_class": "mario_bros"
+
+        }, {
+            "img_title": "Super Mario Bros (NES)",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2020073010520900-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt": "Super Mario Bros (NES)",
+            "img_class": "mario_bros"
+
+        }, {
+            "img_title": "Super Mario Bros (NES)",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2020073010523700-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt": "Super Mario Bros (NES)",
+            "img_class": "mario_bros"  
+
+        }, {
+            "img_title": "Super Mario Bros (NES)",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2020073010524700-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt": "Super Mario Bros (NES)",
+            "img_class": "mario_bros"
+
+        }, {
+            "img_title": "Super Mario Bros (NES)",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2020073010531200-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt": "Super Mario Bros (NES)",
+            "img_class": "mario_bros"
+
+        }, {
+            "img_title": "Super Mario Bros (NES)",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros/2020073010531300-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt": "Super Mario Bros (NES)",
+            "img_class": "mario_bros"
+
+        }   
         
     ],
 
@@ -337,7 +372,50 @@
             "img_alt":"Super Mario Bros 3",
             "img_class":"mario_bros_three"
 
-        }
+        }, { 
+            "img_title": "Super Mario Bros 3",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros_three/2020073010533000-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt": "Super Mario Bros 3",
+            "img_class":"mario_bros_three"
+
+        }, { 
+            "img_title": "Super Mario Bros 3",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros_three/2020073010534800-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt": "Super Mario Bros 3",
+            "img_class":"mario_bros_three"
+
+        }, { 
+            "img_title": "Super Mario Bros 3",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros_three/2020073010541300-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt": "Super Mario Bros 3",
+            "img_class":"mario_bros_three"
+
+        }, { 
+            "img_title": "Super Mario Bros 3",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros_three/2020073010542900-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt": "Super Mario Bros 3",
+            "img_class":"mario_bros_three"
+
+        }, { 
+            "img_title": "Super Mario Bros 3",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros_three/2020073010544200-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt": "Super Mario Bros 3",
+            "img_class":"mario_bros_three"
+
+        }, { 
+            "img_title": "Super Mario Bros 3",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros_three/2020073010545400-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt": "Super Mario Bros 3",
+            "img_class":"mario_bros_three"
+
+        }, { 
+            "img_title": "Super Mario Bros 3",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/super_mario_bros_three/2020073010545400-8F655652CF5441D7471D936F3F07324D.jpg",
+            "img_alt": "Super Mario Bros 3",
+            "img_class":"mario_bros_three"
+
+        } 
+
     ],
 
     
@@ -360,11 +438,32 @@
     "mario_world": [
         {
             "img_title":"Super Mario World",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mario_world/2020073010553600-05DC14F80A13996B94160CD375AFD506.jpg",
+            "img_alt": "Super Mario World",
+            "img_class":"mario_world"
+        }, {
+            "img_title":"Super Mario World",
             "img_url":"http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mario_world/2019111614152600-05DC14F80A13996B94160CD375AFD506.jpg",
             "img_alt":"Super Mario World",
-            "img_class":"mario_world"
-        
-        }
+            "img_class":"mario_world"        
+        }, {
+            "img_title": "Super Mario World",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mario_world/2020073010555700-05DC14F80A13996B94160CD375AFD506.jpg",
+            "img_alt": "Super Mario World",
+            "img_class": "mario_world"
+        }, {
+            "img_title": "Super Mario World",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mario_world/2020073010565900-05DC14F80A13996B94160CD375AFD506.jpg",
+            "img_alt": "Super Mario World",
+            "img_class": "mario_world"
+        }, {
+            "img_title": "Super Mario World",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/mario_world/2020073010570400-05DC14F80A13996B94160CD375AFD506.jpg",
+            "img_alt": "Super Mario World",
+            "img_class": "mario_world"
+        } 
+
+
     ],
 
     
@@ -538,11 +637,27 @@
     "sonic_mania": [
         {
             "img_title":"Sonic Mania",
-            "img_url":"img/game-screenshot-placeholder.png",
+            "img_url":"http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/sonic_mania/2020073010574900-1628E0CE3F839127054B0EE36E28E52A.jpg",
             "img_alt":"Sonic Mania",
             "img_class":"sonic_mania"
         
-        }
+        }, {
+            "img_title": "Sonic Mania",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/sonic_mania/2020073010580600-1628E0CE3F839127054B0EE36E28E52A.jpg",
+            "img_alt": "Sonic Mania",
+            "img_class": "sonic_mania"
+        }, {
+            "img_title": "Sonic Mania",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/sonic_mania/2020073010582800-1628E0CE3F839127054B0EE36E28E52A.jpg",
+            "img_alt": "Sonic Mania",
+            "img_class": "sonic_mania"
+        }, {
+            "img_title": "Sonic Mania",
+            "img_url": "http://jg-photography.s3.eu-west-2.amazonaws.com/switch_photos/catalog/sonic_mania/2020073010583600-1628E0CE3F839127054B0EE36E28E52A.jpg",
+            "img_alt": "Sonic Mania",
+            "img_class": "sonic_mania"
+        }        
+
     ],
 
     "star_wing": [

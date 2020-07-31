@@ -1,10 +1,24 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 35 of 100. **Last Update:** 29 July 2020
+## **Status:** Day 37 of 100. **Last Update:** 31 July 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R5D37: Friday 31 July 2020
+
++ **Notes**
+  +  Coming Soon! The photoraphy website getting a bit of a rejig. oming soon! The site is getting a bit of a rejig! 👀 https://photography.jonniegrieve.co.uk 
+
++ **Technologies used** - HTML5, CSS, PHP, JavaScript
+
+
+### R5D36: Thursday 30 July 2020
+
++ **Notes**
+  +  Almost ready with the new photography website.  Prepping some JS Code behind the scenes so I can add new content as and when it is ready. Fixed some problems with the Laravel project too.
+
++ **Technologies used** - HTML5, CSS, PHP, JavaScript
 
 ### R5D35: Wednesday 29 July 2020
 

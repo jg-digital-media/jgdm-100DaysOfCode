@@ -13,28 +13,36 @@
     min-height: 900px;
 }
 
-
-%headings {
-    font-size: 16pt;
-    padding: 20px;
+%panel_bg {
     background: lightgreen;
+    padding: 20px;
+    border: 0;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+
+
+%panel_headings {
+
+    @extend %panel_bg;
+    font-size: 16pt;
     color: white;
+    color: black;
 
 }
 
 %main-content-panels {
 
-    padding: 20px;
-    background: lightgreen;
-    border: 0;
+    @extend %panel_bg;
     min-height: 250px;
 
 }
 
 %aside-content-panels {
-    border: 0;
+
+    @extend %panel_bg;
     background: lightgray;
-    padding: 20px;
 }
 
 //Nav BG
@@ -46,13 +54,21 @@
     height: 33px;
     background: #f6ff64;
     border-radius: 9px;
-    width: 45%;
+    width: 65%;
     /* width: 100%; */
     /* text-align: right; */
-    text-align: center;
+    /* text-align: center; */
     position: relative;
     /* right: 20px; */
     top: 10px;
     vertical-align: top;
     display: inline-block;
+
+    
+    @media (max-width: $md) {
+        background: none;
+        text-align: center;
+        width: 70%;
+
+    }
 }

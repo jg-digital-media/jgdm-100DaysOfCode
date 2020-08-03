@@ -3,6 +3,7 @@ body {
     background: $body-bg;
     font-family: $font-primary;
     font-size: $font-size-main;
+    /*background: url("img/.png");*/
 }
 
 * {
@@ -30,12 +31,13 @@ body {
         /*height: 100px;*/
         /* display: block; */
         /* position: relative; */
+        width: 95%;
 
         h2 {
             font-size: 16pt;
             margin-bottom: 10px;
             
-            @extend %headings;
+            @extend %panel_headings;
         }
 
     }

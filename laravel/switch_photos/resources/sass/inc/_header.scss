@@ -13,7 +13,7 @@
     padding: 10px;
 
     @media(min-width: $xl) {
-        grid-template-columns: minmax(10%, 20%) 260px 1fr;
+        grid-template-columns: minmax(10%, 20%) 531px 1fr;
 
     }
 
@@ -85,13 +85,19 @@
         
         @media(max-width: $md) {
             padding-top: 10px;
+            text-align: center;
          }
 
         ul {
-            padding-top: 30px;
+
+            padding-top: 10px;
             //border: solid red 1px;
 
             @extend %nav-bg;
+
+            @media (max-width: $xl) {
+                width: 100%;
+            }
 
             @media(max-width: $sm) {
                 text-align: center;
@@ -101,7 +107,8 @@
                 display: inline-block;
                 list-style: none;
                 margin-right: 10px;
-                font-size: 14pt;
+                /*font-size: 14pt;*/
+                font-size: 10pt;
             }
 
             a {

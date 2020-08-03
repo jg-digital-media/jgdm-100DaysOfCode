@@ -3,12 +3,13 @@
 .main {
 
     .category-photos {
-
                   
         background: url("img/main_bg.jpg");
         background: url("public/img/main_bg.jpg");        
         background: url("../img/main_bg.jpg");
-        background-size: cover;
+        background-size: cover;  
+        border: yellow solid 1px;
+        min-height: 1047px;
 
         @extend %main_bg_props;
 
@@ -41,8 +42,16 @@
             &.tetris {
                 display: inline-block;
                 display: none;
-                width: 300px;
+                /*width: 350px; */
+                /*width: 430px; */
+                width: 450px;
                 padding: 0 20px;
+                margin: 5px 0;
+
+                @media (max-width: $sm) {
+                    padding: 0px 0px;
+                    width: 100%;
+                }
             }
         
         } 
@@ -50,7 +59,7 @@
         .category-heading {
 
             h2 {
-                @extend %headings;
+                @extend %panel_headings;
             }
         }
 
@@ -59,7 +68,7 @@
     .select-category {
 
         h2 {
-            @extend %headings;
+            @extend %panel_headings;
         }
 
         article {

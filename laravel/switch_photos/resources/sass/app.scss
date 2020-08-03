@@ -2,16 +2,18 @@
 /*Sass - 30/06/2020  sass --watch resources/sass/app.scss:public/style.css*/
 
 
+//config
+@import "config/colours";
+@import "config/fonts";
+@import "config/breakpoints";
+
 
 //utilities
 @import "utilities/reset";
 @import "utilities/extends";
 @import "utilities/mixins";
 
-//config
-@import "config/colours";
-@import "config/fonts";
-@import "config/breakpoints";
+
 
 //header 
 @import "inc/header";

@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 37 of 100. **Last Update:** 31 July 2020
+## **Status:** Day 38 of 100. **Last Update:** 303 July 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R5D38: Monday 03 August 2020
+
++ **Notes**
+  +  And now it's out there. The latest iteration of my photography website went live today. Produced with HTML5, SASS, JavaScript and lightbox.js https://photography.jonniegrieve.co.uk 
+
+  + **Technologies used** - HTML5, CSS, JavaScript
 
 ### R5D37: Friday 31 July 2020
 

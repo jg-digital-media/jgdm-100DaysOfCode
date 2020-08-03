@@ -41,7 +41,7 @@
     </div>
 
     <div class="website-title">
-        <h1>Switch Photo Library</h1>
+        <h1>Nintendo Switch: Photo Library App</h1>
     </div>
 
     @include ('nav')

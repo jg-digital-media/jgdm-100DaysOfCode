@@ -21,7 +21,7 @@ body {
     background: lightblue;
     grid-template-columns: 1fr 1fr;
     grid-template-columns: 2fr 260px;
-    /*min-height: 300px;*/  //refine
+    grid-template-columns: 1fr 360px;
     height: auto;
 
     .category-heading {

@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 38 of 100. **Last Update:** 303 July 2020
+## **Status:** Day 39 of 100. **Last Update:** 04 August 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R5D39: Tuesday 04 August 2020
+
++ **Notes**
+  +  lazy load
+
+  + **Technologies used** - HTML5, CSS, JavaScript
 
 ### R5D38: Monday 03 August 2020
 

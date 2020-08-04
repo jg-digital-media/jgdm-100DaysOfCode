@@ -27,9 +27,9 @@
         
         <article class = "main-content all-photos">
 
-            <h2>Send your Feedback</h2>
+            <h3>Send Your Feedback</h3>
 
-            <form action="" method="post" class="" id="">
+            <form action="#" method="post" class="" id="form_container">
 
                 <p></p>
                 <label class="form_label" for="name">Name: </label>
@@ -46,7 +46,7 @@
                 <input type="checkbox" id="privacy" />
 
                 <p></p>
-                <label class="form_label" for="btn">Submit Feedback: </label>
+                <label class="form_label" for="btn" id="submit">Submit Feedback: </label>
                 <input type="submit" id="btn" value="Button" />
 
             </form>

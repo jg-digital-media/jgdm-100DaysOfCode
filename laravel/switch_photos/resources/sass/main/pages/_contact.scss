@@ -1,14 +1,60 @@
+
+.main-content {
+    h3 {
+        font-size: 18pt;
+    }
+
+    vertical-align: top;
+    height: 10px;
+}
+
+
+#form_container {
+
+    /*margin: 10px;*/
+}
+
 label.form_label {
     width: 200px;
     display: inline-block;
     margin-bottom: 15px;
+    margin: 13px 0;
     font-size: 18px;
     vertical-align: top;
+    font-weight: bold;
+}
+
+label#btn {
+    background: yellow;
+    padding: 5px;
+
+}
+
+#btn {
+@extend %form_btn;
+
+}
+
+textarea#comments {
+        
+    @extend %form_input_styles;
+
+    width: 200px;
+    height: 100px;
 }
 
 input#name {
+
+    @extend %form_input_styles;
+
     height: 26px;
-    border-radius: 4px;
-    border: 2px solid black;
-    padding: 0 5px;
+}
+
+input#privacy {
+
+    @extend %form_input_styles;
+
+    height: 20px;
+    width: 20px;
+    margin-top: 11px;
 }

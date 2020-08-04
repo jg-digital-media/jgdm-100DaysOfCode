@@ -339,7 +339,8 @@ nav.main-nav {
     .main-content article#all-projects .all a {
       margin: 10px; }
     .main-content article#all-projects .all img {
-      margin: 10px; }
+      margin: 10px;
+      width: 100%; }
   .main-content article#all-projects span {
     font-style: italic;
     color: #2e2d2d;

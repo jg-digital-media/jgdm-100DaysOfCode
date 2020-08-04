@@ -27,7 +27,7 @@ jQuery.getJSON('assets/data/project-list.json', function(photoData) {
     for (let i=0; i < itemAll; i++) { 
         
         //successful delivery of class and image URL    - uses data-src and/or src attributes for image element        
-        jQuery(`<a href="${photoData.projects[i].project_url}" target="blank"><img ${photoData.projects[i].img_type}="${photoData.projects[i].img_url}" class="site-images lazy" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" /></a>`).appendTo('.all');     
+        jQuery(`<a href="${photoData.projects[i].project_url}" target="blank"><img ${photoData.projects[i].img_type}="${photoData.projects[i].img_url}"  class="site-images lazy" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" /></a>`).appendTo('.all');     
 
    }
 
@@ -108,6 +108,17 @@ $(document).ready(function() {
         $(this).fadeOut(200);
 
     });
+
+    //lazyload       
+    var lazyLoadInstance = new LazyLoad({
+        // Your custom settings go here
+        container: ".all",
+        //use_native: true, // <-- there you go -->
+        elements_selector: ".site-images .lazy",
+        threshold: 900
+
+    });
+
 
     //jQuery Form Validation.  /**/
     

@@ -13,6 +13,7 @@
     min-height: 900px;
 }
 
+//Content Panels
 %panel_bg {
     background: lightgreen;
     padding: 20px;
@@ -36,7 +37,7 @@
 %main-content-panels {
 
     @extend %panel_bg;
-    min-height: 250px;
+    min-height: 280px;
 
 }
 
@@ -46,8 +47,26 @@
     background: lightgray;
 }
 
-//Nav BG
 
+//Input forms
+
+%form_input_styles {    
+    border-radius: 4px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+//Form Button
+
+%form_btn {
+    background: yellow;
+    padding: 6px;
+    cursor: pointer;
+    width: 120px;
+
+}
+
+//Nav BG
 %nav-bg {
     
     /*padding-top: 15px; */

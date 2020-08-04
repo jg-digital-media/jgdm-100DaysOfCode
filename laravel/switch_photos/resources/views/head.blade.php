@@ -37,7 +37,7 @@
 <header class="header">
 
     <div class="logo-container">
-        <img src="{{ asset('img/main-logo.png')}}" alt="Main Logo" title="Main logo" class="main-logo" />
+        <img src="{{ asset('img/logo.png')}}" alt="Main Logo" title="Main logo" class="main-logo" />
     </div>
 
     <div class="website-title">

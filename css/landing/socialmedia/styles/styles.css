@@ -5,7 +5,7 @@
 body {
   background: yellow;
   font-family: Arial, Helvetica, sans-serif;
-  font-family: "font-family: 'Roboto', sans-serif"; }
+  font-family: Roboto, sans-serif; }
 
 .main-header {
   background: #0b053f;
@@ -16,7 +16,7 @@ body {
     text-align: center;
     padding-top: 10px; }
   .main-header img#main_logo {
-    margin: 10px auto;
+    margin: 5px auto;
     display: block; }
 
 #blurb {
@@ -73,7 +73,14 @@ body {
     margin: 0; }
   #price p {
     text-align: center;
-    font-size: 200pt; }
+    font-size: 200pt;
+    font-weight: bold; }
+  #price p:last-child {
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px; }
 
 #goto_website {
   width: 200px;
@@ -81,10 +88,11 @@ body {
   color: white;
   display: block;
   margin: 0 auto;
-  padding: 5px 0;
+  padding: 15px 0;
   text-align: center;
   transition: transform .1s;
-  cursor: pointer; }
+  cursor: pointer;
+  border-radius: 9px; }
   #goto_website:hover {
     transform: scale(1.2); }
 
@@ -93,13 +101,15 @@ body {
   text-align: center; }
   .footer a {
     font-size: 12px;
-    color: purple; }
+    color: purple;
+    font-weight: bold; }
     .footer a:hover {
       text-decoration: none; }
   .footer p {
     text-align: center;
     margin-top: 20px;
     font-size: 10px;
-    color: purple; }
+    color: purple;
+    font-family: arial; }
 
 /*# sourceMappingURL=styles.css.map */

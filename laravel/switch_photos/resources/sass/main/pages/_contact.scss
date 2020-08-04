@@ -31,7 +31,7 @@ label#btn {
 }
 
 #btn {
-@extend %form_btn;
+    @extend %form_btn;
 
 }
 
@@ -46,7 +46,6 @@ textarea#comments {
 input#name {
 
     @extend %form_input_styles;
-
     height: 26px;
 }
 

@@ -1,15 +1,23 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 39 of 100. **Last Update:** 04 August 2020
+## **Status:** Day 40 of 100. **Last Update:** 05 August 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R5D40: Wedneday 05 August 2020
+
++ **Notes**
+  +  lazy load coding and research. I still cannot fathom for the life of my why the simple Vanilla lazyload library is not taking effect.
+
+  + **Technologies used** - HTML5, CSS, JavaScript
+
 ### R5D39: Tuesday 04 August 2020
 
 + **Notes**
-  +  lazy load
+  +  lazy load coding and research. I still cannot fathom for the life of my why the simple Vanilla lazyload library is not taking effect.
+
 
   + **Technologies used** - HTML5, CSS, JavaScript
 

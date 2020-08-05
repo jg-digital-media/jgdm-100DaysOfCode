@@ -13,14 +13,21 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
+### Day 40
+
+
+
 ### Day 39
 
 
-https://www.youtube.com/watch?v=JaA7jQoR1Jc
+https://www.youtube.com/watch?v=JaA7jQoR1Jc  5:45
 
   lazy load tutorial
 
 
+https://www.andreaverlicchi.eu/vanilla-lazyload/
+
+https://github.com/verlok/vanilla-lazyload
 
 ### Day 35
 

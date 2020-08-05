@@ -6,10 +6,10 @@ ___
 ___
 
 
-### R5D40: Wedneday 05 August 2020
+### R5D40: Wednesday 05 August 2020
 
 + **Notes**
-  +  lazy load coding and research. I still cannot fathom for the life of my why the simple Vanilla lazyload library is not taking effect.
+  +  Did some work using Fetch API Syntax... making requests, multiple requests and reusable functions. I then set up repositories for some more publics projects I intend to create later.
 
   + **Technologies used** - HTML5, CSS, JavaScript
 

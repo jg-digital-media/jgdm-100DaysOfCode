@@ -13,6 +13,14 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
+
+
+
+### Day 41
+
+Fetch api  promise all and laravel migration commands to go here
+
+
 ### Day 40
 
 fetch api requests to go here!

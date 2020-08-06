@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 40 of 100. **Last Update:** 05 August 2020
+## **Status:** Day 41 of 100. **Last Update:** 06 August 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R5D41: Thursday 06 August 2020
+
++ **Notes**
+  +  Lots of Study today into the fetch api and using Laravel to leverage an API.  API's were big on my list for this round of #100DaysOfCode 
+                
+  + **Technologies used** - HTML5, CSS, JavaScript
 
 ### R5D40: Wednesday 05 August 2020
 

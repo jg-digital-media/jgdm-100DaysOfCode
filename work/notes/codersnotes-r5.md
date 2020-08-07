@@ -14,7 +14,42 @@
 + Project Status - JSON (separate to Vue Project)
 
 
+### Day 42
 
+#### Defining Relationships
+https://laravel.com/docs/7.x/eloquent-relationships 
+
++ One To One   hasOne()
++ One To Many  hasMany()
++ Many To Many  belongsToMany()
++ One to Many (inverse)   belongsTo()
++ Has One Through    hasOneThrough()
++ Has Many Through   hasManyThrough()
++ One To One (Polymorphic)   morphTo()
++ One To Many (Polymorphic)   MorphMany()
++ Many To Many (Polymorphic)  morphToMany()
+
+
+hasMany()
+belongsTo()
+
+```php
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Photos extends Model
+{
+    //define relationships
+    protected $table = 'photos';
+    public function owner() {
+        return $this->hasOne(Photos::class);
+    }
+}
+
+```
 
 ### Day 41
 

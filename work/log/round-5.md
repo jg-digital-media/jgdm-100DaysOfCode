@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 41 of 100. **Last Update:** 06 August 2020
+## **Status:** Day 42 of 100. **Last Update:** 07 August 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R5D42: Friday 07 August 2020
+
++ **Notes**
+  +  Learned about how to define Database relationships with Laravel using Eloquent. 
+                
+  + **Technologies used** - HTML5, CSS, JavaScript
+
 
 
 ### R5D41: Thursday 06 August 2020

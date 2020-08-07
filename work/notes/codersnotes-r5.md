@@ -18,12 +18,132 @@
 
 ### Day 41
 
-Fetch api  promise all and laravel migration commands to go here
+#### Fetch api  promise all 
+
+```javascript
+    
+    //promise all syntax  - a more efficent metjod of handling fetch requests
+    Promise.all Syntax
+
+    Promise.all([
+        fetchData('endpoint 1'),
+        fetchData('endpoint 2')
+    ])
+    .then  //(do something when promises have been resolved)
+    
+```
+
+```javascript
+    //Example
+    Promise.all([
+        fetchData('https://dog.ceo/api/breeds/list';),
+        fetchData('https://dog.ceo/api/breeds/image/random';)
+
+    ]).then(data => {
+        //get message via array index
+        const breedList = data[0].message;
+        const randomImage = data[1].message;
+
+        generateOptions(breedList);
+        generateImage(randomImage);
+
+
+    })
+
+```
+
+
+#### About the up() and down() functions in the model
+
+In Laravel,
+
++ the ```up()``` function will run when you use the ```php artisan migrate``` command
++ the ```down()``` function will run when you use the php  - ```artisan migrate:rollback``` command.
++ rollback and rerun migrations  - ```php artisan migrate:refresh```
++ drop all tables and run migration  - ```php artisan migrate:fresh``` command instead.
+
 
 
 ### Day 40
 
 fetch api requests to go here!
+
+```javascript
+
+// Fetch Syntax
+
+console.log("photo.js connected");
+
+fetch()
+    .then()
+    .then()`
+```
+## Example 1: Basic Retrieval from API
+
+```javascript
+
+    //Retrieve basic data and display to screen
+    const panel = document.getElementById("container");
+
+    //Fetch request
+    fetch('https://dog.ceo/api/breeds/image/random')
+    
+        .then(response => response.json(), {
+            mode: "no-cors"
+        })
+        
+        .then(data => generateData(data.message)), {
+            mode: "no-cors"
+        };
+
+
+    //display data
+    function generateData(data) {
+        const print_html = `
+
+            <h2>Breed: </h2>
+            <p>${data}</p>
+            <img src="${data}" alt="${data}" title="${data}" />
+        `;
+        
+        panel.innerHTML = print_html;
+    }
+
+
+```
+
+```javascript
+## Example 3: Reusable Fetch Requests
+
+```javascript
+
+    // Return fetch requests in a single reusable function
+    function fetchData(url) {
+        return fetch(url)
+            .then(res => res.json())
+    }
+
+
+    //Function calls - fetchData function 
+
+    //fetch request - list of names
+    fetchData( 'https://dog.ceo/api/breeds/list' )
+        .then(data => generateNames(data.message)), {
+            mode: "no-cors"
+        };
+
+    //Fetch request
+    fetchData('https://dog.ceo/api/breeds/image/random')
+        
+        .then(data => generateData(data.message)), {
+            mode: "no-cors"
+        };
+    
+    
+```
+
+```
+
 
 ### Day 39
 

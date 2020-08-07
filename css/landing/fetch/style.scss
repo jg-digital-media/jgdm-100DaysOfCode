@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0; }
+  
+body {
+    background: gray; 
+}
+
+#container {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+    border: solid red 1px;
+
+    img {
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #breed_list {
+        h2 {
+            text-align: center;
+        }
+
+        li {
+            display: inline-block;
+            margin-left: 10px;
+        }
+    }
+}
+  

@@ -1,8 +1,11 @@
 # Using the Fetch API
 
-How to make requrests using the fetch API
+How to make requests using the fetch API
 
-## Syntax
++ Fetch Random (using Dog.ceo API)
++ Photos API (using Unsplash.com)
+
+## Fetch() Syntax
 
 ```javascript
 
@@ -16,10 +19,11 @@ https://dog.ceo/dog-api/documentation/
 
 https://dog.ceo/dog-api/documentation/random
 
-+ Note: Using no-cors for localhost testing purposes
-
 
 ## Example 1: Basic Retrieval from API
+
++ Note: Using no-cors for localhost testing purposes
+
 ```javascript
 
     //Retrieve basic data and display to screen

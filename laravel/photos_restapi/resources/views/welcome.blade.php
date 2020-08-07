@@ -85,13 +85,10 @@
                 </div>
 
                 <div class="links">
+                    <a href="#">README</a>
                     <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
+                    <a href="{{env('app_url')}}/apis/photos/">Photos</a>
+                    <a href="{{env('app_url')}}/apis/random/">Random</a><a href="https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkghoa?hl=en" target="_blank">JSON Formatter</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>

@@ -44,3 +44,7 @@
 .env
 composer.json
 package.json
+
+## PHOTOS_RESTAPI
+
+Apply CRUD operations to a REST API in a Laravel setting.

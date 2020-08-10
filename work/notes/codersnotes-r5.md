@@ -13,6 +13,27 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
+### Day 43
+
+```php
+<?php
+
+use Illuminate\Database\Seeder;
+
+class PhotoTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        //
+    }
+}
+
+```
 
 ### Day 42
 

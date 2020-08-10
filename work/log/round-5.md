@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 42 of 100. **Last Update:** 07 August 2020
+## **Status:** Day 43 of 100. **Last Update:** 10 August 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R5D43: Monday 10 August 2020
+
++ **Notes**
+  +  Today has mainly been about updating photography website and lwearning about Factories and Seeders in Laravel. Something seems to have caused problem though with mySQL so phpMyAdmin isn't working. Never simple!  :) 
+                
+  + **Technologies used** - HTML5, CSS, JavaScript
 
 ### R5D42: Friday 07 August 2020
 

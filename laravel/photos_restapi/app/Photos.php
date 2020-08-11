@@ -9,6 +9,6 @@ class Photos extends Model
     //define relationships
     protected $table = 'photos';
     public function owner() {
-        return $this->hasOne(Owner::class);
+        return $this->belongsTo(Owner::class);
     }
 }

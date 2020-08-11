@@ -11,6 +11,7 @@ class PhotoTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        //run test instances of photo model
+        factory(\App\Photos::class, 3)->create();
     }
 }

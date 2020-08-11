@@ -10,7 +10,8 @@ class OwnerTableSeeder extends Seeder
      * @return void
      */
     public function run()
-    {
-        //
+    {        
+        //run test instances of owner model
+        factory(\App\Owner::class, 3)->create();
     }
 }

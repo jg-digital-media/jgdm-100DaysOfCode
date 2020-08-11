@@ -13,6 +13,44 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
+### Day 434
+
+```php
+
+//use the faker library
+$factory->define(Owner::class, function (Faker $faker) {
+    return [
+        //test data with Faker library
+        "name" => $faker->name,
+        "copyright" => $faker->sentence
+    ];
+});
+
+
+```
+
+```php 
+<?php
+
+use Illuminate\Database\Seeder;
+
+//Seeder
+class OwnerTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {        
+        //run test instances of owner model
+        factory(\App\Owner::class, 3)->create();
+    }
+}
+
+```
+
 ### Day 43
 
 ```php

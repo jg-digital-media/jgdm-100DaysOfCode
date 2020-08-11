@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 43 of 100. **Last Update:** 10 August 2020
+## **Status:** Day 44 of 100. **Last Update:** 11 August 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R5D44: Tuesday 11 August 2020
+
++ **Notes**
+  +  Progressed with Laravel and was able to solve a lot of development problems by multiple seeding and migrations. I have Eloquent Relationship problems to sort out still but I'm taking today as a win. #thejourney #laravel #dev
+                
+  + **Technologies used** - HTML5, CSS, Laravel, JavaScript
 
 ### R5D43: Monday 10 August 2020
 

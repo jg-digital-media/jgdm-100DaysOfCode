@@ -124,9 +124,10 @@
                 display: inline-block;
                 color: $link-col;
                 font-weight: bold;
+                text-decoration: none;
 
                 &:hover {
-                    text-decoration: none;
+                    text-decoration: underline;
                     color: $link-col-h;
                 }
 
@@ -136,6 +137,7 @@
             }
 
             a.selected {
+                text-decoration: none;
                 font-weight: bold;
                 color: $link-col-h;
             }

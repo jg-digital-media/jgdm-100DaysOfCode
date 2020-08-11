@@ -24,6 +24,13 @@ body {
     grid-template-columns: 1fr 360px;
     height: auto;
 
+    @media (max-width: $md) {
+        
+    grid-template-columns: 1fr 160px;
+    grid-template-columns: 1fr 250px;
+
+    }
+
     .category-heading {
         /* border: solid black 1px; */
         padding: 20px;

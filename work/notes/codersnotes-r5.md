@@ -13,11 +13,99 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
+### Day 46
+
+```php
+
+ <a href="api/photos/">Photos</a>
+                    <a href="api/owner/">Owners</a>
+```
+
+```php
+
+ <a href="{{env('app_url')}}:8000/api/photos/">Photos</a>
+                    <a href="{{env('app_url')}}:8000/api/owner/">Owners</a>
+```
+
 ### Day 45
 
 
-defined resource controllers and learned about CRUD operations witin them
+defined resource controllers and learned about CRUD operations within them
 
+```php
+class OwnerController extends Controller
+{
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        //return a response
+        return response(Photos::all(), 200);
+    }
+
+    //more functions
+}
+```
+
+
++ function store()
++ show() 
++ update()
++ destroy()
+
+```php
+
+   public function show(Owner $owner)
+    {
+        //return a response
+        response($owner, 200);
+
+    }
+
+    public function store(Request $request)
+    {
+
+        //validate model properties
+        $data = $request->validate([
+            "name" => "required",
+            "copyright" => "copyright"
+        ]);
+
+        $owner = Owner::create($data);
+
+        //populate once validated
+        /* $owner = new Owner();
+        $owner->name = $data->name;
+        $owner->copyright = $data->copyright;
+        $owner->save(); */
+
+    }
+
+     public function update(Request $request, Owner $owner)
+    {
+        //validate model properties
+        $data = $request->validate([
+            "name" => "required",
+            "copyright" => "copyright"
+        ]);
+
+        return response($owner->owner($data), 200);
+    }
+
+
+
+    public function destroy(Owner $owner)
+        {
+            //return a response
+            $owner->delete();
+            return response(null, 204);
+        }
+
+
+```
 
 
 ### Day 44

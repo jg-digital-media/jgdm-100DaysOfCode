@@ -1,14 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 45 of 100. **Last Update:** 11=1 August 2020
+## **Status:** Day 46 of 100. **Last Update:** 13 August 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R5D46: Thursday 13 August 2020
 
++ **Notes**
+  + Had a lot of fun with Laravel Resource files and with a lot of trial and error I have routes sucessfully retrieving API data. And I learned how to hide sensitive database specific data too.   
+                
+  + **Technologies used** - HTML5, CSS, Laravel, JavaScript
 
-### R5D45: Wedesday 12 August 2020
+### R5D45: Wednesday 12 August 2020
 
 + **Notes**
   +  Defined resource controllers in Laravel and gained an insight into how CRUD operations within them. Still a long way to go.  Hopeful I've got it right! Migration and Seeding still working.

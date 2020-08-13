@@ -78,6 +78,7 @@
         $trailTitleEighteen = "Denemouth Coastal Trail";
         $trailTitleNineteen = "Limekiln Coastal Trail";
         $trailTitleTwenty = "Title Twenty";
+        $trailTitleTwentyTwo = "Walk 22 Red Squirrel Trail";
 
         //Trail types
         $trailTypeCoastal = "Coastal";

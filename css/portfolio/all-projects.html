@@ -162,11 +162,9 @@ Last Updated:   06th January 2019
 
             <h2>All Projects  <span id="project_count" role="project_count"> 0 </span> <!----> </h2>  
 
-            <div class="all lazy">
+            <div class="all lazy" id="all_projects_list" role="all projects list">
 
-                <!-- -->
-
-                    
+                <!-- -->                    
     
             </div>
 
@@ -181,13 +179,28 @@ Last Updated:   06th January 2019
 
     <div class="ios-background"></div>
     
-    <script type="text/javascript" src="scripts/jquery.js"></script>    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
     <script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.7.0/intersection-observer.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script> -->
+    
+    <!-- 
+    <script type="text/javascript" src="scripts/jquery.js"></script> -->   
     <script type="text/javascript" src="scripts/app.js"></script>
 
     <script type="text/javascript">
-    
+
+       /*  var lazyLoadInstance = new LazyLoad({
+
+            // Your custom settings go here
+            container: ".all",
+            //use_native: true, //  there you go 
+            elements_selector: ".site-images .lazy",
+            threshold: 900
+
+        }); */
+
 
     </script>
 

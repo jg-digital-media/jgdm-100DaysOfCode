@@ -27,7 +27,14 @@ jQuery.getJSON('assets/data/project-list.json', function(photoData) {
     for (let i=0; i < itemAll; i++) { 
         
         //successful delivery of class and image URL    - uses data-src and/or src attributes for image element        
-        jQuery(`<a href="${photoData.projects[i].project_url}" target="blank"><img ${photoData.projects[i].img_type}="${photoData.projects[i].img_url}"  class="site-images lazy" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" /></a>`).appendTo('.all');     
+        jQuery(`<a href="${photoData.projects[i].project_url}" target="blank">
+            <img 
+            
+            ${photoData.projects[i].img_type_data}="${photoData.projects[i].img_url}" 
+            class="site-images lazy" alt="${photoData.projects[i].project_alt}" 
+            title="${photoData.projects[i].project_alt}" 
+            tabindex="" /></a>`
+        ).appendTo('.all');     
 
    }
 
@@ -109,19 +116,24 @@ $(document).ready(function() {
 
     });
 
+
     //lazyload       
+
+ 
     var lazyLoadInstance = new LazyLoad({
         // Your custom settings go here
-        container: ".all",
+        container: document.querySelector(".all"),
         //use_native: true, // <-- there you go -->
-        elements_selector: ".site-images .lazy",
+        elements_selector: document.querySelector("all_projects_list"),
         threshold: 900
 
     });
 
+    lazyLoadInstance.update();
 
-    //jQuery Form Validation.  /**/
-    
+
+
+    //jQuery Form Validation.          
 	// Place ID's of all required fields here.
 	required = ["name", "email", "your-url", "subject"];
 	// If using an ID other than #email or #error then replace it here
@@ -189,19 +201,23 @@ $(document).ready(function() {
 });
 
 
-[].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
-	img.setAttribute('src', img.getAttribute('data-src'));
-	img.onload = function() {
-		img.removeAttribute('data-src');
-	};
-});
-  
-
 // Open Small Browser window
 function openWindow(url, width, height) {
     window.open(url, width, height);
 }
 
-//project status code
+
+
+
+
+
+//
+/* [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+	img.setAttribute('src', img.getAttribute('data-src'));
+	img.onload = function() {
+		img.removeAttribute('data-src');
+	};
+}); */
+  
 
 

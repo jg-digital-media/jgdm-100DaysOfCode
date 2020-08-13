@@ -37,6 +37,8 @@
 
         <p><?php require("inc/walk-modals/dene/walk-six.php"); ?> </p> <!-- -->
 
+        <p><?php require("inc/walk-modals/dene/walk-twentytwo.php"); ?> </p> <!-- -->
+
     </section>
 
 <?php require_once "inc/footer.php"; ?>

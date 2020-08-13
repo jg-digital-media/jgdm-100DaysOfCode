@@ -1,5 +1,9 @@
 console.log("photo.js connected");
 
+const ACCESS_TOKEN = "zkiYj0naBQBgRYCTJwxBDiFic1xncn-b70hftLJVzn8";
+const user = "webdesignerjon"
+const url = "https://api.unsplash.com/" + user + "/photos/random/" + ACCESS_TOKEN;
+
 const photos_list = document.getElementById("photos-list");
 
 function fetchData(url) {
@@ -9,7 +13,7 @@ function fetchData(url) {
 
 
 //fetch request - list of names
-fetchData( 'https://api.unsplash.com/users/webdesignerjon/photos' )
+fetchData( url )
     .then(data => getPhotos(data.message)), {
         mode: "no-cors"
     };
@@ -21,7 +25,7 @@ function getPhotos(data) {
           
           <li>${item}</li>
           
-    `).join("");
+    `).join( " " );
 
-    list.innerHTML = print_names;
+    list.innerHTML = photos_list;
 };

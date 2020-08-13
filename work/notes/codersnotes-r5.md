@@ -13,7 +13,14 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
-### Day 434
+### Day 45
+
+
+defined resource controllers and learned about CRUD operations witin them
+
+
+
+### Day 44
 
 ```php
 

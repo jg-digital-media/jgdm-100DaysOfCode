@@ -53,7 +53,7 @@ class OwnerController extends Controller
     public function show(Owner $owner)
     {
         //return a response
-        response($owner, 200);
+        return response(new OwnerResource($owner), 200 );
 
     }
 

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Photos;
+use App\Http\Resources\PhotoResource;
 use Illuminate\Http\Request;
 
 class PhotosController extends Controller
@@ -15,7 +16,7 @@ class PhotosController extends Controller
     public function index()
     {
         //return a response
-        return response(Photos::all(), 200);
+        return response(PhotoResource::collection(Photos::all(), 200));
     }
 
     /**

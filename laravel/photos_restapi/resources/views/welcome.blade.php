@@ -89,7 +89,8 @@
                     <a href="https://laravel.com/docs">Docs</a>
                     <a href="api/photos/">Photos</a>
                     <a href="api/owner/">Owners</a>
-                    <a href="{{env('app_url')}}/apis/random/">Random</a><a href="https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkghoa?hl=en" target="_blank">JSON Formatter</a>
+                    <a href="api/owner/1">Owners 1</a>
+                    <a href="{{env('app_1url')}}/apis/random/">Random</a><a href="https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkghoa?hl=en" target="_blank">JSON Formatter</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>

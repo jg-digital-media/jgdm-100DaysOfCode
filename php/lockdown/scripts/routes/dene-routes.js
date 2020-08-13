@@ -7,6 +7,7 @@ var modalThree = document.getElementById('modal-area-three');
 var modalFour = document.getElementById('modal-area-four');
 var modalFive = document.getElementById('modal-area-five');
 var modalSix = document.getElementById('modal-area-six');
+var modalTwentyTwo = document.getElementById('modal-area-twentytwo');
 
 
 // Select the buttons that open the Modals
@@ -16,6 +17,7 @@ var btnThree = document.getElementById('modal_btn_three');
 var btnFour = document.getElementById('modal_btn_four');
 var btnFive = document.getElementById('modal_btn_five');
 var btnSix = document.getElementById('modal_btn_six');
+var btnTwentyTwo = document.getElementById('modal_btn_twentytwo');
 
 
 // Select the <span> element that closes the Modals
@@ -25,6 +27,7 @@ var closeThree = document.getElementsByClassName('close')[2];
 var closeFour = document.getElementsByClassName('close')[3];
 var closeFive = document.getElementsByClassName('close')[4];
 var closeSix = document.getElementsByClassName('close')[5];
+var closeTwentyTwo = document.getElementsByClassName('close')[6];
 
 
 // When the user clicks on the button, open the modals 
@@ -55,6 +58,11 @@ btnFive.onclick = function() {
 
 btnSix.onclick = function() {
     modalSix.style.display = "block";
+    //console.log("modal 3 clicked!");
+}
+
+btnTwentyTwo.onclick = function() {
+    modalTwentyTwo.style.display = "block";
     //console.log("modal 3 clicked!");
 }
 
@@ -128,5 +136,17 @@ closeSix.onclick = function() {
 window.onclick = function(event) {
     if (event.target == modalSix) {
         modalSix.style.display = "none";
+    }
+}
+
+
+closeTwentyTwo.onclick = function() {
+    modalTwentyTwo.style.display = "none";
+    console.log("modal closed!");
+}
+
+window.onclick = function(event) {
+    if (event.target == modalTwentyTwo) {
+        modalTwentyTwo.style.display = "none";
     }
 }

@@ -41,6 +41,8 @@
 
             <li><a href="inc/walk-templates/dene/walk-six.php" title="<?php echo $trailTitleSix; ?>"><strong>Route 6</strong> - <?php echo $trailTitleSix; ?></a> <div class="trail-type">(<?php echo $trailTypeDene ?>)</div> </li>
 
+            <li><a href="inc/walk-templates/dene/walk-twentytwo.php" title="<?php echo $trailTitleTwentyTwo; ?>"><strong>Route 22</strong> - <?php echo $trailTitleTwentyTwo; ?></a> <div class="trail-type">(<?php echo $trailTypeDene ?>)</div> </li>
+
             <li><a href="inc/walk-templates/railway/walk-seven.php" title="<?php echo $trailTitleSeven; ?>"><strong>Route 7</strong> - <?php echo $trailTitleSeven; ?></a> <div class="trail-type">(<?php echo $trailTypeRailwayLine ?>)</div> </li>
 
             <li><a href="inc/walk-templates/railway/walk-eight.php" title="<?php echo $trailTitleEight; ?>)"><strong>Route 8</strong> - <?php echo $trailTitleEight; ?></a> <div class="trail-type">(<?php echo $trailTypeRailwayLine ?>)</div> </li>

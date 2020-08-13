@@ -1,0 +1,63 @@
+<?php  
+
+    $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
+    $pageTitle = "Req Squirrel Trail: #4";
+    $trailType= "trail-template";
+
+
+    $meta_description = "The 4th Trail related to the Req Squirrel Route Castle Eden Dene";
+    $meta_keywords = "Red Squirrel Route, gravel trail, Castle Eden, Castle Eden Dene";
+    $meta_image = "https://projects.jonniegrieve.co.uk/lockdown/img/preview.png";
+
+    $fb_title = $pageTitle;
+    $fb_description = $meta_description;
+    $fb_image = $meta_image;
+    $fb_url = "https://projects.jonniegrieve.co.uk/lockdown/walk-twentytwo.php";
+
+    $canonical = "https://projects.jonniegrieve.co.uk/lockdown/walk-twentytwo.php";
+
+    $selected = "routes";
+
+    //Walk Template - Trail URLS
+    $walk_homepage_five ="../../../img/walk_homepage/walk-twentytwo.jpg";
+?>
+
+<?php require_once "../../../inc/header.php"; ?>
+
+<section class="walk-template">
+
+    <article>
+
+        <h2> <?php echo $trailTitleFive; ?> </h2>
+
+        <div class="template-content">
+
+            <article class="content">
+        
+                <p>This is the 4th Trail that follows the Red Squirrel Route. It diverges at the clearing to the right of the 2 small bridges.</p>
+
+                <h3>Trail Details</h3>
+
+                <ol>
+                    <li>.</li>
+                    <li>.</li>
+                    <li>.</li>
+                    <li>.</li>
+                    <li></li>
+                    <li>.</li>
+                    <li>.</li>
+                    <li>.</li>
+                </ol>    
+                
+                <a href="../../../index.php" class="back-home">Back Home</a>
+
+            </article>  
+
+            <img src="<?php echo $walk_homepage_twentytwo; ?>" class="walk-template-img" alt="" title="" />
+
+        </div>
+
+    </article>
+
+</section>
+<?php require_once "../../../inc/footer.php"; ?>

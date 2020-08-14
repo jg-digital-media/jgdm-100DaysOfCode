@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 46 of 100. **Last Update:** 13 August 2020
+## **Status:** Day 47 of 100. **Last Update:** 14 August 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+### R5D47: Friday 14 August 2020
+
++ **Notes**
+  + Coming to the end of my exploration of Laravel and REST apis feeling like I've learned a lot but stll have a way to go.  I feel like I can do this though. Laravel is a fun and usefu; framework to use.   
+                
+  + **Technologies used** - HTML5, CSS, Laravel, JavaScript
 
 ### R5D46: Thursday 13 August 2020
 

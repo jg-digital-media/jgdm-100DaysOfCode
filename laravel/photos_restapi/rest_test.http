@@ -38,4 +38,8 @@ DELETE http://127.0.0.1:8000/api/owner/6
 GET http://localhost:8000/api/photos
 
 ### GET - specific photo
-GET http://localhost:8000/api/photos/1
+GET http://localhost:8000/api/photos/2
+
+### PUT
+
+POST http://localhost:8000/api/photos/1?_method=PUT

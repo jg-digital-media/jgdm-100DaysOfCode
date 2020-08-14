@@ -1,0 +1,26 @@
+
+### ALL PHOTOS
+
+GET http://localhost:8000/api/photos
+
+### SINGLE PHOTOS
+
+GET http://localhost:8000/api/photos/1
+
+### ALL OWNERS
+
+GET http://localhost:8000/api/owner
+
+### SINGLE OWNER
+
+GET http://localhost:8000/api/owner/3
+
+
+### CREATE/POST create new photo resource
+POST http://localhost:8000/api/owner/
+Content-Type: application/json
+
+{
+   "name": "Jonathan Grieve",
+   "copyright": "@copyright 2020 Jonathan"
+}

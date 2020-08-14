@@ -14,14 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-Route::get('owner', 'OwnerController@index');
-
-Route::get('owner/{owner}', 'OwnerController@show');
-Route::put('owner/{owner}','OwnerController@update');
-Route::patch('owner/{owner}','OwnerController@update');
-Route::post('owner', 'OwnerController@store');
-Route::delete('owner/{owner}','OwnerController@destroy');
+Route::resource('owner', 'OwnerController');
 
 
 Route::get('photos', 'PhotosController@index');

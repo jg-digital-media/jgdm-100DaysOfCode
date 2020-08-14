@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Owner extends Model
 {
+    
+    //attach Owner table to model
     protected $table = 'owner';
 
     protected $fillable = [

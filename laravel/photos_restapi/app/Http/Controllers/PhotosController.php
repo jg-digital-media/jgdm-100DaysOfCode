@@ -31,17 +31,9 @@ class PhotosController extends Controller
         //validate model properties
         $validate = Validator::make($request->toArray(), [
             "name" => "required",
-            "url" => "required",
-            "captions" => "required"
+            "url" => "required"
         ]);
-
-        //populate once validated
-        $photos = new Photos();
-        $photos->name = $data->name;
-        $photos->url = $data->url;
-        $photos->captions = $data->captions;
-        $photos->save();
-
+   
         //return a response
         return response( new PhotoResource(Photos::create($validate->validate())), 201);  //201 created Status
 
@@ -78,10 +70,10 @@ class PhotosController extends Controller
         ]);
 
         //capture the update
-        $photos->update($data);
+        $photos->update( $validate->validate() );
 
         //return a response
-        return response( new PhotoResource(Photos::create($validate->validate())), 201);  //201 created Status
+        return response( new PhotoResource(Photos::create($photos)), 200);  //201 created Status
     }
 
     /**

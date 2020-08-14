@@ -35,6 +35,7 @@ class OwnerController extends Controller
             "copyright" => "required"
         ]);
 
+        //return a response
         return response( new OwnerResource(Owner::create($validate->validate())), 201);  //201 created Status
 
         //populate once validated

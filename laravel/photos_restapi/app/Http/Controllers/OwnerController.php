@@ -65,16 +65,19 @@ class OwnerController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Owner $owner)
-    {
-        //validate model properties
-        $data = $request->validate([
-            "name" => "required",
-            "copyright" => "copyright"
+    
+    public function update(Request $request, Owner $owner) {
+        $validate = Validator::make($request->toArray(), [
+            'name' => 'required',
+            'copyright' => 'required'
         ]);
-
-        return response($owner->owner($data), 200);
+    
+        $owner->update($validate->validate());
+    
+        return response(new OwnerResource($owner), 201);  //201 the successful response
+    
     }
+        
 
     /**
      * Remove the specified resource from storage.

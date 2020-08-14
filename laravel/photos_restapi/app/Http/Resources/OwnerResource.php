@@ -15,6 +15,8 @@ class OwnerResource extends JsonResource
     public function toArray($request)
     {
         return [
+
+            //show specific fields of data in requests
             "name" => $this->name,
             "copyright" => $this->copyright
         ];

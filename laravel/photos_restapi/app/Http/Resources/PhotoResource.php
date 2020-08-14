@@ -15,8 +15,11 @@ class PhotoResource extends JsonResource
     public function toArray($request)
     {
         return[
+
+            //show specific fields of data in requests
             "name" => $this->name,
-            "url" => $this->url
+            "url" => $this->url,
+            "captions" => $this->captions
         ];
     }
 }

@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('owner', 'OwnerController@index');
+
 Route::get('owner/{owner}', 'OwnerController@show');
 Route::put('owner/{owner}','OwnerController@update');
 Route::patch('owner/{owner}','OwnerController@update');
@@ -24,3 +25,9 @@ Route::delete('owner/{owner}','OwnerController@destroy');
 
 
 Route::get('photos', 'PhotosController@index');
+
+Route::get('photos/{photo}', 'PhotosController@show');
+Route::put('photos/{photo}','PhotosController@update');
+Route::patch('photos/{photo}','PhotosController@update');
+Route::post('photos', 'PhotosController@store');
+Route::delete('photos/{photo}','PhotosController@destroy');

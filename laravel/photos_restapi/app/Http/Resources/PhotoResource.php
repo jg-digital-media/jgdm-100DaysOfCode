@@ -19,7 +19,8 @@ class PhotoResource extends JsonResource
             //show specific fields of data in requests
             "name" => $this->name,
             "url" => $this->url,
-            "captions" => $this->captions
+            "owner" => new OwnerResource($this->owner)
+            //"captions" => $this->captions
         ];
     }
 }

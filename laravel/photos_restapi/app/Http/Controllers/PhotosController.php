@@ -16,7 +16,7 @@ class PhotosController extends Controller
     public function index()
     {
         //return a response
-        return response(PhotoResource::collection(Photos::all(), 200));
+        return response(PhotoResource::collection(Photos::all()), 200);
     }
 
     /**
@@ -29,7 +29,7 @@ class PhotosController extends Controller
     {
 
         //validate model properties
-        $data = $request->validate([
+        $validate = Validator::make($request->toArray(), [
             "name" => "required",
             "url" => "required",
             "captions" => "required"
@@ -43,7 +43,7 @@ class PhotosController extends Controller
         $photos->save();
 
         //return a response
-        return response($photos, 201);
+        return response( new PhotoResource(Photos::create($validate->validate())), 201);  //201 created Status
 
         //return response( Photos::create($data) ) 
     }
@@ -71,7 +71,7 @@ class PhotosController extends Controller
     {
         
         //validate model properties
-        $data = $request->validate([
+        $validate = Validator::make($request->toArray(), [
             "name" => "required",
             "url" => "required",
             "captions" => "required"
@@ -81,7 +81,7 @@ class PhotosController extends Controller
         $photos->update($data);
 
         //return a response
-        return response( $photos->update($data) );
+        return response( new PhotoResource(Photos::create($validate->validate())), 201);  //201 created Status
     }
 
     /**

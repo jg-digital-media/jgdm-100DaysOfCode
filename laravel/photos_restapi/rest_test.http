@@ -21,7 +21,7 @@ POST http://localhost:8000/api/owner/
 Content-Type: application/json
 
 {
-   "name": "Jonathan Grieve",
+   "name": "Jonnie Grieve",
    "copyright": "@copyright 2020 Jonathan"
 }
 
@@ -33,3 +33,9 @@ Content-Type: application/json
     "name": "Guil Hernandez",
     "copyright": "@copyright Software Development Teacher 2020"
 }
+
+
+### DELETE a specific resource
+
+#DELETE http://localhost:8000/api/owner/1
+DELETE http://127.0.0.1:8000/api/owner/6

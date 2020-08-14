@@ -1,22 +1,13 @@
-
-### ALL PHOTOS
-
-GET http://localhost:8000/api/photos
-
-### SINGLE PHOTOS
-
-GET http://localhost:8000/api/photos/1
-
-### ALL OWNERS
+### GET - All owners
 
 GET http://localhost:8000/api/owner
 
-### SINGLE OWNER
+### GET - Single Owner
 
 GET http://localhost:8000/api/owner/3
 
 
-### CREATE/POST create new photo resource
+### POST - create new photo resource
 POST http://localhost:8000/api/owner/
 Content-Type: application/json
 
@@ -25,7 +16,7 @@ Content-Type: application/json
    "copyright": "@copyright 2020 Jonathan"
 }
 
-### PUT request change to first author
+### PUT - request change to first author with post
 POST http://localhost:8000/api/owner/1?_method=PUT
 Content-Type: application/json
 
@@ -35,7 +26,16 @@ Content-Type: application/json
 }
 
 
-### DELETE a specific resource
+### DELETE - a specific resource
 
-#DELETE http://localhost:8000/api/owner/1
+### DELETE http://localhost:8000/api/owner/1
 DELETE http://127.0.0.1:8000/api/owner/6
+
+
+### PHOTOS REQUESTS
+
+# GET - all photos
+GET http://localhost:8000/api/photos
+
+### GET - specific photo
+GET http://localhost:8000/api/photos/1

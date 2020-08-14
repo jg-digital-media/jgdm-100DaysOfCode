@@ -24,3 +24,12 @@ Content-Type: application/json
    "name": "Jonathan Grieve",
    "copyright": "@copyright 2020 Jonathan"
 }
+
+### PUT request change to first author
+POST http://localhost:8000/api/owner/1?_method=PUT
+Content-Type: application/json
+
+{
+    "name": "Guil Hernandez",
+    "copyright": "@copyright Software Development Teacher 2020"
+}

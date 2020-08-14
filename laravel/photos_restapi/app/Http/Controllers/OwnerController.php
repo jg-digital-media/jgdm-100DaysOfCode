@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Owner;
 use App\Http\Resources\OwnerResource;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class OwnerController extends Controller
 {
@@ -29,12 +30,12 @@ class OwnerController extends Controller
     {
 
         //validate model properties
-        $data = $request->validate([
+        $validate = Validator::make($request->toArray(), [
             "name" => "required",
-            "copyright" => "copyright"
+            "copyright" => "required"
         ]);
 
-        $owner = Owner::create($data);
+        return response( new OwnerResource(Owner::create($validate->validate())), 201);  //201 created Status
 
         //populate once validated
         /* $owner = new Owner();

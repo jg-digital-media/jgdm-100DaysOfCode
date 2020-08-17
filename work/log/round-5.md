@@ -7,6 +7,13 @@ ___
 
 
 
+### R5D48: Friday 17 August 2020
+
++ **Notes**
+  + Created 2 new projects in Laravel with repositories.  The last one on my #100DaysOfCode Repo ran out steam. But this time I think I've got the database relationships defined correctly using Eloquent so API Testing should work better.  
+                
+  + **Technologies used** - HTML5, CSS, Laravel, JavaScript
+
 ### R5D47: Friday 14 August 2020
 
 + **Notes**

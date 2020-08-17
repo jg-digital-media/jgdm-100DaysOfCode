@@ -13,6 +13,38 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
+
+
+### Day 48
+
+```php
+
+Schema Syntax
+Schema::create('authors', function(Blueprint $table) {
+    $table->bigIncrements('id');
+    $table->string('name');
+    $table->string('title');
+    $table->string('company');
+    $table->string('email')->unique();
+    $table->timestamps();   
+
+});
+
+Schema::create('photos', function(Blueprint $table) {
+    $table->bigIncrements('id');
+    $table->string('title');
+    $table->bigInteger('author_id');
+    $table->string('company');
+    $table->longText('abstract');
+    $table->timestamps();
+
+});
+
+
+//Use to link columns together as foreign and primary keys.   Relationships defined
+
+```
+
 ### Day 46
 
 ```php

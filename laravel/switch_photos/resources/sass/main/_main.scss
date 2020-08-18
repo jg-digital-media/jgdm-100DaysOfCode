@@ -38,11 +38,11 @@ body {
         /*height: 100px;*/
         /* display: block; */
         /* position: relative; */
-        width: 95%;
+        /* width: 95%;*/
+        width: 99%;
 
         h2 {
-            font-size: 16pt;
-            margin-bottom: 10px;
+            /*font-size: 15pt;*/
             
             @extend %panel_headings;
         }
@@ -51,6 +51,8 @@ body {
 
     .select-category {
         padding: 20px;
+        /*width: 100%;*/
+        width: 86%;
 
         p {
             line-height: 2;
@@ -66,7 +68,8 @@ body {
         p {
             color: black;
             font-size: 15pt;
-            line-height: 2.4;
+            line-height: 1.9;
+            margin-bottom: 20px
         }
 
         @extend %main-content-panels;

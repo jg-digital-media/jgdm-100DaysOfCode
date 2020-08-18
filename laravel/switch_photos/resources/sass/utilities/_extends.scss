@@ -21,6 +21,7 @@
     border-radius: 10px;
     margin: 5px;
     border: 2px solid black;
+    margin-bottom: 10px;
 
 }
 
@@ -28,7 +29,7 @@
 %panel_headings {
 
     @extend %panel_bg;
-    font-size: 16pt;
+    font-size: 15px;
     color: white;
     color: black;
 
@@ -37,7 +38,10 @@
 %main-content-panels {
 
     @extend %panel_bg;
+
     min-height: 280px;
+    min-height: auto;
+    height: auto;
 
 }
 

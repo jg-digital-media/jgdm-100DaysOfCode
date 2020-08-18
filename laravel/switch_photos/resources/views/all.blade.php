@@ -28,9 +28,13 @@
 
                <!-- gets dynamic list of photo data -->
 
-               <h2>Content Title</h2>
-               <p>Content paragraph</p>
+               <h3>Content Title</h3>
 
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ullam aspernatur ex quo numquam, quibusdam dolore expedita temporibus animi ut sint perspiciatis dolores perferendis autem molestiae sed facilis veritatis. Quasi?</p>
+
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptate voluptates sapiente, aut cum incidunt deserunt fugiat, excepturi, consectetur ea nam nobis! Recusandae animi facilis illum, a dignissimos eligendi! Fugiat?</p>
+
+                <div id="all_images"></div>
             </article>
 
         </article>
@@ -39,11 +43,11 @@
 
                 <h2>Featured Images</h2>
 
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis reiciendis quo id similique eum necessitatibus</p>
+                <p>Featured game this week is an image from the Legend of Zelda: Breath of the Wild.</p>
 
-                <img src="img/zelda_botw/zelda_one.jpg" width= "200" height="150" alt="image" title="image" />
+                <img src="img/zelda_botw/zelda_one.jpg" width= "200" height="150" alt="image" title="image" id="featured_image" />
 
-                <p> Find Out more! </p>
+                <p id="find_more"> Find Out more! </p>
                 
         </aside>
 

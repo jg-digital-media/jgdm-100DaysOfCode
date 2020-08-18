@@ -63,11 +63,11 @@
         
         <div>
 
-            <img src="img/zelda_botw/zelda_one.jpg" width= "200" height="150" alt="image" title="image" />
+            <img src="img/zelda_botw/zelda_one.jpg" width= "200" height="150" alt="Zelda: Breath of the Wild: #1" title="Zelda: Breath of the Wild: #1" />
 
-            <img src="img/zelda_botw/zelda_one.jpg" width= "200" height="150" alt="image" title="image" />
+            <img src="img/zelda_botw/zelda_two.jpg" width= "200" height="150" alt="Zelda: Breath of the Wild: #2" title="Zelda: Breath of the Wild: #2" />
 
-            <img src="img/zelda_botw/zelda_one.jpg" width= "200" height="150" alt="image" title="image" />
+            <img src="img/zelda_botw/zelda_three.jpg" width= "200" height="150" alt="Zelda: Breath of the Wild: #3" title="Zelda: Breath of the Wild: #3" />
 
         </div>
     </aside>

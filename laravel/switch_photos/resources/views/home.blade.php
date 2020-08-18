@@ -64,7 +64,7 @@
                 <label for="tetris"><input type="checkbox" id="tetris" /><p>Tetris-99</p></label>
 
                 <!-- check/uncheck all -->
-                <label for="all"><input type="checkbox" id="all" />ALL</p></label>
+                <label for="all"><input type="checkbox" id="all" /><p>Show/Hide All</p></label>
             <article>
 
         </aside>

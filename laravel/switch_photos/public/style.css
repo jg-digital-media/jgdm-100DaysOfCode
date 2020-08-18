@@ -20,15 +20,18 @@
   border: 0;
   border-radius: 10px;
   margin: 5px;
-  border: 2px solid black; }
+  border: 2px solid black;
+  margin-bottom: 10px; }
 
 .main .category-heading h2, .main .category-photos .category-heading h2, .main .select-category h2, .main .sub-content h2 {
-  font-size: 16pt;
+  font-size: 15px;
   color: white;
   color: black; }
 
 .main .main-content {
-  min-height: 280px; }
+  min-height: 280px;
+  min-height: auto;
+  height: auto; }
 
 textarea#comments, input#name, input#privacy {
   border-radius: 4px;
@@ -185,18 +188,21 @@ body {
     /*height: 100px;*/
     /* display: block; */
     /* position: relative; */
-    width: 95%; }
+    /* width: 95%;*/
+    width: 99%; }
     .main .category-heading h2 {
-      font-size: 16pt;
-      margin-bottom: 10px; }
+      /*font-size: 15pt;*/ }
   .main .select-category {
-    padding: 20px; }
+    padding: 20px;
+    /*width: 100%;*/
+    width: 86%; }
     .main .select-category p {
       line-height: 2; }
   .main .main-content p {
     color: black;
     font-size: 15pt;
-    line-height: 2.4; }
+    line-height: 1.9;
+    margin-bottom: 20px; }
   .main .category-content {
     /* border: solid black 1px; */
     display: grid;
@@ -271,6 +277,21 @@ body {
     margin: 15px 0; }
   .main .sub-content div img {
     margin-top: 10px; }
+  .main .sub-content #featured_image {
+    display: block;
+    margin: 0 auto; }
+  .main .sub-content #find_more {
+    background: #391434;
+    color: white;
+    padding: 10px;
+    border: solid red 1px;
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10pt;
+    border-radius: 10px; }
 
 /*all photos*/
 .all-photos img {

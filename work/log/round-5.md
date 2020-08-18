@@ -1,13 +1,20 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 47 of 100. **Last Update:** 14 August 2020
+## **Status:** Day 49 of 100. **Last Update:** 18 August 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
-### R5D48: Friday 17 August 2020
+### R5D49: Tuesday 18 August 2020
+
++ **Notes**
+  +  Excellent day of coding in the end. Beat the issues with mySQL shutdowns in XAMPP after an hour of troubleshooting and made a lot of progress studying and building a database driven Laravel REST API.
+                
+  + **Technologies used** - HTML5, CSS, Laravel, JavaScript
+
+### R5D48: Monday 17 August 2020
 
 + **Notes**
   + Created 2 new projects in Laravel with repositories.  The last one on my #100DaysOfCode Repo ran out steam. But this time I think I've got the database relationships defined correctly using Eloquent so API Testing should work better.  

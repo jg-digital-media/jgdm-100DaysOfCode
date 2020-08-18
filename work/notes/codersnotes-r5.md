@@ -45,7 +45,9 @@ Schema::create('photos', function(Blueprint $table) {
 
 ```
 
-### Day 46
+### Day 49
+
+### Day 48
 
 ```php
 

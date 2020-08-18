@@ -1,5 +1,5 @@
 /**
- * Date: 09/07/2020
+ * Date: 18/08/2020
  * Authored by: @jg_digitalMedia
  * 
  * Links:
@@ -44,6 +44,8 @@ let toggleFootballManager = document.getElementById("footballmanagertouch");
 
 
 
+//All Route
+
 /** 
  * Get JSON data from each category.
  */
@@ -56,7 +58,7 @@ jQuery.getJSON("data/all-photos-classes.json", function( catOne_data ) {
 
     for( let i=0; i < getCatData; i++ ) {          
 
-        jQuery(`<img class="img ${ catOne_data.zelda_botw[i].img_class }" src="${ catOne_data.zelda_botw[i].img_url }" alt="${ catOne_data.zelda_botw[i].img_alt }" title="${ catOne_data.zelda_botw[i].img_alt }" />"`).appendTo(".category-photos");
+        jQuery(`<img class="img ${ catOne_data.zelda_botw[i].img_class }" src="${ catOne_data.zelda_botw[i].img_url }" alt="${ catOne_data.zelda_botw[i].img_alt }" title="${ catOne_data.zelda_botw[i].img_alt }" />"`).appendTo("#all_images");
     }    
 
 });

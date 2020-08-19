@@ -15,8 +15,12 @@
 
 
 
-### Day 48
+### Day 50
 
+```php artisan key:generate```  generate new key for serving localhost when needed - for swapping between different systems
+```composer.phar update```  update dependencies when needed - for swapping between different systems
+
+### Day 49
 ```php
 
 Schema Syntax
@@ -45,7 +49,7 @@ Schema::create('photos', function(Blueprint $table) {
 
 ```
 
-### Day 49
+
 
 ### Day 48
 

@@ -15,7 +15,7 @@
 
 
 
-### Day 50
+### Day 50 
 
 ```php artisan key:generate```  generate new key for serving localhost when needed - for swapping between different systems
 ```composer.phar update```  update dependencies when needed - for swapping between different systems

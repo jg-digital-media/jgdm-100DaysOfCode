@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 49 of 100. **Last Update:** 18 August 2020
+## **Status:** Day 50 of 100. **Last Update:** 19 August 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+### R5D50: Wednesday 19 August 2020
+
++ **Notes**
+  +  More API testing today with Laravel CRUD operations.  Everything is in order except the UPDATE operations despite extensive troubleshooting. Getting there though.
+                
+  + **Technologies used** - HTML5, CSS, Laravel, JavaScript
 
 
 ### R5D49: Tuesday 18 August 2020

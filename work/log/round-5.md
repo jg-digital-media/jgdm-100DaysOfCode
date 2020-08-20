@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 50 of 100. **Last Update:** 19 August 2020
+## **Status:** Day 51 of 100. **Last Update:** 20 August 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+### R5D51: Thursday 20 August 2020
+
++ **Notes**
+  +  Hit the buffers on the update() method so I started work on my other simpler Laravel Project making good progress on that, Build the view templates, started on the schema and building the sass architecture.
+                
+  + **Technologies used** - HTML5, CSS, Laravel
 
 ### R5D50: Wednesday 19 August 2020
 

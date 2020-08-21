@@ -6,6 +6,12 @@ ___
 ___
 
 
+### R5D52: Friday 21 August 2020
+
++ **Notes**
+  +  More work with Laravel.Progression on 3 Laravel Apps. I'm almost ready with the database part of the project with basic migration and fixed some incorrect code in another. As ever one bug that's driving me crazy but working on it.  :)
+                
+  + **Technologies used** - HTML5, CSS, Laravel
 
 ### R5D51: Thursday 20 August 2020
 

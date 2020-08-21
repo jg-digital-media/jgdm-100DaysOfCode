@@ -12,21 +12,27 @@
   background-size: cover;
   display: block;
   margin: 0 auto;
+  margin: 0 10px;
   min-height: 900px; }
 
 .main .category-heading h2, .main .category-photos .category-heading h2, .main .select-category h2, .main .sub-content h2, .main .main-content {
   background: lightgreen;
-  padding: 20px;
   border: 0;
   border-radius: 10px;
   margin: 5px;
   border: 2px solid black;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  margin: 10px 10px; }
 
 .main .category-heading h2, .main .category-photos .category-heading h2, .main .select-category h2, .main .sub-content h2 {
   font-size: 15px;
   color: white;
-  color: black; }
+  color: black;
+  margin: 10px;
+  padding: 20px; }
+  @media (max-width: 1048px) {
+    .main .category-heading h2, .main .category-photos .category-heading h2, .main .select-category h2, .main .sub-content h2 {
+      padding: 10px; } }
 
 .main .main-content {
   min-height: 280px;
@@ -75,7 +81,8 @@ textarea#comments, input#name, input#privacy {
   padding: 10px; }
   @media (min-width: 1490px) {
     .header {
-      grid-template-columns: minmax(10%, 20%) 531px 1fr; } }
+      grid-template-columns: minmax(10%, 20%) 531px 1fr;
+      /*min-height: 150px;*/ } }
   @media (max-width: 1489px) {
     .header {
       grid-template-columns: minmax(10%, 30%) 350px 1fr;
@@ -107,9 +114,11 @@ textarea#comments, input#name, input#privacy {
     vertical-align: top;
     text-align: center; }
     .header .website-title h1 {
-      /*Font-size: 4vw*/
-      font-size: 30pt;
+      font-family: Roboto;
+      font-size: 36pt;
       font-weight: bold;
+      color: white;
+      outline: tomato;
       /*padding-top: 30px;*/ }
       @media (max-width: 1048px) {
         .header .website-title h1 {
@@ -124,7 +133,8 @@ textarea#comments, input#name, input#privacy {
         padding-top: 10px;
         text-align: center; } }
     .header .main-nav ul {
-      padding-top: 10px; }
+      padding-top: 10px;
+      margin: 10px 0px; }
       @media (max-width: 1490px) {
         .header .main-nav ul {
           width: 100%;
@@ -145,7 +155,7 @@ textarea#comments, input#name, input#privacy {
         font-weight: bold;
         text-decoration: none; }
         .header .main-nav ul a:hover {
-          text-decoration: underline;
+          /*text-decoration: underline;*/
           color: #aff179; }
         .header .main-nav ul a img {
           width: 30px; }
@@ -182,18 +192,13 @@ body {
       grid-template-columns: 1fr 160px;
       grid-template-columns: 1fr 250px; } }
   .main .category-heading {
-    /* border: solid black 1px; */
-    padding: 20px;
-    /* margin-bottom: 10px; */
-    /*height: 100px;*/
-    /* display: block; */
-    /* position: relative; */
-    /* width: 95%;*/
-    width: 99%; }
-    .main .category-heading h2 {
-      /*font-size: 15pt;*/ }
+    /*padding: 20px;*/
+    width: 99%;
+    width: 100%; }
+    @media (max-width: 680px) {
+      .main .category-heading {
+        /*padding: 10px;*/ } }
   .main .select-category {
-    padding: 20px;
     /*width: 100%;*/
     width: 86%; }
     .main .select-category p {

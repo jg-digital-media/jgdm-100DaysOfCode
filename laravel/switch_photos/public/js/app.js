@@ -58,7 +58,7 @@ jQuery.getJSON("data/all-photos-classes.json", function( catOne_data ) {
 
     for( let i=0; i < getCatData; i++ ) {          
 
-        jQuery(`<img class="img ${ catOne_data.zelda_botw[i].img_class }" src="${ catOne_data.zelda_botw[i].img_url }" alt="${ catOne_data.zelda_botw[i].img_alt }" title="${ catOne_data.zelda_botw[i].img_alt }" />"`).appendTo("#all_images");
+        jQuery(`<img class="img ${ catOne_data.zelda_botw[i].img_class }" src="${ catOne_data.zelda_botw[i].img_url }" alt="${ catOne_data.zelda_botw[i].img_alt }" title="${ catOne_data.zelda_botw[i].img_alt }" />"`).appendTo(".category-photos");
     }    
 
 });

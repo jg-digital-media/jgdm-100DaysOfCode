@@ -21,7 +21,7 @@
 
         <article class = "category-heading">
 
-            <h2>Content: Home</h2>
+            <h2>Photo List</h2>
 
             <article class = "category-photos">
 
@@ -35,7 +35,7 @@
   
         <aside class="select-category">
 
-            <h2>Select Image Category</h2>
+            <h2>Select Category</h2>
         
             <article>
                 <label for="zelda-one"><input type="checkbox" id="zelda-one" /><p>Zelda: Breath of the Wild</p></label>

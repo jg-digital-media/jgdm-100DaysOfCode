@@ -32,25 +32,22 @@ body {
     }
 
     .category-heading {
-        /* border: solid black 1px; */
-        padding: 20px;
-        /* margin-bottom: 10px; */
-        /*height: 100px;*/
-        /* display: block; */
-        /* position: relative; */
-        /* width: 95%;*/
+        /*padding: 20px;*/
         width: 99%;
+        width: 100%;
+
+        @media (max-width: 680px) {
+            /*padding: 10px;*/
+        }
 
         h2 {
-            /*font-size: 15pt;*/
             
-            @extend %panel_headings;
+            @extend %panel_heading_h2;
         }
 
     }
 
     .select-category {
-        padding: 20px;
         /*width: 100%;*/
         width: 86%;
 
@@ -69,7 +66,7 @@ body {
             color: black;
             font-size: 15pt;
             line-height: 1.9;
-            margin-bottom: 20px
+            margin-bottom: 20px;
         }
 
         @extend %main-content-panels;

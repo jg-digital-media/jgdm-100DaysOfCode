@@ -55,6 +55,9 @@
                 
                 <a href="../../../index.php" class="back-home">Back Home</a>
 
+<a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/railway/walk-nine.php" ;?>" class="pagination">&lt;&lt; Back</a> | 
+<a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/railway/walk-eleven.php" ;?>" class="pagination">Forward &gt;&gt;</a>
+
             </article>  
 
             <img src="<?php echo $walk_homepage_ten; ?>" class="walk-template-img" alt="<?php echo $pageTitle; ?>" title="<?php echo $pageTitle; ?>" />

@@ -46,6 +46,9 @@
                 
                 <a href="../../../index.php" class="back-home">Back Home</a>
 
+<a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/coastal/walk-fifteen.php" ;?>" class="pagination">&lt;&lt; Back</a> | 
+<a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/coastal/walk-seventeen.php" ;?>" class="pagination">Forward &gt;&gt;</a>
+
             </article>  
 
             <img src="<?php echo $walk_homepage_sixteen; ?>" class="walk-template-img" alt="<?php echo $pageTitle; ?>" title="<?php echo $pageTitle; ?>" />

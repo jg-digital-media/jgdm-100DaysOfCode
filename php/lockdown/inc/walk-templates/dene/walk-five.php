@@ -1,7 +1,7 @@
 <?php  
 
     $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
-    $pageTitle = "Walk Dene 5 - Yew Tree Trail";
+    $pageTitle = "Yew Tree Trail #5";
     $trailType= "trail-template";
 
 
@@ -50,6 +50,9 @@
                 </ol>    
                 
                 <a href="../../../index.php" class="back-home">Back Home</a>
+
+<a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/dene/walk-four.php" ;?>" class="pagination">&lt;&lt; Back</a> | 
+<a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/dene/walk-six.php" ;?>" class="pagination">Forward &gt;&gt;</a>
 
             </article>  
 

@@ -1,7 +1,7 @@
 <?php  
 
     $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
-    $pageTitle = "Req Squirrel Trail: #4";
+    $pageTitle = "Red Squirrel #6";
     $trailType= "trail-template";
 
 
@@ -19,7 +19,7 @@
     $selected = "routes";
 
     //Walk Template - Trail URLS
-    $walk_homepage_five ="../../../img/walk_homepage/walk-twentytwo.jpg";
+    $walk_homepage_twentytwo ="../../../img/walk_homepage/walk-twentytwo.jpg";
 ?>
 
 <?php require_once "../../../inc/header.php"; ?>
@@ -34,7 +34,7 @@
 
             <article class="content">
         
-                <p>This is the 4th Trail that follows the Red Squirrel Route. It diverges at the clearing to the right of the 2 small bridges.</p>
+                <p>This is the 6th Trail that follows the Red Squirrel Route. It diverges at the clearing to the right of the 2 small bridges.</p>
 
                 <h3>Trail Details</h3>
 
@@ -50,6 +50,9 @@
                 </ol>    
                 
                 <a href="../../../index.php" class="back-home">Back Home</a>
+
+<a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/coastal/walk-twenty.php" ;?>" class="pagination">&lt;&lt; Back</a> | 
+<a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/dene/walk-one.php" ;?>" class="pagination">Forward &gt;&gt;</a>
 
             </article>  
 

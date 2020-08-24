@@ -6,6 +6,14 @@ ___
 ___
 
 
+### R5D53: Monday 21 August 2020
+
++ **Notes**
+  +  Attempted to deploy one of my Laravel Projects, getting close.  Updated my Photography website.  Looked into LazyLoading again with JavaScript.  The reasons why that is not working are beyong me I'm afraid. That effort goes on.  :)
+                
+  + **Technologies used** - HTML5, CSS, Laravel
+
+
 ### R5D52: Friday 21 August 2020
 
 + **Notes**

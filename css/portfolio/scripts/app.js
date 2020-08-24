@@ -28,18 +28,43 @@ jQuery.getJSON('assets/data/project-list.json', function(photoData) {
         
         //successful delivery of class and image URL    - uses data-src and/or src attributes for image element        
         jQuery(`<a href="${photoData.projects[i].project_url}" target="blank">
-            <img 
-            
-            ${photoData.projects[i].img_type_data}="${photoData.projects[i].img_url}" 
-            class="site-images lazy" alt="${photoData.projects[i].project_alt}" 
-            title="${photoData.projects[i].project_alt}" 
-            tabindex="" /></a>`
+                    <img ${photoData.projects[i].img_type}="${photoData.projects[i].img_url}" 
+                        class="site-images lazy" 
+                        loading = "lazy"
+                        alt="${photoData.projects[i].project_alt}" 
+                        title="${photoData.projects[i].project_alt}" 
+                        tabindex="" />
+                </a>`
         ).appendTo('.all');     
 
    }
 
 });
 
+
+// create config object: rootMargin and threshold
+// are two properties exposed by the interface
+const config = {
+    rootMargin: '0px 0px 50px 0px',
+    threshold: 0
+};
+
+
+const observer = new IntersectionObserver(observeImages, config);
+const images = document.querySelectorAll(".site-images");
+
+function observeImages(entries) {
+    entries.forEach(entry => {
+        if(entry.intersectionRatio > 0) {
+            observer.unobserve(entry.target);
+            entry.target.src = entry.target.dataset.src;
+        }
+    })
+}
+
+images.forEach(image => {
+    observer.observe(image);
+})
 
 
 //Four featured projects - for website
@@ -74,15 +99,17 @@ jQuery.getJSON('assets/data/project-list-small.json', function(projectFour) {
 });
 
 
+
+
 //testimonials page
 const testimonials = [
- "I’ve always been pleased with the results Jonnie Grieve Digital Media has given me.",
- "Not only did he give my website an important new visual look his SEO changes vastly improved my website ranking",
- "I’ve acquired new business directly from it. We’ve worked together to make sure my website looks good on all devices.",
- "Jonnie is professional, devoted to his work and always available to help no matter how small the job. Highly recommended",
- "Sam Payne: Auto Cleanse North East: ",
- "I have been delighted with the service we have had.  Excellent and caring, with a real determination to get it right.  Would thoroughly recommend."
-]
+    "I’ve always been pleased with the results Jonnie Grieve Digital Media has given me.",
+    "Not only did he give my website an important new visual look his SEO changes vastly improved my website ranking",
+    "I’ve acquired new business directly from it. We’ve worked together to make sure my website looks good on all devices.",
+    "Jonnie is professional, devoted to his work and always available to help no matter how small the job. Highly recommended",
+    "Sam Payne: Auto Cleanse North East: ",
+    "I have been delighted with the service we have had.  Excellent and caring, with a real determination to get it right.  Would thoroughly recommend."
+   ]
 
 /*Sticky Header Element*/
 $(document).ready(function() {

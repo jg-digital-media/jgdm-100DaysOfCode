@@ -62,7 +62,7 @@
         $trailTitleTwo = "Red Squirrel Trail #2";
         $trailTitleThree = "Red Squirrel Trail #3";
         $trailTitleFour = "Horden Trail: Route 4";
-        $trailTitleFive = "Yew Tree Trail";
+        $trailTitleFive = "Yew Tree Trail: Route 5";
         $trailTitleSix = "Yew Tree Loop (Trail)";
         $trailTitleSeven = "Hesleden Trail";
         $trailTitleEight = "Hart to Haswell Right";

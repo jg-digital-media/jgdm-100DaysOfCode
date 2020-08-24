@@ -53,7 +53,7 @@
 
             </article>  
 
-            <img src="<?php echo $walk_homepage_twentytwo; ?>" class="walk-template-img" alt="" title="" />
+            <img src="<?php echo $walk_homepage_twentytwo; ?>" class="walk-template-img" alt="<?php echo $pageTitle; ?>" title="<?php echo $pageTitle; ?>" />
 
         </div>
 

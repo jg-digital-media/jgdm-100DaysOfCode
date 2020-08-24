@@ -19,7 +19,7 @@
     $selected = "routes";
 
     //Walk Template - Trail URLS
-    $walk_homepage_twentytwo ="../../../img/walk_homepage/walk-twentytwo.jpg";
+    $walk_homepage_twentytwo = "../../../img/walk_homepage/walk-twentytwo.jpg";
 ?>
 
 <?php require_once "../../../inc/header.php"; ?>
@@ -51,8 +51,8 @@
                 
                 <a href="../../../index.php" class="back-home">Back Home</a>
 
-<a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/coastal/walk-twenty.php" ;?>" class="pagination">&lt;&lt; Back</a> | 
-<a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/dene/walk-one.php" ;?>" class="pagination">Forward &gt;&gt;</a>
+                <a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/coastal/walk-twenty.php" ;?>" class="pagination">&lt;&lt; Back</a> | 
+                <a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/dene/walk-one.php" ;?>" class="pagination">Forward &gt;&gt;</a>
 
             </article>  
 

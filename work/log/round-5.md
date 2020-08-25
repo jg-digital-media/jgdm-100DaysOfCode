@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 51 of 100. **Last Update:** 20 August 2020
+## **Status:** Day 54 of 100. **Last Update:** 25 August 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-### R5D53: Monday 21 August 2020
+### R5D54: Tuesday 25 August 2020
+
++ **Notes**
+  +  
+                
+  + **Technologies used** - HTML5, CSS, Laravel
+
+### R5D53: Monday 24 August 2020
 
 + **Notes**
   +  Attempted to deploy one of my Laravel Projects, getting close.  Updated my Photography website.  Looked into LazyLoading again with JavaScript.  The reasons why that is not working are beyong me I'm afraid. That effort goes on.  :)

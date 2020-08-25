@@ -15,9 +15,38 @@
 
 
 
-### Day 53
+### Day 54
+
+#### Unsplash fetch() request
+
+```html
+
+https://www.youtube.com/watch?v=zDhVHPRzW6I 4.44
+
+<body>
+   <input type="text" id="search" placeholder="Search Photos" />
+   <button onclick="SearchPhotos()">Search</button>
+
+</body>
+```
+
+```javascript
+function search_photos() {
+    let client_id = "";
+    let query = document.getElementById("search").value;
+    let url = "";
+
+    //make a request to the api
+    
+    fetch(url)
+        .then(function (data) {
+              console.log(data);
+    });
+}
 
 
+
+```
 
 ### Day 50 
 

@@ -11,9 +11,10 @@ $button_bg: purple;
 $col_btn: white;
 
 $col_main: black;
-$col_main_secondary: blue;
+$col_main_secondary: #060676;
 $col_main_tertiary: white;
 $col_header: black;
+$col_span: blue;
 
 //breakpoints
 $mob: 860px;
@@ -180,6 +181,11 @@ body {
     }
 
 }
+
+span, strong {
+    color: blue;
+}
+
 
 #goto_website {
 

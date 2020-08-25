@@ -39,14 +39,12 @@
                 <h3>Trail Details</h3>
 
                 <ol>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
-                    <li></li>
-                    <li>.</li>
-                    <li>.</li>
-                    <li>.</li>
+                    <li>Follow the path down to the gate. The Castle will be on your right. Continue on the trail straight.</li>
+                    <li>Keep going  on this path until you reach the red bridge.</li>
+                    <li>Cross the red bridge and take the very next left.</li>
+                    <li>Keep going forward down to the gully.  Your next route is to the right of the bridge.</li>
+                    <li>You will cross 2 small bridges on your way to the subway.</li>
+                    <li>Your route ends at the subway.</li>
                 </ol>    
                 
                 <a href="../../../index.php" class="back-home">Back Home</a>

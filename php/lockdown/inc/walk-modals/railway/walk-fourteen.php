@@ -27,14 +27,12 @@
                     <h3>Trail Summary</h3>
                     
                     <ol>
-                        <li>.</li>
-                        <li>.</li>
-                        <li>.</li>
-                        <li>.</li>
-                        <li>.</li>
-                        <li>.</li>
-                        <li>.</li>
-                        <li>.</li>
+                        <li>Turn right, cross the footpath until you reach the railway line turn left there.</li>
+                        <li>Turn left at gateway 2. This is the entrance to Hesleden Dene.</li>
+                        <li>Follow the path down until you reach this clearing.</li>
+                        <li>cross the green bridge.</li>
+                        <li> Turn left, cross the railway line until you reach the crossing point leading to Castle Eden. Turn right at that point.</li>                        
+                        <li>Gateway one - first marker in the route.</li>
                     </ol>
 
                     <div class="lightbox-slider">

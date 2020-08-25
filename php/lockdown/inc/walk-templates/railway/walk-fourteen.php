@@ -34,7 +34,7 @@
 
             <article class="content">
         
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita illo fuga omnis incidunt nisi beatae dolores tenetur. Id, voluptatibus. Accusantium culpa voluptate aliquam ad assumenda soluta dignissimos dolorem, quidem inventore!</p>
+                <p> Taking you through 2 Woodland Dene areas, this trail takes the reverse of the Hesleden Route (route 7) ending therough the railway line towaeds Castle Eden and Haswell. </p>
 
                 <h3>Trail Details</h3>
 

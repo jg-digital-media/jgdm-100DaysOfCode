@@ -10,7 +10,7 @@ Client ID's
 
 
 function search_photos() {
-    let client_id = "";
+    let client_id = "c1e47c9589dd4c170d631aabd17cb23af8ec8451cf1c2f5e50af82e4e59f417";
     let query = document.getElementById("search").value;
     let url = "https://api.unsplash.con/search/photos/?client_id=" +
     client_id +

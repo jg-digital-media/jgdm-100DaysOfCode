@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+//CONFIG and Variables
+$main_bg: #fafa61;
+$header_bg: #0b053f;
+$button_bg: purple;
+$col_btn: white;
+
+
+$col_main: black;
+$col_main_secondary: #060676;
+$col_main_tertiary: white;
+$col_header: black;
+$col_span: black;
+
+//breakpoints
+$mob: 860px;
+
+
+
+//fonts
+$font: Roboto, sans-serif;
+$font_main: Arial, Helvetica, sans-serif;
+
+body {
+     background: $main_bg;
+     font-family: $font_main;
+     font-family: $font;
+ }
+
+.main-header {
+
+    background: $header_bg;
+    width: 100%;
+    
+    h1 {
+        font-size: 30pt;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    img#main_logo {
+        margin: 0px auto;
+        width: 300px;
+        display: block;
+    }
+}
+
+#blurb {
+
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border-bottom: solid #2e2e2a 5px;
+    width: 250px;
+    width: 25%;
+    width: 400px;
+    width: 600px;
+    /*height: 35px;*/
+
+    @media(max-width: $mob ) {
+        width: 80%;
+
+    }
+    
+    h2 {
+        color: #8b8b6b;
+        color: #2e2e2a;
+        text-transform: lowercase;
+        font-style: italic;
+        font-size: 14pt;
+        line-height: 1.5;
+
+    }
+
+}
+
+#platforms {
+    text-align: center;
+    height: 150px;
+
+    @media (max-width: $mob) {
+        height: 80px;
+    }
+ 
+    a {
+        text-decoration: none;
+        outline: none;
+
+    
+        img {
+
+            margin: 0 auto;
+            width: 70%;
+            width: 90px;
+            width: 60px;
+            display: inline-block;
+            border-inline: 0;
+
+        
+
+        }
+
+        img#on_facebook, 
+        img#on_twitter, 
+        img#on_instagram {
+            margin-left: 10px;
+            transition: transform .2s, transform .2s;
+
+            &:hover { 
+                transform: rotate(1080deg) scale(1.04);
+            }
+        }
+    }
+   
+}
+
+#selling_point {
+
+    width: 50%;
+    color: $col_main_secondary;
+    display: block;
+    margin: 0 auto;
+
+    @media (max-width: $mob) {
+        width: 95%;
+    }
+
+    p {
+
+        line-height: 1.96;
+        margin-bottom: 24px;
+        font-weight: bold;
+        font-size: 15pt;
+
+        @media (max-width: $mob) {
+            width: 100%;
+        }
+    }
+
+}
+
+#price {
+    color: red;
+
+    @media (max-width: $mob) {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    p:first-child {
+        font-size: 15pt;
+        text-align: center;
+        color: $col-main-secondary;
+        margin-top: 60px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 200pt;
+        font-weight: bold;
+        margin-top: 10px;
+        line-height: 0.9;
+        vertical-align: top;
+    }
+    
+    p:last-child {
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: bold;
+        color: black;   
+        margin-top: 10px;
+
+    }
+
+}
+
+#price_point {
+
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+    width: 50%;
+    margin-top: 60px;
+    color: $col_main_secondary;
+    line-height: 1.7;
+
+    h2 {
+        text-align: center;
+    }
+
+    table { 
+        
+        margin: 20px auto;
+        width: 600px;
+        border-radius: 10px;
+        background: #8b8b6b;
+        background:#B9BF7D;
+        padding: 10px;
+        color: black;
+        line-height: 1.4;
+
+        th {
+            text-underline-position: below;
+            text-align: left;
+            border-bottom: 2px solid black;
+        }
+        
+        td {
+            margin: 0 10px;
+        }
+
+        p {            
+            color: $col-main-secondary;
+            line-height: 1.4;
+        }
+
+    }
+}
+
+span, strong {
+    color: blue;
+}
+
+#goto_website {
+
+    width: 200px;
+    background: #0b053f;
+    color: white;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+    margin: 50px auto 0 auto;
+    padding: 15px 0;
+    text-align: center;
+    transition: transform .1s;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+}
+
+
+.footer {
+
+    width: 100%;
+    text-align: center;
+
+    a {
+        
+        color: purple;
+        font-weight: bold;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    p {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 10px;
+        color: purple;
+        font-family: arial;
+    }
+}

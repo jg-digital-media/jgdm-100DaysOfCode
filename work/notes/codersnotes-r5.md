@@ -31,13 +31,19 @@ https://www.youtube.com/watch?v=zDhVHPRzW6I 4.44
 ```
 
 ```javascript
-function search_photos() {
-    let client_id = "";
-    let query = document.getElementById("search").value;
-    let url = "";
 
-    //make a request to the api
-    
+function search_photos() {
+    let client_id = "access key";
+    let query = document.getElementById("search").value;
+
+
+    let url = "https://api.unsplash.com/search/photos/?client_id=" +
+    client_id +
+    "&query=" +
+    query;
+    console.log(url);
+
+    //make a request to the api using fetch()    
     fetch(url)
         .then(function (data) {
               console.log(data);
@@ -45,8 +51,16 @@ function search_photos() {
 }
 
 
+```
+
+####  ex 2
 
 ```
+```
+
+```
+```
+
 
 ### Day 50 
 

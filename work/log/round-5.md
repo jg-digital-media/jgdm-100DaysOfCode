@@ -9,7 +9,7 @@ ___
 ### R5D54: Tuesday 25 August 2020
 
 + **Notes**
-  +  
+  +  With some tutorial help, I managed to get a successful fetch request to Unsplash's photoapi.  That among other things is a win from today.  :) 
                 
   + **Technologies used** - HTML5, CSS, Laravel
 

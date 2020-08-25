@@ -3,7 +3,7 @@
   margin: 0; }
 
 body {
-  background: yellow;
+  background: #fafa61;
   font-family: Arial, Helvetica, sans-serif;
   font-family: Roboto, sans-serif; }
 
@@ -16,91 +16,120 @@ body {
     text-align: center;
     padding-top: 10px; }
   .main-header img#main_logo {
-    margin: 5px auto;
+    margin: 0px auto;
+    width: 300px;
     display: block; }
 
 #blurb {
   display: block;
   margin: 20px auto;
   text-align: center;
-  border-bottom: solid black 5px;
+  border-bottom: solid #2e2e2a 5px;
   width: 250px;
-  width: 60%;
-  height: 35px;
-  display: block;
-  margin: 20px auto; }
+  width: 25%;
+  width: 400px;
+  width: 600px;
+  /*height: 35px;*/ }
+  @media (max-width: 860px) {
+    #blurb {
+      width: 80%; } }
   #blurb h2 {
     color: #8b8b6b;
+    color: #2e2e2a;
     text-transform: lowercase;
     font-style: italic;
-    font-size: 15pt; }
+    font-size: 14pt;
+    line-height: 1.5; }
 
 #platforms {
   text-align: center;
   height: 150px; }
-  #platforms img {
-    margin: 0 auto;
-    width: 70%;
-    width: 90px;
-    display: inline-block; }
-  #platforms img#on_facebook,
-  #platforms img#on_twitter,
-  #platforms img#on_instagram {
-    margin-left: 10px;
-    transition: transform .2s, transform .2s; }
-    #platforms img#on_facebook:hover,
-    #platforms img#on_twitter:hover,
-    #platforms img#on_instagram:hover {
-      transform: rotate(1080deg) scale(1.04); }
+  @media (max-width: 860px) {
+    #platforms {
+      height: 80px; } }
+  #platforms a {
+    text-decoration: none;
+    outline: none; }
+    #platforms a img {
+      margin: 0 auto;
+      width: 70%;
+      width: 90px;
+      width: 60px;
+      display: inline-block;
+      border-inline: 0; }
+    #platforms a img#on_facebook,
+    #platforms a img#on_twitter,
+    #platforms a img#on_instagram {
+      margin-left: 10px;
+      transition: transform .2s, transform .2s; }
+      #platforms a img#on_facebook:hover,
+      #platforms a img#on_twitter:hover,
+      #platforms a img#on_instagram:hover {
+        transform: rotate(1080deg) scale(1.04); }
 
 #selling_point {
   width: 50%;
   color: blue;
   display: block;
   margin: 0 auto; }
+  @media (max-width: 860px) {
+    #selling_point {
+      width: 95%; } }
   #selling_point p {
     line-height: 1.96;
     margin-bottom: 24px;
     font-weight: bold;
     font-size: 15pt; }
+    @media (max-width: 860px) {
+      #selling_point p {
+        width: 100%; } }
 
 #price {
   color: red; }
+  @media (max-width: 860px) {
+    #price {
+      width: 90%;
+      display: block;
+      margin: 0 auto; } }
   #price p:first-child {
-    font-size: 15px;
+    font-size: 15pt;
     text-align: center;
-    color: black;
-    margin: 0; }
+    color: blue;
+    margin-top: 60px; }
   #price p {
     text-align: center;
     font-size: 200pt;
-    font-weight: bold; }
+    font-weight: bold;
+    margin-top: 10px;
+    line-height: 0.9;
+    vertical-align: top; }
   #price p:last-child {
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 14px;
+    font-style: italic;
     font-weight: bold;
     color: black;
     margin-top: 10px; }
 
 #goto_website {
   width: 200px;
-  background: purple;
+  background: #0b053f;
   color: white;
+  font-weight: bold;
   display: block;
-  margin: 0 auto;
+  text-transform: uppercase;
+  margin: 50px auto 0 auto;
   padding: 15px 0;
   text-align: center;
   transition: transform .1s;
-  cursor: pointer;
-  border-radius: 9px; }
+  cursor: pointer; }
   #goto_website:hover {
-    transform: scale(1.2); }
+    transform: scale(1.1); }
 
 .footer {
   width: 100%;
   text-align: center; }
   .footer a {
-    font-size: 12px;
     color: purple;
     font-weight: bold; }
     .footer a:hover {

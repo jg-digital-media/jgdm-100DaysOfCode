@@ -43,5 +43,14 @@ function search_photos() {
     fetch(url)
         .then(function (data) {
               console.log(data);
-    });
+              return data.json();
+        })
+        .then(function (data) {
+            console.log(data);
+
+            //retrieve individual photos
+            data.results.forEach(photo => {
+
+            });
+        })    
 }

@@ -30,6 +30,7 @@ function get_collection_data() {
 function search_photos() {
     let client_id = "zkiYj0naBQBgRYCTJwxBDiFic1xncn-b70hftLJVzn8";
     let query = document.getElementById("search").value;
+    let results_area = document.getElementById("results");
 
 
     let url = "https://api.unsplash.com/search/photos/?client_id=" +
@@ -41,15 +42,32 @@ function search_photos() {
     //make a request to the api
     
     fetch(url)
+
         .then(function (data) {
               console.log(data);
               return data.json();
         })
+
         .then(function (data) {
             console.log(data);
 
-            //retrieve individual photos
+
+            //retrieve individual photos            
             data.results.forEach(photo => {
+
+                let result = 
+                    `<li> 
+                        <a href="${photo.urls.regular}">
+                            <img src="${photo.urls.regular}" />
+                        </a>
+                    </li>
+                `;               
+
+                //getElementById
+                document.getElementById("results").innerHTML += result;
+                
+                //jquery
+                //$("#results").append(result)
 
             });
         })    

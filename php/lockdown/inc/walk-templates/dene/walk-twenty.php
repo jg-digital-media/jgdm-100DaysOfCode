@@ -19,7 +19,7 @@
     $selected = "routes";
 
     //Walk Template - Trail URLS
-    $walk_homepage_twentytwo = "../../../img/walk_homepage/walk-twentytwo.jpg";
+    $walk_homepage_twenty = "../../../img/walk_homepage/walk-twentytwo.jpg";
 ?>
 
 <?php require_once "../../../inc/header.php"; ?>
@@ -28,7 +28,7 @@
 
     <article>
 
-        <h2> <?php echo $trailTitleFive; ?> </h2>
+        <h2> <?php echo $trailTitleTwenty; ?> </h2>
 
         <div class="template-content">
 
@@ -54,7 +54,7 @@
 
             </article>  
 
-            <img src="<?php echo $walk_homepage_twentytwo; ?>" class="walk-template-img" alt="<?php echo $pageTitle; ?>" title="<?php echo $pageTitle; ?>" />
+            <img src="<?php echo $walk_homepage_twenty; ?>" class="walk-template-img" alt="<?php echo $pageTitle; ?>" title="<?php echo $pageTitle; ?>" />
 
         </div>
 

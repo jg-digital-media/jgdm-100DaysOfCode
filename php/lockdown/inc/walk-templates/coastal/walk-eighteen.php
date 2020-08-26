@@ -1,7 +1,7 @@
-<?php 
+<?php  
 
     $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
-    $pageTitle = "Denemouth Trail (Incomplete)";
+    $pageTitle = "LimeKiln Gill Trail";
     $trailType= "trail-template";
 
 
@@ -12,14 +12,14 @@
     $fb_title = $pageTitle;
     $fb_description = $meta_description;
     $fb_image = $meta_image;
-    $fb_url = "https://projects.jonniegrieve.co.uk/lockdown/walk-eighteen.php";
+    $fb_url = "https://projects.jonniegrieve.co.uk/lockdown/walk-nineteen.php";
 
-    $canonical = "https://projects.jonniegrieve.co.uk/lockdown/walk-eighteen.php";
+    $canonical = "https://projects.jonniegrieve.co.uk/lockdown/walk-nineteen.php";
 
     $selected = "routes";
 
     //Walk Template - Trail URLS
-    $walk_homepage_eighteen ="../../../img/walk_homepage/walk-eighteen.jpg";
+    $walk_homepage_nineteen ="../../../img/walk_homepage/walk-nineteen.jpg";
 ?>
 
 <?php require_once "../../../inc/header.php"; ?>
@@ -28,34 +28,32 @@
 
     <article>
 
-        <h2> <?php echo $trailTitleEighteen; ?> </h2>
+        <h2> <?php echo $trailTitleNineteen; ?> </h2>
 
         <div class="template-content">
 
             <article class="content">
         
-                <p>Denemouth - Links with the main Dene Nature reserve of Castle Eden. You'll walk through an expansive green area and travel a short but steep incline that rewards you with a fine view of the North Sea Coast.</p>
+                <p>Not far from Denemouth.  Trail across to the farthest end of the coast. You can walk to shore or loop straight back.</p>
 
                 <h3>Trail Details</h3>
 
-                <ol>            
-                
-                    <li>Starts in wooded area across the road from the main Castle Eden Dene.</li>
-                    <li>Walk left to reach the main green.</li>
-                    <li>There are 2 ways to the coast.</li>
-                    <li>This trail takes the path that goes right.</li>
-                    <li>There are several steps to traverse up to the top.</li>
-                    <li>The North Sea.</li>
+                <ol>           
+                    <li>Limekiln is a looping coastal trail.</li>
+                    <li>Half way round there's a step path down to the coast.</li>
+                    <li>On the return trail the east coast will be freelu visible to your left</li>
+                    <li>Route meets entrance to Crimdon Dene</li>
+                    <li>At the Pony Trekking center, turn left</li>
                 </ol>    
                 
-                <a href="../../../../index.php" class="back-home">Back Home</a>
+                <a href="../../../index.php" class="back-home">Back Home</a>
 
 <a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/coastal/walk-seventeen.php" ;?>" class="pagination">&lt;&lt; Back</a> | 
 <a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/coastal/walk-nineteen.php" ;?>" class="pagination">Forward &gt;&gt;</a>
 
             </article>  
 
-            <img src="<?php echo $walk_homepage_eighteen; ?>" class="walk-template-img" alt="<?php echo $pageTitle; ?>" title="<?php echo $pageTitle; ?>" />
+            <img src="<?php echo $walk_homepage_nineteen; ?>" class="walk-template-img" alt="<?php echo $pageTitle; ?>" title="<?php echo $pageTitle; ?>" />
 
         </div>
 

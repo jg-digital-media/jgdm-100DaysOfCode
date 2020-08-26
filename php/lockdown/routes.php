@@ -55,7 +55,7 @@
 
             <li><a href="inc/walk-templates/railway/walk-thirteen.php" title="<?php echo $trailTitleThirteen; ?>"><strong>Route 13</strong> - <?php echo $trailTitleThirteen; ?></a> <div class="trail-type">(<?php echo $trailTypeRailwayLine ?>)</div> </li>            
                    
-            <li><a href="inc/walk-templates/coastal/walk-fourteen.php" title="<?php echo $trailTitleFourteen; ?>"><strong>Route 14</strong> - <?php echo $trailTitleFourteen; ?></a> <div class="trail-type">(<?php echo $trailTypeCoastal ?>)</div> </li>
+            <!-- <li><a href="inc/walk-templates/coastal/walk-fourteen.php" title="<?php echo $trailTitleFourteen; ?>"><strong>Route 14</strong> - <?php echo $trailTitleFourteen; ?></a> <div class="trail-type">(<?php echo $trailTypeCoastal ?>)</div> </li> -->
  
             <li><a href="inc/walk-templates/coastal/walk-fifteen.php" title="<?php echo $trailTitleFifteen; ?>"><strong>Route 15</strong> - <?php echo $trailTitleFifteen; ?></a> <div class="trail-type">(<?php echo $trailTypeCoastal ?>)</div> </li>
 

@@ -1,17 +1,25 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 54 of 100. **Last Update:** 25 August 2020
+## **Status:** Day 54 of 100. **Last Update:** 26 August 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+### R5D55: Wednesday 26 August 2020
+
++ **Notes**
+  +  Successful requests made to the unsplash api and have retrieved and have retrieved multiple photos but still a lot of work to to on user authentication workflow. Still, it's been another good day.
+                
+  + **Technologies used** - HTML5, CSS, Laravel
 
 ### R5D54: Tuesday 25 August 2020
 
 + **Notes**
   +  With some tutorial help, I managed to get a successful fetch request to Unsplash's photoapi.  That among other things is a win from today.  :) 
                 
-  + **Technologies used** - HTML5, CSS, Laravel
+  + **Technologies used** - HTML5, CSS
 
 ### R5D53: Monday 24 August 2020
 

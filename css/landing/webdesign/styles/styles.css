@@ -140,7 +140,27 @@ body {
       color: #060676;
       line-height: 1.4; }
 
-span {
+#testimonials {
+  width: 50%;
+  color: #060676;
+  display: block;
+  margin: 0 auto;
+  line-height: 1.7;
+  margin-top: 80px; }
+  @media (max-width: 860px) {
+    #testimonials {
+      width: 95%; } }
+  #testimonials strong {
+    color: blue; }
+  #testimonials .testimonials {
+    color: red; }
+  #testimonials p {
+    font-weight: bold;
+    line-height: 1.96;
+    margin-bottom: 24px;
+    font-size: 15pt; }
+
+span, strong {
   color: blue; }
 
 #goto_website {

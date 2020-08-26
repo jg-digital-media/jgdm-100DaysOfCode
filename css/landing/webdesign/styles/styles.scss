@@ -225,6 +225,37 @@ body {
     }
 }
 
+#testimonials {
+
+    width: 50%;
+    color: $col_main_secondary;
+    display: block;
+    margin: 0 auto;
+    line-height: 1.7;
+    margin-top: 80px;
+
+    @media (max-width: $mob) {
+        width: 
+        95%;
+    }
+
+    strong {
+        color: blue;
+    }
+
+    .testimonials {
+        color: red;
+    }
+
+    p {
+        font-weight: bold;
+        line-height: 1.96;
+        margin-bottom: 24px;
+        font-size: 15pt;
+
+    }
+}
+
 span, strong {
     color: blue;
 }

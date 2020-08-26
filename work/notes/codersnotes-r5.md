@@ -17,7 +17,6 @@
 ### Day 55
 
 #### Endpoints to try
-
 + https://api.unsplash.com/users/random/webdesignerjon/photos
 + https://api.unsplash.com/search/photos?query=query_name 
 + https://api.unsplash.com/photos/random/count=5

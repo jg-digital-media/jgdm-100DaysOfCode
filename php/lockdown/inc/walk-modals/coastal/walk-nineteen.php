@@ -1,31 +1,24 @@
-<!--<p> <?php echo "Walk 19";  ?> </p> -->
+https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/    <h3><?php echo $trailTypeNineteen; ?></h3>
 
-<article class="walk">
-
-    <div>
-
-        <h3><?php echo $trailTitleNineteen; ?></h3>
-
-        <p> Not far from Denemouth.  Trail across to the farthest end of the coast. You can walk to shore or loop straight back. </p>
+        <p>Lorem</p>
 
     </div>
 
     <div>
-
-        <img src = "img/walk_homepage/walk-nineteen.jpg" alt = "<?php echo $trailTitleNineteen; ?>" title="<?php echo $trailTitleNineteen; ?>" />
+        <img src = "img/walk_homepage/walk-nineteen.jpg" alt = "<?php echo $trailTypeNineteen; ?>" title="<?php echo $trailTypeNineteen; ?>" />
 
         <!-- opens modal -->
-        <a href="#" class="walk-btn modal_btn" id="modal_btn_nineteen" title="Open Route">Open Route</a>
+        <a href="#" class="walk-btn modal_btn" id="modal_btn_twenty" title="Open Route">Open Route</a>
         
-        <div id="modal-area-nineteen" class="modal">
+        <div id="modal-area-twenty" class="modal">
 
-            <div id="walk-modal-nineteen">
+            <div id="walk-modal-twenty">
 
                 <div class="modal-content">
                 
                     <span class="close">&times;</span>
 
-                    <h3>Trail Summary </h3>
+                    <h3>Trail Summary</h3>
                     
                     <ol>
                         <li>Limekiln is a looping coastal trail.</li>
@@ -61,7 +54,6 @@
                         <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/limekiln-trail/IMG_20200615_123601.jpg" data-lightbox="walk-nineteen" data-title="Two" class="lightbox-link"></a>
                         <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/limekiln-trail/IMG_20200615_123608.jpg" data-lightbox="walk-nineteen" data-title="Two" class="lightbox-link"></a>
                         <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/limekiln-trail/IMG_20200615_124024.jpg" data-lightbox="walk-nineteen" data-title="End of Trail" class="lightbox-link"></a>
-
                     </div> 
                         
                 </div>

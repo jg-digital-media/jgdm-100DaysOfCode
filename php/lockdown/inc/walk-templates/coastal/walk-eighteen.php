@@ -50,8 +50,8 @@
                 
                 <a href="../../../../index.php" class="back-home">Back Home</a>
 
-<a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/coastal/walk-sixteen.php" ;?>" class="pagination">&lt;&lt; Back</a> | 
-<a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/coastal/walk-eighteen.php" ;?>" class="pagination">Forward &gt;&gt;</a>
+<a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/coastal/walk-seventeen.php" ;?>" class="pagination">&lt;&lt; Back</a> | 
+<a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/coastal/walk-nineteen.php" ;?>" class="pagination">Forward &gt;&gt;</a>
 
             </article>  
 

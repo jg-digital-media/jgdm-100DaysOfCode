@@ -1,24 +1,24 @@
-<!--<p> <?php echo "Walk 16";  ?> </p> -->
+<!--<p> <?php echo "Walk 15";  ?> </p> -->
 
 <article class="walk">
 
     <div>
 
-        <h3><?php echo $trailTitleSixteen; ?></h3>
+        <h3><?php echo $trailTitleFifteen; ?></h3>
 
-        <p>Turn left at the main Car park at Crimdon.</p>
+        <p>Crimdon is home to the famous caravan and holiday parks and boasts the East Coast.</p>
 
     </div>
 
     <div>
-        <img src = "img/walk_homepage/walk-sixteen.jpg" alt = "<?php echo $trailTitleSixteen; ?>" title="<?php echo $trailTitleSixteen; ?>" />
+        <img src = "img/walk_homepage/walk-fifteen.jpg" alt = "<?php echo $trailTitleFifteen; ?>" title="<?php echo $trailTitleFifteen; ?>" />
 
         <!-- opens modal -->
-        <a href="#" class="walk-btn modal_btn" id="modal_btn_sixteen" title="Open Route">Open Route</a>
+        <a href="#" class="walk-btn modal_btn" id="modal_btn_fifteen" title="Open Route">Open Route</a>
         
-        <div id="modal-area-sixteen" class="modal">
+        <div id="modal-area-fifteen" class="modal">
 
-            <div id="walk-modal-sixteen">
+            <div id="walk-modal-fifteen">
 
                 <div class="modal-content">
                 
@@ -27,9 +27,14 @@
                     <h3>Trail Summary</h3>
                     
                     <ol>
-                        <li>The path at the Caravan park is to the left.</li>
-                        <li>Take the short narrow path take a right turn.</li>
-                        <li>Trail ends at a information point and observational point.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
+                        <li>.</li>
                     </ol>
 
                     <div class="lightbox-slider">
@@ -49,21 +54,14 @@
                         <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two/IMG_20200530_105229.jpg" data-lightbox="walk-sixteen" data-title="captioning" class="lightbox-link"></a>
                         <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two/IMG_20200530_105404.jpg" data-lightbox="walk-sixteen" data-title="At the end of this road, take the short narrow path" class="lightbox-link"></a>
                         <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/crimdon-two/IMG_20200530_105426.jpg" data-lightbox="walk-sixteen" data-title="captioning" class="lightbox-link"></a>
-                         
                         <!-- walks directories
                   
-                        img/walks/walk-sixteen
+                        img/walks/walk-fourteen
                         https://projects.jonniegrieve.co.uk/walks/img/walk-fourteen
                         walk-fourteen
-
-                        
-
                         
                         
                        
-
-                        
-
                         --> 
 
                     </div> 

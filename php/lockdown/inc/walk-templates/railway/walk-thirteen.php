@@ -52,7 +52,7 @@
                 <a href="../../../index.php" class="back-home">Back Home</a>
 
 <a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/railway/walk-twelve.php" ;?>" class="pagination">&lt;&lt; Back</a> | 
-<a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/railway/walk-fourteen.php" ;?>" class="pagination">Forward &gt;&gt;</a>
+<a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/coastal/walk-fourteen.php" ;?>" class="pagination">Forward &gt;&gt;</a>
 
             </article>  
 

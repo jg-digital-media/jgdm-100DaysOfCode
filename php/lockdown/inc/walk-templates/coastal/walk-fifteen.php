@@ -1,25 +1,25 @@
 <?php  
 
     $website_title = "Jaunts and Journey's in Lockdown Castle Eden";
-    $pageTitle = "Coastal 1 - Denemouth (Incomplete)";
+    $pageTitle = "Coastal 2 (Incomplete)";
     $trailType= "trail-template";
 
 
-    $meta_description = "description to go here";
-    $meta_keywords = "keywords to go here";
+    $meta_description = "Walk 15";
+    $meta_keywords = "walk 15 - Denemouth #2";
     $meta_image = "https://projects.jonniegrieve.co.uk/lockdown/img/preview.png";
 
     $fb_title = $pageTitle;
     $fb_description = $meta_description;
     $fb_image = $meta_image;
-    $fb_url = "https://projects.jonniegrieve.co.uk/lockdown/walk-fourteen.php";
+    $fb_url = "https://projects.jonniegrieve.co.uk/lockdown/walk-fifteen.php";
 
-    $canonical = "https://projects.jonniegrieve.co.uk/lockdown/walk-fourteen.php";
+    $canonical = "https://projects.jonniegrieve.co.uk/lockdown/walk-fifteen.php";
 
     $selected = "routes";
 
     //Walk Template - Trail URLS
-    $walk_homepage_fifteen  ="../../../img/walk_homepage/walk-fifteen.jpg";
+    $walk_homepage_fifteen ="../../../img/walk_homepage/walk-fifteen.jpg";
 ?>
 
 <?php require_once "../../../inc/header.php"; ?>
@@ -34,21 +34,20 @@
 
             <article class="content">
         
-                <p>Crimdon is home to the famous caravan and holiday parks and boasts the East Coast.</p>
+                <p>Turn right at the main Car park at Crimdon.</p>
 
                 <h3>Trail Details</h3>
 
                 <ol>
-                    <li>Features the stunning East coast to the left</li>
-                    <li>Takes a right turn and follow concrete path along the coast</li>
-                    <li>Route meets entrance to Crimdon Dene</li>
-                    <li>At the Pony Trekking center, turn left</li>
+                    <li>The path at the Caravan park is to the left.</li>
+                    <li>Take the short narrow path take a right turn.</li>
+                    <li>Trail ends at a information point and observational point.</li>
                 </ol>    
                 
                 <a href="../../../index.php" class="back-home">Back Home</a>
 
-<a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/railway/walk-fourteen.php" ;?>" class="pagination">&lt;&lt; Back</a> | 
-<a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/coastal/walk-sixteen.php" ;?>" class="pagination">Forward &gt;&gt;</a>
+                <a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/coastal/walk-fourteen.php" ;?>" class="pagination">&lt;&lt; Back</a> | 
+                <a href="<?php echo "http://projects.jonniegrieve.co.uk/lockdown/inc/walk-templates/coastal/walk-sixteen.php" ;?>" class="pagination">Forward &gt;&gt;</a>
 
             </article>  
 

@@ -120,12 +120,13 @@ body {
    
 }
 
-#selling_point {
+#selling_point, #final_point {
 
     width: 50%;
     color: $col_main_secondary;
     display: block;
     margin: 0 auto;
+    margin-top: 50px;
 
     @media (max-width: $mob) {
         width: 95%;

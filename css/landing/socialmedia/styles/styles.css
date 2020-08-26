@@ -67,21 +67,22 @@ body {
       #platforms a img#on_instagram:hover {
         transform: rotate(1080deg) scale(1.04); }
 
-#selling_point {
+#selling_point, #final_point {
   width: 50%;
   color: #060676;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 50px; }
   @media (max-width: 860px) {
-    #selling_point {
+    #selling_point, #final_point {
       width: 95%; } }
-  #selling_point p {
+  #selling_point p, #final_point p {
     line-height: 1.96;
     margin-bottom: 24px;
     font-weight: bold;
     font-size: 15pt; }
     @media (max-width: 860px) {
-      #selling_point p {
+      #selling_point p, #final_point p {
         width: 100%; } }
 
 #price {

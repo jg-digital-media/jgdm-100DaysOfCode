@@ -233,14 +233,38 @@ body {
     margin: 0 auto;
     line-height: 1.7;
     margin-top: 80px;
+    transition: border-bottom .3s;   
 
     @media (max-width: $mob) {
-        width: 
-        95%;
+        width: 95%;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 40px;
+        border-bottom: black 0px solid;
+        display: block;
+        width: 300px;
+        margin: 40px auto 40px auto;
+        transition: border-bottom .3s;
+
+        &:hover {
+            border-bottom: 4px black solid;
+            visibility: visible;
+        }
     }
 
     strong {
         color: blue;
+
+        a {
+            color: blue;
+            text-decoration: none;
+
+            &:hover {
+                color: #1d0d5d;
+            }
+        }
     }
 
     .testimonials {
@@ -253,8 +277,15 @@ body {
         margin-bottom: 24px;
         font-size: 15pt;
 
+        span {
+            color: #1d0d5d(100, 11, 11);
+            font-size: 10px;
+            margin: 0 10px;
+        }
+
     }
 }
+
 
 span, strong {
     color: blue;

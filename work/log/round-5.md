@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 54 of 100. **Last Update:** 26 August 2020
+## **Status:** Day 56 of 100. **Last Update:** 26 August 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+### R5D56: Thursday 27 August 2020
+
++ **Notes**
+  +  Success!  Deployed a Laravel project to production for the first time and finally solved a common bug with an undefined variable from the model to the view in another. Good to get those problems out the way. Hee's my deployment
+                
+  + **Technologies used** - HTML5, CSS, Laravel
 
 
 ### R5D55: Wednesday 26 August 2020

@@ -14,6 +14,46 @@
 + Project Status - JSON (separate to Vue Project)
 
 
+
+### Day 56
+
+#### Laravel @foreach blade syntax fix
+
+```php
+
+
+
+https://www.youtube.com/watch?v=hhn87jEJMB4
+
+https://www.youtube.com/watch?v=sxh2WZeiclQ
+
+https://www.youtube.com/watch?v=MJxgBL5m4Pw
+
+
+I got it working with many many hours of research and documentation checking and some tinkering with the web.php file.
+
+I imported the photo class to the web route file and added compact() to the relevant route.
+
+<?php
+
+use Illuminate\Support\Facades\Route;
+use App\Photo;
+
+//Snip
+
+Route::get('/photos', function () {
+
+    $photos = Photo::all();
+    return view('photos', compact('photos') );
+    //return view('main');
+});
+
+
+
+//Snip
+
+```
+
 ### Day 55
 
 #### Endpoints to try

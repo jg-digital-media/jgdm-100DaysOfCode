@@ -2,11 +2,13 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 5: Day 56 of 100. **Last Update:** 27 August 2020
++ **Status:** Round 5: Day 57 of 100. **Last Update:** 28 August 2020
 
 ## Directories
-  + ap5
+  + api
       + basic
+      + fetch_random
+      + photo_api
   + bin      
       + first-line
       + geonation

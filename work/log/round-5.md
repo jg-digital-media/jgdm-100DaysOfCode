@@ -7,6 +7,14 @@ ___
 
 
 
+### R5D57: Friday 28 August 2020
+
++ **Notes**
+  +  Deployed my second Laravel project.  It will be improved iteratively. This one uses simple migrations to retrieve data dynamiocally and display it to the view. (MVC speak for the browser)
+                
+  + **Technologies used** - HTML5, CSS, Laravel
+
+
 ### R5D56: Thursday 27 August 2020
 
 + **Notes**

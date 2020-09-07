@@ -176,3 +176,48 @@
             <li><a href="https://www.instagram.com/jonniegrievedigitalmedia/" target="blank">&nbsp;<img class="social-icon" title="Find me on Instagram" alt="Find me on Instagram" src="img/instagram.png" tabindex="0"  /></a></li>
             <li><a href="https://www.youtube.com/" target="blank">&nbsp;<img class="social-icon" title="Watch me on YouTube" alt="Watch me on YouTube" src="img/youtube.png" tabindex="0"  /></a></li>--><!---->
 ```
+
+#### Root Margin and Intersection Observer
+```javascript
+
+// create config object: rootMargin and threshold
+// are two properties exposed by the interface
+const config = {
+    rootMargin: '0px 0px 50px 0px',
+    threshold: 0
+};
+
+
+const observer = new IntersectionObserver(observeImages, config);
+const images = document.querySelectorAll(".site-images");
+
+function observeImages(entries) {
+    entries.forEach(entry => {
+        if(entry.intersectionRatio > 0) {
+            observer.unobserve(entry.target);
+            entry.target.src = entry.target.dataset.src;
+        }
+    })
+}
+
+images.forEach(image => {
+    observer.observe(image);
+})
+
+```
+
+```javascript
+
+
+//
+/* [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+	img.setAttribute('src', img.getAttribute('data-src'));
+	img.onload = function() {
+		img.removeAttribute('data-src');
+	};
+}); */
+  
+
+
+
+```

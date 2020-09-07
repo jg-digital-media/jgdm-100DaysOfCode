@@ -149,10 +149,10 @@ $(document).ready(function() {
  
     var lazyLoadInstance = new LazyLoad({
         // Your custom settings go here
-        container: document.querySelector(".all"),
+        container: document.querySelector("#all_projects_list"),
         //use_native: true, // <-- there you go -->
-        elements_selector: document.querySelector("all_projects_list"),
-        threshold: 900
+        elements_selector: ".lazy",
+        threshold: 1470,
 
     });
 

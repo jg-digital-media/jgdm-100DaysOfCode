@@ -14,6 +14,29 @@
 + Project Status - JSON (separate to Vue Project)
 
 
+### Day 58
+
+```javascript
+
+//lazyloading
+var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy",
+    // ... more custom settings?
+    //threshold: 1472,
+});
+
+```
+
+```html
+
+<li>
+                    <img data-src="img/action/the_sentinel.jpg" class="media-img lazy" title="The Sentinel (2003)" />
+
+                    <a href="#" class="sub-content-title">The Sentinel (2003)</a>
+                </li>
+
+```
+
 
 ### Day 56
 

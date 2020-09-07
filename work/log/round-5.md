@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 56 of 100. **Last Update:** 26 August 2020
+## **Status:** Day 58 of 100. **Last Update:** 07 September 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+### R5D58: Monday 7 September 2020
+
++ **Notes**
+  +  Lots to get through on my first day back from a short break.  I have GitHub repositories on the go for some common web design problems that I plan to make available to clone once done if people want them.  Photography website also updated.
+                
+  + **Technologies used** - HTML5, CSS, Laravel
 
 ### R5D57: Friday 28 August 2020
 

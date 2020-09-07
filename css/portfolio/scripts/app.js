@@ -11,8 +11,7 @@
 /**
  * Display all featured projects  - all-projects.html  48 Projects
  */
-
-jQuery.getJSON('assets/data/project-list.json', function(photoData) { 
+jQuery.getJSON('data/project-list.json', function(photoData) { 
 
     
     //select project count
@@ -42,33 +41,11 @@ jQuery.getJSON('assets/data/project-list.json', function(photoData) {
 });
 
 
-// create config object: rootMargin and threshold
-// are two properties exposed by the interface
-const config = {
-    rootMargin: '0px 0px 50px 0px',
-    threshold: 0
-};
-
-
-const observer = new IntersectionObserver(observeImages, config);
-const images = document.querySelectorAll(".site-images");
-
-function observeImages(entries) {
-    entries.forEach(entry => {
-        if(entry.intersectionRatio > 0) {
-            observer.unobserve(entry.target);
-            entry.target.src = entry.target.dataset.src;
-        }
-    })
-}
-
-images.forEach(image => {
-    observer.observe(image);
-})
-
-
-//Four featured projects - for website
-jQuery.getJSON('assets/data/project-list-small.json', function(projectOne) {
+/**
+ * 
+ * Four featured projects - for website homepage
+ */
+jQuery.getJSON('data/project-list-small.json', function(projectOne) {
 
     jQuery(`
         <a href="${ projectOne.featured_projects[0].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectOne.featured_projects[0].img_url}" class="site-images lazy" alt="${ projectOne.featured_projects[0].project_alt }" title="${ projectOne.featured_projects[0].project_alt }" tabindex="0" loading="lazy" /></a>
@@ -76,21 +53,21 @@ jQuery.getJSON('assets/data/project-list-small.json', function(projectOne) {
 
 });
 
-jQuery.getJSON('assets/data/project-list-small.json', function(projectTwo) {
+jQuery.getJSON('data/project-list-small.json', function(projectTwo) {
 
     jQuery(`
         <a href="${ projectTwo.featured_projects[1].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectTwo.featured_projects[1].img_url }" class="site-images lazy" alt=" ${projectTwo.featured_projects[1].project_alt }" title="${ projectTwo.featured_projects[1].project_alt }" tabindex="0" /></a><br />
     `).appendTo('.show-featured');
 });
 
-jQuery.getJSON('assets/data/project-list-small.json', function(projectThree)  {
+jQuery.getJSON('data/project-list-small.json', function(projectThree)  {
     jQuery(`
         <a href="${ projectThree.featured_projects[2].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectThree.featured_projects[2].img_url }" class="site-images lazy" alt=" ${ projectThree.featured_projects[2].project_alt }." title=${ projectThree.featured_projects[2].project_alt }" tabindex="0" /></a>
 
     `).appendTo('.show-featured'); 
 });
 
-jQuery.getJSON('assets/data/project-list-small.json', function(projectFour) {
+jQuery.getJSON('data/project-list-small.json', function(projectFour) {
 
     jQuery(`
         <a href="${ projectFour.featured_projects[3].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectFour.featured_projects[3].img_url }" class="site-images lazy" alt="${projectFour.featured_projects[3].project_alt }." title="${ projectFour.featured_projects[3].project_alt }" tabindex="0" /></a>   
@@ -101,7 +78,10 @@ jQuery.getJSON('assets/data/project-list-small.json', function(projectFour) {
 
 
 
-//testimonials page
+/**
+ * 
+ * Array of Client Testimonials
+ */
 const testimonials = [
     "I’ve always been pleased with the results Jonnie Grieve Digital Media has given me.",
     "Not only did he give my website an important new visual look his SEO changes vastly improved my website ranking",
@@ -111,7 +91,10 @@ const testimonials = [
     "I have been delighted with the service we have had.  Excellent and caring, with a real determination to get it right.  Would thoroughly recommend."
    ]
 
-/*Sticky Header Element*/
+/*
+* 
+* Sticky Header Element
+*/
 $(document).ready(function() {
 
     //Apply Sticky header element
@@ -143,25 +126,29 @@ $(document).ready(function() {
 
     });
 
-
-    //lazyload       
-
+    /**
+     * 
+     * Lazyload - verlok
+    */
  
     var lazyLoadInstance = new LazyLoad({
-        // Your custom settings go here
-        container: document.querySelector("#all_projects_list"),
+        
+        //container: document.querySelector("#all_projects_list"),
         //use_native: true, // <-- there you go -->
         elements_selector: ".lazy",
         threshold: 1470,
 
     });
 
-    lazyLoadInstance.update();
+    //lazyLoadInstance.update();
 
 
+/**
+ * 
+ * jQuery Form Validation
+ */
 
-    //jQuery Form Validation.          
-	// Place ID's of all required fields here.
+ 	// Place ID's of all required fields here.
 	required = ["name", "email", "your-url", "subject"];
 	// If using an ID other than #email or #error then replace it here
     email = $("#email");
@@ -228,23 +215,9 @@ $(document).ready(function() {
 });
 
 
-// Open Small Browser window
+/**
+ * Open Small Browser window 
+ */
 function openWindow(url, width, height) {
     window.open(url, width, height);
 }
-
-
-
-
-
-
-//
-/* [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
-	img.setAttribute('src', img.getAttribute('data-src'));
-	img.onload = function() {
-		img.removeAttribute('data-src');
-	};
-}); */
-  
-
-

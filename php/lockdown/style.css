@@ -274,7 +274,8 @@ nav {
   background: #d3d3d3; }
   @media (min-width: 1500px) {
     .walk-template {
-      width: 1450px; } }
+      /*width: 1450px;*/
+      width: 1500px; } }
   @media (max-width: 720px) {
     .walk-template {
       width: 75%; } }
@@ -283,7 +284,7 @@ nav {
     color: blue; }
   .walk-template .template-content {
     display: flex;
-    border: solid black 1px;
+    /*border: solid black 1px;*/
     flex-direction: row-reverse;
     color: black;
     text-align: left; }
@@ -303,7 +304,8 @@ nav {
     .walk-template .template-content img.walk-template-img {
       order: 1;
       padding: 10px;
-      width: 65%; }
+      /* width: 65%; */
+      width: 50%; }
       @media (max-width: 1100px) {
         .walk-template .template-content img.walk-template-img {
           width: 100%;

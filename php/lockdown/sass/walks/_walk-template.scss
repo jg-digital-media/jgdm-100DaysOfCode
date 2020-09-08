@@ -10,7 +10,8 @@
     @extend %trail-type-headings;
 
     @media (min-width: $xl) {
-        width: 1450px;
+        /*width: 1450px;*/
+        width: 1500px;
     }
 
     @media (max-width: $xs) {
@@ -24,7 +25,7 @@
 
     .template-content {
         display: flex;
-        border: solid black 1px;
+        /*border: solid black 1px;*/
         flex-direction: row-reverse;
         color: $section-col;
         text-align: left;
@@ -51,7 +52,8 @@
         img.walk-template-img {
             order: 1;
             padding: 10px;
-            width: 65%;
+            /* width: 65%; */
+            width: 50%;
 
             @media (max-width: $md) {
                 width: 100%;
@@ -84,7 +86,7 @@
                 color: red;
                 color: #d71f1f;
                 font-size: 12pt;
-                
+
                 &:hover {
                     text-decoration: none;
                 }   

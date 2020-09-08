@@ -15,23 +15,24 @@ $(document).ready(function(){
 
 });
 
-//cycle through background images
 
+//cycle through background images
 const imageBgArray = [
-    'img/panoramics/panoramic-dene.jpg',
-    'img/panoramics/panoramic-railway.jpg',
-    'img/panoramics/panoramic-coastal.jpg',
-    'img/panoramics/panoramic-dene-two.jpg',
-    'img/panoramics/panoramic-railway-two.jpg',
-    'img/panoramics/panoramic-coastal-two.jpg',
-    'img/panoramics/panoramic-dene-three.jpg',
-    'img/panoramics/panoramic-coastal-three.jpg'
+    'img/panoramics/panoramic_dene_blur.jpg',
+    'img/panoramics/panoramic_railway_blur.jpg',
+    'img/panoramics/panoramic_coastal_blur.jpg',
+    'img/panoramics/panoramic_dene_blur_one.jpg',
+    'img/panoramics/panoramic_railway_blur_two.jpg',
+    'img/panoramics/panoramic_coastal_blur_two.jpg',
+    'img/panoramics/panoramic_dene_blur_two.jpg',
+    'img/panoramics/panoramic_coastal_blur_three.jpg',
+    'img/panoramics/panoramic_dene_blur_three.jpg'
 
 ];
 
+//loop through array
 let i = 0;
 
-    
 setInterval(function() {
     $('body').css('background-image', 'url(' + imageBgArray[i] + ')');
     i++;

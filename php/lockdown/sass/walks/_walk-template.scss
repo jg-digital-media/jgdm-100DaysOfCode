@@ -69,13 +69,27 @@
         .back-home {
             @extend %btn-backhome;
         }
-        
 
         ul, ol {
             display: block;
             margin-left: 20px;
             position: relative;
             font-size: 10pt;
+        }
+
+        .content {
+
+            a.pagination {
+                font-weight: bold;
+                color: red;
+                color: #d71f1f;
+                font-size: 12pt;
+                
+                &:hover {
+                    text-decoration: none;
+                }   
+            }
+
         }
     }
 

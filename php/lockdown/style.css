@@ -153,7 +153,7 @@ margin 0 auto -  center alignment*/
 body {
   background: #d3d3d3;
   font-family: "Oxygen", arial, sans-serif;
-  background-image: url("img/panoramics/panoramic-dene.jpg");
+  background-image: url("img/panoramics/panoramic_dene_blur.jpg");
   background-size: 100% 100%;
   background-position: fixed;
   /* background-repeat: no-repeat; */
@@ -172,13 +172,13 @@ header {
         font-size: 16pt; } }
 
 .railway_bg {
-  background-image: url("img/panoramics/panoramic-railway-two.jpg"); }
+  background-image: url("img/panoramics/panoramic_railway_blur.jpg"); }
 
 .coastal_bg {
-  background-image: url("img/panoramics/panoramic-coastal-two.jpg"); }
+  background-image: url("img/panoramics/panoramic_coastal_blur.jpg"); }
 
 .dene_bg {
-  background-image: url("img/panoramics/panoramic-dene.jpg"); }
+  background-image: url("img/panoramics/panoramic_dene_blur.jpg"); }
 
 nav {
   background: #0c6e0c;
@@ -227,7 +227,7 @@ nav {
       grid-template-columns: 44% 54%;
       margin: 0 auto;
       /*width: 50%;*/
-      width: 80 .walk; } }
+      width: 80%; } }
   @media (max-width: 720px) {
     .walk {
       display: block;
@@ -318,6 +318,13 @@ nav {
       margin-left: 20px;
       position: relative;
       font-size: 10pt; }
+    .walk-template .template-content .content a.pagination {
+      font-weight: bold;
+      color: red;
+      color: #d71f1f;
+      font-size: 12pt; }
+      .walk-template .template-content .content a.pagination:hover {
+        text-decoration: none; }
 
 .lockdown {
   border-left: solid 1px black;
@@ -331,7 +338,8 @@ nav {
   @media (min-width: 1500px) {
     .lockdown {
       /*color: red;*/
-      width: 1450px; } }
+      /*width: 1450px;*/
+      width: 1356px; } }
   @media (max-width: 1499px) {
     .lockdown {
       max-width: 1450px; } }

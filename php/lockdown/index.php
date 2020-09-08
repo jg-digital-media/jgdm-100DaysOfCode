@@ -104,10 +104,7 @@
         <div> <a href="inc/walk-templates/walk-seventeen.php" title="Blackhall Rocks" class="route-slider-link"> <img src="img/walk_homepage/walk-seventeen.jpg" alt="Blackhall Rocks" class="route-slider-image" /> </a> </div> 
         <div> <a href="inc/walk-templates/walk-eighteen.php" title="Limekiln Gill Trail" class="route-slider-link"> <img src="img/walk_homepage/walk-eighteen.jpg" alt="Limekiln Gill Trail" class="route-slider-image" /> </a> </div> 
         <div> <a href="inc/walk-templates/walk-nineteen.php" title="Walk 19" class="route-slider-link"> <img src="img/walk_homepage/walk-nineteen.jpg" alt="Walk 19" class="route-slider-image" /> </a> </div> 
-        <div> <a href="inc/walk-templates/walk-twentytwo.php" title="Walk 22" class="route-slider-link"> <img src="img/walk_homepage/walk-twentytwo.jpg" alt="Walk 22" class="route-slider-image" /> </a> </div> 
-
-        
-        <!--<div> <a href="inc/walk-templates/walk-twenty.php" title="" class="route-slider-link"> <img src="img/walk_homepage/#" alt="" class="route-slider-image" /> </a> </div> -->
+        <div> <a href="inc/walk-templates/walk-twentytwo.php" title="Walk 20" class="route-slider-link"> <img src="img/walk_homepage/walk-twenty.jpg" alt="Walk 20" class="route-slider-image" /> </a> </div> 
 
     </div>
 

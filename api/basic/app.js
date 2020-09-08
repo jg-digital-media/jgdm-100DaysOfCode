@@ -1,4 +1,6 @@
-console.log("js connected!")
+const url = "https://www.youtube.com/watch?v=zDhVHPRzW6I";
+
+console.log("js connected! > " + url)
 
 /*
 

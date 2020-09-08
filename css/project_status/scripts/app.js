@@ -3,14 +3,14 @@
  * 
  * Authored by:  @jg_digitalMedia
  * Web:          https://www.jonniegrieve.co.uk
- * //file path to json file - local   - ../../css/portfolio/assets/data/project-list.json
- * //file path to json file - server  - ../../../assets/data/project-list.json
- * Date:  02/07/2020
+ * //file path to json file - local   - ../../css/portfolio/data/project-list.json
+ * //file path to json file - server  - ../../../data/project-list.json
+ * Date:  08/09/2020
  */
 
 
  
-jQuery.getJSON('../../../assets/data/project-list.json', function(photoData) { 
+jQuery.getJSON('../../../data/project-list.json', function(photoData) { 
     
     let itemAll = photoData.projects.length;
     console.log(photoData.projects.length);

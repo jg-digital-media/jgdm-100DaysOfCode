@@ -22,7 +22,8 @@ header h1 {
 
 header h1 a { 
 
-    color: darkblue;
+    color: orchid;
+    font-size: 13pt;
 
 }
 
@@ -41,6 +42,7 @@ header h1 a {
 
 #container article h2 {
     color: white;
+    margin: 20px 0;
 }
 
 #container article h2 a {

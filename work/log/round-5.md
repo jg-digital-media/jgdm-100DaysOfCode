@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 58 of 100. **Last Update:** 07 September 2020
+## **Status:** Day 59 of 100. **Last Update:** 08 September 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+### R5D59: Tuesday 9 September 2020
+
++ **Notes**
+  +  Made some updates to the fetch api project I'm working on.  Earlier on today I did some image optimisation on my background images to my "Walks in Lockdown" website. 
+                
+  + **Technologies used** - HTML5, CSS, Laravel
 
 
 ### R5D58: Monday 7 September 2020

@@ -12,7 +12,10 @@ console.log("photo.js connected");
 */
 
 const ACCESS_TOKEN = "zkiYj0naBQBgRYCTJwxBDiFic1xncn-b70hftLJVzn8";
-const username = "webdesignerjon"
+const username = "webdesignerjon";
+const collection_id = "8246616/";
+
+//https://unsplash.com/collections/8246616/
 
 //user authentication workflow
 const permission_scope = `read_collections`;
@@ -22,7 +25,9 @@ const response_type = "code";
 
 //const url = `https://api.unsplash.com/users/:${username}/collections`;
 
-const url = `https://unsplash.com/oauth/authorize/users:${username}/collections?client_id=${ACCESS_TOKEN}?redirect_uri=${redirect_uri}?response_type=${response_type}?scope=${permission_scope}`;
+//const url = `https://unsplash.com/oauth/authorize/users:${username}/collections?client_id=${ACCESS_TOKEN}?redirect_uri=${redirect_uri}?response_type=${response_type}?scope=${permission_scope}`;
+const url = ``;
+
 console.log(url);
 
 /*

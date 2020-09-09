@@ -32,7 +32,10 @@ header {
         padding-bottom: 15px; } }
   header .key {
     width: 95%;
-    text-align: right; }
+    text-align: right;
+    position: relative;
+    top: 30px;
+    right: 2px; }
     header .key h2 {
       width: auto;
       display: inline-block; }

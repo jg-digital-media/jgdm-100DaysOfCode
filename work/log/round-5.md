@@ -1,11 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 59 of 100. **Last Update:** 08 September 2020
+## **Status:** Day 60 of 100. **Last Update:** 09 September 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+### R5D60: Wednesday 9 September 2020
+
+
++ **Notes**
+  +  Building a Starter responsive image gallery 
+                
+  + **Technologies used** - HTML5, CSS, Laravel
 
 ### R5D59: Tuesday 9 September 2020
 

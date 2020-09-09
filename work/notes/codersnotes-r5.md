@@ -13,6 +13,9 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
+### Day 60
+
+https://extendsclass.com/json-generator.html  - useful link
 
 ### Day 58
 

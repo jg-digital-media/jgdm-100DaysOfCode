@@ -1,0 +1,3 @@
+{ 
+    "enum": choice("img/featured/route_office.jpg",'img/featured/autocleansenortheast.jpg','img/featured/photography.jpg')
+}

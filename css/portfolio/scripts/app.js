@@ -13,13 +13,7 @@
  */
 jQuery.getJSON('data/project-list.json', function(photoData) { 
 
-    
-    //select project count
-    let project_count = document.getElementById("project_count");
-    let count = "( " + photoData.projects.length + " )";
-
-    project_count.textContent = count;
-
+  
     let itemAll = photoData.projects.length;
     console.log(photoData.projects.length);
 
@@ -45,7 +39,7 @@ jQuery.getJSON('data/project-list.json', function(photoData) {
  * 
  * Four featured projects - for website homepage
  */
-jQuery.getJSON('../../data/project-list-small.json', function(projectOne) {
+jQuery.getJSON('data/project-list-small.json', function(projectOne) {
 
     jQuery(`
         <a href="${ projectOne.featured_projects[0].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectOne.featured_projects[0].img_url}" class="site-images lazy" alt="${ projectOne.featured_projects[0].project_alt }" title="${ projectOne.featured_projects[0].project_alt }" tabindex="0" loading="lazy" /></a>
@@ -53,21 +47,21 @@ jQuery.getJSON('../../data/project-list-small.json', function(projectOne) {
 
 });
 
-jQuery.getJSON('../../data/project-list-small.json', function(projectTwo) {
+jQuery.getJSON('data/project-list-small.json', function(projectTwo) {
 
     jQuery(`
         <a href="${ projectTwo.featured_projects[1].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectTwo.featured_projects[1].img_url }" class="site-images lazy" alt=" ${projectTwo.featured_projects[1].project_alt }" title="${ projectTwo.featured_projects[1].project_alt }" tabindex="0" /></a><br />
     `).appendTo('.show-featured');
 });
 
-jQuery.getJSON('../../data/project-list-small.json', function(projectThree)  {
+jQuery.getJSON('data/project-list-small.json', function(projectThree)  {
     jQuery(`
         <a href="${ projectThree.featured_projects[2].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectThree.featured_projects[2].img_url }" class="site-images lazy" alt=" ${ projectThree.featured_projects[2].project_alt }." title=${ projectThree.featured_projects[2].project_alt }" tabindex="0" /></a>
 
     `).appendTo('.show-featured'); 
 });
 
-jQuery.getJSON('../../data/project-list-small.json', function(projectFour) {
+jQuery.getJSON('data/project-list-small.json', function(projectFour) {
 
     jQuery(`
         <a href="${ projectFour.featured_projects[3].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectFour.featured_projects[3].img_url }" class="site-images lazy" alt="${projectFour.featured_projects[3].project_alt }." title="${ projectFour.featured_projects[3].project_alt }" tabindex="0" /></a>   

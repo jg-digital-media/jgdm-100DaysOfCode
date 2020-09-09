@@ -221,3 +221,101 @@ images.forEach(image => {
 
 
 ```
+
+
+/**
+ * Loop featured project data... attempt to return single random image.
+ */
+jQuery.getJSON('data/project-list.json', function(projectOne, projectTwo, projectThree, projectFour) {
+
+    for (i=0; i < projectOne.length; i++){
+
+        jQuery(`
+        <a href="${ projectOne.projects[Math.random([i]).project_url]}" target="blank" role="Featured work">&nbsp;<img src="${ projectOne.projects[i].img_url}" class="site-images lazy" alt="${ projectOne.projects[i].project_alt }" title="${ projectOne.projects[0].project_alt }" tabindex="0" loading="lazy" /></a>
+    `).appendTo('.show-featured');
+
+    }
+    for (i=0; i < projectTwo.length; i++){
+
+        jQuery(`
+        <a href="${ projectTwo.projects[Math.random([i]).project_url]}" target="blank" role="Featured work">&nbsp;<img src="${ projectTwo.projects[i].img_url}" class="site-images lazy" alt="${ projectTwo.projects[i].project_alt }" title="${ projectTwo.projects[i].project_alt }" tabindex="0" loading="lazy" /></a>
+    `).appendTo('.show-featured');
+
+    }
+    for (i=0; i < projectThree.length; i++){
+
+        jQuery(`
+        <a href="${ projectThree.projects[Math.random([i]).project_url]}" target="blank" role="Featured work">&nbsp;<img src="${ projectThree.projects[i].img_url}" class="site-images lazy" alt="${ projectThree.projects[i].project_alt }" title="${ projectThree.projects[i].project_alt }" tabindex="0" loading="lazy" /></a>
+    `).appendTo('.show-featured');
+
+    }
+    for (i=0; i < projectFour.length; i++){
+
+        jQuery(`
+        <a href="${ projectFour.projects[Math.random([i]).project_url]}" target="blank" role="Featured work">&nbsp;<img src="${ projectFour.projects[i].img_url}" class="site-images lazy" alt="${ projectFour.projects[i].project_alt }" title="${ projectFour.projects[i].project_alt }" tabindex="0" loading="lazy" /></a>
+    `).appendTo('.show-featured');
+
+    }
+});
+
+
+####  Random Featured Project Image.
+img/featured/autocleansenortheast.jpg
+
+img_array = new Array();
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"
+img_array[0] = "featured_image_one.jpg" />"

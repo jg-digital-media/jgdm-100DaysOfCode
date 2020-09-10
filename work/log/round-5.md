@@ -1,10 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 60 of 100. **Last Update:** 09 September 2020
+## **Status:** Day 61 of 100. **Last Update:** 10 September 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+### R5D61: Thursday 10 September 2020
+
+
++ **Notes**
+  +  For a month now alongside my other work I've been doing a series of Repositories of starter files for various web projects. Here's my repository for an image gallery with 2 versions for different styles for visbility and animation. https://github.com/jg-digital-media/jgdm_image_gallery
+                
+  + **Technologies used** - HTML5, CSS, Laravel
 
 
 ### R5D60: Wednesday 9 September 2020

@@ -130,7 +130,7 @@ $(document).ready(function() {
         //container: document.querySelector("#all_projects_list"),
         //use_native: true, // <-- there you go -->
         elements_selector: ".lazy",
-        threshold: 1470,
+        threshold: 900,
 
     });
 

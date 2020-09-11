@@ -1,9 +1,14 @@
 { "featured_projects": [ 
     {
-        "url": "",
+        "project_name": "",
+        "project_url": "",
         "img_url": "",
-        "alt": "alt value",
-        "class": "class_value"
+        "project_alt": "",
+        "project_type": "",
+        "project_status": "",
+        "status": true,
+        "img_type": "src",
+        "img_type_data": "data-src"
     }, {
 
     }

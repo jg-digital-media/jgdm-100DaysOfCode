@@ -1,9 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 62 of 100. **Last Update:** 11 September 2020
+## **Status:** Day 32 of 100. **Last Update:** 11 September 2020
 ___
 **Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+
+### R5D63: Monday 14 September 2020
+
+
++ **Notes**
+  +  Today I devoted my coding day to getting my photography website up to date. The latest photos syncing up to my local backup with so many more to be added later. Hopefully be less time consuming to update in future. 
+                
+  + **Technologies used** - HTML5, CSS, JavaScript
 
 
 

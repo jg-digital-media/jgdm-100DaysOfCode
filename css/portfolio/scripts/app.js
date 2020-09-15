@@ -9,7 +9,7 @@
 
 
 /**
- * Display all featured projects  - all-projects.html  48 Projects
+ * Display all featured projects  - all-projects.html  47 Projects
  */
 jQuery.getJSON('data/project-list.json', function(photoData) { 
 

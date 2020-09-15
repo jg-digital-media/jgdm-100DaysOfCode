@@ -1,5 +1,15 @@
 /**
- * Display all featured projects  - all-projects.html  48 Projects
+ * Author: @jg_digitalMedia
+ * Date:  15/09/2020   13:00pm
+ * 
+ * file path to json file - local assets/data/project-list.json
+ * photoData - Featured Project image url data
+ * file path to json file - server assets/data/project-list.json
+ */
+
+
+/**
+ * Display all featured projects  - all-projects.html  47 Projects
  */
 jQuery.getJSON('data/project-list.json', function(photoData) { 
 

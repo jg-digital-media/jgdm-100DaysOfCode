@@ -1,6 +1,6 @@
 /**
  * Author: @jg_digitalMedia
- * Date:  08/09/2020   10:46am
+ * Date:  15/09/2020   13:00pm
  * 
  * file path to json file - local assets/data/project-list.json
  * photoData - Featured Project image url data
@@ -16,6 +16,11 @@ jQuery.getJSON('data/project-list.json', function(photoData) {
   
     let itemAll = photoData.projects.length;
     console.log(photoData.projects.length);
+
+        //select project count
+        let project_count = document.getElementById("project_count");
+        let count = "( " + photoData.projects.length + " )";
+        project_count.textContent = count;
 
     for (let i=0; i < itemAll; i++) { 
         

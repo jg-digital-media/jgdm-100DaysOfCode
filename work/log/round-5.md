@@ -1,13 +1,22 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 64 of 100. **Last Update:** 15 September 2020
+## **Status:** Day 65 of 100. **Last Update:** 16 September 2020
 ___
-**Directories:** | css | java | javascript | laravel | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
+**Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
-### R5D64: Tuesday 14 September 2020
+
+### R5D65: Wednesday 16 September 2020
+
+
++ **Notes**
+  +  Today was about checking, organising and building project data in JSON.
+                
+  + **Technologies used** - HTML5, CSS, JavaScript, JSON
+
+### R5D64: Tuesday 15 September 2020
 
 
 + **Notes**

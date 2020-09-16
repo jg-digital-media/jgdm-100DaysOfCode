@@ -6,13 +6,11 @@ ___
 ___
 
 
-
-
 ### R5D65: Wednesday 16 September 2020
 
 
 + **Notes**
-  +  Today was about checking, organising and building project data in JSON.
+  +  I've been trying to work out how to create a usable REST API for uploading photos.  Gone back to Laravel to try it out as my last one ran its course. I'm now on to Laravel 8 which complicates things  :)
                 
   + **Technologies used** - HTML5, CSS, JavaScript, JSON
 
@@ -32,7 +30,6 @@ ___
   +  Today I devoted my coding day to getting my photography website up to date. The latest photos syncing up to my local backup with so many more to be added later. Hopefully be less time consuming to update in future. 
                 
   + **Technologies used** - HTML5, CSS, JavaScript
-
 
 
 ### R5D62: Friday 11 September 2020

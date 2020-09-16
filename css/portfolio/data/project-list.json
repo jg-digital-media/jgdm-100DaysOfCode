@@ -177,7 +177,7 @@
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
-            "project_name": "React.js Single Page Scoreboard Application",
+            "project_name": "ReactSingle Page Scoreboard Application v2",
             "project_url": " https://projects.jonniegrieve.co.uk/react-scoreboard-v2/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/react_v2.png",
             "feat_img_url": "img/featured/react_v2.jpg",
@@ -260,7 +260,7 @@
             "feat_img_url": "img/featured/sub-projects.jpg",
             "project_alt": "Go to Projects Subdomain",
             "project_type": "Website",
-            "project_status": "incomplete",
+            "project_status": "upcoming",
             "status": null,
             "img_type": "data-src",
             "img_type_data": "data-src"
@@ -613,7 +613,7 @@
             "project_alt": "Fetch syntax for API'S",
             "project_type": "website",
             "project_status": "incomplete",
-            "status": true,
+            "status": "upcoming",
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {

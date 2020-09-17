@@ -6,6 +6,14 @@ ___
 ___
 
 
+### R5D66: Thursday 17 September 2020
+
+
++ **Notes**
+  +  Currently going through the CRUD operations for the Laravel API.
+                
+  + **Technologies used** - HTML5, CSS, JavaScript, JSON
+
 ### R5D65: Wednesday 16 September 2020
 
 

@@ -1,9 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 65 of 100. **Last Update:** 16 September 2020
+## **Status:** Day 67 of 100. **Last Update:** 18 September 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R5D67: Friday 18 September 2020
+
+
++ **Notes**
+  +  Continued my restudy into REST API's with Laravel. You can follow the progress I've made via my repository https://github.com/jg-digital-media/photos_api
+                
+  + **Technologies used** - HTML5, CSS, JavaScript, JSON
 
 
 ### R5D66: Thursday 17 September 2020

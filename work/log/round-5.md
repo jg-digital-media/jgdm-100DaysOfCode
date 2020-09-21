@@ -6,6 +6,15 @@ ___
 ___
 
 
+### R5D68: Monday 21 September 2020
+
+
++ **Notes**
+  +  Progress with doing CRUD operations via a REST API.  Everything but the delete operation is working.  Elsewhere worked on and fixed some bugs on my website and updated my Photography page.
+                
+  + **Technologies used** - HTML5, CSS, JavaScript, JSON
+
+
 ### R5D67: Friday 18 September 2020
 
 

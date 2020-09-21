@@ -312,6 +312,8 @@ nav.main-nav {
   margin-top: 10%; }
   .main-content article#featured .show-featured {
     text-align: center; }
+    .main-content article#featured .show-featured a img {
+      width: 35%; }
   .main-content article#featured h2 {
     text-align: center; }
   .main-content article#featured p {

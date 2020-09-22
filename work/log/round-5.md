@@ -1,9 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 67 of 100. **Last Update:** 18 September 2020
+## **Status:** Day 68 of 100. **Last Update:** 22 September 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R5D69: Tuesday 22 September 2020
+
+
++ **Notes**
+  +  Fixed the issue with the destroy() method by fixing an erroneously named method that meant relationships weren't properly being set up.  The big victory of the day!  :)  
+                
+  + **Technologies used** - HTML5, CSS, JavaScript, JSON
 
 
 ### R5D68: Monday 21 September 2020

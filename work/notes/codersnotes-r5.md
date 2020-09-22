@@ -13,6 +13,22 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
+### Day 69
+
+
+```php
+
+
+    public function photos() {
+        return $this->hasMany(Photo::class);
+    }
+
+    //not books() as was orginally written
+
+```
+https://stackoverflow.com/questions/64012115/im-returning-a-500-internal-server-when-trying-to-delete-a-record-in-laravel-8
+
+
 ### Day 61
 
 https://extendsclass.com/json-generator.html  - useful link

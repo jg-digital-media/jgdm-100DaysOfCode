@@ -1,9 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 68 of 100. **Last Update:** 22 September 2020
+## **Status:** Day 70 of 100. **Last Update:** 23 September 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R5D70: Wednesday 23 September 2020
+
+
++ **Notes**
+  + Got the CRUD operations finished and a complete REST API done.  Next to deploy it and see if I can work out how to do something useful with it.  :)
+                
+  + **Technologies used** - HTML5, CSS, Laravel, JSON
 
 
 ### R5D69: Tuesday 22 September 2020
@@ -12,7 +21,7 @@ ___
 + **Notes**
   +  Fixed the issue with the destroy() method by fixing an erroneously named method that meant relationships weren't properly being set up.  The big victory of the day!  :)  
                 
-  + **Technologies used** - HTML5, CSS, JavaScript, JSON
+  + **Technologies used** - HTML5, CSS, Laravel, JSON
 
 
 ### R5D68: Monday 21 September 2020
@@ -21,7 +30,7 @@ ___
 + **Notes**
   +  Progress with doing CRUD operations via a REST API.  Everything but the delete operation is working.  Elsewhere worked on and fixed some bugs on my website and updated my Photography page.
                 
-  + **Technologies used** - HTML5, CSS, JavaScript, JSON
+  + **Technologies used** - HTML5, CSS, Laravel, JSON
 
 
 ### R5D67: Friday 18 September 2020
@@ -30,7 +39,7 @@ ___
 + **Notes**
   +  Continued my restudy into REST API's with Laravel. You can follow the progress I've made via my repository https://github.com/jg-digital-media/photos_api
                 
-  + **Technologies used** - HTML5, CSS, JavaScript, JSON
+  + **Technologies used** - HTML5, CSS, Laravel, JSON
 
 
 ### R5D66: Thursday 17 September 2020

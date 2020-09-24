@@ -6,11 +6,11 @@ ___
 ___
 
 
-### R5D71: Wednesday 24 September 2020
+### R5D71: Thursday 24 September 2020
 
 
 + **Notes**
-  + 
+  + I have a new Laravel deployment. It's still in development as I have to work out now how to hook up the database to Heroku so I still have the JSON data. Also spent time developing a Web starter project for GitHub and other projects.
                 
   + **Technologies used** - HTML5, CSS, Laravel, JSON
 

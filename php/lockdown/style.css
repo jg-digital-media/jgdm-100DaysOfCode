@@ -398,13 +398,13 @@ nav {
     font-size: 15pt; }
   .slider-container .route-slider {
     display: inline-block; }
-  .slider-container .route-slider > div {
+  .slider-container .route-slider > li {
     display: inline-block;
     width: 20px;
     width: 10%;
     width: 7%; }
     @media (max-width: 720px) {
-      .slider-container .route-slider > div {
+      .slider-container .route-slider > li {
         /*width: 50%;*/
         /*width: 20px;*/
         width: 15%;

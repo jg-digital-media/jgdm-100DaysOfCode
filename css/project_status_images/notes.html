@@ -1,0 +1,125 @@
+<!--
+Authored by:  @jg_digitalMedia
+Web:          https://www.jonniegrieve.co.uk/assets/project_status
+Last Update:  11th September 2020
+Description:  Project Status Homepage with clickable images  
+ 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Font-->
+    
+    <!-- CSS-->
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Allerta|Lato|Mali|Marvel|Roboto" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png" type="image/png">
+
+    <!-- meta tags -->
+    <meta name="description" content="This is a simple single page app that uses JavaScript and JSON to visually the status of projects based on the values of an array of Objects">
+    <meta name="keywords" content=""> 
+    <meta name="image" content="">
+
+    <!-- FACEBOOK: Open Graph -->
+    <meta property="og:title" content="Project Status | A project with JavaScript">
+    <meta property="og:description" content="This is a simple single page app that uses JavaScript and JSON to visually the status of projects based on the values of an array of Objects">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <!-- TWITTER: Open Graph -->
+    <meta name="twitter:title" content="Project Status | A project with JavaScript">
+    <meta name="twitter:description" content="This is a simple single page app that uses JavaScript and JSON to visually the status of projects based on the values of an array of Objects">
+    <meta name="twitter:image" content="">
+    <meta name="twitter:card" content="project_status_page">
+
+    <!-- Canonical link -->
+    <link rel="canonical" href="https://www.jonniegrieve.co.uk/assets/project_status/index.html">
+
+    <!-- Page Title-->
+    <title>Project Status | A project with JavaScript</title>
+
+
+</head>
+<body>
+
+    <header class="header">
+
+        <h1>Project Status <span role="title"> A project with JSON</span></h1>
+
+        <aside class="key">
+
+            <h2>Key:</h2>
+            <span id="green-complete" alt="Complete" title="Complete" role="complete_status"></span> Complete
+            <span id="red-complete" alt="Incomplete" title="Incomplete" role="incomplete_status"></span> Incomplete
+            <span id="yellow-review" alt="Under Review" title="Under Review" role="review_status"></span> Under Review
+            <span id="orange-upcoming" alt="Projects Upcoming" title="Projects Upcoming" role="review_status"></span> Projects Upcoming
+    
+        </aside>
+
+    </header>
+
+    <div id="container">
+
+        <!-- DROPDOWN BOX TO GO HERE -->
+
+        <article class="project-list">
+            
+            <h2>Project Status List</h2>
+            
+            <div class="project-status-data">
+
+                <ul id="project-status">
+                    <li>&nbsp;</li>
+                </ul>
+                <ul id="project-names">
+                    <li>&nbsp;</li>
+                    <!-- Project Types: HTML/CSS, JavaScript, React.js, PHP, Java, Ruby -->
+                </ul>
+
+            </div>
+
+        </article>
+
+        <article class="main-content">
+
+            <h2>Created with JavaScript and JSON</h2>
+
+            <p>This is a simple single page app that uses JavaScript and JSON to visually the status of projects based on the values of an array of Objects. <!-- It contains projects on JavaScript, PHP, Java, Python, Ruby and Web Design Projects. --></p>
+
+            <p><a href="https://projects.jonniegrieve.co.uk" target="new">https://projects.jonniegrieve.co.uk</a></p>
+
+            <h2>Status Notes</h2>
+
+            <ul>
+                <li><a href="implicit.html">Project Status: (implicit)</a></li>
+                <li>Node: s2 directory app throws an error. s4 is incomplete. s3 returns nothing</li>
+                <li>Web Design Practice - Grid, Flexbox, Layout, Sticky Nav working</li>
+                <li>Ruby</li> - a bunch of files, not resembling a project yet,
+                <li>HTML_NAV - possibly redundent. Consider abandoning</li>
+                <li>php_authorisation - not working. to be redone</li>
+                <li>PHP Storybuilder app - functioning on local server</li>
+                <li>react-basics - app.js file completely empty.</li>
+                <li>react-fetch  - all directories have no errors but no output to browsers</li>
+                <li>rsvp - react project 3 console errors. </li>
+                </li>
+            </ul>
+            
+        </article>
+
+    </div>
+
+    <footer>&copy; 2020 Designed by Jonnie Grieve Digital Media </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> 
+    <script src="scripts/jquery.js"></script> 
+    <script src="scripts/app.js"></script>
+
+</body>
+</html>

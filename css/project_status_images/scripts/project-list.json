@@ -1,0 +1,13 @@
+{
+    "projects": [ 
+        {
+            "project_name": "Auto Cleanse North East",
+            "project_url": "http://www.autoc.co.uk/",
+            "img_url": "img/featured/autocleansenortheast.jpg",
+            "project_alt": "Go to Auto Cleanse North East",
+            "project_type": "Website",
+            "project_status": "Complete",
+            "status": true
+        }
+    ]
+}

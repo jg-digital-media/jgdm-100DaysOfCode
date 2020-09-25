@@ -92,59 +92,95 @@ header {
   @media (max-width: 680px) {
     #container {
       width: 95%; } }
-  #container .project-list {
+  #container .project_list {
+    width: 100%;
+    display: block;
+    margin: 0 auto; }
+    #container .project_list .project_status_header h2 {
+      font-size: 24px; }
+    #container .project_list .project_status_header a {
+      color: red;
+      font-weight: bold;
+      padding: 0 10px; }
+      #container .project_list .project_status_header a:hover {
+        color: green; }
+    #container .project_list .project_status_header h2, #container .project_list .project_status_header a {
+      text-align: center; }
+  #container .project-status-container {
     border: solid black 1px;
     width: 90%;
     display: block; }
+    #container .project-status-container ul.project-status-data li {
+      height: auto;
+      display: inline-block;
+      margin: 0 10px;
+      /* width: 80%; */
+      width: 30%; }
+      #container .project-status-container ul.project-status-data li a img {
+        width: 85%; }
+    #container .project-status-container a {
+      color: red;
+      font-weight: bold; }
+      #container .project-status-container a:hover {
+        text-decoration: none;
+        color: green; }
     @media (max-width: 940px) {
-      #container .project-list {
+      #container .project-status-container {
         width: 90%;
         margin: 0 auto; } }
     @media (max-width: 680px) {
-      #container .project-list {
+      #container .project-status-container {
         font-size: 3vw; } }
-    #container .project-list h2 {
+    #container .project-status-container h2 {
       text-align: center; }
-    #container .project-list ul {
+    #container .project-status-container ul {
       list-style-type: none; }
       @media (max-width: 940px) {
-        #container .project-list ul {
+        #container .project-status-container ul {
           margin: 0 auto; } }
-    #container .project-list li {
-      height: 45px; }
-      #container .project-list li em {
+    #container .project-status-container li {
+      height: 45px;
+      width: 99px;
+      vertical-align: top; }
+      #container .project-status-container li em {
         font-weight: bold; }
-    #container .project-list ul#project-status {
+    #container .project-status-container ul#project-status {
       float: left;
       margin: 0 5% 0 5%; }
-    #container .project-list span.complete {
-      display: inline-block;
-      background: #008000;
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      margin-right: 5px; }
-    #container .project-list span.incomplete {
-      display: inline-block;
-      background: #ff0000;
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      margin-right: 5px; }
-    #container .project-list span.under-review {
-      display: inline-block;
-      background: #ffff00;
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      margin-right: 5px; }
-    #container .project-list span.upcoming {
-      display: inline-block;
-      background: #ff9005;
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      margin-right: 5px; }
+    #container .project-status-container .project_info {
+      display: flex;
+      flex-direction: row;
+      height: 65px; }
+      #container .project-status-container .project_info span.complete {
+        display: inline-block;
+        background: #008000;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 5px; }
+      #container .project-status-container .project_info span.incomplete {
+        display: inline-block;
+        background: #ff0000;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 5px; }
+      #container .project-status-container .project_info span.under_review {
+        display: inline-block;
+        background: #ffff00;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 5px; }
+      #container .project-status-container .project_info span.upcoming {
+        display: inline-block;
+        background: #ff9005;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 5px; }
+      #container .project-status-container .project_info .project_name {
+        display: inline; }
   #container .main-content {
     width: 66%;
     display: block;

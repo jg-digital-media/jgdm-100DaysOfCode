@@ -5,15 +5,20 @@
  * Web:          https://www.jonniegrieve.co.uk
  * //file path to json file - local   - ../../css/portfolio/data/project-list.json
  * //file path to json file - server  - ../../../data/project-list.json
- * Date:  08/09/2020
+ * Date:  25/09/2020
  */
 
 
+ const project_count = document.getElementById("count");
  
 jQuery.getJSON('data/project-list.json', function(photoData) { 
     
     let itemAll = photoData.projects.length;
     console.log(photoData.projects.length);
+    
+    //display data count to browser
+    project_count.textContent = "( " +  photoData.projects.length  + " )";
+
 
     for (let i=0; i < itemAll; i++) { 
         

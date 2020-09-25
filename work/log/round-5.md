@@ -1,13 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 71 of 100. **Last Update:** 24 September 2020
+## **Status:** Day 72 of 100. **Last Update:** 25 September 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-### R5D71: Thursday 24 September 2020
+### R5D72: Friday 25 September 2020
 
++ **Notes**
+  + Started some work for a new client today          
+  + **Technologies used** - HTML5, CSS, Laravel, JSON
+
+### R5D71: Thursday 24 September 2020
 
 + **Notes**
   + I have a new Laravel deployment. It's still in development as I have to work out now how to hook up the database to Heroku so I still have the JSON data. Also spent time developing a Web starter project for GitHub and other projects.
@@ -15,7 +20,6 @@ ___
   + **Technologies used** - HTML5, CSS, Laravel, JSON
 
 ### R5D70: Wednesday 23 September 2020
-
 
 + **Notes**
   + Got the CRUD operations finished and a complete REST API done.  Next to deploy it and see if I can work out how to do something useful with it.  :)
@@ -25,7 +29,6 @@ ___
 
 ### R5D69: Tuesday 22 September 2020
 
-
 + **Notes**
   +  Fixed the issue with the destroy() method by fixing an erroneously named method that meant relationships weren't properly being set up.  The big victory of the day!  :)  
                 
@@ -34,7 +37,6 @@ ___
 
 ### R5D68: Monday 21 September 2020
 
-
 + **Notes**
   +  Progress with doing CRUD operations via a REST API.  Everything but the delete operation is working.  Elsewhere worked on and fixed some bugs on my website and updated my Photography page.
                 
@@ -42,7 +44,6 @@ ___
 
 
 ### R5D67: Friday 18 September 2020
-
 
 + **Notes**
   +  Continued my restudy into REST API's with Laravel. You can follow the progress I've made via my repository https://github.com/jg-digital-media/photos_api
@@ -60,14 +61,12 @@ ___
 
 ### R5D65: Wednesday 16 September 2020
 
-
 + **Notes**
   +  I've been trying to work out how to create a usable REST API for uploading photos.  Gone back to Laravel to try it out as my last one ran its course. I'm now on to Laravel 8 which complicates things  :)
                 
   + **Technologies used** - HTML5, CSS, JavaScript, JSON
 
 ### R5D64: Tuesday 15 September 2020
-
 
 + **Notes**
   +  Today was about checking, organising and building project data in JSON.
@@ -76,7 +75,6 @@ ___
 
 
 ### R5D63: Monday 14 September 2020
-
 
 + **Notes**
   +  Today I devoted my coding day to getting my photography website up to date. The latest photos syncing up to my local backup with so many more to be added later. Hopefully be less time consuming to update in future. 
@@ -94,7 +92,6 @@ ___
 
 ### R5D61: Thursday 10 September 2020
 
-
 + **Notes**
   +  For a month now alongside my other work I've been doing a series of Repositories of starter files for various web projects. Here's my repository for an image gallery with 2 versions for different styles for viisbility and animation. https://github.com/jg-digital-media/jgdm_image_gallery
                 
@@ -102,7 +99,6 @@ ___
 
 
 ### R5D60: Wednesday 9 September 2020
-
 
 + **Notes**
   +  Building a Starter responsive image gallery 

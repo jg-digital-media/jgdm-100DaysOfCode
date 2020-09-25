@@ -98,6 +98,10 @@ header {
     margin: 0 auto; }
     #container .project_list .project_status_header h2 {
       font-size: 24px; }
+      #container .project_list .project_status_header h2 span {
+        color: red;
+        font-style: italic;
+        font-size: 11px; }
     #container .project_list .project_status_header a {
       color: red;
       font-weight: bold;

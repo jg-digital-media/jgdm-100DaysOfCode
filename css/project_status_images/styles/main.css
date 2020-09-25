@@ -150,29 +150,35 @@ header {
     #container .project-status-container .project_info {
       display: flex;
       flex-direction: row;
-      height: 65px; }
-      #container .project-status-container .project_info span.complete {
+      height: 65px;
+      /* .complete,
+      .incomplete,
+      .under_review,
+      .upcoming {
+          width: 40px;
+      } */ }
+      #container .project-status-container .project_info .complete {
         display: inline-block;
         background: #008000;
         width: 30px;
         height: 30px;
         border-radius: 50%;
         margin-right: 5px; }
-      #container .project-status-container .project_info span.incomplete {
+      #container .project-status-container .project_info .incomplete {
         display: inline-block;
         background: #ff0000;
         width: 30px;
         height: 30px;
         border-radius: 50%;
         margin-right: 5px; }
-      #container .project-status-container .project_info span.under_review {
+      #container .project-status-container .project_info .under_review {
         display: inline-block;
         background: #ffff00;
         width: 30px;
         height: 30px;
         border-radius: 50%;
         margin-right: 5px; }
-      #container .project-status-container .project_info span.upcoming {
+      #container .project-status-container .project_info .upcoming {
         display: inline-block;
         background: #ff9005;
         width: 30px;
@@ -180,7 +186,11 @@ header {
         border-radius: 50%;
         margin-right: 5px; }
       #container .project-status-container .project_info .project_name {
-        display: inline; }
+        display: inline;
+        width: 69%;
+        border: red solid 1px;
+        font-size: 15px;
+        line-height: 1.2; }
   #container .main-content {
     width: 66%;
     display: block;

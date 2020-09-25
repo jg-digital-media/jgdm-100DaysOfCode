@@ -202,24 +202,35 @@ header {
             flex-direction: row;
             height: 65px;
 
-            span.complete {
-                @include span-colours(inline-block, #008000, 30px, 30px, 50%, 5px);
-            }
+            /* .complete,
+            .incomplete,
+            .under_review,
+            .upcoming {
+                width: 40px;
+            } */
 
-            span.incomplete {
-                @include span-colours(inline-block, #ff0000, 30px, 30px, 50%, 5px);
-            }
+            .complete {
+                    @include span-colours(inline-block, #008000, 30px, 30px, 50%, 5px);
+                }
 
-            span.under_review {
-                @include span-colours(inline-block, #ffff00, 30px, 30px, 50%, 5px);
+            .incomplete {
+                    @include span-colours(inline-block, #ff0000, 30px, 30px, 50%, 5px);
+                }
 
-            }
-            span.upcoming {
-                @include span-colours(inline-block, #ff9005, 30px, 30px, 50%, 5px);
-            }
+            .under_review {
+                    @include span-colours(inline-block, #ffff00, 30px, 30px, 50%, 5px);
+
+                }
+            .upcoming {
+                    @include span-colours(inline-block, #ff9005, 30px, 30px, 50%, 5px);
+                }
 
             .project_name {
                 display: inline;
+                width: 69%;
+                border: red solid 1px;
+                font-size: 15px;
+                line-height: 1.2;
             }
         }
     }

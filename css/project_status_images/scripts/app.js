@@ -25,8 +25,8 @@ jQuery.getJSON('data/project-list.json', function(photoData) {
                 </a> 
 
                 <div class="project_info">
-                    <span class="${photoData.projects[i].project_status }"></span>
-                    <div id="project_name">${photoData.projects[i].project_name }</div>
+                    <div class="${photoData.projects[i].project_status }"></div>
+                    <div class="project_name">${photoData.projects[i].project_name }</div>
                 </div>
            </li>`).appendTo('.project-status-data');     
     }   

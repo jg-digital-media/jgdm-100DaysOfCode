@@ -62,7 +62,7 @@ header {
             @include span-colours(inline-block, #008000, 30px, 30px, 50%, 5px);
         }
 
-        span#red-complete {
+        span#red-incomplete {
             @include span-colours(inline-block, #ff0000, 30px, 30px, 50%, 5px);
         }
 
@@ -113,7 +113,7 @@ header {
         }
 
         span#green-complete, 
-        span#red-complete, 
+        span#red-incomplete, 
         span#yellow-review, 
         span#orange-upcoming {
             right: 20px;
@@ -242,6 +242,7 @@ header {
 
         ul {
             list-style-type: none;
+            text-align: center;
 
             @media (max-width: 940px) {
                 margin: 0 auto

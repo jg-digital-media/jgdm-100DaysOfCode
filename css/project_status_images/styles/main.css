@@ -13,7 +13,7 @@ body {
 
 header {
   width: 100%;
-  min-height: 110px;
+  min-height: 130px;
   background: lightgreen;
   border-bottom: 6px green solid; }
   @media (max-width: 940px) {
@@ -35,6 +35,11 @@ header {
     text-align: right;
     position: relative;
     top: 30px; }
+    @media (max-width: 780px) {
+      header .key {
+        padding: 20px 0;
+        height: 115;
+        line-height: 2; } }
     header .key h2 {
       width: auto;
       display: inline-block; }
@@ -70,7 +75,9 @@ header {
       header .key {
         display: block;
         text-align: center;
-        position: relative;
+        position: relative; } }
+    @media (max-width: 1290px) {
+      header .key {
         top: 20px; } }
   header .sticky {
     position: fixed;
@@ -83,6 +90,11 @@ header {
     top: 0px;
     right: 0px;
     padding: 7px 35px; }
+    @media (max-width: 780px) {
+      header .sticky {
+        padding: 20px 0;
+        height: 100px;
+        line-height: 3; } }
   header .sticky h2 {
     right: 20px;
     text-align: center; }

@@ -36,3 +36,16 @@ jQuery.getJSON('data/project-list.json', function(photoData) {
            </li>`).appendTo('.project-status-data');     
     }   
 });
+
+window.onscroll = function() {stickyNavbar()};
+
+var navbar = document.querySelector("aside.key");
+var sticky = navbar.offsetTop;
+
+function stickyNavbar() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}

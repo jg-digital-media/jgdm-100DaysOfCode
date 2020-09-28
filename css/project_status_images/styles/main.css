@@ -34,8 +34,7 @@ header {
     width: 95%;
     text-align: right;
     position: relative;
-    top: 30px;
-    right: 2px; }
+    top: 30px; }
     header .key h2 {
       width: auto;
       display: inline-block; }
@@ -73,6 +72,25 @@ header {
         text-align: center;
         position: relative;
         top: 20px; } }
+  header .sticky {
+    position: fixed;
+    height: 35px;
+    box-shadow: 0px 6px 5px -3px #403b40b5;
+    z-index: 1004;
+    background: lightgreen;
+    border-bottom: 6px green solid;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    padding: 7px 35px; }
+  header .sticky h2 {
+    right: 20px;
+    text-align: center; }
+  header .sticky span#green-complete,
+  header .sticky span#red-complete,
+  header .sticky span#yellow-review,
+  header .sticky span#orange-upcoming {
+    right: 20px; }
 
 #container {
   position: relative;

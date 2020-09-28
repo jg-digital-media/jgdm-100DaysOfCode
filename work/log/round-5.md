@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 72 of 100. **Last Update:** 25 September 2020
+## **Status:** Day 73 of 100. **Last Update:** 28 September 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R5D73: Monday 28 September 2020
+
++ **Notes**
+  + Implemented a Sticky Navigation header to a webpage I'm refactoring, Updated my photography website and started wireframes for a new client website that's to come!        
+  + **Technologies used** - HTML5, CSS, JavaScript
 
 
 ### R5D72: Friday 25 September 2020

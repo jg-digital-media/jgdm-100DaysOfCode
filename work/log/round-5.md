@@ -1,15 +1,21 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 74 of 100. **Last Update:** 24 September 2020
+## **Status:** Day 75 of 100. **Last Update:** 30 September 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R5D74: Wednesday 30 September 2020
+
++ **Notes**
+  +  Not too much time for coding today as I produced my very first drafts for my latest project via photoshop.      
+  + **Technologies used** - HTML5, CSS, JavaScript
 
 ### R5D74: Tuesday 29 September 2020
 
 + **Notes**
   +  Built the wireframes I mentioned yesterday and now to wait for approval and begin the next step of the web design process.      
-  + **Technologies used** - HTML5, CSS, PHP
+  + **Technologies used** - HTML5, CSS, JavaScript
 
 
 ### R5D73: Monday 28 September 2020

@@ -11,7 +11,7 @@ ___
 
 + **Notes**
   + Creating some Logos in Illustrator and SVG.       
-  + **Technologies used** - HTML5, CSS, SVG 
+  + **Technologies used** - HTML5, CSS, SVGq 
 
 ### R5D75: Wednesday 30 October 2020
 

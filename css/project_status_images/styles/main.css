@@ -161,8 +161,9 @@ header {
           display: block;
           margin: 0 auto; } }
       #container .project-status-container ul.project-status-data li a img {
-        width: 85%;
-        width: 100%; }
+        width: 100%;
+        margin: 20px 0px;
+        border-radius: 10px; }
     #container .project-status-container a {
       color: red;
       font-weight: bold; }
@@ -234,6 +235,7 @@ header {
       #container .project-status-container .project_info .project_name {
         display: inline;
         width: 69%;
+        width: 85%;
         border: red solid 1px;
         font-size: 15px;
         line-height: 1.2; }

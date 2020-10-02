@@ -562,7 +562,7 @@
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
-            "project_name": "PHP Project Starter",
+            "project_name": "JGDM: PHP Project Starter",
             "project_url": "https://github.com/jg-digital-media/jgdm_php_boilerplate",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/php_starter_repo.png",
             "feat_img_url": "img/featured/php_starter_repo.jpg",
@@ -573,18 +573,29 @@
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
-            "project_name": "Responsive Mobile Menu",
+            "project_name": "JGDM: Responsive Mobile Menu",
             "project_url": "https://github.com/jg-digital-media/jgdm_mobile_hamburger_menu",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/mobile_menu_repo.png",
             "feat_img_url": "img/featured/mobile_menu_repo.jpg",
             "project_alt": "A cloneable website with responsive Mobile Menu",
             "project_type": "website",
+            "project_status": "under_review",
+            "status": null,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+        }, {
+            "project_name": "JGDM: Web Starter Repo",
+            "project_url": "https://github.com/jg-digital-media/web_project_starter",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/jgdm_web_starter.png",
+            "feat_img_url": "img/featured/jgdm_web_starter.jpg",
+            "project_alt": "JGDM Web Project Starter",
+            "project_type": "website",
             "project_status": "incomplete",
             "status": false,
             "img_type": "data-src",
             "img_type_data": "data-src"
-        }, {
-            "project_name": "Image Gallery Starter",
+        },  {
+            "project_name": "JGDM: Image Gallery Starter",
             "project_url": "https://github.com/jg-digital-media/jgdm_image_gallery",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/image_gallery_repo.png",
             "feat_img_url": "img/featured/image_gallery_repo.jpg",

@@ -1,42 +1,56 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 76 of 100. **Last Update:** 02 October 2020
+## **Status:** Day 77 of 100. **Last Update:** 02 October 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
+### R5D77: Friday 2 October 2020
+
++ **Notes**
+  + Creating some Logos in Illustrator and SVG.   
+      
+  + **Technologies used** - HTML5, CSS, SVGq 
+
+
+
 ### R5D76: Thursday 1 October 2020
 
 + **Notes**
-  + Creating some Logos in Illustrator and SVG.       
+  + Creating some Logos in Illustrator and SVG.   
+      
   + **Technologies used** - HTML5, CSS, SVGq 
 
 ### R5D75: Wednesday 30 October 2020
 
 + **Notes**
-  +  Creating some Logos in Illustrator and SVG.        
+  +  Creating some Logos in Illustrator and SVG.    
+
   + **Technologies used** - HTML5, CSS, SVG
 
 
 ### R5D74: Tuesday 29 September 2020
 
 + **Notes**
-  +  Built the wireframes I mentioned yesterday and now to wait for approval and begin the next step of the web design process.      
+  +  Built the wireframes I mentioned yesterday and now to wait for approval and begin the next step of the web design process.     
+
   + **Technologies used** - HTML5, CSS, JavaScript
 
 
 ### R5D73: Monday 28 September 2020
 
 + **Notes**
-  + Implemented a Sticky Navigation header to a webpage I'm refactoring, Updated my photography website and started wireframes for a new client website that's to come!        
+  + Implemented a Sticky Navigation header to a webpage I'm refactoring, Updated my photography website and started wireframes for a new client website that's to come!   
+
   + **Technologies used** - HTML5, CSS, JavaScript
 
 ### R5D72: Friday 25 September 2020
 
 + **Notes**
-  + Started some work for a new client today          
+  + Started some work for a new client today       
+
   + **Technologies used** - HTML5, CSS, Laravel, JSON
 
 ### R5D71: Thursday 24 September 2020

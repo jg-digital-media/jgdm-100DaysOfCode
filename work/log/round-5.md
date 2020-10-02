@@ -1,9 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 74 of 100. **Last Update:** 24 September 2020
+## **Status:** Day 76 of 100. **Last Update:** 02 September 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+
+### R5D75: Wednesday 01 October 2020
+
++ **Notes**
+  +  Creating some Logos in Illustrator and SVG.        
+  + **Technologies used** - HTML5, CSS, SVG
+
 
 ### R5D74: Tuesday 29 September 2020
 

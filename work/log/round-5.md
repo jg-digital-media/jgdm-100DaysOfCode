@@ -1,13 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 76 of 100. **Last Update:** 02 September 2020
+## **Status:** Day 76 of 100. **Last Update:** 02 October 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
-### R5D75: Wednesday 01 October 2020
+### R5D76: Thursday 1 October 2020
+
++ **Notes**
+  + Creating some Logos in Illustrator and SVG.       
+  + **Technologies used** - HTML5, CSS, SVG 
+
+### R5D75: Wednesday 30 October 2020
 
 + **Notes**
   +  Creating some Logos in Illustrator and SVG.        
@@ -18,7 +24,7 @@ ___
 
 + **Notes**
   +  Built the wireframes I mentioned yesterday and now to wait for approval and begin the next step of the web design process.      
-  + **Technologies used** - HTML5, CSS, PHP
+  + **Technologies used** - HTML5, CSS, JavaScript
 
 
 ### R5D73: Monday 28 September 2020

@@ -1,17 +1,23 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 78 of 100. **Last Update:** 05 October 2020
+## **Status:** Day 79 of 100. **Last Update:** 06 October 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
-### R5D78: Monday 5thOctober 2020
+### R5D79: Tuesday 6th October 2020
 
 + **Notes**
-  + Pressed ahead with updates today largely working with HTML and Sass. Photography Website up to date and worked on my latest client project. Long way to go on that but already taking shape. 
-  
+  + More work today with html5 linking the pages together and started responsive design.q  
+      
+  + **Technologies used** - HTML5, CSS, SVG, JSON 
+
+### R5D78: Monday 5th October 2020
+
++ **Notes**
+  + Pressed ahead with updates today largely working with HTML and Sass. Photography Website up to date and worked on my latest client project. Long way to go on that but already taking shape.   
       
   + **Technologies used** - HTML5, CSS, SVG, JSON 
 
@@ -21,8 +27,6 @@ ___
   + Creating some Logos in Illustrator and SVG.   
       
   + **Technologies used** - HTML5, CSS, SVG
-
-
 
 ### R5D76: Thursday 1 October 2020
 

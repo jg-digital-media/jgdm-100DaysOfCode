@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 5: Day 79 of 100. **Last Update:** 06 October 2020 
++ **Status:** Round 5: Day 80 of 100. **Last Update:** 07 October 2020 
 
 ## Directories
   + api

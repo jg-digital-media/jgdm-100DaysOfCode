@@ -13,7 +13,61 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
-### Day 79
+### Day 80
+
+### Build a Quizz App with loops and multidimensional arrays
+
+```javascript
+const quiz = [
+   ["question 1", "answer one"],
+   ["question 2", "answer two"],
+   ["question 3", "answer three"],
+   ["question 4", "answer four"]
+] 
+
+//An array of arrays.  each array item is another array with a question and the answer
+```
+
+```javascript
+
+let answerCorrect = 0;
+
+//store number of answered questions
+```
+
+
+```javascript
+
+for(i=0; i < quiz[0].length; i+;){
+    let questions = questions[i][0];
+    let answer = questions[i][0];
+    let response = prompt( question );
+
+
+    //answerCorrect++;
+}
+//use a loop to cycle through each question
+
+```
+
+```javascript
+
+if ( response === answer ) {
+    answerCorrect++
+}
+
+//display the number of correct answers to the user
+```
+
+```javascript
+
+let html = `
+`<h1>Message ${ correctAnswers } questions answered correctly</h1>
+`;
+
+document.querySelector('main').innerHTML = html;
+
+```
 
 
 ### Day 69

@@ -5,7 +5,7 @@
  * Web:          https://www.jonniegrieve.co.uk
  * //file path to json file - local   - ../../css/portfolio/data/project-list.json
  * //file path to json file - server  - ../../../data/project-list.json
- * Date:  25/09/2020
+ * Date:  08/10/2020
  */
 
 

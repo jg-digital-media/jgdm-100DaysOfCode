@@ -1,16 +1,23 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 80 of 100. **Last Update:** 07 October 2020
+## **Status:** Day 81 of 100. **Last Update:** 08 October 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
-### R5D80: Wednesday 6th October 2020
+### R5D81: Thursday 8th October 2020
 
 + **Notes**
-  + The next iteration of my client project is currently with them for review. Later on a bit of fun with JS Arrays
+  + A day of fix broken links and bugs in various projects while I wait to take the next step in my project.
+      
+  + **Technologies used** - HTML5, CSS, SVG, JSON 
+
+### R5D80: Wednesday 7th October 2020
+
++ **Notes**
+  + The next iteration of my client project is currently with them for review. Later on a bit of fun with JS Arrays.
       
   + **Technologies used** - HTML5, CSS, SVG, JSON 
 

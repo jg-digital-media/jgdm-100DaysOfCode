@@ -13,6 +13,40 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
+
+
+## Day 81
+
+### Looping through Object Literals
+
+```javascript
+const student = {
+    name: 'Jon',
+    age: 36,
+    city: 'Durham',
+    isStudent: true,
+    skills: ['JS', 'html', 'css']
+}
+
+
+person.nickname = 'JG';
+
+
+const message = `Hi, my name is ${person.name}. You can call me ${person.nickname}. I live in {$person.city} and I am ${person.age + 1}. I have ${person.skill.length} skills.  They are ${person.skills.join(', ')}.`;
+
+
+
+//e.g.
+
+for (let prop in person) {
+
+    console.log ( prop );
+    console.log ( `${prop}: ${person.prop} `);
+    console.log ( `${prop}: ${person[prop]}` );
+
+}
+```
+
 ### Day 80
 
 ### Build a Quizz App with loops and multidimensional arrays

@@ -8,3 +8,9 @@
  ```featured-projects.json``` - intended for the featured projects section currently totalling 8 records
 + ```projects.json``` - single empty record for adding to  featured projects file.
 + ```random.json``` - generated json functions and methods
+
+## project images (not included in data for now)
+
++ autism.png  
++ am_consulting 
++ android.png 

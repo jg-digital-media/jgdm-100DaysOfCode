@@ -17,7 +17,7 @@ $(document).ready(function(){
 
 
 //cycle through background images
-const imageBgArray = [
+var imageBgArray = [
     'img/panoramics/panoramic_dene_blur.jpg',
     'img/panoramics/panoramic_railway_blur.jpg',
     'img/panoramics/panoramic_coastal_blur.jpg',
@@ -31,7 +31,7 @@ const imageBgArray = [
 ];
 
 //loop through array
-let i = 0;
+var i = 0;
 
 setInterval(function() {
     $('body').css('background-image', 'url(' + imageBgArray[i] + ')');

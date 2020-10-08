@@ -141,9 +141,10 @@ header {
     #container .project_list .project_status_header h2, #container .project_list .project_status_header a {
       text-align: center; }
   #container .project-status-container {
+    display: block;
+    margin: 0 auto;
     border: solid black 1px;
-    width: 90%;
-    display: block; }
+    width: 90%; }
     #container .project-status-container ul.project-status-data li {
       height: auto;
       display: inline-block;
@@ -238,7 +239,8 @@ header {
         width: 85%;
         border: red solid 1px;
         font-size: 15px;
-        line-height: 1.2; }
+        line-height: 1.2;
+        text-align: left; }
         @media (max-width: 780px) {
           #container .project-status-container .project_info .project_name {
             display: block;

@@ -45,7 +45,7 @@
                         <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_120430.jpg" data-lightbox="walk-seventeen" data-title="Turn left toward the small ravine." class="lightbox-link"></a>
                         <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_120532.jpg" data-lightbox="walk-seventeen" data-title="Down the steps and cross over." class="lightbox-link"></a>
                         <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_120555.jpg" data-lightbox="walk-seventeen" data-title="Head up the bank." class="lightbox-link"></a>
-                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_120703.jpg" data-lightbox="walk-seventeen" data-title="captioning" class="lightbox-link"></a>
+                        <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_120703.jpg" data-lightbox="walk-seventeen" data-title="" class="lightbox-link"></a>
                         <a href="https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/blackhall-rocks/IMG_20200528_120937.jpg" data-lightbox="walk-seventeen" data-title="Trail ends!" class="lightbox-link"></a>
                         
                         <!-- walks directories

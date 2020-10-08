@@ -30,9 +30,9 @@
                         <li>Turn right and carry on until you see the school house.</li>
                         <li>Follow the public footpath.</li>
                         <li>Castle Eden Dene crossing point.</li>
-                        <li>Turn left until bleachery dene crossing point.</li>
-                        <li>Turn right toward bleachery dene at this point.</li>
-                        <li>Follow the path toward bleachery dene.</li>
+                        <li>Turn left until Bleachery Dene crossing point.</li>
+                        <li>Turn right toward Bleachery Dene at this point.</li>
+                        <li>Follow the path toward Bleachery Dene.</li>
                         <li>Go down the small embankment toward the dene.</li>
                         <li>Cross the wooden bridge.</li>
                         <li>Up the bank.</li>

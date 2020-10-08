@@ -27,7 +27,6 @@
                     <h3>Trail Summary</h3>
                     
                     <ol>
-                        <li>Second vus</li>
                         <li>Follow the public footpath.</li>
                         <li>Castle Eden Dene crossing point.</li>
                         <li>Turn left until Bleachery Dene crossing point.</li>

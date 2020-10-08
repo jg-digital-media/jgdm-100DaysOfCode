@@ -469,10 +469,12 @@ nav {
       width: 1024px; } }
   @media (max-width: 1499px) {
     .dene {
-      max-width: 1450px; } }
+      /* max-width: 1450px; */
+      max-width: 930px; } }
   @media (max-width: 1024px) {
     .dene {
-      max-width: 1000px;
+      /* max-width: 1000px; */
+      max-width: 720px;
       margin: 0 auto;
       border: solid 1px black;
       padding: 10px; } }
@@ -496,10 +498,12 @@ nav {
       width: 1024px; } }
   @media (max-width: 1499px) {
     .railway {
-      max-width: 1450px; } }
+      /* max-width: 1450px; */
+      max-width: 930px; } }
   @media (max-width: 1024px) {
     .railway {
-      max-width: 1000px;
+      /* max-width: 1000px; */
+      max-width: 720px;
       margin: 0 auto;
       border: solid 1px black;
       padding: 10px; } }
@@ -527,10 +531,12 @@ nav {
       width: 1024px; } }
   @media (max-width: 1499px) {
     .coastal {
-      max-width: 1450px; } }
+      /* max-width: 1450px; */
+      max-width: 930px; } }
   @media (max-width: 1024px) {
     .coastal {
-      max-width: 1000px;
+      /* max-width: 1000px; */
+      max-width: 720px;
       margin: 0 auto;
       border: solid 1px black;
       padding: 10px; } }
@@ -553,7 +559,11 @@ nav {
   @media (min-width: 1500px) {
     .routes {
       width: 1450px;
-      width: 1024px; } }
+      width: 1024px;
+      width: 70%; } }
+  @media (max-width: 1499px) {
+    .routes {
+      width: 60%; } }
   @media (max-width: 720px) {
     .routes {
       width: 90%; } }

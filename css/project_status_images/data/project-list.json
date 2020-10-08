@@ -201,7 +201,7 @@
         }, {
             "project_name": "Project Status using Vue Framework",
             "project_url": "https://projects.jonniegrieve.co.uk/vue_project",
-            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/project_status.png",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/project_status_vue.png",
             "feat_img_url": "img/featured/project_status.jpg",
             "project_alt": "Go to Project Status page",
             "project_type": "App",

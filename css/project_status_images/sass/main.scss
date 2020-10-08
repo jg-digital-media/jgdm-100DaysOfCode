@@ -177,9 +177,10 @@ header {
     }
 
     .project-status-container {    
+        display: block;
+        margin: 0 auto;
         border: solid black 1px;
         width: 90%;
-        display: block;
 
         ul.project-status-data {
 
@@ -301,6 +302,7 @@ header {
                 border: red solid 1px;
                 font-size: 15px;
                 line-height: 1.2;
+                text-align: left;
 
                 @media (max-width: 780px) {
                     display: block;

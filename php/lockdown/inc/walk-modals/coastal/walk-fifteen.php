@@ -27,14 +27,10 @@
                     <h3>Trail Summary</h3>
                     
                     <ol>
-                        <li>.</li>
-                        <li>.</li>
-                        <li>.</li>
-                        <li>.</li>
-                        <li>.</li>
-                        <li>.</li>
-                        <li>.</li>
-                        <li>.</li>
+                        <li>The view of the Coast from Crimdon main car park.</li>
+                        <li>Turn right and start following the trail..</li>
+                        <li>Carry on straight ahead. No turns. Passing the Pony Trekking Center.</li>
+                        <li>Trail ends at the signposted point marking the entrance to Crimdon Dene.</li> 
                     </ol>
 
                     <div class="lightbox-slider">

@@ -1,6 +1,12 @@
-https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/    <h3><?php echo $trailTypeNineteen; ?></h3>
+<!--<p> <?php echo "Walk 19";  ?> </p> -->
 
-        <p>Lorem</p>
+<article class="walk">
+
+    <div>
+
+        <h3><?php echo $trailTitleNineteen; ?></h3>
+
+        <p>The Trail for LimeKiln Gill is to the left of Denemouth and is a looping have contains a coastal view from a safe distance.</p>
 
     </div>
 
@@ -8,11 +14,11 @@ https://jg-photography.s3.eu-west-2.amazonaws.com/lockdown_walks/    <h3><?php e
         <img src = "img/walk_homepage/walk-nineteen.jpg" alt = "<?php echo $trailTypeNineteen; ?>" title="<?php echo $trailTypeNineteen; ?>" />
 
         <!-- opens modal -->
-        <a href="#" class="walk-btn modal_btn" id="modal_btn_twenty" title="Open Route">Open Route</a>
+        <a href="#" class="walk-btn modal_btn" id="modal_btn_nineteen" title="Open Route">Open Route</a>
         
-        <div id="modal-area-twenty" class="modal">
+        <div id="modal-area-nineteen" class="modal">
 
-            <div id="walk-modal-twenty">
+            <div id="walk-modal-nineteen">
 
                 <div class="modal-content">
                 

@@ -4,21 +4,21 @@
 
     <div>
 
-        <h3><?php echo $trailTitleFifteen; ?></h3>
+        <h3><?php echo $trailTitleSixteen; ?></h3>
 
         <p>Crimdon is home to the famous caravan and holiday parks and boasts the East Coast.</p>
 
     </div>
 
     <div>
-        <img src = "img/walk_homepage/walk-fifteen.jpg" alt = "<?php echo $trailTitleFifteen; ?>" title="<?php echo $trailTitleFifteen; ?>" />
+        <img src = "img/walk_homepage/walk-sixteen.jpg" alt = "<?php echo $trailTitleSixteen; ?>" title="<?php echo $trailTitleSixteen; ?>" />
 
         <!-- opens modal -->
-        <a href="#" class="walk-btn modal_btn" id="modal_btn_fifteen" title="Open Route">Open Route</a>
+        <a href="#" class="walk-btn modal_btn" id="modal_btn_sixteen" title="Open Route">Open Route</a>
         
-        <div id="modal-area-fifteen" class="modal">
+        <div id="modal-area-sixteen" class="modal">
 
-            <div id="walk-modal-fifteen">
+            <div id="walk-modal-sixteen">
 
                 <div class="modal-content">
                 

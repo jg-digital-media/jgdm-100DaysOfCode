@@ -11,6 +11,9 @@
 /**
  * Display all featured projects  - all-projects.html  47 Projects
  */
+
+console.log( "file: all-featured.js"  );
+
 jQuery.getJSON('data/project-list.json', function(photoData) { 
 
 
@@ -50,7 +53,7 @@ var lazyLoadInstance = new LazyLoad({
     //use_native: true, // <-- there you go -->
     elements_selector: ".lazy",
     //threshold: 900,
-    threshold: 1472
+    //threshold: 1472
 
 });
 

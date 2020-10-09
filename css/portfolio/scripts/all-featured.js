@@ -50,3 +50,6 @@ var lazyLoadInstance = new LazyLoad({
     threshold: 1472
 
 });
+
+//any further required checks on the DOM
+lazyLoadInstance.update();

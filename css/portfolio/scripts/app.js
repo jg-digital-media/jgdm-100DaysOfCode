@@ -1,6 +1,7 @@
 /**
  * Author: @jg_digitalMedia
  * Date:  15/09/2020   13:00pm
+ * Page:  index.html
  * 
  * file path to json file - local assets/data/project-list.json
  * photoData - Featured Project image url data
@@ -139,7 +140,8 @@ $(document).ready(function() {
 
     });
 
-    //lazyLoadInstance.update();
+    //any further required checks on the DOM
+    lazyLoadInstance.update();
 
 
 /**

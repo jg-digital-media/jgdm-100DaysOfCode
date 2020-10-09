@@ -20,24 +20,6 @@ jQuery.getJSON('data/project-list.json', function(photoData) {
 
     project_count.textContent = count;
 
-    //let itemAll = photoData.projects.length;
-    //console.log(photoData.projects.length);
-
-   /*  for (let i=0; i < itemAll; i++) { 
-        
-        //successful delivery of class and image URL    - uses data-src and/or src attributes for image element        
-        jQuery(`<a href="${photoData.projects[i].project_url}" target="blank">
-                    <img ${photoData.projects[i].img_type}="${photoData.projects[i].img_url}" 
-                        class="site-images lazy" 
-                        loading = "lazy"
-                        alt="${photoData.projects[i].project_alt}" 
-                        title="${photoData.projects[i].project_alt}" 
-                        tabindex="" />
-                </a>`
-        ).appendTo('.all');     
-
-   } */
-
 });
 
 
@@ -50,3 +32,6 @@ var lazyLoadInstance = new LazyLoad({
     threshold: 1472
 
 });
+
+//any further required checks on the DOM
+lazyLoadInstance.update();

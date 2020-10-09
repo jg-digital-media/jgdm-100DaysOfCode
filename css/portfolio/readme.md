@@ -14,3 +14,30 @@
 + autism.png  
 + am_consulting 
 + android.png 
+
+## LazyLoading
+
+```javascript
+
+/**
+ *  Working Example: https://projects.jonniegrieve.co.uk/php_website/
+ */
+
+
+console.log("message logged");
+
+//lazyloading
+var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy",
+    // ... more custom settings?
+    //threshold: 1472,
+});
+
+```
+
++ Data Src  not src attributes for images
++ lazy class on image tags.
++ Include links for jQuery and Lazyload.js 
++ Works in its own script file...   app.js   last thing before the body tag  
+
+

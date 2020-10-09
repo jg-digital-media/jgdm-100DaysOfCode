@@ -23,6 +23,11 @@ jQuery.getJSON('data/project-list.json', function(photoData) {
 });
 
 
+/**
+ * 
+ * Lazyload - verlok
+*/
+
 var lazyLoadInstance = new LazyLoad({
         
     //container: document.querySelector("#all_projects_list"),

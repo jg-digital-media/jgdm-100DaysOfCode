@@ -13,15 +13,14 @@
  */
 jQuery.getJSON('data/project-list.json', function(photoData) { 
 
+
+    let itemAll = photoData.projects.length;
+    console.log(photoData.projects.length);
     
     //select project count
     let project_count = document.getElementById("project_count");
     let count = "( " + photoData.projects.length + " )";
-
     project_count.textContent = count;
-
-    let itemAll = photoData.projects.length;
-    console.log(photoData.projects.length);
 
     for (let i=0; i < itemAll; i++) { 
         
@@ -40,6 +39,10 @@ jQuery.getJSON('data/project-list.json', function(photoData) {
 
 });
 
+/**
+ * 
+ * Lazyload - verlok
+*/
 
 var lazyLoadInstance = new LazyLoad({
         

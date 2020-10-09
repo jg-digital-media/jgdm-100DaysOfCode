@@ -18,10 +18,10 @@ jQuery.getJSON('data/project-list.json', function(photoData) {
     let itemAll = photoData.projects.length;
     console.log(photoData.projects.length);
 
-        //select project count
-        let project_count = document.getElementById("project_count");
-        let count = "( " + photoData.projects.length + " )";
-        project_count.textContent = count;
+    //select project count
+    let project_count = document.getElementById("project_count");
+    let count = "( " + photoData.projects.length + " )";
+    project_count.textContent = count;
 
     for (let i=0; i < itemAll; i++) { 
         
@@ -126,22 +126,22 @@ $(document).ready(function() {
 
     });
 
-    /**
-     * 
-     * Lazyload - verlok
-    */
- 
-    var lazyLoadInstance = new LazyLoad({
-        
-        //container: document.querySelector("#all_projects_list"),
-        //use_native: true, // <-- there you go -->
-        elements_selector: ".lazy",
-        threshold: 900,
+/**
+ * 
+ * Lazyload - verlok
+*/
 
-    });
+var lazyLoadInstance = new LazyLoad({
+    
+    //container: document.querySelector("#all_projects_list"),
+    //use_native: true, // <-- there you go -->
+    elements_selector: ".lazy",
+    threshold: 900,
 
-    //any further required checks on the DOM
-    lazyLoadInstance.update();
+});
+
+//any further required checks on the DOM
+lazyLoadInstance.update();
 
 
 /**

@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   8th July 2020
+Last Updated:   09 October 2020  11:41am
 --->
 
 <!DOCTYPE html>
@@ -520,7 +520,7 @@ Last Updated:   8th July 2020
     </main>
     
     <footer>
-        <p>&copy; Jonnie Grieve Digital Media 2019. All Rights Reserved</p>
+        <p>&copy; Jonnie Grieve Digital Media (<?php echo date("Y"); ?>). All Rights Reserved</p>
     </footer>
 
 

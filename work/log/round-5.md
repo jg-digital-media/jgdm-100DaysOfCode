@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 81 of 100. **Last Update:** 08 October 2020
+## **Status:** Day 82 of 100. **Last Update:** 09 October 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+### R5D82: Friday 9th October 2020
+
++ **Notes**
+  + Study goes on into Lazyloading
+      
+  + **Technologies used** - HTML5, CSS, SVG, JSON 
 
 ### R5D81: Thursday 8th October 2020
 

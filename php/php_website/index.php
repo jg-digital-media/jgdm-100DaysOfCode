@@ -2,6 +2,7 @@
 
     $selected = "index";
     $pageTitle = "Media Library:  Curation of the best Digital Media";
+    $page_url = "https://projects.jonniegrieve.co.uk/php_website/index.php";
     $media = "selectCategory";
 
     $meta_description = "The TV &amp; Movie DVD Directory is designed to be #1 tool that helps digital media and entertainment enthusiasts find the best content out there.";
@@ -12,6 +13,8 @@
     $fb_description = "The TV &amp; Movie DVD Directory is designed to be #1 tool that helps digital media and entertainment enthusiasts find the best content out there";
     $fb_image = "https://projects.jonniegrieve.co.uk/img/media_lib_preview.png";
     $fb_url = "https://projects.jonniegrieve.co.uk/php_website/index.php";
+
+    $tw_image = "https://projects.jonniegrieve.co.uk/img/media_lib_preview.png";
 
     require "inc/header.php"; 
 

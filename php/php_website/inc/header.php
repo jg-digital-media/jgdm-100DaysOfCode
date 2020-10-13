@@ -28,11 +28,11 @@
     <!-- TWITTER: Open Graph -->
     <meta name="twitter:title" content="<?php echo $fb_title; ?>">
     <meta name="twitter:description" content="<?php echo $fb_description; ?>">
-    <meta name="twitter:image" content="<?php echo $fb_image; ?>">
+    <meta name="twitter:image" content="<?php echo $tw_image; ?>">
     <meta name="twitter:card" content="php_website">
 
     <!-- Canonical link -->
-    <link rel="canonical" href="<?php echo $fb_url; ?>">
+    <link rel="canonical" href="<?php echo $page_url; ?>">
 
 </head>
 <body>

@@ -132,11 +132,8 @@ $(document).ready(function() {
 */
 
 var lazyLoadInstance = new LazyLoad({
-    
-    //container: document.querySelector("#all_projects_list"),
-    //use_native: true, // <-- there you go -->
-    elements_selector: ".lazy",
-    threshold: 900,
+
+    elements_selector: ".lazy"
 
 });
 

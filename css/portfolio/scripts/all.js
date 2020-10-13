@@ -30,10 +30,8 @@ jQuery.getJSON('data/project-list.json', function(photoData) {
 
 var lazyLoadInstance = new LazyLoad({
         
-    //container: document.querySelector("#all_projects_list"),
-    //use_native: true, // <-- there you go -->
+    container: document.querySelector("#all_projects_list"),
     elements_selector: ".lazy",
-    //threshold: 900,
     threshold: 1472
 
 });

@@ -31,7 +31,7 @@ jQuery.getJSON('data/project-list.json', function(photoData) {
         jQuery(`<a href="${photoData.projects[i].project_url}" target="blank">
                     <img ${photoData.projects[i].img_type}="${photoData.projects[i].feat_img_url}" 
                         class="site-images lazy" 
-                        loading = "lazy"
+                        //loading = "lazy"
                         alt="${photoData.projects[i].project_alt}" 
                         title="${photoData.projects[i].project_alt}" 
                         tabindex="" />
@@ -48,6 +48,14 @@ jQuery.getJSON('data/project-list.json', function(photoData) {
 */
 
 var lazyLoadInstance = new LazyLoad({
+
+    elements_selector: ".lazy"
+
+});
+
+/*
+
+var lazyLoadInstance = new LazyLoad({
         
     //container: document.querySelector("#all_projects_list"),
     //use_native: true, // <-- there you go -->
@@ -57,5 +65,18 @@ var lazyLoadInstance = new LazyLoad({
 
 });
 
+var lazyLoadInstance = new LazyLoad({
+        
+    container: document.querySelector("#all_projects_list"),
+    //use_native: true, // <-- there you go -->
+    elements_selector: ".lazy",
+    //threshold: 900,
+    threshold: 1472
+
+});
+
 //any further required checks on the DOM
-lazyLoadInstance.update();
+//lazyLoadInstance.update();
+
+
+*/

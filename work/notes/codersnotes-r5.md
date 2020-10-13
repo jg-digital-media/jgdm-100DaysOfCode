@@ -14,10 +14,28 @@
 + Project Status - JSON (separate to Vue Project)
 
 
-## Day 82
+## Day 84
+
+### all-projects-hard-coded.html (all-projects.html initiator)
+
+```html
+<img data-src="img/featured/sass_project.jpg" class="site-images lazy loaded" loading="lazy" alt="Go to Sass Project" title="Go to Sass Project" tabindex="" src="img/featured/sass_project.jpg" data-was-processed="true">
+```
 
 
+### all-projects.html (all-projects.html initiator)
 
+```html
+<a href="https://www.dyspraxia.jonniegrieve.co.uk" target="blank">
+                    <img src="img/featured/dyspraxia.jpg" class="site-images lazy" loading="lazy" alt="Go to Dyspraxia Awareness Website " title="Go to Dyspraxia Awareness Website " tabindex="">
+                </a>
+```
+
+### Project Website (php_website) (lazyload.js initiator)
+
+```php 
+<img data-src="img/drama/hacksaw.jpg" class="media-img lazy loaded" title="Hacksaw Ridge (2011)" src="img/drama/hacksaw.jpg" data-was-processed="true">
+```
 
 ## Day 81
 

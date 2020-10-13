@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 83 of 100. **Last Update:** 12 October 2020
+## **Status:** Day 84 of 100. **Last Update:** 13 October 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+### R5D84: Tuesday 13th October 2020
+
++ **Notes**
+  + Worked on several websites today with some behind the scenes and social sharing updates. Also developed another static site into a PHP based design structure.
+      
+  + **Technologies used** - HTML5, CSS, SVG, JSON 
 
 
 ### R5D83: Monday 12th October 2020

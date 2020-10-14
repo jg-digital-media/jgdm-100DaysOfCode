@@ -5,7 +5,7 @@
  * Web:          https://www.jonniegrieve.co.uk
  * //file path to json file - local   - ../../css/portfolio/data/project-list.json
  * //file path to json file - server  - ../../../data/project-list.json
- * Date:  08/10/2020
+ * Date:  14/10/2020
 */
 
 
@@ -26,7 +26,7 @@ jQuery.getJSON('data/project-list.json', function(photoData) {
         jQuery(`
             <li>
                 <a href="${photoData.projects[i].project_url}" target="blank">
-                   <img src="${photoData.projects[i].img_url}" class="site-images" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" />
+                   <img src="${photoData.projects[i].img_url}" class="site-images lazy" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" />
                    
                 </a> 
 
@@ -51,3 +51,10 @@ function stickyNavbar() {
     navbar.classList.remove("sticky");
   }
 }
+
+//implement lazyloading
+var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy",
+    // ... more custom settings?
+    //threshold: 1472,
+});

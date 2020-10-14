@@ -6,10 +6,11 @@
  * //file path to json file - local   - ../../css/portfolio/data/project-list.json
  * //file path to json file - server  - ../../../data/project-list.json
  * Date:  08/10/2020
- */
+*/
 
 
- const project_count = document.getElementById("count");
+//project count - store count element 
+const project_count = document.getElementById("count");
  
 jQuery.getJSON('data/project-list.json', function(photoData) { 
     
@@ -37,6 +38,7 @@ jQuery.getJSON('data/project-list.json', function(photoData) {
     }   
 });
 
+//Sticky NavBar
 window.onscroll = function() {stickyNavbar()};
 
 var navbar = document.querySelector("aside.key");

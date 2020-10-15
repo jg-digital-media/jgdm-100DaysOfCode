@@ -177,11 +177,11 @@
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
-            "project_name": "ReactSingle Page Scoreboard Application v2",
+            "project_name": "React.js Single Page Scoreboard Application v2",
             "project_url": " https://projects.jonniegrieve.co.uk/react-scoreboard-v2/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/react_v2.png",
             "feat_img_url": "img/featured/react_v2.jpg",
-            "project_alt": "Go to React.js Single Page Scoreboard Application",
+            "project_alt": "Go to React.js Single Page Scoreboard Application v2",
             "project_type": "App",
             "project_status": "complete",
             "status": true,
@@ -203,7 +203,7 @@
             "project_url": "https://projects.jonniegrieve.co.uk/vue_project",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/project_status_vue.png",
             "feat_img_url": "img/featured/project_status.jpg",
-            "project_alt": "Go to Project Status page",
+            "project_alt": "Go to Project Status App (in Vue.js)",
             "project_type": "App",
             "project_status": "complete",
             "status": true,
@@ -529,7 +529,7 @@
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
-            "project_name": "Project Status (JS)",
+            "project_name": "Project Status (in JavaScript)",
             "project_url": "https://jonniegrieve.co.uk/assets/project_status/index.html",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/project_status_js.png",
             "feat_img_url": "img/featured/status_js.jpg",

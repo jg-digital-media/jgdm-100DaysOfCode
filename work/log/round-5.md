@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 85 of 100. **Last Update:** 14 October 2020
+## **Status:** Day 86 of 100. **Last Update:** 15 October 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+### R5D85: Wednesday 14th October 2020
+
++ **Notes**
+  + Organised and updated my list of featured project images in JSON.  Getting more research done on this but I have a feeling lazyloading just wasn't designed to work with looping and JSON. It simply does not work. 
+      
+  + **Technologies used** - HTML5, CSS, SVG, JSON 
 
 
 ### R5D85: Wednesday 14th October 2020

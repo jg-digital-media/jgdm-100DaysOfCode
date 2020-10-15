@@ -199,7 +199,7 @@
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
-            "project_name": "Project Status using Vue Framework",
+            "project_name": "Project Status App (in Vue.js)",
             "project_url": "https://projects.jonniegrieve.co.uk/vue_project",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/project_status_vue.png",
             "feat_img_url": "img/featured/project_status.jpg",
@@ -533,7 +533,7 @@
             "project_url": "https://jonniegrieve.co.uk/assets/project_status/index.html",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/project_status_js.png",
             "feat_img_url": "img/featured/status_js.jpg",
-            "project_alt": "Project Status App in JavaScript",
+            "project_alt": "Go to Project Status App in JavaScript",
             "project_type": "Website",
             "project_status": "incomplete",
             "status": true,

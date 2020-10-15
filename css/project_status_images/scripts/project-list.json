@@ -199,7 +199,7 @@
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
-            "project_name": "Project Status using Vue Framework",
+            "project_name": "Project Status App (in Vue,js)",
             "project_url": "https://projects.jonniegrieve.co.uk/vue_project",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/project_status_vue.png",
             "feat_img_url": "img/featured/project_status.jpg",
@@ -225,7 +225,7 @@
             "project_url": "https://projects.jonniegrieve.co.uk/portfolio-gallery",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/portfolio-gallery.png",
             "feat_img_url": "img/featured/portfolio-gallery.jpg",
-            "project_alt": "Go to Project Gallery Website ",
+            "project_alt": "Go to Project Gallery Website",
             "project_type": "App",
             "project_status": "complete",
             "status": true,
@@ -466,7 +466,7 @@
             "project_name": "Parallax Showcase Webpage",
             "project_url": "https://projects.jonniegrieve.co.uk/practice/parallax",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/parallax_showcase.png",
-            "feat_img_url": "img/featured/parallax_showcase.JPG",
+            "feat_img_url": "img/featured/parallax_showcase.jpg",
             "project_alt": "Go to Parallax Webpage",
             "project_type": "Single Page",
             "project_status": "complete",
@@ -529,7 +529,7 @@
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
-            "project_name": "Project Status (JS)",
+            "project_name": "Project Status (in JavaScript)",
             "project_url": "https://jonniegrieve.co.uk/assets/project_status/index.html",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/project_status_js.png",
             "feat_img_url": "img/featured/status_js.jpg",

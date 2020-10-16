@@ -13,6 +13,117 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
+
+### Day 87
+
+```javascript
+
+// Create an array of pet objects
+
+// Each object to have a name, type, breed, age and photo property.
+
+
+//array of objects
+let pets = [
+
+{
+    "name": "Rex",
+    "type":,"Dog",
+    "breed", "Hound",
+    "age": 1,
+    "photos": "img/"
+}, 
+{
+    "name": "Tibs",
+    "type":,"Cat",
+    "breed", "mog",
+    "age": 1,
+    "photos": "img/"
+}, 
+{
+    "name": "Luke",
+    "type":,"Dog",
+    "breed", "",
+    "age": 1,
+    "photos": "img/"
+}, 
+
+
+]
+
+// attempt 1
+for(pet in pets) {
+
+   pets = ` ${pets[i]."name"}`;
+    
+}
+
+// solution
+let html = '';
+
+for ( let = i = 0; i < pets.length; i++ ) {
+    let pet = pets[i];
+    html += `
+        <h2> ${ pet.name } </h2>
+    `;
+}
+
+document.getElementById("main").innerHTML = html;
+
+//or
+
+document.getElementById("main").insertAdjacentHTML('beforeend');
+
+```
+
+### Objects - Properties and Values
+
+```javascript
+
+const vehicle = {
+  make: "Tesla",
+  model: "Model X",
+  year: 2030
+}
+for ( let prop in vehicle ) {
+  console.log( prop );
+}
+
+
+//returns 
+
+//make
+//model
+//year
+
+
+// display every property and value in an object of a given name
+
+for ( const prop in location ) {
+  console.log( `property : ${location[prop])}` );
+}
+
+//The following code displays the values "Lee", "FSJS", and 14888 in the JavaScript console
+
+const student = {
+  userName: 'Lee',
+  degree: 'FSJS',
+  points: 14888
+};
+
+	
+for ( let prop in student ) {
+  console.log( student[prop] );
+}
+
+
+.keys()
+
+.values()
+
+```
+
+
 ### Day 86 
 
 https://github.com/verlok/vanilla-lazyload/issues/489 

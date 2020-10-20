@@ -1,13 +1,29 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 87 of 100. **Last Update:** 16 October 2020
+## **Status:** Day 89 of 100. **Last Update:** 20 October 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R5D89: Tuesday 20th October 2020
+
+
++ **Notes**
+  + Photography website update and another content meeting with my client is the order of mondays . 
+      
+  + **Technologies used** - HTML5, CSS, SVG, JSON 
+
+### R5D88: Monday 19th October 2020
+
+
++ **Notes**
+  + Photography website update and another content meeting with my client is the order of mondays #100DaysOfCode
+      
+  + **Technologies used** - HTML5, CSS, SVG, JSON 
+
 monday   
 
-photography website update and another content meeting with my client is the order of mondays
+
 
 ### R5D87: Friday 16th October 2020
 

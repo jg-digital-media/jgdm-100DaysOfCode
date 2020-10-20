@@ -5,7 +5,9 @@ ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+monday   
 
+photography website update and another content meeting with my client is the order of mondays
 
 ### R5D87: Friday 16th October 2020
 

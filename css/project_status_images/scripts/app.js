@@ -52,9 +52,12 @@ function stickyNavbar() {
   }
 }
 
-//implement lazyloading
+/**
+ * 
+ * Lazyload - verlok
+*/
 var lazyLoadInstance = new LazyLoad({
     elements_selector: ".lazy",
     // ... more custom settings?
-    //threshold: 1472,
+    //threshold: 1472
 });

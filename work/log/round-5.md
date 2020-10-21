@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 89 of 100. **Last Update:** 20 October 2020
+## **Status:** Day 90 of 100. **Last Update:** 21 October 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-### R5D89: Tuesday 20th October 2020
+### R5D90: Wednesday 21st October 2020
 
++ **Notes**
+  + Working with lazyloading again and working again with my client on our project. We can't wait to put our work live. 
+      
+  + **Technologies used** - HTML5, CSS, SVG, JSON 
+
+### R5D89: Tuesday 20th October 2020
 
 + **Notes**
   + Photography website update and another content meeting with my client is the order of mondays . 
@@ -15,14 +21,10 @@ ___
 
 ### R5D88: Monday 19th October 2020
 
-
 + **Notes**
   + Photography website update and another content meeting with my client is the order of mondays #100DaysOfCode
       
   + **Technologies used** - HTML5, CSS, SVG, JSON 
-
-monday   
-
 
 
 ### R5D87: Friday 16th October 2020

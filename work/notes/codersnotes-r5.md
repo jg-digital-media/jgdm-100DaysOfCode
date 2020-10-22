@@ -13,7 +13,27 @@
 + Progressive Web App: https://dev.to/ibrahima92/how-to-build-a-pwa-from-scratch-with-html-css-and-javascript-4bg5
 + Project Status - JSON (separate to Vue Project)
 
-### Day 89
+### Day 91
+
+
+### Goal - implements the loaded class on images 
+
++ https://projects.jonniegrieve.co.uk/php_website/
+
+data-src	data-was-processed=true
+
+
++ http://127.0.0.1:5500/css/portfolio/all-projects.html
+
+img class="site-images lazy loaded"
+data-ll-status="loaded"
+
++ https://jonniegrieve.co.uk/all-projects.html
+none
+
+data-src
+
+
 
 ### Day 87
 

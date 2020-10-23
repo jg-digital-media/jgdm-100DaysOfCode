@@ -177,7 +177,7 @@
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
-            "project_name": "React.js Single Page Scoreboard Application v2",
+            "project_name": "React Single Page Scoreboard Application v2",
             "project_url": " https://projects.jonniegrieve.co.uk/react-scoreboard-v2/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/react_v2.png",
             "feat_img_url": "img/featured/react_v2.jpg",
@@ -225,7 +225,7 @@
             "project_url": "https://projects.jonniegrieve.co.uk/portfolio-gallery",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/portfolio-gallery.png",
             "feat_img_url": "img/featured/portfolio-gallery.jpg",
-            "project_alt": "Go to Project Gallery Website ",
+            "project_alt": "Go to Project Gallery Website",
             "project_type": "App",
             "project_status": "complete",
             "status": true,
@@ -289,7 +289,7 @@
         }, {
             "project_name": "Learning Notes Example",
             "project_url": "https://projects.jonniegrieve.co.uk/learning_notes",
-            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/list_maker.png",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/learning_notes.png",
             "feat_img_url": "img/featured/learning_notes.jpg",
             "project_alt": "Go to Learning Notes Example",
             "project_type": "Website",
@@ -466,7 +466,7 @@
             "project_name": "Parallax Showcase Webpage",
             "project_url": "https://projects.jonniegrieve.co.uk/practice/parallax",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/parallax_showcase.png",
-            "feat_img_url": "img/featured/parallax_showcase.JPG",
+            "feat_img_url": "img/featured/parallax_showcase.jpg",
             "project_alt": "Go to Parallax Webpage",
             "project_type": "Single Page",
             "project_status": "complete",
@@ -493,6 +493,17 @@
             "project_type": "Website",
             "project_status": "complete",
             "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+        }, {
+            "project_name": "Praise in the Park",
+            "project_url": "https://www.praiseinthepark.co.uk",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/praise_in_park.png",
+            "feat_img_url": "img/featured/praise_in_park.jpg",
+            "project_alt": "Go to Praise in the Park Website",
+            "project_type": "Website",
+            "project_status": "upcoming",
+            "status": null,
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {

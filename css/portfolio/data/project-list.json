@@ -496,6 +496,17 @@
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
+            "project_name": "Praise in the Park",
+            "project_url": "https://www.praiseinthepark.co.uk",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/praise_in_park.png",
+            "feat_img_url": "img/featured/praise_in_park.jpg",
+            "project_alt": "Go to Praise in the Park Website",
+            "project_type": "Website",
+            "project_status": "upcoming",
+            "status": null,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+        }, {
             "project_name": "Express.js Flashcard App",
             "project_url": " https://jgdm-flashcard-app.herokuapp.com/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/express_site.png",

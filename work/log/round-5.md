@@ -6,6 +6,14 @@ ___
 ___
 
 
+### R5D92: Friday 23rd October 2020
+
++ **Notes**
+  + At the request of my client, we will be unveiling the new website we've built together, tomorrow!  :-)
+      
+  + **Technologies used** - HTML5, CSS, SVG, JSON 
+
+
 ### R5D91: Thursday 22nd October 2020
 
 + **Notes**

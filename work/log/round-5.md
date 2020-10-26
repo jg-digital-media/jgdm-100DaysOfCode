@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 91 of 100. **Last Update:** 22 October 2020
+## **Status:** Day 93 of 100. **Last Update:** 26 October 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R5D92: Friday 23rd October 2020
+
++ **Notes**
+  + Over the weekend, we launched our latest website- this one built in PHP, making it extensible for future updates to come.  Today I also started looking into Web Accessibility for developer/designers.
+      
+  + **Technologies used** - HTML5, CSS, SVG, JSON 
 
 ### R5D92: Friday 23rd October 2020
 

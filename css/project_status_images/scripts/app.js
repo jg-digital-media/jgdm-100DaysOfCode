@@ -57,7 +57,7 @@ function stickyNavbar() {
  * Lazyload - verlok
 */
 var lazyLoadInstance = new LazyLoad({
+  
     elements_selector: ".lazy",
-    // ... more custom settings?
-    //threshold: 1472
+    
 });

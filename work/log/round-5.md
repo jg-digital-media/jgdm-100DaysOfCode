@@ -1,12 +1,20 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 93 of 100. **Last Update:** 26 October 2020
+## **Status:** Day 94 of 100. **Last Update:** 27 October 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-### R5D92: Friday 23rd October 2020
+### R5D94: Tuesday 27th October 2020
+
++ **Notes**
+  + My Photography Website running and expanding. I've started writing a function to reduce the code bloat on that using what is called DRY code, but it's a tricky task to convert it. No shame in seeking help! :)
+
+      
+  + **Technologies used** - HTML5, CSS, SVG, JSON 
+
+### R5D93: Monday 26th October 2020
 
 + **Notes**
   + Over the weekend, we launched our latest website- this one built in PHP, making it extensible for future updates to come.  Today I also started looking into Web Accessibility for developer/designers.

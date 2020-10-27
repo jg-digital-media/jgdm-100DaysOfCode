@@ -14,8 +14,42 @@
 + Project Status - JSON (separate to Vue Project)
 
 
-### Day 93
+### Day 94
 
+### DRY data retrieval function from JSON
+
+```javascript
+
+jQuery.getJSON('../assets/data/canon_photos.json', function( photoData, jsonCategory, logMessage, categoryPoster, appendCategory ) { 
+        
+    function getPhotosData() {
+
+
+            let getCategory = photoData.jsonCategory.length;
+
+
+            console.log(logMessage + ": Category Total (" + getCategory + ")");
+
+            jQuery(`<a href="${ photoData.jsonCategory[0].url }" data-lightbox="${ photoData.jsonCategory[0].lightbox }" data-title="${ photoData.jsonCategory[0].caption}">
+
+                <img id="image_poster" href="${ photoData.jsonCategory[0].url }" alt=" ${ categoryPoster } " title=" ${ categoryPoster } " src="${ photoData.jsonCategory[0].url }" class="open_modal" />
+
+            </a>`).appendTo( appendCategory );
+
+            for (let j=1; j < items; j++) { 
+
+                jQuery(
+                        `<a href="${ photoData.jsonCategory[j].url }" class="image${ photoData.jsonCategory[j].class }" title="${ photoData.jsonCategory[j].caption }" data-lightbox="${ photoData.jsonCategory[j].lightbox }" data-title="${ photoData.jsonCategory[i].caption }"></a>`
+
+                ).appendTo( appendCategory );
+            }
+
+        };
+
+        getPhotosData( "favourites", favourites, "FAVOURITES", "Favourites Category poster", "#favourites_category" );
+    });
+
+```
 
 
 ### Day 91

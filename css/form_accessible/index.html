@@ -37,6 +37,39 @@
             </div>
             
             <!-- form goes here. -->
+            <form>
+                <fieldset>
+                    <legend></legend>
+                    <p class="hint">* - required field</p>
+                    <label for="field_name">Your Name: </label>
+                    <input type="text" id="field_name" name="field-name">
+                    <p class="hint">Receipt will be sent to this email address</p>
+                    <label for="field_email">Your Email Address: </label>
+                    <input type="text" id="field_email" name="email_address">
+     
+                    
+                    <label for="address1">Street Address *</label>
+                    <input type="text" id="address1" name="user-address1">
+
+                    <label for="address2">Apartment/Office Number</label>
+                    <input type="text" id="address2" name="user-address1">
+
+                    <label for="zip">Zip Code *</label>
+                    <input type="text" id="zip" name="user-zip">
+                    <p class="hint">City and State will be looked up from ZipCode. </p>
+
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="user-phone">
+                    <p class="hint">Please include alternative details below.</p>
+
+                    <label for="delivery-instructions">Delivery Instructions</label>
+
+                    <textarea id="delivery-instructions" name="user-delivery-instructions"></textarea>
+
+                    <button type="submit"> Continue to Billing </button>
+                    
+                </fieldset>
+            </form>
             
         </div>
     </main>

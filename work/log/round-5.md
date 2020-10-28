@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 94 of 100. **Last Update:** 27 October 2020
+## **Status:** Day 95 of 100. **Last Update:** 28 October 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+### R5D95: Wednesday 28th October 2020
+
++ **Notes**
+  + Built an Accessible Web Form and have gained a lot of fresh understanding about Accessibility from a Web Design point of view!  
+      
+  + **Technologies used** - HTML5, CSS
 
 ### R5D94: Tuesday 27th October 2020
 

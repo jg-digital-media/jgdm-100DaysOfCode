@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 95 of 100. **Last Update:** 28 October 2020
+## **Status:** Day 96 of 100. **Last Update:** 29 October 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+### R5D96: Thursday 29th October 2020
+
++ **Notes**
+  + Attention turned a little bit away from coding today but I did a little bit of stuff with Narrative Flow as a coding pattern as applied to Python and JS. 
+      
+  + **Technologies used** - HTML5, CSS
 
 ### R5D95: Wednesday 28th October 2020
 

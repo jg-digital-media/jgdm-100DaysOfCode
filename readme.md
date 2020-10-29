@@ -2,13 +2,15 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 5: Day 95 of 100. **Last Update:** 28 October 2020 
++ **Status:** Round 5: Day 96 of 100. **Last Update:** 29 October 2020 
 
 ## Directories
   + api
       + basic
       + fetch_random
       + photo_api
+      + project_api
+      + random_from_user
   + bin      
       + first-line
       + geonation
@@ -17,6 +19,7 @@
       + vue-status-project    
   + css 
     + balloon
+    + form+accessible
     + layout-hack
     + modernizr
     + portfolio

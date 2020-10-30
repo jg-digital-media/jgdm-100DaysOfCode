@@ -1,11 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 96 of 100. **Last Update:** 29 October 2020
+## **Status:** Day 97 of 100. **Last Update:** 30 October 2020
 ___
 **Directories:** | css | java | javascript | | nodeJs | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+
+### R5D97: Friday 30th October 2020
+
++ **Notes**
+  + Made my debut with Pseudocode :) 
+      
+  + **Technologies used** - HTML5, CSS
 
 ### R5D96: Thursday 29th October 2020
 

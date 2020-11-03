@@ -1,5 +1,5 @@
 {
-  "name": "sequelize",
+  "name": "sequelize_orm_project",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -9,5 +9,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sequelize": "^5.22.3",
+    "sqlite3": "^4.2.0"
+  }
 }

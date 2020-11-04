@@ -7,20 +7,24 @@ const Sequelize = require('sequelize');
 const sequelize = new Sequelize({
 
     dialect: 'sqlite',
-    storage: 'filename.db'
+    storage: 'movies.db'
 
 });
 
 // async IIFE - connect to database
+// Movie model
+class Movie extends Sequelize.Model {}
+Movie.init({
+  title: Sequelize.STRING,
+}, { sequelize });
+
 (async () => {
+  // Sync 'Movies' table
+  await Movie.sync();
 
-    try {  
-        await sequelize.authenticate();
-        console.log("Connection to the database successful");
+  try {
 
-     } catch ( error ) { 
-         
-        console.error("Error Connecting to the Database: ", error);
-     }
-   
-    }) ();
+  } catch (error) {
+    console.error('Error connecting to the database: ', error);
+  }
+})();

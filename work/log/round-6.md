@@ -1,17 +1,24 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 01 of 100. **Last Update:** 02 November 2020
+## **Status:** Day 03 of 100. **Last Update:** 04 November 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-### R6D1: Monday 2 November 2020
+### R6D3: Wednesday 3 November 2020
 
 + **Notes**
-  +  More work on my Photography Website and made a start working on Sequelize ORM.  :)
+  +  Learned to create a new SQlite record with Sequelize in Node.js
   
-+ **Technologies used** - HTML5, CSS, JSON, JavaScript
++ **Technologies used** - HTML5, CSS, JSON, JavaScript, Node.js, Sequelize
+
+### R6D3: Tuesday 3 November 2020
+
++ **Notes**
+  +  More work on my Photography Website and made a start working on Sequelize ORM.  :
+  
++ **Technologies used** - HTML5, CSS, JSON, JavaScript, Node.js, Sequelize
 
 ### R6D1: Monday 2 November 2020
 

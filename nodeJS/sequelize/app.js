@@ -14,17 +14,20 @@ const sequelize = new Sequelize({
 // async IIFE - connect to database
 // Movie model
 class Movie extends Sequelize.Model {}
+
 Movie.init({
-  title: Sequelize.STRING,
-}, { sequelize });
+    title: Sequelize.STRING,
+  }, { sequelize });
 
-(async () => {
-  // Sync 'Movies' table
-  await Movie.sync();
-
-  try {
-
-  } catch (error) {
-    console.error('Error connecting to the database: ', error);
-  }
+( async () => {
+    await sequelize.sync({ force: true });
+  
+    try {
+      const movie = await Movie.create({
+        title: 'Toy Story',
+      });
+  
+    } catch (error) {
+      console.error('Error connecting to the database: ', error);
+    }
 })();

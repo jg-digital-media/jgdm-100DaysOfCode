@@ -26,6 +26,8 @@ Movie.init({
       const movie = await Movie.create({
         title: 'Toy Story',
       });
+      //log to console as a jSON representation of the data
+      console.log( movie.toJSON() );
   
     } catch (error) {
       console.error('Error connecting to the database: ', error);

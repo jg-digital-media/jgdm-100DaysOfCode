@@ -19,27 +19,26 @@ Movie.init({
     title: Sequelize.STRING,
   }, { sequelize });
 
-( async () => {
+(async () => {
     await sequelize.sync({ force: true });
   
     try {
-
-      //record 1
-      const movie = await Movie.create({
-        title: 'Toy Story',
-      });
-
-      console.log( movie.toJSON() );
-
-      //record 2
-      const movie2 = await Movie.create({
-        title: 'Robin Hood: Prince of Thieves'
-      });
-
-      //log to console as a jSON representation of the data
-      console.log( movie2.toJSON() );
+      const movieInstances = await Promise.all([
+  
+        Movie.create({
+          title: 'Toy Story'
+        }),
+  
+        Movie.create({
+          title: 'The Incredibles'
+        }),
+      ]);
+  
+      const moviesJSON = movieInstances.map(movie => movie.toJSON());
+      console.log(moviesJSON);
   
     } catch (error) {
       console.error('Error connecting to the database: ', error);
     }
-})();
+  })();
+  

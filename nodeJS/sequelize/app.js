@@ -23,11 +23,21 @@ Movie.init({
     await sequelize.sync({ force: true });
   
     try {
+
+      //record 1
       const movie = await Movie.create({
         title: 'Toy Story',
       });
-      //log to console as a jSON representation of the data
+
       console.log( movie.toJSON() );
+
+      //record 2
+      const movie2 = await Movie.create({
+        title: 'Robin Hood: Prince of Thieves'
+      });
+
+      //log to console as a jSON representation of the data
+      console.log( movie2.toJSON() );
   
     } catch (error) {
       console.error('Error connecting to the database: ', error);

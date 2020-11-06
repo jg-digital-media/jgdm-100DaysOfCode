@@ -12,6 +12,45 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
+### Day 05
+
+#### Define data types and attributes
+
+```javascript
+module.exports = ( sequelize ) => {
+
+    class Movie extends Sequelize.Model {}
+    Movie.init({
+
+        id: {
+            type: Sequelize.INTEGER,
+            primaryKey: true,
+            autoIncrement: true,
+        },
+
+        title: Sequelize.STRING,
+
+        runtime: { 
+            type: Sequelize.INTEGER
+        },
+        
+        releaseDate: {
+            type: Sequelize.DATEONLY 
+        },
+        
+        isAvailableOnVHS: {
+            type: Sequelize.BOOLEAN, 
+            allowNull: false,
+            defaultValue: false //set a default vlue
+        },
+
+    }, { sequelize });
+
+    return Movie;
+
+};
+
+```
 
 
 ### Day 04

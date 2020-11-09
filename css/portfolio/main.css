@@ -584,7 +584,8 @@ nav.main-nav {
     color: #70b45c; }
   .pages-content p {
     line-height: 2.1;
-    color: white; }
+    color: white;
+    font-weight: bold; }
   .pages-content a {
     color: #eee27b; }
     .pages-content a:hover {

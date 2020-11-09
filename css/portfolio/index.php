@@ -277,8 +277,8 @@ Last Updated:   09 October 2020  11:41am
                 <p>Photoshop/Digital Design: For stunning digital images</p>    
             </div>
 
-            <div class="main-services" tabindex="0">
-                <a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('./pages/print-design.html','','scrollbars=yes,width=550,height=250')">
+            <div class="main-services" tabindex="0" role="Main Services">
+                <a href="javascript:" class="text2" onMouseDown="openWindow('./pages/print-design.html','550','250')">
                     <i class="fas fa-align-left">&nbsp;</i>
                 </a>                   
                 <p>Customised Design for Print and Publishing</p>    

@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 04 of 100. **Last Update:** 06 November 2020
+## **Status:** Day 06 of 100. **Last Update:** 09 November 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+### R6D6: Monday 9 November 2020
+
++ **Notes**
+  + My weekly update to my Photography Website. https://photography.jonniegrieve.oo.uk Also fixed some minor bugs on my site over at https://www.jonniegrieve.co.uk
+  
++ **Technologies used** - HTML5, CSS, JSON, JavaScript
 
 ### R6D5: Friday 6 November 2020
 

@@ -12,6 +12,10 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
+### Day 06
+
+
+
 ### Day 05
 
 #### Define data types and attributes

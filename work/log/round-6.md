@@ -1,11 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 06 of 100. **Last Update:** 09 November 2020
+## **Status:** Day 07 of 100. **Last Update:** 10 November 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R6D7: Tuesday 10 November 2020
+
++ **Notes**
+  + Made a bit of progress with some DRY JavaScript code today and and with Sequelize
+  
 
 ### R6D6: Monday 9 November 2020
 

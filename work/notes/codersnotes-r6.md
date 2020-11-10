@@ -12,7 +12,117 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
-### Day 06
+### Day 07
+
+#### Movie.js  - Field Types and Default Values
+
+```javascript
+
+module.exports = ( sequelize ) => {
+
+    class Movie extends Sequelize.Model {}
+    Movie.init({
+
+        id: {
+            type: Sequelize.INTEGER,
+            primaryKey: true,
+            autoIncrement: true,
+        },
+
+        title: Sequelize.STRING,
+
+        runtime: { 
+            type: Sequelize.INTEGER
+        },
+        
+        releaseDate: {
+            type: Sequelize.DATEONLY 
+        },
+        
+        isAvailableOnVHS: {
+            type: Sequelize.BOOLEAN, 
+            allowNull: false,
+            defaultValue: false //set a default value
+        },
+
+    }, { sequelize });
+
+    return Movie;
+
+};
+```
+
+#### Simple Syntax
+
+```javascript
+const db = require('./db');
+const { Movie } = db.models;
+
+(async () => {
+  await db.sequelize.sync({ force: true });
+
+  try {
+    const movie = await Movie.create({
+      title: 'Toy Story',
+      runtime: 81,
+      releaseDate: '1995-11-22',
+      isAvailableOnVHS: true,
+    });
+    console.log(movie.toJSON());
+
+    const movie2 = await Movie.create({
+      title: 'The Incredibles',
+      runtime: 115,
+      releaseDate: '2004-04-14',
+      isAvailableOnVHS: true,
+    });
+    console.log(movie2.toJSON());
+
+  } catch (error) {
+    console.error('Error connecting to the database: ', error);
+  }
+})();
+```
+
+
+#### Promise.all syntax - data types and options
+
+```javascript
+
+const db = require("./db");
+const { Movie } = db.models;
+
+(async () => {
+    await db.sequelize.sync({ force: true });
+  
+    try {
+      const movieInstances = await Promise.all([
+  
+        Movie.create({
+          title: 'Toy Story',
+          runtime: 81,
+          releaseDate: '1995-11-22',
+          isAvailableOnVHS: true,
+        }),
+  
+        Movie.create({
+          title: 'The Incredibles',
+          runtime: 115,
+          releaseDate: '2004-04-14',
+          isAvailableOnVHS: true,
+        }),
+      ]);
+  
+      const moviesJSON = movieInstances.map(movie => movie.toJSON());
+      console.log(moviesJSON);
+  
+    } catch (error) {
+      console.error('Error connecting to the database: ', error);
+    }
+
+})();
+
+```
 
 
 

@@ -7,6 +7,8 @@ const Sequelize = require("sequelize");
 module.exports = ( sequelize ) => {
 
     class Movie extends Sequelize.Model {}
+
+    //create and customise Movie model
     Movie.init({
 
         id: {
@@ -28,7 +30,7 @@ module.exports = ( sequelize ) => {
         isAvailableOnVHS: {
             type: Sequelize.BOOLEAN, 
             allowNull: false,
-            defaultValue: false //set a default vlue
+            defaultValue: false //set a default value
         },
 
     }, { sequelize });

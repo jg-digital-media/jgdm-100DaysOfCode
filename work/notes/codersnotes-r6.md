@@ -12,6 +12,196 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
+### Day 08
+
+
+#### Try/Catch - SequelizeValidationError
+
+```javascript
+try {
+    //snip
+  
+} catch (error) {
+
+      //advanced error handling - condition based on error object
+      if ( error.name === 'SequelizeValidationError' ) {
+        const errors = error.errors.map(err => err.message);
+        console.error('Validation errors: ', errors);
+
+      } else {
+        //rethrow other kinds off errors
+        throw error;
+
+      }
+
+```
+
+#### movie.js - Applying various validators to a model
+ 
++ allowNull: false
++ notEmpty: false
++ notNull: 
++ min:
++ max:
++ isBefore:
++ isAfter:
+
+```javascript
+const Sequelize = require("sequelize");
+
+/*
+@Movie: require the Sequelize Module and export Movie Model
+*/
+
+module.exports = ( sequelize ) => {
+
+    class Movie extends Sequelize.Model {}
+    Movie.init({
+
+        id: {
+            type: Sequelize.INTEGER,
+            primaryKey: true,
+            autoIncrement: true,
+        },        
+
+        title: {
+            type: Sequelize.STRING,
+            allowNull: false,
+            validate: {
+                notEmpty: true, 
+            },
+        },
+
+        runtime: {
+            type: Sequelize.INTEGER,
+            allowNull: false,
+            validate: {
+                notEmpty: {
+                    msg: "please provide a runtime number",
+                }, 
+
+                min: {
+                    args: 1,
+                    msg: "runtime value should be greater than 1",
+
+                },
+
+                max: {
+                    args: 300,
+                    msg: "runtime value should be less than 300",
+
+                },
+            },
+        },
+        
+        releaseDate: {
+            type: Sequelize.DATEONLY, 
+            allowNull: false,
+            validate: {
+                notNull: {
+                    msg: "Please provide a value for this field."
+                },
+                
+            isAfter: {
+                args: '1895-12-27',
+                msg: 'Provide a date for on or after 1895-12-28'
+            
+            },
+            }
+        },
+        
+        isAvailableOnVHS: {
+            type: Sequelize.BOOLEAN, 
+            allowNull: false,
+            defaultValue: false //set a default vlue
+        },
+
+    }, { sequelize });
+
+    return Movie;
+
+};
+
+```
+
+
+### index.js - 
+
+```javascript
+/**
+ * Configure Sequelize Instance
+ */
+
+ const Sequelize = require("sequelize");
+
+ const sequelize = new Sequelize({
+     dialect: 'sqlite',
+     storage: 'movies.db',
+     logging: true
+ })
+ 
+
+ const db = {
+     sequelize,
+     Sequelize, 
+     models: {},
+ }
+
+
+ db.models.Movie = require('./models/movie.js')(sequelize);
+
+ module.exports = db;
+```
+
+
+#### app.js   Where the raw data is created
+
+```javascript
+console.log("app.js");
+
+const db = require("./db");
+const { Movie } = db.models;
+
+(async () => {
+    await db.sequelize.sync({ force: true });
+  
+    //where the data is defined and created
+    try {
+      const movieInstances = await Promise.all([
+  
+        Movie.create({
+          title: 'Toy Story',
+          runtime: 81,
+          releaseDate: '1995-11-22',
+          isAvailableOnVHS: true,
+        }),
+  
+        Movie.create({
+          title: 'The Incredibles',
+          runtime: 115,
+          releaseDate: '2004-04-14',
+          isAvailableOnVHS: true,
+        }),
+
+        Movie.create({
+          title: 'Skyfall',
+          runtime: 240,
+          releaseDate: '2012-11-14',
+          isAvailableOnVHS: true,
+        }),
+      ]);
+  
+      const moviesJSON = movieInstances.map(movie => movie.toJSON());
+      console.log(moviesJSON);
+  
+    } catch (error) {
+      console.error('Error connecting to the database: ', error);
+    }
+
+})();
+```
+
+
 ### Day 07
 
 #### Movie.js  - Field Types and Default Values

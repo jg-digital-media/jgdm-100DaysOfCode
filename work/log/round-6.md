@@ -1,11 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 07 of 100. **Last Update:** 10 November 2020
+## **Status:** Day 08 of 100. **Last Update:** 11 November 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R6D8: Wednesday 11 November 2020
+
++ **Notes**
+  + Sequelize ORM for Node.js: Worked wth Sequelize Validators for various DataTypes.
+  
 ### R6D7: Tuesday 10 November 2020
 
 + **Notes**

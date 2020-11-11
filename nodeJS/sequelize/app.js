@@ -26,7 +26,7 @@ const { Movie } = db.models;
 
         Movie.create({
           title: 'Skyfall',
-          runtime: 120,
+          runtime: 360,
           releaseDate: '2012-11-14',
           isAvailableOnVHS: true,
         }),
@@ -38,18 +38,18 @@ const { Movie } = db.models;
     } catch (error) {
 
       //advanced error handling - condition based on error object
-      if ( error.name === 'SequelizeValidatorError' ) {
-        const errors = errors.error.map(err => err.message);
-        console.log('Validation errors: ', errors);
+      if ( error.name === 'SequelizeValidationError' ) {
+        const errors = error.errors.map(err => err.message);
+        console.error('Validation errors: ', errors);
 
       } else {
         //rethrow other kinds off errors
         throw error;
 
       }
-
       //error handling
       //console.error('Error connecting to the database: ', error);
+
     }
 
 })();

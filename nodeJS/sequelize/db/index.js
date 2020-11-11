@@ -2,6 +2,7 @@
  * Configure Sequelize Instance
  */
 
+//import sequelize module
 const Sequelize = require("sequelize");
 
 const sequelize = new Sequelize({

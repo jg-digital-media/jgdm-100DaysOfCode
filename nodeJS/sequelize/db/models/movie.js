@@ -68,7 +68,10 @@ module.exports = ( sequelize ) => {
             defaultValue: false //set a default vlue
         },
 
-    }, { sequelize });
+    }, { 
+        timestamps: false,
+        sequelize 
+    });
 
     return Movie;
 

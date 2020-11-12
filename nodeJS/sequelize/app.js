@@ -26,7 +26,7 @@ const { Movie } = db.models;
 
         Movie.create({
           title: 'Skyfall',
-          runtime: 360,
+          runtime: 260,
           releaseDate: '2012-11-14',
           isAvailableOnVHS: true,
         }),

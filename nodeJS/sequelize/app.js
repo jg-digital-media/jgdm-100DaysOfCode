@@ -30,7 +30,17 @@ const { Movie, Person } = db.models;
           releaseDate: '2012-11-14',
           isAvailableOnVHS: true,
         }),
+
+       Movie.build({
+          title: "Toy Story 3",
+          runtime: 103,
+          releaseDate: "2010-06-18",
+          isAvailableOnVHS: false,
+        }).save(),
+       
       ]);
+
+      //await movieInstances.save();
   
       const personInstances = await Promise.all([
 

@@ -1,27 +1,37 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 08 of 100. **Last Update:** 11 November 2020
+## **Status:** Day 09 of 100. **Last Update:** 12 November 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R6D9: Thursday 12 November 2020
+
++ **Notes**
+  + Learned the difference between create and build() when it comes to CRUD in Sequelize.
++ **Technologies used** - JSON, JavaScript
+  
 ### R6D8: Wednesday 11 November 2020
 
 + **Notes**
   + Sequelize ORM for Node.js: Worked wth Sequelize Validators for various DataTypes.
-  
+
++ **Technologies used** - JSON, JavaScript
+
 ### R6D7: Tuesday 10 November 2020
 
 + **Notes**
   + Made a bit of progress with some DRY JavaScript code today and and with Sequelize
+
++ **Technologies used** - HTML5, CSS, JSON, JavaScript
   
 
 ### R6D6: Monday 9 November 2020
 
 + **Notes**
   + My weekly update to my Photography Website. https://photography.jonniegrieve.oo.uk Also fixed some minor bugs on my site over at https://www.jonniegrieve.co.uk
-  
+
 + **Technologies used** - HTML5, CSS, JSON, JavaScript
 
 ### R6D5: Friday 6 November 2020

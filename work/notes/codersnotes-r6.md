@@ -12,6 +12,33 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
+### Day 09
+
+
+#### CRUD  create data with build() and save()
+
+```javascript
+
+
+       Movie.build({
+          title: "Toy Story 3",
+          runtime: 103,
+          releaseDate: "2010-06-18",
+          isAvailableOnVHS: false,
+        }).save(),
+
+        //promise.all() syntax
+
+
+       Movie.build({
+          title: "Toy Story 3",
+          runtime: 103,
+          releaseDate: "2010-06-18",
+          isAvailableOnVHS: false,
+        }).save()
+
+```
+
 ### Day 08
 
 

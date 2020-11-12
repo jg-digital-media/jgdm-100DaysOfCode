@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 6: Day 08 of 100. **Last Update:** 11th November 2020 
++ **Status:** Round 6: Day 09 of 100. **Last Update:** 12th November 2020 
 
 ## Directories
   + api

@@ -8,6 +8,7 @@ const Sequelize = require("sequelize");
 module.exports = ( sequelize ) => {
 
     class Movie extends Sequelize.Model {}
+    
     Movie.init({
 
         id: {

@@ -1,7 +1,7 @@
 console.log("app.js");
 
 const db = require("./db");
-const { Movie } = db.models;
+const { Movie, Person } = db.models;
 
 (async () => {
     await db.sequelize.sync({ force: true });
@@ -32,8 +32,21 @@ const { Movie } = db.models;
         }),
       ]);
   
+      const personInstances = await Promise.all([
+
+        Person.create({
+          firstName: "Tom",
+          lastName: "Hanks",
+        })
+
+      ]);
+
+
       const moviesJSON = movieInstances.map(movie => movie.toJSON());
       console.log(moviesJSON);
+      
+      const personJSON = personInstances.map(person => person.toJSON());
+      console.log(personJSON);
   
     } catch (error) {
 

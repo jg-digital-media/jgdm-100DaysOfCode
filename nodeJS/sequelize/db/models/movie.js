@@ -11,6 +11,7 @@ module.exports = ( sequelize ) => {
     
     Movie.init({
 
+        //Nodel attributes Object
         id: {
             type: Sequelize.INTEGER,
             primaryKey: true,
@@ -70,6 +71,8 @@ module.exports = ( sequelize ) => {
         },
 
     }, { 
+
+        //Model Options Object
         timestamps: false,
         sequelize 
     });

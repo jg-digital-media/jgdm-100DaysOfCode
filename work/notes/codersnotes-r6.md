@@ -12,6 +12,87 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
+
+### Day 10
+
++ Attributes
++ Operators
++ Ordering
+
+
+#### Retrieve 1 record by its primary key
+
+```javascript
+const movieById = await Movie.findByPk(1);
+    console.log(movieById.toJSON());
+```
+
+
+#### Find one record with a specific element in a table
+
+```javascript
+const movieByRuntime = await Movie.findOne(
+
+   {
+        where: { runtime: 115 }
+   }
+);
+```
+
+
+#### Retrieve all records in a given Model
+
+
+```javascript
+const movies = await Movie.findAll();
+    console.log( movies.map(movie => movie.toJSON()) );
+```
+
+
+#### Filtering results with the finalAll() method
+
+
+```javascript
+
+const people = await Person.findAll({
+  where: {
+    lastName: 'Hanks'
+  }
+});
+
+// SELECT * FROM People WHERE lastName = 'Hanks';
+console.log( people.map(person => person.toJSON()) );
+```
+
+#### Return a Subset of data
+
+```javascript
+const movies = await Movie.findAll({
+      attributes: ['id', 'title'], // return only id and title
+      where: {
+        isAvailableOnVHS: true,
+      },
+
+    console.log( movies.map(movie => movie.toJSON()) );
+```
+
+#### Ordering data
+
+```javascript
+
+const movies = await Movie.findAll({
+  attributes: ['id', 'title'],
+  where: {
+    title: {
+      [Op.endsWith]: 'story'
+    },        
+  },
+  order: [['id', 'DESC']] // IDs in descending order
+});
+console.log( movies.map(movie => movie.toJSON()) );
+
+```
+
 ### Day 09
 
 

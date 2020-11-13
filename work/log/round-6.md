@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 09 of 100. **Last Update:** 12 November 2020
+## **Status:** Day 10 of 100. **Last Update:** 12 November 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R6D10: Friday 13 November 2020
+
++ **Notes**
+  + query data with retrieval methods with Sequelize. Then moving on to filtering, sorting and ordering data.
++ **Technologies used** - JSON, JavaScript
 
 ### R6D9: Thursday 12 November 2020
 

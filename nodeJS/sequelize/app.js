@@ -64,6 +64,7 @@ const { Op } = db.Sequelize;
       const movieById = await Movie.findByPk(1);
       console.log( movieById.toJSON() );
 
+      
       //Retrieve movie by runtime
       const movieByRunTime = await Movie.findOne(
 
@@ -74,13 +75,13 @@ const { Op } = db.Sequelize;
    
       console.log(movieByRunTime.toJSON); 
 
+
       //Retrieve all movies
       const allMovies = await Movie.findAll();
       console.log( allMovies.map(movie => movie.toJSON()) );
 
 
-      //Retrieve data subsets
-      //attributes: ['id', 'title'],
+      //Retrieve data subsets with attributes: ['id', 'title'],
       const videosOnVHS = await Movie.findAll({
           attributes: ["id", "title"],
           where: {
@@ -89,6 +90,7 @@ const { Op } = db.Sequelize;
       });
 
        console.log( videosOnVHS.map(movie => movie.toJSON()) );
+
 
        //Find all model instances from  relwase dat and of a give runtime....
        const movies = await Movie.findAll({
@@ -103,6 +105,19 @@ const { Op } = db.Sequelize;
         },
       });
       console.log( movies.map(movie => movie.toJSON()) );
+
+
+      //ordering data
+      const orderMovieData = await Movie.findAll({
+        attributes: ['id', 'title'],
+        where: {
+          title: {
+            [Op.endsWith]: 'story'
+          },        
+        },
+        order: [['id', 'DESC']] // IDs in descending order
+      });
+      console.log( orderMovieData.map(movie => movie.toJSON()) );
   
     } catch (error) {
 

@@ -2,6 +2,8 @@ console.log("app.js");
 
 const db = require("./db");
 const { Movie, Person } = db.models;
+const { Op } = db.Sequelize;
+
 
 (async () => {
     await db.sequelize.sync({ force: true });
@@ -72,11 +74,35 @@ const { Movie, Person } = db.models;
    
       console.log(movieByRunTime.toJSON); 
 
-      //retrieve all movies
+      //Retrieve all movies
       const allMovies = await Movie.findAll();
       console.log( allMovies.map(movie => movie.toJSON()) );
 
 
+      //Retrieve data subsets
+      //attributes: ['id', 'title'],
+      const videosOnVHS = await Movie.findAll({
+          attributes: ["id", "title"],
+          where: {
+            isAvailableOnVHS: true,
+          }
+      });
+
+       console.log( videosOnVHS.map(movie => movie.toJSON()) );
+
+       //Find all model instances from  relwase dat and of a give runtime....
+       const movies = await Movie.findAll({
+        attributes: ['id', 'title'],
+        where: {
+          releaseDate: {
+            [Op.gte]: '2004-01-01', // greater than or equal to the date
+          },
+          runtime: {
+            [Op.gt]: 95, // greater than 95
+          },
+        },
+      });
+      console.log( movies.map(movie => movie.toJSON()) );
   
     } catch (error) {
 

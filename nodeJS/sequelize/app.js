@@ -51,12 +51,32 @@ const { Movie, Person } = db.models;
 
       ]);
 
-
       const moviesJSON = movieInstances.map(movie => movie.toJSON());
       console.log(moviesJSON);
       
       const personJSON = personInstances.map(person => person.toJSON());
       console.log(personJSON);
+
+      
+      //Retrieve a record by primary key
+      const movieById = await Movie.findByPk(1);
+      console.log( movieById.toJSON() );
+
+      //Retrieve movie by runtime
+      const movieByRunTime = await Movie.findOne(
+
+        {
+            where: { runtime: 115 } 
+        }
+      );
+   
+      console.log(movieByRunTime.toJSON); 
+
+      //retrieve all movies
+      const allMovies = await Movie.findAll();
+      console.log( allMovies.map(movie => movie.toJSON()) );
+
+
   
     } catch (error) {
 

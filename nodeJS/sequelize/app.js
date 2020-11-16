@@ -118,6 +118,15 @@ const { Op } = db.Sequelize;
         order: [['id', 'DESC']] // IDs in descending order
       });
       console.log( orderMovieData.map(movie => movie.toJSON()) );
+
+
+      //Update a record - TS3      
+      const updateTS3 = await Movie.findByPk(4);
+      updateTS3.isAvailableOnVHS = true;
+      await updateTS3.save();
+      //console.log(  updateTS3.map(movie => movie.toJSON()) ); 
+      console.log( updateTS3.get({ plain: true }) );
+
   
     } catch (error) {
 

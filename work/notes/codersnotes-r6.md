@@ -13,6 +13,34 @@
 + Sequelize - project
 
 
+### Day 11
+
+#### Update a record with save() syntax
+
+
+```javascript
+
+      //Update a record - TS3      
+      const updateTS3 = await Movie.findByPk(4);
+      updateTS3.isAvailableOnVHS = true;
+      await updateTS3.save();
+      //console.log(  updateTS3.map(movie => movie.toJSON()) ); 
+      console.log( updateTS3.get({ plain: true }) );
+
+```
+
+
+#### Update a record with update()
+
+
+```javascript
+    const toyStory3 = await Movie.findByPk(3);
+    await toyStory3.update({
+      isAvailableOnVHS: true,
+    });
+    console.log( toyStory3.get({ plain: true }) );
+```
+
 ### Day 10
 
 + Attributes

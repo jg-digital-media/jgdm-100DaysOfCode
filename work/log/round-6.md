@@ -1,15 +1,22 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 11 of 100. **Last Update:** 16 November 2020
+## **Status:** Day 12 of 100. **Last Update:** 17 November 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R6D12: Tuesday 17 November 2020
+
++ **Notes**
+  + Spent most of the day developing a new lightbox gallery for Praise in the Park - took longer than I was anticipating but it'll be ready to go live soon and share with you all soon!
++ **Technologies used** - JSON, JavaScript, HTML5, Sass
+
+
 ### R6D11: Monday 16 November 2020
 
 + **Notes**
-  + Updates to various websites today. Including my websit and various others I'm looking forward to sharing about.  Plus further work with Sequelize ORM and updating individual records.
+  + Updates to various websites today. Including my website and various others I'm looking forward to sharing about.  Plus further work with Sequelize ORM and updating individual records.
 + **Technologies used** - JSON, JavaScript, HTML5, Sass
 
 ### R6D10: Friday 13 November 2020

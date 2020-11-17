@@ -12,6 +12,152 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
+### Day 12
+
+#### SEQUELIZE CONFIGURATION AND MODEL
+
+#### Configure Sequelize
+
+```javascript
+const Sequelize = require('sequelize');
+
+//create a sequelize instance
+const sequelize = new Sequelize({
+    
+    dialect: 'sqlite',
+    storage: 'movies.db'
+});
+
+// async IIFE (immediately invoked function expression)
+(async () => {
+  try {
+    await sequelize.authenticate();
+    console.log('Connection to the database successful!');
+
+  } catch (error) {
+    console.error('Error connecting to the database: ', error);
+
+  }
+})();
+```
+
+#### Sequelize Model Instance
+
+```javascript
+
+const Sequelize = require('sequelize');
+
+//create a sequelize instance
+const sequelize = new Sequelize({
+    
+    dialect: 'sqlite',
+    storage: 'movies.db'
+
+});
+
+//Movie model
+class Movie extends Sequelize.Model {)
+        
+    Movie.init({
+        title: Sequelize.STRING 
+    }, { sequelize });
+
+    (async () => {
+        // Sync 'Movies' table
+        await Movie.sync();
+        //await sequelize.sync();
+
+      try {
+
+            //do some action
+
+      } catch (error) {
+            console.error('Error connecting to the database: ', error);
+      }
+    }) ();
+
+```
+
+
+#### Sequelize Model Instance - Modular layout.
+
+
+```javascript
+
+//movie.js
+const Sequelize = require('sequelize');
+
+module.exports = (sequelize) => {
+
+    class Movie extends Sequelize.Model{}
+
+    Movie.init({
+
+        title: Sequelize.STRING,
+    
+    }, { sequelize });
+
+    return Movie; 
+}
+
+```
+
+
+```javascript
+
+    //index.js
+    const Sequelize = require('sequelize');
+
+    //create a sequelize instance
+    const sequelize = new Sequelize({
+       dialect: 'sqlite',
+       storage: 'movies.db',
+       logging: false
+    });
+
+    const db = {
+        sequelize,
+        Sequelize,
+        models: {},
+};
+
+db.models.Movie = require('./models/movie.js')(sequelize);
+
+module.exports = db;
+
+
+```
+
+```javascript
+    //app.js
+
+    const db = require('./db');
+    const { Movie } = db.models;
+
+    (async () => {
+        await db.sequelize.sync({ force: true });
+
+        try {
+            const movie = await Movie.create({
+            title: 'Toy Story'
+        });
+        console.log(movie.toJSON());
+
+        const movie2 = await Movie.create({
+            title: 'The Incredibles'
+        });
+        console.log(movie2.toJSON());
+
+    } catch (error) {
+          console.error('Error connecting to the database: ', error);
+      }
+})();
+
+
+```
+
+
+
 
 ### Day 11
 

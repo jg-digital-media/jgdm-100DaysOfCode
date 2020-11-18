@@ -12,6 +12,154 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
+### Day 13
+
++ primaryKey
++ autoIncrement
++ allowNull
++ defaultValue
++ type
+
+#### VALIDATORS
+
+```javascript
+
+    //movies.js
+    const Sequelize = require('sequelize');
+
+module.exports = (sequelize) => {
+  class Movie extends Sequelize.Model {}
+  Movie.init({
+    id: {
+      type: Sequelize.INTEGER,
+      primaryKey: true,
+      autoIncrement: true,
+    },
+    title: {
+      type: Sequelize.STRING,
+      allowNull: false,
+      validate: {
+           notEmpty: true,  //require a value is entered
+           },
+
+           notNull: {
+               msg: 'Error message: "title"',
+           }
+    },
+    runtime: {
+      type: Sequelize.INTEGER,
+      allowNull: false,
+      validate: { 
+          notNull: {
+              msg: 'Error message "title"',
+          }
+       },
+    },
+    releaseDate: {
+      type: Sequelize.DATEONLY,
+      allowNull: false,
+      validate: { 
+          notNull: {
+          msg: 'Please provide a value for "releaseDate"',
+        } },
+    },    
+
+    isAvailableOnVHS: {
+        type: Sequelize.BOOLEAN,
+        allowNull: false,
+        defaultValue: false,
+    }
+    
+  }, { sequelize });
+
+  return Movie;
+};
+
+
+```
+
+```javascript
+
+   //app.js
+```
+
+#### INITIALISE MODE, SPECIFY DATA TYPES AND CREATE DATA
+
+```javascript
+
+//movies.js
+const Sequelize = require('sequelize');
+
+module.exports = (sequelize) => {
+  class Movie extends Sequelize.Model {}
+  Movie.init({
+
+    //set a primary key column
+    id: {
+        type: Sequelize.INTEGER,
+        primaryKey: true,
+        autoIncrement: true,
+    },
+
+    title: {
+        type: Sequelize.STRING,
+    },
+
+    runtime: {
+        type: Sequelize.INTEGER
+    },
+
+    releaseDate: {
+        type: Sequelize.DATEONLY
+    },
+
+    isAvailableOnVHS: {
+        type: Sequelize.BOOLEAN,
+        allowNull: false,
+        defaultValue: false,
+    },
+  }, { sequelize });
+
+  return Movie;
+};
+
+```
+
+
+```javascript
+//app.js
+
+    const db = require('./db');
+    const { Movie } = db.models;
+
+    (async () => {
+        await db.sequelize.sync({ force: true });
+
+        try {
+            const movie = await Movie.create({
+                title: 'Toy Story',
+                runtime: 81,
+                releaseDate: '1995-11-22',
+                isAvailableOnVHS: true,
+    });
+    console.log(movie.toJSON());
+
+            const movie2 = await Movie.create({
+                title: 'The Incredibles',
+                runtime: 115,
+                releaseDate: '2004-04-14',
+                isAvailableOnVHS: true,
+    });
+    console.log(movie2.toJSON());;
+
+    } catch (error) {
+          console.error('Error connecting to the database: ', error);
+    }
+
+})();
+
+```
+
 ### Day 12
 
 #### SEQUELIZE CONFIGURATION AND MODEL

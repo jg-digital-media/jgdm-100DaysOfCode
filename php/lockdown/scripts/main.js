@@ -8,7 +8,7 @@ $(document).ready(function(){
     $('.route-slider').slick({
         infinite: true,
         slidesToShow: 8,
-        slidesToScroll: 5,
+        //slidesToScroll: 5,
         dots: false,
         draggable: true
     });

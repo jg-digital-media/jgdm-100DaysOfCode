@@ -20,7 +20,7 @@
 + defaultValue
 + type
 
-#### VALIDATORS
+#### SEQUELIZE DATA VALIDATORS
 
 ```javascript
 
@@ -35,6 +35,7 @@ module.exports = (sequelize) => {
       primaryKey: true,
       autoIncrement: true,
     },
+
     title: {
       type: Sequelize.STRING,
       allowNull: false,
@@ -46,6 +47,7 @@ module.exports = (sequelize) => {
                msg: 'Error message: "title"',
            }
     },
+
     runtime: {
       type: Sequelize.INTEGER,
       allowNull: false,
@@ -55,6 +57,7 @@ module.exports = (sequelize) => {
           }
        },
     },
+    
     releaseDate: {
       type: Sequelize.DATEONLY,
       allowNull: false,

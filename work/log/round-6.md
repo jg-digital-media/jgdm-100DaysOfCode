@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 12 of 100. **Last Update:** 17 November 2020
+## **Status:** Day 13 of 100. **Last Update:** 18 November 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R6D13: Wednesday 18 November 2020
+
++ **Notes**
+  + Turned my attention today to applying a draggable Slick Carousel Gallery to a collection of clickable photos in my PHP based lockdwn website. A long standing problem I'm getting closer to fixing. 
++ **Technologies used** - JSON, JavaScript, HTML5, Sass
 
 ### R6D12: Tuesday 17 November 2020
 

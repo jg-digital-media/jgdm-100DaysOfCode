@@ -1,3 +1,7 @@
+
+//slick carousel/slider    
+@import "../utilities/slick";
+
 .lockdown {
 
     
@@ -98,6 +102,7 @@
     text-align: center;
     width: 95%;
     background: #d3d3d3;
+    /*overflow: hidden;*/
 
     h2 {
         text-align: center;
@@ -109,13 +114,13 @@
     // route slider styles - no slick carousel
     .route-slider {
         display: inline-block;
+        width: 100%;
+        overflow: hidden;
     }
 
     .route-slider > div {
         display: inline-block;
-        width: 20px;
-        width: 10%;
-        width: 7%;
+        width: 100%;
 
         
         @media (max-width: $xs) {
@@ -130,6 +135,7 @@
         display: inline-block;
         width: 25%;
         width: 100%;
+        width: 80%;
 
         @media (max-width: $xs) {
             /*width: 50%;*/
@@ -143,8 +149,16 @@
         display: inline-block;
 
     }
+
+    .slick-track {
+        opacity: 1 !important;
+        transform: translate3d(-3240px, 0px, 0px) !important;
+        width: 5832px !important;
+    }
+
+    .slick-slide {
+        width: 25px !important;
+    }
       
-    //slick carousel/slider    
-    @import "../utilities/slick";
    
 }

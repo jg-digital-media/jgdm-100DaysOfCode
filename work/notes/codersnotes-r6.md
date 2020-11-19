@@ -12,6 +12,189 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
+
+### Day 14
+
+#### SEQUELIZE with MODEL OPTIONS OBJECT - EXAMPLE
+
+
+```javascript
+
+//snip
+
+}, 
+  // Model options object
+  { 
+    timestamps: false, // disable timestamps
+    freezeTableName: true, // disable plural table names,
+    modelName: "customModelName",  //set a custom name for the model instance
+    tableName: "customTableName", //the option below changes the table name in the database to my_movies_table
+    sequelize 
+  });
+
+
+
+```
+
+
+```javascript 
+   // example movie.js
+
+   //import sequelize module
+    const Sequelize = require("sequelize");
+
+    /*
+    @Movie: require the Sequelize Module and export Movie Model
+    */
+
+    module.exports = ( sequelize ) => {
+
+        class Movie extends Sequelize.Model {}
+
+        Movie.init({
+            id: {
+                type: Sequelize.INTEGER,
+                primaryKey: true,
+                autoIncrement: true,
+            },
+
+            title: {
+                type: Sequelize.STRING,
+                allowNull: false,
+                validate: {
+                    notEmpty: true,  //require a value is entered
+                },
+
+                notNull: {
+                    msg: 'Error message: "title"',
+                }
+            },
+
+            runtime: {
+                type: Sequelize.INTEGER,
+                allowNull: false,
+                validate: { 
+                    notNull: {
+                        msg: 'Error message "title"',
+                    }
+                },
+            },
+            
+            releaseDate: {
+                type: Sequelize.DATEONLY,
+                allowNull: false,
+                validate: { 
+                    notNull: {
+                    msg: 'Please provide a value for "releaseDate"',
+                    } 
+                },
+            },    
+
+            isAvailableOnVHS: {
+                type: Sequelize.BOOLEAN,
+                allowNull: false,
+                defaultValue: false,
+            }
+            
+        }, { 
+
+            //Model Options Object
+            { 
+                timestamps: false, // disable timestamps
+                freezeTableName: true, // disable plural table names,
+                modelName: "customModelName",  //set a custom name for the model instance
+                tableName: "customTableName", //the option below changes the table name in the database to my_movies_table
+                sequelize 
+           });
+        }
+
+        return Movie;
+
+};
+ 
+
+```
+
+```javascript
+    // example app.js
+
+    //where the data is defined and created and processed
+    console.log("app.js");
+
+    const db = require("./db");
+    const { Movie, Person } = db.models;
+    const { Op } = db.Sequelize;
+
+
+    (async () => {
+        await db.sequelize.sync({ force: true });
+  
+        //where the data is defined and created
+        try {
+
+            //do stuff. 
+
+        }  catch (error) {
+
+        //advanced error handling - condition based on error object
+        if ( error.name === 'SequelizeValidationError' ) {
+            const errors = error.errors.map(err => err.message);
+            console.error('Validation errors: ', errors);
+
+        } else {
+            //rethrow other kinds off errors
+            throw error;
+
+        }
+
+        //error handling
+        //console.error('Error connecting to the database: ', error);
+
+    }
+
+})();
+  
+```
+
+```javascript
+  // example index.js
+
+    /*
+    * Configure Sequelize Instance
+    */
+
+    //import sequelize module
+    const Sequelize = require("sequelize");
+
+    //set up database and connection
+    const sequelize = new Sequelize({
+        dialect: 'sqlite',
+        storage: 'movies.db',
+        logging: true,
+
+        //define global level options
+        define: {
+            freezeTableName: false,
+            timestamps: false,
+        }
+    })
+
+    //db object that holds the sequelize installation and configurations
+    const db = {
+        sequelize,
+        Sequelize, 
+        models: {},
+    }
+
+    //import data models - Movie and Person Models
+    db.models.Movie = require('./models/movie.js')(sequelize);
+    db.models.Person = require('./models/person.js')(sequelize);
+
+    //export db model and sequelize functionality
+    module.exports = db;
+```
+
+
 ### Day 13
 
 + primaryKey

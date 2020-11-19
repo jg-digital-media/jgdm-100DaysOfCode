@@ -20,7 +20,7 @@
 
 ```javascript
 
-//snip
+//snip   - the Model options object
 
 }, 
   // Model options object

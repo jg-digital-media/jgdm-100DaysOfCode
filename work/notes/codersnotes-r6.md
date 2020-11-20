@@ -12,6 +12,361 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
+### Day 
+
+https://www.rizwanhafiz.com/wp-admin
+
+Your username for the WordPress admin area and password
+
+Username: 	riz_one
+Password: 	HedW`dd*O;7n
+
+So in order to access the "theme" or the admin area you'll need to use those details and you use that URL to log into it.  If you're not logged in, you won't see the admin bar or theme customisation pages.
+
+Here is where you write new posts, create new pages and edit your content.  It is where you'll add new media text and all your content.
+
+#### CRUD OPERATIONS  - calling build() and create() on the model
+
++ Read ( find() )
++ Create (update() ) Read
++ Update (update() )
++ Delete (d estroy() )
+
+```javascript
+        //app.js
+
+        const db = require('./db');
+        const { Movie } = db.models;
+
+        (async () => {
+            await db.sequelize.sync({ force: true });
+
+            try {
+                const movie = await Movie.create({
+                    title: 'Toy Story',
+                    runtime: 81,
+                    releaseDate: '1995-11-22',
+                    isAvailableOnVHS: true,
+                });
+
+                console.log(movie.toJSON());
+
+                // New instance - CRUD build() - create a record
+                const movie_build = await Movie.build({
+                    title: 'Toy Story 3',
+                    runtime: 103,
+                    releaseDate: '2010-06-18',
+                    isAvailableOnVHS: false,
+                });
+
+                await movie_build.save(); // save the record
+                console.log(movie_build.toJSON());
+
+
+        } catch (error) {
+
+                //Error message
+                console.error('Error connecting to the database: ', error);
+        }
+
+    })();
+
+
+```
+
+```javascript
+
+   // example movie.js
+
+   //import sequelize module
+    const Sequelize = require("sequelize");
+
+    /*
+    @Movie: require the Sequelize Module and export Movie Model
+    */
+
+    module.exports = ( sequelize ) => {
+
+        class Movie extends Sequelize.Model {}
+
+        Movie.init({
+            id: {
+                type: Sequelize.INTEGER,
+                primaryKey: true,
+                autoIncrement: true,
+            },
+
+            title: {
+                type: Sequelize.STRING,
+                allowNull: false,
+                validate: {
+                    notEmpty: true,  //require a value is entered
+                },
+
+                notNull: {
+                    msg: 'Error message: "title"',
+                }
+            },
+
+            runtime: {
+                type: Sequelize.INTEGER,
+                allowNull: false,
+                validate: { 
+                    notNull: {
+                        msg: 'Error message "title"',
+                    }
+                },
+            },
+            
+            releaseDate: {
+                type: Sequelize.DATEONLY,
+                allowNull: false,
+                validate: { 
+                    notNull: {
+                    msg: 'Please provide a value for "releaseDate"',
+                    } 
+                },
+            },    
+
+            isAvailableOnVHS: {
+                type: Sequelize.BOOLEAN,
+                allowNull: false,
+                defaultValue: false,
+            }
+            
+        }, { 
+
+            //Model Options Object
+            { 
+                timestamps: false, // disable timestamps
+                freezeTableName: true, // disable plural table names,
+                modelName: "customModelName",  //set a custom name for the model instance
+                tableName: "customTableName", //the option below changes the table name in the database to my_movies_table
+                sequelize 
+           });
+        }
+
+        return Movie;
+
+    };
+ 
+
+```
+
+```javascript
+
+  // example index.js
+
+    /*
+    * Configure Sequelize Instance
+    */
+
+    //import sequelize module
+    const Sequelize = require("sequelize");
+
+    //set up database and connection
+    const sequelize = new Sequelize({
+        dialect: 'sqlite',
+        storage: 'movies.db',
+        logging: true,
+
+        //define global level options
+        define: {
+            freezeTableName: false,
+            timestamps: false,
+        }
+    })
+
+    //db object that holds the sequelize installation and configurations
+    const db = {
+        sequelize,
+        Sequelize, 
+        models: {},
+    }
+
+    //import data models - Movie and Person Models
+    db.models.Movie = require('./models/movie.js')(sequelize);
+    db.models.Person = require('./models/person.js')(sequelize);
+
+    //export db model and sequelize functionality
+    module.exports = db;
+
+
+```
+
+#### Retrieve CRUD Operation  read (find methods() )
+
+```javascript
+
+    //find record 2 by PK  - CRUD - READ            
+    const movieById = await Movie.findByPk(2);
+    console.log(movieById.toJSON());
+
+```
+
+
+```javascript        
+    //app.js
+
+    const db = require('./db');
+    const { Movie } = db.models;
+
+        (async () => {
+            await db.sequelize.sync({ force: true });
+
+            try {
+                const movie = await Movie.create({
+                    title: 'Toy Story',
+                    runtime: 81,
+                    releaseDate: '1995-11-22',
+                    isAvailableOnVHS: true,
+                });
+
+                console.log(movie.toJSON());
+
+                // New instance - CRUD build() - create a record
+                const movie_build = await Movie.build({
+                    title: 'Toy Story 3',
+                    runtime: 103,
+                    releaseDate: '2010-06-18',
+                    isAvailableOnVHS: false,
+                });
+
+                await movie_build.save(); // save the record
+                console.log(movie_build.toJSON());
+
+                //Retrieve Records with Read CRUD Operation
+
+
+        } catch (error) {
+
+                //Error message
+                console.error('Error connecting to the database: ', error);
+        }
+
+    })();
+
+```
+
+```javascript   
+
+// example movie.js
+
+   //import sequelize module
+    const Sequelize = require("sequelize");
+
+    /*
+    @Movie: require the Sequelize Module and export Movie Model
+    */
+
+    module.exports = ( sequelize ) => {
+
+        class Movie extends Sequelize.Model {}
+
+        Movie.init({
+            id: {
+                type: Sequelize.INTEGER,
+                primaryKey: true,
+                autoIncrement: true,
+            },
+
+            title: {
+                type: Sequelize.STRING,
+                allowNull: false,
+                validate: {
+                    notEmpty: true,  //require a value is entered
+                },
+
+                notNull: {
+                    msg: 'Error message: "title"',
+                }
+            },
+
+            runtime: {
+                type: Sequelize.INTEGER,
+                allowNull: false,
+                validate: { 
+                    notNull: {
+                        msg: 'Error message "title"',
+                    }
+                },
+            },
+            
+            releaseDate: {
+                type: Sequelize.DATEONLY,
+                allowNull: false,
+                validate: { 
+                    notNull: {
+                    msg: 'Please provide a value for "releaseDate"',
+                    } 
+                },
+            },    
+
+            isAvailableOnVHS: {
+                type: Sequelize.BOOLEAN,
+                allowNull: false,
+                defaultValue: false,
+            }
+            
+        }, { 
+
+            //Model Options Object
+            { 
+                timestamps: false, // disable timestamps
+                freezeTableName: true, // disable plural table names,
+                modelName: "customModelName",  //set a custom name for the model instance
+                tableName: "customTableName", //the option below changes the table name in the database to my_movies_table
+                sequelize 
+           });
+        }
+
+        return Movie;
+
+    };
+ 
+```
+
+```javascript
+  // example index.js
+
+    /*
+    * Configure Sequelize Instance
+    */
+
+    //import sequelize module
+    const Sequelize = require("sequelize");
+
+    //set up database and connection
+    const sequelize = new Sequelize({
+        dialect: 'sqlite',
+        storage: 'movies.db',
+        logging: true,
+
+        //define global level options
+        define: {
+            freezeTableName: false,
+            timestamps: false,
+        }
+    })
+
+    //db object that holds the sequelize installation and configurations
+    const db = {
+        sequelize,
+        Sequelize, 
+        models: {},
+    }
+
+    //import data models - Movie and Person Models
+    db.models.Movie = require('./models/movie.js')(sequelize);
+    db.models.Person = require('./models/person.js')(sequelize);
+
+    //export db model and sequelize functionality
+    module.exports = db;
+```
+
+
+
+
 
 ### Day 14
 
@@ -110,7 +465,7 @@
 
         return Movie;
 
-};
+    };
  
 
 ```

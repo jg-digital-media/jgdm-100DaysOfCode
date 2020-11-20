@@ -12,25 +12,155 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
-### Day 
 
-https://www.rizwanhafiz.com/wp-admin
+### Day ## Sequelize Facts and Summary
 
-Your username for the WordPress admin area and password
 
-Username: 	riz_one
-Password: 	HedW`dd*O;7n
++ **Sequelize Facts**
+  + Sequelize gives you the ability to specify exactly which attributes should be saved when using either the save() or update() method, with the fields property.
 
-So in order to access the "theme" or the admin area you'll need to use those details and you use that URL to log into it.  If you're not logged in, you won't see the admin bar or theme customisation pages.
+### Day ##  FINDING A RECORD AND THEN PERFORMING AN ACTION ON IT
 
-Here is where you write new posts, create new pages and edit your content.  It is where you'll add new media text and all your content.
 
-#### CRUD OPERATIONS  - calling build() and create() on the model
+```javascript
+
+//movies.js
+    const Sequelize = require('sequelize');
+
+module.exports = (sequelize) => {
+  class Movie extends Sequelize.Model {}
+  Movie.init({
+    id: {
+      type: Sequelize.INTEGER,
+      primaryKey: true,
+      autoIncrement: true,
+    },
+
+    title: {
+      type: Sequelize.STRING,
+      allowNull: false,
+      validate: {
+           notEmpty: true,  //require a value is entered
+           },
+
+           notNull: {
+               msg: 'Error message: "title"',
+           }
+    },
+
+    runtime: {
+      type: Sequelize.INTEGER,
+      allowNull: false,
+      validate: { 
+          notNull: {
+              msg: 'Error message "title"',
+          }
+       },
+    },
+    
+    releaseDate: {
+      type: Sequelize.DATEONLY,
+      allowNull: false,
+      validate: { 
+          notNull: {
+          msg: 'Please provide a value for "releaseDate"',
+        } },
+    },    
+
+    isAvailableOnVHS: {
+        type: Sequelize.BOOLEAN,
+        allowNull: false,
+        defaultValue: false,
+    }
+    
+  }, { sequelize });
+
+  return Movie;
+};
+
+```
+
+
+```javascript
+
+//app.js
+    const db = require('./db');
+    const { Movie } = db.models;
+
+    (async () => {
+        await db.sequelize.sync({ force: true });
+
+        try {
+
+            //create records
+            const movie = await Movie.create({
+                title: 'Toy Story',
+                runtime: 81,
+                releaseDate: '1995-11-22',
+                isAvailableOnVHS: true,
+            });
+            console.log(movie.toJSON());
+
+            const movie2 = await Movie.create({
+                title: 'The Incredibles',
+                runtime: 115,
+                releaseDate: '2004-04-14',
+                isAvailableOnVHS: true,
+            });
+            console.log(movie2.toJSON());;
+
+          } catch (error) {
+              console.error('Error connecting to the database: ', error);
+          }
+
+          //find and perform actions on records
+
+      })();
+
+
+
+
+```
+
+
+
+```javascript
+
+//index.js
+
+    //index.js
+    const Sequelize = require('sequelize');
+
+    //create a sequelize instance
+    const sequelize = new Sequelize({
+       dialect: 'sqlite',
+       storage: 'movies.db',
+       logging: false
+    });
+
+    const db = {
+        sequelize,
+        Sequelize,
+        models: {},
+};
+
+db.models.Movie = require('./models/movie.js')(sequelize);
+
+module.exports = db;
+
+
+
+```
+
+### Day 15 -  #### CRUD OPERATIONS  - calling build() and create() on the model
 
 + Read ( find() )
 + Create (update() ) Read
 + Update (update() )
 + Delete (d estroy() )
+
++ **Sequelize Facts**
+  + Sequelize gives you the ability to specify exactly which attributes should be saved when using either the save() or update() method, with the fields property.
 
 ```javascript
         //app.js
@@ -364,7 +494,79 @@ Here is where you write new posts, create new pages and edit your content.  It i
     module.exports = db;
 ```
 
+---
 
+#### Updating and Deleting Records
+
+```javascript
+
+
+(async () => {
+  await db.sequelize.sync({ force: true });
+
+  try {
+    // ... All model instances  - save() in app.js
+
+    //Update a Record with save()
+    //The following updates the isAvailableOnVHS value of the toyStory3 instance using dot notation:
+
+    const toyStory3 = await Movie.findByPk(3);
+    toyStory3.isAvailableOnVHS = true;
+    await toyStory3.save();
+
+    console.log( toyStory3.get({ plain: true }) );
+
+  } catch(error) {
+    ...
+  }
+})();
+```
+
+
+```javascript
+
+(async () => {
+  await db.sequelize.sync({ force: true });
+
+  try {
+    // ... All model instances   update() syntax - in app.js
+
+    const toyStory3 = await Movie.findByPk(3);
+    await toyStory3.update({
+      isAvailableOnVHS: true,
+    });
+    console.log( toyStory3.get({ plain: true }) );
+
+  } catch(error) {
+    ...
+  }
+})();
+
+```
+
+
+```javascript
+(async () => {
+  await db.sequelize.sync({ force: true });
+
+  try {
+    // All model instances   destroy() method syntax - in app.js
+
+    // Find a record
+    const toyStory = await Movie.findByPk(1);
+
+    // Delete a record
+    await toyStory.destroy();
+
+    // Find and log all movies
+    const movies = await Movie.findAll();
+    console.log( movies.map(movie => movie.toJSON()) );
+
+  } catch(error) {
+    ...
+  }
+})();
+```
 
 
 

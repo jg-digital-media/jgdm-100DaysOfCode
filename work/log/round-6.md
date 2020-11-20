@@ -1,16 +1,22 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 14 of 100. **Last Update:** 19 November 2020
+## **Status:** Day 15 of 100. **Last Update:** 20 November 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R6D15: Friday 20 November 2020
+
++ **Notes**
+  + Bit of a chaotic day today. Compiling more notes on sequelize before I move on to the next step with the ORM. 
++ **Technologies used** - Sequelize
+
 ### R6D14: Thursday 19 November 2020
 
 + **Notes**
   + More Sequelize revision and note building, and today I also started doing some customisation of a WordPress theme for my new client 
-+ **Technologies used** - JSON, JavaScript, Sequelize WordPress, PHP
++ **Technologies used** - JSON, JavaScript, Sequelize, WordPress, PHP
 
 ### R6D13: Wednesday 18 November 2020
 

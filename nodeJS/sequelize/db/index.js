@@ -2,10 +2,10 @@
  * Configure Sequelize Instance
  */
 
-//import sequelize module
+//Import sequelize module
 const Sequelize = require("sequelize");
 
-//set up database and connection
+//Set up database and connection
 const sequelize = new Sequelize({
     dialect: 'sqlite',
     storage: 'movies.db',
@@ -26,8 +26,8 @@ const db = {
 }
 
 //import data models - Movie and Person Models
-db.models.Movie = require('./models/movie.js')(sequelize);
-db.models.Person = require('./models/person.js')(sequelize);
+db.models.Movie = require('./models/movie.js') (sequelize);
+db.models.Person = require('./models/person.js') (sequelize);
 
 //export db model and sequelize functionality
 module.exports = db;

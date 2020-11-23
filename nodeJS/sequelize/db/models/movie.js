@@ -11,7 +11,7 @@ module.exports = ( sequelize ) => {
     
     Movie.init({
 
-        //Nodel attributes Object
+        //Model attributes Object
         id: {
             type: Sequelize.INTEGER,
             primaryKey: true,
@@ -56,18 +56,18 @@ module.exports = ( sequelize ) => {
                     msg: "Please provide a value for this field."
                 },
                 
-            isAfter: {
-                args: '1895-12-27',
-                msg: 'Provide a date for on or after 1895-12-28'
-            
-            },
+                isAfter: {
+                    args: '1895-12-27',
+                    msg: 'Provide a date for on or after 1895-12-28'
+                
+                },
             }
         },
         
         isAvailableOnVHS: {
             type: Sequelize.BOOLEAN, 
             allowNull: false,
-            defaultValue: false //set a default vlue
+            defaultValue: false //set a default value
         },
 
     }, { 

@@ -19,7 +19,8 @@
 + **Sequelize Facts**
   + Sequelize gives you the ability to specify exactly which attributes should be saved when using either the save() or update() method, with the fields property.
 
-### Day ##  FINDING A RECORD AND THEN PERFORMING AN ACTION ON IT
+
+### Day 16  FINDING A RECORD AND THEN PERFORMING AN ACTION ON IT
 
 
 ```javascript
@@ -107,13 +108,48 @@ module.exports = (sequelize) => {
                 releaseDate: '2004-04-14',
                 isAvailableOnVHS: true,
             });
-            console.log(movie2.toJSON());;
+            console.log(movie2.toJSON());
 
-          } catch (error) {
-              console.error('Error connecting to the database: ', error);
-          }
 
-          //find and perform actions on records
+            // find and perform actions on records - save()
+
+            // ------> Use findByPk() to Find the Record to Update
+
+            const findSpecificRecord = await Model.findByPk(1);
+
+            // ------> Update a Record with save();
+
+            findSpecificRecord = updateProperty = false;
+            await findSpecificRecord.save();
+
+            // find and perform actions on records - update()
+
+            // ------> Use findByPk() to Find the Record to Update
+
+            const findSpecificRecord = await Model.findByPk(1);
+
+            await toyStory3.update({
+                sAvailableOnVHS: true,
+            });
+
+            console.log( toyStory3.get({ plain: true }) );
+
+            // destroy()
+
+            // ------> Use findByPk() to Find the Record to Update
+            const toyStory = await Movie.findByPk(1);
+
+            // Delete a record
+            await toyStory.destroy();
+
+            // Find and log all movies
+            const movies = await Movie.findAll();
+            console.log( movies.map(movie => movie.toJSON()) );
+
+        } catch (error) {
+            console.error('Error connecting to the database: ', error);
+        }
+        
 
       })();
 

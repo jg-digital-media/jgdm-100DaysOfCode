@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 6: Day 15 of 100. **Last Update:** 20th November 2020 
++ **Status:** Round 6: Day 16 of 100. **Last Update:** 23rd November 2020 
 
 ## Directories
   + api
@@ -54,6 +54,8 @@
     + express_async
     + express_restapi
     + open_weather
+    + sequelize
+    + sequelize_blog
   + php
     + lockdown
     + mvc-framework

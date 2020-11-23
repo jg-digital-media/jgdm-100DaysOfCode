@@ -20,7 +20,7 @@
   + Sequelize gives you the ability to specify exactly which attributes should be saved when using either the save() or update() method, with the fields property.
 
 
-### Day 16  FINDING A RECORD AND THEN PERFORMING AN ACTION ON IT
+### Day 16 - FINDING A RECORD AND THEN PERFORMING AN ACTION ON IT
 
 
 ```javascript

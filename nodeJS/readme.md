@@ -1,6 +1,6 @@
 # Node and Express.js
 
-Last Update:  24/04/2020
+Last Update:  23/11/2020
 
 + **Project 1 - NodeJS Basics**
 + **Project 1.1 - open_weather - Open Weather API**
@@ -9,6 +9,8 @@ Last Update:  24/04/2020
 + **Project 3 - express_site - Flashcard App**
 + **Project 3.1 - express_async**
 + **Project [N] - Node and Express Deployment using Heroku**
++ **Project 4 - Sequelize**
++ **Project 4.1 - Sequelize Blog**
 ---
 
 ## Project 1 - NodeJS Basics

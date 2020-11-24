@@ -19,7 +19,8 @@
     "pug": "^3.0.0",
     "sequelize": "^6.3.5",
     "sequelize-cli": "^6.2.0",
-    "serve-favicon": "^2.5.0"
+    "serve-favicon": "^2.5.0",
+    "sqlite3": "^5.0.0"
   },
   "author": "Andrew Chalkley <andrew@teamtreehouse.com> (http://teamtreehouse.com/)",
   "license": "MIT"

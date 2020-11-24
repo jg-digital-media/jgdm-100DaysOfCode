@@ -47,10 +47,7 @@
 
   + Sequelize also supports custom validators that check if a value is within an expected range (like a date or number), part of a specified substring, or if it contains certain character
 
-
-
 + **Sequelize and CRUD**
-
 
   + Sequelize provides methods to perform CRUD operations (create, read, update, delete).
 
@@ -58,7 +55,6 @@
 
   + Read - perform read operations on your database tables using Sequelize's data retrieval methods
 Finder methods are the ones that generate SELECT queries.
-
 
     + findByPk()
     + findOne()
@@ -72,11 +68,7 @@ Finder methods are the ones that generate SELECT queries.
 
   + delete() - the destroy() method is an asynchronous call that returns a Promise. Call the destroy() method on the model instance to delete the record:
 
-
-
   + Sequelize provides a "paranoid" setting for "soft" deletes. Setting the paranoid option to true means that a destroyed record will not be physically deleted from the database,
-
-
 
 
 

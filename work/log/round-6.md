@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 16 of 100. **Last Update:** 23 November 2020
+## **Status:** Day 17 of 100. **Last Update:** 24 November 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R6D17: Tuesday 24 November 2020
+
++ **Notes**
+  + Redownloaded node.js and finally started working with Sequelize in relation to the Node platform.
++ **Technologies used** - HTML5, SASS, Node.js, Sequelize
 
 ### R6D16: Monday 23 November 2020
 

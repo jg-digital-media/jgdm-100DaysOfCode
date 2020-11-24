@@ -13,11 +13,71 @@
 + Sequelize - project
 
 
-### Day ## Sequelize Facts and Summary
+### Day 17
+
+#### Sequelize Facts and Summaries
+
++ **Models**
+
+  + A model in Sequelize represents a table in the database.  A Model is a JavaScript ```class``` that predefines how data should be stored, and determines whether or not a database entry is valid
+
+  + A model contains a collection of attributes (or class properties) that are used to describe each model instance.
+
+  + Models are both the objects that you interact with in your application and the tables created and managed in your database. 
+
+  + Model ```init()``` accepts 2 arguments that are objects.  The Model Attributes Object and the Model Options Object.
+
+  + The ORM (Sequelize) acts as the translator between objects in your code and data stored in a relational database.
+
+  + Models: To synchronize your models with the database, use the ```sync()``` method.
+
+  + Sequelize provides options to set on each model to control table and column names, timestamps and more.
+
+  + Sequelize, by default, creates a model name that begins with a capital letter (because it uses the model class name). 
+
++ **Primary Keys**
+
+  + Sequelize adds an id attribute to your model, which generates an 'id' column in your table that assigns each row a unique ID. The ID acts as a 'primary key', or a unique indexable reference for each entry.
+
++ **Validators**
+
+  + Validator: You specify a validator on a model attribute using a validate object. Within the validate object you can use the built-in validators supported by Sequelize
+
+  + You can set a custom message when validation fails. To specify a custom error message, set the validator property to an object containing a msg property set to your custom message.
+
+  + Sequelize also supports custom validators that check if a value is within an expected range (like a date or number), part of a specified substring, or if it contains certain character
 
 
-+ **Sequelize Facts**
+
++ **Sequelize and CRUD**
+
+
+  + Sequelize provides methods to perform CRUD operations (create, read, update, delete).
+
+  + create() - The build() method stores data in memory only; data is not saved to the database until calling .save()   The create() method stores the data automatically to a model instance
+
+  + Read - perform read operations on your database tables using Sequelize's data retrieval methods
+Finder methods are the ones that generate SELECT queries.
+
+
+    + findByPk()
+    + findOne()
+    + findAll()
+    + findOrCreate() - creates data unless it can find records matching query options
+
+  + update() - save()  - update records with one of 2 methods.   update() method, which accepts an object with the key/values to update. The save() method needs to be called on the model instance to save the update to the database
+
+  + Both approaches  update a record and persist the changes to the database
   + Sequelize gives you the ability to specify exactly which attributes should be saved when using either the save() or update() method, with the fields property.
+
+  + delete() - the destroy() method is an asynchronous call that returns a Promise. Call the destroy() method on the model instance to delete the record:
+
+
+
+  + Sequelize provides a "paranoid" setting for "soft" deletes. Setting the paranoid option to true means that a destroyed record will not be physically deleted from the database,
+
+
+
 
 
 ### Day 16 - FINDING A RECORD AND THEN PERFORMING AN ACTION ON IT

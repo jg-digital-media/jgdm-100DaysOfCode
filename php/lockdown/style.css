@@ -440,6 +440,7 @@ nav {
   .slider-container .route-slider {
     display: inline-block;
     width: 100%;
+    /*width: 71%;*/
     overflow: hidden; }
   .slider-container .route-slider > div {
     display: inline-block;
@@ -465,8 +466,10 @@ nav {
   .slider-container .slick-track {
     opacity: 1 !important;
     transform: translate3d(-3240px, 0px, 0px) !important;
-    width: 5832px !important; }
-  .slider-container .slick-slide {
+    /* width: 5832px !important; */ }
+  .slider-container .slick-slide,
+  .slider-container .slick-cloned {
+    display: inline-block;
     width: 25px !important; }
 
 .dene {

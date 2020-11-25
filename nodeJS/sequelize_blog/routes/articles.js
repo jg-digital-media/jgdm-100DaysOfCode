@@ -1,19 +1,10 @@
 var express = require('express');
 var router = express.Router();
-var dateFormat = require('dateformat');
 var Article = require("../models").Article;
 
 
 
-function publishedAt() {
-  return dateFormat(this.createdAt, "dddd, mmmm dS, yyyy, h:MM TT");
-}
-
-function shortDescription(){ 
-  return this.body.length > 30 ? this.body.substr(0, 30) + "..." : this.body;
-}
-
-var articles = [
+/* var articles = [
   {
     id: 1,
     title: "My First Blog Post",
@@ -30,7 +21,7 @@ var articles = [
     publishedAt: publishedAt,
     shortDescription: shortDescription
   }
-];
+]; */
 
 
 function find(id) {
@@ -39,10 +30,13 @@ function find(id) {
 }
 
 
-/* GET articles listing. */
+/* GET articles listing */
 router.get('/', function(req, res, next) {
-  res.render("articles/index", {articles: articles, title: "My Awesome Blog" });
+  Article.findAll({order: [["createdAt", "ASC"]]}).then(function(articles){
+    res.render('articles/index', {articles: articles, title: 'My Awesome Blog' });
+  });
 });
+
 
 /* POST create article */
 router.post('/', function(req, res, next) {
@@ -72,11 +66,11 @@ router.get("/:id/delete", function(req, res, next){
 });
 
 
-/* GET individual article. */
+/* GET individual article */
 router.get("/:id", function(req, res, next){
-  var article = find(req.params.id);
-
-  res.render("articles/show", {article: article, title: article.title});
+  Article.findByPk(req.params.id).then(function(article){
+    res.render("articles/show", {article: article, title: article.title});
+  });
 });
 
 /* PUT update article. */

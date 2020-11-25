@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 17 of 100. **Last Update:** 24 November 2020
+## **Status:** Day 18 of 100. **Last Update:** 25 November 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R6D18: Wednesday 25 November 2020
+
++ **Notes**
+  + Started to revamp my blog website for my business. Eventually i'll turn it into a new WordPress theme. Might also be an opportunity to investigate the differences PHP 8 will make.
+
++ **Technologies used** - HTML5, SASS
 
 
 ### R6D17: Tuesday 24 November 2020

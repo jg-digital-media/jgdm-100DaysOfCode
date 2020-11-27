@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 19 of 100. **Last Update:** 26 November 2020
+## **Status:** Day 20 of 100. **Last Update:** 27 November 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R6D20: Friday 27 November 2020
+
++ **Notes**
+  + Almost finished redesigning my blog in static markup form.  Needs some more finishing touches before it's ready to be made into a WordPress theme. 
+
++ **Technologies used** - HTML5, SASS
 
 ### R6D19: Thursday 26 November 2020
 

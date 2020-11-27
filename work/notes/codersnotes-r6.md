@@ -12,9 +12,430 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
-## Day 19
 
-gallery markup - black blurb on hover post here. 
+## Day 20
+
+
+#### Sequelize and Node.js CRUD Operations
+
+
+
+#### Updating Entries in a Table
+
+
+```javascript
+
+//In the /routes/articles.js file, update the "Edit article form" route to be:
+
+
+router.get('/:id/edit', function(req, res, next){
+  Article.findByPk(req.params.id).then(function(article) {
+    res.render('articles/edit', {article: article, title: 'Edit Article'});
+  });
+});
+
+
+//In the /routes/articles.js file, update the "PUT update article" route to be:
+
+
+router.put('/:id', function(req, res, next){
+  Article.findByPk(req.params.id).then(function(article) {
+    return article.update(req.body);
+  }).then(function(article){
+    res.redirect("/articles/" + article.id);    
+  });
+});
+
+```
+
+#### deleting entries from a table.
+
++ There are two actions that deal with deleting.
+
+  + A human friendly form
+
+  + A route that deals with the deleting on the entry
+
+The destroy method is an asynchronous call that returns a promise
+
+```javascript
+
+/* Delete article form. */
+router.get('/:id/delete', function(req, res, next){
+  Article.findByPk(req.params.id).then(function(article) {
+    res.render('articles/delete', {article: article, title: 'Delete Article'});
+  });
+})
+
+
+/* DELETE individual article. */
+router.delete('/:id', function(req, res, next) {
+  Article.findByPk(req.params.id).then(function(article) => {
+    return article.destroy();
+  }).then(function() => {
+    res.redirect('/articles');
+  });
+});
+
+```
+
+
+#### Sequelize Validations and Node.js 
+
+```javascript
+////Routes can automatically validate models. You can specify it validates it on an attribute, as well as a data type.
+
+
+///When found, validated errors are transferred to the catch methods.
+
+
+module.exports = function(sequelize, DataTypes) {
+  var Article = sequelize.define('Article', {
+    title: {
+        type: DataTypes.STRING,
+        validate: {
+            notEmpty: {
+                msg: "A title is required"
+            }
+        },
+    },
+    author: DataTypes.STRING,
+    body: DataTypes.TEXT
+  });
+
+/* POST create article */
+router.post('/', function(req, res, next) {
+    Article.create(req.body).then(function(article) {
+        res.redirect("/articles/" + article.id);
+    }).catch(function(err) {
+        if(err.name === "SequelizeValidationError") {
+            //render
+        } else {
+            throw err
+        }   
+    }).catch(function(err){
+        res.send(500);
+    });
+});
+```
+
+### Day 19
+
+#### gallery markup - black blurb on hover post here.
+
+```css
+.article_block_primary {
+
+    border: solid red 2px;
+    width: 60%;
+    margin: 10px 0;
+    display: inline-block;
+
+    h2 {
+        padding-left: 10px;
+    }
+
+    
+    @media (max-width: 680px) {
+        display: block;
+        /* width: 90%; */
+        width: 100%;
+        border: none;
+
+    }
+
+    
+    > article {
+        display: inline-block;
+        /* margin: 10px; */
+        margin: 5px;
+    }
+
+  /*   img.article_image {
+        width: 310px;
+    } */
+
+    .article_title {
+        position: relative;
+        overflow: hidden;    
+        width: 310px;
+        display: inline-block;
+        border-radius: 15px;
+        
+        @media (max-width: 680px) {
+            width: 90%;
+            text-align: center;
+
+        }
+
+        
+
+        img {
+            /* width: 80%; */
+            /* width: 360px;  */  
+            /* width: 310px; */
+            /* width: 100%; */
+            position: relative;
+            border-radius: 15px;
+
+            @media(max-width: 680px) {
+                display: block;
+                margin: 0 auto;
+                width: 90%;
+            }
+        }
+
+        a {
+
+            text-decoration: none;
+
+            p {
+                /* position: absolute; */
+                bottom: 0;
+                background: black;
+                color: white;
+
+            }
+
+            .article_blurb {
+                position: absolute;
+                /* width: 90%; */
+                height: auto;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                opacity: 0;
+                background: black;
+                color: white;
+                padding: 10px;
+                transition: opacity .3s;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+
+                h2 {
+                    line-height: 2;
+
+                }
+
+                p {
+                    line-height: 1.5;
+                }
+                
+
+            }
+
+           
+        }
+
+        
+    }
+    
+    .author_information {
+        padding: 5px 10px;
+        font-size: 13px;
+        font-weight: bold;
+        color: $author_col;
+
+        .author_links {
+            color: $author_col_href;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+
+}
+```
+
+```html
+<section class="article_block_primary">
+
+            <h2>Sub Title</h2>
+
+            <article>
+
+                <article class="article_title one">                
+
+                    <img src="img/articles/article_image_placeholder.png" class="article_image" title="This is an image" alt="This is an image">&nbsp;
+
+                    <a href="https://www.google.co.uk" target="blank">
+                        <div class="article_blurb">
+
+                            <h2>This level 2 heading is a long blog title.  Lorem ipsim sit</h2>
+
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex dicta alias modi iure laudantium quis nostrum iste, expedita asperiores rem! Molestiae debitis totam, ipsa est error quas soluta sapiente nisi.</p>
+
+                        </div>
+                    </a>
+                </article>
+
+                <article class="author_block">
+                        <div class="author_information">
+                            Author: <a href="article.html" class="author_links" alt="Author information" title="Author information">@jonniegrieve:</a>  
+                            posted: <a href="article.html" class="author_links" alt="Author information" title="Author information">date</a>
+                        </div>
+
+                    </a>
+                </article>
+            </article>
+
+            <article>
+
+                <article class="article_title two">                
+    
+                    <img src="img/articles/article_image_placeholder.png" class="article_image" title="This is an image" alt="This is an image">&nbsp;
+    
+                    <a href="https://www.google.co.uk" target="blank">
+                        <div class="article_blurb">
+    
+                            <h2>Title</h2>
+    
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex dicta alias modi iure laudantium quis nostrum iste, expedita asperiores rem! Molestiae debitis totam, ipsa est error quas soluta sapiente nisi.</p>
+                        </div>
+
+                    </a>
+                </article>
+                
+                <article>
+                    <div class="author_information">
+                        Author: <a href="article.html" class="author_links" alt="Author information" title="Author information">@jonniegrieve:</a>  
+                        posted: <a href="article.html" class="author_links" alt="Author information" title="Author information">date</a>
+                    </div>
+                </article>
+            </article>
+
+            <article>
+
+                <article class="article_title three">                
+    
+                    <img src="img/articles/article_image_placeholder.png" class="article_image" title="This is an image" alt="This is an image">&nbsp;
+    
+                    <a href="https://www.google.co.uk" target="blank">
+                        <div class="article_blurb">
+    
+                            <h2>Title</h2>
+    
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex dicta alias modi iure laudantium quis nostrum iste, expedita asperiores rem! Molestiae debitis totam, ipsa est error quas soluta sapiente nisi.</p>
+                        </div>
+
+                    </a>
+                </article>
+                
+                <article>
+                    <div class="author_information">
+                        Author: <a href="article.html" class="author_links" alt="Author information" title="Author information">@jonniegrieve:</a>  
+                        posted: <a href="article.html" class="author_links" alt="Author information" title="Author information">date</a>
+                    </div>
+                </article>
+            </article>
+
+            <article>
+
+                <article class="article_title four">                
+    
+                    <img src="img/articles/article_image_placeholder.png" class="article_image" title="This is an image" alt="This is an image">&nbsp;
+    
+                    <a href="https://www.google.co.uk" target="blank">
+                        <div class="article_blurb">
+    
+                            <h2>Title</h2>
+    
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex dicta alias modi iure laudantium quis nostrum iste, expedita asperiores rem! Molestiae debitis totam, ipsa est error quas soluta sapiente nisi.</p>
+                        </div>
+
+                    </a>
+                </article>
+                
+                <article>
+                    <div class="author_information">
+                        Author: <a href="article.html" class="author_links" alt="Author information" title="Author information">@jonniegrieve:</a>  
+                        posted: <a href="article.html" class="author_links" alt="Author information" title="Author information">date</a>
+                    </div>
+                </article>
+            </article>
+
+            <article>
+
+                <article class="article_title five">                
+    
+                    <img src="img/articles/article_image_placeholder.png" class="article_image" title="This is an image" alt="This is an image">&nbsp;
+    
+                    <a href="https://www.google.co.uk" target="blank">
+                        <div class="article_blurb">
+    
+                            <h2>Title</h2>
+    
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex dicta alias modi iure laudantium quis nostrum iste, expedita asperiores rem! Molestiae debitis totam, ipsa est error quas soluta sapiente nisi.</p>
+                        </div>
+
+                    </a>
+                </article>
+                
+                <article>
+                    <div class="author_information">
+                        Author: <a href="article.html" class="author_links" alt="Author information" title="Author information">@jonniegrieve:</a>  
+                        posted: <a href="article.html" class="author_links" alt="Author information" title="Author information">date</a>
+                    </div>
+                </article>
+            </article>
+
+            <article>
+
+                <article class="article_title six">                
+    
+                    <img src="img/articles/article_image_placeholder.png" class="article_image" title="This is an image" alt="This is an image">&nbsp;
+    
+                    <a href="https://www.google.co.uk" target="blank">
+                        <div class="article_blurb">
+    
+                            <h2>Title</h2>
+    
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex dicta alias modi iure laudantium quis nostrum iste, expedita asperiores rem! Molestiae debitis totam, ipsa est error quas soluta sapiente nisi.</p>
+                        </div>
+
+                    </a>
+                </article>
+                
+                <article>
+                    <div class="author_information">
+                        Author: <a href="article.html" class="author_links" alt="Author information" title="Author information">@jonniegrieve:</a>  
+                        posted: <a href="article.html" class="author_links" alt="Author information" title="Author information">date</a>
+                    </div>
+                </article>
+            </article>
+
+            <article>
+
+                <article class="article_title seven">                
+    
+                    <img src="img/articles/article_image_placeholder.png" class="article_image" title="This is an image" alt="This is an image">&nbsp;
+    
+                    <a href="https://www.google.co.uk" target="blank">
+                        <div class="article_blurb">
+    
+                            <h2>Title</h2>
+    
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex dicta alias modi iure laudantium quis nostrum iste, expedita asperiores rem! Molestiae debitis totam, ipsa est error quas soluta sapiente nisi.</p>
+                        </div>
+
+                    </a>
+                </article>
+                
+                <article>
+                    <div class="author_information">
+                        Author: <a href="article.html" class="author_links" alt="Author information" title="Author information">@jonniegrieve:</a>  
+                        posted: <a href="article.html" class="author_links" alt="Author information" title="Author information">date</a>
+                    </div>
+                </article>
+            </article>
+
+        </section>
+```
 
 ### Day 17
 

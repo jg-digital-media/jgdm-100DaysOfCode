@@ -44,6 +44,17 @@ router.get('/', function(req, res, next) {
 router.post('/', function(req, res, next) {
     Article.create(req.body).then(function(article) {
         res.redirect("/articles/" + article.id);
+    }).catch(function(err) {
+        if(err.name === "SequelizeValidationError") {
+            //render
+            res.render("articles/new", { 
+                article: Article.build(req.body), 
+                title: "New Article",
+                errors: err.errors
+            });
+        } else {
+            throw err;
+        }   
     }).catch(function(err){
         res.send(500);
     });
@@ -109,6 +120,18 @@ router.put('/:id', function(req, res, next){
     }
     }).then(function(article){
       res.redirect("/articles/" + article.id);    
+    }).catch(function(err) {
+        if(err.name === "SequelizeValidationError") {
+            //render - find the correct article to update
+            var article = Article.build(req.build);
+            res.render("articles/edit", { 
+                article: article, 
+                title: "Edit Article",
+                errors: err.errors
+            });
+        } else {
+            throw err
+        }   
     }).catch(function(err){
         res.send(500);
     });

@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 20 of 100. **Last Update:** 27 November 2020
+## **Status:** Day 21 of 100. **Last Update:** 30 November 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R6D21: Monday 30 November 2020
+
++ **Notes**
+  + I did my weekly Photography website Update update which went online today. And did the markup for what will be the single article page for my WordPress blog. 
+
++ **Technologies used** - HTML5, SASS
 
 ### R6D20: Friday 27 November 2020
 

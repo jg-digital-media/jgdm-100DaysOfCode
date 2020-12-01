@@ -13,7 +13,7 @@
 + Sequelize - project
 
 
-### Day 21
+### Day 22
 
 
 

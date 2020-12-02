@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 22 of 100. **Last Update:** 1 December 2020
+## **Status:** Day 23 of 100. **Last Update:** 2 December 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R6D23: Wednesday 2 December 2020
+
++ **Notes**
+
+  + Design now complete for my wordPress blog. Now to start working on the theme conversion. Also initialised a new Sequelize project in the context of Express.js including the Express Application Generator CLI
+
++ **Technologies used** - HTML5, SASS
 
 ### R6D22: Tuesday 1 December 2020
 

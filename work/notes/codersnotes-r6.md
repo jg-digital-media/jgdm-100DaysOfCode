@@ -13,9 +13,68 @@
 + Sequelize - project
 
 
-### Day 22
+### Day 23
 
 
+#### Sequelize ORM with Express
+
+#### Install Sequelize CLI and Initialize a Database Project
+
++ In your Terminal (or console app), run the command:
+
++ $ npm install sequelize-cli@^5.5.1
+
++ $ npx sequelize --help
+
++ $ npx sequelize init
+
+#### npm sequelize init
+
++ Running npx sequelize init initializes all the configuration code, folders and helpers needed for the application. 
+
++ It sets up four directories: config, migrations, models, and seeders.
+
+
+#### Configuration
+
++ config.json  holds the database configurations for the three main environments you need in an application:
+
++ Development: For when you're programming your app
+
++ Testing: For running automated tests to make sure your code interacts correctly with the database
+
++ Production: For the live site using the "actual data" your application needs
+
+
+
+```json
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "database_development",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
+```
 
 ### Day 20
 

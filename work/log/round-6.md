@@ -5,6 +5,13 @@ ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R6D24: Thursday 3 December 2020
+
++ **Notes**
+
+  + Development has started on my new blog.  More CRUD operations with Sequelize in the Express.js environment
+
++ **Technologies used** - HTML5, SASS
 ### R6D23: Wednesday 2 December 2020
 
 + **Notes**

@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 23 of 100. **Last Update:** 2 December 2020
+## **Status:** Day 25 of 100. **Last Update:** 4 December 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R6D25: Friday 4 December 2020
+
++ **Notes**
+
+  + Builts the Custom Post Types that will drive the blog content on my blog page.  There's a whole lot more work to be done to get all the features working.  Looking forward very much to getting it built. 
+
++ **Technologies used** - HTML5, SASS
 
 ### R6D24: Thursday 3 December 2020
 
@@ -12,6 +20,7 @@ ___
   + Development has started on my new blog.  More CRUD operations with Sequelize in the Express.js environment
 
 + **Technologies used** - HTML5, SASS
+
 ### R6D23: Wednesday 2 December 2020
 
 + **Notes**

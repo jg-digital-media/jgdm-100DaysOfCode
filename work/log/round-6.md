@@ -1,15 +1,23 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 25 of 100. **Last Update:** 4 December 2020
+## **Status:** Day 26 of 100. **Last Update:** 6 December 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R6D26: Monday 7 December 2020
+
++ **Notes**
+
+  + Due to issues with our broadband I've been unable to get much done beyond behind the scenes changes to my Photography site just waiting to be uploaded.  Internet restoration plans are in hand!  :) 
+
++ **Technologies used** - HTML5, SASS
 
 ### R6D25: Friday 4 December 2020
 
 + **Notes**
 
-  + Builts the Custom Post Types that will drive the blog content on my blog page.  There's a whole lot more work to be done to get all the features working.  Looking forward very much to getting it built. 
+  + Built the Custom Post Types that will drive the blog content on my blog page.  There's a whole lot more work to be done to get all the features working.  Looking forward very much to getting it built. 
 
 + **Technologies used** - HTML5, SASS
 

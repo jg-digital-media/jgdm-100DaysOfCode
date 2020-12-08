@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 26 of 100. **Last Update:** 6 December 2020
+## **Status:** Day 27 of 100. **Last Update:** 8 December 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R6D27: Tuesday 8 December 2020
+
++ **Notes**
+
+  + General bug fixing of my photography website.  General internet connectivity still hampering me a bit but it's been a good time for getting this done. 
+
++ **Technologies used** - HTML5, SASS
 
 ### R6D26: Monday 7 December 2020
 

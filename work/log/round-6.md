@@ -1,9 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 27 of 100. **Last Update:** 8 December 2020
+## **Status:** Day 28 of 100. **Last Update:** 9 December 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R6D28: Wednesday 9 December 2020  
+
++ **Notes**
+
+  + Internet Restored.  I was able to do more photography website refinements and bug fixes. And over in my WordPress blog, implements some dynamic menu area - Site navigation 
+
++ **Technologies used** - HTML5, SASS, WordPress, PHP
+
 
 ### R6D27: Tuesday 8 December 2020
 

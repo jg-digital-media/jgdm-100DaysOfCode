@@ -12,7 +12,7 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
-### Day 28
+### Day 29
 
 
 

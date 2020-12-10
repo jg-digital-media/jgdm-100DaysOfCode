@@ -1,9 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 28 of 100. **Last Update:** 9 December 2020
+## **Status:** Day 29 of 100. **Last Update:** 10 December 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+
+### R6D29: Thursday 9 December 2020  
+
++ **Notes**
+
+  + Having an absolute blast today developing my WordPress blog theme. Finding problems, Solving problems and watching what I'm doing come to life.  
+
++ **Technologies used** - HTML5, SASS, WordPress, PHP
 
 
 ### R6D28: Wednesday 9 December 2020  

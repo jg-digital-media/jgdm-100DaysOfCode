@@ -1,13 +1,22 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 29 of 100. **Last Update:** 10 December 2020
+## **Status:** Day 30 of 100. **Last Update:** 11 December 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
-### R6D29: Thursday 9 December 2020  
+### R6D30: Friday 11 December 2020  
+
++ **Notes**
+
+  + So the main thrust of the blog is now working. Correctly bringing in blogs made via the Custom Post Type and linking back and forth of the home page very nicely. Got to code the rest of the theme templates next and work out some more bugs.  :)  
+
++ **Technologies used** - HTML5, SASS, WordPress, PHP
+
+
+### R6D29: Thursday 10 December 2020  
 
 + **Notes**
 

@@ -7,6 +7,15 @@ ___
 
 
 
+### R6D31: Monday 14 December 2020  
+
++ **Notes**
+
+  + Sorted out some styling issues with WordPress generated markup for theme Widgets and started coding the search template. A potentially big day in the development process. Lots of Templates still to be coded.     
+
++ **Technologies used** - HTML5, SASS, WordPress, PHP
+
+
 ### R6D30: Friday 11 December 2020  
 
 + **Notes**

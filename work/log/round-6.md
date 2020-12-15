@@ -1,11 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 30 of 100. **Last Update:** 11 December 2020
+## **Status:** Day 32 of 100. **Last Update:** 15 December 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+### R6D32: Tuesday 14 December 2020  
+
++ **Notes**
+
+  + Devoted by entire day to trying to sort out the search functionality of my blog.  It's working and it's not working.  Scope for future enhancement as the blog grows.     
+
++ **Technologies used** - HTML5, SASS, WordPress, PHP
 
 ### R6D31: Monday 14 December 2020  
 

@@ -12,7 +12,69 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
-### Day 31
+### Day 32
+
+```php
+
+//
+<?php if ( have_posts() ) : ?>
+
+                <header class="page-header">
+                    <h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'shape' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+                </header><!-- .page-header -->
+
+                <?php shape_content_nav( 'nav-above' ); ?>
+
+                <?php /* Start the Loop */ ?>
+                <?php while ( have_posts() ) : the_post(); ?>
+
+                    <?php get_template_part( 'content', 'search' ); ?>
+
+                <?php endwhile; ?>
+
+
+//
+<?php if( $search->have_posts() ) : while( $search->have_posts() ): the_post(); ?>
+
+               <h2>  
+                    <a href="<?php the_post_thumbnail(); ?>" target="blank">
+                        <?php the_title(); ?> 
+                    </a> 
+               </h2>
+
+               <p> <?php "You Returned " . $total_results . " result(s)"; ?> </p>
+
+               <p> <?php the_field("article_content"); ?> </p>
+
+               <p>  <?php the_content(); ?> </p>
+
+        <?php endwhile; else: ?>
+
+                <p>No Search results</p>
+            
+        <?php endif; ?>
+
+
+
+//
+<?php
+/**
+ * This function modifies the main WordPress query to include an array of 
+ * post types instead of the default 'post' post type.
+ *
+ * @param object $query The main WordPress query.
+ */
+
+function tg_include_custom_post_types_in_search_results( $query ) {
+    if ( $query->is_main_query() && $query->is_search() && ! is_admin() ) {
+        $query->set( 'post_type', array( 'posts', 'blog_posts', 'portfolio' ) );
+    }
+}
+
+add_action( 'pre_get_posts', 'tg_include_custom_post_types_in_search_results' );
+
+?>
+```
 
 
 

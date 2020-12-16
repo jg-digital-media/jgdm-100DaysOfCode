@@ -1,13 +1,21 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 32 of 100. **Last Update:** 15 December 2020
+## **Status:** Day 33 of 100. **Last Update:** 16 December 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+### R6D33: Wednesday 16 December 2020  
 
-### R6D32: Tuesday 14 December 2020  
++ **Notes**
+
+  + Tackled the Archive, Author and Date templates for the blog, which  involved an awful lot of trial and error and documentation checking.  But it's coming together    
+
++ **Technologies used** - HTML5, SASS, WordPress, PHP
+
+
+### R6D32: Tuesday 15 December 2020  
 
 + **Notes**
 

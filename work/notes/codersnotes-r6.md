@@ -13,8 +13,9 @@
 + Sequelize - project
 
 
-### Day 33
+### Day 34
 
+Comment and Search functionality for the blog need to be styled and implemented. 
 
 
 ### Day 32

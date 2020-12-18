@@ -1,9 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 34 of 100. **Last Update:** 17 December 2020
+## **Status:** Day 35 of 100. **Last Update:** 18 December 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R6D35: Friday 18 December 2020  
+
++ **Notes**
+
+  + The blog is almost ready, barring some things I'm holding back for future enhancements. Some are bugs I', keeping out and I have questions to answer but it's a working blog.  Will be doing code cleanup and final checks before releasing before Christmas!  :-)      
+
++ **Technologies used** - HTML5, SASS, WordPress, PHP
 
 
 ### R6D34: Thursday 17 December 2020  

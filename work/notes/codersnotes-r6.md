@@ -12,7 +12,20 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
+
+### Day 36
+
+
+
 ### Day 35
+
++ Comments Templates - https://developer.wordpress.org/reference/functions/comments_template/
+
++ Comment Templates - https://developer.wordpress.org/themes/template-files-section/partial-and-miscellaneous-template-files/comment-template/#template-header
+
++ Add comments to custom post type
+https://toolset.com/forums/topic/how-to-add-comments-to-custom-post-type/
+
 
 ### Day 34
 

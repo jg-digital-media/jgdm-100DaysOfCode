@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 36 of 100. **Last Update:** 21 December 2020
+## **Status:** Day 37 of 100. **Last Update:** 22 December 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+
+### R6D37: Tuesday 22 December 2020  
+
++ **Notes**
+
+  + Tuesday, I released my new blog.  I'm looking forward to expanding on this work in the new year but for now may I wish you all a happy Christmas. See you in 2021.  
 
 ### R6D36: Monday 21 December 2020  
 

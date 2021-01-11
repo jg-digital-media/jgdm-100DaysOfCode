@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 37 of 100. **Last Update:** 22 December 2020
+## **Status:** Day 38 of 100. **Last Update:** 11 January 2020
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+### R6D38: Monday 11th January 2020  
+
++ **Notes**
+
+  + It's been a good stay to get back to work.  Working with HTML, PHP and JavaScript.  You can read more about this on my latest blog.   
 
 ### R6D37: Tuesday 22 December 2020  
 

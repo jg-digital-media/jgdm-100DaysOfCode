@@ -13,8 +13,68 @@
 + Sequelize - project
 
 
-### Day 37
+### Day 38
 
+During the Christmas and New Year period I got myself working on expanding my photography website, ensuring there was space for photography spaces for an 18-55mm lens, a 75-300mm lens (due to arrive imminently) and another for for various "photographic adventures".
+
+
+#### Sequelize  Instance methods 
+
+```javascript
+
+// Instance Methods 
+publishedAt() {
+  const date = moment(this.createdAt).format("MMMM D, YYYY, h:mma");
+  return date;
+}
+shortDescription() {
+  const shortDesc = this.body.length > 200 ? this.body.substring(0, 200) + "..." : this.body;
+  return shortDesc;
+}
+
+```
+
++ Sequelize allows you to extend models with additional functionality 
+
++ Since Sequelize models are ES6 classes, you can easily add custom instance level methods that encapsulate the functionality
+
++ Again, these methods will be available to all model instances created or invoked in the context of each model - instance methods 
+
+#### Sequelize Update and destroy
+
+```javascript
+
+/* Update an article. */
+router.post('/:id/edit', asyncHandler(async (req, res) => {
+
+    //initialise a variable to findByPk method
+    const article = await Article.findByPk( req.params.id );
+    await article.update(req.body);
+
+    //find the article to update
+    const article = await Article.findByPk(req.params.id);
+
+
+    res.redirect("/articles/" + article.id);
+}));
+
+```
+
+```javascript
+/* Delete an article.  */
+
+
+/* Delete article form. */
+router.get("/:id/delete", asyncHandler(async (req, res) => {
+  res.render("articles/delete", { article: {}, title: "Delete Article" });
+}));
+
+/* Delete individual article. */
+router.post('/:id/delete', asyncHandler(async (req ,res) => {
+  res.redirect("/articles");
+}));
+
+```
 
 
 ### Day 35
@@ -26,11 +86,9 @@
 + Add comments to custom post type
 https://toolset.com/forums/topic/how-to-add-comments-to-custom-post-type/
 
-
 ### Day 34
 
 Comment and Search functionality for the blog need to be styled and implemented. 
-
 
 ### Day 32
 

@@ -34,30 +34,48 @@ router.post('/', asyncHandler(async (req, res) => {
 
 /* Edit article form. */
 router.get("/:id/edit", asyncHandler(async(req, res) => {
-  res.render("articles/edit", { article: {}, title: "Edit Article" });
-}));
+
+    //find the article to update
+    const article = await Article.findByPk(req.params.id);
+
+    res.render("articles/edit", { article, title: "Edit Article" });
+  }));
 
 /* GET individual article. */
 router.get("/:id", asyncHandler(async (req, res) => {
-
-  //initialise a variable to findByPk method
-  const article = await Article.findByPk( req.params.id );
   res.render("articles/show", { article, title: article.title });
 //res.render("articles/show", { article: article, title: article.title })
 }));
 
 /* Update an article. */
 router.post('/:id/edit', asyncHandler(async (req, res) => {
-  res.redirect("/articles/");
+
+    //initialise a variable to findByPk method
+    const article = await Article.findByPk( req.params.id );
+    await article.update(req.body);
+
+    //find the article to update
+    const article = await Article.findByPk(req.params.id);
+
+
+    res.redirect("/articles/" + article.id);
 }));
 
 /* Delete article form. */
 router.get("/:id/delete", asyncHandler(async (req, res) => {
+
+    //find the article to delete
+    const article = await Article.findByPk(req.params.id);
   res.render("articles/delete", { article: {}, title: "Delete Article" });
 }));
 
 /* Delete individual article. */
 router.post('/:id/delete', asyncHandler(async (req ,res) => {
+
+    //find the article to delete
+    const article = await Article.findByPk(req.params.id);
+
+    article.destroy();
   res.redirect("/articles");
 }));
 

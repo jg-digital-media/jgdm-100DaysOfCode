@@ -7,6 +7,16 @@ ___
 
 
 
+
+### R6D40: Wednesday 13th January 2021  
+
++ **Notes**
+
+  + Today's coding mostly involved Having some fun and games setting my websites back up to Google Analytics more study on Sequelize and revamping the site design of my Projects subdomain.  more on this in my blog.                                      
+
+
++ **Technologies used** - HTML5, SASS, WordPress, PHP
+
 ### R6D39: Tuesday 12th January 2021  
 
 + **Notes**

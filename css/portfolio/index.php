@@ -43,6 +43,16 @@ Last Updated:   09 October 2020  11:41am
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36732515-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-36732515-1');
+        </script>
+
     <!-- CSS-->
     <link rel="stylesheet" type="text/css" href="main.min.css" />    
 

@@ -13,7 +13,11 @@
 + Sequelize - project
 
 
-### Day 38
+### Day 39
+
+
+
+### Day 39
 
 During the Christmas and New Year period I got myself working on expanding my photography website, ensuring there was space for photography spaces for an 18-55mm lens, a 75-300mm lens (due to arrive imminently) and another for for various "photographic adventures".
 

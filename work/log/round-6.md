@@ -1,23 +1,37 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 38 of 100. **Last Update:** 11 January 2020
+## **Status:** Day 39 of 100. **Last Update:** 12 January 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
-### R6D38: Monday 11th January 2020  
+### R6D39: Tuesday 12th January 2021  
+
++ **Notes**
+
+  + More work with Sequelize.js and the first step to enhancing this blog. Including an indication of the date posted on the “Recent blogs” sidebar on the right hand side and a monthly post count located in the footer.  
+
+
++ **Technologies used** - HTML5, SASS, WordPress, PHP
+
+
+### R6D38: Monday 11th January 2021  
 
 + **Notes**
 
   + It's been a good stay to get back to work.  Working with HTML, PHP and JavaScript.  You can read more about this on my latest blog.   
+  
++ **Technologies used** - HTML5, SASS, JavaScript, PHP
 
 ### R6D37: Tuesday 22 December 2020  
 
 + **Notes**
 
   + Tuesday, I released my new blog.  I'm looking forward to expanding on this work in the new year but for now may I wish you all a happy Christmas. See you in 2021.  
+
++ **Technologies used** - HTML5, SASS, WordPress, PHP
 
 ### R6D36: Monday 21 December 2020  
 

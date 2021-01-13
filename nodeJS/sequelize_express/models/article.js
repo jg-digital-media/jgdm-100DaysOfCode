@@ -21,7 +21,15 @@ module.exports = ( sequelize ) => {
 
         Article.init({
             //define the model attributes
-            title: Sequelize.STRING,
+            title:  {
+                type: Sequelize.STRING,
+                validate: {
+                    notEmpty: {
+                      msg: '"Title" is required'
+                    }
+
+                }
+            },
             author: Sequelize.STRING,
             body: Sequelize.TEXT
 

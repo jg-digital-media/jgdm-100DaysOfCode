@@ -1,6 +1,6 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 39 of 100. **Last Update:** 12 January 2021
+## **Status:** Day 41 of 100. **Last Update:** 14 January 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
@@ -8,12 +8,20 @@ ___
 
 
 
+### R6D41: Thursday 14th January 2021  
+
++ **Notes**
+
+  + Today I mostly worked on the static markup and layout on another WordPress project that is upcoming. You can read more about this on my latest blog.   
+
++ **Technologies used** - HTML5, SASS, WordPress, PHP
+
+
 ### R6D40: Wednesday 13th January 2021  
 
 + **Notes**
 
-  + Today's coding mostly involved Having some fun and games setting my websites back up to Google Analytics more study on Sequelize and revamping the site design of my Projects subdomain.  more on this in my blog.                                      
-
+  + Today's coding mostly involved Having some fun and games setting my websites back up to Google Analytics more study on Sequelize and revamping the site design of my Projects subdomain.  more on this in my blog.                                     
 
 + **Technologies used** - HTML5, SASS, WordPress, PHP
 
@@ -21,8 +29,7 @@ ___
 
 + **Notes**
 
-  + More work with Sequelize.js and the first step to enhancing this blog. Including an indication of the date posted on the “Recent blogs” sidebar on the right hand side and a monthly post count located in the footer.  
-
+  + More work with Sequelize.js and the first step to enhancing this blog. Including an indication of the date posted on the “Recent blogs” sidebar on the right hand side and a monthly post count located in the footer. 
 
 + **Technologies used** - HTML5, SASS, WordPress, PHP
 

@@ -13,9 +13,28 @@
 + Sequelize - project
 
 
-### Day 41
+### Day 42
 
+```php
+        //page title depending on template used
 
+        <?php 
+            if( $page_title === "Home" ) {
+                echo $page_title . " | Blog for Jonnie Grieve Digital Media"; 
+            } else if ( $page_title === "blog_post" ) {
+                echo the_title() . " | Blog for Jonnie Grieve Digital Media"; 
+            } else { 
+                echo wp_title() . " | Blog for Jonnie Grieve Digital Media"; 
+            }
+        ?> 
+
+```
+
++ Sequelize 
+
+  + The project uses SQLite, a simple, easy-to-use, relational database that doesn't require you to install anything on your system to make use of it. This makes it an ideal database for learning projects. 
+  
+  + For production-ready applications, you'll want to rely upon a database server platform like PostreSQL, Oracle, SQL Server, or one of the cloud-based solutions from Amazon, Microsoft, or Google.
 
 ### Day 39
 

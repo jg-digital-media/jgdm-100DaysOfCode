@@ -1,11 +1,21 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 41 of 100. **Last Update:** 14 January 2021
+## **Status:** Day 42 of 100. **Last Update:** 15 January 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+
+### R6D42: Friday 15th January 2021  
+
++ **Notes**
+
+  + I spent most of my time going into this blog to try and implement some enhancements.  More about my day over on my blog.  
+
+
++ **Technologies used** - HTML5, SASS, WordPress, PHP
 
 
 ### R6D41: Thursday 14th January 2021  

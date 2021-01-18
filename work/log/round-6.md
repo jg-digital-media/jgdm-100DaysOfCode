@@ -1,12 +1,21 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 42 of 100. **Last Update:** 15 January 2021
+## **Status:** Day 43 of 100. **Last Update:** 18 January 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
+
+### R6D43: Monday 18th January 2021  
+
++ **Notes**
+
+  + Worked today on debugging the issue with Sequelize I mentioned in previous blogs.  It works on the laptop but NPM it seems is not up to date all on all my systems.  See more on this in my latest blog.  
+
+
++ **Technologies used** - HTML5, SASS, WordPress, PHP, JavaScript, SQL
 
 ### R6D42: Friday 15th January 2021  
 

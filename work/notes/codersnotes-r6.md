@@ -13,6 +13,16 @@
 + Sequelize - project
 
 
+### Day 43
+
+#### As of 18-01-2021  npm versions
+
+npm versions
+
+npm -v  7.0.14 (laptop)
+npm -v  6.14.11 (pc)
+
+
 ### Day 42
 
 ```php

@@ -21,6 +21,9 @@ module.exports = (sequelize) => {
 
   Person.associate = (models) => {
     // TODO Add associations.
+
+    //a person can have many movies
+    Person.hasMany(models.Movie);
   };
 
   return Person;

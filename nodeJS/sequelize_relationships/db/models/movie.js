@@ -21,6 +21,11 @@ module.exports = (sequelize) => {
 
   Movie.associate = (models) => {
     // TODO Add associations.
+
+    //Add a one-to-one association between the Movie and Person models
+    Movie.associate = (models) => {
+        Movie.belongsTo(models.Person);
+      };
   };
 
   return Movie;

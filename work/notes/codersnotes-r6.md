@@ -12,6 +12,28 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
+### Day 44
+
+Database associations with Sequelize
+
+```javascript
+
+//models/movie.js:
+
+Movie.associate = (models) => {
+  Movie.belongsTo(models.Person, { foreignKey: 'directorPersonId' });
+};
+
+//models/person.js:
+
+Person.associate = (models) => {
+  Person.hasMany(models.Movie, { foreignKey: 'directorPersonId' });
+};
+
+```
+
+
+
 
 ### Day 43
 

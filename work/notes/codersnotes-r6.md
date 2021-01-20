@@ -12,9 +12,64 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
+
+
+### Day 45
+
+#### Database associations with Sequelize
+
+```javascript
+
+//models/movie.js:
+
+Movie.associate = (models) => {
+  Movie.belongsTo(models.Person, { foreignKey: 'directorPersonId' });
+};
+
+//models/person.js:
+
+Person.associate = (models) => {
+  Person.hasMany(models.Movie, { foreignKey: 'directorPersonId' });
+};
+
+
+```
+
+### Refining Associations with object literal syntax
+
+```javascript
+
+//models/movie.js:
+Movie.associate = (models) => {
+  Movie.belongsTo(models.Person, {
+    foreignKey: {
+      fieldName: 'directorPersonId',
+      allowNull: false,
+    },
+  });
+};
+
+//models/person.js:
+Person.associate = (models) => {
+  Person.hasMany(models.Movie, {
+    foreignKey: {
+      fieldName: 'directorPersonId',
+      allowNull: false,
+    },
+  });
+};
+
+// updating both sides of the relationship with 
+// the same options to ensure that Sequelize will understand that the 
+// associations are describing the same data relationship.
+
+
+
+```
+
 ### Day 44
 
-Database associations with Sequelize
+#### Database associations with Sequelize
 
 ```javascript
 

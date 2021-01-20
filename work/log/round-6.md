@@ -1,12 +1,20 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 44 of 100. **Last Update:** 19 January 2021
+## **Status:** Day 45 of 100. **Last Update:** 20 January 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
+
+### R6D45: Wednesday 20th January 2021  
+
++ **Notes**
+
+  + This day, I mostly concentrated on the first steps of converting my WordPress starter project into a theme.  Documented in my blog. I'll also update the readme file so people in the future will know how to customise the theme.    
+
++ **Technologies used** - HTML5, SASS, WordPress, PHP, JavaScript, SQL
 
 ### R6D44: Tuesday 19th January 2021  
 

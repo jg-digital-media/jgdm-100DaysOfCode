@@ -6,7 +6,13 @@ ___
 ___
 
 
+### R6D46: Thursday 21st January 2021  
 
++ **Notes**
+
+  + I now have 2 WordPress projects on the go, for my projects and WordPress subdomains with the latter being the WordPress theme Starter repository. 
+
++ **Technologies used** - HTML5, SASS, WordPress, PHP, JavaScript, SQL
 
 ### R6D45: Wednesday 20th January 2021  
 

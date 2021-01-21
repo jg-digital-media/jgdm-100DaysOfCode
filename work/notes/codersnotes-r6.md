@@ -13,6 +13,75 @@
 + Sequelize - project
 
 
+### Day 46
+
++ I now have 2 wordpress projects on the go, for my projects and wordpress subdomains with the latter being the WordPress theme Starter repository.  
+
++ Early I wanted to try and a list of only 5 post titles and links to them without using a Widget area to do it, which was much more difficult than i was expecting it to be.
+
++ I tried to get it done with WP Query but instead opted for an alternative, per the developer site at WordPress.
+
+https://developer.wordpress.org/reference/functions/get_posts/
+
+```php 
+
+<ul>
+    <?php
+    global $post;
+ 
+    $myposts = get_posts( array(
+        'posts_per_page' => 5,
+        'offset'         => 1,
+        'category'       => 1
+    ) );
+ 
+    if ( $myposts ) {
+        foreach ( $myposts as $post ) : 
+            setup_postdata( $post ); ?>
+            <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+        <?php
+        endforeach;
+        wp_reset_postdata();
+    }
+    ?>
+</ul>
+
+```
+
+
+
+               
+   ```php
+        <ul>               
+            <?php 
+            
+                // //recent posts
+                $args = ( array( 'post_type'=>'post', 'post_per_page' => '5', 'max_num_pages' => '5', 'numberposts' => 5 ) ); 
+                $recent_posts = get_posts( $args );
+            ?>
+
+            <?php if ( have_posts() ) : while ($recent_posts->have_posts() ) : $recent_posts->the_post(); ?>
+
+
+                <li> <a href="<?php $recent_posts->the_permalink(); ?>" class="post_list_item"> <?php $recent_posts-the_title(); ?></a> </li>
+            
+            <?php endwhile; else: ?>
+
+            <?php endif; ?>
+
+        </ul>
+```
+
+Eventually customised as soluton that used get_posts rather than wp_query
+
+
+
+
+<p>Written by: 
+<?php the_author_posts_link(); ?></p>
+
+Learned to get archive links hooked up in wordress, again, without using a behind the scemes widget so that is included in the blog.
+
 
 ### Day 45
 

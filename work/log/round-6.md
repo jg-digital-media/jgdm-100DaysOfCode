@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 45 of 100. **Last Update:** 20 January 2021
+## **Status:** Day 47 of 100. **Last Update:** 22 January 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R6D47: Friday 22nd January 2021  
 
++ **Notes**
+
+  + I continue to make steady progress making this little theme. Templates built and set up for Search, Archive, Author and Single Article pages.
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP, JavaScript, SQL
+  
 ### R6D46: Thursday 21st January 2021  
 
 + **Notes**

@@ -13,6 +13,18 @@
 + Sequelize - project
 
 
+### Day 47
+
+#### WordPress conditional featured image display
+
+```php
+
+
+  .... 
+
+
+```
+
 ### Day 46
 
 + I now have 2 wordpress projects on the go, for my projects and wordpress subdomains with the latter being the WordPress theme Starter repository.  

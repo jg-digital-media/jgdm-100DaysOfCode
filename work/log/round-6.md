@@ -1,9 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 48 of 100. **Last Update:** 25 January 2021
+## **Status:** Day 49 of 100. **Last Update:** 26 January 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R6D49: Tuesday 26 January 2021  
+
++ **Notes**
+
+  + In this post, I introduce a new cloneable project I've been working on. A WordPress starter theme to help you get going on your Project. I'll be adding new things to it incrementally. Simply add as a theme to a fresh WordPress installation.
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP, JavaScript, SQL
+
 
 ### R6D48: Monday 25 January 2021  
 

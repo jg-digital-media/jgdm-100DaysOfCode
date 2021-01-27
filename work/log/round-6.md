@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 49 of 100. **Last Update:** 26 January 2021
+## **Status:** Day 50 of 100. **Last Update:** 27 January 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R6D50: Wednesday 26 January 2021  
+
++ **Notes**
+
+  + Today I talk about the work I've done on enhancing this blog. Including troubleshooting blog archives for the custom post type that drives these blog posts, not the default "post" type that comes with WordPress.
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP, JavaScript, SQL
 
 ### R6D49: Tuesday 26 January 2021  
 

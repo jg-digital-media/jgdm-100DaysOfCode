@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 50 of 100. **Last Update:** 27 January 2021
+## **Status:** Day 51 of 100. **Last Update:** 28 January 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R6D51: Thursday 28 January 2021  
 
-### R6D50: Wednesday 26 January 2021  
++ **Notes**
+
+  + Working with WordPress and HTML. I ran into a lot of problems with WordPress comments and pagination. Although it wasn't a complete loss as I did some more work with my Project website redesign.
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP
+
+### R6D50: Wednesday 27 January 2021  
 
 + **Notes**
 

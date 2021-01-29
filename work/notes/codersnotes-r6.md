@@ -15,6 +15,20 @@
 
 ### Day 52
 
+```javascript
+
+    //toggle display property by click of a checkbox
+        if ( client_chkbox.checked === true)  {
+            get_project_one.style.display = "block";
+
+        } else {
+            client_chkbox.checked = false;
+            get_project_one.style.display = "none";
+
+        }
+
+//linked to label tag but inlick attribyute assigned to checkbox elements 
+```
 
 
 ### Day 51
@@ -27,6 +41,7 @@
 
 ```php
 
+///code 
 
 
 

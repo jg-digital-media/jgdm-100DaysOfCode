@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 51 of 100. **Last Update:** 28 January 2021
+## **Status:** Day 52 of 100. **Last Update:** 29 January 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R6D51: Friday 28 January 2021  
+
++ **Notes**
+
+  + I describe how I added some DOM scripting for filtering of content which means I'm ready to begin WordPress development for my projects web app. This would mean I'll soon have up to date content for my website, my blog, and a site for my portfolio.
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP
 
 ### R6D51: Thursday 28 January 2021  
 

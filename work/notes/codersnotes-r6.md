@@ -13,6 +13,10 @@
 + Sequelize - project
 
 
+### Day 54
+
+
+
 ### Day 52
 
 ```javascript

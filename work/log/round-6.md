@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 53 of 100. **Last Update:** 01 February 2021
+## **Status:** Day 54 of 100. **Last Update:** 02 February 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R6D54: Tuesday 2 February 2021  
+
++ **Notes**
+
+  + My portfolio site has taken a big step forward towards going live. I have now finished building the 3 custom post types and populated them with 3 portfolios each and made an action plan to completion.
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP
 
 ### R6D53: Monday 1 February 2021  
 

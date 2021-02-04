@@ -298,7 +298,7 @@ Last Updated:   09 October 2020  11:41am
 
             <div class="elsewhere" tabindex="0" role="elsewhere-div">
                 <a href="https://portfolio.jonniegrieve.co.uk" target="blank" role="Elsewhere" title="JGDM Portfolio">
-                    <img src="img/services/sub-projects.jpg" alt="JGDM Portfolio" title="JGDM Portfolio" />&nbsp;
+                    <img src="img/services/sub-portfolio.jpg" alt="JGDM Portfolio" title="JGDM Portfolio" />&nbsp;
                 </a>
                 <p>portfolio.jonniegrieve.co.uk</p>       
             </div>

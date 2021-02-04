@@ -254,10 +254,10 @@
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
-            "project_name": "Projects Subdomain",
-            "project_url": "https://projects.jonniegrieve.co.uk",
-            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/sub_projects.png",
-            "feat_img_url": "img/featured/sub-projects.jpg",
+            "project_name": "Portfolio Subdomain",
+            "project_url": "https://portfolio.jonniegrieve.co.uk",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/sub_portfolio.png",
+            "feat_img_url": "img/featured/sub-portfollio.jpg",
             "project_alt": "Go to Projects Subdomain",
             "project_type": "Website",
             "project_status": "under_review",

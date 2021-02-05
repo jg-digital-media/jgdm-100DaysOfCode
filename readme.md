@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 6: Day 56 of 100. **Last Update:** 04 February 2020 
++ **Status:** Round 6: Day 57 of 100. **Last Update:** 05 February 2020 
 
 ## Directories
   + api
@@ -19,17 +19,20 @@
       + vue-status-project    
   + css 
     + balloon
-    + form+accessible
+    + form_accessible
     + layout-hack
     + modernizr
     + portfolio
     + portfolio-gallery
     + project_sub
+    + project_status
+    + project_status_image
+    + project_sub
     + pwa
     + pwa_2
     + sass_project
     + semantic-html
-    + services
+    + wordpress_themes
   + java
     + Generics
     + Interfaces

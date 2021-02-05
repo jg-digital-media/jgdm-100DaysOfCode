@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 56 of 100. **Last Update:** 03 February 2021
+## **Status:** Day 57 of 100. **Last Update:** 05 February 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R6D57 Friday 5 February 2021  
+
++ **Notes**
+  + Per my previous blog, today I unveiled the latest (and hopefully longest-lasting iteration of my portfolio. You can read more about it in the blog.  This project was created using HTML, CSS, PHP, and JavaScript. 
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP
 
 
 ### R6D56 Thursday 4 February 2021  

@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 57 of 100. **Last Update:** 05 February 2021
+## **Status:** Day 58 of 100. **Last Update:** 08 February 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R6D58 Friday 8 February 2021  
+
++ **Notes**
+  + It's Day 58 and today I got to work on 2 more new projects. Building a Photo Viewer single-page app and building yet another new WordPress theme for my portfolio. Featuring JavaScript and WordPress technologies. 
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP
 
 ### R6D57 Friday 5 February 2021  
 

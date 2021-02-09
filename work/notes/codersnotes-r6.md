@@ -12,6 +12,9 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
+### Day 59
+
+
 ### Day 58
 
 https://landing.jonniegrieve.co.uk/jgdm_wordpress 

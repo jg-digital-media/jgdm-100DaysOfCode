@@ -5,6 +5,13 @@ ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R6D60 Wednesday 10 February 2021  
+
++ **Notes**
+  + Today was mostly about following on from yesterday's work.  I've integrated a new theme on my localhost and sorted out the layout for the Photo Viewer App I'm building.
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP
+
 ### R6D59 Tuesday 9 February 2021  
 
 + **Notes**

@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 59 of 100. **Last Update:** 09 February 2021
+## **Status:** Day 61 of 100. **Last Update:** 11 February 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R6D61 Thursday 11 February 2021  
+
++ **Notes**
+  + I'm releasing my latest project today although it is on its own, by no means complete. The project is a simple WordPress theme that is designed to be a place to experiment and build in the latest features of WordPress.
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP
 
 ### R6D60 Wednesday 10 February 2021  
 

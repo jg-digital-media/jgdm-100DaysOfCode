@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 61 of 100. **Last Update:** 11 February 2021
+## **Status:** Day 62 of 100. **Last Update:** 12 February 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R6D62 Friday 12 February 2021  
+
++ **Notes**
+  + Devoted today to organising my Photography Website ready for a long overdue expansion using HTML5 and SASS..  I'll be ready to put that live on Monday.  
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP
 
 ### R6D61 Thursday 11 February 2021  
 

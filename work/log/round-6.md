@@ -1,16 +1,24 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 64 of 100. **Last Update:** 16 February 2021
+## **Status:** Day 65 of 100. **Last Update:** 17 February 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R6D65 Wednesday 17 February 2021
+
++ **Notes**
+  + Rebuilt the SASS Partial structure (still don't know what happened to those files), and tested the search.php template and functionality. Still need to work on archives and pagination next.
+
+  + **Technologies used** - HTML5, SASS, JavaScript, WordPress, PHP
 
 ### R6D64 Tuesday 16 February 2021
 
 + **Notes**
   + Today has been a bit of a broken day as I needed to deal with a consumer issue. I did a little bit of work on the photo viewer app I've been working on. And some thoughts of mine on my GitHub cloneable WordPress Theme project.
 
-  + **Technologies used** - HTML5, SASS, JavaScript WordPress, PHP
+  + **Technologies used** - HTML5, SASS, JavaScript, WordPress, PHP
 
 ### R6D63 Monday 15 February 2021
 

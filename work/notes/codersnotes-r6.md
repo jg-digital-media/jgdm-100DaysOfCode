@@ -12,7 +12,65 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
-### Day 63
+### Day 64
+
+```javascript
+ const peopleInstances = await Promise.all([
+
+      //Person Instances
+      Person.create({
+        firstName: 'Brad',
+        lastName: 'Bird',
+      }),
+
+      Person.create({
+        firstName: 'Vin',
+        lastName: 'Diesel',
+      }),
+
+      Person.create({
+        firstName: 'Eli',
+        lastName: 'Marienthal',
+      }),
+
+      Person.create({
+        firstName: 'Craig T.',
+        lastName: 'Nelson',
+      }),
+
+      Person.create({
+        firstName: 'Holly',
+        lastName: 'Hunter',
+      }),
+    ]);
+
+    //Stringify data as JSON
+    console.log(JSON.stringify(peopleInstances, null, 2));
+    
+    // Update the global variables for the people instances
+    [bradBird, vinDiesel, eliMarienthal, craigTNelson, hollyHunter] = peopleInstances;
+```
+
+```javascript
+
+
+// Sequelize gives a way to retrieve related data via a single query method call.
+// pass an options object literal to configure the query.
+
+// Retrieve movies
+const movies = await Movie.findAll({
+  include: [
+    {
+      model: Person,
+    },
+  ],
+});
+
+console.log(movies.map(movie => movie.get({ plain: true })));
+
+//This generates a new SQL Statement that joins related data
+```
+
 
 
 ### Day 58

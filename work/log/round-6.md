@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 65 of 100. **Last Update:** 17 February 2021
+## **Status:** Day 66 of 100. **Last Update:** 18 February 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R6D66 Thursday 18 February 2021
+
++ **Notes**
+  + I've now completed the functionality for adding Author Archives, Date archives and search terms. But problems remain to get Pagination of lists of posts to work.
+
+  + **Technologies used** - HTML5, SASS, JavaScript, WordPress, PHP
 
 ### R6D65 Wednesday 17 February 2021
 

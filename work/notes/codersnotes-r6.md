@@ -12,64 +12,71 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
-### Day 64
+### Day 66
 
-```javascript
- const peopleInstances = await Promise.all([
+Trying to work out post pagination. 
 
-      //Person Instances
-      Person.create({
-        firstName: 'Brad',
-        lastName: 'Bird',
-      }),
++ the_posts_pagination
++ posts_nav_link();
++ paginate_links();
 
-      Person.create({
-        firstName: 'Vin',
-        lastName: 'Diesel',
-      }),
 
-      Person.create({
-        firstName: 'Eli',
-        lastName: 'Marienthal',
-      }),
+get_site_url helps with intra site navigation between pages but links that are not part of the main naviation area.
 
-      Person.create({
-        firstName: 'Craig T.',
-        lastName: 'Nelson',
-      }),
+Basic stuff.  Simply add pages to be used as Author and Archive pages.  Don't add Wordpress methods to the href tag.  That is not what they were designed for. 
 
-      Person.create({
-        firstName: 'Holly',
-        lastName: 'Hunter',
-      }),
-    ]);
 
-    //Stringify data as JSON
-    console.log(JSON.stringify(peopleInstances, null, 2));
-    
-    // Update the global variables for the people instances
-    [bradBird, vinDiesel, eliMarienthal, craigTNelson, hollyHunter] = peopleInstances;
+
+1 Dynamic Sidebar area.  
+
+
+I managed to code the author templates so that the template eill list specific posts to a the user... as 
+
+So as long as there are users registered to Wordpress specific to that isntallation you will see a list of all the registered users, be ablw to click on a user and view all the posts that user has posted.
+
+decided to keep the file template labellling included.
+
+
+
+       
+  ```php
+        <?php if ($wp_query->max_num_pages > 1) : ?>
+
+            <nav class="post-nav">
+                <ul class="pager">
+                    <li class="previous"><?php next_posts_link(__('&larr; Older posts', 'jgdm_wordpress_starter')); ?></li>
+                    <li class="next"><?php previous_posts_link(__('Newer posts &rarr;', 'jgdm_wordpress_starter')); ?></li>
+                </ul>
+            </nav>
+    ?>
+
 ```
 
-```javascript
++ Adapted from https://discourse.roots.io/t/navigating-between-pages-of-posts/554/11
 
 
-// Sequelize gives a way to retrieve related data via a single query method call.
-// pass an options object literal to configure the query.
 
-// Retrieve movies
-const movies = await Movie.findAll({
-  include: [
-    {
-      model: Person,
-    },
-  ],
-});
 
-console.log(movies.map(movie => movie.get({ plain: true })));
+```php
 
-//This generates a new SQL Statement that joins related data
+    <?php next_posts_link(); ?> </p>
+        <p> <?php echo get_next_posts_link(); ?> </p>
+
+            <p> <?php next_posts_link('Older'); ?> </p>
+            <p> <?php previous_posts_link('Newer'); ?> </p>
+
+            
+        <?php if ($wp_query->max_num_pages > 1) : ?>
+
+            <nav class="post-nav">
+                <ul class="pager">
+                    <li class="previous"><?php next_posts_link(__('&larr; Older posts', 'jgdm_wordpress_starter')); ?></li>
+                    <li class="next"><?php previous_posts_link(__('Newer posts &rarr;', 'jgdm_wordpress_starter')); ?></li>
+                </ul>
+            </nav> 
+
 ```
+
 
 
 

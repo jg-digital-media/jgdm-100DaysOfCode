@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 66 of 100. **Last Update:** 18 February 2021
+## **Status:** Day 67 of 100. **Last Update:** 19 February 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R6D67 Friday 19 February 2021
+
++ **Notes**
+  + This has been a satisfying end to my working week. This blog discusses how I got around my problems with pagination in WordPress and what I learned from it.
+
+  + **Technologies used** - HTML5, SASS, JavaScript, WordPress, PHP
 
 ### R6D66 Thursday 18 February 2021
 

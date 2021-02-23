@@ -13,9 +13,96 @@
 + Sequelize - project
 
 
+### Day 69
+
+#### Search Result code as of 23-02-2021
+
+```php
+ <?php 
+
+            //capture the search term entered by the user
+            $s = get_search_query();
+
+            $search = new WP_Query( 
+                        
+                array(
+                    'post_type' => 'blog_posts', //
+                    'search' => $s,
+                    //'posts_per_page' => 1, // This is the amount of posts per page you want to show
+
+                )
+            ); 
+
+            global $search;            
+            echo $search->post_count;           
+
+        ?>
+
+        <?php echo "You searched <strong>" . the_search_query() . "</strong>";  ?>
+
+        <?php if ( $search->have_posts() ) : ?>
+
+            <?php if($search === 1) : ?>
+        
+            <p>You searched for <strong>"<?php echo get_search_query();  ?>"</strong> which returned <strong><?php echo $total_results ?></strong> result. </p>
+
+            <?php elseif ($search > 1) :  ?>
+        
+            <p>You searched for <strong>"<?php echo get_search_query();  ?>"</strong> which returned <strong><?php echo $total_results ?></strong> result(s). </p>
+
+            <?php elseif ($search === 0) : ?>
+        
+            <p>You searched for <strong>"<?php echo get_search_query();  ?>"</strong> which returned NO result(s). </p>
+
+        <?php endif; ?>
+
+        <?php while ( $search->have_posts() ) : $search->the_post(); ?>
+
+            <h3> <a href="<?php the_permalink(); ?>"><?php echo the_field("article_title"); ?></a> </h3>
+
+            <p> <?php echo the_field("article_blurb");  ?> </p>
+
+            <?php endwhile; ?>
+
+        <?php endif; ?>
+
+```
 
 
-### Day 68
+#### Pagination
+
++ Paginate Links method() - Outputs Newer Posts or Previes Posts
+
+```php
+<?php 
+                            echo paginate_links( array(
+                                'base'         => str_replace( 999999999, '%#%', esc_url( get_pagenum_link( 999999999 ) ) ),
+                                'total'        => $query->max_num_pages,
+                                'current'      => max( 1, get_query_var( 'paged' ) ),
+                                'format'       => '?paged=%#%',
+                                'show_all'     => false,
+                                'type'         => 'plain',
+                                'end_size'     => 2,
+                                'mid_size'     => 1,
+                                'prev_next'    => true,
+                                'prev_text'    => sprintf( '<i></i> %1$s', __( 'Newer Posts', 'jgdm_blog' ) ),
+                                'next_text'    => sprintf( '%1$s <i></i>', __( 'Older Posts', 'jgdm_blog' ) ),
+                                'add_args'     => false,
+                                'add_fragment' => '',
+                            ) );
+                        ?>
+```
+                
+
+
++ Displays Numbered pagination - Outputs numbered pagination
+
+```php 
+
+    <?php the_posts_pagination(); ?>
+    
+```
+
 
 
 ### Day 67

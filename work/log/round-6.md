@@ -1,20 +1,23 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 68 of 100. **Last Update:** 22 February 2021
+## **Status:** Day 69 of 100. **Last Update:** 23 February 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R6D69: Tuesday 23 February
 
++ **Notes**
+  + Got the pagination working in this blog at last. Will need looking at I think to test how rigid it is but each posting in this blog is now available to click through which is a result. Will work to fix and enhance search functionality next.   
 
-### R6D67 Friday 19 February 2021
+  + **Technologies used** - HTML5, SASS, JavaScript, WordPress, PHP
+
+### R6D68: Monday 22 February
 
 + **Notes**
   + Well....  I've been trying to implement the pagination to this blog. And I thought I'd be able to get this done given what happened on Day 68 of this round. But of course there have been issues. Also details of my latest Photograph website content.
 
-
-+ **Technologies used** - HTML5, SASS, JavaScript, WordPress, PHP
-
+  + **Technologies used** - HTML5, SASS, JavaScript, WordPress, PHP
 
 ### R6D67 Friday 19 February 2021
 

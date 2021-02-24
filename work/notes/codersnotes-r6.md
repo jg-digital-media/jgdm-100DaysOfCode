@@ -13,6 +13,10 @@
 + Sequelize - project
 
 
+### Day 70
+
+
+
 ### Day 69
 
 #### Search Result code as of 23-02-2021

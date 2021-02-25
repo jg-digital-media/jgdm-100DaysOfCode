@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 70 of 100. **Last Update:** 24 February 2021
+## **Status:** Day 71 of 100. **Last Update:** 25 February 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R6D71: Thursday 25 February
+
++ **Notes**
+  +  A brief blog on the progress I made writing search functionality into this very blog having finally gotten round to it. I talk about working with my other WordPress sites as well.
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP
 
 
 ### R6D70: Wednesday 24 February
@@ -11,7 +19,7 @@ ___
 + **Notes**
   + I said yesterday I was going to focus on building the search functionality of this blog.  Instead, I found myself focusing on implementing the category templates. 
 
-  + **Technologies used** - HTML5, SASS, JavaScript, WordPress, PHP
+  + **Technologies used** - HTML5, SASS, WordPress, PHP
 
 
 ### R6D69: Tuesday 23 February

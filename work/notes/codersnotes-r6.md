@@ -13,7 +13,7 @@
 + Sequelize - project
 
 
-### Day 70
+### Day 71
 
 
 

@@ -13,8 +13,98 @@
 + Sequelize - project
 
 
-### Day 71
+### Day 72
 
+```php
+
+<?php       
+
+            $search = get_search_query(); 
+        
+            /*The Search WP Query*/ 
+            $blog_posts = new WP_Query(
+
+            array(
+                'post_type' => 'blog_posts', //
+                'posts_per_page' => '100',
+                's' => $search
+                )
+            );            
+
+        ?>          
+
+        <div class="search_term">
+        
+           <p> You searched:  "<span><?php the_search_query(); ?></span>" </p>
+           
+        </div>
+        
+        <?php 
+        
+            /* Getting search count */ 
+            if( $blog_posts->found_posts === 1 ) {
+
+                echo "<p> Your search returned (" . $blog_posts->found_posts . ") result. </p>"; 
+
+            } else if ( $blog_posts->found_posts > 1) {
+
+                echo "<p> Your search returned (" . $blog_posts->found_posts . ") Results. </p>";
+            } else if ( $blog_posts->found_posts === 0) {
+
+
+                echo "No (0) Results";
+
+            } else {
+
+                echo "<p> Your search returned no results </p>";               
+
+            }
+       
+        ?>
+ 
+```
+
+```php
+
+<?php if ( have_posts() ) : ?>
+
+                <header class="page-header">
+                    <h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'shape' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
+                </header><!-- .page-header -->
+
+                <?php shape_content_nav( 'nav-above' ); ?>
+
+                <?php /* Start the Loop */ ?>
+                <?php while ( have_posts() ) : the_post(); ?>
+
+                    <?php get_template_part( 'content', 'search' ); ?>
+
+                <?php endwhile; ?>
+
+
+
+<?php if( $search->have_posts() ) : while( $search->have_posts() ): the_post(); ?>
+
+               <h2>  
+                    <a href="<?php the_post_thumbnail(); ?>" target="blank">
+                        <?php the_title(); ?> 
+                    </a> 
+               </h2>
+
+               <p> <?php "You Returned " . $total_results . " result(s)"; ?> </p>
+
+               <p> <?php the_field("article_content"); ?> </p>
+
+               <p>  <?php the_content(); ?> </p>
+
+        <?php endwhile; else: ?>
+
+                <p>No Search results</p>
+            
+        <?php endif; ?>
+
+
+```
 
 
 ### Day 69

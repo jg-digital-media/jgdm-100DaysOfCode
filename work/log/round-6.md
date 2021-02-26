@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 71 of 100. **Last Update:** 25 February 2021
+## **Status:** Day 72 of 100. **Last Update:** 26 February 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R6D72: Friday 26 February
+
++ **Notes**
+  +  Search functionality is functioning here on my blog. There's always improvements to be made but here's a detailed look at what I've achieved and what more is to be done. Happy Friday, everyone! :)
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP
 
 
 ### R6D71: Thursday 25 February

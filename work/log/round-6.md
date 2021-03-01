@@ -1,12 +1,21 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 72 of 100. **Last Update:** 26 February 2021
+## **Status:** Day 73 of 100. **Last Update:** 1 March 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-### R6D72: Friday 26 February
+
+### R6D73: Monday 1 March 2021
+
++ **Notes**
+  +  My 2 main jobs today were updating my Photography site, and implementing some behind-the-scenes changes to the SASS code for the blog.
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP
+
+
+### R6D72: Friday 26 February 2021
 
 + **Notes**
   +  Search functionality is functioning here on my blog. There's always improvements to be made but here's a detailed look at what I've achieved and what more is to be done. Happy Friday, everyone! :)
@@ -14,7 +23,7 @@ ___
   + **Technologies used** - HTML5, SASS, WordPress, PHP
 
 
-### R6D71: Thursday 25 February
+### R6D71: Thursday 25 February 2021
 
 + **Notes**
   +  A brief blog on the progress I made writing search functionality into this very blog having finally gotten round to it. I talk about working with my other WordPress sites as well.
@@ -22,7 +31,7 @@ ___
   + **Technologies used** - HTML5, SASS, WordPress, PHP
 
 
-### R6D70: Wednesday 24 February
+### R6D70: Wednesday 24 February 2021
 
 + **Notes**
   + I said yesterday I was going to focus on building the search functionality of this blog.  Instead, I found myself focusing on implementing the category templates. 
@@ -30,14 +39,14 @@ ___
   + **Technologies used** - HTML5, SASS, WordPress, PHP
 
 
-### R6D69: Tuesday 23 February
+### R6D69: Tuesday 23 February 2021
 
 + **Notes**
   + Got the pagination working in this blog at last. Will need looking at I think to test how rigid it is but each posting in this blog is now available to click through which is a result. Will work to fix and enhance search functionality next.   
 
   + **Technologies used** - HTML5, SASS, JavaScript, WordPress, PHP
 
-### R6D68: Monday 22 February
+### R6D68: Monday 22 February 2021
 
 + **Notes**
   + Well....  I've been trying to implement the pagination to this blog. And I thought I'd be able to get this done given what happened on Day 68 of this round. But of course there have been issues. Also details of my latest Photograph website content.

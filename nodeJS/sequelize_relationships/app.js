@@ -93,10 +93,14 @@ console.log('Testing the connection to the database...');
     console.log(JSON.stringify(movieInstances, null, 2));
 
     // Retrieve movies
+
+    /*When calling the Movie findAll() method, we can pass an options object literal to configure the query. One of the available options—specified using the include property—allows us to indicate that we want any related Person model data.
+    */
     const movies = await Movie.findAll({
       include: [
         {
           model: Person,
+          as: "Director"
         },
       ],
 

@@ -111,7 +111,18 @@ console.log('Testing the connection to the database...');
     console.log(movies.map(movie => movie.get({ plain: true })));
 
     // Retrieve people
-    const people = await Person.findAll();
+    
+    /* Add an options object literal to findAll() */ 
+    const people = await Person.findAll({
+      include: [
+        {
+          model: Movie,
+          as: 'Director',
+        },
+      ],
+
+    });
+
     console.log(people.map(person => person.get({ plain: true })));
 
     process.exit();

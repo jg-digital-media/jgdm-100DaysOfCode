@@ -16,7 +16,7 @@
     "jade": "~1.11.0",
     "method-override": "^2.3.5",
     "morgan": "^1.10.0",
-    "pug": "^3.0.0",
+    "pug": "^3.0.1",
     "sequelize": "^6.3.5",
     "sequelize-cli": "^6.2.0",
     "serve-favicon": "^2.5.0",

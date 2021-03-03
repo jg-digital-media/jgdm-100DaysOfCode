@@ -6,6 +6,14 @@ ___
 ___
 
 
+### R7D74: Tuesday 2 March 2021
+
++ **Notes**
+  +  I decided on a change of Topic today. I finished my work into the basics of Sequelize.js and Database relationships. I also talk about issues I've had trying to apply syntax highlighting for code snippets in this blog.
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP
+
+
 
 ### R6D73: Monday 1 March 2021
 

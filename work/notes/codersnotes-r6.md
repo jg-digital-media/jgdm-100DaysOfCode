@@ -12,8 +12,31 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
-### Day 74
+### Day 75
+https://www.youtube.com/watch?v=XiDPB5Te7yY
 
+```javaacript
+
+let imageList = [
+[
+    ["img/IMG_0010.JPG"], ["ISO 300"], ["1/200"],
+
+[
+    ["img/IMG_0048.jpg"], ["ISO 400"], ["1/200"]
+], [
+    ["img/IMG_0329.JPG"], ["ISO 700"], ["1/222"]]
+]
+];
+
+
+
+ $data = $('.data');
+
+
+
+$data.append("markup ")
+
+```
 
 
 ### Day 72

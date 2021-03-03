@@ -6,6 +6,14 @@ ___
 ___
 
 
+### R7D74: Wednesday 3 March 2021
+
++ **Notes**
+  +  
+Well, I'm writing this latest blog satisfied with what I have managed to get done so far in terms of my photo viewer app. And I discuss plans I've made for my work over at projects.jonniegrieve.co.uk
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP
+
 ### R7D74: Tuesday 2 March 2021
 
 + **Notes**

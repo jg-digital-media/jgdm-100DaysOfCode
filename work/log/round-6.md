@@ -1,16 +1,23 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 73 of 100. **Last Update:** 1 March 2021
+## **Status:** Day 76 of 100. **Last Update:** 4 March 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-### R7D74: Wednesday 3 March 2021
+### R7D76: Thursday 4 March 2021
 
 + **Notes**
-  +  
-Well, I'm writing this latest blog satisfied with what I have managed to get done so far in terms of my photo viewer app. And I discuss plans I've made for my work over at projects.jonniegrieve.co.uk
+  +  Frustrating. I'm having issues following along and building on what I did yesterday. It seems to be a problem with events. Was the use of event here recently deprecated? I'm looking for answers. 
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP
+
+
+### R7D75: Wednesday 3 March 2021
+
++ **Notes**
+  +  Well, I'm writing this latest blog satisfied with what I have managed to get done so far in terms of my photo viewer app. And I discuss plans I've made for my work over at projects.jonniegrieve.co.uk
 
   + **Technologies used** - HTML5, SASS, WordPress, PHP
 

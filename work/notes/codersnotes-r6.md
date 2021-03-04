@@ -12,6 +12,96 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
+
+### Day 76
+
+https://landing.jonniegrieve.co.uk/photo_viewer_2/
+
+https://youtu.be/XiDPB5Te7yY
+
+```javascript
+console.log("js connected");
+
+jQuery(function(){
+
+    let imageList = [
+        [
+            //photo 1
+            ["img/IMG_0010.JPG"], ["ISO 300"], ["1/200"], ["f/4.5"], ["35mm"], ["alt text 1"], ["description text 1"]
+        ],
+        [
+            ["img/IMG_0048.jpg"], ["ISO 400"],  ["1/250"], ["f/5.5"], ["55mm"], ["alt text 2"], ["description text 2"]
+        ],
+        [
+            ["img/IMG_0329.JPG"], ["ISO 700"],  ["1/2000"], ["f/6.5"], ["300mm"], ["alt text 3"], ["description text 3"]
+        ]
+
+    ];
+
+    $storage = $('.storage');
+    $viewer = $('.viewer');
+    $data = $('.data');
+    $index = 0;
+
+    for(let i=0; i < imageList.length; i++) {
+        $storage.append("<div class=" + "image_item image" + i +"> <img src= " + "http://projects.jonniegrieve.co.uk/photo_viewer/assets/" + imageList[i][0] + " /> </div>");
+
+        //image slide list
+        $viewer.append(`<img class="main_viewer" src="http://projects.jonniegrieve.co.uk/photo_viewer/assets/${ imageList[i][0] }" />`)
+
+    }
+
+
+
+    $main_view = $(".main_viewer");
+    $store_image = $(".storage img");
+
+    $(document).on("keydown", () =>{
+        $main_view.css("display", "none");
+
+        show();
+    });
+
+    function show($index, event){
+
+        //console.log(event.keyCode);
+        if( event.keyCode == 39 ) {
+            $index++;
+        }
+
+        if( event.keyCode == 37 ) {
+            $index--;
+        }
+
+        return $index;
+    }
+
+    //Append Image Data Table 
+    $data.append(`
+
+        <h2>Image Data</h2>
+            <table>
+                <tr>
+                    <td>ISO: </td> <td> ${imageList[0][0]} </td>
+                    <td>Shutter Speed: </td> <td> ${imageList[0][1]} </td>
+                    <td>Aperture: </td> <td> ${imageList[0][2]} </td>
+                    <td>Focal Length: </td> <td> ${imageList[0][3]} </td>
+                    <td>Alt Text: </td> <td> ${imageList[0][4]} </td>
+                    <td>Description: </td> <td> ${imageList[0][5]} </td>
+                </tr>
+            </table>
+
+            <p><strong>ISO:</strong> ${imageList[0][1]} </p>
+            <p><strong>Shutter Speed: </strong> ${imageList[0][2]} </p>
+        `
+);
+
+
+
+});
+```
+
+
 ### Day 75
 https://www.youtube.com/watch?v=XiDPB5Te7yY
 

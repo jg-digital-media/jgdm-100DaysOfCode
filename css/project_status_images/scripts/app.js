@@ -12,7 +12,7 @@
 //project count - store count element 
 const project_count = document.getElementById("count");
  
-jQuery.getJSON('data/project-list.json', function(photoData) { 
+jQuery.getJSON('../../../data/project-list.json', function(photoData) { 
     
     let itemAll = photoData.projects.length;
     console.log(photoData.projects.length);

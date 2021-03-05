@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 76 of 100. **Last Update:** 4 March 2021
+## **Status:** Day 77 of 100. **Last Update:** 5 March 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R7D77: Friday 5 March 2021
+
++ **Notes**
+  +  A short summary of the work I've been doing today across many of my platforms and subdomains.  It's been nice to get multiple things done rather than get too bogged down on one fixing one bug.
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP
 
 ### R7D76: Thursday 4 March 2021
 
@@ -12,7 +19,6 @@ ___
   +  Frustrating. I'm having issues following along and building on what I did yesterday. It seems to be a problem with events. Was the use of event here recently deprecated? I'm looking for answers. 
 
   + **Technologies used** - HTML5, SASS, WordPress, PHP
-
 
 ### R7D75: Wednesday 3 March 2021
 
@@ -28,15 +34,12 @@ ___
 
   + **Technologies used** - HTML5, SASS, WordPress, PHP
 
-
-
 ### R6D73: Monday 1 March 2021
 
 + **Notes**
   +  My 2 main jobs today were updating my Photography site, and implementing some behind-the-scenes changes to the SASS code for the blog.
 
   + **Technologies used** - HTML5, SASS, WordPress, PHP
-
 
 ### R6D72: Friday 26 February 2021
 
@@ -45,7 +48,6 @@ ___
 
   + **Technologies used** - HTML5, SASS, WordPress, PHP
 
-
 ### R6D71: Thursday 25 February 2021
 
 + **Notes**
@@ -53,14 +55,12 @@ ___
 
   + **Technologies used** - HTML5, SASS, WordPress, PHP
 
-
 ### R6D70: Wednesday 24 February 2021
 
 + **Notes**
   + I said yesterday I was going to focus on building the search functionality of this blog.  Instead, I found myself focusing on implementing the category templates. 
 
   + **Technologies used** - HTML5, SASS, WordPress, PHP
-
 
 ### R6D69: Tuesday 23 February 2021
 

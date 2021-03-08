@@ -1,3 +1,4 @@
+@import "head";
 @import "mixins";
 
 * {
@@ -173,6 +174,19 @@ header {
 
             h2, a {
                 text-align: center;
+            }
+        }
+
+        .project_to_come {
+
+            text-align: center;
+
+            h2 {
+                font-size: 30pt;
+            }
+
+            p {
+                font-weight: bold;
             }
         }
     }

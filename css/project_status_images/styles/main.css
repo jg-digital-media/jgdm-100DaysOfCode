@@ -1,3 +1,8 @@
+/**
+
+08/03/21 - 10:40am
+
+*/
 * {
   padding: 0;
   margin: 0; }
@@ -141,6 +146,12 @@ header {
         color: green; }
     #container .project_list .project_status_header h2, #container .project_list .project_status_header a {
       text-align: center; }
+    #container .project_list .project_to_come {
+      text-align: center; }
+      #container .project_list .project_to_come h2 {
+        font-size: 30pt; }
+      #container .project_list .project_to_come p {
+        font-weight: bold; }
   #container .project-status-container {
     display: block;
     margin: 0 auto;

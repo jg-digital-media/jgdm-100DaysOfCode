@@ -712,7 +712,7 @@
             "project_alt": "AM Consulting",
             "project_type": "website",
             "project_status": "upcoming",
-            "status": true,
+            "status": "upcoming",
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
@@ -723,7 +723,7 @@
             "project_alt": "Autism and Christianity",
             "project_type": "website",
             "project_status": "upcoming",
-            "status": true,
+            "status": "upcoming",
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
@@ -734,7 +734,7 @@
             "project_alt": "Photo Viewer App",
             "project_type": "website",
             "project_status": "upcoming",
-            "status": true,
+            "status": "upcoming",
             "img_type": "data-src",
             "img_type_data": "data-src"
         }

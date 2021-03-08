@@ -1,0 +1,90 @@
+<!--
+Authored by:  @jg_digitalMedia
+Web:          https://www.jonniegrieve.co.uk/assets/project_status
+Last Update:  08 March 2021
+Description:  Project Status Homepage with clickable images  
+ 
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Font-->
+    
+    <!-- CSS-->
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Allerta|Lato|Mali|Marvel|Roboto" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png" type="image/png">
+
+    <!-- meta tags -->
+    <meta name="description" content="This is a simple single page app that uses JavaScript and JSON to visually list the status of projects based on the values of an array of Objects">
+    <meta name="keywords" content=""> 
+    <meta name="image" content="">
+
+    <!-- FACEBOOK: Open Graph -->
+    <meta property="og:title" content="Project Status | A project with JavaScript">
+    <meta property="og:description" content="This is a simple single page app that uses JavaScript and JSON to visually list the status of projects based on the values of an array of Objects">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <!-- TWITTER: Open Graph -->
+    <meta name="twitter:title" content="Project Status | A project with JavaScript">
+    <meta name="twitter:description" content="This is a simple single page app that uses JavaScript and JSON to visually list the status of projects based on the values of an array of Objects">
+    <meta name="twitter:image" content="">
+    <meta name="twitter:card" content="project_status_page">
+
+    <!-- Canonical link -->
+    <link rel="canonical" href="https://www.jonniegrieve.co.uk/assets/project_status/index.html">
+
+    <!-- Page Title-->
+    <title>Project Status | A project with JavaScript</title>
+
+
+</head>
+<body>
+
+    <header class = "header">
+
+        <h1>Project Status <span role="title"> A project with JSON </span></h1>
+
+        <aside class="key">
+
+            <h2>Key:</h2>
+            <span id="green-complete" alt="Complete" title="Complete" role="complete_status"></span> Complete
+            <span id="red-incomplete" alt="Incomplete" title="Incomplete" role="incomplete_status"></span> Incomplete
+            <span id="yellow-review" alt="Under Review" title="Under Review" role="review_status"></span> Under Review
+            <span id="orange-upcoming" alt="Projects Upcoming" title="Projects Upcoming" role="review_status"></span> Projects Upcoming
+    
+        </aside>
+
+    </header>
+
+    <main id="container" role="main container element">
+
+        <!-- DROPDOWN BOX TO GO HERE -->
+        <article class="project_list">
+            
+            <aside class="project_to_come">
+                <h2>Project still to come.</h2>
+                
+                <p>A link to the project will be posted in due course.</p>
+            </aside>   
+
+        </article>
+
+    </main>
+
+    <footer>&copy; 2021 Designed by Jonnie Grieve Digital Media </footer>
+
+    <!-- scripts-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.3/dist/lazyload.min.js"></script>
+    <script src="scripts/app.js"></script>
+
+</body>
+</html>

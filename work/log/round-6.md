@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 77 of 100. **Last Update:** 5 March 2021
+## **Status:** Day 78 of 100. **Last Update:** 8 March 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### R7D78: Monday 8 March 2021
+
++ **Notes**
+  +  Updated and fixed some bugs in my Project Status pages and uploaded my latest Photography Website Update.
+
+  + **Technologies used** - HTML5, SASS, WordPress, PHP
 
 ### R7D77: Friday 5 March 2021
 

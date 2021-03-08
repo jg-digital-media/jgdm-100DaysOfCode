@@ -551,6 +551,17 @@
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
+            "project_name": "Project Status Images (in JavaScript)",
+            "project_url": "https://jonniegrieve.co.uk/assets/project_status_images/index.html",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/project_status_js.png",
+            "feat_img_url": "img/featured/status_js.jpg",
+            "project_alt": "Go to Project Status Inages App in JavaScript",
+            "project_type": "Website",
+            "project_status": "incomplete",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+        }, {
             "project_name": "Laravel Basics - Scalable Photo Album app",
             "project_url": "https://jgdm-laravel-basic.herokuapp.com/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/laravel_basic.png",

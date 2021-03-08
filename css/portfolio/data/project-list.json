@@ -610,14 +610,14 @@
             "project_url": "https://github.com/jg-digital-media/jgdm_image_gallery",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/image_gallery_repo.png",
             "feat_img_url": "img/featured/image_gallery_repo.jpg",
-            "project_alt": "Responsible Image Gallery starter",
+            "project_alt": "Responsive Image Gallery starter",
             "project_type": "website",
             "project_status": "incomplete",
             "status": false,
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
-            "project_name": "JGDM Landing Page",
+            "project_name": "JGDM: Landing Page",
             "project_url": "https://jg-digital-media.github.io",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/jgdm_landing.png",
             "feat_img_url": "img/featured/jgdm_landing.jpg",
@@ -634,8 +634,8 @@
             "feat_img_url": "img/featured/fetch.jpg",
             "project_alt": "Fetch syntax for API'S",
             "project_type": "website",
-            "project_status": "upcoming",
-            "status": "upcoming",
+            "project_status": "under_review",
+            "status": "under_review",
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {

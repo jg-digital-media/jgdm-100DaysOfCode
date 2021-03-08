@@ -54,7 +54,7 @@
 "JGDM: Responsive Mobile Menu",
 "JGDM: Web Starter Repo",
 "JGDM: Image Gallery Starter",
-"JGDM Landing Page",
+"JGDM: Landing Page",
 "Fetch",
 "JGDM Website",
 "JGDM Main Blog",

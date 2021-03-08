@@ -708,10 +708,10 @@
             "project_name": "AM Consulting",
             "project_url": "https://www.jonniegrieve.co.uk/assets/project_status_images/project-upcoming.html",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/am_consulting.png",
-            "feat_img_url": "img/featured/am_cosulting.jpg",
+            "feat_img_url": "img/featured/am_consulting.jpg",
             "project_alt": "AM Consulting",
             "project_type": "website",
-            "project_status": "complete",
+            "project_status": "upcoming",
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
@@ -722,7 +722,7 @@
             "feat_img_url": "img/featured/autism.jpg",
             "project_alt": "Autism and Christianity",
             "project_type": "website",
-            "project_status": "complete",
+            "project_status": "upcoming",
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
@@ -733,7 +733,7 @@
             "feat_img_url": "img/featured/photo_viewer.jpg",
             "project_alt": "Photo Viewer App",
             "project_type": "website",
-            "project_status": "complete",
+            "project_status": "upcoming",
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"

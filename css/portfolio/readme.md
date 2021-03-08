@@ -9,6 +9,14 @@
 + ```projects.json``` - single empty record for adding to  featured projects file.
 + ```random.json``` - generated json functions and methods
 
+
+## Project Status
+
++ "project_status": "complete",
++ "project_status": "incomplete",
++ "project_status": "under_review",
++ "project_status": "upcoming",  - Projects Upcoming
+
 ## project images (not included in data for now)
 
 + autism.png  

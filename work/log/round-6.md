@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 78 of 100. **Last Update:** 8 March 2021
+## **Status:** Day 79 of 100. **Last Update:** 9 March 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+### R7D79: Tuesday 9 March 2021
+
++ **Notes**
+  +  R6D79: Cycling through a multi-dimensional array of image data as detailed in today's blog. I haven't found a way to make the data react the same way yet. But this is progress! That and more in the blog.   
+
+  + **Technologies used** - HTML5, SASS, WordPress, JavaScript, jQuery
 
 ### R7D78: Monday 8 March 2021
 

@@ -13,8 +13,40 @@
 + Sequelize - project
 
 
-### Dau 78
+### Day 79
 
+```javascript
+
+ $main_view = $(".main_viewer");
+    $store_image = $(".storage img");
+
+    $(document).on("keydown", () =>{
+        $main_view.css("display", "none");
+
+        $index = show($index);
+
+        $('.main_viewer:eq(' + $index + ')'.css("display", "block"))
+    });
+
+    function show($index, event){
+
+        //console.log(event.keyCode);
+        if( event.keyCode == 39 ) {
+            $index++;
+        }
+
+        if( event.keyCode == 37 ) {
+            $index--;
+        }
+
+        return $index;
+    }
+
+
+function show(event) {
+        console.log(event.keyCode);
+    }
+```
 
 
 ### Day 76

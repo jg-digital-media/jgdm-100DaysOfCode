@@ -5,7 +5,12 @@ ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R7D80: Wednesday 10 March 2021
 
++ **Notes**
+  +  A look at the work I've been doing in the last couple of days in WordPress, jQuery and CSS. https://blog.jonniegrieve.co.uk/blog_posts/r6d80-100daysofcode/ 
+
+  + **Technologies used** - HTML5, SASS, WordPress, JavaScript, jQuery
 
 ### R7D79: Tuesday 9 March 2021
 

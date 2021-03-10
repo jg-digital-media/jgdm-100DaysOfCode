@@ -13,6 +13,41 @@
 + Sequelize - project
 
 
+### Day 80
+
+```javascript
+
+imageList is a multi dimenisional  Array
+
+
+        $index=0;
+
+        //revert left/right cycle to continuous loop
+        if($index > imageList.length -1) {
+            $index = 0;
+
+        } else if ($index < 0) {
+            $index = imageList.length -1;
+        }
+
+
+```
+
++ Related Links
+
+http://www.javascriptkit.com/script/script2/pslide.shtml
+
+http://www.javascriptkit.com/script/script2/simpleslide/index.shtml
+
+
+
+https://blog.jonniegrieve.co.uk/blog_posts/r6d80-100daysofcode/
+
+https://landing.jonniegrieve.co.uk/photo_viewer_2/
+
+https://landing.jonniegrieve.co.uk/photo_viewer
+
+
 ### Day 79
 
 ```javascript

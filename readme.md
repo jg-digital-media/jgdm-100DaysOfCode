@@ -33,7 +33,6 @@
     + pwa_2
     + sass_project
     + semantic-html
-    + wordpress_themes
   + java
     + Generics
     + Interfaces

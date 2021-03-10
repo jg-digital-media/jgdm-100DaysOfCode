@@ -161,15 +161,15 @@ Vue
 ## Description
 
 
-My goal remains to help myself maintain not just my coding (I can always be found coding), but also an active social media presence in light of it.
+My goal remains to help myself maintain not just my coding (I can always be found coding), but also an active social media presence in as a result of it.
 
 Hopefully this will help me engage more with the tech community.
 
-As pf my commit on **10th June 2020**  You'll find all my blogs are now located in the "log" directory.  This latest 100DaysOfCode effort is now logged in **round-5.md**.  I've kept the others in **round-1.md** and **round-2.md** etc.
+As of my commit on **10th June 2020** You'll find all my blogs are now located in the "log" directory. This latest #100DaysOfCode effort is now logged in round-6.md. I've kept the others in **round-1.md** and **round-2.md** etc as a record in the archive directory of this repo.
 
-In my commit for **25th January 2019**, I posted that I've completed my re-organisation of my work via [GitHub](https://github.com/jg-digital-media) reducing the number of my repositories.  All my projects are either backed up online, on Amazon S3 or on version control.  Most of my repos are now set to private.  I may end up switching back to public from time to time. But don't worry, anything I deem fit for public viewing will be available to see via my domain at https://projects.jonniegrieve.co.uk
+In my commit for 25th January 2019, I posted that I've completed my reorganisation of my work via [GitHub](https://github.com/jg-digital-media) reducing the number of my repositories. All my projects are either backed up on my server, on Amazon S3 or on version control. Most of my repos are now set to private. I may end up switching back to public from time to time. But don't worry, anything I deem fit for public viewing will be available to see via my domain at https://projects.jonniegrieve.co.uk.
 
-If you notice **codersnotes-r4.md** and all the others in this repository, just think of this as a kind of "notebook" for while I'm working through this round of 100DaysofCode.
+If you notice codersnotes-r6.md and all the others in this repository, just think of this as a kind of "notebook" for use while I'm working through this round of 100DaysofCode.
 
 ## Initial goals of this round.
 

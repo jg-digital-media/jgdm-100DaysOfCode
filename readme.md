@@ -11,6 +11,7 @@
       + photo_api
       + project_api
       + random_from_user
+  + archive
   + bin      
       + first-line
       + geonation
@@ -48,18 +49,19 @@
     + iteration-methods
     + library
     + node
-    + random_number_challenge.js
+    + random_number_challenge_js
+    + th_live_pet_directory
   + nodeJS
     + basics
     + dynamic
     + dynamic_site
-    + express_site (external)
     + express_async
     + express_restapi
     + open_weather
     + sequelize
     + sequelize_blog
     + sequelize_express
+    + sequelize_relatonships
   + php
     + lockdown
     + mvc-framework

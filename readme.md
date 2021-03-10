@@ -32,7 +32,7 @@
     + pwa
     + pwa_2
     + sass_project
-    + semantic-html
+    + semantic_html_example
   + java
     + Generics
     + Interfaces

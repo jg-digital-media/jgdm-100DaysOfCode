@@ -21,13 +21,12 @@
   + css 
     + balloon
     + form_accessible
-    + layout-hack
     + modernizr
+    + photo_viewer
     + portfolio
     + portfolio-gallery
-    + project_sub
     + project_status
-    + project_status_image
+    + project_status_images
     + project_sub
     + pwa
     + pwa_2
@@ -46,7 +45,6 @@
     + four_in_a_row
     + greensock
     + iteration-methods
-    + library
     + node
     + random_number_challenge_js
     + th_live_pet_directory
@@ -68,7 +66,7 @@
     + php_rest_api
     + php_website
     + slim
-  + project_api 
+    + slimmin
   + python
     + basics
     + lists

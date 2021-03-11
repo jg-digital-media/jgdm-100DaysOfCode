@@ -1,0 +1,239 @@
+{
+    "photo_data": [ 
+        {
+            "photo_id": "1",
+            "photo_title": "Luke",
+            "filename":"IMG_0010.jpg",
+            "filepath":"assets/img/IMG_0010.JPG",
+            "date_taken": "22/07/2020: 20:00",
+            "alt": "Luke",
+            "photo_ISO": "3200",
+            "aperture": "f/4.5",
+            "shutter_speed": "1/25 sec",
+            "focal_length": "35mm",
+            "description": "Luke"
+
+        }, { 
+            "photo_id": "2",
+            "photo_title": "Minibeast on Leaf",
+            "filename":"IMG_0048.jpg",
+            "filepath":"assets/img/IMG_0048.JPG",
+            "date_taken": "24/07/2020: 11:39",
+            "alt": "Minibeast on Leaf",
+            "photo_ISO": "160",
+            "aperture": "f/5.6",
+            "shutter_speed": "1/80 sec",
+            "focal_length": "55mm",
+            "description": "Minibeast on Leaf"
+
+        }, { 
+            "photo_id": "3",
+            "photo_title": "Bird in Flight, distanced. Cloudless Sunny Day",
+            "filename":"IMG_0329.JPG",
+            "filepath":"assets/img/IMG_0329.JPG",
+            "date_taken": "31/07/2020: 11:06",
+            "alt": "Bird in Flight, distanced. Cloudless Sunny Day",
+            "photo_ISO": "100",
+            "aperture": "f/10",
+            "shutter_speed": "1/250 sec",
+            "focal_length": "55mm",
+            "description": "Bird in Flight, distanced. Cloudless Sunny Day"
+
+        }, { 
+            "photo_id": "4",
+            "photo_title": "sharp sunny landscape",
+            "filename":"IMG_0367.JPG",
+            "filepath":"assets/img/IMG_0367.JPG",
+            "date_taken": "31/07/2020 - 11:25",
+            "alt": "sharp sunny landscape",
+            "photo_ISO": "100",
+            "aperture": "f/5.6",
+            "shutter_speed": "1/250 sec",
+            "focal_length": "55mm",
+            "description": "sharp sunny landscape"
+
+        }, { 
+            "photo_id": "5",
+            "photo_title": "overcast sky with bird flock in flight",
+            "filename":"IMG_0412.JPG",
+            "filepath":"assets/img/IMG_0412.JPG",
+            "date_taken": "01/08/2020: 10:20",
+            "alt": "overcast sky with bird flock in flight",
+            "photo_ISO": "100",
+            "aperture": "f/5.6",
+            "shutter_speed": "1/1600 sec",
+            "focal_length": "55mm",
+            "description": "overcast sky with bird flock in flight"
+
+        }, { 
+            "photo_id": "6",
+            "photo_title": "Aperture mode- overcast ocean/coastal landscape",
+            "filename":"IMG_0424.JPG",
+            "filepath":"assets/img/IMG_0424.JPG",
+            "date_taken": "01/08/2020: 10:59",
+            "alt": "Aperture mode- overcast ocean/coastal landscape",
+            "photo_ISO": "400",
+            "aperture": "f/5.6",
+            "shutter_speed": "1/4000 sec",
+            "focal_length": "55mm",
+            "description": "Aperture mode- overcast ocean/coastal landscape"
+
+        }, { 
+            "photo_id": "7",
+            "photo_title": "landscape mode - overcast ocean/coastal landscape",
+            "filename":"IMG_0425.JPG",
+            "filepath":"assets/img/IMG_0425.JPG",
+            "date_taken": "01/08/2020: 10:59",
+            "alt": "landscape mode - overcast ocean/coastal landscape",
+            "photo_ISO": "100",
+            "aperture": "f/14",
+            "shutter_speed": "1/160 sec",
+            "focal_length": "18mm",
+            "description": "landscape mode - overcast ocean/coastal landscape"
+
+        }, { 
+            "photo_id": "8",
+            "photo_title": "rainfall shot dark/overcast",
+            "filename":"IMG_0472.JPG",
+            "filepath":"assets/img/IMG_0472.JPG",
+            "date_taken": "02/08/2020: 14:14",
+            "alt": "rainfall shot dark/overcast",
+            "photo_ISO": "3200",
+            "aperture": "f/10",
+            "shutter_speed": "1/2500 sec",
+            "focal_length": "55mm",
+            "description": "rainfall shot dark/overcast"
+
+        }, { 
+            "photo_id": "9",
+            "photo_title": "shutter mode - rainfall shot dark/overcast",
+            "filename":"IMG_0475.JPG",
+            "filepath":"assets/img/IMG_0475.JPG",
+            "date_taken": "02/08/2020: 14:15",
+            "alt": "shutter mode - rainfall shot dark/overcast",
+            "photo_ISO": "3200",
+            "aperture": "f/5.6",
+            "shutter_speed": "1/2500",
+            "focal_length": "55mm",
+            "description": "shutter mode - rainfall shot dark/overcast"
+
+        }, { 
+            "photo_id": "10",
+            "photo_title": "Sunny. Sharp.  Bright. Colourful",
+            "filename":"IMG_0481.JPG",
+            "filepath":"assets/img/IMG_0481.JPG",
+            "date_taken": "02/08/2020: 14:42",
+            "alt": "Sunny. Sharp.  Bright. Colourful",
+            "photo_ISO": "100",
+            "aperture": "f/8",
+            "shutter_speed": "1/160 sec",
+            "focal_length": "55mm",
+            "description": "Sunny. Sharp.  Bright. Colourful"
+
+        }, { 
+            "photo_id": "11",
+            "photo_title": "aperture mode. High iso and f/stop. Sunny and bright",
+            "filename":"IMG_0485.JPG",
+            "filepath":"assets/img/IMG_0485.JPG",
+            "date_taken": "02/08/2020: 14:44",
+            "alt": "aperture mode. High iso and f/stop. Sunny and bright",
+            "photo_ISO": "6400",
+            "aperture": "f/32",
+            "shutter_speed": "1/800",
+            "focal_length": "44mm",
+            "description": "aperture mode. High iso and f/stop. Sunny and bright"
+
+        }, { 
+            "photo_id": "12",
+            "photo_title": "shutter mode - moving car against the water",
+            "filename":"IMG_0502.JPG",
+            "filepath":"assets/img/IMG_0502.JPG",
+            "date_taken": "02/08/2020: 14:54",
+            "alt": "shutter mode - moving car against the water",
+            "photo_ISO": "6400",
+            "aperture": "f/8",
+            "shutter_speed": "1/400 sec",
+            "focal_length": "51mm",
+            "description": "shutter mode - moving car against the water"
+
+        }, { 
+            "photo_id": "13",
+            "photo_title": "Normal mode - uses flash - low light",
+            "filename":"IMG_0601.JPG",
+            "filepath":"assets/img/IMG_0601.JPG",
+            "date_taken": "",
+            "alt": "Normal mode - uses flash - low light",
+            "photo_ISO": "800",
+            "aperture": "f/5.6",
+            "shutter_speed": "1/60 sec",
+            "focal_length": "55mm",
+            "description": "Normal mode - uses flash - low light"
+
+        }, { 
+            "photo_id": "14",
+            "photo_title": "Aperture mode - coastal - overcast - medium ISO",
+            "filename":"IMG_0663.JPG",
+            "filepath":"assets/img/IMG_0663.JPG",
+            "date_taken": "06/08/2020: 12:07",
+            "alt": "Aperture mode - coastal - overcast - medium ISO",
+            "photo_ISO": "400",
+            "aperture": "f/6.3",
+            "shutter_speed": "1/1600 sec",
+            "focal_length": "28mm",
+            "description": "Aperture mode - coastal - overcast - medium ISO"
+
+        }, { 
+            "photo_id": "15",
+            "photo_title": "sunny day - bokeh style",
+            "filename":"IMG_2292.JPG",
+            "filepath":"assets/img/IMG_2292.JPG",
+            "date_taken": "29/09/2020: 10:41",
+            "alt": "sunny day - bokeh style",
+            "photo_ISO": "100",
+            "aperture": "f/5",
+            "shutter_speed": "1/500 sec",
+            "focal_length": "25mm",
+            "description": "sunny day - bokeh style"
+
+        }, { 
+            "photo_id": "16",
+            "photo_title": "sunny day - bokeh style",
+            "filename":"IMG_2293.JPG",
+            "filepath":"assets/img/IMG_2293.JPG",
+            "date_taken": "29/09/2020: 10:42",
+            "alt": "sunny day - bokeh style",
+            "photo_ISO": "100",
+            "aperture": "f/5",
+            "shutter_speed": "1/500 sec",
+            "focal_length": "36mm",
+            "description": "sunny day - bokeh style"
+
+        }, { 
+            "photo_id": "17",
+            "photo_title": "dark background - minibeast caught in the light",
+            "filename":"IMG_0939.JPG",
+            "filepath":"assets/img/IMG_0939.JPG",
+            "date_taken": "10/08/2020: 14:37",
+            "alt": "dark background - minibeast caught in the light",
+            "photo_ISO": "1600",
+            "aperture": "f/5.6",
+            "shutter_speed": "1/2000 sec",
+            "focal_length": "55mm",
+            "description": "dark background - minibeast caught in the light"
+
+        }, { 
+            "photo_id": "18",
+            "photo_title": "overcast day - dry",
+            "filename":"IMG_1174.JPG",
+            "filepath":"assets/img/IMG_1174.JPG",
+            "date_taken": "15/08/2020: 13:49",
+            "alt": "overcast day - dry",
+            "photo_ISO": "1600",
+            "aperture": "f/16",
+            "shutter_speed": "1/1000 sec",
+            "focal_length": "18mm",
+            "description": "overcast day - dry"
+
+        }
+    ]
+}

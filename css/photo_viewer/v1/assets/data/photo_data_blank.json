@@ -1,0 +1,31 @@
+{
+    "photo_data": [ 
+        {
+            "photo_id": "",
+            "photo_title": "",
+            "filename":"",
+            "filepath":"",
+            "date_taken": "",
+            "alt": "",
+            "photo_ISO": "",
+            "aperture": "",
+            "shutter_speed": "",
+            "focal_length": "",
+            "description": ""
+
+        }, { 
+            "photo_id": "",
+            "photo_title": "",
+            "filename":"",
+            "filepath":"",
+            "date_taken": "",
+            "alt": "",
+            "photo_ISO": "",
+            "aperture": "",
+            "shutter_speed": "",
+            "focal_length": "",
+            "description": ""
+
+        }
+    ]
+}

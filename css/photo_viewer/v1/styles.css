@@ -1,0 +1,168 @@
+/*Main Animal slider*/
+header {
+  background: beige;
+  /* color: purple; */
+  /*border-bottom: 5px #dccdad solid;*/
+  /* z-index: 1; */
+  -webkit-box-shadow: 0px 2px 6px 0px #dccdad;
+  box-shadow: 0px 2px 6px 0px #dccdad; }
+  @media (max-width: 760px) {
+    header {
+      height: auto;
+      min-height: 130px; } }
+  @media (max-width: 480px) {
+    header {
+      /*min-height: 100px;*/ } }
+  header h1#main_title {
+    text-align: center;
+    margin-bottom: 30px;
+    height: 95px;
+    font-size: 30pt;
+    color: black; }
+    @media (max-width: 760px) {
+      header h1#main_title {
+        width: 60%;
+        height: 90px;
+        margin: 0 auto; } }
+    @media (max-width: 480px) {
+      header h1#main_title {
+        font-size: 7vw; } }
+
+body {
+  font-family: "Merriweather"; }
+
+/*main*/
+main#container {
+  margin: 0 auto;
+  position: relative;
+  width: 95%;
+  color: black; }
+  @media (min-width: 1500px) {
+    main#container {
+      width: 1600px; } }
+  main#container h2 {
+    text-align: center;
+    margin: 10px 0; }
+
+#container section {
+  display: flex;
+  /* flex-direction: column; */
+  flex-direction: row;
+  /* width: 75%; */
+  width: 95%;
+  margin: 0 auto;
+  border: solid red 1px; }
+  @media (max-width: 840px) {
+    #container section {
+      display: block; } }
+
+.pagination_buttons {
+  text-align: center; }
+
+.image {
+  display: inline-block; }
+  .image h2 {
+    /*  text-align: center; */ }
+  .image #btn_previous {
+    display: inline-block; }
+  .image #data_pagination {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 11px;
+    font-weight: bold; }
+  .image #btn_next {
+    display: inline-block; }
+  .image .pagination_btn {
+    padding: 15px;
+    background: yellow;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+    transition: background .4s; }
+    .image .pagination_btn:hover {
+      background: #fecc06; }
+  .image img#visible_photo {
+    /* width: 70%; */
+    /* width: 100%; */
+    width: 95%;
+    padding: 10px; }
+    @media (max-width: 860px) {
+      .image img#visible_photo {
+        display: block;
+        margin: 0 auto; } }
+
+.photo_data {
+  font-family: calibri;
+  top: 83px;
+  margin: 10px;
+  position: relative; }
+  @media (max-width: 860px) {
+    .photo_data {
+      top: 0px; } }
+  .photo_data div {
+    display: inline-block;
+    /* width: 40%; */
+    width: 46%;
+    border: solid yellow 3px;
+    margin-top: 15px;
+    cursor: pointer; }
+    @media (max-width: 980px) {
+      .photo_data div {
+        display: block;
+        margin-left: 10px; } }
+  .photo_data div + span {
+    margin-left: 10px; }
+  .photo_data span {
+    display: inline-block; }
+  .photo_data #photo_filename + span,
+  .photo_data #photo_date + span,
+  .photo_data #photo_iso + span,
+  .photo_data #photo_aperture + span,
+  .photo_data #photo_shutter + span,
+  .photo_data #photo_focalLength + span {
+    color: gray;
+    font-size: 12px; }
+  .photo_data #photo_description + span {
+    color: gray;
+    margin-top: 10px;
+    padding: 15px; }
+
+/* header
+
+main_title
+btn_previous
+btn_next
+date_pagination
+pagination_btn
+#page_no
+#num_pages
+
+img.visible_photo
+
+photo_filename
+photo_date
+photo_iso
+photo_aperture
+photo_shutter
+photo_focalLength
+photo_description
+
+footer */
+footer {
+  width: 100%;
+  text-align: center; }
+  footer p {
+    margin-top: 20px; }
+    footer p a {
+      color: red; }
+      footer p a:hover {
+        color: blue; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: #abe9dd; }
+
+/*# sourceMappingURL=styles.css.map */

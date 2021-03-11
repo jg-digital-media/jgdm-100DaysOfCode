@@ -1,0 +1,14 @@
+footer {
+    width: 100%;
+    text-align: center;
+    
+    p {
+        margin-top: 20px;
+        a {
+            color: red;
+            &:hover {
+                color: blue;
+            }
+        }
+    }
+}

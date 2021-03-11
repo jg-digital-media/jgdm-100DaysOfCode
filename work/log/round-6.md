@@ -1,9 +1,20 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 79 of 100. **Last Update:** 9 March 2021
+## **Status:** Day 81 of 100. **Last Update:** 11 March 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+W
+
+### R7D81: Thursday 11 March 2021
+
++ **Notes**
+  +  A Quick update. It's been a long day.  I have a solution for the Photo Viewer App, I've done some cleanup in my #100DaysOfCode Repository and added more projects to my portfolio. https://blog.jonniegrieve.co.uk/blog_posts/r6d81-100daysofcode/ 
+
+  + **Technologies used** - HTML5, SASS 
+
 
 ### R7D80: Wednesday 10 March 2021
 

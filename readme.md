@@ -27,7 +27,6 @@
     + portfolio-gallery
     + project_status
     + project_status_images
-    + project_sub
     + pwa
     + pwa_2
     + sass_project

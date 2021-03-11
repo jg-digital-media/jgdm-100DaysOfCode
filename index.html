@@ -9,221 +9,10 @@
 
     <style>
 
-        /*
-
-        Last Update:  19/03/2020 - 08:40
-
-        */
-
-        * {
-            padding: 0;
-            margin: 0; 
-        }
-
-        header {
-            width: 100%;
-            background: #292927;
-            height: 130px;
-            border-bottom: solid white 3px;
-        }
-
-        header h1 {
-            text-align: center;
-            color: #f2f284;
-        }
-
-        header a {
-
-            text-decoration: none;
-
-        }
-
-        header a img#main_logo {
-            display: block;
-            margin: 0 auto;
-            position: relative;
-            top: 10px;
-
-            width: 100px;
-            height: 100px;
-            display: block;
-            margin: 0 auto;
-            border: solid white 3px;
-            border-radius: 50%;
-            padding: 6px;
-            background: #292927;
-        }
-
-        body {
-            font-family: arial; 
-
-            background-image: url(assets/img/interior.jpg);
-            background-image: url(assets/img/interior-dark.jpg);
-            background-image: url(assets/img/interior-darker.jpg);
-            background-repeat: repeat;
-            background-attachment: fixed;
-            background-size: cover; 
-        }
-        
-        main {
-            border: solid black 1px; 
-            margin-top: 45px;
-
-            display: flex;
-            flex-direction: column;
-            flex-direction: row;
-            gap: 5px;
-            width: 95%;
-            margin: 45px auto;
-        }
-
-        main h2 {
-            color: white;
-        }
-
-        
-
-        /*primary section*/
-        article#main_block {
-
-            width: 45%;
-            padding: 10px;
-
-        }
-
-        article#main_block p {
-            color: white;
-            line-height: 1.9;
-            margin-bottom: 15px;
-
-        }
-
-        article#main_block p strong,
-        article#main_block p b {
-            color: yellow;
-            
-        }
-
-        article#main_block p em,
-        article#main_block p i {
-            color: #3edc3e;           
-            
-        }
-
-        article#main_block p a {
-
-            color: yellow;
-
-        }
-
-        article#main_block p a:hover {
-            color: #3edc3e;
-
-        }
-
-        article#main_block ul {
-
-        } 
-        
-        article#main_block ul {
-
-        } 
-
-        article#main_block ul li  {
-
-        }
-        
-        article#secondary_block ul li a {
-
-        }
-
-
-        /*secondary section */
-        aside#secondary_block {
-            width: 45%;
-            
-        }
-
-        aside#secondary_block ul {
-            list-style: none;
-
-        }
-
-        aside#secondary_block ul li {
-            display: block;
-        }
-
-        aside#secondary_block ul li a {
-            color: yellow;
-
-        }
-
-        aside#secondary_block ul li a:hover {
-            color: #3edc3e;
-
-        }
-
-
-        /*content-bg */
-        .content_block {
-            line-height: 1.9;
-            /* width: 90%; */
-            /* width: 42%; */
-            width: 50%;
-            margin-bottom: 30pt;
-            padding: 15px;
-            border-radius: 15px;
-            background: #ffffff55;
-            border: solid white 3px;
-
-            
-        }
-
-        .content_block h2, 
-        .content_block h3, 
-        .content_block h4, 
-        .content_block h5, 
-        .content_block h6 {
-            color: yellow;
-        }
-
-        .content_block p {
-            color: white
-        }
-        
-        .content_block ul,
-        .content_block ol {
-        } 
-
-        .content_block ul li,
-        .content_block ol li {
-            color: white;
-        }
-
-        .content_block ul li a,
-        .content_block ol li a {
-            color: yellow;
-        }
-        .content_block ul li a:hover,
-        .content_block ol li a:hover {
-            color: #3edc3e;
-        }
-
-        .content_block strong {
-            color: #3edc3e;
-        }
-
-
-        footer {
-            margin: 0 10px; 
-            color: white;
-        }
-
-        footer p {
-            text-align: center;
-        }     
 
     </style>
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
 
 </head>
 
@@ -241,22 +30,6 @@
 
     <main>
 
-        <article id="main_block">           
-
-            <p>My goal remains to help myself maintain not just my coding (I can always be found coding), but also an active social media presence in as a result of it.</p>
-
-            <p>Hopefully this will help me engage more with the tech community.</p>
-
-            <p>As of my commit on <strong>10th June 2020</strong> You'll find all my blogs are now located in the "<strong>log</strong>" directory. This latest <strong>#100DaysOfCode</strong> effort is now logged in <em>round-6.md</em>. I've kept the others in <em>round-1.md</em> and <em>round-2.md</em> etc as a record in the archive directory of this repo.</p>
-
-            <p>In my commit for <strong>25th January 2019</strong>, I posted that I've completed my reorganisation of my work via GitHub reducing the number of my repositories. All my projects are either backed up on my server, on Amazon S3 or on version control. Most of my repos are now set to private. I may end up switching back to public from time to time. But don't worry, anything I deem fit for public viewing will be available to see via my domain at <a href="https://projects.jonniegrieve.co.uk" target="blank">https://projects.jonniegrieve.co.uk</a> or in this repository.</p>
-
-            <p>If you notice <em>codersnotes-r6.md</em> and all the others in this repository, just think of this as a kind of "notebook" for use while I'm working through this round of 100DaysofCode.</p>
-
-            <p>More information can be found in the <em>readme.md</em> file of <a href="#" target="blank">this repository</a> </p>
-
-        </article>
-
         <aside id="secondary_block">
 
             <div class="content_block">
@@ -266,11 +39,11 @@
                 <h3>API's</h3>
 
                 <ul>
-                    <li><strong>basics/index.html</strong> <a href="basic/index.html" title="Basic request to Unsplash API">Basic - with fetch()</a></li>
-                    <li><strong>fetch_random/index.html</strong> <a href="fetch_random/index.html" title="Random image request to dog.ceo api">Dog.CEO api (fetch random endpoint)</a></li>
-                    <li><strong>photo_api/index.html</strong> <a href="photo_api/index.html">Photo_API - Retrieving a random photo from Source - an Unsplash API - with fetch()</a></li>
-                    <li><strong>random_from_user/index.html</strong> <a href="random_from_user/index.html">Random from a specific user</a></li>
-                    <li><strong>project_api/index.html</strong> <a href="project_api/index.html">Project api - craig dennis - youtube</a> (incomplete)</li>
+                    <li><strong>basics/index.html</strong> - <a href="basic/index.html" title="Basic request to Unsplash API" target="blank">Link</a></li>
+                    <li><strong>fetch_random/index.html</strong> - <a href="fetch_random/index.html" title="Random image request to dog.ceo api" target="blank">Link</a></li>
+                    <li><strong>photo_api/index.html</strong> - <a href="photo_api/index.html" target="blank">Link</a></li>
+                    <li><strong>project_api/index.html</strong> - <a href="https://projects.jonniegrieve.co.uk/project_api/index.html" target="blank">Link</a></li>
+                    <li><strong>random_from_user/index.html</strong> - <a href="random_from_user/index.html" target="blank">Link</a></li>
                 </ul>
 
                 <h3>CSS</h3>
@@ -278,37 +51,46 @@
                 <ul>
                     <li><strong>css/balloon</strong> - Balloon Flight Experience Website - <a href="https://projects.jonniegrieve.co.uk/balloon/" target="blank">Link</a></li>
                     <li><strong>css/modernizr</strong> - Left push navigation for mobiles - <a href="https://projects.jonniegrieve.co.uk/modernizr" target="blank">Link</a></li>
-                    <li><strong>css/portfolio-gallery</strong> - Portfolio Gallery - <a href="https://project.jonniegrieve.co.uk/portfolio-gallery" target="blank">Link</a></li>
-                    <li><strong>css/sass_project</strong> - Sass Project - Single Image Swipe Gallery - <a href="https://projects.jonniegrieve.co.uk/sass_project" target="blank">Link</a></li>
-                    <li><strong>css/portfolio</strong> - Project Subdomain - Homepage of curated JGDM Projects - <a href="https://projects.jonniegrieve.co.uk" target="blank">Link</a></li>
+                    <li><strong>css/photo_viewer</strong> - Left push navigation for mobiles - <a href="https://projects.jonniegrieve.co.uk/photo_viewerr" target="blank">Link</a></li>
+                    <li><strong>css/portfolio</strong> - Homepage of JGDM - <a href="https://www.jonniegrieve.co.uk" target="blank">Link</a></li>
+                    <li><strong>css/portfolio-gallery</strong>  - <a href="https://projects.jonniegrieve.co.uk/portfolio-gallery" target="blank">Link</a></li>
+                    <li><strong>css/pwa</strong>  - <a href="https://projects.jonniegrieve.co.uk/pwa" target="blank">Link</a></li>
+                    <li><strong>css/pwa_2</strong>  - <a href="https://projects.jonniegrieve.co.uk/pwa_2" target="blank">Link</a></li>
+                    <li><strong>css/sass_project </strong>  - Semantic HTML Example - <a href="https://projects.jonniegrieve.co.uk/sass_project" target="blank">Link</a></li>
+                    <li><strong>css/semantic_html_example </strong>  - Semantic HTML Example - No Link
                 </ul>
 
                 <h3>Java</h3>
+
+                <ul>
+                    <li>Generics</li>
+                    <li>interfaces</li>
+                    <li>Lists</li>
+                    <li>Maps</li>
+                    <li>MyFirstApp</li>
+                </ul>
                 
                 <h3>JavaScript</h3>
 
                 <ul>
-                    <li><strong>javascript/ajax</strong> - Fictional Stock Check Application with AJAX - <a href="https://projects.jonniegrieve.co.uk/ajax_project/" target="">https://projects.jonniegrieve.co.uk/ajax_project/</a></li>
-                    <li><strong>javascript/currency_converter</strong> -</li>
-                    <li><strong>javascript/dom</strong> - Simple List Maker App - <a href="https://projects.jonniegrieve.co.uk/list_maker/" target="">https://projects.jonniegrieve.co.uk/list_maker/</a></li>
-                    <li><strong>javascript/four_in_a_row</strong> - Object Oriented JavaScript project that builds version of the "Four in a Row" game. - <a href="https://projects.jonniegrieve.co.uk/four_in_a_row" target="">https://projects.jonniegrieve.co.uk/four_in_a_row/</a></li>
-                    <li><strong>javascript/greensock</strong> - Animation Library for JavaScript</li>
+                    <li><strong>javascript/ajax</strong> - Fictional Stock Check Application with AJAX - <a href="https://projects.jonniegrieve.co.uk/ajax_project/" target="blank">Link</a></li>
+                    <li><strong>javascript/currency_converter</strong> -  <a href="https://projects.jonniegrieve.co.uk/currency_converter/" target="blank">Link </a> </li>
+                    <li><strong>javascript/dom</strong> - Simple List Maker App - <a href="https://projects.jonniegrieve.co.uk/list_maker/" target="blank">Link</a></li>
+                    <li><strong>javascript/four_in_a_row</strong> - Object Oriented JavaScript project that builds version of the "Four in a Row" game. - <a href="https://projects.jonniegrieve.co.uk/four_in_a_row" target="">Link</a></li>
+                    <li><strong>javascript/greensock</strong> - Animation Library for JavaScript - No Link</li>
                     <li><strong>javascript/iteration-methods</strong> -</li>
-                    <li><strong>javascript/library</strong> - library based JS OOP Project - not yet uploaded</li>
-                    <li><strong>javascript/vue/vue-status-project</strong> - Project Status List to update - <a href="https://projects.jonniegrieve.co.uk/vue_project/" target="">https://projects.jonniegrieve.co.uk/vue_project/</a></li>
+                    <li><strong>javascript/vue/vue-status-project</strong> - Project Status List to update - <a href="https://projects.jonniegrieve.co.uk/vue_project/" target="blank">Link</a></li>
                 </ul>
                 
                 <h3>PHP</h3>
 
                 <ul>
-                    <li><strong>php/mvc-framework</strong> - Treehouse Example - Ralph Waldo Emerson - not yet uploaded</li>
-                    <li><strong>php/php_auth</strong> - PHP Authentication (with Symfony PHP Package) - not yet uploaded</li>
-                    <li><strong>php/php_test</strong> - Getting into practice with Unit testing for PHP - not yet uploaded</li>
-                    <li><strong>php/slim</strong> - Custom Project - A Website built with Slim Routing - not yet uploaded</li>
-                    <li><strong>php/slimmin</strong> - Single page App with Slim - not yet uploaded</li>
-                    <li><strong>php/twig</strong> - Custom Project with the Twig Template Engine in Slim - not yet uploaded</li>
-                    <li><strong>php/twig_project</strong> - Currently empty - A new project in Twig - not yet uploaded</li>
-                </ul>
+                    <li><strong>php/lockdown</strong> - <a href="https://projects.jonniegrieve.co.uk/lockdown/" target="blank">Link</a></li>
+                    <li><strong>php/php_auth</strong> - PHP Authentication (with Symfony PHP Package) - <a href="https://projects.jonniegrieve.co.uk/php_auth_v4" target="blank">Link</a></li> 
+                    <li><strong>php/php_boilerplate</strong> - incomplete - <a href="https://projects.jonniegrieve.co.uk/php_auth_v4" target="blank">Link</a></li>
+                    <li><strong>php/php_website</strong> - Currently empty - A new project in Twig - not yet uploaded</li>
+                    <li><strong>php/slim</strong> - Custom Project - A Website built with Slim Routing - <a href="https://projects.jonniegrieve.co.uk/slim" target="blank">Link</a></li>
+                    <li><strong>php/slimmin</strong> - Single page App with Slim - incomplete - <a href="https://projects.jonniegrieve.co.uk/slim" target="blank">Link</a></li> </li>
                 
                 <h3>React</h3>
 
@@ -325,7 +107,7 @@
                 <h3>Regex</h3>
 
                 <ul>
-                    <li>Regex</li>
+                    <li>Regex - <a href="https://projects.jonniegrieve.co.uk" target="blank">Link</li>
                 </ul>
                 
                 <h3>Vue</h3>
@@ -351,8 +133,26 @@
                     <li class="list_item"><a href="">List 4</a></li>
 
                 </ul>
+
             </div>
+
         </aside>
+
+        <article id="main_block">           
+
+            <p>My goal remains to help myself maintain not just my coding (I can always be found coding), but also an active social media presence in as a result of it.</p>
+
+            <p>Hopefully this will help me engage more with the tech community.</p>
+
+            <p>As of my commit on <strong>10th June 2020</strong> You'll find all my blogs are now located in the "<strong>log</strong>" directory. This latest <strong>#100DaysOfCode</strong> effort is now logged in <em>round-6.md</em>. I've kept the others in <em>round-1.md</em> and <em>round-2.md</em> etc as a record in the archive directory of this repo.</p>
+
+            <p>In my commit for <strong>25th January 2019</strong>, I posted that I've completed my reorganisation of my work via GitHub reducing the number of my repositories. All my projects are either backed up on my server, on Amazon S3 or on version control. Most of my repos are now set to private. I may end up switching back to public from time to time. But don't worry, anything I deem fit for public viewing will be available to see via my domain at <a href="https://projects.jonniegrieve.co.uk" target="blank">https://projects.jonniegrieve.co.uk</a> or in this repository.</p>
+
+            <p>If you notice <em>codersnotes-r6.md</em> and all the others in this repository, just think of this as a kind of "notebook" for use while I'm working through this round of 100DaysofCode.</p>
+
+            <p>More information can be found in the <em>readme.md</em> file of <a href="#" target="blank">this repository</a> </p>
+
+        </article>
 
     </main>
 

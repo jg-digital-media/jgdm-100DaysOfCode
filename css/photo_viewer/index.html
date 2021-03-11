@@ -4,59 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photo Slider by Chetan M Soni(csoni@email.com), 8/1999.</title>
+
+    <title>Photo Viewer Projects</title>
 
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
+<body>
 
-<body onload="changeslide()">
+    <header>
+        <h1>Photo Viewer List</h1>
+    </header>
+
+    <main>
+
+        <ul>
+            <li><a href="v1/index.html" target="blank">Photo Viewer</a></li>
+            <li><a href="v2/index.html" target="blank">Photo Viewer 2</a></li>
+            <li><a href="v3/index.html" target="blank">Photo Viewer 3</a></li>
+        </ul>
+
+        <aside>
+
+            <h3>Notes</h3>
+            
+            <p><strong>Photo Viewer #1</strong> - Visually complete but not functional.</p>
+            
+            <p><strong>Photo Viewer #2</strong> - Visually complete but partially functional.</p>
+
+            <p><strong>Photo Viewer #3</strong> - Functional but too rigid for what I want to do.   Something that doesn't force me to use a particular file name to display an image.  I want to be able to isolate pieces of data. Not have it all appear in one string, for which I cannot apply HTML. </p>
+
+
+        </aside>
+
+    </main>
+
     
-    <div class="slider">
-
-        <img SRC="Spacer.gif" alt="alt" height=30 width=30>
-    
-        <img SRC="pic1.jpg" alt="alt" NAME="picbox" >
-
-        <img SRC="Spacer.gif" alt="alt" height=30 width=30>
-    
-    </div>
-
-    <div name="descbox" wrap=virtual onFocus="this.blur()">
-
-    </div>
-
-    <article class="pagination">        
-
-        <div> 
-            <a href="javascript:firstslide()"><img src="first.gif">First</a>
-        </div>
-
-        <div> 
-            <a href="javascript:prevslide()"><img src="prev.gif">Back</a>
-        </div>
-
-        <div> 
-            <a href="javascript:nextslide()"><img src="next.gif">Forward</a>
-        </div>
-
-        <div> 
-            <a href="javascript:lastslide()"><img src="last.gif">Last</a>
-        </div>
-
-    </article>
-
-
-    <form name="descform">
-
-        <textarea name="descbox" rows=3 cols=30 wrap=virtual onFocus="this.blur()">
-        </textarea>
-
-    </form>
-
-    <img src="Spacer.gif" alt="">
-
-    Source: <a href="http://www.javascriptkit.com/script/script2/simpleslide/index.shtml">http://www.javascriptkit.com/script/script2/simpleslide/index.shtml</a>
-
-    <script src="assets/app.js" type="text/javascript"></script>
 </body>
 </html>

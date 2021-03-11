@@ -1,23 +1,41 @@
-/**
-
-Last Update: 10:00  11/03/2021
-Authored by: @jg_DigitalMedia
-
+/*
+* Last Update:  12:20  - 11/03/2021
 */
-body {
-  color: #000000;
-  background: #ffffff; }
+* {
+  padding: 0;
+  margin: 0; }
 
-.slider img {
-  width: 20%; }
+header {
+  width: 100%; }
+  header h1 {
+    text-align: center; }
 
-body a {
-  color: #0000ee; }
+main {
+  display: block;
+  margin-top: 5%;
+  width: 70%; }
+  main ul {
+    position: relative;
+    display: block;
+    left: 10px; }
+    main ul li a {
+      color: red; }
+      main ul li a:hover {
+        text-decoration: none; }
 
-body a:link {
-  color: #551a88; }
+aside {
+  position: relative;
+  display: block;
+  left: 10px;
+  top: 10px; }
+  aside h3 {
+    height: 20px; }
+  aside p {
+    margin-top: 20px; }
 
-body v:link {
-  color: #ff0000; }
+footer {
+  text-align: center; }
+  footer p {
+    color: black; }
 
 /*# sourceMappingURL=style.css.map */

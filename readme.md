@@ -63,15 +63,11 @@
     + sequelize_relatonships
   + php
     + lockdown
-    + mvc-framework
     + php_auth
+    + php_boilerplate
     + php_rest_api
-    + php_tests
     + php_website
     + slim
-    + slimmin
-    + twig
-    + twig_project
   + project_api 
   + python
     + basics

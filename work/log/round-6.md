@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 81 of 100. **Last Update:** 11 March 2021
+## **Status:** Day 82 of 100. **Last Update:** 12 March 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-W
+
+### R7D82: Friday 12 March 2021
+
++ **Notes**
+  +  It's Day 82, Round 6. Rounding off another week in 100DaysOfCode.  Happy to say I'll soon be starting a new client project #100DaysOfCode 
+
+  + **Technologies used** - HTML5, SASS 
+
 
 ### R7D81: Thursday 11 March 2021
 

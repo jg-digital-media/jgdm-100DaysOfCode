@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+     <img id="image1" alt="" />
+    </div>
+    
+    <div id="data">
+
+    </div>
+
+
+
+    <!-- https://www.itgeared.com/articles/1516-create-simple-slideshow-javascript/ -->
+
+
+    <script>
+        var imgArray = [[
+            ['images/image1.jpg'],
+            ['images/image2.jpg'],
+            ['images/image3.jpg'],
+        ]]
+            
+        var dataArray = [[ 
+            ['data 1'], 
+            ['data 2'], 
+            ['data 3'], 
+        ]],
+
+
+
+            curIndex = 0;
+            imgDuration = 5000;
+    
+        function slideShow() {
+            document.getElementById('image1').src = imgArray[curIndex];
+            document.getElementById('data').src = dataArray[curIndex];
+            curIndex++;
+
+            if (curIndex == imgArray.length && curIndex == dataArray.length) { curIndex = 0; }
+            setTimeout("slideShow()", imgDuration);
+        }
+        slideShow();
+    </script>
+    
+
+</body>
+</html>

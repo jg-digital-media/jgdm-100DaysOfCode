@@ -5,6 +5,12 @@ ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R7D82: Friday 12 March 2021
+
++ **Notes**
+  + Today for Day 83, I got to work on my newest client web project and did my regular Monday Photography content update. Monday has been good!
+
+  + **Technologies used** - HTML5, SASS, JavaScript, jQuery JSON  
 
 
 ### R7D82: Friday 12 March 2021

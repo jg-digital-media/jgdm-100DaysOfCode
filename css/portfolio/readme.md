@@ -67,3 +67,6 @@ User-agent: anothercrawler
 Disallow: /
 ```
 
+## Sitemap
+
+https://www.sitemaps.org/protocol.html 

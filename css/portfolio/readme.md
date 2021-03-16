@@ -48,4 +48,22 @@ var lazyLoadInstance = new LazyLoad({
 + Include links for jQuery and Lazyload.js 
 + Works in its own script file...   app.js   last thing before the body tag  
 
+## Robots.txt Example
+
+https://developers.google.com/search/docs/advanced/robots/create-robots-txt 
+
+
+```
+# Block googlebot from example.com/directory1/... and example.com/directory2/...
+# but allow access to directory2/subdirectory1/...
+# All other directories on the site are allowed by default.
+User-agent: googlebot
+Disallow: /directory1/
+Disallow: /directory2/
+Allow: /directory2/subdirectory1/
+
+# Block the entire site from anothercrawler.
+User-agent: anothercrawler
+Disallow: /
+```
 

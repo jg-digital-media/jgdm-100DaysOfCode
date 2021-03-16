@@ -1,0 +1,11 @@
+# Block googlebot from example.com/directory1/... and example.com/directory2/...
+# but allow access to directory2/subdirectory1/...
+# All other directories on the site are allowed by default.
+
+User-agent: googlebot
+Allow: /photography/
+Allow: /portfolio/
+Allow: /blog/
+Allow: /projects/
+Allow: /wordpress/
+Allow: /android/

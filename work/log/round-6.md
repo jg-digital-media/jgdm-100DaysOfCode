@@ -1,19 +1,26 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 82 of 100. **Last Update:** 12 March 2021
+## **Status:** Day 84 of 100. **Last Update:** 16 March 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-### R7D82: Friday 12 March 2021
+### R6D84: Tuesday 16 March 2021
+
++ **Notes**
+  + Today has been a good day. After some time set aside for office cleaning, I've used today to make some headway in fixing some bugs in my online portfolio. Back to my client work tomorrow after sign off on the next stage.
+
+  + **Technologies used** - HTML5, SASS, WordPress, JSON  
+
+### R6D83: Monday 15 March 2021
 
 + **Notes**
   + Today for Day 83, I got to work on my newest client web project and did my regular Monday Photography content update. Monday has been good!
 
-  + **Technologies used** - HTML5, SASS, JavaScript, jQuery JSON  
+  + **Technologies used** - HTML5, SASS, JavaScript, jQuery, JSON  
 
 
-### R7D82: Friday 12 March 2021
+### R6D82: Friday 12 March 2021
 
 + **Notes**
   +  It's Day 82, Round 6. Rounding off another week in 100DaysOfCode.  Happy to say I'll soon be starting a new client project #100DaysOfCode 
@@ -21,7 +28,7 @@ ___
   + **Technologies used** - HTML5, SASS 
 
 
-### R7D81: Thursday 11 March 2021
+### R6D81: Thursday 11 March 2021
 
 + **Notes**
   +  A Quick update. It's been a long day.  I have a solution for the Photo Viewer App, I've done some cleanup in my #100DaysOfCode Repository and added more projects to my portfolio. https://blog.jonniegrieve.co.uk/blog_posts/r6d81-100daysofcode/ 
@@ -29,49 +36,49 @@ ___
   + **Technologies used** - HTML5, SASS 
 
 
-### R7D80: Wednesday 10 March 2021
+### R6D80: Wednesday 10 March 2021
 
 + **Notes**
   +  A look at the work I've been doing in the last couple of days in WordPress, jQuery and CSS. https://blog.jonniegrieve.co.uk/blog_posts/r6d80-100daysofcode/ 
 
   + **Technologies used** - HTML5, SASS, WordPress, JavaScript, jQuery
 
-### R7D79: Tuesday 9 March 2021
+### R6D79: Tuesday 9 March 2021
 
 + **Notes**
   +  R6D79: Cycling through a multi-dimensional array of image data as detailed in today's blog. I haven't found a way to make the data react the same way yet. But this is progress! That and more in the blog.   
 
   + **Technologies used** - HTML5, SASS, WordPress, JavaScript, jQuery
 
-### R7D78: Monday 8 March 2021
+### R6D78: Monday 8 March 2021
 
 + **Notes**
   +  Updated and fixed some bugs in my Project Status pages and uploaded my latest Photography Website Update.
 
   + **Technologies used** - HTML5, SASS, WordPress, PHP
 
-### R7D77: Friday 5 March 2021
+### R6D77: Friday 5 March 2021
 
 + **Notes**
   +  A short summary of the work I've been doing today across many of my platforms and subdomains.  It's been nice to get multiple things done rather than get too bogged down on one fixing one bug.
 
   + **Technologies used** - HTML5, SASS, WordPress, PHP
 
-### R7D76: Thursday 4 March 2021
+### R6D76: Thursday 4 March 2021
 
 + **Notes**
   +  Frustrating. I'm having issues following along and building on what I did yesterday. It seems to be a problem with events. Was the use of event here recently deprecated? I'm looking for answers. 
 
   + **Technologies used** - HTML5, SASS, WordPress, PHP
 
-### R7D75: Wednesday 3 March 2021
+### R6D75: Wednesday 3 March 2021
 
 + **Notes**
   +  Well, I'm writing this latest blog satisfied with what I have managed to get done so far in terms of my photo viewer app. And I discuss plans I've made for my work over at projects.jonniegrieve.co.uk
 
   + **Technologies used** - HTML5, SASS, WordPress, PHP
 
-### R7D74: Tuesday 2 March 2021
+### R6D74: Tuesday 2 March 2021
 
 + **Notes**
   +  I decided on a change of Topic today. I finished my work into the basics of Sequelize.js and Database relationships. I also talk about issues I've had trying to apply syntax highlighting for code snippets in this blog.

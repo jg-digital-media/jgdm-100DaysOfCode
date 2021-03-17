@@ -1,12 +1,17 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 84 of 100. **Last Update:** 16 March 2021
+## **Status:** Day 85 of 100. **Last Update:** 17 March 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-### R6D84: Tuesday 16 March 2021
+### R6D85: Tuesday 17 March 2021
++ **Notes**
+  +  This is the 5th and I hope the last iteration of my attempts to make a PhotoViewer. I think I've finally found the way forward with this.  A short blog on what's been done and what is to come.
 
+  + **Technologies used** - HTML5, SASS, WordPress, JSON  
+
+### R6D84: Tuesday 16 March 2021
 + **Notes**
   + Today has been a good day. After some time set aside for office cleaning, I've used today to make some headway in fixing some bugs in my online portfolio. Back to my client work tomorrow after sign off on the next stage.
 

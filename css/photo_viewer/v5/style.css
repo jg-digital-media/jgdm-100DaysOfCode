@@ -1,15 +1,26 @@
 /**
 
-Last Update: 14:50  17/03/2021
+Last Update: 12:41  18/03/2021
 Authored by: @jg_DigitalMedia
 
 */
+main .button_pagination .prev,
+main .button_pagination .next {
+  cursor: pointer;
+  background: white;
+  background: orange;
+  background: #ffff2f;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: solid black 1px; }
+
 * {
   padding: 0;
   margin: 0; }
 
 body {
-  background: #fafa75; }
+  background: #fafa75;
+  font-family: arial; }
 
 header {
   display: block;
@@ -31,19 +42,33 @@ main {
   main p {
     line-height: 1.6;
     margin-bottom: 10px; }
+  main .button_pagination {
+    text-align: center;
+    margin: 20px 0; }
   main .slideshow-container .mySlides {
     display: none;
     /* display: block; */ }
   main .slideshow-container .img_slide {
     width: 65%;
     margin: 0 auto;
-    display: block; }
+    display: block;
+    border: solid 3px gray;
+    border-radius: 10px; }
   main .slideshow-container .slide_text {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     /*  position: absolute; */
     /* top: 0; */ }
+    main .slideshow-container .slide_text span.caption_filename,
+    main .slideshow-container .slide_text span.caption_date,
+    main .slideshow-container .slide_text span.caption_iso,
+    main .slideshow-container .slide_text span.caption_aperture,
+    main .slideshow-container .slide_text span.caption_shutter,
+    main .slideshow-container .slide_text span.caption_focalLength,
+    main .slideshow-container .slide_text span.caption_description {
+      color: black;
+      font-weight: bold; }
     main .slideshow-container .slide_text span.caption_filename {
       color: black; }
       main .slideshow-container .slide_text span.caption_filename + span {
@@ -75,14 +100,34 @@ main {
       main .slideshow-container .slide_text span.caption_description + span {
         color: black;
         font-size: 30pt; }
+  main .slideshow-container table {
+    width: 65%;
+    border: 0;
+    color: black;
+    margin: 0 auto;
+    font-size: 15pt; }
+  main .slideshow-container td:nth-child(1) {
+    font-weight: bold; }
+  main .slideshow-container tr {
+    height: 33px;
+    line-height: 2; }
+  main .slideshow-container tr.caption_description {
+    font-size: 10pt; }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  display: block;
+  margin: 0px auto 20px auto;
   font-size: 12px;
   padding: 8px 12px;
-  position: absolute;
-  top: 0; }
+  /* position: absolute; */
+  /* top: 0; */
+  color: black;
+  font-weight: bold;
+  font-size: 15pt;
+  text-align: center;
+  border-bottom: dashed 2px black;
+  width: 112px; }
 
 /* The dots/bullets/indicators */
 .dot {
@@ -90,7 +135,7 @@ main {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #717171;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease; }

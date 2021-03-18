@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 85 of 100. **Last Update:** 17 March 2021
+## **Status:** Day 86 of 100. **Last Update:** 18 March 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-### R6D85: Tuesday 17 March 2021
+### R6D86: Thursday 18 March 2021
++ **Notes**
+  + I'm finally ready to release the 5th iteration of the Photo Viewer App I've been trying to build for weeks now. Built in JavaScript, jQuery and JSON I'm excited I've been able to get this far. I wrote a blog to discuss it. 
+
+  + **Technologies used** - HTML5, SASS, WordPress, JSON  
+
+
+### R6D85: Wednesday 17 March 2021
 + **Notes**
   +  This is the 5th and I hope the last iteration of my attempts to make a PhotoViewer. I think I've finally found the way forward with this.  A short blog on what's been done and what is to come.
 

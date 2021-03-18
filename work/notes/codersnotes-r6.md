@@ -12,7 +12,72 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
-### Day 85
+### Day 86
+
+
+```javascript
+
+
+let numberText = document.querySelector(".numbertext");
+
+  console.log(photoData.photo_data.length);
+  
+  //display length to the screen
+  numberText.textContent = photoData.photo_data.length;
+
+
+
+```
+
+```javascript
+
+<div class="slide_text">                        
+
+            <table border="1">
+              <tr>
+                <td>Filename:</td>
+                <td>${ photoData.photo_data[i].filename }</td>
+              </tr>
+              <tr>
+                <td>Date:</td>
+                <td>${ photoData.photo_data[i].date_taken }</td>
+              </tr>
+              <tr>
+                <td>ISO:</td>
+                <td>${ photoData.photo_data[i].photo_ISO }</td>
+              </tr>
+              <tr>
+                  <td>Aperture:</td>
+                  <td>${ photoData.photo_data[i].aperture }</td>
+              </tr>
+              <tr>
+                  <td>Shutter Speed:</td>
+                  <td>${ photoData.photo_data[i].shutter_speed }</td>
+              </tr>
+              <tr>
+                  <td>Focal Length:</td>
+                  <td>${ photoData.photo_data[i].focal_length }</td>
+              </tr>
+              <tr>
+                <td colspan="2" class="caption_description">Description:</td>
+              </tr>
+              <tr>
+                <td colspan="2">${ photoData.photo_data[i].description }</td>
+              </tr>
+
+            </table>
+
+            /* <span class="caption_filename">Filename: </span> <span>${ photoData.photo_data[i].description }</span>
+            <span class="caption_date">Date: </span> <span> 0${ photoData.photo_data[i].date_taken }</span>
+            <span class="caption_iso">ISO: </span> <span>${ photoData.photo_data[i].photo_ISO }</span>
+            <span class="caption_aperture">Aperture: </span> <span>${ photoData.photo_data[i].aperture }</span>
+            <span class="caption_shutter">Shutter Speed: </span> <span>${ photoData.photo_data[i].shutter_speed } </span>
+            <span class="caption_focalLength">Focal Length: </span> <span>${ photoData.photo_data[i].focal_length } </span>        
+            <span class="caption_description">Description</span> <span>${ photoData.photo_data[i].description } </span>  */
+
+        </div>
+
+```
 
 
 

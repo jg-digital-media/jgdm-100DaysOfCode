@@ -3,7 +3,7 @@
         {
             "photo_id": "1",
             "photo_title": "Luke",
-            "filename":"IMG_0010.jpg",
+            "filename":"IMG_0010.JPG",
             "filepath":"assets/img/IMG_0010.JPG",
             "date_taken": "22/07/2020: 20:00",
             "alt": "Luke",
@@ -42,8 +42,8 @@
         }, { 
             "photo_id": "4",
             "photo_title": "sharp sunny landscape",
-            "filename":"IMG_0367.JPG",
-            "filepath":"assets/img/IMG_0367.JPG",
+            "filename":"IMG_0369.JPG",
+            "filepath":"assets/img/IMG_0369.JPG",
             "date_taken": "31/07/2020 - 11:25",
             "alt": "sharp sunny landscape",
             "photo_ISO": "100",

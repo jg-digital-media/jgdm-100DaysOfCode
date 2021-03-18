@@ -17,6 +17,7 @@ main {
     .button_pagination {
         text-align: center;
         margin: 20px 0;
+        font-weight: bold;
 
         .prev,
         .next {
@@ -41,11 +42,8 @@ main {
 
         .slide_text {
             
-            color: #f2f2f2;
-            font-size: 12px;
             padding: 8px 12px;
-           /*  position: absolute; */
-            /* top: 0; */
+            text-align: center;
 
             span.caption_filename,
             span.caption_date,
@@ -122,6 +120,10 @@ main {
 
         td:nth-child(1) {
             font-weight: bold;
+        }
+        td:nth-child(2) {
+            font-weight: bold;
+            color: #717171;
         }
 
         tr {

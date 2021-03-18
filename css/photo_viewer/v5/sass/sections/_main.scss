@@ -129,8 +129,9 @@ main {
             line-height: 2;
         }
 
-        tr.caption_description {
+        td.caption_description {
             font-size: 10pt;
+            text-align: center;
         }
     }
 }
@@ -167,7 +168,9 @@ main {
   }
   
   .active, .dot:hover {
-    background-color: $bgcol-tertiary;
+   /*  background-color: lighten(5%, $bgcol-tertiary); */
+    background-color: lighten($bgcol-tertiary, 5%);
+    background-color: $bgcol-tertiary-hov;
   }
   
   /* Fading animation */

@@ -17,7 +17,22 @@ header {
     background: black;
     color: white;
     
-     h1 {
+    h1 {
          text-align: center;
-     }
+    }
+
+    p {
+        text-align: center;
+        font-size: 10px;
+        margin-top: 8px;
+        a {
+
+            color: white;
+            color: gold;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
 }

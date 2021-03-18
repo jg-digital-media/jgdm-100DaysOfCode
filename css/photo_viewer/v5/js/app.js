@@ -86,21 +86,13 @@ jQuery.getJSON('https://landing.jonniegrieve.co.uk/photo_viewer/assets/data/phot
                   <td>${ photoData.photo_data[i].focal_length }</td>
               </tr>
               <tr>
-                <td colspan="2">Description:</td>
+                <td colspan="2" class="caption_description">Description:</td>
               </tr>
               <tr>
-                <td colspan="2" class="caption_description">${ photoData.photo_data[i].description }</td>
+                <td colspan="2">${ photoData.photo_data[i].description }</td>
               </tr>
 
             </table>
-
-            <span class="caption_filename">Filename: </span> <span>${ photoData.photo_data[i].description }</span>
-            <span class="caption_date">Date: </span> <span> 0${ photoData.photo_data[i].date_taken }</span>
-            <span class="caption_iso">ISO: </span> <span>${ photoData.photo_data[i].photo_ISO }</span>
-            <span class="caption_aperture">Aperture: </span> <span>${ photoData.photo_data[i].aperture }</span>
-            <span class="caption_shutter">Shutter Speed: </span> <span>${ photoData.photo_data[i].shutter_speed } </span>
-            <span class="caption_focalLength">Focal Length: </span> <span>${ photoData.photo_data[i].focal_length } </span>        
-            <span class="caption_description">Description</span> <span>${ photoData.photo_data[i].description } </span> 
 
         </div>
       

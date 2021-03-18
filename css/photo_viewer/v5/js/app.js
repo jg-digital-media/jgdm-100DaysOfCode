@@ -1,5 +1,10 @@
 console.log("app.js");
 
+
+
+
+let numberText = document.querySelector(".numbertext");
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -37,11 +42,15 @@ function showSlides(n) {
 
 $(document).ready(function () {
 
+
  
 jQuery.getJSON('https://landing.jonniegrieve.co.uk/photo_viewer/assets/data/photo_data.json', function(photoData) { 
     
   let get_photo_data = photoData.photo_data.length;
   console.log(photoData.photo_data.length);
+  
+  //display length to the screen
+  numberText.textContent = photoData.photo_data.length;
 
 
   //photo_id

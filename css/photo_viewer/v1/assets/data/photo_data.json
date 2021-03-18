@@ -75,7 +75,7 @@
             "photo_ISO": "400",
             "aperture": "f/5.6",
             "shutter_speed": "1/4000 sec",
-            "focal_length": "Aperture mode- overcast ocean/coastal landscape",
+            "focal_length": "18mm",
             "description": "Aperture mode- overcast ocean/coastal landscape"
 
         }, { 
@@ -119,6 +119,19 @@
 
         }, { 
             "photo_id": "10",
+            "photo_title": "Sunny. Sharp.  Bright. Colourful",
+            "filename":"IMG_0481.JPG",
+            "filepath":"assets/img/IMG_0481.JPG",
+            "date_taken": "02/08/2020: 14:42",
+            "alt": "Sunny. Sharp.  Bright. Colourful",
+            "photo_ISO": "100",
+            "aperture": "f/8",
+            "shutter_speed": "1/160 sec",
+            "focal_length": "55mm",
+            "description": "Sunny. Sharp.  Bright. Colourful"
+
+        }, { 
+            "photo_id": "11",
             "photo_title": "Sunny. Sharp.  Bright. Colourful",
             "filename":"IMG_0481.JPG",
             "filepath":"assets/img/IMG_0481.JPG",

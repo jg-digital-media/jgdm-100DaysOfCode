@@ -1,8 +1,5 @@
 console.log("app.js");
 
-
-
-
 let numberText = document.querySelector(".numbertext");
 
 var slideIndex = 1;
@@ -44,19 +41,20 @@ $(document).ready(function () {
 
 
  
-jQuery.getJSON('https://landing.jonniegrieve.co.uk/photo_viewer/assets/data/photo_data.json', function(photoData) { 
+  jQuery.getJSON('https://projects.jonniegrieve.co.uk/photo_viewer/v1/assets/data/photo_data.json', function(photoData) { 
     
-  let get_photo_data = photoData.photo_data.length;
-  console.log(photoData.photo_data.length);
+    let get_photo_data = photoData.photo_data.length;
+    console.log("Landscapes: " + photoData.photo_data.length);
   
-  //display length to the screen
-  numberText.textContent = photoData.photo_data.length;
+    //display length to the screen
+    numberText.textContent = photoData.photo_data.length;
 
 
   //photo_id
   //photoData.photo_data.length
 
   
+  //landscapes slideshow
   for (let i=0; i < get_photo_data; i++) { 
 
     jQuery(`
@@ -65,7 +63,7 @@ jQuery.getJSON('https://landing.jonniegrieve.co.uk/photo_viewer/assets/data/phot
 
         <div class="numbertext">${ photoData.photo_data[i].photo_id } / ${ get_photo_data }</div>
 
-        <img class="img_slide" src="http://projects.jonniegrieve.co.uk/photo_viewer/v1/assets/img/${ photoData.photo_data[i].filename }" style="/*width:100%; */" alt="${ photoData.photo_data[i].alt }">
+        <img class="img_slide" src="http://projects.jonniegrieve.co.uk/photo_viewer/v1/assets/img/landscapes/${ photoData.photo_data[i].filename }" style="/*width:100%; */" alt="${ photoData.photo_data[i].alt }">
 
         <div class="slide_text">                        
 
@@ -110,7 +108,7 @@ jQuery.getJSON('https://landing.jonniegrieve.co.uk/photo_viewer/assets/data/phot
     `).appendTo(".slideshow-container");
 
 }
-  
+   
 })
 
 });

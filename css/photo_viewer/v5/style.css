@@ -26,7 +26,7 @@ header {
   display: block;
   position: relative;
   border-bottom: solid white 3px;
-  min-height: 120px;
+  min-height: 80px;
   background: black;
   color: white; }
   header h1 {
@@ -55,16 +55,22 @@ main {
     text-align: center;
     margin: 20px 0;
     font-weight: bold; }
-  main .slideshow-container .mySlides {
+  main .slideshow-container .mySlides,
+  main .slideshow-container-portraits .mySlides,
+  main .slideshow-container-landscapes .mySlides {
     display: none;
     /* display: block; */ }
-  main .slideshow-container .img_slide {
+  main .slideshow-container .img_slide,
+  main .slideshow-container-portraits .img_slide,
+  main .slideshow-container-landscapes .img_slide {
     width: 65%;
     margin: 0 auto;
     display: block;
     border: solid 3px gray;
     border-radius: 10px; }
-  main .slideshow-container .slide_text {
+  main .slideshow-container .slide_text,
+  main .slideshow-container-portraits .slide_text,
+  main .slideshow-container-landscapes .slide_text {
     padding: 8px 12px;
     text-align: center; }
     main .slideshow-container .slide_text span.caption_filename,
@@ -73,55 +79,107 @@ main {
     main .slideshow-container .slide_text span.caption_aperture,
     main .slideshow-container .slide_text span.caption_shutter,
     main .slideshow-container .slide_text span.caption_focalLength,
-    main .slideshow-container .slide_text span.caption_description {
+    main .slideshow-container .slide_text span.caption_description,
+    main .slideshow-container-portraits .slide_text span.caption_filename,
+    main .slideshow-container-portraits .slide_text span.caption_date,
+    main .slideshow-container-portraits .slide_text span.caption_iso,
+    main .slideshow-container-portraits .slide_text span.caption_aperture,
+    main .slideshow-container-portraits .slide_text span.caption_shutter,
+    main .slideshow-container-portraits .slide_text span.caption_focalLength,
+    main .slideshow-container-portraits .slide_text span.caption_description,
+    main .slideshow-container-landscapes .slide_text span.caption_filename,
+    main .slideshow-container-landscapes .slide_text span.caption_date,
+    main .slideshow-container-landscapes .slide_text span.caption_iso,
+    main .slideshow-container-landscapes .slide_text span.caption_aperture,
+    main .slideshow-container-landscapes .slide_text span.caption_shutter,
+    main .slideshow-container-landscapes .slide_text span.caption_focalLength,
+    main .slideshow-container-landscapes .slide_text span.caption_description {
       color: black;
       font-weight: bold; }
-    main .slideshow-container .slide_text span.caption_filename {
+    main .slideshow-container .slide_text span.caption_filename,
+    main .slideshow-container-portraits .slide_text span.caption_filename,
+    main .slideshow-container-landscapes .slide_text span.caption_filename {
       color: black; }
-      main .slideshow-container .slide_text span.caption_filename + span {
+      main .slideshow-container .slide_text span.caption_filename + span,
+      main .slideshow-container-portraits .slide_text span.caption_filename + span,
+      main .slideshow-container-landscapes .slide_text span.caption_filename + span {
         color: black; }
-    main .slideshow-container .slide_text span.caption_date {
+    main .slideshow-container .slide_text span.caption_date,
+    main .slideshow-container-portraits .slide_text span.caption_date,
+    main .slideshow-container-landscapes .slide_text span.caption_date {
       color: black; }
-      main .slideshow-container .slide_text span.caption_date + span {
+      main .slideshow-container .slide_text span.caption_date + span,
+      main .slideshow-container-portraits .slide_text span.caption_date + span,
+      main .slideshow-container-landscapes .slide_text span.caption_date + span {
         color: black; }
-    main .slideshow-container .slide_text span.caption_iso {
+    main .slideshow-container .slide_text span.caption_iso,
+    main .slideshow-container-portraits .slide_text span.caption_iso,
+    main .slideshow-container-landscapes .slide_text span.caption_iso {
       color: black; }
-      main .slideshow-container .slide_text span.caption_iso + span {
+      main .slideshow-container .slide_text span.caption_iso + span,
+      main .slideshow-container-portraits .slide_text span.caption_iso + span,
+      main .slideshow-container-landscapes .slide_text span.caption_iso + span {
         color: black; }
-    main .slideshow-container .slide_text span.caption_aperture {
+    main .slideshow-container .slide_text span.caption_aperture,
+    main .slideshow-container-portraits .slide_text span.caption_aperture,
+    main .slideshow-container-landscapes .slide_text span.caption_aperture {
       color: black; }
-      main .slideshow-container .slide_text span.caption_aperture + span {
+      main .slideshow-container .slide_text span.caption_aperture + span,
+      main .slideshow-container-portraits .slide_text span.caption_aperture + span,
+      main .slideshow-container-landscapes .slide_text span.caption_aperture + span {
         color: black; }
-    main .slideshow-container .slide_text span.caption_shutter {
+    main .slideshow-container .slide_text span.caption_shutter,
+    main .slideshow-container-portraits .slide_text span.caption_shutter,
+    main .slideshow-container-landscapes .slide_text span.caption_shutter {
       color: black; }
-      main .slideshow-container .slide_text span.caption_shutter + span {
+      main .slideshow-container .slide_text span.caption_shutter + span,
+      main .slideshow-container-portraits .slide_text span.caption_shutter + span,
+      main .slideshow-container-landscapes .slide_text span.caption_shutter + span {
         color: black; }
-    main .slideshow-container .slide_text span.caption_focalLength {
+    main .slideshow-container .slide_text span.caption_focalLength,
+    main .slideshow-container-portraits .slide_text span.caption_focalLength,
+    main .slideshow-container-landscapes .slide_text span.caption_focalLength {
       color: black; }
-      main .slideshow-container .slide_text span.caption_focalLength + span {
+      main .slideshow-container .slide_text span.caption_focalLength + span,
+      main .slideshow-container-portraits .slide_text span.caption_focalLength + span,
+      main .slideshow-container-landscapes .slide_text span.caption_focalLength + span {
         color: black; }
-    main .slideshow-container .slide_text span.caption_description {
+    main .slideshow-container .slide_text span.caption_description,
+    main .slideshow-container-portraits .slide_text span.caption_description,
+    main .slideshow-container-landscapes .slide_text span.caption_description {
       color: black;
       width: 100%;
       font-size: 20pt; }
-      main .slideshow-container .slide_text span.caption_description + span {
+      main .slideshow-container .slide_text span.caption_description + span,
+      main .slideshow-container-portraits .slide_text span.caption_description + span,
+      main .slideshow-container-landscapes .slide_text span.caption_description + span {
         color: black;
         font-size: 30pt; }
-  main .slideshow-container table {
+  main .slideshow-container table,
+  main .slideshow-container-portraits table,
+  main .slideshow-container-landscapes table {
     width: 65%;
     border: 0;
     color: black;
     margin: 0 auto;
     font-size: 15pt; }
-  main .slideshow-container td:nth-child(1) {
+  main .slideshow-container td:nth-child(1),
+  main .slideshow-container-portraits td:nth-child(1),
+  main .slideshow-container-landscapes td:nth-child(1) {
     font-weight: bold; }
-  main .slideshow-container td:nth-child(2) {
+  main .slideshow-container td:nth-child(2),
+  main .slideshow-container-portraits td:nth-child(2),
+  main .slideshow-container-landscapes td:nth-child(2) {
     font-weight: bold;
     color: #717171; }
-  main .slideshow-container tr {
+  main .slideshow-container tr,
+  main .slideshow-container-portraits tr,
+  main .slideshow-container-landscapes tr {
     height: 33px;
     line-height: 2; }
-  main .slideshow-container td.caption_description {
+  main .slideshow-container td.caption_description,
+  main .slideshow-container-portraits td.caption_description,
+  main .slideshow-container-landscapes td.caption_description {
     font-size: 10pt;
     text-align: center; }
 

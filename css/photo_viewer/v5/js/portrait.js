@@ -41,7 +41,7 @@ $(document).ready(function () {
 
 
  
-  jQuery.getJSON('https://projects.jonniegrieve.co.uk/photo_viewer/v1/assets/data/photo_data_portraits.json', function(photoData) { 
+  jQuery.getJSON('https://projects.jonniegrieve.co.uk/photo_viewer/data/photo_data_portraits.json', function(photoData) { 
     
     let get_portrait_data = photoData.portrait_data.length;
     console.log("Portraits: " + photoData.portrait_data.length);

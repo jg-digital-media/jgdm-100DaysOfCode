@@ -41,7 +41,7 @@ $(document).ready(function () {
 
 
  
-  jQuery.getJSON('https://projects.jonniegrieve.co.uk/photo_viewer/v1/assets/data/photo_data.json', function(photoData) { 
+  jQuery.getJSON('https://projects.jonniegrieve.co.uk/photo_viewer/data/photo_data.json', function(photoData) { 
     
     let get_photo_data = photoData.photo_data.length;
     console.log("Landscapes: " + photoData.photo_data.length);

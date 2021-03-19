@@ -22,10 +22,10 @@ jQuery(function(){
     $index = 0;
 
     for(let i=0; i < imageList.length; i++) {
-        $storage.append("<div class=" + "image" + i +"> <img src= " + "http://projects.jonniegrieve.co.uk/photo_viewer/assets/" + imageList[i][0] + " /> </div>");
+        $storage.append("<div class=" + "image" + i +"> <img src= " + "http://projects.jonniegrieve.co.uk/photo_viewer/v1/assets/" + imageList[i][0] + " /> </div>");
     
         //image slide list
-        $viewer.append(`<img class="slides" src="http://projects.jonniegrieve.co.uk/photo_viewer/assets/${ imageList[i][0] }" />`);
+        $viewer.append(`<img class="slides" src="http://projects.jonniegrieve.co.uk/photo_viewer/v1/assets/${ imageList[i][0] }" />`);
 
         
         

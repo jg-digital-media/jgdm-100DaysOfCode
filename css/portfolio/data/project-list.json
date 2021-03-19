@@ -320,8 +320,8 @@
             "feat_img_url": "img/featured/learning_notes.jpg",
             "project_alt": "Go to Learning Notes Example",
             "project_type": "Website",
-            "project_status": "complete",
-            "status": true,
+            "project_status": "under_review",
+            "status": null,
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
@@ -549,7 +549,7 @@
             "project_alt": "Go to Praise in the Park Website",
             "project_type": "Website",
             "project_status": "upcoming",
-            "status": null,
+            "status": "upcoming",
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
@@ -705,7 +705,7 @@
             "project_alt": "Fetch syntax for API'S",
             "project_type": "website",
             "project_status": "under_review",
-            "status": "null",
+            "status": null,
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
@@ -777,7 +777,7 @@
             "project_alt": "AM Consulting",
             "project_type": "website",
             "project_status": "under_review",
-            "status": "upcoming",
+            "status": null,
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
@@ -789,7 +789,7 @@
             "project_alt": "Autism and Christianity",
             "project_type": "website",
             "project_status": "under_review",
-            "status": "null",
+            "status": null,
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
@@ -825,7 +825,7 @@
             "project_alt": "JGDM: Project Landing Page",
             "project_type": "website",
             "project_status": "upcoming",
-            "status": true,
+            "status": "upcoming",
             "img_type": "data-src",
             "img_type_data": "data-src"        
         }, {

@@ -15,19 +15,19 @@ console.log("app.js");
         [
 
             //filepath - ISO - shutter speed - aperture - focal length - Alt text - desc
-            ["http://landing.jonniegrieve.co.uk/photo_viewer/assets/img/IMG_0010.JPG"], ["ISO 300"], ["1/200"], ["f/4.5"], ["35mm"], ["alt text 1"], ["lorem ipsum text. This text contains characters and info about photo visual setting."]
+            ["http://projects.jonniegrieve.co.uk/photo_viewer/assets/v1/img/landscapes/IMG_0010.JPG"], ["ISO 300"], ["1/200"], ["f/4.5"], ["35mm"], ["alt text 1"], ["lorem ipsum text. This text contains characters and info about photo visual setting."]
         
         ], [
         
-            ["http://landing.jonniegrieve.co.uk/photo_viewer/assets/img/IMG_0048.jpg"], ["ISO 400"],  ["1/250"], ["f/5.5"], ["55mm"], ["alt text 2"], ["description text 2"]
+            ["http://projects.jonniegrieve.co.uk/photo_viewer/assets/v1/img/landscapes/IMG_0048.jpg"], ["ISO 400"],  ["1/250"], ["f/5.5"], ["55mm"], ["alt text 2"], ["description text 2"]
 
         ], [
 
-            ["http://landing.jonniegrieve.co.uk/photo_viewer/assets/img/IMG_0329.JPG"], ["ISO 700"],  ["1/2000"], ["f/6.5"], ["300mm"], ["alt text 3"], ["description text 3"]
+            ["http://projects.jonniegrieve.co.uk/photo_viewer/assets/v1/img/landscapes/IMG_0329.JPG"], ["ISO 700"],  ["1/2000"], ["f/6.5"], ["300mm"], ["alt text 3"], ["description text 3"]
 
         ], [
 
-            ["http://landing.jonniegrieve.co.uk/photo_viewer/assets/img/IMG_0369.JPG"], ["ISO 700"],  ["1/2000"], ["f/6.5"], ["300mm"], ["alt text 3"], ["description text 3"]
+            ["http://projects.jonniegrieve.co.uk/photo_viewer/assets/v1/img/landscapes/IMG_0369.JPG"], ["ISO 700"],  ["1/2000"], ["f/6.5"], ["300mm"], ["alt text 3"], ["description text 3"]
 
         ]
 
@@ -66,7 +66,7 @@ console.log("app.js");
       function changeslide(){        
    
         //  Changes the slide
-        eval('document.picbox.src = "http://landing.jonniegrieve.co.uk/photo_viewer/assets/img/IMG_' + slide_num + '.JPG"');
+        eval('document.picbox.src = "http://projects.jonniegrieve.co.uk/photo_viewer/v1/assets/img/IMG_' + slide_num + '.JPG"');
    
         //  Changes the description box
         eval('document.descform.descbox.value = "Slide ' + slide_num + ': ' + eval('desc' + slide_num) + '"');

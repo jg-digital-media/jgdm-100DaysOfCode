@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 86 of 100. **Last Update:** 18 March 2021
+## **Status:** Day 87 of 100. **Last Update:** 19 March 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R6D87: Friday 19 March 2021
++ **Notes**
+  + Here's a summary of what I've been up to as I draw this working week to a close. https://blog.jonniegrieve.co.uk/blog_posts/r6d87-100daysofcode/ 
+
+  + **Technologies used** - HTML5, SASS, WordPress, JSON
 
 ### R6D86: Thursday 18 March 2021
 + **Notes**

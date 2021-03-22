@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 87 of 100. **Last Update:** 19 March 2021
+## **Status:** Day 88 of 100. **Last Update:** 22 March 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R6D88: Monday 22 March 2021
++ **Notes**
+  +  Busy day looking into and fixing a huge error with one of my WordPress sites, how I resolved it, and an update to my Photography Website.
+  
+  + **Technologies used** - HTML5, SASS, WordPress, JSON
 
 ### R6D87: Friday 19 March 2021
 + **Notes**

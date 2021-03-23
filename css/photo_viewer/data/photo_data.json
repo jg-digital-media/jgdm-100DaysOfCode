@@ -93,16 +93,16 @@
 
         }, { 
             "photo_id": "8",
-            "photo_title": "rainfall shot dark/overcast",
-            "filename":"IMG_0472.JPG",
-            "filepath":"assets/img/IMG_0472.JPG",
-            "date_taken": "02/08/2020: 14:14",
-            "alt": "rainfall shot dark/overcast",
-            "photo_ISO": "3200",
-            "aperture": "f/10",
-            "shutter_speed": "1/2500 sec",
-            "focal_length": "55mm",
-            "description": "rainfall shot dark/overcast"
+            "photo_title": "Manual Exposure - Bird and Bird feeder",
+            "filename":"IMG_5601.JPG",
+            "filepath":"assets/img/IMG_5601.JPG",
+            "date_taken": "15/03/2021: 14:01",
+            "alt": "Manual Exposure - Bird and Bird feeder",
+            "photo_ISO": "1600",
+            "aperture": "f/13",
+            "shutter_speed": "1/200 sec",
+            "focal_length": "300mm",
+            "description": "Manual Exposure - Bird and Bird feeder"
 
         }, { 
             "photo_id": "9",

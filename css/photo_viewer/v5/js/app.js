@@ -28,7 +28,7 @@ function showSlides(n) {
     for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex-1].style.display = "block";
+    slides[slideIndex-1].style.display = "flex";
     dots[slideIndex-1].className += " active";
 }
 
@@ -92,12 +92,12 @@ $(document).ready(function () {
                   <td>Focal Length:</td>
                   <td>${ photoData.photo_data[i].focal_length }</td>
               </tr>
-              <tr>
-                <td colspan="2" class="caption_description">Description:</td>
+              <!-- <tr>
+                <td colspan="2">Description:</td>
               </tr>
               <tr>
-                <td colspan="2">${ photoData.photo_data[i].description }</td>
-              </tr>
+                <td colspan="2" class="caption_description">${ photoData.photo_data[i].description }</td>
+              </tr>-->
 
             </table>
 

@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 88 of 100. **Last Update:** 22 March 2021
+## **Status:** Day 89 of 100. **Last Update:** 23 March 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R6D89: Tuesday 23 March 2021
++ **Notes**
+  + I've made some adaptions to the Photo Viewer App. I wanted to find a way to align the table of data and the active image to the same line of document flow; allowing me to present the content in an at-a-glance fashion. Here's how I did it.   
+  
+  + **Technologies used** - HTML5, SASS, WordPress, JSON
 
 ### R6D88: Monday 22 March 2021
 + **Notes**

@@ -4,9 +4,11 @@
 
 
 
+@import "sass/config/breakpoints";
 @import "sass/config/colours";
 @import "sass/config/font";
 @import "sass/config/extends";
+
 
 @import "sass/sections/header";
 @import "sass/sections/main";

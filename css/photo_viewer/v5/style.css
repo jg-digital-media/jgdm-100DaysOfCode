@@ -1,6 +1,6 @@
 /**
 
-Last Update: 12:41  18/03/2021
+Last Update: 13:28  22/03/2021
 Authored by: @jg_DigitalMedia
 
 */
@@ -10,9 +10,23 @@ main .button_pagination .next {
   background: white;
   background: orange;
   background: #ffff2f;
+  margin: 20px auto;
+  font-weight: bold;
   padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
   border-radius: 10px;
-  border: solid black 1px; }
+  border: solid black 1px;
+  width: 40%; }
+  main .button_pagination .prev:hover,
+  main .button_pagination .next:hover {
+    background: #fdc660; }
+  @media (max-width: 680px) {
+    main .button_pagination .prev,
+    main .button_pagination .next {
+      background: #fdc660; } }
 
 * {
   padding: 0;
@@ -44,7 +58,7 @@ header {
 main {
   display: block;
   margin: 0 auto;
-  width: 66%; }
+  width: 85%; }
   main h2 {
     text-align: center;
     margin-top: 20px; }
@@ -53,26 +67,50 @@ main {
     margin-bottom: 10px; }
   main .button_pagination {
     text-align: center;
-    margin: 20px 0;
-    font-weight: bold; }
+    /* margin: 20px auto; */
+    margin: 0 auto;
+    font-weight: bold;
+    display: flex;
+    width: 40%; }
+    @media (max-width: 680px) {
+      main .button_pagination {
+        width: 100%; } }
+  main .slideshow-container {
+    color: black; }
   main .slideshow-container .mySlides,
   main .slideshow-container-portraits .mySlides,
   main .slideshow-container-landscapes .mySlides {
     display: none;
     /* display: block; */ }
+    @media (max-width: 680px) {
+      main .slideshow-container .mySlides,
+      main .slideshow-container-portraits .mySlides,
+      main .slideshow-container-landscapes .mySlides {
+        width: 80%;
+        display: flex;
+        display: none;
+        flex-direction: column;
+        margin: 10px auto; } }
   main .slideshow-container .img_slide,
   main .slideshow-container-portraits .img_slide,
   main .slideshow-container-landscapes .img_slide {
-    width: 65%;
+    /* width: 70%; */
+    width: 50%;
     margin: 0 auto;
     display: block;
     border: solid 3px gray;
     border-radius: 10px; }
+    @media (max-width: 680px) {
+      main .slideshow-container .img_slide,
+      main .slideshow-container-portraits .img_slide,
+      main .slideshow-container-landscapes .img_slide {
+        width: 90%; } }
   main .slideshow-container .slide_text,
   main .slideshow-container-portraits .slide_text,
   main .slideshow-container-landscapes .slide_text {
     padding: 8px 12px;
-    text-align: center; }
+    text-align: center;
+    font-size: 10px; }
     main .slideshow-container .slide_text span.caption_filename,
     main .slideshow-container .slide_text span.caption_date,
     main .slideshow-container .slide_text span.caption_iso,
@@ -158,11 +196,10 @@ main {
   main .slideshow-container table,
   main .slideshow-container-portraits table,
   main .slideshow-container-landscapes table {
-    width: 65%;
+    width: 100%;
     border: 0;
     color: black;
-    margin: 0 auto;
-    font-size: 15pt; }
+    margin: 0 auto; }
   main .slideshow-container td:nth-child(1),
   main .slideshow-container-portraits td:nth-child(1),
   main .slideshow-container-landscapes td:nth-child(1) {
@@ -171,7 +208,8 @@ main {
   main .slideshow-container-portraits td:nth-child(2),
   main .slideshow-container-landscapes td:nth-child(2) {
     font-weight: bold;
-    color: #717171; }
+    color: #717171;
+    color: darkred; }
   main .slideshow-container tr,
   main .slideshow-container-portraits tr,
   main .slideshow-container-landscapes tr {
@@ -181,7 +219,8 @@ main {
   main .slideshow-container-portraits td.caption_description,
   main .slideshow-container-landscapes td.caption_description {
     font-size: 10pt;
-    text-align: center; }
+    text-align: center;
+    color: darkred; }
 
 /* Number text (1/3 etc) */
 .numbertext {
@@ -195,8 +234,17 @@ main {
   font-weight: bold;
   font-size: 15pt;
   text-align: center;
-  border-bottom: dashed 2px black;
+  /* border-bottom: dashed 2px $bgcol-secondary; */
   width: 112px; }
+
+.photo_selector {
+  /* width: 63%; */
+  width: 67%;
+  margin-top: 15px;
+  margin: 15px auto; }
+  @media (max-width: 680px) {
+    .photo_selector {
+      width: 100%; } }
 
 /* The dots/bullets/indicators */
 .dot {

@@ -63,7 +63,7 @@ $(document).ready(function () {
 
         <div class="numbertext">${ photoData.portrait_data[i].photo_id } / ${ get_portrait_data }</div>
 
-        <img class="img_slide" src="http://projects.jonniegrieve.co.uk/photo_viewer/v1/assets/img/landscapes/${ photoData.portrait_data[i].filename }" style="/*width:100%; */" alt="${ photoData.portrait_data[i].alt }">
+        <img class="img_slide" src="http://projects.jonniegrieve.co.uk/photo_viewer/assets/img/portraits/${ photoData.portrait_data[i].filename }" style="/*width:100%; */" alt="${ photoData.portrait_data[i].alt }">
 
         <div class="slide_text">                        
 

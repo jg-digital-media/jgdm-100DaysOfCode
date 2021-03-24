@@ -4,7 +4,7 @@ console.log("app.js connected")
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
-//select invdividual nav items
+//select individual nav items
 const navLink = document.querySelectorAll(".nav-link");
 
 navLink.forEach(n => n.addEventListener("click", closeMenu));

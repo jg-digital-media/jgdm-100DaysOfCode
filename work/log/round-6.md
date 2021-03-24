@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 89 of 100. **Last Update:** 23 March 2021
+## **Status:** Day 90 of 100. **Last Update:** 24 March 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R6D90: Wednesday 24 March 2021
++ **Notes**
+  + I wrote a small site with a responsive navigation header for practice, refined the photo selections for my photo viewer app and mercifully swiftly fixed the permalinks in my portfolio site.  Productive day.   
+  
+  + **Technologies used** - HTML5, SASS, WordPress, JSON
 
 ### R6D89: Tuesday 23 March 2021
 + **Notes**

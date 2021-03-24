@@ -42,8 +42,8 @@
         }, { 
             "photo_id": "4",
             "photo_title": "Dandelion - Sunny",
-            "filename":"IMG_5923_JPG",
-            "filepath":"assets/img/portraits/IMG_5923_JPG",
+            "filename":"IMG_5923.JPG",
+            "filepath":"assets/img/portraits/IMG_5923.JPG",
             "date_taken": "22/03/2021",
             "alt": "Dandelion - Sunny",
             "photo_ISO": "100",

@@ -1,17 +1,56 @@
 {
-    "portrait_data": [ 
+    "photo_data": [ 
         {
             "photo_id": "1",
-            "photo_title": "Photo 1",
+            "photo_title": "",
             "filename":"IMG_0472.JPG",
-            "filepath":"assets/img/IMG_0472.JPG",
-            "date_taken": "00/00/0000: 00:00",
+            "filepath":"assets/img/portraits/IMG_0472.JPG",
+            "date_taken": "",
             "alt": "",
-            "photo_ISO": "000",
-            "aperture": "f/0",
-            "shutter_speed": "0/00 sec",
-            "focal_length": "0mm",
-            "description": "photo 1"
+            "photo_ISO": "",
+            "aperture": "",
+            "shutter_speed": "",
+            "focal_length": "",
+            "description": ""
+
+        }, { 
+            "photo_id": "2",
+            "photo_title": "",
+            "filename":"IMG_5921.JPG",
+            "filepath":"assets/img/portraits/IMG_5921.JPG",
+            "date_taken": "",
+            "alt": "",
+            "photo_ISO": "",
+            "aperture": "",
+            "shutter_speed": "",
+            "focal_length": "",
+            "description": ""
+
+        }, { 
+            "photo_id": "3",
+            "photo_title": "",
+            "filename":"IMG_5922.JPG",
+            "filepath":"assets/img/portraits/IMG_5922.JPG",
+            "date_taken": "",
+            "alt": "",
+            "photo_ISO": "",
+            "aperture": "",
+            "shutter_speed": "",
+            "focal_length": "",
+            "description": ""
+
+        }, { 
+            "photo_id": "4",
+            "photo_title": "",
+            "filename":"IMG_5923_JPG",
+            "filepath":"assets/img/portraits/IMG_5923_JPG",
+            "date_taken": "",
+            "alt": "",
+            "photo_ISO": "",
+            "aperture": "",
+            "shutter_speed": "",
+            "focal_length": "",
+            "description": ""
 
         }
     ]

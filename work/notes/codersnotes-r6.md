@@ -12,6 +12,22 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
+### Day 91
+
+```php 
+
+<?php 
+
+  <div class="next"> <?php next_post_link( '%link','Newer' ); ?> </div>  
+
+    <span>Post Nav</span>
+
+    <div class="last"> <?php previous_post_link( '%link', 'Older' ); ?> </div>  
+?>
+
+
+```
+
 ### Day 90
 
 

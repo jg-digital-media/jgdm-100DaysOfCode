@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 90 of 100. **Last Update:** 24 March 2021
+## **Status:** Day 91 of 100. **Last Update:** 24 March 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### R6D91: Thursday 25 March 2021
++ **Notes**
+  + I turned my attention back to the WordPress Starter Theme repository. The latest version of the repository is available to clone via GitHub.  
+  
+  + **Technologies used** - HTML5, SASS, WordPress, JSON
 
 ### R6D90: Wednesday 24 March 2021
 + **Notes**

@@ -5,6 +5,11 @@ ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R6D92: Friday 26 March 2021
++ **Notes**
+  + I've just finished the first draft on my latest website for my new client so that's been exciting and before that, I did some useful work on my WordPress Starter Repository.  Looking forward to catching up on all of this after a restful weekend. 
+  
+  + **Technologies used** - HTML5, SASS, WordPress
 
 ### R6D91: Thursday 25 March 2021
 + **Notes**

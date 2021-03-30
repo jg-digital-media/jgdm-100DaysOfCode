@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 91 of 100. **Last Update:** 24 March 2021
+## **Status:** Day 93 of 100. **Last Update:** 29 March 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R6D93: Monday 29 March 2021
++ **Notes**
+  + I have a couple of updates to share before I go off for a little Easter break. I was delighted to be able to announce yesterday my latest client collaboration.  Details in the blog. Have a happy holiday :) 
+  
+  + **Technologies used** - HTML5, SASS, WordPress
 
 ### R6D92: Friday 26 March 2021
 + **Notes**

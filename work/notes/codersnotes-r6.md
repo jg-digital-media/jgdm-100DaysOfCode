@@ -12,7 +12,7 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
-### Day 92
+### Day 93
 
 
 This will create a "Movie" Custom Post Type.

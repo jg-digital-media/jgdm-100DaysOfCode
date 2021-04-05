@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 6: Day 89 of 100. **Last Update:** 23 March 2020 
++ **Status:** Round 6: Day 93 of 100. **Last Update:** 29 March 2020 
 
 ## Directories
   + api
@@ -22,6 +22,7 @@
     + balloon
     + form_accessible
     + modernizr
+    + navbar
     + photo_viewer
     + portfolio
     + portfolio-gallery

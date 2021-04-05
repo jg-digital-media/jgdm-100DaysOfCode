@@ -1,9 +1,33 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 89 of 100. **Last Update:** 23 March 2021
+## **Status:** Day 93 of 100. **Last Update:** 29 March 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R6D93: Monday 29 March 2021
++ **Notes**
+  + I have a couple of updates to share before I go off for a little Easter break. I was delighted to be able to announce yesterday my latest client collaboration.  Details in the blog. Have a happy holiday :) 
+  
+  + **Technologies used** - HTML5, SASS, WordPress
+
+### R6D92: Friday 26 March 2021
++ **Notes**
+  + I've just finished the first draft on my latest website for my new client so that's been exciting and before that, I did some useful work on my WordPress Starter Repository.  Looking forward to catching up on all of this after a restful weekend. 
+  
+  + **Technologies used** - HTML5, SASS, WordPress
+
+### R6D91: Thursday 25 March 2021
++ **Notes**
+  + I turned my attention back to the WordPress Starter Theme repository. The latest version of the repository is available to clone via GitHub.  
+  
+  + **Technologies used** - HTML5, SASS, WordPress, JSON
+
+### R6D90: Wednesday 24 March 2021
++ **Notes**
+  + I wrote a small site with a responsive navigation header for practice, refined the photo selections for my photo viewer app and mercifully swiftly fixed the permalinks in my portfolio site.  Productive day.   
+  
+  + **Technologies used** - HTML5, SASS, WordPress, JSON
 
 ### R6D89: Tuesday 23 March 2021
 + **Notes**

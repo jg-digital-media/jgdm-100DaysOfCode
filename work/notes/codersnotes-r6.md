@@ -12,8 +12,96 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
-### Day 89
+### Day 93
 
+
+This will create a "Movie" Custom Post Type.
+
+The "Movie" Post Type will show up in field groups in your Advanced Custom Fields Plugin.
+
+```php
+<!--- Create a Custom Post Type -->
+
+<?php
+
+//function for creating a custom post type
+function create_posttype() {
+
+    register_post_type ( 
+
+        //Generating Custom Post Type options
+        'movies', 
+        array(
+            'labels' => array( 
+                'name' => __( 'Movie' ), 
+                'singular_name' => __( 'Movie' ) 
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'movies'),
+            'show_in_rest' => true,
+        )
+   );  
+}
+
+//Hook to initial theme setup
+add_action( 'init', 'create_posttype' );
+
+Related Links
+
+https://www.wpbeginner.com/wp-tutorials/how-to-create-custom-post-types-in-wordpress/
+https://developer.wordpress.org/reference/functions/get_post_custom_values/
+https://www.advancedcustomfields.com/resources/register-fields-via-php/
+
+
+How to make Custom Fields in Code 
+
+
+```
+
+### Day 91
+
+```php 
+
+<?php 
+
+  <div class="next"> <?php next_post_link( '%link','Newer' ); ?> </div>  
+
+    <span>Post Nav</span>
+
+    <div class="last"> <?php previous_post_link( '%link', 'Older' ); ?> </div>  
+?>
+
+
+```
+
+### Day 90
+
+
+```javascript
+console.log("app.js connected")
+
+//select navigation elements
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+//select individual nav items
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+```
 
 
 ### Day 86

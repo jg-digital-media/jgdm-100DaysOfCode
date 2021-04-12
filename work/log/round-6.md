@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 93 of 100. **Last Update:** 29 March 2021
+## **Status:** Day 94 of 100. **Last Update:** 12 April 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R6D94: Monday 12 April 2021
++ **Notes**
+  + Welcome back from me and it's great to be back to work after an Easter Break. Over the last couple of weeks, I started thinking about my video content strategy with a new set of videos coming from Promo.com. Got back into work today doing some minor updates to my website.
+  
+  + **Technologies used** - HTML5, SASS, WordPress
 
 ### R6D93: Monday 29 March 2021
 + **Notes**

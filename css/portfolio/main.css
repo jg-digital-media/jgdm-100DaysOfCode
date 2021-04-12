@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   15/09/2020
+Last Updated:   14/04/2021  12:26pm
 */
 .main-content .button {
   background: #888e42;
@@ -70,21 +70,35 @@ header {
     header {
       display: block; } }
   header img {
-    width: 230px;
+    /* width: 230px; */
     margin-top: 16px;
-    display: inline-block; }
+    display: inline-block;
+    /* width: 7%; */
+    max-width: 100px;
+    margin: 15px;
+    height: 100px;
+    /* width: 150px; */ }
     @media (max-width: 1200px) {
       header img {
-        height: 130px; } }
+        /* height: 130px; */ } }
     @media (max-width: 780px) {
       header img {
         display: block;
-        margin: 0 auto; } }
+        margin: 5px auto; } }
   header #website-title {
     display: inline-block;
     width: 38%;
+    width: 64%;
+    width: 42%;
     text-align: center;
-    font-size: 10pt; }
+    font-size: 10pt;
+    margin: 0 auto; }
+    @media (max-width: 980px) {
+      header #website-title {
+        /* width: 55%; */ } }
+    @media (max-width: 780px) {
+      header #website-title {
+        width: 55%; } }
     header #website-title .green {
       color: #888e42; }
     header #website-title .yellow {
@@ -164,7 +178,8 @@ nav.main-nav {
     nav.main-nav ol li a {
       color: black;
       text-decoration: none;
-      font-weight: bold; }
+      font-weight: bold;
+      transition: color .2s; }
       nav.main-nav ol li a:hover {
         color: red; }
       nav.main-nav ol li a.selected {
@@ -196,10 +211,14 @@ nav.main-nav {
     margin-top: 150px; }
     @media (max-width: 980px) {
       .main-content article#intro {
-        margin-top: 5%; } }
+        margin-top: 5%;
+        margin-top: 10%; } }
     @media (max-width: 320px) {
       .main-content article#intro {
         padding: 20vh 0 0 0; } }
+    .main-content article#intro img#large_logo {
+      display: block;
+      margin: 0 auto; }
     .main-content article#intro h1 {
       text-align: center; }
       @media (max-width: 320px) {

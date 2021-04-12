@@ -97,7 +97,7 @@ Last Updated:   09 October 2020  11:41am
 
 
     <header>
-        <img title="Logo for Jonnie Grieve Digital Media" alt="Logo for Jonnie Grieve Digital Media" src="img/logo.jpg" tabindex="0" />
+        <img id="header-logo" title="Logo for Jonnie Grieve Digital Media" alt="Logo for Jonnie Grieve Digital Media" src="img/logo-circle.png" tabindex="0" />
 
         <span id="website-title" role="title">
             <h1>
@@ -170,6 +170,9 @@ Last Updated:   09 October 2020  11:41am
     <main class="main-content">
 
         <article id="intro" tabindex="0">
+
+            <img src="img/large-logo-clear.png" id="large_logo" alt="Jonnie Grieve Digital Media: Logo" title="Jonnie Grieve Digital Media: Logo" />
+
             <h1>Welcome to Jonnie Grieve Digital Media</h1>
 
             <p>Jonnie Grieve Digital Media is an independent website & multimedia design agency based in the North East of England.</p>

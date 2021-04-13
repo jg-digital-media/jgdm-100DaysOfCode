@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 94 of 100. **Last Update:** 12 April 2021
+## **Status:** Day 95 of 100. **Last Update:** 13 April 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R6D95: Tuesday 13 April 2021
++ **Notes**
+  + Just a small update today in terms of code... adding some behind the scenes meta data to a HTML document for the search engines. I've been concentrating on digital content today.
+  
+  + **Technologies used** - HTML5
 
 ### R6D94: Monday 12 April 2021
 + **Notes**

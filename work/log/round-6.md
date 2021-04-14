@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 95 of 100. **Last Update:** 13 April 2021
+## **Status:** Day 96 of 100. **Last Update:** 14 April 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+### R6D96: Wednesday 14 April 2021
++ **Notes**
+  + Successes with delivering videos on WordPress in a responsive fashion and more tinkering with my WordPress Starter Repository.  
+  
+  + **Technologies used** - HTML5, SASS, JavaScript, PHP, WordPress
 
 ### R6D95: Tuesday 13 April 2021
 + **Notes**

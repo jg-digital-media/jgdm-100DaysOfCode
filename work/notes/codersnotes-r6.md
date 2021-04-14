@@ -12,7 +12,43 @@
 + Project Status - https://projects.jonniegrieve.co.uk
 + Sequelize - project
 
-### Day 95
+### Day 96
+
+```css
+
+/*Code for Resoonsive MediaElementsJS Videos in WordPress*/
+
+/*requires video with no html width and height attributes*/
+.wp-video {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100% !important;
+}
+
+/* These declarations force the video element to resize with the browser. */
+.wp-video .mejs-container,
+.wp-video .mejs-container.svg.mejs-video,
+.wp-video .mejs-overlay.mejs-layer.mejs-overlay-play,
+.wp-video .mejs-poster.mejs-layer,
+.wp-video .mejs-captions-layer.mejs-layer,
+.wp-video video {
+    margin: 0 !important;
+    text-align: center;
+    width: 100% !important;
+    /* max-width: 100% !important; */
+    /* height: auto !important; */
+}
+
+.wp-video-shortcode {
+
+
+
+    }
+
+
+```
 
 
 

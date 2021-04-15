@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 4
 
-## **Status:** Day 96 of 100. **Last Update:** 14 April 2021
+## **Status:** Day 97 of 100. **Last Update:** 15 April 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### R6D97: Thursday 15 April 2021
++ **Notes**
+  + I spent the day doing a visual enhancement to my Photography page, "Photographic Adventures" for 2022, adding some black overlays on hover over each photo category. 
+  
+  + **Technologies used** - HTML5, SASS, JavaScript
+  
 ### R6D96: Wednesday 14 April 2021
 + **Notes**
   + Successes with delivering videos on WordPress in a responsive fashion and more tinkering with my WordPress Starter Repository.  

@@ -5,6 +5,12 @@ ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+## R6D98: Friday 16 April 2021
++ **Notes**
+  + This morning I've been working on setting up my Photo store on Picfair.   I've made some changes to my website to reflect this. 
+  
+  + **Technologies used** - HTML5, SASS, JavaScript
+
 ### R6D97: Thursday 15 April 2021
 + **Notes**
   + I spent the day doing a visual enhancement to my Photography page, "Photographic Adventures" for 2022, adding some black overlays on hover over each photo category. 

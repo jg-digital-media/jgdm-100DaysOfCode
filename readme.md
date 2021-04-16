@@ -20,10 +20,12 @@
       + vue-status-project    
   + css 
     + balloon
+    + experiments
     + form_accessible
     + modernizr
     + navbar
     + photo_viewer
+    + photos
     + portfolio
     + portfolio-gallery
     + project_status
@@ -45,7 +47,6 @@
     + four_in_a_row
     + greensock
     + iteration-methods
-    + node
     + random_number_challenge_js
     + th_live_pet_directory
   + nodeJS
@@ -138,6 +139,13 @@ PHP
 + **php/slimmin** - Single page App with Slim - **not yet uploaded** 
 + **php/twig** - Custom Project with the Twig Template Engine in Slim - **not yet uploaded** 
 + **php/twig_project** - Currently empty - A new project in Twig - **not yet uploaded**
+
+Python
+
++ **basics** -
++ **lists** - 
++ **madlibs** -
++ **flask** - To come  
 
 React
 

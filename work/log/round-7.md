@@ -6,8 +6,9 @@ ___
 ___
 
 ## R6D00: Monday 19 April 2021
+
 + **Notes**
-  + 
+  + I have started the next round of the 100DaysOfCode challenge.  This will now be the 7th time that I have started a round. I talk briefly about my goals for this round and more in my blog.
   
   + **Technologies used** - HTML5, SASS, JavaScript
 

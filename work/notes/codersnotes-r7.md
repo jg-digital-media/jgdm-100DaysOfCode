@@ -12,6 +12,73 @@
 + Local Storage - javaScript/localstorage
 + Photo Viewer App (Multiple Data Points) - css/photos
 
+
+### Day 02
+
+e.g. 
+
+```css
+.wildlife {
+  background-image: url(img/bear.jpg);
+}
+```
+
++ prevents a background image from repeating in any direction.
+
+```css
+.wildlife {
+  background-image: url(img/bear.jpg);
+  background-repeat: no-repeat;
+}
+```
+
++ position the background image in the center of the '.wildlife' element.
+
+
+```css
+.wildlife {
+  background-image: url(img/bear.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+```
+
++ fills the entire background of the container while maintaining the width and height proportions.
+
+```css
+.wildlife {
+  background-image: url(img/bear.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+```
+
++ value that forces any padding and border widths into its total width and height.
+
+```css
+.wildlife {
+  background-image: url(img/bear.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+```
+
++ backgroudn property shorthand
+
+```css
+url(sweettexture.jpg)    /* image */
+    top center / 200px 200px /* position / size */
+    no-repeat                /* repeat */
+    fixed                    /* attachment */
+    padding-box              /* origin */
+    content-box              /* clip */
+    red;                    /* color */
+```
+
 ### Day 01
 
 Create a visual timeline with pure CSS

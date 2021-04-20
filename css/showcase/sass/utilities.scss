@@ -1,0 +1,34 @@
+/*
+
+Extends and Mixins
+*/
+
+%parallax-sections {
+}
+
+%box-styling { 
+    height: 20vh;
+    height: auto;
+    width: 45%;
+    position: relative;
+    top: 30%;
+    
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 2% 25px;
+    border-radius: 5px;
+    line-height: 2;
+
+    @media (max-width: 680px) {
+        width: 85%;
+    }
+}
+
+@mixin div-styling($text-colour, $border, $background) {
+    
+    color: $text-colour;        
+    border: $border;
+    background: $background;
+
+}

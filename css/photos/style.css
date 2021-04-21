@@ -1,4 +1,309 @@
+/**
+
+Last Update: 11:12  21/04/2021
+Authored by: @jg_DigitalMedia
+
+*/
+main .button_pagination .prev,
+main .button_pagination .next {
+  cursor: pointer;
+  background: white;
+  background: orange;
+  background: #ffff2f;
+  margin: 20px auto;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  border-radius: 10px;
+  border: solid black 1px;
+  width: 40%; }
+  main .button_pagination .prev:hover,
+  main .button_pagination .next:hover {
+    background: #fdc660; }
+  @media (max-width: 680px) {
+    main .button_pagination .prev,
+    main .button_pagination .next {
+      background: #fdc660; } }
+
 * {
-    padding: 0;
-    margin: 0;
-}
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: #fafa75;
+  font-family: arial; }
+
+header {
+  display: block;
+  position: relative;
+  border-bottom: solid white 3px;
+  min-height: 80px;
+  background: black;
+  color: white; }
+  header h1 {
+    text-align: center; }
+  header p {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 8px; }
+    header p a {
+      color: white;
+      color: gold; }
+      header p a:hover {
+        text-decoration: none; }
+
+main {
+  display: block;
+  margin: 0 auto;
+  width: 85%; }
+  main h2 {
+    text-align: center;
+    margin-top: 20px; }
+  main p {
+    line-height: 1.6;
+    margin-bottom: 10px; }
+  main .button_pagination {
+    text-align: center;
+    /* margin: 20px auto; */
+    margin: 0 auto;
+    font-weight: bold;
+    display: flex;
+    /* display: block; */
+    width: 40%; }
+    @media (max-width: 680px) {
+      main .button_pagination {
+        width: 100%; } }
+  main .description-container {
+    color: black;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 10pt;
+    font-weight: bold; }
+  main .slideshow-container {
+    color: black; }
+  main .slideshow-container .mySlides,
+  main .slideshow-container-portraits .mySlides,
+  main .slideshow-container-landscapes .mySlides {
+    display: none;
+    /* display: block; */ }
+    @media (max-width: 680px) {
+      main .slideshow-container .mySlides,
+      main .slideshow-container-portraits .mySlides,
+      main .slideshow-container-landscapes .mySlides {
+        width: 80%;
+        display: flex;
+        display: none;
+        flex-direction: column;
+        margin: 10px auto; } }
+  main .slideshow-container .img_slide,
+  main .slideshow-container-portraits .img_slide,
+  main .slideshow-container-landscapes .img_slide {
+    /* width: 70%; */
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    border: solid 3px gray;
+    border-radius: 10px; }
+    @media (max-width: 680px) {
+      main .slideshow-container .img_slide,
+      main .slideshow-container-portraits .img_slide,
+      main .slideshow-container-landscapes .img_slide {
+        width: 90%; } }
+  main .slideshow-container .slide_text,
+  main .slideshow-container-portraits .slide_text,
+  main .slideshow-container-landscapes .slide_text {
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 10px; }
+    main .slideshow-container .slide_text span.caption_filename,
+    main .slideshow-container .slide_text span.caption_date,
+    main .slideshow-container .slide_text span.caption_iso,
+    main .slideshow-container .slide_text span.caption_aperture,
+    main .slideshow-container .slide_text span.caption_shutter,
+    main .slideshow-container .slide_text span.caption_focalLength,
+    main .slideshow-container .slide_text span.caption_description,
+    main .slideshow-container-portraits .slide_text span.caption_filename,
+    main .slideshow-container-portraits .slide_text span.caption_date,
+    main .slideshow-container-portraits .slide_text span.caption_iso,
+    main .slideshow-container-portraits .slide_text span.caption_aperture,
+    main .slideshow-container-portraits .slide_text span.caption_shutter,
+    main .slideshow-container-portraits .slide_text span.caption_focalLength,
+    main .slideshow-container-portraits .slide_text span.caption_description,
+    main .slideshow-container-landscapes .slide_text span.caption_filename,
+    main .slideshow-container-landscapes .slide_text span.caption_date,
+    main .slideshow-container-landscapes .slide_text span.caption_iso,
+    main .slideshow-container-landscapes .slide_text span.caption_aperture,
+    main .slideshow-container-landscapes .slide_text span.caption_shutter,
+    main .slideshow-container-landscapes .slide_text span.caption_focalLength,
+    main .slideshow-container-landscapes .slide_text span.caption_description {
+      color: black;
+      font-weight: bold; }
+    main .slideshow-container .slide_text span.caption_filename,
+    main .slideshow-container-portraits .slide_text span.caption_filename,
+    main .slideshow-container-landscapes .slide_text span.caption_filename {
+      color: black; }
+      main .slideshow-container .slide_text span.caption_filename + span,
+      main .slideshow-container-portraits .slide_text span.caption_filename + span,
+      main .slideshow-container-landscapes .slide_text span.caption_filename + span {
+        color: black; }
+    main .slideshow-container .slide_text span.caption_date,
+    main .slideshow-container-portraits .slide_text span.caption_date,
+    main .slideshow-container-landscapes .slide_text span.caption_date {
+      color: black; }
+      main .slideshow-container .slide_text span.caption_date + span,
+      main .slideshow-container-portraits .slide_text span.caption_date + span,
+      main .slideshow-container-landscapes .slide_text span.caption_date + span {
+        color: black; }
+    main .slideshow-container .slide_text span.caption_iso,
+    main .slideshow-container-portraits .slide_text span.caption_iso,
+    main .slideshow-container-landscapes .slide_text span.caption_iso {
+      color: black; }
+      main .slideshow-container .slide_text span.caption_iso + span,
+      main .slideshow-container-portraits .slide_text span.caption_iso + span,
+      main .slideshow-container-landscapes .slide_text span.caption_iso + span {
+        color: black; }
+    main .slideshow-container .slide_text span.caption_aperture,
+    main .slideshow-container-portraits .slide_text span.caption_aperture,
+    main .slideshow-container-landscapes .slide_text span.caption_aperture {
+      color: black; }
+      main .slideshow-container .slide_text span.caption_aperture + span,
+      main .slideshow-container-portraits .slide_text span.caption_aperture + span,
+      main .slideshow-container-landscapes .slide_text span.caption_aperture + span {
+        color: black; }
+    main .slideshow-container .slide_text span.caption_shutter,
+    main .slideshow-container-portraits .slide_text span.caption_shutter,
+    main .slideshow-container-landscapes .slide_text span.caption_shutter {
+      color: black; }
+      main .slideshow-container .slide_text span.caption_shutter + span,
+      main .slideshow-container-portraits .slide_text span.caption_shutter + span,
+      main .slideshow-container-landscapes .slide_text span.caption_shutter + span {
+        color: black; }
+    main .slideshow-container .slide_text span.caption_focalLength,
+    main .slideshow-container-portraits .slide_text span.caption_focalLength,
+    main .slideshow-container-landscapes .slide_text span.caption_focalLength {
+      color: black; }
+      main .slideshow-container .slide_text span.caption_focalLength + span,
+      main .slideshow-container-portraits .slide_text span.caption_focalLength + span,
+      main .slideshow-container-landscapes .slide_text span.caption_focalLength + span {
+        color: black; }
+    main .slideshow-container .slide_text span.caption_description,
+    main .slideshow-container-portraits .slide_text span.caption_description,
+    main .slideshow-container-landscapes .slide_text span.caption_description {
+      color: black;
+      width: 100%;
+      font-size: 20pt; }
+      main .slideshow-container .slide_text span.caption_description + span,
+      main .slideshow-container-portraits .slide_text span.caption_description + span,
+      main .slideshow-container-landscapes .slide_text span.caption_description + span {
+        color: black;
+        font-size: 30pt; }
+  main .slideshow-container .image-data,
+  main .slideshow-container-portraits .image-data,
+  main .slideshow-container-landscapes .image-data {
+    display: inline-block;
+    vertical-align: top;
+    display: flex;
+    flex-direction: row; }
+  main .slideshow-container table,
+  main .slideshow-container-portraits table,
+  main .slideshow-container-landscapes table {
+    /*  width: 100%; */
+    width: 215px;
+    border: 0;
+    color: black;
+    margin: 0 auto; }
+  main .slideshow-container td:nth-child(1),
+  main .slideshow-container-portraits td:nth-child(1),
+  main .slideshow-container-landscapes td:nth-child(1) {
+    font-weight: bold; }
+  main .slideshow-container td:nth-child(2),
+  main .slideshow-container-portraits td:nth-child(2),
+  main .slideshow-container-landscapes td:nth-child(2) {
+    font-weight: bold;
+    color: #717171;
+    color: darkred; }
+  main .slideshow-container tr,
+  main .slideshow-container-portraits tr,
+  main .slideshow-container-landscapes tr {
+    height: 33px;
+    line-height: 2; }
+  main .slideshow-container td.caption_description,
+  main .slideshow-container-portraits td.caption_description,
+  main .slideshow-container-landscapes td.caption_description {
+    font-size: 10pt;
+    text-align: center;
+    color: darkred; }
+
+/* Number text (1/3 etc) */
+.numbertext {
+  display: block;
+  margin: 0px auto 20px auto;
+  font-size: 12px;
+  padding: 8px 12px;
+  /* position: absolute; */
+  /* top: 0; */
+  color: black;
+  font-weight: bold;
+  font-size: 15pt;
+  text-align: center;
+  /* border-bottom: dashed 2px $bgcol-secondary; */
+  width: 112px; }
+
+.photo_selector {
+  /* width: 63%; */
+  width: 67%;
+  margin-top: 15px;
+  margin: 15px auto; }
+  @media (max-width: 680px) {
+    .photo_selector {
+      width: 100%; } }
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #717171;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease; }
+
+.active, .dot:hover {
+  /*  background-color: lighten(5%, $bgcol-tertiary); */
+  background-color: #7e7e7e;
+  background-color: #a30404; }
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s; }
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+@keyframes fade {
+  from {
+    opacity: .4; }
+  to {
+    opacity: 1; } }
+footer {
+  margin-top: 20px; }
+  footer p {
+    width: 100%;
+    display: block;
+    text-align: center; }
+    footer p a {
+      text-align: center;
+      color: #a30404; }
+      footer p a:hover {
+        text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,40 @@
+%pagination_btn {
+    cursor: pointer;
+
+    background: white;
+    background: orange;
+    background: #ffff2f;
+    margin: 20px auto;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: solid black 1px;
+}
+
+%pagination_btn_flex {
+
+    cursor: pointer;
+
+    background: white;
+    background: orange;
+    background: #ffff2f;
+    margin: 20px auto;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+
+    border-radius: 10px;
+    border: solid black 1px;
+    width: 40%;
+
+    &:hover {
+        background: #fdc660;
+    }
+
+    @media(max-width: $breakpoint-md) {
+        background: #fdc660;
+    }
+}

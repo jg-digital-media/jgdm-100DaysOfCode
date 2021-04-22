@@ -1,9 +1,18 @@
 # 100 Days of Code - Round 6
 
-## **Status:** Day 3 of 100. **Last Update:** 21 April 2021
+## **Status:** Day 4 of 100. **Last Update:** 22 April 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+## R6D04: Thursday 22 April 2021
+
++ **Notes**
+
+  + Today I've been thinking about my landing page strategy. A made a new subdomain to separate some of the things on "landing" into its own webspace. All the details on this and more in this blog. 
+  
+  + **Technologies used** - HTML5, SASS, JavaScript, WordPress
 
 
 ## R6D03: Wednesday 21 April 2021

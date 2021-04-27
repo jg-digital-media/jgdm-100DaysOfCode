@@ -14,9 +14,30 @@
 
 
 
-### Day 06
+### Day 07
+
+#### Pagination Methods foer WordPress and their uses
+
+```the_posts_pagination()``` - 
 
 
+for the notes - Pagination methods
+```wp_post pagination``` - used for numerical pagination
+
+
+```posts_nav_link``` - generates link to next and previous page of WordPress Posts.   
+
+
+```paginate_links()``` - Supports older installations of WordPress
+
+
+
+#### Pagination between single posts. 
+
+```previous_post_link();```
+```next_post_link();``` 
+
+WordPress gives you a tag that can be placed in post content to enable pagination for that post - ```<?php wp_link_pages(); ?>```
 
 
 

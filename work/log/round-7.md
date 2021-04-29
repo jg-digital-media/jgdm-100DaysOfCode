@@ -1,10 +1,21 @@
 # 100 Days of Code - Round 6
 
-## **Status:** Day 8 of 100. **Last Update:** 28 April 2021
+## **Status:** Day 9 of 100. **Last Update:** 29 April 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+A bit about Syntax Highlighting and plugin developing when it comes to pagination in WordPress.
+
+
+## R7D09: Thursday 29 April 2021
+
++ **Notes**
+
+  +  A bit about Syntax Highlighting and plugin developing when it comes to pagination in WordPress. 
+  
+  + **Technologies used** - HTML5, SASS, JavaScript
 
 ## R7D08: Wednesday 28 April 2021
 

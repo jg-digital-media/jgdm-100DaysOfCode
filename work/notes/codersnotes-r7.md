@@ -13,8 +13,62 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 
 
+### Day 09
 
-### Day 08
+#### WordPress Plugin Development Basics
+
+
++ Plugins 
+
+  + Action - A specific activity that is going to happen at a specific time. Functions are attached to an action and are executed when that action is triggered.
+
+  do_actions
+
+  + Filters - Filters are hooks that accept a single variable or a series of variables, and then sends them back after they’ve been modified. In a nutshell, filters let you change the content that is displayed to users
+
+  apply_filters
+
+
+  + Shortcodes - Shortcodes are user-facing bits of code that give users a quick and easy way to create and display custom functionality to their sites’ visitors.
+
+add_shortcode 
+
+1. Choose a Plugin Name
+
+2. Create Your Plugin Folder and PHP File
+
+3. Add Your File Header
+
+4. Program Your Plugin and Add Functions
+
+5. Compress Your Plugin Folder
+
+6. Activate the Plugin on Your WordPress Site
+
+
+
+```php
+<?php 
+
+/**
+* Plugin Name: JGDM Development Plugin
+* Plugin URI: https://wordpress.jonniegrieve.co.uk
+* Description: JGDM Development Plugin - The goal of this plugin is to answer the problem of using a custom post type to handle post pagination correctly.
+* Version: 1.0.0
+* Author: Jonathan Grieve @jg_digitalMedia
+* Author URI: https://www.jonniegrieve.co.uk
+* License: GPL2
+*/
+```
+
+
++  -> It's common to have more than one wrapper on a page and even to have containers inside of containers.
+
++ -> Note: The width value 70% allows the container's width to grow and shrink with the browser window size. The max-width value of 1000px establishes the maximum size that the growing is allowed to reach. For example, in a browser viewport that is 1400 pixels or wider, the container will always be 1000 pixels wide and will not grow any wider.
+
++ -> mobile first is usually 1 column layout. 
+
++ When you use a mobile-first layout approach, you define all the common layout styles before adding any media queries.
 
 
 

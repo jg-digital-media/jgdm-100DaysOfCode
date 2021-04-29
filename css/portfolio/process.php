@@ -312,9 +312,17 @@ Last Updated:   29th April 2021 - 10-20
 
             <h3>Elsewhere... </h3>
 
-            <div class="elsewhere" tabindex="15" role="elsewhere-div">
-                <a href="https://projects.jonniegrieve.co.uk" target="blank">
-                    <img src="img/services/sub-projects.jpg" role="Elsewhere" />
+            <div class="elsewhere" tabindex="0" role="elsewhere-div">
+                <a href="https://portfolio.jonniegrieve.co.uk" target="blank" role="Elsewhere" title="JGDM Portfolio">
+                    <img src="../img/services/sub-portfolio.jpg" alt="JGDM Portfolio" title="JGDM Portfolio" />&nbsp;
+                </a>
+                <p>portfolio.jonniegrieve.co.uk</p>       
+            </div>
+
+
+            <div class="elsewhere" tabindex="0" role="elsewhere-div">
+                <a href="https://projects.jonniegrieve.co.uk" target="blank" role="Elsewhere" title="JGDM Projects">
+                    <img src="../img/services/sub-projects.jpg" alt="JGDM Projects" title="JGDM Projects" />&nbsp;
                 </a>
                 <p>projects.jonniegrieve.co.uk</p>       
             </div>

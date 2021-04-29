@@ -314,42 +314,42 @@ Last Updated:   7th October 2019
 
             <div class="elsewhere" tabindex="15" role="elsewhere-div">
                 <a href="https://projects.jonniegrieve.co.uk" target="blank">
-                    <img src="img/services/sub-projects.png" role="Elsewhere" />
+                    <img src="img/services/sub-projects.jpg" role="Elsewhere" />
                 </a>
                 <p>projects.jonniegrieve.co.uk</p>       
             </div>
 
             <div class="elsewhere" tabindex="16" role="elsewhere-div">
                 <a href="https://wordpress.jonniegrieve.co.uk" target="blank">
-                    <img src="img/services/sub-wordpress.png" role="Elsewhere" />
+                    <img src="../img/services/sub-wordpress.jpg" role="Elsewhere" />
                 </a>   
                 <p>wordpress.jonniegrieve.co.uk</p>    
             </div>
 
             <div class="elsewhere" tabindex="17" role="elsewhere-div">
                 <a href="https://android.jonniegrieve.co.uk" target="blank">
-                    <img src="img/services/sub-android.png" role="Elsewhere" />
+                    <img src="../img/services/sub-android.jpg" role="Elsewhere" />
                 </a> 
                 <p>android.jonniegrieve.co.uk</p>      
             </div>
 
             <div class="elsewhere" tabindex="18" role="elsewhere-div">
                 <a href="https://dyspraxia.jonniegrieve.co.uk" target="blank">
-                    <img src="img/services/sub-dyspraxia.png" role="Elsewhere" />
+                    <img src="../img/services/sub-dyspraxia.jpg" role="Elsewhere" />
                 </a>   
                 <p>dyspraxia.jonniegrieve.co.uk</p>    
             </div>
 
             <div class="elsewhere" tabindex="19" role="elsewhere-div">
                 <a href="https://projects.jonniegrieve.co.uk/jquery_project" target="blank">
-                    <img src="img/services/skills-page.png" role="Elsewhere" />
+                    <img src="../img/services/skills-page.jpg" role="Elsewhere" />
                 </a>   
                 <p>Skills: Single Page App</p>    
             </div>
 
             <div class="elsewhere" tabindex="20" role="elsewhere-div">
                 <a href="https://projects.jonniegrieve.co.uk/vue_project" target="blank">
-                    <img src="img/services/project-status-page.png" role="Elsewhere" />
+                    <img src="../img/services/project-status-page.jpg" role="Elsewhere" />
                 </a>   
                 <p>Project Status: Single Page App</p>    
             </div>
@@ -357,7 +357,7 @@ Last Updated:   7th October 2019
         </article>
     
     <footer>
-        <p>&copy; Jonnie Grieve Digital Media 2019. All Rights Reserved</p>
+        <p>&copy; Jonnie Grieve Digital Media <?php echo date('Y') ?>. All Rights Reserved</p>
     </footer>
 
 

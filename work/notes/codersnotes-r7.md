@@ -14,6 +14,10 @@
 
 
 
+### Day 08
+
+
+
 ### Day 07
 
 #### Pagination Methods foer WordPress and their uses

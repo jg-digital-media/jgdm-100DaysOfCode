@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 6
 
-## **Status:** Day 7 of 100. **Last Update:** 27 April 2021
+## **Status:** Day 8 of 100. **Last Update:** 28 April 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+## R7D08: Wednesday 28 April 2021
+
++ **Notes**
+
+  +  The landing page example I'm building is developing nicely. Should be finished tomorrow with some finishing touches. 
+  
+  + **Technologies used** - HTML5, SASS, JavaScript
 
 ## R7D07: Tuesday 27 April 2021
 

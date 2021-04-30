@@ -13,6 +13,39 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 
 
+### Day 10
+
+#### **actions and filters** 
+
++ Actions allow you to add or change WordPress functionality, while 
+
++ filters allow you to alter content as it is loaded and displayed to the website user.
+
++ Plugin Boilerplate - GitHub - https://github.com/DevinVinson/WordPress-Plugin-Boilerplate/blob/master/plugin-name/plugin-name.php
+
+
+#### **Activation Hook**
+
+function activate_jgdm_plugin() {
+
+  add_option( 'Activated_Plugin', 'Plugin-Slug' );
+
+  /* activation code here */
+  var_dump("activation function");
+}
+
+register_activation_hook( activate_jgdm-plugin-dev, 'activate_jgdm_plugin' );
+
+
+
+plugins_url( 'myscript.js', _FILE_ );
+//returns full URL to myscript.js, such as example.com/wp-content/plugins/myplugin/myscript.js.
+
+
+
+wp_enqueue_script( string $handle, string $src = '', string[] $deps = array(), string|bool|null $ver = false, bool $in_footer = false )
+
+
 ### Day 09
 
 #### WordPress Plugin Development Basics

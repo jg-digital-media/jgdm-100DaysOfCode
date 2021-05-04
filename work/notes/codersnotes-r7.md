@@ -11,6 +11,7 @@
 + Python Flask Websites - python/flask
 + Local Storage - javaScript/localstorage
 + Photo Viewer App (Multiple Data Points) - css/photos
++ Gulp and Grunt compilers
 
 
 ### Day 10

@@ -6,6 +6,15 @@ ___
 ___
 
 
+## R7D11: Monday 04 May 2021
+
++ **Notes**
+
+  +  Photography Website update and some thoughts on a day of learning the best methods and practices of WordPress Plugin Development.
+  
+  + **Technologies used** - HTML5, SASS, JavaScript, WordPress, PHP
+
+
 ## R7D10: Friday 30 April 2021
 
 + **Notes**

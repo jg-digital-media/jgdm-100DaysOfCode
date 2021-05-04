@@ -14,6 +14,22 @@
 + Gulp and Grunt compilers
 
 
+### Day 11
+
+#### WordPress plugin methods
+
+add settings section  https://developer.wordpress.org/reference/functions/add_settings_section/
+
+add_settings_section( string $id, string $title, callable $callback, string $page )
+
+add settings field https://developer.wordpress.org/reference/functions/add_settings_field/
+
+add_settings_field ( string $id, string $title, callable $callback, string $page, string $section = 'default', array $args = array() ) 
+
+found a generator site that seems to do te heavy lisfting for me. http://wpsettingsapi.jeroensormani.com/
+
+
+
 ### Day 10
 
 #### **actions and filters** 

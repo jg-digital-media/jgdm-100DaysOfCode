@@ -1,12 +1,20 @@
 # 100 Days of Code - Round 6
 
-## **Status:** Day 10 of 100. **Last Update:** 30 April 2021
+## **Status:** Day 12 of 100. **Last Update:** 05 May 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-## R7D11: Monday 04 May 2021
+## R7D12: Wednesday 05 May 2021
+
++ **Notes**
+
+  + It's not been fun, but I think I've finally found a code syntax highlighting solution I can work with. Read now for my final recommendations for Syntax Highlighting Plugins you can use with WordPress.....  
+  
+  + **Technologies used** - HTML5, SASS, JavaScript, WordPress, PHP
+
+## R7D11: Tuesday 04 May 2021
 
 + **Notes**
 

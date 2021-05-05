@@ -14,6 +14,49 @@
 + Gulp and Grunt compilers
 
 
+### Day 12
+
+```php
+
+
+<div class="featured_image">
+
+
+        <!--  <img src="<?php the_field("article_featured_image"); ?>"/>
+        <img src="<?php the_post_thumbnail_url(); ?>"/> -->
+
+        <?php
+
+        if('post_type' == 'blog_posts') { ?>
+
+        <img src="<?php the_field("article_featured_image"); ?>"/>
+
+        <?php } else { ?>
+            
+        <img src="<?php the_post_thumbnail_url(); ?>"/>
+        
+        <?php } ?>
+   </div>            
+
+```
+
+#### Emulating Builtin __str__
+
+```python
+
+#__str__  - controls how objects are represented as a string
+
+def __str__(self):
+    return f'{self.make} {self.model} {self.year}
+
+Python 2.7 new sryle string formatting
+
+def __str__(self):
+        #return "Overload String built in"
+        return "{} {} {}".format(self.make, self.model, self.year)
+
+```
+
 ### Day 11
 
 #### WordPress plugin methods

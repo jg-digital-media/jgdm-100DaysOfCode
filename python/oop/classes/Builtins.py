@@ -41,6 +41,3 @@ class Car:
         else:
             print("You've run out of gas!")
             self.stop()
-
-car_one = Car('Toyota', 'Camry', 2020)
-print(car_one)

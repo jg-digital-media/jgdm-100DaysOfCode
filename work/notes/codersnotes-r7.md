@@ -14,6 +14,30 @@
 + Gulp and Grunt compilers
 
 
+### Day 13
+
+
+#### Refinements - Code syntax highlighting plugin
+
++ The code should be typed in and not simply pasted from another source. Even notepad and other editors that strip out text formatting
+
++ Should be broken up into multiple lines or the element tat containts the code snippet is at risk of extending beyond its parent element. 
+
+
+```css
+.hcb_wrap {
+
+    & > prism undefined-numbers,
+    & > pre,
+    & > prism undefined-numbers language-plain,
+    & > prism undefined-numbers language-html,
+    & > prism undefined-numbers language-javascript,
+    & > prism undefined-numbers language-php {
+       background: #444444;
+    }
+}
+```
+
 ### Day 12
 
 ```php

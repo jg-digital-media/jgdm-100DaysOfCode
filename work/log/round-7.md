@@ -6,6 +6,14 @@ ___
 ___
 
 
+## R7D13: Thursday 06 May 2021
+
++ **Notes**
+
+  +  Tasks completed today, Did some minor styling updates to this blog, More practice with OOP in Python, and a dynamic list of filenames using JSON. 
+  
+  + **Technologies used** - HTML5, SASS, JavaScript, WordPress, PHP
+
 ## R7D12: Wednesday 05 May 2021
 
 + **Notes**

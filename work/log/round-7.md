@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 6
 
-## **Status:** Day 12 of 100. **Last Update:** 05 May 2021
+## **Status:** Day 14 of 100. **Last Update:** 07 May 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+## R7D14: Friday 07 May 2021
+
++ **Notes**
+
+  +  My thoughts and understanding as I code a "simple" memory game in Python  
+  
+  + **Technologies used** - Python
 
 ## R7D13: Thursday 06 May 2021
 

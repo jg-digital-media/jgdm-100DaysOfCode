@@ -16,8 +16,9 @@ if __name__ == '__main__':
     card2 = Card('egg', 'B1')
     card3 = Card('hut', 'D4')
 
-print(card1 == card2)
+""" print(card1 == card2)
 print(card1 == card3)
 print(card2 == card3)
 print(card1 == card2)
 print(card1)
+ """

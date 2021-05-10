@@ -13,7 +13,7 @@ class Game:
         self.locations = []
         for column in self.columns:
             for num in range(1, self.size + 1):
-                self.locations.append("{num}, {column}")                
+                self.locations.append("{num}, {column}")               
 
 
     def set_cards(self):

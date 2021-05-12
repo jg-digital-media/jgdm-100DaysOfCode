@@ -17,7 +17,7 @@ class Game:
                 self.locations.append("{}, {}".format(column, num))               
 
 
-    def set_cards(self):
+    def set_cards(self):        
         used_locations = []
         for word in self.card_options:
             for i in range(2):
@@ -26,12 +26,45 @@ class Game:
                 used_locations.append(random_location)
                 card = Card(word, random_location)
                 self.cards.append(card)
-   
+
+    
+    def create_row(self, num):
+        row = []
+        for column in self.columns:
+            for card in self.cards:
+                if card.location == "{} {}".format(column, num):
+                    if card.matched:
+                        row.append(str(card))
+                    else:
+                        row.append('   ')
+        return row
+
+
+    """ def create_grid(self):
+
+        # | A | B | C | D |
+        header = ' | ' + ' | '.join(self.columns) + ' |'
+        print(header)
+
+        for row in range(1, self.size + 1):
+            print_row = "{}| ".format(row)        
+            get_row = self.create_row(row)
+            print_row += ' | '.join(get_row) + ' |'
+            print(print_row) """
+    
     
 # dunder main
 if __name__ == '__main__':
     game = Game() 
     game.set_cards()
+    print(game.create_row(1))
+    print(game.create_row(2))
+    print(game.create_row(3))
+    print(game.create_row(4))
+    game.cards[0].matched = True
+    game.cards[1].matched = True
+    game.cards[2].matched = True
+    game.cards[3].matched = True
 
-    for card in game.cards:
-        print(card)
+    # new game grid
+    #game.create_grid()

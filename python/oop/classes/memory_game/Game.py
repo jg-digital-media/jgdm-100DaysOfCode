@@ -1,6 +1,5 @@
-from cards import Card
+from Cards import Card
 import random
-
 
 class Game: 
     # pass
@@ -13,7 +12,9 @@ class Game:
         self.locations = []
         for column in self.columns:
             for num in range(1, self.size + 1):
-                self.locations.append("{num}, {column}")               
+                
+                #print("{}{}".format(num, column))
+                self.locations.append("{}, {}".format(column, num))               
 
 
     def set_cards(self):
@@ -25,17 +26,12 @@ class Game:
                 used_locations.append(random_location)
                 card = Card(word, random_location)
                 self.cards.append(card)
-
+   
     
-    # dunder main
-    if __name__ == '__main__':
-        game = Game()
-        game.set_cards()
-        
+# dunder main
+if __name__ == '__main__':
+    game = Game() 
+    game.set_cards()
 
-        for card in game.cards:
-            print(card) 
-
-
-
-game_instance_one = Game()
+    for card in game.cards:
+        print(card)

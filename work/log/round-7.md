@@ -6,6 +6,14 @@ ___
 ___
 
 
+## R7D17: Wednesday 12 May 2021
+
++ **Notes**
+
+  +  Day 17 of #100DaysOfCode, and WordPress, PHP and Python all featured heavily in my day
+  
+  + **Technologies used** - Python, PHP, WordPress
+
 
 ## R7D16: Tuesday 11 May 2021
 

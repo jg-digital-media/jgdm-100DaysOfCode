@@ -14,6 +14,11 @@
 + Gulp and Grunt compilers
 
 
+### Day 15
+
+```python
+```
+
 ### Day 14
 
 ```python
@@ -104,7 +109,7 @@ print(card1)
 def __str__(self):
     return f'{self.make} {self.model} {self.year}
 
-Python 2.7 new sryle string formatting
+Python 2.7 new style string formatting
 
 def __str__(self):
         #return "Overload String built in"

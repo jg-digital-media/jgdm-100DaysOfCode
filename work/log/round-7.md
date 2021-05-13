@@ -6,6 +6,15 @@ ___
 ___
 
 
+## R7D18: Thursday 14 May 2021
+
++ **Notes**
+
+  +  Python stuff mainly. Also added some GA tracking to my photography website. 
+  
+  + **Technologies used** - Python, PHP, WordPress
+
+
 ## R7D17: Wednesday 12 May 2021
 
 + **Notes**

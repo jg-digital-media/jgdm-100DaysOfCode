@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 6
 
-## **Status:** Day 16 of 100. **Last Update:** 11 May 2021
+## **Status:** Day 19 of 100. **Last Update:** 14 May 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+## R7D19: Friday 17 May 2021
+
++ **Notes**
+
+  +  Today has been less about sitting and coding at my computer and more about tying up some loose ends.  My Python and PHP infrastructure is finally up to date.
+  
+  + **Technologies used** - Python, PHP, WordPress
 
 ## R7D18: Thursday 14 May 2021
 

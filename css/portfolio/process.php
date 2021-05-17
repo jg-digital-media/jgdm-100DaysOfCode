@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   29th April 2021 - 10-20
+Last Updated:   17th May 2021 - 14-28
 --->
 
 <?php   
@@ -140,7 +140,6 @@ Last Updated:   29th April 2021 - 10-20
                 
 
                 //Get access to form fields with superglobal variables.
-                //Get access to form fields with superglobal variables.
                 $name = $_POST["name"];
                 $email = $_POST["email"];
                 $your_url = $_POST["your-url"];
@@ -238,15 +237,18 @@ Last Updated:   29th April 2021 - 10-20
                     //Send email
                     $recipient = "mail@jonniegrieve.co.uk";
                     $subject = "New email from JGDM Website";
-                    $mailheaders = "MIME-Version: 1.0\r\n";
-                    $mailheaders .= "From: Jonnie Grieve Digital Media <www.jonniegrieve.co.uk> \n";
-                    $mailheaders .= "Content-type: text/html; charset=ISO-8859-1\r\n";
+                    $mailheaders = "MIME-Version: 1.0" . "\r\n";
+                    $mailheaders .= "From: Jonnie Grieve Digital Media <www.jonniegrieve.co.uk>" . "\n";
+                    $mailheaders .= "Content-type:text/html; charset=utf-8" . "\r\n";
                     $mailheaders .= "Reply-To: " . $_POST["email"];
 
                     //get HTML headers
                     mail($recipient, $subject, $msg, $mailheaders);                
                 
-                    //On successful submit
+                    /**
+                     * 
+                     * On successful submission
+                     **/
                     echo '<article id="intro" tabindex="0">';                    
 
                     echo '<div class="form-success">';

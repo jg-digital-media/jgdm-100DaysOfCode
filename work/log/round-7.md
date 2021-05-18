@@ -4,7 +4,14 @@
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+## R7D19: Friday 17 May 2021
 
++ **Notes**
+
+  +  Today I learned...  about the differences between Flask Routes with Query Strings and cleaner named URL arguments. 
+https://blog.jonniegrieve.co.uk/blog_posts/r7d20-100daysofcode/
+  
+  + **Technologies used** - Python, PHP, WordPress, HTML5
 
 ## R7D19: Friday 17 May 2021
 

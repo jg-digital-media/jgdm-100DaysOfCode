@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block styling %} <link rel="stylesheet" type="text/css" href="static/style.css" />  {% endblock %}
+
+{% block title %} Index | {{ super() }} {% endblock %}</title>
+
+
+{% block content %}
+    <h1> Hello, from {{ name }} </h1>
+
+    <p>Read about Deployment to Heroku <a href="https://dashboard.heroku.com/apps/jgdm-flashcard-app">here</a>
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript" src="static/app.js"></script>
+ {% endblock %}

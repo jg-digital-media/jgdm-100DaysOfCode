@@ -14,10 +14,102 @@
 + Gulp and Grunt compilers
 
 
-### Day 19
+### Day 21
+
++ A second route that takes an argument. The syntax for this is /<variable_name>  Or it will return error non-200 response.
+
++ Using the string format syntax for formatting strings, pass the variable to the method with the string replacement in a pair of parentheses where you want the variable to be passed in.  
+
++ ```name="TreeHouse"``` - give the argument passed into the method a default value. 
 
 ```python
+
+from flask import Flask
+
+app = Flask(__name__)
+
+
+@app.route('/')
+@app.route('/<name>')
+
+def hello(name="Treehouse"):
+     return 'Hello {}'.format(n
 ```
+
+
+#### Examples
+
+```python
+# product.py   version 1
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/multiply")
+@app.route("/multiply/<int:num1>/<int:num2>")
+def multiply(num1=5, num2=5):
+    return "{}".format(num1*num2)
+```
+
+```python
+# product.py  version 2
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/multiply")
+@app.route("/multiply/<int:num1>/<int:num2>")
+@app.route("/multiply/<float:num1>/<float:num2>")
+@app.route("/multiply/<int:num1>/<float:num2>")
+@app.route("/multiply/<float:num1>/<int:num2>")
+def multiply(num1=5, num2=5):
+    return "{}".format(num1*num2)
+```
+
+
+
+### Day 20
+
+```python
+
+
+# e.g. Imports the request object from Flask. updates the index view to return "Hello {name}", replacing {name} with a name argument in the query string.
+
+
+
+
+from flask import Flask
+from flask import request
+
+app = Flask(__name__)
+
+@app.route('/')
+def index(name="Jonnie"):
+    name = request.args.get('name', name)
+    return 'Hello {}'.format(name)
+```
+
+```python
+
+
+# We have the default route and the name route.  no need for the request object but the app works the same way
+
+e.g. from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+@app.route('/<name>')
+
+def index(name="Jonnie"):
+    return 'Hello {}'.format(name)
+
+```
+
+
+
 
 ### Day 14
 

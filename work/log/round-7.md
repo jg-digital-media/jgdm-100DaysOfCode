@@ -4,7 +4,18 @@
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
-## R7D19: Friday 17 May 2021
+
+
+
+## R7D21: Tuesday 18 May 2021
+
++ **Notes**
+
+  +  My main takeaway from today is how to make a Flask application in Python look like a website.  Beyond that, It looks like in order to get a Python website on the web I need to have it hosted on a place like Heroku. 
+  
+  + **Technologies used** - Python, PHP, WordPress, HTML5
+
+## R7D20: Monday 17 May 2021
 
 + **Notes**
 
@@ -13,7 +24,7 @@ https://blog.jonniegrieve.co.uk/blog_posts/r7d20-100daysofcode/
   
   + **Technologies used** - Python, PHP, WordPress, HTML5
 
-## R7D19: Friday 17 May 2021
+## R7D19: Friday 14 May 2021
 
 + **Notes**
 
@@ -21,7 +32,7 @@ https://blog.jonniegrieve.co.uk/blog_posts/r7d20-100daysofcode/
   
   + **Technologies used** - Python, PHP, WordPress
 
-## R7D18: Thursday 14 May 2021
+## R7D18: Thursday 13 May 2021
 
 + **Notes**
 

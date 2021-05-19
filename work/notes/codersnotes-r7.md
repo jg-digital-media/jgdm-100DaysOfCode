@@ -9,10 +9,47 @@
 + PHP Authorisation - php/authorisation - 
 + CSS Experiments - css/expermiments
 + Python Flask Websites - python/flask
+  + Heroku - 
 + Local Storage - javaScript/localstorage
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
+
+### Day 22
+
+### Python Flask Forms
+
++ Forms are used for gathering data
+
++ use flask to get form data easily and cleanly
+
+```python
+app.py
+
+# import the modules we need
+from flask import Flask, render_template, redirect, url_for, request
+
+# function that renders a view
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+# g. Send Form data through a route
+
+@app.route('/save', methods=['POST'])
+def save():
+    # import pdb; pdb.set_trace()
+    # return 'Saved!'
+    return redirect(url_for('index'))
+```
+
+```html
+<form action="{{ url_for{'save') }}" method="POST">
+
+
+</form>
+
+```
 
 ### Day 21
 

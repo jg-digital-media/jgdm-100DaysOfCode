@@ -1,11 +1,19 @@
 # 100 Days of Code - Round 6
 
-## **Status:** Day 19 of 100. **Last Update:** 14 May 2021
+## **Status:** Day 22 of 100. **Last Update:** 19 May 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+## R7D22: Wednesday 19 May 2021
+
++ **Notes**
+
+  +  Welcoming back Heroku to my workflow.  I forgot how difficult I always find it to deploy a website/app to that platform. 
+  
+  + **Technologies used** - Python, PHP, WordPress, HTML5
 
 ## R7D21: Tuesday 18 May 2021
 

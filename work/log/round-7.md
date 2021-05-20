@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 6
 
-## **Status:** Day 22 of 100. **Last Update:** 19 May 2021
+## **Status:** Day 23 of 100. **Last Update:** 22 May 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+## R7D23: Thursday 20 May 2021
+
++ **Notes**
+
+  +  Adding code snippets to learning notes wordpress site.
+  
+  + **Technologies used** - Python, PHP, WordPress, HTML5
 
 
 ## R7D22: Wednesday 19 May 2021

@@ -28,6 +28,15 @@ def index():
     data = get_saved_data()
     return render_template("index.html", saves=data)
 
+# Build Character Route
+
+@app.route('/builder')
+def builder():
+    return render_template(
+        'builder.html',
+        saves=get_saved_data()
+    )
+
 # Save data to save route with POST 
 
 @app.route('/save', methods=["POST"])
@@ -35,7 +44,7 @@ def save():
     response = make_response(redirect(url_for("index")))
 
     data = get_saved_data()
-    data.update(json.dumps(dict(request.form.items())))
+    data.update(dict(request.form.items()))
     response.set_cookie("bear_character", json.dumps(data))
     return response
 

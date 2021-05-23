@@ -8,10 +8,22 @@
             <div class="title">
                 <input type="text" name="name" value="{{ saves.get('name', '') }}">
             </div>
+
         </div>
         <div class="grid-70">
             <div class="colors">
-                <button class="btn">Update</button>
+
+                    {% for color in options['colors'] %} 
+
+                        <input type="radio" id="{{ color }}" name="colors" value="{{ colors }}"  />
+                        {% if saves.get('color') == color %}checked{% endif %}                    
+                        <label for="{{ color }}"></label>
+
+                    {% endfor %}
+
+
+                  
+                    <button class="btn">Update</button>
             </div>
         </div>
         <div id="bear" class="grid-100">

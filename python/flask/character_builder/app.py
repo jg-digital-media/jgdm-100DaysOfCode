@@ -4,6 +4,8 @@ import json
 from flask import (Flask, render_template, redirect, 
 url_for, request, make_response)
 
+from options import DEFAULTS
+
 # Run the Flask App.
 app = Flask(__name__)
 
@@ -34,14 +36,15 @@ def index():
 def builder():
     return render_template(
         'builder.html',
-        saves=get_saved_data()
+        saves=get_saved_data(),
+        options = DEFAULTS
     )
 
 # Save data to save route with POST 
 
 @app.route('/save', methods=["POST"])
 def save():
-    response = make_response(redirect(url_for("index")))
+    response = make_response(redirect(url_for("builder")))
 
     data = get_saved_data()
     data.update(dict(request.form.items()))

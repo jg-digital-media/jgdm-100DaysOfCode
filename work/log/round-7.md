@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 6
 
-## **Status:** Day 24 of 100. **Last Update:** 21 May 2021
+## **Status:** Day 25 of 100. **Last Update:** 24 May 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+## R7D25: Monday 24 May 2021
+
++ **Notes**
+
+  +  As you can see Photography has inspired as lot of my project choices in the last year or so in terms of content. Been working with PHP and Python today. 
+  
+  + **Technologies used** - Python, PHP, WordPress, HTML5
 
 ## R7D24: Friday 21 May 2021
 

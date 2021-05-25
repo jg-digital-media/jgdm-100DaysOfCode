@@ -17,7 +17,6 @@
 ### Day 26
 
 
-
 ### Day 22
 
 ### Python Flask Forms

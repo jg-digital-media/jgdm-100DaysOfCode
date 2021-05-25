@@ -5,6 +5,16 @@ ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+## R7D26: Tuesday 24 May 2021
+
++ **Notes**
+
+  +  I'm making a Website in Flask and it's starting to take shape!  Still, a lot to be done.  But it looks IMO nice to look at.
+  
+  + **Technologies used** - Python, PHP, WordPress, HTML5
+
+
 ## R7D25: Monday 24 May 2021
 
 + **Notes**

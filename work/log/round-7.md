@@ -1,10 +1,19 @@
 # 100 Days of Code - Round 6
 
-## **Status:** Day 26 of 100. **Last Update:** 24 May 2021
+## **Status:** Day 27 of 100. **Last Update:** 26 May 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+## R7D27: Tuesday 26 May 2021
+
++ **Notes**
+
+  +  Accomplished today, I've added responsiveness to all the pages and added simple pagination for the main tutorial part of the site.  It's coming together.
+  
+  + **Technologies used** - Python, PHP, WordPress, HTML5
 
 ## R7D26: Tuesday 25 May 2021
 

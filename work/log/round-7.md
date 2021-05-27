@@ -1,13 +1,21 @@
 # 100 Days of Code - Round 6
 
-## **Status:** Day 27 of 100. **Last Update:** 26 May 2021
+## **Status:** Day 28 of 100. **Last Update:** 27 May 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
-## R7D27: Tuesday 26 May 2021
+## R7D28: Thursday 27 May 2021
+
++ **Notes**
+
+  + Took a break from Flask today sorting out one of my local wordpress installations and other admin bits.  Tried to look at SqlAlchemy earlier but the virtual environment wasn't working. Nothing hugely exciting
+  
+  + **Technologies used** - Python, PHP, WordPress, HTML5
+
+## R7D27: Wednesday 26 May 2021
 
 + **Notes**
 

@@ -16,6 +16,9 @@
 
 ### Day 28
 
++ APi with Flask - https://nordicapis.com/how-to-create-an-api-using-the-flask-framework/
+
+
 
 ### Day 22
 

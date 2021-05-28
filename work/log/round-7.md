@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 6
 
-## **Status:** Day 28 of 100. **Last Update:** 27 May 2021
+## **Status:** Day 29 of 100. **Last Update:** 28 May 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+## R7D28: Friday 28 May 2021
+
++ **Notes**
+
+  + Discovered I can at least run SqlAlchemy Code for a basic model without the need for a virtual environment which I'm not unable to use right now.
+  
+  + **Technologies used** - Python, PHP, WordPress, HTML5
 
 ## R7D28: Thursday 27 May 2021
 

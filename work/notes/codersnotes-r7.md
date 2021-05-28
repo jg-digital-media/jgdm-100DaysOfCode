@@ -14,11 +14,14 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
+
+### Day 29
+
++ Upgrading PIP  - https://datatofish.com/upgrade-pip/
+
 ### Day 28
 
 + APi with Flask - https://nordicapis.com/how-to-create-an-api-using-the-flask-framework/
-
-
 
 ### Day 22
 

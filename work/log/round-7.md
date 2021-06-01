@@ -1,12 +1,20 @@
 # 100 Days of Code - Round 6
 
-## **Status:** Day 29 of 100. **Last Update:** 28 May 2021
+## **Status:** Day 29 of 100. **Last Update:** 01 June 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-## R7D28: Friday 28 May 2021
+## R7D30: Monday 28 May 2021
+
++ **Notes**
+
+  + Check out the latest content I have on my Photography Website and my new website I've made with Flask.
+  
+  + **Technologies used** - Python, PHP, WordPress, HTML5
+
+## R7D29: Friday 28 May 2021
 
 + **Notes**
 

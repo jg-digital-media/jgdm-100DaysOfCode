@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 7: Day 30 of 100. **Last Update:** 01 June 2021 
++ **Status:** Round 7: Day 31 of 100. **Last Update:** 02 June 2021 
 
 ## Directories
   + api
@@ -146,7 +146,7 @@ Python
 + **basics** -
 + **lists** - 
 + **madlibs** -
-+ **flask** - To come  
++ **flask**  
 
 React
 
@@ -173,7 +173,7 @@ As of my commit on **10th June 2020** You'll find all my blogs are now located i
 
 In my commit for 25th January 2019, I posted that I've completed my reorganisation of my work via [GitHub](https://github.com/jg-digital-media) reducing the number of my repositories. All my projects are either backed up on my server, on Amazon S3 or on version control. Most of my repos are now set to private. I may end up switching back to public from time to time. But don't worry, anything I deem fit for public viewing will be available to see via my domain at https://projects.jonniegrieve.co.uk.
 
-If you notice codersnotes-r6.md and all the others in this repository, just think of this as a kind of "notebook" for use while I'm working through this round of 100DaysofCode.
+If you notice codersnotes-r7.md and all the others in this repository, just think of this as a kind of "notebook" for use while I'm working through this round of 100DaysofCode.
 
 ## Initial goals of this round.
 

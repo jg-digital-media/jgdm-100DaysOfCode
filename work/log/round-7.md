@@ -1,9 +1,19 @@
 # 100 Days of Code - Round 6
 
-## **Status:** Day 29 of 100. **Last Update:** 01 June 2021
+## **Status:** Day 31 of 100. **Last Update:** 02 June 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+## R7D31: Wednesday 02 May 2021
+
++ **Notes**
+
+  + Check out my latest blog where I discuss getting to know SQLAlchemy and make a basic database schema.
+  
+  + **Technologies used** - Python, PHP, WordPress, HTML5
+
 
 
 ## R7D30: Monday 28 May 2021

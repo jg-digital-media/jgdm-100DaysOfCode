@@ -554,12 +554,24 @@
             "img_type_data": "data-src"
         }, {
             "project_name": "Express.js Flashcard App",
-            "project_url": " https://jgdm-flashcard-app.herokuapp.com/",
+            "project_url": "https://jgdm-flashcard-app.herokuapp.com/",
             "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/express-site/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/express_site.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/express_site.jpg",
             "project_alt": "Go to Express.js Flashcard App",
             "project_type": "App",
+            "project_status": "complete",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+        }, {
+            "project_name": "JGDM Flask Project",
+            "project_url": "",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/flask-project/",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/flask_project.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/flask Project.jpg",
+            "project_alt": "Go to JGDM Flask Project",
+            "project_type": "Website",
             "project_status": "complete",
             "status": true,
             "img_type": "data-src",

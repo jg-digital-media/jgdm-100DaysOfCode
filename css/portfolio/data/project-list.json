@@ -812,8 +812,8 @@
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/pm_consulting.jpg",
             "project_alt": "PM Consulting",
             "project_type": "website",
-            "project_status": "upcoming",
-            "status": "upcoming",
+            "project_status": "complete",
+            "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"        
         }, {
@@ -836,8 +836,8 @@
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/sub_projects.jpg",
             "project_alt": "JGDM: Project Landing Page",
             "project_type": "website",
-            "project_status": "upcoming",
-            "status": "upcoming",
+            "project_status": "complete",
+            "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"        
         }, {

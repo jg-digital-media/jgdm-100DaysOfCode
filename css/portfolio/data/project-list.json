@@ -277,18 +277,6 @@
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
-            "project_name": "Portfolio Subdomain",
-            "project_url": "https://portfolio.jonniegrieve.co.uk",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/portfolio-gallery/",
-            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/sub_portfolio.png",
-            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/sub-portfolio.jpg",
-            "project_alt": "Go to Projects Subdomain",
-            "project_type": "Website",
-            "project_status": "under_review",
-            "status": null,
-            "img_type": "data-src",
-            "img_type_data": "data-src"
-        }, {
             "project_name": "Simple List Maker",
             "project_url": "https://projects.jonniegrieve.co.uk/list_maker",
             "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/simple-list-maker-app/",

@@ -313,12 +313,12 @@
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
-            "project_name": "Learning Notes Example (Closed for Debugging)",
+            "project_name": "Learning Notes - WordPress Site",
             "project_url": "#",
             "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/learning-notes-wordpress/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/learning_notes.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/learning_notes.jpg",
-            "project_alt": "Go to Learning Notes Example",
+            "project_alt": "Go to Learning Notes Website",
             "project_type": "Website",
             "project_status": "under_review",
             "status": null,

@@ -7,11 +7,12 @@ ___
 
 
 
-## R7D33: Frisday 04 June 2021
+## R7D33: Friday 04 June 2021
 
 + **Notes**
 
-  + This week I've been thinking about Dyspraxia. So today I made some minor style tweaks to my website and posted a new blog to it. 
+  +git push
+
   
   + **Technologies used** - WordPress, HTML5
 

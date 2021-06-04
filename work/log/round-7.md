@@ -1,9 +1,19 @@
 # 100 Days of Code - Round 6
 
-## **Status:** Day 32 of 100. **Last Update:** 03 June 2021
+## **Status:** Day 33 of 100. **Last Update:** 04 June 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+
+## R7D33: Frisday 04 June 2021
+
++ **Notes**
+
+  + This week I've been thinking about Dyspraxia. So today I made some minor style tweaks to my website and posted a new blog to it. 
+  
+  + **Technologies used** - WordPress, HTML5
 
 
 ## R7D32: Thursday 03 June 2021

@@ -20,10 +20,13 @@ header {
     display: block;
     margin: 0 auto; }
   header h1 {
-    text-align: center; }
+    text-align: center;
+    color: #f2f2b9; }
 
 #container h2 {
   text-align: center; }
+#container ul {
+  line-height: 1.9; }
 #container article {
   width: 50%;
   display: block;

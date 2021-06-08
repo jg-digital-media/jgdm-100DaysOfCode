@@ -27,6 +27,9 @@ header {
   text-align: center; }
 #container ul {
   line-height: 1.9; }
+#container .browsers-icon {
+  width: 100px;
+  width: 20px; }
 #container article {
   width: 50%;
   display: block;
@@ -45,5 +48,9 @@ footer {
   width: 100%; }
   footer p {
     text-align: center; }
+
+.browsers-icon {
+  width: 100px;
+  width: 20px; }
 
 /*# sourceMappingURL=style.css.map */

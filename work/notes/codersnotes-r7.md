@@ -15,7 +15,7 @@
 + Gulp and Grunt compilers
 
 
-### Day 32
+### Day 35
 
 
 
@@ -23,7 +23,7 @@
 
 + Upgrading PIP  - https://datatofish.com/upgrade-pip/
 
-+ Using a Virtuakl Environment - https://www.simononsoftware.com/virtualenv-tutorial/#what-virtualenv-is
++ Using a Virtual Environment - https://www.simononsoftware.com/virtualenv-tutorial/#what-virtualenv-is
 
 
 ```python

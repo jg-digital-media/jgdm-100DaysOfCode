@@ -1,17 +1,25 @@
 # 100 Days of Code - Round 6
 
-## **Status:** Day 34 of 100. **Last Update:** 07 June 2021
+## **Status:** Day 35 of 100. **Last Update:** 08 June 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
+## R7D35: Tuesday 08 June 2021
+
++ **Notes**
+
+  + For a great example of how to make and use a Responsive navbar, go to https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci. I've added it to my #100DaysOfCode Repo
+  
+  + **Technologies used** - WordPress, HTML5, JavaScript
+
 ## R7D34: Monday 07 June 2021
 
 + **Notes**
 
-  + Monday Photography update as is my usual. Added some new Dyspraxia webste content.  (In amongst making inroads with my accounts) 
+  + Monday Photography update as is my usual. Added some new Dyspraxia website content.  (In amongst making inroads with my accounts) 
   
   + **Technologies used** - WordPress, HTML5
 
@@ -19,7 +27,7 @@ ___
 
 + **Notes**
 
-  +git push
+  + This week I've been thinking about Dyspraxia. So today I made some minor style tweaks to my website and posted a new blog to it.
 
   
   + **Technologies used** - WordPress, HTML5

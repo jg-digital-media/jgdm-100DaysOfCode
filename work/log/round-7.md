@@ -1,10 +1,19 @@
-# 100 Days of Code - Round 6
+# 100 Days of Code - Round 7
 
-## **Status:** Day 35 of 100. **Last Update:** 08 June 2021
+## **Status:** Day 36 of 100. **Last Update:** 09 June 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+## R7D36: Wednesday 08 June 2021
+
++ **Notes**
+
+  + TIL:  How to add data to an Sqlite3 database using SQLAlchemy via Python.
+  
+  + **Technologies used** - WordPress, HTML5, JavaScript
 
 
 ## R7D35: Tuesday 08 June 2021

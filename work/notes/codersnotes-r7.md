@@ -15,7 +15,55 @@
 + Gulp and Grunt compilers
 
 
-### Day 35
+### Day 36
+
+
+```python
+
+### e.g. Add a single user
+
+
+single_user = User(name="", fullname="" nickname="")
+
+print( meg_user.name )
+print( meg_user.id )
+session.add(single_user)
+session.commit()
+
+print( meg_user.id )
+
+```
+
+```python
+
+###e.g. Add multiple users 
+
+session.add_all(
+
+[
+  User(name='Grace', fullname='Grace Hopper', nickname='Pioneer'), 
+  User(name='Alan', fullname='Alan Turing', nickname='Computer Scientist'),  
+  User(name='Katherine', fullname='Katherine Johnson', nickname='') 
+]
+
+)
+
+new_users = [
+  User(name='Grace', fullname='Grace Hopper', nickname='Pioneer'), 
+  User(name='Alan', fullname='Alan Turing', nickname='Computer Scientist'),  
+  User(name='Katherine', fullname='Katherine Johnson', nickname='') 
+]
+
+session.add_all( new_users )
+session.commit()
+
+
+for user in new_users:
+    print(user.id)
+
+
+
+```
 
 
 

@@ -1,13 +1,22 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 36 of 100. **Last Update:** 09 June 2021
+## **Status:** Day 37 of 100. **Last Update:** 10 June 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
-## R7D36: Wednesday 08 June 2021
+## R7D37: Thursday 10 June 2021
+
++ **Notes**
+
+  + Quick updates to some Ajax work over at https://projects.jonniegrieve.co.uk/ajax_project with some new images added and edits to JSON data.
+  
+  + **Technologies used** - WordPress, HTML5, JavaScript
+
+
+## R7D36: Wednesday 09 June 2021
 
 + **Notes**
 

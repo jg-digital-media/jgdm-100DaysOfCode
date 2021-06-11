@@ -1,6 +1,19 @@
+
+"""
+Emvironments
+
 """
 
-importd
+
+source .\env\Scripts\activate./env/bin/activate
+source ./env/Scripts/activate
+source .\env\Scripts\activate - windows
+
+
+
+"""
+
+imports
 
 """
 
@@ -67,3 +80,14 @@ session.commit()
 
 for user in new_users:
     print(user.id)
+
+
+"""
+Edit new Database entries before committing
+"""
+
+# print (session.dirty)
+print (session.new)
+
+
+# Run the file to create the DB

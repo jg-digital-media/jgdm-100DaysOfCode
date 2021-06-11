@@ -14,6 +14,96 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
+### Day 38
+
+# Create a single set of data
+single_user = User(name="Jonnie", fullname="Jonathan Grieve", nickname="JG")
+
+
+# Create multiple sets of data with a list.
+```new_users = [
+  User(name='Grace', fullname='Grace Hopper', nickname='Pioneer'), 
+  User(name='Alan', fullname='Alan Turing', nickname='Computer Scientist'),  
+  User(name='Katherine', fullname='Katherine Johnson', nickname='') 
+]
+
+session.add_all( new_users )
+
+
+search_grace = models.session.query(models.User).filter(models.User.name=="Grace").one()```
+
+
+Searching for "grace"
+
+```>>> import models
+>>> search_grace = models.session.query(models.User).filter(models.User.name=="Grace").one()
+2021-06-11 13:35:14,780 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2021-06-11 13:35:14,784 INFO sqlalchemy.engine.Engine SELECT users.id AS users_id, users.name AS users_name, users.fullname AS users_fullname, users.nickname AS users_nickname
+FROM users
+WHERE users.name = ?
+2021-06-11 13:35:14,785 INFO sqlalchemy.engine.Engine [generated in 0.00090s] ('Grace',)
+>>> search_grace
+<User(name=Grace, fullname=Grace Hopper, nickname="Pioneer)>```
+
+# Rollback Dry Run
+
+```>>> new = models.User(name="Jack", fullname="Jack Bauer", nickname="Bauer")
+>>> models.session.add(new)
+>>> models.session.new
+IdentitySet([<User(name=Jack, fullname=Jack Bauer, nickname="Bauer)>])
+>>> models.session.rollback
+<bound method Session.rollback of <sqlalchemy.orm.session.Session object at 0x000001D4E0E61940>>
+>>> models.session.dityu
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'Session' object has no attribute 'dityu'
+>>> models.session.dirty
+IdentitySet([<User(name=Grace, fullname=Grace Hopper, nickname="Gracie)>])
+>>> models.session.rollback()
+2021-06-11 13:44:56,879 INFO sqlalchemy.engine.Engine ROLLBACK
+>>> models.session.dirty
+IdentitySet([])
+>>> models.session.new
+IdentitySet([])```
+
+# Delete Dry Run 
+
+```>>> new = models.User(name="Jack", fullname="Jack Bauer", nickname="Bauer")
+>>> models.session.add(new)
+>>> models.session.commit()
+2021-06-11 13:50:42,632 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2021-06-11 13:50:42,635 INFO sqlalchemy.engine.Engine INSERT INTO users (name, fullname, nickname) VALUES (?, ?, ?)
+2021-06-11 13:50:42,636 INFO sqlalchemy.engine.Engine [generated in 0.00060s] ('Jack', 'Jack Bauer', 'Bauer')
+2021-06-11 13:50:42,698 INFO sqlalchemy.engine.Engine COMMIT
+>>> models.session.delete(new)
+>>> models.session.commit()
+2021-06-11 13:51:33,849 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2021-06-11 13:51:33,852 INFO sqlalchemy.engine.Engine SELECT users.id AS users_id, users.name AS users_name, users.fullname AS users_fullname, users.nickname AS users_nickname
+FROM users
+WHERE users.id = ?
+2021-06-11 13:51:33,853 INFO sqlalchemy.engine.Engine [generated in 0.00099s] (12,)
+2021-06-11 13:51:33,883 INFO sqlalchemy.engine.Engine DELETE FROM users WHERE users.id = ?
+2021-06-11 13:51:33,883 INFO sqlalchemy.engine.Engine [generated in 0.00059s] (12,)
+2021-06-11 13:51:33,904 INFO sqlalchemy.engine.Engine COMMIT
+>>> models.session.query(models.User).filter(models.User.name=="Jack").one()
+2021-06-11 13:53:20,226 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2021-06-11 13:53:20,226 INFO sqlalchemy.engine.Engine SELECT users.id AS users_id, users.name AS users_name, users.fullname AS users_fullname, users.nickname AS users_nickname
+FROM users
+WHERE users.name = ?
+2021-06-11 13:53:20,227 INFO sqlalchemy.engine.Engine [cached since 1085s ago] ('Jack',)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "C:\xampp\htdocs\jgdm-100DaysOfCode\python\flask\sqlalchemy\project_1\env\lib\site-packages\sqlalchemy\orm\query.py", line 2796, in one
+    return self._iter().one()
+  File "C:\xampp\htdocs\jgdm-100DaysOfCode\python\flask\sqlalchemy\project_1\env\lib\site-packages\sqlalchemy\engine\result.py", line 1366, in one
+    return self._only_one_row(
+  File "C:\xampp\htdocs\jgdm-100DaysOfCode\python\flask\sqlalchemy\project_1\env\lib\site-packages\sqlalchemy\engine\result.py", line 561, in _only_one_row
+    raise exc.NoResultFound(
+sqlalchemy.exc.NoResultFound: No row was found when one was required```
+
+
+
+
 
 ### Day 36
 

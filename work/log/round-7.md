@@ -1,9 +1,20 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 38 of 100. **Last Update:** 11 June 2021
+## **Status:** Day 39 of 100. **Last Update:** 14 June 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+
+## RR7D39: Monday 14 June 2021
+
++ **Notes**
+
+  + The latest blog in my SQLAlchemy series discusses how to safely and responsibly update rollback and delete data
+https://blog.jonniegrieve.co.uk/blog_posts/updates-rollback-and-deleting-data-with-sqlalchemy/
+   
+  + **Technologies used** - WordPress, HTML5, JavaScript
 
 ## RR7D38: Friday 11 June 2021
 
@@ -11,7 +22,6 @@ ___
 
   + The latest blog in my SQLAlchemy series discusses how to safely and responsibly update rollback and delete data
 https://blog.jonniegrieve.co.uk/blog_posts/updates-rollback-and-deleting-data-with-sqlalchemy/
-
    
   + **Technologies used** - WordPress, HTML5, JavaScript
 

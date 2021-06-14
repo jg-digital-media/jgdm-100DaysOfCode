@@ -14,6 +14,39 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
+
+### Day 39
+
+```python
+# Using a Filter Example in Code
+
+from sqlalchemy import create_engine, Column, Integer, String
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
+
+
+engine = create_engine(‘sqlite:///movies.db’, echo=False)
+Session = sessionmaker(bind=engine)
+session = Session()
+Base = declarative_base()
+
+
+class Movie(Base):
+    __tablename__ = ‘movies’
+
+    id = Column(Integer, primary_key=True)
+    movie_title = Column(String)
+    genre = Column(String)
+
+# Write your code below
+romance_movies = session.query(Movie).filter_by(genre="Romance")
+
+
+
+
+```
+
+
 ### Day 38
 
 # Create a single set of data

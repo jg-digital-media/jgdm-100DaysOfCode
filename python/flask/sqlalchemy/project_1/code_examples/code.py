@@ -10,6 +10,10 @@ source ./env/Scripts/activate
 source .\env\Scripts\activate - windows
 
 
+# To use Virtual Environment  
+
+source ./env/Scripts/activate
+python
 
 """
 

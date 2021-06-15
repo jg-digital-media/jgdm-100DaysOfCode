@@ -1,11 +1,19 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 39 of 100. **Last Update:** 14 June 2021
+## **Status:** Day 40 of 100. **Last Update:** 15 June 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+## RR7D40: Tuesday 15 June 2021
+
++ **Notes**
+
+  + Made a start on a new CLI App for SQLAlchemy.  I also made some fixes to my Photography Instructional website in Flask. Annoyingly however I was unable to deploy these to Heroku. 
+   
+  + **Technologies used** - WordPress, HTML5, JavaScript
 
 ## RR7D39: Monday 14 June 2021
 

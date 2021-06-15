@@ -1,0 +1,32 @@
+# CLI: Search Application: Overview and planning
+Last update: 15-06-2021  08:02
+
+## Setup
+
+
+app.py
+models.py
+data.txt
+
+Virtual Environment Setup
+
+```python m env env``` - to create a virtual environment
+```source ./env/Scripts/activate```
+```python```  - to enter the python shell
+
++ in model.py
+# create a database
+# create a model
+# title, author, date published, price
+
+
+
++ in app.py
+# import models
+# main menu - add, search, analysis, exit, view
+# add books to the database 
+# edit books
+# delete books
+# search books
+# data cleaning methods
+# loop that runs the program

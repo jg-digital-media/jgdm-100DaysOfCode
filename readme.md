@@ -71,6 +71,9 @@
   + python
     + basics
     + flask
+      + sqlalachemy
+        + project_1
+        + cli_app
     + lists
     + madlibs
     + oop

@@ -1,5 +1,5 @@
 # CLI: Search Application: Overview and planning
-Last update: 15-06-2021  08:02
+Last update: 15-06-2021  08:13
 
 ## Setup
 
@@ -8,7 +8,20 @@ app.py
 models.py
 data.txt
 
-Virtual Environment Setup
+
+## Install SQLAlchemy
+
+Naviate to project root.
+
+```pip install sqlalchemy```
+
+## Ensure SQLAlchemy is installed
+
+python (or python3)
+import sqlalchemy
+sqlalchemy.__version__
+
+## Virtual Environment Setup
 
 ```python m env env``` - to create a virtual environment
 ```source ./env/Scripts/activate```

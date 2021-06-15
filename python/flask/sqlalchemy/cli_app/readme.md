@@ -1,5 +1,5 @@
 # CLI: Search Application: Overview and planning
-Last update: 15-06-2021  08:13
+Last update: 15-06-2021  08:16
 
 ## Setup
 
@@ -26,6 +26,10 @@ sqlalchemy.__version__
 ```python m env env``` - to create a virtual environment
 ```source ./env/Scripts/activate```
 ```python```  - to enter the python shell
+
+## Save project dependencies
+
+```pip freeze > requirements.txt``` - saves project dependencies to a text file at project root.
 
 + in model.py
 # create a database

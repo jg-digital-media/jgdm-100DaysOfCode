@@ -1,11 +1,19 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 40 of 100. **Last Update:** 15 June 2021
+## **Status:** Day 41 of 100. **Last Update:** 16 June 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+## RR7D41: Wednesday 16 June 2021
+
++ **Notes**
+
+  + Sticky header and footer for HTML5 tables and more changes pushed on my Flask Website with Python
+   
+  + **Technologies used** - Python, Flask, HTML5, Sass
 
 ## RR7D40: Tuesday 15 June 2021
 
@@ -13,7 +21,7 @@ ___
 
   + Made a start on a new CLI App for SQLAlchemy.  I also made some fixes to my Photography Instructional website in Flask. Annoyingly however I was unable to deploy these to Heroku. 
    
-  + **Technologies used** - WordPress, HTML5, JavaScript
+  + **Technologies used** - Python, Flask, HTML5, Sass
 
 ## RR7D39: Monday 14 June 2021
 

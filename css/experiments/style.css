@@ -1,7 +1,7 @@
 /***
 
 Author:         @jg_digitalMedia
-Last Update:    19/04/2021 - 12:25
+Last Update:    16/06/2021 - 08:25
 */
 * {
   padding: 0;
@@ -24,9 +24,16 @@ header {
     color: #f2f2b9; }
 
 #container h2 {
-  text-align: center; }
+  text-align: center;
+  color: white; }
 #container ul {
   line-height: 1.9; }
+  #container ul li {
+    color: orchid;
+    color: white;
+    list-style: none;
+    margin-left: 5px;
+    margin: 0 10px; }
 #container .browsers-icon {
   width: 100px;
   width: 20px; }

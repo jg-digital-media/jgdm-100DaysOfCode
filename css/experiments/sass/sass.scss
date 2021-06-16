@@ -1,7 +1,7 @@
 /***
 
 Author:         @jg_digitalMedia
-Last Update:    19/04/2021 - 12:25
+Last Update:    16/06/2021 - 08:25
 */
 
 * {
@@ -37,12 +37,21 @@ header {
     h2 {
 
         text-align: center;
+        color: white;
 
 
     }
 
     ul {
         line-height: 1.9;
+
+        li {
+            color: orchid;
+            color: white;
+            list-style: none;
+            margin-left: 5px;
+            margin: 0 10px;
+        }
     }
 
     .browsers-icon {

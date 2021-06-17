@@ -4,18 +4,20 @@ Author:         @jg_digitalMedia
 Last Update:    17/06/2021 - 09:23
 */
 
+@import "config";
+
 * {
     padding: 0;
     margin: 0;
 }
 
 body {
-    background: chocolate;
+    background: $background-main;
 }
 
 header {
     border-bottom: 3px white solid;
-    background: blue;
+    background: $background-header;
     min-height: 200px;
 
     img {
@@ -25,7 +27,7 @@ header {
 
     h1 {
         text-align: center;
-        color: #f2f2b9;
+        color: $text-header-one;
     }
 }
 
@@ -35,7 +37,7 @@ header {
     h2 {
 
         text-align: center;
-        color: white;
+        color: $text-header-two;
         padding: 20px 0;
 
 
@@ -43,7 +45,7 @@ header {
 
     h2.heading-two {
         padding: 20px 0;
-        color: white;
+        color: $text-header-two;
     }
 
     ul {
@@ -51,7 +53,7 @@ header {
 
         li {
             color: orchid;
-            color: white;
+            color: $li-color;
             list-style: none;
             margin-left: 5px;
             margin: 0 10px;
@@ -80,7 +82,7 @@ article {
 
         li {
             a {
-                color: #ffd382;
+                color: $link-color;
 
                 &:hover {
                     text-decoration: none;
@@ -102,7 +104,7 @@ footer {
 
 .key {
 
-    background: hsl(28, 100%, 65%);
+    background: $background-main;
     padding: 20px;
     border-radius: 15px;
 

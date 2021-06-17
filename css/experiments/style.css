@@ -75,6 +75,10 @@ footer {
   font-size: 10px;
   margin-top: 20px;
   margin: 15px auto; }
+  .key caption {
+    font-size: 1.4em;
+    font-style: italic;
+    font-weight: bold; }
   .key p {
     text-align: center; }
   .key tr:nth-child(2) {

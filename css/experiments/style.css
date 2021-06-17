@@ -33,8 +33,9 @@ header {
     margin-left: 5px;
     margin: 0 10px; }
 #container .browsers-icon {
-  width: 100px;
-  width: 25px; }
+  /* width: 100px; */
+  width: 25px;
+  /* width: 15px; */ }
 #container article {
   width: 50%;
   display: block;

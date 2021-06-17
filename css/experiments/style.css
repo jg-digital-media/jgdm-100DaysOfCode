@@ -21,7 +21,8 @@ header {
     margin: 0 auto; }
   header h1 {
     text-align: center;
-    color: #f2f2b9; }
+    color: #f2f2b9;
+    text-shadow: 3px 2px 4px #030003; }
 
 #container h2 {
   text-align: center;

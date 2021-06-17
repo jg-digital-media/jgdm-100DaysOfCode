@@ -8,7 +8,9 @@ Last Update:    17/06/2021 - 09:23
   margin: 0; }
 
 body {
-  background: chocolate; }
+  background: chocolate;
+  font-family: arial;
+  font-family: "Pathway Gothic One", sans-serif; }
 
 header {
   border-bottom: 3px white solid;
@@ -63,6 +65,7 @@ footer {
   background: chocolate;
   padding: 20px;
   border-radius: 15px;
+  font-size: 10px;
   margin-top: 20px;
   margin: 15px auto; }
   .key p {

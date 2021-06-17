@@ -23,6 +23,10 @@ header {
 
 #container h2 {
   text-align: center;
+  color: white;
+  padding: 20px 0; }
+#container h2.heading-two {
+  padding: 20px 0;
   color: white; }
 #container ul {
   line-height: 1.9; }

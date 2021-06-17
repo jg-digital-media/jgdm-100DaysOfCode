@@ -27,12 +27,19 @@ header {
   text-align: center;
   color: white;
   padding: 20px 0; }
+#container p {
+  color: white;
+  margin: 10px 0;
+  text-align: center; }
 #container h2.heading-two {
   padding: 20px 0;
   color: white; }
-#container ul {
+#container ul.contents {
+  background: #1c1c1b;
+  padding: 5px;
+  border-radius: 15px;
   line-height: 1.9; }
-  #container ul li {
+  #container ul.contents li {
     color: orchid;
     color: white;
     list-style: none;

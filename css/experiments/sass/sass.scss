@@ -45,12 +45,21 @@ header {
 
     }
 
+    p {
+        color: white;
+        margin: 10px 0;
+        text-align: center;
+    }
+
     h2.heading-two {
         padding: 20px 0;
         color: $text-header-two;
     }
 
-    ul {
+    ul.contents {
+        background: #1c1c1b;
+        padding: 5px;
+        border-radius: 15px;
         line-height: 1.9;
 
         li {

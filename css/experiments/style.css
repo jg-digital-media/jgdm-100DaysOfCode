@@ -1,7 +1,7 @@
 /***
 
 Author:         @jg_digitalMedia
-Last Update:    16/06/2021 - 08:25
+Last Update:    17/06/2021 - 09:23
 */
 * {
   padding: 0;
@@ -11,11 +11,9 @@ body {
   background: chocolate; }
 
 header {
-  height: 400px;
   border-bottom: 3px white solid;
   background: blue;
-  min-height: 250px;
-  height: auto; }
+  min-height: 200px; }
   header img {
     display: block;
     margin: 0 auto; }
@@ -36,7 +34,7 @@ header {
     margin: 0 10px; }
 #container .browsers-icon {
   width: 100px;
-  width: 20px; }
+  width: 25px; }
 #container article {
   width: 50%;
   display: block;
@@ -56,8 +54,19 @@ footer {
   footer p {
     text-align: center; }
 
-.browsers-icon {
-  width: 100px;
-  width: 20px; }
+.key {
+  background: #ffa04d;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin: 15px auto; }
+  .key p {
+    text-align: center; }
+  .key tr:nth-child(2) {
+    font-weight: bold;
+    text-align: right; }
+  .key .browsers-icon {
+    width: 100px;
+    width: 20px; }
 
 /*# sourceMappingURL=style.css.map */

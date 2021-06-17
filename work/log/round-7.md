@@ -1,11 +1,19 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 41 of 100. **Last Update:** 16 June 2021
+## **Status:** Day 41 of 100. **Last Update:** 17 June 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+## RR7D41: Thursday 17 June 2021
+
++ **Notes**
+
+  + Did work some HTML5/CSS work today.  CSS Experiments directory
+   
+  + **Technologies used** - HTML5, Sass
 
 ## RR7D41: Wednesday 16 June 2021
 

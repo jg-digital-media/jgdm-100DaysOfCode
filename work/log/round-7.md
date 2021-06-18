@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 41 of 100. **Last Update:** 17 June 2021
+## **Status:** Day 42 of 100. **Last Update:** 18 June 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+## RR7D42: Friday 18 June 2021
 
++ **Notes**
+
+  + My latest commits were pushed to Heroku earlier today.  My fledgling flask site is now fully fledged https://aqueous-thicket-63067.herokuapp.com/
+   
+  + **Technologies used** - HTML5, Sass, Python, Flask
 
 ## RR7D41: Thursday 17 June 2021
 

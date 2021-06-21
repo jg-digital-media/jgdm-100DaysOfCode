@@ -12,14 +12,14 @@ Last Update:    17/06/2021 - 16:05
 }
 
 body {
-    background: $background-main;
+    background: $background-primary;
     font-family: $main-font;
     font-family: $font;
 }
 
 header {
     border-bottom: 3px white solid;
-    background: $background-header;
+    background: $background-secondary;
     min-height: 200px;
 
     img {
@@ -47,7 +47,7 @@ header {
     }
 
     p {
-        color: white;
+        color: $text-para-one;
         margin: 10px 0;
         text-align: center;
     }
@@ -58,7 +58,7 @@ header {
     }
 
     ul.contents {
-        background: #1c1c1b;
+        background: #383833;
         padding: 5px;
         border-radius: 15px;
         line-height: 1.9;
@@ -116,7 +116,7 @@ footer {
 
 .key {
 
-    background: $background-main;
+    background: $background-key;
     padding: 20px;
     border-radius: 15px;
     font-size: 10px;

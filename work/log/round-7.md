@@ -1,15 +1,23 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 43 of 100. **Last Update:** 21 June 2021
+## **Status:** Day 44 of 100. **Last Update:** 22 June 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+## RR7D44: Tuesday 22 June 2021
+
++ **Notes**
+
+  + Sorted a new sass partial for a print stylesheet for my website.
+   
+  + **Technologies used** - HTML5, Sass
 
 ## RR7D43: Monday 21 June 2021
 
 + **Notes**
 
-  + New Photogtraphy content went online today as did a new update to the Flask site, Photograhy
+  + New Photography content went online today as did a new update to the Flask site, Photography
    
   + **Technologies used** - HTML5, Sass, Python, Flask
 

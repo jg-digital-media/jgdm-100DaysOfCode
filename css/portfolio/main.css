@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   14/04/2021  12:26pm
+Last Updated:   22/06/2021  08:37
 */
 .main-content .button {
   background: #888e42;
@@ -620,6 +620,8 @@ footer {
     font-weight: bold; }
 
 /*<a href="javascript:" class="text2" onMouseDown="MM_openBrWindow('terms.html','','scrollbars=yes,width=550,height=250')">*/
+@media print {
+  /* styles go here */ }
 .main-content {
   width: 100%;
   position: relative;

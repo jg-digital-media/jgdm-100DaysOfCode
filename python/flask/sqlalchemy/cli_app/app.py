@@ -25,13 +25,43 @@ def menu():
 
 
 
+# to keep the application until user exit
+
+def app():
+
+    app_running = True
+
+    while app_running:
+
+        choice = menu()
+
+        if choice == '1':
+            #add menu item
+                pass
+        elif choice == '2':
+            # view book 
+            pass
+
+        elif choice == '3':
+            # view book 
+            pass
+
+        elif choice == '4':
+            # analyse - media item details
+            pass
+
+
+        else:             
+            # default option to exit the application 
+            print('GOODBYE')
+            app_running = False
 
 
 # Create the Database
 if __name__  == '__main__':
    Base.metadata.create_all(engine)
-   menu()
-
+   # menu() - call menu function
+   app() 
 
 
 # main menu - add, search, analysis, exit, view

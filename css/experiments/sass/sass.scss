@@ -1,7 +1,7 @@
 /***
 
 Author:         @jg_digitalMedia
-Last Update:    17/06/2021 - 16:05
+Last Update:    23/06/2021 - 09:18
 */
 
 @import "config";
@@ -48,13 +48,26 @@ header {
 
     p {
         color: $text-para-one;
-        margin: 10px 0;
+        color: #4c4848;
+        /* margin: 10px 0; */
         text-align: center;
+        line-height: 2;
+        font-weight: bold;
+        font-size: 1.5em;
+        width: 51%;
+        margin: 15px auto;
+
+        @media (max-width: $small) {
+            width: 95%;
+        }
     }
 
     h2.heading-two {
         padding: 20px 0;
         color: $text-header-two;
+        padding: 20px 0;
+        text-underline: black solid 3px;
+        text-decoration: underline;
     }
 
     ul.contents {
@@ -63,12 +76,21 @@ header {
         border-radius: 15px;
         line-height: 1.9;
 
+        @media (max-width: $small) {
+            width: 80%;
+        }
+
         li {
             color: orchid;
             color: $li-color;
             list-style: none;
             margin-left: 5px;
             margin: 0 10px;
+            
+
+            @media (max-width: $small) {
+                margin: 10px 10px;
+            }
         }
     }
 

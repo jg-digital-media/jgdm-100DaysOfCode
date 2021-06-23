@@ -5,9 +5,9 @@ $background-secondary: #7272ff;
 $background-key: #ffa04d;
 
 $text-header-one: #f2f2b9;
-$text-header-two: #533506;
+$text-header-two: #4c4848;  // 533586
 
-$text-para-one: black;
+$text-para-one: $text-header-two;
 
 $color: #c86e14;
 
@@ -20,3 +20,7 @@ $link-color: #ffd382;
 
 $main-font: arial;
 $font:'Pathway Gothic One', sans-serif;
+
+//breakpoints 
+$small: 680px;
+

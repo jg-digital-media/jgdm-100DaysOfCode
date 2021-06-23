@@ -1,7 +1,7 @@
 /***
 
 Author:         @jg_digitalMedia
-Last Update:    17/06/2021 - 16:05
+Last Update:    23/06/2021 - 09:18
 */
 * {
   padding: 0;
@@ -26,26 +26,44 @@ header {
 
 #container h2 {
   text-align: center;
-  color: #533506;
+  color: #4c4848;
   padding: 20px 0; }
 #container p {
-  color: black;
-  margin: 10px 0;
-  text-align: center; }
+  color: #4c4848;
+  color: #4c4848;
+  /* margin: 10px 0; */
+  text-align: center;
+  line-height: 2;
+  font-weight: bold;
+  font-size: 1.5em;
+  width: 51%;
+  margin: 15px auto; }
+  @media (max-width: 680px) {
+    #container p {
+      width: 95%; } }
 #container h2.heading-two {
   padding: 20px 0;
-  color: #533506; }
+  color: #4c4848;
+  padding: 20px 0;
+  text-underline: black solid 3px;
+  text-decoration: underline; }
 #container ul.contents {
   background: #383833;
   padding: 5px;
   border-radius: 15px;
   line-height: 1.9; }
+  @media (max-width: 680px) {
+    #container ul.contents {
+      width: 80%; } }
   #container ul.contents li {
     color: orchid;
     color: white;
     list-style: none;
     margin-left: 5px;
     margin: 0 10px; }
+    @media (max-width: 680px) {
+      #container ul.contents li {
+        margin: 10px 10px; } }
 #container .browsers-icon {
   /* width: 100px; */
   /* width: 25px; */
@@ -89,4 +107,4 @@ footer {
     width: 100px;
     width: 20px; }
 
-/*# sourceMappingURL=Style.css.map */
+/*# sourceMappingURL=style.css.map */

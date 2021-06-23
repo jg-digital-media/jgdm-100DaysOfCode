@@ -1,49 +1,51 @@
 # CLI: Search Application: Overview and planning
-Last update: 15-06-2021  08:16
+Last update: 23-06-2021  15:01
 
 ## Setup
 
 
+### Virtual Environment Setup
+
+```python -m venv env``` - to create a virtual environment
+```source ./env/Scripts/activate```
+```python```  - to enter the python shell (exit() to exit shell)
+```sqlite3``` - enter sqlite3 shell  (Ctrl + C to exit)
+
 app.py
 models.py
-data.txt
+media.db
 
 
 ## Install SQLAlchemy
 
-Naviate to project root.
+Navigate to project root - ```cli_app````
 
-```pip install sqlalchemy```
+Make sure SQLAlchemy is installed```pip install sqlalchemy```
 
-## Ensure SQLAlchemy is installed
++ ```python``` or ```python3```
++ ```import sqlalchemy```
++ ```sqlalchemy.__version__```
 
-python (or python3)
-import sqlalchemy
-sqlalchemy.__version__
 
-## Virtual Environment Setup
-
-```python m env env``` - to create a virtual environment
-```source ./env/Scripts/activate```
-```python```  - to enter the python shell
-
-## Save project dependencies
+## Save Project Dependencies
 
 ```pip freeze > requirements.txt``` - saves project dependencies to a text file at project root.
 
-+ in model.py
-# create a database
-# create a model
-# title, author, date published, price
+## Tasks
+
++ in models.py
+  + create a database
+  + create a model
+  + title, author, date published, price
 
 
 
 + in app.py
-# import models
-# main menu - add, search, analysis, exit, view
-# add books to the database 
-# edit books
-# delete books
-# search books
-# data cleaning methods
-# loop that runs the program
+  + import models
+  + main menu - add, search, analysis, exit, view
+  + add books to the database 
+  + edit books
+  + delete books
+  + search books
+  + data cleaning methods
+  + loop that runs the program

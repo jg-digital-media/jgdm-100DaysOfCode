@@ -7,10 +7,10 @@ def menu():
     while True:
         print('''
             \nMEDIA LIBRARY MENU
-            \r1) Add Itrm
-            \r2) View all books
-            \r3) Search item
-            \r4) Media item
+            \r1) Add Item
+            \r2) View All Books
+            \r3) Search Media Item
+            \r4) Media Item
             \r5) Exit the Application ''') 
 
         # store a variable for the menu coice
@@ -21,7 +21,7 @@ def menu():
             input('''
                     \rError: please try one of the choices above
                     \rA number from 1 to 5.
-                    \rPress Enter to Try Again.''')
+                    \rPress Enter to Try Again. ''')
 
 
 

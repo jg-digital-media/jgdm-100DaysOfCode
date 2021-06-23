@@ -2,9 +2,23 @@
 from models import (Base, session, Media, engine)
 
 
+
+def menu():
+    while True:
+        print('''
+        MEDIA LIBRARY MENU
+        1) Add Itrm
+        2) View all books
+        3) Search item
+        4) Media item
+        5) Exit the Application ''')
+
+        input('What would you like to do? ')
+
 # Create the Database
 if __name__  == '__main__':
    Base.metadata.create_all(engine)
+   menu()
 
 
 

@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 44 of 100. **Last Update:** 22 June 2021
+## **Status:** Day 45 of 100. **Last Update:** 23 June 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+## RR7D45: Wednesday 23 June 2021
+
++ **Notes**
+
+  + Coded the nuts and bolts of a Media library CLI App including the menu choices and a way to except the app in Python's SQL Alchemy. (the database parts of the app come next.) 
+   
+  + **Technologies used** - HTML5, Sass
 
 ## RR7D44: Tuesday 22 June 2021
 

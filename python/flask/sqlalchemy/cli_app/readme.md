@@ -7,7 +7,7 @@ Last update: 23-06-2021  15:01
 ### Virtual Environment Setup
 
 ```python -m venv env``` - to create a virtual environment
-```source ./env/Scripts/activate```
+```source ./env/Scripts/activate``` - type exit to leave the virtual environment
 ```python```  - to enter the python shell (exit() to exit shell)
 ```sqlite3``` - enter sqlite3 shell  (Ctrl + C to exit)
 

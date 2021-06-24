@@ -1,5 +1,7 @@
 # CLI: Search Application: Overview and planning
-Last update: 23-06-2021  15:01
+Last update: 24-06-2021  15:29
+
+I must note that this application uses code originally taught on the **"SQLAlchemy Basics"** course that I am using and adapting by kind permission by Treehouse Teacher Megan and noted in my blog.  Please check out that original source material, but I have made certain changes and adaptions to the code. 
 
 ## Setup
 

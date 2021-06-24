@@ -149,6 +149,12 @@ Last Updated:   17th May 2021 - 14-28
 
                 //store form error messages.
 
+                filter_input( INPUT_GET, ‘name’, FILTER_SANITIZE_STRING );
+                filter_input( INPUT_GET, ‘email’, FILTER_SANITIZE_STRING );
+                filter_input( INPUT_GET, ‘your-url’, FILTER_SANITIZE_STRING );
+                filter_input( INPUT_GET, ‘message’, FILTER_SANITIZE_STRING );
+                filter_input( INPUT_GET, ‘subject’, FILTER_SANITIZE_STRING );
+
                 if(isset($_POST["submit"]) && empty($name)
                  || empty($email) || empty($your_url)
                  || empty($message) || empty($subject) || empty($confirm)) {

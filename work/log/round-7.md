@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 45 of 100. **Last Update:** 23 June 2021
+## **Status:** Day 46 of 100. **Last Update:** 24 June 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+## RR7D46: Thursday 24 June 2021
+
++ **Notes**
+
+  + Smart navigation experiment with CSS and JavaScript and posted a fresh blog on SQLAlchemy
+   
+  + **Technologies used** - HTML5, Sass
 
 ## RR7D45: Wednesday 23 June 2021
 

@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 46 of 100. **Last Update:** 24 June 2021
+## **Status:** Day 47 of 100. **Last Update:** 25 June 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+## RR7D47: Friday 25 June 2021
+
++ **Notes**
+
+  + Hours! I have literally spent hours trying to find out why the photo viewer here I've been refining was completely non-functional (landscape photos)  I forgot to update the append() method in jQueryprojects.jonniegrieve.co.uk/photo_viewer/  
+   
+  + **Technologies used** - HTML5, Sass
 
 ## RR7D46: Thursday 24 June 2021
 
@@ -12,6 +20,7 @@ ___
   + Smart navigation experiment with CSS and JavaScript and posted a fresh blog on SQLAlchemy
    
   + **Technologies used** - HTML5, Sass
+
 
 ## RR7D45: Wednesday 23 June 2021
 

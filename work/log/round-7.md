@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 47 of 100. **Last Update:** 25 June 2021
+## **Status:** Day 48 of 100. **Last Update:** 28 June 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+## RR7D48: Monday 28 June 2021
+
++ **Notes**
+
+  + In my latest blog, I discuss website security with SSL and I talk about my latest content updates that I put online today. 
+
+  + **Technologies used** - HTML5, Sass, PHP, WordPress
 
 ## RR7D47: Friday 25 June 2021
 

@@ -24,17 +24,18 @@
         }
 
         nav {
-  /* default styling */
-  transition: top 500ms ease-in-out;
-}
+            /* default styling */
+            transition: top 500ms ease-in-out;
+        }
 
-nav.scroll-up {
-  top: 0;
-}
+        nav.scroll-up,
+        nav:focus-within {
+            top: 0;
+        }
 
-nav.scroll-down {
-  top: -100%;
-}
+        nav.scroll-down {
+            top: -100%;
+        }
      
      </style>
 </head>

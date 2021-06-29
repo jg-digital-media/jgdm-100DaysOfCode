@@ -23,7 +23,7 @@ class Media(Base):
     id= Column(Integer, primary_key=True)
     media_title = Column('Media Title', String)
     media_type = Column('Media Type', String)
-    author = Column('Author/Creator', String)
+    artist = Column('Author/Creator', String)
     published_date = Column('Published', Date)
     price = Column('Price', Integer)
 

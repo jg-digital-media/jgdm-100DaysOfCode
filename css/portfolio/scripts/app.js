@@ -56,9 +56,11 @@ jQuery.getJSON('data/project-list-small.json', function(projectOne) {
 jQuery.getJSON('data/project-list-small.json', function(projectTwo) {
 
     jQuery(`
-        <a href="${ projectTwo.featured_projects[1].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectTwo.featured_projects[1].img_url }" class="site-images lazy" alt=" ${projectTwo.featured_projects[1].project_alt }" title="${ projectTwo.featured_projects[1].project_alt }" tabindex="0" /></a><br />
-    `).appendTo('.show-featured');
+        <a href="${ projectTwo.featured_projects[1].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectTwo.featured_projects[1].img_url }" class="site-images lazy" alt=" ${projectTwo.featured_projects[1].project_alt }" title="${ projectTwo.featured_projects[1].project_alt }" tabindex="0" /></a>
+        <br />`).appendTo('.show-featured');
 });
+
+
 
 jQuery.getJSON('data/project-list-small.json', function(projectThree)  {
     jQuery(`

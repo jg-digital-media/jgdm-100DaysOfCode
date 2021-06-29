@@ -34,7 +34,7 @@ def clean_date(date_string):
 
 
     month = int(months.index(split_date[0]) + 1)
-    day = int(split_date[1].split(',')[0])
+    day = int(split_date[1].split(' ,')[0])
     year = int(split_date[2])
     print(day)
 
@@ -58,11 +58,16 @@ def import_csv():
         # display data in the console
         for row in data:
             print(row)
-            title = row[0]
+            media_title = row[0]
             artist = row[1]
             genre = row[2]
-            date = clean_date(row[3])
+            published_date = clean_date(row[3])
             price = clean_price(row[4])
+
+            
+            new_media = Media(Title=title, Artist=artist, Genre=genre, Date=published_date, Price=price)
+            session.add(new_media)
+        session.commit()
 
 
 
@@ -99,14 +104,18 @@ def app():
 
 # Create the Database
 if __name__  == '__main__':
-   Base.metadata.create_all(engine)
+    Base.metadata.create_all(engine)
 
-   ## Function calls
-   # menu() - call menu function
-   # app() 
-   # import_csv()
-   # clean_date('June 29, 2021')
-   clean_price('39.99')
+    ## Function calls
+    # menu() - call menu function
+    # app() 
+    import_csv()
+    # clean_date('June 29, 2021')
+    # clean_price('39.99')
+
+    #list all media
+    for media in session.query(Media):
+        print(media)
 
 # main menu - add, search, analysis, exit, view
 # add books to the database 

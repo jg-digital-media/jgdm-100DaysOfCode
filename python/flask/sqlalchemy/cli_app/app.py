@@ -25,11 +25,19 @@ def menu():
 
 # Clean date format for use in database
 def clean_date(date_string):
-    month = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+    months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
     # split and convert date format into usable data
     split_date = date_string.split(" ")
     print(split_date)
+
+
+    month = int(months.index(split_date[0]) + 1)
+    day = int(split_date[1].split(',')[0])
+    year = int(split_date[2])
+    print(day)
+
+    return datetime.date(year, month, day)
 
 
 # import 

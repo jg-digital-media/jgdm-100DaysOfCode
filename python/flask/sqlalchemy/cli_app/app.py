@@ -34,7 +34,7 @@ def clean_date(date_string):
 
 
     month = int(months.index(split_date[0]) + 1)
-    day = int(split_date[1].split(' ,')[0])
+    day = int(split_date[1].split('')[0])
     year = int(split_date[2])
     print(day)
 
@@ -59,13 +59,14 @@ def import_csv():
         for row in data:
             print(row)
             media_title = row[0]
-            artist = row[1]
-            genre = row[2]
-            published_date = clean_date(row[3])
-            price = clean_price(row[4])
+            media_type = row[1]
+            artist = row[2]
+            genre = row[3]
+            published_date = clean_date(row[4])
+            price = clean_price(row[5])
 
             
-            new_media = Media(Title=title, Artist=artist, Genre=genre, Date=published_date, Price=price)
+            new_media = Media(Title=media_title, Type=media_type, Artist=artist, Genre=genre, Date=published_date, Price=price)
             session.add(new_media)
         session.commit()
 

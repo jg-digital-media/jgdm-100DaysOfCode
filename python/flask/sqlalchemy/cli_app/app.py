@@ -23,6 +23,7 @@ def menu():
                     \rA number from 1 to 5.
                     \rPress Enter to Try Again. ''')
 
+
 # Clean date format for use in database
 def clean_date(date_string):
     months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
@@ -39,6 +40,15 @@ def clean_date(date_string):
 
     return datetime.date(year, month, day)
 
+# clean date format for use in database
+def clean_price(price_string):
+
+    # convert number to float
+    price_float = float(price_string)
+    print(price_float)
+    return int(price_float * 100)
+
+
 
 # import 
 def import_csv():
@@ -48,6 +58,12 @@ def import_csv():
         # display data in the console
         for row in data:
             print(row)
+            title = row[0]
+            artist = row[1]
+            genre = row[2]
+            date = clean_date(row[3])
+            price = clean_price(row[4])
+
 
 
 # to keep the application running until user exit
@@ -89,7 +105,8 @@ if __name__  == '__main__':
    # menu() - call menu function
    # app() 
    # import_csv()
-   clean_date('June 29, 2021')
+   # clean_date('June 29, 2021')
+   clean_price('39.99')
 
 # main menu - add, search, analysis, exit, view
 # add books to the database 

@@ -17,6 +17,18 @@
 
 ### Day 49
 
+['Media Example 1', ' dvd', ' Author 1', ' Action', ' June 28', ' 2021', ' 29.99']
+['', 'June', '28']
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\jgdm-100DaysOfCode\python\flask\sqlalchemy\cli_app\app.py", line 113, in <module>
+    import_csv()
+  File "C:\xampp\htdocs\jgdm-100DaysOfCode\python\flask\sqlalchemy\cli_app\app.py", line 65, in import_csv
+    published_date = clean_date(row[4])
+  File "C:\xampp\htdocs\jgdm-100DaysOfCode\python\flask\sqlalchemy\cli_app\app.py", line 36, in clean_date
+    month = int(months.index(split_date[0]) + 1)
+ValueError: '' is not in list
+
+
 #### SQLAlchemy and importing CSV
 
 

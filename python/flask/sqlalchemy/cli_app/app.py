@@ -1,7 +1,7 @@
 # import models
 from models import (Base, session, Media, engine)
-
-
+import datetime
+import csv 
 
 def menu():
     while True:
@@ -24,9 +24,17 @@ def menu():
                     \rPress Enter to Try Again. ''')
 
 
+# import 
+def import_csv():
+    with open('media_list.csv') as csvfile:
+        data = csv.reader(csvfile)
 
-# to keep the application until user exit
+        # display data in the console
+        for row in data:
+            print(row)
 
+
+# to keep the application running until user exit
 def app():
 
     app_running = True
@@ -61,8 +69,8 @@ def app():
 if __name__  == '__main__':
    Base.metadata.create_all(engine)
    # menu() - call menu function
-   app() 
-
+   # app() 
+   import_csv()
 
 # main menu - add, search, analysis, exit, view
 # add books to the database 

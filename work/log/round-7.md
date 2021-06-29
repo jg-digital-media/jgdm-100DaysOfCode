@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 48 of 100. **Last Update:** 28 June 2021
+## **Status:** Day 49 of 100. **Last Update:** 29 June 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+## RR7D49: Tuesday 29 June 2021
+
++ **Notes**
+
+  + A long overdue CSS job on my website to optimise styles for printing. With partial results. Most of the graphic and colour intensive elements taken out but some won't go away. 
+
+  + **Technologies used** - HTML5, Sass
 
 ## RR7D48: Monday 28 June 2021
 

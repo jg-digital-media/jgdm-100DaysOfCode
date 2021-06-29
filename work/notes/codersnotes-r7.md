@@ -15,7 +15,74 @@
 + Gulp and Grunt compilers
 
 
-### Day 48
+### Day 49
+
+#### SQLAlchemy and importing CSV
+
+
+```python
+imports needed/required
+
+import datetime
+import csv
+```
+
+Can be done in a function  
+
+```python
+example
+def import_csv():
+    with open('media_list.csv') as csvfile:
+        data = csv.reader(csvfile)
+
+    # display data in the console
+    for row in data:
+        print(row)
+```
+
+```
+media_list.csv
+Media Example 1, Author 1, "June 28, 2021", 29.99
+Media Example 2, Author 2, "July 12, 2021", 29.99
+Media Example 3, Author 3, "September 24, 2021", 29.99
+Media Example 4, Author 4, "January 02, 2021", 29.99
+Media Example 5, Author 5, "March 12, 2021", 29.99
+```
+
+About the returned data.... 
+
+Each book is its own list
+Each data point inside of the list is a string
+
+Need a way to convert numbers to usable data.  This is what is refererred to as Data cleaning
+
+```python
+def clean_date():
+    month = [string of months]
+
+    # split and convert date format into usable data
+    split_date = data.str.split(" ")
+    print(split_date)
+
+months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+
+
+# Use a function call to test  clean_date('June 29, 2021')
+
+split_date = date_string.split(' ')
+print(split_date)
+
+month = int(months.index(split_date[0]) + 1)
+day = int(split_date[1].split(',')[0])
+year = int(split_date[2])
+
+return datetime.date(year, month, day)
+
+def clean_price():
+    pass
+```
+
+
 
 
 

@@ -23,6 +23,14 @@ def menu():
                     \rA number from 1 to 5.
                     \rPress Enter to Try Again. ''')
 
+# Clean date format for use in database
+def clean_date(date_string):
+    month = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+
+    # split and convert date format into usable data
+    split_date = date_string.split(" ")
+    print(split_date)
+
 
 # import 
 def import_csv():
@@ -68,9 +76,12 @@ def app():
 # Create the Database
 if __name__  == '__main__':
    Base.metadata.create_all(engine)
+
+   ## Function calls
    # menu() - call menu function
    # app() 
-   import_csv()
+   # import_csv()
+   clean_date('June 29, 2021')
 
 # main menu - add, search, analysis, exit, view
 # add books to the database 

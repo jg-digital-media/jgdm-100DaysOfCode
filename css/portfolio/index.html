@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   29nd June 2021 - 13:29
+Last Updated:   29nd June 2021 - 15:23
 Page:           index.php
 --->
 
@@ -66,7 +66,7 @@ window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){va
         </script>
 
     <!-- CSS-->
-    <link rel="stylesheet" type="text/css" href="main.min.css" />    
+    <link rel="stylesheet" type="text/css" href="main.css" />    
 
     <!-- Page Title-->
     <title>Jonnie Grieve Digital Media | Independent Web Design Agency</title>

@@ -10,7 +10,38 @@ Grid Template Areas
 CSS GRID PROJECT
 
 */
-body header img {
-  border: solid red 2px; }
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: orange; }
+  body header {
+    width: 100%;
+    border-bottom: white 4px solid;
+    background: black; }
+    body header h1 {
+      text-align: center;
+      color: white; }
+    body header img {
+      border: solid red 2px; }
+  body nav {
+    width: 100%; }
+    body nav ul.main-nav {
+      display: block;
+      margin: 10px auto;
+      height: 45px;
+      text-align: center; }
+      body nav ul.main-nav li {
+        list-style: none;
+        display: inline-block; }
+        body nav ul.main-nav li a {
+          color: white; }
+          body nav ul.main-nav li a:hover {
+            text-decoration: none; }
+    body nav hr {
+      width: 40px;
+      text-align: center;
+      margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */

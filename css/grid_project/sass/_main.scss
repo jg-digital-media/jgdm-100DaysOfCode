@@ -1,14 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
+    background: orange;
 
     header {
+        width: 100%;
+        border-bottom: white 4px solid;
+        background: black;
 
 
-        h2 {
+        h1 {
+
+            text-align: center;
+            color: white;
 
         }
 
         img {
             border: solid red 2px;
         }
+    }
+
+    nav {
+
+        ul.main-nav {
+
+        }
+
+    }
+
+    .grid_container {
+
+        h2 {
+
+        }
+
+        article.sub_grid {
+
+            .main-container {
+
+                h3 {
+
+                }
+
+            }
+
+            .main-content {
+
+                div.item {
+
+                }
+
+            }
+        }
+    }
+
+    footer {
+
     }
 }

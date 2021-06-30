@@ -22,6 +22,7 @@
     + balloon
     + experiments
     + form_accessible
+    + grid_project
     + modernizr
     + navbar
     + photo_viewer
@@ -47,6 +48,7 @@
     + four_in_a_row
     + greensock
     + iteration-methods
+    + localstorage
     + random_number_challenge_js
     + th_live_pet_directory
   + nodeJS

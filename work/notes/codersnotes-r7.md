@@ -15,6 +15,25 @@
 + Gulp and Grunt compilers
 
 
+### Day 50
+
+localStorage.setItem('color', 'green')
+
+localStorage.getItem('color')
+
+navigate away from browser or quit
+
+localStorage.removeItem('color')
+returns undefined
+
+localStorage.getItem('color')
+null
+
+localStorage.color = 'green'
+
+
+
+
 ### Day 49
 
 ['Media Example 1', ' dvd', ' Author 1', ' Action', ' June 28', ' 2021', ' 29.99']

@@ -3,4 +3,36 @@
   padding: 0;
   margin: 0; }
 
+body {
+  /*Form*/ }
+  body header h1 {
+    text-align: center; }
+  body .wrapper {
+    margin: 0 auto;
+    display: block;
+    width: 75%;
+    border-right: solid black 2px;
+    border-left: solid black 2px;
+    padding: 0 15px; }
+    body .wrapper p {
+      margin-bottom: 10px; }
+  body .main_form {
+    width: 100%;
+    margin: 0 auto;
+    width: 40%; }
+    body .main_form label {
+      width: 30%;
+      /* width: 400px; */
+      display: inline-block; }
+    body .main_form .input_form {
+      padding: 12px 5px;
+      margin: 10px 0;
+      width: 300px;
+      width: 100%;
+      border-radius: 5px; }
+    body .main_form .submit {
+      padding: 10px;
+      width: 150px;
+      width: 102%; }
+
 /*# sourceMappingURL=style.css.map */

@@ -5,3 +5,57 @@
     margin: 0;
 
 }
+
+body {
+
+    header {
+
+        h1 {
+            text-align: center;
+        }
+
+    }
+
+    .wrapper {
+
+        margin: 0 auto;
+        display: block;
+        width: 75%;
+        border-right: solid black 2px;
+        border-left: solid black 2px;
+        padding: 0 15px;
+
+        p {
+            margin-bottom: 10px;
+        }
+    }
+
+    /*Form*/
+    .main_form {
+
+        width: 100%;
+        margin: 0 auto;
+        width: 40%;
+
+        label {
+            width: 30%;
+            /* width: 400px; */
+            display: inline-block;
+        }
+
+        .input_form {
+            padding: 12px 5px;
+            margin: 10px 0;
+            width: 300px;
+            width: 100%;
+            border-radius: 5px;
+
+        }
+
+        .submit {
+            padding: 10px;
+            width: 150px;
+            width: 102%;
+        }
+    }
+}

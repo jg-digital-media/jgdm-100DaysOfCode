@@ -26,8 +26,35 @@ body {
 
     nav {
 
+        width: 100%;
+
         ul.main-nav {
 
+            display: block; 
+            margin: 10px auto;
+            height: 45px;
+            text-align: center;
+
+            li {
+
+                list-style: none;
+                display: inline-block;
+
+                a {
+                    color: white;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+
+        }
+
+        hr {
+            width: 40px;
+            text-align: center;
+            margin: 0 auto;
         }
 
     }

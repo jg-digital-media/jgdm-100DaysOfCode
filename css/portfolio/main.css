@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   29/06/2021  15:48
+Last Updated:   30/06/2021  11:56
 */
 .main-content .button {
   background: #888e42;
@@ -680,39 +680,104 @@ footer {
     background: none; }
 
   header {
-    background: white; }
-
-  #main-content {
     background: white;
-    color: black; }
+    height: 7pc; }
 
   nav,
-  svg,
-  #website-title,
-  #social-platforms,
-  #main-nav,
-  #featured,
-  #large_logo,
-  #video,
-  #services,
-  #play-video {
+  svg {
     display: none; }
 
-  article#intro {
-    padding: 0;
-    margin-top: 15px;
-    padding: 10px 0 0 0;
+  .main-content {
+    background: white;
     color: black; }
+    .main-content #website-title,
+    .main-content #social-platforms,
+    .main-content .main-nav,
+    .main-content article#featured,
+    .main-content #large_logo,
+    .main-content article#video,
+    .main-content form#hire-form,
+    .main-content form,
+    .main-content #play-video {
+      display: none; }
+    .main-content article {
+      background: none; }
+    .main-content article#intro {
+      margin-top: 0px;
+      padding: 0px 0px 0px 0px;
+      color: black; }
+      .main-content article#intro img#large_logo {
+        display: none; }
+      .main-content article#intro h1, .main-content article#intro p {
+        line-height: 1; }
+    .main-content article#about-jgdm {
+      width: 95%;
+      margin: 0 auto;
+      color: black;
+      padding: 0px 0 0 0; }
+      .main-content article#about-jgdm h2 {
+        text-align: left;
+        font-size: 20px; }
+    .main-content article#about {
+      margin-top: 0px;
+      width: 100%; }
+      .main-content article#about .about-box {
+        padding: 0;
+        font-weight: normal;
+        width: 100%; }
+        .main-content article#about .about-box h3 {
+          display: block;
+          width: 100%;
+          font-size: 20px; }
+        .main-content article#about .about-box .button {
+          display: none; }
+    .main-content .main-services {
+      width: 100%; }
+      .main-content .main-services a {
+        display: none; }
+      .main-content .main-services p {
+        background: none;
+        border-bottom: none;
+        color: black; }
+    .main-content article#services {
+      display: block;
+      display: inline-block;
+      padding: 0px 0 0 0;
+      margin: 0; }
+      .main-content article#services .elsewhere {
+        display: none; }
+      .main-content article#services .main-services {
+        height: 15px;
+        line-height: 1.4;
+        width: 100%; }
+        .main-content article#services .main-services p {
+          padding: 0;
+          background: none;
+          border-bottom: 0; }
+      .main-content article#services p {
+        padding: 0;
+        background: none;
+        border-bottom: 0; }
+      .main-content article#services img {
+        display: none; }
+      .main-content article#services h3 {
+        display: none; }
+    .main-content article#hire-me {
+      padding: 0px 0 0 0;
+      margin-top: 0px; }
+      .main-content article#hire-me h2 {
+        margin: 0;
+        padding: 0; }
+      .main-content article#hire-me .hire-me-content {
+        height: auto;
+        background: white; }
+        .main-content article#hire-me .hire-me-content h2 strong, .main-content article#hire-me .hire-me-content h3 strong {
+          color: black; }
+    .main-content article#dyspraxia {
+      padding: 0px 0 0 0;
+      margin-top: 0; }
 
-  #about-jgdm {
-    width: 95%;
-    margin: 0 auto;
-    color: black;
-    padding: 10px 0 0 0; }
-    #about-jgdm h2 {
-      text-align: center; }
-
-  #hire-form {
-    display: none; } }
+  footer {
+    background: none; } }
 
 /*# sourceMappingURL=main.css.map */

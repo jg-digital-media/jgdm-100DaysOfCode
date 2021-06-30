@@ -17,6 +17,7 @@
 
 ### Day 50
 
+```javascript
 localStorage.setItem('color', 'green')
 
 localStorage.getItem('color')
@@ -30,7 +31,7 @@ localStorage.getItem('color')
 null
 
 localStorage.color = 'green'
-
+```
 
 
 

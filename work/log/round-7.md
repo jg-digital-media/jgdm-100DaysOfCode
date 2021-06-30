@@ -4,6 +4,16 @@
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+http://port-80-52di26crv2.treehouse-app.com/?
+
+
+## RR7D50: Wednesday 30 June 2021
+
++ **Notes**
+
+  + Completed my print stylesheet for jonniegrieve.co.uk and later on did some work with CSS Grid and JavaScript local storage
+
+  + **Technologies used** - HTML5, Sass
 
 ## RR7D49: Tuesday 29 June 2021
 

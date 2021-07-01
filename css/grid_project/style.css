@@ -85,10 +85,10 @@ body {
       body article.sub_grid {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        width: 75%;
+        width: 90%;
         margin-top: 23px;
         margin: 0 auto;
-        padding: 37px; } }
+        padding: 40px 0; } }
     body article.sub_grid .main-content {
       width: 60%; }
       @media (max-width: 760px) {

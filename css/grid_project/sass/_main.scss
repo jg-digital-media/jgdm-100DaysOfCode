@@ -122,10 +122,10 @@ body {
         @media (max-width: $md) { 
             display: grid;
             grid-template-columns: 2fr 1fr;
-            width: 75%;
+            width: $width-md;
             margin-top: 23px;
             margin: 0 auto;
-            padding: 37px;
+            padding: 40px 0;
         }
 
         .main-content {

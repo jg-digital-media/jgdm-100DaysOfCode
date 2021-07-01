@@ -15,7 +15,8 @@ CSS GRID PROJECT
   margin: 0; }
 
 body {
-  background: orange; }
+  background: #e0f446;
+  font-family: arial; }
   body header {
     width: 100%;
     border-bottom: white 4px solid;
@@ -24,7 +25,9 @@ body {
       text-align: center;
       color: white; }
     body header img {
-      border: solid red 2px; }
+      border: solid red 2px;
+      display: block;
+      margin: 0 auto; }
   body nav {
     width: 100%; }
     body nav ul.main-nav {
@@ -34,14 +37,101 @@ body {
       text-align: center; }
       body nav ul.main-nav li {
         list-style: none;
-        display: inline-block; }
+        display: inline-block;
+        margin-left: 10px; }
         body nav ul.main-nav li a {
-          color: white; }
+          color: #14085c; }
           body nav ul.main-nav li a:hover {
             text-decoration: none; }
     body nav hr {
       width: 40px;
       text-align: center;
       margin: 0 auto; }
+  body h2 {
+    font-size: 25pt;
+    color: #464444;
+    text-align: center;
+    margin-bottom: 30px; }
+  body .grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0px 5px; }
+    @media (max-width: 760px) {
+      body .grid_container {
+        grid-template-rows: 1fr 1fr 1fr;
+        display: block;
+        margin: 0 auto;
+        width: 90%; } }
+    @media (max-width: 760px) {
+      body .grid_container .about-grid {
+        line-height: 2.4; } }
+  body article.sub_grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 75%;
+    margin-top: 10px;
+    margin: 0 auto;
+    padding: 20px; }
+    @media (max-width: 760px) {
+      body article.sub_grid {
+        grid-template-columns: 2fr 1fr;
+        display: flex;
+        flex-direction: column;
+        width: 90%; } }
+    body article.sub_grid .main-content {
+      width: 60%; }
+      @media (max-width: 760px) {
+        body article.sub_grid .main-content {
+          width: 95%; } }
+      body article.sub_grid .main-content p {
+        line-height: 1.4;
+        margin-bottom: 15px; }
+      body article.sub_grid .main-content h3 {
+        font-size: 2em; }
+  body .book_descriptions {
+    display: grid;
+    width: 75%;
+    width: 90%;
+    margin: 0 auto;
+    grid-template-areas: "one one one" "two three four" "five six seven";
+    /*  .one, 
+     .two, 
+     .three,
+     .four,
+     .five,
+     .six, 
+     .seven {
+     } */ }
+    @media (max-width: 760px) {
+      body .book_descriptions {
+        display: block; } }
+    body .book_descriptions .one {
+      grid-area: one; }
+    body .book_descriptions .featured {
+      text-align: center;
+      margin: 5%;
+      border-bottom: solid red; }
+    body .book_descriptions .two {
+      grid-area: two; }
+    body .book_descriptions .three {
+      grid-area: three; }
+    body .book_descriptions .four {
+      grid-area: four; }
+    body .book_descriptions .five {
+      grid-area: five; }
+    body .book_descriptions .six {
+      grid-area: six; }
+    body .book_descriptions .seven {
+      grid-area: seven; }
+    body .book_descriptions .book {
+      /*  width: 100px; */
+      background: #f7d9a2;
+      padding: 20px;
+      margin: 5px; }
+      body .book_descriptions .book h3 {
+        color: black; }
+  body footer {
+    margin-top: 10px;
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

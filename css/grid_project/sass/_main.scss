@@ -4,23 +4,26 @@
 }
 
 body {
-    background: orange;
+    background: $bg-body;
+    font-family: $font;
 
     header {
         width: 100%;
-        border-bottom: white 4px solid;
-        background: black;
+        border-bottom: $bdr-header 4px solid;
+        background: $bg-header;
 
 
         h1 {
 
             text-align: center;
-            color: white;
+            color: $hd1-col;
 
         }
 
         img {
             border: solid red 2px;
+            display: block;
+            margin: 0 auto;
         }
     }
 
@@ -39,9 +42,10 @@ body {
 
                 list-style: none;
                 display: inline-block;
+                margin-left: 10px;
 
                 a {
-                    color: white;
+                    color: $col-nav-href;
 
                     &:hover {
                         text-decoration: none;
@@ -59,33 +63,165 @@ body {
 
     }
 
+    //global heading level 2
+    h2 {
+
+        font-size: 25pt;
+        color: $hd2-col;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+
     .grid_container {
 
-        h2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0px 5px;
+
+        @media (max-width: 760px) {
+            grid-template-rows: 1fr 1fr 1fr;
+            display: block;
+            margin: 0 auto;
+            width: 90%;
+        }
+
+   
+        .about-grid {
+
+            @media (max-width: 760px) {
+                line-height: 2.4;
+            }
 
         }
 
-        article.sub_grid {
+    }
 
-            .main-container {
+    article.sub_grid {
+            
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        width: 75%;
+        margin-top: 10px;
+        margin: 0 auto;
+        padding: 20px;
 
-                h3 {
+        @media (max-width: 760px) { 
+            grid-template-columns: 2fr 1fr;
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+        }
 
-                }
+        .main-content {
+            width: 60%;
+
+            @media (max-width: 760px) { 
+                width: 95%;
+            }
+            p {
+                line-height: 1.4;
+                margin-bottom: 15px;
+            }
+
+            h3 {
+
+                font-size: 2em;
 
             }
 
-            .main-content {
+        }
 
-                div.item {
+        .main-items {
 
-                }
+            div.item {
 
             }
+
         }
     }
 
-    footer {
+    .book_descriptions {
+        display: grid;
+        width: 75%;
+        width: 90%;
+        margin: 0 auto;
 
+        grid-template-areas: "one one one"
+        "two three four"
+        "five six seven";
+
+        @media (max-width: 760px) { 
+            display: block;
+        }
+        
+        
+        .one {
+            grid-area: one;
+        }
+
+        .featured {
+            text-align: center;
+            margin: 5%;
+            border-bottom: solid red;
+        }
+
+        .two {
+            grid-area: two;
+
+        }
+
+        .three {
+            grid-area: three;
+
+        } 
+
+        .four {
+            grid-area: four;
+
+
+        } 
+        .five {
+            grid-area: five;
+
+        } 
+
+        .six {
+            grid-area: six;
+
+        }
+
+        .seven {
+            grid-area: seven;
+
+        }
+
+        .book {            
+           /*  width: 100px; */
+           background: #f7d9a2;
+           padding: 20px;
+           margin: 5px;
+
+            h3 {
+                color: black;
+            }
+        }
+        
+       /*  .one, 
+        .two, 
+        .three,
+        .four,
+        .five,
+        .six, 
+        .seven {
+        } */
+
+
+    }
+
+
+    footer {
+            margin-top: 10px;
+            text-align: center;
     }
 }

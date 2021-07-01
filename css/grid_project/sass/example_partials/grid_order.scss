@@ -1,0 +1,60 @@
+body {
+
+    .book_descriptions {
+        display: grid;
+        grid-template-areas: none;
+        grid-template-columns: 2fr 1fr 1fr;
+
+    
+
+        .one {
+            order: 2
+        }
+        
+        .featured {
+            text-align: center;
+            margin: 5%;
+            border-bottom: solid red;
+        }
+        
+        .two {
+            order: 3;
+        
+        }
+        
+        .three {
+            order: 4;
+        
+        } 
+        
+        .four {
+        
+        
+        } 
+        .five {
+        
+        } 
+        
+        .six {
+        
+        }
+        
+        .seven {
+        
+        }
+        
+        .book {            
+        /*  width: 100px; */
+        background: $bg-secondary;
+        padding: 20px;
+        margin: 5px;
+        border-radius: 15px;
+        box-shadow: black 0px 0px 11px;
+        
+            h3 {
+                color: black;
+            }
+        }
+    }
+
+}

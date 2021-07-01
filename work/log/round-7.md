@@ -6,6 +6,13 @@ ___
 ___
 http://port-80-52di26crv2.treehouse-app.com/?
 
+## RR7D51: Thursday 30 June 2021
+
++ **Notes**
+
+  + Doing some research and implementations with CSS Grid.
+
+  + **Technologies used** - HTML5, Sass
 
 ## RR7D50: Wednesday 30 June 2021
 

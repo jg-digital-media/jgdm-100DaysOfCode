@@ -1,9 +1,10 @@
 $bg-body: #e0f446;
 
 $bg-header: black;
+$bg-secondary: #f7d9a2;
 $col-header: white;
 $bdr-header: $col-header;
-$col-nav-href: #14085c;
+$col-nav-href: #ffffff;
 $col-nav-href-hov: gold;
 
 $hd1-col: white;
@@ -14,3 +15,9 @@ $font: arial;
 
 //breakpoints 
 $md: 760px;
+
+
+//layouts 
+
+$width-lg: 75%;
+$width-md: 90%;

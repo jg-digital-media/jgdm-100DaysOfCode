@@ -68,7 +68,9 @@ body {
 
     #grid_logo {
         margin: 5px auto;
-        display: block;
+        display: block;    
+        border-radius: 50%;
+        border: solid white 5px;
     }
 
     //global heading level 2

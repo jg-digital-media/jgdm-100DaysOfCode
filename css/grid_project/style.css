@@ -152,4 +152,27 @@ body {
     margin-top: 10px;
     text-align: center; }
 
+/*
+
+*/
+body .book_descriptions .one {
+  grid-row: 1/2; }
+body .book_descriptions .featured {
+  text-align: center;
+  margin: 5%;
+  border-bottom: solid red; }
+body .book_descriptions .two {
+  grid-row: 2/3; }
+body .book_descriptions .three {
+  grid-row: 2/2; }
+body .book_descriptions .book {
+  /*  width: 100px; */
+  background: #f7d9a2;
+  padding: 20px;
+  margin: 5px;
+  border-radius: 15px;
+  box-shadow: black 0px 0px 11px; }
+  body .book_descriptions .book h3 {
+    color: black; }
+
 /*# sourceMappingURL=style.css.map */

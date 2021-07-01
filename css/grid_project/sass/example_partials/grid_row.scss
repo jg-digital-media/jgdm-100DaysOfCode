@@ -1,64 +1,61 @@
 /*
 
 */
+body {
 
-.book_descriptions {
+    .book_descriptions {
 
-   
+    
 
-    .one {
-        grid-area: one;
-         //grid-row: 1/2;
-        grid-row: 1/2;
-    }
-    
-    .featured {
-        text-align: center;
-        margin: 5%;
-        border-bottom: solid red;
-    }
-    
-    .two {
-        grid-area: two;
-    
-    }
-    
-    .three {
-        grid-area: three;
-    
-    } 
-    
-    .four {
-        grid-area: four;
-    
-    
-    } 
-    .five {
-        grid-area: five;
-    
-    } 
-    
-    .six {
-        grid-area: six;
-    
-    }
-    
-    .seven {
-        grid-area: seven;
-    
-    }
-    
-    .book {            
-       /*  width: 100px; */
-       background: $bg-secondary;
-       padding: 20px;
-       margin: 5px;
-       border-radius: 15px;
-       box-shadow: black 0px 0px 11px;
-    
-        h3 {
-            color: black;
+        .one {
+            //grid-row: 1/2;
+            grid-row: 1/2;
+        }
+        
+        .featured {
+            text-align: center;
+            margin: 5%;
+            border-bottom: solid red;
+        }
+        
+        .two {
+            grid-row: 2/3;
+        
+        }
+        
+        .three {
+            grid-row: 2/2
+        
+        } 
+        
+        .four {
+        
+        
+        } 
+        .five {
+        
+        } 
+        
+        .six {
+        
+        }
+        
+        .seven {
+        
+        }
+        
+        .book {            
+        /*  width: 100px; */
+        background: $bg-secondary;
+        padding: 20px;
+        margin: 5px;
+        border-radius: 15px;
+        box-shadow: black 0px 0px 11px;
+        
+            h3 {
+                color: black;
+            }
         }
     }
-}
 
+}

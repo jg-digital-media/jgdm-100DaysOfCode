@@ -1,0 +1,42 @@
+body {
+
+    .book_descriptions {
+        display: grid;
+        grid-template-areas: none;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .featured {
+            text-align: center;
+            margin: 5px;
+            border-bottom: solid red;
+        }    
+
+        .one {
+            grid-area: inherit;
+        }        
+        
+        .two {
+            grid-area: inherit;        
+        }
+        
+        .three {
+            grid-area: inherit;        
+        } 
+        
+        .four {
+            grid-area: inherit;
+        
+        } 
+        .five {
+            grid-area: inherit;
+        } 
+        
+        .six {
+            grid-area: inherit;
+        }
+        
+        .seven {
+            grid-area: inherit;
+        }
+    }
+}

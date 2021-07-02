@@ -19,7 +19,9 @@ CSS GRID PROJECT
 
 
 //grid example partials
-@import "sass/example_partials/grid_order.scss";
+
+@import "sass/example_partials/template_columns.scss";
+//@import "sass/example_partials/grid_order.scss";
 //@import "sass/example_partials/grid_row.scss";
 //@import "sass/example_partials/grid_areas.scss";
 //@import "sass/example_partials/justify_self.scss";
@@ -27,6 +29,5 @@ CSS GRID PROJECT
 //@import "sass/example_partials/minmax.scss";
 //@import "sass/example_partials/nested.scss";
 //@import "sass/example_partials/repeat_notation.scss";
-//@import "sass/example_partials/template_columns.scss";
 
 

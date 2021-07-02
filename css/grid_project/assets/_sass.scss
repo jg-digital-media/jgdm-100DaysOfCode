@@ -1,0 +1,22 @@
+
+
+body {
+
+    .book_descriptions {
+        display: grid;
+        grid-template-areas: none;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .featured {
+            text-align: center;
+            margin: 5%;
+            border-bottom: solid red;
+        }    
+
+        .one {
+            order: 2;
+            grid-area: none;
+            grid-area: inherit;
+        }
+    }
+}

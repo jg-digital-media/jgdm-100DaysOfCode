@@ -3,44 +3,57 @@ body {
     .book_descriptions {
         display: grid;
         grid-template-areas: none;
-        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
 
-    
-
-        .one {
-            order: 2
-        }
-        
         .featured {
             text-align: center;
             margin: 5%;
             border-bottom: solid red;
+        }    
+
+        .one {
+            order: 2;
+            grid-area: none;
+            grid-area: inherit;
         }
         
+        
         .two {
-            order: 3;
+            order: 1;
+            grid-area: none;
+            grid-area: inherit;
         
         }
         
         .three {
             order: 4;
+            grid-area: none;
+            grid-area: inherit;
         
         } 
         
         .four {
-        
+            order: 3;
+            grid-area: none;
+            grid-area: inherit;
         
         } 
         .five {
-        
+            order: 7;
+            grid-area: none;
+            grid-area: inherit;
         } 
         
         .six {
-        
+            order: 5;
+            grid-area: none;
+            grid-area: inherit;
         }
         
         .seven {
-        
+            order: 6;
+            grid-area: none;
+            grid-area: inherit;
         }
         
         .book {            

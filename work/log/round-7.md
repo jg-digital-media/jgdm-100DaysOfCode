@@ -1,6 +1,6 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 49 of 100. **Last Update:** 29 June 2021
+## **Status:** Day 52 of 100. **Last Update:** 02 July 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
@@ -10,7 +10,7 @@ http://port-80-52di26crv2.treehouse-app.com/?
 
 + **Notes**
 
-  + Doing some research and implementations with CSS Grid.
+  + Making a website that teaches some CSS Grid fundamentals. Have tested for grid-template columns, grid areas and grid ordering.  (I do kinda love CSS Grid)  Hoping to reveal next week.  
 
   + **Technologies used** - HTML5, Sass
 

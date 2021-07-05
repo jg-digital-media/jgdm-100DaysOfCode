@@ -9,7 +9,8 @@ body {
 
         .one {
             //grid-row: 1/2;
-            grid-row: 1/2;
+            grid-area: inherit;
+            grid-row: 1/4;
         }
         
         .featured {
@@ -19,38 +20,42 @@ body {
         }
         
         .two {
-            grid-row: 2/3;
+            grid-area: inherit;
         
         }
         
         .three {
-            grid-row: 2/2
+            grid-area: inherit;
         
         } 
         
         .four {
+            grid-area: inherit;
         
         
         } 
         .five {
+            grid-area: inherit;
         
         } 
         
         .six {
+            grid-area: inherit;
         
         }
         
         .seven {
+            grid-area: inherit;
         
         }
         
         .book {            
-        /*  width: 100px; */
-        background: $bg-secondary;
-        padding: 20px;
-        margin: 5px;
-        border-radius: 15px;
-        box-shadow: black 0px 0px 11px;
+            /*  width: 100px; */
+            background: $bg-secondary;
+            padding: 20px;
+            margin: 5px;
+            border-radius: 15px;
+            box-shadow: black 0px 0px 11px;
         
             h3 {
                 color: black;

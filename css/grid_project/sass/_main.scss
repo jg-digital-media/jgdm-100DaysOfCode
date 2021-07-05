@@ -241,6 +241,55 @@ body {
         } */
 
 
+
+    }
+
+    
+    .page_wrapper {
+
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+
+        
+        @media (max-width: 1270px) {
+            width: 95%;
+        }
+
+        
+        @media (max-width: 760px) {
+            width: 95%;
+            display: flex;
+            display: block;
+            flex-direction: row-reverse;
+        }
+
+        
+        h3 {
+            line-height: 2;
+            margin-top: 10px;
+
+            code {
+                display: block;
+            }
+
+        }
+
+        .code_block {
+            display: grid;
+            grid-template-columns: minmax(320px, 417px) 1fr;
+            
+            /* grid-gap: 20px;*/
+
+            @media (max-width: 760px) { 
+                display: flex;
+                flex-direction: column-reverse;
+                padding: 5px;
+            }
+
+
+        }
+
     }
 
 

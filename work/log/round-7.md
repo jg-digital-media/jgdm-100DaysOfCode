@@ -1,12 +1,20 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 52 of 100. **Last Update:** 02 July 2021
+## **Status:** Day 53 of 100. **Last Update:** 05 July 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 http://port-80-52di26crv2.treehouse-app.com/?
 
 
+
+## RR7D53: Monday 05 July 2021
+
++ **Notes**
+
+  + Working with HTML5, CSS and CSS Grid today on some website content updates.   Check out https://photography.jonniegrieve.co.uk for my latest photography work.  I'll have a new cloneable repository for my latest project very soon. 
+
+  + **Technologies used** - HTML5, Sass
 
 
 ## RR7D52: Friday 02 July 2021

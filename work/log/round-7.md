@@ -7,6 +7,13 @@ ___
 http://port-80-52di26crv2.treehouse-app.com/?
 
 
+## RR7D53: Tuesday 06 July 2021
+
++ **Notes** 
+
+  + Today I've created a new repository all to do with CSS Grid. Read my latest blog for the details. 
+
+  + **Technologies used** - HTML5, Sass
 
 ## RR7D53: Monday 05 July 2021
 

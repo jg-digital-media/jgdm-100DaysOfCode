@@ -12,10 +12,9 @@ const input3 = document.getElementById("input_3");
 
 
 //Store text inputs
-let getTextOne = input1.value = set1
-let getTextTwo = input2.value = set2
-let getTextThree = input3.value = set3;
-
+let getTextOne = input1.value;
+let getTextTwo = input2.value;
+let getTextThree = input3.value;
 
 
 // Store something in local storage - setItem
@@ -26,11 +25,12 @@ let set3 = localStorage.setItem('input_3', getTextThree);
 
 
 
+
 // retrieve a value from localstorage
 localStorage.getItem('input_1');
 localStorage.getItem('input_2');
 localStorage.getItem('input_3');
 
 // remove an item from localstorage
-removeItem('input_one');
+// removeItem('input_one');
 

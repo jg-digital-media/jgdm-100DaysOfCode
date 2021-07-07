@@ -5,10 +5,13 @@ const input1 = document.getElementById("input_1");
 const input2 = document.getElementById("input_2");
 const input3 = document.getElementById("input_3");
 
+const mainForm = document.getElementById("form");
 
+mainForm.addEventListener('submit', () => {
+    mainForm.preventDefault();
 
-/* searchForm.addEventListener('submit', () => {
-} */
+});
+
 
 
 //Store text inputs

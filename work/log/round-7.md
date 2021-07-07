@@ -1,13 +1,21 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 53 of 100. **Last Update:** 05 July 2021
+## **Status:** Day 55 of 100. **Last Update:** 07 July 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 http://port-80-52di26crv2.treehouse-app.com/?
 
 
-## RR7D53: Tuesday 06 July 2021
+## RR7D55: Wednesday 07 July 2021
+
++ **Notes** 
+
+  + bit stuck with local storage today
+
+  + **Technologies used** - HTML5, Sass
+
+## RR7D54: Tuesday 06 July 2021
 
 + **Notes** 
 

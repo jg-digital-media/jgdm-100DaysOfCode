@@ -1,13 +1,36 @@
 console.log("using localstorage");
 
 
+const input1 = document.getElementById("input_1");
+const input2 = document.getElementById("input_2");
+const input3 = document.getElementById("input_3");
+
+
+
+/* searchForm.addEventListener('submit', () => {
+} */
+
+
+//Store text inputs
+let getTextOne = input1.value = set1
+let getTextTwo = input2.value = set2
+let getTextThree = input3.value = set3;
+
+
+
 // Store something in local storage - setItem
 // localStorage.setItem('keyName', 'keyValue')
-localStorage.setItem('name', 'Jack');
+let set1 = localStorage.setItem('input_1', getTextOne);
+let set2 = localStorage.setItem('input_2', getTextTwo);
+let set3 = localStorage.setItem('input_3', getTextThree);
+
+
 
 // retrieve a value from localstorage
-localStorage.getItem('name');
+localStorage.getItem('input_1');
+localStorage.getItem('input_2');
+localStorage.getItem('input_3');
 
-// remove an item from localstorae
-removeItem('name') 
+// remove an item from localstorage
+removeItem('input_one');
 

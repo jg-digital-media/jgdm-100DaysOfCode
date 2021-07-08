@@ -15,7 +15,24 @@
 + Gulp and Grunt compilers
 
 
-### Day 55
+### Day 56
+
+Preventing MySQL Shutdowns
+https://stackoverflow.com/questions/18022809/xampp-mysql-shutdown-unexpectedly
+
+
+Rename the folder mysql/data to mysql/data_old (you can use any name)
+
+Create a new folder mysql/data
+
+Copy the content that resides in mysql/backup to the new mysql/data folder
+
+Copy all your database folders that are in mysql/data_old to mysql/data (skipping the mysql, 
+performance_schema, and phpmyadmin folders from data_old)
+
+Finally copy the ibdata1 file from mysql/data_old and replace it inside mysql/data folder
+
+Start MySQL from XAMPP control panel
 
 
 

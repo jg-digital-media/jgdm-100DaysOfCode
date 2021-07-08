@@ -4,8 +4,15 @@
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
-http://port-80-52di26crv2.treehouse-app.com/?
 
+
+## RR7D56: Thursday 08 July 2021
+
++ **Notes** 
+
+  + Doing some updates for a client today in HTML5, the completion of which will hopefully be tomorrow.
+
+  + **Technologies used** - HTML5, Sass
 
 ## RR7D55: Wednesday 07 July 2021
 

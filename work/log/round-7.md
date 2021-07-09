@@ -1,9 +1,19 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 55 of 100. **Last Update:** 07 July 2021
+## **Status:** Day 57 of 100. **Last Update:** 09 July 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+
+## RR7D57: Friday 09 July 2021
+
++ **Notes** 
+
+  + Doing some updates for a client today in HTML5
+
+  + **Technologies used** - HTML5, Sass
 
 
 ## RR7D56: Thursday 08 July 2021

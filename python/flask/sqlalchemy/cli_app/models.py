@@ -15,8 +15,7 @@ session = Session()
 Base = declarative_base()
 
 
-# Setup schema  media_ title, author, date published, price
-
+# Setup the database schema  media_ title, author, date published, price
 class Media(Base):
     __tablename__ = 'media'
     
@@ -29,5 +28,5 @@ class Media(Base):
 
     # Display string of data in console - formatted string
     def __repr__(self):
-        return f'Title: {self.title} Media Title: {self.title} Media Type : {self.title} Author: {self.title} Published Date: {self.title} Price: {self.price}' 
+        return f'Title: {self.media_title} Media Title: {self.title} Media Type : {self.media_type} Artist: {self.artist} Published Date: {self.published_date} Price: {self.price}' 
 

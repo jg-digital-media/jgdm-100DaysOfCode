@@ -13,7 +13,7 @@ def menu():
             \r4) Media Item
             \r5) Exit the Application ''') 
 
-        # store a variable for the menu coice
+        # store a variable for the menu choice
         choice = input('What would you like to do? ')
         if choice in ['1','2','3','4','5']:
             return choice
@@ -125,3 +125,11 @@ if __name__  == '__main__':
 # search books
 # data cleaning methods
 # loop that runs the program
+
+# Create the Database
+if __name__  == '__main__':
+    Base.metadata.create_all(engine)
+    
+    # call app functions
+    app()
+

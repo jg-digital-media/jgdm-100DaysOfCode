@@ -23,10 +23,11 @@ class Media(Base):
     media_title = Column('Media Title', String)
     media_type = Column('Media Type', String)
     artist = Column('Author/Creator', String)
+    genre = Column('Genre', String)
     published_date = Column('Published', Date)
     price = Column('Price', Integer)
 
     # Display string of data in console - formatted string
     def __repr__(self):
-        return f'Title: {self.media_title} Media Title: {self.title} Media Type : {self.media_type} Artist: {self.artist} Published Date: {self.published_date} Price: {self.price}' 
+        return f'Title: {self.media_title} Media Type : {self.media_type} Artist: {self.artist} Genre {self.genre} Published Date: {self.published_date} Price: {self.price}' 
 

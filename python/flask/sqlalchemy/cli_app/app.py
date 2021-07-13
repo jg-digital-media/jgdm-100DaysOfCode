@@ -43,7 +43,7 @@ def clean_date(date_str):
     print(day)
     print(month)
     print(year)
-    
+
     return datetime.date(year, month, day)
 
 def clean_price(price_str):
@@ -70,7 +70,7 @@ def import_csv():
             price = clean_price(row[5])
 
 
-            new_media = Media(title=media_title, Type=media_type, Artist=artist, Genre=genre, Date=published_date, Price=price)
+            new_media = Media(media_title=media_title, media_type=media_type, artist=artist, genre=genre, published_date=published_date, price=price)
             session.add(new_media)
         session.commit()
 

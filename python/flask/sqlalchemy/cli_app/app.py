@@ -39,11 +39,16 @@ def clean_date(date_str):
     month = int(months.index(split_date[0]) + 1)
     day = int(split_date[1].split(',')[0])
     year = int(split_date[2])
+
+    print(day)
+    print(month)
+    print(year)
+    
     return datetime.date(year, month, day)
 
 def clean_price(price_str):
     price = float(price_str)
-    print(price)
+    # print(price)
     return int(price * 100)
 
 
@@ -56,8 +61,18 @@ def import_csv():
         # display data in the console
         for row in data:
             print(row)
+            
+            media_title = row[0]
+            media_type = row[1]
+            artist = row[2]
+            genre = row[3]
+            published_date = clean_date(row[4])
+            price = clean_price(row[5])
 
-        # session.commit()
+
+            new_media = Media(title=media_title, Type=media_type, Artist=artist, Genre=genre, Date=published_date, Price=price)
+            session.add(new_media)
+        session.commit()
 
 
 # To keep the application running until user exit
@@ -95,8 +110,10 @@ if __name__  == '__main__':
     Base.metadata.create_all(engine)
     
     # call app functions
-    clean_date("June 28, 2021")
-    clean_price("33.33")
-    # import_csv()
-    # app()
+    #clean_date("June 28, 2021")
+    #clean_price("33.33")
+    import_csv()
+    #app()
 
+    for media in session.query(Media):
+        print(media)

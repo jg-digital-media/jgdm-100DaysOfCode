@@ -1,11 +1,19 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 58 of 100. **Last Update:** 12 July 2021
+## **Status:** Day 59 of 100. **Last Update:** 13 July 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+## RR7D59: Tuesday 13 July 2021
+
++ **Notes** 
+
+  + Read and added data to a SQLite Database using SQLAlchemy... after a lot of effort and trial and error. Now to dig in and see how I can understand what's going on better.  
+
+  + **Technologies used** - HTML5, Sass
 
 ## RR7D58: Monday 12 July 2021
 

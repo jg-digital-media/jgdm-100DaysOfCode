@@ -18,6 +18,72 @@
 ### Day 58
 
 
+```python
+# Setup the database schema  media_ title, author, date published, price
+class Media(Base):
+    __tablename__ = 'media'
+    
+    id= Column(Integer, primary_key=True)
+    media_title = Column('Media Title', String)
+    media_type = Column('Media Type', String)
+    artist = Column('Author/Creator', String)
+    genre = Column('Genre', String)
+    published_date = Column('Published', Date)
+    price = Column('Price', Integer)
+
+    # Display string of data in console - formatted string
+    def __repr__(self):
+        return f'Title: {self.media_title} Media Type : {self.media_type} Artist: {self.artist} Genre {self.genre} Published Date: {self.published_date} Price: {self.price}' 
+
+        e.g. 
+
+        Title: Media Example 1 Media Type : dvd Artist: Author 1 Genre Action Published Date: 2021-06-28 Price: 2999
+        Title: Media Example 2 Media Type : book Artist: Author 2 Genre Action Published Date: 2021-07-12 Price: 2999
+        Title: Media Example 3 Media Type : cd Artist: Author 3 Genre Horror Published Date: 2021-09-24 Price: 2999
+        Title: Media Example 4 Media Type : dvd Artist: Author 4 Genre Sci Fi Published Date: 2021-01-02 Price: 2999
+        Title: Media Example 5 Media Type : dvd Artist: Author 5 Genre History Published Date: 2021-03-12 Price: 2999
+
+```
+
+```python
+def import_csv():
+    with open('media_list.csv') as csvfile:
+        data = csv.reader(csvfile)
+
+        # display data in the console
+        for row in data:
+            print(row)
+            
+            media_title = row[0]
+            media_type = row[1]
+            artist = row[2]
+            genre = row[3]
+            published_date = clean_date(row[4])
+            price = clean_price(row[5])
+
+
+            new_media = Media(media_title=media_title, media_type=media_type, artist=artist, genre=genre, published_date=published_date, price=price)
+            session.add(new_media)
+        session.commit()
+```
+
++ I had a lot of trouble calling the data and lots of trial and error. so while I spent a lot oftime trying to get it right I'm still not yet entirely sure why it works and how.
+
+some of it was down to how the CSV file was formatted.  
+
+not
+Media Example 1, dvd, Author 1, Action, "June 28, 2021", 29.99
+Media Example 2, book, Author 2, Action, "July 12, 2021", 29.99
+Media Example 3, cd, Author 3, Horror, "September 24, 2021", 29.99
+Media Example 4, dvd, Author 4, "Sci Fi", "January 02, 2021", 29.99
+Media Example 5, dvd, Author 5, History, "March 12, 2021", 29.99
+
+but...  no spaces 
+Media Example 1,dvd,Author 1,Action,"June 28, 2021",29.99
+Media Example 2,book,Author 2,Action,"July 12, 2021",29.99
+Media Example 3,cd,Author 3,Horror,"September 24, 2021",29.99
+Media Example 4,dvd,Author 4,"Sci Fi","January 02, 2021",29.99
+Media Example 5,dvd,Author 5,History,"March 12, 2021",29.99
 
 ### Day 56
 

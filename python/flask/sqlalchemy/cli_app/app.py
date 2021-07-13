@@ -1,6 +1,10 @@
 # import models
 from models import (Base, session, Media, engine)
 
+# application imports 
+import datetime
+import csv
+
 
 # To display the menu options to the console
 def menu():

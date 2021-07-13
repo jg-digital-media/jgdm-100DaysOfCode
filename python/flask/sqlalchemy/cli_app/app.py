@@ -35,11 +35,11 @@ def clean_date(date_str):
     split_date = date_str.split(" ")
     print(split_date)
 
-
-    """  month = int(months.index(split_date[0]) + 1)
-    day = int(split_date[1].split('')[0])
+    # convert date digits to integer objects
+    month = int(months.index(split_date[0]) + 1)
+    day = int(split_date[1].split(',')[0])
     year = int(split_date[2])
-    print(day) """
+    return datetime.date(year, month, day)
 
 def clean_price():
     pass
@@ -100,7 +100,7 @@ if __name__  == '__main__':
     Base.metadata.create_all(engine)
     
     # call app functions
-    clean_date("October 23, 2021")
+    clean_date("June 28, 2021")
     # import_csv()
     # app()
 

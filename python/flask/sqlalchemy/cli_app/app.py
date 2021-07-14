@@ -27,6 +27,8 @@ def menu():
                     \rA number from 1 to 5.
                     \rPress Enter to Try Again. ''')
 
+
+# date field data cleaning and type conversion
 def clean_date(date_str):
 
     months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
@@ -105,15 +107,16 @@ def app():
             print('\n\nGOODBYE')
             app_running = False
 
+
 # Create the Database
 if __name__  == '__main__':
     Base.metadata.create_all(engine)
     
     # call app functions
-    #clean_date("June 28, 2021")
-    #clean_price("33.33")
+    # clean_date("June 28, 2021")
+    # clean_price("33.33")
     import_csv()
-    #app()
+    # app()
 
     for media in session.query(Media):
         print(media)

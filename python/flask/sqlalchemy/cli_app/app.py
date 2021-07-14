@@ -48,6 +48,7 @@ def clean_date(date_str):
 
     return datetime.date(year, month, day)
 
+# price field - conversion to integer data type
 def clean_price(price_str):
     price = float(price_str)
     # print(price)
@@ -72,7 +73,14 @@ def import_csv():
             price = clean_price(row[5])
 
 
-            new_media = Media(media_title=media_title, media_type=media_type, artist=artist, genre=genre, published_date=published_date, price=price)
+            new_media = Media(
+                media_title=media_title,            
+                media_type=media_type, artist=artist, 
+                genre=genre, 
+                published_date=published_date, 
+                price=price
+            )
+
             session.add(new_media)
         session.commit()
 

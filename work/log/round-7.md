@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 59 of 100. **Last Update:** 13 July 2021
+## **Status:** Day 60 of 100. **Last Update:** 14 July 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+rough 2 issues I had an how I overcame them. 
 
+## RR7D60: Wednesday 14 July 2021
 
++ **Notes** 
+
+  + In this blog, I look at troubleshooting problems with data cleaning and type conversion when creating data for SQLAlchemy. I go through 2 issues I had an how I overcame them.   
+
+  + **Technologies used** - SQLAlchemy, Python
 
 ## RR7D59: Tuesday 13 July 2021
 
@@ -13,7 +20,7 @@ ___
 
   + Read and added data to a SQLite Database using SQLAlchemy... after a lot of effort and trial and error. Now to dig in and see how I can understand what's going on better.  
 
-  + **Technologies used** - HTML5, Sass
+  + **Technologies used** - HTML5, Sass, SQlAlchemy
 
 ## RR7D58: Monday 12 July 2021
 

@@ -29,5 +29,5 @@ class Media(Base):
 
     # Display string of data in console - formatted string
     def __repr__(self):
-        return f'Title: {self.media_title} Media Type : {self.media_type} Artist: {self.artist} Genre {self.genre} Published Date: {self.published_date} Price: {self.price}' 
+        return f'\n\nMedia Title: {self.media_title} \nMedia Type: {self.media_type} \nArtist: {self.artist} \nGenre: {self.genre} \nPublished Date: {self.published_date} \nPrice: {self.price}' 
 

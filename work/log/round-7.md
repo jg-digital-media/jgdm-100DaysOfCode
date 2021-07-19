@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 60 of 100. **Last Update:** 14 July 2021
+## **Status:** Day 61 of 100. **Last Update:** 19 July 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
-rough 2 issues I had an how I overcame them. 
+
+## RR7D61: Monday 19 July 2021
+
++ **Notes** 
+
+  + Made some updates and set up instructions for my GitHub Repositories. you can see all my public repositories here! https://github.com/jg-digital-media
+
+  + **Technologies used** - SQLAlchemy, Python
 
 ## RR7D60: Wednesday 14 July 2021
 

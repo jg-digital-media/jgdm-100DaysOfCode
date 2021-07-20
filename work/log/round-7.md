@@ -1,10 +1,18 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 61 of 100. **Last Update:** 19 July 2021
+## **Status:** Day 62 of 100. **Last Update:** 19 July 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+## RR7D62: Tuesday 20 July 2021
+
++ **Notes** 
+
+  + Had a photography setback last week so have been doing catchup to make sure the images and the data are all present and in sync. So far so good. Will be updating content again soon.
+
+  + **Technologies used** - HTML5, CSS
+  
 ## RR7D61: Monday 19 July 2021
 
 + **Notes** 

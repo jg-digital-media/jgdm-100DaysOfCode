@@ -1,9 +1,19 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 62 of 100. **Last Update:** 19 July 2021
+## **Status:** Day 63 of 100. **Last Update:** 21 July 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+## RR7D63: Wednesday 21 July 2021
+
++ **Notes** 
+
+  + Peter Memmott Consulting Ltd is now a registered Chartered Surveyor. And the website has had some minor changes to reflect this.  https://pmconsultingltd.com We are very excited to put this update live! 
+
+  + **Technologies used** - HTML5, CSS
+  
 
 ## RR7D62: Tuesday 20 July 2021
 

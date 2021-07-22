@@ -37,22 +37,42 @@ def clean_date(date_str):
     split_date = date_str.split(" ")
     print(split_date)
 
-    # convert date digits to integer objects
-    month = int(months.index(split_date[0]) + 1)
-    day = int(split_date[1].split(',')[0])
-    year = int(split_date[2])
+    try:
+       
+        # convert date digits to integer objects
+        month = int(months.index(split_date[0]) + 1)
+        day = int(split_date[1].split(',')[0])
+        year = int(split_date[2])
 
-    print(day)
-    print(month)
-    print(year)
+        print(day)
+        print(month)
+        print(year)
 
-    return datetime.date(year, month, day)
+        return datetime.date(year, month, day)
+
+    except ValueError:
+        input("""
+        \n*******eError message. invalid date format:    
+        """)
+        return
+
+    else: 
+        return return_date
+
 
 # price field - conversion to integer data type
 def clean_price(price_str):
-    price = float(price_str)
-    # print(price)
-    return int(price * 100)
+
+    try:        
+        price_float = float(price_str)
+
+    except ValueError:
+        input("Error: price format")
+
+    else:
+
+        # print(price)
+        return int(price_float * 100)
 
 
 
@@ -95,8 +115,27 @@ def app():
         choice = menu()
 
         if choice == '1':
-            #add menu item
-            pass
+            title=input('Media Title:  ')
+            author=input('Media Author: ')
+            genre=input('Genre: ')
+
+
+            date_error = True
+            while date_error:
+                date = input('Published Date (Exmp) ')
+                date = clean_date(date)
+                if type(date) == datetime.date:
+                    date_error = False                                     
+
+
+            price_error = True
+            while price_error:
+                price = input('Price (Exmp) ')
+                price = clean_price(price)
+                
+                if type(price) == int:
+                    price_error = False
+
 
         elif choice == '2':
             # view book 
@@ -123,8 +162,8 @@ if __name__  == '__main__':
     # call app functions
     # clean_date("June 28, 2021")
     # clean_price("33.33")
-    import_csv()
-    # app()
+    #import_csv()
+    app()
 
     for media in session.query(Media):
         print(media)

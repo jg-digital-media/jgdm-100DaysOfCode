@@ -100,14 +100,15 @@ def import_csv():
 
             new_media = Media(
                 media_title=media_title,            
-                media_type=media_type, artist=artist, 
+                media_type=media_type, 
+                artist=artist, 
                 genre=genre, 
                 published_date=published_date, 
                 price=price
             )
 
             session.add(new_media)
-        session.commit()
+            session.commit()
 
 
 # To keep the application running until user exit
@@ -121,15 +122,16 @@ def app():
 
         if choice == '1':
             title=input('Media Title:  ')
+            type=input('Media Type:  ')
             author=input('Media Author: ')
             genre=input('Genre: ')
 
 
             date_error = True
             while date_error:
-                date = input('Published Date (Exmp) ')
-                date = clean_date(date)
-                if type(date) == datetime.date:
+                published_date = input('Published Date (Exmp) ')
+                published_date = clean_date(published_date)
+                if type(published_date) == datetime.date:
                     date_error = False                                     
 
 
@@ -140,6 +142,11 @@ def app():
                 
                 if type(price) == int:
                     price_error = False
+
+            # add data to db
+            new_media_add = Media()
+            session.add(new_media_add)
+            session.commit()
 
 
         elif choice == '2':

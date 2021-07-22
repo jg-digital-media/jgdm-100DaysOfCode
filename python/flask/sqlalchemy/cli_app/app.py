@@ -53,6 +53,8 @@ def clean_date(date_str):
     except ValueError:
         input("""
         \n*******eError message. invalid date format:    
+        \nUse date format: February 22, 2021
+        \n*******
         """)
         return
 
@@ -67,7 +69,10 @@ def clean_price(price_str):
         price_float = float(price_str)
 
     except ValueError:
-        input("Error: price format")
+        input("""Error: price format
+        
+        \n\nPrice Format Example: $00.00
+        """)
 
     else:
 
@@ -162,7 +167,7 @@ if __name__  == '__main__':
     # call app functions
     # clean_date("June 28, 2021")
     # clean_price("33.33")
-    #import_csv()
+    # import_csv()
     app()
 
     for media in session.query(Media):

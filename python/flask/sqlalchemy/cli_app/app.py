@@ -29,12 +29,12 @@ def menu():
 
 
 # date field data cleaning and type conversion
-def clean_date(date_str):
+def clean_date(date_string):
 
     months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
 
     # split and convert date format into usable data
-    split_date = date_str.split(" ")
+    split_date = date_string.split(" ")
     print(split_date)
 
     try:
@@ -48,7 +48,7 @@ def clean_date(date_str):
         print(month)
         print(year)
 
-        return datetime.date(year, month, day)
+        return_date = datetime.date(year, month, day)
 
     except ValueError:
         input("""
@@ -108,7 +108,7 @@ def import_csv():
             )
 
             session.add(new_media)
-            session.commit()
+    session.commit()
 
 
 # To keep the application running until user exit
@@ -121,6 +121,8 @@ def app():
         choice = menu()
 
         if choice == '1':
+
+            # add book/media
             title=input('Media Title:  ')
             type=input('Media Type:  ')
             author=input('Media Author: ')
@@ -129,10 +131,11 @@ def app():
 
             date_error = True
             while date_error:
-                published_date = input('Published Date (Exmp) ')
-                published_date = clean_date(published_date)
-                if type(published_date) == datetime.date:
-                    date_error = False                                     
+                date = input('Published Date (Exmp) ')
+                date = clean_date(date)
+
+                if type(date) == datetime.date:
+                    date_error = False 
 
 
             price_error = True
@@ -143,8 +146,17 @@ def app():
                 if type(price) == int:
                     price_error = False
 
+
             # add data to db
-            new_media_add = Media()
+            new_media_add = Media(
+                media_title=title,            
+                media_type=type, 
+                artist=author, 
+                genre=genre, 
+                published_date=date, 
+                price=price
+            )
+
             session.add(new_media_add)
             session.commit()
 

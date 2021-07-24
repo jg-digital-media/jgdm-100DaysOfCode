@@ -124,14 +124,14 @@ def app():
 
             # add book/media
             title=input('Media Title:  ')
-            type=input('Media Type:  ')
+            media_type=input('Media Type:  ')
             author=input('Media Author: ')
             genre=input('Genre: ')
 
 
             date_error = True
             while date_error:
-                date = input('Published Date (Exmp) ')
+                date = input('Published Date (Exmp): ')
                 date = clean_date(date)
 
                 if type(date) == datetime.date:
@@ -140,7 +140,7 @@ def app():
 
             price_error = True
             while price_error:
-                price = input('Price (Exmp) ')
+                price = input('Price (Exmp): ')
                 price = clean_price(price)
                 
                 if type(price) == int:
@@ -150,7 +150,7 @@ def app():
             # add data to db
             new_media_add = Media(
                 media_title=title,            
-                media_type=type, 
+                media_type=media_type, 
                 artist=author, 
                 genre=genre, 
                 published_date=date, 
@@ -159,6 +159,8 @@ def app():
 
             session.add(new_media_add)
             session.commit()
+
+            print("\n\n**media successfully added! **")
 
 
         elif choice == '2':

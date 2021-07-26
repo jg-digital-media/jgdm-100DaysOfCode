@@ -81,7 +81,7 @@ def clean_price(price_str):
 
 
 
-# import 
+# import q
 def import_csv():
     with open('media_list.csv') as csvfile:
         data = csv.reader(csvfile)
@@ -188,7 +188,6 @@ if __name__  == '__main__':
     # call app functions
     # clean_date("June 28, 2021")
     # clean_price("33.33")
-    # import_csv()
     app()
 
     for media in session.query(Media):

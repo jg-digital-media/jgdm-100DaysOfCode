@@ -15,7 +15,26 @@
 + Gulp and Grunt compilers
 
 
-### Day 64
+### Day 65
+
+
+```python
+
+Traceback (most recent call last):
+  File "C:\<snip>\python\flask\sqlalchemy\cli_app\app.py", line 190, in <module>
+    app()
+  File "C:\<snip>python\flask\sqlalchemy\cli_app\app.py", line 137, in app
+    if type(date) == datetime.date:
+TypeError: 'str' object is not callable
+
+
+Ah ok I think I see what happened. Inside of your app function towards the top, you created a variable called 'type' which is overriding the python type function so it's no longer a function and is instead a string.
+
+# add book/media
+    title=input('Media Title:  ')
+    # change the variable name here
+    type=input('Media Type:  ')
+```
 
 
 

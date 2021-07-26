@@ -1,9 +1,19 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 64 of 100. **Last Update:** 22 July 2021
+## **Status:** Day 65 of 100. **Last Update:** 26 July 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+
+## RR7D65: Monday 26 July 2021
+
++ **Notes** 
+
+  + Another new content update to my photography website and I've just added a new blog on SQLAlchemy. 
+
+  + **Technologies used** - SqlAlchemy, HTML5, CSS
 
 
 ## RR7D64: Thursday 22 July 2021

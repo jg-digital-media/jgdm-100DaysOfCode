@@ -26,7 +26,8 @@ def menu():
             input('''
                     \rError: Please try again with one of the choices above
                     \rA number from 1 to 5.
-                    \rPress Enter to Try Again. ''')
+                    \rPress Enter to Try Again.
+                ''')
 
 
 # date field data cleaning and type conversion
@@ -53,9 +54,10 @@ def clean_date(date_string):
 
     except ValueError:
         input("""
-        \n*******eError message. invalid date format:    
-        \nUse date format: February 22, 2021
-        \n*******
+        \n*************
+        \rError: An invalid date format was used.    
+        \rPlease use the date format: February 22, 2021
+        \r**************\r
         """)
         return
 
@@ -132,7 +134,7 @@ def app():
 
             date_error = True
             while date_error:
-                date = input('Published Date (Exmp): ')
+                date = input('Published Date: (Use Date Format: January 1, 2021 ): ')
                 date = clean_date(date)
 
                 if type(date) == datetime.date:
@@ -141,7 +143,7 @@ def app():
 
             price_error = True
             while price_error:
-                price = input('Price (Exmp): ')
+                price = input('Price (Use Price format 22.99): £')
                 price = clean_price(price)
                 
                 if type(price) == int:
@@ -162,7 +164,7 @@ def app():
             session.commit()
 
             # print menu then pause before menu display
-            print("\n\n**media successfully added! **")            
+            print("\n\n**Media Successfully Added! **")            
             time.sleep(1.3)
 
 
@@ -172,12 +174,13 @@ def app():
             for media in session.query(Media):
                 print(media)
 
+                # add print for genre
                 print (f'{media.media_title} >> {media.media_type} >>  {media.artist} >>  {media.published_date} >>  {media.price} ... \n') 
 
             input("\n Press Enter to return to the main menu")
 
         elif choice == '3':
-            # view book 
+            # option 3
             pass
 
         elif choice == '4':

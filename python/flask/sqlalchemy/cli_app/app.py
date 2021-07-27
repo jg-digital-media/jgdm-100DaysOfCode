@@ -4,6 +4,7 @@ from models import (Base, session, Media, engine)
 # application imports 
 import datetime
 import csv
+import time
 
 
 # To display the menu options to the console
@@ -160,12 +161,20 @@ def app():
             session.add(new_media_add)
             session.commit()
 
-            print("\n\n**media successfully added! **")
+            # print menu then pause before menu display
+            print("\n\n**media successfully added! **")            
+            time.sleep(1.3)
 
 
         elif choice == '2':
-            # view book 
-            pass
+
+            # view book      
+            for media in session.query(Media):
+                print(media)
+
+                print (f'{media.media_title} >> {media.media_type} >>  {media.artist} >>  {media.published_date} >>  {media.price} ... \n') 
+
+            input("\n Press Enter to return to the main menu")
 
         elif choice == '3':
             # view book 
@@ -189,7 +198,7 @@ if __name__  == '__main__':
     # clean_date("June 28, 2021")
     # clean_price("33.33")
 
-    import_csv()
+    # import_csv()
     app()
 
     for media in session.query(Media):

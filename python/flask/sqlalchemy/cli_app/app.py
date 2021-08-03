@@ -181,7 +181,16 @@ def app():
 
         elif choice == '3':
             # option 3
-            pass
+            id_options = []
+
+            for media in session.query(Media):
+                id_options.append(media.id)
+            input(f'''
+                \nMedia ID Options: { id_options }
+                \rEnter Book id:
+                 ''')
+
+  # end of option 3
 
         elif choice == '4':
             # analyse - media item details

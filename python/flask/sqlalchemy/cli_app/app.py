@@ -217,6 +217,20 @@ def app():
                 if type(id_choice) == int:
                     id_error = False
 
+            # display_searched_book.# a descriptive variable name that describes what it is storing./
+
+            display_searched_book = session.query(Media).filter(Media.id == id_choice).first()
+
+            #Formatted String to display media information
+            print(f'''
+
+            \n{display_searched_book.media_title} by {display_searched_book.artist}
+            \nFormatted String
+            \n P:  £{ display_searched_book.price / 100 }
+            ''')
+
+            time.sleep(1.5)
+
   # end of option 3
 
         elif choice == '4':

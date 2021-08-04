@@ -83,6 +83,26 @@ def clean_price(price_str):
         return int(price_float * 100)
 
 
+def clean_id(id_str, options):
+
+    
+    try:
+        media_id = int(id_str)
+
+    except ValueError:
+        
+        input('''
+             \n****ID Error***
+             \r Error Message   - needs a number 
+        ''')
+        return
+
+    else:
+        if media_id in options:
+            return media_id
+        else: 
+            input(f'''**Error:** Please try again.  Otions are { options } -> ''')
+            return
 
 # import initial data
 def import_csv():
@@ -185,10 +205,17 @@ def app():
 
             for media in session.query(Media):
                 id_options.append(media.id)
-            input(f'''
-                \nMedia ID Options: { id_options }
-                \rEnter Book id:
-                 ''')
+                
+            id_error = True
+
+            while id_error:
+                id_choice = input(f'''
+                    \nMedia ID Options: { id_options }
+                    \rEnter Book id: ''')
+
+                id_choice = clean_id(id_choice, id_options)
+                if type(id_choice) == int:
+                    id_error = False
 
   # end of option 3
 

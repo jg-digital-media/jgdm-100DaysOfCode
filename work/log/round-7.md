@@ -7,13 +7,22 @@ ___
 
 
 
+## RR7D66: Monday 09 August 2021
+
++ **Notes** 
+
+  + Getting back to work today, another new content update to my photography website and exploring the next step in the SQLAlchemy project.
+
+  + **Technologies used** - SQLAlchemy, HTML5, CSS
+
+
 ## RR7D65: Monday 26 July 2021
 
 + **Notes** 
 
   + Another new content update to my photography website and I've just added a new blog on SQLAlchemy. 
 
-  + **Technologies used** - SqlAlchemy, HTML5, CSS
+  + **Technologies used** - SQLAlchemy, HTML5, CSS
 
 
 ## RR7D64: Thursday 22 July 2021
@@ -22,7 +31,7 @@ ___
 
   + A Content update to my photography website which can be found here and then later on, back to SQLAlchemy, doing work trying to add data to a database based on user input. 
 
-  + **Technologies used** - SqlAlchemy, HTML5, CSS
+  + **Technologies used** - SQLAlchemy, HTML5, CSS
 
 ## RR7D63: Wednesday 21 July 2021
 

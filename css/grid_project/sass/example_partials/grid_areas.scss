@@ -1,0 +1,35 @@
+/*
+*
+* Grid Areas Partial
+*/
+
+body {
+
+    .book_descriptions {    
+        
+        .featured {
+            text-align: center;
+            margin: 5%;
+            border-bottom: solid red;
+        }
+
+        .one {
+            //grid-row: 1/2;
+            grid-area: inherit;
+        }
+        
+        
+        .book {            
+            /*  width: 100px; */
+            background: $bg-secondary;
+            padding: 20px;
+            margin: 5px;
+            border-radius: 15px;
+            box-shadow: black 0px 0px 11px;
+        
+            h3 {
+                color: black;
+            }
+        }
+    }
+}

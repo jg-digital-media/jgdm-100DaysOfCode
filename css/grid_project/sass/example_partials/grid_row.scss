@@ -1,11 +1,17 @@
 /*
-
+*
+* Grid Row Partial
 */
+
 body {
 
-    .book_descriptions {
+    .book_descriptions {  
 
-    
+        .featured {
+            text-align: center;
+            margin: 5px;
+            border-bottom: solid red;
+        }      
 
         .one {
             //grid-row: 1/2;

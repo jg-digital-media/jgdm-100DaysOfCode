@@ -1,22 +1,22 @@
 /*
-
+*
+* Grid Explicit and Implicit items Partial
 */
+
 body {
 
-    .book_descriptions {
-
-    
-
-        .one {
-            //grid-row: 1/2;
-            grid-area: inherit;
-            grid-row: 1/4;
-        }
+    .book_descriptions {    
         
         .featured {
             text-align: center;
             margin: 5%;
             border-bottom: solid red;
+        }
+
+        .one {
+            //grid-row: 1/2;
+            grid-area: inherit;
+            grid-row: 1/4;
         }
         
         .two {

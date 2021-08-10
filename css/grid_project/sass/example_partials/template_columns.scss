@@ -1,6 +1,12 @@
+/*
+*
+* Grid Template Columns Partial
+*/
+
 body {
 
     .book_descriptions {
+        
         display: grid;
         grid-template-areas: none;
         grid-template-columns: 1fr 1fr 1fr;

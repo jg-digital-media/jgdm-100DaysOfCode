@@ -1,13 +1,5 @@
 /*
-
-Simple Grid
-Repeat Notation
-Nested Grid
-
-
-Grid Template Areas
-
-CSS GRID PROJECT
+CSS GRID PROJECT - 10-08-2021 - 17:03pm 
 
 */
 * {
@@ -193,8 +185,13 @@ body {
     text-align: center; }
 
 /*
-
+*
+* Grid Row Partial
 */
+body .book_descriptions .featured {
+  text-align: center;
+  margin: 5px;
+  border-bottom: solid red; }
 body .book_descriptions .one {
   grid-area: inherit;
   grid-row: 1/4; }

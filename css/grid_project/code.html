@@ -48,6 +48,7 @@
         
         <nav>
             <ul class="main-nav">
+                <li><a href="index.html" title="Home" class="nav-link">Home</a></li>
                 <li><a href="grid.html" title="Home" class="nav-link">Grid</a></li>
                 <li><a href="code.html" title="About" class="nav-link">Code</a></li>
                 <li><a href="links.html" title="Link" class="nav-link">Links</a></li>
@@ -61,7 +62,18 @@
 
     <h2>CSS Grid in Code</h2>
 
-    <section class="page_wrapper">
+    <section class="page_wrapper">        
+
+        <h3>How this works</h3>
+
+        <ol>
+            <li>Clone the repistory to a directory on your system.</li>
+            <li>use sass --watch to operate sass and make changes to SASS Code.</li>
+            <li>Open a sass partial text file. style.scss</li>
+            <li>swap out the import file and review the changes made to index.html</li>
+            <li>use code.html for more information about what is happening with eeach sass partial.</li>
+        </ol>
+
 
         <h3><code>@import "template_columns.scss"</code> Grid Template Columns</h3>        
    
@@ -69,7 +81,7 @@
 
             <img src="img/template_columns.png" class="snippet_image" alt="Grid Order" title="Grid Order" />
 
-            <p>rows of 3 items. Where there is no space on a line it rolls over onto the next lime.  Where there is no element to go into a grid space it is somply left clear with no need to floats or float clearing. </p>
+            <p>rows of 3 items. Where there is no space on a line it rolls over onto the next lime.  Where there is no element to go into a grid space it is simply left clear with no need to floats or float clearing. </p>
 
         </div>
 
@@ -86,7 +98,7 @@
         </div>
 
 
-       <h3><code>@import "grid_row.scss"</code> Grid Row</h3>
+        <h3><code>@import "grid_row.scss"</code> Grid Row</h3>
 
         <div class="code_block">
 
@@ -100,90 +112,102 @@
 
         </div>
 
-        <h3><code>@import "grid_implicit.scss"</code>Explicit and Implicit Grid</h3>
-        
+
+        <h3><code>@import "grid_implicit.scss"</code>Explicit and Implicit Grid</h3>        
 
         <div class="code_block">
 
             <img src="img/grid_implicit_explicit.png" class="snippet_image" alt="Grid Implicit and Explicit" title="Grid Implicit and Explicit" />
 
-            <p>Using Grid pripertiesx like template rows and template columns creates a defined or explicit grid.<br /></br />
+            <p>Using Grid properties like template rows and template columns creates a defined or explicit grid.<br /></br />
 
             If a grid is used that is outside of the range of the grid-template-rows or columns it becomes an implicit grid.<br /></br />
 
-            lorem<br /></br /></p>
+            to do<br /></br /></p>
 
         </div>
 
-         <h3><code>@import "grid_repeat.scss"</code>Repeat Notation</h3>
-        
+
+        <h3><code>@import "grid_repeat.scss"</code>Repeat Notation</h3>        
 
         <div class="code_block">
 
             <img src="img/grid_repeat.png" class="snippet_image" alt="Grid Repeat" title="Grid Repeat" />
 
-            <p>lorem<br /><br />
-                
-            lorem<br /><br />
+            <p>to do<br /><br />                
+            
+            repeat(1fr) rather than 1fr 1fr 1fr<br /><br />
             
             lorem<br /><br />
 
-        </div>
+        </div>        
 
-        <!--<h3>Grid Areas</h3>
-        
+        <h3><code>import "justify-self.scss"</code>Grid Box Alignment - justify-self</h3>        
+
+        <div class="code_block">
+
+            <img src="img/grid_repeat.png" class="snippet_image" alt="Grid Order" title="Grid Order" />
+
+            <p>Box alignment justify-self<br /> <br />
+
+                to do </p>
+
+        </div>       
+
+
+        <h3><code>import "minmax.scss"</code>minmax() </h3>        
 
         <div class="code_block">
 
             <img src="img/grid_order.png" class="snippet_image" alt="Grid Order" title="Grid Order" />
 
-            <p>lorem</p>
+            <p>lorem<br /><br />
+                
+            to do<br /><br /> </p>
 
         </div>
-
-        <h3>Grid and CSS Media Queries</h3>
         
+        
+        <h3><code>import "grid_areas.scss"</code>with Grid template areas</code> </h3>
+
+        <div class="code_block">
+
+            <img src="img/grid_areas.png" class="snippet_image" alt="Grid Areas" title="Grid Areas" />
+
+            <p>lorem<br /><br />
+
+                to do </p>
+
+        </div>
+        
+
+        <h3><code>import "media_queries.scss"</code>Grid and CSS Media Queries</h3>        
 
         <div class="code_block">
 
             <img src="img/grid_order.png" class="snippet_image" alt="Grid Order" title="Grid Order" />
 
-            <p>lorem</p>
+            <p>Grid can be redefined with media queries to help cope with available space. <br /><br />
+
+                to do </p>
 
         </div>
 
-        <code>with Grid template areas</code>
 
-        <h3>Nested Grids</h3>
+
+
+       <!-- 
         
+        NOTE: Nested
+        <h3><code>"import "nested.scss"</code>Nested Grids</h3>        
 
         <div class="code_block">
 
             <img src="img/grid_order.png" class="snippet_image" alt="Grid Order" title="Grid Order" />
 
-            <p>lorem</p>
+            <p>In CSS Grid, an element that has been made a item can also be a grid container. <br /><br />
 
-        </div>
-
-        <h3>minmax() </h3>
-        
-
-        <div class="code_block">
-
-            <img src="img/grid_order.png" class="snippet_image" alt="Grid Order" title="Grid Order" />
-
-            <p>lorem</p>
-
-        </div>
-
-        <h3>Grid Box Alignment - justify-self</h3>
-        
-
-        <div class="code_block">
-
-            <img src="img/grid_order.png" class="snippet_image" alt="Grid Order" title="Grid Order" />
-
-            <p>lorem</p>
+                to do </p>
 
         </div> -->
 

@@ -1,5 +1,5 @@
 /*
-CSS GRID PROJECT - 11-08-2021 - 13:23
+CSS GRID PROJECT - 11-08-2021 - 13:42
 
 */
 * {
@@ -180,6 +180,8 @@ body {
           display: flex;
           flex-direction: column-reverse;
           padding: 5px; } }
+      body .page_wrapper .code_block .snippet_image {
+        border-radius: 14px; }
       body .page_wrapper .code_block code {
         padding: 3px;
         background: gray;
@@ -199,6 +201,8 @@ body {
       body .grid_page table caption {
         font-style: italic;
         font-size: 12px; }
+    body .grid_page ul.list_of_links {
+      list-style: none; }
   body footer {
     margin-top: 10px;
     text-align: center; }

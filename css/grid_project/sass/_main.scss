@@ -308,6 +308,10 @@ body {
                 padding: 5px;
             }
 
+            .snippet_image {
+                border-radius: 14px;
+            }
+
             code {
                 padding: 3px;
                 background: gray;
@@ -338,6 +342,10 @@ body {
                 font-style: italic;
                 font-size: 12px;
             }
+        }
+
+        ul.list_of_links {
+                list-style: none;
         }
     }
 

@@ -1,13 +1,20 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 67 of 100. **Last Update:** 10 August 2021
+## **Status:** Day 68 of 100. **Last Update:** 11 August 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+## RD7D68: Wednesday 11 August 2021
 
-## RR7D67: Tuesday 10 August 2021
++ **Notes** 
+
+  + Been working lately on trying to finish off my latest project - A CSS Grid explainer site which will replace one of my CSS Grid sites. 
+
+  + **Technologies used** - HTML5, CSS
+
+## RD7D67: Tuesday 10 August 2021
 
 + **Notes** 
 
@@ -15,7 +22,7 @@ ___
 
   + **Technologies used** - HTML5, CSS
 
-## RR7D66: Monday 09 August 2021
+## RD7D66: Monday 09 August 2021
 
 + **Notes** 
 
@@ -24,7 +31,7 @@ ___
   + **Technologies used** - SQLAlchemy, HTML5, CSS
 
 
-## RR7D65: Monday 26 July 2021
+## RD7D65: Monday 26 July 2021
 
 + **Notes** 
 
@@ -33,7 +40,7 @@ ___
   + **Technologies used** - SQLAlchemy, HTML5, CSS
 
 
-## RR7D64: Thursday 22 July 2021
+## RD7D64: Thursday 22 July 2021
 
 + **Notes** 
 
@@ -41,7 +48,7 @@ ___
 
   + **Technologies used** - SQLAlchemy, HTML5, CSS
 
-## RR7D63: Wednesday 21 July 2021
+## RD7D63: Wednesday 21 July 2021
 
 + **Notes** 
 
@@ -50,7 +57,7 @@ ___
   + **Technologies used** - HTML5, CSS
   
 
-## RR7D62: Tuesday 20 July 2021
+## RD7D62: Tuesday 20 July 2021
 
 + **Notes** 
 
@@ -58,7 +65,7 @@ ___
 
   + **Technologies used** - HTML5, CSS
   
-## RR7D61: Monday 19 July 2021
+## RD7D61: Monday 19 July 2021
 
 + **Notes** 
 
@@ -66,7 +73,7 @@ ___
 
   + **Technologies used** - SQLAlchemy, Python
 
-## RR7D60: Wednesday 14 July 2021
+## RD7D60: Wednesday 14 July 2021
 
 + **Notes** 
 
@@ -74,7 +81,7 @@ ___
 
   + **Technologies used** - SQLAlchemy, Python
 
-## RR7D59: Tuesday 13 July 2021
+## RD7D59: Tuesday 13 July 2021
 
 + **Notes** 
 
@@ -82,7 +89,7 @@ ___
 
   + **Technologies used** - HTML5, Sass, SQlAlchemy
 
-## RR7D58: Monday 12 July 2021
+## RD7D58: Monday 12 July 2021
 
 + **Notes** 
 
@@ -90,7 +97,7 @@ ___
 
   + **Technologies used** - HTML5, Sass
 
-## RR7D57: Friday 09 July 2021
+## RD7D57: Friday 09 July 2021
 
 + **Notes** 
 
@@ -99,7 +106,7 @@ ___
   + **Technologies used** - HTML5, Sass
 
 
-## RR7D56: Thursday 08 July 2021
+## RD7D56: Thursday 08 July 2021
 
 + **Notes** 
 
@@ -107,7 +114,7 @@ ___
 
   + **Technologies used** - HTML5, Sass
 
-## RR7D55: Wednesday 07 July 2021
+## RD7D55: Wednesday 07 July 2021
 
 + **Notes** 
 
@@ -115,7 +122,7 @@ ___
 
   + **Technologies used** - HTML5, Sass
 
-## RR7D54: Tuesday 06 July 2021
+## RD7D54: Tuesday 06 July 2021
 
 + **Notes** 
 
@@ -123,7 +130,7 @@ ___
 
   + **Technologies used** - HTML5, Sass
 
-## RR7D53: Monday 05 July 2021
+## RD7D53: Monday 05 July 2021
 
 + **Notes**
 
@@ -132,7 +139,7 @@ ___
   + **Technologies used** - HTML5, Sass
 
 
-## RR7D52: Friday 02 July 2021
+## RD7D52: Friday 02 July 2021
 
 + **Notes**
 
@@ -140,7 +147,7 @@ ___
 
   + **Technologies used** - HTML5, Sass
 
-## RR7D50: Wednesday 30 June 2021
+## RD7D50: Wednesday 30 June 2021
 
 + **Notes**
 
@@ -148,7 +155,7 @@ ___
 
   + **Technologies used** - HTML5, Sass
 
-## RR7D49: Tuesday 29 June 2021
+## RD7D49: Tuesday 29 June 2021
 
 + **Notes**
 
@@ -156,7 +163,7 @@ ___
 
   + **Technologies used** - HTML5, Sass
 
-## RR7D48: Monday 28 June 2021
+## RD7D48: Monday 28 June 2021
 
 + **Notes**
 
@@ -164,7 +171,7 @@ ___
 
   + **Technologies used** - HTML5, Sass, PHP, WordPress
 
-## RR7D47: Friday 25 June 2021
+## RD7D47: Friday 25 June 2021
 
 + **Notes**
 
@@ -172,7 +179,7 @@ ___
    
   + **Technologies used** - HTML5, Sass
 
-## RR7D46: Thursday 24 June 2021
+## RD7D46: Thursday 24 June 2021
 
 + **Notes**
 
@@ -181,7 +188,7 @@ ___
   + **Technologies used** - HTML5, Sass
 
 
-## RR7D45: Wednesday 23 June 2021
+## RD7D45: Wednesday 23 June 2021
 
 + **Notes**
 
@@ -189,7 +196,7 @@ ___
    
   + **Technologies used** - HTML5, Sass
 
-## RR7D44: Tuesday 22 June 2021
+## RD7D44: Tuesday 22 June 2021
 
 + **Notes**
 
@@ -197,7 +204,7 @@ ___
    
   + **Technologies used** - HTML5, Sass
 
-## RR7D43: Monday 21 June 2021
+## RD7D43: Monday 21 June 2021
 
 + **Notes**
 
@@ -205,7 +212,7 @@ ___
    
   + **Technologies used** - HTML5, Sass, Python, Flask
 
-## RR7D42: Friday 18 June 2021
+## RD7D42: Friday 18 June 2021
 
 + **Notes**
 
@@ -213,7 +220,7 @@ ___
    
   + **Technologies used** - HTML5, Sass, Python, Flask
 
-## RR7D41: Thursday 17 June 2021
+## RD7D41: Thursday 17 June 2021
 
 + **Notes**
 
@@ -221,7 +228,7 @@ ___
    
   + **Technologies used** - HTML5, Sass
 
-## RR7D41: Wednesday 16 June 2021
+## RD7D41: Wednesday 16 June 2021
 
 + **Notes**
 
@@ -229,7 +236,7 @@ ___
    
   + **Technologies used** - Python, Flask, HTML5, Sass
 
-## RR7D40: Tuesday 15 June 2021
+## R7D40: Tuesday 15 June 2021
 
 + **Notes**
 
@@ -237,7 +244,7 @@ ___
    
   + **Technologies used** - Python, Flask, HTML5, Sass
 
-## RR7D39: Monday 14 June 2021
+## R7D39: Monday 14 June 2021
 
 + **Notes**
 
@@ -246,7 +253,7 @@ https://blog.jonniegrieve.co.uk/blog_posts/updates-rollback-and-deleting-data-wi
    
   + **Technologies used** - WordPress, HTML5, JavaScript
 
-## RR7D38: Friday 11 June 2021
+## R7D38: Friday 11 June 2021
 
 + **Notes**
 

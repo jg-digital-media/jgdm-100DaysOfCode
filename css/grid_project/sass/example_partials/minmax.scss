@@ -6,6 +6,11 @@
 body {
 
     .book_descriptions {    
+
+        display: grid;
+        grid-template-areas: none;
+        grid-template-columns: 1fr minmax(100px, 250px) 1fr;
+        grid-template-rows: repeat(3, 1fr minmax(10%, 70%) 1fr);
         
         .featured {
             text-align: center;
@@ -14,7 +19,30 @@ body {
         }
 
         .one {
-            //grid-row: 1/2;
+            grid-area: inherit;
+        }
+
+        .two {
+            grid-area: inherit;
+        }
+
+        .three {
+            grid-area: inherit;
+        }
+
+        .four{
+            grid-area: inherit;
+        }
+
+        .five {
+            grid-area: inherit;
+        }
+
+        .six {
+            grid-area: inherit;
+        }
+
+        .seven {
             grid-area: inherit;
         }
         

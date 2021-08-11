@@ -186,16 +186,16 @@ body {
 
 /*
 *
-* Grid Repeat Notation Partial
+* Grid Minmax() Partial
 */
 body .book_descriptions {
   display: grid;
   grid-template-areas: none;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr); }
+  grid-template-columns: 1fr minmax(100px, 250px) 1fr;
+  grid-template-rows: repeat(3, 1fr minmax(10%, 70%) 1fr); }
   body .book_descriptions .featured {
     text-align: center;
-    margin: 5px;
+    margin: 5%;
     border-bottom: solid red; }
   body .book_descriptions .one {
     grid-area: inherit; }

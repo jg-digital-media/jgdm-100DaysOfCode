@@ -35,7 +35,8 @@ body {
           body header nav ul.main-nav li a {
             color: #ffffff; }
             body header nav ul.main-nav li a:hover {
-              text-decoration: none; }
+              text-decoration: none;
+              color: gold; }
       body header nav hr {
         width: 40px;
         text-align: center;
@@ -50,6 +51,10 @@ body {
     color: #464444;
     text-align: center;
     margin-bottom: 30px; }
+  body .how_it_works {
+    margin: 25px 0px; }
+    body .how_it_works li {
+      margin-top: 10px; }
   body .grid_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

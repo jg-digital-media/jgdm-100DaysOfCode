@@ -49,6 +49,7 @@ body {
     
                         &:hover {
                             text-decoration: none;
+                            color: $col-nav-href-hov;
                         }
                     }
                 }
@@ -80,6 +81,14 @@ body {
         color: $hd2-col;
         text-align: center;
         margin-bottom: 30px;
+    }
+
+    .how_it_works {
+        margin: 25px 0px;
+
+        li {
+            margin-top: 10px;
+        }
     }
 
 

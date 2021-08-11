@@ -186,7 +186,7 @@ body {
 
 /*
 *
-* Grid Template Columns Partial
+* Grid Order Partial
 */
 body .book_descriptions {
   display: grid;
@@ -194,21 +194,44 @@ body .book_descriptions {
   grid-template-columns: 1fr 1fr 1fr; }
   body .book_descriptions .featured {
     text-align: center;
-    margin: 5px;
+    margin: 5%;
     border-bottom: solid red; }
   body .book_descriptions .one {
+    order: 2;
+    grid-area: none;
     grid-area: inherit; }
   body .book_descriptions .two {
+    order: 1;
+    grid-area: none;
     grid-area: inherit; }
   body .book_descriptions .three {
+    order: 4;
+    grid-area: none;
     grid-area: inherit; }
   body .book_descriptions .four {
+    order: 3;
+    grid-area: none;
     grid-area: inherit; }
   body .book_descriptions .five {
+    order: 7;
+    grid-area: none;
     grid-area: inherit; }
   body .book_descriptions .six {
+    order: 5;
+    grid-area: none;
     grid-area: inherit; }
   body .book_descriptions .seven {
+    order: 6;
+    grid-area: none;
     grid-area: inherit; }
+  body .book_descriptions .book {
+    /*  width: 100px; */
+    background: #f7d9a2;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 15px;
+    box-shadow: black 0px 0px 11px; }
+    body .book_descriptions .book h3 {
+      color: black; }
 
 /*# sourceMappingURL=style.css.map */

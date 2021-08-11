@@ -1,5 +1,5 @@
 /*
-CSS GRID PROJECT - 10-08-2021 - 17:13pm 
+CSS GRID PROJECT - 11-08-2021 - 08:52
 
 */
 * {
@@ -186,39 +186,29 @@ body {
 
 /*
 *
-* Grid Row Partial
+* Grid Template Columns Partial
 */
-body .book_descriptions .featured {
-  text-align: center;
-  margin: 5px;
-  border-bottom: solid red; }
-body .book_descriptions .one {
-  grid-area: inherit;
-  grid-row: 1/4; }
-body .book_descriptions .featured {
-  text-align: center;
-  margin: 5%;
-  border-bottom: solid red; }
-body .book_descriptions .two {
-  grid-area: inherit; }
-body .book_descriptions .three {
-  grid-area: inherit; }
-body .book_descriptions .four {
-  grid-area: inherit; }
-body .book_descriptions .five {
-  grid-area: inherit; }
-body .book_descriptions .six {
-  grid-area: inherit; }
-body .book_descriptions .seven {
-  grid-area: inherit; }
-body .book_descriptions .book {
-  /*  width: 100px; */
-  background: #f7d9a2;
-  padding: 20px;
-  margin: 5px;
-  border-radius: 15px;
-  box-shadow: black 0px 0px 11px; }
-  body .book_descriptions .book h3 {
-    color: black; }
+body .book_descriptions {
+  display: grid;
+  grid-template-areas: none;
+  grid-template-columns: 1fr 1fr 1fr; }
+  body .book_descriptions .featured {
+    text-align: center;
+    margin: 5px;
+    border-bottom: solid red; }
+  body .book_descriptions .one {
+    grid-area: inherit; }
+  body .book_descriptions .two {
+    grid-area: inherit; }
+  body .book_descriptions .three {
+    grid-area: inherit; }
+  body .book_descriptions .four {
+    grid-area: inherit; }
+  body .book_descriptions .five {
+    grid-area: inherit; }
+  body .book_descriptions .six {
+    grid-area: inherit; }
+  body .book_descriptions .seven {
+    grid-area: inherit; }
 
 /*# sourceMappingURL=style.css.map */

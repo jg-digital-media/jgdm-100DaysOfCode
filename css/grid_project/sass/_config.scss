@@ -1,23 +1,27 @@
-$bg-body: #e0f446;
 
+//colours
+$bg-body: #e0f446;
 $bg-header: black;
 $bg-secondary: #f7d9a2;
+
+//text colour
 $col-header: white;
 $bdr-header: $col-header;
 $col-nav-href: #ffffff;
 $col-nav-href-hov: gold;
 
+//headings text colours
 $hd1-col: white;
 $hd2-col: #464444;
 
 //fonts 
 $font: arial;
+$font-secondary: arial;
 
-//breakpoints 
+//media query breakpoints 
 $md: 760px;
 
 
-//layouts 
-
+//layout widths
 $width-lg: 75%;
 $width-md: 90%;

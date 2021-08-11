@@ -275,6 +275,27 @@ body {
 
         }
 
+        code {
+            padding: 3px;
+            background: gray;
+            font-weight: bold;
+            font-style: italic;
+            border-radius: 7px;
+
+        }
+
+        code.code_block_header {
+            
+            padding: 3px;
+            background: #ab890f;
+            font-weight: bold;
+            font-style: italic;
+            border-radius: 4px;
+            min-width: 200px;
+
+
+        }
+
         .code_block {
             display: grid;
             grid-template-columns: minmax(320px, 417px) 1fr;
@@ -285,6 +306,14 @@ body {
                 display: flex;
                 flex-direction: column-reverse;
                 padding: 5px;
+            }
+
+            code {
+                padding: 3px;
+                background: gray;
+                font-weight: bold;
+                font-style: italic;
+                border-radius: 7px;
             }
 
 

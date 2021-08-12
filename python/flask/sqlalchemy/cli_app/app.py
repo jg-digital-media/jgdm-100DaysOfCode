@@ -30,8 +30,6 @@ def menu():
                 ''')
 
 def sub_menu():
-
-    def menu():
         while True:
             print('''
                 \r1) Edit
@@ -139,7 +137,8 @@ def edit_check(column_name, current_value):
 
     if column_name == 'Date' or column_name == 'Price':
         while True:
-            changes = input('What to change into')
+            changes = input('Change Value: ')
+
             if column_name == 'Date':
                 changes = clean_date(changes)
                 if type(changes) == datetime.date:
@@ -150,7 +149,7 @@ def edit_check(column_name, current_value):
                     return changes
 
     else: 
-        return input("What to Change into")
+        return input("Change Value: ")
 
 # import initial data
 def import_csv():
@@ -280,8 +279,19 @@ def app():
 
             if sub_choice == "1":
 
-                # edit
-                pass
+                # edit selected item
+                display_searched_book.media_title = edit_check('Title', display_searched_book.media_title)
+                display_searched_book.media_type = edit_check('Media Type', display_searched_book.media_type)
+                display_searched_book.artist = edit_check('Artist', display_searched_book.artist)
+                display_searched_book.genre = edit_check('Genre', display_searched_book.genre)
+                display_searched_book.published_date = edit_check('Date', display_searched_book.published_date)
+                display_searched_book.price = edit_check('Price', display_searched_book.price)
+
+                session.commit()
+                print("Book Details Updated!")
+                time.sleep(1.5)
+       
+
 
             elif sub_choice == "2":
 

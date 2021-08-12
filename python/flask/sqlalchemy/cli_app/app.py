@@ -274,6 +274,8 @@ def app():
             \nFormatted String
             \n P:  £{ display_searched_book.price / 100 }''')
 
+
+            # Edit and Delete existing media items 
             sub_choice = sub_menu()
 
             if sub_choice == "1":

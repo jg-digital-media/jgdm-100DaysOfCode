@@ -29,6 +29,25 @@ def menu():
                     \rPress Enter to Try Again.
                 ''')
 
+def sub_menu():
+
+    def menu():
+        while True:
+            print('''
+                \r1) Edit
+                \r2) Delete
+                \r3) Return to Main Menu''') 
+
+            # store a variable for the menu choice
+            choice = input('What would you like to do? ')
+            if choice in ['1','2','3']:
+                return choice
+            else:
+                input('''
+                        \rError: Please try again with one of the choices above
+                        \rA number from 1 to 3.
+                        \rPress Enter to Try Again.
+                    ''')
 
 # date field data cleaning and type conversion
 def clean_date(date_string):
@@ -226,12 +245,23 @@ def app():
 
             \n{display_searched_book.media_title} by {display_searched_book.artist}
             \nFormatted String
-            \n P:  £{ display_searched_book.price / 100 }
-            ''')
+            \n P:  £{ display_searched_book.price / 100 }''')
+
+            sub_choice = sub_menu()
+
+            if sub_choice == "1":
+
+                # edit
+                pass
+            
+            elif sub_choice == "2":
+
+                # delete
+                pass
 
             time.sleep(1.5)
 
-  # end of option 3
+            # end of option 3
 
         elif choice == '4':
             # analyse - media item details

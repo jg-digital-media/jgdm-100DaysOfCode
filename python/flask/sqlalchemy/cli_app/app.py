@@ -264,8 +264,7 @@ def app():
                 if type(id_choice) == int:
                     id_error = False
 
-            # display_searched_book.# a descriptive variable name that describes what it is storing./
-
+            # display_searched_book - a descriptive variable name that describes what it is storing
             display_searched_book = session.query(Media).filter(Media.id == id_choice).first()
 
             #Formatted String to display media information
@@ -288,7 +287,7 @@ def app():
                 display_searched_book.price = edit_check('Price', display_searched_book.price)
 
                 session.commit()
-                print("Book Details Updated!")
+                print("\nBook Details Updated!")
                 time.sleep(1.5)
        
 
@@ -296,7 +295,10 @@ def app():
             elif sub_choice == "2":
 
                 # delete
-                pass
+                session.delete(display_searched_book)
+                session.commit()
+                print('\nBook Deleted!')
+                time.sleep(1.5)
 
             time.sleep(1.5)
 

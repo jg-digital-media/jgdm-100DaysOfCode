@@ -1,10 +1,19 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 68 of 100. **Last Update:** 11 August 2021
+## **Status:** Day 69 of 100. **Last Update:** 12 August 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+## RD7D69: Thursday 12 August 2021
+
++ **Notes** 
+
+  + Time to introduce a new project with CSS, Sass and Grid which I thought worked best as a cloneable GitHub Repo. https://github.com/jg-digital-media/jgdm_grid_project Works best with Live Server in Visual Studio Code editor. 
+
+  + **Technologies used** - HTML5, CSS
 
 ## RD7D68: Wednesday 11 August 2021
 

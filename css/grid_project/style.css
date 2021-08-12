@@ -208,6 +208,12 @@ body {
         font-size: 12px; }
     body .grid_page ul.list_of_links {
       list-style: none; }
+    body .grid_page code {
+      padding: 3px;
+      background: gray;
+      font-weight: bold;
+      font-style: italic;
+      border-radius: 7px; }
   body footer {
     margin-top: 10px;
     text-align: center; }

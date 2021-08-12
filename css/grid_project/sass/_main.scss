@@ -356,6 +356,15 @@ body {
         ul.list_of_links {
                 list-style: none;
         }
+
+        code {
+            padding: 3px;
+            background: gray;
+            font-weight: bold;
+            font-style: italic;
+            border-radius: 7px;
+
+        }
     }
 
 

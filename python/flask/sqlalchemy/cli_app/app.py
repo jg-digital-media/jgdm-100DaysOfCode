@@ -120,8 +120,37 @@ def clean_id(id_str, options):
         if media_id in options:
             return media_id
         else: 
-            input(f'''**Error:** Please try again.  Otions are { options } -> ''')
+            input(f'''**Error:** Please try again.  Options are { options } -> ''')
             return
+
+
+
+# editing a book value by cycling through all the values and changing any value that needs changing. using a new function
+
+def edit_check(column_name, current_value):
+    print(f'\n**** EDIT {column_name} ****')
+
+    if column_name == 'Price':
+        print(f'\rCurrent Value: {current_value/100}')
+    elif column_name == 'Date':
+        print(f'\rCurrent Value: {current_value.strftime("%B, %d, %Y")}')
+    else: 
+        print(f'\rCurrent Value: {current_value}')
+
+    if column_name == 'Date' or column_name == 'Price':
+        while True:
+            changes = input('What to change into')
+            if column_name == 'Date':
+                changes = clean_date(changes)
+                if type(changes) == datetime.date:
+                    return changes 
+            if column_name == 'Price':
+                changes = clean_price(changes)
+                if type(changes) == int:
+                    return changes
+
+    else: 
+        return input("What to Change into")
 
 # import initial data
 def import_csv():
@@ -253,7 +282,7 @@ def app():
 
                 # edit
                 pass
-            
+
             elif sub_choice == "2":
 
                 # delete

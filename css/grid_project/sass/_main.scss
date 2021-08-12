@@ -285,11 +285,7 @@ body {
         }
 
         code {
-            padding: 3px;
-            background: gray;
-            font-weight: bold;
-            font-style: italic;
-            border-radius: 7px;
+            @extend %code_highlighting;
 
         }
 
@@ -322,11 +318,7 @@ body {
             }
 
             code {
-                padding: 3px;
-                background: gray;
-                font-weight: bold;
-                font-style: italic;
-                border-radius: 7px;
+                @extend %code_highlighting
             }
 
 
@@ -358,11 +350,7 @@ body {
         }
 
         code {
-            padding: 3px;
-            background: gray;
-            font-weight: bold;
-            font-style: italic;
-            border-radius: 7px;
+            @extend %code_highlighting
 
         }
     }

@@ -1,5 +1,5 @@
 /*
-CSS GRID PROJECT - 11-08-2021 - 13:42
+CSS GRID PROJECT - 12-08-2021 - 14:31
 
 */
 * {
@@ -163,12 +163,6 @@ body {
       margin-top: 10px; }
       body .page_wrapper h3 code {
         display: block; }
-    body .page_wrapper code {
-      padding: 3px;
-      background: gray;
-      font-weight: bold;
-      font-style: italic;
-      border-radius: 7px; }
     body .page_wrapper code.code_block_header {
       padding: 3px;
       background: #ab890f;
@@ -187,12 +181,6 @@ body {
           padding: 5px; } }
       body .page_wrapper .code_block .snippet_image {
         border-radius: 14px; }
-      body .page_wrapper .code_block code {
-        padding: 3px;
-        background: gray;
-        font-weight: bold;
-        font-style: italic;
-        border-radius: 7px; }
   body .grid_page {
     display: block;
     width: 50%;
@@ -208,15 +196,16 @@ body {
         font-size: 12px; }
     body .grid_page ul.list_of_links {
       list-style: none; }
-    body .grid_page code {
-      padding: 3px;
-      background: gray;
-      font-weight: bold;
-      font-style: italic;
-      border-radius: 7px; }
   body footer {
     margin-top: 10px;
     text-align: center; }
+
+body .page_wrapper code, body .page_wrapper .code_block code, body .grid_page code {
+  padding: 3px;
+  background: gray;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 7px; }
 
 /*
 *

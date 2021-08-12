@@ -276,7 +276,7 @@ body {
         
         h3 {
             line-height: 2;
-            margin-top: 10px;
+            margin-top: 30px;
 
             code {
                 display: block;
@@ -291,13 +291,12 @@ body {
 
         code.code_block_header {
             
-            padding: 3px;
-            background: #ab890f;
+            background: #fbe69c;
             font-weight: bold;
             font-style: italic;
             border-radius: 4px;
             min-width: 200px;
-
+            padding-left: 10px;
 
         }
 

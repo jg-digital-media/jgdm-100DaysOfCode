@@ -160,16 +160,16 @@ body {
         flex-direction: row-reverse; } }
     body .page_wrapper h3 {
       line-height: 2;
-      margin-top: 10px; }
+      margin-top: 30px; }
       body .page_wrapper h3 code {
         display: block; }
     body .page_wrapper code.code_block_header {
-      padding: 3px;
-      background: #ab890f;
+      background: #fbe69c;
       font-weight: bold;
       font-style: italic;
       border-radius: 4px;
-      min-width: 200px; }
+      min-width: 200px;
+      padding-left: 10px; }
     body .page_wrapper .code_block {
       display: grid;
       grid-template-columns: minmax(320px, 417px) 1fr;
@@ -201,8 +201,8 @@ body {
     text-align: center; }
 
 body .page_wrapper code, body .page_wrapper .code_block code, body .grid_page code {
-  padding: 3px;
-  background: gray;
+  padding: 3px 8px;
+  background: #f2bbbb;
   font-weight: bold;
   font-style: italic;
   border-radius: 7px; }

@@ -1,10 +1,20 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 69 of 100. **Last Update:** 12 August 2021
+## **Status:** Day 70 of 100. **Last Update:** 16 August 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+
+## RD7D70: Monday 16 August 2021
+
++ **Notes** 
+
+  + Content updates for my Photography Website and PM Consulting went online today.  Have explored a little bit about Video editing and production on Google Web Designer and looked into DOM Scripting concepts with JavaScript.
+
+  + **Technologies used** - HTML5, CSS
 
 
 ## RD7D69: Thursday 12 August 2021

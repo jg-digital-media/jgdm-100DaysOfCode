@@ -1,5 +1,41 @@
 /*
-Sass: 24-06-2021: 15:22
+Sass: 17-08-2021: 15:22
 
 */
 
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;background-color: #e3710f;
+    box-shadow: #e3710f 0px 5px 9px;
+
+}
+
+nav {
+    /* default styling */
+    transition: top 500ms ease-in-out;
+}
+
+.links {
+        a {
+            color: white;
+            margin-right: 10px;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+}
+
+nav.scroll-up,
+nav:focus-within {
+    top: 0;
+}
+
+nav.scroll-down {
+    top: -100%;
+}
+     

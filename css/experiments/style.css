@@ -1,7 +1,7 @@
 /***
 
 Author:         @jg_digitalMedia
-Last Update:    23/06/2021 - 09:18
+Last Update:    17/08/2021 - 09:18
 */
 * {
   padding: 0;
@@ -102,7 +102,7 @@ footer {
     text-align: center; }
   .key tr:nth-child(2) {
     font-weight: bold;
-    text-align: right; }
+    text-align: center; }
   .key .browsers-icon {
     width: 100px;
     width: 20px; }

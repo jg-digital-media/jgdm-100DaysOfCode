@@ -14,6 +14,46 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
+### Day 71
+
+```javascript
+
+// 1. Select Elements
+
+// 2. Manipulate Elements
+
+// 3. Event Listeners to respond to user actions
+
+
+
+document.getElementById("element");
+document.getElementsByTagName("li");
+document.getElementsByClassName("class_name");
+
+document.querySelector("#element");
+document.querySelectorAll(".list_item");
+
+
+// TagName and ElementName return a HTMLCollection
+// -------> Iterating over a collection
+
+// e.g. 
+const items = document.getElementsByTagName('li');
+
+for (let i=0; i < items.length; i++) {
+
+    items[i].style.color = 'orchid';
+}
+
+
+// Event Listeners
+const body = document.body;
+body.addEventListener('click', function () {
+  body.innerHTML = '<h1>Hello, world!</h1>';
+});
+
+```
+
 
 ### Day 65
 

@@ -8,6 +8,18 @@ ___
 
 
 
+
+## RD7D71: Tuesday 17 August 2021
+
++ **Notes** 
+
+  + Updating some of my CSS Experiment pages using SASS and HTML5. 
+
+  + **Technologies used** - HTML5, CSS
+
+
+
+
 ## RD7D70: Monday 16 August 2021
 
 + **Notes** 

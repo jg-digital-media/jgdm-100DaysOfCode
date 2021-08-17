@@ -1,7 +1,7 @@
 /***
 
 Author:         @jg_digitalMedia
-Last Update:    17/08/2021 - 09:18
+Last Update:    17/08/2021 - 13:34
 */
 * {
   padding: 0;
@@ -92,6 +92,7 @@ footer {
   padding: 20px;
   border-radius: 15px;
   font-size: 10px;
+  width: 180px;
   margin-top: 20px;
   margin: 15px auto; }
   .key caption {

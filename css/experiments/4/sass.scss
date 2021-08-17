@@ -16,11 +16,23 @@ header {
     width: 70%;
     margin: 0 auto;
     display: block;
+
+    p {
+        width: 100%;
+    }
+
 }
 
 #container h1 {
     color: white; 
     text-align: center;
+}
+
+.key {
+
+    caption {
+        width: 100%;
+    }
 }
 
 

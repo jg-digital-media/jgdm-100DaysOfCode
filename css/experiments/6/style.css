@@ -1,5 +1,5 @@
 /*
-Sass: 17-08-2021: 15:22
+Sass: 17-08-2021: 14:54
 
 */
 nav {
@@ -28,5 +28,20 @@ nav:focus-within {
 
 nav.scroll-down {
   top: -100%; }
+
+#container p {
+  width: 90%;
+  line-height: 1; }
+
+#container .key {
+  width: 180px; }
+
+#container .key caption {
+  font-size: 1.5em; }
+
+#container .key caption p {
+  font-size: 1.5em;
+  line-height: 1;
+  width: 90%; }
 
 /*# sourceMappingURL=style.css.map */

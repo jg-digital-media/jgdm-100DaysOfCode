@@ -1,4 +1,4 @@
-/* 17-08-2021  10:45*/
+/* 18-08-2021  14:50*/
 
 
 * {
@@ -12,27 +12,24 @@ header {
     width: 100%;
 }
 
-#container {
-    width: 70%;
-    margin: 0 auto;
-    display: block;
-
-    p {
-        width: 100%;
-    }
-
+#container p {
+    width: 90%;
+    line-height: 1;
 }
 
-#container h1 {
-    color: white; 
-    text-align: center;
+#container .key {
+    width: 180px;
 }
 
-.key {
+#container .key caption {
+    font-size: 1.5em;
+}
 
-    caption {
-        width: 100%;
-    }
+#container .key caption p {   
+    
+    font-size: 1.5em;
+    line-height: 1;
+    width: 90%;
 }
 
 

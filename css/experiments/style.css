@@ -68,6 +68,29 @@ header {
   /* width: 100px; */
   /* width: 25px; */
   /* width: 15px; */ }
+#container .key {
+  background: #ffa04d;
+  padding: 20px;
+  border-radius: 15px;
+  width: 180px;
+  margin-top: 20px;
+  margin: 15px auto; }
+  #container .key caption {
+    font-size: 1.4em;
+    font-style: italic;
+    font-weight: bold; }
+    #container .key caption p {
+      line-height: 1;
+      text-align: left; }
+  #container .key tr:nth-child(2) {
+    font-weight: bold;
+    text-align: center; }
+  #container .key .browsers-icon {
+    width: 100px;
+    width: 20px; }
+  #container .key #container p {
+    line-height: 1;
+    text-align: left; }
 #container article {
   width: 50%;
   display: block;
@@ -86,25 +109,5 @@ footer {
   width: 100%; }
   footer p {
     text-align: center; }
-
-.key {
-  background: #ffa04d;
-  padding: 20px;
-  border-radius: 15px;
-  width: 180px;
-  margin-top: 20px;
-  margin: 15px auto; }
-  .key caption {
-    font-size: 1.4em;
-    font-style: italic;
-    font-weight: bold; }
-  .key p {
-    text-align: center; }
-  .key tr:nth-child(2) {
-    font-weight: bold;
-    text-align: center; }
-  .key .browsers-icon {
-    width: 100px;
-    width: 20px; }
 
 /*# sourceMappingURL=style.css.map */

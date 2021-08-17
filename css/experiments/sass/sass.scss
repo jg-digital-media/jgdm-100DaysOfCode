@@ -42,8 +42,6 @@ header {
         text-align: center;
         color: $text-header-two;
         padding: 20px 0;
-
-
     }
 
     p {
@@ -99,6 +97,42 @@ header {
         /* width: 25px; */
         /* width: 15px; */
     }
+    .key {
+
+        background: $background-key;
+        padding: 20px;
+        border-radius: 15px;
+        width: 180px;
+    
+        caption {
+            font-size: 1.4em;
+            font-style: italic;
+            font-weight: bold;
+    
+            p {
+                line-height: 1;
+                text-align: left;
+            }
+        }
+    
+        margin-top: 20px;
+        margin: 15px auto;
+    
+        tr:nth-child(2) {
+            font-weight: bold;
+            text-align: center;
+        }
+    
+        .browsers-icon {
+            width: 100px;
+            width: 20px;
+        }
+    
+        #container p {
+            line-height: 1;
+            text-align: left;
+        }
+    }
 
     
 
@@ -134,36 +168,3 @@ footer {
 
 }
 
-
-
-.key {
-
-    background: $background-key;
-    padding: 20px;
-    border-radius: 15px;
-    width: 180px;
-
-    caption {
-        font-size: 1.4em;
-        font-style: italic;
-        font-weight: bold;
-        line-height: 1;
-    }
-
-    p {
-        text-align: center;
-    }
-
-    margin-top: 20px;
-    margin: 15px auto;
-
-    tr:nth-child(2) {
-        font-weight: bold;
-        text-align: center;
-    }
-
-    .browsers-icon {
-        width: 100px;
-        width: 20px;
-    }
-}

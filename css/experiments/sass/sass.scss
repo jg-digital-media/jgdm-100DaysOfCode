@@ -1,7 +1,7 @@
 /***
 
 Author:         @jg_digitalMedia
-Last Update:    17/08/2021 - 13:34
+Last Update:    17/08/2021 - 14:10
 */
 
 @import "config";
@@ -141,13 +141,13 @@ footer {
     background: $background-key;
     padding: 20px;
     border-radius: 15px;
-    font-size: 10px;
     width: 180px;
 
     caption {
         font-size: 1.4em;
         font-style: italic;
         font-weight: bold;
+        line-height: 1;
     }
 
     p {

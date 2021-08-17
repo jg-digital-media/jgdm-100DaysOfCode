@@ -1,20 +1,18 @@
+/* 17-08-2021  10:45*/
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
-body {
-    background: #f4e681;
-}
 
 header {
-    background: black;
     height: 100px;
     width: 100%;
 }
 
 #container {
-    background: #d1fc37;
     width: 70%;
     margin: 0 auto;
     display: block;
@@ -25,27 +23,23 @@ header {
     text-align: center;
 }
 
-.svg-container {
-}
 
 
-.svg-container .arrow-svg {
+.svg-container  {
+
     display: block;
     margin: 0 auto;
-    margin: 10px auto;
-    width: 200px;
-    
-    background: #2196f3;
+    /* width: 6%; */
+    text-align: center;
 
-}
+    .arrow-svg {
 
-.svg-container .arrow-svg svg {
-   
-    fill: #90caf9;
+        fill: #90caf9;
             
-    &:hover,
-    &:nth-child(2) {
-        filter: drop-shadow(3px 5px 2px rgb(0, 0, 0 / 0.4));
+        &:hover,
+        &:nth-child(2) {
+            filter: drop-shadow(3px 5px 2px rgb(0, 0, 0 / 0.4));
+        }
     }
 }
   

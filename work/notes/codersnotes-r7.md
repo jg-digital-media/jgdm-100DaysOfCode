@@ -14,6 +14,43 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
+
+### Day 72
+
+
+## Setup
+
+
+```
+Create a virtual environment  - ```python - venv env```
+
+Activate a virtual environment - ```source .\env\Scripts\activate``` - (Windows)
+
+pip freeze - requirements file - ```pip freeze > requirements.txt```
+```
+
+
+####   Creating an Application
+
+
+```python 
+## Basic App 
+from flask import Flask 
+
+
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return "A message from the main app route"
+
+if __name__ == '__main__':
+    app.run(debug=True, port=8000, host='127.0.0.1')
+```
+
+
+
 ### Day 71
 
 ```javascript

@@ -1,12 +1,20 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 70 of 100. **Last Update:** 16 August 2021
+## **Status:** Day 72 of 100. **Last Update:** 18 August 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
+
+## RD7D72: Wednesday 18 August 2021
+
++ **Notes** 
+
+  + Coding with CSS Grid, Flask and SQLAlchemy today. Finished making a CLI App, now to bring it to the browser with a Flask Website that uses SQLAlchemy - exciting!
+
+  + **Technologies used** - HTML5, CSS
 
 
 ## RD7D71: Tuesday 17 August 2021
@@ -16,8 +24,6 @@ ___
   + Updating some of my CSS Experiment pages using SASS and HTML5. 
 
   + **Technologies used** - HTML5, CSS
-
-
 
 
 ## RD7D70: Monday 16 August 2021

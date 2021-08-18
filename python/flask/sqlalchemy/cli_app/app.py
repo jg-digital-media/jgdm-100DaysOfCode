@@ -308,7 +308,36 @@ def app():
 
         elif choice == '4':
             # analyse - media item details
-            pass
+            
+            # Data points
+
+            oldest_media  = session.query(Media).order_by(Media.published_date).first()
+            newest_media  = session.query(Media).order_by(Media.published_date.desc()).first()
+
+
+            # Get a total count of all the books
+            total_media = session.query(Media).count()
+
+            # Search records with specified text and return number
+            search_media_count = session.query(Media).filter(Media.media_title.like('%Media%')).count()
+
+            # records after 2015
+            # after_2015 = session.query(Media).filter(Media.published_date >= datetime.date("2015 01 01"))
+
+            # print  - formatting analyses for command line
+            print('\n*****Analyse Media on DB*****')
+
+            print(f'''
+
+            \rOldest Media: { oldest_media }
+            \rNewest Media: { newest_media }
+            \r\nTotal Records in the Database: { total_media }
+            \r\nSearch "%Media%" Count: { search_media_count }
+
+            ''')
+
+            input('\n Press Enter to return to the main menu.')
+
 
         else:             
             # default option to exit the application 

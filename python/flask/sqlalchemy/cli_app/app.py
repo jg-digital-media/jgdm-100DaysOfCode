@@ -15,7 +15,7 @@ def menu():
             \r1) Add Item
             \r2) View All Books
             \r3) Search Media Item
-            \r4) Media Item
+            \r4) Analyse Database
             \r5) Exit the Application ''') 
 
         # store a variable for the menu choice

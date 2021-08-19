@@ -3,7 +3,7 @@
     {% block main_block %}
 
     <header>
-        
+
         <h1>Flask with SQL</h1>
 
         {% block nav_block %}
@@ -51,7 +51,7 @@
    
 
         {% block btn_block %}
-            <button>Add</button>
+            <a class="goToForm" href="{{ url_for('main_form') }}" title="Add a new entry" aria-label="Add a new entry">Add</a>
         {% endblock %}
     </main>
 

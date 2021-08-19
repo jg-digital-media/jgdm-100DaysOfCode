@@ -1,7 +1,9 @@
-/*Sass.scss  -19-08-2021 */
+/*Sass.scss  -19-08-2021 - 14:41*/
 
 $col-nav-selected: black;
 $col-nav-link: white;
+
+$main-col-one: white;
 
 //extend button
 
@@ -9,6 +11,16 @@ $col-nav-link: white;
     width: 100px;
     display: block;
     margin: 0 auto;
+    padding: 10px;
+    background: #f0f075;
+    border: solid orange 1px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background: darken(#f0f075, 5%);
+    }
 
 }
 
@@ -24,15 +36,22 @@ body {
 header {
 
     width: 100%;
+    height: auto;
+    height: 80px;
     border-bottom: solid orange 3px;
 
     h1 {
         text-align: center;
+        color: $main-col-one;
     }
 
     nav {
 
+        text-align: center;
+
         ul {
+
+            list-style: none;
 
             li {
                 display: inline-block;
@@ -41,6 +60,11 @@ header {
 
             a {
                 color: $col-nav-link;
+                text-decoration: none;
+
+                &:hover {
+                    border-bottom: solid 2px $col-nav-selected;
+                }
             }
 
             .selected {
@@ -57,10 +81,16 @@ main {
     width: 480px;
 
     h1 {
-
+        color: red;
     }
 
     h2 {
+        color: $main-col-one;
+    }
+
+    h1, h2 {
+
+        text-align: center;
 
     }
 
@@ -68,18 +98,27 @@ main {
 
         display: block;
         margin: 0 auto;
-        width: 0%;
+        border: solid red 2px;
+        background: #f2cc86;
 
-        tr {
+        tbody {
 
-        }
+            tr {
 
-        td {
+            }
 
-        }
+            td {
+                width: 10%;
+                border: green 2px solid;
+            }
 
-        th {
+            th {
 
+                width: 10%;
+                border: blue 2px solid;
+                height: 30px;
+
+            }
         }
     }
 

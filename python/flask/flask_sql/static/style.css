@@ -1,8 +1,16 @@
-/*Sass.scss  -19-08-2021 */
+/*Sass.scss  -19-08-2021 - 14:41*/
 main button {
   width: 100px;
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 10px;
+  background: #f0f075;
+  border: solid orange 1px;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer; }
+  main button:hover {
+    background: #eeee5e; }
 
 * {
   padding: 0;
@@ -13,24 +21,48 @@ body {
 
 header {
   width: 100%;
+  height: auto;
+  height: 80px;
   border-bottom: solid orange 3px; }
   header h1 {
-    text-align: center; }
-  header nav ul li {
-    display: inline-block; }
-  header nav ul a {
+    text-align: center;
     color: white; }
-  header nav ul .selected {
-    border-bottom: solid 2px black; }
+  header nav {
+    text-align: center; }
+    header nav ul {
+      list-style: none; }
+      header nav ul li {
+        display: inline-block; }
+      header nav ul a {
+        color: white;
+        text-decoration: none; }
+        header nav ul a:hover {
+          border-bottom: solid 2px black; }
+      header nav ul .selected {
+        border-bottom: solid 2px black; }
 
 main {
   display: block;
   margin: 0 auto;
   width: 480px; }
+  main h1 {
+    color: red; }
+  main h2 {
+    color: white; }
+  main h1, main h2 {
+    text-align: center; }
   main table {
     display: block;
     margin: 0 auto;
-    width: 0%; }
+    border: solid red 2px;
+    background: #f2cc86; }
+    main table tbody td {
+      width: 10%;
+      border: green 2px solid; }
+    main table tbody th {
+      width: 10%;
+      border: blue 2px solid;
+      height: 30px; }
 
 footer {
   width: 100%;

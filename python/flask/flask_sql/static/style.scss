@@ -1,4 +1,4 @@
-/*Sass.scss  -19-08-2021 - 14:41*/
+/*Sass.scss  -19-08-2021 - 17:13*/
 
 $col-nav-selected: black;
 $col-nav-link: white;
@@ -9,7 +9,12 @@ $main-col-one: white;
 
 %add_btn {
     width: 100px;
-    display: block;
+    display: inline-block;
+    
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    
     margin: 0 auto;
     padding: 10px;
     background: #f0f075;
@@ -17,9 +22,14 @@ $main-col-one: white;
     border-radius: 10px;
     margin-top: 10px;
     cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
 
     &:hover {
         background: darken(#f0f075, 5%);
+    }
+
+    a {
     }
 
 }
@@ -122,7 +132,8 @@ main {
         }
     }
 
-    button {
+    button,
+    a.goToForm {
 
         @extend %add_btn;
 

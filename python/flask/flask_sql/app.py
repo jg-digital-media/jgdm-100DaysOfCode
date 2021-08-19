@@ -22,6 +22,12 @@ def two():
 def three():
 
     return render_template("three.html")
+
+
+@app.route('/form', methods=["GET", "POST"])
+def main_form():
+
+    return render_template("form.html")
     
 
 

@@ -14,6 +14,162 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
+### Day 73
+
+
+
+
+```html
+
+<!-- html python flask form -->
+
+<form action="{{ url_for('index') }}" method="POST">
+
+        <div class="form-container">
+
+            <label for ="name">Name: </label>
+
+            <input type="text" name="name" title="Form name" id="Form_name" aria-label="Form name" class="" placeholder="placeholder name" alt="form_name" />
+
+        </div>
+        
+        <div class="form-container">
+
+            <label for="age">Age: </label>
+            <input id="age" name="age" title="Form age" type="text" id="form_age" arial-label="Form age" class="" placeholder="placeholder age" alt="form_age" />
+
+        </div>        
+
+        <div class="form-container">
+
+            <label for="url"><i class="fas fa-camera"></i>URL: </label>
+
+            <input id="url" name="url" type="text" placeholder="placeholder url">
+
+        </div>
+
+        <fieldset>
+            <div>
+                <legend>Radio Buttons</legend>
+                <input id="yes" type="radio" name="radio_group" class="" aria-label="radio_group" value="Yes">
+                <i class="fas fa-check-circle"></i>
+
+                <label for="yes">Yes</label>
+                <input id="no" type="radio" name="radio_group" class="" aria-label="radio_group" value="No">
+                <i class="fas fa-check-circle"></i>
+
+                <label for="no">No</label>
+                <input id="unkown" type="radio" name="radio_group" class="" aria-label="radio_group" value="Unknown">
+                <i class="fas fa-check-circle"></i>
+                <label for="unknown">Unknown</label>
+            </div>
+        </fieldset>
+
+        <fieldset id="descr">
+            <div>
+                <legend>Description: </legend>
+
+                <label for="description"">Description</label>
+
+                <textarea name="description" id="description" cols="30" rows="10" placeholder="placeholder description.."></textarea>
+
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <div>
+                <legend>Checkbox Group</legend>
+                <input id="true" type="checkbox" name="checkbox_group" value="Yes">
+                <i class="fas fa-check-circle"></i>
+                <label for="true">Yes</label>
+                <input id="false" type="checkbox" name="checkbox_group" value="No">
+                <i class="fas fa-check-circle"></i>
+                <label for="false">No</label>
+                <input id="na" type="checkbox" name="checkbox_group" value="Unknown">
+                <i class="fas fa-check-circle"></i>
+                <label for="na">Unknown</label>
+            </div>
+        </fieldset>
+
+        <!-- 2 text fields -->
+
+
+
+        <div id="form-buttons">
+
+            <button type="reset">Cancel</button>            
+            <button type="submit">Submit</button>
+        
+        </div>
+
+    </form>
+ 
+```
+
+
+
+```python
+
+from flask import Flask 
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return '''
+        <h1>Pet Adoption</h1>
+        <button>Add Pet</button>
+	'''
+    
+
+@app.route('/data')
+def data():
+    return "This is the data page"
+
+if __name__ == '__main__':
+    app.run(debug=True, port=8000, host='127.0.0.1')
+```
+
+
+
+#### Templates
+
+
+
+```python
+def index():
+    return '''
+        <h1>Pet Adoption</h1>
+        <button>Add Pet</button>
+	'''
+```
+
+
+# import render template for html 
+flask import Flask, render_template
+
+
+# look for templates folder and display the index.html template
+
+```python
+def index():
+    return render_template("index.html")
+```
+
+How do embed assets... it's not as simple as referencing the file in regular HTML
+use for embedding assets  static folder in root directory
+
+
+```html
+    <script type="text/javascript" src="{{url_for('static', filename='app.js')}}"></script>
+```
+
+
+
+
+
+
 
 ### Day 72
 

@@ -12,9 +12,21 @@
 </head>
 <body>
 
-    <!-- content -->
 
-    <!-- end content -->
+    {% block main_block %}
+
+
+        {% block btn_block %}
+
+        {% endblock %}    
+
+
+    {% endblock %}
+
+    <footer>
+        <p>Flask with SQL by JGDM</p>
+    </footer>
+
 
     <script type="text/javascript" src="{{url_for('static', filename='app.js')}}"></script>
     

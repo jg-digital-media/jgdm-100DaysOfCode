@@ -1,29 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% extends "main.html" %}
 
-
-    <title>Flask with SQL</title>
-
-    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
-</head>
-<body>
+    {% block main_block %}
 
     <header>
+        
         <h1>Flask with SQL</h1>
 
+        {% block nav_block %}
         <nav>
             <ul>
-                <li><a href="#" class="selected" >One</a></li>
+                <li><a href="/" class="selected" >One</a></li>
                 <li><a href="/two">Two</a></li>
                 <li><a href="/three">Three</a></li>
             </ul>
         </nav>
-    </header>
+        {% endblock %}
 
+    </header>
+    
     <main>
         <h2>Data Table</h2>
 
@@ -54,15 +48,11 @@
             </tr>
         </table>
 
-        <button>Add</button>
+   
+
+        {% block btn_block %}
+            <button>Add</button>
+        {% endblock %}
     </main>
 
-    <footer>
-        <p>Flask with SQL by JGDM</p>
-    </footer>
-
-
-    <script type="text/javascript" src="{{url_for('static', filename='app.js')}}"></script>
-    
-</body>
-</html>
+    {% endblock %}

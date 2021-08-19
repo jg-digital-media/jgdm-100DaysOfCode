@@ -11,6 +11,20 @@ def index():
     
 
 
+@app.route('/two')
+def two():
+
+    return render_template("two.html")
+    
+
+
+@app.route('/three')
+def three():
+
+    return render_template("three.html")
+    
+
+
 @app.route('/data')
 def data():
     return "This is the data page"

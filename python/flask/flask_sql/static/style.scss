@@ -1,5 +1,17 @@
 /*Sass.scss  -19-08-2021 */
 
+$col-nav-selected: black;
+$col-nav-link: white;
+
+//extend button
+
+%add_btn {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -7,4 +19,88 @@
 
 body {
     background: darkseagreen;
+}
+
+header {
+
+    width: 100%;
+    border-bottom: solid orange 3px;
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+
+        ul {
+
+            li {
+                display: inline-block;
+
+            }
+
+            a {
+                color: $col-nav-link;
+            }
+
+            .selected {
+                border-bottom: solid 2px $col-nav-selected;
+            }
+        }
+    }
+}
+
+main {
+
+    display: block;
+    margin: 0 auto;
+    width: 480px;
+
+    h1 {
+
+    }
+
+    h2 {
+
+    }
+
+    table {
+
+        display: block;
+        margin: 0 auto;
+        width: 0%;
+
+        tr {
+
+        }
+
+        td {
+
+        }
+
+        th {
+
+        }
+    }
+
+    button {
+
+        @extend %add_btn;
+
+    }
+}
+
+
+footer {
+
+    width: 100%;
+    margin-top: 14px;
+    
+    p {
+
+        font-size: 10px;
+        font-weight: bold;
+        text-align: center;
+
+    }
 }

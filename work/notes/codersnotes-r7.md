@@ -14,7 +14,7 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
-### Day 73
+### Day 74
 
 
 
@@ -69,7 +69,7 @@
             <div>
                 <legend>Description: </legend>
 
-                <label for="description"">Description</label>
+                <label for="description"></label>
 
                 <textarea name="description" id="description" cols="30" rows="10" placeholder="placeholder description.."></textarea>
 
@@ -92,7 +92,7 @@
             </div>
         </fieldset>
 
-        <!-- 2 text fields -->
+        <!-- TODO: finish up with 2 text fields -->
 
 
 

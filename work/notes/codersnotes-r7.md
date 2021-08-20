@@ -18,6 +18,48 @@
 
 
 
+```javascript
+
+//CHANGE VALUE OF THE TEXT OF AN ELEMENT 
+const btn_update = document.getElementById("update_btn");
+
+
+btn_update.addEventListener("click", function(){
+
+    
+    const get_heading = document.querySelector("h2");
+    const change_text = document.getElementById("js_change_text");
+    get_heading.textContent = change_text.value;
+    change_text.value = "";
+})
+
+```
+
+```html
+<body>
+
+    <header>
+        <h1>Customize Your List</h1>
+    </header>
+
+    <main>
+        <h2>DOM List Maker </h2>        
+        
+        <label for="main">What's your task?</label>
+        <input type="text" id="js_change_text" class="input-main">
+        <button id="update_btn" class="btn-main">Update Title</button>
+
+        <!--list -->
+
+
+    </main>
+
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
+```
+
 
 ```html
 

@@ -1,5 +1,10 @@
-/*Sass.scss  -19-08-2021 - 17:13*/
+/*
+*
+* Last Update:  20-08-2021 - 11:22
+*/
 
+
+//Config variables
 $col-nav-selected: black;
 $col-nav-link: white;
 
@@ -130,7 +135,57 @@ main {
 
             }
         }
+
+        
     }
+
+    
+    //main form        
+    form {
+        
+        .form-container {
+
+            label {
+                width: 80px;
+                display: inline-block;
+                height: 45px;
+            }
+
+            label + input {
+                height: 30px;    
+                border-radius: 5px;
+                padding: 0 15px;
+            }
+
+        }        
+
+        fieldset {
+
+            div {
+
+                label {
+                    width: 80px;
+                }
+
+
+                legend + input[type='radio'],
+                legend + input[type='checkbox'],
+                input[type='radio'],
+                input[type='checkbox'] {
+                    border: solid red 3px;
+                    height: 30px;
+                    vertical-align: middle;
+                }
+
+                legend {
+                    border: solid red 3px;
+                    height: 30px;
+                    vertical-align: top;
+                }
+            }
+        }
+    }
+
 
     button,
     a.goToForm {

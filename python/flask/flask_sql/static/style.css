@@ -1,4 +1,7 @@
-/*Sass.scss  -19-08-2021 - 17:13*/
+/*
+*
+* Last Update:  20-08-2021 - 11:22
+*/
 main button,
 main a.goToForm {
   width: 100px;
@@ -70,6 +73,27 @@ main {
       width: 10%;
       border: blue 2px solid;
       height: 30px; }
+  main form .form-container label {
+    width: 80px;
+    display: inline-block;
+    height: 45px; }
+  main form .form-container label + input {
+    height: 30px;
+    border-radius: 5px;
+    padding: 0 15px; }
+  main form fieldset div label {
+    width: 80px; }
+  main form fieldset div legend + input[type='radio'],
+  main form fieldset div legend + input[type='checkbox'],
+  main form fieldset div input[type='radio'],
+  main form fieldset div input[type='checkbox'] {
+    border: solid red 3px;
+    height: 30px;
+    vertical-align: middle; }
+  main form fieldset div legend {
+    border: solid red 3px;
+    height: 30px;
+    vertical-align: top; }
 
 footer {
   width: 100%;

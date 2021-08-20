@@ -5,10 +5,16 @@
 
 
 //Config variables
-$col-nav-selected: black;
-$col-nav-link: white;
+$main-col-nav-selected: black;
+$main-col-nav: #000000;
 
 $main-col-one: white;
+$main-col-two: #000000;
+
+//Fonts
+$font-main: arial;
+$font-main-one: arial;
+$font-main-two: tyrone;
 
 //extend button
 
@@ -16,12 +22,12 @@ $main-col-one: white;
     width: 100px;
     display: inline-block;
     
-    color: black;
+    color: $main-col-two;
     font-size: 12px;
     text-decoration: none;
     
     margin: 0 auto;
-    padding: 10px;
+    padding: 10px 0px;
     background: #f0f075;
     border: solid orange 1px;
     border-radius: 10px;
@@ -46,6 +52,7 @@ $main-col-one: white;
 
 body {
     background: darkseagreen;
+    font-family: $font-main-one;
 }
 
 header {
@@ -53,11 +60,12 @@ header {
     width: 100%;
     height: auto;
     height: 80px;
-    border-bottom: solid orange 3px;
+    
+    color: $main-col-one;
+    color: $main-col-two;
 
     h1 {
         text-align: center;
-        color: $main-col-one;
     }
 
     nav {
@@ -74,16 +82,16 @@ header {
             }
 
             a {
-                color: $col-nav-link;
+                color: $main-col-nav;
                 text-decoration: none;
 
                 &:hover {
-                    border-bottom: solid 2px $col-nav-selected;
+                    border-bottom: solid 2px $main-col-nav-selected;
                 }
             }
 
             .selected {
-                border-bottom: solid 2px $col-nav-selected;
+                border-bottom: solid 2px $main-col-nav-selected;
             }
         }
     }
@@ -94,19 +102,16 @@ main {
     display: block;
     margin: 0 auto;
     width: 480px;
+    
 
-    h1 {
-        color: red;
-    }
-
-    h2 {
-        color: $main-col-one;
-    }
-
-    h1, h2 {
-
+    h1, h2 {        
+        color: $main-col-two;
         text-align: center;
 
+    }
+
+    p {
+        color: $main-col-two;
     }
 
     table {
@@ -115,6 +120,7 @@ main {
         margin: 0 auto;
         border: solid red 2px;
         background: #f2cc86;
+        color: $main-col-two;
 
         tbody {
 
@@ -200,6 +206,7 @@ footer {
 
     width: 100%;
     margin-top: 14px;
+    color: $main-col-two;
     
     p {
 

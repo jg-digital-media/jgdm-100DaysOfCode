@@ -6,11 +6,11 @@ main button,
 main a.goToForm {
   width: 100px;
   display: inline-block;
-  color: black;
+  color: #000000;
   font-size: 12px;
   text-decoration: none;
   margin: 0 auto;
-  padding: 10px;
+  padding: 10px 0px;
   background: #f0f075;
   border: solid orange 1px;
   border-radius: 10px;
@@ -27,16 +27,17 @@ main a.goToForm {
   margin: 0; }
 
 body {
-  background: darkseagreen; }
+  background: darkseagreen;
+  font-family: arial; }
 
 header {
   width: 100%;
   height: auto;
   height: 80px;
-  border-bottom: solid orange 3px; }
+  color: white;
+  color: #000000; }
   header h1 {
-    text-align: center;
-    color: white; }
+    text-align: center; }
   header nav {
     text-align: center; }
     header nav ul {
@@ -44,7 +45,7 @@ header {
       header nav ul li {
         display: inline-block; }
       header nav ul a {
-        color: white;
+        color: #000000;
         text-decoration: none; }
         header nav ul a:hover {
           border-bottom: solid 2px black; }
@@ -55,17 +56,17 @@ main {
   display: block;
   margin: 0 auto;
   width: 480px; }
-  main h1 {
-    color: red; }
-  main h2 {
-    color: white; }
   main h1, main h2 {
+    color: #000000;
     text-align: center; }
+  main p {
+    color: #000000; }
   main table {
     display: block;
     margin: 0 auto;
     border: solid red 2px;
-    background: #f2cc86; }
+    background: #f2cc86;
+    color: #000000; }
     main table tbody td {
       width: 10%;
       border: green 2px solid; }
@@ -97,7 +98,8 @@ main {
 
 footer {
   width: 100%;
-  margin-top: 14px; }
+  margin-top: 14px;
+  color: #000000; }
   footer p {
     font-size: 10px;
     font-weight: bold;

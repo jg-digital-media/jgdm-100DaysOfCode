@@ -15,7 +15,65 @@
 + Gulp and Grunt compilers
 
 
-### Day 75
+### Day 76
+
+```html
+
+ <button class="btn-toggle"></button>
+```
+
+```javascript
+
+
+const btnToggle = document.querySelector('.btn-toggle');
+
+
+
+// e.g. Toggle display of an element based on a button click
+btnToggle.addEventListener('click', () => {
+
+    const listContainer = document.querySelector('.list-container');
+    const btnText = document.querySelector('.btn-text');
+
+    if( listContainer.style.display == "block") {
+        listContainer.style.display = 'none';
+        btnText.textContent = "Show List"        
+        
+    } else if (listContainer.style.display == "none") {
+        //listContainer.style.display == "block";   
+        listContainer.removeAttribute('style');     
+        btnText.textContent = "Show List"     
+        
+    }
+
+});
+
+
+```
+
+```javascript
+
+
+// Create a new dom element with document.createElement -
+// It is NOT yet added to the DOM
+const btnCreate = document.querySelector('.btn-main');
+const btnToggle = document.querySelector('.btn-toggle');
+
+btnCreate.addEventListener("click", () => {
+    const input = document.querySelector('.input-main');
+    const item = document.createElement('li');
+
+    
+    # get text content from input element
+
+    item.textContent = input.value;
+    console.log(item);
+    input.value = '';
+
+});
+
+```
+
 
 ### Day 74
 

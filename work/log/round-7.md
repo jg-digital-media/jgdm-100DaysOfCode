@@ -1,10 +1,20 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 75 of 100. **Last Update:** 23 August 2021
+## **Status:** Day 76 of 100. **Last Update:** 24 August 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+
+## RD7D76: Tuesday 24 August 2021
+
++ **Notes** 
+
+  + Just published my latest blog, starting my series on building a website with Flask and SQLAlchemy.  New photography updates also went online earlier today.
+
+  + **Technologies used** - HTML5, CSS, Python, Flask, JavaScript
 
 
 

@@ -1,8 +1,12 @@
 
-const btn_update = document.getElementById("update_btn");
+// Select Elements
+const btnUpdate = document.getElementById("update_btn");
+const btnCreate = document.querySelector(".btn-create");
+const btnToggle = document.querySelector('.btn-toggle');
 
 
-btn_update.addEventListener("click", function(){
+// Update input text - agenda
+btnUpdate.addEventListener("click", function(){
 
     
     const get_heading = document.querySelector("h2");
@@ -12,30 +16,26 @@ btn_update.addEventListener("click", function(){
     change_text.value = "";
 })
 
-/*
 
-
-const btnCreate = document.querySelector('.btn-main');
-const btnToggle = document.querySelector('.btn-toggle');
-
-btnCreate.addEventListener("click", () => {
+// Create new task - at the top with prepend
+btnCreate.addEventListener('click', () => {
     const input = document.querySelector('.input-main');
-    const item = document.createElement('li');
-
-    
-    # get text content from input element
+    const list = document.querySelector('ul');      // parent node
+    const list_item = document.createElement('li'); // child node
 
     item.textContent = input.value;
-    console.log(item);
     input.value = '';
+    list.prepend(list_item);
+
 
 });
 
 
+// Toggle display of main
 btnToggle.addEventListener('click', () => {
 
-    const listContainer = document.querySelector('.list-container');
-    const btnText = document.querySelector('.btn-text');
+    let listContainer = document.querySelector('.list-container');
+    let btnText = document.querySelector('.btn-text');
 
     if( listContainer.style.display == "block") {
         listContainer.style.display = 'none';
@@ -50,4 +50,4 @@ btnToggle.addEventListener('click', () => {
 
 });
 
-*/ 
+/**/ 

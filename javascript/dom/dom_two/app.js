@@ -5,6 +5,9 @@ const btnCreate = document.querySelector(".btn-create");
 const btnToggle = document.querySelector('.btn-toggle');
 
 
+let listContainer = document.querySelector('.list-container');
+listContainer.style.display = "block";
+
 // Update input text - agenda
 btnUpdate.addEventListener("click", function(){
 
@@ -34,17 +37,17 @@ btnCreate.addEventListener('click', () => {
 // Toggle display of main
 btnToggle.addEventListener('click', () => {
 
-    let listContainer = document.querySelector('.list-container');
-    let btnText = document.querySelector('.btn-text');
 
-    if( listContainer.style.display == "block") {
+    if( listContainer.style.display === "block") {
+        console.log("click display: none")
         listContainer.style.display = 'none';
-        btnText.textContent = "Show List"        
+        btnToggle.textContent = "Hide List";        
         
-    } else if (listContainer.style.display == "none") {
-        //listContainer.style.display == "block";   
-        listContainer.removeAttribute('style');     
-        btnText.textContent = "Show List"     
+    } else if (listContainer.style.display === "none") {
+        console.log("click display: block")
+        //listContainer.style.display == "block"; 
+        listContainer.style.display = "block";
+        btnToggle.textContent = "Show List";     
         
     }
 

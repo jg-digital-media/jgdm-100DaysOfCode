@@ -22,12 +22,11 @@ btnUpdate.addEventListener("click", function(){
 
 // Create new task - at the top with prepend
 btnCreate.addEventListener('click', () => {
-    const input = document.querySelector('.input-main');
+    const input = document.querySelector('#add-new-text');
     const list = document.querySelector('ul');      // parent node
     const list_item = document.createElement('li'); // child node
 
-    item.textContent = input.value;
-    input.value = '';
+    list_item.textContent = input.value;
     list.prepend(list_item);
 
 

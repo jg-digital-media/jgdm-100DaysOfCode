@@ -35,6 +35,7 @@ btnCreate.addEventListener('click', () => {
 });
 
 
+// Remove last item - from bottom of the list
 btnRemove.addEventListener('click', () => {
     console.log("remove task button clicked");
 
@@ -43,6 +44,8 @@ btnRemove.addEventListener('click', () => {
     lastItem.removeChild();
 });
 
+
+// Remove first item - from top of the list
 btnRemoveTop.addEventListener('click', () => {
     console.log("remove task button clicked");
 

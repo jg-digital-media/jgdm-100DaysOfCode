@@ -1,10 +1,20 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 76 of 100. **Last Update:** 24 August 2021
+## **Status:** Day 77 of 100. **Last Update:** 25 August 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+
+## RD7D77: Wednesday 25 August 2021
+
++ **Notes** 
+
+  + Practicing my DOM Scripting with JavaScript making a new to do app.  Basics of adding and removing items added. more to be done.
+
+  + **Technologies used** - HTML5, CSS, Python, Flask, JavaScript
 
 
 

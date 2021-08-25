@@ -4,4 +4,12 @@
 .list-container {
   display: block; }
 
+main label {
+  margin-top: 20px;
+  display: block; }
+main input#add-new-text {
+  padding: 5px 5px;
+  background: lightblue;
+  border-radius: 5px; }
+
 /*# sourceMappingURL=style.css.map */

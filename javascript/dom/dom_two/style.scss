@@ -5,3 +5,18 @@
 .list-container {
     display: block;
 }
+
+main {
+
+    
+    label {
+        margin-top: 20px;
+        display: block;
+    }
+
+    input#add-new-text {
+        padding: 5px 5px;
+        background: lightblue;
+        border-radius: 5px;
+    }
+}

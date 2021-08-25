@@ -2,6 +2,8 @@
 // Select Elements
 const btnUpdate = document.getElementById("update_btn");
 const btnCreate = document.querySelector(".btn-create");
+const btnRemove = document.querySelector(".btn-remove");
+const btnRemoveTop = document.querySelector(".btn-remove-top");
 const btnToggle = document.querySelector('.btn-toggle');
 
 
@@ -30,6 +32,23 @@ btnCreate.addEventListener('click', () => {
     list.prepend(list_item);
 
 
+});
+
+
+btnRemove.addEventListener('click', () => {
+    console.log("remove task button clicked");
+
+    lastItem = document.querySelector("li:last-child");
+    lastItem.remove();
+    lastItem.removeChild();
+});
+
+btnRemoveTop.addEventListener('click', () => {
+    console.log("remove task button clicked");
+
+    firstItem = document.querySelector("li:first-child");
+    firstItem.remove();
+    lastItem.removeChild();
 });
 
 

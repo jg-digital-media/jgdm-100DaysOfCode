@@ -5,7 +5,7 @@ const btnCreate = document.querySelector(".btn-create");
 const btnRemove = document.querySelector(".btn-remove");
 const btnRemoveTop = document.querySelector(".btn-remove-top");
 const btnToggle = document.querySelector('.btn-toggle');
-
+const mouseOverLi = document.getElementsByTagName('li')[0];
 
 let listContainer = document.querySelector('.list-container');
 listContainer.style.display = "block";
@@ -74,4 +74,18 @@ btnToggle.addEventListener('click', () => {
 
 });
 
-/**/ 
+// mouseover li event listener
+mouseOverLi.addEventListener("mouseover", () =>{
+    mouseOverLi.style.backgroundColor = "yellow";
+    mouseOverLi.style.textTransform = "uppercase";
+    //mouseOverLi.textContent.list_item.toUpperCase();
+}) 
+
+// mouseover li event listener
+mouseOverLi.addEventListener("mouseout", () =>{
+    mouseOverLi.style.backgroundColor = "white";
+    mouseOverLi.style.textTransform = "none";
+    mouseOverLi.style.none;
+    mouseOverLi.removeAttribute("style");
+    //mouseOverLi.textContent.toLocaleUpperCase();
+}) 

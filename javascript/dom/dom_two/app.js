@@ -5,7 +5,7 @@ const btnCreate = document.querySelector(".btn-create");
 const btnRemove = document.querySelector(".btn-remove");
 const btnRemoveTop = document.querySelector(".btn-remove-top");
 const btnToggle = document.querySelector('.btn-toggle');
-const mouseOverLi = document.getElementsByTagName('li')[0];
+const mouseOverLi = document.getElementsByTagName('li');
 
 let listContainer = document.querySelector('.list-container');
 listContainer.style.display = "block";
@@ -75,17 +75,39 @@ btnToggle.addEventListener('click', () => {
 });
 
 // mouseover li event listener
-mouseOverLi.addEventListener("mouseover", () =>{
+/* mouseOverLi.addEventListener("mouseover", () =>{
     mouseOverLi.style.backgroundColor = "yellow";
     mouseOverLi.style.textTransform = "uppercase";
-    //mouseOverLi.textContent.list_item.toUpperCase();
-}) 
+
+    //mouseOverLi.textContent. = mouseOverLi.toUpperCase();
+});  */
 
 // mouseover li event listener
-mouseOverLi.addEventListener("mouseout", () =>{
+/* mouseOverLi.addEventListener("mouseout", () =>{
     mouseOverLi.style.backgroundColor = "white";
     mouseOverLi.style.textTransform = "none";
     mouseOverLi.style.none;
     mouseOverLi.removeAttribute("style");
     //mouseOverLi.textContent.toLocaleUpperCase();
-}) 
+});
+ */
+
+/* // mouseover li event listener
+mouseOverLi.addEventListener('mouseover', () => {
+        mouseOverLi.textContent = mouseOverLi.textContent.toUpperCase();
+}); */
+
+// Mouseover looping
+for (let i=0; i<mouseOverLi.length; i++) {
+
+    mouseOverLi[i].addEventListener('mouseover', () => {     
+        mouseOverLi[i].style.backgroundColor = "yellow";
+        mouseOverLi[i].style.fontWeight = "bold";
+    });
+
+    mouseOverLi[i].addEventListener('mouseout', () => {
+        mouseOverLi[i].removeAttribute("style");
+    });
+}
+
+

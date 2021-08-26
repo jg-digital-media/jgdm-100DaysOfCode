@@ -16,37 +16,44 @@
         <h1>Customize Your List</h1>
     </header>
 
-    <main>
-        <h2>DOM List Maker </h2>        
+    <main>     
         
-        <label for="main">What's your agenda for today?</label>
-        <input type="text" id="js_change_text" class="input-main">
-        <button id="update_btn" class="btn-main">Update Title</button>
+        <div class="set-agenda">
+            <label for="agenda">What's your agenda for today?</label>
+            <input type="text" id="js_change_text" id="agenda" class="input-main">
+            <button id="update_btn" class="btn-main">Update Title</button>
+        </div>
+
+        
+        <h2>DOM List Maker </h2>   
 
         <!--list -->
 
         <hr />
 
-        <button class="btn-toggle">Show/Hide List</button>
+        <div class="main-list">
 
-        <label for="add-new-text">Add New Task: </label>
-        <input class="input-main" id="add-new-text" alt="Add New Task" title="Add New Task" />
+            <button class="btn-toggle">Show/Hide List</button>
 
-        <!-- list management buttons-->
-        <button class="btn-create">Add Task</button>
-        <button class="btn-remove">Remove last Task</button>
-        <button class="btn-remove-top">Remove from Top</button>
+            <label for="add-new-text">Add New Task: </label>
+            <input class="input-main" id="add-new-text" alt="Add New Task" title="Add New Task" />
 
-        <!-- div main container-->
+            <!-- list management buttons-->
+            <button class="btn-create">Add Task</button>
 
-        <div class="list-container">
+            <!-- div main container-->
 
-            <ul>
-                <li>Make coffee</li>
-                <li>Sort photos</li>
-                <li>Buy Milk</li>
-                <li>Cook dinner</li>
-            </ul>
+            <div class="list-container">
+
+                <ul>
+                    <li>Make coffee</li>
+                    <li>Sort photos</li>
+                    <li>Buy Milk</li>
+                    <li>Cook dinner</li>
+                    <li>Meet client</li>
+                </ul>
+
+            </div>
 
         </div>
 

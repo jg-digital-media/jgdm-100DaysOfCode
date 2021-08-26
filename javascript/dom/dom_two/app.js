@@ -2,10 +2,12 @@
 // Select Elements
 const btnUpdate = document.getElementById("update_btn");
 const btnCreate = document.querySelector(".btn-create");
-const btnRemove = document.querySelector(".btn-remove");
-const btnRemoveTop = document.querySelector(".btn-remove-top");
+////const btnRemove = document.querySelector(".btn-remove");
+//const btnRemoveTop = document.querySelector(".btn-remove-top");
 const btnToggle = document.querySelector('.btn-toggle');
 const mouseOverLi = document.getElementsByTagName('li');
+
+// main list dom selection
 let listContainer = document.querySelector('.list-container ul');
 const taskList = listContainer.children
 
@@ -67,27 +69,6 @@ btnCreate.addEventListener('click', () => {
 
 });
 
-
-// Remove last item - from bottom of the list
-btnRemove.addEventListener('click', () => {
-    console.log("remove task button clicked");
-
-    lastItem = document.querySelector("li:last-child");
-    //lastItem.remove();
-    lastItem.removeChild();
-});
-
-
-// Remove first item - from top of the list
-btnRemoveTop.addEventListener('click', () => {
-    console.log("remove task button clicked");
-
-    firstItem = document.querySelector("li:first-child");
-    //firstItem.remove();
-    lastItem.removeChild();
-});
-
-
 // Toggle display of main
 btnToggle.addEventListener('click', () => {
 
@@ -106,6 +87,57 @@ btnToggle.addEventListener('click', () => {
     }
 
 });
+
+
+
+listContainer.addEventListener('mouseover', (event) => {
+    //event.taskList[i].textContent = event.taskList[i].textContent.toUpperCase();
+
+    if( event.target.tagName === "LI") {
+        
+        event.target.style.fontWeight = "bold";    
+        event.target.style.width = "300px";      
+        //event.target.textContent = event.target.textContent.toUpperCase();
+}
+
+});
+
+
+listContainer.addEventListener('mouseout', (event) => {
+    //event.taskList[i].textContent = event.taskList[i].textContent.toUpperCase();
+
+    if( event.target.tagName === "LI") {
+        
+        
+        event.target.style.fontWeight = "normal";     
+        //event.target.textContent = event.target.textContent.toLowerCase();
+    }
+
+});
+
+
+
+
+/* // Remove last item - from bottom of the list
+btnRemove.addEventListener('click', () => {
+    console.log("remove task button clicked");
+
+    lastItem = document.querySelector("li:last-child");
+    //lastItem.remove();
+    lastItem.removeChild();
+});
+
+
+// Remove first item - from top of the list
+btnRemoveTop.addEventListener('click', () => {
+    console.log("remove task button clicked");
+
+    firstItem = document.querySelector("li:first-child");
+    //firstItem.remove();
+    lastItem.removeChild();
+}); */
+
+
 
 // mouseover li event listener
 
@@ -152,32 +184,6 @@ btnToggle.addEventListener('click', () => {
     });
 } */
 
-
-
-listContainer.addEventListener('mouseover', (event) => {
-    //event.taskList[i].textContent = event.taskList[i].textContent.toUpperCase();
-
-    if( event.target.tagName === "LI") {
-        
-        event.target.style.fontWeight = "bold";    
-        event.target.style.width = "300px";      
-        //event.target.textContent = event.target.textContent.toUpperCase();
-}
-
-});
-
-
-listContainer.addEventListener('mouseout', (event) => {
-    //event.taskList[i].textContent = event.taskList[i].textContent.toUpperCase();
-
-    if( event.target.tagName === "LI") {
-        
-        
-        event.target.style.fontWeight = "normal";     
-        //event.target.textContent = event.target.textContent.toLowerCase();
-    }
-
-});
 
 
 

@@ -106,7 +106,7 @@ btnToggle.addEventListener('click', () => {
 
 
  // Mouseover looping
- 
+
 /*for (let i=0; i<mouseOverLi.length; i++) {
 
     mouseOverLi[i].addEventListener('mouseover', () => {     
@@ -123,7 +123,10 @@ btnToggle.addEventListener('click', () => {
 
 listContainer.addEventListener('mouseover', (event) => {
     //event.taskList[i].textContent = event.taskList[i].textContent.toUpperCase();
-    event.target.textContent = event.target.textContent.toUpperCase();
+
+    if( event.target.tagName === "LI") {
+        event.target.textContent = event.target.textContent.toUpperCase();
+    }
 
 });
 

@@ -27,6 +27,15 @@ for (let i=0; i < taskList.length; i++) {
 }
 
 
+listContainer.addEventListener('click', (event) => {
+    if(event.target.tagName === "BUTTON") {
+        const button = event.target;
+        const li = button.parentNode;
+        li.remove();
+    }
+    
+});
+
 
 // Update input text - agenda
 btnUpdate.addEventListener("click", function(){
@@ -147,7 +156,7 @@ listContainer.addEventListener('mouseover', (event) => {
     if( event.target.tagName === "LI") {
         
         event.target.style.fontWeight = "bold";       
-        event.target.textContent = event.target.textContent.toUpperCase();
+        //event.target.textContent = event.target.textContent.toUpperCase();
 }
 
 });
@@ -160,7 +169,7 @@ listContainer.addEventListener('mouseout', (event) => {
         
         
         event.target.style.fontWeight = "normal";     
-        event.target.textContent = event.target.textContent.toLowerCase();
+        //event.target.textContent = event.target.textContent.toLowerCase();
     }
 
 });

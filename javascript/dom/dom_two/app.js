@@ -7,7 +7,7 @@ const btnRemoveTop = document.querySelector(".btn-remove-top");
 const btnToggle = document.querySelector('.btn-toggle');
 const mouseOverLi = document.getElementsByTagName('li');
 
-let listContainer = document.querySelector('.list-container');
+let listContainer = document.querySelector('.list-container ul');
 listContainer.style.display = "block";
 
 // Update input text - agenda
@@ -75,6 +75,7 @@ btnToggle.addEventListener('click', () => {
 });
 
 // mouseover li event listener
+
 /* mouseOverLi.addEventListener("mouseover", () =>{
     mouseOverLi.style.backgroundColor = "yellow";
     mouseOverLi.style.textTransform = "uppercase";
@@ -82,7 +83,10 @@ btnToggle.addEventListener('click', () => {
     //mouseOverLi.textContent. = mouseOverLi.toUpperCase();
 });  */
 
+
+
 // mouseover li event listener
+
 /* mouseOverLi.addEventListener("mouseout", () =>{
     mouseOverLi.style.backgroundColor = "white";
     mouseOverLi.style.textTransform = "none";
@@ -92,13 +96,18 @@ btnToggle.addEventListener('click', () => {
 });
  */
 
-/* // mouseover li event listener
-mouseOverLi.addEventListener('mouseover', () => {
+
+// mouseover li event listener
+
+/* mouseOverLi.addEventListener('mouseover', () => {
         mouseOverLi.textContent = mouseOverLi.textContent.toUpperCase();
 }); */
 
-// Mouseover looping
-for (let i=0; i<mouseOverLi.length; i++) {
+
+
+ // Mouseover looping
+ 
+/*for (let i=0; i<mouseOverLi.length; i++) {
 
     mouseOverLi[i].addEventListener('mouseover', () => {     
         mouseOverLi[i].style.backgroundColor = "yellow";
@@ -108,13 +117,23 @@ for (let i=0; i<mouseOverLi.length; i++) {
     mouseOverLi[i].addEventListener('mouseout', () => {
         mouseOverLi[i].removeAttribute("style");
     });
-}
+} */
 
 
 
-document.addEventListener('click', (event) => {
+listContainer.addEventListener('mouseover', (event) => {
+    //event.taskList[i].textContent = event.taskList[i].textContent.toUpperCase();
+    event.target.textContent = event.target.textContent.toUpperCase();
+
+});
+
+
+
+
+// Event Target on document - display to console
+/* document.addEventListener('click', (event) => {
     
     console.log(event.target);
     console.log(event);
 });
-
+ */

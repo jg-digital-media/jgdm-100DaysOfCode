@@ -125,7 +125,22 @@ listContainer.addEventListener('mouseover', (event) => {
     //event.taskList[i].textContent = event.taskList[i].textContent.toUpperCase();
 
     if( event.target.tagName === "LI") {
+        
+        event.target.style.fontWeight = "bold";       
         event.target.textContent = event.target.textContent.toUpperCase();
+}
+
+});
+
+
+listContainer.addEventListener('mouseout', (event) => {
+    //event.taskList[i].textContent = event.taskList[i].textContent.toUpperCase();
+
+    if( event.target.tagName === "LI") {
+        
+        
+        event.target.style.fontWeight = "normal";     
+        event.target.textContent = event.target.textContent.toLowerCase();
     }
 
 });

@@ -6,18 +6,26 @@ const btnRemove = document.querySelector(".btn-remove");
 const btnRemoveTop = document.querySelector(".btn-remove-top");
 const btnToggle = document.querySelector('.btn-toggle');
 const mouseOverLi = document.getElementsByTagName('li');
-
 let listContainer = document.querySelector('.list-container ul');
-listContainer.style.display = "block";
+const taskList = listContainer.children
 
+listContainer.style.display = "block";
+//console.log(taskList.length)
 
 // Create a new button element via JS
-function attachRemoveBtn() {
+function attachRemoveBtn(li) {
     let remove = document.createElement('button');
     remove.className = 'remove';
     remove.textContent = 'Remove';
     li.appendChild(remove);
 }
+
+
+
+for (let i=0; i < taskList.length; i++) {
+    attachRemoveBtn(taskList[i]);
+}
+
 
 
 // Update input text - agenda
@@ -39,7 +47,9 @@ btnCreate.addEventListener('click', () => {
     const list_item = document.createElement('li'); // child node
 
     list_item.textContent = input.value;
+    attachRemoveBtn(list_item);
     list.prepend(list_item);
+    input.value = "";
 
 
 });

@@ -15,7 +15,7 @@ listContainer.style.display = "block";
 // Create a new button element via JS
 function attachRemoveBtn(li) {
     let remove = document.createElement('button');
-    remove.className = 'remove';
+    remove.className = 'btn-remove';
     remove.textContent = 'Remove';
     li.appendChild(remove);
 }
@@ -46,6 +46,10 @@ btnUpdate.addEventListener("click", function(){
     const change_text = document.getElementById("js_change_text");
     get_heading.textContent = change_text.value;
     change_text.value = "";
+
+    if (change_text.value === "") {
+        get_heading.textContent = "My List!";
+    }
 })
 
 
@@ -69,7 +73,7 @@ btnRemove.addEventListener('click', () => {
     console.log("remove task button clicked");
 
     lastItem = document.querySelector("li:last-child");
-    lastItem.remove();
+    //lastItem.remove();
     lastItem.removeChild();
 });
 
@@ -79,7 +83,7 @@ btnRemoveTop.addEventListener('click', () => {
     console.log("remove task button clicked");
 
     firstItem = document.querySelector("li:first-child");
-    firstItem.remove();
+    //firstItem.remove();
     lastItem.removeChild();
 });
 
@@ -155,7 +159,8 @@ listContainer.addEventListener('mouseover', (event) => {
 
     if( event.target.tagName === "LI") {
         
-        event.target.style.fontWeight = "bold";       
+        event.target.style.fontWeight = "bold";    
+        event.target.style.width = "300px";      
         //event.target.textContent = event.target.textContent.toUpperCase();
 }
 

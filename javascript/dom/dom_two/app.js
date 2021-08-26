@@ -10,6 +10,16 @@ const mouseOverLi = document.getElementsByTagName('li');
 let listContainer = document.querySelector('.list-container ul');
 listContainer.style.display = "block";
 
+
+// Create a new button element via JS
+function attachRemoveBtn() {
+    let remove = document.createElement('button');
+    remove.className = 'remove';
+    remove.textContent = 'Remove';
+    li.appendChild(remove);
+}
+
+
 // Update input text - agenda
 btnUpdate.addEventListener("click", function(){
 

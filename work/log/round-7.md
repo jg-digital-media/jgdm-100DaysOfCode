@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 77 of 100. **Last Update:** 25 August 2021
+## **Status:** Day 78 of 100. **Last Update:** 26 August 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+## RD7D77: Thursday 26 August 2021
+
++ **Notes** 
+
+   + My latest creation is ready.  A new list creator with JavaScript DOM Scripting.
+
+   + **Technologies used** - HTML5, CSS, Python, Flask, JavaScript
 
 
 ## RD7D77: Wednesday 25 August 2021
@@ -17,7 +24,6 @@ ___
   + **Technologies used** - HTML5, CSS, Python, Flask, JavaScript
 
 
-
 ## RD7D76: Tuesday 24 August 2021
 
 + **Notes** 
@@ -25,7 +31,6 @@ ___
   + Just published my latest blog, starting my series on building a website with Flask and SQLAlchemy.  New photography updates also went online earlier today.
 
   + **Technologies used** - HTML5, CSS, Python, Flask, JavaScript
-
 
 
 ## RD7D75: Monday 23 August 2021
@@ -37,7 +42,6 @@ ___
   + **Technologies used** - HTML5, CSS, Python, Flask, JavaScript
 
 
-
 ## RD7D74: Friday 20 August 2021
 
 + **Notes** 
@@ -45,7 +49,6 @@ ___
   + JavaScript DOM Scripting and finishing up the new Flask website to get it ready for adding in SQLAlchemy
 
   + **Technologies used** - HTML5, CSS, Python, Flask, JavaScript
-
 
 
 ## RD7D73: Thursday 19 August 2021

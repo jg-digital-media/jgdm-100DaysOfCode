@@ -20,6 +20,16 @@ header {
 
     h1 {
         text-align: center;
+
+        .versioning {
+            font-size: 8px;
+            color: white;
+            display: inline-block;
+            padding: 4px;
+            background: #983838;
+            border-radius: 10px;
+            letter-spacing: 1px;
+        }
     }
 }
 

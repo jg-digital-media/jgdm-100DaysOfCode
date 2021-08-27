@@ -50,7 +50,6 @@ btnUpdate.addEventListener("click", function(){
     get_heading.className = "grow";
     const change_text = document.getElementById("js_change_text");
     get_heading.textContent = change_text.value;
-    change_text.value = "";
 
     if (change_text.value === "") {
         get_heading.textContent = "My List!";

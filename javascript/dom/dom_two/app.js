@@ -6,6 +6,9 @@ const btnCreate = document.querySelector(".btn-create");
 //const btnRemoveTop = document.querySelector(".btn-remove-top");
 const btnToggle = document.querySelector('.btn-toggle');
 const mouseOverLi = document.getElementsByTagName('li');
+const input = document.querySelector('#add-new-text');
+
+input.value = "Change Me!";
 
 // main list dom selection
 let listContainer = document.querySelector('.list-container ul');
@@ -57,19 +60,13 @@ btnUpdate.addEventListener("click", function(){
 
 // Create new task - at the top with prepend
 btnCreate.addEventListener('click', () => {
-    const input = document.querySelector('#add-new-text');
     const list = document.querySelector('ul');      // parent node
     const list_item = document.createElement('li'); // child node
 
     list_item.textContent = input.value;
     attachRemoveBtn(list_item);
     list.prepend(list_item);
-    input.value = "";
-
-    
-    if (input.value === "") {
-        list_tem.textContent = "Default Task:";
-    }
+    input.value = "Enter a New Task";
 
 
 });

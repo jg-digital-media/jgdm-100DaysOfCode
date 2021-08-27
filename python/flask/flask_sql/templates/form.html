@@ -1,8 +1,7 @@
 {% extends "main.html" %}
 
-    {% block main_block %}
 
-    <header>
+    {% block title_block %} title form {% endblock %}
         
         <h1>Flask with SQL</h1>
 
@@ -16,94 +15,92 @@
         </nav>
         {% endblock %}
 
-    </header>
 
-    <main>
-
-    <h2>Main Form</h2>
-
-    <form action="{{ url_for('index') }}" method="POST">
-
-        <div class="form-container">
-
-            <label for ="name">Name: </label>
-
-            <input type="text" name="name" title="Form name" id="Form_name" aria-label="Form name" class="" placeholder="placeholder name" alt="form_name" />
-
-        </div>
         
-        <div class="form-container">
+        {% block main_block %}
 
-            <label for="age">Age: </label>
-            <input id="age" name="age" title="Form age" type="text" id="form_age" arial-label="Form age" class="" placeholder="placeholder age" alt="form_age" />
+            <h2>Main Form</h2>
 
-        </div>        
+            <form action="{{ url_for('index') }}" method="POST">
 
-        <div class="form-container">
+                <div class="form-container">
 
-            <label for="url"><i class="fas fa-camera"></i>URL: </label>
+                    <label for ="name">Name: </label>
 
-            <input id="url" name="url" type="text" placeholder="placeholder url">
+                    <input type="text" name="name" title="Form name" id="Form_name" aria-label="Form name" class="" placeholder="placeholder name" alt="form_name" />
 
-        </div>
+                </div>
+                
+                <div class="form-container">
 
-        <fieldset>
-            <div>
-                <legend>Radio Buttons</legend>
-                <input id="yes" type="radio" name="radio_group" class="" aria-label="radio_group" value="Yes">
-                <i class="fas fa-check-circle"></i>
+                    <label for="age">Age: </label>
+                    <input id="age" name="age" title="Form age" type="text" id="form_age" arial-label="Form age" class="" placeholder="placeholder age" alt="form_age" />
 
-                <label for="yes">Yes</label>
-                <input id="no" type="radio" name="radio_group" class="" aria-label="radio_group" value="No">
-                <i class="fas fa-check-circle"></i>
+                </div>        
 
-                <label for="no">No</label>
-                <input id="unkown" type="radio" name="radio_group" class="" aria-label="radio_group" value="Unknown">
-                <i class="fas fa-check-circle"></i>
-                <label for="unknown">Unknown</label>
-            </div>
-        </fieldset>
+                <div class="form-container">
 
-        <fieldset id="descr">
-            <div>
-                <legend>Description: </legend>
+                    <label for="url"><i class="fas fa-camera"></i>URL: </label>
 
-                <label for="description"></label>
+                    <input id="url" name="url" type="text" placeholder="placeholder url">
 
-                <textarea name="description" id="description" cols="30" rows="10" placeholder="placeholder description.."></textarea>
+                </div>
 
-            </div>
+                <fieldset>
+                    <div>
+                        <legend>Radio Buttons</legend>
+                        <input id="yes" type="radio" name="radio_group" class="" aria-label="radio_group" value="Yes">
+                        <i class="fas fa-check-circle"></i>
 
-        </fieldset>
+                        <label for="yes">Yes</label>
+                        <input id="no" type="radio" name="radio_group" class="" aria-label="radio_group" value="No">
+                        <i class="fas fa-check-circle"></i>
 
-        <fieldset>
-            <div>
-                <legend>Checkbox Group</legend>
-                <input id="true" type="checkbox" name="checkbox_group" value="Yes">
-                <i class="fas fa-check-circle"></i>
-                <label for="true">Yes</label>
-                <input id="false" type="checkbox" name="checkbox_group" value="No">
-                <i class="fas fa-check-circle"></i>
-                <label for="false">No</label>
-                <input id="na" type="checkbox" name="checkbox_group" value="Unknown">
-                <i class="fas fa-check-circle"></i>
-                <label for="na">Unknown</label>
-            </div>
-        </fieldset>
+                        <label for="no">No</label>
+                        <input id="unkown" type="radio" name="radio_group" class="" aria-label="radio_group" value="Unknown">
+                        <i class="fas fa-check-circle"></i>
+                        <label for="unknown">Unknown</label>
+                    </div>
+                </fieldset>
 
-        <!-- TODO: finish up with 2 text fields -->
+                <fieldset id="descr">
+                    <div>
+                        <legend>Description: </legend>
+
+                        <label for="description"></label>
+
+                        <textarea name="description" id="description" cols="30" rows="10" placeholder="placeholder description.."></textarea>
+
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <div>
+                        <legend>Checkbox Group</legend>
+                        <input id="true" type="checkbox" name="checkbox_group" value="Yes">
+                        <i class="fas fa-check-circle"></i>
+                        <label for="true">Yes</label>
+                        <input id="false" type="checkbox" name="checkbox_group" value="No">
+                        <i class="fas fa-check-circle"></i>
+                        <label for="false">No</label>
+                        <input id="na" type="checkbox" name="checkbox_group" value="Unknown">
+                        <i class="fas fa-check-circle"></i>
+                        <label for="na">Unknown</label>
+                    </div>
+                </fieldset>
+
+                <!-- TODO: finish up with 2 text fields -->
 
 
 
-        <div id="form-buttons">
+                <div id="form-buttons">
 
-            <button type="reset">Cancel</button>            
-            <button type="submit">Submit</button>
-        
-        </div>
+                    <button type="reset">Cancel</button>            
+                    <button type="submit">Submit</button>
+                
+                </div>
 
-    </form>
-
-</main>
+            </form>
 
 {% endblock %}

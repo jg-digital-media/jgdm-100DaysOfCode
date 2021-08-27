@@ -1,12 +1,21 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 78 of 100. **Last Update:** 26 August 2021
+## **Status:** Day 79 of 100. **Last Update:** 27 August 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-## RD7D77: Thursday 26 August 2021
+## RD7D79: Friday 27 August 2021
+
++ **Notes** 
+
+   + In the second of a new series of blogs related to SQLAlchemy, I've expanded on the Flask installation to demonstrate how to render HTML templates and add unique content with Flasks content blocks. 
+
+   + **Technologies used** - HTML5, CSS, Python, Flask, JavaScript
+
+
+## RD7D78: Thursday 26 August 2021
 
 + **Notes** 
 

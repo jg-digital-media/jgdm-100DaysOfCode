@@ -12,16 +12,22 @@
 </head>
 <body>
 
+    <header>
+
+        <h1>Flask with SQL</h1>   
+
+        {% block nav_block %}  {% endblock %} 
+
+    <main>
 
     {% block main_block %}
+    
+    {% endblock %}        
 
-
-        {% block btn_block %}
-
-        {% endblock %}    
-
-
-    {% endblock %}
+    {% block btn_block %}  {% endblock %}
+      
+    
+</main>
 
     <footer>
         <p>Flask with SQL by JGDM</p>

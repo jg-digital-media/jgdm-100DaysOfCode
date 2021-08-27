@@ -1,15 +1,9 @@
 {% extends "main.html" %}
 
 
-    {% block title_block %} title index {% endblock %}
+    {% block title_block %} title index {% endblock %}   
 
-    {% block main_block %} 
-
-    <header>
-
-        <h1>Flask with SQL</h1>
-
-        {% block nav_block %}
+    {% block nav_block %} 
         <nav>
             <ul>
                 <li><a href="/" class="selected" >One</a></li>
@@ -17,11 +11,9 @@
                 <li><a href="/three">Three</a></li>
             </ul>
         </nav>
-        {% endblock %}
+    {% endblock %}   
 
-    </header>
-    
-    <main>
+    {% block main_block %}
         <h2>Data Table - Roster</h2>
 
         <table>
@@ -50,12 +42,9 @@
                 <td>Data 5</td>
             </tr>
         </table>
-
+        {% endblock %}
    
 
         {% block btn_block %}
             <a class="goToForm" href="{{ url_for('main_form') }}" title="Add a new entry" aria-label="Add a new entry">Add New Data</a>
         {% endblock %}
-    </main>
-
-    {% endblock %}

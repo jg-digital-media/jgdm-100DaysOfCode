@@ -52,7 +52,9 @@ btnUpdate.addEventListener("click", function(){
     get_heading.textContent = change_text.value;
 
     if (change_text.value === "") {
-        get_heading.textContent = "My List!";
+        get_heading.textContent = "My Task List!";
+    } else {
+        change_text.value="";
     }
 })
 

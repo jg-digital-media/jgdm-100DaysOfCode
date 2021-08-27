@@ -66,6 +66,11 @@ btnCreate.addEventListener('click', () => {
     list.prepend(list_item);
     input.value = "";
 
+    
+    if (input.value === "") {
+        list_tem.textContent = "Default Task:";
+    }
+
 
 });
 
@@ -76,13 +81,13 @@ btnToggle.addEventListener('click', () => {
     if( listContainer.style.display === "block") {
         console.log("click display: none")
         listContainer.style.display = 'none';
-        btnToggle.textContent = "Hide List";        
+        btnToggle.textContent = "Show List";        
         
     } else if (listContainer.style.display === "none") {
         console.log("click display: block")
         //listContainer.style.display == "block"; 
         listContainer.style.display = "block";
-        btnToggle.textContent = "Show List";     
+        btnToggle.textContent = "Hide List";     
         
     }
 

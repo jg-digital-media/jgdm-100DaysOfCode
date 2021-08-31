@@ -66,9 +66,11 @@ btnUpdate.addEventListener("click", function(){
         get_heading.textContent = "My Task List!";
     } else {
         change_text.value="";
+        //localStorage.setItem("title_input_update", JSON.stringify( get_heading ));
+        localStorage.setItem( "title_input_update",  get_heading.textContent );
     }
 
-    localStorage.setItem("title_input_update", title_update);
+    
 })
 
 

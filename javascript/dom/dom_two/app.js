@@ -15,14 +15,15 @@ input.value = "Change Me!";
 
 /* Store updated title in localhost  */
 function storeLastTitleUpdate() {
-    localStorage.getItem('title_input_update');
+    const updated_title = localStorage.getItem('title_input_update');
+    //return updated_title;
 }
 
 
 
 // Main List DOM selection
 let listContainer = document.querySelector('.list-container ul');
-const taskList = listContainer.children
+const taskList = listContainer.children;
 
 listContainer.style.display = "block";
 //console.log(taskList.length)
@@ -55,19 +56,27 @@ listContainer.addEventListener('click', (event) => {
 // Update input text - agenda
 btnUpdate.addEventListener("click", function(){
 
-    const title_update = storeLastTitleUpdate();
+    
     
     const get_heading = document.querySelector("h2");
+
     get_heading.className = "grow";
     const change_text = document.getElementById("js_change_text");
     get_heading.textContent = change_text.value;
+
+    /* Set local storage value - update list title */
+    localStorage.setItem( "title_input_update",  get_heading.textContent );
+    console.log( localStorage.getItem( "title_input_update" ) ); //log key value 
 
     if (change_text.value === "") {
         get_heading.textContent = "My Task List!";
     } else {
         change_text.value="";
+
+        /* Set local storage value - update list title */
         //localStorage.setItem("title_input_update", JSON.stringify( get_heading ));
-        localStorage.setItem( "title_input_update",  get_heading.textContent );
+        //localStorage.setItem( "title_input_update",  get_heading.textContent );
+        storeLastTitleUpdate();
     }
 
     

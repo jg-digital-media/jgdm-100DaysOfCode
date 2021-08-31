@@ -6,6 +6,16 @@ ___
 ___
 
 
+## RD7D80: Tuesday 31 August 2021
+
++ **Notes** 
+
+   + Photography website update was uploaded earlier and some work with localhost and getting the stored data to persist in the browser
+
+   + **Technologies used** - HTML5, CSS, Python, Flask, JavaScript
+
+
+
 ## RD7D79: Friday 27 August 2021
 
 + **Notes** 

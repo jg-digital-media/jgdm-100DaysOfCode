@@ -10,7 +10,17 @@ const input = document.querySelector('#add-new-text');
 
 input.value = "Change Me!";
 
-// main list dom selection
+
+// Application LocalStorage
+
+/* Store updated title in localhost  */
+function storeLastTitleUpdate() {
+    localStorage.getItem('title_input_update');
+}
+
+
+
+// Main List DOM selection
 let listContainer = document.querySelector('.list-container ul');
 const taskList = listContainer.children
 
@@ -45,6 +55,7 @@ listContainer.addEventListener('click', (event) => {
 // Update input text - agenda
 btnUpdate.addEventListener("click", function(){
 
+    const title_update = storeLastTitleUpdate();
     
     const get_heading = document.querySelector("h2");
     get_heading.className = "grow";
@@ -56,6 +67,8 @@ btnUpdate.addEventListener("click", function(){
     } else {
         change_text.value="";
     }
+
+    localStorage.setItem("title_input_update", title_update);
 })
 
 

@@ -29,11 +29,14 @@ def three():
 def main_form():
 
     if request.form:
-        print(request.form)
+        # print(request.form)
         # print(request.form['name'])
 
         # add new record
-        new_data = Roster(name=request.form['name'], age=request.form['age'], joined=request.form['joined'])
+        new_data = Roster(
+            name=request.form['name'], 
+            age=request.form['age']) 
+            # joined=request.form['joined'])
 
         db.session.add(new_data)
         db.session.commit()

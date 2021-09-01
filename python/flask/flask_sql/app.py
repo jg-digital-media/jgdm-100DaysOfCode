@@ -1,4 +1,4 @@
-from flask import (render_template, url_for, request)
+from flask import (render_template, url_for, request, redirect)
 
 
 # import Database schema from models.py
@@ -6,7 +6,6 @@ from models import db, Roster, app
 
 
 
-db.create_all()
 
 @app.route('/')
 def index():
@@ -29,6 +28,17 @@ def three():
 @app.route('/form', methods=["GET", "POST"])
 def main_form():
 
+    if request.form:
+        print(request.form)
+        # print(request.form['name'])
+
+        # add new record
+        new_data = Roster(name=request.form['name'], age=request.form['age'], joined=request.form['joined'])
+
+        db.session.add(new_data)
+        db.session.commit()
+        return redirect(url_for('index'))
+
     return render_template("form.html")    
 
 
@@ -39,5 +49,6 @@ def data():
 
 
 if __name__ == '__main__':
-
+    
+    db.create_all()
     app.run(debug=True, port=8000, host='127.0.0.1')

@@ -6,15 +6,15 @@ import datetime
 
 # Connect to SQLAlchemy
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db/roster.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///roster.db'
 db = SQLAlchemy(app)
 
 
 # Create Database Model - 3 fields + ID as primary key
 class Roster(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
+    id = db.Column(db.Integer(), primary_key=True)
     name = db.Column("Name", db.String(80), unique=True, nullable=False)
-    age = db.Column("Age", db.Integer(120), unique=True, nullable=False)
+    age = db.Column("Age", db.Integer, unique=True, nullable=False)
     joined = db.Column('Joined', db.DateTime, default=datetime.datetime.now)
 
     def __repr__(self):

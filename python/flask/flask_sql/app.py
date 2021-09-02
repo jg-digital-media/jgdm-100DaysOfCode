@@ -10,7 +10,9 @@ from models import db, Roster, app
 @app.route('/')
 def index():
 
-    return render_template("index.html")    
+
+    roster = Roster.query.all()
+    return render_template("index.html", roster=roster)    
 
 
 @app.route('/two')

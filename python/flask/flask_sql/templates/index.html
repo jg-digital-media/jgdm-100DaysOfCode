@@ -22,7 +22,18 @@
                 <th>Age:</th>
                 <th>Date:</th>
             </tr>
-            <tr>
+
+            {% for people in roster %}
+
+                <tr>
+                    <td>{{ people.name }}</td>
+                    <td>{{ people.age }}</td>
+                    <td>{{ people.joined }}</td>
+                </tr>
+
+            {% endfor %}
+
+            <!-- <tr>
                 <td>Data 1</td>
                 <td>Data 1</td>
                 <td>Data 3</td>
@@ -46,7 +57,7 @@
                 <td>Data 5</td>
                 <td>Data 5</td>
                 <td>Data 3</td>
-            </tr>
+            </tr> -->
         </table>
         {% endblock %}
    

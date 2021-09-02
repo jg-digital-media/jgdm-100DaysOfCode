@@ -1,5 +1,16 @@
 
 /* getItem() on local storage to hold list data */
+
+
+// # https://dev.to/michaelburrows/how-to-save-data-in-localstorage-using-javascript-994  - Dev To Example
+
+/*
+
+
+
+*/
+
+
 /* function getNewDataItems() {
   const store_list_data = localStorage.getItem('new_tasks');
   return [];

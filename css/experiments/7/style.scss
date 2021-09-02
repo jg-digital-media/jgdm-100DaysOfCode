@@ -1,0 +1,38 @@
+/*
+Sass: 02-09-2021: 14:00
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    #container {
+
+        h2 {
+            text-align: center;
+        }
+    
+
+        .main-video:empty{
+            width: 315px;
+            height: 250px; 
+            cursor: progress; 
+
+            border: solid red 3px;
+            background: 
+                linear-gradient(0.25turn, transparent, #fff, transparent),
+                linear-gradient(#eee, #eee),
+                radial-gradient(38px circle at 19px 19px, #eee 50%, transparent 51%),
+                linear-gradient(#eee, #eee);
+            background-repeat: no-repeat;
+        }
+
+        .main-video {
+            border: solid red 3px;
+        }
+    }
+
+}

@@ -8,16 +8,24 @@ const btnToggle = document.querySelector('.btn-toggle');
 const mouseOverLi = document.getElementsByTagName('li');
 const input = document.querySelector('#add-new-text');
 
+
+    
+const get_heading = document.querySelector("h2");
+
+if (localStorage.getItem('title_input_update') ) {
+    get_heading.textContent = localStorage.getItem('title_input_update');
+}
+
 input.value = "Change Me!";
 
 
 // Application LocalStorage
 
 /* Store updated title in localhost  */
-function storeLastTitleUpdate() {
+/* function storeLastTitleUpdate() {
     const updated_title = localStorage.getItem('title_input_update');
-    //return updated_title;
-}
+    return updated_title;
+} */
 
 
 
@@ -57,8 +65,6 @@ listContainer.addEventListener('click', (event) => {
 btnUpdate.addEventListener("click", function(){
 
     
-    
-    const get_heading = document.querySelector("h2");
 
     get_heading.className = "grow";
     const change_text = document.getElementById("js_change_text");
@@ -69,9 +75,10 @@ btnUpdate.addEventListener("click", function(){
     console.log( localStorage.getItem( "title_input_update" ) ); //log key value 
 
     if (change_text.value === "") {
-        get_heading.textContent = "My Task List!";
+        get_heading.textContent = "DOM List Maker";
     } else {
         change_text.value="";
+        //get_heading.textContent = change_text.innerHTML;
 
         /* Set local storage value - update list title */
         //localStorage.setItem("title_input_update", JSON.stringify( get_heading ));

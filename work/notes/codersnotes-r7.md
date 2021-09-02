@@ -15,7 +15,18 @@
 + Gulp and Grunt compilers
 
 
-### Day 81
+### Day 82
+
+```javascript
+
+//If localstorage exists display it for the given key value
+const get_heading = document.querySelector("h2");
+
+if (localStorage.getItem('title_input_update') ) {
+    get_heading.textContent = localStorage.getItem('title_input_update');
+}
+
+```
 
 
 

@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 81 of 100. **Last Update:** 01 September 2021
+## **Status:** Day 82 of 100. **Last Update:** 02 September 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+## RD7D82: Thursday 02 September 2021
+
++ **Notes** 
+
+   + Finally managed to localStorage to some work.  LocalStorage will persist (i.e. remember) the last title you give your list so you can make it your own. https://projects.jonniegrieve.co.uk/dom/  Give it a try and make it your own.  v.1.3
+
+   + **Technologies used** - HTML5, CSS, Python, Flask, JavaScript
 
 
 ## RD7D81: Wednesday 01 September 2021

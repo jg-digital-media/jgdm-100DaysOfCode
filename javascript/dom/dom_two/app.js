@@ -6,7 +6,7 @@ const btnCreate = document.querySelector(".btn-create");
 //const btnRemoveTop = document.querySelector(".btn-remove-top");
 const btnToggle = document.querySelector('.btn-toggle');
 const mouseOverLi = document.getElementsByTagName('li');
-const input = document.querySelector('#add-new-text');
+const addTextInput = document.querySelector('#add-new-text');
 
 
     
@@ -16,7 +16,7 @@ if (localStorage.getItem('title_input_update') ) {
     get_heading.textContent = localStorage.getItem('title_input_update');
 }
 
-input.value = "Change Me!";
+addTextInput.value = "Change Me!";
 
 
 // Application LocalStorage
@@ -95,10 +95,10 @@ btnCreate.addEventListener('click', () => {
     const list = document.querySelector('ul');      // parent node
     const list_item = document.createElement('li'); // child node
 
-    list_item.textContent = input.value;
+    list_item.textContent = addTextInput.value;
     attachRemoveBtn(list_item);
-    list.prepend(list_item);
-    input.value = "Enter a New Task";
+     addTelist.prepend(list_item);
+    addTextInput.value = "Enter a New Task";
 
 
 });

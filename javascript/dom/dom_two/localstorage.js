@@ -30,3 +30,20 @@
   localStorage.removeItem('new_tasks');
   recentSearchList.innerHTML = '';
 }); */
+
+
+/* initial list
+
+<div class="list-container">
+
+    <ul>
+        <li>Make coffee</li>
+        <li>Sort photos</li>
+        <li>Buy Milk</li>
+        <li>Cook dinner</li>
+        <li>Meet client</li>
+    </ul>
+
+</div>
+
+*/

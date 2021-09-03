@@ -95,9 +95,10 @@ btnCreate.addEventListener('click', () => {
     const list = document.querySelector('ul');      // parent node
     const list_item = document.createElement('li'); // child node
 
-    list_item.textContent = addTextInput.value;
+    list_item.textContent = addTextInput.value;    
+    list.prepend(list_item);
     attachRemoveBtn(list_item);
-     addTelist.prepend(list_item);
+    
     addTextInput.value = "Enter a New Task";
 
 

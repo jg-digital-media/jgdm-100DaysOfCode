@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 82 of 100. **Last Update:** 02 September 2021
+## **Status:** Day 83 of 100. **Last Update:** 03 September 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+## RD7D84: Friday 03 September 2021
+
++ **Notes** 
+
+   + Minor updates to the DOM list generator
+
+   + **Technologies used** - HTML5, CSS, Python, Flask, JavaScript
 
 ## RD7D82: Thursday 02 September 2021
 

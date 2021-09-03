@@ -1,5 +1,5 @@
 /**
-*   Last Update:  02-09-2021
+*   Last Update:  03-09-2021
 */
 main div.set-agenda button {
   background: #367bf2;
@@ -7,7 +7,8 @@ main div.set-agenda button {
   padding: 14px;
   text-align: center;
   width: 180px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  cursor: pointer; }
 
 main div.main-list .btn-toggle, main div.main-list .btn-create,
 main div.main-list .btn-remove,
@@ -17,17 +18,20 @@ main div.main-list .btn-remove-top {
   padding: 14px;
   text-align: center;
   width: 180px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  cursor: pointer; }
 
 main div.main-list .btn-toggle, main div.main-list .btn-create,
 main div.main-list .btn-remove,
 main div.main-list .btn-remove-top {
-  padding: 5px;
   background: red;
   color: white;
+  padding: 5px;
   text-align: center;
   width: 100px;
-  display: inline-block; }
+  display: inline-block;
+  border-radius: 10px;
+  cursor: pointer; }
 
 * {
   padding: 0;

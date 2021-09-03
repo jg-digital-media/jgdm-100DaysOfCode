@@ -45,17 +45,39 @@ body {
 
         .input_form {
             padding: 12px 5px;
-            margin: 10px 0;
             width: 300px;
             width: 100%;
             border-radius: 5px;
 
         }
-
-        .submit {
-            padding: 10px;
-            width: 150px;
-            width: 102%;
+        
+        .input_result {
+            color: red;
+            margin-bottom: 25px;
         }
+
+       
+    }
+
+
+    .btnShow {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        padding: 20px;
+        background: #c8f6b0;
+        font-style: inherit;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 12pt;
+
+    }
+
+    
+    .submit {
+        padding: 10px;
+        width: 150px;
+        width: 102%;
     }
 }

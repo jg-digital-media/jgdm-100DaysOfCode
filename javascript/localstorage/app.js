@@ -11,6 +11,7 @@ const two = document.querySelector(".two");
 const three = document.querySelector(".three");
 
 const mainForm = document.querySelector(".btnShow");
+const clearStorage = document.querySelector(".btnClear");
 
 mainForm.addEventListener('click', () => {
     
@@ -32,6 +33,20 @@ mainForm.addEventListener('click', () => {
     three.textContent = localStorage.getItem("input_3");
 
 });
+
+clearStorage.addEventListener("click", () => {
+
+    //Store text inputs
+    let getTextOne = input1.value;
+    let getTextTwo = input2.value;
+    let getTextThree = input3.value;
+
+
+
+    localStorage.removeItem("input_1");
+    localStorage.removeItem("input_2");
+    localStorage.removeItem("input_3");
+})
 
 //display localstorage values by default.
 one.textContent = localStorage.getItem("input_1");

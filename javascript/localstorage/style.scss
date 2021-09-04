@@ -59,11 +59,16 @@ body {
        
     }
 
+    .localstorage-form-buttons {
+        text-align: center;
+    }
 
-    .btnShow {
-        display: block;
+
+    .btnShow,
+    .btnClear {
+        display: inline-block;
         margin: 0 auto;
-        width: 80%;
+        width: 30%;
         padding: 20px;
         background: #c8f6b0;
         font-style: inherit;
@@ -71,6 +76,8 @@ body {
         font-weight: bold;
         letter-spacing: 1px;
         font-size: 12pt;
+
+        cursor: pointer;
 
     }
 

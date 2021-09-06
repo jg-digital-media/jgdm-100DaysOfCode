@@ -26,7 +26,7 @@
             {% for people in roster %}
 
                 <tr>
-                    <td>{{ people.name }}</td>
+                    <td> <a href="{{ url_for('two', id=people.id )}}">{{ people.name }} </a> </td>
                     <td>{{ people.age }}</td>
                     <td>{{ people.joined }}</td>
                 </tr>

@@ -48,9 +48,9 @@ def main_form():
 
 
 # single page route - returns data based on id
-@app.route('/info/<id>')
+@app.route('/single/<id>')
 def individual_data(id):
-    return render_template('info_page.html');
+    return render_template('single.html')
 
 
 @app.route('/data')

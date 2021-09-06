@@ -54,10 +54,6 @@ def single(id):
     return render_template('single.html', roster = roster)
 
 
-@app.route('/data')
-def data():
-    return "This is the data page"
-
 
 
 if __name__ == '__main__':

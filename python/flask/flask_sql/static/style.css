@@ -1,6 +1,6 @@
 /*
 *
-* Last Update:  02-09-2021 - 08:19
+* Last Update:  06-09-2021 - 12:07
 */
 main button,
 main a.goToForm {
@@ -70,6 +70,11 @@ main {
     main table tbody td {
       width: 10%;
       border: green 2px solid; }
+      main table tbody td a {
+        color: #a38b11;
+        text-decoration: none; }
+        main table tbody td a:hover {
+          color: #5f530e; }
     main table tbody th {
       width: 10%;
       border: blue 2px solid;

@@ -1,6 +1,6 @@
 /*
 *
-* Last Update:  02-09-2021 - 08:19
+* Last Update:  06-09-2021 - 12:07
 */
 
 
@@ -131,6 +131,14 @@ main {
             td {
                 width: 10%;
                 border: green 2px solid;
+
+                a {
+                    color: #a38b11;
+                    text-decoration: none;
+                    &:hover {
+                        color: #5f530e;
+                    }
+                }
             }
 
             th {

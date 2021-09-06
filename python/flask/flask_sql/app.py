@@ -47,6 +47,12 @@ def main_form():
     return render_template("form.html")    
 
 
+# single page route - returns data based on id
+@app.route('/info/<id>')
+def individual_data(id):
+    return render_template('info_page.html');
+
+
 @app.route('/data')
 def data():
     return "This is the data page"

@@ -50,7 +50,8 @@ def main_form():
 # single page route - returns data based on id
 @app.route('/single/<id>')
 def single(id):
-    return render_template('single.html')
+    roster = Roster.query.get(id)
+    return render_template('single.html', roster = roster)
 
 
 @app.route('/data')

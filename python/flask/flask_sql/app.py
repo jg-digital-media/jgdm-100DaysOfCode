@@ -68,6 +68,13 @@ def form_edit(id):
     return render_template('form-edit.html', roster = roster)
 
 
+# delete a record via a @route
+@app.route('/delete/<id>')
+def delete_record(id):
+    roster = Roster.query.get(id)
+    db.session.delete(roster)
+    db.session.commit()
+    return redirect(url_for('index'))
 
 
 if __name__ == '__main__':

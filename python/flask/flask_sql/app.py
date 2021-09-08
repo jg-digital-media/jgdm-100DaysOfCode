@@ -76,6 +76,13 @@ def delete_record(id):
     db.session.commit()
     return redirect(url_for('index'))
 
+# Error 404 Route
+@app.errorhandler(404)
+def not_found(error):
+    return render_template('404.html', msg=error), 404
+
+
+
 
 if __name__ == '__main__':
     

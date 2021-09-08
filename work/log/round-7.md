@@ -1,15 +1,24 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 85 of 100. **Last Update:** 06 September 2021
+## **Status:** Day 86 of 100. **Last Update:** 09 September 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+## RD7D86: Wednesday 09 September 2021
+
++ **Notes** 
+
+   + Managed to finish the website I'm building with Flask and SQLAlchemy that uses all four CRUD operations. Big step forward; it's a functional site. Needs some minor improvements. And more practice needed.
+
+   + **Technologies Used** - HTML5, CSS, Python, Flask, JavaScript, SQLAlchemy
+   
 
 ## RD7D85: Tuesday 07 September 2021
 
 + **Notes** 
 
-   + Weekly photography updated added earlier.  More work and study of SQLAlchemy. Gruelling and at times baffling day but I got stuff done in the end. 
+   + posted new blog 
 
    + **Technologies Used** - HTML5, CSS, Python, Flask, JavaScript, SQLAlchemy
    

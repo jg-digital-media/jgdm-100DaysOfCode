@@ -53,6 +53,12 @@ def single(id):
     roster = Roster.query.get(id)
     return render_template('single.html', roster = roster)
 
+# go to form route for editing!
+@app.route('/edit/<id>')
+def form_edit(id):
+    roster = Roster.query.get(id)
+    return render_template('form-edit.html', roster = roster)
+
 
 
 

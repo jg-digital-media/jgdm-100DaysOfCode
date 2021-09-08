@@ -48,15 +48,23 @@ def main_form():
 
 
 # single page route - returns data based on id
-@app.route('/single/<id>')
+@app.route('/single/<id>', methods=['GET'])
 def single(id):
     roster = Roster.query.get(id)
+
+   
     return render_template('single.html', roster = roster)
 
 # go to form route for editing!
-@app.route('/edit/<id>')
+@app.route('/edit/<id>', methods=['GET', 'POST'])
 def form_edit(id):
     roster = Roster.query.get(id)
+    if request.form:
+
+        roster.name = request.form["name"]  
+        roster.age = request.form["age"]
+        db.session.commit()
+        return redirect( url_for('index') )
     return render_template('form-edit.html', roster = roster)
 
 

@@ -43,7 +43,7 @@ def main_form():
         db.session.add(new_data)
         db.session.commit()
 
-        flash('New data was successfully added!')
+        # flash('New data was successfully added!')
         return redirect(url_for('index'))
 
     return render_template("form.html")    

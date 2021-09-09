@@ -1,9 +1,10 @@
 /*
 *
-* Last Update:  06-09-2021 - 12:07
+* Last Update:  09-09-2021 - 11:27
 */
 main button,
-main a.goToForm {
+main a.goToForm, main .edit-delete-block a.btn_edit,
+main .edit-delete-block a.btn_delete {
   width: 100px;
   display: inline-block;
   color: #000000;
@@ -19,7 +20,8 @@ main a.goToForm {
   text-align: center;
   text-transform: uppercase; }
   main button:hover,
-  main a.goToForm:hover {
+  main a.goToForm:hover, main .edit-delete-block a.btn_edit:hover,
+  main .edit-delete-block a.btn_delete:hover {
     background: #eeee5e; }
 
 * {

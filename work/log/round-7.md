@@ -1,11 +1,19 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 86 of 100. **Last Update:** 09 September 2021
+## **Status:** Day 87 of 100. **Last Update:** 09 September 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-## RD7D86: Wednesday 09 September 2021
+## RD7D87: Thursday 09 September 2021
+
++ **Notes** 
+
+   + Implemented some Flash messaging into the Flask site and made some other style updates. Almost ready to deploy my first dabble into a CRUD site with SQLAlchemy
+
+   + **Technologies Used** - HTML5, CSS, Python, Flask, JavaScript, SQLAlchemy
+
+## RD7D86: Wednesday 08 September 2021
 
 + **Notes** 
 

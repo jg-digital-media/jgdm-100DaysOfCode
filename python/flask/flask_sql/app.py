@@ -43,7 +43,7 @@ def main_form():
         db.session.add(new_data)
         db.session.commit()
 
-        # flash('New data was successfully added!')
+        flash('New data was successfully added!')
         return redirect(url_for('index'))
 
     return render_template("form.html")    
@@ -66,6 +66,8 @@ def form_edit(id):
         roster.name = request.form["name"]  
         roster.age = request.form["age"]
         db.session.commit()
+
+        flash("A new edit was successfully completed")
         return redirect( url_for('index') )
     return render_template('form-edit.html', roster = roster)
 
@@ -76,6 +78,9 @@ def delete_record(id):
     roster = Roster.query.get(id)
     db.session.delete(roster)
     db.session.commit()
+    
+
+    flash("The selected record was successfully deleted!")
     return redirect(url_for('index'))
 
 # Error 404 Route

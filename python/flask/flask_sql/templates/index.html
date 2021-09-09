@@ -16,6 +16,17 @@
     {% block main_block %}
         <h2>Data Table - Roster</h2>
 
+        <!-- Add flash messing-->
+        {% with messages = get_flashed_messages() %}  
+
+        {% if messages %}  
+            {% for message in messages %}  
+                <p class="success">{{ message }}</p>  
+            {% endfor %}  
+        {% endif %}  
+
+        {% endwith %}  
+
         <table>
             <tr>
                 <th>Name:</th>

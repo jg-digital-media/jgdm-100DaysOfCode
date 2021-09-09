@@ -7,6 +7,10 @@ import datetime
 # Connect to SQLAlchemy
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///roster.db'
+
+app.secret_key = "gggd465dfgghffhehshy"  # Secret key
+
+
 db = SQLAlchemy(app)
 
 

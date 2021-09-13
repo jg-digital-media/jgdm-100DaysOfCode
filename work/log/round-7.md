@@ -1,9 +1,21 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 87 of 100. **Last Update:** 09 September 2021
+## **Status:** Day 88 of 100. **Last Update:** 13 September 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+
+## RD7D88: Monday 13 September 2021
+
++ **Notes** 
+
+   + Worked on a visual my jQuery project. Plus earlier today Photography Updates and my latest blog went live. 
+
+   + **Technologies Used** - HTML5, CSS, Python, Flask, JavaScript, SQLAlchemy
+
+
 
 ## RD7D87: Thursday 09 September 2021
 

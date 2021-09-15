@@ -19,7 +19,7 @@ ___
 
 + **Notes** 
 
-   + Worked on a visual my jQuery project. Plus earlier today Photography Updates and my latest blog went live. 
+   + jQuery project given a visual update today.  Colour scheme largely the same but more of a tidy up for now but new logo and hover effects added.
 
    + **Technologies Used** - HTML5, CSS, Python, Flask, JavaScript, SQLAlchemy
 

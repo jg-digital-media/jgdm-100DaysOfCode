@@ -1,19 +1,33 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 89 of 100. **Last Update:** 14 September 2021
+## **Status:** Day 91 of 100. **Last Update:** 16 September 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+# R7D91: Thursday 16 September 2021
 
-## RD7D89: Tuesday 14 September 2021
+  +  In this last blog, we're going to run through a couple of final things that help make a website like this a little more user-friendly.  
+
+  + **Technologies Used** - HTML5, CSS, JavaScript
+
+## RD7D90: Wednesday 15 September 2021
 
 + **Notes** 
 
    +  Working on 2 new projects today, including running the rule on a new client collaboration which if agreed is going to be an exciting job to work on.
 
-   + **Technologies Used** - HTML5, CSS,  JavaScript
+   + **Technologies Used** - HTML5, CSS, JavaScript
+
+
+## R7D89: Tuesday 14 September 2021
+
+
+   + jQuery project given a visual update today.  Colour scheme largely the same but more of a tidy up for now but new logo and hover effects added. 
+
+   + **Technologies Used** - HTML5, CSS, Python, Flask, JavaScript, SQLAlchemy
+
 
 ## RD7D88: Monday 13 September 2021
 

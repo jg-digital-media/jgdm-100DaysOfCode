@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 91 of 100. **Last Update:** 16 September 2021
+## **Status:** Day 92 of 100. **Last Update:** 17 September 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R7D92: Friday 17 September 2021
+
+  +   Mostly working on a new design brief today including the nuts and bolts of a responsive header
+
+  + **Technologies Used** - HTML5, CSS, JavaScript
 
 # R7D91: Thursday 16 September 2021
 

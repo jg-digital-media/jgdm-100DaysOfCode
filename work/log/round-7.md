@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 93 of 100. **Last Update:** 20 September 2021
+## **Status:** Day 94 of 100. **Last Update:** 21 September 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R7D94: Tuesday 21 September 2021
+
+  +   More design edits. 
+
+  + **Technologies Used** - HTML5, CSS, JavaScript
 
 # R7D93: Monday 20 September 2021
 

@@ -1,5 +1,7 @@
 console.log("using localstorage");
 
+
+//select input elements
 const input1 = document.getElementById("input_1");
 const input2 = document.getElementById("input_2");
 const input3 = document.getElementById("input_3");
@@ -13,6 +15,8 @@ const three = document.querySelector(".three");
 const mainForm = document.querySelector(".btnShow");
 const clearStorage = document.querySelector(".btnClear");
 
+
+//Add and remove local storage on button clicks
 mainForm.addEventListener('click', () => {
     
     //Store text inputs
@@ -36,17 +40,21 @@ mainForm.addEventListener('click', () => {
 
 clearStorage.addEventListener("click", () => {
 
-    //Store text inputs
-    let getTextOne = input1.value;
-    let getTextTwo = input2.value;
-    let getTextThree = input3.value;
-
-
-
+    //remove key value pairs
     localStorage.removeItem("input_1");
     localStorage.removeItem("input_2");
     localStorage.removeItem("input_3");
-})
+
+    //clear text values
+    one.textContent = "";
+    two.textContent = "";
+    three.textContent = "";
+
+    input1.value = "";
+    input2.value = "";
+    input3.value = "";
+
+});
 
 //display localstorage values by default.
 one.textContent = localStorage.getItem("input_1");

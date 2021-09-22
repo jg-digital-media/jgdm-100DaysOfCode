@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 94 of 100. **Last Update:** 21 September 2021
+## **Status:** Day 95 of 100. **Last Update:** 22 September 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R7D95: Wednesday 22 September 2021
+
+  +   For the past few days I've been working on a new design which is spawned from a project I created for University over a decade ago - Saltburn by the Sea which includes content from the Saltburn Arts association
+
+  + **Technologies Used** - HTML5, CSS, JavaScript
 
 # R7D94: Tuesday 21 September 2021
 

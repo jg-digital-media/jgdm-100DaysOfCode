@@ -149,11 +149,11 @@ Last Updated:   17th May 2021 - 14-28
 
                 //store form error messages.
 
-                filter_input( INPUT_GET, ‘name’, FILTER_SANITIZE_STRING );
-                filter_input( INPUT_GET, ‘email’, FILTER_SANITIZE_STRING );
-                filter_input( INPUT_GET, ‘your-url’, FILTER_SANITIZE_STRING );
-                filter_input( INPUT_GET, ‘message’, FILTER_SANITIZE_STRING );
-                filter_input( INPUT_GET, ‘subject’, FILTER_SANITIZE_STRING );
+                filter_input( INPUT_GET, 'name', FILTER_SANITIZE_STRING );
+                filter_input( INPUT_GET, 'email', FILTER_SANITIZE_STRING );
+                filter_input( INPUT_GET, 'your-url', FILTER_SANITIZE_STRING );
+                filter_input( INPUT_GET, 'message', FILTER_SANITIZE_STRING );
+                filter_input( INPUT_GET, 'subject', FILTER_SANITIZE_STRING );
 
                 if(isset($_POST["submit"]) && empty($name)
                  || empty($email) || empty($your_url)
@@ -164,6 +164,7 @@ Last Updated:   17th May 2021 - 14-28
                     echo '<div class="form-error">';
                     echo "<h1>Oh No! I'm sorry but there were form errors.  But it's an easy fix. See the messages below!</h1>";
                     
+
                     //Error message display.                    
                     if(empty($message)) {                     
                         echo "<p>" . $err_message = "Please give a brief message about your enquiry." . "</p>";
@@ -209,7 +210,7 @@ Last Updated:   17th May 2021 - 14-28
                 } else {
 
                     //Build email message
-                    $msg = "<h3>You have a received a new message from  " 
+                    $msg ="<h3>You have a received a new message from " 
                     . $_POST["name"] 
                     . " on Jonnie Grieve Digital Media (https://www.jonniegrieve.co.uk)</h3>";
 
@@ -245,7 +246,7 @@ Last Updated:   17th May 2021 - 14-28
                     $subject = "New email from JGDM Website";
                     $mailheaders = "MIME-Version: 1.0" . "\r\n";
                     $mailheaders .= "From: Jonnie Grieve Digital Media <www.jonniegrieve.co.uk>" . "\n";
-                    $mailheaders .= "Content-type:text/html; charset=utf-8" . "\r\n";
+                    $mailheaders .= "Content-type:text/html;charset=UTF-8" . "\r\n";
                     $mailheaders .= "Reply-To: " . $_POST["email"];
 
                     //get HTML headers
@@ -371,6 +372,8 @@ Last Updated:   17th May 2021 - 14-28
             </div>
 
         </article>
+
+    </main>
     
     <footer>
         <p>&copy; Jonnie Grieve Digital Media <?php echo date('Y') ?>. All Rights Reserved</p>

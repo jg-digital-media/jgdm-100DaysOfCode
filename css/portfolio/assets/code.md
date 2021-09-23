@@ -1,5 +1,7 @@
 # Code snippets for website
 
+html email  php 7 - https://netcorecloud.com/tutorials/sendmail-in-php-complete-guide/
+
 ### Featured Projects       
 
 

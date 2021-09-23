@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 95 of 100. **Last Update:** 22 September 2021
+## **Status:** Day 96 of 100. **Last Update:** 23 September 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R7D96: Thursday 23 September 2021
+
+  +  For the past week or so I've been working on a new design. It's here but not quite done, so think of this as a teaser. https://projects.jonniegrieve.co.uk/wau/
+
+  + **Technologies Used** - HTML5, CSS, JavaScript
 
 # R7D95: Wednesday 22 September 2021
 

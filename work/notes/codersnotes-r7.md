@@ -14,8 +14,11 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
-### Day 95
+### Day 96
 
+
+For the past week or so I've been working on a new design. It's here but not quite done, so think of this as a teaser.
+https://projects.jonniegrieve.co.uk/wau/
 
 
 ### Day 82

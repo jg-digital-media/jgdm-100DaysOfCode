@@ -1,0 +1,31 @@
+
+
+
+#container {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    border: solid block 2px;
+}
+
+#container div {
+        display: block;
+        position: sticky;
+        top: 0px;
+        left: 0px;
+        background: #ffa947;
+
+}
+
+
+@media screen and (max-width: 680px) {
+
+    #container {
+        width: 90%;
+    }
+
+    #container div {
+        width: 100%;
+    }
+
+}

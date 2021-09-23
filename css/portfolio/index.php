@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   30th June 2021 - 11:56
+Last Updated:   23rd September 2021 - 09:00
 Page:           index.php
 --->
 
@@ -530,7 +530,7 @@ window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){va
     
             <h3>Dyspra-xa-what now?</h3>
 
-            <p>I believe in being honest with customers about myself and my abilities to perform the service you want me to give you. So I want to talk to you about Dyspraxia. It is a little known neurological condition that affects sufferers in different ways. Approximately 2-5% of the UK population have Dyspraxia and the average classroom or workplace is likely to have at least one person with the condition.</p>
+            <p>I believe in being honest with customers about myself and my abilities to perform the service you want me to give you. So I want to talk to you about Dyspraxia. It is a little known neurological condition that affects people who have the condition in different ways. Approximately 2-5% of the UK population have Dyspraxia and the average classroom or workplace is likely to have at least one person with the condition.</p>
 
             <h3>So, what is Dyspraxia?</h3>            
 

@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   17th May 2021 - 14-28
+Last Updated:   23 September 2021 - 10:06
 --->
 
 <?php   
@@ -210,41 +210,33 @@ Last Updated:   17th May 2021 - 14-28
                 } else {
 
                     //Build email message
-                    $msg ="<h3>You have a received a new message from " 
+                    $msg .= "You have a received a new message from " 
                     . $_POST["name"] 
-                    . " on Jonnie Grieve Digital Media (https://www.jonniegrieve.co.uk)</h3>";
+                    . " on Jonnie Grieve Digital Media (<a href=\"https://www.jonniegrieve.co.uk\">https://www.jonniegrieve.co.uk)</a> \n\n\n";
 
-                    $msg .= "<hr />";
 
-                    $msg .="<h3>Message Contents</h3>";
+                    $msg .= "Message Contents" . "\n\n";
 
-                    $msg .= $_POST["message"];
+                    $msg .= $_POST["message"] . "\n\n";
 
-                    $msg .="<h3>Contact Details: </h3>";
+                    $msg .="Contact Details: \n\n";
+                    $msg .="Name: " . $_POST["name"] . "\n";
+                    $msg .="Email Address: " . $_POST["email"] . "\n";
+                    $msg .="Any URL: " . $_POST["your-url"] . "\n"; 
+                    $msg .="Subject: " . $_POST["subject"] . "\n";
+                    $msg .="Privacy Check Confirmation: " . $_POST["confirm"] . "\n";
 
-                    $msg .="<ul>";
-                    $msg .="<li>" . "<strong>Name:</strong> " . $_POST["name"] . "</li>";
-                    $msg .="<li>" . "<strong>Email Address:</strong> " . $_POST["email"] . "</li>";
-                    $msg .="<li>" . "<strong>Any URL:</strong> " . $_POST["your-url"] . "</li>"; 
-                    $msg .="<li>" . "<strong>Subject:</strong> " . $_POST["subject"] . "</li>";
-                    $msg .="<li>" . "<strong>Privacy Check Confirmation:</strong> " . $_POST["confirm"] . "</li>";
-                    $msg .="</ul>";
+                    $msg .= "\n\nDetails of Sender IP Address:\n\n";
 
-                    $msg .= "<h3>Details of Sender IP Address:</h3>";
-
-                    $msg .= "<ul>";
-
-                    $msg .= "<li><strong>The Email Server IP address is:</strong> " . $_SERVER['SERVER_ADDR'] . "</li>";
-                    $msg .= "<li><strong>The Public IP address is:</strong> " . $_SERVER['SERVER_ADDR'] . "</li>";
-                    $msg .= "<li><strong>The ipecho.com returned address is:</strong> " . $realIP . "</li>";
-                    $msg .= "<li><strong>The checkIP returned address is:</strong> " . $checkIP . "</li>";
-
-                    $msg .= "</ul>";
+                    $msg .= "The Email Server IP address is:  " . $_SERVER['SERVER_ADDR'] . "\n\n";
+                    $msg .= "The Public IP address is:  " . $_SERVER['SERVER_ADDR'] . "\n\n";
+                    $msg .= "The ipecho.com returned address is:  " . $realIP . "\n\n";
+                    $msg .= "The checkIP returned address is:  " . $checkIP . "\n\n";
 
                     //Send email
                     $recipient = "mail@jonniegrieve.co.uk";
                     $subject = "New email from JGDM Website";
-                    $mailheaders = "MIME-Version: 1.0" . "\r\n";
+                    $mailheaders = "MIME-Version: 1.0 \r\n";
                     $mailheaders .= "From: Jonnie Grieve Digital Media <www.jonniegrieve.co.uk>" . "\n";
                     $mailheaders .= "Content-type:text/html;charset=UTF-8" . "\r\n";
                     $mailheaders .= "Reply-To: " . $_POST["email"];

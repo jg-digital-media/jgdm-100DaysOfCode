@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAAA;;EAEE;AAEF,CAAE;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC",
-"sources": ["sass.scss"],
-"names": [],
-"file": "styles.scss"
-}

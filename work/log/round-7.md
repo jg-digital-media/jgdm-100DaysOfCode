@@ -6,6 +6,13 @@ ___
 ___
 
 
+
+# R7D97: Friday 24 September 2021
+
+  +  Mostly today just looking at my projects seeing what needed improving and resetting my WordPress setup.
+
+  + **Technologies Used** - HTML5, CSS, JavaScript
+
 # R7D96: Thursday 23 September 2021
 
   +  For the past week or so I've been working on a new design. It's here but not quite done, so think of this as a teaser. https://projects.jonniegrieve.co.uk/wau/

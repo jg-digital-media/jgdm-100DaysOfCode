@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 96 of 100. **Last Update:** 23 September 2021
+## **Status:** Day 98 of 100. **Last Update:** 27 September 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R7D98: Monday 27 September 2021
+
+  +  Good day today!  Updates to my photography page, a single page web design showcase page before later working on a client brief!
+
+  + **Technologies Used** - HTML5, CSS, Design
 
 # R7D97: Friday 24 September 2021
 

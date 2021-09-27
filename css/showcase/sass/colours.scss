@@ -6,42 +6,58 @@ $main-col: white;
 $header-col: #cff082;
 $header-bg: #080749;
 
+
+
 //Content Text Colours
 
 //one
 $border-col-one: #6b0caa;
-$text-col-one: lighten($border-col-one, 50%);
 $bg-one: #150552;
+$text-col-one: lighten($border-col-one, 50%);
 $bg-one-hover: lighten($bg-one, 10%);
 
 //two
 $border-col-two: blue;
-$text-col-two: lighten($border-col-two, 29%);
 $bg-two: blue;
+$text-col-two: lighten($border-col-two, 29%);
 $bg-two-hover: lighten($bg-two, 10%);
 
 //three
-$border-col-three: #f7973e;
-$text-col-three: lighten($border-col-three, 1%);
+$border-col-three: #e8862b;
 $bg-three: #fae56f;
+$text-col-three: lighten($border-col-three, 0%);
 $bg-three-hover: lighten($bg-three, 15%);
 
 //four
 $border-col-four: #310b8b;
-$text-col-four: lighten($border-col-four, 10%);
 $bg-four: #7c7eb8;
+$text-col-four: lighten($border-col-four, 10%);
 $bg-four-hover: lighten($bg-four, 15%);
 
 //five
 $border-col-five: #f7c65c;
-$text-col-five: lighten($border-col-five, 6%);
 $bg-five: #c96f20; //#f2994;
+$text-col-five: lighten($border-col-five, 6%);
 $bg-five-hover: lighten($bg-five, 5%);  //#f2994;
 
 //six
-$border-col-six: gray;
+$border-col-six: #ff8605;
+$bg-six: #edff76;
 $text-col-six: lighten($border-col-six, 10%);
-$bg-six: black;
 $bg-six-hover: lighten($bg-six, 10%);
+
+//seven
+$border-col-seven: #3b0741;
+$bg-seven: #1a083a;
+$text-col-seven: lighten($border-col-seven, 25%);
+$bg-seven-hover: lighten($bg-seven, 10%);
+
+
+//eight
+$border-col-eight: #06512d;
+$bg-eight: green;
+$text-col-eight: lighten($border-col-eight, 25%);
+$bg-eight-hover: lighten($bg-eight, 5%);
+
 
 ////

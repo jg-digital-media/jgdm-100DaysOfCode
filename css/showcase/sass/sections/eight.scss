@@ -1,5 +1,5 @@
-.parallax-six {
-    background: url("img/jgrieve.png");
+.parallax-eight {
+    background: url("img/praise_in_park.png");
 
      /* Set a specific height */
     height: 500px; 
@@ -16,17 +16,17 @@
 
 }
 
-.six  {      
+.eight {      
 
     div {
 
 		@extend %box-styling;
 
-      	@include div-styling($text-col-six, $border-col-six solid 2px, $bg-six);
+      	@include div-styling($text-col-eight, $border-col-eight solid 2px, $bg-eight);
         transition: transform .1s, background .2s;
 
         &:hover {
-            background: $bg-six-hover;
+            background: $bg-eight-hover;
             transform: scale(1.07);
             transition: transform .1s, background .2s;
         }
@@ -42,7 +42,7 @@
     }
 
     a {
-        color: $text-col-six;
+        color: $text-col-eight;
         text-decoration: none;
         &:hover {
             text-decoration: underline;

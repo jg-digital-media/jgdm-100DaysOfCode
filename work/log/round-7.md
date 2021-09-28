@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 98 of 100. **Last Update:** 27 September 2021
+## **Status:** Day 99 of 100. **Last Update:** 28 September 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R7D99: Tuesday 28 September 2021
+
+  +  Spent the day building out an initial design brief. Need to get rid of some bugs and then get to making it responsive before I present it.  A good technical challenge.
+
+  + **Technologies Used** - HTML5, CSS, Design
 
 # R7D98: Monday 27 September 2021
 

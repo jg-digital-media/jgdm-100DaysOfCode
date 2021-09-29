@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 7
 
-## **Status:** Day 99 of 100. **Last Update:** 28 September 2021
+## **Status:** Day 100 of 100. **Last Update:** 29 September 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R7D100: Wednesday 29 September 2021
+
+  +  Finishing off Round 7 finishing a client design  I finished a first draft edit of a client design and arranged a meeting to discuss design nuances tomorrow. Exciting times.  Round 8 begins tomorrow! 
+
+  + **Technologies Used** - HTML5, CSS, Design
 
 # R7D99: Tuesday 28 September 2021
 

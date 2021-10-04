@@ -1,12 +1,12 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 2 of 100. **Last Update:** 02 October 2021
+## **Status:** Day 3 of 100. **Last Update:** 04 October 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-# R8D3: Monday 02 October 2021
+# R8D3: Monday 04 October 2021
 
   +  Good busy start to Monday.   Worked on some landing pages, and general content updates. Later started building a new client brief
   

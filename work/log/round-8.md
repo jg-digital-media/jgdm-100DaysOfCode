@@ -6,6 +6,14 @@ ___
 ___
 
 
+
+# R8D4: Tuesday 05 October 2021
+
+  +  Devoted to client work today as I continue to build on a design brief. Made some good progress and work goes on. 
+  
+  + **Technologies Used** - HTML5, CSS, Design
+
+
 # R8D3: Monday 04 October 2021
 
   +  Good busy start to Monday.   Worked on some landing pages, and general content updates. Later started building a new client brief

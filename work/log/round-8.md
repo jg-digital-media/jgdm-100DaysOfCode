@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 3 of 100. **Last Update:** 04 October 2021
+## **Status:** Day 3 of 100. **Last Update:** 06 October 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R8D4: Wednesday 06 October 2021
+
+  +  See yesterday. Building out the markup in my client project. It's a big project and the SASS partial structure is evolving.
+  
+  + **Technologies Used** - HTML5, CSS, Design
 
 
 # R8D4: Tuesday 05 October 2021

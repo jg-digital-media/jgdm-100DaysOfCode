@@ -17,10 +17,33 @@
 
 
 
-### Day 3
+### Day 6
 
 
+SASS File Structure
 
+sass
+  + config
+    + breakpoints
+    + colours
+    + fonts
+    + utilities (d)
+      + extends (d)
+        + backgrounds
+        + banners
+        + buttons
+        + forms
+        + colours
+      + mixins (d)
+        + mixins
+        
+  + inc
+    + header
+    + footer
+  + pages
+    + page_one
+    + page_two
+  
 ### Day 1
 
 ```php 

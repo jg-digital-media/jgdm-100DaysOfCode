@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 8 of 100. **Last Update:** 11 October 2021
+## **Status:** Day 9 of 100. **Last Update:** 12 October 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+# R8D9: Tuesday 12 October 2021
+
+  +  Will soon be ready to present my latest work before hopeful approval. Need to add some Lightbox, jQuery and work out some bugs. A design I can't wait to unveil. 
+  
+  + **Technologies Used** - HTML5, CSS, Design
 
 
 # R8D8: Monday 11 October 2021

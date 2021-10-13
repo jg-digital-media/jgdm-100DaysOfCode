@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 9 of 100. **Last Update:** 12 October 2021
+## **Status:** Day 10 of 100. **Last Update:** 12 October 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+# R8D10: Wednesday 13 October 2021
+
+  +  First drafts now done... ready for feedback and further work if necessary. Looking forward to later converting the work to WordPress
+  
+  + **Technologies Used** - HTML5, CSS, Design
 
 
 # R8D9: Tuesday 12 October 2021

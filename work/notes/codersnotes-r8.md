@@ -15,9 +15,24 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
-### Day 9
+### Day 10
 
 
+``` data-lightbox="conference-support-images" data-title="Conference Support Image" ```
+
+
++ Conference LightboxImage Sizes - 
+
++ Creative IO placeholder logo wide - 800px 400px
+
++ creativeio - 450px by 350px
+
++ creativeio_icon - 35px 35px 
+
++ creative-io-square.png  - 350px 350px
+
+
+PMQ's unpacked 
 
 ### Day 6
 

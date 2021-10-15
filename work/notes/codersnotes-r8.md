@@ -16,7 +16,34 @@
 + Gulp and Grunt compilers
 
 
-### Day 11
+### Day 12
+
+```php
+<?php
+function wpb_adding_scripts() {
+ 
+wp_register_script('my_amazing_script', plugins_url('amazing_script.js', __FILE__), array('jquery'),'1.1', true);
+ 
+wp_enqueue_script('my_amazing_script');
+}
+  
+add_action( 'wp_enqueue_scripts', 'wpb_adding_scripts' );  
+?>
+```
+https://www.wpbeginner.com/wp-tutorials/how-to-properly-add-javascripts-and-styles-in-wordpress/
+
+
+```php
+<?php
+
+// enqueue Styles
+function wpb_adding_styles() {
+wp_register_style('my_stylesheet', plugins_url('my-stylesheet.css', __FILE__));
+wp_enqueue_style('my_stylesheet');
+}
+add_action( 'wp_enqueue_scripts', 'wpb_adding_styles' );  
+?>
+```
 
 
 

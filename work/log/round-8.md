@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 11 of 100. **Last Update:** 14 October 2021
+## **Status:** Day 12 of 100. **Last Update:** 15 October 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R8D12: Friday 15 October 2021
+
+  +  Spent the day hooking up a new WordPress installation. love watching a static design come to life as a WordPress them. And there's plenty of hard but exciting work ahead. 
+  + **Technologies Used** - HTML5, CSS, Design
 
 # R8D11: Thursday 14 October 2021
 

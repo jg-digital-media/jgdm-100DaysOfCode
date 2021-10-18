@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 12 of 100. **Last Update:** 15 October 2021
+## **Status:** Day 13 of 100. **Last Update:** 18 October 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R8D13: Monday 18 October 2021
+
+  +  Tough day!
+
+  + **Technologies Used** - HTML5, CSS, Design
 
 # R8D12: Friday 15 October 2021
 

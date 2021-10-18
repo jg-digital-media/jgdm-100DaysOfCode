@@ -15,6 +15,60 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
+### Day 13
+
+
+/*****
+ * 
+ * Enqueue Styles
+
+function enqueue_styles() {
+    wp_enqueue_style( 'style', get_stylesheet_uri() );
+    wp_enqueue_style( 'slick', get_template_directory_uri()  . "/assets/slick/slick.css", array (), '1.1', 'all' );       
+    wp_enqueue_style( 'slick-theme', get_template_directory_uri() . "/assets/slick/slick-theme.css", array () );
+    //wp_enqueue_style( 'lightbox', get_template_directory_uri() . "/assets/lightbox/lightbox.css", false, 1.1 );  
+}
+
+add_action( 'wp_enqueue_scripts', 'enqueue_styles' );  */
+
+
+/*****
+ * 
+ * Enqueue Scripts
+
+function wpb_adding_scripts() {
+ 
+    
+    wp_enqueue_script( 'jquery', get_template_directory_uri() . '/scripts/jquery.js', true);  
+    wp_enqueue_script( 'slick', get_template_directory_uri() . '/assets/slick/slick.js', array ( 'jquery' ), "1.1", true);      
+    wp_enqueue_script( 'lightbox', get_template_directory_uri() . '/scripts/lightbox.js', 1.1, true);    
+    wp_enqueue_script( 'app', get_template_directory_uri() . '/scripts/app.js', array ( 'jquery' ), 1.1, true);   
+}  
+
+add_action( 'wp_enqueue_scripts', 'wpb_adding_scripts' );  */
+
+
+/* ENQUEUE STYLES AND SCRIPTS */
+function add_theme_scripts() {
+    wp_enqueue_style( 'style', get_stylesheet_uri() );
+   
+    wp_enqueue_style( 'slick-css', get_stylesheet_uri() . '/assets/slick/slick.css', array(), '1.1', 'all' );   
+    wp_enqueue_style( 'slick-theme', get_stylesheet_uri() . '/assets/slick/slick-theme.css', array() );   
+   
+    wp_enqueue_script( 'jquery', get_template_directory_uri() .'/scripts/jquery.js', array(), '1.1', 'all' );
+    wp_enqueue_script( 'slick-js', get_template_directory_uri() .'/assets/slick/slick.js' );
+    wp_enqueue_script( 'lightbox', get_template_directory_uri() .'/scripts/lightbox.js' );
+    wp_enqueue_script( 'app', get_template_directory_uri() . '/scripts/app.js', array(), '1.1', 'jquery' );
+   
+      /*if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+        wp_enqueue_script( 'comment-reply' );
+      }*/
+  }
+
+
+/*HOOKS */
+add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
+
 
 ### Day 12
 

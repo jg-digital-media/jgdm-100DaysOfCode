@@ -15,6 +15,38 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
+
+
+### Day 14
+
+Applying Slick to WordPress - An Example  19-10-2021
+
+```php
+
+function add_theme_assets() {
+
+    // register styles
+    wp_register_style( 'slick-css', get_template_directory_uri() . '/assets/slick/slick.css' );   
+    wp_register_style( 'slick-theme', get_template_directory_uri() . '/assets/slick/slick-theme.css' ); 
+    wp_enqueue_style( 'style', get_stylesheet_uri() );     
+   
+    
+    //scripts
+    wp_enqueue_script( 'jquery', get_template_directory_uri() .'/scripts/jquery.js' );
+    wp_enqueue_script( 'jquery-min', get_template_directory_uri() .'/scripts/jquery-1.11.0.min.js' );
+    wp_enqueue_script( 'slick-min-js', get_template_directory_uri() .'/assets/slick/slick.min.js' );
+    // wp_enqueue_script( 'lightbox', get_template_directory_uri() .'/scripts/lightbox.js' );
+    wp_enqueue_script( 'app', get_template_directory_uri() . '/scripts/app.js' );
+    
+      /*if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+        wp_enqueue_script( 'comment-reply' );
+      }*/
+  }
+
+  add_action( 'wp_enqueue_scripts', 'add_theme_assets' );  
+
+```
+
 ### Day 13
 
 

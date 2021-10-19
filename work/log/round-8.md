@@ -1,10 +1,22 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 13 of 100. **Last Update:** 18 October 2021
+## **Status:** Day 14 of 100. **Last Update:** 19 October 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R8D14: Tuesday 19 October 2021
+
+  +  Progress made where yesterday there was none.  Hooked up the Slick carousels, the styling and main navigation as needed for a WordPress Theme.  Tomorrow a big part of the project starts with Custom Post Types. 
+
+  + **Technologies Used** - HTML5, CSS, Design
+
+# R8D13: Monday 18 October 2021
+
+  +  Tough day!
+
+  + **Technologies Used** - HTML5, CSS, Design
 
 # R8D13: Monday 18 October 2021
 

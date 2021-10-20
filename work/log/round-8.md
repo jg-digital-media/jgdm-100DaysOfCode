@@ -6,6 +6,12 @@ ___
 ___
 
 
+# R8D15: Wednesday 20 October 2021
+
+  +  Set up a custom post type for the blog aspect of my latest project, set up links to archive and author templates.  There is still so much work to be done.
+
+  + **Technologies Used** - HTML5, CSS, Design
+
 # R8D14: Tuesday 19 October 2021
 
   +  Progress made where yesterday there was none.  Hooked up the Slick carousels, the styling and main navigation as needed for a WordPress Theme.  Tomorrow a big part of the project starts with Custom Post Types. 

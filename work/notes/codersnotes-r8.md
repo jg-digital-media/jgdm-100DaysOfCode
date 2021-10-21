@@ -17,9 +17,41 @@
 
 
 
-### Day 15
+### Day 16
 
-hfhfg
+```php
+
+ <?php if ( $vidprod_banner->have_posts() ) : ?>
+
+ 
+<?php while ( $vidprod_banner->have_posts() ) : $vidprod_banner->the_post(); ?>   
+
+
+<?php endwhile; ?>
+
+<?php else : ?>
+
+<p> content if no no posts </p>
+
+ <?php endif; ?>
+
+
+ <!-- banner 1 -->   
+        <?php if( $banner_url_one == "" ) : ?>
+
+        <img src="<?php echo $banner_url_one ?>" alt="Top banner" title="Top banner" class="topbanner_image" /> 
+
+        <?php endif; ?>
+
+```
+
+```
+banner_image_one
+banner_image_two
+banner_image_three
+banner_image_four
+banner_image_five
+```
 
 ### Day 14
 

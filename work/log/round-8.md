@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 14 of 100. **Last Update:** 19 October 2021
+## **Status:** Day 16 of 100. **Last Update:** 21 October 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+
+# R8D16: Thursday 20 October 2021
+
+  +  Progress made today setting up customisable areas of a WordPress website with Custom Post Types.  Sets the basis for the rest of my work. Light at the end of the tunnel is far away but visible!  :)
+
+  + **Technologies Used** - HTML5, CSS, Design
 
 
 # R8D15: Wednesday 20 October 2021

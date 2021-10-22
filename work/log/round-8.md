@@ -1,47 +1,50 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 16 of 100. **Last Update:** 21 October 2021
+## **Status:** Day 17 of 100. **Last Update:** 21 October 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
-# R8D16: Thursday 20 October 2021
+# R8D17: Friday 21 October 2021
+
+  +  Finished setting up the initial custom fields that will drive our latest WordPress project.  This has been the most involving and exciting project I've worked on and it's coming together nicely. Back to it Monday. 
+
+  + **Technologies Used** - HTML5, CSS, WordPress
+
+
+
+# R8D16: Thursday 21 October 2021
 
   +  Progress made today setting up customisable areas of a WordPress website with Custom Post Types.  Sets the basis for the rest of my work. Light at the end of the tunnel is far away but visible!  :)
 
-  + **Technologies Used** - HTML5, CSS, Design
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 
 # R8D15: Wednesday 20 October 2021
 
   +  Set up a custom post type for the blog aspect of my latest project, set up links to archive and author templates.  There is still so much work to be done.
 
-  + **Technologies Used** - HTML5, CSS, Design
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 # R8D14: Tuesday 19 October 2021
 
   +  Progress made where yesterday there was none.  Hooked up the Slick carousels, the styling and main navigation as needed for a WordPress Theme.  Tomorrow a big part of the project starts with Custom Post Types. 
 
-  + **Technologies Used** - HTML5, CSS, Design
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 # R8D13: Monday 18 October 2021
 
   +  Tough day!
 
-  + **Technologies Used** - HTML5, CSS, Design
+  + **Technologies Used** - HTML5, CSS, WordPress
 
-# R8D13: Monday 18 October 2021
-
-  +  Tough day!
-
-  + **Technologies Used** - HTML5, CSS, Design
 
 # R8D12: Friday 15 October 2021
 
   +  Spent the day hooking up a new WordPress installation. love watching a static design come to life as a WordPress them. And there's plenty of hard but exciting work ahead. 
-  + **Technologies Used** - HTML5, CSS, Design
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 # R8D11: Thursday 14 October 2021
 

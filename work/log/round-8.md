@@ -1,15 +1,22 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 17 of 100. **Last Update:** 21 October 2021
+## **Status:** Day 18 of 100. **Last Update:** 25 October 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
+# R8D18: Monday 25 October 2021
+
+  +  More work on my WordPress project, making it as customisable as possible before hopefully putting it online for testing. My Photography website got it's usual weekly update earlier too.   
+
+  + **Technologies Used** - HTML5, CSS, Wor
+
+
 # R8D17: Friday 21 October 2021
 
-  +  Finished setting up the initial custom fields that will drive our latest WordPress project.  This has been the most involving and exciting project I've worked on and it's coming together nicely. Back to it Monday. 
+  +  Finished setting up the initial custom fields that will drive our latest WordPress project. This has been the most involving and exciting project I've worked on and it's coming together nicely. Back to it Monday. 
 
   + **Technologies Used** - HTML5, CSS, WordPress
 

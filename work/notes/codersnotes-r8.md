@@ -16,8 +16,18 @@
 + Gulp and Grunt compilers
 
 
-### Day 17
+### Day 18
 
+```html
+<h2>Heading </h2>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem esse quia, veniam, quisquam praesentium blanditiis exercitationem, facere provident quae perferendis corrupti? Reprehenderit accusantium odit dolorem delectus non deserunt id sequi?</p>
+
+<p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem esse quia, veniam, quisquam praesentium blanditiis exercitationem, facere provident quae perferendis corrupti? Reprehenderit accusantium odit dolorem delectus non deserunt id sequi?</p>
+
+<p> Use HTML for formatting <strong>like</strong> <em>this</em>. </p>
+```
 
 
 

@@ -1,6 +1,6 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 19 of 100. **Last Update:** 26 October 2021
+## **Status:** Day 20 of 100. **Last Update:** 27 October 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
@@ -8,17 +8,23 @@ ___
 
 
 
+# R8D20: Wednesday 27 October 2021
+
+  +  A smooth WordPress database migration completed and a big step forward in the project.  
+
+  + **Technologies Used** - HTML5, CSS, WordPress
+
 # R8D19: Tuesday 26 October 2021
 
   +  Looking forward to migrating my latest WordPress project to a web location tomorrow for further testing and demonstration.  A big step.  
 
-  + **Technologies Used** - HTML5, CSS, Wor
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 # R8D18: Monday 25 October 2021
 
   +  More work on my WordPress project, making it as customisable as possible before hopefully putting it online for testing. My Photography website got it's usual weekly update earlier too.   
 
-  + **Technologies Used** - HTML5, CSS, Wor
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 
 # R8D17: Friday 21 October 2021

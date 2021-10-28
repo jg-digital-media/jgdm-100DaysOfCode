@@ -16,9 +16,29 @@
 + Gulp and Grunt compilers
 
 
-### Day 20
+### Day 21
+
+Reminders about branching in Git- 
+
+### New Branch
+git checkout -b iss53
 
 
+### Merge 
+git push -u origin <branch-name>
+
+
+### Delete a branch after merge
+
+git branch -d branchname 
+
+### delete branch locally
+git branch -d localBranchName
+
+### delete branch remotely
+git push origin --delete remoteBranchName
+
+No Contact Mail Link
 
 ### Day 18
 

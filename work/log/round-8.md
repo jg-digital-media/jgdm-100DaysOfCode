@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 21 of 100. **Last Update:** 28 October 2021
+## **Status:** Day 22 of 100. **Last Update:** 29 October 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+
+# R8D22: Friday 29 October 2021
+
+  +  The next and hopefully final design iteration begins today! Good meeting today!
+
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 
 # R8D21: Thursday 28 October 2021

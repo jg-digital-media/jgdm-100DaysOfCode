@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 22 of 100. **Last Update:** 29 October 2021
+## **Status:** Day 23 of 100. **Last Update:** 1 November 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R8D23: Monday 1 November 2022
+
+  +  Hard at work today refactoring the WordPress project to the latest design version. In fact, that's on my agenda for the rest of the week, more or less.
+
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 # R8D22: Friday 29 October 2021
 

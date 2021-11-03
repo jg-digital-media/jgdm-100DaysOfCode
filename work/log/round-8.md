@@ -7,6 +7,12 @@ ___
 
 
 
+# R8D24: Tuesday 3 November 2022
+
+  +  The work continues. Made significant progress building out the project theme. Still some elements to build.  Will refresh and go again tomorrow!  
+
+  + **Technologies Used** - HTML5, CSS, WordPress
+
 # R8D23: Monday 1 November 2022
 
   +  Hard at work today refactoring the WordPress project to the latest design version. In fact, that's on my agenda for the rest of the week, more or less.

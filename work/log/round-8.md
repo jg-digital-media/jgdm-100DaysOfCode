@@ -1,25 +1,32 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 25 of 100. **Last Update:** 4 November 2021
+## **Status:** Day 26 of 100. **Last Update:** 5 November 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
-# R8D25: Thursday 4 November 2022
+
+# R8D26: Friday 5 November 2021
+
+  +  Yesterday I worked on Refactoring the form elements of the design to required specifications. Today was about the finishing touches. Streamlined the the Sass Colour scheme, the mobile menu and header. Will soon be ready to introduce the final project assets.
+
+  + **Technologies Used** - HTML5, CSS, WordPress
+
+# R8D25: Thursday 4 November 2021
 
   +  Worked today on Refactoring the form elements of the design to required specifications. Which took some time but I'm happy with the results so far. Tomorrow will be a project review and preparing for the nest stage. 
 
   + **Technologies Used** - HTML5, CSS, WordPress
 
-# R8D24: Wednesday 3 November 2022
+# R8D24: Wednesday 3 November 2021
 
   +  The work continues. Made significant progress building out the project theme. Still some elements to build.  Will refresh and go again tomorrow!  
 
   + **Technologies Used** - HTML5, CSS, WordPress
 
-# R8D23: Monday 1 November 2022
+# R8D23: Monday 1 November 2021
 
   +  Hard at work today refactoring the WordPress project to the latest design version. In fact, that's on my agenda for the rest of the week, more or less.
 

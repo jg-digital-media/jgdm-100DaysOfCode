@@ -1,12 +1,16 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 26 of 100. **Last Update:** 5 November 2021
+## **Status:** Day 27 of 100. **Last Update:** 8 November 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+# R8D27: Monday 8 November 2021
 
+  +  Good day today making further minor but inportant enhancements to our WordPress project. One big task remains. Building the form backend to send email.  :)
+
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 # R8D26: Friday 5 November 2021
 

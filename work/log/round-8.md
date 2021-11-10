@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 28 of 100. **Last Update:** 9 November 2021
+## **Status:** Day 29 of 100. **Last Update:** 10 November 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R8D29: Wednesday 10 November 2021
+
+  +  Forms built in with Contact Form 7 for now. Probably the best way to use PHP Email with WordPress. More streamlining of styles and Author/Archive Templates to come and then I believe that is the development stage finally done.  :)
+
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 # R8D28: Tuesday 9 November 2021
 

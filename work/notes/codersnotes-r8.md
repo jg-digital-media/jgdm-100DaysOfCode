@@ -16,7 +16,31 @@
 + Gulp and Grunt compilers
 
 
-### Day 28
+### Day 29
+
+
+Form classes  Request Estimate Form  -  #id wpcf7-f254-o1
+
+[contact-form-7 id="254" title="Request Estimate"]
+
+.wpcf7-form
+.wpcf7-form-control  Form input field.
+.wpcf7-text form text input field
+.wpcf7-textarea form text area input field
+
+.wpcf7-submit form.
+
+Form Classes - Main Form Shortcode -   id# wpcf7-f255-o1
+
+[contact-form-7 id="255" title="Main Form"]
+
+264
+263
+
+.wpcf7-form
+
+
+
 
 
 

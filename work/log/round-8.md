@@ -6,6 +6,12 @@ ___
 ___
 
 
+# R8D31: Friday 12 November 2021
+
+  +  Development phase over.  Now we're into the final stretch of one of the most involving projects I've worked on. Can't wait to share it.  
+
+  + **Technologies Used** - HTML5, CSS, WordPress
+
 # R8D30: Thursday 11 November 2021
 
   +  I keep saying it. But the last big job (Form production has been done).  One final list of bugs and enhancements to work through tomorrow. But this is a creative industry. Work is never finished :)

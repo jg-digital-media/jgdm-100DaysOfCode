@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 30 of 100. **Last Update:** 11 November 2021
+## **Status:** Day 32 of 100. **Last Update:** 15 November 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R8D32: Monday 15 November 2021
+
+  +  More work with CreativeIO.  Worked on my Photography Site.  
+
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 # R8D31: Friday 12 November 2021
 

@@ -16,9 +16,21 @@
 + Gulp and Grunt compilers
 
 
-### Day 31
+### Day 32
 
-fff
+Video URLS
+
+
+https://staging.jonniegrieve.co.uk/creativeio/wp-content/themes/creativeio/img/media_transfers/mtf_whydoit.mp4
+https://player.vimeo.com/video/645743200?h=4f037e4b87&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479  - vimeo
+
+
+https://jgdm-projects.s3.eu-west-2.amazonaws.com/creativeio/mt_whydoit.mp4
+https://jgdm-projects.s3.eu-west-2.amazonaws.com/creativeio/parallax-video-mar-17.mp4
+https://jgdm-projects.s3.eu-west-2.amazonaws.com/creativeio/cio-talk-to-camera-samples-v1.mp4
+https://jgdm-projects.s3.eu-west-2.amazonaws.com/creativeio/Sequence-01.mp4
+https://jgdm-projects.s3.eu-west-2.amazonaws.com/creativeio/2021-Cosign-samples-3-v2.mp4
+
 
 ### Day 29
 

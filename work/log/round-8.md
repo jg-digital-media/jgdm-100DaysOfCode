@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 32 of 100. **Last Update:** 15 November 2021
+## **Status:** Day 33 of 100. **Last Update:** 16 November 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R8D33: Tuesday 16 November 2021
+
+  +   Working on finishing touches and tweaks this week including replacing placeholder media with the final content  #ThemeDevelopment #WordPress
+
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 # R8D32: Monday 15 November 2021
 

@@ -16,20 +16,51 @@
 + Gulp and Grunt compilers
 
 
+### Day 33
+
+```css
+wpcf7-response-output
+
+form.failed  #dc3232
+form.invalid  #ffb900
+form.send  #464b450
+
+
+
+.wpcf7 form.failed .wpcf7-response-output {
+
+    border-color: #dc3232;
+    color: #dc3232;
+    
+}
+
+.wpcf7 form.invalid .wpcf7-response-output {
+    border-color: #ffb900;
+    color: #ffb900;
+    
+}
+.wpcf7 form.send .wpcf7-response-output {
+    border-color: #464b450;
+    color: #464b450;
+    
+}
+
+```
+
 ### Day 32
 
-Video URLS
+#### Video URLS
 
 
-https://staging.jonniegrieve.co.uk/creativeio/wp-content/themes/creativeio/img/media_transfers/mtf_whydoit.mp4
-https://player.vimeo.com/video/645743200?h=4f037e4b87&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479  - vimeo
++ https://staging.jonniegrieve.co.uk/creativeio/wp-content/themes/creativeio/img/media_transfers/mtf_whydoit.mp4
++ https://player.vimeo.com/video/645743200?h=4f037e4b87&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479  - vimeo
 
 
-https://jgdm-projects.s3.eu-west-2.amazonaws.com/creativeio/mt_whydoit.mp4
-https://jgdm-projects.s3.eu-west-2.amazonaws.com/creativeio/parallax-video-mar-17.mp4
-https://jgdm-projects.s3.eu-west-2.amazonaws.com/creativeio/cio-talk-to-camera-samples-v1.mp4
-https://jgdm-projects.s3.eu-west-2.amazonaws.com/creativeio/Sequence-01.mp4
-https://jgdm-projects.s3.eu-west-2.amazonaws.com/creativeio/2021-Cosign-samples-3-v2.mp4
++ https://jgdm-projects.s3.eu-west-2.amazonaws.com/creativeio/mt_whydoit.mp4
++ https://jgdm-projects.s3.eu-west-2.amazonaws.com/creativeio/parallax-video-mar-17.mp4
++ https://jgdm-projects.s3.eu-west-2.amazonaws.com/creativeio/cio-talk-to-camera-samples-v1.mp4
++ https://jgdm-projects.s3.eu-west-2.amazonaws.com/creativeio/Sequence-01.mp4
++ https://jgdm-projects.s3.eu-west-2.amazonaws.com/creativeio/2021-Cosign-samples-3-v2.mp4
 
 
 ### Day 29
@@ -39,21 +70,21 @@ Form classes  Request Estimate Form  -  #id wpcf7-f254-o1
 
 [contact-form-7 id="254" title="Request Estimate"]
 
-.wpcf7-form
-.wpcf7-form-control  Form input field.
-.wpcf7-text form text input field
-.wpcf7-textarea form text area input field
+```.wpcf7-form```
+```.wpcf7-form-control```  Form input field.
+```.wpcf7-text``` form text input field
+```.wpcf7-textarea``` form text area input field
 
-.wpcf7-submit form.
+```.wpcf7-submit``` form.
 
-Form Classes - Main Form Shortcode -   id# wpcf7-f255-o1
+Form Classes - Main Form Shortcode -   id# `wpcf7-f255-o1`
 
-[contact-form-7 id="255" title="Main Form"]
+`[contact-form-7 id="255" title="Main Form"]`
 
 264
 263
 
-.wpcf7-form
+```.wpcf7-form```
 
 
 

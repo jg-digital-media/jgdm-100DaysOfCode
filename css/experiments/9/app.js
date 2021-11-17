@@ -1,8 +1,5 @@
 console.log("app.js connected! #9")
 
-
-console.log("app.js connected! #9");
-
 var coll = document.getElementsByClassName("collapse");
 var i;
 

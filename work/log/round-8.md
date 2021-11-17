@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 33 of 100. **Last Update:** 16 November 2021
+## **Status:** Day 34 of 100. **Last Update:** 17 November 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R8D34: Wednesday 17 November 2021
+
+  +   Working on more finishing touches and tweaks to the WordPress project much as yesterday. But I also found time to work on other projects including working with making collapsible content with JavaScript and CSS
+
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 # R8D33: Tuesday 16 November 2021
 

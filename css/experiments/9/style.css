@@ -1,0 +1,102 @@
+
+
+
+#container {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    width: 100%;
+    /* border: solid black 2px; */
+}
+
+
+
+#container h2 {
+
+    text-align: center;
+}
+
+#container h3 {
+
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#container article {
+
+    width: 50%;
+    width: auto;
+    margin-top: 10px;
+}
+
+
+#container .content {
+
+    padding: 0 18px;
+    /* display: none; */
+    overflow: hidden;
+    background-color: #f1f1f1;    
+    transition: max-height 2.2s;
+    max-height: 0;
+}
+
+#container .collapse {
+
+    cursor: pointer;
+}
+
+#container .content .collapse {
+    
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+
+#container .content .collapse p { 
+    color: black;
+    height: auto;
+}
+
+#container div {
+    display: block;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background: #ffa947;
+    padding: 10px;
+    outline: none;
+    border: none;
+
+}
+
+#container .key {
+    text-align: center;
+    width: 360px;
+}
+
+#container .key caption {
+    text-align: center;
+ }
+
+#container div h3 {
+
+}
+
+
+@media screen and (max-width: 680px) {
+
+    #container {
+        width: 90%;
+    }
+
+    #container div {
+        width: 100%;
+    }
+
+}

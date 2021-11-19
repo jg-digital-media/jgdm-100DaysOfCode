@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 35 of 100. **Last Update:** 18 November 2021
+## **Status:** Day 36 of 100. **Last Update:** 19 November 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R8D36: Friday 19 November 2021
+
+  +   Ending the week with some new challenges to think about with embedding some media and aligning that with responsive design. Nothing that can't be overcome.  Looking forward to it. 
+
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 # R8D35: Thursday 18 November 2021
 

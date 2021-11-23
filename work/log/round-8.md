@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 37 of 100. **Last Update:** 22 November 2021
+## **Status:** Day 38 of 100. **Last Update:** 23 November 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R8D38: Tuesday 23 November 2022
+
+  +   Finishing converting the latest vimeo embeds I have and making them responsive. 
+
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 # R8D37: Monday 22 November 2021
 

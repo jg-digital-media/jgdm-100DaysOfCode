@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^index.html [NC,OR]
+RewriteCond %{HTTP_HOST} ^coming.html [NC]
+RewriteRule ^(.*)$ http://me.jonniegrieve.co.uk/$1 [L,R=301,NC]

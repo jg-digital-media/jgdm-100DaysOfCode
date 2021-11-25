@@ -18,10 +18,38 @@
 
 
 
-### Day 39
+### Day 40
 
 
-```
+```html
+<!-- https://keithclark.co.uk/articles/pure-css-parallax-websites/ Accessed 25-11-2021  -->
+
+<div class="parallax">
+  <div class="parallax__layer parallax__layer--back">
+    <!-- content -->
+  </div>
+  <div class="parallax__layer parallax__layer--base">
+    <!-- content -->
+  </div>
+</div>
+
+
+
+<!-- Parallax Group -->
+
+<div class="parallax">
+  <div class="parallax__group">
+    <div class="parallax__layer parallax__layer--back">
+      <!-- content -->
+    </div>
+    <div class="parallax__layer parallax__layer--base">
+      <!-- content -->
+    </div>
+  </div>
+  <div class="parallax__group">
+    <!-- content -->
+  </div>
+</div>
 
 ```
 

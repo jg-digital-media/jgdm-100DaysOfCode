@@ -36,8 +36,8 @@
     padding: 0 18px;
     /* display: none; */
     overflow: hidden;
-    background-color: #f1f1f1;    
-    transition: max-height 2.2s;
+    background-color: #ffa947;    
+    transition: max-height .7s;
     max-height: 0;
 }
 

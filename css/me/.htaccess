@@ -1,4 +1,5 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^index.html [NC,OR]
-RewriteCond %{HTTP_HOST} ^coming.html [NC]
-RewriteRule ^(.*)$ http://me.jonniegrieve.co.uk/$1 [L,R=301,NC]
+Redirect 301 "https://me.jonniegrieve.co.uk/index.html" "https://me.jonniegrieve.co.uk/coming.html"
+
+# Redirect 301 "index.html" "coming.html"
+
+# Redirect 301 "/am_consulting/index.html" "/am_consulting/offline.html"

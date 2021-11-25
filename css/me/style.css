@@ -4,7 +4,10 @@
   margin: 0; }
 
 body header {
-  height: 100px; }
+  height: 100px;
+  background: #7575eb;
+  color: #feeded;
+  border-bottom: solid #0b13af 3px; }
   body header h1 {
     text-align: center; }
 body section {

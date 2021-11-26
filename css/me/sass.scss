@@ -68,6 +68,26 @@ body {
                     }
                 }
 
+                .section-content {
+
+                    margin: 20% auto;
+
+                    .flex-history {
+
+                        margin-top: 10px;
+
+                        h2 {
+
+                            color: white;
+                            text-align: center;
+                        }
+
+                        p {
+                            color: white;
+                        }
+                    }
+                }
+
             }
 
             li#qualifications {

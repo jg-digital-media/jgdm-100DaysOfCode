@@ -39,6 +39,9 @@ body section {
           text-align: center; }
         body section ul li#history .section-content .flex-history p {
           color: white; }
+        body section ul li#history .section-content .flex-history #img_id {
+          width: 250px;
+          border: black 1px solid; }
   body section ul li#qualifications {
     background: url("img/bg-two.JPG"); }
   body section ul li#interests {

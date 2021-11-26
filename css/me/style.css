@@ -1,4 +1,4 @@
-/*Last Update: 25-11-2021 */
+/*Last Update: 26-11-2021 */
 * {
   padding: 0;
   margin: 0; }
@@ -11,7 +11,7 @@ body header {
   body header h1 {
     text-align: center; }
 body section {
-  padding: 0 10px; }
+  /* padding: 0 10px; */ }
   body section a {
     color: red;
     text-decoration: none; }
@@ -21,6 +21,15 @@ body section {
     text-align: center; }
   body section ul li#history {
     background: url("img/bg-one.JPG"); }
+    body section ul li#history .section-url {
+      text-align: center;
+      padding: 20px 0;
+      background: lightblue; }
+      body section ul li#history .section-url a {
+        color: red;
+        text-decoration: none; }
+        body section ul li#history .section-url a:hover {
+          text-decoration: underline; }
   body section ul li#qualifications {
     background: url("img/bg-two.JPG"); }
   body section ul li#interests {

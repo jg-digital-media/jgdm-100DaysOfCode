@@ -1,4 +1,4 @@
-/*Last Update: 25-11-2021 */
+/*Last Update: 26-11-2021 */
 
 * {
     padding: 0;
@@ -25,7 +25,7 @@ body {
 
     section {
 
-        padding: 0 10px;
+        /* padding: 0 10px; */
 
         a {
 
@@ -51,6 +51,22 @@ body {
 
                 background: url("img/bg-one.JPG");
                 @extend %bg-styles;
+
+                .section-url {
+
+                    text-align: center;
+                    padding: 20px 0;
+                    background: lightblue;
+
+                    a {
+                        color: red;
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
 
             }
 

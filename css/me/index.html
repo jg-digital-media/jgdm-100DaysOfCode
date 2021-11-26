@@ -208,14 +208,19 @@
         
     </section>
 
-    <footer>&copy; 2021 <a href="https://me.jonniegrieve.co.uk">https://me.jonniegrieve.co.uk</a></footer>
+    <footer>
+        
+        <p><a href="https://keithclark.co.uk/articles/practical-css-parallax/smooth-scroll-jquery/" target="blank">Source</a>
+        &copy; 2021 <a href="https://me.jonniegrieve.co.uk" target="blank">https://me.jonniegrieve.co.uk</a>
+    
+    </footer>
 
 
     <!-- use of jquery-->
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
   <script>
   (function() {
-    var container = $('.list-item');
+    var container = $('section');
 
     $('a').click(function() {
       var target = $($.attr(this, 'href'));

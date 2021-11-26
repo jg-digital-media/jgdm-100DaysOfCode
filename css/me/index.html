@@ -53,7 +53,9 @@
             
             </li>
 
-            <li id="qualifications"><a href="pages/qualifications.html" title="" target="blank" class="list-item">Qualifications</a>
+            <li class="list-item" id="qualifications">
+                
+                <a href="pages/qualifications.html" title="" target="blank" >Qualifications</a>
                         
             
                 <div class="section-content">
@@ -208,6 +210,22 @@
 
     <footer>&copy; 2021 <a href="https://me.jonniegrieve.co.uk">https://me.jonniegrieve.co.uk</a></footer>
 
+
+    <!-- use of jquery-->
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script>
+  (function() {
+    var container = $('.list-items');
+
+    $('a').click(function() {
+      var target = $($.attr(this, 'href'));
+      container.animate({
+          scrollTop: container.scrollTop() + target.offset().top
+      }, 250);
+      return false;
+    });
+  }());
+  </script>
 
     <script src="app.js"></script>
     

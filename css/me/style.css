@@ -19,9 +19,38 @@ body section {
       text-decoration: underline; }
   body section h2 {
     text-align: center; }
+  body section ul li#history {
+    background: url("img/bg-one.JPG"); }
+  body section ul li#qualifications {
+    background: url("img/bg-two.JPG"); }
+  body section ul li#interests {
+    background: url("img/bg-one.JPG"); }
+  body section ul li#dyspraxia {
+    background: url("img/bg-two.JPG"); }
+  body section ul li#photography {
+    background: url("img/bg-one.JPG"); }
+  body section ul li#doctorwho {
+    background: url("img/bg-two.JPG"); }
+  body section ul li#webdesign {
+    background: url("img/bg-one.JPG"); }
+  body section ul li#faith {
+    background: url("img/bg-two.JPG"); }
+  body section ul li#gaming {
+    background: url("img/bg-one.JPG"); }
+  body section ul li#sport {
+    background: url("img/bg-two.JPG"); }
+  body section ul li#politics {
+    background: url("img/bg-one.JPG"); }
+  body section ul li#onmymind {
+    background: url("img/bg-two.JPG"); }
   body section ul li {
     line-height: 2;
     height: 100vh; }
+    body section ul li .section-content {
+      display: block;
+      margin: 0 auto;
+      width: 80%;
+      border: solid black 3px; }
     body section ul li a {
       color: red;
       text-decoration: none; }
@@ -34,5 +63,13 @@ body footer {
     text-decoration: none; }
     body footer a:hover {
       text-decoration: underline; }
+
+body section ul li#history, body section ul li#qualifications, body section ul li#interests, body section ul li#dyspraxia, body section ul li#photography, body section ul li#doctorwho, body section ul li#webdesign, body section ul li#faith, body section ul li#gaming, body section ul li#sport, body section ul li#politics, body section ul li#onmymind {
+  content: "bg-style";
+  background-size: cover;
+  background-position: 0;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0; }
 
 /*# sourceMappingURL=style.css.map */

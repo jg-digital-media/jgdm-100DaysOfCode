@@ -5,6 +5,9 @@
     margin: 0;
 }
 
+
+
+
 body {
 
     header {
@@ -43,10 +46,91 @@ body {
 
         ul {
 
+            //backgrounds
+            li#history {
+
+                background: url("img/bg-one.JPG");
+                @extend %bg-styles;
+
+            }
+
+            li#qualifications {
+
+                background: url("img/bg-two.JPG");
+                @extend %bg-styles;
+            }
+
+            li#interests {
+
+                background: url("img/bg-one.JPG");
+                @extend %bg-styles;
+            }
+
+            li#dyspraxia {
+
+                background: url("img/bg-two.JPG");
+                @extend %bg-styles;
+            }
+
+            li#photography {
+
+                background: url("img/bg-one.JPG");
+                @extend %bg-styles;
+            }
+
+            li#doctorwho {
+
+                background: url("img/bg-two.JPG");
+                @extend %bg-styles;
+            }
+
+            li#webdesign {
+
+                background: url("img/bg-one.JPG");
+                @extend %bg-styles;
+            }
+
+            li#faith {
+
+                background: url("img/bg-two.JPG");
+                @extend %bg-styles;
+            }
+
+            li#gaming {
+
+                background: url("img/bg-one.JPG");
+                @extend %bg-styles;
+            }
+
+            li#sport {
+
+                background: url("img/bg-two.JPG");
+                @extend %bg-styles;
+            }
+
+            li#politics {
+
+                background: url("img/bg-one.JPG");
+                @extend %bg-styles;
+            }
+
+            li#onmymind {
+
+                background: url("img/bg-two.JPG");
+                @extend %bg-styles;
+            }
+
             li {
 
                 line-height: 2;
                 height: 100vh;
+
+                .section-content {
+                    display: block;
+                    margin: 0 auto;
+                    width: 80%;
+                    border: solid black 3px;;
+                }
 
                 a {
 
@@ -81,4 +165,16 @@ body {
 
     }
 
+}
+
+
+
+//Extend background styles 
+%bg-styles {
+    content: "bg-style";
+    background-size: cover;
+    background-position: 0;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
 }

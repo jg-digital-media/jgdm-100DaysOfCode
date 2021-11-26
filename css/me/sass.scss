@@ -19,6 +19,7 @@ body {
 
         h1 {
             text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif
         }
 
     }
@@ -46,11 +47,19 @@ body {
 
         ul {
 
+            .list-item {
+
+                perspective: 300px;
+                scroll-behavior: smooth;
+            }
+
             //backgrounds
             li#history {
 
                 background: url("img/bg-one.JPG");
                 @extend %bg-styles;
+
+                /* transform: translateZ(59px) scale(.85); */
 
                 .section-url {
 
@@ -70,28 +79,52 @@ body {
 
                 .section-content {
 
-                    margin: 20% auto;
+                    margin: 10% auto;
+
+                    position: relative;
+                    padding: 2% 0;
+                    transform-style: preserve-3d;
 
                     .flex-history {
 
                         margin-top: 10px;
 
-                        h2 {
+                        div {
 
-                            color: white;
-                            text-align: center;
-                        }
+                            transform: translateZ(70px) scale(.8);
+                            transform-style: preserve-3d;
+                            transform-origin: 100% 50%;
 
-                        p {
-                            color: white;
-                        }
 
-                        #img_id {
-                            width: 250px;
-                            border: black 1px solid;
+                            h2 {
+
+                                color: white;
+                                text-align: center;
+                               
+                            }
+
+                            p {
+
+                                color: white;
+                                transform-origin: 0% 50%;
+                            }
+
+                            #img_id {
+
+                                width: 250px;
+                                border: black 1px solid;
+                                transform: translateZ(100px) scale(.67);
+                            }
                         }
                     }
 
+                }
+
+                .slide-content, .flex-history, .flex-history div {
+
+                
+
+                    transform-style: preserve-3d;
                 }
 
             }
@@ -166,6 +199,10 @@ body {
 
                 line-height: 2;
                 height: 100vh;
+
+                
+                perspective: 300px;
+                scroll-behavior: smooth;
 
                 .section-content {
                     display: block;

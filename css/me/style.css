@@ -9,7 +9,8 @@ body header {
   color: #feeded;
   border-bottom: solid #0b13af 3px; }
   body header h1 {
-    text-align: center; }
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif; }
 body section {
   /* padding: 0 10px; */ }
   body section a {
@@ -19,8 +20,12 @@ body section {
       text-decoration: underline; }
   body section h2 {
     text-align: center; }
+  body section ul .list-item {
+    perspective: 300px;
+    scroll-behavior: smooth; }
   body section ul li#history {
-    background: url("img/bg-one.JPG"); }
+    background: url("img/bg-one.JPG");
+    /* transform: translateZ(59px) scale(.85); */ }
     body section ul li#history .section-url {
       text-align: center;
       padding: 20px 0;
@@ -31,17 +36,28 @@ body section {
         body section ul li#history .section-url a:hover {
           text-decoration: underline; }
     body section ul li#history .section-content {
-      margin: 20% auto; }
+      margin: 10% auto;
+      position: relative;
+      padding: 2% 0;
+      transform-style: preserve-3d; }
       body section ul li#history .section-content .flex-history {
         margin-top: 10px; }
-        body section ul li#history .section-content .flex-history h2 {
-          color: white;
-          text-align: center; }
-        body section ul li#history .section-content .flex-history p {
-          color: white; }
-        body section ul li#history .section-content .flex-history #img_id {
-          width: 250px;
-          border: black 1px solid; }
+        body section ul li#history .section-content .flex-history div {
+          transform: translateZ(70px) scale(0.8);
+          transform-style: preserve-3d;
+          transform-origin: 100% 50%; }
+          body section ul li#history .section-content .flex-history div h2 {
+            color: white;
+            text-align: center; }
+          body section ul li#history .section-content .flex-history div p {
+            color: white;
+            transform-origin: 0% 50%; }
+          body section ul li#history .section-content .flex-history div #img_id {
+            width: 250px;
+            border: black 1px solid;
+            transform: translateZ(100px) scale(0.67); }
+    body section ul li#history .slide-content, body section ul li#history .flex-history, body section ul li#history .flex-history div {
+      transform-style: preserve-3d; }
   body section ul li#qualifications {
     background: url("img/bg-two.JPG"); }
   body section ul li#interests {
@@ -66,7 +82,9 @@ body section {
     background: url("img/bg-two.JPG"); }
   body section ul li {
     line-height: 2;
-    height: 100vh; }
+    height: 100vh;
+    perspective: 300px;
+    scroll-behavior: smooth; }
     body section ul li .section-content {
       display: block;
       margin: 0 auto;

@@ -210,7 +210,10 @@
 
     <footer>
         
-        <p><a href="https://keithclark.co.uk/articles/practical-css-parallax/smooth-scroll-jquery/" target="blank">Source</a>
+        <p>
+            <a href="https://keithclark.co.uk/articles/practical-css-parallax/smooth-scroll-jquery/" target="blank">Source</a>
+        </p>
+        
         &copy; 2021 <a href="https://me.jonniegrieve.co.uk" target="blank">https://me.jonniegrieve.co.uk</a>
     
     </footer>
@@ -218,19 +221,19 @@
 
     <!-- use of jquery-->
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script>
-  (function() {
-    var container = $('section');
+    <script>
+    (function() {
+        var container = $('section');
 
-    $('a').click(function() {
-      var target = $($.attr(this, 'href'));
-      container.animate({
-          scrollTop: container.scrollTop() + target.offset().top
-      }, 250);
-      return false;
-    });
-  }());
-  </script>
+        $('a').click(function() {
+        var target = $($.attr(this, 'href'));
+        container.animate({
+            scrollTop: container.scrollTop() + target.offset().top
+        }, 250);
+        return false;
+        });
+    }());
+    </script>
 
     <script src="app.js"></script>
     

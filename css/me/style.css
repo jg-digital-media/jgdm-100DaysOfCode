@@ -20,81 +20,89 @@ body section {
       text-decoration: underline; }
   body section h2 {
     text-align: center; }
-  body section ul .list-item {
+  body section ul.parallax-scroll-list {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
     perspective: 300px;
     scroll-behavior: smooth; }
-  body section ul li#history {
-    background: url("img/bg-one.JPG");
-    /* transform: translateZ(59px) scale(.85); */ }
-    body section ul li#history .section-url {
-      text-align: center;
-      padding: 20px 0;
-      background: lightblue; }
-      body section ul li#history .section-url a {
+    body section ul.parallax-scroll-list .list-item {
+      transform: translateZ(59px) scale(0.85); }
+    body section ul.parallax-scroll-list li#history {
+      background: url("img/bg-one.JPG");
+      /* transform: translateZ(59px) scale(.85); */ }
+      body section ul.parallax-scroll-list li#history .section-url {
+        text-align: center;
+        padding: 20px 0;
+        background: lightblue; }
+        body section ul.parallax-scroll-list li#history .section-url a {
+          color: red;
+          text-decoration: none; }
+          body section ul.parallax-scroll-list li#history .section-url a:hover {
+            text-decoration: underline; }
+      body section ul.parallax-scroll-list li#history .section-content {
+        margin: 10% auto;
+        position: relative;
+        padding: 2% 0;
+        transform-style: preserve-3d; }
+        body section ul.parallax-scroll-list li#history .section-content .main-content {
+          margin-top: 10px;
+          transform-style: preserve-3d; }
+          body section ul.parallax-scroll-list li#history .section-content .main-content div {
+            transform: translateZ(70px) scale(0.8);
+            transform-style: preserve-3d;
+            transform-origin: 100% 50%; }
+            body section ul.parallax-scroll-list li#history .section-content .main-content div h2 {
+              color: white;
+              text-align: center; }
+            body section ul.parallax-scroll-list li#history .section-content .main-content div p {
+              color: white;
+              transform-origin: 0% 50%; }
+            body section ul.parallax-scroll-list li#history .section-content .main-content div #img_id {
+              width: 250px;
+              border: black 1px solid;
+              /* transform: translateZ(100px) scale(.67); */ }
+      body section ul.parallax-scroll-list li#history .slide-content, body section ul.parallax-scroll-list li#history .flex-history, body section ul.parallax-scroll-list li#history .flex-history div {
+        transform-style: preserve-3d; }
+    body section ul.parallax-scroll-list li#qualifications {
+      background: url("img/bg-two.JPG"); }
+    body section ul.parallax-scroll-list li#interests {
+      background: url("img/bg-one.JPG"); }
+    body section ul.parallax-scroll-list li#dyspraxia {
+      background: url("img/bg-two.JPG"); }
+    body section ul.parallax-scroll-list li#photography {
+      background: url("img/bg-one.JPG"); }
+    body section ul.parallax-scroll-list li#doctorwho {
+      background: url("img/bg-two.JPG"); }
+    body section ul.parallax-scroll-list li#webdesign {
+      background: url("img/bg-one.JPG"); }
+    body section ul.parallax-scroll-list li#faith {
+      background: url("img/bg-two.JPG"); }
+    body section ul.parallax-scroll-list li#gaming {
+      background: url("img/bg-one.JPG"); }
+    body section ul.parallax-scroll-list li#sport {
+      background: url("img/bg-two.JPG"); }
+    body section ul.parallax-scroll-list li#politics {
+      background: url("img/bg-one.JPG"); }
+    body section ul.parallax-scroll-list li#onmymind {
+      background: url("img/bg-two.JPG"); }
+    body section ul.parallax-scroll-list li {
+      line-height: 2;
+      height: 100vh;
+      perspective: 300px;
+      scroll-behavior: smooth; }
+      body section ul.parallax-scroll-list li .section-content {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        border: solid black 3px; }
+      body section ul.parallax-scroll-list li a {
         color: red;
         text-decoration: none; }
-        body section ul li#history .section-url a:hover {
+        body section ul.parallax-scroll-list li a:hover {
           text-decoration: underline; }
-    body section ul li#history .section-content {
-      margin: 10% auto;
-      position: relative;
-      padding: 2% 0;
-      transform-style: preserve-3d; }
-      body section ul li#history .section-content .flex-history {
-        margin-top: 10px; }
-        body section ul li#history .section-content .flex-history div {
-          transform: translateZ(70px) scale(0.8);
-          transform-style: preserve-3d;
-          transform-origin: 100% 50%; }
-          body section ul li#history .section-content .flex-history div h2 {
-            color: white;
-            text-align: center; }
-          body section ul li#history .section-content .flex-history div p {
-            color: white;
-            transform-origin: 0% 50%; }
-          body section ul li#history .section-content .flex-history div #img_id {
-            width: 250px;
-            border: black 1px solid;
-            transform: translateZ(100px) scale(0.67); }
-    body section ul li#history .slide-content, body section ul li#history .flex-history, body section ul li#history .flex-history div {
-      transform-style: preserve-3d; }
-  body section ul li#qualifications {
-    background: url("img/bg-two.JPG"); }
-  body section ul li#interests {
-    background: url("img/bg-one.JPG"); }
-  body section ul li#dyspraxia {
-    background: url("img/bg-two.JPG"); }
-  body section ul li#photography {
-    background: url("img/bg-one.JPG"); }
-  body section ul li#doctorwho {
-    background: url("img/bg-two.JPG"); }
-  body section ul li#webdesign {
-    background: url("img/bg-one.JPG"); }
-  body section ul li#faith {
-    background: url("img/bg-two.JPG"); }
-  body section ul li#gaming {
-    background: url("img/bg-one.JPG"); }
-  body section ul li#sport {
-    background: url("img/bg-two.JPG"); }
-  body section ul li#politics {
-    background: url("img/bg-one.JPG"); }
-  body section ul li#onmymind {
-    background: url("img/bg-two.JPG"); }
-  body section ul li {
-    line-height: 2;
-    height: 100vh;
-    perspective: 300px;
-    scroll-behavior: smooth; }
-    body section ul li .section-content {
-      display: block;
-      margin: 0 auto;
-      width: 80%;
-      border: solid black 3px; }
-    body section ul li a {
-      color: red;
-      text-decoration: none; }
-      body section ul li a:hover {
-        text-decoration: underline; }
 body footer {
   text-align: center; }
   body footer a {
@@ -103,7 +111,7 @@ body footer {
     body footer a:hover {
       text-decoration: underline; }
 
-body section ul li#history, body section ul li#qualifications, body section ul li#interests, body section ul li#dyspraxia, body section ul li#photography, body section ul li#doctorwho, body section ul li#webdesign, body section ul li#faith, body section ul li#gaming, body section ul li#sport, body section ul li#politics, body section ul li#onmymind {
+body section ul.parallax-scroll-list li#history, body section ul.parallax-scroll-list li#qualifications, body section ul.parallax-scroll-list li#interests, body section ul.parallax-scroll-list li#dyspraxia, body section ul.parallax-scroll-list li#photography, body section ul.parallax-scroll-list li#doctorwho, body section ul.parallax-scroll-list li#webdesign, body section ul.parallax-scroll-list li#faith, body section ul.parallax-scroll-list li#gaming, body section ul.parallax-scroll-list li#sport, body section ul.parallax-scroll-list li#politics, body section ul.parallax-scroll-list li#onmymind {
   content: "bg-style";
   background-size: cover;
   background-position: 0;

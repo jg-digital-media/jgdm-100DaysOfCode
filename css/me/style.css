@@ -1,4 +1,4 @@
-/*Last Update: 26-11-2021 */
+/* Last Update: 30-11-2021 - 09:19 */
 * {
   padding: 0;
   margin: 0; }
@@ -10,7 +10,7 @@ body header {
   border-bottom: solid #0b13af 3px; }
   body header h1 {
     text-align: center;
-    font-family: Georgia, "Times New Roman", Times, serif; }
+    font-family: Georgia, 'Times New Roman', Times, serif; }
 body section {
   /* padding: 0 10px; */ }
   body section a {
@@ -22,6 +22,7 @@ body section {
     text-align: center; }
   body section ul.parallax-scroll-list {
     /* position: absolute; */
+    /* position: relative; */
     width: 100%;
     height: 100%;
     overflow-x: hidden;
@@ -29,41 +30,37 @@ body section {
     perspective: 300px;
     scroll-behavior: smooth; }
     body section ul.parallax-scroll-list .list-item {
-      transform: translateZ(59px) scale(0.85); }
+      /* transform: translateZ(59px) scale(.85); */
+      transform-style: preserve-3d;
+      position: relative;
+      /* padding: 8% 0; */
+      padding-top: 8%; }
     body section ul.parallax-scroll-list li#history {
       background: url("img/bg-one.JPG");
-      /* transform: translateZ(59px) scale(.85); */ }
-      body section ul.parallax-scroll-list li#history .section-url {
-        text-align: center;
-        padding: 20px 0;
-        background: lightblue; }
-        body section ul.parallax-scroll-list li#history .section-url a {
-          color: red;
-          text-decoration: none; }
-          body section ul.parallax-scroll-list li#history .section-url a:hover {
-            text-decoration: underline; }
+      /* transform: translateZ(59px) scale(.85); */
+      transform-style: preserve-3d; }
       body section ul.parallax-scroll-list li#history .section-content {
         margin: 10% auto;
         position: relative;
         padding: 2% 0;
         transform-style: preserve-3d; }
-        body section ul.parallax-scroll-list li#history .section-content .main-content {
-          margin-top: 10px;
-          transform-style: preserve-3d; }
-          body section ul.parallax-scroll-list li#history .section-content .main-content div {
-            transform: translateZ(70px) scale(0.8);
-            transform-style: preserve-3d;
-            transform-origin: 100% 50%; }
-            body section ul.parallax-scroll-list li#history .section-content .main-content div h2 {
-              color: white;
-              text-align: center; }
-            body section ul.parallax-scroll-list li#history .section-content .main-content div p {
-              color: white;
-              transform-origin: 0% 50%; }
-            body section ul.parallax-scroll-list li#history .section-content .main-content div #img_id {
-              width: 250px;
-              border: black 1px solid;
-              /* transform: translateZ(100px) scale(.67); */ }
+        body section ul.parallax-scroll-list li#history .section-content .main-text {
+          transform: translateZ(10px) scale(1);
+          transform-style: preserve-3d;
+          transform-origin: 100% 50%; }
+          body section ul.parallax-scroll-list li#history .section-content .main-text h2 {
+            color: white;
+            text-align: center; }
+          body section ul.parallax-scroll-list li#history .section-content .main-text p {
+            color: white; }
+        body section ul.parallax-scroll-list li#history .section-content div.main-image {
+          transform: translateZ(10px) scale(1);
+          transform-style: preserve-3d;
+          transform-origin: 100% 50%; }
+          body section ul.parallax-scroll-list li#history .section-content div.main-image #img_id {
+            width: 250px;
+            border: black 1px solid;
+            /* transform: translateZ(100px) scale(.67); */ }
       body section ul.parallax-scroll-list li#history .slide-content, body section ul.parallax-scroll-list li#history .flex-history, body section ul.parallax-scroll-list li#history .flex-history div {
         transform-style: preserve-3d; }
     body section ul.parallax-scroll-list li#qualifications {
@@ -90,9 +87,7 @@ body section {
       background: url("img/bg-two.JPG"); }
     body section ul.parallax-scroll-list li {
       line-height: 2;
-      height: 100vh;
-      perspective: 300px;
-      scroll-behavior: smooth; }
+      height: 100vh; }
       body section ul.parallax-scroll-list li .section-content {
         display: block;
         margin: 0 auto;

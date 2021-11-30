@@ -1,4 +1,4 @@
-/* Last Update: 30-11-2021 - 09:19 */
+/* Last Update: 30-11-2021 - 12:58 */
 
 * {
     padding: 0;
@@ -85,7 +85,7 @@ body {
 
                 .section-content {
 
-                    margin: 10% auto;
+                    margin: 4% auto;
 
                     position: relative;
                     padding: 2% 0;
@@ -94,7 +94,7 @@ body {
                     .main-text {
 
                         transform: translateZ(60px) scale(.8);
-                        transform-style: preserve-3d;
+                        /* transform-style: preserve-3d; */
                         transform-origin: 100% 50%;   
                         display: inline-block;
 
@@ -113,8 +113,7 @@ body {
 
                     div.main-image {
 
-                        transform: translateZ(10px) scale(1);
-                        transform-style: preserve-3d;
+                        transform: translateZ(60px) scale(.8);
                         transform-origin: 100% 50%;   
                         width: 30%;
                         display: inline-block;

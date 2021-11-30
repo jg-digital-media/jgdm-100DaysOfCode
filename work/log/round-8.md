@@ -1,13 +1,20 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 42 of 100. **Last Update:** 29 November 2021
+## **Status:** Day 43 of 100. **Last Update:** 30 November 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
-# R8D41: Monday 29 November 2022
+
+# R8D43: Tuesday 30 November 2022
+
+  + I've been working all day on building this. A web page with parallax scrolling built purely with CSS. The takeaway, I've learned is it comes together with background-attachment set to fixed, in CSS.
+
+  + **Technologies Used** - HTML5, CSS, WordPress
+
+# R8D42: Monday 29 November 2022
 
   + Minor updates to a website header, tackling CSS parallax scrolling and a contrent update to my Photography site.
 

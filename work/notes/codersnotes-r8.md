@@ -17,7 +17,9 @@
 
 
 
-### Day 42
+### Day 43
+
+background-attachment: fixed;
 
 
 ### Day 40

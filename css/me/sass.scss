@@ -1,267 +1,88 @@
-/* Last Update: 30-11-2021 - 12:58 */
+/* Last Update 30-11-2021 - 15:42pm */
 
 * {
+
+    margin: 0;
     padding: 0;
-    margin: 0;
 }
 
+header {
 
-html {
-    height: 100%;
-}
+    position: relative;
+    top: 0;
+    width: 100%;
 
-body {
+    h1 {
 
-    transform: translateZ(0px);
-
-    header {
-
-        height: 100px;
-        background: #7575eb;
-        color: #feeded;
-        border-bottom: solid #0b13af 3px;
-
-        h1 {
-            text-align: center;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-        }
-
-    }
-
-    section {
-
-        /* padding: 0 10px; */
-        
-
-        a {
-
-            color: red;
-            text-decoration: none;
-
-            &:hover {
-
-                text-decoration: underline;
-            }
-
-        }
-
-        h2 {
-
-            text-align: center;
-        }
-
-        ul.parallax-scroll-list {
-
-            /* position: absolute; */
-            /* position: relative; */
-            width: 100%;
-            height: 100%;
-            overflow-x: hidden;
-            overflow-y: auto;
-            perspective: 300px;
-            scroll-behavior: smooth;
-
-            .list-item {
-
-                /* transform: translateZ(59px) scale(.85); */
-                transform-style: preserve-3d;
-                position: relative;
-                /* padding: 8% 0; */
-                padding-top: 8%;
-            }
-
-            .list-item:first-child {
-                padding-top: 14%;
-            }
-
-            //backgrounds
-            li#history {
-
-                background: url("img/bg-one.JPG");
-                @extend %bg-styles;
-
-                /* transform: translateZ(59px) scale(.85); */
-                transform-style: preserve-3d;
-
-                .section-content {
-
-                    margin: 4% auto;
-
-                    position: relative;
-                    padding: 2% 0;
-                    transform-style: preserve-3d;
-                    
-                    .main-text {
-
-                        transform: translateZ(60px) scale(.8);
-                        /* transform-style: preserve-3d; */
-                        transform-origin: 100% 50%;   
-                        display: inline-block;
-
-                        h2 {
-
-                            color: white;
-                            text-align: center;                               
-                        }
-
-                        p {
-
-                            color: white;
-                        }
-
-                    }
-
-                    div.main-image {
-
-                        transform: translateZ(60px) scale(.8);
-                        transform-origin: 100% 50%;   
-                        width: 30%;
-                        display: inline-block;
-                        vertical-align: top;
-
-                        #img_id {
-
-                            width: 250px;
-                            border: black 1px solid;
-                            /* transform: translateZ(100px) scale(.67); */
-                        }
-                    }
-
-                    
-
-                }
-
-                .slide-content, .flex-history, .flex-history div {
-
-                
-
-                    transform-style: preserve-3d;
-                }
-
-            }
-
-            li#qualifications {
-
-                background: url("img/bg-two.JPG");
-                @extend %bg-styles;
-            }
-
-            li#interests {
-
-                background: url("img/bg-one.JPG");
-                @extend %bg-styles;
-            }
-
-            li#dyspraxia {
-
-                background: url("img/bg-two.JPG");
-                @extend %bg-styles;
-            }
-
-            li#photography {
-
-                background: url("img/bg-one.JPG");
-                @extend %bg-styles;
-            }
-
-            li#doctorwho {
-
-                background: url("img/bg-two.JPG");
-                @extend %bg-styles;
-            }
-
-            li#webdesign {
-
-                background: url("img/bg-one.JPG");
-                @extend %bg-styles;
-            }
-
-            li#faith {
-
-                background: url("img/bg-two.JPG");
-                @extend %bg-styles;
-            }
-
-            li#gaming {
-
-                background: url("img/bg-one.JPG");
-                @extend %bg-styles;
-            }
-
-            li#sport {
-
-                background: url("img/bg-two.JPG");
-                @extend %bg-styles;
-            }
-
-            li#politics {
-
-                background: url("img/bg-one.JPG");
-                @extend %bg-styles;
-            }
-
-            li#onmymind {
-
-                background: url("img/bg-two.JPG");
-                @extend %bg-styles;
-            }
-
-            li {
-
-                line-height: 2;
-                height: 100vh;                
-
-                //Content styling
-                .section-content {
-                    display: block;
-                    margin: 0 auto;
-                    width: 80%;
-                    border: solid black 3px;;
-                }
-
-                a {
-
-                    color: red;
-                    text-decoration: none;
-
-                    &:hover {
-
-                        text-decoration: underline;
-                    }
-
-                }
-
-            }
-
-        }
-
-    }
-
-    footer {
         text-align: center;
-
-        a {
-            color: red;
-            text-decoration: none;
-
-            &:hover {
-                text-decoration: underline;
-            }
-
-        }
-
     }
 
 }
 
+.wrapper {
+
+    height: 100vh;
+    overflow-x: hidden;
+    /* overflow-y: auto; */
+    perspective: 2px;
+}
+
+.section { 
+
+    position: relative;
+    height: 100vh;
+
+    // for text formatting
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 48%; */
+    margin: 0 auto;
+    color: white;
+    padding: 0% 0;
+    text-shadow: 0 0 5px #000;
+
+    p {
+
+        margin: 10px 0;
+        line-height: 1.7;
+    }
+
+}
+
+.parallax::after {
+
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-10px) scale(1.5);
+    background-size: 100%;
+    z-index: -1;
+}
+
+.static {
+    
+      background: #efbc50;
+}
 
 
-//Extend background styles 
-%bg-styles {
-    content: "bg-style";
-    background-size: cover;
-    background-position: 0;
-    background-repeat: no-repeat;
-    /* padding: 0; */
-    margin: 0;
+.bg1::after {
+
+    background: url('img/bg-one.JPG')
+    no-repeat center / cover;
+    background-position: fixed;
+    background-attachment: fixed;
+}
+  
+
+.bg2::after {
+    
+    background: url('img/bg-two.JPG')
+    no-repeat center / cover;
+    background-position: fixed;
+    background-attachment: fixed;
 }

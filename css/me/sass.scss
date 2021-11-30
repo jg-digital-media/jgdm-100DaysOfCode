@@ -1,4 +1,4 @@
-/* Last Update 30-11-2021 - 15:42pm */
+/* Last Update 30-11-2021 - 16:57 */
 
 * {
 
@@ -6,11 +6,17 @@
     padding: 0;
 }
 
+body {
+    font-family: calibri;
+}
+
 header {
 
     position: relative;
     top: 0;
     width: 100%;
+    background: #f9f980;
+    height: 50px;
 
     h1 {
 
@@ -29,26 +35,44 @@ header {
 
 .section { 
 
+
     position: relative;
     height: 100vh;
-
-    // for text formatting
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* align-items: start; */
     justify-content: center;
     /* width: 48%; */
     margin: 0 auto;
     color: white;
-    padding: 0% 0;
+    padding: 5% 20px;
     text-shadow: 0 0 5px #000;
+
+    h2, h1 {
+        color: white;
+
+        a {
+            color: white;
+        }
+    }
 
     p {
 
         margin: 10px 0;
         line-height: 1.7;
+        font-size: 30pt;
     }
 
+
+}
+
+.parallax {
+    
+
+    h1 {
+        text-transform: uppercase;
+    }
 }
 
 .parallax::after {
@@ -66,7 +90,73 @@ header {
 
 .static {
     
-      background: #efbc50;
+    background: #efbc50;
+    background: #5264ef;
+
+      
+    #hello {
+
+        font-size: 50pt;
+        margin: 25px 0;
+        
+        a {
+            color: white;
+        }
+    }
+
+    h1 {
+        font-size: 35pt;
+    }
+
+    p {
+
+        /* color: red; */
+        font-size: 23pt;
+        align-items: center;
+        text-align: center;
+        color: black;
+        color: red;
+        color: white;
+
+        a {
+
+            color: #e6a04a;
+
+            &:hover {
+                
+                text-decoration: none;
+            }
+        }
+    } 
+    
+    #effect {
+        
+        font-size: 16pt;
+        
+        a {
+
+            color: #e6a04a;
+
+            &:hover {
+                
+                text-decoration: none;
+            }
+        }
+    }
+
+    p {
+        font-weight: bold;
+    }
+
+    // list items 
+    ul {
+
+        li {
+            line-height: 3;
+            list-style: none;
+        }
+    
+    }
 }
 
 
@@ -76,6 +166,7 @@ header {
     no-repeat center / cover;
     background-position: fixed;
     background-attachment: fixed;
+    align-items: center;
 }
   
 
@@ -85,4 +176,5 @@ header {
     no-repeat center / cover;
     background-position: fixed;
     background-attachment: fixed;
+    align-items: center;
 }

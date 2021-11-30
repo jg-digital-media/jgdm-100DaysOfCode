@@ -6,9 +6,13 @@
 }
 
 
-
+html {
+    height: 100%;
+}
 
 body {
+
+    transform: translateZ(0px);
 
     header {
 
@@ -66,6 +70,10 @@ body {
                 padding-top: 8%;
             }
 
+            .list-item:first-child {
+                padding-top: 14%;
+            }
+
             //backgrounds
             li#history {
 
@@ -85,9 +93,10 @@ body {
                     
                     .main-text {
 
-                        transform: translateZ(10px) scale(1);
+                        transform: translateZ(60px) scale(.8);
                         transform-style: preserve-3d;
                         transform-origin: 100% 50%;   
+                        display: inline-block;
 
                         h2 {
 
@@ -107,6 +116,9 @@ body {
                         transform: translateZ(10px) scale(1);
                         transform-style: preserve-3d;
                         transform-origin: 100% 50%;   
+                        width: 30%;
+                        display: inline-block;
+                        vertical-align: top;
 
                         #img_id {
 
@@ -251,6 +263,6 @@ body {
     background-size: cover;
     background-position: 0;
     background-repeat: no-repeat;
-    padding: 0;
+    /* padding: 0; */
     margin: 0;
 }

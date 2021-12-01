@@ -14,7 +14,7 @@
 
 body {
   font-family: calibri;
-  background: #5264ef;
+  background: #081156;
   overflow: hidden; }
 
 header {
@@ -23,7 +23,7 @@ header {
   width: 100%;
   background: #f9f980;
   height: 50px;
-  border-bottom: #3b4fed 3px solid; }
+  border-bottom: #060c3f 3px solid; }
   header h1 {
     text-align: center; }
 
@@ -59,17 +59,17 @@ header {
           font-size: 6vw;
           margin: 25px 0; } }
       .wrapper .section h2 a, .wrapper .section h1 a {
-        color: white; }
+        color: #ffc37b; }
     .wrapper .section p {
       margin: 10px 0;
       line-height: 1.7; }
       @media (max-width: 680px) {
         .wrapper .section p {
-          line-height: 1; } }
+          line-height: 1.5; } }
     .wrapper .section a {
-      color: white; }
+      color: #ffc37b; }
   .wrapper .pages-section a {
-    color: white;
+    color: #ffc37b;
     padding: 10px; }
 
 .parallax h1 {
@@ -90,14 +90,15 @@ header {
 
 .static {
   /* background: $bg-secondary; */
-  background: #5264ef;
+  background: #081156;
   font-size: 16px; }
   .static h1#site_title {
     text-align: center;
     width: 100%; }
   .static #hello {
     font-size: 50pt;
-    margin: 25px 0; }
+    margin: 25px 0;
+    margin: 10% 0; }
     .static #hello a {
       color: white; }
   .static h1 {
@@ -108,12 +109,13 @@ header {
     font-size: 16px;
     align-items: center;
     text-align: center;
+    margin-top: 10px;
     color: white; }
     @media (max-width: 680px) {
       .static p {
         text-align: left; } }
     .static p a {
-      color: #e6a04a; }
+      color: #ffc37b; }
       .static p a:hover {
         text-decoration: none; }
   .static #effect {
@@ -121,7 +123,7 @@ header {
     font-size: 16px;
     font-weight: bold; }
     .static #effect a {
-      color: #e6a04a; }
+      color: #ffc37b; }
       .static #effect a:hover {
         text-decoration: none; }
   .static p {
@@ -139,7 +141,8 @@ header {
         line-height: 2; } }
     @media (max-width: 680px) {
       .static ul li {
-        line-height: 1.5; } }
+        /* line-height: 1.5; */
+        line-height: 2; } }
 
 .bg1 h2,
 .bg2 h2,

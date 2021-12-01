@@ -1,4 +1,10 @@
-/* Last Update 01-12-2021 - 11:23 */
+/* Last Update 01-12-2021 - 12:59 */
+/* partial.scss */
+.bg1::after, .bg2::after, .bg3::after, .bg4::after, .bg5::after, .bg6::after, .bg8::after {
+  background-position: fixed;
+  background-attachment: fixed;
+  align-items: center; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -42,9 +48,7 @@ header {
         color: white; }
     .wrapper .section p {
       margin: 10px 0;
-      line-height: 1.7;
-      /* font-size: 30pt; */
-      /* font-size: 16pt; */ }
+      line-height: 1.7; }
     .wrapper .section a {
       color: white; }
   .wrapper .pages-section a {
@@ -68,7 +72,7 @@ header {
   z-index: -1; }
 
 .static {
-  background: #efbc50;
+  /* background: $bg-secondary; */
   background: #5264ef;
   font-size: 16px; }
   .static h1#site_title {
@@ -84,20 +88,17 @@ header {
   .static h2 {
     font-size: 35pt; }
   .static p {
-    /* color: red; */
     font-size: 16px;
     align-items: center;
     text-align: center;
-    color: black;
-    color: red;
     color: white; }
     .static p a {
       color: #e6a04a; }
       .static p a:hover {
         text-decoration: none; }
   .static #effect {
-    font-size: 16px;
     margin-top: 15px;
+    font-size: 16px;
     font-weight: bold; }
     .static #effect a {
       color: #e6a04a; }

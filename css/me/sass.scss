@@ -1,4 +1,6 @@
-/* Last Update 01-12-2021 - 11:23 */
+/* Last Update 01-12-2021 - 12:59 */
+
+@import "sass/partial";
 
 * {
 
@@ -7,8 +9,9 @@
 }
 
 body {
+
     font-family: calibri;
-    background: #5264ef;
+    background: $bg-primary;
     overflow: hidden;
 }
 
@@ -17,9 +20,9 @@ header {
     position: relative;
     top: 0;
     width: 100%;
-    background: #f9f980;
+    background: $bg-secondary;
     height: 50px;
-    border-bottom: blue 3px solid;
+    border-bottom: $bdr-primary 3px solid;
 
     h1 {
 
@@ -39,7 +42,6 @@ header {
 
     .section { 
 
-
         position: relative;
         height: 100vh;
         display: flex;
@@ -54,10 +56,12 @@ header {
         text-shadow: 0 0 5px #000;
 
         h2, h1 {
-            color: white;
+
+            color: $col-primary;
 
             a {
-                color: white;
+
+                color: $col-primary;
             }
         }
 
@@ -65,13 +69,11 @@ header {
 
             margin: 10px 0;
             line-height: 1.7;
-            /* font-size: 30pt; */
-            /* font-size: 16pt; */
         }
 
         a {
 
-            color: white;
+            color: $col-primary;
         }
 
 
@@ -82,7 +84,7 @@ header {
             
         a {
 
-            color: white;
+            color: $col-primary;
             padding: 10px;
         }
     }
@@ -99,7 +101,7 @@ header {
 
     p {
 
-        font-size: 35pt;
+        font-size: $font-size-primary;
     }
 }
 
@@ -118,10 +120,9 @@ header {
 
 .static {
     
-    background: #efbc50;
-    background: #5264ef;
-
-    font-size: 16px;
+    /* background: $bg-secondary; */
+    background: $bg-primary;
+    font-size: $font-size-tertiary;
 
     h1#site_title {
 
@@ -132,36 +133,36 @@ header {
       
     #hello {
 
-        font-size: 50pt;
+        font-size: $font-size-bigtitle;
         margin: 25px 0;
         
         a {
-            color: white;
+            color: $col-primary;
         }
 
     }
 
     h1 {
-        font-size: 35pt;
+
+        font-size: $font-size-primary;
     }
 
     h2 {
-        font-size: 35pt;
+        
+        font-size: $font-size-primary;
     }
 
     p {
 
-        /* color: red; */
-        font-size: 16px;
+        
+        font-size: $font-size-tertiary;
         align-items: center;
         text-align: center;
-        color: black;
-        color: red;
-        color: white;
+        color: $col-primary;
 
         a {
 
-            color: #e6a04a;
+            color: $col-link-primary;
 
             &:hover {
                 
@@ -172,13 +173,14 @@ header {
     
     #effect {
         
-        font-size: 16px;
         margin-top: 15px;
+
+        font-size: $font-size-tertiary;
         font-weight: bold;
         
         a {
 
-            color: #e6a04a;
+            color: $col-link-primary;
 
             &:hover {
                 
@@ -192,7 +194,7 @@ header {
     p {
 
         font-weight: bold;
-        font-size: 16pt;    
+        font-size: $font-size-secondary;    
     }
 
     // list items 
@@ -219,12 +221,12 @@ header {
         text-align: center;
         text-transform: uppercase;
 
-        font-size: 35pt;
+        font-size: $font-size-primary;
     }
 
     p {
 
-        font-size: 35pt;
+        font-size: $font-size-primary;
     }
 }
 
@@ -237,6 +239,8 @@ header {
     background-position: fixed;
     background-attachment: fixed;
     align-items: center;
+
+    @extend %background-img-styles;
 }
   
 
@@ -247,6 +251,8 @@ header {
     background-position: fixed;
     background-attachment: fixed;
     align-items: center;
+
+    @extend %background-img-styles;
 }
 
 .bg3::after {
@@ -256,6 +262,8 @@ header {
     background-position: fixed;
     background-attachment: fixed;
     align-items: center;
+
+    @extend %background-img-styles;
 }
 
 .bg4::after {
@@ -265,6 +273,8 @@ header {
     background-position: fixed;
     background-attachment: fixed;
     align-items: center;
+
+    @extend %background-img-styles;
 }
 
 .bg5::after {
@@ -274,6 +284,8 @@ header {
     background-position: fixed;
     background-attachment: fixed;
     align-items: center;
+
+    @extend %background-img-styles;
 }
 
 .bg6::after {
@@ -283,6 +295,8 @@ header {
     background-position: fixed;
     background-attachment: fixed;
     align-items: center;
+
+    @extend %background-img-styles;
 }
 
 .bg7::after {
@@ -301,6 +315,8 @@ header {
     background-position: fixed;
     background-attachment: fixed;
     align-items: center;
+
+    @extend %background-img-styles;
 }
 
 

@@ -1,2 +1,30 @@
 /* partial.scss */
 
+$bg-primary: #5264ef;
+$bg-secondary: #f9f980;
+
+$bdr-primary: blue;
+
+$col-primary: white;
+$col-link-primary: #e6a04a;
+
+
+// Fonts
+$font-primary: calibri;
+
+// Font Sizes
+$font-size-bigtitle: 50pt;
+$font-size-primary: 35pt;
+$font-size-secondary: 16pt;
+$font-size-tertiary: 16px;
+
+
+// Extends
+%background-img-styles {
+    background-position: fixed;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+
+// Breakpoints

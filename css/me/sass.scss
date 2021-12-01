@@ -229,6 +229,7 @@ header {
 }
 
 
+// backgrounds
 .bg1::after {
 
     background: url('img/bg-one.JPG')
@@ -247,3 +248,59 @@ header {
     background-attachment: fixed;
     align-items: center;
 }
+
+.bg3::after {
+    
+    background: url('https://jg-photography.s3.eu-west-2.amazonaws.com/photography/images/2021/canon_75_300/birds_in_flight/IMG_1164.JPG')
+    no-repeat center / cover;
+    background-position: fixed;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.bg4::after {
+    
+    background: url('https://jg-photography.s3.eu-west-2.amazonaws.com/photography/images/2021/canon_75_300/birds_in_flight/IMG_1167.JPG')
+    no-repeat center / cover;
+    background-position: fixed;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.bg5::after {
+    
+    background: url('https://jg-photography.s3.eu-west-2.amazonaws.com/photography/images/2021/canon_75_300/birds_in_flight/IMG_1164.JPG')
+    no-repeat center / cover;
+    background-position: fixed;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.bg6::after {
+    
+    background: url('https://jg-photography.s3.eu-west-2.amazonaws.com/photography/images/2021/canon_75_300/birds_in_flight/IMG_1165.JPG')
+    no-repeat center / cover;
+    background-position: fixed;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.bg7::after {
+    
+    background: url('https://jg-photography.s3.eu-west-2.amazonaws.com/photography/images/2021/canon_75_300/birds_in_flight/IMG_1179.JPG')
+    no-repeat center / cover;
+    background-position: fixed;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.bg8::after {
+    
+    background: url('https://jg-photography.s3.eu-west-2.amazonaws.com/photography/images/2021/canon_75_300/birds_in_flight/IMG_2087.JPG')
+    no-repeat center / cover;
+    background-position: fixed;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+

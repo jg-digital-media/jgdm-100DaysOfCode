@@ -1,45 +1,49 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 43 of 100. **Last Update:** 30 November 2021
+## **Status:** Day 44 of 100. **Last Update:** 01 December 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+# R8D44: Wednesday 1 December 2021
 
+  + A visual design change (or evolution if you wish to call it that) to my new page and some content additions. I've tried to make some responsive design edits too if you're viewing on mobile.
 
-# R8D43: Tuesday 30 November 2022
+  + **Technologies Used** - HTML5, CSS,
+
+# R8D43: Tuesday 30 November 2021
 
   + I've been working all day on building this. A web page with parallax scrolling built purely with CSS. The takeaway, I've learned is it comes together with background-attachment set to fixed, in CSS.
 
-  + **Technologies Used** - HTML5, CSS, WordPress
+  + **Technologies Used** - HTML5, CSS
 
-# R8D42: Monday 29 November 2022
+# R8D42: Monday 29 November 2021
 
   + Minor updates to a website header, tackling CSS parallax scrolling and a contrent update to my Photography site.
 
-  + **Technologies Used** - HTML5, CSS, WordPress
+  + **Technologies Used** - HTML5, CSS
 
-# R8D41: Friday 26 November 2022
-
-  +  Spent the day looking at things I can do with Parallax Scrolling
-
-  + **Technologies Used** - HTML5, CSS, WordPress
-
-# R8D40: Thursday 26 November 2022
+# R8D41: Friday 26 November 2021
 
   +  Spent the day looking at things I can do with Parallax Scrolling
 
   + **Technologies Used** - HTML5, CSS, WordPress
 
+# R8D40: Thursday 26 November 2021
 
-# R8D39: Wednesday 24 November 2022
+  +  Spent the day looking at things I can do with Parallax Scrolling
+
+  + **Technologies Used** - HTML5, CSS, WordPress
+
+
+# R8D39: Wednesday 24 November 2021
 
   +   Only time today to make some web navigation edits so it looks better on smaller screens. Some useful but long needed changes. 
 
   + **Technologies Used** - HTML5, CSS, WordPress
 
-# R8D38: Tuesday 23 November 2022
+# R8D38: Tuesday 23 November 2021
 
   +   Finishing converting the latest vimeo embeds I have and making them responsive. 
 

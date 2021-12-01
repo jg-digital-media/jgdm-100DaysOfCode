@@ -1,4 +1,4 @@
-/* Last Update 30-11-2021 - 16:57 */
+/* Last Update 01-12-2021 - 10:13 */
 
 * {
 
@@ -8,6 +8,8 @@
 
 body {
     font-family: calibri;
+    background: #5264ef;
+    overflow: hidden;
 }
 
 header {
@@ -17,6 +19,7 @@ header {
     width: 100%;
     background: #f9f980;
     height: 50px;
+    border-bottom: blue 3px solid;
 
     h1 {
 
@@ -31,41 +34,60 @@ header {
     overflow-x: hidden;
     /* overflow-y: auto; */
     perspective: 2px;
-}
 
-.section { 
+    
+
+    .section { 
 
 
-    position: relative;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* align-items: start; */
-    justify-content: center;
-    /* width: 48%; */
-    margin: 0 auto;
-    color: white;
-    padding: 5% 20px;
-    text-shadow: 0 0 5px #000;
-
-    h2, h1 {
+        position: relative;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* align-items: start; */
+        justify-content: center;
+        /* width: 48%; */
+        margin: 0 auto;
         color: white;
+        padding: 5% 20px;
+        text-shadow: 0 0 5px #000;
+
+        h2, h1 {
+            color: white;
+
+            a {
+                color: white;
+            }
+        }
+
+        p {
+
+            margin: 10px 0;
+            line-height: 1.7;
+            /* font-size: 30pt; */
+            font-size: 16pt;
+        }
 
         a {
+
             color: white;
         }
-    }
 
-    p {
 
-        margin: 10px 0;
-        line-height: 1.7;
-        font-size: 30pt;
     }
 
 
+    .pages-section {
+            
+        a {
+
+            color: white;
+            padding: 10px;
+        }
+    }
 }
+
 
 .parallax {
     
@@ -93,6 +115,14 @@ header {
     background: #efbc50;
     background: #5264ef;
 
+    font-size: 16px;
+
+    h1#site_title {
+
+        text-align: center;
+        width: 100%;
+    }
+
       
     #hello {
 
@@ -102,6 +132,7 @@ header {
         a {
             color: white;
         }
+
     }
 
     h1 {
@@ -111,7 +142,7 @@ header {
     p {
 
         /* color: red; */
-        font-size: 23pt;
+        font-size: 16px;
         align-items: center;
         text-align: center;
         color: black;
@@ -131,7 +162,9 @@ header {
     
     #effect {
         
-        font-size: 16pt;
+        font-size: 16px;
+        margin-top: 15px;
+        font-weight: bold;
         
         a {
 
@@ -156,6 +189,20 @@ header {
             list-style: none;
         }
     
+    }
+}
+
+.bg1,
+.bg2,
+.bg3,
+.bg4,
+.bg5,
+.bg6 {
+
+    h2 {
+
+        text-align: center;
+        text-transform: uppercase;
     }
 }
 

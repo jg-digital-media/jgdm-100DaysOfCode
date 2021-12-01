@@ -1,17 +1,20 @@
-/* Last Update 30-11-2021 - 16:57 */
+/* Last Update 01-12-2021 - 10:13 */
 * {
   margin: 0;
   padding: 0; }
 
 body {
-  font-family: calibri; }
+  font-family: calibri;
+  background: #5264ef;
+  overflow: hidden; }
 
 header {
   position: relative;
   top: 0;
   width: 100%;
   background: #f9f980;
-  height: 50px; }
+  height: 50px;
+  border-bottom: blue 3px solid; }
   header h1 {
     text-align: center; }
 
@@ -20,28 +23,33 @@ header {
   overflow-x: hidden;
   /* overflow-y: auto; */
   perspective: 2px; }
-
-.section {
-  position: relative;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* align-items: start; */
-  justify-content: center;
-  /* width: 48%; */
-  margin: 0 auto;
-  color: white;
-  padding: 5% 20px;
-  text-shadow: 0 0 5px #000; }
-  .section h2, .section h1 {
-    color: white; }
-    .section h2 a, .section h1 a {
+  .wrapper .section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* align-items: start; */
+    justify-content: center;
+    /* width: 48%; */
+    margin: 0 auto;
+    color: white;
+    padding: 5% 20px;
+    text-shadow: 0 0 5px #000; }
+    .wrapper .section h2, .wrapper .section h1 {
       color: white; }
-  .section p {
-    margin: 10px 0;
-    line-height: 1.7;
-    font-size: 30pt; }
+      .wrapper .section h2 a, .wrapper .section h1 a {
+        color: white; }
+    .wrapper .section p {
+      margin: 10px 0;
+      line-height: 1.7;
+      /* font-size: 30pt; */
+      font-size: 16pt; }
+    .wrapper .section a {
+      color: white; }
+  .wrapper .pages-section a {
+    color: white;
+    padding: 10px; }
 
 .parallax h1 {
   text-transform: uppercase; }
@@ -59,7 +67,11 @@ header {
 
 .static {
   background: #efbc50;
-  background: #5264ef; }
+  background: #5264ef;
+  font-size: 16px; }
+  .static h1#site_title {
+    text-align: center;
+    width: 100%; }
   .static #hello {
     font-size: 50pt;
     margin: 25px 0; }
@@ -69,7 +81,7 @@ header {
     font-size: 35pt; }
   .static p {
     /* color: red; */
-    font-size: 23pt;
+    font-size: 16px;
     align-items: center;
     text-align: center;
     color: black;
@@ -80,7 +92,9 @@ header {
       .static p a:hover {
         text-decoration: none; }
   .static #effect {
-    font-size: 16pt; }
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: bold; }
     .static #effect a {
       color: #e6a04a; }
       .static #effect a:hover {
@@ -90,6 +104,15 @@ header {
   .static ul li {
     line-height: 3;
     list-style: none; }
+
+.bg1 h2,
+.bg2 h2,
+.bg3 h2,
+.bg4 h2,
+.bg5 h2,
+.bg6 h2 {
+  text-align: center;
+  text-transform: uppercase; }
 
 .bg1::after {
   background: url("img/bg-one.JPG") no-repeat center/cover;

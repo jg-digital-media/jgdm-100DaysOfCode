@@ -1,4 +1,4 @@
-/* Last Update 01-12-2021 - 10:13 */
+/* Last Update 01-12-2021 - 11:23 */
 * {
   margin: 0;
   padding: 0; }
@@ -44,7 +44,7 @@ header {
       margin: 10px 0;
       line-height: 1.7;
       /* font-size: 30pt; */
-      font-size: 16pt; }
+      /* font-size: 16pt; */ }
     .wrapper .section a {
       color: white; }
   .wrapper .pages-section a {
@@ -53,6 +53,8 @@ header {
 
 .parallax h1 {
   text-transform: uppercase; }
+.parallax p {
+  font-size: 35pt; }
 
 .parallax::after {
   content: " ";
@@ -79,6 +81,8 @@ header {
       color: white; }
   .static h1 {
     font-size: 35pt; }
+  .static h2 {
+    font-size: 35pt; }
   .static p {
     /* color: red; */
     font-size: 16px;
@@ -100,7 +104,8 @@ header {
       .static #effect a:hover {
         text-decoration: none; }
   .static p {
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 16pt; }
   .static ul li {
     line-height: 3;
     list-style: none; }
@@ -112,7 +117,15 @@ header {
 .bg5 h2,
 .bg6 h2 {
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 35pt; }
+.bg1 p,
+.bg2 p,
+.bg3 p,
+.bg4 p,
+.bg5 p,
+.bg6 p {
+  font-size: 35pt; }
 
 .bg1::after {
   background: url("img/bg-one.JPG") no-repeat center/cover;

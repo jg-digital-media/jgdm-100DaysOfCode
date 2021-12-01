@@ -162,6 +162,18 @@ header {
             color: $col-primary;
         }
 
+        #emoji {
+            
+            transition: transform .3s, color .3s;
+            display: inline-block;
+
+            &:hover {
+
+                color: #ffe786;
+                transform: scale(1.2);
+            }
+        }
+
     }
 
     h1 {

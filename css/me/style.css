@@ -52,7 +52,7 @@ header {
       .wrapper .section {
         height: auto; } }
     .wrapper .section h2, .wrapper .section h1 {
-      color: #e7efca; }
+      color: #e5f2b6; }
       @media (max-width: 680px) {
         .wrapper .section h2, .wrapper .section h1 {
           text-align: center;
@@ -100,7 +100,13 @@ header {
     margin: 25px 0;
     margin: 10% 0; }
     .static #hello a {
-      color: #e7efca; }
+      color: #e5f2b6; }
+    .static #hello #emoji {
+      transition: transform .3s, color .3s;
+      display: inline-block; }
+      .static #hello #emoji:hover {
+        color: #ffe786;
+        transform: scale(1.2); }
   .static h1 {
     font-size: 35pt; }
   .static h2 {
@@ -110,7 +116,7 @@ header {
     align-items: center;
     text-align: center;
     margin-top: 10px;
-    color: #e7efca; }
+    color: #e5f2b6; }
     @media (max-width: 680px) {
       .static p {
         text-align: left; } }

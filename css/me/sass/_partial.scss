@@ -3,7 +3,7 @@
 $bg-primary: #5264ef;
 $bg-secondary: #f9f980;
 
-$bdr-primary: blue;
+$bdr-primary: darken( $bg-primary, 5% );
 
 $col-primary: white;
 $col-link-primary: #e6a04a;
@@ -19,12 +19,25 @@ $font-size-secondary: 16pt;
 $font-size-tertiary: 16px;
 
 
+
+// Breakpoints
+
+$desktop-lg: 1900px;
+
+$lg: 980px;
+$md: 680px;
+
+
+
 // Extends
 %background-img-styles {
+
     background-position: fixed;
     background-attachment: fixed;
     align-items: center;
+
+    @media(max-width: $md) {
+
+        background-size: 100% 100%;
+    }
 }
-
-
-// Breakpoints

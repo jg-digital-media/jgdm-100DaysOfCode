@@ -1,4 +1,4 @@
-/* Last Update 01-12-2021 - 12:59 */
+/* Last Update 01-12-2021 - 15:25 */
 
 @import "sass/partial";
 
@@ -55,9 +55,25 @@ header {
         padding: 5% 20px;
         text-shadow: 0 0 5px #000;
 
+        @media(max-width: $lg) {
+            
+            padding: 10% 20px;
+        }
+
+        @media(max-width: $md) {
+
+            height: auto;
+        }
+
         h2, h1 {
 
             color: $col-primary;
+
+            @media(max-width: $md) {
+                text-align: center;
+                font-size: 6vw;
+                margin: 25px 0;
+            }
 
             a {
 
@@ -69,6 +85,11 @@ header {
 
             margin: 10px 0;
             line-height: 1.7;
+
+            @media(max-width: $md) {
+
+                line-height: 1;
+            }
         }
 
         a {
@@ -114,7 +135,7 @@ header {
     bottom: 0;
     left: 0;
     transform: translateZ(-10px) scale(1.5);
-    background-size: 100%;
+    /* background-size: 100%; */
     z-index: -1;
 }
 
@@ -160,6 +181,10 @@ header {
         text-align: center;
         color: $col-primary;
 
+        @media(max-width: $md) {
+            text-align: left;
+        }
+
         a {
 
             color: $col-link-primary;
@@ -200,13 +225,29 @@ header {
     // list items 
     ul {
 
+        @media(max-width: $lg) {
+            padding: 10px 0;
+            padding: 3% 0;
+        }
+
         li {
 
             line-height: 3;
             list-style: none;
+
+            @media(max-width: $lg) {
+                line-height: 2;
+            }
+
+            @media(max-width: $md) {
+
+                line-height: 1.5;
+            }
+
         }
     
     }
+
 }
 
 .bg1,
@@ -227,6 +268,11 @@ header {
     p {
 
         font-size: $font-size-primary;
+        text-align: center;
+
+        @media(max-width: $md) {
+            line-height: 1.7;
+        }
     }
 }
 
@@ -306,6 +352,8 @@ header {
     background-position: fixed;
     background-attachment: fixed;
     align-items: center;
+
+    @extend %background-img-styles;
 }
 
 .bg8::after {

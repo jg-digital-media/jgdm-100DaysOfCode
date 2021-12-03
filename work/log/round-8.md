@@ -1,21 +1,28 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 45 of 100. **Last Update:** 02 December 2021
+## **Status:** Day 46 of 100. **Last Update:** 03 December 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+# R8D46: Friday 3 December 2021
+
+  + I'm working on an expansion to my Photography Website, which will soon be ready to be put online. Was good to get back to some client work today in WordPress. Sire updates below. 
+
+
+  + **Technologies Used** - HTML5, CSS, WordPress 
 
 # R8D45: Thursday 2 December 2021
 
   + I'm working on an expansion to my Photography Website, which will soon be ready to be put online.
 
-  + **Technologies Used** - HTML5, CSS,
+  + **Technologies Used** - HTML5, CSS
 
 # R8D44: Wednesday 1 December 2021
 
   + A visual design change (or evolution if you wish to call it that) to my new page and some content additions. I've tried to make some responsive design edits too if you're viewing on mobile.
 
-  + **Technologies Used** - HTML5, CSS,
+  + **Technologies Used** - HTML5, CSS
 
 # R8D43: Tuesday 30 November 2021
 

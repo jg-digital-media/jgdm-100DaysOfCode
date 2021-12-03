@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 44 of 100. **Last Update:** 01 December 2021
+## **Status:** Day 45 of 100. **Last Update:** 02 December 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+# R8D45: Thursday 2 December 2021
+
+  + I'm working on an expansion to my Photography Website, which will soon be ready to be put online.
+
+  + **Technologies Used** - HTML5, CSS,
 
 # R8D44: Wednesday 1 December 2021
 

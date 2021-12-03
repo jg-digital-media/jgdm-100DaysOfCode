@@ -7,7 +7,7 @@ ___
 
 # R8D46: Friday 3 December 2021
 
-  + I'm working on an expansion to my Photography Website, which will soon be ready to be put online. Was good to get back to some client work today in WordPress. Sire updates below. 
+  + I'm working on an expansion to my Photography Website, which will soon be ready to be put online. Was good to get back to some client work today in WordPress. Site updates below. 
 
 
   + **Technologies Used** - HTML5, CSS, WordPress 

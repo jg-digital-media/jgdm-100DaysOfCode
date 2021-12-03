@@ -32,9 +32,10 @@ $md: 680px;
 // Extends
 %background-img-styles {
 
-    background-position: fixed;
+    /* background-position: fixed; */
     background-attachment: fixed;
-    align-items: center;
+    /* align-items: center; */
+    /* align-items: left; */
 
     @media(max-width: $md) {
 

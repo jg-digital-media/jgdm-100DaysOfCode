@@ -1,4 +1,4 @@
-/* Last Update 02-12-2021 - 13:20 */
+/* Last Update 03-12-2021 - 17:28 */
 
 @import "sass/partial";
 
@@ -145,20 +145,62 @@ header {
     background: $bg-primary;
     font-size: $font-size-tertiary;
 
+    text-align: left;
+
     h1#site_title {
 
         text-align: center;
         width: 100%;
     }
 
+    h1 {
+
+        font-size: $font-size-primary;
+    }
+
+    h2 {
+        
+        font-size: $font-size-primary;
+    }    
+
+
+    p {
+
+        font-weight: bold;
+        font-size: $font-size-secondary;    
+        align-items: center;
+        /* text-align: center; */
+        text-align: left;
+        margin-top: 10px;
+    
+        color: $col-primary;
+
+        @media(max-width: $md) {
+
+            text-align: left;
+        }
+
+        a {
+
+            color: $col-link-primary;
+
+            &:hover {
+                
+                text-decoration: none;
+            }
+
+        }
+
+    } 
+
       
     #hello {
 
         font-size: $font-size-bigtitle;
-        margin: 25px 0;
         margin: 10% 0;
         
         a {
+
             color: $col-primary;
         }
 
@@ -172,44 +214,11 @@ header {
                 color: #ffe786;
                 transform: scale(1.2);
             }
+
         }
 
     }
 
-    h1 {
-
-        font-size: $font-size-primary;
-    }
-
-    h2 {
-        
-        font-size: $font-size-primary;
-    }
-
-    p {
-
-        
-        font-size: $font-size-tertiary;
-        align-items: center;
-        text-align: center;
-        margin-top: 10px;
-    
-        color: $col-primary;
-
-        @media(max-width: $md) {
-            text-align: left;
-        }
-
-        a {
-
-            color: $col-link-primary;
-
-            &:hover {
-                
-                text-decoration: none;
-            }
-        }
-    } 
     
     #effect {
         
@@ -231,14 +240,10 @@ header {
 
     }
 
-    p {
-
-        font-weight: bold;
-        font-size: $font-size-secondary;    
-    }
-
     // list items 
     ul {
+
+        color: $col-primary;
 
         @media(max-width: $lg) {
             padding: 10px 0;
@@ -266,12 +271,68 @@ header {
 
 }
 
+#intro {
+    content: "";
+
+}
+#my-history {
+    content: "";
+
+}
+#qualifications {
+    content: "";
+
+}
+
+#hobbies {
+    content: "";
+
+}
+
+#dyspraxia {
+    content: "";
+
+}
+
+#webdesign {
+    content: "";
+
+}
+
+#photography {
+    content: "";
+
+}
+
+#christianity {
+    content: "";
+
+}
+
+#politics {
+    content: "";
+}
+
+#intro,
+#my-history,
+#qualifications,
+#hobbies,
+#dyspraxia,
+#webdesign,
+#photography,
+#christianity,
+#politics {
+    text-align: left;
+}
+
 .bg1,
 .bg2,
 .bg3,
 .bg4,
 .bg5,
-.bg6 {
+.bg6,
+.bg7,
+.bg8 {
 
     h2 {
 
@@ -298,9 +359,8 @@ header {
 
     background: url('img/bg-one.JPG')
     no-repeat center / cover;
-    background-position: fixed;
     background-attachment: fixed;
-    align-items: center;
+    text-align: left;
 
     @extend %background-img-styles;
 }
@@ -310,9 +370,8 @@ header {
     
     background: url('img/bg-two.JPG')
     no-repeat center / cover;
-    background-position: fixed;
     background-attachment: fixed;
-    align-items: center;
+    text-align: left;
 
     @extend %background-img-styles;
 }
@@ -321,9 +380,8 @@ header {
     
     background: url('https://jg-photography.s3.eu-west-2.amazonaws.com/photography/images/2021/canon_75_300/birds_in_flight/IMG_1164.JPG')
     no-repeat center / cover;
-    background-position: fixed;
     background-attachment: fixed;
-    align-items: center;
+    text-align: left;
 
     @extend %background-img-styles;
 }
@@ -332,20 +390,17 @@ header {
     
     background: url('https://jg-photography.s3.eu-west-2.amazonaws.com/photography/images/2021/canon_75_300/birds_in_flight/IMG_1167.JPG')
     no-repeat center / cover;
-    background-position: fixed;
     background-attachment: fixed;
-    align-items: center;
+    text-align: left;
 
     @extend %background-img-styles;
 }
 
 .bg5::after {
     
-    background: url('https://jg-photography.s3.eu-west-2.amazonaws.com/photography/images/2021/canon_75_300/birds_in_flight/IMG_2087.JPG')
+    background: url('https://jg-photography.s3.eu-west-2.amazonaws.com/photography/images/2021/canon_75_300/birds_in_flight/IMG_4755.JPG')
     no-repeat center / cover;
-    background-position: fixed;
     background-attachment: fixed;
-    align-items: center;
 
     @extend %background-img-styles;
 }
@@ -354,9 +409,7 @@ header {
     
     background: url('https://jg-photography.s3.eu-west-2.amazonaws.com/photography/images/2021/canon_75_300/birds_in_flight/IMG_1165.JPG')
     no-repeat center / cover;
-    background-position: fixed;
     background-attachment: fixed;
-    align-items: center;
 
     @extend %background-img-styles;
 }
@@ -365,9 +418,7 @@ header {
     
     background: url('https://jg-photography.s3.eu-west-2.amazonaws.com/photography/images/2021/canon_75_300/birds_in_flight/IMG_1179.JPG')
     no-repeat center / cover;
-    background-position: fixed;
     background-attachment: fixed;
-    align-items: center;
 
     @extend %background-img-styles;
 }
@@ -376,9 +427,18 @@ header {
     
     background: url('https://jg-photography.s3.eu-west-2.amazonaws.com/photography/images/2021/canon_75_300/birds_in_flight/IMG_2087.JPG')
     no-repeat center / cover;
-    background-position: fixed;
     background-attachment: fixed;
-    align-items: center;
+
+    @extend %background-img-styles;
+}
+
+
+
+.bg9::after {
+    
+    background: url('https://jg-photography.s3.eu-west-2.amazonaws.com/photography/images/2021/canon_75_300/birds_in_flight/IMG_2087.JPG')
+    no-repeat center / cover;
+    background-attachment: fixed;
 
     @extend %background-img-styles;
 }

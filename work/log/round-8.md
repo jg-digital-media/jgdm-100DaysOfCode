@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 46 of 100. **Last Update:** 03 December 2021
+## **Status:** Day 47 of 100. **Last Update:** 06 December 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+# R8D47: Tuesday 6 December 2021
+
+  + Spent the day working on custom field instructions for the WordPress website we're working on. And minor bug fixes. I've also finished preparing the expansion to my photography website so it's ready for 2022.  :)
+
+
+  + **Technologies Used** - HTML5, CSS, WordPress 
 
 # R8D46: Friday 3 December 2021
 

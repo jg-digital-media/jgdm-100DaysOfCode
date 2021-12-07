@@ -1,4 +1,4 @@
-/* Last Update 03-12-2021 - 17:28 */
+/* Last Update 07-12-2021 - 10:03 */
 /* partial.scss */
 .bg1::after, .bg2::after, .bg3::after, .bg4::after, .bg5::after, .bg6::after, .bg7::after, .bg8::after, .bg9::after {
   /* background-position: fixed; */
@@ -38,7 +38,7 @@ header {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     /* align-items: start; */
     justify-content: center;
     /* width: 48%; */
@@ -52,6 +52,8 @@ header {
     @media (max-width: 680px) {
       .wrapper .section {
         height: auto; } }
+    .wrapper .section h1 {
+      text-align: center; }
     .wrapper .section h2, .wrapper .section h1 {
       color: #e5f2b6; }
       @media (max-width: 680px) {
@@ -127,14 +129,6 @@ header {
       .static #hello #emoji:hover {
         color: #ffe786;
         transform: scale(1.2); }
-  .static #effect {
-    margin-top: 15px;
-    font-size: 16px;
-    font-weight: bold; }
-    .static #effect a {
-      color: #ffc37b; }
-      .static #effect a:hover {
-        text-decoration: none; }
   .static ul {
     color: #e5f2b6; }
     @media (max-width: 980px) {
@@ -151,9 +145,21 @@ header {
         .static ul li {
           /* line-height: 1.5; */
           line-height: 2; } }
+  .static .footer {
+    margin-top: 10px;
+    text-align: center; }
 
-#intro {
-  content: ""; }
+#intro p {
+  text-align: center; }
+#intro #effect {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center; }
+  #intro #effect a {
+    color: #ffc37b; }
+    #intro #effect a:hover {
+      text-decoration: none; }
 
 #my-history {
   content: ""; }
@@ -189,38 +195,57 @@ header {
 #christianity,
 #politics {
   text-align: left; }
+  #intro h2,
+  #my-history h2,
+  #qualifications h2,
+  #hobbies h2,
+  #dyspraxia h2,
+  #webdesign h2,
+  #photography h2,
+  #christianity h2,
+  #politics h2 {
+    text-align: center; }
 
-.bg1 h2,
-.bg2 h2,
-.bg3 h2,
-.bg4 h2,
-.bg5 h2,
-.bg6 h2,
-.bg7 h2,
-.bg8 h2 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 35pt; }
-.bg1 p,
-.bg2 p,
-.bg3 p,
-.bg4 p,
-.bg5 p,
-.bg6 p,
-.bg7 p,
-.bg8 p {
-  font-size: 35pt;
-  text-align: center; }
-  @media (max-width: 680px) {
-    .bg1 p,
-    .bg2 p,
-    .bg3 p,
-    .bg4 p,
-    .bg5 p,
-    .bg6 p,
-    .bg7 p,
-    .bg8 p {
-      line-height: 1.7; } }
+.bg1,
+.bg2,
+.bg3,
+.bg4,
+.bg5,
+.bg6,
+.bg7,
+.bg8 {
+  padding: 3% 0px; }
+  .bg1 h2,
+  .bg2 h2,
+  .bg3 h2,
+  .bg4 h2,
+  .bg5 h2,
+  .bg6 h2,
+  .bg7 h2,
+  .bg8 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35pt; }
+  .bg1 p,
+  .bg2 p,
+  .bg3 p,
+  .bg4 p,
+  .bg5 p,
+  .bg6 p,
+  .bg7 p,
+  .bg8 p {
+    font-size: 35pt;
+    text-align: center; }
+    @media (max-width: 680px) {
+      .bg1 p,
+      .bg2 p,
+      .bg3 p,
+      .bg4 p,
+      .bg5 p,
+      .bg6 p,
+      .bg7 p,
+      .bg8 p {
+        line-height: 1.7; } }
 
 .bg1::after {
   background: url("img/bg-one.JPG") no-repeat center/cover;

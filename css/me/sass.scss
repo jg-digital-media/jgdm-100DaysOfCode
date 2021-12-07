@@ -1,4 +1,4 @@
-/* Last Update 03-12-2021 - 17:28 */
+/* Last Update 07-12-2021 - 10:03 */
 
 @import "sass/partial";
 
@@ -46,7 +46,7 @@ header {
         height: 100vh;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
         /* align-items: start; */
         justify-content: center;
         /* width: 48%; */
@@ -63,6 +63,10 @@ header {
         @media(max-width: $md) {
 
             height: auto;
+        }
+
+        h1 {
+            text-align: center;
         }
 
         h2, h1 {
@@ -220,25 +224,6 @@ header {
     }
 
     
-    #effect {
-        
-        margin-top: 15px;
-
-        font-size: $font-size-tertiary;
-        font-weight: bold;
-        
-        a {
-
-            color: $col-link-primary;
-
-            &:hover {
-                
-                text-decoration: none;
-            }
-
-        }
-
-    }
 
     // list items 
     ul {
@@ -269,10 +254,44 @@ header {
     
     }
 
+    .footer {
+
+
+        margin-top: 10px;
+        text-align: center;
+    }
+
 }
 
+//individual section styling
 #intro {
-    content: "";
+
+    p {
+
+        text-align: center;
+    }
+
+
+    #effect {
+        
+        margin-top: 15px;
+
+        font-size: $font-size-tertiary;
+        font-weight: bold;
+        text-align: center;
+        
+        a {
+
+            color: $col-link-primary;
+
+            &:hover {
+                
+                text-decoration: none;
+            }
+
+        }
+
+    }
 
 }
 #my-history {
@@ -323,6 +342,10 @@ header {
 #christianity,
 #politics {
     text-align: left;
+
+    h2 {
+        text-align: center;
+    }
 }
 
 .bg1,
@@ -333,6 +356,8 @@ header {
 .bg6,
 .bg7,
 .bg8 {
+
+    padding: 3% 0px;
 
     h2 {
 

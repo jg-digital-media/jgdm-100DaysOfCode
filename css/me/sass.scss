@@ -391,6 +391,10 @@ header {
         width: 60%;
         margin: 0 auto;
 
+        @media (max-width: $md) {
+            width: 95%;
+        }
+
         p {
             /* margin-top: 15px; */
             margin-top: 3%;

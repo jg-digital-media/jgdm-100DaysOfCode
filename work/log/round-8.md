@@ -1,9 +1,15 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 47 of 100. **Last Update:** 06 December 2021
+## **Status:** Day 48 of 100. **Last Update:** 07 December 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+# R8D48: Wednesday 7 December 2021
+
+  + I've added some new content to my Photography site. More buttons on the homepage that to take you directly to the lens pages. You should be able to navigate *to* any page *from* any page.
+
+  + **Technologies Used** - HTML5, CSS
 
 # R8D47: Tuesday 6 December 2021
 

@@ -173,6 +173,15 @@ header {
 
 #hobbies {
   content: ""; }
+  #hobbies #hobbies-list {
+    color: #27d727;
+    position: relative;
+    left: 10px;
+    font-size: 20pt;
+    line-height: 2; }
+    #hobbies #hobbies-list li {
+      list-style: none;
+      left: 10px; }
 
 #dyspraxia {
   content: ""; }

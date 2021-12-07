@@ -229,7 +229,7 @@ header {
     ul.work-list {
 
         color: $col-primary;
-        color: #27d727;
+        color: $col-list;
         font-size: 20pt;
 
         @media(max-width: $lg) {
@@ -261,7 +261,6 @@ header {
     }
 
     .footer {
-
 
         margin-top: 10px;
         text-align: center;
@@ -300,6 +299,7 @@ header {
     }
 
 }
+
 #my-history {
     content: "";
 
@@ -310,7 +310,23 @@ header {
 }
 
 #hobbies {
+
     content: "";
+
+
+    #hobbies-list {
+
+        color: $col-list;
+        position: relative;
+        left: 10px;
+        font-size: 20pt;
+        line-height: 2;
+        
+        li {
+            list-style: none;
+            left: 10px;
+        }
+    }
 
 }
 

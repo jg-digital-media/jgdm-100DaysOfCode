@@ -238,7 +238,7 @@ header {
 
         li {
 
-            line-height: 3;
+            line-height: 2;
             list-style: none;
             position: relative;
             left: 4pc;
@@ -377,11 +377,26 @@ header {
 #photography,
 #christianity,
 #politics {
+
     text-align: left;
 
     h2 {
+
         text-align: center;
     }
+
+    article {
+
+        display: block;
+        width: 60%;
+        margin: 0 auto;
+
+        p {
+            /* margin-top: 15px; */
+            margin-top: 3%;
+        }
+    }
+
 }
 
 .bg1,

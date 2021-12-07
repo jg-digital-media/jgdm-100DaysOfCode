@@ -1,4 +1,4 @@
-/* Last Update 07-12-2021 - 10:578 */
+/* Last Update 07-12-2021 - 10:58 */
 /* partial.scss */
 .bg1::after, .bg2::after, .bg3::after, .bg4::after, .bg5::after, .bg6::after, .bg7::after, .bg8::after, .bg9::after {
   /* background-position: fixed; */
@@ -15,7 +15,7 @@
 
 body {
   font-family: calibri;
-  background: #081156;
+  background: #2d078e;
   overflow: hidden; }
 
 header {
@@ -24,7 +24,7 @@ header {
   width: 100%;
   background: #f9f980;
   height: 50px;
-  border-bottom: #060c3f 3px solid; }
+  border-bottom: #250676 3px solid; }
   header h1 {
     text-align: center; }
 
@@ -93,7 +93,7 @@ header {
 
 .static {
   /* background: $bg-secondary; */
-  background: #081156;
+  background: #2d078e;
   text-align: left; }
   .static h1#site_title {
     text-align: center;
@@ -104,7 +104,7 @@ header {
     font-size: 35pt; }
   .static p {
     font-weight: bold;
-    font-size: 16pt;
+    font-size: 18pt;
     align-items: center;
     /* text-align: center; */
     text-align: left;
@@ -137,7 +137,7 @@ header {
         padding: 10px 0;
         padding: 3% 0; } }
     .static ul.work-list li {
-      line-height: 3;
+      line-height: 2;
       list-style: none;
       position: relative;
       left: 4pc; }
@@ -226,6 +226,40 @@ header {
   #christianity h2,
   #politics h2 {
     text-align: center; }
+  #intro article,
+  #my-history article,
+  #qualifications article,
+  #hobbies article,
+  #dyspraxia article,
+  #webdesign article,
+  #photography article,
+  #christianity article,
+  #politics article {
+    display: block;
+    width: 60%;
+    margin: 0 auto; }
+    @media (max-width: 680px) {
+      #intro article,
+      #my-history article,
+      #qualifications article,
+      #hobbies article,
+      #dyspraxia article,
+      #webdesign article,
+      #photography article,
+      #christianity article,
+      #politics article {
+        width: 95%; } }
+    #intro article p,
+    #my-history article p,
+    #qualifications article p,
+    #hobbies article p,
+    #dyspraxia article p,
+    #webdesign article p,
+    #photography article p,
+    #christianity article p,
+    #politics article p {
+      /* margin-top: 15px; */
+      margin-top: 3%; }
 
 .bg1,
 .bg2,

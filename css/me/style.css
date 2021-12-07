@@ -94,7 +94,6 @@ header {
 .static {
   /* background: $bg-secondary; */
   background: #081156;
-  font-size: 16px;
   text-align: left; }
   .static h1#site_title {
     text-align: center;
@@ -131,7 +130,7 @@ header {
         transform: scale(1.2); }
   .static ul.work-list {
     color: #e5f2b6;
-    color: #27d727;
+    color: #5eff5e;
     font-size: 20pt; }
     @media (max-width: 980px) {
       .static ul.work-list {
@@ -170,11 +169,20 @@ header {
 
 #qualifications {
   content: ""; }
+  #qualifications #qualifications-list {
+    color: #5eff5e;
+    position: relative;
+    left: 10px;
+    font-size: 14pt;
+    line-height: 2; }
+    #qualifications #qualifications-list li {
+      list-style: none;
+      left: 10px; }
 
 #hobbies {
   content: ""; }
   #hobbies #hobbies-list {
-    color: #27d727;
+    color: #5eff5e;
     position: relative;
     left: 10px;
     font-size: 20pt;

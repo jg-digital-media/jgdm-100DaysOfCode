@@ -1,4 +1,4 @@
-/* Last Update 07-12-2021 - 10:03 */
+/* Last Update 07-12-2021 - 10:07 */
 
 @import "sass/partial";
 
@@ -226,11 +226,14 @@ header {
     
 
     // list items 
-    ul {
+    ul.work-list {
 
         color: $col-primary;
+        color: #27d727;
+        font-size: 20pt;
 
         @media(max-width: $lg) {
+
             padding: 10px 0;
             padding: 3% 0;
         }
@@ -239,8 +242,11 @@ header {
 
             line-height: 3;
             list-style: none;
+            position: relative;
+            left: 4pc;
 
             @media(max-width: $lg) {
+
                 line-height: 2;
             }
 

@@ -5,13 +5,19 @@ ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-# R8D48: Wednesday 7 December 2021
+# R8D49: Wednesday 8 December 2021
+
+  + More stuff with my photography site trying to create collapsible content.
+
+  + **Technologies Used** - HTML5, CSS
+
+# R8D48: Tuesday 7 December 2021
 
   + I've added some new content to my Photography site. More buttons on the homepage that to take you directly to the lens pages. You should be able to navigate *to* any page *from* any page.
 
   + **Technologies Used** - HTML5, CSS
 
-# R8D47: Tuesday 6 December 2021
+# R8D47: Monday 6 December 2021
 
   + Spent the day working on custom field instructions for the WordPress website we're working on. And minor bug fixes. I've also finished preparing the expansion to my photography website so it's ready for 2022.  :)
 

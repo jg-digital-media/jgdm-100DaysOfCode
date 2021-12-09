@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 48 of 100. **Last Update:** 07 December 2021
+## **Status:** Day 50 of 100. **Last Update:** 09 December 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+# R8D50: Thursday 9 December 2021
+
+  + Half way through round 8. Just finished a bit of an update (that I haven't put like yet) to my Photography site building photo content in 2022 with collapsible areas - saves on scrolling when the content builds up through the year
+
+  + **Technologies Used** - HTML5, CSS, JavaScript
+
 
 # R8D49: Wednesday 8 December 2021
 

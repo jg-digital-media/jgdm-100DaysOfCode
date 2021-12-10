@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 50 of 100. **Last Update:** 09 December 2021
+## **Status:** Day 51 of 100. **Last Update:** 10 December 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R8D51: Friday 10 December 2021
+
+  + We're almost at the tweak and debug stage of our WordPress project. I spent the first half of today adding more of the required media to the site. I've said it before but I can't wait to reveal it when the go ahead is given.  :)
+
+  + **Technologies Used** - HTML5, CSS, JavaScript
 
 # R8D50: Thursday 9 December 2021
 

@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 52 of 100. **Last Update:** 13 December 2021
+## **Status:** Day 53 of 100. **Last Update:** 14 December 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+# R8D53: Tuesday 14 December 2021
+
+  + We're pleased to announce that we have opened the website, AM Consulting back up and live with a few edits from how where we previously left it.  https://am-consulting.org.uk/
+
+  + **Technologies Used** - HTML5, CSS, JavaScript
 
 # R8D52: Monday 13 December 2021
 

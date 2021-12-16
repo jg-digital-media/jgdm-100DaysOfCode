@@ -1,15 +1,22 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 54 of 100. **Last Update:** 15 December 2021
+## **Status:** Day 55 of 100. **Last Update:** 16 December 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+# R8D55: Thursday 15 December 2021
+
+  + Added some image content to a Web page I'm making about Saltburn which I'll probably make public in the new year.  Working on my Photography site too working out it's complex navigation structure, also ready for the new year
+
+  + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
 
 # R8D54: Wednesday 15 December 2021
 
   + Working on requested tweaks on a WordPress project for a client as we get ever closer to launching.
 
   + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
+
 
 # R8D53: Tuesday 14 December 2021
 

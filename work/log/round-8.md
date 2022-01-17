@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 58 of 100. **Last Update:** 14 January 2021
+## **Status:** Day 59 of 100. **Last Update:** 17 January 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R8D59: Monday 17 January 2022
+
+  + A further 20 commits of edits and work have been made today.  Work now uploaded for client review.  
+
+  + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
 
 
 # R8D58: Friday 14 January 2022

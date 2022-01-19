@@ -9,7 +9,7 @@ ___
 
 # R8D60: Tuesday 18 January 2022
 
-  +   
+  +  Pretty much as R8D59
 
   + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
 

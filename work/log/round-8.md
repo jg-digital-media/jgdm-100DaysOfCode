@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 61 of 100. **Last Update:** 19 January 2021
+## **Status:** Day 62 of 100. **Last Update:** 20 January 2021
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R8D62: Thursday 20 January 2022
+
+  + Edits made to pmconsulting.com website today. Work on other projects remains ongoing.  It has all kept me busy. 
+
+  + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
 
 # R8D61: Wednesday 19 January 2022
 

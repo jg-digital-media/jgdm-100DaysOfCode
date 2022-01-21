@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   21/01/2022  10:28
+Last Updated:   21/01/2022  11:02
 */
 .main-content .button {
   background: #888e42;
@@ -84,7 +84,7 @@ header {
     @media (max-width: 780px) {
       header img {
         display: block;
-        margin: 5px auto; } }
+        margin: 0px auto; } }
   header #website-title {
     display: inline-block;
     width: 38%;
@@ -103,6 +103,9 @@ header {
       color: #888e42; }
     header #website-title .yellow {
       color: #EEF595; }
+    @media (max-width: 980px) {
+      header #website-title h1 {
+        font-size: 3.2vw; } }
     @media (max-width: 780px) {
       header #website-title h1 {
         display: none; } }
@@ -114,7 +117,6 @@ header {
       font-size: 3vw; }
   header #social {
     text-align: center;
-    margin: 0 auto;
     display: block; }
     header #social li {
       display: inline;
@@ -126,7 +128,8 @@ header {
     @media (max-width: 780px) {
       header #social {
         text-align: center;
-        padding: 0; } }
+        padding: 0;
+        margin: 0 auto; } }
     header #social a {
       border: none;
       text-decoration: none; }
@@ -154,12 +157,16 @@ header {
 
 nav.main-nav {
   width: 100%;
-  height: 40px;
+  height: 32px;
   text-align: center;
   background: #eef595;
   vertical-align: middle;
-  padding-top: 15px;
+  padding-top: 10px;
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.52); }
+  @media (max-width: 780px) {
+    nav.main-nav {
+      /* padding-top: 5px; */
+      padding-top: 10px; } }
   nav.main-nav ol {
     display: inline; }
     nav.main-nav ol li {
@@ -171,7 +178,8 @@ nav.main-nav {
           position: relative;
           left: 0;
           text-align: left;
-          font-size: 3.5vw; } }
+          font-size: 3.5vw;
+          font-size: 3vw; } }
       @media (max-width: 320px) {
         nav.main-nav ol li {
           font-size: 4vw; } }
@@ -594,12 +602,14 @@ nav.main-nav {
   .main-content article#dyspraxia p {
     padding: 15px; }
   .main-content article#dyspraxia a {
-    color: inherit; }
+    color: inherit;
+    color: #560606; }
     .main-content article#dyspraxia a:hover {
-      text-decoration: none; }
+      text-decoration: none;
+      color: #bd0404; }
   .main-content article#dyspraxia quote {
-    color: indigo;
-    width: 70%;
+    color: #1d0032;
+    width: 90%;
     display: block;
     margin: 0 auto;
     font-style: italic;

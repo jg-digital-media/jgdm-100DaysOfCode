@@ -560,12 +560,12 @@
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
-            "project_name": "Photography Website",
+            "project_name": "JG Photography Website",
             "project_url": "https://photography.jonniegrieve.co.uk",
             "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/photography-website/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/photography.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/photography.jpg",
-            "project_alt": "Go to Photography Website",
+            "project_alt": "Go to JG Photography Website",
             "project_type": "Website",
             "class": "all ",
             "project_status": "complete",
@@ -872,12 +872,12 @@
             "img_type": "data-src",
             "img_type_data": "data-src"
         }, {
-            "project_name": "PM Consulting",
+            "project_name": "PM Consulting Ltd",
             "project_url": "https://www.jonniegrieve.co.uk/assets/project_status_images/project-upcoming.html",
             "portfolio_url": "https://portfolio.jonniegrieve.co.uk/index.php/client_portfolio/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/pm_consulting.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/pm_consulting.jpg",
-            "project_alt": "PM Consulting",
+            "project_alt": "Go to PM Consulting Ltd",
             "project_type": "Website",
             "class": "all ",
             "project_status": "complete",

@@ -25,15 +25,19 @@
 
         a {
             color: inherit;
+            color: $nav-link-col;
+
             &:hover {
+
                 text-decoration: none;
+                color: $nav-link-hov;
             }
         }
 
         /*selects quote element successfully*/
         quote {
-            color: indigo;
-            width: 70%;
+            color: #1d0032;
+            width: 90%;
             display: block;
             margin: 0 auto;
             font-style: italic;

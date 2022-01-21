@@ -107,7 +107,10 @@
             }            
         
             @media (max-width: $lg) {
-                width: 90%;
+
+                width: 90%;                
+                margin-top: 0px;
+                margin-bottom: 35px;
             }
             
             @media (max-width: $md) {
@@ -208,6 +211,14 @@
 
             width: 100%;
             text-align: center;
+
+            #consent-label {
+
+                font-size: 18pt;
+                margin-top: 15px;
+                display: block;
+            }
+
         }
         
         .col-one {

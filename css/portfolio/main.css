@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   30/06/2021  11:56
+Last Updated:   21/01/2022  09:51
 */
 .main-content .button {
   background: #888e42;
@@ -476,6 +476,7 @@ nav.main-nav {
   .main-content article#hire-me input {
     height: 50px;
     width: 60%;
+    width: 70%;
     font-family: Lato;
     font-size: 20px;
     padding: 3px 20px;
@@ -488,7 +489,9 @@ nav.main-nav {
       color: white; }
     @media (max-width: 980px) {
       .main-content article#hire-me input {
-        width: 90%; } }
+        width: 90%;
+        margin-top: 0px;
+        margin-bottom: 35px; } }
     @media (max-width: 780px) {
       .main-content article#hire-me input {
         width: 80%; } }
@@ -501,7 +504,7 @@ nav.main-nav {
       transition: background .4s;
       background: yellow; }
   .main-content article#hire-me textarea#message {
-    width: 60%;
+    width: 70%;
     height: 145px;
     display: block;
     font-size: 20px;
@@ -543,6 +546,13 @@ nav.main-nav {
         width: 80%; } }
   .main-content article#hire-me .div-row {
     min-height: 50px; }
+  .main-content article#hire-me .div-row-consent {
+    width: 100%;
+    text-align: center; }
+    .main-content article#hire-me .div-row-consent #consent-label {
+      font-size: 18pt;
+      margin-top: 15px;
+      display: block; }
   .main-content article#hire-me .col-one {
     float: left;
     width: 125px; }

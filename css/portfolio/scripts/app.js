@@ -18,25 +18,26 @@ jQuery.getJSON('data/project-list.json', function(photoData) {
     let itemAll = photoData.projects.length;
     console.log(photoData.projects.length);
 
-    //select project count
-    let project_count = document.getElementById("project_count");
-    let count = "( " + photoData.projects.length + " )";
-    project_count.textContent = count;
+    /*  //select project count
+        let project_count = document.getElementById("project_count");
+        let count = "( " + photoData.projects.length + " )";
 
-    for (let i=0; i < itemAll; i++) { 
-        
-        //successful delivery of class and image URL    - uses data-src and/or src attributes for image element        
-        jQuery(`<a href="${photoData.projects[i].project_url}" target="blank">
-                    <img ${photoData.projects[i].img_type}="${photoData.projects[i].img_url}" 
-                        class="site-images lazy" 
-                        loading = "lazy"
-                        alt="${photoData.projects[i].project_alt}" 
-                        title="${photoData.projects[i].project_alt}" 
-                        tabindex="" />
-                </a>`
-        ).appendTo('.all');     
+        project_count.textContent = count; */
 
-   }
+        for (let i=0; i < itemAll; i++) { 
+            
+            //successful delivery of class and image URL    - uses data-src and/or src attributes for image element        
+            jQuery(`<a href="${photoData.projects[i].project_url}" target="blank">
+                        <img ${photoData.projects[i].img_type}="${photoData.projects[i].img_url}" 
+                            class="site-images lazy" 
+                            loading = "lazy"
+                            alt="${photoData.projects[i].project_alt}" 
+                            title="${photoData.projects[i].project_alt}" 
+                            tabindex="" />
+                    </a>`
+            ).appendTo('.all');     
+
+    }
 
 });
 
@@ -57,14 +58,14 @@ jQuery.getJSON('data/project-list-small.json', function(projectTwo) {
 
     jQuery(`
         <a href="${ projectTwo.featured_projects[1].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectTwo.featured_projects[1].img_url }" class="site-images lazy" alt=" ${projectTwo.featured_projects[1].project_alt }" title="${ projectTwo.featured_projects[1].project_alt }" tabindex="0" /></a>
-        <br />`).appendTo('.show-featured');
+        `).appendTo('.show-featured');
 });
 
 
 
 jQuery.getJSON('data/project-list-small.json', function(projectThree)  {
     jQuery(`
-        <a href="${ projectThree.featured_projects[2].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectThree.featured_projects[2].img_url }" class="site-images lazy" alt=" ${ projectThree.featured_projects[2].project_alt }." title=${ projectThree.featured_projects[2].project_alt }" tabindex="0" /></a>
+        <a href="${ projectThree.featured_projects[2].project_url }" target="blank" role="Featured work">&nbsp;<img src="${ projectThree.featured_projects[2].img_url }" class="site-images lazy" alt=" ${ projectThree.featured_projects[2].project_alt }." title="${ projectThree.featured_projects[2].project_alt }" tabindex="0" /></a>
 
     `).appendTo('.show-featured'); 
 });

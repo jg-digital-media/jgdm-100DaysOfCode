@@ -190,19 +190,19 @@ nav.main-nav {
         }
 
         li a {
-            color: $nav-link-col;
+            color: $nav-text-col;
             text-decoration: none;
             font-weight: bold;
 
             transition: color .2s;
 
             &:hover {
-                color: $nav-link-hov;
+                color: $nav-text-hov;
             }
 
             &.selected {
-                color: red;
-                border-bottom: red 1px solid;
+                color: $nav-text-hov;
+                border-bottom: $nav-text-hov 1px solid;
             }
         }
     }

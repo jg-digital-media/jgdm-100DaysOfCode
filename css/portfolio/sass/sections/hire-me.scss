@@ -71,24 +71,30 @@
 
             //
             .js-needsfilled {
+
                 background: red;
                 color: white;
             }
         }
 
         label {
+
             font-weight: bold;
         }
 
         a {
+
             color: $nav-link-col;
-            text-decoration: none;
+            text-decoration: underline;
+
             &:hover {
                 color: $nav-link-hov;
+                text-decoration: none;
             }
         }
 
         input {
+
             height: 50px;
             width: 60%;
             width: 70%;

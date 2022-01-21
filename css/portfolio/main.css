@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   21/01/2022  11:02
+Last Updated:   21/01/2022  11:24
 */
 .main-content .button {
   background: #888e42;
@@ -69,22 +69,28 @@ header {
   @media (max-width: 780px) {
     header {
       display: block; } }
-  header img {
-    /* width: 230px; */
-    margin-top: 16px;
-    display: inline-block;
-    /* width: 7%; */
-    max-width: 100px;
-    margin: 15px;
-    height: 100px;
-    /* width: 150px; */ }
-    @media (max-width: 1200px) {
-      header img {
-        /* height: 130px; */ } }
+  header div#logo {
+    width: 270px; }
     @media (max-width: 780px) {
-      header img {
+      header div#logo {
         display: block;
-        margin: 0px auto; } }
+        margin: 0 auto; } }
+    header div#logo img {
+      /* width: 230px; */
+      margin-top: 16px;
+      display: inline-block;
+      /* width: 7%; */
+      max-width: 100px;
+      margin: 15px;
+      height: 100px;
+      /* width: 150px; */ }
+      @media (max-width: 1200px) {
+        header div#logo img {
+          /* height: 130px; */ } }
+      @media (max-width: 780px) {
+        header div#logo img {
+          display: block;
+          margin: 0px auto; } }
   header #website-title {
     display: inline-block;
     width: 38%;
@@ -117,7 +123,8 @@ header {
       font-size: 3vw; }
   header #social {
     text-align: center;
-    display: block; }
+    display: block;
+    width: 280px; }
     header #social li {
       display: inline;
       margin-right: 5px; }
@@ -168,7 +175,8 @@ nav.main-nav {
       /* padding-top: 5px; */
       padding-top: 10px; } }
   nav.main-nav ol {
-    display: inline; }
+    display: inline;
+    padding: 0px; }
     nav.main-nav ol li {
       display: inline;
       margin-right: 10px; }

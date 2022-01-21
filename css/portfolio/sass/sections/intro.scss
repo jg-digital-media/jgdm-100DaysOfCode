@@ -25,7 +25,18 @@
         }
 
         h1 {
+
             text-align: center;
+
+            @media(max-width: $sm) {
+                font-size: 6vw;
+            }
+        }
+
+        p {
+
+            text-align: center;
+            
             @media(max-width: $sm) {
                 font-size: 6vw;
             }

@@ -34,26 +34,39 @@ header {
         display: block;
     }
 
-    img {
-        /* width: 230px; */
-        margin-top: 16px;
-        display: inline-block;
 
-        /* width: 7%; */
-        max-width: 100px;
-        margin: 15px;
-        height: 100px;
-        /* width: 150px; */
-    
-
-        @media(max-width: $xl) {
-            /* height: 130px; */
-        }
+    div#logo {
+        width: 270px;
 
         @media(max-width: $md) {
 
             display: block;
-            margin: 0px auto;    
+            margin: 0 auto;
+
+        }
+ 
+        img {
+            /* width: 230px; */
+            margin-top: 16px;
+            display: inline-block;
+
+            /* width: 7%; */
+            max-width: 100px;
+            margin: 15px;
+            height: 100px;
+            /* width: 150px; */
+        
+
+            @media(max-width: $xl) {
+
+                /* height: 130px; */
+            }
+
+            @media(max-width: $md) {
+
+                display: block;
+                margin: 0px auto;    
+            }
         }
     }
 
@@ -109,6 +122,7 @@ header {
     #social {
         text-align: center;
         display: block;
+        width: 280px;
 
         li {
 
@@ -189,6 +203,7 @@ nav.main-nav {
     ol {
 
         display: inline;
+        padding: 0px;
 
         li {
 

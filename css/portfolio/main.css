@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   21/01/2022  09:51
+Last Updated:   21/01/2022  10:28
 */
 .main-content .button {
   background: #888e42;
@@ -223,6 +223,11 @@ nav.main-nav {
       text-align: center; }
       @media (max-width: 320px) {
         .main-content article#intro h1 {
+          font-size: 6vw; } }
+    .main-content article#intro p {
+      text-align: center; }
+      @media (max-width: 320px) {
+        .main-content article#intro p {
           font-size: 6vw; } }
     .main-content article#intro h2 {
       font-size: 22pt; }
@@ -469,10 +474,11 @@ nav.main-nav {
   .main-content article#hire-me label {
     font-weight: bold; }
   .main-content article#hire-me a {
-    color: black;
-    text-decoration: none; }
+    color: #560606;
+    text-decoration: underline; }
     .main-content article#hire-me a:hover {
-      color: red; }
+      color: #bd0404;
+      text-decoration: none; }
   .main-content article#hire-me input {
     height: 50px;
     width: 60%;

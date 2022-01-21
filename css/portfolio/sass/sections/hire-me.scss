@@ -91,6 +91,7 @@
         input {
             height: 50px;
             width: 60%;
+            width: 70%;
             font-family: Lato;
             font-size: 20px;
             padding: 3px 20px;
@@ -110,26 +111,31 @@
             }
             
             @media (max-width: $md) {
+
                 width: 80%;
             }
 
             &:hover {
+
                 background: #eef595;
             }
         }
 
         input:focus {
+
             background: #eef595;
             transition: background .4s;
 
             &:hover {
+
                 transition: background .4s;
                 background: yellow;
             }
         }
 
         textarea#message {
-            width: 60%;
+
+            width: 70%;
             height: 145px;
             display: block;
             font-size: 20px;
@@ -141,13 +147,16 @@
             transition: background .2s;
 
             &:hover {
+
                 background: #eef595;
             }
 
             @media (max-width: $lg) {
+
                 width: 90%;
             }
             @media (max-width: $md) {
+
                 width: 80%;
             }
         }
@@ -193,6 +202,12 @@
         
         .div-row {
             min-height: 50px;
+        }
+
+        .div-row-consent {
+
+            width: 100%;
+            text-align: center;
         }
         
         .col-one {

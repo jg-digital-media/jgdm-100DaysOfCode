@@ -2,7 +2,7 @@
 Author:         Jonathan Grieve @ Jonnie Grieve Digital Media
 Contact:        On Twitter  @jg_digitalMedia; On Facebook: https://www.facebook.com/jgDigitalMedia/?ref=bookmarks; 
 Email:          mail@jonniegrieve.co.uk
-Last Updated:   21st January 2022 - 11:24
+Last Updated:   21st January 2022 - 11:37
 Page:           index.php
 --->
 
@@ -107,7 +107,12 @@ window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){va
     </svg>
 
     <header>
-        <img id="header-logo" title="Logo for Jonnie Grieve Digital Media" alt="Logo for Jonnie Grieve Digital Media" src="img/logo-circle.png" tabindex="0" />
+
+        <div id="logo">
+
+            <img id="header-logo" title="Logo for Jonnie Grieve Digital Media" alt="Logo for Jonnie Grieve Digital Media" src="img/logo-circle.png" tabindex="0" />
+
+        </div>
 
         <span id="website-title" role="title">
             <h1>
@@ -229,7 +234,7 @@ window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){va
             <div class="about-box" tabindex="0" role="About Section">
                 <h3>Blog</h3>
                 <p>Check out our very latest blogs for the latest on what's happening at JGDM. For more on particular topics check out the post categories.</p>
-                <a href="https://blog.jonniegrieve.co.uk" class="button" target="blank">View More</a>
+                <a href="https://blog.jonniegrieve.co.uk" class="button" target="blank" title="Jonnie Grieve Digital Media: Go to the main blog.">View More</a>
             </div>
 
         </article>
@@ -251,7 +256,7 @@ window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){va
             <h2>Services</h2>
 
             <div class="main-services" tabindex="0" role="Main Services">
-                <a href="javascript:" onClick="openWindow('./pages/webdesign.html', '550', '250')">
+                <a href="javascript:" onClick="openWindow('./pages/webdesign.html', '550', '250')" title="Website Design: Secure your online presence with JGDM">
                     <i class="fas fa-object-group">&nbsp;</i>
                 </a>
                 <p>Website Design: Secure your online presence</p>       
@@ -259,14 +264,14 @@ window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){va
             </div>
 
             <div class="main-services" tabindex="0" role="Main Services">
-                 <a href="javascript:" onClick="openWindow('./pages/gwd-creatives.html', '550', '250')">
+                 <a href="javascript:" onClick="openWindow('./pages/gwd-creatives.html', '550', '250')" title="Google Web Designer Creatives: for web advert generation">
                     <i class="fab fa-google">&nbsp;</i>           
                 </a>
                 <p>Google Web Designer Creatives: for web advert generation</p>
             </div>
 
             <div class="main-services" tabindex="0" role="Main Services">
-                <a href="javascript:" onClick="openWindow('./pages/social-media.html', '550', '250')">
+                <a href="javascript:" onClick="openWindow('./pages/social-media.html', '550', '250')" title="Social Media: To help you get noticed">
                     <i class="fab fa-twitter">&nbsp;</i>
                 </a>
                 
@@ -274,28 +279,28 @@ window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){va
             </div>
 
             <div class="main-services" tabindex="0" role="Main Services">
-                <a href="javascript:" onClick="openWindow('./pages/wordpress.html', '550', '250')">
+                <a href="javascript:" onClick="openWindow('./pages/wordpress.html', '550', '250')" title="WordPress: Most Websites use this popular platform">
                     <i class="fab fa-wordpress-simple">&nbsp;</i>
                 </a>                
                 <p>WordPress: Most Websites use this popular platform</p>       
             </div>
 
             <div class="main-services" tabindex="0" role="Main Services">
-                <a href="javascript:" onClick="openWindow('./pages/e-commerce.html', '550', '250')">
+                <a href="javascript:" onClick="openWindow('./pages/e-commerce.html', '550', '250')" title="E-Commerce: Sell products via your website">
                     <i class="fas fa-cash-register">&nbsp;</i>
                 </a>               
                 <p>E-Commerce: Sell products via your website</p>     
             </div>
 
             <div class="main-services" tabindex="0" role="Main Services">
-                <a href="javascript:" onClick="openWindow('./pages/digital-design.html', '550', '250')">
+                <a href="javascript:" onClick="openWindow('./pages/digital-design.html', '550', '250')" title="Photoshop/Digital Design: For stunning digital images">
                     <i class="fas fa-image">&nbsp;</i>
                 </a>                   
                 <p>Photoshop/Digital Design: For stunning digital images</p>    
             </div>
 
             <div class="main-services" tabindex="0" role="Main Services">
-                <a href="javascript:" class="text2" onMouseDown="openWindow('./pages/print-design.html','550','250')">
+                <a href="javascript:" class="text2" onMouseDown="openWindow('./pages/print-design.html','550','250')" title="Customised Design for Print and Publishing">
                     <i class="fas fa-align-left">&nbsp;</i>
                 </a>                   
                 <p>Customised Design for Print and Publishing</p>    
@@ -365,7 +370,7 @@ window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){va
 
             <h2>Hire Me!</h2>
 
-            <p>I’m available for <a href="javascript:" onClick="openWindow('./pages/prices.html', '550', '250')" >hire for Web Design work</a>.</p>
+            <p>I’m available for <a href="javascript:" onClick="openWindow('./pages/prices.html', '550', '250')" title="Hire me for web design work - check out my prices">hire for Web Design work</a>.</p>
 
             <p>Jonnie Grieve Digital Media prides itself on providing a quality service at an affordable and competitive price. </p>
             
@@ -489,7 +494,7 @@ window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){va
                         
                         </div>
                         
-                    </div>                     
+                    </div>                      
 
                     <div class="div-row-consent">
 

@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 63 of 100. **Last Update:** 21 January 20213
+## **Status:** Day 64 of 100. **Last Update:** 24 January 20213
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R8D64: Monday 24 January 2022
+
+  + Once you've got a solid understanding for the fundamentals of the template files in I've covered in this blog, and their place in the WordPress Hierarchy, it'll take you a long way to success in your WordPress projects.
+
+  + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
 
 # R8D63: Friday 21 January 2022
 

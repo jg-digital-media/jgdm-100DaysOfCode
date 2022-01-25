@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 64 of 100. **Last Update:** 24 January 20213
+## **Status:** Day 65 of 100. **Last Update:** 25 January 20213
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R8D65: Tuesday 25 January 2022
+
+  + Made some updates to my "Walks in lockdown" PHP site which are online now. Still need to workout some issues with the route selector but other bugs have been fixed.
+
+  + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
 
 # R8D64: Monday 24 January 2022
 

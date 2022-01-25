@@ -6,11 +6,12 @@ console.log("connected: main script");
 $(document).ready(function(){
 
     $('.route-slider').slick({
-        infinite: true,
-        slidesToShow: 8,
-        //slidesToScroll: 5,
+        // infinite: true,
+        slidesToShow: 20,
+        slidesToScroll: 20,
         dots: false,
-        draggable: true
+        draggable: true,
+        swipe: true
     });
 
 });

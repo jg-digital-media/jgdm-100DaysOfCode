@@ -56,14 +56,24 @@ window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){va
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36732515-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36732515-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-            gtag('config', 'UA-36732515-1');
-        </script>
+        gtag('config', 'UA-36732515-1');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2LWK49177T"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-2LWK49177T');
+    </script>
 
     <!-- CSS-->
     <link rel="stylesheet" type="text/css" href="main.css" />    

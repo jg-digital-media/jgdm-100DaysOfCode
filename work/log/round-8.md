@@ -7,6 +7,14 @@ ___
 
 
 
+# R8D66: Friday 26 January 2022
+
+  + Been working on things behind the scenes over the last few days or so. Including adding new pieces of work to my portfolio.
+  https://projects.
+
+  + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
+
+
 # R8D65: Tuesday 25 January 2022
 
   + Made some updates to my "Walks in lockdown" PHP site which are online now. Still need to workout some issues with the route selector but other bugs have been fixed.

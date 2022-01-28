@@ -13,6 +13,7 @@
             "status": true,
             "img_type": "src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Kevin Mangles: Entertainer",
             "project_url": "https://www.kevinmangles-magician.com/",
@@ -26,6 +27,7 @@
             "status": true,
             "img_type": "src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Elim Church Bishop Auckland",
             "project_url": "https://www.elimchurchbishopauckland.co.uk",
@@ -39,6 +41,7 @@
             "status": true,
             "img_type": "src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Dyspraxia Awareness Website",
             "project_url": "https://www.dyspraxia.jonniegrieve.co.uk",
@@ -52,6 +55,7 @@
             "status": true,
             "img_type": "src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Easington Deanery",
             "project_url": "https://easingtondeanery.org",
@@ -65,6 +69,7 @@
             "status": true,
             "img_type": "src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Castle Eden Walks",
             "project_url": "https://projects.jonniegrieve.co.uk/walks",
@@ -78,6 +83,7 @@
             "status": true,
             "img_type": "src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Ajax Project",
             "project_url": "https://projects.jonniegrieve.co.uk/ajax_project",
@@ -91,6 +97,7 @@
             "status": true,
             "img_type": "src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Web Design Practice site",
             "project_url": "https://projects.jonniegrieve.co.uk/practice/",
@@ -104,10 +111,11 @@
             "status": true,
             "img_type": "src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Time Tracker App with PHP (Closed for Debugging) ",
-            "project_url": "#",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/index.php/dev_portfolio/",
+            "project_url": "https://projects.jonniegrieve.co.uk/time_tracker/",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/time-tracker-with-php/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/time_tracker.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/time_tracker.jpg",
             "project_alt": "Go to Time Tracker App",
@@ -117,20 +125,8 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
-            "project_name": "Route Office Supplies Stationery Shop",
-            "project_url": "https://routeoffice.co.uk",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/client_portfolio/route-office-supplies-ltd/",
-            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/route_office.png",
-            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/route_office.jpg",
-            "project_alt": "Go to Route Office Website",
-            "project_type": "Website",
-            "class": "all ",
-            "project_status": "complete",
-            "status": true,
-            "img_type": "data-src",
-            "img_type_data": "data-src"
-        },  {
             "project_name": "James Grieve Theatre Director",
             "project_url": "https://jgrieve.com",
             "portfolio_url": "https://portfolio.jonniegrieve.co.uk/client_portfolio/james-grieve-theatre-director/",
@@ -143,19 +139,21 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
-            "project_name": "My Portfolio Example site",
+            "project_name": "MyPortfolio Example Site",
             "project_url": "https://projects.jonniegrieve.co.uk/wep/",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/legacy_portfolio/an-awful-lot-of-running/",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/legacy_portfolio/example-legacy-project/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/myportfolio.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/myportfolio.jpg",
-            "project_alt": "Go to Portfolio Example site",
+            "project_alt": "Go to MyPortfolio Example site",
             "project_type": "Website",
             "class": "all ",
             "project_status": "complete",
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "jQuery Project - Skills Page",
             "project_url": "https://projects.jonniegrieve.co.uk/jquery_project",
@@ -169,6 +167,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Sass Project",
             "project_url": "https://projects.jonniegrieve.co.uk/sass_project",
@@ -182,6 +181,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Regex",
             "project_url": "https://projects.jonniegrieve.co.uk/regex",
@@ -195,6 +195,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "React.js Single Page Scoreboard Application",
             "project_url": " https://projects.jonniegrieve.co.uk/react-scoreboard/",
@@ -208,6 +209,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "React Single Page Scoreboard Application v2",
             "project_url": " https://projects.jonniegrieve.co.uk/react-scoreboard-v2/",
@@ -221,6 +223,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Psychic Reading Online",
             "project_url": "https://www.psychic-reading-online.com",
@@ -234,6 +237,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Project Status App (in Vue.js)",
             "project_url": "https://projects.jonniegrieve.co.uk/vue_project",
@@ -247,6 +251,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "CSS Grid Practice",
             "project_url": "https://projects.jonniegrieve.co.uk/grid_project",
@@ -260,10 +265,11 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Project Gallery Website Example.",
             "project_url": "https://projects.jonniegrieve.co.uk/portfolio-gallery",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/index.php/dev_portfolio/",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/portfolio-gallery/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/portfolio-gallery.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/portfolio-gallery.jpg",
             "project_alt": "Go to Project Gallery Website",
@@ -273,6 +279,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Object Oriented PHP Techniques",
             "project_url": "https://projects.jonniegrieve.co.uk/php-cookbook/",
@@ -286,6 +293,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "PHP Basics",
             "project_url": "https://projects.jonniegrieve.co.uk/phpbasics-2016/",
@@ -299,6 +307,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Simple List Maker",
             "project_url": "https://projects.jonniegrieve.co.uk/list_maker",
@@ -312,6 +321,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Left Push Navigation Pattern",
             "project_url": "https://projects.jonniegrieve.co.uk/modernizr",
@@ -325,6 +335,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Learning Notes - WordPress Site",
             "project_url": "#",
@@ -338,6 +349,7 @@
             "status": null,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Joining the Feast",
             "project_url": "https://www.joiningthefeast.org",
@@ -351,6 +363,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "To-do List - Interactive JS",
             "project_url": "https://projects.jonniegrieve.co.uk/int_js/",
@@ -364,10 +377,11 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
-            "project_name": "Portfolio Example",
+            "project_name": "'How to' Portfolio Example",
             "project_url": "https://projects.jonniegrieve.co.uk/howto-web/",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/index.php/dev_portfolio/",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/howto-web/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/howto_website.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/howto_website.jpg",
             "project_alt": "Go to Portfolio example",
@@ -377,6 +391,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "The Games Yard",
             "project_url": "https://projects.jonniegrieve.co.uk/gamesyard ",
@@ -390,6 +405,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "An Awful Lot of Running",
             "project_url": "https://projects.jonniegrieve.co.uk/fyp",
@@ -403,6 +419,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Four in a Row ",
             "project_url": "https://projects.jonniegrieve.co.uk/four_in_a_row/",
@@ -416,6 +433,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Free Code Camp, Tribute Page",
             "project_url": "https://projects.jonniegrieve.co.uk/free-code-camp/responsive-web-design/project-tribute",
@@ -429,6 +447,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Free Code Camp, Technical Documentation Page",
             "project_url": "https://projects.jonniegrieve.co.uk/free-code-camp/responsive-web-design/project-techdoc/",
@@ -442,6 +461,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Free Code Camp: Survey Project",
             "project_url": "https://projects.jonniegrieve.co.uk/free-code-camp/responsive-web-design/project-survey/",
@@ -455,6 +475,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Free Code Camp: Product Landing Page",
             "project_url": "https://projects.jonniegrieve.co.uk/free-code-camp/responsive-web-design/project-productpage/",
@@ -468,6 +489,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Free Code Camp: Portfolio Project",
             "project_url": "https://projects.jonniegrieve.co.uk/free-code-camp/responsive-web-design/project-portfolio/",
@@ -481,6 +503,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Endangered Species Project",
             "project_url": "https://projects.jonniegrieve.co.uk/esp",
@@ -494,6 +517,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Castle Eden World CSS Site",
             "project_url": "https://projects.jonniegrieve.co.uk/castle-eden-css/",
@@ -507,6 +531,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Balloon Flight Website",
             "project_url": "https://projects.jonniegrieve.co.uk/balloon",
@@ -520,6 +545,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Form Project",
             "project_url": "https://projects.jonniegrieve.co.uk/form_project/",
@@ -533,6 +559,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Parallax Showcase Webpage",
             "project_url": "https://projects.jonniegrieve.co.uk/practice/parallax",
@@ -546,6 +573,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "PHP DVD Library Website",
             "project_url": "https://projects.jonniegrieve.co.uk/php_website/",
@@ -559,6 +587,7 @@
             "status": null,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "JG Photography Website",
             "project_url": "https://photography.jonniegrieve.co.uk",
@@ -572,6 +601,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Praise in the Park",
             "project_url": "https://www.praiseinthepark.co.uk",
@@ -581,10 +611,11 @@
             "project_alt": "Go to Praise in the Park Website",
             "project_type": "Website",
             "class": "all ",
-            "project_status": "upcoming",
-            "status": "upcoming",
+            "project_status": "complete",
+            "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Express.js Flashcard App",
             "project_url": "https://jgdm-flashcard-app.herokuapp.com/",
@@ -598,6 +629,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "JGDM Flask Project",
             "project_url": "https://aqueous-thicket-63067.herokuapp.com/",
@@ -611,6 +643,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Jaunts and Journeys in Lockdown",
             "project_url": "https://projects.jonniegrieve.co.uk/lockdown/index.php",
@@ -624,6 +657,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Currency Converter App",
             "project_url": "https://projects.jonniegrieve.co.uk/currency_converter/index.html",
@@ -637,6 +671,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Project Status (in JavaScript)",
             "project_url": "https://jonniegrieve.co.uk/assets/project_status/index.html",
@@ -650,6 +685,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Project Status Images (in JavaScript)",
             "project_url": "https://jonniegrieve.co.uk/assets/project_status_images/index.html",
@@ -663,6 +699,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Laravel Basics - Scalable Photo Album app",
             "project_url": "https://jgdm-laravel-basic.herokuapp.com/",
@@ -672,10 +709,11 @@
             "project_alt": "Laravel Basics - Scalable Photo Album app",
             "project_type": "Website",
             "class": "all ",
-            "project_status": "incomplete",
+            "project_status": "under_review",
             "status": false,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Switch Photo App - Laravel",
             "project_url": " https://switch-photo-library.herokuapp.com/",
@@ -689,6 +727,7 @@
             "status": false,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "JGDM: PHP Project Starter",
             "project_url": "https://github.com/jg-digital-media/jgdm_php_boilerplate",
@@ -702,6 +741,7 @@
             "status": false,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "JGDM: Responsive Mobile Menu",
             "project_url": "https://github.com/jg-digital-media/jgdm_mobile_hamburger_menu",
@@ -715,6 +755,7 @@
             "status": null,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "JGDM: Web Starter Repo",
             "project_url": "https://github.com/jg-digital-media/web_project_starter",
@@ -728,6 +769,7 @@
             "status": false,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "JGDM: Image Gallery Starter",
             "project_url": "https://github.com/jg-digital-media/jgdm_image_gallery",
@@ -741,10 +783,11 @@
             "status": false,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "JGDM: Landing Page",
             "project_url": "https://jg-digital-media.github.io",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/index.php/dev_portfolio/",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/jgdm-landing-page/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/jgdm_landing.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/jgdm_landing.jpg",
             "project_alt": "jgdm landing page",
@@ -754,19 +797,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
-        }, {
-            "project_name": "Fetch",
-            "project_url": "https://landing.jonniegrieve.co.uk/fetch",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/index.php/dev_portfolio/",
-            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/fetch.png",
-            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/fetch.jpg",
-            "project_alt": "Fetch syntax for API'S",
-            "project_type": "Website",
-            "class": "all ",
-            "project_status": "under_review",
-            "status": null,
-            "img_type": "data-src",
-            "img_type_data": "data-src"
+
         }, {
             "project_name": "JGDM WordPress Starter",
             "project_url": "https://github.com/jg-digital-media/jgdm_wordpress_starter",
@@ -780,6 +811,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Rizwan Hafiz",
             "project_url": "https://www.rizwanhafiz.com",
@@ -793,6 +825,7 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "WordPress Subdomain",
             "project_url": "https://wordpress.jonniegrieve.co.uk",
@@ -806,23 +839,11 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
-            "project_name": "Android Subdomain",
-            "project_url": "https://android.jonniegrieve.co.uk",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/index.php/dev_portfolio/",
-            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/android.png",
-            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/jgdm_android.jpg",
-            "project_alt": "Android Subdomain",
-            "project_type": "Single-Page Site",
-            "class": "all ",
-            "project_status": "complete",
-            "status": true,
-            "img_type": "data-src",
-            "img_type_data": "data-src"
-        }, {
-            "project_name": "JGDM: Blog",
+            "project_name": "JGDM: Official Blog",
             "project_url": "https://blog.jonniegrieve.co.uk",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/index.php/dev_portfolio/",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/jgdm-official-blog/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/jgdm_blog.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/jgdm_blog.jpg",
             "project_alt": "JGDM: Blog",
@@ -832,49 +853,53 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "AM Consulting",
-            "project_url": "https://www.jonniegrieve.co.uk/assets/project_status_images/project-upcoming.html",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/index.php/client_portfolio/",
+            "project_url": "https://am-consulting.org.uk/",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/client_portfolio/am-consulting/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/am_consulting.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/am_consulting.jpg",
             "project_alt": "AM Consulting",
             "project_type": "Website",
             "class": "all ",
-            "project_status": "under_review",
-            "status": null,
+            "project_status": "complete",
+            "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
-            "project_name": "Autism and Christianity",
-            "project_url": "https://www.jonniegrieve.co.uk/assets/project_status_images/project-upcoming.html",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/index.php/client_portfolio/",
+            "project_name": "Autism and Christianity [DOWN UNTIL FURTHER NOTICE]",
+            "project_url": "https://autismandchristianity.org/",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/client_portfolio/autism-and-christianity/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/autism.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/autism.jpg",
-            "project_alt": "Autism and Christianity",
+            "project_alt": "Go to Autism and Christianity Website",
             "project_type": "Website",
             "class": "all ",
             "project_status": "under_review",
             "status": null,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "Photo Viewer App",
-            "project_url": "https://www.jonniegrieve.co.uk/assets/project_status_images/project-upcoming.html",
+            "project_url": "https://projects.jonniegrieve.co.uk/photo_viewer",
             "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/photo-viewer/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/photo_viewer.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/photo_viewer.jpg",
-            "project_alt": "Photo Viewer App",
+            "project_alt": "Go to Photo Viewer App",
             "project_type": "Website",
             "class": "all ",
             "project_status": "upcoming",
             "status": "upcoming",
             "img_type": "data-src",
             "img_type_data": "data-src"
+
         }, {
             "project_name": "PM Consulting Ltd",
-            "project_url": "https://www.jonniegrieve.co.uk/assets/project_status_images/project-upcoming.html",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/index.php/client_portfolio/",
+            "project_url": "https://www.pmconsultingltd.com/",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/client_portfolio/pm-consulting-ltd/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/pm_consulting.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/pm_consulting.jpg",
             "project_alt": "Go to PM Consulting Ltd",
@@ -883,46 +908,122 @@
             "project_status": "complete",
             "status": true,
             "img_type": "data-src",
-            "img_type_data": "data-src"        
-        }, {
-            "project_name": "JGDM: Project Landing Page",
-            "project_url": "https://jg-digital-media.github.io",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/jgdm-landing-page/",
-            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/jgdm_landing.png",
-            "feat_img_url": "img/featured/jgdm_landing.jpg",
-            "project_alt": "JGDM: Project Landing Page",
-            "project_type": "Website",
-            "class": "all ",
-            "project_status": "complete",
-            "status": true,
-            "img_type": "data-src",
-            "img_type_data": "data-src"        
+            "img_type_data": "data-src"
+
         }, {
             "project_name": "JGDM: Projects Subdomain",
             "project_url": "https://projects.jonniegrieve.co.uk",
             "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/jgdm-projects-subdomain/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/sub_projects.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/sub_projects.jpg",
-            "project_alt": "JGDM: Project Landing Page",
-            "project_type": "Website",
-            "class": "all ",
-            "project_status": "complete",
-            "status": true,
-            "img_type": "data-src",
-            "img_type_data": "data-src"        
-        }, {
-            "project_name": "JGDM Portfolio",
-            "project_url": "https://portfolio.jonniegrieve.co.uk",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/index.php/client_portfolio/",
-            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/jgdm_portfolio.png",
-            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/jgdm_portfolio.jpg",
-            "project_alt": "JGDM Portfolio",
+            "project_alt": "Go to JGDM Project Landing Page",
             "project_type": "Website",
             "class": "all ",
             "project_status": "complete",
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
+
+        }, {
+            "project_name": "JGDM Subdomain: Portfolio",
+            "project_url": "https://portfolio.jonniegrieve.co.uk",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/jgdm-portfolio/",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/jgdm_portfolio.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/jgdm_portfolio.jpg",
+            "project_alt": "Go to JGDM Portfolio Subdomain",
+            "project_type": "Website",
+            "class": "all ",
+            "project_status": "complete",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+
+        }, {
+            "project_name": "CSS & Front End Experiments",
+            "project_url": "https://projects.jonniegrieve.co.uk/front_end_experiments/",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/front-end-design-experiments/",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/frontend_experiments.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/frontend_experiments.jpg",
+            "project_alt": "Go to CSS & Front End Experiments Site",
+            "project_type": "Website",
+            "class": "all ",
+            "project_status": "complete",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+
+        }, {
+            "project_name": "Flask Project - Instructional",
+            "project_url": "https://aqueous-thicket-63067.herokuapp.com/",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/flask-project/",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/flask_project.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/flask_project.jpg",
+            "project_alt": "Go to Flask Instructional Project",
+            "project_type": "Website",
+            "class": "all ",
+            "project_status": "complete",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+
+        }, {
+            "project_name": "Flask and SQLAlchemy Project",
+            "project_url": "https://jgdm-python-app.herokuapp.com/",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/flask-sqlalchemy-project/",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/flask_sql.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/flask_sql.jpg",
+            "project_alt": "Go to Flask and SQLAlchemy Project",
+            "project_type": "Website",
+            "class": "all ",
+            "project_status": "complete",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+
+        }, {
+            "project_name": "SCAA - Saltburn by the Sea Website",
+            "project_url": "https://projects.jonniegrieve.co.uk/wau",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/saltburn-by-the-sea-website/",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/scaa_wau.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/scaa_wau.jpg",
+            "project_alt": "Go to SCAA - Saltburn by the Sea Website",
+            "project_type": "Single-Page Site",
+            "class": "all ",
+            "project_status": "complete",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+
+        }, {
+            "project_name": "JGDM Subdomain: Me",
+            "project_url": "https://me.jonniegrieve.co.uk",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/me-subdomain/",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/sub_me.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/sub-me.jpg",
+            "project_alt": "Me Subdomain",
+            "project_type": "Single-Page Site",
+            "class": "all ",
+            "project_status": "complete",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+
+        }, {
+            "project_name": "JavaScript LocalStorage Example",
+            "project_url": "https://projects.jonniegrieve.co.uk/localstorage",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/localstorage/",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/local_storage.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/local_storage.jpg",
+            "project_alt": "Go to JavaScript LocalStorage example page",
+            "project_type": "Single-Page Site",
+            "class": "all ",
+            "project_status": "complete",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+
         }
+        
     ]
+    
 }

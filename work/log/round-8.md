@@ -1,16 +1,15 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 65 of 100. **Last Update:** 25 January 20213
+## **Status:** Day 66 of 100. **Last Update:** 01 February 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
-# R8D66: Friday 26 January 2022
+# R8D66: Monday 01 February 2022
 
-  + Been working on things behind the scenes over the last few days or so. Including adding new pieces of work to my portfolio.
-  https://projects.
+  + Been working on things behind the scenes over the last few days or so. Including adding new pieces of work to my portfolio. Done some client updates today and behind the scenes I've also been working on updating my digital content strategy.
 
   + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
 

@@ -1,17 +1,25 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 66 of 100. **Last Update:** 01 February 2022
+## **Status:** Day 67 of 100. **Last Update:** 02 February 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
-# R8D66: Monday 01 February 2022
+# R8D67: Wednesday 02 February 2022
+
+  + Today I've mostly been wondering why the Slick Carousel I've been trying to use isn't behaving as I believe it should.  I'm a determined fellow but I may just have to try another approach.  
+
+  + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
+
+
+# R8D66: Tuesday 01 February 2022
 
   + Been working on things behind the scenes over the last few days or so. Including adding new pieces of work to my portfolio. Done some client updates today and behind the scenes I've also been working on updating my digital content strategy.
 
   + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
+
 
 
 # R8D65: Tuesday 25 January 2022

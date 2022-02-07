@@ -1,10 +1,24 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 67 of 100. **Last Update:** 02 February 2022
+## **Status:** Day 69 of 100. **Last Update:** 07 February 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R8D69: Friday 07 February 2022
+
+  + Started looking at WordPress Development Block editing style after upgrading to 5.9. 
+
+  + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
+
+
+# R8D68: Thursday 03 February 2022
+
+  + Added some enhancements to a website with more Lightbox.js image interactions and some styling improvements designed for iOS devices
+
+  + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
 
 
 # R8D67: Wednesday 02 February 2022

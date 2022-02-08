@@ -1022,6 +1022,20 @@
             "img_type": "data-src",
             "img_type_data": "data-src"
 
+        }, {
+            "project_name": "JGDM WordPress Block Editing Theme",
+            "project_url": "https://github.com/jg-digital-media/jgdm_block_editing_example",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/wp_blockediting/",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/wp_blockediting.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/wp_blockediting.jpg",
+            "project_alt": "Go to JGDM WordPress Block Editing Theme page",
+            "project_type": "Website",
+            "class": "all ",
+            "project_status": "complete",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+
         }
         
     ]

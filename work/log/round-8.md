@@ -1,13 +1,19 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 69 of 100. **Last Update:** 07 February 2022
+## **Status:** Day 70 of 100. **Last Update:** 08 February 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
-# R8D69: Friday 07 February 2022
+# R8D70:  Monday 08: February 2022
+
+  + Presenting the first iteration of my latest repository. Set of WordPress Theme files intended to work with the latest Block Editing WordOress Features. https://github.com/jg-digital-media/jgdm_block_editing_example
+
+  + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
+
+# R8D69: Monday 07 February 2022
 
   + Started looking at WordPress Development Block editing style after upgrading to 5.9. 
 

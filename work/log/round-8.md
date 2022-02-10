@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 71 of 100. **Last Update:** 09 February 2022
+## **Status:** Day 72 of 100. **Last Update:** 10 February 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+# R8D72:  Thursday 10 February 2022
+
+  +  Added to my newest repository with some configurations for theme colour palettes on the theme.json file. https://github.com/jg-digital-media/jgdm_block_editing_example
+
+  + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
 
 # R8D71:  Wednesday 09 February 2022
 

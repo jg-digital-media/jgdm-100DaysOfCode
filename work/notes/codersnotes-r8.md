@@ -16,9 +16,72 @@
 + Gulp and Grunt compilers
 
 
-### Day 71
+### Day 72
 
-... 
+theme.js skeleton v1
+
+```json
+{
+    "version": 2,
+    "settings": {},
+    "styles": {},
+    "templateParts": []
+}
+```
+
+theme.js skeleton v2
+
+```json
+{
+    "version": 2,
+    "settings": {},
+    "styles": {},
+    "templateParts": []
+}
+```
+
+https://fullsiteediting.com/lessons/templates-and-template-parts/
+
+
+#### **Theme.js reference**
+
+
++ core/block  (reusable block)
++ core/heading
++ core/paragraph
+
+__ 
++ core/post-content
++ core/post-excerpt
++ core/home-link
++ core/latest-posts
++ core/navigation-area
++ core/navigation
+
+__
++ core/query
+
+__
++ core/button
++ core/audio
++ core/archives
++ core/calendar
++ core/categories
++ core/code
++ core/columns
+
+__
++ core/comment-author-name
++ core/comment-author-avatar
++ core/comment-content
++ core/comment-data
++ core/comment-edit-link
++ core/comment-reply-link
++ core/comment-template
++ core/comments-pagination
++ core/comments-query-loop
++ core/freeform (classic wordpress editor)
++ core/group (combine blocks into a group)
 
 
 ### Day 43

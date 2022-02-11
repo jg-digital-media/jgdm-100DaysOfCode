@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 72 of 100. **Last Update:** 10 February 2022
+## **Status:** Day 73 of 100. **Last Update:** 11 February 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+# R8D73:  Friday 11 February 2022
+
+  +  v4 pushed and released to the repository just now. Check the readme for updates on the content and code snippets on block markup. https://github.com/jg-digital-media/jgdm_block_editing_example
+
+  + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
 
 # R8D72:  Thursday 10 February 2022
 

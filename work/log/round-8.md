@@ -5,6 +5,13 @@ ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R8D74:  Monday 14 February 2022
+
+  +  v5 The repository now sets you up for custom Template Parts with html templates and should instruct you on how to link them to the Site Editor  (WordPress 5.9) https://github.com/jg-digital-media/jgdm_block_editing_example
+
+  + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
+
 # R8D73:  Friday 11 February 2022
 
   +  v4 pushed and released to the repository just now. Check the readme for updates on the content and code snippets on block markup. https://github.com/jg-digital-media/jgdm_block_editing_example

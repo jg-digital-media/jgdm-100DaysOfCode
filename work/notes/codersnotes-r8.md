@@ -15,7 +15,7 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
-### Day 74
+### Day 75
 
 ### Day 72
 

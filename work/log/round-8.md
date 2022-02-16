@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 75 of 100. **Last Update:** 15 February 2022
+## **Status:** Day 76 of 100. **Last Update:** 16 February 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R8D76:  Wednesday 16 February 2022
+
+  +  More work updating my GitHub projects - more than I can really list on this post. But I've also been working on my understanding of WordPress Block editing - with some changes I'll be refining and pushing tomorrow. 
+
+  + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
 
 # R8D75:  Tuesday 15 February 2022
 

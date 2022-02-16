@@ -716,7 +716,7 @@
 
         }, {
             "project_name": "Switch Photo App - Laravel",
-            "project_url": " https://switch-photo-library.herokuapp.com/",
+            "project_url": "https://switch-photo-library.herokuapp.com/",
             "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/switch-photo-app-laravel/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/laravel_switchapp.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/laravel_switchapp.jpg",

@@ -1,13 +1,20 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 78 of 100. **Last Update:** 21 February 2022
+## **Status:** Day 79 of 100. **Last Update:** 22 February 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
-# R8D78:  Friday 21 February 2022
+# R8D79: Tuesday 22 February 2022
+
+  + Part one of today I've been doing some responsive web design tweaks in WordPress for a client. And the second part I've been working on Balsamiq Wireframes for another.  Busy day.
+
+  + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
+
+
+# R8D78:  Monday 21 February 2022
 
   + Over the weekend I've been working on more block editing updates and working some new upcoming client work. Announcements and Unveiling getting closer!  
 

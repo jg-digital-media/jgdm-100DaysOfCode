@@ -1,11 +1,16 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 79 of 100. **Last Update:** 22 February 2022
+## **Status:** Day 80 of 100. **Last Update:** 23 February 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+# R8D80: Wednesday 23 February 2022
+
+  + Today I've sent some Wireframes to a client for their review and worked on some more Tweaks for another WordPress site. Much like yesterday and equally busy and rewarding.
+
+  + **Technologies Used** - HTML5, CSS, JavaScript, WordPress
 
 # R8D79: Tuesday 22 February 2022
 

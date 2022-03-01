@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 83 of 100. **Last Update:** 26 February 2022
+## **Status:** Day 84 of 100. **Last Update:** 01 March 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-# R8D83: Monday 26 February 2022
+
+# R8D84: Tuesday 01 February 2022
+
+  +  While feedback is awaited I've made a start with the CSS and HTML Framework for my next WordPress project.
+
+  + **Technologies Used** - HTML5, CSS
+
+# R8D83: Monday 28 February 2022
 
   + Tough but ultimately successful start to the week working on tweaks and responsive design fixes to a website.  I've been teasing this for months and I know I keep saying it but it's getting closer to going live!  :)
 

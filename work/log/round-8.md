@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 91 of 100. **Last Update:** 10 March 2022
+## **Status:** Day 92 of 100. **Last Update:** 11 March 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R8D92: Friday 11 March 2022
+
+  +  Last design tweaks have gone through. We are aiming to hopefully migrate and go live next week. Which is exciting!  
+
+  + **Technologies Used** - HTML5, CSS
 
 # R8D91: Thursday 10 March 2022
 

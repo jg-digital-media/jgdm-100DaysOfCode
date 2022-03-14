@@ -1,17 +1,23 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 92 of 100. **Last Update:** 11 March 2022
+## **Status:** Day 93 of 100. **Last Update:** 14 March 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
+# R8D93: Monday 14 March 2022
+
+  +  Added most site assets to a WordPress installation with one or 2 side effects. But it's a useful thing to do while the site design is still in deliberation.  :)
+
+  + **Technologies Used** - HTML5, CSS, WordPress
+
 # R8D92: Friday 11 March 2022
 
   +  Last design tweaks have gone through. We are aiming to hopefully migrate and go live next week. Which is exciting!  
 
-  + **Technologies Used** - HTML5, CSS
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 # R8D91: Thursday 10 March 2022
 
@@ -22,7 +28,7 @@ ___
 
 # R8D90: Wednesday 09 March 2022
 
-  +  Working on Cartoon Chros and CreativeIO
+  +  Working on Cartoon Chris and CreativeIO
 
   + **Technologies Used** - HTML5, CSS
 

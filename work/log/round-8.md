@@ -7,7 +7,7 @@ ___
 
 
 
-# R8D94: Monday 15 March 2022
+# R8D94: Tuesday 15 March 2022
 
   + One of my biggest challenges whenever I develop a website is enqueuing a "Slick" carousel in WordPress. I've almost cracked it again but the slick theme file is still giving me trouble.
 

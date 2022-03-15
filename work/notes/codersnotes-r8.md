@@ -15,7 +15,11 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
-### Day 93
+### Day 94
+
+
+Slick Carousel WordPress Enqueue
+lookup in wordpress docs
 
 ...
 

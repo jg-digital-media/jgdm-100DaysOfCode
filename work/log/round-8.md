@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 93 of 100. **Last Update:** 14 March 2022
+## **Status:** Day 94 of 100. **Last Update:** 15 March 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R8D94: Monday 15 March 2022
+
+  + One of my biggest challenges whenever I develop a website is enqueuing a "Slick" carousel in WordPress. I've almost cracked it again but the slick theme file is still giving me trouble.
+
+  + **Technologies Used** - HTML5, CSS, WordPress, JavaScript
 
 # R8D93: Monday 14 March 2022
 

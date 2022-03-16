@@ -1,4 +1,7 @@
-/*BREAKPOINTS*/
+/* 
+
+Last Update: 16-03-2022 - 13:02
+*/
 * {
   padding: 0;
   margin: 0; }
@@ -27,7 +30,7 @@ header {
     @media (max-width: 1124px) {
       header div {
         text-align: center; } }
-    @media (max-width: 480px) {
+    @media (max-width: 680px) {
       header div {
         position: relative;
         top: 10px; } }
@@ -56,7 +59,7 @@ header {
     header nav .main-nav li {
       display: inline-block;
       margin-left: 15px; }
-      @media (max-width: 480px) {
+      @media (max-width: 680px) {
         header nav .main-nav li {
           margin-left: 5px; } }
     header nav .main-nav a {
@@ -79,16 +82,43 @@ section {
     line-height: 1.7; }
     @media (max-width: 1124px) {
       section div.intro {
-        width: 60%; } }
-    @media (max-width: 480px) {
+        /* width: 60%; */ } }
+    @media (max-width: 680px) {
       section div.intro {
-        width: 90%; } }
+        /* width: 65%; */ } }
+    @media (max-width: 680px) {
+      section div.intro h1 {
+        text-align: center; } }
+    section div.intro h2 {
+      margin-top: 16pt; }
     section div.intro p {
       line-height: 2;
       padding: 15px 0px; }
     section div.intro .link {
       font-size: 10px;
       color: white; }
+  section section.featured-video {
+    display: block;
+    display: block; }
+    section section.featured-video h2 {
+      text-align: center; }
+    section section.featured-video div.video {
+      display: block;
+      /* width: 400px; */
+      width: 29px;
+      width: 400px;
+      min-height: 200px;
+      margin: 20px auto; }
+      @media (max-width: 1124px) {
+        section section.featured-video div.video {
+          width: 65%; } }
+      @media (max-width: 680px) {
+        section section.featured-video div.video {
+          width: 75%; } }
+      section section.featured-video div.video video, section section.featured-video div.video img {
+        width: 100%;
+        border: solid #f59f9f 3px;
+        border-radius: 5px; }
   section section.balloon-content {
     display: flex;
     width: 98%;
@@ -100,26 +130,12 @@ section {
       font-size: 49px; }
     section section.balloon-content p {
       line-height: 1.9; }
-    section section.balloon-content div.video {
-      display: block;
-      width: 400px;
-      min-height: 200px;
-      margin: -20px auto;
-      /*media query 740px*/
-      /*media query 740px*/ }
-      @media (max-width: 1124px) {
-        section section.balloon-content div.video {
-          width: 65%; } }
-      @media (max-width: 480px) {
-        section section.balloon-content div.video {
-          width: 75%; } }
-      section section.balloon-content div.video video, section section.balloon-content div.video img {
-        width: 100%; }
     section section.balloon-content div.stock-images {
       display: block;
       width: 30%;
       min-height: 200px;
-      margin: -20px auto;
+      margin: 20px auto;
+      cursor: pointer;
       /*media query 740px*/ }
       @media (max-width: 1124px) {
         section section.balloon-content div.stock-images {
@@ -133,7 +149,8 @@ section {
       display: block;
       width: 30%;
       min-height: 200px;
-      margin: -20px auto;
+      margin: 20px auto;
+      cursor: pointer;
       /*media query 740*/ }
       @media (max-width: 1124px) {
         section section.balloon-content div.gallery {
@@ -143,6 +160,14 @@ section {
         position: relative;
         font-size: 20pt;
         right: 147px; }
+    @media (max-width: 680px) {
+      section section.balloon-content div.draggable .slick-slide div {
+        display: block;
+        width: 75%;
+        margin: 0 auto; } }
+    section section.balloon-content div.draggable .slick-slide div img {
+      border: solid #f59f9f 3px;
+      border-radius: 5px; }
     section section.balloon-content .slick-next {
       /*position: relative;*/
       right: 5px;
@@ -155,7 +180,8 @@ section {
 footer {
   background: #da4848;
   margin-top: 20px;
-  border-top: #f59f9f 6px solid; }
+  border-top: #f59f9f 6px solid;
+  font-size: 12px; }
   footer p {
     padding: 20px 0;
     font-weight: bold;
@@ -163,7 +189,7 @@ footer {
     width: 100%;
     text-align: center; }
     footer p a {
-      letter-spacing: 2pt;
+      letter-spacing: 1pt;
       /**/
       color: #ffffff; }
       footer p a:hover {

@@ -1,11 +1,22 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 94 of 100. **Last Update:** 15 March 2022
+## **Status:** Day 96 of 100. **Last Update:** 17 March 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+# R8D96:Thursday 17 March 2022
+
+  + One of those days where I've been tied up with matters elsewhere most of the day. But I did have time to do a data update to prepare next upload for my Photography site. 
+
+  + **Technologies Used** - HTML5, CSS, WordPress, JavaScript
+
+# R8D95: Wednesday 16 March 2022
+
+  + Sorted out the remaining issues I spoke about with WordPress and slick. Later I did some updates to the content for styles for the Balloon Flight website I made previously.
+
+  + **Technologies Used** - HTML5, CSS, WordPress, JavaScript
 
 # R8D94: Tuesday 15 March 2022
 

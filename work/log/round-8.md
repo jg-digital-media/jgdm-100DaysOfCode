@@ -7,6 +7,12 @@ ___
 
 
 
+# R8D98: Monday 21 March 2022
+
+  + Photography website update
+
+  + **Technologies Used** - HTML5, CSS, WordPress, JavaScript
+
 # R8D97: Friday 18 March 2022
 
   + Today I mostly worked on the WordPress migration of the database in order to put my latest client project live.  The website for Creative IO went live earlier today. Check it out!

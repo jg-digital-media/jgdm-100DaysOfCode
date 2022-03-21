@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 96 of 100. **Last Update:** 17 March 2022
+## **Status:** Day 97 of 100. **Last Update:** 18 March 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-# R8D96:Thursday 17 March 2022
+
+# R8D97: Friday 18 March 2022
+
+  + Today I mostly worked on the WordPress migration of the database in order to put my latest client project live.  The website for Creative IO went live earlier today. Check it out!
+
+  + **Technologies Used** - HTML5, CSS, WordPress, JavaScript
+
+# R8D96: Thursday 17 March 2022
 
   + One of those days where I've been tied up with matters elsewhere most of the day. But I did have time to do a data update to prepare next upload for my Photography site. 
 
@@ -40,8 +47,7 @@ ___
 
   +  Today I presented a set of live drafts for a client and then caught up on some content updates for my Photography website
 
-  + **Technologies Used** - HTML5, CSS
-  
+  + **Technologies Used** - HTML5, CSS  
 
 # R8D90: Wednesday 09 March 2022
 
@@ -49,13 +55,11 @@ ___
 
   + **Technologies Used** - HTML5, CSS
 
-
 # R8D89: Tuesday 08 March 2022
 
   +  Working on CartoonChris
 
   + **Technologies Used** - HTML5, CSS
-
 
 # R8D88: Monday 07 March 2022
 

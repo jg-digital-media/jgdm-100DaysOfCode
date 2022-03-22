@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SVG</title>
+    <title>SVG Project</title>
 
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
 
-    <!--link to heart.svg as a file.-->
-    <img src="heart.svg" width="50" height="50" alt="heart sprite map" />
     
+    <!-- heart graphic container-->
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;" width="500" height="500">
         
         <symbol id="heartGraphic" viewBox="0 0 113.9 96.2">
@@ -21,22 +20,71 @@
         </symbol>
 
     </svg>
+
+    <!-- header icon container -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;" width="100" height="60">
+        
+        <symbol id="header_icon" viewBox="0 0 170 180">
+
+
+            <!-- <path d="M96 0L67.5 5.2"/>
+            <path fill="currentColor" d="M46.4 5.3L17.9.1 0 40.6l56.9 55.6.1-72.8z"/> -->
+
+            <circle fill="#7AA9DA" stroke="#FFF200" stroke-width="4" stroke-miterlimit="10" cx="84" cy="87" r="83"/>
+            <text transform="matrix(1 0 0 1 49 87)" font-family="'OratorStd-Slanted'" font-size="36">SVG</text>
+
+        </symbol>
+
+    </svg> 
+    
+    <!-- header icon container -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;" width="10" height="10">
+        
+        <symbol id="list_bullet" viewBox="0 0 170 180">
+
+
+            <!-- <path d="M96 0L67.5 5.2"/>
+            <path fill="currentColor" d="M46.4 5.3L17.9.1 0 40.6l56.9 55.6.1-72.8z"/> -->
+
+            <circle fill="#7AA9DA" stroke="#FFF200" stroke-width="4" stroke-miterlimit="10" cx="84" cy="87" r="83"/>
+            <text transform="matrix(1 0 0 1 49 87)" font-family="'OratorStd-Slanted'" font-size="36">SVG</text>
+
+        </symbol>
+
+    </svg>
+
+    <header>
+
+        <!--link to heart.svg as a file.-->
+        <!-- <img src="icon_example/heart.svg" width="50" height="50" alt="Heart" id="heart" /> -->
+
+        <svg width="150" height="150">
+            <use xlink:href="#header_icon" fill="#c44" class="heart-red" />
+        </svg>
+
+    </header>
+    
+    
    
     <div class="main">
-   
-        <svg width="150" height="150">
-            <use xlink:href="#heartGraphic" fill="#c44" class="heart-red" />
-        </svg>
-   
-        <svg width="130" height="130">
-            <use xlink:href="#heartGraphic" fill="#41af5d" class="heart-green"/>
-        </svg>
-   
-        <svg width="110" height="110">
-            <use xlink:href="#heartGraphic" fill="#2e97af" class="heart-blue" />
-        </svg>
-   
-   </div>
+
+            <h1>SVG Project</h1>
+
+            <h2>Generating Imagery with Vector graphics</h2> 
+
+            <ul>
+                <li><a href="https://projects.jonniegrieve.co.uk/svg_project/index.html" target="blank">Home</a></li>
+                <li><a href="https://projects.jonniegrieve.co.uk/svg_project/icon_example/index.html" target="blank">One</a></li>
+                <li><a href="" target="blank">???</a></li>
+            </ul>
+
+    </div>   
+
+   <footer>
+
+        By <a href="https://www.jonniegrieve.co.uk" target="blank">Jonnie Grieve Digital Media</a> 
+
+   </footer>
     
 </body>
 </html>

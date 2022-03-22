@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 97 of 100. **Last Update:** 18 March 2022
+## **Status:** Day 99 of 100. **Last Update:** 22 March 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R8D99: Tuesday 22 March 2022
+
+  + Uploaded my latest Photography website update yesterday.  https://photography.jonniegrieve.co.uk and today did some things with SVG and WordPress.
+
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 
 # R8D98: Monday 21 March 2022

@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 8
 
-## **Status:** Day 99 of 100. **Last Update:** 22 March 2022
+## **Status:** Day 100 of 100. **Last Update:** 23 March 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R8D100: Wednesday 23 March 2022
+
+  + And so ends 100 Days Round 8  :) A Client meeting and more edits and changes to WordPress template files.
+
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 # R8D99: Tuesday 22 March 2022
 

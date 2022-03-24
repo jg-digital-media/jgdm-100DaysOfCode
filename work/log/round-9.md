@@ -7,8 +7,8 @@ ___
 
 
 
-# R9D100: Thursday 24 March 2022
+# R9D1: Thursday 24 March 2022
 
-  + Akkk
+  + Starting the 9th Round It's been a mammoth day!  Just completed some updates behind the scenes to our latest project over at Creative IO to make the site easier to update.
 
   + **Technologies Used** - HTML5, CSS, WordPress

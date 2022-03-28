@@ -1,16 +1,22 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 2 of 100. **Last Update:** 25 March 2022
+## **Status:** Day 3 of 100. **Last Update:** 28 March 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-# R9D2: Friday 25 March 2022
+# R9D3: Monday 28 March 2022
 
-  + Off and running building a new client project todaty. Made a start wththe base styles for web pages with Sass and CSS. Been a great atart so looking forward to making inroads now.  :)
+  + Doing some more work on the layout styles for my latest website - only a few hours time to work on it though as life outside of coding needed some attention.
 
   + **Technologies Used** - HTML5, CSS, WordPress
+
+# R9D2: Friday 25 March 2022
+
+  + Off and running building a new client project today. Made a start with base styles for web pages with Sass and CSS. Been a great start so looking forward to making inroads now.  :)
+
+  + **Technologies Used** - HTML5, CSS
 
 # R9D1: Thursday 24 March 2022
 

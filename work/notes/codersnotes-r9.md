@@ -17,6 +17,6 @@
 + Gulp and Grunt compilers
 
 
-### Day 2q
+### Day 3
 
 ...

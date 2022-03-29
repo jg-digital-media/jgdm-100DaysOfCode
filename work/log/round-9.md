@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 3 of 100. **Last Update:** 28 March 2022
+## **Status:** Day 4 of 100. **Last Update:** 29 March 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R9D4: Tuesday 29 March 2022
+
+  + It's been busy, inside and outside of work. but as far as web design goes more work on my latest project
+
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 # R9D3: Monday 28 March 2022
 

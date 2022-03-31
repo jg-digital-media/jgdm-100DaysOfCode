@@ -1,4 +1,4 @@
-# 100DaysOfCode - Coders Notes (Round 8)
+# 100DaysOfCode - Coders Notes (Round 9)
 
 + Repository Overview: https://github.com/jg-digital-media
 + Repository URL: https://github.com/jg-digital-media/jgdm-100DaysOfCode
@@ -17,6 +17,6 @@
 + Gulp and Grunt compilers
 
 
-### Day 5
+### Day 6
 
 ...

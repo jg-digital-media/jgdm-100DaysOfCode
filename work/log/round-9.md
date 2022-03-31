@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 5 of 100. **Last Update:** 30 March 2022
+## **Status:** Day 6 of 100. **Last Update:** 31 March 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+# R9D6: Thursday 31 March 2022
+
+  + Finished building the layout and responsiveness of the site.  But usual Caveat: a design is never really "finished".  Might look at connectivity with WooCommerce tomorrow. 
+
+  + **Technologies Used** - HTML5, CSS
 
 # R9D5: Wednesday 30 March 2022
 

@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 7 of 100. **Last Update:** 1 April 2022
+## **Status:** Day 8 of 100. **Last Update:** 4 April 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+# R9D8: Monday 4 April 2022
+
+  + WordPress build began today although I only had time to get the ball rolling on it and no more.  Got some issues to sort out later to make the static design WordPress ready. 
+
+  + **Technologies Used** - HTML5, CSS, WordPress
 
 # R9D7: Friday 1 April 2022
 

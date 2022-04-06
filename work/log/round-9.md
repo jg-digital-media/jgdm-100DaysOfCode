@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 9 of 100. **Last Update:** 5 April 2022
+## **Status:** Day 9 of 100. **Last Update:** 6 April 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-# R9D9: Tuesday 4 April 2022
+
+# R9D10: Wednesday 6 April 2022
+
++ Good progress made today through WordPress. Finished off a few Post types.  I've created several more but stylistically it needs more work to get right.  Day off tomorrow. 
+
++ **Technologies Used** - HTML5, CSS, WordPress
+
+# R9D9: Tuesday 5 April 2022
 
 + Today has been about completing my conversion of some static web design files to WordPress, and it's gone well. I have plans for what to do next and tomorrow will be about deciding to to make those happen next. Another big WordPress project I'm enjoying working on. 
 

@@ -17,6 +17,15 @@
 + Gulp and Grunt compilers
 
 
-### Day 10
+### Day 11
 
-...
+CPT Slugs
+
+cartoon_examples
+painting_examples
+maincarousel  include selling_point custom fields
+newestimage
+pricelist
+event_carousel
+
+

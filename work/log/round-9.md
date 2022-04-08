@@ -1,17 +1,21 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 11 of 100. **Last Update:** 7 April 2022
+## **Status:** Day 12 of 100. **Last Update:** 8 April 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
+# R9D12: Friday 8 April 2022
+
++ After yesterday's unfortunate event (database blunder) I'm back on track and thr dynamic functionality is mostly done.  Nicer way to end the week  :)
+
++ **Technologies Used** - HTML5, CSS, WordPress
+
 # R9D11: Thursday 7 April 2022
 
 + Oops!  A WordPress migration has gone disastrously wrong which means I've managed to drop data from my local dev server. Work is salvageable and it's not a live site at the moment but it's a setback and a manual rebuild that needs to take place.
-
-+ **Technologies Used** - HTML5, CSS, WordPress
 
 # R9D10: Wednesday 6 April 2022
 

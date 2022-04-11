@@ -7,6 +7,12 @@ ___
 
 
 
+# R9D13: Monday 11 April 2022
+
++ Tough day. Added some more customisations for a client and been exploring WooCommerce for building an online shop.  It's been a while since I last tried to use the platform so a bigger learning curve than I thought. 
+
++ **Technologies Used** - HTML5, CSS, WordPress
+
 # R9D12: Friday 8 April 2022
 
 + After yesterday's unfortunate event (database blunder) I'm back on track and thr dynamic functionality is mostly done.  Nicer way to end the week  :)

@@ -17,6 +17,65 @@
 + Gulp and Grunt compilers
 
 
+### Day 13
+
+
+```
+
+
+---------> WooCommerce Store Setup
+
+6 Goldfinch Way
+Northallerton
+DL6 2FT
+
+
+
+Physical Products - Free
+Downloads - Free
+
+Bookings - $20.75 per month
+
+Have added the following free Plugins 
+
+The following plugins will be installed for free: 
+
+WooCommerce Payments, 
+WooCommerce Shipping & Tax, 
+Jetpack, 
+MailPoet, 
+Google Listings and Ads. 
+
+(User accounts are required to use these features.)
+
+Continued with Active Theme
+
+
+
+
+
+We have decisions to make regarding how the shop will look.  Follow the same design or use one of WooCommerce's prebuild templates?
+
+
+Set a Terms and conditions Page - WooCommerce
+
+
+
+
+If  you`ve never thought of buying an original cartoon 
+as a present or for yourself, then maybe now is the time.
+
+
+.wp-block-contact-form-7-contact-form-selector
+
+
+
+http://localhost/wordpress/cb_cartoontheme/wp-content/uploads/2022/04/cartoons-square.png
+
+
+```
+
+
 ### Day 12
 
 

@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 14 of 100. **Last Update:** 12 April 2022
+## **Status:** Day 15 of 100. **Last Update:** 14 April 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R9D15: Thursday 14 April 2022
+
++ Clocking off for Easter now!  Left it with a functioning WordPress, CMS and WooCommerce store (barring Payment Gateway).  Looking forward to a break and getting back into it!
+
++ **Technologies Used** - HTML5, CSS, WordPress
 
 # R9D14: Tuesday 12 April 2022
 

@@ -17,9 +17,25 @@
 + Gulp and Grunt compilers
 
 
-### Day 15
+### Day 16
 
-...
+
+
+cartoon chris.co.uk
+
+```html
+<img width="622" height="705" src="https://www.cartoonchris.co.uk/wp-content/uploads/2022/04/leading_image.png" class="attachment-full size-full wp-post-image" alt="Leading Image Example - Iron Man" loading="lazy" srcset="https://www.cartoonchris.co.uk/wp-content/uploads/2022/04/leading_image.png 622w, https://www.cartoonchris.co.uk/wp-content/uploads/2022/04/leading_image-265x300.png 265w, https://www.cartoonchris.co.uk/wp-content/uploads/2022/04/leading_image-600x680.png 600w" sizes="(max-width: 622px) 100vw, 622px">
+```
+
+localhost
+
+```html 
+<img width="622" height="705" src="http://localhost/wordpress/cb_cartoontheme/wp-content/uploads/2022/04/leading_image-1.png" class="attachment-full size-full wp-post-image" alt="Leading Image Example - Iron Man" loading="lazy">
+
+
+622 705
+
+```
 
 
 ### Day 13

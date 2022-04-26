@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 15 of 100. **Last Update:** 14 April 2022
+## **Status:** Day 16 of 100. **Last Update:** 26 April 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R9D16: Friday 16 April 2022
+
++ I seemed to have cracked a niggling issue with CSS and WordPress Post Thumbnails.  Just needed a height auto style and one of the WordPress classes I hadn't previously used.
+
++ **Technologies Used** - HTML5, CSS, WordPress
 
 # R9D15: Thursday 14 April 2022
 

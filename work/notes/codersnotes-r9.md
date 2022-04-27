@@ -17,6 +17,100 @@
 + Gulp and Grunt compilers
 
 
+### Day 17
+
+```scss
+
+.wp-block-contact-form-7-contact-form-selector {
+
+    border: solid blue 1px;
+
+    div.wpcf7 {
+
+        border: solid yellow 1px;
+    
+        form.wpcf7-form {
+        
+            border: solid red 1px; 
+            width: 100%;
+        
+            p {
+            
+                line-height: 1.8;
+                /* font-size: 15pt; */
+            
+                label {
+                
+                    color: green;
+                    width: 130px;
+                    margin: 15px 0;
+                    display: inline-block;
+                    font-weight: bold;
+                    font-size: 20px;            
+            
+                    .wpcf7-form-control-wrap {
+                    
+                        position: relative;
+                    
+                        .wpcf7-form-control,
+                        .wpcf7-text,
+                        .wpcf7-email {
+                    
+                            border-radius: 10px;
+                            height: 30px;
+                            padding: 15px;
+                            width: 100%;
+                            font-size: 16pt;
+                            border: solid black 3px;
+                            background: #ffff69;
+                            transition: .2s background;
+                    
+                        }
+                    
+                        .wpcf7-textarea {
+                            width: 100%;
+                            height: 100%;
+                            height: 300px;
+                            padding: 15px;
+                            border-radius: 10px;
+                            font-family: arial;
+                            font-size: 16pt;
+                            border: solid black 3px;
+                            background: #ffff69;
+                            transition: background .2s;
+                            
+                        }
+                    
+                    }         
+            
+                }
+            
+                .wpc7-submit {
+                    background: yellow;
+                    /* padding: 8px; */
+                    /* width: 44%; */
+                    cursor: pointer;
+                    border: solid #e9ff59 2px;
+                    border: solid black 3px;
+                    border-radius: 10px;
+                    transition: background .3s;
+                    display: inline-block;
+                    margin: 0 auto;
+                    width: 48%;
+                    padding: 15px;
+                    /* display: block; */
+                
+                }
+            
+            }
+            
+        }
+        
+    }
+
+}
+```
+
 ### Day 16
 
 

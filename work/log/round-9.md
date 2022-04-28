@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 17 of 100. **Last Update:** 27 April 2022
+## **Status:** Day 18 of 100. **Last Update:** 28 April 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R9D18: Thursday 28 April 2022
+
++ More reverse engineering making sure the WooCommerce Styling Sass partial I have is up to scratch.
+
++ **Technologies Used** - HTML5, CSS, WordPress
 
 # R9D17: Wednesday 27 April 2022
 

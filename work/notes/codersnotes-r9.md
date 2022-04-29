@@ -17,9 +17,26 @@
 + Gulp and Grunt compilers
 
 
-### Day 18
+### Day 19
 
-...
+#### ```Go to WooCommerce > Settings > Payments  -> Payment Methods -> Paypal -> Setup**```
+
++ Use the toggle next to PayPal Checkout to Enable it.
+
++ Click Set up or Manage to configure your PayPal Checkout settings.
+
++ Configure your settings: Title – Choose the title shown to customers during checkout.
+
+
+#### WooCommerce Payments
+
++ Needs a Wordpress.com account to use Paypal
+
++ Compatible with Visa, MasterCard, American Express, Google Pay, Apple Pay, Diners Club International, Discover, UnionPay, JCB
+
++ Paypal and Stripe are installed and ready to be used.
+
++ It’s free to connect, whether you have an existing PayPal account, or want to create a new account
 
 ### Day 17
 

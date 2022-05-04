@@ -1,11 +1,16 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 20 of 100. **Last Update:** 03 May 2022
+## **Status:** Day 21 of 100. **Last Update:** 04 May 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+# R9D21: Tuesday 03 May 2022
+
++ More tinkering around with Sass architecture.  The idea is to use base styles for common features and use unique styles in alongside regular selectors. Solved some issues. Created new ones. As ever  :)
+
++ **Technologies Used** - HTML5, CSS, WordPress
 
 # R9D20: Monday 03 May 2022
 

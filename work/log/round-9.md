@@ -1,18 +1,24 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 21 of 100. **Last Update:** 04 May 2022
+## **Status:** Day 22 of 100. **Last Update:** 05 May 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-# R9D21: Tuesday 03 May 2022
+# R9D22: Thursday 05 May 2022
+
++ Almost done style building with WooCommerce. Although I'm a stubborn perfectionist working in a creative industry so "done" isn't really in the vocabulary. :)
+
++ **Technologies Used** - HTML5, CSS, WordPress
+
+# R9D21: Wednesday 04 May 2022
 
 + More tinkering around with Sass architecture.  The idea is to use base styles for common features and use unique styles in alongside regular selectors. Solved some issues. Created new ones. As ever  :)
 
 + **Technologies Used** - HTML5, CSS, WordPress
 
-# R9D20: Monday 03 May 2022
+# R9D20: Tuesday 03 May 2022
 
 + Back to work today customising a WooCommerce Store so it is even further on brand to the design of my latest client project.
 

@@ -17,7 +17,44 @@
 + Gulp and Grunt compilers
 
 
-### Day 21
+### Day 22
+
+
+
+https://www.cartoonchris.co.uk/my-account/  - My Account
+https://www.cartoonchris.co.uk/homepage/ - Shop Homepage
+https://www.cartoonchris.co.uk/basket/ - Basket
+https://www.cartoonchris.co.uk/checkout/ - Checkout
+https://www.cartoonchris.co.uk/shop/ - Products/Archive Page
+https://www.cartoonchris.co.uk/privacy-policy/ - Privacy Link
+
+
+
+.select2-search select2-search--dropdown {
+
+.select2-search__field {
+
+background: yellow;
+
+
+
+
+
+}
+
+}
+
+.select2-results {
+
+select2-results__options {
+
+   li {
+
+   }
+
+ }
+
+}
 
 
 

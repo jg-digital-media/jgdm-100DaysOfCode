@@ -17,6 +17,35 @@
 + Gulp and Grunt compilers
 
 
+### Day 23
+
+```
+
+WooCommerce Selectors - 
+
+Taking away the legwork of styling your WooCommerce Shop with CSS according to your own brand.
+
+pages/woocommerce
+  ->  wc-all
+  ->  wc-basket
+  ->  wc-checkout
+  ->  wc-home
+  ->  wc-myaccount
+	+ Dashboard (/)
+	+ Orders (/orders/)
+	+ Downloads (/downloads/)
+	+ Address (/edit-address/)
+        + Account Details  (/edit-account/
+	+ Logout (/customer-logout)
+  ->  wc-shop  ()
+
+
+https://www.cartoonchris.co.uk/my-account/  - My Account
+
+
+
+```
+
 ### Day 22
 
 

@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 22 of 100. **Last Update:** 05 May 2022
+## **Status:** Day 23 of 100. **Last Update:** 06 May 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R9D23: Friday 06 May 2022
+
++ Styling now applied to all WooCommerce pages in WordPress- The MyAccount page, the Shop Homepage, Basket, privacy policy and Checkout page. Things are coming together
+
++ **Technologies Used** - HTML5, CSS, WordPress
 
 # R9D22: Thursday 05 May 2022
 

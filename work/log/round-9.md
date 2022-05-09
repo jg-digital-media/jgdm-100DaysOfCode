@@ -1,11 +1,16 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 23 of 100. **Last Update:** 06 May 2022
+## **Status:** Day 24 of 100. **Last Update:** 09 May 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+# R9D24: Monday 09 May 2022
+
++ Accomplished a lot today. Streamlining the shop onboarding process a little bit and added a new page variable to separate the HTML and page titles.
+
++ **Technologies Used** - HTML5, CSS, WordPress
 
 # R9D23: Friday 06 May 2022
 

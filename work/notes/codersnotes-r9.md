@@ -17,6 +17,12 @@
 + Gulp and Grunt compilers
 
 
+### Day 24
+
+
+shop 404 page
+edit privacy policy content
+
 ### Day 23
 
 ```

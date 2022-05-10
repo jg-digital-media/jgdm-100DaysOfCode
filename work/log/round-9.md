@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 24 of 100. **Last Update:** 09 May 2022
+## **Status:** Day 25 of 100. **Last Update:** 10 May 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+# R9D25: Tuesday 10 May 2022
+
++ Having to catch up on all sorts today. Adding more template parts so content can be updated in one location rather than across multiple pages.  Aiming to finish that tomorrow. Still have more styling to add too.
+
++ **Technologies Used** - HTML5, CSS, WordPress
 
 # R9D24: Monday 09 May 2022
 

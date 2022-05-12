@@ -19,9 +19,68 @@
 
 
 
-### Day 26
+### Day 27
 
-...
+
+
+```
+/shop/
+
+   .products
+	.product
+		.woocommerce-loop-product__link
+			.attachment-woocommerce-thumbnail
+			.woocommerce-loop-product__title
+
+
+/product/
+
+   .type-product
+	.onsale
+	.woocommerce-product-gallery
+	.entry-summary
+
+
+
+
+/shop/
+/my-account
+
+
+/homepage/
+.wc-block-grid {
+
+	.wc-block-grid__products {
+		.wc-block-grid__product {
+			.wc-block-grid__product-link {
+				.wc-block-grid__product-image {
+					.attachment-woocommerce_thumbnail {
+
+						
+					}
+				}
+
+				.wc-block-grid__product-title {
+				}
+			}
+			
+			.wc-block-grid__product-onsale {
+				span {
+					
+				}
+				.screen-reader-text {
+					
+				}
+			}
+
+			.wc-block-grid__product-price {
+				
+			}
+		}
+	}
+
+}
+```
 
 ### Day 24
 

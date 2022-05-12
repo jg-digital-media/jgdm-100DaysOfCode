@@ -1,17 +1,22 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 26 of 100. **Last Update:** 11 May 2022
+## **Status:** Day 27 of 100. **Last Update:** 12 May 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-# R9D26: Wednesday 11 May 2022
+# R9D27: Thursday 12 May 2022
 
-+ Added some responsiveness to the design and spruced up the store homepage. Still so much work to be done on the acccount page but, I made big strides today. 
++ Fixed several more long standing issues with styling today
 
 + **Technologies Used** - HTML5, CSS, WordPress
 
+# R9D26: Wednesday 11 May 2022
+
++ Added some responsiveness to the design and spruced up the store homepage. Still so much work to be done on the account page but, I made big strides today. 
+
++ **Technologies Used** - HTML5, CSS, WordPress
 
 # R9D25: Tuesday 10 May 2022
 

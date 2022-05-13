@@ -1,10 +1,17 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 27 of 100. **Last Update:** 12 May 2022
+## **Status:** Day 28 of 100. **Last Update:** 13 May 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R9D28: Friday 13 May 2022
+
++ New additions added to the design. more meaninful colour variables sorted - colour palette refined.
+
++ **Technologies Used** - HTML5, CSS, WordPress
 
 # R9D27: Thursday 12 May 2022
 

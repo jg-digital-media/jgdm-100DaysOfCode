@@ -1,15 +1,15 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 29 of 100. **Last Update:** 16 May 2022
+## **Status:** Day 30 of 100. **Last Update:** 17 May 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
-# R9D29: Monday 13 May 2022
+# R9D30: Monday 17 May 2022
 
-+ A design has now been fully developed and new questions/ideas passed over for signoff.  Once the payment gateways have been sorted. We *might* just be ready for a big reveal!  :-).
++ Lately I've been working on a new Git repository designed to help people with some of the legwork from styling WooCommerce according to their own brand.  Looking forward to releasing when it's ready.  :)
 
 + **Technologies Used** - HTML5, CSS, WordPres
 

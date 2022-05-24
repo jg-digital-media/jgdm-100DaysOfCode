@@ -1,11 +1,24 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 32 of 100. **Last Update:** 19 May 2022
+## **Status:** Day 34 of 100. **Last Update:** 24 May 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R9D34: Monday 23 May 2022
+
++ Updated some more styles and improved configurability
+
++ **Technologies Used** - HTML5, CSS, WordPres
+
+
+# R9D33: Friday 20 May 2022
+
++ My latest work. Inspired by a recent client project, I decided to create a repo that lists & guides you through the CSS Selectors you need to use with WooCommerce - taking the heavy lifting away. 
+
++ **Technologies Used** - HTML5, CSS, WordPres
 
 
 # R9D32: Thursday 19 May 2022
@@ -14,11 +27,13 @@ ___
 
 + **Technologies Used** - HTML5, CSS, WordPres
 
+
 # R9D31: Wednesday 18 May 2022
 
 + More content added to the Git Repo I talked about yesterday but also had to catch up with my accounts  :)
 
 + **Technologies Used** - HTML5, CSS, WordPres
+
 
 # R9D30: Tuesday 17 May 2022
 
@@ -26,13 +41,14 @@ ___
 
 + **Technologies Used** - HTML5, CSS, WordPres
 
-# R9D29: Mondau 16 May 2022 
+
+# R9D29: Monday 16 May 2022 
 
 + A design has now been fully developed and new questions/ideas passed over for signoff.  Once the payment gateways have been sorted. We *might* just be ready for a big reveal!   
 
 + **Technologies Used** - HTML5, CSS, WordPres
 
-# R9D28: Friday 13 May 2022<!--  -->
+# R9D28: Friday 13 May 2022
 
 + New additions added to the design. more meaningful colour variables sorted - colour palette refined.
 

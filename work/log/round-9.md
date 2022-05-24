@@ -1,17 +1,24 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 31 of 100. **Last Update:** 18 May 2022
+## **Status:** Day 32 of 100. **Last Update:** 19 May 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+
+# R9D32: Thursday 19 May 2022
+
++ Added more content to my new WooCommerce Repository.  It's getting close.  And committed some styling updates to my client project as well.
+
++ **Technologies Used** - HTML5, CSS, WordPres
 
 # R9D31: Wednesday 18 May 2022
 
 + More content added to the Git Repo I talked about yesterday but also had to catch up with my accounts  :)
 
 + **Technologies Used** - HTML5, CSS, WordPres
-
 
 # R9D30: Tuesday 17 May 2022
 

@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 35 of 100. **Last Update:** 24 May 2022
+## **Status:** Day 36 of 100. **Last Update:** 25 May 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R9D36: Wednesday 25 May 2022
+
++ Settled the font stack on the client website I'm working on and made some responsive WooCommerce customisations
+
++ **Technologies Used** - HTML5, CSS, WordPress
 
 # R9D35: Tuesday 24 May 2022
 

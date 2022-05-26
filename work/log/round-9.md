@@ -9,7 +9,7 @@ ___
 
 # R9D37: Thursday 26 May 2022
 
-+  Accounts.  WordPress. WooCommerce
++  Accounts.  WordPress. WooCommerce.  I've also this evening pushed new updates to my latest repository. 
 
 + **Technologies Used** - HTML5, CSS, WordPress
 

@@ -1,8 +1,13 @@
-<?php 
+        <?php 
 
-echo "footer.php";
+        echo "footer.php";
 
-?>
+        ?>
 
-<script src="script.js" type="text/css"></script>
+        <script src="script.js" type="text/css"></script>
+
+
+        
+    </body>
+</html>
 

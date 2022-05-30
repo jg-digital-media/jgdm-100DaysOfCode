@@ -1,6 +1,6 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 38 of 100. **Last Update:** 27 May 2022
+## **Status:** Day 39 of 100. **Last Update:** 30 May 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
@@ -8,9 +8,16 @@ ___
 
 
 
+# R9D39: Monday 30 May 2022
+
++  ... 
+
++ **Technologies Used** - HTML5, CSS, WordPress
+
 # R9D38: Friday 27 May 2022
 
 +  Flexed out my latest repository a bit more. I had some issues when fixing up set up instructions for WordPress and WooCommerce but overcame those and worked on setting up Sass for the CSS styling.
+
 + **Technologies Used** - HTML5, CSS, WordPress
 
 
@@ -26,6 +33,7 @@ ___
 + Settled the font stack on the client website I'm working on and made some responsive WooCommerce customisations
 
 + **Technologies Used** - HTML5, CSS, WordPress
+
 
 # R9D35: Tuesday 24 May 2022
 
@@ -74,11 +82,13 @@ ___
 
 + **Technologies Used** - HTML5, CSS, WordPress
 
+
 # R9D28: Friday 13 May 2022
 
 + New additions added to the design. more meaningful colour variables sorted - colour palette refined.
 
 + **Technologies Used** - HTML5, CSS, WordPress
+
 
 # R9D27: Thursday 12 May 2022
 
@@ -86,11 +96,13 @@ ___
 
 + **Technologies Used** - HTML5, CSS, WordPress
 
+
 # R9D26: Wednesday 11 May 2022
 
 + Added some responsiveness to the design and spruced up the store homepage. Still so much work to be done on the account page but, I made big strides today. 
 
 + **Technologies Used** - HTML5, CSS, WordPress
+
 
 # R9D25: Tuesday 10 May 2022
 
@@ -98,11 +110,13 @@ ___
 
 + **Technologies Used** - HTML5, CSS, WordPress
 
+
 # R9D24: Monday 09 May 2022
 
 + Accomplished a lot today. Streamlining the shop onboarding process a little bit and added a new page variable to separate the HTML and page titles.
 
 + **Technologies Used** - HTML5, CSS, WordPress
+
 
 # R9D23: Friday 06 May 2022
 
@@ -110,11 +124,13 @@ ___
 
 + **Technologies Used** - HTML5, CSS, WordPress
 
+
 # R9D22: Thursday 05 May 2022
 
 + Almost done style building with WooCommerce. Although I'm a stubborn perfectionist working in a creative industry so "done" isn't really in the vocabulary. :)
 
 + **Technologies Used** - HTML5, CSS, WordPress
+
 
 # R9D21: Wednesday 04 May 2022
 
@@ -122,11 +138,13 @@ ___
 
 + **Technologies Used** - HTML5, CSS, WordPress
 
+
 # R9D20: Tuesday 03 May 2022
 
 + Back to work today customising a WooCommerce Store so it is even further on brand to the design of my latest client project.
 
 + **Technologies Used** - HTML5, CSS, WordPress
+
 
 # R9D19: Friday 29 April 2022
 
@@ -134,11 +152,13 @@ ___
 
 + **Technologies Used** - HTML5, CSS, WordPress
 
+
 # R9D18: Thursday 28 April 2022
 
 + More reverse engineering making sure the WooCommerce Styling Sass partial I have is up to scratch.
 
 + **Technologies Used** - HTML5, CSS, WordPress
+
 
 # R9D17: Wednesday 27 April 2022
 
@@ -146,17 +166,20 @@ ___
 
 + **Technologies Used** - HTML5, CSS, WordPress
 
+
 # R9D16: Tuesday 26 April 2022
 
 + I seemed to have cracked a niggling issue with CSS and WordPress Post Thumbnails.  Just needed a height auto style and one of the WordPress classes I hadn't previously used.
 
 + **Technologies Used** - HTML5, CSS, WordPress
 
+
 # R9D15: Thursday 14 April 2022
 
 + Clocking off for Easter now!  Left it with a functioning WordPress, CMS and WooCommerce store (barring Payment Gateway).  Looking forward to a break and getting back into it!
 
 + **Technologies Used** - HTML5, CSS, WordPress
+
 
 # R9D14: Tuesday 12 April 2022
 

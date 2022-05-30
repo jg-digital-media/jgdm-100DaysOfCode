@@ -18,9 +18,19 @@
 
 
 
-### Day 38
+### Day 39
 
-...
+
+
+Overriding the Shop header and footer
+wp-includes
+	- modified footer	header.php
+	- modified header	footer.php
+
+
+C:\xampp\htdocs\wordpress\cb_cartoontheme\wp-includes\theme-compat\header.php
+C:\xampp\htdocs\wordpress\cb_cartoontheme\wp-includes\theme-compat\footer.php
+
 
 
 ### Day 27

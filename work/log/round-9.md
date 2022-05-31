@@ -1,6 +1,6 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 39 of 100. **Last Update:** 30 May 2022
+## **Status:** Day 40 of 100. **Last Update:** 31 May 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
@@ -8,11 +8,19 @@ ___
 
 
 
+# R9D40: Tuesday 31 May 2022
+
++  A much more productive day yesterday which was nice. Sorted out some CTAs and behind the scenes meta information ready for release whenever that might be.  :) 
+
++ **Technologies Used** - HTML5, CSS, WordPress
+
+
 # R9D39: Monday 30 May 2022
 
 +  ... 
 
 + **Technologies Used** - HTML5, CSS, WordPress
+
 
 # R9D38: Friday 27 May 2022
 
@@ -37,13 +45,13 @@ ___
 
 # R9D35: Tuesday 24 May 2022
 
-+ Worked on my accounts, and tech wise on making a responsive contact form with CSS
++ Worked on my accounts, and tech wise on making a responsive contact form with CSS.
 
 + **Technologies Used** - HTML5, CSS, WordPress
 
 # R9D34: Monday 23 May 2022
 
-+ Updated some more styles and improved configurability
++ Updated some more styles and improved configurability.
 
 + **Technologies Used** - HTML5, CSS, WordPress
 
@@ -71,14 +79,14 @@ ___
 
 # R9D30: Tuesday 17 May 2022
 
-+ Lately I've been working on a new Git repository designed to help people with some of the legwork from styling WooCommerce according to their own brand.  Looking forward to releasing when it's ready.  :)
++ Lately I've been working on a new Git repository designed to help people with some of the legwork from styling WooCommerce according to their own brand. Looking forward to releasing when it's ready.  :)
 
 + **Technologies Used** - HTML5, CSS, WordPress
 
 
 # R9D29: Monday 16 May 2022 
 
-+ A design has now been fully developed and new questions/ideas passed over for signoff.  Once the payment gateways have been sorted. We *might* just be ready for a big reveal!   
++ A design has now been fully developed and new questions/ideas passed over for signoff. Once the payment gateways have been sorted. We *might* just be ready for a big reveal!   
 
 + **Technologies Used** - HTML5, CSS, WordPress
 

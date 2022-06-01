@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 9: Day 40 of 100. **Last Update:** 31 May 2022 
++ **Status:** Round 9: Day 41 of 100. **Last Update:** 01 June 2022 
 
 ## Directories
   + api
@@ -46,12 +46,13 @@
     + localstorage
     + random_number_challenge_js
     + th_live_pet_directory
-  + nodeJS
+  + node_js
     + basics
     + dynamic
     + dynamic_site
     + express_async
     + express_restapi
+    + imba
     + open_weather
     + sequelize
     + sequelize_blog

@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 40 of 100. **Last Update:** 31 May 2022
+## **Status:** Day 41 of 100. **Last Update:** 01 June 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+
+# R9D41: Wednesday 01 June 2022
+
++  Added some more selectors to my repository today and took care of some more admin things in my '100DaysRepo. Been a slower few days.   Will be back afer the UK Jubilee weekend!  :)
+
++ **Technologies Used** - HTML5, CSS, WordPress
 
 
 # R9D40: Tuesday 31 May 2022

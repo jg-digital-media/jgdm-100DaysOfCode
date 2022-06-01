@@ -18,9 +18,17 @@
 
 
 
-### Day 40
+### Day 41
 
-...
+
+```npm -v```  current node version  6.14.11
+
+ `npm i -g npm` node latest version  - to update node
+
+
+`npx imba create hello-world` create new imba project - 
+
+Imba: getting started https://imba.io/docs/intro#getting-started
 
 ### Day 39
 

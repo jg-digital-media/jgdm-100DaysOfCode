@@ -1,6 +1,8 @@
-let itemAll = photoData.projects.length;
 
-console.log(photoData.projects.length);
+
+console.log("app.js connected");
+
+
 
 /*  //select project count
     let project_count = document.getElementById("project_count");
@@ -8,6 +10,15 @@ console.log(photoData.projects.length);
 
     project_count.textContent = count; */
 
+jQuery.getJSON('../../files/data/repositories.json', function(photoData) {
+
+    
+
+
+    let itemAll = photoData.length;
+    console.log(photoData.length);
+
+    
     for (let i=0; i < itemAll; i++) { 
         
         // Successful delivery of class and image URL    - uses data-src and/or src attributes for image element        
@@ -15,12 +26,12 @@ console.log(photoData.projects.length);
         ).appendTo('.list-js');  */ 
         
         jQuery(
-            
-            `<a href="${photoData[i].repo_name}" target="blank"> Data </a>`
 
-        ).appendTo('.list-js');     
+            `<a href="${ photoData[i].repo_name }" target="blank"> Data </a>`
 
-
+        ).appendTo('.list-js');  
 
     }
+
+});
 

@@ -1,16 +1,22 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 41 of 100. **Last Update:** 01 June 2022
+## **Status:** Day 42 of 100. **Last Update:** 06 June 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
+# R9D42: Monday 06 June 2022
+
++  We've today rolled out some minor changes to the DH4U website with more to come hopefully very soon. :)  Great to work with this charity again to improve the experience for users
+
++ **Technologies Used** - WordPress
+
 
 # R9D41: Wednesday 01 June 2022
 
-+  Added some more selectors to my repository today and took care of some more admin things in my '100DaysRepo. Been a slower few days.   Will be back afer the UK Jubilee weekend!  :)
++  Added some more selectors to my repository today and took care of some more admin things in my '100DaysRepo. Been a slower few days.   Will be back after the UK Jubilee weekend!  :)
 
 + **Technologies Used** - HTML5, CSS, WordPress
 

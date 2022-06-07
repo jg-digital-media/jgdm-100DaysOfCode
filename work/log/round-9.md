@@ -1,10 +1,15 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 42 of 100. **Last Update:** 06 June 2022
+## **Status:** Day 43 of 100. **Last Update:** 07 June 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+# R9D44: Tuesday 07 June 2022
+
+ Rolled out more updates - more visibility to the mobile navigation colour scheme matching desktop screens
+
++ **Technologies Used** - WordPress
 
 
 # R9D42: Monday 06 June 2022

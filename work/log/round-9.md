@@ -9,7 +9,7 @@ ___
 
  Working on a subdomain for a list of all the GitHub Repos I have.  Got the list sorted.  What I'd like to have next is a button that copies the git clone command you'll need.
 
-+ **Technologies Used** - WordPress
++ **Technologies Used** - git, jsdon 
 
 # R9D43: Tuesday 07 June 2022
 

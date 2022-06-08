@@ -28,14 +28,30 @@ main {
         /* display: inline-flex; */
         /* border-right: solid 2px black; */
         /* border-left: solid 2px black; */
-        padding: 0 10px;
         /* height: 35px; */
+
+        @media (max-width: $breakpoint-m) {
+            width: 99%;
+        }
 
         div.repo_item {
 
             flex-direction: row;
             width: 28%;
-            display: inline-block;
+            display: inline-block;   
+            vertical-align: top;         
+
+            @media (max-width: $breakpoint-l) {
+
+                width: 34%;
+
+            }  
+
+            @media (max-width: $breakpoint-m) {
+
+                width: 100%;
+
+            }
 
             a {
 
@@ -52,16 +68,40 @@ main {
 
             }
 
+            a.clone_command {
+
+                padding: 10px;
+                background: #f6f685;
+                width: 280px;
+                color: purple;
+            }
+
             img {
 
                 width: 89%;
                 border: solid 4px white;
                 border-radius: 5px;
+
+                
+
+                @media (max-width: $breakpoint-l) {
+                    
+                    width: 85%;
+                }
+
+                @media (max-width: $breakpoint-m) {
+
+                    width: 90%;
+                }
+
             }
 
             span {
+                
                 color: red;
                 font-style: italic;
+                margin-bottom: 20px;
+                display: inline-block;
             }
 
         }

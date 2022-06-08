@@ -1,5 +1,9 @@
 $page-bg: #a1a1ef;
 
+//Configuration
+
+@import "files/sass/config/config.scss";
+
 @import "files/sass/head";
 @import "files/sass/main";
 @import "files/sass/repos/repo";

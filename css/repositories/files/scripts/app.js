@@ -10,7 +10,7 @@ console.log("app.js connected");
 
     project_count.textContent = count; */
 
-jQuery.getJSON('../../files/data/repositories.json', function(photoData) {
+jQuery.getJSON('files/data/repositories.json', function(photoData) {
 
     
 
@@ -27,7 +27,13 @@ jQuery.getJSON('../../files/data/repositories.json', function(photoData) {
         
         jQuery(
 
-            `<a href="${ photoData[i].repo_name }" target="blank"> Data </a>`
+            `<div class="repo_item">
+
+                <a href="${ photoData[i].repo_url }" target="blank"> ${ photoData[i].repo_name } </a>
+                <span class=" ${ photoData[i].repo_type }"> (${ photoData[i].repo_type }) </span>
+                <span class=" ${ photoData[i].repo_status} "> (${ photoData[i].repo_status }) </span>
+            
+            </div>`
 
         ).appendTo('.list-js');  
 

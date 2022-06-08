@@ -1,31 +1,67 @@
 main {
 
-    h1 {
-        text-align: center;
+
+    header {
+
+        h1 {
+            text-align: center;
+
+        }
+        
+        #repo_logo {
+
+            display: block;
+            width: 200px;
+            margin: 0 auto;
+        
+        }
+
     }
 
     .list-js {
 
-        width: 70%;
+        width: 92%;
         margin: 25px auto;
         display: block;
-        border-right: solid 2px black;
-        border-left: solid 2px black;
+        text-align: center;
+        /* display: inherit; */
+        /* display: inline-flex; */
+        /* border-right: solid 2px black; */
+        /* border-left: solid 2px black; */
         padding: 0 10px;
-        height: 35px;
+        /* height: 35px; */
 
-        div {
+        div.repo_item {
 
-            h2 {
+            flex-direction: row;
+            width: 28%;
+            display: inline-block;
 
-                color: red;
+            a {
+
+                color: black;
+                text-transform: uppercase;
+                font-weight: bold;
+                display: block;
+                margin: 10px 0;
+
+                &:hover {
+
+                    text-decoration: none;
+                }
 
             }
-            
-            p {
 
+            img {
 
+                width: 89%;
+                border: solid 4px white;
+                border-radius: 5px;
+            }
+
+            span {
                 color: red;
+                font-style: italic;
             }
 
         }

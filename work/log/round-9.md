@@ -1,19 +1,26 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 44 of 100. **Last Update:** 8 June 2022
+## **Status:** Day 45 of 100. **Last Update:** 9 June 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-# R9D44: Wedneday 07 June 2022
 
- Working on a subdomain for a list of all the GitHub Repos I have.  Got the list sorted.  What I'd like to have next is a button that copies the git clone command you'll need.
+# R9D45: Thursday 09 June 2022
 
-+ **Technologies Used** - git, jsdon 
++ After finishing some admin I got back to working on some selectors for my WooCommerce repository with some important corrections committed into the repo.
+
++ **Technologies Used** - git, wordpress, css
+
+# R9D44: Wednesday 08 June 2022
+
++ Working on a subdomain for a list of all the GitHub Repos I have.  Got the list sorted.  What I'd like to have next is a button that copies the git clone command you'll need.
+
++ **Technologies Used** - git, json 
 
 # R9D43: Tuesday 07 June 2022
 
- Rolled out more updates - more visibility to the mobile navigation colour scheme matching desktop screens
++ Rolled out more updates - more visibility to the mobile navigation colour scheme matching desktop screens
 
 + **Technologies Used** - WordPress
 

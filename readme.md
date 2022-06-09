@@ -7,6 +7,9 @@
 ## **Update:** I have recently stripped out react, node and vue js projects and started afresh as I have simply not worked on these enough in recent years and they'd become security liabilities.  
 
 ## Directories
+
+  + _bin      
+      + `Bin contents go here`  
   + api
       + basic
       + fetch_random
@@ -14,8 +17,6 @@
       + project_api
       + random_from_user
   + archive
-  + bin      
-      + `Bin contents go here`  
   + css 
     + balloon
     + experiments

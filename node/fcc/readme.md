@@ -56,3 +56,5 @@ To allow an npm dependency to update to the latest PATCH version, you can prefix
 
     "package": "^0.0.0",
 }
+
+```

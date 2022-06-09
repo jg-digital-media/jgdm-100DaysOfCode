@@ -2,7 +2,9 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 9: Day 44 of 100. **Last Update:** 08 June 2022 
++ **Status:** Round 9: Day 45 of 100. **Last Update:** 08 June 2022 
+
+## **Update:** I have recently stripped out react, node and vue js projects and started afresh as I have simply not worked on these enough in recent years and they'd become security liabilities.  
 
 ## Directories
   + api
@@ -27,6 +29,7 @@
     + project_status_images
     + pwa
     + pwa_2
+    + repositories
     + sass_project
     + semantic_html_example
     + showcase
@@ -46,18 +49,8 @@
     + localstorage
     + random_number_challenge_js
     + th_live_pet_directory
-  + node_js
-    + basics
-    + dynamic
-    + dynamic_site
-    + express_async
-    + express_restapi
+  + node
     + imba
-    + open_weather
-    + sequelize
-    + sequelize_blog
-    + sequelize_express
-    + sequelize_relatonships
   + php
     + lockdown
     + php_auth
@@ -78,15 +71,7 @@
         + cli_app_tth
     + lists
     + madlibs
-    + oop
-  + react
-    + context_api
-    + practice-state
-    + react-rendering  
-    + scoreboard
-    + scoreboard_v2
-    + temp
-    + tictactoe
+    + oop  
   + regex
   + sonic_pi
     + jingles
@@ -96,13 +81,6 @@
     + tutorial_buffers
   + svg
     + icons
-  + vue
-    + basic-vue
-    + tania_rascia
-    + todo
-    + voting_app
-    + vue_project
-    + vue_project_v2
   + work
     + log
     + notes

@@ -272,7 +272,7 @@
         "repo_type": "website",
         "repo_status": "Complete",
         "repo_clone": "git clone https://github.com/jg-digital-media/simple_express",
-        "repo_privacy": "public"        
+        "repo_privacy": "private"        
 
     }
 

@@ -15,8 +15,47 @@ jQuery.getJSON('files/data/repositories.json', function(photoData) {
     
     for (let i=0; i < itemAll; i++) { 
         
-        // store message on jQuery method
-        jQuery(
+        // store message on jQuery method        
+        if ( photoData[i].repo_privacy === "public") { 
+
+            jQuery(
+            `<div class="repo_item">
+
+                <img src="${ photoData[i].repo_img }" title="${ photoData[i].repo_alt }" alt="${ photoData[i].repo_alt }" />
+                <a href="${ photoData[i].repo_url }" class="href_repo_url" target="blank"> ${ photoData[i].repo_name } </a>
+                
+                <!-- Copy clone button -->
+                <a href="#" class="copy_clone_command" id="js-clone" onclick="copy_the_text()">clone command</a>
+
+                <span class="type"> (${ photoData[i].repo_type }) </span> | 
+                <span class="status"> (${ photoData[i].repo_status }) </span> |
+                <span class="privacy"> (${ photoData[i].repo_privacy }) </span> 
+
+            
+            </div>`).appendTo('.list-js')
+
+
+        } else {
+
+            jQuery(
+
+            `<div class="repo_item">
+
+                <img src="${ photoData[i].repo_img }" title="${ photoData[i].repo_alt }" alt="${ photoData[i].repo_alt }" />
+                <a href="${ photoData[i].repo_url }" class="href_repo_url" target="blank"> ${ photoData[i].repo_name } </a>
+
+                <span class="type"> (${ photoData[i].repo_type }) </span> | 
+                <span class="status"> (${ photoData[i].repo_status }) </span> |
+                <span class="privacy"> (${ photoData[i].repo_privacy }) </span> 
+            
+            </div>`
+
+            ).appendTo('.list-js');
+
+
+         }
+
+        /* jQuery(
 
             `<div class="repo_item">
 
@@ -33,7 +72,7 @@ jQuery.getJSON('files/data/repositories.json', function(photoData) {
             
             </div>`
 
-        ).appendTo('.list-js');                 
+        ).appendTo('.list-js');   */               
 
     }    
 

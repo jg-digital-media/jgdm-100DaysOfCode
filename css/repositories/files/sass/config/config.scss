@@ -1,7 +1,8 @@
-// Breakpoints
 
 
 $color-span: red;
+
+$bg-header: black;
 
 $txt-col-primary: black;
 $txt-col-secondary: white;
@@ -13,6 +14,20 @@ $hrf-col-secondary: white;
 $btn-bg: #ee5752;
 $btn-bg-hvr: #fb1111;
 
+// fonts 
+
+$font-primary: arial;
+$font-secondary: verdana;
+$font-span: verdana;
+
+
+$font-size-h1: 32px;
+$font-size-main: 14px;
+$font-size-small: 10px;
+
+
+
+// Breakpoints
 
 $breakpoint-l: 1200px;
 $breakpoint-m: 980px;

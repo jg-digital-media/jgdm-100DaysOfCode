@@ -94,6 +94,38 @@ main {
                 font-style: italic;
                 margin-bottom: 20px;
                 display: inline-block;
+                background: #4cbce8;
+                padding: 3px;
+                border-bottom: #584e4e 1px dotted;
+                border: #583e4e 1px dotted;
+                border: #ff3213 1px dotted;
+
+                &.status {
+
+                    color: black;
+                    font-style: normal;
+                    font-weight: bold;
+                    margin: 0 5px;
+
+                }
+
+                &.type {
+
+                    color: black;
+                    font-style: normal;
+                    font-weight: bold;
+
+                }
+
+                &.privacy {
+
+                    color: black;
+                    font-style: normal;
+                    font-weight: bold;
+                    text-transform: capitalize;
+
+                }
+
             }
 
 

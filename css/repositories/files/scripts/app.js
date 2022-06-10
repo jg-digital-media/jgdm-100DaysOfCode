@@ -22,14 +22,14 @@ jQuery.getJSON('files/data/repositories.json', function(photoData) {
 
                 <img src="${ photoData[i].repo_img }" title="${ photoData[i].repo_alt }" alt="${ photoData[i].repo_alt }" />
                 <a href="${ photoData[i].repo_url }" class="href_repo_url" target="blank"> ${ photoData[i].repo_name } </a>
-
-                <span class="${ photoData[i].repo_type }"> (${ photoData[i].repo_type }) </span> | 
-                <span class="${ photoData[i].repo_status} "> (${ photoData[i].repo_status }) </span> 
-                <span class="privacy"> (${ photoData[i].repo_privacy }) </span> 
-
                 
                 <!-- Copy clone button -->
                 <a href="#" class="copy_clone_command" id="js-clone" onclick="copy_the_text()">clone command</a>
+
+                <span class="type"> (${ photoData[i].repo_type }) </span> | 
+                <span class="status"> (${ photoData[i].repo_status }) </span> |
+                <span class="privacy"> (${ photoData[i].repo_privacy }) </span> 
+
             
             </div>`
 

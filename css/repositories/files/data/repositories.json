@@ -7,189 +7,272 @@
         "repo_name":"JGDM: #100DaysOfCode",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
         "repo_alt": "repo alt text 1",
+        "repo_description": "description 1",
         "repo_url":"https://github.com/jg-digital-media/jgdm-100DaysOfCode",
         "repo_type": "repo",
-        "repo_status": "Ongoing"
+        "repo_status": "Ongoing",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm-100DaysOfCode",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM GitHub Landing Page",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 2",
+        "repo_description": "description 2",
         "repo_url":"https://github.com/jg-digital-media/jg-digital-media.github.io",
         "repo_type": "website",
-        "repo_status": "Complete"
+        "repo_status": "Complete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jg-digital-media.github.io",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM: Projects Directory",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 3",
+        "repo_description": "description 3",
         "repo_url":"https://github.com/jg-digital-media/projects",
         "repo_type": "repo",
-        "repo_status": "Ongoing"
+        "repo_status": "Ongoing",
+        "repo_clone": "git clone https://github.com/jg-digital-media/projects",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM: Local Server Project Directory",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 4",
+        "repo_description": "description 4",
         "repo_url":"git clone https://github.com/jg-digital-media/server",
         "repo_type": "repo",
-        "repo_status": "Ongoing"
+        "repo_status": "Ongoing",
+        "repo_clone": "git clone https://github.com/jg-digital-media/server",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM: WordPress Projects",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 5",
+        "repo_description": "description 5",
         "repo_url":"https://github.com/jg-digital-media/wordpress",
         "repo_type": "repo",
-        "repo_status": "Ongoing"
+        "repo_status": "Ongoing",
+        "repo_clone": "git clone https://github.com/jg-digital-media/wordpress",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM: Android Projects",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 6",
+        "repo_description": "description 6",
         "repo_url":"https://github.com/jg-digital-media/android",
         "repo_type": "repo",
-        "repo_status": "Ongoing"
+        "repo_status": "Ongoing",
+        "repo_clone": "git clone https://github.com/jg-digital-media/android",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM: PHP Boilerplate Website",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 7",
+        "repo_description": "description 7",
         "repo_url":"https://github.com/jg-digital-media/jgdm_php_boilerplate",
         "repo_type": "website",
-        "repo_status": "Complete"
+        "repo_status": "Complete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_php_boilerplate",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM Mobile Hamburger Menu",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 8",
+        "repo_description": "description 8",
         "repo_url":"https://github.com/jg-digital-media/jgdm_mobile_hamburger_menu",
         "repo_type": "website",
-        "repo_status": "Complete"
+        "repo_status": "Complete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_mobile_hamburger_menu",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM: Image Gallery",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 9",
+        "repo_description": "description 9",
         "repo_url":"https://github.com/jg-digital-media/jgdm_image_gallery",
         "repo_type": "website",
-        "repo_status": "Complete"
+        "repo_status": "Complete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_image_gallery",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM: Web Project Starter",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 10",
+        "repo_description": "description 10",
         "repo_url":"https://github.com/jg-digital-media/jgdm_web_project_starter",
         "repo_type": "website",
-        "repo_status": "Complete"
+        "repo_status": "Complete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_web_project_starter",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM: WooCommerce Selectors",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 11",
+        "repo_description": "description 11",
         "repo_url":"https://github.com/jg-digital-media/jgdm-woocommerce-selectors",
         "repo_type": "repo",
-        "repo_status": "Incomplete"
+        "repo_status": "Incomplete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm-woocommerce-selectors",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM: WordPress Starter",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 12",
+        "repo_description": "description 12",
         "repo_url":"https://github.com/jg-digital-media/jgdm_wordpress_starter",
         "repo_type": "website",
-        "repo_status": "Complete"
+        "repo_status": "Complete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_wordpress_starter",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM: Flask Project",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 13",
+        "repo_description": "description 13",
         "repo_url":"https://github.com/jg-digital-media/jgdm_flask_project",
         "repo_type": "website",
-        "repo_status": "Complete"
+        "repo_status": "Complete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_flask_project",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM: Python SQLAlchemy",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 14",
+        "repo_description": "description 14",
         "repo_url":"https://github.com/jg-digital-media/jgdm-python-app",
         "repo_type": "website",
-        "repo_status": "Complete"
+        "repo_status": "Complete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm-python-app",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM: CSS Grid Project",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 15",
+        "repo_description": "description 15",
         "repo_url":"https://github.com/jg-digital-media/jgdm_grid_project",
         "repo_type": "website",
-        "repo_status": "Complete"
+        "repo_status": "Complete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_grid_project",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM: Laravel Photos REST API",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 16",
+        "repo_description": "description 16",
         "repo_url":"https://github.com/jg-digital-media/laravel_photorestapi",
         "repo_type": "website",
-        "repo_status": "Complete"
+        "repo_status": "Complete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/laravel_photorestapi",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM: Laravel Basic - Repository",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 17",
+        "repo_description": "description 17",
         "repo_url":"https://github.com/jg-digital-media/laravel_basic",
         "repo_type": "website",
-        "repo_status": "Complete"
+        "repo_status": "Complete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/laravel_basic",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM: Laravel Switch Photo Filter App",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 18",
+        "repo_description": "description 18",
         "repo_url":"https://github.com/jg-digital-media/switch_photo",
         "repo_type": "website",
-        "repo_status": "Incomplete"
+        "repo_status": "Incomplete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/switch_photo",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM: Laravel Photos API Repo (duplicate?)",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
-        "repo_url":"https://github.com/jg-digital-media/photos_api",
+        "repo_alt": "repo alt text 19",
+        "repo_description": "description 19",
+        "repo_url": "https://github.com/jg-digital-media/photos_api",
         "repo_type": "website",
-        "repo_status": "Incomplete"
+        "repo_status": "Incomplete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/photos_api",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"JGDM: Node Site",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 20",
+        "repo_description": "description 20",
         "repo_url":"https://github.com/jg-digital-media/node-site",
         "repo_type": "node",
-        "repo_status": "Incomplete"
+        "repo_status": "Incomplete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/node-site",
+        "repo_privacy": "public"
+        
 
     }, {
 
         "repo_name":"Simple Express App",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
-        "repo_alt": "repo alt text",
+        "repo_alt": "repo alt text 21",
+        "repo_description": "description 21",
         "repo_url":"https://github.com/jg-digital-media/simple_express",
         "repo_type": "website",
-        "repo_status": "Complete"
+        "repo_status": "Complete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/simple_express",
+        "repo_privacy": "public"        
 
     }
 

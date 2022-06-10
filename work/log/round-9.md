@@ -1,10 +1,16 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 45 of 100. **Last Update:** 9 June 2022
+## **Status:** Day 46 of 100. **Last Update:** 10 June 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R9D46: Friday 10 June 2022
+
++ Started writing a function to retrieve and copy the text of a git clone command string so it can be pasted straight into your CLI or Terminal. 
+
++ **Technologies Used** - git, wordpress, css
 
 # R9D45: Thursday 09 June 2022
 

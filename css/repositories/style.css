@@ -1,7 +1,6 @@
 /******
 
-Last Update:  08-06-2022  16:53
-
+Last Update:  10-06-2022  10:00
 
 ******/
 main header h1 {
@@ -42,11 +41,6 @@ main .list-js {
       margin: 10px 0; }
       main .list-js div.repo_item a:hover {
         text-decoration: none; }
-    main .list-js div.repo_item a.clone_command {
-      padding: 10px;
-      background: #f6f685;
-      width: 280px;
-      color: purple; }
     main .list-js div.repo_item img {
       width: 89%;
       border: solid 4px white;
@@ -62,6 +56,24 @@ main .list-js {
       font-style: italic;
       margin-bottom: 20px;
       display: inline-block; }
+    main .list-js div.repo_item .copy_clone_command {
+      background: #ee5752;
+      display: block;
+      margin: 20px auto;
+      padding: 10px;
+      color: white;
+      border-radius: 10px;
+      border: solid white 3px;
+      /* width: 90%; */
+      width: 200px;
+      text-decoration: none;
+      transition: background .3s, transform .1s; }
+      main .list-js div.repo_item .copy_clone_command:hover {
+        background: #fb1111;
+        transform: scale(1.1); }
+      @media (max-width: 980px) {
+        main .list-js div.repo_item .copy_clone_command {
+          width: 75%; } }
 
 * {
   padding: 0;

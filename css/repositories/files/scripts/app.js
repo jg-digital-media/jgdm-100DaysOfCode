@@ -55,6 +55,8 @@ jQuery.getJSON('files/data/repositories.json', function(photoData) {
 
          }
 
+        // TODO: copy clone command text from   href_repo_url
+
         /* jQuery(
 
             `<div class="repo_item">

@@ -4,6 +4,18 @@
     
     {
 
+        "repo_name":"JGDM: #100DaysOfCode",
+        "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
+        "repo_alt": "repo alt text 1",
+        "repo_description": "description 1",
+        "repo_url":"https://github.com/jg-digital-media/jgdm-100DaysOfCode",
+        "repo_type": "repo",
+        "repo_status": "Ongoing",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm-100DaysOfCode",
+        "repo_privacy": "public"        
+
+    }, {
+
         "repo_name":"JGDM GitHub Landing Page",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
         "repo_alt": "repo alt text 2",
@@ -52,6 +64,18 @@
 
     }, {
 
+        "repo_name":"JGDM: Android Projects",
+        "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
+        "repo_alt": "repo alt text 6",
+        "repo_description": "description 6",
+        "repo_url":"https://github.com/jg-digital-media/android",
+        "repo_type": "repo",
+        "repo_status": "Ongoing",
+        "repo_clone": "git clone https://github.com/jg-digital-media/android",
+        "repo_privacy": "public"        
+
+    }, {
+
         "repo_name":"JGDM: PHP Boilerplate Website",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
         "repo_alt": "repo alt text 7",
@@ -72,7 +96,7 @@
         "repo_type": "website",
         "repo_status": "Complete",
         "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_mobile_hamburger_menu",
-        "repo_privacy": "public"       
+        "repo_privacy": "public"        
 
     }, {
 
@@ -204,7 +228,7 @@
         "repo_type": "website",
         "repo_status": "Incomplete",
         "repo_clone": "git clone https://github.com/jg-digital-media/photos_api",
-        "repo_privacy": "private"        
+        "repo_privacy": "private"       
 
     }, {
 
@@ -216,7 +240,7 @@
         "repo_type": "node",
         "repo_status": "Incomplete",
         "repo_clone": "git clone https://github.com/jg-digital-media/node-site",
-        "repo_privacy": "public"        
+        "repo_privacy": "public"       
 
     }, {
 
@@ -228,7 +252,7 @@
         "repo_type": "website",
         "repo_status": "Complete",
         "repo_clone": "git clone https://github.com/jg-digital-media/simple_express",
-        "repo_privacy": "private"      
+        "repo_privacy": "private"        
 
     }
 

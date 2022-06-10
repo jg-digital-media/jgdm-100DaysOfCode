@@ -25,7 +25,14 @@ jQuery.getJSON('files/data/repositories.json', function(photoData) {
                 <a href="${ photoData[i].repo_url }" class="href_repo_url" target="blank"> ${ photoData[i].repo_name } </a>
                 
                 <!-- Copy clone button -->
-                <a href="#" class="copy_clone_command" id="js-clone" onclick="copy_the_text()">clone command</a>
+                <a href="#" class="copy_clone_command" id="js-clone" onclick="copy_to_text()">clone command</a>
+                
+                <!-- copy clone span element -->
+                <span class="clone_span"> ${ photoData[i].repo_clone } </span><br />
+                
+                
+                <!-- hidden text box -->
+                <input type="hidden" value="${ photoData[i].repo_clone }" class="gitclone_textbox" />
 
                 <span class="type"> (${ photoData[i].repo_type }) </span> | 
                 <span class="status"> (${ photoData[i].repo_status }) </span> |
@@ -55,7 +62,17 @@ jQuery.getJSON('files/data/repositories.json', function(photoData) {
 
          }
 
-        // TODO: copy clone command text from   href_repo_url
+        // TODO: copy clone command text from - href_repo_url
+        function copy_to_text(text) {
+
+
+            let get_text = this.document.querySelector(".gitclone_textbox");
+
+            get_text.value = text; //save main text in it
+            document.execCommand("copy");
+        }
+
+        copy_to_text();
 
         /* jQuery(
 
@@ -66,6 +83,8 @@ jQuery.getJSON('files/data/repositories.json', function(photoData) {
                 
                 <!-- Copy clone button -->
                 <a href="#" class="copy_clone_command" id="js-clone" onclick="copy_the_text()">clone command</a>
+                <!-- hidden text box -->
+                <input type="hidden" value="${ photoData[i].repo_clone }" class="gitclone_textbox" />
 
                 <span class="type"> (${ photoData[i].repo_type }) </span> | 
                 <span class="status"> (${ photoData[i].repo_status }) </span> |
@@ -82,21 +101,4 @@ jQuery.getJSON('files/data/repositories.json', function(photoData) {
 });
 
 
-function copy_the_text() {
 
-    // Get the text field 
-    var copyText = document.querySelectorAll(".href_repo_url");
-
-    // Select the text field 
-    clone_message.select();
-    clone_message.setSelectionRange(0, 99999); /* For mobile devices 
-
-    //  Copy the text inside the text field */
-    clone_message.clipboard.writeText(copyText.value);
-    
-    // Alert the copied text 
-    alert("Copied the text: " + copyText.value);
-
-}    
-
-copy_the_text();

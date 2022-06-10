@@ -1,4 +1,4 @@
-main {
+body {
 
 
     header {
@@ -16,151 +16,161 @@ main {
         
         }
 
+
     }
 
-    .list-js {
+    main {
 
-        width: 92%;
-        margin: 25px auto;
-        display: block;
-        text-align: center;
-        /* display: inherit; */
-        /* display: inline-flex; */
-        /* border-right: solid 2px black; */
-        /* border-left: solid 2px black; */
-        /* height: 35px; */
+        .list-js {
 
-        @media (max-width: $breakpoint-m) {
-            width: 99%;
-        }
-
-        div.repo_item {
-
-            flex-direction: row;
-            width: 28%;
-            display: inline-block;   
-            vertical-align: top;         
-
-            @media (max-width: $breakpoint-l) {
-
-                width: 34%;
-
-            }  
+            width: 92%;
+            margin: 25px auto;
+            display: block;
+            text-align: center;
+            /* display: inherit; */
+            /* display: inline-flex; */
+            /* border-right: solid 2px black; */
+            /* border-left: solid 2px black; */
+            /* height: 35px; */
 
             @media (max-width: $breakpoint-m) {
-
-                width: 100%;
-
+                width: 99%;
             }
 
-            a {
+            div.repo_item {
 
-                color: $txt-col-primary;
-                text-transform: uppercase;
-                font-weight: bold;
-                display: block;
-                margin: 10px 0;
-
-                &:hover {
-
-                    text-decoration: none;
-                }
-
-            }            
-
-            img {
-
-                width: 89%;
-                border: solid 4px white;
-                border-radius: 5px;
-
-                
+                flex-direction: row;
+                width: 28%;
+                display: inline-block;   
+                vertical-align: top;         
 
                 @media (max-width: $breakpoint-l) {
-                    
-                    width: 85%;
-                }
+
+                    width: 34%;
+
+                }  
 
                 @media (max-width: $breakpoint-m) {
 
-                    width: 90%;
+                    width: 100%;
+
                 }
 
-            }
+                a {
 
-            span {
-                
-                color: $color-span;
-                font-style: italic;
-                margin-bottom: 20px;
-                display: inline-block;
-                background: #4cbce8;
-                padding: 3px;
-                border-bottom: #584e4e 1px dotted;
-                border: #583e4e 1px dotted;
-                border: #ff3213 1px dotted;
-
-                &.status {
-
-                    color: black;
-                    font-style: normal;
+                    color: $txt-col-primary;
+                    text-transform: uppercase;
                     font-weight: bold;
-                    margin: 0 5px;
+                    display: block;
+                    margin: 10px 0;
+
+                    &:hover {
+
+                        text-decoration: none;
+                    }
+
+                }            
+
+                img {
+
+                    width: 89%;
+                    border: solid 4px white;
+                    border-radius: 5px;
+
+                    
+
+                    @media (max-width: $breakpoint-l) {
+                        
+                        width: 85%;
+                    }
+
+                    @media (max-width: $breakpoint-m) {
+
+                        width: 90%;
+                    }
 
                 }
 
-                &.type {
+                span {
+                    
+                    color: $color-span;
+                    font-style: italic;
+                    margin-bottom: 20px;
+                    display: inline-block;
+                    background: #4cbce8;
+                    padding: 3px;
+                    border-bottom: #584e4e 1px dotted;
+                    border: #583e4e 1px dotted;
+                    border: #ff3213 1px dotted;
 
-                    color: black;
-                    font-style: normal;
-                    font-weight: bold;
+                    &.status {
+
+                        color: black;
+                        font-style: normal;
+                        font-weight: bold;
+                        margin: 0 5px;
+
+                    }
+
+                    &.type {
+
+                        color: black;
+                        font-style: normal;
+                        font-weight: bold;
+
+                    }
+
+                    &.privacy {
+
+                        color: black;
+                        font-style: normal;
+                        font-weight: bold;
+                        text-transform: capitalize;
+
+                    }
 
                 }
 
-                &.privacy {
 
-                    color: black;
-                    font-style: normal;
-                    font-weight: bold;
-                    text-transform: capitalize;
+                // copy clone button
+                .copy_clone_command {
 
-                }
+                    background: #ee5752;
+                    display: block;
+                    margin: 20px auto;
+                    padding: 10px;
+                    color: $txt-col-secondary;
+                    border-radius: 10px;
+                    border: solid white 3px;
+                    /* width: 90%; */
+                    width: 200px;
+                    text-decoration: none;
 
-            }
+                    transition: background .3s, transform .1s;
 
+                    &:hover {
 
-            // copy clone button
-            .copy_clone_command {
+                        background: #fb1111;
+                        transform: scale(1.1);
+                    }
 
-                background: #ee5752;
-                display: block;
-                margin: 20px auto;
-                padding: 10px;
-                color: $txt-col-secondary;
-                border-radius: 10px;
-                border: solid white 3px;
-                /* width: 90%; */
-                width: 200px;
-                text-decoration: none;
+                    @media (max-width: $breakpoint-m) {
 
-                transition: background .3s, transform .1s;
-
-                &:hover {
-
-                    background: #fb1111;
-                    transform: scale(1.1);
-                }
-
-                @media (max-width: $breakpoint-m) {
-
-                    width: 75%;
+                        width: 75%;
+                        
+                    }
                     
                 }
-                
+
             }
 
         }
+
+    }
+
+    footer {
 
     }
 
 }
+

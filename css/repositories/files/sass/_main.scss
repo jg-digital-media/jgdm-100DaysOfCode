@@ -104,6 +104,31 @@ main {
                 display: inline-block;
             }
 
+            .copy_clone_command {
+
+                background: #ee5752;
+                color: white;
+                padding: 10px;
+                border-radius: 10px;
+                border: solid white 3px;
+                width: 90%;
+
+                transition: background .3s;
+
+                &:hover {
+
+                    background: #fb1111;
+                }
+
+                @media (max-width: $breakpoint-m) {
+
+                    width: 75%;
+                    display: block;
+                    margin: 20px auto;
+                }
+                
+            }
+
         }
 
     }

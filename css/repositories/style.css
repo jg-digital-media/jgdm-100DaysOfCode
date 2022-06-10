@@ -1,15 +1,21 @@
 /******
 
-Last Update:  10-06-2022  10:00
+Last Update:  10-06-2022  12:30
 
 ******/
-main header h1 {
-  text-align: center; }
-main header #repo_logo {
-  display: block;
-  width: 200px;
-  margin: 0 auto; }
-main .list-js {
+body header {
+  background: black; }
+  body header h1 {
+    text-align: center;
+    color: white;
+    font-family: verdana;
+    font-family: arial;
+    font-size: 32px; }
+  body header #repo_logo {
+    display: block;
+    width: 130px;
+    margin: 10px auto; }
+body main .list-js {
   width: 92%;
   margin: 25px auto;
   display: block;
@@ -20,43 +26,65 @@ main .list-js {
   /* border-left: solid 2px black; */
   /* height: 35px; */ }
   @media (max-width: 980px) {
-    main .list-js {
+    body main .list-js {
       width: 99%; } }
-  main .list-js div.repo_item {
+  body main .list-js div.repo_item {
     flex-direction: row;
     width: 28%;
     display: inline-block;
-    vertical-align: top; }
+    vertical-align: top;
+    font-family: verdana;
+    font-size: 16px; }
     @media (max-width: 1200px) {
-      main .list-js div.repo_item {
+      body main .list-js div.repo_item {
         width: 34%; } }
     @media (max-width: 980px) {
-      main .list-js div.repo_item {
+      body main .list-js div.repo_item {
         width: 100%; } }
-    main .list-js div.repo_item a {
+    body main .list-js div.repo_item a {
       color: black;
       text-transform: uppercase;
       font-weight: bold;
       display: block;
       margin: 10px 0; }
-      main .list-js div.repo_item a:hover {
+      body main .list-js div.repo_item a:hover {
         text-decoration: none; }
-    main .list-js div.repo_item img {
+    body main .list-js div.repo_item img {
       width: 89%;
       border: solid 4px white;
       border-radius: 5px; }
       @media (max-width: 1200px) {
-        main .list-js div.repo_item img {
+        body main .list-js div.repo_item img {
           width: 85%; } }
       @media (max-width: 980px) {
-        main .list-js div.repo_item img {
+        body main .list-js div.repo_item img {
           width: 90%; } }
-    main .list-js div.repo_item span {
+    body main .list-js div.repo_item span {
       color: red;
       font-style: italic;
       margin-bottom: 20px;
-      display: inline-block; }
-    main .list-js div.repo_item .copy_clone_command {
+      display: inline-block;
+      background: #4cbce8;
+      padding: 3px;
+      border-bottom: #584e4e 1px dotted;
+      border: #583e4e 1px dotted;
+      border: #ff3213 1px dotted;
+      font-size: 10px; }
+      body main .list-js div.repo_item span.status {
+        color: black;
+        font-style: normal;
+        font-weight: bold;
+        margin: 0 5px; }
+      body main .list-js div.repo_item span.type {
+        color: black;
+        font-style: normal;
+        font-weight: bold; }
+      body main .list-js div.repo_item span.privacy {
+        color: black;
+        font-style: normal;
+        font-weight: bold;
+        text-transform: capitalize; }
+    body main .list-js div.repo_item .copy_clone_command {
       background: #ee5752;
       display: block;
       margin: 20px auto;
@@ -67,12 +95,13 @@ main .list-js {
       /* width: 90%; */
       width: 200px;
       text-decoration: none;
+      font-size: 14px;
       transition: background .3s, transform .1s; }
-      main .list-js div.repo_item .copy_clone_command:hover {
+      body main .list-js div.repo_item .copy_clone_command:hover {
         background: #fb1111;
         transform: scale(1.1); }
       @media (max-width: 980px) {
-        main .list-js div.repo_item .copy_clone_command {
+        body main .list-js div.repo_item .copy_clone_command {
           width: 75%; } }
 
 * {

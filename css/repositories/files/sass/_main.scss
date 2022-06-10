@@ -3,21 +3,22 @@ body {
 
     header {
 
-        background: black;
+        background: $bg-header;
 
         h1 {
 
             text-align: center;
-            color: white;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-family: arial;
+            color: $txt-col-secondary;
+            font-family: $font-secondary;
+            font-family: $font-primary;
+            font-size: $font-size-h1;
         }
         
         #repo_logo {
 
             display: block;
-            width: 150px;
-            margin: 5px auto;        
+            width: 130px;
+            margin: 10px auto;        
         }
 
     }
@@ -45,7 +46,9 @@ body {
                 flex-direction: row;
                 width: 28%;
                 display: inline-block;   
-                vertical-align: top;         
+                vertical-align: top;       
+                font-family: $font-span;  
+                font-size: 16px;
 
                 @media (max-width: $breakpoint-l) {
 
@@ -78,9 +81,7 @@ body {
 
                     width: 89%;
                     border: solid 4px white;
-                    border-radius: 5px;
-
-                    
+                    border-radius: 5px;                    
 
                     @media (max-width: $breakpoint-l) {
                         
@@ -105,6 +106,7 @@ body {
                     border-bottom: #584e4e 1px dotted;
                     border: #583e4e 1px dotted;
                     border: #ff3213 1px dotted;
+                    font-size: $font-size-small;
 
                     &.status {
 
@@ -148,6 +150,7 @@ body {
                     /* width: 90%; */
                     width: 200px;
                     text-decoration: none;
+                    font-size: $font-size-main;
 
                     transition: background .3s, transform .1s;
 

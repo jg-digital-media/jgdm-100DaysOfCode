@@ -1,10 +1,23 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 46 of 100. **Last Update:** 10 June 2022
+## **Status:** Day 47 of 100. **Last Update:** 13 June 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R9D47: Monday 13 June 2022
+
++ More updates rolled out for Dyspraxic Help4U over the weekend. And pushed commits to the WooCommerce Selectors Repositority
+
++ **Technologies Used** - git, wordpress, css
+
+
+# R9D46: Friday 10 June 2022
+
++ Started writing a function to retrieve and copy the text of a git clone command string so it can be pasted straight into your CLI or Terminal. 
+
++ **Technologies Used** - git, wordpress, css
 
 # R9D46: Friday 10 June 2022
 

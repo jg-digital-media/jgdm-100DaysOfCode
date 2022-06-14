@@ -1050,6 +1050,20 @@
             "img_type": "data-src",
             "img_type_data": "data-src"
 
+        }, {
+            "project_name": "JGDM WooCommerce Selectors Repository",
+            "project_url": "https://github.com/jg-digital-media/jgdm-woocommerce-selectors",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/jgdm-woocommerce-selectors-repository/",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/jgdm_woocommerce_selectors.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/jgdm_woocommerce_selectors.jpg",
+            "project_alt": "Go to WooCommerce Selectors Repository page",
+            "project_type": "Repository",
+            "class": "all ",
+            "project_status": "complete",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+
         }
         
     ]

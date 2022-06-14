@@ -1,14 +1,21 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 47 of 100. **Last Update:** 13 June 2022
+## **Status:** Day 48 of 100. **Last Update:** 14 June 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+# R9D48: Tuesday 14 June 2022
+
++ My latest repository is now as done as it ever will be and added to my portfolio.
+
++ **Technologies Used** - git, wordpress, css
+
+
 # R9D47: Monday 13 June 2022
 
-+ More updates rolled out for Dyspraxic Help4U over the weekend. And pushed commits to the WooCommerce Selectors Repositority
++ More updates rolled out for Dyspraxic Help4U over the weekend. And pushed commits to the WooCommerce Selectors Repository
 
 + **Technologies Used** - git, wordpress, css
 
@@ -19,11 +26,13 @@ ___
 
 + **Technologies Used** - git, wordpress, css
 
+
 # R9D46: Friday 10 June 2022
 
 + Started writing a function to retrieve and copy the text of a git clone command string so it can be pasted straight into your CLI or Terminal. 
 
 + **Technologies Used** - git, wordpress, css
+
 
 # R9D45: Thursday 09 June 2022
 
@@ -31,11 +40,13 @@ ___
 
 + **Technologies Used** - git, wordpress, css
 
+
 # R9D44: Wednesday 08 June 2022
 
 + Working on a subdomain for a list of all the GitHub Repos I have.  Got the list sorted.  What I'd like to have next is a button that copies the git clone command you'll need.
 
 + **Technologies Used** - git, json 
+
 
 # R9D43: Tuesday 07 June 2022
 

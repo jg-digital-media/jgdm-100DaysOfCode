@@ -1,9 +1,16 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 48 of 100. **Last Update:** 14 June 2022
+## **Status:** Day 49 of 100. **Last Update:** 15 June 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+# R9D49: Wednesday 15 June 2022
+
++ Today I've added some changes to my project status page.  I'm working my way through separating my projects from websites and apps and version control repositories. 
+
++ **Technologies Used** - git, JSON, JavaScript
 
 
 # R9D48: Tuesday 14 June 2022

@@ -15,7 +15,7 @@
 const project_count = document.getElementById("count");
 const repo_count = document.getElementById("repo_count");
  
-jQuery.getJSON('https://www.jonniegrieve.co.uk/data/project-list.json', function(photoData) { 
+jQuery.getJSON('../../../data/project-list.json', function(photoData) { 
     
     let itemAll = photoData.projects.length;
     console.log( photoData.projects.length );
@@ -41,7 +41,7 @@ jQuery.getJSON('https://www.jonniegrieve.co.uk/data/project-list.json', function
 });
 
 
-jQuery.getJSON('https://www.jonniegrieve.co.uk/data/repositories.json', function(repoData) { 
+jQuery.getJSON('https://jonniegrieve.co.uk/data/repositories.json', function(repoData) { 
     
     let itemAll = repoData.repositories.length;
     console.log( repoData.repositories.length );

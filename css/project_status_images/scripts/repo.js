@@ -3,7 +3,7 @@ const repo_count = document.getElementById("repo_count");
 
 
 
-jQuery.getJSON('https://www.jonniegrieve.co.uk/data/repositories.json', function(repoData) { 
+jQuery.getJSON('../../../data/repositories.json', function(repoData) { 
     
     let itemAll = repoData.repositories.length;
     console.log( repoData.repositories.length );

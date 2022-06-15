@@ -191,14 +191,18 @@ header {
         }
     }
 
-    .project-status-container {    
+    .project-status-container,
+    .repository-status-container {    
+
         display: block;
         margin: 0 auto;
         width: 95%;
 
-        ul.project-status-data {
+        ul.project-status-data,
+        ul.repository-status-data {
 
             li {
+
                 height: auto;
                 display: inline-block;
                 margin: 0 10px;
@@ -209,12 +213,14 @@ header {
                 
 
                 @media (max-width: 980px) {
+
                     width: 44%;
                     text-align: center;
                 }
 
 
                 @media (max-width: 780px) {
+
                     width: 100%;
                     text-align: center;
                     display: block;
@@ -224,6 +230,7 @@ header {
 
                 a {
                     img {
+
                         width: 100%;   
                         margin: 20px 0px;
                         border-radius: 10px;
@@ -237,6 +244,7 @@ header {
                     
 
                         @media(max-width: 680px) {
+                            
                             margin: 0px 0;
                         }
 

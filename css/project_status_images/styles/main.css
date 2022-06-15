@@ -152,11 +152,15 @@ header {
         font-size: 30pt; }
       #container .project_list .project_to_come p {
         font-weight: bold; }
-  #container .project-status-container {
+  #container .project-status-container,
+  #container .repository-status-container {
     display: block;
     margin: 0 auto;
     width: 95%; }
-    #container .project-status-container ul.project-status-data li {
+    #container .project-status-container ul.project-status-data li,
+    #container .project-status-container ul.repository-status-data li,
+    #container .repository-status-container ul.project-status-data li,
+    #container .repository-status-container ul.repository-status-data li {
       height: auto;
       display: inline-block;
       margin: 0 10px;
@@ -164,16 +168,25 @@ header {
       width: 30%;
       overflow: hidden; }
       @media (max-width: 980px) {
-        #container .project-status-container ul.project-status-data li {
+        #container .project-status-container ul.project-status-data li,
+        #container .project-status-container ul.repository-status-data li,
+        #container .repository-status-container ul.project-status-data li,
+        #container .repository-status-container ul.repository-status-data li {
           width: 44%;
           text-align: center; } }
       @media (max-width: 780px) {
-        #container .project-status-container ul.project-status-data li {
+        #container .project-status-container ul.project-status-data li,
+        #container .project-status-container ul.repository-status-data li,
+        #container .repository-status-container ul.project-status-data li,
+        #container .repository-status-container ul.repository-status-data li {
           width: 100%;
           text-align: center;
           display: block;
           margin: 0 auto; } }
-      #container .project-status-container ul.project-status-data li a img {
+      #container .project-status-container ul.project-status-data li a img,
+      #container .project-status-container ul.repository-status-data li a img,
+      #container .repository-status-container ul.project-status-data li a img,
+      #container .repository-status-container ul.repository-status-data li a img {
         width: 100%;
         margin: 20px 0px;
         border-radius: 10px;
@@ -184,45 +197,62 @@ header {
         position: relative;
         bottom: 20px; }
         @media (max-width: 680px) {
-          #container .project-status-container ul.project-status-data li a img {
+          #container .project-status-container ul.project-status-data li a img,
+          #container .project-status-container ul.repository-status-data li a img,
+          #container .repository-status-container ul.project-status-data li a img,
+          #container .repository-status-container ul.repository-status-data li a img {
             margin: 0px 0; } }
-        #container .project-status-container ul.project-status-data li a img:hover {
+        #container .project-status-container ul.project-status-data li a img:hover,
+        #container .project-status-container ul.repository-status-data li a img:hover,
+        #container .repository-status-container ul.project-status-data li a img:hover,
+        #container .repository-status-container ul.repository-status-data li a img:hover {
           opacity: 1;
           transform: scale(0.8);
           background-color: darkorange;
           background-color: black; }
-    #container .project-status-container a {
+    #container .project-status-container a,
+    #container .repository-status-container a {
       color: red;
       font-weight: bold; }
-      #container .project-status-container a:hover {
+      #container .project-status-container a:hover,
+      #container .repository-status-container a:hover {
         text-decoration: none;
         color: green; }
     @media (max-width: 940px) {
-      #container .project-status-container {
+      #container .project-status-container,
+      #container .repository-status-container {
         width: 90%;
         margin: 0 auto; } }
     @media (max-width: 680px) {
-      #container .project-status-container {
+      #container .project-status-container,
+      #container .repository-status-container {
         font-size: 3vw; } }
-    #container .project-status-container h2 {
+    #container .project-status-container h2,
+    #container .repository-status-container h2 {
       text-align: center; }
-    #container .project-status-container ul {
+    #container .project-status-container ul,
+    #container .repository-status-container ul {
       list-style-type: none;
       /*text-align: center;*/
       text-align: left; }
       @media (max-width: 940px) {
-        #container .project-status-container ul {
+        #container .project-status-container ul,
+        #container .repository-status-container ul {
           margin: 0 auto; } }
-    #container .project-status-container li {
+    #container .project-status-container li,
+    #container .repository-status-container li {
       height: 45px;
       width: 99px;
       vertical-align: top; }
-      #container .project-status-container li em {
+      #container .project-status-container li em,
+      #container .repository-status-container li em {
         font-weight: bold; }
-    #container .project-status-container ul#project-status {
+    #container .project-status-container ul#project-status,
+    #container .repository-status-container ul#project-status {
       float: left;
       margin: 0 5% 0 5%; }
-    #container .project-status-container .project_info {
+    #container .project-status-container .project_info,
+    #container .repository-status-container .project_info {
       display: flex;
       flex-direction: row;
       /*height: 65px;*/
@@ -235,38 +265,44 @@ header {
           width: 40px;
       } */ }
       @media (max-width: 680px) {
-        #container .project-status-container .project_info {
+        #container .project-status-container .project_info,
+        #container .repository-status-container .project_info {
           position: relative;
           left: 10px; } }
-      #container .project-status-container .project_info .complete {
+      #container .project-status-container .project_info .complete,
+      #container .repository-status-container .project_info .complete {
         display: inline-block;
         background: #008000;
         width: 30px;
         height: 30px;
         border-radius: 50%;
         margin-right: 5px; }
-      #container .project-status-container .project_info .incomplete {
+      #container .project-status-container .project_info .incomplete,
+      #container .repository-status-container .project_info .incomplete {
         display: inline-block;
         background: #ff0000;
         width: 30px;
         height: 30px;
         border-radius: 50%;
         margin-right: 5px; }
-      #container .project-status-container .project_info .under_review {
+      #container .project-status-container .project_info .under_review,
+      #container .repository-status-container .project_info .under_review {
         display: inline-block;
         background: #ffff00;
         width: 30px;
         height: 30px;
         border-radius: 50%;
         margin-right: 5px; }
-      #container .project-status-container .project_info .upcoming {
+      #container .project-status-container .project_info .upcoming,
+      #container .repository-status-container .project_info .upcoming {
         display: inline-block;
         background: #ff9005;
         width: 30px;
         height: 30px;
         border-radius: 50%;
         margin-right: 5px; }
-      #container .project-status-container .project_info .project_name {
+      #container .project-status-container .project_info .project_name,
+      #container .repository-status-container .project_info .project_name {
         display: inline;
         width: 69%;
         width: 85%;
@@ -275,7 +311,8 @@ header {
         line-height: 1.2;
         text-align: left; }
         @media (max-width: 780px) {
-          #container .project-status-container .project_info .project_name {
+          #container .project-status-container .project_info .project_name,
+          #container .repository-status-container .project_info .project_name {
             display: block;
             margin: 0 auto;
             width: 80%;

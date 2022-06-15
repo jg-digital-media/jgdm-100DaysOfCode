@@ -5,21 +5,23 @@
  * Web:          https://www.jonniegrieve.co.uk
  * //file path to json file - local   - ../../css/portfolio/data/project-list.json
  * //file path to json file - server  - ../../../data/project-list.json
+ * 
+ * // absolute path    - https://www.jonniegrieve.co.uk/data/project-list.json
  * Date:  14/10/2020
 */
 
 
-//project count - store count element 
+// project count - store count element 
 const project_count = document.getElementById("count");
+const repo_count = document.getElementById("repo_count");
  
-jQuery.getJSON('../../../data/project-list.json', function(photoData) { 
+jQuery.getJSON('https://www.jonniegrieve.co.uk/data/project-list.json', function(photoData) { 
     
     let itemAll = photoData.projects.length;
-    console.log(photoData.projects.length);
+    console.log( photoData.projects.length );
     
-    //display data count to browser
+    // display data count to browser
     project_count.textContent = "( " +  photoData.projects.length  + " )";
-
 
     for (let i=0; i < itemAll; i++) { 
         
@@ -38,7 +40,25 @@ jQuery.getJSON('../../../data/project-list.json', function(photoData) {
     }   
 });
 
-//Sticky NavBar
+
+jQuery.getJSON('https://www.jonniegrieve.co.uk/data/repositories.json', function(repoData) { 
+    
+    let itemAll = repoData.repositories.length;
+    console.log( repoData.repositories.length );
+    
+    // display data count to browser
+    project_count.textContent = "( " +  repoData.repositories.length  + " )";
+
+    for (let i=0; i < itemAll; i++) { 
+
+        jQuery(`1.... 3....`).appendTo(`.repository-status-data`);
+
+    }
+});
+
+
+
+// Sticky NavBar
 window.onscroll = function() {stickyNavbar()};
 
 var navbar = document.querySelector("aside.key");

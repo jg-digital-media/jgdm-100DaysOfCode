@@ -1,127 +1,4 @@
-@import "head";
-@import "mixins";
-
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    background: lightgray;
-    font-family: Arial;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Allerta', sans-serif;
-    font-family: 'Marvel', sans-serif;
-    font-family: 'Mali', cursive;
-}
-
-header {
-
-    width: 100%;
-    min-height: 130px;
-    background: lightgreen;
-    border-bottom: 6px green solid;
-
-    @media (max-width: 940px) {
-        min-height: 110px;
-    }
-    
-    h1 {
-        text-align: center;
-        position: relative;
-        top:20px;
-
-        @media(max-width: 680px) {
-            width: 90%;
-            margin: 0 auto;
-            font-size: 4vw;
-            top: 0;
-            padding-bottom: 15px;
-        }
-    }    
-
-    .key {
-
-        width: 95%;
-        text-align: right;
-        position: relative;
-        top: 30px;
-
-        @media (max-width: 780px) {
-            padding: 20px 0;
-            height: 115;
-            line-height: 2;
-        }
-
-        h2 {
-            width: auto;
-            display: inline-block;
-        }
-        
-        span#green-complete {
-            @include span-colours(inline-block, #008000, 30px, 30px, 50%, 5px);
-        }
-
-        span#red-incomplete {
-            @include span-colours(inline-block, #ff0000, 30px, 30px, 50%, 5px);
-        }
-
-        span#yellow-review {
-            @include span-colours(inline-block, #ffff00, 30px, 30px, 50%, 5px);
-        }
-
-        span#orange-upcoming {
-            @include span-colours(inline-block, #ff9005, 30px, 30px, 50%, 5px);
-        }
-
-        @media (max-width: 1290px) {
-            display: block;
-            text-align: center;
-            position: relative;
-        }
-
-        @media (max-width: 1290px) {
-            top: 20px
-        }
-    }
-
-    .sticky {      
-
-            position: fixed;
-            height: 35px; 
-            box-shadow: 0px 6px 5px -3px #403b40b5;
-            z-index: 1004;
-            background: lightgreen;
-            border-bottom: 6px green solid;
-            width: 100%;
-            top: 0px;
-            right: 0px;
-            padding: 7px 35px;
-
-            @media (max-width: 780px) {
-                padding: 20px 0;
-                height: 100px;
-                line-height: 3;
-            }
-    
-    }
-
-    .sticky {
-        h2 {
-            right: 20px;
-            text-align: center;
-        }
-
-        span#green-complete, 
-        span#red-incomplete, 
-        span#yellow-review, 
-        span#orange-upcoming {
-            right: 20px;
-        }
-    }
-
-}
+// ... 
 
 #container {
     position: relative; 
@@ -201,23 +78,29 @@ header {
         ul.project-status-data,
         ul.repository-status-data {
 
+            p {
+
+                font-size: 12px;
+                font-weight: bold;
+                margin-top: 20px;
+                color: #484646;
+            }
+
             li {
 
                 height: auto;
                 display: inline-block;
                 margin: 0 10px;
                 /* width: 80%; */
-                width: 30%;
-                overflow: hidden;
-
-                
+                /* width: 30%; */
+                width: 47%;
+                overflow: hidden;                
 
                 @media (max-width: 980px) {
 
                     width: 44%;
                     text-align: center;
                 }
-
 
                 @media (max-width: 780px) {
 
@@ -226,12 +109,19 @@ header {
                     display: block;
                     margin: 0 auto;
                 }
+
+                img {
+
+                    /* width: 45%; */
+                    width: 100%;
+                }
                 
 
                 a {
+
                     img {
 
-                        width: 100%;   
+                        width: 40%;   
                         margin: 20px 0px;
                         border-radius: 10px;
                         border: solid black 2px;
@@ -364,8 +254,18 @@ header {
         }
     }
 
-    .main-content {
+    .main-content-notespage {
+
         width: 66%;
+    }
+
+    .main-content {
+        
+        width: 100%;
+    }
+
+    .main-content,
+    .main-content-notespage {
         display: block;
         padding: 20px;
 
@@ -388,24 +288,14 @@ header {
         a {
             color: red;
             font-weight: bold;
+
             &:hover {
                 text-decoration: none;
                 color: green;
             }
+
         }
+        
     }
 }
 
-footer {
-    text-align: center;
-}
-
-
-/*
-breakpoints:
-
-1290px;
-940px;
-680px;
-
-*/

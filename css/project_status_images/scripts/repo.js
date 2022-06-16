@@ -13,9 +13,17 @@ jQuery.getJSON('../../css/portfolio/data/repositories.json', function(repoData) 
 
     for (let i=0; i < itemAll; i++) { 
 
-        jQuery(`<p> URL: ${ repoData.repositories[i].repo_url } </p>
+        jQuery(`
+        
+        
+            <li>
 
-        <img src=" ${ repoData.repositories[i].repo_img }" alt=" ${ repoData.repositories.repo_alt }" title=" ${ repoData.repositories.repo_alt }" />
+                <p> ${ repoData.repositories[i].repo_url } </p>
+                <img src=" ${ repoData.repositories[i].repo_img }" alt=" ${ repoData.repositories[i].repo_alt }" title=" ${ repoData.repositories[i].repo_alt }"
+            />
+        
+        
+            </li>
         
         
         `).appendTo(`.repository-status-data`);

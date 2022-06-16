@@ -3,7 +3,7 @@ const repo_count = document.getElementById("repo_count");
 
 
 
-jQuery.getJSON('../../../data/repositories.json', function(repoData) { 
+jQuery.getJSON('../../css/portfolio/data/repositories.json', function(repoData) { 
     
     let itemAll = repoData.repositories.length;
     console.log( repoData.repositories.length );
@@ -13,9 +13,10 @@ jQuery.getJSON('../../../data/repositories.json', function(repoData) {
 
     for (let i=0; i < itemAll; i++) { 
 
-        jQuery(`<p> ${ repoData.repositories[i].repo_name} </p>`).appendTo(`.repository-status-data`);
+        jQuery(`<p> URL: ${ repoData.repositories[i].repo_url } </p>`).appendTo(`.repository-status-data`);
 
     }
+
 });
 
 

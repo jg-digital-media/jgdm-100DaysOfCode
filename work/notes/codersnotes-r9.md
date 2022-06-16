@@ -16,9 +16,34 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
-### Day 49
+### Day 50
 
-...
+
+https://github.com/jg-digital-media/jg-digital-media.github.io      JGDM GitHub Landing Page     public     repo_jgdmlanding   DOWNLOADED
+https://github.com/jg-digital-media/projects        JGDM: Projects Directory    private     repo_jgdmprojects_directory DOWNLOADED
+https://github.com/jg-digital-media/server      JGDM: Local Server Project Directory    p   reoo_jgdm_htdocs    DOWNLOADED
+https://github.com/jg-digital-media/wordpress       JGDM: WordPress Projects    p   repo_jgdmwordpress  DOWNLOADED
+https://github.com/jg-digital-media/jgdm_php_boilerplate      JGDM: PHP Boilerplate Website     p       repo_jgdmphpboilerplate   DOWNLOADED
+https://github.com/jg-digital-media/jgdm_mobile_hamburger_menu      JGDM Mobile Hamburger Menu  p       repo_jgdmhamburgermenu   DOWNLOADED
+https://github.com/jg-digital-media/jgdm_image_gallery      JGDM: Image Gallery p           repo_jgdmimagegallery     DOWNLOADED      
+https://github.com/jg-digital-media/jgdm_web_project_starter        JGDM: Web Project Starter   p   repo_jgdmwebprojectstarter DOWNLOADED
+https://github.com/jg-digital-media/jgdm-woocommerce-selectors      JGDM: WooCommerce Selectors p   repo_jgdmwoocommerceselectors
+https://github.com/jg-digital-media/jgdm_wordpress_starter      JGDM: WordPress Starter p       repo_wordpressstarter DOWNLOADED
+https://github.com/jg-digital-media/jgdm_flask_project      JGDM: Flask Project p       repo_jgdmflaskproject
+https://github.com/jg-digital-media/jgdm-python-app         JGDM: Python SQLAlchemy p   repo_jgdmpythonapp      DOWNLOADED
+https://github.com/jg-digital-media/jgdm_grid_project       JGDM: CSS Grid Project  p   repo_gridproject
+https://github.com/jg-digital-media/laravel_photorestapi        JGDM: Laravel Photos REST API   p   repo_jgdmlaravelapi   DOWNLOADED
+https://github.com/jg-digital-media/laravel_basic       JGDM: Laravel Basic p       repo_jgdmlaravelbasic
+https://github.com/jg-digital-media/switch_photo        JGDM: Laravel Switch Photo Filter App   p   repo_switchphoto     
+https://github.com/jg-digital-media/photos_api   JGDM: Laravel Photos API Repo (duplicate?)       p repo_photosapi
+https://github.com/jg-digital-media/node-site       JGDM: Node Site    p    repo_nodesite
+https://github.com/jg-digital-media/simple_express      Simple Express App  p   repo_simpleexpress
+
+
+
+
+
+
 
 
 ### Day 41

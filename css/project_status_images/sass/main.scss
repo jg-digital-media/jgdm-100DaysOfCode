@@ -148,17 +148,18 @@
                 }
             }
 
-        }
-
-        
+        }        
 
         a {
+
             color: red;
             font-weight: bold;
+
             &:hover {
                 text-decoration: none;
                 color: green;
             }
+
         }
 
         @media (max-width: 940px) {
@@ -171,20 +172,24 @@
         }
 
         h2 {
+
             text-align: center;
         }
 
         ul {
+
             list-style-type: none;
             /*text-align: center;*/
             text-align: left;
 
             @media (max-width: 940px) {
+
                 margin: 0 auto
             }
         }
 
         li {
+
             height: 45px;
             width: 99px;
             vertical-align: top;
@@ -195,6 +200,7 @@
         }
 
         ul#project-status {
+            
             float: left;
             margin: 0 5% 0 5%;
         }

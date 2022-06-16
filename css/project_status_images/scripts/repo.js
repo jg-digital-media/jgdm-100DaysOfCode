@@ -21,7 +21,7 @@ jQuery.getJSON('../../css/portfolio/data/repositories.json', function(repoData) 
         
 
                 <a href=" ${ repoData.repositories[i].repo_url } " target="blank">
-                    <img src=" ${ repoData.repositories[i].repo_img }" class="site-images lazy" alt=" ${ repoData.repositories[i].repo_alt }" title=" ${ repoData.repositories[i].repo_alt }" />
+                    <img src=" ${ repoData.repositories[i].repo_img }" class="site-images repos lazy" alt=" ${ repoData.repositories[i].repo_alt }" title=" ${ repoData.repositories[i].repo_alt }" />
                 </a>        
         
             </li>        

@@ -125,8 +125,6 @@
 
                     img {
 
-                        /* width: 100%; */   
-                        width: 97%;
                         margin: 25px 0px;
                         border-radius: 10px;
                         border: solid black 2px;
@@ -150,6 +148,16 @@
                             background-color: black;
                         }
 
+                    }
+
+                    img.projects {
+
+                        width: 97%;
+                    }
+
+                    img.repos {
+
+                        width: 66%;
                     }
 
                 }

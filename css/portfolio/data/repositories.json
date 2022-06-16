@@ -32,7 +32,7 @@
             "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/jgdm-woocommerce-sel.png",
             "repo_alt": "repo alt text 4",
             "repo_description": "description 4",
-            "repo_url":"git clone https://github.com/jg-digital-media/server",
+            "repo_url":" https://github.com/jg-digital-media/server",
             "repo_type": "repo",
             "repo_status": "Ongoing",
             "repo_clone": "git clone https://github.com/jg-digital-media/server",

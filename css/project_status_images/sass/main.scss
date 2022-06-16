@@ -1,5 +1,5 @@
-// ... 
 
+// main container element
 #container {
     position: relative; 
     display: flex; 
@@ -73,27 +73,32 @@
 
         display: block;
         margin: 0 auto;
-        width: 95%;
+        width: 100%;
 
         ul.project-status-data,
         ul.repository-status-data {
 
+            text-align: left;
+
+            // Repository page
             p {
 
                 font-size: 12px;
                 font-weight: bold;
-                margin-top: 20px;
+                margin-top: 5px;
                 color: #484646;
+                /* width: 100px; */
             }
 
             li {
 
                 height: auto;
                 display: inline-block;
-                margin: 0 10px;
+                /* margin: 0 10px; */
+                margin: 0 auto;
                 /* width: 80%; */
                 /* width: 30%; */
-                width: 47%;
+                width: 49%;
                 overflow: hidden;                
 
                 @media (max-width: 980px) {
@@ -111,27 +116,25 @@
                 }
 
                 img {
-
-                    /* width: 45%; */
+                    
                     width: 100%;
-                }
-                
+                }                
 
                 a {
 
                     img {
 
-                        width: 40%;   
-                        margin: 20px 0px;
+                        /* width: 100%; */   
+                        width: 97%;
+                        margin: 25px 0px;
                         border-radius: 10px;
                         border: solid black 2px;
                         opacity: 0.7;
-                        transform: scale(0.7);
-                        transition: transform .1s, opacity .1s, border-radius .1s;
+                        // transform: scale(1);
+                        transition:  opacity .1s, border-radius .1s;
 
                         position: relative;
-                        bottom: 20px;
-                    
+                        bottom: 20px;                    
 
                         @media(max-width: 680px) {
                             
@@ -139,13 +142,17 @@
                         }
 
                         &:hover {
+
                             opacity: 1;
-                            transform: scale(0.8);
+                            // transform: scale(1.1);
                             background-color: darkorange;
                             background-color: black;
                         }
+
                     }
+
                 }
+
             }
 
         }        
@@ -200,7 +207,7 @@
         }
 
         ul#project-status {
-            
+
             float: left;
             margin: 0 5% 0 5%;
         }
@@ -303,5 +310,6 @@
         }
         
     }
+
 }
 

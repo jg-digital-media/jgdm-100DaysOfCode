@@ -15,7 +15,7 @@
 const project_count = document.getElementById("count");
 const repo_count = document.getElementById("repo_count");
  
-jQuery.getJSON('../../../data/project-list.json', function(photoData) { 
+jQuery.getJSON('../../css/portfolio/data/project-list.json', function(photoData) { 
     
     let itemAll = photoData.projects.length;
     console.log( photoData.projects.length );
@@ -26,6 +26,7 @@ jQuery.getJSON('../../../data/project-list.json', function(photoData) {
     for (let i=0; i < itemAll; i++) { 
         
         jQuery(`
+        
             <li>
                 <a href="${photoData.projects[i].project_url}" target="blank">
                    <img ${photoData.projects[i].img_type}="${photoData.projects[i].img_url}" src="${photoData.projects[i].img_url}" class="site-images lazy" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" />
@@ -36,12 +37,14 @@ jQuery.getJSON('../../../data/project-list.json', function(photoData) {
                     <div class="${photoData.projects[i].project_status }"></div>
                     <div class="project_name">${photoData.projects[i].project_name }</div>
                 </div>
-           </li>`).appendTo('.project-status-data');     
+           </li>`).appendTo('.project-status-data');    
+
     }   
+
 });
 
 
-jQuery.getJSON('https://jonniegrieve.co.uk/data/repositories.json', function(repoData) { 
+jQuery.getJSON('../../css/portfolio/data/repositories.json', function(repoData) { 
     
     let itemAll = repoData.repositories.length;
     console.log( repoData.repositories.length );

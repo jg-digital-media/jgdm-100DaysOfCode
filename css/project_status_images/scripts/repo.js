@@ -9,14 +9,14 @@ jQuery.getJSON('../../css/portfolio/data/repositories.json', function(repoData) 
     console.log( repoData.repositories.length );
     
     // display data count to browser
-    repo_count.textContent = "( " +  repoData.repositories.length  + " )";
+    repo_count.textContent = repoData.repositories.length;
 
     for (let i=0; i < itemAll; i++) { 
 
         jQuery(`   
 
             <li>
-                        
+
                 <p> ${ repoData.repositories[i].repo_url } </p>
         
 

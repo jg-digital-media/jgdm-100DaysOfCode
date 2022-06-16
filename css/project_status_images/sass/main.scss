@@ -78,7 +78,7 @@
         ul.project-status-data,
         ul.repository-status-data {
 
-            text-align: left;
+            text-align: center;
 
             // Repository page
             p {
@@ -87,6 +87,7 @@
                 font-weight: bold;
                 margin-top: 5px;
                 color: #484646;
+                text-align: left;
                 /* width: 100px; */
             }
 
@@ -275,6 +276,16 @@
     .main-content {
         
         width: 100%;
+
+        p {
+
+            #repo_count {
+
+                color: red;
+            }
+
+        }
+
     }
 
     .main-content,

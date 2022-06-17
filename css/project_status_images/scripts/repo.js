@@ -1,9 +1,21 @@
+/**
+ *  App.js - project list
+ * 
+ * Authored by:  @jg_digitalMedia
+ * Web:          https://www.jonniegrieve.co.uk/assets/project_status_images/
+ * 
+ * // file path to json file - local  - ../../css/portfolio/data/project-list.json
+ * // file path to json file - server - ../../../data/project-list.json 
+ * // absolute path - https://www.jonniegrieve.co.uk/data/repositories.json
+ * 
+ * Date:  17/06/2022
+*/
 
+
+// project count - store count element 
 const repo_count = document.getElementById("repo_count");
 
-
-
-jQuery.getJSON('../../css/portfolio/data/repositories.json', function(repoData) { 
+jQuery.getJSON('https://www.jonniegrieve.co.uk/data/repositories.json', function(repoData) { 
     
     let itemAll = repoData.repositories.length;
     console.log( repoData.repositories.length );
@@ -47,6 +59,7 @@ function stickyNavbar() {
     navbar.classList.remove("sticky");
   }
 }
+
 
 /**
  * 

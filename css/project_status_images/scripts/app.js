@@ -2,12 +2,13 @@
  *  App.js - project list
  * 
  * Authored by:  @jg_digitalMedia
- * Web:          https://www.jonniegrieve.co.uk
- * //file path to json file - local   - ../../css/portfolio/data/project-list.json
- * //file path to json file - server  - ../../../data/project-list.json
+ * Web:          https://www.jonniegrieve.co.uk/assets/project_status_images/
  * 
- * // absolute path    - https://www.jonniegrieve.co.uk/data/project-list.json
- * Date:  14/10/2020
+ * // file path to json file - local  - ../../css/portfolio/data/project-list.json
+ * // file path to json file - server - ../../../data/project-list.json
+ * // absolute path - https://www.jonniegrieve.co.uk/data/project-list.json
+ * 
+ * Date:  17/06/2022
 */
 
 
@@ -15,7 +16,7 @@
 const project_count = document.getElementById("count");
 const repo_count = document.getElementById("repo_count");
  
-jQuery.getJSON('../../css/portfolio/data/project-list.json', function(photoData) { 
+jQuery.getJSON('https://www.jonniegrieve.co.uk/data/project-list.json', function(photoData) { 
     
     let itemAll = photoData.projects.length;
     console.log( photoData.projects.length );
@@ -45,7 +46,6 @@ jQuery.getJSON('../../css/portfolio/data/project-list.json', function(photoData)
 
 
 
-
 // Sticky NavBar
 window.onscroll = function() {stickyNavbar()};
 
@@ -59,6 +59,7 @@ function stickyNavbar() {
     navbar.classList.remove("sticky");
   }
 }
+
 
 /**
  * 

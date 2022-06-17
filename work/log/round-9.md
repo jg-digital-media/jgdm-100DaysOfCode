@@ -1,12 +1,16 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 50 of 100. **Last Update:** 16 June 2022
+## **Status:** Day 51 of 100. **Last Update:** 17 June 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
+
+# R9D51: Friday 17 June 2022
+
++ Dealing with browser caching issues while updating my project list and project status images site. 
 
 # R9D50: Thursday 16 June 2022
 

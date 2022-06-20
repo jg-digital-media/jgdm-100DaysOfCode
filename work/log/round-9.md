@@ -1,6 +1,6 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 51 of 100. **Last Update:** 17 June 2022
+## **Status:** Day 52 of 100. **Last Update:** 20 June 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
@@ -8,9 +8,18 @@ ___
 
 
 
+# R9D52: Monday 20 June 2022
+
++ Spent a lot of time today learning the ins and outs importing product details to a WooCommerce shop via a CSV.
+
++ **Technologies Used** - git, CSV, PHP
+
+
 # R9D51: Friday 17 June 2022
 
 + Dealing with browser caching issues while updating my project list and project status images site. 
+
++ **Technologies Used** - git, JSON, JavaScript
 
 # R9D50: Thursday 16 June 2022
 

@@ -19,16 +19,18 @@ jQuery.getJSON('files/data/repositories.json', function(photoData) {
         if ( photoData[i].repo_privacy === "public") { 
 
             jQuery(
+
             `<div class="repo_item">
 
                 <img src="${ photoData[i].repo_img }" title="${ photoData[i].repo_alt }" alt="${ photoData[i].repo_alt }" />
-                <a href="${ photoData[i].repo_url }" class="href_repo_url" target="blank"> ${ photoData[i].repo_name } </a>
+                <a href="${ photoData[i].repo_url }" class="href_repo_url" target="blank"> ${ photoData[i].repo_name } </a>  
+                <br />              
+                
+                <!-- copy clone span element - contains the git clone command text -->
+                <span class="clone_span"> ${ photoData[i].repo_clone } </span>
                 
                 <!-- Copy clone button -->
                 <a href="#" class="copy_clone_command" id="js-clone" onclick="copy_to_text()">clone command</a>
-                
-                <!-- copy clone span element -->
-                <span class="clone_span"> ${ photoData[i].repo_clone } </span><br />
                 
                 
                 <!-- hidden text box -->

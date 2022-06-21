@@ -2,8 +2,9 @@
 // script connected
 console.log("app.js connected");
 
-const clone_messasge = "git clone";
-const copy_clone_command = document.querySelectorAll("copy_clone_command");
+const clone_message = "git clone";
+const clone_span_text = document.getElementsByClassName(".clone_span");
+const copy_clone_btn = document.querySelectorAll("copy_clone_command");
 
 
 // Get the json data
@@ -65,13 +66,20 @@ jQuery.getJSON('files/data/repositories.json', function(photoData) {
          }
 
         // TODO: copy clone command text from - href_repo_url
-        function copy_to_text(text) {
+        function copy_to_text() {
 
+            /*
+            copy_command = clone_span_text.text;
 
-            let get_text = this.document.querySelector(".gitclone_textbox");
+            clone_span_text.select();
+            clone_span_text.setSelectionRange(0, 99999); // kk
 
-            get_text.value = text; //save main text in it
-            document.execCommand("copy");
+            navigator.clipboard.writeText(clone_span_text.value); */
+
+            
+            //
+            // alert("Copied the text: " + copyText.value);            
+            
         }
 
         copy_to_text();

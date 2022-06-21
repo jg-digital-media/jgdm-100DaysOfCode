@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 52 of 100. **Last Update:** 20 June 2022
+## **Status:** Day 53 of 100. **Last Update:** 21 June 2022
 ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
 
+
+# R9D53: Tuesday 21 June 2022
+
++ Updated a few of my repositories today.
+
++ **Technologies Used** - git, CSV, PHP
 
 # R9D52: Monday 20 June 2022
 

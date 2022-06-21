@@ -101,15 +101,18 @@ body {
 
                 span {
                     
+                    
+                    display: inline-block;
                     /* font-style: italic; */
                     /* margin-bottom: 20px; */
                     margin-top: 5px;
                     margin-bottom: 10px;
-                    display: inline-block;
+                    border-radius: 5px;
                     padding: 3px;
-                    border-bottom: #584e4e 1px dotted;
-                    border: #583e4e 1px dotted;
-                    border: #ff3213 1px dotted;
+                    /* border-bottom: #584e4e 1px dotted; */
+                    /* border: #ff3213 1px dotted; */
+                    /* border: #583e4e 1px dotted; */
+                    /* border: #583e4e 1px solid; */
                     font-size: $font-size-small;
 
                     &.clone_span {

@@ -23,6 +23,11 @@ body {
 
     }
 
+    body {
+
+        background: $bg-body;
+    }
+
     main {
 
         .list-js {
@@ -97,19 +102,29 @@ body {
 
                 span {
                     
-                    color: $color-span;
-                    font-style: italic;
-                    margin-bottom: 20px;
+                    /* font-style: italic; */
+                    /* margin-bottom: 20px; */
+                    margin-top: 5px;
+                    margin-bottom: 10px;
                     display: inline-block;
-                    background: #4cbce8;
                     padding: 3px;
                     border-bottom: #584e4e 1px dotted;
                     border: #583e4e 1px dotted;
                     border: #ff3213 1px dotted;
                     font-size: $font-size-small;
 
+                    &.clone_span {
+
+                        background: $bg-span-clone;
+                        /* background: blue; */
+                        color: $txt-col-span;
+                        font-weight: bold;
+                        letter-spacing: 1px;
+                    }
+
                     &.status {
 
+                        background: $bg-span;
                         color: black;
                         font-style: normal;
                         font-weight: bold;
@@ -119,6 +134,7 @@ body {
 
                     &.type {
 
+                        background: $bg-span;
                         color: black;
                         font-style: normal;
                         font-weight: bold;
@@ -127,6 +143,7 @@ body {
 
                     &.privacy {
 
+                        background: $bg-span;
                         color: black;
                         font-style: normal;
                         font-weight: bold;
@@ -142,7 +159,7 @@ body {
 
                     background: #ee5752;
                     display: block;
-                    margin: 20px auto;
+                    margin: 0px auto;
                     padding: 10px;
                     color: $txt-col-secondary;
                     border-radius: 10px;

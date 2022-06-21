@@ -24,7 +24,7 @@
         "repo_type": "repo",
         "repo_status": "Ongoing",
         "repo_clone": "git clone https://github.com/jg-digital-media/projects",
-        "repo_privacy": "public"        
+        "repo_privacy": "private"        
 
     }, {
 
@@ -36,7 +36,7 @@
         "repo_type": "repo",
         "repo_status": "Ongoing",
         "repo_clone": "git clone https://github.com/jg-digital-media/server",
-        "repo_privacy": "public"        
+        "repo_privacy": "private"        
 
     }, {
 
@@ -48,7 +48,7 @@
         "repo_type": "repo",
         "repo_status": "Ongoing",
         "repo_clone": "git clone https://github.com/jg-digital-media/wordpress",
-        "repo_privacy": "public"        
+        "repo_privacy": "private"        
 
     }, {
 
@@ -228,7 +228,7 @@
         "repo_type": "website",
         "repo_status": "Complete",
         "repo_clone": "git clone https://github.com/jg-digital-media/simple_express",
-        "repo_privacy": "private"      
+        "repo_privacy": "public"      
 
     }
 

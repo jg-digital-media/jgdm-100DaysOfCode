@@ -1,9 +1,3 @@
-<?php  
-
-echo "header.php";
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -45,10 +39,18 @@ echo "header.php";
         <!-- Canonical link -->
         <link rel="canonical" href="<?php echo $meta_pageurl; ?>">
 
-
+        <!-- Site/Page Title -->
         <title> <?php echo $meta_pagetitle; ?> </title>
 
         <link rel="stylesheet" type="text/css" href="style.css" />
 
     </head>
     <body>
+
+        <header>
+
+            <h1>JGDM Repositories</h1>
+
+            <img src="img/jg-logo.png" id="repo_logo" alt="JGDM Repositories Logo" />
+
+        </header>        

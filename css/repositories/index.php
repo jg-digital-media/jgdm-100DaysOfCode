@@ -1,20 +1,31 @@
 <?php
 
+    $meta_description = "description";
+    $meta_keywords = "jgdm, repositories, github, version control";
+    $meta_image = "img/jg-logo.png";
+    $meta_facebookimage = "";
+    $meta_twitterimage = "";
+    $meta_pageurl = "https://repositories.jonniegrieve.co.uk/index.php";
 
-$meta_description = "description";
-$meta_keywords = "key, words";
-$meta_image = "";
-$meta_facebookimage = "";
-$meta_twitterimage = "";
-$meta_pageurl = "";
+    $meta_htmltitle = "JGDM - My GitHub Repos";
+    $meta_pagetitle = "JGDM Repositories";
 
-$meta_htmltitle = "Repos";
-$meta_pagetitle = "Repos";
+    $main_font = "https://fonts.googleapis.com/css?family=Merriweather|Odibee+Sans|Quicksand&display=swap";
 
-$main_font = "https://fonts.googleapis.com/css?family=Merriweather|Odibee+Sans|Quicksand&display=swap";
+    require "inc/header.php";
+?>
+        
 
-require "inc/header.php";
+    <main>
 
-echo "index.php";
+        <h2>List</h2>       
 
-require "inc/footer.php";
+        <p>A Dynamic list of my public GitHub Repositories.</p>
+
+        <article class="list-js">
+
+        </article>
+
+    </main>   
+
+<?php require "inc/footer.php";  ?>

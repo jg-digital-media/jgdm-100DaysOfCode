@@ -17,7 +17,24 @@
 + Gulp and Grunt compilers
 
 
-### Day 53
+### Day 54
+
+
+
+Repositories
+------------
+
+Repository Sub location https://repositories.jonniegrieve.co.uk/files/data/repositories.json
+
+JGDM Location
+https://jonniegrieve.co.uk/data/repositories.json
+
+
+Projects
+--------
+
+https://jonniegrieve.co.uk/data/project-list.json
+https://projects.jonniegrieve.co.uk/assets/data/project-list.jsom
 
 ...
 

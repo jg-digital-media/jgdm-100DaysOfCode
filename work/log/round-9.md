@@ -10,7 +10,7 @@ ___
 
 # R9D54: Wednesday 22 June 2022
 
-+ ... ... 
++ Some local updates to my repository page and others 
 
 + **Technologies Used** - git, CSV, PHP
 

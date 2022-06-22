@@ -28,7 +28,7 @@ jQuery.getJSON('files/data/repositories.json', function(photoData) {
                 <span class="clone_span"> ${ photoData[i].repo_clone } </span>
                 
                 <!-- Copy clone button -->
-                <a href="#" class="copy_clone_command" id="js-clone" onclick="copy_to_text()">clone command</a>
+                /* <a href="#" class="copy_clone_command" id="js-clone" onclick="copy_to_text()">copy command</a> */
                 
                 
                 <!-- hidden text box -->

@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 9: Day 54 of 100. **Last Update:** 22 June 2022 
++ **Status:** Round 9: Day 55 of 100. **Last Update:** 27 June 2022 
 
 ## **Update:** I have recently stripped out react, node and vue js projects and started afresh as I have simply not worked on these enough in recent years and they'd become security liabilities.  
 
@@ -53,7 +53,7 @@
   + node
     + imba
   + npm
-    + gul-setup
+    + gulp-setup
   + php
     + lockdown
     + php_auth

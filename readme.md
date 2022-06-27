@@ -52,6 +52,8 @@
     + th_live_pet_directory
   + node
     + imba
+  + npm
+    + gul-setup
   + php
     + lockdown
     + php_auth

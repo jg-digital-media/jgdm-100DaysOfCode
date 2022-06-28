@@ -1,3 +1,5 @@
+
+// connect confirmation
 console.log("connect to app.js");
 
 

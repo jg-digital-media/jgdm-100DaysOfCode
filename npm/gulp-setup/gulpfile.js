@@ -22,7 +22,7 @@ function styles() {
 
     .pipe(scss())
     .pipe(autoPrefixer('last 2 versions'))
-    .pipe(cssMinify)
+    .pipe(cssMinify())
     .pipe(dest('./frontend/dist/styles/'))
 }
 
@@ -36,4 +36,18 @@ function scripts() {
 
 
 }
+
+function watchTask() {
+
+    watch( [ 
+        './frontend/src/styles/**/*.scss', 
+        './frontend/src/scripts/**/*.js'], series(styles, scripts)
+    );
+
+}
+
+
+exports.default = series(styles, scripts, watchTask);
+
+
 

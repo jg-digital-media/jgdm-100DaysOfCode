@@ -17,7 +17,27 @@
 + Gulp and Grunt compilers
 
 
-### Day 55
+### Day 00
+
+### Caption and Description
+
+Name - Dyspraxia Wall of Fame - curated by Dyspraxic Help 4U
+
+
+
+### Text Tab  - 
++ Background Image Size:  	Fit
+
++ Text Shadow Horizontal Length	0.46em
++ Text Shadow Vertical Length	0.5em
++ Text Shadow Blur Strength	0.79
+
+### Title Text Tab - 
++ Title Text Colour:		#b3ef64
+
++ Button Text Colour:  #2f702e
+
++ Make the More Button Clickable
 
 ...
 

@@ -3,8 +3,10 @@
  * 
  * Authored by:  @jg_digitalMedia
  * Web:          https://www.jonniegrieve.co.uk
+ * 
  * //file path to json file - local   - ../../css/portfolio/data/project-list.json
  * //file path to json file - server  - ../../../data/project-list.json
+ * 
  * Date:  08/03/2021
  */
 

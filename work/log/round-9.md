@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 56 of 100  
+## **Status:** Day 57 of 100  
 **Last Update:** 28 June 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R9D57: Monday 04 July 2022
+
++ Most of my time spent doing some further work on my previous update I made before the weekend on Dyspraxic Help 4U.  Our work together goes on, raising Dyspraxia awareness
+
++ **Technologies Used** - HTML5 CSS
 
 
 # R9D56: Tuesday 28 June 2022

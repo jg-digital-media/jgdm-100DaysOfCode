@@ -1,21 +1,21 @@
 /**
- *  App.js - project list
+ *  repo.js - Repositories List
  * 
  * Authored by:  @jg_digitalMedia
  * Web:          https://www.jonniegrieve.co.uk/assets/project_status_images/
  * 
- * // file path to json file - local  - ../../css/portfolio/data/project-list.json
- * // file path to json file - server - ../../../data/project-list.json 
+ * // file path to json file - local  - ../../css/portfolio/data/repositories.json
+ * // file path to json file - server - ../../../data/repositories.json 
  * // absolute path - https://www.jonniegrieve.co.uk/data/repositories.json
  * 
- * Date:  17/06/2022
+ * Date:  04/07/2022:  14:18
 */
 
 
 // project count - store count element 
 const repo_count = document.getElementById("repo_count");
 
-jQuery.getJSON('https://www.jonniegrieve.co.uk/data/repositories.json', function(repoData) { 
+jQuery.getJSON('../../../data/repositories.json', function(repoData) { 
     
     let itemAll = repoData.repositories.length;
     console.log( repoData.repositories.length );

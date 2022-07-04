@@ -8,7 +8,7 @@
  * // file path to json file - server - ../../../data/project-list.json
  * // absolute path - https://www.jonniegrieve.co.uk/data/project-list.json
  * 
- * Date:  17/06/2022
+ * Date:  04/07/2022 - 14:19
 */
 
 
@@ -16,7 +16,7 @@
 const project_count = document.getElementById("count");
 const repo_count = document.getElementById("repo_count");
  
-jQuery.getJSON('https://www.jonniegrieve.co.uk/data/project-list.json', function(photoData) { 
+jQuery.getJSON('../../../data/project-list.json', function(photoData) { 
     
     let itemAll = photoData.projects.length;
     console.log( photoData.projects.length );

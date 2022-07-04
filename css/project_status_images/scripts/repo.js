@@ -8,7 +8,7 @@
  * // file path to json file - server - ../../../data/repositories.json 
  * // absolute path - https://www.jonniegrieve.co.uk/data/repositories.json
  * 
- * Date:  04/07/2022:  14:18
+ * Date:  04/07/2022:  17:35
 */
 
 
@@ -38,7 +38,7 @@ jQuery.getJSON('../../../data/repositories.json', function(repoData) {
         
             </li>        
         
-        `).appendTo(`.repository-status-data`);
+        `).appendTo('.repository-status-data');
 
     }
 

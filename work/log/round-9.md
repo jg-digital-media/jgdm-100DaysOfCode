@@ -1,6 +1,6 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 57 of 100  
+## **Status:** Day 58 of 100  
 **Last Update:** 28 June 2022
 ___
 
@@ -8,6 +8,12 @@ ___
 ___
 
 
+
+# R9D58: Tuesday 06 July 2022
+
++ project status page:   Unblocked the block that was stopping the JSON data from being retrieved in this project. I have a feeling I'll have to move some projects to this location due to cross origin blocks. 
+
++ **Technologies Used** - HTML5 CSS
 
 # R9D57: Monday 04 July 2022
 

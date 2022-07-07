@@ -1,15 +1,21 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 58 of 100  
-**Last Update:** 28 June 2022
+## **Status:** Day 59 of 100  
+**Last Update:** 07 July 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+# R9D59: Thursday 07 July 2022
 
-# R9D58: Tuesday 06 July 2022
++ We've been planning for updates for Dyspraxic Help 4U.  You can now access their social media channels from the top most menus.  Updates remain ongoing.  :)
+
++ **Technologies Used** - HTML5 CSS
+
+
+# R9D58: Tuesday 05 July 2022
 
 + project status page:   Unblocked the block that was stopping the JSON data from being retrieved in this project. I have a feeling I'll have to move some projects to this location due to cross origin blocks. 
 

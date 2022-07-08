@@ -22,12 +22,34 @@ header {
     font-size: large;
     background: $sec-bg;
     border-bottom: $border-btm 4px solid;
+    text-align: center;
 
-    p {        
+    h1 {
+
+        padding-top: 5px;
+    }
+
+    p {       
+
         text-align: center;
         display: block;
         position: relative;
-        top: 20px;
+        padding-top: 20px;
         font-weight: bold;
     }
+
+    a {
+
+        color: white;
+        display: inline-block;
+        padding-top: 15px;
+        font-size: small;
+
+        &:hover {
+
+            text-decoration: none;
+        }
+
+    }
+
 }

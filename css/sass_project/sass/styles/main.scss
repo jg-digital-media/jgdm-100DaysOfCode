@@ -55,18 +55,19 @@ aside {
 
     width: 70%;
     margin: 0 auto;
+    border-radius: 6px;
+    border: solid black 3px;
 
 }
 
-/*Size of slides*/
+/* Size of slides */
 .slick-slide img {
 
-    width: 70% !important;
+    /* width: 70% !important; */
+    width: 800px !important;
     /* margin: 50px auto !important; */
     display: block !important;
     cursor: pointer;
-    border-radius: 19px;
-    border: solid black 3px;
     
     @media (max-width: 1480px) {
 
@@ -78,6 +79,7 @@ aside {
         width: 95% !important;
         border: solid 3px black;
     }
+
 }
 
 

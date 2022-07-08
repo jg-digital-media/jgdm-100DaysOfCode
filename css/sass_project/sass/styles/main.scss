@@ -1,38 +1,6 @@
 
 
 
-* {
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    background: $main-bg;
-    font-family: $font-primary;
-}
-
-header {
-    
-    display: block;
-    height: 90px;
-    /* display: flex; */
-    color: $sec-col;
-    /* align-content: center; */
-    /* align-self: center; */
-    /* flex-basis: auto; */
-    margin-bottom: 10px;
-    font-size: large;
-    background: $sec-bg;
-    border-bottom: $border-btm 4px solid;
-
-    p {        
-        text-align: center;
-        display: block;
-        position: relative;
-        top: 20px;
-        font-weight: bold;
-    }
-}
 
 #container {
     width: 1483px;
@@ -86,14 +54,10 @@ aside {
     }
 }
 
-footer {
-    text-align: center;
-    //background: $sec-bg;
-}
 
-/*Switch off prev and next buttons*/
-
+/* Switch off prev and next buttons */
 button.slick-prev.slick-arrow,
 button.slick-next.slick-arrow {
+
     //display: none;
 }

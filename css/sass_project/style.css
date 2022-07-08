@@ -4,7 +4,7 @@
  * Authored by:  @jg_digitalMedia
  * Web:          https://projects.jonniegrieve.co.uk/sass_project
  * 
- * Last Update:  04:07/2022  12:51
+ * Last Update:  09:54 - 08/07/2022
  */
 * {
   padding: 0;
@@ -75,9 +75,8 @@ aside {
       width: 95% !important;
       border: solid 3px black; } }
 
+/* Switch off prev and next buttons */
 footer {
   text-align: center; }
-
-/*Switch off prev and next buttons*/
 
 /*# sourceMappingURL=style.css.map */

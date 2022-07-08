@@ -1,3 +1,19 @@
+/**
+ *  App.js - project list
+ * 
+ * Authored by:  @jg_digitalMedia
+ * Web:          https://projects.jonniegrieve.co.uk/sass_projects
+ * 
+ * // file path to json file - local   - ../../css/portfolio/data/project-list.json
+ * // file path to json file - server  - ../../../data/project-list.json
+ * 
+ * Last Update:  09:37 - 08/07/202
+ */
+
+
+
+
+/* Make the Carousel */ 
 $(document).ready(function() {
     $('.js-carousel').slick({
         arrows: false,
@@ -5,18 +21,24 @@ $(document).ready(function() {
 });
 
 
-
-/*
-
-jQuery.getJSON('../../../data/project-list.json', function(photoData) { 
+/* Get project list */
+jQuery.getJSON('data/project-list.json', function(photoData) { 
     
+    
+    // get the dynamic count and display on screen
+    const image_total_count = document.getElementById("image_total_count");
+    const total =  photoData.projects.length 
+
+    image_total_count.textContent = total;
+    
+    // iterate through the project instances via JSON
     let itemAll = photoData.projects.length;
-    console.log(photoData.projects.length);
+    console.log( photoData.projects.length );
 
     for (let i=0; i < itemAll; i++) { 
 
-        <img class="slide" src="" alt="Games Yard  First created in 2004, this website was created to be an informational site for playing various popular games." />
+        jQuery(`<img class="slide" src="${ photoData.projects[i].img_url}" alt="Alt Title Lorem ." />`).appendTo('.js-carousel');
 
     }
     
-});*/
+});

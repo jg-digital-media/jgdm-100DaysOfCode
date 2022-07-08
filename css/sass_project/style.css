@@ -4,7 +4,7 @@
  * Authored by:  @jg_digitalMedia
  * Web:          https://projects.jonniegrieve.co.uk/sass_project
  * 
- * Last Update:  09:54 - 08/07/2022
+ * Last Update:  10:30 - 08/07/2022
  */
 * {
   padding: 0;
@@ -47,24 +47,31 @@ aside {
   text-align: center; }
   aside p {
     font-weight: bold; }
+    aside p #image_total_count {
+      color: red;
+      margin-left: 6px;
+      border-bottom: solid red 3px; }
 
 .js-carousel {
   width: 100%;
   display: block;
   margin: 0 auto;
-  border: solid black 2px; }
+  /* border: solid $border-bg 2px; */ }
   @media (max-width: 640px) {
     .js-carousel {
       border: none; } }
 
 .js-carousel img {
   width: 70%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border-radius: 6px;
+  border: solid black 3px; }
 
-/*Size of slides*/
+/* Size of slides */
 .slick-slide img {
-  width: 40% !important;
-  margin: 50px auto !important;
+  /* width: 70% !important; */
+  width: 800px !important;
+  /* margin: 50px auto !important; */
   display: block !important;
   cursor: pointer; }
   @media (max-width: 1480px) {
@@ -77,6 +84,9 @@ aside {
 
 /* Switch off prev and next buttons */
 footer {
-  text-align: center; }
+  text-align: center;
+  margin-top: 20px;
+  display: block;
+  font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */

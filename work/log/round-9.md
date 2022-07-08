@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 59 of 100  
-**Last Update:** 07 July 2022
+## **Status:** Day 60 of 100  
+**Last Update:** 08 July 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+# R9D60: Friday 08 July 2022
+
++ Trying to work on various projects today.  Slick carousel inexplicably not working with no errors logs to indicate why. 
+
++ **Technologies Used** - HTML5 CSS
 
 
 # R9D59: Thursday 07 July 2022

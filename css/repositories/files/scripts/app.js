@@ -1,15 +1,14 @@
 /**
- *  App.js - Sass Project
+ *  App.js - Repositories
  * 
  * Authored by:  @jg_digitalMedia
  * Web:          https://www.jonniegrieve.co.uk/assets/lists/repositories/index.html
  * 
- * Last Update:  14:11 - 12/07/202
+ * Last Update:  14:34 - 12/07/202
  */
 
 // script connected
 console.log("app.js connected");
-
 
 
 // Get the json data

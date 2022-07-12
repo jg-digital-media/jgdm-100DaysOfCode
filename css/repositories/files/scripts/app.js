@@ -1,9 +1,11 @@
-/** 
-* 
-* Server: files/data/repositories.json
-* Last Update: 01-07-2022 - 15:40 
-*/
-
+/**
+ *  App.js - Sass Project
+ * 
+ * Authored by:  @jg_digitalMedia
+ * Web:          https://www.jonniegrieve.co.uk/assets/lists/repositories/index.html
+ * 
+ * Last Update:  14:11 - 12/07/202
+ */
 
 // script connected
 console.log("app.js connected");
@@ -12,9 +14,9 @@ console.log("app.js connected");
 
 // Get the json data
 
-//jQuery.getJSON('files/data/repositories.json', function(photoData) {
-jQuery.getJSON('https://www.jonniegrieve.co.uk/data/repositories.json', function(photoData) {
-//jQuery.getJSON('../../data/repositories.json', function(photoData) {
+// jQuery.getJSON('files/data/repositories.json', function(photoData) {
+// jQuery.getJSON('../../data/repositories.json', function(photoData) {
+jQuery.getJSON('../../../data/repositories.json', function(photoData) {
 
     let itemAll = photoData.length;
     console.log( photoData.length );

@@ -1,5 +1,5 @@
 /**
- *  App.js - project list
+ *  App.js - Project Status Images
  * 
  * Authored by:  @jg_digitalMedia
  * Web:          https://www.jonniegrieve.co.uk/assets/project_status_images/
@@ -8,7 +8,7 @@
  * // file path to json file - server - ../../../data/project-list.json
  * // absolute path - https://www.jonniegrieve.co.uk/data/project-list.json
  * 
- * Date:  04/07/2022 - 14:19
+ * Last Update:  14:04 - 12/07/2021
 */
 
 

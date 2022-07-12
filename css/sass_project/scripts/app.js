@@ -1,5 +1,5 @@
 /**
- *  App.js - project list
+ *  App.js - Sass Project
  * 
  * Authored by:  @jg_digitalMedia
  * Web:          https://projects.jonniegrieve.co.uk/sass_projects

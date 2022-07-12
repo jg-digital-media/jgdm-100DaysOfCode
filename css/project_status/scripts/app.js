@@ -1,13 +1,13 @@
 /**
- *  App.js - project list
+ *  App.js - Project Status
  * 
  * Authored by:  @jg_digitalMedia
  * Web:          https://www.jonniegrieve.co.uk
  * 
- * //file path to json file - local   - ../../css/portfolio/data/project-list.json
- * //file path to json file - server  - ../../../data/project-list.json
+ * // file path to json file - local   - ../../css/portfolio/data/project-list.json
+ * // file path to json file - server  - ../../../data/project-list.json
  * 
- * Last Update:  13:00 - 12/07/2021
+ * Last Update:  14:04 - 12/07/2021
  */
 
 

@@ -17,9 +17,22 @@
 + Gulp and Grunt compilers
 
 
-### Day 60
+### Day 61
 
-...
+
+
+c:\xampp\htdocs\jgdm-100DaysOfCode\css\
+f:\JGDM Files\jonniegrieve.co.uk\7_projects.jonniegrieve.co.uk\
+
+
+Sass Projects
+Project List
+Repositories
+Project Status
+Project Status Images
+Project Status Vue
+
+
 
 ### Day 56
 

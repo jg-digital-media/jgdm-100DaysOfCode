@@ -4,15 +4,15 @@
  * Authored by:  @jg_digitalMedia
  * Web:          https://www.jonniegrieve.co.uk
  * 
- * // file path to json file - local   - ../../css/portfolio/data/project-list.json
- * // file path to json file - server  - ../../../data/project-list.json
+ * //file path to json file - local   - ../../css/portfolio/data/project-list.json
+ * //file path to json file - server  - ../../../data/project-list.json
  * 
- * Date:  08/03/2021
+ * Last Update:  13:00 - 12/07/2021
  */
 
 
  
-jQuery.getJSON('../../../data/project-list.json', function(photoData) { 
+jQuery.getJSON('../../assets/data/project-list.json', function(photoData) { 
     
     let itemAll = photoData.projects.length;
     console.log(photoData.projects.length);

@@ -1,12 +1,14 @@
-/******
-
-Last Update:  22-06-2022  16:06
-
-******/
+/*
+*
+* Last Update: 01-07-2022  14:42
+*/
 body {
   background: #a1a1ef; }
   body header {
-    background: black; }
+    background: black;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: white 3px solid; }
     body header h1 {
       text-align: center;
       color: white;
@@ -20,9 +22,12 @@ body {
   body main {
     font-family: "Odibee Sans"; }
     body main h2 {
+      font-size: 32px;
       text-align: center; }
     body main p {
-      text-align: center; }
+      text-align: center;
+      line-height: 2;
+      font-size: 16pt; }
     body main .list-js {
       width: 92%;
       margin: 25px auto;
@@ -114,7 +119,7 @@ body {
           /* width: 90%; */
           width: 200px;
           text-decoration: none;
-          font-size: 14px;
+          font-size: 16pt;
           transition: background .3s, transform .1s; }
           body main .list-js div.repo_item .copy_clone_command:hover {
             background: #fb1111;

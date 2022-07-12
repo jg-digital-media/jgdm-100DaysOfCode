@@ -1,5 +1,8 @@
 <?php
 
+    header("Access-Control-Allow-Origin: https://www.jonniegrieve.co.uk"); 
+
+
     $meta_description = "description";
     $meta_keywords = "jgdm, repositories, github, version control";
     $meta_image = "img/jg-logo.png";

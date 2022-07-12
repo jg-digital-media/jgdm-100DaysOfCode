@@ -4,14 +4,6 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-
-        <!-- Slick Styling -->
-        <link rel="stylesheet" type="text/css" href ="assets/slick/slick.css" />
-        <link rel="stylesheet" type="text/css" href ="assets/slick/slick-theme.css" />
-        
-        <!-- Styles -->
-        <link rel="stylesheet" type="text/css" href ="style.css" />
 
         <!-- Google Font -->
         <link href="<?php echo $main_font ?>" rel="stylesheet">
@@ -40,9 +32,14 @@
         <link rel="canonical" href="<?php echo $meta_pageurl; ?>">
 
         <!-- Site/Page Title -->
-        <title> <?php echo $meta_pagetitle; ?> </title>
+        <title> <?php echo $meta_pagetitle; ?> </title>        
 
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <!-- Slick Styling -->
+        <link rel="stylesheet" type="text/css" href ="assets/slick/slick.css" />
+        <link rel="stylesheet" type="text/css" href ="assets/slick/slick-theme.css" />
+        
+        <!-- Styles -->
+        <link rel="stylesheet" type="text/css" href ="style.css" />
 
     </head>
     <body>

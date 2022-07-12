@@ -7,6 +7,9 @@ body {
     header {
 
         background: $bg-header;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+        border-bottom: white 3px solid;
 
         h1 {
 
@@ -33,11 +36,15 @@ body {
 
         h2 {
 
+            font-size: $font-size-h1;
             text-align: center;
         }
 
         p {
+
             text-align: center;
+            line-height: 2;
+            font-size: $font-size-main;
         }
 
         .list-js {

@@ -1,3 +1,9 @@
+/** 
+* 
+* Server: files/data/repositories.json
+* Last Update: 01-07-2022 - 15:40 
+*/
+
 
 // script connected
 console.log("app.js connected");
@@ -5,7 +11,10 @@ console.log("app.js connected");
 
 
 // Get the json data
-jQuery.getJSON('files/data/repositories.json', function(photoData) {
+
+//jQuery.getJSON('files/data/repositories.json', function(photoData) {
+jQuery.getJSON('https://www.jonniegrieve.co.uk/data/repositories.json', function(photoData) {
+//jQuery.getJSON('../../data/repositories.json', function(photoData) {
 
     let itemAll = photoData.length;
     console.log( photoData.length );
@@ -25,10 +34,10 @@ jQuery.getJSON('files/data/repositories.json', function(photoData) {
                 <br />              
                 
                 <!-- copy clone span element - contains the git clone command text -->
-                <span class="clone_span"> ${ photoData[i].repo_clone } </span>
+                <span class="clone_span"> Copy Command:  ${ photoData[i].repo_clone } </span>
                 
                 <!-- Copy clone button -->
-                /* <a href="#" class="copy_clone_command" id="js-clone" onclick="copy_to_text()">copy command</a> */
+                <!-- <a href="#" class="copy_clone_command" id="js-clone" onclick="copy_to_text()">copy command</a> -->
                 
                 
                 <!-- hidden text box -->

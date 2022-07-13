@@ -1,14 +1,22 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 61 of 100  
-**Last Update:** 12 July 2022
+## **Status:** Day 62 of 100  
+**Last Update:** 13 July 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-# R9D61: Monday 12 July 2022
+
+# R9D62: Wednesday 12 July 2022
+
++ Made some minor updates to my portfolio.  Go direct to the project or a WordPress permalink with more info about it. https://portfolio.jonniegrieve.co.uk
+
++ **Technologies Used** - HTML5 CSS
+
+
+# R9D61: Tuesday 12 July 2022
 
 + Trying to work on various projects today.  Slick carousel inexplicably not working with no errors logs to indicate why. 
 

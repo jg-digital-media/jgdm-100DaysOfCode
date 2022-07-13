@@ -4,7 +4,7 @@
  * Authored by:  @jg_digitalMedia
  * Web:          https://www.jonniegrieve.co.uk/assets/lists/repositories/index.html
  * 
- * Last Update:  14:34 - 12/07/202
+ * Last Update:  14:47 - 13/07/2022
  */
 
 // script connected
@@ -16,12 +16,11 @@ console.log("app.js connected");
 // jQuery.getJSON('files/data/repositories.json', function(photoData) {
 // jQuery.getJSON('../../data/repositories.json', function(photoData) {
 jQuery.getJSON('../../../data/repositories.json', function(photoData) {
-
-    let itemAll = photoData.length;
-    console.log( photoData.length );
-
     
     for (let i=0; i < itemAll; i++) { 
+        
+        let itemAll = photoData[i].length;
+        console.log( itemAll );
         
         // store message on jQuery method        
         if ( photoData[i].repo_privacy === "public") { 

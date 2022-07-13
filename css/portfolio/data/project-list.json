@@ -170,14 +170,14 @@
 
         }, {
             "project_name": "Sass Project",
-            "project_url": "https://projects.jonniegrieve.co.uk/sass_project",
+            "project_url": "https://www.jonniegrieve.co.uk/assets/lists/sass_project/",
             "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/sass-project/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/sass_project.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/sass_project.jpg",
             "project_alt": "Go to Sass Project",
             "project_type": "Single Page App",
             "class": "all ",
-            "project_status": "complete",
+            "project_status": "under_review",
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
@@ -674,7 +674,7 @@
 
         }, {
             "project_name": "Project Status (in JavaScript)",
-            "project_url": "https://jonniegrieve.co.uk/assets/project_status/index.html",
+            "project_url": "https://jonniegrieve.co.uk/assets/lists/project_status/index.html",
             "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/project-status-app-javascript/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/project_status_js.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/status_js.jpg",
@@ -688,7 +688,7 @@
 
         }, {
             "project_name": "Project Status Images (in JavaScript)",
-            "project_url": "https://jonniegrieve.co.uk/assets/project_status_images/index.html",
+            "project_url": "https://jonniegrieve.co.uk/assets/lists/project_status_images/index.html",
             "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/project-status-images//",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/project_status_js.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/status_js.jpg",
@@ -926,7 +926,7 @@
 
         }, {
             "project_name": "JGDM: Projects Subdomain",
-            "project_url": "https://projects.jonniegrieve.co.uk",
+            "project_url": "https://www.jonniegrieve.co.uk/assets/lists/project_list/",
             "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/jgdm-projects-subdomain/",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/sub_projects.png",
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/sub_projects.jpg",
@@ -1058,6 +1058,20 @@
             "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/jgdm_woocommerce_selectors.jpg",
             "project_alt": "Go to WooCommerce Selectors Repository page",
             "project_type": "Repository",
+            "class": "all ",
+            "project_status": "complete",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+
+        }, {
+            "project_name": "JGDM Repositories List",
+            "project_url": "https://www.jonniegrieve.co.uk/assets/lists/repositories/index.html",
+            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/wp-content/uploads/2022/07/jgdm_repositories.jpg",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/jgdm_repositories.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/jgdm_repositories.jpg",
+            "project_alt": "Go to JGDM Repositorie List",
+            "project_type": "Website",
             "class": "all ",
             "project_status": "complete",
             "status": true,

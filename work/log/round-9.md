@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 62 of 100  
-**Last Update:** 13 July 2022
+## **Status:** Day 63 of 100  
+**Last Update:** 14 July 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R9D63: Thursday 14 July 2022
+
++ We've been planning for updates for Dyspraxic Help 4U including some CSS Bug fixes.  
+
++ **Technologies Used** - HTML5 CSS
 
 
 # R9D62: Wednesday 12 July 2022

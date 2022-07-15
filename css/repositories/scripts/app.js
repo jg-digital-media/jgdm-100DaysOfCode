@@ -4,7 +4,7 @@
  * Authored by:  @jg_digitalMedia
  * Web:          https://www.jonniegrieve.co.uk/assets/lists/repositories/index.html
  * 
- * Last Update:  15:40 - 15/07/2022
+ * Last Update:  15:47 - 15/07/2022
  */
 
 // script connected
@@ -14,8 +14,8 @@ console.log("app.js connected");
 // Get the json data
 
 // jQuery.getJSON('files/data/repositories.json', function(photoData) {
-jQuery.getJSON('../../../css/portfolio/data/repositories.json', function(photoData) {
-// jQuery.getJSON('../../../../data/repositories.json', function(photoData) {
+// jQuery.getJSON('../../../css/portfolio/data/repositories.json', function(photoData) {
+jQuery.getJSON('../../../../data/repositories.json', function(photoData) {
     
 
     // get total count of repositories data

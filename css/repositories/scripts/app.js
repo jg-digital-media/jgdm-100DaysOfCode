@@ -4,7 +4,7 @@
  * Authored by:  @jg_digitalMedia
  * Web:          https://www.jonniegrieve.co.uk/assets/lists/repositories/index.html
  * 
- * Last Update:  16:33 - 14/07/2022
+ * Last Update:  15:40 - 15/07/2022
  */
 
 // script connected
@@ -14,59 +14,64 @@ console.log("app.js connected");
 // Get the json data
 
 // jQuery.getJSON('files/data/repositories.json', function(photoData) {
-// jQuery.getJSON('../../data/repositories.json', function(photoData) {
-jQuery.getJSON('../../../../data/repositories.json', function(photoData) {
-
+jQuery.getJSON('../../../css/portfolio/data/repositories.json', function(photoData) {
+// jQuery.getJSON('../../../../data/repositories.json', function(photoData) {
     
-    let itemAll = photoData[i].length;
-    console.log( itemAll );
+
+    // get total count of repositories data
+    let itemAll = photoData.repositories.length;
     
     for (let i=0; i < itemAll; i++) { 
-        
+
+        // console.log(itemAll);
         
         // store message on jQuery method        
-        if ( photoData[i].repo_privacy === "public") { 
+        if ( photoData.repositories[i].repo_privacy === "public") { 
 
             jQuery(
 
-            `<div class="repo_item">
+                `                
+                <div class="repo_item">
 
-                <img src="${ photoData[i].repo_img }" title="${ photoData[i].repo_alt }" alt="${ photoData[i].repo_alt }" />
-                <a href="${ photoData[i].repo_url }" class="href_repo_url" target="blank"> ${ photoData[i].repo_name } </a>  
+                <img src="${ photoData.repositories[i].repo_img }" title="${ photoData.repositories[i].repo_alt }" alt="${ photoData.repositories[i].repo_alt }" />
+                <a href="${ photoData.repositories[i].repo_url }" class="href_repo_url" target="blank"> ${ photoData.repositories[i].repo_name } </a>  
                 <br />              
                 
                 <!-- copy clone span element - contains the git clone command text -->
-                <span class="clone_span"> Copy Command:  ${ photoData[i].repo_clone } </span>
+                <span class="clone_span"> Copy Command:  ${ photoData.repositories[i].repo_clone } </span>
                 
                 <!-- Copy clone button -->
                 <!-- <a href="#" class="copy_clone_command" id="js-clone" onclick="copy_to_text()">copy command</a> -->
                 
                 
                 <!-- hidden text box -->
-                <input type="hidden" value="${ photoData[i].repo_clone }" class="gitclone_textbox" />
-
-                <span class="type"> (${ photoData[i].repo_type }) </span> | 
-                <span class="status"> (${ photoData[i].repo_status }) </span> |
-                <span class="privacy"> (${ photoData[i].repo_privacy }) </span> 
-
-            
-            </div>`).appendTo('.list-js')
+                <input type="hidden" value="${ photoData.repositories[i].repo_clone }" class="gitclone_textbox" />
+               
+                <span class="type"> (${ photoData.repositories[i].repo_type }) </span> | 
+                <span class="status"> (${ photoData.repositories[i].repo_status }) </span> |
+                <span class="privacy"> (${ photoData.repositories[i].repo_privacy }) </span> 
+               
+               
+               </div>`
+                
+            ).appendTo('.list-js');
 
 
         } else {
 
             jQuery(
 
-            `<div class="repo_item">
-
-                <img src="${ photoData[i].repo_img }" title="${ photoData[i].repo_alt }" alt="${ photoData[i].repo_alt }" />
-                <a href="${ photoData[i].repo_url }" class="href_repo_url" target="blank"> ${ photoData[i].repo_name } </a>
-
-                <span class="type"> (${ photoData[i].repo_type }) </span> | 
-                <span class="status"> (${ photoData[i].repo_status }) </span> |
-                <span class="privacy"> (${ photoData[i].repo_privacy }) </span> 
-            
-            </div>`
+                `
+                <div class="repo_item">
+                
+                 <img src="${ photoData.repositories[i].repo_img }" title="${ photoData.repositories[i].repo_alt }" alt="${ photoData.repositories[i].repo_alt }" />
+                 <a href="${ photoData.repositories[i].repo_url }" class="href_repo_url" target="blank"> ${ photoData.repositories[i].repo_name } </a>
+                
+                 <span class="type"> (${ photoData.repositories[i].repo_type }) </span> | 
+                 <span class="status"> (${ photoData.repositories[i].repo_status }) </span> |
+                 <span class="privacy"> (${ photoData.repositories[i].repo_privacy }) </span> 
+                
+                </div>`
 
             ).appendTo('.list-js');
 
@@ -85,8 +90,8 @@ jQuery.getJSON('../../../../data/repositories.json', function(photoData) {
 
             let copied_text  = clone_span_text.textContent 
             
-            copied_text;
-            console.log(this.copied_text);
+            // copied_text;
+            // console.log(this.copied_text);
             
             /* 
             copy_command.select();

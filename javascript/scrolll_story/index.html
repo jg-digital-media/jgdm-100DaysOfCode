@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Story</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+    <header> <a href="http://sjwilliams.github.io/scrollstory/" target="_blank">Link</a></header>
+
+    <!-- Default markup style -->
+    <div id="container">
+
+        <div class="story">
+
+            <h2>Story 1</h2>
+            <p>...  item 1</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut aliquam, dolor nesciunt assumenda consequuntur pariatur obcaecati, omnis rerum reiciendis optio voluptatibus inventore minima voluptate atque quibusdam labore, facere distinctio. Repellat.</p>
+
+        </div>
+
+        <div class="story">
+
+            <h2>Story 2</h2>            
+            <p>... item 2</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis doloribus beatae possimus voluptate nulla maxime itaque recusandae voluptatibus harum. Minus doloribus corporis recusandae pariatur id aliquid voluptatum voluptate aut libero.</p>
+        
+        </div>
+
+        <div class="story">
+
+            <h2>Story 3</h2>            
+            <p>... item 3</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis doloribus beatae possimus voluptate nulla maxime itaque recusandae voluptatibus harum. Minus doloribus corporis recusandae pariatur id aliquid voluptatum voluptate aut libero.</p>
+        
+        </div>
+
+        <div class="story">
+
+            <h2>Story 4</h2>            
+            <p>... item 4</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis doloribus beatae possimus voluptate nulla maxime itaque recusandae voluptatibus harum. Minus doloribus corporis recusandae pariatur id aliquid voluptatum voluptate aut libero.</p>
+        
+        </div>
+
+    </div>
+
+    <!-- include jquery and scrollstory -->
+    <script src="jquery.js"></script>
+    <script src="jquery.scrollstory.js"></script>
+
+    <script>
+
+        // Instantiation
+        $(function(){
+        $("#container").scrollStory();
+
+
+        });
+        
+
+        /* const item = {
+            
+            id: 'story0-2', // globally unique across every instance of ScrollStory. User-assigned or auto generated.
+            index: 0,
+
+        } */
+        
+    </script>
+    
+</body>
+</html>

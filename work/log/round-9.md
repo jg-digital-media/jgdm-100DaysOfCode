@@ -7,6 +7,12 @@ ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+# R9D65: Monday 15 July 2022
+
++ Got working with a jQuery plugin called ScrollStory applying CSS effects on scroll.  And completed some web updates for a client today.  Taking it easy today as England bakes in a heatwave. 
+
++ **Technologies Used** - HTML5 CSS, WordPress
+
 # R9D64: Friday 15 July 2022
 
 + Disability Inclusive Employers and Employment support information is available online https://www.dyspraxichelp4u.co.uk/disability-inclusive-employers/  #Dyspraxia #Help  #Neurodivergence #WordPress

@@ -4,5 +4,7 @@
 */
 body {
   background: #4e97fd; }
+  body h1 {
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

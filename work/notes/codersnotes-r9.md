@@ -19,8 +19,6 @@
 
 ### Day 66
 
-
-
 In the REPL - Tkinter Basics
 
 ```

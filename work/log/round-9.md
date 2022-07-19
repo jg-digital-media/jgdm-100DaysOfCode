@@ -1,17 +1,23 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 64 of 100  
-**Last Update:** 15 July 2022
+## **Status:** Day 66 of 100  
+**Last Update:** 19 July 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-# R9D65: Monday 15 July 2022
+# R9D66: Tuesday 19 July 2022
+
++ I have recently been exploring the Tkinter GUI Library for Python. I built a basic Temperature Calculator. (How apt for the last 2 days) The nuts and bolts is a tutorial walkthrough but I proudly added a Try/Catch that adds an error message to the screen when nnumbers are not used in the fahrenheit input box.
+
++ **Technologies Used** - Python
+
+# R9D65: Monday 18 July 2022
 
 + Got working with a jQuery plugin called ScrollStory applying CSS effects on scroll.  And completed some web updates for a client today.  Taking it easy today as England bakes in a heatwave. 
 
-+ **Technologies Used** - HTML5 CSS, WordPress
++ **Technologies Used** - HTML5 CSS, jQuery
 
 # R9D64: Friday 15 July 2022
 

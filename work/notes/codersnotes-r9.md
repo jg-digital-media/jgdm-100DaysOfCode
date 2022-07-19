@@ -17,9 +17,51 @@
 + Gulp and Grunt compilers
 
 
-### Day 65
+### Day 66
 
-...
+
+
+In the REPL - Tkinter Basics
+
+```
+# In the REPL - Tkinter Basics
+
+import tkinter
+root = tkinter.Tk()
+root.title("Hello World") 
+
+''
+>>> new_label = tkinter.Label(text="Hello, World!"_ 
+  File "<stdin>", line 1
+    new_label = tkinter.Label(text="Hello, World!"_
+                                                  ^
+SyntaxError: invalid syntax
+new_label = tkinter.Label(text="Hello, World!") 
+new_label = tkinter.Label(text="Hello, World!") 
+new_label.pack()
+```
+
+In the REPL  - getting text input with Label and Entry
+
+```
+
+import tkinter
+window = tkinter.Tk()
+window.title("Hello, World")
+
+
+label = tkinter.Label(text="Hello, World")
+label.pack()
+entry = tkinter.Entry()
+entry.pack()
+
+nameinput = entry.get()
+nameinput
+'Hello Entry'
+
+```
+
+assigns a widget to a frame you can assign a widget to a frame by setting the widget’s master attribute:
 
 ### Day 61
 

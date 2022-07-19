@@ -15,7 +15,7 @@ def fahrenheit_to_celsius():
         ce = (5/9) * (float( fa ) - 32)
         lbl_result["text"] = f"{round(ce, 2)} \N{DEGREE CELSIUS}"
     except  ValueError:
-        print("ssss")
+        print("Error: please enter a number")
         lbl_result["text"] = "Error: Please enter a number"
 
 window = tk.Tk()

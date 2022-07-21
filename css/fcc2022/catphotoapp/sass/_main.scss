@@ -1,0 +1,165 @@
+
+body {
+
+    background: #7ab0fb;
+
+
+    header {
+
+
+        width: 100%;
+        background: #f1f171;
+
+        h1 {
+            
+            text-align: center;
+        }
+
+        a {
+
+            color: red;
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+
+            &:hover {
+
+                text-decoration: none;
+            }
+
+        }
+
+    }
+
+    main {
+
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+
+        @media (max-width: 1080px) {
+
+            display: block;
+            width: 90%;
+        }
+
+
+        section {
+
+            flex-direction: row;    
+            text-align: left; 
+            width: 44%;
+
+            h2 {
+
+                @media (max-width: 780px) {
+
+                    text-align: center;
+                }
+
+            }
+
+            h3 {
+
+                @media (max-width: 780px) {
+
+                    text-align: center;
+                }
+
+            }
+
+            @media (max-width: 1080px) {
+
+                width: 32%;
+                border: solid red 1px;
+                margin: 0 auto;
+
+            }
+
+            img {                
+
+                width: 90%;
+                margin: 4px;
+                border: solid 2px black;
+                border-radius: 5px;
+
+            }
+
+            figure {
+
+                img {
+
+                    width: 90%;
+                    margin: 4px;
+                    border: solid 2px black;
+                    border-radius: 5px;
+                }
+
+                figcaption {
+
+                    em {
+
+                    }
+
+                }
+
+            }
+
+
+            @media (max-width: 780px) {
+
+                width: 90%;
+
+            }
+            
+            form {
+
+                input {
+
+                    border-radius: 5px;
+                    background: #f1f171;
+                    padding: 4px 0;
+                }
+
+                button {
+
+                    background: #f1f171;
+                }
+
+                fieldset {
+
+                    legend {
+
+                    }
+
+                    label {}
+
+
+                }
+
+            }
+
+        }
+
+    }
+
+    footer {
+
+        padding-top: 15px;
+        text-align: center;
+        display: block;
+
+        a {
+
+            color: red;
+
+            &:hover {
+
+                text-decoration: none;
+            }
+
+        }
+
+    }
+    
+}

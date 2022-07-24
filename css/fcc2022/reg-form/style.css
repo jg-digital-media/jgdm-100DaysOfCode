@@ -19,6 +19,7 @@ body {
       max-width: 500px;
       min-width: 300px;
       margin: 0 auto;
+      padding: 2em;
   }
   
   fieldset {
@@ -71,4 +72,9 @@ body {
   input[type="file"] {
 
     padding: 1px 2px;
+  }
+
+  input[type="checkbox"],
+  a {
+    color: #dfdfe2;
   }

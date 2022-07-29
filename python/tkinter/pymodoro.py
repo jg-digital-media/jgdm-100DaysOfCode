@@ -11,6 +11,7 @@ class Pymodoro:
 
         self.build_grid()
         self.build_banner()
+        self.build_buttons();
 
 
     # build the grid
@@ -38,6 +39,26 @@ class Pymodoro:
             sticky='ew',
             padx=10, pady=10
         )  
+
+    def build_buttons(self):
+        buttons_frame = tkinter.Frame(self.mainframe)
+        buttons_frame.grid(row=2, column=0, sticky='nsew', padx=10, pady=20)
+        buttons_frame.columnconfigure(0, weight=1)
+        buttons_frame.columnconfigure(1, weight=1)
+
+        # The buttons
+
+        self.start_button = tkinter.Button(
+            buttons_frame,
+            text = "Start"
+        )
+        self.stop_button = tkinter.Button(
+            buttons_frame,
+            text = "Stop"
+        )
+
+        self.start_button.grid(row=0, column=0, sticky="ew")
+        self.stop_button.grid(row=0, column=1, sticky="ew")
 
 
 # run the script

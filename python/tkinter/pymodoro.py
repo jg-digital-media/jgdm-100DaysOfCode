@@ -1,6 +1,8 @@
 # pymodoro script
 import tkinter
 
+DEFAULT_GAP = 60*25
+
 # Establish a layout grid
 class Pymodoro:
 
@@ -9,9 +11,14 @@ class Pymodoro:
         self.mainframe = tkinter.Frame(self.master, bg='white')
         self.mainframe.pack(fill=tkinter.BOTH, expand=True)
 
+        self.timer_text = tkinter.StringVar()
+        self.time_left = tkinter.IntVar()
+        self.time_left.set(DEFAULT_GAP)
+
         self.build_grid()
         self.build_banner()
-        self.build_buttons();
+        self.build_buttons()
+        self.build_timer()
 
 
     # build the grid
@@ -52,6 +59,8 @@ class Pymodoro:
             buttons_frame,
             text = "Start"
         )
+
+
         self.stop_button = tkinter.Button(
             buttons_frame,
             text = "Stop"
@@ -59,6 +68,19 @@ class Pymodoro:
 
         self.start_button.grid(row=0, column=0, sticky="ew")
         self.stop_button.grid(row=0, column=1, sticky="ew")
+
+    def build_timer(self):
+
+        timer = tkinter.Label(
+            self.mainframe,
+            # text=self.timer_text.get(),
+            text="Timer....",
+            font=("Helvetica", 36)
+        )
+
+        timer.grid(row=1, column=0, sticky="nsew")
+
+
 
 
 # run the script

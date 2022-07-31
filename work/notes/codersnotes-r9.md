@@ -17,6 +17,81 @@
 + Gulp and Grunt compilers
 
 
+### Day 0
+
+#### Accessibility Tips
+
++ Typeface plays an important role in the accessibility of a page. Some fonts are easier to read than others, and this is especially true on low-resolution screens.
+
++ To increase the page accessibility, the `role` attribute can be used to indicate the purpose behind an element on the page to assistive technologies.
+
+  + Every region role requires a visible label, which should be referenced by the `aria-labelledby` attribute.
+  + `<section role="region" aria-labelledby="student-info"><h2 id="student-info">Student Info</h2></section>`
+  + `aria-labelledby`   `<label for="">Student Questions</label>`  `<h2 for="">Student Questions</h2>` 
+  
+
+  ```html
+    <section role="region" aria-labelledby="student-info"><h2 id="student-info">Student Info</h2></section>
+    <section role="region" aria-labelledby="html-questions"><h2 id="html-questions">HTML Questions</h2></section>
+    <section role="region" aria-labelledby="css-questions"><h2 id="css-questions">CSS Questions</h2></section>
+  ```
+
+
++ Within the header, provide context about the page by nesting one img, h1, and nav element.
+
++ Each input should have an appropriate type and name attribute.
+
++ To prevent unnecessary repetition, target the before pseudo-element of the p element, and give it a content property of "Question #"   + unique content in markup.
+
+  + insert content with content property of CSS rather than in the markup
+
++ the contrast between the text and the background of a heading should be at least 4.5:1.
+
++ Append a span element with a class of `sr-only` - label text that is only visible to  screen readers
+
+```css
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+```
+
+```html
+<div class="info">
+            <label for="birth-date">D.O.B.<span class="sr-only">(Date of Birth)</span></label>
+            <input type="date" name="birth-date" id="birth-date" />
+          </div>
+```
+
++ Select all elements, and set the scroll-behavior to smooth.
+
+```scss
+* {
+  @media (prefers-reduced-motion: no-preference) {scroll-behavior: smooth;}
+}
+```
+
+
+
++ too often, users confuse the placeholder text with an actual input value - they think there is already a value in the input.
+
+navigation accessibility can be improved by providing keyboard shortcuts.
+
++ It is important to link each input to the corresponding label element. This provides assistive technology users with a visual reference to the input.
+
+  + This is done by giving the label a for attribute, which contains the id of the input.
+
+
+
 ### Day 66
 
 In the REPL - Tkinter Basics

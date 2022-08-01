@@ -1,0 +1,42 @@
+
+// scroll behaviour
+@media (prefers-reduced-motion: no-preference) {
+
+    * {
+      scroll-behavior: smooth;
+    }
+
+}
+
+// sr omly text for screenreaders
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+
+// headings
+@mixin heading-1($family, $border, $margin, $padding) {
+
+    font-family: $family;
+    border-bottom: $border;
+    margin-top: $margin;
+    padding-top: $padding,
+
+}
+
+@mixin heading-2($family, $border, $margin, $padding) {
+
+    font-family: $family;
+    border-bottom: $border;
+    margin-top: $margin;
+    padding-top: $padding,
+
+}

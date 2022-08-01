@@ -1,101 +1,41 @@
-/*
 
-Last Update: 31/07/2022 - 15:11
 
-*/
+@import "sass/inc/head";
 
-@media (prefers-reduced-motion: no-preference) {
 
-    * {
-      scroll-behavior: smooth;
+@import "sass/config";
+@import "sass/utilities";
+
+
+@import "sass/inc/header";
+  
+
+main {
+    padding-top: 50px;
+
+    form {
+        
+        section {
+
+            width: 80%;
+            margin: 0 auto 10px auto;
+            max-width: 600px;
+        }
+
     }
 
 }
   
-body {
-    background: #f5f6f7;
-    color: #1b1b32;
-    font-family: Helvetica;
-    margin: 0;
-}
-  
-header {
-    width: 100%;
-    height: 50px;
-    background-color: #1b1b32;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-}
-  
-#logo {
-    width: max(16%, 18%);
-    background-color: #0a0a23;
-    aspect-ratio: 35 / 4;
-    padding: 0.4rem;
-}
-  
-h1 {
-    color: #f1be32;
-    font-size: min(5, 1.2);
-    text-align: center;
-}
-  
-nav {
-    width: 50%;
-    max-width: 300px;
-    height: 50px;
-}
-  
-nav > ul {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-inline-start: 0;
-    margin-block: 0;
-    height: 100%;
-}
-  
-nav > ul > li {
-    color: #dfdfe2;
-    margin: 0 0.2rem;
-    padding: 0.2rem;
-    display: block;
-}
-  
-nav > ul > li:hover {
-    background-color: #dfdfe2;
-    color: #1b1b32;
-    cursor: pointer;
-}
-  
-li > a {
-    color: inherit;
-    text-decoration: none;
-}
-  
-main {
-    padding-top: 50px;
-}
-  
-section {
-    width: 80%;
-    margin: 0 auto 10px auto;
-    max-width: 600px;
-}
   
 h1,
 h2 {
-    font-family: Verdana, Tahoma;
+    
+    @include heading-1(verdana, none, 0, 0);
 }
   
-h2 {
-    border-bottom: 4px solid #dfdfe2;
-    margin-top: 0px;
-    padding-top: 60px;
+h2 {   
+    
+    @include heading-1(verdana, 4px solid $col-secondary, 0, 60px);
 }
   
 .info {
@@ -157,39 +97,19 @@ p::before {
   
 button {
     display: block;
+    cursor: pointer;
     margin: 40px auto;
     width: 40%;
     padding: 15px;
     font-size: 23px;
-    background: #d0d0d5;
-    border: 3px solid #3b3b4f;
-}
-  
-footer {
-    background-color: #2a2a40;
-    display: flex;
-    justify-content: center;
-}
-  
-footer,
-footer a {
-    color: #dfdfe2;
-}
+    background: $background-btn;
+    border: 3px solid $col-border;
+    transition: background .2s;
 
-  
-address {
-    text-align: center;
-    padding: 0.3em;
+    &:hover {
+        background: #a9a9c0;
+    }
 }
   
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
-}
+
+@import "sass/inc/footer";

@@ -1,5 +1,5 @@
 main {
-    
+
     padding-top: 50px;
 
     form {
@@ -26,11 +26,19 @@ h2 {
         font-size: 16pt;
 
     }
+
 }
   
 h2 {   
     
     @include heading-1(verdana, 4px solid $col-secondary, 0, 60px);
+
+    @media (max-width: $md) {
+
+        @include heading-1(verdana, 4px solid $col-secondary, 120px, 0px);
+
+    }
+    
 }
   
 .info {

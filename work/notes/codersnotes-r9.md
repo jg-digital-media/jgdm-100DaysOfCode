@@ -27,6 +27,31 @@
     + padding-box
     + border-box
 
++ visible content with CSS
+
+CSS clip property is used to define the visible portions of an element.
+
+The clip-path property determines the shape the clip property should take.
+
+```scss
+span[class~="sr-only"] {
+  border: 0;
+  position: absolute;  //take document out of normal flow
+  padding: 0;
+  margin: -`px;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  -webkit-clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  
+  
+}
+```
+
+
 #### Accessibility Tips
 
 + Screen readers announce HTML elements based on the document flow.  Use Flexbox to change conent order to suit but order in markup is unchanged for screen readers

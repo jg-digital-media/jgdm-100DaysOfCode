@@ -19,6 +19,14 @@
 
 ### Day 0
 
+#### CSS Box Model
+
++ specifying whether or not an element's borders and padding should be included in size units `box-sizing: border-box`;
+  + 3 Values
+    + content-box 
+    + padding-box
+    + border-box
+
 #### Accessibility Tips
 
 + Screen readers announce HTML elements based on the document flow.  Use Flexbox to change conent order to suit but order in markup is unchanged for screen readers

@@ -31,6 +31,17 @@ span[class] {
 }
 ```
 
+`border-collapse`
+
+By default, tables and table cells display their own borders. Borders are collapsed into a single border when possible 
+
+```scss
+table {
+
+  border-collapse: collapse;
+}
+```
+
 #### CSS Box Model
 
 + specifying whether or not an element's borders and padding should be included in size units `box-sizing: border-box`;

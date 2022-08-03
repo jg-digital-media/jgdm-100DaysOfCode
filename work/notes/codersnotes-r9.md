@@ -31,6 +31,9 @@ span[class] {
 }
 ```
 
+The `[attribute="value"]` selector targets any element that has an attribute with a specific value.
+e.g. `tr[class="total"]`
+
 `border-collapse`
 
 By default, tables and table cells display their own borders. Borders are collapsed into a single border when possible 

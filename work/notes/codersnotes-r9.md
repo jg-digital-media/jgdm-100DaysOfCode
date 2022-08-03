@@ -22,6 +22,8 @@
 
 #### CSS Techniques
 
+The `z-index` property is used to create layers for html elements - like image editing software.
+
 ```scss
 
 // select any span element that has a class attribute

@@ -9,7 +9,7 @@
 + PHP Authorisation - php/authorisation - 
 + Cartoon Chris - 
 + PHP Slim 
-+ CSS Experiments - css/expermiments
++ CSS Experiments - css/experimiments
 + Python Flask Websites - python/flask
   + Heroku - 
 + Local Storage - javaScript/localstorage
@@ -20,6 +20,11 @@
 ### Day 0
 
 #### Accessibility Tips
+
++ Screen readers announce HTML elements based on the document flow.  Use Flexbox to change conent order to suit but order in markup is unchanged for screen readers
+  + `aria-hidden` attribute set to true - hides content from screen readers
+
+  + using separate tables will help screen readers understand the document flow
 
 + Typeface plays an important role in the accessibility of a page. Some fonts are easier to read than others, and this is especially true on low-resolution screens.
 

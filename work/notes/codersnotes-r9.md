@@ -19,6 +19,18 @@
 
 ### Day 0
 
+
+#### CSS Techniques
+
+```scss
+
+// select any span element that has a class attribute
+span[class] {
+  font-weight: bold;
+  width: 4.5rem;
+}
+```
+
 #### CSS Box Model
 
 + specifying whether or not an element's borders and padding should be included in size units `box-sizing: border-box`;

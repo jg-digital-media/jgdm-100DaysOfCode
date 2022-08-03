@@ -29,7 +29,7 @@
 
 + visible content with CSS
 
-CSS clip property is used to define the visible portions of an element.
+#### CSS clip property is used to define the visible portions of an element.
 
 The clip-path property determines the shape the clip property should take.
 
@@ -51,6 +51,7 @@ span[class~="sr-only"] {
 }
 ```
 
+`position: sticky;` - Keeps elements positioned as "fixed" or "relative" depending on how it appears in the viewport. As a result the element is "stuck" when necessary while scrolling.
 
 #### Accessibility Tips
 

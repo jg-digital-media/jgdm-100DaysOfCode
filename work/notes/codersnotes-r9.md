@@ -22,6 +22,12 @@
 
 #### CSS Techniques
 
+The pseudo-elements `::before` and `::after` are often used to create cosmetic content
+
+Setting the content property to an empty string "" `content: "";`will ensure the element is rendered to the page while still being empty.
+
+`overflow: hidden;` This property will hide any element that is pushed outside the set width value of an containing element
+
 The `z-index` property is used to create layers for html elements - like image editing software.
 
 ```scss

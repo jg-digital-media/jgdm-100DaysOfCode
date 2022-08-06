@@ -22,6 +22,21 @@
 
 #### CSS Techniques
 
++ CSS Variables
+
+
+  background-color: var(--building-color3);
+
+e.g. --variable-name: value;
+
+To use a variable, put the variable name in parentheses with var in front of them like this: var(--variable-name)
+
+
+If a variable value does not work yu you can add a fallback value. A fallback value to a variable by putting it as the second value of where you use the variable like this: var(--variable-name, fallback-value). The property will use the fallback value when there's a problem with the variable. Add a fallback value of green to the background-color of .bb2.
+
+Because of the CSS Cascade, CSS variables are often declared in the :root selector
+
+
 The pseudo-elements `::before` and `::after` are often used to create cosmetic content
 
 Setting the content property to an empty string "" `content: "";`will ensure the element is rendered to the page while still being empty.

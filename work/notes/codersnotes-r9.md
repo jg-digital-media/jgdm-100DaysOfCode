@@ -38,6 +38,11 @@ background: repeating-linear-gradient(
       var(--window-color2) 6%,
       var(--window-color2) 9%
 ```
+You can specify another direction for gradients than the default by adding it before your colors
+
+```css
+
+```
 
 + CSS Variables
 

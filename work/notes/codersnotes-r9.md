@@ -179,6 +179,47 @@ navigation accessibility can be improved by providing keyboard shortcuts.
   + This is done by giving the label a for attribute, which contains the id of the input.
 
 
+auto-fit - generate columns to fit automatically - as many columns as will fit in the grid container
+
+#### Regex Function  (JavaScript)
+
+
+```javascript
+function isValidUsername(username) {
+	return /^[a-z]+$/.test(username);
+}
+```
+
+
+```javascript
+function isValidUsername(username) {
+	return /^[a-z]+$/.test(username);
+}
+```
+
+```javascript
+// Must contain a lowercase, uppercase letter and a number
+function isValidPassword(password) {
+  return /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).*$/.test(password);
+}
+```
+
+```javascript
+// The telephone number must be in the format of (555) 555-5555
+function isValidTelephone(telephone) {
+  return /^\(\d{3}\)\s\d{3}-\d{4}$/.test(telephone);
+}
+```
+
+```javascript
+// Must be a valid email address
+function isValidEmail(email) {
+  return /^[^@]+@[^@.]+\.[a-z]+$/i.test(email);
+}
+```
+
+
+
 
 ### Day 66
 

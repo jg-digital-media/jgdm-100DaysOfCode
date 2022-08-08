@@ -17,10 +17,27 @@
 + Gulp and Grunt compilers
 
 
-### Day 67
+### Day 6...
 
 
 #### CSS Techniques
+
++ linear gradients and repeating linear gradients - repeating-linear-gradient for this section. This will make the colors of your gradient repeat until it gets to the bottom of the element; giving a stripe effect
+
+```css
+background: linear-gradient(
+      var(--building-color2),
+      var(--building-color2) 6%,
+      var(--window-color2) 6%,
+      var(--window-color2) 9%
+)
+
+background: repeating-linear-gradient(
+      var(--building-color2),
+      var(--building-color2) 6%,
+      var(--window-color2) 6%,
+      var(--window-color2) 9%
+```
 
 + CSS Variables
 

@@ -1,11 +1,15 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 66 of 100  
-**Last Update:** 19 July 2022
+## **Status:** Day 67 of 100  
+**Last Update:** 08 August 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+# R9D67: Wednesday 08 August 2022
+
++ Back on with #100DaysOfCode after a bit of a break.  Starting the earliest work this week on a design refresh for my website for 2023.  Intend to build 3 prototypes and will build on the best.  I liked my last design but feel it needs a fresh start.
 
 # R9D66: Tuesday 19 July 2022
 

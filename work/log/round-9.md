@@ -1,15 +1,24 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 67 of 100  
-**Last Update:** 08 August 2022
+## **Status:** Day 68 of 100  
+**Last Update:** 09 August 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-# R9D67: Wednesday 08 August 2022
+# R9D68: Tuesday 09 August 2022
+
++ Working with HTML and CSS today, starting the markup build on my second design
+
++ **Technologies Used** - HTML, CSS
+
+
+# R9D67: Monday 08 August 2022
 
 + Back on with #100DaysOfCode after a bit of a break.  Starting the earliest work this week on a design refresh for my website for 2023.  Intend to build 3 prototypes and will build on the best.  I liked my last design but feel it needs a fresh start.
+
++ **Technologies Used** -HTML, CSS
 
 # R9D66: Tuesday 19 July 2022
 
@@ -21,7 +30,7 @@ ___
 
 + Got working with a jQuery plugin called ScrollStory applying CSS effects on scroll.  And completed some web updates for a client today.  Taking it easy today as England bakes in a heatwave. 
 
-+ **Technologies Used** - HTML5 CSS, jQuery
++ **Technologies Used** - HTML5, CSS, jQuery
 
 # R9D64: Friday 15 July 2022
 

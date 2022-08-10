@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 68 of 100  
-**Last Update:** 09 August 2022
+## **Status:** Day 69 of 100  
+**Last Update:** 10 August 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+# R9D69: Wednesday 10 August 2022
+
++ registered a new domain earlier today. I've been working hard on preparing things behind the scenes I'm and looking forward to presenting my client's new business
+
++ **Technologies Used** - HTML, CSS
 
 # R9D68: Tuesday 09 August 2022
 

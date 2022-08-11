@@ -18,7 +18,19 @@
 
 ### Day 70
 
-...
+https://blog.logrocket.com/build-custom-sticky-navbar-css/#using-html-scss
+
++ BEM stands for Block-Element-Modifier
+
++ We give a Block name to every wrapper element in our HTML code
+
++ Each child element inside the wrapper or parent has the class name of its parent, followed by two underscores with a unique identifier
+
+```html
+<nav class="header__nav" id="navbar">
+```
+
+
 
 
 ### Day 67

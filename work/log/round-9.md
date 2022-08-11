@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 69 of 100  
-**Last Update:** 10 August 2022
+## **Status:** Day 70 of 100  
+**Last Update:** 11 August 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R9D70: Thursday 11 August 2022
+
++ One thing that starting to build 3 versions of a design for my new website is it means I was very quickly able to settle on one of them. And this is what I've managed to accomplish today. A lot of work ahead, a lot of time to progress 
+
++ **Technologies Used** - HTML, CSS
 
 # R9D69: Wednesday 10 August 2022
 

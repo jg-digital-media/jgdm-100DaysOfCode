@@ -7,6 +7,11 @@ ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+# R9D71: Friday 11 August 2022
+
++ Working on a responsive navigation solution and putting it into my website refresh. I also added some design updates for Dyspraxic Help4U
+
++ **Technologies Used** - HTML, CSS
 
 # R9D70: Thursday 11 August 2022
 

@@ -16,6 +16,10 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
+### Day 71
+
+... 
+
 ### Day 70
 
 https://blog.logrocket.com/build-custom-sticky-navbar-css/#using-html-scss

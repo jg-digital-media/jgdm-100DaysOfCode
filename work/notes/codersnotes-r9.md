@@ -16,6 +16,12 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
+### Day 72
+
+... 
+
+
+
 ### Day 71
 
 ### Image lazy loading

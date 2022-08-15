@@ -1,13 +1,20 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 70 of 100  
-**Last Update:** 11 August 2022
+## **Status:** Day 72 of 100  
+**Last Update:** 14 August 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-# R9D71: Friday 11 August 2022
+
+# R9D72: Monday 15 August 2022
+
++ Implemented a responsive navigation to my website refresh. With pure CSS. Which is a big early step
+
++ **Technologies Used** - HTML, CSS
+
+# R9D71: Friday 12 August 2022
 
 + Working on a responsive navigation solution and putting it into my website refresh. I also added some design updates for Dyspraxic Help4U
 

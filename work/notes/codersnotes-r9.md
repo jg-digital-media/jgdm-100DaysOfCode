@@ -18,7 +18,48 @@
 
 ### Day 73
 
-... 
+
+
++ CSS Grid is similar to Flexbox in that it has a special property for both the parent and child elements.
+
++ Use the `minmax()` function to make your columns responsive on any device. 
+
+The `minmax()` function takes two arguments, the first being the minimum value and the second being the maximum
+
+
+```css
+  grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
+```
+
+The `grid-column` property tells the grid item which grid line to start and end at.
+
+
+
++ `object-fit`
+
++ The `object-fit` property tells the browser how to position the element within its container. In this case, cover will set the image to fill the container, cropping as needed to avoid changing the aspect ratio
+
+
++ `grid-auto-flow` - The property uses an auto-placement algorithm to adjust the grid layout. Setting it to column will tell the algorithm to create new columns for content as needed
+
+```css
+.social-icons {
+  display: grid;
+  font-size: 3rem;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+```
+
+Set new columns to a specific column with `1fr`. 
+
+
+Content Alignment 
++ with CSS Grid you can align the content of grid items with align-items and justify-items. 
+   + align-items will align child elements along the column axis, 
+   + and justify-items will align child elements along the row axis.
+
 
 ### Day 71
 

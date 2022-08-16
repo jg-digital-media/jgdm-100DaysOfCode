@@ -1,11 +1,19 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 72 of 100  
-**Last Update:** 14 August 2022
+## **Status:** Day 73 of 100  
+**Last Update:** 16 August 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+
+# R9D73: Tuesday 16 August 2022
+
++ Building up more website sections for my new site.  I'm using Flexbox and standard display values but also thinking about ways I can utilise Grid too.  I've added my name and logo to DH4U as a sponsor/contributor
+
++ **Technologies Used** - HTML, CSS
 
 
 # R9D72: Monday 15 August 2022

@@ -16,7 +16,7 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
-### Day 73
+### Day 74
 
 
 + CSS Grid is similar to Flexbox in that it has a special property for both the parent and child elements.

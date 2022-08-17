@@ -1,13 +1,19 @@
 # 100 Days of Code - Round 9
 
 ## **Status:** Day 73 of 100  
-**Last Update:** 16 August 2022
+**Last Update:** 17 August 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R9D74: Wednesday 17 August 2022
+
++  All the sections of my redesign now have some styling applied. 
+
++ **Technologies Used** - HTML, CSS
 
 # R9D73: Tuesday 16 August 2022
 

@@ -24,7 +24,7 @@
 
 + Use the `minmax()` function to make your columns responsive on any device. 
 
-The `minmax()` function takes two arguments, the first being the minimum value and the second being the maximum
+  + The `minmax()` function takes two arguments, the first being the minimum value and the second being the maximum
 
 
 ```css
@@ -33,6 +33,11 @@ The `minmax()` function takes two arguments, the first being the minimum value a
 
 The `grid-column` property tells the grid item which grid line to start and end at.
 
++ `grid-gap`
+  + The gap property is a shorthand way to set the value of `column-gap` and `row-gap` at the same time. 
+  
+  + one value, it set both `column-gap` and `row-gap`
+  + two values, it sets the `row-gap` to the first value and the `column-gap` to the second.
 
 
 + `object-fit`

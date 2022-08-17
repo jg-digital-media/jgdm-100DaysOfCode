@@ -19,7 +19,6 @@
 ### Day 73
 
 
-
 + CSS Grid is similar to Flexbox in that it has a special property for both the parent and child elements.
 
 + Use the `minmax()` function to make your columns responsive on any device. 
@@ -39,10 +38,13 @@ The `grid-column` property tells the grid item which grid line to start and end 
   + one value, it set both `column-gap` and `row-gap`
   + two values, it sets the `row-gap` to the first value and the `column-gap` to the second.
 
++ `place-items` - The place-items property can be used to set the `align-items` and `justify-items` values at the same time
+  + If one value is provided, it is used for both the align-items and justify-items properties. 
+  + If two values are provided, the first value is used for the align-items property and the second value is used for the justify-items property.
 
 + `object-fit`
 
-+ The `object-fit` property tells the browser how to position the element within its container. In this case, cover will set the image to fill the container, cropping as needed to avoid changing the aspect ratio
+  + The `object-fit` property tells the browser how to position the element within its container. In this case, cover will set the image to fill the container, cropping as needed to avoid changing the aspect ratio
 
 
 + `grid-auto-flow` - The property uses an auto-placement algorithm to adjust the grid layout. Setting it to column will tell the algorithm to create new columns for content as needed

@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 9: Day 75 of 100. **Last Update:** 18 August 2022 
++ **Status:** Round 9: Day 76 of 100. **Last Update:** 22 August 2022 
 
 ## **Update:** I have recently stripped out react, node and vue js projects and started afresh as I have simply not worked on these enough in recent years and they'd become security liabilities.  
 

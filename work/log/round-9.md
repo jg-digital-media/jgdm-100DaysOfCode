@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 75 of 100  
-**Last Update:** 18 August 2022
+## **Status:** Day 76 of 100  
+**Last Update:** 22 August 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R9D76: Monday 22 August 2022
+
++  Added a modal design pattern and slotted it into my site.  The build goes on. A scale transition would do it good and try and do that next
+
++ **Technologies Used** - HTML, CSS
 
 # R9D75: Thursday 18 August 2022
 

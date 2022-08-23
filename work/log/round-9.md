@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 76 of 100  
-**Last Update:** 22 August 2022
+## **Status:** Day 77 of 100  
+**Last Update:** 23 August 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+<!-- TODO: Selected class adapts to scroll position -->
+
+# R9D77: Tuesday 23 August 2022
+
++  Managed to scale transition the modal I've added to my website.  Now working on a solution for changing active status on links based on scroll position
+
++ **Technologies Used** - HTML, CSS
 
 
 # R9D76: Monday 22 August 2022

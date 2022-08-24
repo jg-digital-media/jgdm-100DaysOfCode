@@ -1,26 +1,32 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 77 of 100  
-**Last Update:** 23 August 2022
+## **Status:** Day 78 of 100  
+**Last Update:** 24 August 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-<!-- TODO: Selected class adapts to scroll position -->
+
+# R9D78: Wednesday 24 August 2022
+
++  I talked about changing styles in main navigation based on scroll position yesterday.  I got this working today.  Now it's done it needs to be refined.  The redesign is progressing and is lightweight in bandwidth which is good.
+
++ **Technologies Used** - HTML, CSS, JavaScript
+
 
 # R9D77: Tuesday 23 August 2022
 
 +  Managed to scale transition the modal I've added to my website.  Now working on a solution for changing active status on links based on scroll position
 
-+ **Technologies Used** - HTML, CSS
++ **Technologies Used** - HTML, CSS, JavaScript
 
 
 # R9D76: Monday 22 August 2022
 
 +  Added a modal design pattern and slotted it into my site.  The build goes on. A scale transition would do it good and try and do that next
 
-+ **Technologies Used** - HTML, CSS
++ **Technologies Used** - HTML, CSS, JavaScript
 
 # R9D75: Thursday 18 August 2022
 

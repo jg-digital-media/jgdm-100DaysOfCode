@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 78 of 100  
-**Last Update:** 24 August 2022
+## **Status:** Day 79 of 100  
+**Last Update:** 25 August 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R9D79: Thursday 25 August 2022
+
++  All go with the navigation; got the style effects working as I wanted them. Now to get the same effect working on the mobile navigation on smaller screens.  
+
++ **Technologies Used** - HTML, CSS, JavaScript
 
 # R9D78: Wednesday 24 August 2022
 

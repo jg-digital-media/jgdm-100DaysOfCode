@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 80 of 100  
-**Last Update:** 26 August 2022
+## **Status:** Day 81 of 100  
+**Last Update:** 30 August 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+# R9D81: Monday 27 August 2022
+
+  Added some mixins in Sass to run the background images for my new website.  Tomorrow I'll tackle adding in a Slick Fadeer image gallery.
+
++ **Technologies Used** - HTML, CSS, JavaScript
 
 # R9D80: Friday 26 August 2022
 

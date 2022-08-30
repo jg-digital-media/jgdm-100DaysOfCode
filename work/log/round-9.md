@@ -8,9 +8,9 @@ ___
 ___
 
 
-# R9D81: Monday 27 August 2022
+# R9D81: Monday 30 August 2022
 
-  Added some mixins in Sass to run the background images for my new website.  Tomorrow I'll tackle adding in a Slick Fadeer image gallery.
+  Added some mixins in Sass to run the background images for my new website.  Tomorrow I'll tackle adding in a Slick Fader image gallery.
 
 + **Technologies Used** - HTML, CSS, JavaScript
 

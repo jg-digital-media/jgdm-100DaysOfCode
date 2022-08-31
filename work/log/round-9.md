@@ -1,14 +1,22 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 81 of 100  
-**Last Update:** 30 August 2022
+## **Status:** Day 82 of 100  
+**Last Update:** 31 August 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-# R9D81: Monday 30 August 2022
+
+# R9D82: Wednesday 31 August 2022
+
+Slick slider now added to my design and works well with the document flow. This will be a big part of what you'll see above the fold when it's ready.  I still have many more design elements to finalise before then doing the WordPress side.
+
++ **Technologies Used** - HTML, CSS, JavaScript
+
+
+# R9D81: Tuesday 30 August 2022
 
   Added some mixins in Sass to run the background images for my new website.  Tomorrow I'll tackle adding in a Slick Fader image gallery.
 

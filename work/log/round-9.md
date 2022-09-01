@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 82 of 100  
-**Last Update:** 31 August 2022
+## **Status:** Day 83 of 100  
+**Last Update:** 01 September 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R9D83: Thursday 01 September 2022
+
+Customised the Slick carousel and added some individual background images to go with a parallax effect
+
++ **Technologies Used** - HTML, CSS, JavaScript
 
 
 # R9D82: Wednesday 31 August 2022

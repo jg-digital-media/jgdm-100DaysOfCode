@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 83 of 100  
-**Last Update:** 01 September 2022
+## **Status:** Day 84 of 100  
+**Last Update:** 03 September 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R9D84: Friday 02 September 2022
+
+Added some text content to Dyspraxia section of my site.  My site is now almost functionally ready in terms of what can be interacted with other than the contact form
+
++ **Technologies Used** - HTML, CSS, JavaScript
 
 # R9D83: Thursday 01 September 2022
 

@@ -18,7 +18,39 @@
 
 ### Day 84
 
-...
+
+```css
+
+/* shorterning text with css */
+p.card-description {
+
+display: -webkit-box;
+text-overflow: ellipsis;
+overflow: hidden;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 3;
+
+}
+
+
+@mixin text-overflow($lines) {
+
+	@content;
+        display: -webkit-box;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: $lines;
+
+}
+
+
+p.card-description {
+
+    @include text-overflow(2);
+}
+
+```
 
 ### Day 74
 

@@ -8,6 +8,12 @@ ___
 ___
 
 
+# R9D85: Monday 05 September 2022
+
+Replaced the last of my dummy image content. Visually looking more complete noe  I would like now to be able animate the toggle of the mobile menu. Results so far are mixed. I'll get it done.  :)
+
++ **Technologies Used** - HTML, CSS, JavaScript
+
 # R9D84: Friday 02 September 2022
 
 Added some text content to Dyspraxia section of my site.  My site is now almost functionally ready in terms of what can be interacted with other than the contact form

@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 84 of 100  
-**Last Update:** 03 September 2022
+## **Status:** Day 85 of 100  
+**Last Update:** 06 September 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R9D86: Tuesday 06 September 2022
+
+Working over the last coiple of days to animate the toggle of mobile menu
+
++ **Technologies Used** - HTML, CSS, JavaScript
 
 # R9D85: Monday 05 September 2022
 

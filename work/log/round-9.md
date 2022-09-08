@@ -10,7 +10,7 @@ ___
 
 # R9D88: Thursday 08 September 2022
 
-I've...s.  
+Uploaded changes to photography site
 
 + **Technologies Used** - HTML, CSS, JavaScript
 

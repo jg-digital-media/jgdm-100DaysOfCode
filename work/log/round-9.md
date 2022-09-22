@@ -1,15 +1,21 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 90 of 100  
-**Last Update:** 21 September 2022
+## **Status:** Day 91 of 100  
+**Last Update:** 22 September 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+# R9D91: Thursday 22 September 2022
+
+Posted some requested updates to the Easington Deanery website today
+
++ **Technologies Used** - HTML, CSS, JavaScript
+
 # R9D90: Wednesday 21 September 2022
 
-Fixing up some responsive buttons and form buttons for the new site.  Updated my photographt page too ready to add the latest content
+Fixing up some responsive buttons and form buttons for the new site.  Updated my photography page too ready to add the latest content
 
 + **Technologies Used** - HTML, CSS, JavaScript
 

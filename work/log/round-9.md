@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 91 of 100  
-**Last Update:** 22 September 2022
+## **Status:** Day 92 of 100  
+**Last Update:** 23 September 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+# R9D92: Friday 23 September 2022
+
+Finishing the week getting closer to being able to start on the WordPress Theme
+
++ **Technologies Used** - HTML, CSS, JavaScript
 
 # R9D91: Thursday 22 September 2022
 

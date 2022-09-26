@@ -1,11 +1,16 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 92 of 100  
-**Last Update:** 23 September 2022
+## **Status:** Day 93 of 100  
+**Last Update:** 26 September 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+# R9D93: Monday 26 September 2022
+
+Did some analysis work earlier today, prearing a report with the aim to improve the SEO for the elim church website.  www.elimchurchbishopauckland.co.uk  After that, I made a new local WordPress installation for the next step of my site redesign
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP
 
 # R9D92: Friday 23 September 2022
 

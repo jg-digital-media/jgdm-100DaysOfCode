@@ -12,7 +12,7 @@ ___
 
 Today's big goal has been to start enqueuing styles and connecting it with the main markup for my styling so site took shape in WordPress. As ever something went wrong with the Slick Carousel styling but went well. 
 
-+ **Technologies Used** - HTML, CSS, WordPress, PHPD95: 
++ **Technologies Used** - HTML, CSS, WordPress, PHP
 
 # R9D94: Tuesday 27 September 2022
 

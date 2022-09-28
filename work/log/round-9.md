@@ -1,7 +1,7 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 94 of 100  
-**Last Update:** 27 September 2022
+## **Status:** Day 95 of 100  
+**Last Update:** 28 September 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
@@ -12,9 +12,7 @@ ___
 
 Today's big goal has been to start enqueuing styles and connecting it with the main markup for my styling so site took shape in WordPress. As ever something went wrong with the Slick Carousel styling but went well. 
 
-+ **Technologies Used** - HTML, CSS, WordPress, PHP
-
-
++ **Technologies Used** - HTML, CSS, WordPress, PHPD95: 
 
 # R9D94: Tuesday 27 September 2022
 

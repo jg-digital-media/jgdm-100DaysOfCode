@@ -8,6 +8,14 @@ ___
 ___
 
 
+# R9D95: Wednesday 28 September 2022
+
+Today's big goal has been to start enqueuing styles and connecting it with the main markup for my styling so site took shape in WordPress. As ever something went wrong with the Slick Carousel styling but went well. 
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP
+
+
+
 # R9D94: Tuesday 27 September 2022
 
 Spent some time catching up on paperwork and admin today. But later I worked on adding the WordPress Loop and other set up code to my theme.  Next will recreate the static design by enqeuing assets.

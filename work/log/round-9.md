@@ -8,7 +8,7 @@ ___
 ___
 
 
-# R9D95: Tuesday 04 October 2022
+# R9D96: Tuesday 04 October 2022
 
 Been off for a few days but today I was able to fix problems with scripting and jQuery when enqueing assets with WordPress. Ready now to start work on site customisation, sorting out custom fields.
 

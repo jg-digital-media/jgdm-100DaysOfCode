@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 96 of 100  
-**Last Update:** 04 October 2022
+## **Status:** Day 97 of 100  
+**Last Update:** 05 October 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R9D97: Wednesday 05 October 2022
+
+Fully integrated my slick Carousel into Custom Fields.  A lot more to do.
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP, JavaScript
 
 # R9D96: Tuesday 04 October 2022
 

@@ -1,11 +1,19 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 97 of 100  
-**Last Update:** 05 October 2022
+## **Status:** Day 98 of 100  
+**Last Update:** 06 October 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+# R9D98: Thursday 06 October 2022
+
+Added image assets that will form part of custom posts to appear on the new website.  Will be working on the coding for that tomorrow.
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP, JavaScript
+
 
 
 # R9D97: Wednesday 05 October 2022

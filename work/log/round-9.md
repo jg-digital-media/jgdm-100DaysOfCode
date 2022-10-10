@@ -1,6 +1,6 @@
 # 100 Days of Code - Round 9
 
-## **Status:** Day 98 of 100  
+## **Status:** Day 99 of 100  
 **Last Update:** 06 October 2022
 ___
 
@@ -8,13 +8,19 @@ ___
 ___
 
 
+# R9D99: Friday 07 October 2022
+
+Starting 100DaysOfCode today for a 10th Round.  But since I've now been tweeting #100Days for so long now I might expand the challenge to go all year.
+
+Before the weekend, I sorted the first 2 of many Custom Post Types for my new website in WordPress.
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP, JavaScript
+
 # R9D98: Thursday 06 October 2022
 
 Added image assets that will form part of custom posts to appear on the new website.  Will be working on the coding for that tomorrow.
 
 + **Technologies Used** - HTML, CSS, WordPress, PHP, JavaScript
-
-
 
 # R9D97: Wednesday 05 October 2022
 

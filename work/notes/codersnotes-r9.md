@@ -17,9 +17,25 @@
 + Gulp and Grunt compilers
 
 
-### Day 98
+### Day 99
 
-...
+
+### Opening a Pull Request
+
+1. Open the Pull requests tab and click New pull request
+2. In the base: drop-down menu, ensure the master branch is selected
+3. In the compare: drop-down menu, select the development branch you created earlier
+4. Click Create pull request
+5. Now enter a title for your pull request, for example, “Add my changes”
+6. Add an accurate description of the changes you made
+7. Click Create pull request!
+
+### Merging a Pull Request
+
+1. Inside of your Pull request, click Merge pull request
+2. Click Confirm merge
+3. Once your branch has been merged, you don’t need it anymore. You can click Delete branch!
+
 
 ### Day 88
 

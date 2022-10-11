@@ -1,0 +1,105 @@
+# 100DaysOfCode - Coders Notes (Round 10)
+
++ Repository Overview: https://github.com/jg-digital-media
++ Repository URL: https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
+## Focus
++ API Video link:  https://youtube.com/watch?v=GZvSYJDk-us&feature=youtu.be
++ Photography Website: https://photography.jonniegrieve.co.uk
++ PHP Authorisation - php/authorisation - 
++ Cartoon Chris - 
++ PHP Slim 
++ CSS Experiments - css/experimiments
++ Python Flask Websites - python/flask
+  + Heroku - 
++ Local Storage - javaScript/localstorage
++ Photo Viewer App (Multiple Data Points) - css/photos
++ Gulp and Grunt compilers
+
+
+### Day 1
+
+
+
+
+#### Opening a Pull Request
+
+1. Open the Pull requests tab and click New pull request
+2. In the base: drop-down menu, ensure the master branch is selected
+3. In the compare: drop-down menu, select the development branch you created earlier
+4. Click Create pull request
+5. Now enter a title for your pull request, for example, “Add my changes”
+6. Add an accurate description of the changes you made
+7. Click Create pull request!
+
+#### Merging a Pull Request
+
+1. Inside of your Pull request, click Merge pull request
+2. Click Confirm merge
+3. Once your branch has been merged, you don’t need it anymore. You can click Delete branch!
+
+#### CSS and JavaScript
+
+https://www.w3schools.com/howto/howto_js_sidenav.asp
+
+
+```javascript
+
+/* Set the width of the side navigation to 250px */
+function openNav() {
+
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+```
+
+```html
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()">open</span>
+
+<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+<div id="main">
+  ...
+</div>
+```
+
+
+```css
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}

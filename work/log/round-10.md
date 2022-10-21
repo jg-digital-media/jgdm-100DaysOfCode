@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 2 of 100  
-**Last Update:** 19 October 2022
+## **Status:** Day 3 of 100  
+**Last Update:** 21 October 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R10D3: Thursday 21 October 2022
+
+Created a WordPress widget that enables easy editing of pricing via admin area, not changing the template file - changes made in multiple locations
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP
 
 # R10D2: Wednesday 19 October 2022
 

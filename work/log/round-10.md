@@ -10,7 +10,7 @@ ___
 
 # R10D3: Thursday 21 October 2022
 
-Created a WordPress widget that enables easy editing of pricing via admin area, not changing the template file - changes made in multiple locations
+Added the contact form plugin to my site. work is underway to integrate it into the HTML5 Form design. But it's another WordPress cog now added to the site
 
 + **Technologies Used** - HTML, CSS, WordPress, PHP
 

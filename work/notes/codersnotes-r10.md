@@ -17,9 +17,29 @@
 + Gulp and Grunt compilers
 
 
-### Day 3
+### Day 4
 
-. . . 
+```
+<label> Name:
+    [text* your-name id:contact_name] </label>
+
+<label> Email:
+    [email* your-email id:contact_email] </label>
+
+<label> How did you find me?
+[select* menu-929 id:how-found include_blank "Choose an option" "Google" "Social Media" "Word of Mouth/Referral" "Recommedation"]</label>
+
+<label> Your message (optional)
+    [textarea your-message] </label>
+
+<label>This is the boring consent bit :)<label>
+[checkbox checkbox-497 label_first use_label_element "Click this link to go to Jonnie Grieve Digital Media's data privacy policy (available below)"]
+
+<br /> <a href="http://localhost/jgdm_2023/privacy-policy/" target="blank">data privacy policy</a>.
+
+[submit "Submit"]
+```
+
 
 ### Day 1
 

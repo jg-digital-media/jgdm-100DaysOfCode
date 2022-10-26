@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 4 of 100  
-**Last Update:** 24 October 2022
+## **Status:** Day 5 of 100  
+**Last Update:** 26 October 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R10D5: Wednesday 26 October 2022
+
+Further work today getting styles in place for contact form 7 and main static form. Added an @extend directive for both use cases.
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP
 
 
 # R10D4: Monday 24 October 2022

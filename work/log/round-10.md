@@ -1,6 +1,6 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 5 of 100  
+## **Status:** Day 6 of 100  
 **Last Update:** 26 October 2022
 ___
 

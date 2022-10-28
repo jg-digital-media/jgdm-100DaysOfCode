@@ -1,0 +1,73 @@
+/* CSS Variables */
+body {
+    
+    /* Set styles as variables */
+    background: var(--dark-bg-color);
+    color: var(--dark-text-color);
+    
+    --dark-bg-color: white;
+    --dark-text-color: black; 
+    --dark-bg-toggle: orange;
+}
+
+body.dark__mode {
+    
+    --dark-bg-color: #222222;
+    --dark-text-color: #f7f7ab;
+    --dark-bg-toggle: lightgray;
+}
+
+body header {
+    
+}
+
+body header h1 {
+    
+    text-align: center;    
+}
+
+body main {
+    
+    display: block;
+    margin: 0 auto;
+    width: 50%;    
+}
+
+body main aside {
+    
+    text-align: right;
+    border: black solid 2px;
+    /* width: 100px; */
+    display: block;
+    /* right: 10px; */
+    position: relative;
+    margin: 0px auto 0 70%;
+    border-radius: 7px;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 12px;
+    vertical-align: middle;
+    
+    --dark-bg-toggle: var(--dar-bg-color);
+}
+
+
+body.dark__mode main aside {
+    
+    --dark-bg-toggle: gray;
+}
+
+body main p {
+    
+    line-height: 20pt;
+    margin-bottom: 10pt;
+}
+
+@media screen and (max-width: 780px) {
+    
+    body main {
+        
+        width: 90%;
+    }
+    
+}

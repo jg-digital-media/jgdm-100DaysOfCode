@@ -12,7 +12,7 @@ body {
 
 body.dark__mode {
     
-    --dark-bg-color: #222222;
+    --dark-bg-color: #333333;
     --dark-text-color: #f7f7ab;
     --dark-bg-toggle: lightgray;
 }

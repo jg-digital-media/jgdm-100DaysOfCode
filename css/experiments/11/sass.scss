@@ -1,0 +1,81 @@
+/*CSS/Sass Compiled */
+body {
+    
+    background: #555555;
+}
+
+
+main {
+    
+}
+
+main .accordian-container {
+    
+    margin: 0;
+    
+}
+
+main .accordian-container .accordian { 
+    
+    width: 340px;
+    margin: 0 auto;
+    
+}
+
+main .accordian-container .accordian .accordian-header {
+    
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;  
+    margin: 0 auto;
+    background: #eeeeee;
+    transition: background .2s;
+    cursor: pointer;
+}
+
+main .accordian-container .accordian .accordian-header:hover {
+    
+    background: #cccccc;
+}
+
+main .accordian-container .accordian .accordian-header h2 {
+    
+    text-align: center;    
+}
+
+main .accordian-container .accordian .accordian-header button {
+    
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    
+}
+
+main .accordian-container .accordian .accordian-body {
+    
+    background: #eeeeee;
+    display: none;
+    transition: margin-top .4s;
+    margin-top: 0
+    
+}
+
+
+main .accordian-container .accordian .accordian-body p {
+    
+    margin: 0;
+    
+}
+
+main .accordian-container .accordian.active .accordian-body {
+    
+    display: block;
+    margin-top: auto;
+}
+
+
+
+
+
+

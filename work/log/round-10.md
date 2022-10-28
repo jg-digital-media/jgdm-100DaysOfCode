@@ -9,6 +9,13 @@ ___
 
 
 
+# R10D6: Friday 28 October 2022
+
+Almost there with getting my IT setup back up to scratch!  Did some added some new directories to the CSS Experiments project and fixed some issues with mt repositories not being up to date!
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP
+
+
 # R10D5: Wednesday 26 October 2022
 
 Further work today getting styles in place for contact form 7 and main static form. Added an @extend directive for both use cases.

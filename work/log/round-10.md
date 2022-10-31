@@ -1,13 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 6 of 100  
-**Last Update:** 26 October 2022
+## **Status:** Day 7 of 100  
+**Last Update:** 28 October 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R10D7: Monday 31 October 2022
+
+After rebuilding yet another WordPress installation and making sure the setup details were sorted, sorted oput the contact form styling and refactored the index.php code so it's slimmed down and easier to read.
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP
 
 # R10D6: Friday 28 October 2022
 

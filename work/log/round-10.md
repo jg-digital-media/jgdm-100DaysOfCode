@@ -10,7 +10,7 @@ ___
 
 # R10D8: November 1 November 2022
 
-Made some changes to smarten up the mobile menu
+Made some changes to smarten up the mobile menu and padding to try and prevent accidental menu closure
 
 + **Technologies Used** - HTML, CSS, WordPress, PHP
 

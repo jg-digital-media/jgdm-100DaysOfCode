@@ -1,12 +1,17 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 8 of 100  
-**Last Update:** 01 November 2022
+## **Status:** Day 9 of 100  
+**Last Update:** 02 November 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+# R10D8: November 2 November 2022
+
+Updated my Github landing page with a video poster image and slight colour scheme changes. https://jg-digital-media.github.io/ and I added a new privacy template in WordPress for my new site. 
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP
 
 # R10D8: November 1 November 2022
 

@@ -1,13 +1,20 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 9 of 100  
-**Last Update:** 02 November 2022
+## **Status:** Day 10 of 100  
+**Last Update:** 03 November 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-# R10D8: November 2 November 2022
+# R10D10: November 3 November 2022
+
+My big project in recent months has been to redesign my website and the pathway to the end is becoming a bit clearer. Main thng achieved today was customisong the menu based on the WordPress page viewed.
+
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP
+
+# R10D9: November 2 November 2022
 
 Updated my Github landing page with a video poster image and slight colour scheme changes. https://jg-digital-media.github.io/ and I added a new privacy template in WordPress for my new site. 
 

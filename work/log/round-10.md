@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 10 of 100  
-**Last Update:** 03 November 2022
+## **Status:** Day 11 of 100  
+**Last Update:** 04 November 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+# R10D11: November 4 November 2022
+
+In an attempt to fix a bug with my dynamic scroll navigation I've added space for an icon to replace the home link. It's made an improvement althoough what causes the bug remains a mystery to me. 
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP
 
 # R10D10: November 3 November 2022
 

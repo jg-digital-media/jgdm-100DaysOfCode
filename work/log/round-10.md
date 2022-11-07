@@ -9,7 +9,7 @@ ___
 
 # R10D12: November 7 November 2022
 
-Fixed all the visual bugs in the sidebar menu. Problems remain though with the styled higlighting from scroll for both menus.  
+Fixed all the visual bugs in the sidebar menu so links stay in place, no position shifting. Problems remain though with the styled highlighting on scroll for both menus.  
 
 + **Technologies Used** - HTML, CSS, WordPress, PHP
 

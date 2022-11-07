@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 11 of 100  
-**Last Update:** 04 November 2022
+## **Status:** Day 12 of 100  
+**Last Update:** 07 November 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+# R10D12: November 7 November 2022
+
+Fixed all the visual bugs in the sidebar menu. Problems remain though with the styled higlighting from scroll for both menus.  
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP
 
 # R10D11: November 4 November 2022
 

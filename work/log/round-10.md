@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 12 of 100  
-**Last Update:** 07 November 2022
+## **Status:** Day 13 of 100  
+**Last Update:** 08 November 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+# R10D13: November 8 November 2022
+
+With a lot of experimentation, navigation highlighting on scroll now seems to be accomplished. Seems the bugs were a spacing and content issue. Hard to be consistent when some sections are smaller than others.  Next, to do the same for smaller screens.
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP
 
 # R10D12: November 7 November 2022
 

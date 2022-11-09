@@ -1,45 +1,51 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 13 of 100  
-**Last Update:** 08 November 2022
+## **Status:** Day 14 of 100  
+**Last Update:** 09 November 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-# R10D13: November 8 November 2022
+# R10D14: Wednesday 9 November 2022
+
+minor visual updates to mobile menu
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP
+
+# R10D13: Tuesday 8 November 2022
 
 With a lot of experimentation, navigation highlighting on scroll now seems to be accomplished. Seems the bugs were a spacing and content issue. Hard to be consistent when some sections are smaller than others.  Next, to do the same for smaller screens.
 
 + **Technologies Used** - HTML, CSS, WordPress, PHP
 
-# R10D12: November 7 November 2022
+# R10D12: Monday 7 November 2022
 
 Fixed all the visual bugs in the sidebar menu so links stay in place, no position shifting. Problems remain though with the styled highlighting on scroll for both menus.  
 
 + **Technologies Used** - HTML, CSS, WordPress, PHP
 
-# R10D11: November 4 November 2022
+# R10D11: Friday 4 November 2022
 
 In an attempt to fix a bug with my dynamic scroll navigation I've added space for an icon to replace the home link. It's made an improvement althoough what causes the bug remains a mystery to me. 
 
 + **Technologies Used** - HTML, CSS, WordPress, PHP
 
-# R10D10: November 3 November 2022
+# R10D10: Thursday 3 November 2022
 
 My big project in recent months has been to redesign my website and the pathway to the end is becoming a bit clearer. Main thng achieved today was customisong the menu based on the WordPress page viewed.
 
 
 + **Technologies Used** - HTML, CSS, WordPress, PHP
 
-# R10D9: November 2 November 2022
+# R10D9: Wednesday 2 November 2022
 
 Updated my Github landing page with a video poster image and slight colour scheme changes. https://jg-digital-media.github.io/ and I added a new privacy template in WordPress for my new site. 
 
 + **Technologies Used** - HTML, CSS, WordPress, PHP
 
-# R10D8: November 1 November 2022
+# R10D8: Tuesday 1 November 2022
 
 Made some changes to smarten up the mobile menu and padding to try and prevent accidental menu closure
 

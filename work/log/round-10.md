@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 14 of 100  
-**Last Update:** 09 November 2022
+## **Status:** Day 15 of 100  
+**Last Update:** 10 November 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R10D15: Thursday 10 November 2022
+
+Good day today updating my website  Added some UI touches that help with the dynamic navigation issue of my main and mobile navigation.  Also worked on more digital graphics.
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP
 
 # R10D14: Wednesday 9 November 2022
 

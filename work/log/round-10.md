@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 15 of 100  
-**Last Update:** 10 November 2022
+## **Status:** Day 16 of 100  
+**Last Update:** 11 November 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R10D16: Friday 11 November 2022
+
+Added some more customisable fields to the site concerning the section for Q&A about Dyspraxia and spent more time on graphical work.
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP
 
 # R10D15: Thursday 10 November 2022
 

@@ -9,6 +9,12 @@ ___
 
 
 
+# R10D17: Monday 14 November 2022
+
+I finished up with making some sections more responsive today and worked on some more website imagery. I'm having some difficulty getting HTML5 video to work on Android but I'm still trying. 
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP
+
 # R10D16: Friday 11 November 2022
 
 Added some more customisable fields to the site concerning the section for Q&A about Dyspraxia and spent more time on graphical work.

@@ -1,13 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 16 of 100  
-**Last Update:** 11 November 2022
+## **Status:** Day 18 of 100  
+**Last Update:** 15 November 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R10D18: Tuesday 15 November 2022
+
+I spent many hours and lots of variations of searches trying to debug why HTML5 wasn't working on Android.  It was a file permission error.......   
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP
 
 # R10D17: Monday 14 November 2022
 

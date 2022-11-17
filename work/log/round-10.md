@@ -1,18 +1,23 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 18 of 100  
-**Last Update:** 16 November 2022
+## **Status:** Day 29 of 100  
+**Last Update:** 17 November 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+# R10D20: Thursday 17 November 2022
+
+I reckon I'll be about ready to put my new design live next week!  Which is exciting  :) Today I've been refactoring the code, removed horizontal scrolling from mobile and bugs and added some more imagery
+
++ **Technologies Used** - HTML, CSS, WordPress, PHP
 
 # R10D19: Wednesday 16 November 2022
 
 As I get closer to wrapping up my site redesign I've started styling for error states and putting finishing touches to the Video markup and Custom Post Types in the admin area  
 
 + **Technologies Used** - HTML, CSS, WordPress, PHP
-
 
 # R10D18: Tuesday 15 November 2022
 

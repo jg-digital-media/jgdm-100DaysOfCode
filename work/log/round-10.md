@@ -9,7 +9,7 @@ ___
 
 # R10D21: Friday 18 November 2022
 
-....
+more graphic work....
 
 + **Technologies Used** - HTML, CSS, WordPress, PHP
 

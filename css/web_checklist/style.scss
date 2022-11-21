@@ -18,7 +18,8 @@ body {
     main {
 
         background: #f3db74;
-        width: 320px;
+        /* width: 320px; */
+        width: 75%;
         color: black;
         display: block;
         margin: 0 auto;
@@ -30,18 +31,59 @@ body {
         .sub-content {
 
             line-height: 1.6;
+            padding: 10px;
+            margin: 15pt 0;
 
             .checklist-item {
+
+                width: 100%;
+                /* vertical-align: -webkit-baseline-middle; */
+                /* vertical-align: -webkit-baseline-middle; */
+
+                &.selected {
+
+                    background: lightgreen;
+                    width: 100%;
+                    border-bottom: solid green 3px;
+                }
+
+                label,
+                input[type="checkbox"],
+                .checkbox-style,
+                .checkbox-text {
+
+                }
 
                 label {
 
                     font-weight: bold;
+                    /* border: solid #05a905 1px; */
+                    
+                    display: inline-block;
+                    width: 50%;
+                    padding: 20px 5px;
+                    cursor: pointer;
+                    /* vertical-align: -webkit-baseline-middle; */
+                    /* vertical-align: -webkit-baseline-middle; */
 
-                }
+                    &.selected {
+
+                        border-right: solid #05a905 1px;
+                    }
+
+                }       
+                
 
                 input[type="checkbox"] {
 
                     border: solid red 1px;
+                    display: inline-block;
+                    width: 15%;
+                    height: 30px;
+                    vertical-align: -webkit-baseline-middle;
+                    position: relative;
+                    bottom: 6px;
+                    cursor: pointer;
                 }
 
                 .checkbox-style {
@@ -50,8 +92,18 @@ body {
 
                 }
 
+                .checkbox-text {
+
+                    font-weight: bold;    
+                    /* width: 5%; */
+                    display: inline-block;
+                    /* vertical-align: -webkit-baseline-middle; */
+                }
+
             }
+
         }
+
     }
 
     footer {

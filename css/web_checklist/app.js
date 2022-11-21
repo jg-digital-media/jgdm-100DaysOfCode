@@ -1,9 +1,12 @@
-console.log("Check: app.js connected - 21/11/2022 - 10:32")
+console.log("Check: app.js connected - 21/11/2022 - 15:15")
 
-let checklist_item = document.getElementsByClassName(".checklist-item");
+let checklist_item = document.getElementsByClassName("checklist-item");
+let checkboxes = document.querySelectorAll(".checklist-styles");
 
-function myFunction() {
+let toggleListItem = function myFunction() {
     /* var element = document.getElementById("myDIV"); */
-    /* element.classList.toggle("mystyle"); */
+    checkboxes.classList.toggle("checklist-item");
+
+    
   }
 

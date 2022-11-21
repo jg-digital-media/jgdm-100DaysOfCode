@@ -34,11 +34,21 @@ body {
             padding: 10px;
             margin: 15pt 0;
 
+            p {
+
+            }
+
+            h3 {
+
+                text-align: center;
+                margin-top: 20pt; 
+                
+            }
+
             .checklist-item {
 
                 width: 100%;
-                /* vertical-align: -webkit-baseline-middle; */
-                /* vertical-align: -webkit-baseline-middle; */
+                border: solid #f3db74 3px;
 
                 &.selected {
 
@@ -47,24 +57,16 @@ body {
                     border-bottom: solid green 3px;
                 }
 
-                label,
-                input[type="checkbox"],
-                .checkbox-style,
-                .checkbox-text {
-
-                }
-
                 label {
 
                     font-weight: bold;
                     /* border: solid #05a905 1px; */
                     
                     display: inline-block;
-                    width: 50%;
+                    /* width: 50%; */
+                    width: 28%;
                     padding: 20px 5px;
-                    cursor: pointer;
-                    /* vertical-align: -webkit-baseline-middle; */
-                    /* vertical-align: -webkit-baseline-middle; */
+                    cursor: pointer;                   
 
                     &.selected {
 
@@ -96,8 +98,8 @@ body {
 
                     font-weight: bold;    
                     /* width: 5%; */
+                    width: 30%;
                     display: inline-block;
-                    /* vertical-align: -webkit-baseline-middle; */
                 }
 
             }

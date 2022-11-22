@@ -1,73 +1,100 @@
+@import "assets/sass/config";
+
+
 @import "assets/sass/head";
+
 
 body {
 
-    background: orange;
+    background: $bg-body;
 
     header {
 
         height: 80px;
         background: black;
-        color: white;
+        color: $color-hdr;
         border-bottom: solid white 3px;
 
         h1 {
 
             text-align: center;
 
+            span {
+                
+                font-size: 13x;
+                color: #fde422;    
+                margin-left: 10px;
+                font-weight: normal;
+            }
+
         }
     }
 
     main {
 
-        background: #f3db74;
+        background: $bg-mn;
         /* width: 320px; */
         width: 75%;
-        color: black;
+        color: $color-mn;
         display: block;
         margin: 0 auto;
 
         h2 {
 
+            margin: 10px auto;
+            display: block;
+            text-align: center;
+
+        }
+
+        
+
+        p {
+            display: block;
+            min-width: 200px;
+            width: 65%;
+            margin: 0 auto;
+            line-height: 2.5;
         }
 
         .sub-content {
 
             line-height: 1.6;
             padding: 10px;
-            margin: 15pt 0;
-
-            p {
-
-            }
+            margin: 15pt 16px;
+            border: solid black 3px;
+            border-radius: 8px;
 
             h3 {
 
-                text-align: center;
                 margin-top: 20pt; 
+                border-bottom: solid green 4px;
+                text-align: left;
+                min-width: 207px;
+                width: 100px;
                 
             }
 
             .checklist-item {
 
                 width: 100%;
-                border-bottom: solid #f3db74 3px;
-                transition: background .3s;
-
+                border-bottom: solid $bg-checklist 3px;
+                transition: background .3s;   
                 
-                &.selected {
-
-                    background: lightgreen;
-                    width: 100%;
-                    border-bottom: solid green 3px;
-                }
-
-                &.selected,
                 &:hover {
 
-                    background: lightgreen;
+                    background: $bg-checklist-hvr;
                     width: 100%;
-                    border-bottom: solid green 3px;
+                    border-bottom: solid $bdr-focus 3px;
+                }
+                
+                &:focus,
+                &:checked,
+                &.selected {
+
+                    background: #59cd59;
+                    width: 100%;
+                    border-bottom: solid $bdr-focus 3px;
                 }
 
                 label {

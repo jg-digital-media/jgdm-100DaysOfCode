@@ -1,14 +1,22 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+  font-family: "Roboto", "arial"; }
 
 body {
   background: orange; }
   body header {
-    height: 300px;
+    height: 80px;
     background: black;
-    color: white; }
+    color: white;
+    border-bottom: solid white 3px; }
+    body header h1 {
+      text-align: center; }
+      body header h1 span {
+        font-size: 13x;
+        color: #fde422;
+        margin-left: 10px;
+        font-weight: normal; }
   body main {
     background: #f3db74;
     /* width: 320px; */
@@ -16,18 +24,38 @@ body {
     color: black;
     display: block;
     margin: 0 auto; }
+    body main h2 {
+      margin: 10px auto;
+      display: block;
+      text-align: center; }
+    body main p {
+      display: block;
+      min-width: 200px;
+      width: 65%;
+      margin: 0 auto;
+      line-height: 2.5; }
     body main .sub-content {
       line-height: 1.6;
       padding: 10px;
-      margin: 15pt 0; }
+      margin: 15pt 16px;
+      border: solid black 3px;
+      border-radius: 8px; }
       body main .sub-content h3 {
-        text-align: center;
-        margin-top: 20pt; }
+        margin-top: 20pt;
+        border-bottom: solid green 4px;
+        text-align: left;
+        min-width: 207px;
+        width: 100px; }
       body main .sub-content .checklist-item {
         width: 100%;
-        border: solid #f3db74 3px; }
-        body main .sub-content .checklist-item.selected {
+        border-bottom: solid #f3db74 3px;
+        transition: background .3s; }
+        body main .sub-content .checklist-item:hover {
           background: lightgreen;
+          width: 100%;
+          border-bottom: solid green 3px; }
+        body main .sub-content .checklist-item:focus, body main .sub-content .checklist-item:checked, body main .sub-content .checklist-item.selected {
+          background: #59cd59;
           width: 100%;
           border-bottom: solid green 3px; }
         body main .sub-content .checklist-item label {

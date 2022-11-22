@@ -51,9 +51,19 @@ body {
             .checklist-item {
 
                 width: 100%;
-                border: solid #f3db74 3px;
+                border-bottom: solid #f3db74 3px;
+                transition: background .3s;
 
+                
                 &.selected {
+
+                    background: lightgreen;
+                    width: 100%;
+                    border-bottom: solid green 3px;
+                }
+
+                &.selected,
+                &:hover {
 
                     background: lightgreen;
                     width: 100%;

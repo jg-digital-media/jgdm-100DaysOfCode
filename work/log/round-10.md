@@ -7,6 +7,14 @@ ___
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R10D23: Tuesday 22 November 2022
+
+ Presenting the first step of a little checklist app I've been building up that will hopefully integrate somehow into my site. Has different highlight states based on mouse hover and checkbox focus.  
+
++ **Technologies Used** - HTML, CSS, JavaScript
+
+
 # R10D22: Monday 22 November 2022
 
 Started working on a new JavaScript DOM Scripting project to build a new Web Design production checklist. Thought it might be a good way to add something interactive to my URL. 

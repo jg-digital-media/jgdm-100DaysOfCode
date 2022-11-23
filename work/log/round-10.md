@@ -1,19 +1,24 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 22 of 100  
-**Last Update:** 21 November 2022
+## **Status:** Day 23 of 100  
+**Last Update:** 23 November 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+# R10D24: Wednesday 23 November 2022
+
+Version 2 updated today with content and a refinement of the interface.  Didn't really need 2 columns of text and removes half the bug problem
+
++ **Technologies Used** - HTML, CSS, JavaScript
+
 # R10D23: Tuesday 22 November 2022
 
  Presenting the first step of a little checklist app I've been building up that will hopefully integrate somehow into my site. Has different highlight states based on mouse hover and checkbox focus.  
 
 + **Technologies Used** - HTML, CSS, JavaScript
-
 
 # R10D22: Monday 22 November 2022
 

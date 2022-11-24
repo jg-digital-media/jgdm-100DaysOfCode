@@ -17,14 +17,36 @@ let checklist_labels = document.querySelectorAll(".checkbox_labels");
 
 const toggleLbl = document.querySelectorAll(".checklist-item").forEach( (item_labels, checkbox_btn, checklist) => {
 
-  item_labels.addEventListener("click", function() {
-
   
-    item_labels.classList.toggle('selected');
-    //checkbox_btn.classList.toggle('selected');
+  for (i=0; i<checklist_item.length; i++) {
 
-    checkbox_btn.previousElementSibling;
-    checkbox_btn.classList.toggle('selected');
+    let checklist_item = document.getElementsByClassName("checklist-item");
+    let checkboxes = document.querySelectorAll(".checkbox-style");
+
+    if (checklist_item[i].classList.contains("selected") == false) {
+
+
+      checklist_item[i].addEventListener("click", function() {
+
+        this.classList.toggle('selected');
+        // this.checkboxes.checked = checkboxes.checked;
+
+      // this.classList.remove("selected");
+      });
+      
+      // checkbox_btn.classList.toggle('selected');
+
+    } else {
+
+      // this.classList.add("selected");
+    }
+  
+  }
+
+
+    //checkbox_btn.previousElementSibling;
+    //checkbox_btn.classList.toggle('selected');
+    //checklist.classList.toggle('selected');
     //checkboxes.checked = checkboxes.checked;
     /* 
       if( checkboxes.checked == true ) {
@@ -35,9 +57,7 @@ const toggleLbl = document.querySelectorAll(".checklist-item").forEach( (item_la
     */
 
 });
-
   
-});  
 
 /* function toggle_bg_checkbox() {
 

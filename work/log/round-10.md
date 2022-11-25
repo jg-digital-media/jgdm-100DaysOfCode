@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 24 of 100  
-**Last Update:** 24 November 2022
+## **Status:** Day 26 of 100  
+**Last Update:** 25 November 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R10D26: Friday 25 November 2022
+
+same
+
++ **Technologies Used** - HTML, CSS, JavaScript
 
 # R10D25: Thursday 24 November 2022
 

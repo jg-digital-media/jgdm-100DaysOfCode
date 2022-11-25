@@ -9,7 +9,7 @@
 + PHP Authorisation - php/authorisation - 
 + Cartoon Chris - 
 + PHP Slim 
-+ CSS Experiments - css/experimiments
++ CSS Experiments - css/experiments
 + Python Flask Websites - python/flask
   + Heroku - 
 + Local Storage - javaScript/localstorage
@@ -17,7 +17,7 @@
 + Gulp and Grunt compilers
 
 
-### Day 25
+### Day 26
 
 ...
 

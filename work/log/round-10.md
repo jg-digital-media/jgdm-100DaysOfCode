@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 23 of 100  
-**Last Update:** 23 November 2022
+## **Status:** Day 24 of 100  
+**Last Update:** 24 November 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R10D25: Thursday 24 November 2022
+
+Mostly today a photography website update with an unexplained bugs.
+
++ **Technologies Used** - HTML, CSS, JavaScript
 
 # R10D24: Wednesday 23 November 2022
 

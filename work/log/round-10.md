@@ -1,11 +1,20 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 26 of 100  
-**Last Update:** 25 November 2022
+## **Status:** Day 27 of 100  
+**Last Update:** 26 November 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+
+# R10D27: Monday 26 November 2022
+
+Back working on a WordPress project that was paused earlier this year.  After I exported a WordPress installation into local development, I had to fix some CSS bugs that had crept in in the intervening weeks. Process went nice and smoothly!
+
++ **Technologies Used** - HTML, CSS, JavaScript
+
 
 
 # R10D26: Friday 25 November 2022

@@ -1,6 +1,6 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 28 of 100  
+## **Status:** Day 29 of 100  
 **Last Update:** 29 November 2022
 ___
 
@@ -9,9 +9,9 @@ ___
 
 
 
-# R10D28: Tuesday 20 November 2022
+# R10D29: Wednesday 29 November 2022
 
-A few hours today working on making the styles behind the scenes of my WooCommerce project easier to maintain! Now a separate stack for website and shop.
+Working on Multiple websites today.  Styled some more WooCommerce elements ready for use in the "wild". Big project dare I say, "Coming Soon?"  
 
 + **Technologies Used** - HTML, CSS, WordPress
 

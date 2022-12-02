@@ -17,9 +17,33 @@
 + Gulp and Grunt compilers
 
 
-### Day 30
+### Day 31
 
-...
+
+Notes for Cartoon Chris shop page  CMS
+
+`
+
+https://www.cartoonchris.co.uk/checkout/
+
+https://www.cartoonchris.co.uk/checkout/
+
+
+/shop/
+/basket/
+/checkout/
+
+
+
+http://localhost/wordpress/cb_cartoontheme/product-category/cartoons/
+
+
+http://localhost/wordpress/cb_cartoontheme/product-category/art/
+
+http://localhost/wordpress/cb_cartoontheme/product-category/events/
+`
+
+
 
 ### Day 4
 

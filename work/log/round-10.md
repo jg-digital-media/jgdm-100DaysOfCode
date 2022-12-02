@@ -1,13 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 30 of 100  
-**Last Update:** 91 December 2022
+## **Status:** Day 31 of 100  
+**Last Update:** 02 December 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R10D30: Friday 02 December 2022
+
+... 
+
++ **Technologies Used** - HTML, CSS, WordPress
 
 # R10D30: Thursday 01 December 2022
 

@@ -1,7 +1,7 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 31 of 100  
-**Last Update:** 02 December 2022
+## **Status:** Day 32 of 100  
+**Last Update:** 05 December 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
@@ -9,9 +9,15 @@ ___
 
 
 
-# R10D30: Friday 02 December 2022
+# R10D32: Monday 05 December 2022
 
-... 
+Starting workong on some accessibility aspects for my new website.  Made some progress on the CSS Print Stylesheet too.  
+
++ **Technologies Used** - HTML, CSS, WordPress
+
+# R10D31: Friday 02 December 2022
+
+More commits today for the WooCommerce Shop.  And I had some time spare to do some work on my new website. WordPress heavy again today 
 
 + **Technologies Used** - HTML, CSS, WordPress
 

@@ -11,7 +11,7 @@ ___
 
 # R10D34: Wednesday 07 December 2022
 
-Added some more style rule for the print stylesheet for my website. Also.. it's amazing sometimes the CSS bugs you pick up on when doing a visual check on your work.  :)
+Did some graphic design and finished up on and end state for the CSS Print styling. Narrowed down to 6 pages (down to 3 double sided) of A4.  One step closer
 
 + **Technologies Used** - HTML, CSS, WordPress
 

@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 33 of 100  
-**Last Update:** 06 December 2022
+## **Status:** Day 34 of 100  
+**Last Update:** 07 December 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R10D34: Wednesday 07 December 2022
+
+Added some more style rule for the print stylesheet for my website. Also.. it's amazing sometimes the CSS bugs you pick up on when doing a visual check on your work.  :)
+
++ **Technologies Used** - HTML, CSS, WordPress
 
 
 # R10D33: Tuesday 06 December 2022

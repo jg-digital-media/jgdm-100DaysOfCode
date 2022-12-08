@@ -9,6 +9,12 @@ ___
 
 
 
+# R10D35: Thursday 08 December 2022
+
+Almost finished with the graphic work on the site. The code is almost finished too.  I'm focusing on Acccesibility issues before making a final plan for launching the site! :)
+
++ **Technologies Used** - HTML, CSS, WordPress
+
 # R10D34: Wednesday 07 December 2022
 
 Did some graphic design and finished up on and end state for the CSS Print styling. Narrowed down to 6 pages (down to 3 double sided) of A4.  One step closer

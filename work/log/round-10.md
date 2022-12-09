@@ -1,7 +1,7 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 34 of 100  
-**Last Update:** 07 December 2022
+## **Status:** Day 36 of 100  
+**Last Update:** 09 December 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work

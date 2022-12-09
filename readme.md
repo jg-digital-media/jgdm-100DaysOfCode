@@ -4,7 +4,7 @@
 
 + **Status:** Round 10: Day 36 of 100. **Last Update:** 09 December 2022 
 
-## **Update:** I have recently stripped out react, node and vue js projects and started afresh as I have simply not worked on these enough in recent years and they'd become file security liabilities.  
+## **Update:** I have recently stripped out react, node and vue js projects. New website coming to https://www.jonniegrieve.co.uk imminently  
 
 ## Directories
 

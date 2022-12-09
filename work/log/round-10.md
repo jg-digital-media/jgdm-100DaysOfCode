@@ -9,6 +9,13 @@ ___
 
 
 
+# R10D36: Friday 09 December 2022
+
+Coming next week.... 
+
++ **Technologies Used** - HTML, CSS, WordPress
+
+
 # R10D35: Thursday 08 December 2022
 
 Almost finished with the graphic work on the site. The code is almost finished too.  I'm focusing on Acccesibility issues before making a final plan for launching the site! :)

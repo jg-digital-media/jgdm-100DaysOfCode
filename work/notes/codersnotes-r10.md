@@ -19,13 +19,20 @@
 ### Day 36
 
 
-Access keys  
+#### Access keys for jgdm website 
 
 
 access="f"  Form
 access="t" Testomonials
 access="v" Video
 access="b" blog
+
+### Website hex codes
+
+
+
+```color: #f6fb85;```
+```color: #fce76f;```
 
 
 ### Day 31

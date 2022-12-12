@@ -1,12 +1,24 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 36 of 100  
+## **Status:** Day 37 of 100  
 **Last Update:** 09 December 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R10D37: Friday 09 December 2022
+
+At some point this week, I intend to launch my much trailed new website, which is exciting. Obviously.  Today among other things I completed captioning my HTM5 video
+
++ **Technologies Used** - HTML, CSS, WordPress
+
+# R10D36: Friday 08 December 2022
+
+...
+
++ **Technologies Used** - HTML, CSS, WordPres
 
 
 # R10D35: Thursday 08 December 2022

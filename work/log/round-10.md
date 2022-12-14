@@ -10,13 +10,13 @@ ___
 
 # R10D39: Wednesday 14 December 2022
 
-Today I successfully managed to migrate the WordPress Darabase that makes up my new site from local to my domain.  Hoping to open it and unveil everything soon.
+Doing backups of my old content today and cleared files from my web space, started writing the launch blog and other final finishing touches. I think tomorrow will be launch day!  
 
 + **Technologies Used** - HTML, CSS, WordPress
 
 # R10D38: Tuesday 13 December 2022
 
-Today I successfully managed to migrate the WordPress Darabase that makes up my new site from local to my domain.  Hoping to open it and unveil everything soon.
+Today I successfully managed to migrate the WordPress Database that makes up my new site from local to my domain.  Hoping to open it and unveil everything soon.
 
 + **Technologies Used** - HTML, CSS, WordPress
 

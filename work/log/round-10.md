@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 39 of 100  
-**Last Update:** 14 December 2022
+## **Status:** Day 40 of 100  
+**Last Update:** 15 December 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R10D40: Thursday 15 December 2022
+
+Earlier today I launched my new website!!  Built in WordPress, Fresh New Look, Dynamic and Extensible!  Check it out and see what's new!
+https://www.jonniegrieve.co.uk
+
++ **Technologies Used** - HTML, CSS, WordPress
 
 # R10D39: Wednesday 14 December 2022
 

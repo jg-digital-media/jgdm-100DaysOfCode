@@ -16,6 +16,63 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
+### Day 41
+
+#### project-list.json
+
+ + "project status"  values
+
+
+```
+complete  | incomplete | under_review  | upcoming`
+    64	     	6	     	5	         	1		
+```
+
++ 76 items
+
+
+ + Laravel Basics
+ + Switch Photo App
+ + Flask Project
+ + Flask and SQLAlchemy
+ + Express Flash Card App
+
++ 81 down to 76
+
++ 70 Active Featured Projects 
+
+||
+
+
+inactive
+
+heroku projects 5
+
+
+to check 4
+
+`
+autism		     44
+android   	     2
+fetch		     57
+left_push_nav    22
+sub_me		     76
+`
+
+#### portfolio.jonniegrieve.co.uk
+
+
++ 55 Development Projects (bin 5)
++ 13 Client Projects (bin 1)
++ 5 Legacy Projects (bin 0)
+
++ 73 (inc bin 78)
+
+
+
+
+
+
 ### Day 40
 
 ...
@@ -34,10 +91,9 @@ access="b" blog
 
 ### Day 31
 
-
 Notes for Cartoon Chris shop page  CMS
 
-`
+
 
 https://www.cartoonchris.co.uk/checkout/
 

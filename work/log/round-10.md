@@ -1,12 +1,17 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 40 of 100  
-**Last Update:** 15 December 2022
+## **Status:** Day 41 of 100  
+**Last Update:** 16 December 2022
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+# R10D41: Thursday 16 December 2022
+
+Doing some behind the scenes organisation of my portfolio today.  Aware that some of my projects need a new home after Heroku closed off my links.  
+
++ **Technologies Used** - HTML, CSS, WordPress
 
 # R10D40: Thursday 15 December 2022
 

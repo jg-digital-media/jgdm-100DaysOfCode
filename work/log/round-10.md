@@ -1,11 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 41 of 100  
-**Last Update:** 16 December 2022
+## **Status:** Day 42 of 100  
+**Last Update:** 09 January 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+# R10D42: Monday 09 January 2023
+
+Back to work today with some updates for a client.  I also started working on converting my ever expanding photography site to be PHP driven 
+
++ **Technologies Used** - HTML, CSS, WordPress
+
 
 # R10D41: Thursday 16 December 2022
 

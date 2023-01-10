@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 10: Day 42 of 100. **Last Update:** 09 January 2023 
++ **Status:** Round 10: Day 43 of 100. **Last Update:** 10 January 2023 
 
 ## **Update:** I have recently stripped out react, node and vue js projects and started afresh as I have simply not worked on these enough in recent years and they'd become file security liabilities.  
 

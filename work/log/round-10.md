@@ -13,20 +13,20 @@ ___
 
 Found myself down a PHP rabbit hole today.  Who here hasn't caused problems for themelves because they used the assignment rather than the evaulation operator....  
 
-+ **Technologies Used** - HTML, CSS, WordPress
++ **Technologies Used** - HTML, CSS, PHP
 
 # R10D43: Tuesday 10 January 2023
 
 Completed the first part of my PHP Website conversion, which I talk about in my latest blog
 
-+ **Technologies Used** - HTML, CSS, WordPress
++ **Technologies Used** - HTML, CSS, PHP
 
 
 # R10D42: Monday 09 January 2023
 
 Back to work today with some updates for a client.  I also started working on converting my ever expanding photography site to be PHP driven 
 
-+ **Technologies Used** - HTML, CSS, WordPress
++ **Technologies Used** - HTML, CSS, PHP
 
 
 # R10D41: Thursday 16 December 2022

@@ -1,13 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 43 of 100  
-**Last Update:** 10 January 2023
+## **Status:** Day 44 of 100  
+**Last Update:** 11 January 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R10D44: Wednesday 11 January 2023
+
+Found myself down a PHP rabbit hole today.  Who here hasn't caused problems for themelves because they used the assignment rather than the evaulation operator....  
+
++ **Technologies Used** - HTML, CSS, WordPress
 
 # R10D43: Tuesday 10 January 2023
 

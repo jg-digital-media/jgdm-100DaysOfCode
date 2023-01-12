@@ -16,6 +16,11 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
+### Day 45
+
+...
+
+
 ### Day 44
 
 Asignment operator vs evaluation  = vs == 

@@ -1,13 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 46 of 100  
-**Last Update:** 13 January 2023
+## **Status:** Day 47 of 100  
+**Last Update:** 16 January 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R10D47: Monday 16 January 2023
+
+The PHP Website conversion project for my photography work is getting into the shape. The content, data and scripts are back in place. Still a lot of work to be done and I'll post my latest development blog on the process tomorrow!
+
++ **Technologies Used** - HTML, CSS, PHP
 
 # R10D46: Friday 13 January 2023
 

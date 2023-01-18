@@ -11,7 +11,7 @@ ___
 
 # R10D49: Wednesday 18 January 2023
 
-Read my...
+I'm hopeful that tomorrow I'll complete and publish the complete conversion from HTML over to PHP of my photography site. Latest blog coming tomorrow too
 
 + **Technologies Used** - HTML, CSS, PHP
 

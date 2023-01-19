@@ -11,7 +11,7 @@ ___
 
 # R10D50: Thursday 19 January 2023
 
-Cleared a lot of bugs today and there are still a few more to do. But the PHP Conversion is online worthy. So tomorrow I'll blog one more time and upload my work!
+Cleared a lot of bugs today and there are still a few more to do. But the PHP Conversion is online worthy now. So tomorrow I'll blog one more time after a final check, I'll upload my work!
 
 + **Technologies Used** - HTML, CSS, PHP
 

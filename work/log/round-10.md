@@ -9,6 +9,12 @@ ___
 
 
 
+# R10D52: Monday 23 January 2023
+
+Worked on reducing some CSS page load on my newly PHP photography site.  Also my blog site also needs a refresh so I've begun the first stages of doing that.
+
++ **Technologies Used** - HTML, CSS, PHP
+
 # R10D51: Friday 20 January 2023
 
 Earlier I uploaded my "new" photography website, now built in PHP. 
@@ -20,7 +26,6 @@ Earlier I uploaded my "new" photography website, now built in PHP.
 Cleared a lot of bugs today and there are still a few more to do. But the PHP Conversion is online worthy now. So tomorrow I'll blog one more time after a final check, I'll upload my work!
 
 + **Technologies Used** - HTML, CSS, PHP
-
 
 # R10D49: Wednesday 18 January 2023
 

@@ -1,7 +1,7 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 53 of 100  
-**Last Update:** 24 January 2023
+## **Status:** Day 54 of 100  
+**Last Update:** 25 January 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
@@ -9,7 +9,14 @@ ___
 
 
 
-# R10D53: Wednesday 24 January 2023
+# R10D54: Wednesay 25 January 2023
+
+Wrote my new blog earlier and put together a new starting theme for my blog.  Keeping myself busy with that 
+
++ **Technologies Used** - HTML, CSS, PHP
+
+
+# R10D53: Tuesday 24 January 2023
 
 I managed to smoothly migrate the database from my blog to localhost which means I'm free to develop a new design from there!  The current design is fine but it gives me time to design something new and fresh. No specific deadline in mind.  :)
 

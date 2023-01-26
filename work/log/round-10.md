@@ -1,6 +1,6 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 54 of 100  
+## **Status:** Day 55 of 100  
 **Last Update:** 25 January 2023
 ___
 
@@ -9,7 +9,14 @@ ___
 
 
 
-# R10D54: Wednesay 25 January 2023
+# R10D55: Thursday 26 January 2023
+
+...
+
++ **Technologies Used** - HTML, CSS, PHP
+
+
+# R10D54: Wednesday 25 January 2023
 
 Wrote my new blog earlier and put together a new starting theme for my blog.  Keeping myself busy with that 
 

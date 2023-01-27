@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 55 of 100  
-**Last Update:** 25 January 2023
+## **Status:** Day 56 of 100  
+**Last Update:** 27 January 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R10D56: Friday 27 January 2023
+
+In this blog, I'll talk about more changes I made to the code behind the scenes to reduce code bloat and how I made the HTML more semantic while maintaining the website's visual look.
+
++ **Technologies Used** - HTML, CSS, PHP
 
 
 # R10D55: Thursday 26 January 2023

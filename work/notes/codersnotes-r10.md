@@ -16,9 +16,9 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
-### Day 55
+### Day 56
 
-...
+In this blog, I'll talk about more changes I made to the code behind the scenes to reduce code bloat and how I made the HTML more semantic while maintaining the website's visual look.
 
 ### Day 44
 

@@ -1,12 +1,24 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 56 of 100  
-**Last Update:** 27 January 2023
+## **Status:** Day 58 of 100  
+**Last Update:** 31 January 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+# R10D58: Tuesday 31 January 2023
+
+built the single and index.php template
+
++ **Technologies Used** - HTML, CSS, PHP
+
+
+# R10D57: Monday 30 January 2023
+
+Applied the WordPress loop with WP Query, documenting the process as I go.
+
++ **Technologies Used** - HTML, CSS, PHP
 
 
 # R10D56: Friday 27 January 2023

@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 58 of 100  
-**Last Update:** 31 January 2023
+## **Status:** Day 59 of 100  
+**Last Update:** 02 February 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+# R10D59: Wednesday 1 February 2023
+
+The WordPress Loop gets all the content from WordPress posts, or pages depending on the page template used and displays all its contents. In this blog, I outline how to bring content dynamically into your posts and pages with the Loop
+
++ **Technologies Used** - HTML, CSS, PHP
+
 
 # R10D58: Tuesday 31 January 2023
 

@@ -1,11 +1,17 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 59 of 100  
+## **Status:** Day 60 of 100  
 **Last Update:** 02 February 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+# R10D60: Thursday 2 February 2023
+
+I appear to have solved a problem with using code snippets and prevented their contents overflowing their containing elements. A common issue in my main blog. Further testing needed though. :)
+
++ **Technologies Used** - HTML, CSS, PHP
 
 # R10D59: Wednesday 1 February 2023
 

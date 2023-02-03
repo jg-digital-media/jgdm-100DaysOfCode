@@ -1,11 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 60 of 100  
+## **Status:** Day 61 of 100  
 **Last Update:** 02 February 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+# R10D61: Friday 3 February 2023
+
+Blog
+
++ **Technologies Used** - HTML, CSS, PHP
+
 
 # R10D60: Thursday 2 February 2023
 

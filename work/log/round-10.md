@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 61 of 100  
-**Last Update:** 02 February 2023
+## **Status:** Day 62 of 100  
+**Last Update:** 6 February 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+# R10D62: Monday 6 February 2023
+
+Reducing page load to my photogrpahy website ready for the next to be aired update using the power of PHP.  :)
+
++ **Technologies Used** - HTML, CSS, PHP
 
 
 # R10D61: Friday 3 February 2023

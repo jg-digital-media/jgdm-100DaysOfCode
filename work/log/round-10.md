@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 64 of 100  
-**Last Update:** 8 February 2023
+## **Status:** Day 65 of 100  
+**Last Update:** 9 February 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R10D65: Thursday 9 February 2023
+
+Pushed some more updates to my photography website today - still local for now.  Once done and blogged I think that will complete the code improvement drive I've been doing.
+
++ **Technologies Used** - HTML, CSS, PHP
 
 # R10D64: Wednesday 8 February 2023
 

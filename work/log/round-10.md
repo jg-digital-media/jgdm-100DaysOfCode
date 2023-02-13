@@ -1,7 +1,7 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 36 of 100  
-**Last Update:** 09 December 2022
+## **Status:** Day 67 of 100  
+**Last Update:** 10 February 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
@@ -9,11 +9,209 @@ ___
 
 
 
-# R10D36: Friday 09 December 2022
+# R10D67: Monday 13 February 2023
 
-Coming next week.... 
+Wrote my latest blog
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D66: Friday 10 February 2023
+
+This finishes the major 'surgery' i've been doing
+https://photography.jonniegrieve.co.uk
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D65: Thursday 9 February 2023
+
+Pushed some more updates to my photography website today - still local for now.  Once done and blogged I think that will complete the code improvement drive I've been doing.
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D64: Wednesday 8 February 2023
+
+Pushed some more updates to my photography website today - still local for now.  Once done and blogged I think that will complete the code improvement drive I've been doing.
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D63: Tuesday 7 February 2023
+
+Posted blog earlier, part 3  CSS Stack
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D62: Monday 6 February 2023
+
+Reducing page load to my photogrpahy website ready for the next to be aired update using the power of PHP.  :)
+
++ **Technologies Used** - HTML, CSS, PHP
+
+
+# R10D61: Friday 3 February 2023
+
+Blog
+
++ **Technologies Used** - HTML, CSS, PHP
+
+
+# R10D60: Thursday 2 February 2023
+
+I appear to have solved a problem with using code snippets and prevented their contents overflowing their containing elements. A common issue in my main blog. Further testing needed though. :)
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D59: Wednesday 1 February 2023
+
+The WordPress Loop gets all the content from WordPress posts, or pages depending on the page template used and displays all its contents. In this blog, I outline how to bring content dynamically into your posts and pages with the Loop
+
++ **Technologies Used** - HTML, CSS, PHP
+
+
+# R10D58: Tuesday 31 January 2023
+
+built the single and index.php template
+
++ **Technologies Used** - HTML, CSS, PHP
+
+
+# R10D57: Monday 30 January 2023
+
+Applied the WordPress loop with WP Query, documenting the process as I go.
+
++ **Technologies Used** - HTML, CSS, PHP
+
+
+# R10D56: Friday 27 January 2023
+
+In this blog, I'll talk about more changes I made to the code behind the scenes to reduce code bloat and how I made the HTML more semantic while maintaining the website's visual look.
+
++ **Technologies Used** - HTML, CSS, PHP
+
+
+# R10D55: Thursday 26 January 2023
+
+...
+
++ **Technologies Used** - HTML, CSS, PHP
+
+
+# R10D54: Wednesday 25 January 2023
+
+Wrote my new blog earlier and put together a new starting theme for my blog.  Keeping myself busy with that 
+
++ **Technologies Used** - HTML, CSS, PHP
+
+
+# R10D53: Tuesday 24 January 2023
+
+I managed to smoothly migrate the database from my blog to localhost which means I'm free to develop a new design from there!  The current design is fine but it gives me time to design something new and fresh. No specific deadline in mind.  :)
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D52: Monday 23 January 2023
+
+Worked on reducing some CSS page load on my newly PHP photography site.  Also my blog site also needs a refresh so I've begun the first stages of doing that.
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D51: Friday 20 January 2023
+
+Earlier I uploaded my "new" photography website, now built in PHP. 
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D50: Thursday 19 January 2023
+
+Cleared a lot of bugs today and there are still a few more to do. But the PHP Conversion is online worthy now. So tomorrow I'll blog one more time after a final check, I'll upload my work!
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D49: Wednesday 18 January 2023
+
+I'm hopeful that tomorrow I'll complete and publish the complete conversion from HTML over to PHP of my photography site. Latest blog coming tomorrow too
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D48: Tuesday 17 January 2023
+
+Read my latest blog on my current progress and next steps as I convert my photography website over from HTML to PHP
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D47: Monday 16 January 2023
+
+The PHP Website conversion project for my photography work is getting into the shape. The content, data and scripts are back in place. Still a lot of work to be done and I'll post my latest development blog on the process tomorrow!
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D46: Friday 13 January 2023
+
+I've been working a lot on my Photography website a lot this week. I've been blogging a lot about the PHP Conversion I'm developing and fixed a lot of bugs in the existing HTML Version. An accomplished way to end the week!
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D45: Thursday 12 January 2023
+
+My PHP Website conversion project is progressing slowly but well. I'm enjoying it and learning a lot from it.  I posted my third blog on the process a little earlier.  
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D44: Wednesday 11 January 2023
+
+Found myself down a PHP rabbit hole today.  Who here hasn't caused problems for themelves because they used the assignment rather than the evaulation operator....  
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D43: Tuesday 10 January 2023
+
+Completed the first part of my PHP Website conversion, which I talk about in my latest blog
+
++ **Technologies Used** - HTML, CSS, PHP
+
+
+# R10D42: Monday 09 January 2023
+
+Back to work today with some updates for a client.  I also started working on converting my ever expanding photography site to be PHP driven 
+
++ **Technologies Used** - HTML, CSS, PHP
+
+
+# R10D41: Thursday 16 December 2022
+
+Doing some behind the scenes organisation of my portfolio today.  Aware that some of my projects need a new home after Heroku closed off my links.  
 
 + **Technologies Used** - HTML, CSS, WordPress
+
+# R10D40: Thursday 15 December 2022
+
+Earlier today I launched my new website!!  Built in WordPress, Fresh New Look, Dynamic and Extensible!  Check it out and see what's new!
+https://www.jonniegrieve.co.uk
+
++ **Technologies Used** - HTML, CSS, WordPress
+
+# R10D39: Wednesday 14 December 2022
+
+Doing backups of my old content today and cleared files from my web space, started writing the launch blog and other final finishing touches. I think tomorrow will be launch day!  
+
++ **Technologies Used** - HTML, CSS, WordPress
+
+# R10D38: Tuesday 13 December 2022
+
+Today I successfully managed to migrate the WordPress Database that makes up my new site from local to my domain.  Hoping to open it and unveil everything soon.
+
++ **Technologies Used** - HTML, CSS, WordPress
+
+# R10D37: Monday 12 December 2022
+
+At some point this week, I intend to launch my much trailed new website, which is exciting. Obviously.  Today among other things I completed captioning my HTM5 video
+
++ **Technologies Used** - HTML, CSS, WordPress
+
+# R10D36: Friday 09 December 2022
+
+...
+
++ **Technologies Used** - HTML, CSS, WordPres
 
 
 # R10D35: Thursday 08 December 2022

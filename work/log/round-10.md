@@ -1,6 +1,6 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 67 of 100  
+## **Status:** Day 68 of 100  
 **Last Update:** 10 February 2023
 ___
 
@@ -8,10 +8,17 @@ ___
 ___
 
 
+# R10D68: Tuesday 14 February 2023
 
-# R10D67: Monday 13 February 2023
+My latest goal has been gaining an understanding of WordPress pagination and managed to implement it into the plain Blog theme I've been developing.  Blog coming on this later.
 
-Wrote my latest blog
++ **Technologies Used** - HTML, CSS, PHP
+
+
+# R10D67: Monday 14 February 2023
+
+This finishes the major 'surgery' i've been doing
+https://photography.jonniegrieve.co.uk
 
 + **Technologies Used** - HTML, CSS, PHP
 

@@ -17,10 +17,10 @@
 + Gulp and Grunt compilers
 
 
-### Day 67
+### Day 68
 
-
-. . . 
+Fixing Custom Loops - Add to note
+https://wordpress.stackexchange.com/questions/120407/how-to-fix-pagination-for-custom-loops
 
 ### Day 56
 

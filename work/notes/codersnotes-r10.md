@@ -16,10 +16,13 @@
 + Photo Viewer App (Multiple Data Points) - css/photos
 + Gulp and Grunt compilers
 
+### Day 69
+
+
 
 ### Day 68
 
-Fixing Custom Loops - Add to note
+Fixing Pagination for Custom Loops - Add to note
 https://wordpress.stackexchange.com/questions/120407/how-to-fix-pagination-for-custom-loops
 
 ### Day 56

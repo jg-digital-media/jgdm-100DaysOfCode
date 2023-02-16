@@ -1,13 +1,20 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 69 of 100  
-**Last Update:** 15 February 2023
+## **Status:** Day 70 of 100  
+**Last Update:** 16 February 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-# R10D69: Wednesday 14 February 2023
+
+# R10D70: Thursday 16 February 2023
+
+Added more content and bug fixes to my photography website. Updates to be published in due course. Continuing to work hard on WordPress Pagination
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D69: Wednesday 15 February 2023
 
 Refined so more of my work on WordPress pagination
 

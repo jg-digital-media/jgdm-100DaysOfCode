@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 71 of 100  
-**Last Update:** 17 February 2023
+## **Status:** Day 72 of 100  
+**Last Update:** 20 February 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R10D72: Monday 20 February 2023
+
+Integrating Category, Archive and Date Archives into the theme.  
+
++ **Technologies Used** - HTML, CSS, PHP
 
 # R10D71: Friday 17 February 2023
 

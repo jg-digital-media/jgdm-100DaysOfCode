@@ -6,6 +6,29 @@
 
 ## **Update:** I have recently stripped out react, node and vue js projects. New website coming to https://www.jonniegrieve.co.uk imminently  
 
+## Respository Links
++ Repository Overview: https://github.com/jg-digital-media
++ Repository URL: https://github.com/jg-digital-media/jgdm-100DaysOfCode
+
+
+## Focus
++ API Video link - [https://youtube.com/watch?v=GZvSYJDk-us&feature=youtu.be](https://youtube.com/watch?v=GZvSYJDk-us&feature=youtu.be)
++ JGDM Website 2023 - [localhost/jgdm_2023](localhost/jgdm_2023)   `wordpress` 
++ JGDM Blog - [localost/jgdm_blog](localhost/jgdm_blog) - 2023 plain design - `wordpress`
++ Photography Website - [localhost/photography-website/](localhost/photography-website/)  - now in `PHP` 
++ CreativeIO - [http://localhost/wordpress/creativeio](http://localhost/wordpress/creativeio) -  - `wordpress`
++ Cartoon Chris Website - [https://www.cartoonchris.co.uk/](https://www.cartoonchris.co.uk/) - cb_cartoom_admin - `wordpress`
++ CSS Experiments - css/experiments - `HTML5 & CSS`
++ Local Storage - javaScript/localstorage   `JavaScript + Localstorage`
++ Photo Viewer App (Multiple Data Points) - css/photos
+
++ PHP Authorisation - php/authorisation -
++ PHP Slim 
++ Python Flask Websites - python/flask
+  + Heroku - 
++ Gulp and Grunt compilers
+
+
 ## Directories
 
   + _bin      

@@ -1,13 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 74 of 100  
-**Last Update:** 22 February 2023
+## **Status:** Day 75 of 100  
+**Last Update:** 24 February 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R10D75: Friday 24 February 2023
+
+It's been a pleasure to complete some client work this week.   Also finished my latest blog today.  Have a good weekend, coders and web designers!  :)
+
++ **Technologies Used** - HTML, CSS, PHP
 
 # R10D74: Wednesday 22 February 2023
 

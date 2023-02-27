@@ -1,11 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 75 of 100  
-**Last Update:** 24 February 2023
+## **Status:** Day 76 of 100  
+**Last Update:** 27 February 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+
+# R10D76: Monday 27 February 2023
+
+Started looking at some of my projects.  Working on another new design for one of them including working on a challenging website navigation pattern with CSS #100DaysOfCode
+
++ **Technologies Used** - HTML, CSS, PHP
 
 
 

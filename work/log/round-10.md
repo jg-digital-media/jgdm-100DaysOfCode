@@ -1,13 +1,20 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 77 of 100  
-**Last Update:** 28 February 2023
+## **Status:** Day 78 of 100  
+**Last Update:** 01 March 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+
+# R10D78: Wednesday 1 March 2023
+
+Looking at Author methods and how to use them in WordPress author templates
+
++ **Technologies Used** - HTML, CSS, PHP
 
 # R10D77: Tuesday 28 February 2023
 

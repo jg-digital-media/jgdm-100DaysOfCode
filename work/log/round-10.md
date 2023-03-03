@@ -13,7 +13,7 @@ ___
 
 # R10D78: Thursday 2 March 2023
 
-Lo...
+Posted my blog earlier regarding Author Templates and Methods in WordPress. 
 
 + **Technologies Used** - HTML, CSS, PHP
 

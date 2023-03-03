@@ -11,7 +11,7 @@ ___
 
 
 
-# R10D78: Thursday 2 March 2023
+# R10D79: Thursday 2 March 2023
 
 Posted my blog earlier regarding Author Templates and Methods in WordPress. 
 

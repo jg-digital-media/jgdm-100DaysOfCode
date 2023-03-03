@@ -1,7 +1,7 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 79 of 100  
-**Last Update:** 02 March 2023
+## **Status:** Day 80 of 100  
+**Last Update:** 03 March 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
@@ -9,7 +9,11 @@ ___
 
 
 
+# R10D80: Friday 3 March 2023
 
+Po.... 
+
++ **Technologies Used** - HTML, CSS, PHP
 
 # R10D79: Thursday 2 March 2023
 
@@ -31,13 +35,13 @@ Updated projects list - parallax scrolling - https://projects.jonniegrieve.co.uk
 
 # R10D76: Monday 27 February 2023
 
-Started looking at some of my projects.  Working on another new design for one of them including working on a challenging website navigation pattern with CSS #100DaysOfCode
+Started looking at some of my projects. Working on another new design for one of them including working on a challenging website navigation pattern with CSS #100DaysOfCode
 
 + **Technologies Used** - HTML, CSS, PHP
 
 # R10D75: Friday 24 February 2023
 
-It's been a pleasure to complete some client work this week.   Also finished my latest blog today.  Have a good weekend, coders and web designers!  :)
+It's been a pleasure to complete some client work this week. Also finished my latest blog today. Have a good weekend, coders and web designers! :)
 
 + **Technologies Used** - HTML, CSS, PHP
 

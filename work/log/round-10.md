@@ -11,7 +11,7 @@ ___
 
 # R10D80: Friday 3 March 2023
 
-Po.... 
+I made the theme I've been building and blogging about into a new GitHub Repository. Which I'm almost but not quite ready to share!
 
 + **Technologies Used** - HTML, CSS, PHP
 

@@ -1,13 +1,25 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 80 of 100  
-**Last Update:** 03 March 2023
+## **Status:** Day 82 of 100  
+**Last Update:** 07 March 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R10D82: Tuesday 7 March 2023
+
+Added to the data for my repository list - and various other updates and checks on my projects 
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D81: Monday 6 March 2023
+
+Follow my latest repository as I build it up - Setting up and using templates for a WordPress theme. 
+
++ **Technologies Used** - HTML, CSS, PHP
 
 # R10D80: Friday 3 March 2023
 

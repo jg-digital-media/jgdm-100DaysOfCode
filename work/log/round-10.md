@@ -8,6 +8,11 @@ ___
 ___
 
 
+# R10D84: Thursday 9 March 2023
+
+Explaining Dynamic menus for website navigation; page and search templates for WordPress themes. 
+
++ **Technologies Used** - HTML, CSS, PHP
 
 # R10D83: Wednesday 8 March 2023
 

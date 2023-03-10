@@ -1,8 +1,15 @@
 # 100DaysOfCode - Coders Notes (Round 10)
 
-### Day 84
+### Day 85
 
-...
+Function Reference  as per Wordpress handbook [LINK](https://developer.wordpress.org/themes/template-files-section/partial-and-miscellaneous-template-files/comment-template/#template-header)
+wp_list_comments() : Displays all comments for a post or Page based on a variety of parameters including ones set in the administration area.
+comment_form() : This tag outputs a complete commenting form for use within a template.
+comments_template() : Load the comment template specified in first argument
+paginate_comments_links() : Create pagination links for the comments on the current post.
+get_comments() : Retrieve the comments with possible use of arguments
+get_approved_comments() : Retrieve the approved comments for post id provided.
+
 
 ### Day 68
 

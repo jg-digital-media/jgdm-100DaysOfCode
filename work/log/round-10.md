@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 83 of 100  
-**Last Update:** 08 March 2023
+## **Status:** Day 85 of 100  
+**Last Update:** 10 March 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R10D85: Friday 10 March 2023
+
+ Pushed some new updates my repository to open up post pages for user comments  (single post pages) along with some styling enhancements. 
+
++ **Technologies Used** - HTML, CSS, PHP
 
 # R10D84: Thursday 9 March 2023
 

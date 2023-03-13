@@ -1,12 +1,18 @@
 # 100 Days of Code - Round 10
 
 ## **Status:** Day 85 of 100  
-**Last Update:** 10 March 2023
+**Last Update:** 13 March 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+# R10D86: Monday 10 March 2023
+
+ Yoday I uploaded my latsat photography content update and pushed updates to....
+
++ **Technologies Used** - HTML, CSS, PHP
 
 # R10D85: Friday 10 March 2023
 

@@ -1,12 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 87 of 100  
-**Last Update:** 14 March 2023
+## **Status:** Day 88 of 100  
+**Last Update:** 15 March 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R10D88: Wednesday 15 March 2023
+
+ Officially versioned my latest repository (v1). The behind the scenes styling needs to be changed so it's easier to maintain. Working on that for next update 
+
++ **Technologies Used** - HTML, CSS, PHP
 
 # R10D87: Tuesday 14 March 2023
 

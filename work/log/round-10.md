@@ -1,15 +1,20 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 91 of 100  
-**Last Update:** 20 March 2023
+## **Status:** Day 92 of 100  
+**Last Update:** 21 March 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+# R10D92:  Tuesday 20 March 2023
 
-# R10D91:  Monday 17 March 2023
+ Just pushed 65 commits of work on .v2 of this repository which updates the visual look a little bit more, updates the readme with setup instructions and a roadmap for more things to come.
+
++ **Technologies Used** - HTML, CSS, PHP
+
+# R10D91:  Monday 20 March 2023
 
  A setback - I lost all my work from the last couple of days.  I go at it again.
 

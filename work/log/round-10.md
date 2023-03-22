@@ -1,12 +1,20 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 92 of 100  
-**Last Update:** 21 March 2023
+## **Status:** Day 93 of 100  
+**Last Update:** 22 March 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+
+# R10D93:  Wednesday 20 March 2023
+
+ Updated to the main branch (v2.1)  - Added a comment count for each post in home.php and index.php and some new stylesheet customisations 
+
+
++ **Technologies Used** - HTML, CSS, PHP
 
 # R10D92:  Tuesday 20 March 2023
 

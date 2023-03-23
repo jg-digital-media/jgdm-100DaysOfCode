@@ -1,7 +1,7 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 93 of 100  
-**Last Update:** 22 March 2023
+## **Status:** Day 94 of 100  
+**Last Update:** 23 March 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
@@ -9,14 +9,17 @@ ___
 
 
 
-# R10D93:  Wednesday 20 March 2023
+# R10D94:  Thursday 23 March 2023
 
- Updated to the main branch (v2.1)  - Added a comment count for each post in home.php and index.php and some new stylesheet customisations 
+ Updated to the main branch (v2.2) and made the visual design completely colour customisable.  Also added a change to Easington Deanery Website
 
+# R10D93:  Wednesday 22 March 2023
 
+ Updated to the main branch (v2.1)  - Added a comment count for each post in home.php and index.php and some new stylesheet customisations
+ 
 + **Technologies Used** - HTML, CSS, PHP
 
-# R10D92:  Tuesday 20 March 2023
+# R10D92:  Tuesday 21 March 2023
 
  Just pushed 65 commits of work on .v2 of this repository which updates the visual look a little bit more, updates the readme with setup instructions and a roadmap for more things to come.
 

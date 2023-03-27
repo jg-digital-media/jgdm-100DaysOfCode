@@ -1,7 +1,7 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 94 of 100  
-**Last Update:** 23 March 2023
+## **Status:** Day 95 of 100  
+**Last Update:** 27 March 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
@@ -9,46 +9,54 @@ ___
 
 
 
+# R10D95:  Monday 27 March 2023
+
+Changes pushed include....  Category Templates - included specific category slug templates - Added a 404 Page Template - Links to Author and Date Archives WordPress Poats single.php template and home.php 
+ 
++ **Technologies Used** - HTML, CSS, PHP, WordPress
+
 # R10D94:  Thursday 23 March 2023
 
  Updated to the main branch (v2.2) and made the visual design completely colour customisable.  Also added a change to Easington Deanery Website
+ 
++ **Technologies Used** - HTML, CSS, PHP, WordPress
 
 # R10D93:  Wednesday 22 March 2023
 
  Updated to the main branch (v2.1)  - Added a comment count for each post in home.php and index.php and some new stylesheet customisations
  
-+ **Technologies Used** - HTML, CSS, PHP
++ **Technologies Used** - HTML, CSS, PHP, WordPress
 
 # R10D92:  Tuesday 21 March 2023
 
  Just pushed 65 commits of work on .v2 of this repository which updates the visual look a little bit more, updates the readme with setup instructions and a roadmap for more things to come.
 
-+ **Technologies Used** - HTML, CSS, PHP
++ **Technologies Used** - HTML, CSS, PHP, WordPress
 
 # R10D91:  Monday 20 March 2023
 
  A setback - I lost all my work from the last couple of days.  I go at it again.
 
-+ **Technologies Used** - HTML, CSS, PHP
++ **Technologies Used** - HTML, CSS, PHP, WordPress
 
 
 # R10D90:  Friday 17 March 2023
 
  A setback - I lost all my work from the last couple of days.  I go at it again.
 
-+ **Technologies Used** - HTML, CSS, PHP
++ **Technologies Used** - HTML, CSS, PHP, WordPress
 
 # R10D89: Thursday 16 March 2023
 
  Working on v2 2 in terms of the styling. Rolling out tomorrow, hopefully
 
-+ **Technologies Used** - HTML, CSS, PHP
++ **Technologies Used** - HTML, CSS, PHP, WordPress
 
 # R10D88: Wednesday 15 March 2023
 
  Officially versioned my latest repository (v1). The behind the scenes styling needs to be changed so it's easier to maintain. Working on that for next update 
 
-+ **Technologies Used** - HTML, CSS, PHP
++ **Technologies Used** - HTML, CSS, PHP, WordPress
 
 # R10D87: Tuesday 14 March 2023
 

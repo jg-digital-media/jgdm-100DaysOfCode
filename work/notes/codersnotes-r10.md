@@ -1,6 +1,6 @@
 # 100DaysOfCode - Coders Notes (Round 10)
 
-### Day 95
+### Day 96
 
 ...
 

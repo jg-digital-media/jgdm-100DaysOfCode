@@ -1,13 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 95 of 100  
-**Last Update:** 27 March 2023
+## **Status:** Day 96 of 100  
+**Last Update:** 28 March 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R10D96:  Tuesday 28 March 2023
+
+Started writing a new homepage for my photography website and wrote a blog where I tested out what ChatGPT might be able to do for me in the context of coding
+ 
++ **Technologies Used** - HTML, CSS, PHP, WordPress
 
 # R10D95:  Monday 27 March 2023
 

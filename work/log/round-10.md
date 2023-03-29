@@ -1,13 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 96 of 100  
-**Last Update:** 28 March 2023
+## **Status:** Day 97 of 100  
+**Last Update:** 29 March 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R10D97:  Wednesday 28 March 2023
+
+Started updating the data for my photography website.  Implementing copy text for my repositories website
+ 
++ **Technologies Used** - HTML, CSS, PHP, WordPress
 
 # R10D96:  Tuesday 28 March 2023
 

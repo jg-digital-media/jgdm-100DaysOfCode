@@ -1,13 +1,19 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 97 of 100  
-**Last Update:** 29 March 2023
+## **Status:** Day 98 of 100  
+**Last Update:** 30 March 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+# R10D98:  Thursday 29 March 2023
+
+Close to rolling out a redesigned homepage for my photography website! Other pages will remain the same! It's working nicely on desktop and mobile at the moment.  Hoping to roll out tomorrow! 
+ 
++ **Technologies Used** - HTML, CSS, PHP, JavaScript
 
 # R10D97:  Wednesday 28 March 2023
 

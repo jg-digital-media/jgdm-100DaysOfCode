@@ -1,7 +1,7 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 99 of 100  
-**Last Update:** 31 March 2023
+## **Status:** Day 100 of 100  
+**Last Update:** 01 April 2023
 ___
 
 **Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
@@ -9,9 +9,18 @@ ___
 
 
 
+# R10D100:  Monday 01 April 2023
+
+Final post for this 10th #100daysofcode round. Not sure how I'm going to do the next round  (300 days?) 
+JGDM Theme - Version 2.4 released  https://github.com/jg-digital-media/jgdm_wordpress_theme.git
+ 
++ **Technologies Used** - HTML5, CSS, PHP, JavaScript
+
 # R10D99:  Friday 30 March 2023
 
 https://photography.jonniegrieve.co.uk  - new homepage rolled out earlier today! Should be good for all devices and PC's
+ 
++ **Technologies Used** - HTML5, CSS, PHP, JavaScript
 
 # R10D98:  Thursday 29 March 2023
 

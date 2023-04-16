@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+  }
+  
+  nav ul li {
+    padding: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 24pt;
+
+    display: block;
+    margin: 50px auto;
+    width: 600px;
+
+    
+
+  }
+
+  main p {
+
+    margin-bottom: 10px;
+  }

@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 11: Day 3 of 100. **Last Update:** 06 April 2023 
++ **Status:** Round 11: Day 4 of 100. **Last Update:** 17 April 2023 
 
 ## **Update:** I have recently stripped out react, node and vue js projects. New website coming to https://www.jonniegrieve.co.uk imminently  
 
@@ -12,6 +12,7 @@
 
 
 ## Focus
++ AI coding with ChatGPT
 + API Video link - [https://youtube.com/watch?v=GZvSYJDk-us&feature=youtu.be](https://youtube.com/watch?v=GZvSYJDk-us&feature=youtu.be)
 + JGDM Website 2023 - [localhost/jgdm_2023](localhost/jgdm_2023) [Link](https://www.jonniegrieve.co.uk) - `WordPress` 
 + JGDM Blog - [localost/jgdm_blog](localhost/jgdm_blog) - 2023 plain design - `WordPress`
@@ -32,7 +33,10 @@
 ## Directories
 
   + _bin      
-      + `Bin contents go here`  
+      + `Bin contents go here`
+  + ai
+      + one
+      + copy_text
   + api
       + basic
       + fetch_random
@@ -180,7 +184,7 @@ My goal remains to help myself maintain not just my coding (I can always be foun
 
 Hopefully this will help me engage more with the tech community.
 
-As of my commit on **30th September 2021** You'll find all my blogs are now located in the "log" directory. This latest #100DaysOfCode effort is now logged in round-6.md. I've kept the others in **round-1.md** and **round-2.md** etc as a record in the archive directory of this repo.
+As of my commit on **30th September 2021** You'll find all my blogs are now located in the "log" directory. This latest #100DaysOfCode effort is now logged in round-11.md. Yes, in the end I went on to Round 11. I've kept the others in **round-1.md** and **round-2.md** etc as a record in the archive directory of this repo.
 
 In my commit for 25th January 2019, I posted that I've completed my reorganisation of my work via [GitHub](https://github.com/jg-digital-media) All my projects are either backed up on my server, on Amazon S3 or on version control. Most of my repos are now set to private. I may end up switching back to public from time to time. But don't worry, anything I deem fit for public viewing will be available to see via my domain at https://projects.jonniegrieve.co.uk.
 

@@ -1,13 +1,20 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 3 of 100  
-**Last Update:** 06 April 2023
+## **Status:** Day 4 of 100  
+**Last Update:** 17 April 2023
 ___
 
-**Directories:** api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
+**Directories:** ai | api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+
+# R11D4:  Monday 17 April 2023
+
+Added a new directory - ai - to my 100 days repo where I'll curate and write about web projects I've tried with ChatGPT. 
+ 
++ **Technologies Used** - HTML5, CSS, PHP, JavaScript
 
 
 # R11D3:  Thursday 06 April 2023

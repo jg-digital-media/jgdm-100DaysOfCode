@@ -1,9 +1,11 @@
 # 100DaysOfCode - Coders Notes (Round 11)
 
 
+### Day 4
+
+...
+
 ### Day 3
-
-
 
 BLOG: This walkthrough uses HTML, CSS, and the navigator API to allow users to copy git clone commands as they are stored in an external JSON file. 
 https://blog.jonniegrieve.co.uk/blog_posts/using-the-clipboard-api-to-copy-git-clone-commands/

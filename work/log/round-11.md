@@ -1,13 +1,20 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 4 of 100  
-**Last Update:** 17 April 2023
+## **Status:** Day 5 of 100  
+**Last Update:** 18 April 2023
 ___
 
 **Directories:** ai | api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+
+
+# R11D5:  Tuesday 18 April 2023
+
+JGDM WORDPRESS: Added some new code snippets for code customisations. I'll be exploring and refining these in future updates to come. Links to where I got these code snippets provided in the Readme file.
+ 
++ **Technologies Used** - HTML5, CSS, PHP, JavaScript
 
 
 # R11D4:  Monday 17 April 2023

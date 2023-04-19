@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 11: Day 5 of 100. **Last Update:** 18 April 2023 
++ **Status:** Round 11: Day 6 of 100. **Last Update:** 19 April 2023 
 
 ## **Update:** I have recently stripped out react, node and vue js projects. New website coming to https://www.jonniegrieve.co.uk imminently  
 
@@ -13,6 +13,7 @@
 
 ## Focus
 + AI coding with ChatGPT
++ Repository: `https://github.com/jg-digital-media/jgdm_wordpress_theme`.
 + API Video link - [https://youtube.com/watch?v=GZvSYJDk-us&feature=youtu.be](https://youtube.com/watch?v=GZvSYJDk-us&feature=youtu.be)
 + JGDM Website 2023 - [localhost/jgdm_2023](localhost/jgdm_2023) [Link](https://www.jonniegrieve.co.uk) - `WordPress` 
 + JGDM Blog - [localost/jgdm_blog](localhost/jgdm_blog) - 2023 plain design - `WordPress`

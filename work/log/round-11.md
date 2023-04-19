@@ -1,7 +1,7 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 5 of 100  
-**Last Update:** 18 April 2023
+## **Status:** Day 6 of 100  
+**Last Update:** 19 April 2023
 ___
 
 **Directories:** ai | api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
@@ -10,11 +10,18 @@ ___
 
 
 
+# R11D6:  Wednesday 19 April 2023
+
+Fixed up the custom plugin code which I blogged about in my last tweet - and also added some of the WordPress admin area customisationshttps://github.com/jg-digital-media/jgdm_wordpress_theme.
+ 
++ **Technologies Used** - HTML5, CSS, PHP, JavaScript, WordPress
+
+
 # R11D5:  Tuesday 18 April 2023
 
 JGDM WORDPRESS: Added some new code snippets for code customisations. I'll be exploring and refining these in future updates to come. Links to where I got these code snippets provided in the Readme file.
  
-+ **Technologies Used** - HTML5, CSS, PHP, JavaScript
++ **Technologies Used** - HTML5, CSS, PHP, JavaScript, WordPress
 
 
 # R11D4:  Monday 17 April 2023

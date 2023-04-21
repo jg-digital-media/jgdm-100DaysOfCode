@@ -1,6 +1,6 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 7 of 100  
+## **Status:** Day 8 of 100  
 **Last Update:** 20 April 2023
 ___
 
@@ -8,7 +8,13 @@ ___
 ___
 
 
-# R11D7:  Thursday 20April 2023
+# R11D8:  Friday 21 April 2023
+
+Take a look at some of my updated GitHub Repositories!  https://github.com/jg-digital-media?tab=repositories
+ 
++ **Technologies Used** - HTML5, CSS,JavaScript
+
+# R11D7:  Thursday 20 April 2023
 
 I've uploaded a simple colour picker using JavaScript, HTML AND CSS. I will be looking at ways I can add to this as and when I can.  https://buff.ly/3NhUSqv
  

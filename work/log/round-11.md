@@ -1,13 +1,18 @@
 # 100 Days of Code - Round 10
 
-## **Status:** Day 6 of 100  
-**Last Update:** 19 April 2023
+## **Status:** Day 7 of 100  
+**Last Update:** 20 April 2023
 ___
 
 **Directories:** ai | api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
+# R11D7:  Thursday 20April 2023
+
+I've uploaded a simple colour picker using JavaScript, HTML AND CSS. I will be looking at ways I can add to this as and when I can.  https://buff.ly/3NhUSqv
+ 
++ **Technologies Used** - HTML5, CSS,JavaScript
 
 
 # R11D6:  Wednesday 19 April 2023

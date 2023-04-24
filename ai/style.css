@@ -1,3 +1,7 @@
+header h1 {
+  text-align: center;
+}
+
 #container ol li a {
   color: red;
 }

@@ -12,6 +12,8 @@
 <body>
         
     <h1>Example as returned from ChatGPT</h1>
+    
+    <p><strong>input:</strong> </p>
         
     <div id="group">
         <div class="item">Item 1</div>

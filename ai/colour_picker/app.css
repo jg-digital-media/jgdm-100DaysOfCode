@@ -1,0 +1,86 @@
+/*body {
+
+    background: yellow;
+}
+
+.color-picker {
+
+    display: inline-block;
+}
+
+
+.color-box {
+
+      width: 50px;
+      height: 50px;
+      border: 1px solid #ccc;
+}
+
+input[type="color"] {
+
+    display: none;
+}*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: lightyellow;
+  font-family: "arial";
+}
+
+header {
+  background: black;
+  color: white;
+  padding: 10px 0;
+  border-bottom: solid 3px #fbe56f;
+  box-shadow: 5px 3px 11px 1px #d7d951;
+}
+header h1 #versioning {
+  font-size: 10pt;
+  color: gold;
+}
+
+.instructions {
+  text-align: center;
+  margin-top: 30pt;
+  font-weight: bold;
+  font-size: 14pt;
+}
+.instructions p {
+  line-height: 3;
+}
+
+.color-picker {
+  display: flex;
+  align-items: center;
+  width: 360px;
+  margin: 35px auto;
+  padding: 5px;
+  border: solid black 2px;
+}
+
+#color-input {
+  flex: 1;
+  /* padding: 5px; */
+  border-radius: 10px;
+  border: solid red 3px;
+}
+
+#color-preview {
+  /* width: 30px; */
+  /* height: 30px; */
+  width: auto;
+  background-color: #000000;
+  background-color: antiquewhite;
+  cursor: pointer;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px;
+  margin: 0 20px;
+  border: solid 3px #a19d9d;
+}
+
+/*# sourceMappingURL=app.css.map */

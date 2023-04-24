@@ -1,0 +1,137 @@
+
+$color-nav: gold;
+$color-main: black;
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+    background: lightblue;
+    color: gold;
+}
+
+header {
+    
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: gold 3px solid;
+}
+
+h1 {
+    
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav {
+    
+    /* position: fixed; */
+    display: none; 
+    /* top: 60px; */
+    left: -250px; 
+    width: 250px; 
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    transition: left 0.9s ease-in-out;
+    
+    &:hover {
+        
+        left: 0;
+        display: block;
+        
+    }
+    
+    &.active {
+        
+        display: block;
+        /* position: relative; */
+        position: fixed;
+        left: 0px;
+    }
+}
+
+nav ul {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    
+    display: block;
+    padding: 10px;
+    color: $color-nav;
+    text-decoration: none;
+}
+
+nav a:hover {
+    
+    background-color: #666;
+}
+
+.menu-toggle {
+    
+    display: block;
+    cursor: pointer;    
+    background: black;
+    border: solid 3px white;
+    border-radius: 5px;
+    transition: .3s background;
+    
+    &:hover {
+        
+        background: #444444;
+    }
+}
+
+.menu-toggle span {
+    
+      display: block;
+      width: 25px;
+      height: 3px;
+      background-color: #fff;
+      /* margin-bottom: 5px; */
+      margin: 5px 0;
+      transition: all 0.3s ease-in-out;
+}
+
+.menu-toggle.active span:nth-child(2) {
+    
+    opacity: 0;
+}
+
+.menu-toggle.active span:nth-child(1) {
+    
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-toggle.active span:nth-child(3) {
+    
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+main {
+    
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+    
+    p {
+        
+        color: $color-main;
+    }
+}

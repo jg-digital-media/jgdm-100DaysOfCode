@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mobile Navigation Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <button class="menu-toggle"><span></span><span></span><span></span></button>
+    <h1>My Website</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+    <main>
+      
+    
+        <h2>Welcome to my website!</h2>
+      
+        <p><span><strong>Input: </strong> <code>design a web page with a mobile navigation that toggles from the left hand side of the browser on button click. (hamburger menu pattern) </code></span></p>
+        
+        
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -104,6 +104,14 @@ main {
   margin: 0 auto;
   width: 85%;
 }
+main h2 {
+  color: black;
+}
+main .input {
+  background: darkgray;
+  padding: 20px;
+  color: white;
+}
 main p {
   color: black;
 }

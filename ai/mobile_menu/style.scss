@@ -130,6 +130,18 @@ main {
     margin: 0 auto;
     width: 85%;
     
+    h2 {
+        
+        color: black;
+    }
+    
+    .input {
+        
+        background: darkgray;
+        padding: 20px;
+        color: white;
+    }
+    
     p {
         
         color: $color-main;

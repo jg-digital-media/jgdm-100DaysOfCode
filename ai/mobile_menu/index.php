@@ -33,7 +33,7 @@
         
         <h2>Welcome to my website!</h2>
         
-        <p><strong>Input: </strong> ddd</p>
+        <span class="input"><strong>Input: </strong><code>design a web page with a mobile navigation that toggles from tghe left hand side of the browser on button click.  (hamburger menu pattern)</code></span>
 
     </main>
     

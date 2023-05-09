@@ -5,6 +5,10 @@
   </style>
 </head>
 <body>
+    
+    
+    <strong>Input: </strong><code>toggle a list of child elements based on the existence of a HTML class using checkboxes</code>
+    
   <label>
     <input type="checkbox" id="toggleCheckbox"> Toggle Elements
   </label>

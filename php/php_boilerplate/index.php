@@ -48,7 +48,7 @@
 </head>
         <body>
 
-        <h1>PHP Boilerplate</h2>
+        <h1>PHP Boilerplate</h1>
 
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor odit qui ducimus adipisci ratione consequatur officiis, hic pariatur mollitia voluptatibus soluta deserunt eveniet sed delectus nihil dignissimos eligendi iste. Dolor!</p>
             

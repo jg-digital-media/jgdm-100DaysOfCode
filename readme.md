@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 11: Day 9 of 100. **Last Update:** 25 April 2023 
++ **Status:** Round 11: Day 9 of 100. **Last Update:** 09 May 2023 
 
 ## **Update:** I have recently stripped out react, node and vue js projects. New website coming to https://www.jonniegrieve.co.uk imminently  
 
@@ -37,6 +37,8 @@
       + `Bin contents go here`
   + ai
       + one
+      + colour_picker
+      + mobile_menu
       + copy_text
   + api
       + basic
@@ -45,25 +47,25 @@
       + project_api
       + random_from_user
   + archive
+      + `archived/inactive projects and log files`
   + css 
     + balloon
     + experiments
-    + form_accessible
+    + form_accessible `inactive`
     + free-code-camp-2022
     + grid_project
     + me
     + modernizr
-    + navbar
-    + portfolio
     + portfolio-gallery
     + project_status
     + project_status_images
-    + pwa
-    + pwa_2
+    + pwa `inactive`
+    + pwa_2 `inactive`
     + repositories
     + sass_project
-    + semantic_html_example
-    + showcase
+    + semantic_html_example `inactive`
+    + showcase `incomplete`
+    + web_checklist `incomplete`
   + java
     + Generics
     + Interfaces
@@ -71,24 +73,25 @@
     + Maps
     + MyFirstApp
   + javascript
-    + ajax
+    + ajax - `javascript/ajax` - `stock list project on server`
     + currency_converter
     + dom
     + four_in_a_row
     + greensock
-    + iteration-methods
+    + iteration-methods `Inactive`
     + localstorage
     + random_number_challenge_js
-    + th_live_pet_directory
+    + scroll_story
+    + th_live_pet_directory `Inactive`
   + node
-    + imba
+    + boilerplate-npm
+    + fcc
   + npm
     + gulp-setup
   + php
     + lockdown
     + php_auth
     + php_boilerplate
-    + php_rest_api
     + php_website
     + slim
     + slimmin
@@ -106,6 +109,7 @@
     + madlibs
     + oop  
   + regex
+    + regex
   + sonic_pi
     + jingles
     + laptop_biffers
@@ -113,7 +117,7 @@
     + tunes
     + tutorial_buffers
   + svg
-    + icons
+    + icon_example
   + work
     + log
     + notes
@@ -180,16 +184,15 @@ Vue
 
 ## Description
 
-
 My goal remains to help myself maintain not just my coding (I can always be found coding), but also an active social media presence in as a result of it.
 
 Hopefully this will help me engage more with the tech community.
 
-As of my commit on **30th September 2021** You'll find all my blogs are now located in the "log" directory. This latest #100DaysOfCode effort is now logged in round-11.md. Yes, in the end I went on to Round 11. I've kept the others in **round-1.md** and **round-2.md** etc as a record in the archive directory of this repo.
+As of my commit on **30th September 2021** You'll find all my blogs are now located in the "log" directory. This latest #100DaysOfCode effort is now logged in `round-11.md`. Yes, in the end I went on to `Round 11`. I've kept the others in **round-1.md** and **round-2.md** etc as a record in the archive directory of this repo.
 
-In my commit for 25th January 2019, I posted that I've completed my reorganisation of my work via [GitHub](https://github.com/jg-digital-media) All my projects are either backed up on my server, on Amazon S3 or on version control. Most of my repos are now set to private. I may end up switching back to public from time to time. But don't worry, anything I deem fit for public viewing will be available to see via my domain at https://projects.jonniegrieve.co.uk.
+In my commit for **25th January 2019**, I posted that I've completed my reorganisation of my work via [GitHub](https://github.com/jg-digital-media) All my projects are either backed up on my server, on Amazon AWS (S3) or on version control. Most of my repos are now set to private. I may end up switching back to public from time to time. But don't worry, anything I deem fit for public viewing will be available to see via my domain at [https://projects.jonniegrieve.co.uk](https://projects.jonniegrieve.co.uk).
 
-If you notice ```codersnotes-r11.md``` and all the others in this repository, just think of this as a kind of "notebook" for use while I'm working through this round of #100DaysofCode.
+If you notice ```codersnotes-r11.md``` and all the others in this repository, just think of this as a kind of "notebook" for use while I'm working through this round of `#100DaysofCode`.
 
 
 ## Thank you for following my journey!

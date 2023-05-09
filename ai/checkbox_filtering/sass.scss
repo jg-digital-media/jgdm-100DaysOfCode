@@ -1,4 +1,69 @@
+@import "sass/head";
+
+* {
+    
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    
+    background: black;
+    padding: 10px 0;
+    
+    h1 {
+        
+        color: white;
+        font-family: arial;
+
+        text-align: center;
+    }
+    
+    
+    
+}
+
+#container {
+    
+    
+    .input {
+        
+        background: darkgray;
+        color: white;
+        margin: 10px auto;
+        display: block;
+        width: 700px;
+        
+        @media (max-width: 780px) {
+            
+            width: 80%;
+        }
+            
+        strong {
+
+            font-weight: bold;
+            color: red;
+        }
+    }
+    
+    .filters {
+        
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+        
+        label {
+            
+            cursor: pointer;
+        }
+    }
+}
+
 
 .toggle-element {
   display: none;
+    
+    width: 80%;
+    margin: 0 auto;
 }
+

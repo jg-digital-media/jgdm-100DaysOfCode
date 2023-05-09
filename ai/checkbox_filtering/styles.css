@@ -1,4 +1,52 @@
+/* 
+
+
+Last Update: 09/05/2023 - 16:50
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: black;
+  padding: 10px 0;
+}
+header h1 {
+  color: white;
+  font-family: arial;
+  text-align: center;
+}
+
+#container .input {
+  background: darkgray;
+  color: white;
+  margin: 10px auto;
+  display: block;
+  width: 700px;
+}
+@media (max-width: 780px) {
+  #container .input {
+    width: 80%;
+  }
+}
+#container .input strong {
+  font-weight: bold;
+  color: red;
+}
+#container .filters {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+#container .filters label {
+  cursor: pointer;
+}
 
 .toggle-element {
   display: none;
+  width: 80%;
+  margin: 0 auto;
 }
+
+/*# sourceMappingURL=styles.css.map */

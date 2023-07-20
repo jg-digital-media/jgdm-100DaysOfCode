@@ -1,0 +1,23 @@
+
+body {
+    background: $background-primary;
+    font-family: $main-font;
+    font-family: $font;
+}
+
+header {
+    border-bottom: 3px white solid;
+    background: $background-secondary;
+    min-height: 200px;
+
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    h1 {
+        text-align: center;
+        color: $text-header-one;
+        text-shadow: 3px 2px 4px #030003;
+    }
+}

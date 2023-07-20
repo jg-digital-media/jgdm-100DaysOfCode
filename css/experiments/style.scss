@@ -1,7 +1,7 @@
 /***
 
 Author:         @jg_digitalMedia
-Last Update:    23/09/2021 - 13:21
+Last Update:    19/07/2023 - 15:39
 */
 
 @import "config";
@@ -103,6 +103,13 @@ header {
         padding: 20px;
         border-radius: 15px;
         width: 180px;
+        min-width: 500px;
+        
+        @media (max-width: $medium) {
+            
+            width: 75%;
+            min-width: auto;
+        }
     
         caption {
             font-size: 1.4em;
@@ -111,7 +118,7 @@ header {
     
             p {
                 line-height: 1;
-                text-align: left;
+                text-align: center;
             }
         }
     

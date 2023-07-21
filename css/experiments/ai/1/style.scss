@@ -1,4 +1,159 @@
+
+// fonts
+
+$font: arial;
+
+$col-primary: white;
+
+$bg-body: #f9d450;
+
+@import "sass/head";
+
 * {
     
+    padding: 0;
+    margin: 0;
+    
+    font-family: arial;
+    
+}
+
+// home.html kittens.html
+
+body {
+    
+    background: $bg-body;
+}
+
+header {
+    
+    min-height: 65px;
+    height: auto;
+    background: #222222;
+    
+    h1 {
+        
+        text-align: center;
+        color: white;
+        
+        #versioning {
+            
+            font-size: 10px;
+            color: gold;
+        }
+        
+    }
+    
+    nav {
+        
+        text-align: center;
+        
+        a {
+            
+            color: gold;
+            transition: color .3s;
+            display: inline-block;
+            margin: 0 5px;
+            
+            &:hover {
+                
+                color: white;
+            }
+            
+            
+        }
+        
+    }
+    
+}
+
+main {
+    
+    display: block;
+    background: $bg-body;
+    width: 300px;
+    margin: 5px auto;
+    
+    color: complement( $bg-body );
+    
+    h2, p {
+        
+    }
+    
+    #load-kittens-btn {
+        
+        display: block;
+        margin: 10px auto;
+        width: 134px;
+        text-align: center;
+        background: bisque;
+        border: solid white 2px;
+        border-radius: 6px;
+        padding: 4px 0;
+        cursor: pointer;
+    }
+    
+    h2 {
+        
+        
+        text-align: center;        
+    }
+    
+    h3 {
+        
+        font-size: 10pt;
+        text-align: center;
+        font-style: italic;
+        margin-top: 2px;
+        
+        a {
+            
+            color: red;
+            
+            &:hover {
+                
+                text-decoration: none;
+            }
+        }
+        
+    }
+    
+    p {
+        
+    }
+    
+    #kitten-gallery {
+                
+        #loading_message {
+            
+            color: red;
+            font-weight: bold;
+            content: "...";
+            text-align: center;
+            font-size: 12px;
+            margin: 15px 0;
+        }
+    
+    
+        .img {
+            width: 300px;
+            /* height: 200px; */
+            margin: 20px 0;
+            border: solid black 4px;
+            border-radius: 13px;
+        }
+    }
+}
+    
+
+footer {
+    
+    margin-top: 10px;
+    
+    p {
+        
+        text-align: center;
+        
+    }
     
 }

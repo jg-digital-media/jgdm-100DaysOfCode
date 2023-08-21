@@ -18,6 +18,12 @@ body {
         h1 {
 
             text-align: center;
+            
+            @media (max-width: $bkp-md) {
+                
+                font-size: 20pt;
+                padding-top: 8px;
+            }
 
             span {
 
@@ -44,6 +50,11 @@ body {
             margin: 15px 0 10px 0;
             display: block;
             text-align: center;
+            
+            @media (max-width: $bkp-md) {
+                
+                font-size: 12px;
+            }
 
         }
 
@@ -76,6 +87,21 @@ body {
                 text-align: center;
                 min-width: 500px;
                 /* width: 100px; */
+                
+                
+                @media (max-width: $bkp-md) {
+                    
+                    min-width: 0;
+                    
+                }
+                
+                
+                @media (max-width: $bkp-sm) {
+                    
+                    margin-top: 7px;
+                    font-size: 13pt;
+                    padding: 0 28px;
+                }
                 
             }
             
@@ -134,12 +160,26 @@ body {
                     display: inline-block;
                     /* width: 50%; */
                     width: 28%;
+                    width: 79%;
+                    min-width: 300px;
                     padding: 20px 5px;
                     cursor: pointer;                   
 
                     &.selected {
 
                         border-right: solid #05a905 1px;
+                    }
+                    
+                    @media (max-width: $bkp-md) {
+                        
+                        width: 75%;
+                    }
+                    
+                    @media (max-width: $bkp-sm) {
+                        
+                        min-width: 0px;
+                        font-size: 14px;
+                        /* font-size: 10px; */
                     }
 
                 }       
@@ -167,8 +207,8 @@ body {
                 
                 .checklist-item.focus {
                     
-                    outline: 2px solid blue; /* Apply blue outline to indicate focus */
-                    background: darkgreen
+                    //outline: 2px solid blue; /* Apply blue outline to indicate focus */
+                    background: darkgreen;
                 }
 
                 .checkbox-text {
@@ -188,5 +228,6 @@ body {
     footer {
 
         text-align: center;
+        margin-top: 10px;
     }
 }

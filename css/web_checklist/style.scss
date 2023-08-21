@@ -96,6 +96,11 @@ body {
                     width: 100%;
                     border-bottom: solid $bdr-focus 3px;
                 }
+                
+                &.focus {
+                    
+                    background: #59cd59;
+                }
 
                 .checkbox-label {
 
@@ -131,7 +136,15 @@ body {
                 .checkbox-style {
 
                     color: red;
+                    
+                    
 
+                }
+                
+                .checklist-item.focus {
+                    
+                    outline: 2px solid blue; /* Apply blue outline to indicate focus */
+                    background: darkgreen
                 }
 
                 .checkbox-text {

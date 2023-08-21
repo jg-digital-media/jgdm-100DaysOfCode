@@ -1,101 +1,38 @@
-console.log("Check: app.js connected - 22/11/2022 - 15:36")
+console.log("app.js connected - 21/08/2023 - 10:46");
 
-let checklist_item = document.getElementsByClassName("checklist-item");
-let checkboxes = document.querySelectorAll(".checkbox-style");
-let checklist_labels = document.querySelectorAll(".checkbox_labels");
+// Get all the checkboxes
+const checkboxes = document.querySelectorAll('.checkbox-style');
 
-
-/* const toggleChk = document.querySelectorAll('.checklist-item').forEach( checkbox_btn  => {
-
-  checkbox_btn.addEventListener('click', function() {
-
-    checkbox_btn.classList.toggle('selected');
-    //checkbox_btn.click();
-  }); 
-
-}); */
-
-const toggleLbl = document.querySelectorAll(".checklist-item").forEach( (item_labels, checkbox_btn, checklist) => {
-
-  
-  for (i=0; i<checklist_item.length; i++) {
-
-    let checklist_item = document.getElementsByClassName("checklist-item");
-    let checkboxes = document.querySelectorAll(".checkbox-style");
-
-    if (checklist_item[i].classList.contains("selected") == false) {
-
-
-      checklist_item[i].addEventListener("click", function() {
-
-        this.classList.toggle('selected');
-        // this.checkboxes.checked = checkboxes.checked;
-
-      // this.classList.remove("selected");
-      });
-      
-      // checkbox_btn.classList.toggle('selected');
-
-    } else {
-
-      // this.classList.add("selected");
-    }
-  
-  }
-
-
-    //checkbox_btn.previousElementSibling;
-    //checkbox_btn.classList.toggle('selected');
-    //checklist.classList.toggle('selected');
-    //checkboxes.checked = checkboxes.checked;
-    /* 
-      if( checkboxes.checked == true ) {
-
-        checkboxes.checked = !checkboxes.checked;
-        
-      } 
-    */
-
-});
-  
-
-/* function toggle_bg_checkbox() {
-
-  // checklist_item.classList.toggle("selected");  
-} */
-
-/* function toggle_bg_checkbox() {
-
-    // var element = document.getElementById("myDIV"); 
-    //checklist_item = document.querySelectorAll(".checklist-item");
-    checklist_item.classList.toggle("selected");  
+// Add event listeners to each checkbox
+checkboxes.forEach(checkbox => {
     
-    if (checkbox.checked != true) {
+    checkbox.addEventListener('click', function() {
+        // Toggle the 'checked' property of the checkbox
+        //this.checked = !this.checked;
 
-      //alert("you need to be fluent in English to apply for the job");
-      checklist_item.addClass("selected")
-
-      } else {
-        checklist_item.removeClass("selected")
-      }
-} */
-
-  /* function toggleStyle() {
-
-    // If the checkbox is checked, display the output text
-    if (this.checkboxes.checked == true) {
-
-      //text.style.display = "block";
-      checklist_item.toggle = "selected";
-      console.log(checklist_item);
-
-    } else {
-
-      checklist_item.toggle = "";
-    }
-  } */
-
-  /* toggleStyle = checklist_item.addEventListener('click', (event) => {
-
-    console.log("clicked");
-  }); */
+        // Update the appearance of the label based on the checkbox's status
+        const label = this.nextElementSibling;
+        if (this.checked) {
+            label.style.textDecoration = 'line-through';
+            label.style.color = "red";
+            label.style.outline = '2px solid blue';
+        } else {
+            label.style.textDecoration = 'none';
+            label.style.color = "black";
+            label.style.outline = 'none';
+        }
+        
+        // apply background colour for div element on checkbox focus
+        const parentDiv = this.parentElement;
+        
+            if (this.checked) {
+                
+                // Add a class to apply the :focus styles
+                parentDiv.classList.add('focus'); 
+            } else {
+                
+                // Remove the class to remove the :focus styles
+                parentDiv.classList.remove('focus'); 
+            }
+    });
+});

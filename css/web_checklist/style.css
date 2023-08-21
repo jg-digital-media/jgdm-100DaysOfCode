@@ -1,4 +1,4 @@
-/* Update: 21/08/2023 - 12:08 */
+/* Update: 21/08/2023 - 12:15 */
 * {
   padding: 0;
   margin: 0;
@@ -86,6 +86,11 @@ body main .sub-content .checklist-item:focus, body main .sub-content .checklist-
 body main .sub-content .checklist-item.focus {
   background: #59cd59;
   border-bottom: solid green 3px;
+}
+body main .sub-content .checklist-item:last-child {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom: 0px;
 }
 body main .sub-content .checklist-item .checkbox-label {
   font-weight: bold;

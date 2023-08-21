@@ -1,4 +1,4 @@
-console.log("app.js connected - 21/08/2023 - 10:46");
+console.log("app.js connected - 21/08/2023 - 15:21");
 
 // Get all the checkboxes
 const checkboxes = document.querySelectorAll('.checkbox-style');
@@ -15,11 +15,11 @@ checkboxes.forEach(checkbox => {
         if (this.checked) {
             label.style.textDecoration = 'line-through';
             label.style.color = "red";
-            label.style.outline = '2px solid blue';
+            //label.style.outline = '2px solid blue';
         } else {
             label.style.textDecoration = 'none';
             label.style.color = "black";
-            label.style.outline = 'none';
+            //label.style.outline = 'none';
         }
         
         // apply background colour for div element on checkbox focus

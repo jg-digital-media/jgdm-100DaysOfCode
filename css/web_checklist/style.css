@@ -1,4 +1,4 @@
-/* Update: 21/08/2023 - 12:15 */
+/* Update: 21/08/2023 - 15:00 */
 * {
   padding: 0;
   margin: 0;
@@ -16,6 +16,12 @@ body header {
 }
 body header h1 {
   text-align: center;
+}
+@media (max-width: 980px) {
+  body header h1 {
+    font-size: 20pt;
+    padding-top: 8px;
+  }
 }
 body header h1 span {
   font-size: 13px;
@@ -35,6 +41,11 @@ body main h2 {
   margin: 15px 0 10px 0;
   display: block;
   text-align: center;
+}
+@media (max-width: 980px) {
+  body main h2 {
+    font-size: 12px;
+  }
 }
 body main p {
   display: block;
@@ -59,6 +70,18 @@ body main .sub-content h3 {
   text-align: center;
   min-width: 500px;
   /* width: 100px; */
+}
+@media (max-width: 980px) {
+  body main .sub-content h3 {
+    min-width: 0;
+  }
+}
+@media (max-width: 780px) {
+  body main .sub-content h3 {
+    margin-top: 7px;
+    font-size: 13pt;
+    padding: 0 28px;
+  }
 }
 body main .sub-content img {
   width: 155px;
@@ -98,11 +121,25 @@ body main .sub-content .checklist-item .checkbox-label {
   display: inline-block;
   /* width: 50%; */
   width: 28%;
+  width: 79%;
+  min-width: 300px;
   padding: 20px 5px;
   cursor: pointer;
 }
 body main .sub-content .checklist-item .checkbox-label.selected {
   border-right: solid #05a905 1px;
+}
+@media (max-width: 980px) {
+  body main .sub-content .checklist-item .checkbox-label {
+    width: 75%;
+  }
+}
+@media (max-width: 780px) {
+  body main .sub-content .checklist-item .checkbox-label {
+    min-width: 0px;
+    font-size: 14px;
+    /* font-size: 10px; */
+  }
 }
 body main .sub-content .checklist-item input[type=checkbox] {
   border: solid red 1px;
@@ -118,7 +155,6 @@ body main .sub-content .checklist-item .checkbox-style {
   color: red;
 }
 body main .sub-content .checklist-item .checklist-item.focus {
-  outline: 2px solid blue; /* Apply blue outline to indicate focus */
   background: darkgreen;
 }
 body main .sub-content .checklist-item .checkbox-text {
@@ -129,6 +165,7 @@ body main .sub-content .checklist-item .checkbox-text {
 }
 body footer {
   text-align: center;
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

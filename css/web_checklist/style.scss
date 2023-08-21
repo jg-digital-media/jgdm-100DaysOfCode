@@ -32,7 +32,7 @@ body {
 
     main {
 
-        background: $bg-mn;
+        /*background: $bg-mn;*/
         /* width: 320px; */
         width: 75%;
         color: $color-mn;
@@ -41,7 +41,7 @@ body {
 
         h2 {
 
-            margin: 10px auto;
+            margin: 15px 0 10px 0;
             display: block;
             text-align: center;
 
@@ -59,9 +59,13 @@ body {
 
         .sub-content {
 
+            
+            display: block;
+            width: 75%;
+            margin: 0 auto;
             line-height: 1.6;
-            padding: 10px;
-            margin: 15pt 16px;
+            background: $bg-mn;
+            /* padding: 10px;*/
             border: solid black 3px;
             border-radius: 8px;
 
@@ -69,10 +73,20 @@ body {
 
                 margin-top: 20pt; 
                 border-bottom: solid green 4px;
-                text-align: left;
+                text-align: center;
                 min-width: 500px;
-                width: 100px;
+                /* width: 100px; */
                 
+            }
+            
+            img {
+                
+                width: 155px;
+                height: 155px;
+                border: solid black 2px;
+                border-radius: 83px;
+                display: block;
+                margin: 0 auto;
             }
 
             .checklist-item {

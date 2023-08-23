@@ -1,5 +1,5 @@
-//Sanity Check
-//console.log("app.js is connected to the app");
+//Connection Check
+console.log("app.js is connected to the app: 23/08/2023 - 15:31");
 
 
 const form = document.getElementById("add-to-list");
@@ -63,7 +63,7 @@ function createLi(getText) {
     li.appendChild(removeButton); 
     //return li;  
 
-    taskNumber(num);
+    taskNumber(0);
 
 }
 

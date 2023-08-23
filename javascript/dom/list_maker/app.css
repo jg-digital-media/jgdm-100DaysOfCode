@@ -1,184 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 
-        * {
-            padding: 0;
-            margin: 0;
-        }
+body {
+  background: lavender;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
 
-        body {
-            background: lavender;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        }
+header {
+  background: blue;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 20px;
+  border-bottom: darkblue solid 5px;
+  height: 100px;
+}
+header h1 {
+  font-size: 4vw;
+  letter-spacing: 3px;
+  text-align: center;
+}
 
-        header {
-            background: blue;
-            color: white;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            margin-bottom: 20px;
-            border-bottom: darkblue solid 5px;
-            height: 100px;
-        }
+label#enter-task {
+  display: inline;
+  font-style: italic;
+}
 
-        label#enter-task {
-            display: inline;
-            font-style: italic;
-        }
+#type-list {
+  margin-left: 20px;
+  padding: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
 
-        #type-list {
-            margin-left: 20px;
-            padding: 10px;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        }
+#add-to-list {
+  width: 50%;
+  margin: 0 auto;
+}
 
-        h1 {
-            font-size: 4vw;
-            letter-spacing: 3px;
-            text-align: center;
-        }
+.complete {
+  text-decoration: line-through;
+  color: gray;
+  width: 100%;
+}
 
-        #add-to-list {
-            width: 50%;
-            margin: 0 auto;
-        }
+.task {
+  width: 100%;
+}
 
-        .complete {
-            text-decoration: line-through;
-            color: gray;
-            width: 100%;
-        }
+input[type=text] {
+  padding: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 3px;
+  width: 40%;
+}
 
-        .task {
-            width: 100%;
-        }
+input[type=checkbox] {
+  width: 29px;
+  height: 25px;
+  vertical-align: top;
+  margin-top: 8px;
+}
 
-        input[type="text"] {
-            padding: 10px;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-            letter-spacing: 3px;
-            width: 40%;
-        }
-        
-        input[type="checkbox"] {
-            width: 29px;
-            height: 25px;
-            vertical-align: top;
-            margin-top: 8px;
-        }
+#filter-tasks {
+  position: relative;
+  bottom: 12px;
+  left: 30px;
+}
 
-        #filter-tasks {
-            position: relative;
-            bottom: 12px;
-            left: 30px;
-        }
+button.remove,
+button.edit {
+  background: red;
+  color: white;
+  font-weight: bold;
+  padding: 6px;
+  border-radius: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+  border: black solid 2px;
+  position: relative;
+  top: -6px;
+}
 
-        button.remove,
-        button.edit {
-            background: red;
-            color: white;
-            font-weight: bold;
-            padding: 6px;
-            border-radius: 10px;
-            margin-left: 20px;
-            cursor: pointer;
-            border: black solid 2px;
-            position: relative;
-            top: -6px;
-        }
-        
-        article {
-            margin: 20px auto;
-            width: 73%;
-            background: greenyellow;
-            padding: 20px;
-            /*font-family: arial;*/
-            font-size: 20px;
-            border: solid 1px black;
-        }
+article {
+  margin: 20px auto;
+  width: 73%;
+  background: greenyellow;
+  padding: 20px;
+  /*font-family: arial;*/
+  font-size: 20px;
+  border: solid 1px black;
+}
 
-        article ul {
-            list-style: none;
-        }
-        
-        article ul li {
-            position: relative;
-            line-height: 2;
-            width: 90%;   /*48*/
-            display: inline-block;
-            margin-right: 10px;
-            height: 51px;
-            font-size: 20px;
-            border: solid 3px beige;
-        }
+article ul {
+  list-style: none;
+}
 
-        article ul li span,
-        article ul li input.task-edit {
-            width: 60%;
-            display: inline-block;
-            border: solid 1px black;
-            height: 28px;
-            padding: 10px;
-            font-size: 18px;
-            position: relative;
-            top: 0;
-        }
+article ul li {
+  position: relative;
+  line-height: 2;
+  width: 90%; /*48*/
+  display: inline-block;
+  margin-right: 10px;
+  height: 51px;
+  font-size: 20px;
+  border: solid 3px beige;
+}
 
-        /*media query*/
-        @media screen and (min-width: 1600px) {
-            header h1 {
-                font-size: 64px;
-            }
+article ul li span,
+article ul li input.task-edit {
+  width: 60%;
+  display: inline-block;
+  border: solid 1px black;
+  height: 28px;
+  padding: 10px;
+  font-size: 18px;
+  position: relative;
+  top: 0;
+}
 
-            #display-list {
-                width: 1158px;
-            }
-        }
-        @media screen and (max-width: 1200px) {
-            li.task,
-            li.complete {
-                width: 100%;
-                display: block;
-            }
+/*media query*/
+@media screen and (min-width: 1600px) {
+  header h1 {
+    font-size: 64px;
+  }
+  #display-list {
+    width: 1158px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  li.task,
+li.complete {
+    width: 100%;
+    display: block;
+  }
+  #task-list {
+    margin-left: 0;
+    display: inline-block;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 720px) {
+  article#display-list {
+    width: 95%;
+    display: block;
+  }
+  #task-list {
+    width: 95%;
+  }
+  header {
+    height: 45px;
+  }
+  header h1 {
+    font-size: 3vw;
+  }
+  input[type=text] {
+    padding: 10px;
+    display: block;
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 650px) {
+  article ul li {
+    display: block;
+    height: auto;
+  }
+  article ul li span,
+article ul li input.task-edit {
+    display: block;
+  }
+}
 
-            #task-list {
-                margin-left: 0;
-                display: inline-block;
-                width: 100%;
-            }
-        }
-
-        @media screen and (max-width: 720px) {
-            article#display-list {
-                width: 95%;
-                display: block;
-            }
-
-            #task-list {
-                width: 95%;
-            }
-
-            header {
-                height: 45px;
-            }
-
-            header h1 {
-                font-size: 3vw;
-            }
-
-            input[type="text"] {
-                padding: 10px;
-                display: block;
-                margin-top: 5px;
-            }
-        }
-
-        @media screen and (max-width: 650px) {
-            article ul li {
-                display: block;
-                height: auto;              
-            }
-
-            article ul li span, 
-            article ul li input.task-edit {
-                display: block;
-            }
-
-        }
+/*# sourceMappingURL=app.css.map */

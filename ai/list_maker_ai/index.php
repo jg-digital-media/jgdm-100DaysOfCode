@@ -5,11 +5,30 @@ $website_title = "Simple List Maker App";
 
 require "inc/header.php"; ?>
 
+    <div class="instruction">Add an item to your List: Type in your note and press Enter: </div>
+
+    <div class="input-tasks">
     <input type="text" id="taskInput" placeholder="Enter task">
+        
+    <!-- TODO: style addTask button -->
     <button id="addTaskButton">Add Task</button>
+    </div>
+
+    <div class="hide-completed-tasks">
+
+    </div>
+
+    <!--<article id="display-list">
+        <h2>Your List Today Includes: </h2>
+            
+        <div><label for="filter-tasks">Remove/Hide completed tasks</label><input id="filter-tasks" type="checkbox"></div><ul id="task-list">
+        </ul>
+    </article>-->
+
     <ul id="taskList"></ul>
 
     <script>
+        
         const taskList = document.getElementById('taskList');
         const taskInput = document.getElementById('taskInput');
         const addTaskButton = document.getElementById('addTaskButton');
@@ -26,7 +45,14 @@ require "inc/header.php"; ?>
             taskId = Math.max(taskId, savedTask.id + 1); // Update taskId
         });
         
-        addTaskButton.addEventListener('click', () => {
+        addTaskButton.addEventListener('click', addTask);
+        taskInput.addEventListener('keypress', (event) => {
+            if (event.key === 'Enter') {
+                addTask();
+            }
+        });
+        
+        function addTask() {
             const taskText = taskInput.value.trim();
             
             if (taskText !== '') {
@@ -36,7 +62,7 @@ require "inc/header.php"; ?>
                 taskInput.value = '';
                 taskId++;
             }
-        });
+        }
         
         function createTaskItem(id, text, editing) {
             const taskItem = document.createElement('li');

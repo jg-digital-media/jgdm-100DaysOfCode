@@ -1,5 +1,214 @@
+@impoty "sass/extends/inputs/input-chkb-filter";
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: lightblue;
+}
+body header {
+  text-align: center;
+  display: block;
+  width: 100%;
+  background: blue;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 20px;
+  border-bottom: darkblue solid 5px;
+  height: 100px;
+}
+body header h1 {
+  text-align: center;
+  margin: 0;
+}
+body header h1 #versioning {
+  color: red;
+  color: #fff708;
+  font-size: 12px;
+}
+body header .version_list li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 4px;
+}
+body header .version_list li a {
+  color: yellow;
+}
+body h1 {
+  text-align: center;
+}
+body .instruction {
+  text-align: center;
+  font-style: italic;
+  margin: 15px 0;
+}
+body .input-tasks {
+  text-align: center;
+}
+body .input-tasks #taskInput {
+  display: inline-block;
+  margin: 0 auto;
+  border: solid 2px black;
+  border-radius: 6px;
+  padding: 3px;
+  background: lightgreen;
+}
+body .input-tasks #addTaskButton {
+  display: inline-block;
+  background: yellow;
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+body .input-tasks #addTaskButton:hover {
+  background: #f1f180;
+}
+body .input-tasks #clearTasksButton {
+  display: inline-block;
+  background: yellow;
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: beige 0.3s;
+}
+body .input-tasks #clearTasksButton:hover {
+  background: #f1f180;
+}
+body .toggle-completedtasks {
+  display: block;
+  margin: 15px auto;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 12pt;
+}
+body .toggle-completedtasks #hideCompletedCheckbox {
+  width: 75px;
+  height: 20px;
+  vertical-align: middle;
+}
+body .display-list {
+  border: solid red 1px;
+}
+body ul#taskList {
+  font-size: 12pt;
+  padding: 4px;
+  background: greenyellow;
+  width: 50%;
+  width: 480px;
+  display: block;
+  margin: 10px auto;
+  border: solid black 3px;
+  border-radius: 7px;
+}
+@media (max-width: 980px) {
+  body ul#taskList {
+    width: 480px;
+  }
+}
+@media (max-width: 780px) {
+  body ul#taskList {
+    width: 75%;
+    width: 93%;
+  }
+}
+body ul#taskList li {
+  line-height: 2;
+  height: 50px;
+  list-style: none;
+}
+body ul#taskList li .completedCheckbox {
+  height: 25px;
+  width: 30px;
+  vertical-align: top;
+}
+body ul#taskList li span {
+  /* min-width: 100px; */
+  /* min-width: 150px; */
+  /* width: auto; */
+  min-width: 185px;
+  /* width: 80%; */
+  width: 270px;
+  display: inline-block;
+}
+@media (max-width: 780px) {
+  body ul#taskList li span {
+    min-width: 0;
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  body ul#taskList li span {
+    min-width: 0;
+    width: 35%;
+    font-size: 12px;
+    /* overflow-x: hidden; */
+    /* position: relative; */
+    /* bottom: -3px; */
+  }
+}
+body ul#taskList li span input.editInput {
+  border: solid red 1px;
+  /* outline: none; */
+  background: greenyellow;
+  border: none;
+  width: 185px;
+  font-size: 14pt;
+  font-weight: bold;
+  color: darkgreen;
+}
+@media (max-width: 780px) {
+  body ul#taskList li span input.editInput {
+    width: 100%;
+  }
+}
+body ul#taskList #task_id {
+  font-weight: bold;
+}
+body ul#taskList .removeButton,
+body ul#taskList .editButton {
+  background: red;
+  color: white;
+  font-weight: bold;
+  padding: 6px;
+  border-radius: 10px;
+  margin-left: 20px;
+  cursor: pointer;
+  border: black solid 2px;
+  position: relative;
+  /* top: -9px; */
+  transition: background 0.3s;
+}
+body ul#taskList .removeButton:hover,
+body ul#taskList .editButton:hover {
+  background: #ff4d4d;
+}
+body ul#taskList .editButton {
+  width: 50px;
+}
+body main.note {
+  color: black;
+  font-family: arial;
+}
+body main.note .log {
+  width: 400px;
+  border: solid black 2px;
+  font-size: 10px;
+  margin: 0 auto;
+}
+body main.note .log h2 {
+  text-align: center;
+}
+body main.note .log h3 {
+  margin-top: 20px;
+}
+body main.note .log ul li {
+  list-style: none;
+  font-size: 9pt;
+  color: dimgray;
+  margin-bottom: 4px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,6 @@
 <?php
 
-$version = 6;
+$version = 6.1;
 $website_title = "Simple List Maker App";
 
 require "inc/header.php"; ?>
@@ -29,9 +29,6 @@ require "inc/header.php"; ?>
     <ul id="taskList"></ul>
 
     <script>
-        
-        console.log( "app.js  11:52  24-08-2023" );
-        
         const taskList = document.getElementById('taskList');
         const taskInput = document.getElementById('taskInput');
         const addTaskButton = document.getElementById('addTaskButton');
@@ -106,7 +103,7 @@ require "inc/header.php"; ?>
                     if (editedText !== '') {
                         text = editedText;
                         taskItem.querySelector('span').textContent = `${id}. ${text}`;
-                        saveTasksToLocalStorage();
+                        updateTaskText(id, editedText);
                     }
                 }
             });
@@ -119,6 +116,15 @@ require "inc/header.php"; ?>
             });
             
             return taskItem;
+        }
+        
+        function updateTaskText(id, newText) {
+            tasks.forEach(task => {
+                if (task.id === id) {
+                    task.text = newText;
+                }
+            });
+            saveTasksToLocalStorage();
         }
         
         function renumberTasks() {

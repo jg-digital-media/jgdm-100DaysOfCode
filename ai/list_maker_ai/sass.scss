@@ -62,7 +62,11 @@ body {
 
         #addTaskButton {
 
+            // TODO: style addTask button
             display: inline-block;
+            background: yellow;
+            padding: 5px;
+            border-radius: 8px;
         }
     }
     
@@ -84,11 +88,30 @@ body {
         font-size: $font-size-md;
         padding: 4px;
         background: $bg-tasklist;
+        width: 50%;
+        display: block;
+        margin: 10px auto;
+        border: solid black 3px;
+        border-radius: 7px;
         
         li {
             
             line-height: 2;
             height: 50px;
+            list-style: none;
+            
+            span {
+                
+                /* min-width: 100px; */
+                /* min-width: 150px; */
+                /* width: auto; */
+                /* display: inline-block; */
+            }
+        }
+        
+        #task_id {
+            
+            font-weight: bold;
         }
         
         .removeButton,

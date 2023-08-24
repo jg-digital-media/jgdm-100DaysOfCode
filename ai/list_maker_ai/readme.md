@@ -26,7 +26,7 @@
 
 
 + index v4 - [v4 (index-v3.html) - Add a new task with Keybord entery: "Enter"](index.html)  
-**PROMPT: ** Finally can you recorder the numbering of the task lists when a user happens to delete a task (e.g. task 3 becomes task 2)
+**PROMPT: ** Edit the code to allow the user to submit a new task by pressing enter after the task is typed in
 
 
 + index v3 - [v3 (index-v3.html) - handling deletion of data](index.html)  

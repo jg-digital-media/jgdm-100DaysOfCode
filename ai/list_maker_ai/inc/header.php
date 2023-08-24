@@ -2,10 +2,15 @@
 <html>
 <head>
     
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" type="text/css" href="style.css" />
     
     
     <?php if ( $website_title == "Simple List Maker App" ) : ?>
+    
+    
     
     <title><?php echo $website_title; ?></title>
     
@@ -32,6 +37,7 @@
             <li><a href="index-v6.php">v6.1</a></li>
             <li><a href="index-v7.php">v7</a></li>
             <li><a href="index-v8.php">v8</a></li>
+            <li><a href="log.php">Log</a></li>
         </ul>
         
     </header>

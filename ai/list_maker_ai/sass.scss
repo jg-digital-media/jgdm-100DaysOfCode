@@ -1,5 +1,18 @@
 @import "sass/config";
 
+// EXTENDS
+
+// buttons
+@import "sass/extends/buttons/btn-add-task";
+@import "sass/extends/buttons/btn-clear-tasks";
+@import "sass/extends/buttons/btn-edit-task";
+@import "sass/extends/buttons/btn-remove-task";
+
+// inputs 
+@import "sass/extends/inputs/input-text-newtask";
+@impoty "sass/extends/inputs/input-chkb-filter";
+@import "sass/extends/inputs/input-chkb-completed";
+
 * {
     margin: 0;
     padding: 0;
@@ -36,6 +49,22 @@ body {
             }
         }
         
+        .version_list {
+            
+            li {
+                
+                list-style: none;
+                display: inline-block;
+                margin-left: 4px;
+                
+                a {
+                    
+                    color: yellow;
+                    
+                }
+            }
+        }
+        
     }
     
     h1 {
@@ -57,6 +86,10 @@ body {
 
             display: inline-block;
             margin: 0 auto;
+            border: solid 2px black;
+            border-radius: 6px;
+            padding: 3px;
+            background: lightgreen;
         }
 
 
@@ -67,7 +100,42 @@ body {
             background: yellow;
             padding: 5px;
             border-radius: 8px;
+            cursor: pointer;
         }
+        
+        #clearTasksButton {
+            
+            // TODO: style addTask button
+            display: inline-block;
+            background: yellow;
+            padding: 5px;
+            border-radius: 8px;
+            cursor: pointer;
+            
+        }
+    }
+        
+        
+    .toggle-completedtasks {
+
+        display: block;
+        margin: 15px auto;
+        text-align: center;
+        color: red;    
+        font-weight: bold;
+        font-size: $font-size-md;
+        
+        #hideCompletedCheckbox {
+            
+            width: 75px;
+            height: 20px;
+            vertical-align: middle;
+        }
+    }
+
+    .hide-completed-tasks {
+
+
     }
     
     .display-list {

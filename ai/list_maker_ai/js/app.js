@@ -1,5 +1,4 @@
-console.log("app.js connected - 24-08-2023 - 07:52");        
-
+console.log("app.js connected - 24-08-2023 - 13:04");        
 
 // select list items
 const taskList = document.getElementById('taskList');

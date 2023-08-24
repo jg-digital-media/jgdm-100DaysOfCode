@@ -1,6 +1,6 @@
 <?php
 
-$version = 4;
+$version = 6.1;
 $website_title = "Simple List Maker App";
 
 require "inc/header.php"; ?>
@@ -9,6 +9,7 @@ require "inc/header.php"; ?>
 
     <div class="input-tasks">
     <input type="text" id="taskInput" placeholder="Enter task">
+    <button id="clearTasksButton">Clear All Tasks</button>
         
     <!-- TODO: style addTask button -->
     <button id="addTaskButton">Add Task</button>
@@ -28,18 +29,17 @@ require "inc/header.php"; ?>
     <ul id="taskList"></ul>
 
     <script>
-        
         const taskList = document.getElementById('taskList');
         const taskInput = document.getElementById('taskInput');
         const addTaskButton = document.getElementById('addTaskButton');
-        
-        let taskId = 1;
+        const clearTasksButton = document.getElementById('clearTasksButton');
         
         // Load tasks from localStorage if available
-        const savedTasks = JSON.parse(localStorage.getItem('tasks')) || [];
+        let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+        let taskId = tasks.length > 0 ? tasks[tasks.length - 1].id + 1 : 1;
         
         // Populate the task list with saved tasks
-        savedTasks.forEach(savedTask => {
+        tasks.forEach(savedTask => {
             const taskItem = createTaskItem(savedTask.id, savedTask.text, savedTask.editing);
             taskList.appendChild(taskItem);
             taskId = Math.max(taskId, savedTask.id + 1); // Update taskId
@@ -52,12 +52,20 @@ require "inc/header.php"; ?>
             }
         });
         
+        clearTasksButton.addEventListener('click', () => {
+            taskList.innerHTML = ''; // Clear the task list
+            localStorage.removeItem('tasks'); // Remove tasks from local storage
+            tasks = [];
+            taskId = 1; // Reset the task ID
+        });
+        
         function addTask() {
             const taskText = taskInput.value.trim();
             
             if (taskText !== '') {
                 const taskItem = createTaskItem(taskId, taskText, false);
                 taskList.appendChild(taskItem);
+                tasks.push({ id: taskId, text: taskText, editing: false });
                 saveTasksToLocalStorage();
                 taskInput.value = '';
                 taskId++;
@@ -95,13 +103,14 @@ require "inc/header.php"; ?>
                     if (editedText !== '') {
                         text = editedText;
                         taskItem.querySelector('span').textContent = `${id}. ${text}`;
-                        saveTasksToLocalStorage();
+                        updateTaskText(id, editedText);
                     }
                 }
             });
             
             removeButton.addEventListener('click', () => {
                 taskList.removeChild(taskItem);
+                tasks = tasks.filter(task => task.id !== id);
                 renumberTasks();
                 saveTasksToLocalStorage();
             });
@@ -109,22 +118,26 @@ require "inc/header.php"; ?>
             return taskItem;
         }
         
+        function updateTaskText(id, newText) {
+            tasks.forEach(task => {
+                if (task.id === id) {
+                    task.text = newText;
+                }
+            });
+            saveTasksToLocalStorage();
+        }
+        
         function renumberTasks() {
-            const taskItems = taskList.querySelectorAll('li');
-            taskItems.forEach((taskItem, index) => {
-                const taskIdSpan = taskItem.querySelector('span');
-                taskIdSpan.textContent = `${index + 1}. ${taskIdSpan.textContent.split('.').slice(1).join('.').trim()}`;
+            tasks.forEach((task, index) => {
+                task.id = index + 1;
+                const taskItem = taskList.querySelector(`li:nth-child(${index + 1})`);
+                if (taskItem) {
+                    taskItem.querySelector('span').textContent = `${task.id}. ${task.text}`;
+                }
             });
         }
         
         function saveTasksToLocalStorage() {
-            const tasks = [];
-            taskList.querySelectorAll('li').forEach(taskItem => {
-                const id = parseInt(taskItem.querySelector('span').textContent);
-                const text = taskItem.querySelector('.editInput').value;
-                const editing = taskItem.classList.contains('editing');
-                tasks.push({ id, text, editing });
-            });
             localStorage.setItem('tasks', JSON.stringify(tasks));
         }
     </script>

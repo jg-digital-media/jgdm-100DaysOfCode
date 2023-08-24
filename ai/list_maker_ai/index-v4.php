@@ -5,8 +5,12 @@ $website_title = "Simple List Maker App";
 
 require "inc/header.php"; ?>
 
+    <div class="instruction">Add an item to your List: Type in your note and press Enter: </div>
+
+    <div class="input-tasks">
     <input type="text" id="taskInput" placeholder="Enter task">
     <button id="addTaskButton">Add Task</button>
+    </div>
     <ul id="taskList"></ul>
 
     <script>

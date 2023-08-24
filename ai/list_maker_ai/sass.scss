@@ -31,6 +31,7 @@ body {
             #versioning {
 
                 color: red;
+                color: #fff708;
                 font-size: $font-size-sm;
             }
         }
@@ -40,6 +41,29 @@ body {
     h1 {
         
         text-align: center;
+    }
+    
+    .instruction {
+        
+        text-align: center;
+        font-style: italic;
+    }
+    
+    .input-tasks {
+        
+        text-align: center;
+    
+        #taskInput {
+
+            display: inline-block;
+            margin: 0 auto;
+        }
+
+
+        #addTaskButton {
+
+            display: inline-block;
+        }
     }
     
     ul#taskList {

@@ -1,4 +1,4 @@
-    <script>
+    <!-- <script>
         const taskList = document.getElementById('taskList');
         const taskInput = document.getElementById('taskInput');
         const addTaskButton = document.getElementById('addTaskButton');
@@ -81,6 +81,8 @@
             });
             localStorage.setItem('tasks', JSON.stringify(tasks));
         }
-    </script>
+    </script> -->
+
+    <!--<script src="inc/app.js" type="text/javascript"></script> -->
 </body>
 </html>

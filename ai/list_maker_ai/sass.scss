@@ -76,6 +76,7 @@ body {
         
         text-align: center;
         font-style: italic;
+        margin: 15px 0;
     }
     
     .input-tasks {
@@ -157,10 +158,24 @@ body {
         padding: 4px;
         background: $bg-tasklist;
         width: 50%;
+        width: 480px;
         display: block;
         margin: 10px auto;
         border: solid black 3px;
         border-radius: 7px;
+        
+        @media (max-width: $bkpt-lg) {
+            
+            width: 480px;
+        }
+        
+        @media (max-width: $bkpt-md) {
+            
+            width: 75%;
+            width: 93%;
+            
+            
+        }
         
         li {
             
@@ -168,12 +183,51 @@ body {
             height: 50px;
             list-style: none;
             
+            .completedCheckbox {
+                
+                height: 25px;
+                width: 30px;
+                vertical-align: top;
+            }
+            
             span {
                 
                 /* min-width: 100px; */
                 /* min-width: 150px; */
                 /* width: auto; */
-                /* display: inline-block; */
+                min-width: 185px;
+                /* width: 80%; */
+                width: 270px;
+                display: inline-block;
+                
+                @media (max-width: $bkpt-md) {
+                    
+                    min-width: 0;
+                    width: 50%;
+                }
+                
+                @media (max-width: $bkpt-sm) {
+                    
+                    min-width: 0;
+                    width: 35%;
+                    font-size: $font-size-sm;
+                    /* overflow-x: hidden; */
+                    /* position: relative; */
+                    /* bottom: -3px; */
+                    
+                    
+                }
+                
+                
+                input.editInput  {
+                    
+                    border: solid red 1px;
+                    /* outline: none; */
+                    background: greenyellow;
+                    border: none;
+                    width: 185px;
+                    
+                }
             }
         }
         
@@ -201,6 +255,49 @@ body {
                 background: lighten(red, 15%);
                 
             }
+        }
+        
+        .editButton {
+            
+            width: 50px;
+        }
+        
+    }
+    
+    // note page
+    main.note {
+        
+        color: $col-primary;
+        font-family: arial;
+        
+        .log {
+            
+            width: 400px;
+            border: solid black 2px;
+            font-size: 10px;
+            margin: 0 auto;
+
+            h2 {
+                
+                text-align: center;
+            }
+            
+            h3 {
+                
+                margin-top: 20px;
+            }
+            
+            ul {
+                
+                li {
+                    
+                    list-style: none;                    
+                    font-size: 9pt;
+                    color: dimgray;
+                    margin-bottom: 4px;
+                }    
+            }
+            
         }        
         
     }

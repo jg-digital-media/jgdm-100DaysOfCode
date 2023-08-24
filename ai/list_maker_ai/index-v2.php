@@ -1,4 +1,8 @@
-<?php require "inc/header.php"; ?>
+<?php
+
+$version = 2;
+
+require "inc/header.php"; ?>
 
     <input type="text" id="taskInput" placeholder="Enter task">
     <button id="addTaskButton">Add Task</button>

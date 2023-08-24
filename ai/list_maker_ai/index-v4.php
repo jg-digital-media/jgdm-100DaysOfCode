@@ -11,6 +11,18 @@ require "inc/header.php"; ?>
     <input type="text" id="taskInput" placeholder="Enter task">
     <button id="addTaskButton">Add Task</button>
     </div>
+
+    <div class="hide-completed-tasks">
+
+    </div>
+
+    <!--<article id="display-list">
+        <h2>Your List Today Includes: </h2>
+            
+        <div><label for="filter-tasks">Remove/Hide completed tasks</label><input id="filter-tasks" type="checkbox"></div><ul id="task-list">
+        </ul>
+    </article>-->
+
     <ul id="taskList"></ul>
 
     <script>

@@ -66,9 +66,52 @@ body {
         }
     }
     
+    .display-list {
+        
+        border: solid red 1px;
+        
+        h2 {
+            
+        }
+        
+        div {
+            
+        }
+    }
+    
     ul#taskList {
         
         font-size: $font-size-md;
+        padding: 4px;
+        background: $bg-tasklist;
+        
+        li {
+            
+            line-height: 2;
+            height: 50px;
+        }
+        
+        .removeButton,
+        .editButton {
+            background: red;
+            color: white;
+            font-weight: bold;
+            padding: 6px;
+            border-radius: 10px;
+            margin-left: 20px;
+            cursor: pointer;
+            border: black solid 2px;
+            position: relative;
+            /* top: -9px; */
+            transition: background .3s;
+            
+            &:hover {
+                
+                background: lighten(red, 15%);
+                
+            }
+        }        
+        
     }
     
 }

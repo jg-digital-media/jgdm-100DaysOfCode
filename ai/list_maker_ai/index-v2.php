@@ -1,6 +1,7 @@
 <?php
 
 $version = 2;
+$website_title = null;
 
 require "inc/header.php"; ?>
 

@@ -1,6 +1,7 @@
 <?php
 
 $version = 4;
+$website_title = "Simple List Maker App";
 
 require "inc/header.php"; ?>
 

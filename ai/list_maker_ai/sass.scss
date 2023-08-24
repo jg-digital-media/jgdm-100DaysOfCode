@@ -102,6 +102,12 @@ body {
             padding: 5px;
             border-radius: 8px;
             cursor: pointer;
+            transition: background .3s;
+            
+            &:hover {
+                
+                background: #f1f180;
+            }
         }
         
         #clearTasksButton {
@@ -112,6 +118,12 @@ body {
             padding: 5px;
             border-radius: 8px;
             cursor: pointer;
+            transition: beige .3s;
+            
+            &:hover {
+                
+                background: #f1f180;
+            }
             
         }
     }
@@ -225,7 +237,15 @@ body {
                     /* outline: none; */
                     background: greenyellow;
                     border: none;
-                    width: 185px;
+                    width: 185px;    
+                    font-size: 14pt;
+                    font-weight: bold;
+                    color: darkgreen;
+                    
+                    @media (max-width: $bkpt-md) {
+                        
+                        width: 100%;
+                    }
                     
                 }
             }

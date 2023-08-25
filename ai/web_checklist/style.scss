@@ -1,0 +1,233 @@
+@import "assets/sass/config";
+
+
+@import "assets/sass/head";
+
+
+body {
+
+    background: $bg-body;
+
+    header {
+
+        height: 80px;
+        background: black;
+        color: $color-hdr;
+        border-bottom: solid white 3px;
+
+        h1 {
+
+            text-align: center;
+            
+            @media (max-width: $bkp-md) {
+                
+                font-size: 20pt;
+                padding-top: 8px;
+            }
+
+            span {
+
+                font-size: 13px;
+                color: #fde422;    
+                margin-left: 10px;
+                font-weight: normal;
+            }
+
+        }
+    }
+
+    main {
+
+        /*background: $bg-mn;*/
+        /* width: 320px; */
+        width: 75%;
+        color: $color-mn;
+        display: block;
+        margin: 0 auto;
+
+        h2 {
+
+            margin: 15px 0 10px 0;
+            display: block;
+            text-align: center;
+            
+            @media (max-width: $bkp-md) {
+                
+                font-size: 12px;
+            }
+
+        }
+
+        
+
+        p {
+            display: block;
+            min-width: 200px;
+            width: 65%;
+            margin: 0 auto;
+            line-height: 2.5;
+        }
+
+        .sub-content {
+
+            
+            display: block;
+            width: 75%;
+            margin: 0 auto;
+            line-height: 1.6;
+            background: $bg-mn;
+            /* padding: 10px;*/
+            border: solid black 3px;
+            border-radius: 8px;
+
+            h3 {
+
+                margin-top: 20pt; 
+                border-bottom: solid green 4px;
+                text-align: center;
+                min-width: 500px;
+                /* width: 100px; */
+                
+                
+                @media (max-width: $bkp-md) {
+                    
+                    min-width: 0;
+                    
+                }
+                
+                
+                @media (max-width: $bkp-sm) {
+                    
+                    margin-top: 7px;
+                    font-size: 13pt;
+                    padding: 0 28px;
+                }
+                
+            }
+            
+            img {
+                
+                width: 155px;
+                height: 155px;
+                border: solid black 2px;
+                border-radius: 83px;
+                display: block;
+                margin: 0 auto;
+            }
+
+            .checklist-item {
+
+                width: 100%;
+                border-bottom: solid $bg-checklist 3px;
+                transition: background .3s;   
+                
+                &:hover {
+
+                    background: $bg-checklist-hvr;
+                    width: 100%;
+                    border-bottom: solid $bdr-focus 3px;
+                }
+                
+                &:focus,
+                &:checked,
+                &.selected {
+
+                    background: #59cd59;
+                    width: 100%;
+                    border-bottom: solid $bdr-focus 3px;
+                }
+                
+                &.focus {
+                    
+                    background: #59cd59;
+                    border-bottom: solid $bdr-focus 3px;
+                }
+                
+                    
+                &:last-child {
+
+                    border-bottom-left-radius: 8px;
+                    border-bottom-right-radius: 8px;
+                    border-bottom: 0px;
+                }
+
+
+                .checkbox-label {
+
+                    font-weight: bold;
+                    /* border: solid #05a905 1px; */
+                    
+                    display: inline-block;
+                    /* width: 50%; */
+                    width: 28%;
+                    width: 79%;
+                    min-width: 300px;
+                    padding: 20px 5px;
+                    cursor: pointer;                   
+
+                    &.selected {
+
+                        border-right: solid #05a905 1px;
+                    }
+                    
+                    @media (max-width: $bkp-md) {
+                        
+                        width: 75%;
+                    }
+                    
+                    @media (max-width: $bkp-sm) {
+                        
+                        min-width: 0px;
+                        font-size: 14px;
+                        /* font-size: 10px; */
+                    }
+
+                }       
+                
+
+                input[type="checkbox"] {
+
+                    border: solid red 1px;
+                    display: inline-block;
+                    width: 15%;
+                    height: 30px;
+                    vertical-align: -webkit-baseline-middle;
+                    position: relative;
+                    bottom: 6px;
+                    cursor: pointer;
+                }
+
+                .checkbox-style {
+
+                    color: red;
+                    
+                    
+
+                }
+                
+                .checklist-item.focus {
+                    
+                    //outline: 2px solid blue; /* Apply blue outline to indicate focus */
+                    background: darkgreen;
+                }
+
+                .checkbox-text {
+
+                    font-weight: bold;    
+                    /* width: 5%; */
+                    width: 30%;
+                    display: inline-block;
+                }
+
+            }
+
+        }
+
+    }
+
+    footer {
+
+        text-align: center;
+        margin-top: 10px;
+    }
+}

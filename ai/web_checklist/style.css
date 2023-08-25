@@ -1,0 +1,171 @@
+/* Update: 21/08/2023 - 15:00 */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", "arial";
+}
+
+body {
+  background: orange;
+}
+body header {
+  height: 80px;
+  background: black;
+  color: white;
+  border-bottom: solid white 3px;
+}
+body header h1 {
+  text-align: center;
+}
+@media (max-width: 980px) {
+  body header h1 {
+    font-size: 20pt;
+    padding-top: 8px;
+  }
+}
+body header h1 span {
+  font-size: 13px;
+  color: #fde422;
+  margin-left: 10px;
+  font-weight: normal;
+}
+body main {
+  /*background: $bg-mn;*/
+  /* width: 320px; */
+  width: 75%;
+  color: black;
+  display: block;
+  margin: 0 auto;
+}
+body main h2 {
+  margin: 15px 0 10px 0;
+  display: block;
+  text-align: center;
+}
+@media (max-width: 980px) {
+  body main h2 {
+    font-size: 12px;
+  }
+}
+body main p {
+  display: block;
+  min-width: 200px;
+  width: 65%;
+  margin: 0 auto;
+  line-height: 2.5;
+}
+body main .sub-content {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+  line-height: 1.6;
+  background: #f3db74;
+  /* padding: 10px;*/
+  border: solid black 3px;
+  border-radius: 8px;
+}
+body main .sub-content h3 {
+  margin-top: 20pt;
+  border-bottom: solid green 4px;
+  text-align: center;
+  min-width: 500px;
+  /* width: 100px; */
+}
+@media (max-width: 980px) {
+  body main .sub-content h3 {
+    min-width: 0;
+  }
+}
+@media (max-width: 780px) {
+  body main .sub-content h3 {
+    margin-top: 7px;
+    font-size: 13pt;
+    padding: 0 28px;
+  }
+}
+body main .sub-content img {
+  width: 155px;
+  height: 155px;
+  border: solid black 2px;
+  border-radius: 83px;
+  display: block;
+  margin: 0 auto;
+}
+body main .sub-content .checklist-item {
+  width: 100%;
+  border-bottom: solid #f3db74 3px;
+  transition: background 0.3s;
+}
+body main .sub-content .checklist-item:hover {
+  background: lightgreen;
+  width: 100%;
+  border-bottom: solid green 3px;
+}
+body main .sub-content .checklist-item:focus, body main .sub-content .checklist-item:checked, body main .sub-content .checklist-item.selected {
+  background: #59cd59;
+  width: 100%;
+  border-bottom: solid green 3px;
+}
+body main .sub-content .checklist-item.focus {
+  background: #59cd59;
+  border-bottom: solid green 3px;
+}
+body main .sub-content .checklist-item:last-child {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom: 0px;
+}
+body main .sub-content .checklist-item .checkbox-label {
+  font-weight: bold;
+  /* border: solid #05a905 1px; */
+  display: inline-block;
+  /* width: 50%; */
+  width: 28%;
+  width: 79%;
+  min-width: 300px;
+  padding: 20px 5px;
+  cursor: pointer;
+}
+body main .sub-content .checklist-item .checkbox-label.selected {
+  border-right: solid #05a905 1px;
+}
+@media (max-width: 980px) {
+  body main .sub-content .checklist-item .checkbox-label {
+    width: 75%;
+  }
+}
+@media (max-width: 780px) {
+  body main .sub-content .checklist-item .checkbox-label {
+    min-width: 0px;
+    font-size: 14px;
+    /* font-size: 10px; */
+  }
+}
+body main .sub-content .checklist-item input[type=checkbox] {
+  border: solid red 1px;
+  display: inline-block;
+  width: 15%;
+  height: 30px;
+  vertical-align: -webkit-baseline-middle;
+  position: relative;
+  bottom: 6px;
+  cursor: pointer;
+}
+body main .sub-content .checklist-item .checkbox-style {
+  color: red;
+}
+body main .sub-content .checklist-item .checklist-item.focus {
+  background: darkgreen;
+}
+body main .sub-content .checklist-item .checkbox-text {
+  font-weight: bold;
+  /* width: 5%; */
+  width: 30%;
+  display: inline-block;
+}
+body footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

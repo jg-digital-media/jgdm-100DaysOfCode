@@ -42,7 +42,13 @@
         width: 100%;
         
         a {
-            
+           
+            display: inline-block;
+            border-radius: 10px;
+            border: solid white 2px;
+            padding: 8px;    
+            margin: 10px 0;
+            background: #7272ff;
             color: $text-header-two;
             transition: color .3s;
             font-weight: bold;

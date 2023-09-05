@@ -7,23 +7,19 @@
 ## **Update:** I have recently stripped out react, node and vue js projects. New website coming to https://www.jonniegrieve.co.uk imminently  
 
 ## Respository Links
-+ Repository: https://github.com/jg-digital-media
-+ Repository URL: https://github.com/jg-digital-media/jgdm-100DaysOfCode
++ Repository: `https://github.com/jg-digital-media`
++ Repository URL: `https://github.com/jg-digital-media/jgdm-100DaysOfCode`
++ Repository: `https://github.com/jg-digital-media/jgdm_wordpress_theme`
 
 
 ## Focus
 + AI coding with ChatGPT
-+ Repository: `https://github.com/jg-digital-media/jgdm_wordpress_theme`.
 + API Video link - [https://youtube.com/watch?v=GZvSYJDk-us&feature=youtu.be](https://youtube.com/watch?v=GZvSYJDk-us&feature=youtu.be)
-+ JGDM Website 2023 - [localhost/jgdm_2023](localhost/jgdm_2023) [Link](https://www.jonniegrieve.co.uk) - `WordPress` 
-+ JGDM Blog - [localost/jgdm_blog](localhost/jgdm_blog) - 2023 plain design - `WordPress`
 + Photography Website - [localhost/photography-website/](localhost/photography-website/) - `PHP` 
-+ CreativeIO - [http://localhost/wordpress/creativeio](http://localhost/wordpress/creativeio) - `WordPress`
 + Cartoon Chris Website - [https://www.cartoonchris.co.uk/](https://www.cartoonchris.co.uk/) - cb_cartoom_admin - `WordPress`
 + CSS Experiments - css/experiments - `HTML5 & CSS`
 + Local Storage - javaScript/localstorage   `JavaScript + Localstorage`
 + Photo Viewer App (Multiple Data Points) - css/photos - `HTML5 & CSS & JavaScript`
-+ Repositories List - https://repositories.jonniegrieve.co.uk - `HTML5 + css + JavaScript`
 + PHP Authorisation - php/authorisation - `php`
 + PHP Slim - `php`
 + Python Flask Websites - python/flask - `python`

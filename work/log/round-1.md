@@ -1,4 +1,4 @@
-# 100 Days of Code - Round 1.   
+# 100 Days of Code - Round 1  
 
 ### **Status:** Day 1 of 100.  **Last Update:**  04 September 2023
 
@@ -10,7 +10,7 @@ I won't last 100 straight days this time either, although I intend to complete 1
 
 ### Day 1**: Monday September 4th 2023
 
-....
+After an extended break I'm starting over logging my coding journey with 100DaysOfCode. Starting with a revamp of my main Landing Page repository.  I've added styling changes to main navigation depending on browser scroll position.
 
 
 #### **Tech Used: CSS, HTML4, ChatGPT, AI

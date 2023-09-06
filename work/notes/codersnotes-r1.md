@@ -1,14 +1,62 @@
-# 100 Days of Code - Round 10
+# 100 Days of Code - Round 1
 
-## **Status:** Day 2 of 100  
-**Last Update:** 05 September 2023
+## **Status:** Day 3 of 100  
+**Last Update:** 06 September 2023
 ___
 
 **Directories:** ai | api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-### Day 2
+### Day 3
+
+```php
+<?php
+
+// Check if the form is submitted
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    
+    // Validate and sanitize form inputs
+    $name = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
+    $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
+    $message = filter_var($_POST["message"], FILTER_SANITIZE_STRING);
+    $referral = $_POST["referral"];
+    $visit = $_POST["visit"];
+
+    // Perform additional validation if needed (e.g., email validation)
+
+    // Send the email
+    $to = "mail@jonniegrieve.co.uk"; // Replace with your email address
+    $subject = "SCAA Enquire Form";
+    $message_body = "Name: $name\nEmail: $email\nMessage: $message\nReferral: $referral\nVisit: $visit";
+    $headers = "From: $email";
+
+    if (mail($to, $subject, $message_body, $headers)) {
+        
+        // Email sent successfully
+        header("Location: thank_you.php"); // Redirect to the thank you page
+        exit();
+    } else {
+        
+        // Email sending failed
+        echo "Email sending failed. Please try again later.";
+    }
+}
+
+?>
+
+```
+
+```php 
+
+<!-- thank_you.php -->
+<?php require "inc/header.php"; ?>
+
+    <h1>Thank you for your submission!</h1>
+    <p>We have received your message and will get back to you shortly.</p>
+
+<?php require "inc/footer.php"; ?>
+```
 
 
 

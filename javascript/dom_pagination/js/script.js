@@ -6,7 +6,7 @@ const paginationList = document.querySelector("#paginationList");
 
 
 //console.log(datalist);  examine array data
-const itemsPerPage = 2;
+const itemsPerPage = 4;
 
 /* The function that calculates how many buttons are
 needed and dynamically adds them to the page */
@@ -55,20 +55,17 @@ function showPage(array, page) {
                 
             `
             <div class="data-item">
+
                 <div class="card-header">
 
-                    <img src="${ array[i].image }" alt="photo of ${ array[i].name }" />
+                    <img src="${ array[i].project_image }" alt="photo of ${ array[i].project_name }" title="photo of ${ array[i].project_news }" />
 
                 </div>
 
                 <div class="card-content">
-                    <h2 class="title">Name: ${ array[i].name }</h2>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Doloremque tempora eius consequatur ea, repellat quos.
 
-                    </p>
-                    <p>${ array[i].text }</p>
+                    <h2 class="title">Name: ${ array[i].project_name }</h2>
+                    
                   </div>
             </div> 
             `;
@@ -96,12 +93,12 @@ paginationList.addEventListener("click", (e) => {
 
         activeCard.classList.remove("active");
         buttonClicked.classList.add("active");
-        showPage(dataList, buttonClicked.innerHTML);
+        showPage(projectList, buttonClicked.innerHTML);
 
     }
     
 });
 
 /* These function calls are needed to initialize the page */
-handlePagination(dataList);
-showPage(dataList, 1);
+handlePagination(projectList);
+showPage(projectList, 1);

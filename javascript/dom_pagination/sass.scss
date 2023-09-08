@@ -44,41 +44,41 @@ body .wrapper {
 }
 
 h1,
-.author-container .author-card .card-content h1.title,
+.datalist-container .data-item .card-content h1.title,
 .pagination-list button {
   color: $col-heading;
 }
 
 header,
-.author-container,
-.author-container .author-card .card-header,
+.datalist-container,
+.datalist-container .data-item .card-header,
 .pagination-list {
   display: flex;
 }
 
 header,
-.author-container .author-card .card-header {
+.datalist-container .data-item .card-header {
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
 }
 
-.author-container,
-.author-container .author-card .card-content {
+.datalist-container,
+.datalist-container .data-item .card-content {
   padding: 1rem;
 }
 
-.author-container .author-card,
-.author-container .author-card .card-content p {
+.datalist-container .data-item,
+.datalist-container .data-item .card-content p {
   overflow: hidden;
 }
 
-.author-container .author-card,
+.datalist-container .data-item,
 .pagination-list button {
   cursor: pointer;
 }
 
-.author-container .author-card:hover .card-header img,
+.datalist-container .data-item:hover .card-header img,
 .pagination-list button:hover {
   transform: translateY(5px) scale(1.1);
   filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.15));
@@ -98,39 +98,39 @@ h1 {
   color: $col-heading;
 }
 
-.author-container {
+.datalist-container {
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 6rem;
 }
 
-.author-container .author-card {
+.datalist-container .data-item {
   background: $bg-item-container;
   border-radius: 1rem;
   flex: 1 0 300px;
   transition: transform 0.4s ease-out;
 }
 
-.author-container .author-card:hover {
+.datalist-container .data-item:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.author-container .author-card .card-header {
+.datalist-container .data-item .card-header {
   background: $bg-item;
   height: 175px;
 }
 
-.author-container .author-card .card-header img {
+.datalist-container .data-item .card-header img {
   transition: transform 0.4s ease-out, filter 0.1s ease-in;
   max-width: 85px;
 }
 
-.author-container .author-card .card-content h1.title {
+.datalist-container .data-item .card-content h1.title {
   font-size: 1.2rem;
 }
 
-.author-container .author-card .card-content p {
+.datalist-container .data-item .card-content p {
   display: -webkit-box;
   text-overflow: ellipsis;
   -webkit-box-orient: vertical;
@@ -139,7 +139,7 @@ h1 {
   color: $col-secondary;
 }
 
-.author-container .author-card .card-content h2 { 
+.datalist-container .data-item .card-content h2 { 
 
 
     color: $col-primary;
@@ -179,11 +179,11 @@ h1 {
     padding: 1rem 2rem;
   }
 
-  .author-container {
+  .datalist-container {
     padding: 2rem;
   }
 
-  .author-container .author-card .card-content p {
+  .datalist-container .data-item .card-content p {
     -webkit-line-clamp: 3;
   }
 }

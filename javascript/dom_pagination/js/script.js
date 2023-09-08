@@ -1,11 +1,11 @@
 console.log("08-09-2023 - Source: https://teamtreehouse.com/library/practice-data-pagination");
 
-// Select author and pagination containers
+// Select data and pagination element containers
 const listContainer = document.querySelector("#listContainer");
 const paginationList = document.querySelector("#paginationList");
 
 
-//console.log(authors);  examine array data
+//console.log(datalist);  examine array data
 const itemsPerPage = 2;
 
 /* The function that calculates how many buttons are
@@ -54,7 +54,7 @@ function showPage(array, page) {
             const listItem = 
                 
             `
-            <div class="author-card">
+            <div class="data-item">
                 <div class="card-header">
 
                     <img src="${ array[i].image }" alt="photo of ${ array[i].name }" />

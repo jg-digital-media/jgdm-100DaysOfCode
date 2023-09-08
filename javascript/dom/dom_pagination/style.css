@@ -1,0 +1,154 @@
+/* Import */ /* 
+
+Last Update: 08-09-2023 - 14:25
+Source Material: link....
+*/
+@import url("https://fonts.cdnfonts.com/css/gotham-rounded");
+.pagination-list button {
+  width: 1.4rem;
+  height: 1.4rem;
+  border: 2px solid #262c38;
+  transition: background-color 0.4s ease, transform 0.4s ease-out, filter 0.1s ease-in;
+  color: #323846;
+  padding: 2px;
+}
+.pagination-list button:hover {
+  background: lightgreen;
+}
+.pagination-list button.active {
+  background: lightgreen;
+}
+
+/* Universal selector */
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gotham Rounded", sans-serif;
+  font-family: "Gotham Rounded", sans-serif;
+}
+
+/* Shared styles */
+body {
+  display: flex;
+  background-color: #3c97cb;
+}
+body header {
+  background-color: #3c97cb;
+  width: 100%;
+}
+body .wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+body .wrapper > .datalist-container {
+  display: flex;
+  padding: 1rem;
+}
+body .wrapper > .datalist-container .data-item .card-header {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+body .wrapper > .datalist-container .data-item .card-content {
+  padding: 1rem;
+}
+body .wrapper .pagination-container .pagination-list {
+  /* display: flex; */
+  position: relative;
+  top: 104px;
+  margin: 5px auto;
+  text-align: center;
+}
+body .wrapper .pagination-container .pagination-list button {
+  cursor: pointer;
+  color: #323846;
+}
+body .wrapper .pagination-container .pagination-list li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+/* Header styles */
+header {
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  text-align: center;
+}
+header h1 {
+  color: #f5f5f5;
+}
+header #version {
+  font-size: 14px;
+  color: #fbff12;
+  color: #cb703c;
+}
+
+/* Data list container styles */
+.datalist-container {
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 6rem;
+}
+.datalist-container .data-item {
+  background: #f5f5f5;
+  border-radius: 1rem;
+  flex: 1 0 300px;
+  transition: transform 0.4s ease-out;
+}
+.datalist-container .data-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.datalist-container .data-item .card-header {
+  background: #e3e6e8;
+  /* height: 175px; */
+  height: auto;
+}
+.datalist-container .data-item .card-header img {
+  transition: transform 0.4s ease-out, filter 0.1s ease-in;
+  max-width: 85px;
+  max-width: 68%;
+  display: block;
+  margin: 0 auto;
+}
+.datalist-container .data-item .card-content h1.title {
+  font-size: 1.2rem;
+  color: #f5f5f5;
+}
+.datalist-container .data-item .card-content p {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 10;
+  font-size: 0.9rem;
+  color: #323846;
+}
+.datalist-container .data-item .card-content h2 {
+  color: black;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Pagination styles */
+.pagination-list {
+  justify-content: space-evenly;
+  max-width: 450px;
+  margin: 0 auto 2rem;
+  list-style: none;
+}
+/* Media Query */
+@media screen and (min-width: 580px) {
+  header {
+    padding: 1rem 2rem;
+  }
+  .datalist-container {
+    padding: 2rem;
+  }
+  .datalist-container .data-item .card-content p {
+    -webkit-line-clamp: 3;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

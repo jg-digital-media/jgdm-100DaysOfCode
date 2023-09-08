@@ -1,8 +1,13 @@
 /* Import */
 @import "assets/sass/inc/head";
 @import "assets/sass/config/config";
+
+@import "assets/sass/extend/buttons/_pagination-btn-one";
+@import "assets/sass/extend/buttons/_pagination-btn-two";
+
 @import "assets/sass/inc/header";
 @import "assets/sass/inc/footer";
+
 @import url("https://fonts.cdnfonts.com/css/gotham-rounded");
 
 
@@ -49,13 +54,26 @@ body {
     }
 
     .pagination-container {
+        
       .pagination-list {
-        display: flex;
+          
+        /* display: flex; */
+          
+        position: relative;
+        top: 104px;
+        margin: 5px auto;
+        text-align: center;
 
         button {
             cursor: pointer;
             color: $col-secondary;
         }
+          
+          li {
+              
+              display: inline-block;
+              margin: 0 5px;
+          }
       }
     }
   }
@@ -72,6 +90,14 @@ header {
   h1 {
     color: $col-heading;
   }
+
+    #version {
+        
+        font-size: 14px;
+        color: #fbff12;  
+        color: complement( $bg-main );
+        
+    }
 }
 
 /* Data list container styles */
@@ -93,11 +119,15 @@ header {
 
     .card-header {
       background: $bg-item;
-      height: 175px;
+      /* height: 175px; */
+      height: auto;
 
       img {
         transition: transform 0.4s ease-out, filter 0.1s ease-in;
         max-width: 85px;
+        max-width: 68%;
+        display: block;
+        margin: 0 auto;
       }
     }
 
@@ -118,6 +148,8 @@ header {
 
       h2 {
         color: $col-primary;
+        font-size: 16px;
+        text-align: center;
       }
     }
   }
@@ -131,21 +163,10 @@ header {
   list-style: none;
 
   button {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    border: 2px solid $col-btn-bdr;
-    transition: background-color 0.4s ease, transform 0.4s ease-out, filter 0.1s ease-in;
-    color: $col-secondary;
-
-    &:hover {
-        background: $bg-button;
+      
+        @extend %bg-btn-two;
+      
     }
-
-    &.active {
-        background: $bg-button;
-    }
-  }
 }
 
 /* Media Query */

@@ -34,6 +34,9 @@ function taskNumber(num) {
 
 function createLi(getText) {
     
+    //increase the task number
+    num++
+    
     //Add list item content to the screen.
     const li = document.createElement("li");    //create an element that'll,  appended created element.
     const span = document.createElement("span");     //li.textContent = getText;  //grab text from input box. 
@@ -44,7 +47,8 @@ function createLi(getText) {
     list.appendChild(li); //select parent
     //li.appendChild(p);    
     li.className = "task";  
-
+    
+    
     /*Create checkbox*/
     const checkbox = document.createElement('input');
     checkbox.type="checkbox";
@@ -55,6 +59,11 @@ function createLi(getText) {
     editButton.textContent = "Edit Task";
     editButton.className = "edit";
     li.appendChild(editButton); 
+    
+    
+    // Update the task number in the text content
+    editButton.textContent = "Edit Task " + num;
+
 
     /*Create remove button*/
     const removeButton = document.createElement('button');
@@ -73,6 +82,7 @@ function createLi(getText) {
 //ul
 form.addEventListener('submit', (e) => {
 
+    //num++
     //prevent form default behaviour
     e.preventDefault();
 

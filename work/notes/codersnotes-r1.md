@@ -1,16 +1,56 @@
 # 100 Days of Code - Round 1
 
-## **Status:** Day 4 of 100  
-**Last Update:** 07 September 2023
+## **Status:** Day 5 of 100  
+**Last Update:** 08 September 2023
 ___
 
 **Directories:** ai | api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-### Day 4
+### Day 5
 
-...
+#### To iterate over an array of objects
+
+
+```js
+
+// data - Array of Objects
+const projects = [ 
+    {
+        "project_name": "Auto Cleanse North East",
+        "project_alt": "Auto Cleanse North East",
+        "project_url": "http://www.autoc.co.uk/",
+        "year_created: 2005
+    },
+    {
+        "project_name": "Kevin Mangles",
+        "project_alt": "Kevin Mangles",
+        "project_url": "https://www.kevinmangles-magician.com/",
+        "year_created": 2003
+    }
+]
+```
+
+```js
+
+ // array[i].project_name - Iterate through the data and add to page
+ for (i=0; i < array.length; i++) {        
+                    
+    const listItem = `
+
+        <div class="project_name"> ${ array[i].project_name}"> </div>
+        <div class="year"> ${ array[i].year_created }"> ${ array[i] } </div>
+
+    `;
+}
+
+console.log(array.length);
+
+paginationList.insertAdjacentHTML();
+
+```
+
 
 ### Day 3
 

@@ -62,7 +62,7 @@ function createLi(getText) {
     
     
     // Update the task number in the text content
-    editButton.textContent = "Edit Task " + num;
+    //editButton.textContent = "Edit Task ";
 
 
     /*Create remove button*/
@@ -88,7 +88,7 @@ form.addEventListener('submit', (e) => {
 
     /*Create input text box*/ 
     //const taskNumber = num + 1;
-    const getText = "Task: " + taskNumber(num) + " " + input.value;    
+    const getText = "Task " + taskNumber(num) + ": " + input.value;    
     input.value = "";
     input.textContent = getText;
 

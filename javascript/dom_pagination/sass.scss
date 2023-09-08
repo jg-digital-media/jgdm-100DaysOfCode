@@ -1,179 +1,154 @@
+/* Import */
 @import "assets/sass/inc/head";
 @import "assets/sass/config/config";
-
 @import "assets/sass/inc/header";
 @import "assets/sass/inc/footer";
-
-
-// import 
 @import url("https://fonts.cdnfonts.com/css/gotham-rounded");
 
-// config variables
 
-// breakpoints 
-
-$bkpt-sm: 500px;
-
-
-// universal selector
+/* Universal selector */
 * {
   padding: 0;
   box-sizing: border-box;
   font-family: "Gotham Rounded", sans-serif;
+  font-family: $font;
 }
 
-/* DRY */
+/* Shared styles */
+body {
+    display: flex;
+    background-color: $bg-main;
+    
+    header {
+        
+    background-color: $bg-main;
+    width: 100%;
+        
+    }
 
-body,
-header {
-  background-color: $bg-main;// #3c97cb;
+  .wrapper {
+      
+    width: 100%;
+    margin: 0 auto;
+
+    & > .datalist-container {
+      display: flex;
+      padding: 1rem;
+
+      .data-item {
+        .card-header {
+          justify-content: center;
+          align-items: center;
+          flex-wrap: nowrap;
+        }
+
+        .card-content {
+          padding: 1rem;
+        }
+      }
+    }
+
+    .pagination-container {
+      .pagination-list {
+        display: flex;
+
+        button {
+            cursor: pointer;
+            color: $col-secondary;
+        }
+      }
+    }
+  }
 }
 
-body .wrapper,
-header {
-  width: 100%;
-}
-
-body .wrapper,
-header {
-  margin: 0 auto;
-}
-
-body .wrapper {
-  max-width: 1440px;
-}
-
-h1,
-.datalist-container .data-item .card-content h1.title,
-.pagination-list button {
-  color: $col-heading;
-}
-
-header,
-.datalist-container,
-.datalist-container .data-item .card-header,
-.pagination-list {
-  display: flex;
-}
-
-header,
-.datalist-container .data-item .card-header {
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-
-.datalist-container,
-.datalist-container .data-item .card-content {
-  padding: 1rem;
-}
-
-.datalist-container .data-item,
-.datalist-container .data-item .card-content p {
-  overflow: hidden;
-}
-
-.datalist-container .data-item,
-.pagination-list button {
-  cursor: pointer;
-}
-
-.datalist-container .data-item:hover .card-header img,
-.pagination-list button:hover {
-  transform: translateY(5px) scale(1.1);
-  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.15));
-}
-
-/* --- */
-
+/* Header styles */
 header {
   padding: 1rem;
   position: fixed;
   top: 0;
   z-index: 10000;
   text-align: center;
+
+  h1 {
+    color: $col-heading;
+  }
 }
 
-h1 {
-  color: $col-heading;
-}
-
+/* Data list container styles */
 .datalist-container {
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 6rem;
+
+  .data-item {
+    background: $bg-item-container;
+    border-radius: 1rem;
+    flex: 1 0 300px;
+    transition: transform 0.4s ease-out;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .card-header {
+      background: $bg-item;
+      height: 175px;
+
+      img {
+        transition: transform 0.4s ease-out, filter 0.1s ease-in;
+        max-width: 85px;
+      }
+    }
+
+    .card-content {
+      h1.title {
+        font-size: 1.2rem;
+        color: $col-heading;
+      }
+
+      p {
+        display: -webkit-box;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 10;
+        font-size: 0.9rem;
+        color: $col-secondary;
+      }
+
+      h2 {
+        color: $col-primary;
+      }
+    }
+  }
 }
 
-.datalist-container .data-item {
-  background: $bg-item-container;
-  border-radius: 1rem;
-  flex: 1 0 300px;
-  transition: transform 0.4s ease-out;
-}
-
-.datalist-container .data-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.datalist-container .data-item .card-header {
-  background: $bg-item;
-  height: 175px;
-}
-
-.datalist-container .data-item .card-header img {
-  transition: transform 0.4s ease-out, filter 0.1s ease-in;
-  max-width: 85px;
-}
-
-.datalist-container .data-item .card-content h1.title {
-  font-size: 1.2rem;
-}
-
-.datalist-container .data-item .card-content p {
-  display: -webkit-box;
-  text-overflow: ellipsis;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 10;
-  font-size: 0.9rem;
-  color: $col-secondary;
-}
-
-.datalist-container .data-item .card-content h2 { 
-
-
-    color: $col-primary;
-
-}
-
+/* Pagination styles */
 .pagination-list {
   justify-content: space-evenly;
   max-width: 450px;
   margin: 0 auto 2rem;
   list-style: none;
-}
 
-.pagination-list button {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  border: 2px solid #262c38;
-  transition: background-color 0.4s ease, transform 0.4s ease-out,
-    filter 0.1s ease-in;
+  button {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 2px solid $col-btn-bdr;
+    transition: background-color 0.4s ease, transform 0.4s ease-out, filter 0.1s ease-in;
     color: $col-secondary;
-    
+
     &:hover {
         background: $bg-button;
     }
+
+    &.active {
+        background: $bg-button;
+    }
+  }
 }
 
-.active {
-    
-  background: $bg-button;
-}
-
-
-
+/* Media Query */
 @media screen and (min-width: $bkpt-sm) {
   header {
     padding: 1rem 2rem;
@@ -181,9 +156,9 @@ h1 {
 
   .datalist-container {
     padding: 2rem;
-  }
 
-  .datalist-container .data-item .card-content p {
-    -webkit-line-clamp: 3;
+    .data-item .card-content p {
+      -webkit-line-clamp: 3;
+    }
   }
 }

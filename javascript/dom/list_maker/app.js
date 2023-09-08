@@ -32,6 +32,21 @@ function taskNumber(num) {
     return num;
 }
 
+// Function to save the task list to local storage
+function saveTaskList() {
+    const tasks = Array.from(list.children).map(li => li.firstElementChild.textContent);
+    localStorage.setItem('taskList', JSON.stringify(tasks));
+}
+
+// Function to load the task list from local storage
+function loadTaskList() {
+    const savedTasks = localStorage.getItem('taskList');
+    if (savedTasks) {
+        const tasks = JSON.parse(savedTasks);
+        tasks.forEach(taskText => createLi(taskText));
+    }
+}
+
 function createLi(getText) {
     
     //increase the task number
@@ -98,6 +113,8 @@ form.addEventListener('submit', (e) => {
     
     //Console log
     console.log("The returned message is: " + input.value + "empty");
+    
+    saveTaskList();
 })
 
 
@@ -136,8 +153,14 @@ list.addEventListener('change', (e) => {
     } else {
         listItem.className="task";
     }
+    
+    saveTaskList();
 
-})
+});
+
+
+// Load the task list from local storage when the page loads
+window.addEventListener('load', loadTaskList);
 
 list.addEventListener('click', (e) => {
     if(e.target.tagName === 'BUTTON') {
@@ -148,6 +171,8 @@ list.addEventListener('click', (e) => {
 
         if(button.textContent == "Remove") {
             ul.removeChild(li);
+            
+            saveTaskList();
         } else if (button.textContent == "Edit Task") {
             //console.log("Edit button was clicked" + input.textContent);
 

@@ -21,6 +21,10 @@ header h1 {
   letter-spacing: 3px;
   text-align: center;
 }
+header h1 #version {
+  font-size: 13px;
+  color: gold;
+}
 
 label#enter-task {
   display: inline;

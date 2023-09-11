@@ -18,7 +18,7 @@ body {
     
     // TODO: customise main background
     background: var(--primary-color);
-    font-family: times;
+    font-family: arial;
 }
 
 header {
@@ -46,10 +46,24 @@ aside#style_buttons {
         width: auto;
         // TODO: customise ... colour
         color: black;
-        padding: 6px;
+        padding: 8px;
+        border: solid 2px black;
         // TODO: customise button background:
         background: var(--button-bg);
         cursor: pointer;
+    }
+}
+
+#reset-link-container {
+    
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    
+    a {
+        
+        color: red;
+        font-weight: bold;
     }
 }
 
@@ -63,6 +77,8 @@ section#main_content {
     // TODO: customise main_content background
     background: var( --main-color );
     border: solid var( --border-color ) 2px;
+    font-weight: normal;
+    font-size: 12px;
     
     p {
         

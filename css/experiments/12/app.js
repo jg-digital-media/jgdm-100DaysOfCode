@@ -1,9 +1,10 @@
 console.log("app.js connected");
 
-// Select buttons
+// Make selections to the DOM
 const primaryColorInput = document.getElementById('one');
 const secondaryColorInput = document.getElementById('two');
 const monochromeColorInput = document.getElementById('monochrome');
+const resetLink = document.getElementById('reset-link'); 
 
 // Function to set theme properties and save to localStorage
 function setThemeProperties(primaryColor, mainColor, buttonBg, borderColor) {
@@ -35,6 +36,16 @@ function loadThemeProperties() {
     }
 }
 
+
+// Reset theme properties to default values and clear localStorage
+function resetToDefault() {
+    // Set default theme properties
+    setThemeProperties('lightblue', '#d7fdff', '#6ff2ff', '#1313a1');
+
+    // Clear localStorage
+    localStorage.removeItem('themeProperties');
+}
+
 // Theme customizer event listeners
 primaryColorInput.addEventListener('click', () => {
     setThemeProperties('lightblue', '#d7fdff', '#6ff2ff', '#1313a1');
@@ -48,8 +59,16 @@ monochromeColorInput.addEventListener('click', () => {
     setThemeProperties('gray', '#dbdbdb', '#d5d5d5', 'darkgray');
 });
 
+
 // Load theme properties from localStorage when the page loads
 window.addEventListener('load', loadThemeProperties);
+// Add click event listener to the reset link
+resetLink.addEventListener('click', (event) => {
+    event.preventDefault(); // Prevent the link from navigating
+
+    // Reset to default theme properties and clear localStorage
+    resetToDefault();
+});
 
 console.log(primaryColorInput.style.setProperty);
 console.log(secondaryColorInput.style.setProperty);

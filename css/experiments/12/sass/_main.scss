@@ -1,0 +1,74 @@
+/* _main.scss */
+
+
+:root {
+    
+    
+  --primary-color: lightblue;
+  --test-variable: lightblue;
+  --theme-two: lightblue;
+  --theme-three: lightblue;
+}
+
+body {
+    
+    
+    // TODO: customise main background
+    background: var(--primary-color);
+    font-family: times;
+}
+
+header {
+    
+    h1 {
+        
+        text-align: center;
+    }
+}
+
+aside#style_buttons {
+    
+    display: block;
+    width: 90%;
+    /* background: #777777; */
+    // TODO: customise ... colour
+    color: aqua;
+    text-align: center;  
+    border: solid blue 1px;
+    margin: 0 auto;
+    
+    button {
+        
+        display: inline-block;
+        width: auto;
+        // TODO: customise ... colour
+        color: black;
+        // TODO: customise button background:
+        background: white;
+    }
+}
+
+
+section#main_content {
+    
+    display: block;
+    margin: 0 auto;
+    width: 90%;    
+    // TODO: customise main_content background
+    background: lightblue;
+    border: solid red 1px;
+    
+    p {
+        
+    }
+}
+
+footer {
+    
+    text-align: center;
+    
+    p {
+        
+        text-align: center;
+    }
+}

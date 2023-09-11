@@ -1,0 +1,52 @@
+/*
+
+Last Update: 11/09/2023 - 13:45
+**/
+/* _main.scss */
+:root {
+  --primary-color: lightblue;
+  --test-variable: lightblue;
+  --theme-two: lightblue;
+  --theme-three: lightblue;
+}
+
+body {
+  background: var(--primary-color);
+  font-family: times;
+}
+
+header h1 {
+  text-align: center;
+}
+
+aside#style_buttons {
+  display: block;
+  width: 90%;
+  /* background: #777777; */
+  color: aqua;
+  text-align: center;
+  border: solid blue 1px;
+  margin: 0 auto;
+}
+aside#style_buttons button {
+  display: inline-block;
+  width: auto;
+  color: black;
+  background: white;
+}
+
+section#main_content {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  background: lightblue;
+  border: solid red 1px;
+}
+footer {
+  text-align: center;
+}
+footer p {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

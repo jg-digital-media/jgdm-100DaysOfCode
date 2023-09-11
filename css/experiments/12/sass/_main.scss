@@ -5,7 +5,10 @@
     
     
   --primary-color: lightblue;
+  --main-color: #d7fdff;
+  --button-bg: #6ff2ff;
   --test-variable: lightblue;
+  --border-color: #1313a1;
   --theme-two: lightblue;
   --theme-three: lightblue;
 }
@@ -34,8 +37,8 @@ aside#style_buttons {
     // TODO: customise ... colour
     color: aqua;
     text-align: center;  
-    border: solid blue 1px;
-    margin: 0 auto;
+    /* border: solid blue 1px; */
+    margin: 12pt auto;
     
     button {
         
@@ -43,8 +46,10 @@ aside#style_buttons {
         width: auto;
         // TODO: customise ... colour
         color: black;
+        padding: 6px;
         // TODO: customise button background:
-        background: white;
+        background: var(--button-bg);
+        cursor: pointer;
     }
 }
 
@@ -53,12 +58,15 @@ section#main_content {
     
     display: block;
     margin: 0 auto;
-    width: 90%;    
+    width: 90%;  
+    border-radius: 7px;
     // TODO: customise main_content background
-    background: lightblue;
-    border: solid red 1px;
+    background: var( --main-color );
+    border: solid var( --border-color ) 2px;
     
     p {
+        
+        padding: 7px;
         
     }
 }

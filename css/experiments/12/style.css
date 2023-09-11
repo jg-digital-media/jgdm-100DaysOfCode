@@ -1,11 +1,14 @@
 /*
 
-Last Update: 11/09/2023 - 13:45
+Last Update: 11/09/2023 - 14:28
 **/
 /* _main.scss */
 :root {
   --primary-color: lightblue;
+  --main-color: #d7fdff;
+  --button-bg: #6ff2ff;
   --test-variable: lightblue;
+  --border-color: #1313a1;
   --theme-two: lightblue;
   --theme-three: lightblue;
 }
@@ -25,23 +28,30 @@ aside#style_buttons {
   /* background: #777777; */
   color: aqua;
   text-align: center;
-  border: solid blue 1px;
-  margin: 0 auto;
+  /* border: solid blue 1px; */
+  margin: 12pt auto;
 }
 aside#style_buttons button {
   display: inline-block;
   width: auto;
   color: black;
-  background: white;
+  padding: 6px;
+  background: var(--button-bg);
+  cursor: pointer;
 }
 
 section#main_content {
   display: block;
   margin: 0 auto;
   width: 90%;
-  background: lightblue;
-  border: solid red 1px;
+  border-radius: 7px;
+  background: var(--main-color);
+  border: solid var(--border-color) 2px;
 }
+section#main_content p {
+  padding: 7px;
+}
+
 footer {
   text-align: center;
 }

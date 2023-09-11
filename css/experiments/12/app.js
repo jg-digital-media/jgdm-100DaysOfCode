@@ -1,43 +1,55 @@
 console.log("app.js connected");
 
-/*const primaryColorInput = document.getElementById('one');
-
-primaryColorInput.addEventListener('click', (event) => {
-    
-  document.documentElement.style.setProperty('--primary-color', event.target.value);
-  document.documentElement.style.setProperty('--primary-color', '#ff00ff');
-});*/
-
-// select buttons
+// Select buttons
 const primaryColorInput = document.getElementById('one');
 const secondaryColorInput = document.getElementById('two');
 const monochromeColorInput = document.getElementById('monochrome');
 
-// theme customiser event listeners
-primaryColorInput.addEventListener('click', (event) => {
-    
-    document.documentElement.style.setProperty('--primary-color', 'lightblue');    
-    document.documentElement.style.setProperty('--main-color', '#d7fdff');
-    document.documentElement.style.setProperty('--button-bg','#6ff2ff');
-    document.documentElement.style.setProperty('--border-color', '#1313a1');
+// Function to set theme properties and save to localStorage
+function setThemeProperties(primaryColor, mainColor, buttonBg, borderColor) {
+    document.documentElement.style.setProperty('--primary-color', primaryColor);
+    document.documentElement.style.setProperty('--main-color', mainColor);
+    document.documentElement.style.setProperty('--button-bg', buttonBg);
+    document.documentElement.style.setProperty('--border-color', borderColor);
+
+    // Save the theme properties to localStorage
+    localStorage.setItem('themeProperties', JSON.stringify({
+        primaryColor,
+        mainColor,
+        buttonBg,
+        borderColor
+    }));
+}
+
+// Function to load theme properties from localStorage
+function loadThemeProperties() {
+    const themeProperties = JSON.parse(localStorage.getItem('themeProperties'));
+
+    if (themeProperties) {
+        setThemeProperties(
+            themeProperties.primaryColor,
+            themeProperties.mainColor,
+            themeProperties.buttonBg,
+            themeProperties.borderColor
+        );
+    }
+}
+
+// Theme customizer event listeners
+primaryColorInput.addEventListener('click', () => {
+    setThemeProperties('lightblue', '#d7fdff', '#6ff2ff', '#1313a1');
 });
 
-secondaryColorInput.addEventListener('click', (event) => {
-    
-    document.documentElement.style.setProperty('--primary-color', 'lightgreen');    
-    document.documentElement.style.setProperty('--main-color', '#b3ffe3');
-    document.documentElement.style.setProperty('--button-bg','#2cff6d');
-    document.documentElement.style.setProperty('--border-color', '#13a140');
+secondaryColorInput.addEventListener('click', () => {
+    setThemeProperties('lightgreen', '#b3ffe3', '#2cff6d', '#13a140');
 });
 
-monochromeColorInput.addEventListener('click', (event) => {
-    
-    document.documentElement.style.setProperty('--primary-color', 'gray');    
-    document.documentElement.style.setProperty('--main-color', '#dbdbdb');
-    document.documentElement.style.setProperty('--button-bg','#d5d5d5');
-    document.documentElement.style.setProperty('--border-color', 'darkgray');
+monochromeColorInput.addEventListener('click', () => {
+    setThemeProperties('gray', '#dbdbdb', '#d5d5d5', 'darkgray');
 });
 
+// Load theme properties from localStorage when the page loads
+window.addEventListener('load', loadThemeProperties);
 
 console.log(primaryColorInput.style.setProperty);
 console.log(secondaryColorInput.style.setProperty);

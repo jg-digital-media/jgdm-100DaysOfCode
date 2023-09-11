@@ -31,7 +31,7 @@
         
         <button id="one">One</button>
         <button id="two">Two</button>
-        <button id="monochrome">Monochrome</button>
+        <button id="monochrome">Mono</button>
     </aside>
     
     <section id="main_content">       

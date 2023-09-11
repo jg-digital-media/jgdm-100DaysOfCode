@@ -1,6 +1,6 @@
 /*
 
-Last Update: 11/09/2023 - 14:28
+Last Update: 11/09/2023 - 15:16
 **/
 /* _main.scss */
 :root {
@@ -15,7 +15,7 @@ Last Update: 11/09/2023 - 14:28
 
 body {
   background: var(--primary-color);
-  font-family: times;
+  font-family: arial;
 }
 
 header h1 {
@@ -35,9 +35,20 @@ aside#style_buttons button {
   display: inline-block;
   width: auto;
   color: black;
-  padding: 6px;
+  padding: 8px;
+  border: solid 2px black;
   background: var(--button-bg);
   cursor: pointer;
+}
+
+#reset-link-container {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+#reset-link-container a {
+  color: red;
+  font-weight: bold;
 }
 
 section#main_content {
@@ -47,6 +58,8 @@ section#main_content {
   border-radius: 7px;
   background: var(--main-color);
   border: solid var(--border-color) 2px;
+  font-weight: normal;
+  font-size: 12px;
 }
 section#main_content p {
   padding: 7px;

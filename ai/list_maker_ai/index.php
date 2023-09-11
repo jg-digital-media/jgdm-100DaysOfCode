@@ -1,11 +1,11 @@
 <?php
 
-$version = 7;
+$version = 8;
 $website_title = "Simple List Maker App";
 
 require "inc/header.php"; ?>
 
-    <div class="instruction">Add an item to your List: Type in your note and press Enter: </div>
+    <div class="instruction">To add an item to your list, type in your note and press "Enter": </div>
 
     <div class="input-tasks">
         
@@ -86,21 +86,18 @@ require "inc/header.php"; ?>
             taskItem.innerHTML = `
                 <input type="checkbox" class="completedCheckbox" ${completed ? 'checked' : ''}>
                 <span>${id}. ${text}</span>
-                <input type="text" class="editInput" value="${text}">
-                <button class="editButton">Edit</button>
+                <button class="editButton">${editing ? 'Save' : 'Edit'}</button>
                 <button class="removeButton">Remove</button>
             `;
             
             const completedCheckbox = taskItem.querySelector('.completedCheckbox');
-            const editInput = taskItem.querySelector('.editInput');
             const editButton = taskItem.querySelector('.editButton');
             const removeButton = taskItem.querySelector('.removeButton');
             
             if (editing) {
-                taskItem.classList.add('editing');
-                editInput.style.display = 'inline-block';
-            } else {
-                editInput.style.display = 'none';
+                const span = taskItem.querySelector('span');
+                const originalText = span.textContent.slice(`${id}. `.length);
+                span.innerHTML = `<input type="text" class="editInput" value="${originalText}">`;
             }
             
             completedCheckbox.addEventListener('change', () => {
@@ -110,19 +107,22 @@ require "inc/header.php"; ?>
             });
             
             editButton.addEventListener('click', () => {
-                taskItem.classList.toggle('editing');
-                if (taskItem.classList.contains('editing')) {
-                    editInput.style.display = 'inline-block';
-                    editInput.focus();
-                } else {
-                    editInput.style.display = 'none';
+                if (editing) {
+                    const editInput = taskItem.querySelector('.editInput');
                     const editedText = editInput.value.trim();
                     if (editedText !== '') {
                         text = editedText;
                         taskItem.querySelector('span').textContent = `${id}. ${text}`;
                         updateTaskText(id, editedText);
                     }
+                } else {
+                    const span = taskItem.querySelector('span');
+                    const originalText = span.textContent.slice(`${id}. `.length);
+                    span.innerHTML = `<input type="text" class="editInput" value="${originalText}">`;
                 }
+                editing = !editing;
+                editButton.textContent = editing ? 'Save' : 'Edit';
+                saveTasksToLocalStorage();
             });
             
             removeButton.addEventListener('click', () => {

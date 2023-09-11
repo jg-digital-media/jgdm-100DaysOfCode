@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N9WB623MVP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-N9WB623MVP');
+    </script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    
+</head>
+    
+<body>
+    
+    <header>
+    
+        <h1>Theme Customiser</h1>
+    </header>
+    
+    <aside id="style_buttons">
+    
+        
+        <button id="one">One</button>
+        <button id="two">Two</button>
+        <button id="monochrome">Monochrome</button>
+    </aside>
+    
+    <section id="main_content">       
+        
+        <p>Change is the essential process of all existence. To be human is to be complex. You can't avoid a little ugliness -- from within -- and from without. I object to intellect without discipline; I object to power without constructive purpose. </p>
+
+        <p>You’ll not escape. From hell's heart, I stab at thee. …For spite’s sake, I spit my last breath at thee. It was the best of times, it was the worst of times.' …Message, Spock?&quot; &quot;…None that I am conscious of — save, perhaps, for 'Happy Birthday.'</p>
+
+        <p>It's not safe out here. It's wondrous, with treasures to satiate desires both subtle and gross; but it's not for the timid. Insults are effective only where emotion is present. Without followers, evil cannot spread. One man cannot summon the future. But one man can change the present! </p>
+
+        <p>A man either lives life as it happens to him, meets it head-on and licks it, or he turns his back on it and starts to wither away. Genius doesn't work on an assembly line basis. Did Einstein, Kazanga or Sitar of Vulcan produce new and revolutionary theories on a regular schedule? You can't simply say, 'Today I will be brilliant.' I speak of rights! A machine has none; a man must. If you do not grant him that right, you have brought us down to the level of the machine; indeed, you have elevated that machine above us!  </p>
+
+        <p>To all mankind -- may we never find space so vast, planets so cold, heart and mind so empty that we cannot fill them with love and warmth. You know the greatest danger facing us is ourselves, and irrational fear of the unknown. There is no such thing as the unknown. Only things temporarily hidden, temporarily not understood. I object to intellect without discipline; I object to power without constructive purpose.</p>
+
+    
+    </section>
+    
+    <footer>&copy; All Rights Reserved</footer>
+    
+    <p>index.php</p>
+    
+    <script type="text/javascript" src="app.js"></script>
+</body>

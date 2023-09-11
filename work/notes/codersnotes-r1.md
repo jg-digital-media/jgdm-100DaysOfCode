@@ -8,6 +8,59 @@ ___
 ___
 
 
+### Day 6
+
+
+```css
+:root {
+    
+    
+  --primary-color: lightblue;
+  --main-color: #d7fdff;
+  --button-bg: #6ff2ff;
+  --test-variable: lightblue;
+  --border-color: #1313a1;
+  --theme-two: lightblue;
+  --theme-three: lightblue;
+}
+
+```
+
+```scss
+body {
+    
+    
+    // TODO: customise main background
+    background: var(--primary-color);
+    font-family: arial;
+}
+
+```
+
+```javascript
+
+monochromeColorInput.addEventListener('click', () => {
+    setThemeProperties('gray', '#dbdbdb', '#d5d5d5', 'darkgray');
+});
+
+```
+
+```javascript
+
+    // handling localStorage
+    
+    // Save the theme properties to localStorage
+    localStorage.setItem('themeProperties', JSON.stringify({
+        primaryColor,
+        mainColor,
+        buttonBg,
+        borderColor
+    }));
+
+    localStorage.getItem('themeProperties'));
+    
+```
+
 ### Day 5
 
 #### To iterate over an array of objects

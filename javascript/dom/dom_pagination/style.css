@@ -1,7 +1,8 @@
 /* Import */ /* 
 
-Last Update: 08-09-2023 - 14:25
-Source Material: link....
+
+Last Update: 12-09-2023 - 15:10
+Source Material: https://teamtreehouse.com/library/practice-data-pagination
 */
 @import url("https://fonts.cdnfonts.com/css/gotham-rounded");
 .pagination-list button {
@@ -22,6 +23,7 @@ Source Material: link....
 /* Universal selector */
 * {
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
   font-family: "Gotham Rounded", sans-serif;
   font-family: "Gotham Rounded", sans-serif;
@@ -29,13 +31,28 @@ Source Material: link....
 
 /* Shared styles */
 body {
-  display: flex;
+  /*display: flex;*/
   background-color: #3c97cb;
 }
 body header {
   background-color: #3c97cb;
   width: 100%;
+  box-shadow: #0a3b85 0px -4px 12px 7px;
 }
+
+footer {
+  width: 100%;
+}
+footer p {
+  text-align: center;
+}
+footer p a {
+  color: red;
+}
+footer p a:hover {
+  text-decoration: none;
+}
+
 body .wrapper {
   width: 100%;
   margin: 0 auto;

@@ -44,6 +44,10 @@ body .wrapper > .datalist-container {
   display: flex;
   padding: 1rem;
 }
+body .wrapper > .datalist-container a {
+  text-decoration: none;
+  width: 245px;
+}
 body .wrapper > .datalist-container .data-item .card-header {
   justify-content: center;
   align-items: center;
@@ -51,6 +55,8 @@ body .wrapper > .datalist-container .data-item .card-header {
 }
 body .wrapper > .datalist-container .data-item .card-content {
   padding: 1rem;
+  height: 108px;
+  min-height: 100px;
 }
 body .wrapper .pagination-container .pagination-list {
   /* display: flex; */

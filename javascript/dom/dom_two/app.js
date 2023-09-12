@@ -133,6 +133,22 @@ function displayTasksFromLocalStorage() {
 // Call the function to display tasks when the page loads
 displayTasksFromLocalStorage();
 
+// Select the clearTasks anchor element
+const clearTasksButton = document.getElementById('clearTasks');
+
+// Add a click event listener to the clearTasks anchor element
+clearTasksButton.addEventListener('click', function () {
+    // Remove the tasks from localStorage
+    localStorage.removeItem('tasks');
+
+    // Remove all task list items from the DOM
+    const list = document.querySelector('ul');
+    while (list.firstChild) {
+        list.removeChild(list.firstChild);
+    }
+});
+
+
 
 // Toggle display of main
 btnToggle.addEventListener('click', () => {

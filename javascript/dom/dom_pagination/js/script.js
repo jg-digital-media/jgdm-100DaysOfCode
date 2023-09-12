@@ -6,14 +6,14 @@ const paginationList = document.querySelector("#paginationList");
 
 
 //console.log(datalist);  examine array data
-const itemsPerPage = 4;
+const itemsPerPage = 7;
 
 /* The function that calculates how many buttons are
 needed and dynamically adds them to the page */
 function handlePagination(array) {
 
     let numButtons = Math.ceil( array.length / itemsPerPage );
-    console.log(numButtons); // 3 by default outputs 4
+    console.log(numButtons); 
 
 
     for ( i=1; i<=numButtons; i++) {
@@ -54,11 +54,12 @@ function showPage(array, page) {
             const listItem = 
                 
             `
+            <a href="${ array[i].project_url }" target="blank" title="${ array[i].project_url }">
             <div class="data-item">
 
                 <div class="card-header">
 
-                    <img src="${ array[i].project_image }" alt="photo of ${ array[i].project_name }" title="photo of ${ array[i].project_news }" />
+                    <img src="${ array[i].img_url }" alt="photo of ${ array[i].project_alt }" title="photo of ${ array[i].project_alt }" />
 
                 </div>
 
@@ -68,6 +69,8 @@ function showPage(array, page) {
                     
                   </div>
             </div> 
+            </a>
+
             `;
 
             console.log(array.length);

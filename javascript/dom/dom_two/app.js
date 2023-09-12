@@ -16,8 +16,11 @@ if (localStorage.getItem('title_input_update') ) {
     get_heading.textContent = localStorage.getItem('title_input_update');
 }
 
-//addTextInput.value = "Change Me!";
+// addTextInput.value = "Change Me!";
 addTextInput.placeholder = "change";
+
+// Set default text to hide task list
+btnToggle.textContent = "Hide List";    
 
 
 // Application LocalStorage

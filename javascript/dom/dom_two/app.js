@@ -17,7 +17,7 @@ if (localStorage.getItem('title_input_update') ) {
 }
 
 // addTextInput.value = "Change Me!";
-addTextInput.placeholder = "change";
+addTextInput.placeholder = "Enter a task...";
 
 // Set default text to hide task list
 btnToggle.textContent = "Hide List";    
@@ -104,7 +104,7 @@ btnCreate.addEventListener('click', () => {
     attachRemoveBtn(list_item);
     
     addTextInput.value = "";
-    addTextInput.placeholder = "Enter a new task";
+    addTextInput.placeholder = "Enter a new task...";
 
     // Save the new task to localStorage
     saveTaskToLocalStorage(list_item.textContent);

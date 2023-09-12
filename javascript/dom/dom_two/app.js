@@ -93,6 +93,19 @@ btnUpdate.addEventListener("click", function(){
     
 })
 
+// Function to save task to localStorage
+function saveTaskToLocalStorage(task) {
+    let tasks;
+    if (localStorage.getItem('tasks') === null) {
+        tasks = [];
+    } else {
+        tasks = JSON.parse(localStorage.getItem('tasks'));
+    }
+
+    tasks.push(task);
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+}
+
 
 // Create new task - at the top with prepend
 btnCreate.addEventListener('click', () => {
@@ -110,21 +123,7 @@ btnCreate.addEventListener('click', () => {
     saveTaskToLocalStorage(list_item.textContent);
 });
 
-// Function to save task to localStorage
-function saveTaskToLocalStorage(task) {
-    let tasks;
-    if (localStorage.getItem('tasks') === null) {
-        tasks = [];
-    } else {
-        tasks = JSON.parse(localStorage.getItem('tasks'));
-    }
-
-    tasks.push(task);
-    localStorage.setItem('tasks', JSON.stringify(tasks));
-}
-
-
-// Function to display tasks from localStorage
+/// Function to display tasks from localStorage
 function displayTasksFromLocalStorage() {
     let tasks;
     if (localStorage.getItem('tasks') === null) {
@@ -133,22 +132,76 @@ function displayTasksFromLocalStorage() {
         tasks = JSON.parse(localStorage.getItem('tasks'));
     }
 
+    // Clear the current list items
+    const list = document.querySelector('ul');
+    while (list.firstChild) {
+        list.removeChild(list.firstChild);
+    }
+
     // Create list items for each task
     tasks.forEach((taskText) => {
-        const list = document.querySelector('ul');      // parent node
         const list_item = document.createElement('li'); // child node
-
         list_item.textContent = taskText;
-
-        // Create and attach the remove button
-        attachRemoveBtn(list_item);
-
+        list_item.setAttribute('data-task', taskText); // Store task text as a data attribute
         list.prepend(list_item);
+        attachRemoveBtn(list_item);
     });
 }
 
+// Function to remove a task
+function removeTask(taskText) {
+    let tasks;
+    if (localStorage.getItem('tasks') === null) {
+        tasks = [];
+    } else {
+        tasks = JSON.parse(localStorage.getItem('tasks'));
+    }
+
+    // Remove the task from the tasks array
+    const taskIndex = tasks.indexOf(taskText);
+    if (taskIndex !== -1) {
+        tasks.splice(taskIndex, 1);
+    }
+
+    // Update localStorage with the modified tasks array
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+}
+
+// Event delegation for the Remove buttons
+listContainer.addEventListener('click', (event) => {
+    if (event.target.className === 'btn-remove') {
+        const button = event.target;
+        const li = button.parentNode;
+        const taskText = li.getAttribute('data-task'); // Get the task text
+
+        // Remove the task from localStorage and the DOM
+        removeTask(taskText);
+        li.remove();
+    }
+});
+
 // Call the function to display tasks when the page loads
 displayTasksFromLocalStorage();
+
+// Function to remove a task
+function removeTask(taskText) {
+    let tasks;
+    if (localStorage.getItem('tasks') === null) {
+        tasks = [];
+    } else {
+        tasks = JSON.parse(localStorage.getItem('tasks'));
+    }
+
+    // Remove the task from the tasks array
+    const taskIndex = tasks.indexOf(taskText);
+    if (taskIndex !== -1) {
+        tasks.splice(taskIndex, 1);
+    }
+
+    // Update localStorage with the modified tasks array
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+}
+
 
 // Select the clearTasks anchor element
 const clearTasksButton = document.getElementById('clearTasks');
@@ -186,6 +239,22 @@ btnToggle.addEventListener('click', () => {
 
 });
 
+
+/*
+// Event delegation for the Remove buttons
+listContainer.addEventListener('click', (event) => {
+    
+    if (event.target.className === 'btn-remove') {
+        const button = event.target;
+        const li = button.parentNode;
+        const taskText = li.getAttribute('data-task'); // Get the task text
+
+        // Remove the task from localStorage and the DOM
+        removeTask(taskText);
+        li.remove();
+    }
+});
+*/
 
 
 listContainer.addEventListener('mouseover', (event) => {

@@ -7,6 +7,8 @@ ___
 **Directories:** ai | api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### Day 7
+
 
 ### Day 6
 
@@ -44,6 +46,7 @@ monochromeColorInput.addEventListener('click', () => {
 });
 
 ```
+#### Handling LocalStorage
 
 ```javascript
 

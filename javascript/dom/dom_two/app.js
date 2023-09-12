@@ -106,6 +106,34 @@ btnCreate.addEventListener('click', () => {
 
 });
 
+
+// Function to display tasks from localStorage
+function displayTasksFromLocalStorage() {
+    let tasks;
+    if (localStorage.getItem('tasks') === null) {
+        tasks = [];
+    } else {
+        tasks = JSON.parse(localStorage.getItem('tasks'));
+    }
+
+    // Create list items for each task
+    tasks.forEach((taskText) => {
+        const list = document.querySelector('ul');      // parent node
+        const list_item = document.createElement('li'); // child node
+
+        list_item.textContent = taskText;
+
+        // Create and attach the remove button
+        attachRemoveBtn(list_item);
+
+        list.prepend(list_item);
+    });
+}
+
+// Call the function to display tasks when the page loads
+displayTasksFromLocalStorage();
+
+
 // Toggle display of main
 btnToggle.addEventListener('click', () => {
 

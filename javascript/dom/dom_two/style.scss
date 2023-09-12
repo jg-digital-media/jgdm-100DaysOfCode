@@ -1,5 +1,5 @@
 /**
-*   Last Update:  03-09-2021
+*   Last Update:  12-09-2023  16:48
 */
 
 @import "config.scss";
@@ -15,8 +15,10 @@ body {
 }
 
 header {
+    
     background: $bg-header;
     height: 75px;
+    border-bottom: solid 3px green;
 
     h1 {
         text-align: center;

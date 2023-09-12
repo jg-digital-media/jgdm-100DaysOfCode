@@ -1,0 +1,21 @@
+// footer.scsss
+
+footer {
+    
+    width: 100%;
+    
+    p {
+        
+        text-align: center;
+        
+        a {
+            
+            color: red;
+            
+            &:hover {
+                
+                text-decoration: none;
+            }
+        }
+    }
+}

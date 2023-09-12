@@ -16,7 +16,8 @@ if (localStorage.getItem('title_input_update') ) {
     get_heading.textContent = localStorage.getItem('title_input_update');
 }
 
-addTextInput.value = "Change Me!";
+//addTextInput.value = "Change Me!";
+addTextInput.placeholder = "change";
 
 
 // Application LocalStorage
@@ -99,7 +100,8 @@ btnCreate.addEventListener('click', () => {
     list.prepend(list_item);
     attachRemoveBtn(list_item);
     
-    addTextInput.value = "Enter a New Task";
+    addTextInput.value = "";
+    addTextInput.placeholder = "Enter a new task";
 
 
 });

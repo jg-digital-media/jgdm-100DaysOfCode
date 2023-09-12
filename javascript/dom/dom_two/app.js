@@ -103,8 +103,22 @@ btnCreate.addEventListener('click', () => {
     addTextInput.value = "";
     addTextInput.placeholder = "Enter a new task";
 
-
+    // Save the new task to localStorage
+    saveTaskToLocalStorage(list_item.textContent);
 });
+
+// Function to save task to localStorage
+function saveTaskToLocalStorage(task) {
+    let tasks;
+    if (localStorage.getItem('tasks') === null) {
+        tasks = [];
+    } else {
+        tasks = JSON.parse(localStorage.getItem('tasks'));
+    }
+
+    tasks.push(task);
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+}
 
 
 // Function to display tasks from localStorage

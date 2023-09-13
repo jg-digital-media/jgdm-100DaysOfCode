@@ -1,7 +1,14 @@
 # 100 Days of Code - Round 1  
 
-### **Status:** Day 7 of 100.  **Last Update:**  12 September 2023
+### **Status:** Day 8 of 100.  **Last Update:**  13 September 2023
 
+
+### Day 8**: Wednesday September 13th 2023
+
+Version 9 of the List Maker App is up.  Solves a number of glitches and UI issues. There are some reproducable glitches but I'm pleased with the progress I've made on this little page! 
+https://projects.jonniegrieve.co.uk/ai/list_maker_ai/
+
+#### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
 
 ### Day 7**: Tuesday September 12th 2023
 

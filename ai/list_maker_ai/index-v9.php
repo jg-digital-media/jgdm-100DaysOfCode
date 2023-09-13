@@ -30,7 +30,10 @@ require "inc/header.php"; ?>
         </ul>
     </article>-->
 
-    <ul id="taskList"></ul>
+    <ul id="taskList">
+          <!-- No tasks message will be added here dynamically -->
+    </ul>
+
 
     <script>
         const taskList = document.getElementById('taskList');
@@ -70,9 +73,16 @@ require "inc/header.php"; ?>
         });
         
         function addTask() {
-            const taskText = taskInput.value.trim();
             
+            const taskText = taskInput.value.trim();
+
             if (taskText !== '') {
+                // Remove the "No tasks to display" message if it exists
+                const noTasksMessage = document.getElementById('noTasksMessage');
+                if (noTasksMessage) {
+                    taskList.removeChild(noTasksMessage);
+                }
+
                 const taskItem = createTaskItem(taskId, taskText, false, false);
                 taskList.appendChild(taskItem);
                 tasks.push({ id: taskId, text: taskText, editing: false, completed: false });
@@ -81,6 +91,7 @@ require "inc/header.php"; ?>
                 taskId++;
             }
         }
+
         
         function createTaskItem(id, text, editing, completed) {
             const taskItem = document.createElement('li');
@@ -164,9 +175,22 @@ require "inc/header.php"; ?>
                 }
             });
         }
-        
+
         function updateTaskVisibility() {
             const hideCompleted = hideCompletedCheckbox.checked;
+
+            // Check if there are no tasks and create/display the "noTasksMessage" if needed
+            const noTasksMessage = document.getElementById('noTasksMessage');
+            
+            if (tasks.length === 0 && hideCompleted && !noTasksMessage) {
+                const noTasksMessage = document.createElement('li');
+                noTasksMessage.textContent = 'No tasks to display.';
+                noTasksMessage.id = 'noTasksMessage';
+                taskList.appendChild(noTasksMessage);
+            } else if (noTasksMessage) {
+                taskList.removeChild(noTasksMessage);
+            }
+
             tasks.forEach(task => {
                 const taskItem = taskList.querySelector(`li:nth-child(${task.id})`);
                 if (taskItem) {
@@ -174,6 +198,8 @@ require "inc/header.php"; ?>
                 }
             });
         }
+
+
         
         function saveTasksToLocalStorage() {
             localStorage.setItem('tasks', JSON.stringify(tasks));

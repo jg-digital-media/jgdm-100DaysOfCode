@@ -1,0 +1,33 @@
+// CONFIG
+$bg-body: #67c4f1;
+
+
+* {
+    
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    
+    background: $bg-body;
+    
+}
+
+
+/* Style for the div elements */
+.aspect-ratio-example {
+    width: 300px; /* You can adjust the width as needed */
+    margin: 10px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    display: inline-block;
+    position: relative;
+}
+
+/* Style for the images inside the div elements */
+.aspect-ratio-example img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

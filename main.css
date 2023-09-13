@@ -23,6 +23,8 @@ header {
   background: #292927;
   height: 130px;
   border-bottom: solid white 3px;
+  position: sticky;
+  top: 0;
 }
 header h1 {
   text-align: center;
@@ -35,15 +37,11 @@ header a img#main_logo {
   display: block;
   margin: 0 auto;
   position: relative;
-  top: 10px;
-  width: 100px;
-  height: 100px;
-  display: block;
-  margin: 0 auto;
-  border: solid white 3px;
+  top: 20px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   padding: 6px;
-  background: #292927;
 }
 
 main {
@@ -54,7 +52,7 @@ main {
   flex-direction: row;
   gap: 5px;
   width: 95%;
-  margin: 45px auto;
+  margin: 60px auto;
 }
 main h2 {
   color: white;

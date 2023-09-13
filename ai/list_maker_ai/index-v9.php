@@ -11,26 +11,21 @@ require "inc/header.php"; ?>
         
         <input type="text" id="taskInput" placeholder="Enter task">
 
-        <!-- TODO: style addTask button -->
+        <!-- Add a New Task -->
         <button id="addTaskButton">Add Task</button>
 
-        <!-- Clear Tasks -->    
+        <!-- Clear All Tasks -->    
         <button id="clearTasksButton">Clear All Tasks</button>
         
     </div>
 
+    <!-- Hide Complete Tasks from View -->
     <label class="toggle-completedtasks">
         <input type="checkbox" id="hideCompletedCheckbox"> Hide Completed Tasks
     </label>
 
-    <!--<article id="display-list">
-        <h2>Your List Today Includes: </h2>
-            
-        <div><label for="filter-tasks">Remove/Hide completed tasks</label><input id="filter-tasks" type="checkbox"></div><ul id="task-list">
-        </ul>
-    </article>-->
-
     <ul id="taskList">
+        
           <!-- No tasks message will be added here dynamically -->
     </ul>
 
@@ -71,6 +66,7 @@ require "inc/header.php"; ?>
         hideCompletedCheckbox.addEventListener('change', () => {
             updateTaskVisibility();
         });
+        
         
         function addTask() {
             
@@ -148,6 +144,7 @@ require "inc/header.php"; ?>
             return taskItem;
         }
         
+        
         function updateTaskText(id, newText) {
             tasks.forEach(task => {
                 if (task.id === id) {
@@ -157,6 +154,7 @@ require "inc/header.php"; ?>
             saveTasksToLocalStorage();
         }
         
+        
         function updateTaskCompleted(id, completed) {
             tasks.forEach(task => {
                 if (task.id === id) {
@@ -165,6 +163,7 @@ require "inc/header.php"; ?>
             });
             saveTasksToLocalStorage();
         }
+        
         
         function renumberTasks() {
             tasks.forEach((task, index) => {
@@ -176,6 +175,7 @@ require "inc/header.php"; ?>
             });
         }
 
+        
         function updateTaskVisibility() {
             const hideCompleted = hideCompletedCheckbox.checked;
 
@@ -198,12 +198,12 @@ require "inc/header.php"; ?>
                 }
             });
         }
-
-
+        
         
         function saveTasksToLocalStorage() {
             localStorage.setItem('tasks', JSON.stringify(tasks));
         }
+        
     </script>
 
 <?php require "inc/footer.php"; ?>

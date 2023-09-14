@@ -1,7 +1,14 @@
 # 100 Days of Code - Round 1  
 
-### **Status:** Day 8 of 100.  **Last Update:**  13 September 2023
+### **Status:** Day 9 of 100.  **Last Update:**  14 September 2023
 
+
+
+### Day 9**: Thursday September 14th 2023
+
+Today's little project is Photo Viewer which displays a dynamic set of images alongside their image metadata in what is designed to be an at-a-glance interface.  
+
+#### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
 
 ### Day 8**: Wednesday September 13th 2023
 

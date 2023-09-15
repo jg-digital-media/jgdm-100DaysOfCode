@@ -1,8 +1,14 @@
 # 100 Days of Code - Round 1  
 
-### **Status:** Day 9 of 100.  **Last Update:**  14 September 2023
+### **Status:** Day 10 of 100.  **Last Update:**  15 September 2023
 
 
+
+### Day 10**: Friday September 15th 2023
+
+Created a fully functional quote calculator (v5.1) with a bit of a markup refesh. All interactions update the final quote amount in realtime. Want to do it justice visually though so will be working on some more changes soon!  :)
+
+#### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
 
 ### Day 9**: Thursday September 14th 2023
 

@@ -1,8 +1,12 @@
 # 100 Days of Code - Round 1  
 
-### **Status:** Day 10 of 100.  **Last Update:**  15 September 2023
+### **Status:** Day 11 of 100.  **Last Update:**  18 September 2023
 
 
+
+### Day 11**: Monday September 18th 2023
+
+Worked with PHP today to update the Quote Calculator (v5.2) and photo viewer app (v1.2) both of which should now be functional and fairly presentable to the eye!
 
 ### Day 10**: Friday September 15th 2023
 

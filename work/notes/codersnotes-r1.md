@@ -1,13 +1,23 @@
 # 100 Days of Code - Round 1
 
-## **Status:** Day 10 of 100  
-**Last Update:** 15 September 2023
+## **Status:** Day 11 of 100  
+**Last Update:** 18 September 2023
 ___
 
 **Directories:** ai | api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-### Day 10
+### Day 11
+
+
+
+#### Check styling on server
+
++ [One](https://staging.jonniegrieve.co.uk/photo_viewer_projects/)
+
++ [Two](https://staging.jonniegrieve.co.uk/photo_viewer_projects/v1/index.php)
+
++ [Three](https://www.jonniegrieve.co.uk/assets/quotes/index.php)
 
 
 ### Day 6

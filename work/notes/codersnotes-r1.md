@@ -1,11 +1,26 @@
 # 100 Days of Code - Round 1
 
-## **Status:** Day 11 of 100  
-**Last Update:** 18 September 2023
+## **Status:** Day 12 of 100  
+**Last Update:** 19 September 2023
 ___
 
 **Directories:** ai | api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
+
+
+### Day 12
+
+
+Photo Viewer #1 - Visually complete - functional
+
+Photo Viewer #2 - Visually complete - functional
+
+Photo Viewer #3 - Visually imcomplete - functional
+
+Photo Viewer #4 - Visually imcomplete -Generated competely via AINothing displayed - cycling through broken images..
+
+Photo Viewer #5 - Visually Complete - Not functioning - has errors
+
 
 ### Day 11
 

@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 1: Day 11 of 100. **Last Update:** 18 September 2023 
++ **Status:** Round 1: Day 12 of 100. **Last Update:** 19 September 2023 
 
 ## **Update:** I have recently stripped out react, node and vue js projects. New website coming to https://www.jonniegrieve.co.uk imminently  
 
@@ -132,10 +132,11 @@
 
 ## Projects Developed this Round
 
-+ Quote Calculator [Quote Calculator](https://www.jonniegrieve.co.uk/assets/quotes/index.php) - **Ongoing**
-+ Data Pagination with JavaScript - [Data Pagination](https://projects.jonniegrieve.co.uk/dom/dom_pagination/index.html) - **R1D5**
++ Quote Calculator [Quote Calculator](https://www.jonniegrieve.co.uk/assets/quotes/index.php) - **In Progress**
++ Data Pagination with JavaScript - [Data Pagination] - **R1D5**
++ Filterred Data Pagination with JavaScript - [Data Pagination](https://projects.jonniegrieve.co.uk/dom/dom_pagination/index.html) - 
 + Style Theme Customiser - [Style Theme Customiser](https://projects.jonniegrieve.co.uk/front_end_experiments/12/index.php) `php`, `html5`, `css`, `javaScript`, `localStorage` - **R1D6**
-+ 
++ Photo Viewer Projects [https://staging.jonniegrieve.co.uk/photo_viewer_projects] - **In Progress**
 
 ## Project Links
 

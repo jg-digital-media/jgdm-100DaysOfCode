@@ -1,8 +1,12 @@
 # 100 Days of Code - Round 1  
 
-### **Status:** Day 11 of 100.  **Last Update:**  18 September 2023
+### **Status:** Day 12 of 100.  **Last Update:**  19 September 2023
 
 
+
+### Day 12**: Tuesday September 19th 2023
+
+Versions 1 and 2 of a photo viewer app are both functional. I've added links to all 5 with some notes here on this link about how each are getting on. https://staging.jonniegrieve.co.uk/photo_viewer_projects/
 
 ### Day 11**: Monday September 18th 2023
 

@@ -26,6 +26,40 @@ const authorsPerPage = 3;
 //      - Set the authorContainer's innerHTML to an <h3> saying no results were found.
 //      - Set the paginationList's innerHTML to an empty string.
 
+
+// SRC: https://teamtreehouse.com/library/practice-filtering-paginated-data/one-solution
+
+searchInput.addEventListener("keyup", () => {
+
+    // initiases an empty array and then gather the filter user input
+    const newData = [];
+    const userInput = searchInput.value.toLowerCase();
+
+    for (i=0; i < authors.length; i++) {
+        
+        const authorName = authors[i].name.toLowerCase();
+
+        if(authorName.includes(userInput)) {
+
+            newData.push(authors[i]);
+        }
+    }
+
+    if (newData.length > 0) {
+        
+        handlePagination(newData);
+        showPage(newData, 1);
+
+    } else {
+        
+        const html = "<h3>No results found!</h3>";
+        authorContainer.innerHTML = html;
+        paginationList.innerHTML = "";
+    }
+});
+
+
+
 /* DON'T CHANGE THE CODE BELOW */
 
 /* This function handles calculating how many buttons are

@@ -1,8 +1,14 @@
 # 100 Days of Code - Round 1  
 
-### **Status:** Day 12 of 100.  **Last Update:**  19 September 2023
+### **Status:** Day 13 of 100.  **Last Update:** 20 September 2023
 
 
+### Day 13**: Wednesday September 20th 2023
+
+
+Sets and updates the realtime quotes for each individual billing type under each radio button. https://www.jonniegrieve.co.uk/assets/quotes/index.php
+
+#### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
 
 ### Day 12**: Tuesday September 19th 2023
 
@@ -11,6 +17,7 @@ Versions 1 and 2 of a photo viewer app are both functional. I've added links to 
 ### Day 11**: Monday September 18th 2023
 
 Worked with PHP today to update the Quote Calculator (v5.2) and photo viewer app (v1.2) both of which should now be functional and fairly presentable to the eye!
+#### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
 
 ### Day 10**: Friday September 15th 2023
 

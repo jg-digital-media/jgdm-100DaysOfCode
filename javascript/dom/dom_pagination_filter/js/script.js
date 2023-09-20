@@ -37,7 +37,7 @@ searchInput.addEventListener("keyup", () => {
 
     for (i=0; i < authors.length; i++) {
         
-        const authorName = authors[i].name.toLowerCase();
+        const authorName = authors[i].text.toLowerCase();
 
         if(authorName.includes(userInput)) {
 

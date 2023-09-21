@@ -1,8 +1,27 @@
 # 100 Days of Code - Round 1  
 
-### **Status:** Day 13 of 100.  **Last Update:** 20 September 2023
+### **Status:** Day 14 of 100.  **Last Update:** 21 September 2023
 
 
+### Day 14**: Thursday September 21st 2023
+
+
+Sets and updates the realtime quotes for each individual billing type under each radio button. https://www.jonniegrieve.co.uk/assets/quotes/index.php
+
+
+#### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
+
+
+https://projects.jonniegrieve.co.uk/
+
+
+### Day 13**: Wednesday September 20th 2023
+
+
+Sets and updates the realtime quotes for each individual billing type under each radio button. https://www.jonniegrieve.co.uk/assets/quotes/index.php
+
+
+#### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
 ### Day 13**: Wednesday September 20th 2023
 
 

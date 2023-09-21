@@ -1,12 +1,63 @@
 # 100 Days of Code - Round 1
 
-## **Status:** Day 13 of 100  
-**Last Update:** 20 September 2023
+## **Status:** Day 14 of 100  
+**Last Update:** 21 September 2023
 ___
 
 **Directories:** ai | api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+
+### Day 14
+
+
+Take a look a t the list of my projects which now has filterable checkboxes specific to the kind of project selected. https://projects.jonniegrieve.co.uk/
+
+
+#### project categories
+
+"project_type"
+
++ website
++ Single Page App
++ Single-Page Website
++ App
++ Single-Page App
++ Single-Page Site
++ Single Page
++ Webpage
++ WordPress
+
+ + Repository (new catgegory)
+
+#### "project_category"
+
++ website
++ webpage
++ app
++ wordpress 
++ single-page-app 
++ single-page-site 
++ repository
+
++ html5 
++ scss 
++ css 
++ php 
++ javascript 
++ api 
++ ai 
++ flask
++ express
+
+
+"project_dev_status"
+
+dev-complete
+dev-ongoing
+dev-retired
+dev-incomplete
+dev-inprogress
 
 ### Day 12
 

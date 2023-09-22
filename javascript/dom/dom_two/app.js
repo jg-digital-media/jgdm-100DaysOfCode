@@ -7,6 +7,7 @@ const btnCreate = document.querySelector(".btn-create");
 const btnToggle = document.querySelector('.btn-toggle');
 const mouseOverLi = document.getElementsByTagName('li');
 const addTextInput = document.querySelector('#add-new-text');
+const changeListText = document.querySelector('#js_change_text');
 
 
     
@@ -18,6 +19,9 @@ if (localStorage.getItem('title_input_update') ) {
 
 // addTextInput.value = "Change Me!";
 addTextInput.placeholder = "Enter a task...";
+
+// Set placeholder text for new list/agenda
+changeListText.placeholder = "Enter a newlist/agenda title";
 
 // Set default text to hide task list
 btnToggle.textContent = "Hide List";    
@@ -66,9 +70,24 @@ listContainer.addEventListener('click', (event) => {
 
 
 // Update input text - agenda
-btnUpdate.addEventListener("click", function(){
 
+btnUpdate.addEventListener("click", function(){
     
+    updateTitle();
+});
+
+// Listen for Enter key press in the input field
+const changeText = document.getElementById("js_change_text");
+
+changeText.addEventListener("keyup", function (event) {
+    
+    if (event.key === "Enter") {
+        updateTitle();
+    }
+});
+
+
+function updateTitle() {    
 
     get_heading.className = "grow";
     const change_text = document.getElementById("js_change_text");
@@ -79,19 +98,24 @@ btnUpdate.addEventListener("click", function(){
     console.log( localStorage.getItem( "title_input_update" ) ); //log key value 
 
     if (change_text.value === "") {
-        get_heading.textContent = "DOM List Maker";
+        
+        get_heading.textContent = "DOM List Maker";        
+        changeListText.placeholder = "Enter a new title";
     } else {
         change_text.value="";
+        addTextInput.placeholder = "Enter a new task...";
+        
+        
         //get_heading.textContent = change_text.innerHTML;
 
         /* Set local storage value - update list title */
         //localStorage.setItem("title_input_update", JSON.stringify( get_heading ));
         //localStorage.setItem( "title_input_update",  get_heading.textContent );
-        storeLastTitleUpdate();
+        //storeLastTitleUpdate();
     }
 
     
-})
+}
 
 // Function to save task to localStorage
 function saveTaskToLocalStorage(task) {

@@ -1,5 +1,5 @@
 /**
-*  Last Update:  22-09-2023  07:48
+*  Last Update:  22-09-2023  08:53
 *  Version:  v1.4
 */
 main div.set-agenda button {
@@ -11,19 +11,29 @@ main div.set-agenda button {
   border-radius: 10px;
   cursor: pointer;
 }
-@media (max-width: 520px) {
+@media (max-width: 1172px) {
   main div.set-agenda button {
-    color: black;
-    display: block;
-    margin: 10px auto;
     padding: 9px;
     width: auto;
+  }
+}
+@media (max-width: 780px) {
+  main div.set-agenda button {
+    display: block;
+    margin: 10px auto;
+  }
+}
+@media (max-width: 520px) {
+  main div.set-agenda button {
+    display: block;
+    color: black;
+    margin: 10px auto;
   }
 }
 
 main div.main-list .btn-create,
 main div.main-list .btn-remove,
-main div.main-list .btn-remove-top, main div.main-list .btn-toggle {
+main div.main-list .btn-remove-top, main div.main-list .btn-container .btn-toggle {
   background: #f54b4b;
   color: white;
   padding: 14px;
@@ -35,7 +45,7 @@ main div.main-list .btn-remove-top, main div.main-list .btn-toggle {
 
 main div.main-list .btn-create,
 main div.main-list .btn-remove,
-main div.main-list .btn-remove-top, main div.main-list .btn-toggle {
+main div.main-list .btn-remove-top, main div.main-list .btn-container .btn-toggle {
   background: red;
   color: white;
   padding: 5px;
@@ -88,11 +98,19 @@ main .grow {
 main div.set-agenda {
   display: block;
   margin: 0 auto;
+  text-align: center;
   width: 50%;
+  width: 580px;
+}
+@media (max-width: 1172px) {
+  main div.set-agenda {
+    width: 75%;
+  }
 }
 @media (max-width: 520px) {
   main div.set-agenda {
-    width: 75%;
+    display: block;
+    margin: 10px auto;
   }
 }
 main div.set-agenda label[for=agenda] {
@@ -105,7 +123,7 @@ main div.set-agenda label[for=agenda] {
 }
 @media (max-width: 520px) {
   main div.set-agenda label[for=agenda] {
-    width: 75%;
+    /* width: 75%; */
   }
 }
 main div.set-agenda input[type=text] {
@@ -116,6 +134,12 @@ main div.set-agenda input[type=text] {
   font-size: 18px;
   letter-spacing: 3px;
   color: #1d1d18;
+}
+@media (max-width: 780px) {
+  main div.set-agenda input[type=text] {
+    width: auto;
+    padding: 0 0;
+  }
 }
 @media (max-width: 520px) {
   main div.set-agenda input[type=text] {
@@ -130,6 +154,16 @@ main div.main-list {
   display: block;
   margin: 0 auto;
   width: 50%;
+}
+@media (max-width: 520px) {
+  main div.main-list {
+    width: 90%;
+  }
+}
+main div.main-list .btn-container {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
 }
 main div.main-list .btn-remove {
   margin-left: 10px;

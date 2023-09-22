@@ -12,6 +12,8 @@ $font: arial;
 
 
 //breakpoints
+$xl: 1172px;
+$lg: 780px;
 $md: 520px;
 
 //Extends
@@ -24,6 +26,27 @@ $md: 520px;
     width: 180px;
     border-radius: 10px;
     cursor: pointer;
+    
+    @media (max-width: $xl) {
+        
+        padding: 9px;
+        width: auto;
+    }
+    
+    @media (max-width: $lg) {
+        
+        
+        display: block;
+        margin: 10px auto;
+    }
+    
+    
+    @media (max-width: $md) {
+        
+        display: block;
+        color: black;
+        margin: 10px auto;
+    }
 }
 
 %list_btn {

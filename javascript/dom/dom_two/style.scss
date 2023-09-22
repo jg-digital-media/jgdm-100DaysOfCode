@@ -122,9 +122,23 @@ main {
         display: block;
         margin: 0 auto;
         width: 50%;
+        
+        @media (max-width: $md) {
+            
+            width: 90%;
+        }
 
-        .btn-toggle {
-            @extend %list_btn;
+        .btn-container {
+            
+            display: block;
+            margin: 10px auto;
+            text-align: center;
+            
+            .btn-toggle {
+                
+                @extend %list_btn;
+            }
+            
         }
 
         .btn-create,

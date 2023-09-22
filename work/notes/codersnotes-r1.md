@@ -8,10 +8,15 @@ ___
 ___
 
 
-### Day 14
-
+### Day 15
 
 Take a look a t the list of my projects which now has filterable checkboxes specific to the kind of project selected. https://projects.jonniegrieve.co.uk/
+
+https://projects.jonniegrieve.co.uk/dom/list_maker  v2.2
+
+https://projects.jonniegrieve.co.uk/ai/list_maker_ai  v10
+
+https://projects.jonniegrieve.co.uk/dom/dom_two/  1.4
 
 
 #### project categories
@@ -40,6 +45,7 @@ Take a look a t the list of my projects which now has filterable checkboxes spec
 + single-page-site 
 + repository
 
++ wordpress 
 + html5 
 + scss 
 + css 
@@ -49,6 +55,7 @@ Take a look a t the list of my projects which now has filterable checkboxes spec
 + ai 
 + flask
 + express
++ dom_scripting
 
 
 "project_dev_status"

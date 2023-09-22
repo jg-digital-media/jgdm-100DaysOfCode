@@ -10,6 +10,8 @@ main div.set-agenda button {
   width: 180px;
   border-radius: 10px;
   cursor: pointer;
+  padding: 9px;
+  width: auto;
 }
 @media (max-width: 1172px) {
   main div.set-agenda button {

@@ -25,7 +25,9 @@ $md: 520px;
     text-align: center;
     width: 180px;
     border-radius: 10px;
-    cursor: pointer;
+    cursor: pointer; 
+    padding: 9px;
+    width: auto;
     
     @media (max-width: $xl) {
         

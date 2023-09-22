@@ -1,5 +1,5 @@
 /**
-*  Last Update:  22-09-2023  07:48
+*  Last Update:  22-09-2023  08:53
 *  Version:  v1.4
 */
 
@@ -53,12 +53,22 @@ main {
 
 
     div.set-agenda {
+        
         display: block;
         margin: 0 auto;
+        text-align: center;
         width: 50%;
+        width: 580px;
+        
+        @media (max-width: $xl) {
+            
+            width: 75%;
+        }
 
         @media (max-width: $md) {
-            width: 75%;
+            
+            display: block;
+            margin: 10px auto;
         }
 
         label[for="agenda"] {            
@@ -71,7 +81,7 @@ main {
             margin: 25px 0 0 0;
 
             @media (max-width: $md) {
-                width: 75%;
+                /* width: 75%; */
             }
         }
 
@@ -83,6 +93,12 @@ main {
             font-size: 18px;
             letter-spacing: 3px;
             color: #1d1d18;
+            
+            @media (max-width: $lg) {
+                
+                width: auto;
+                padding: 0 0;
+            }
 
             @media (max-width: $md) {
                 

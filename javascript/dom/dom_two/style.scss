@@ -1,5 +1,6 @@
 /**
-*   Last Update:  12-09-2023  16:48
+*  Last Update:  22-09-2023  07:48
+*  Version:  v1.4
 */
 
 @import "config.scss";
@@ -60,9 +61,14 @@ main {
             width: 75%;
         }
 
-        label[for="agenda"] {
-            /*  width: 200px; */
-            font-size: 25pt;
+        label[for="agenda"] {            
+           
+            /* width: 200px; */
+            font-size: 17pt;
+            text-align: center;
+            font-weight: bold;
+            /* margin: 10px auto; */
+            margin: 25px 0 0 0;
 
             @media (max-width: $md) {
                 width: 75%;
@@ -79,7 +85,12 @@ main {
             color: #1d1d18;
 
             @media (max-width: $md) {
+                
                 width: 70%;
+                width: 52%;
+                width: 100%;
+                /* display: block; */
+                margin: 0 auto;
             }
             
         }

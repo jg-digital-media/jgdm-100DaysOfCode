@@ -1,5 +1,6 @@
 /**
-*   Last Update:  12-09-2023  16:48
+*  Last Update:  22-09-2023  07:48
+*  Version:  v1.4
 */
 main div.set-agenda button {
   background: #367bf2;
@@ -9,6 +10,15 @@ main div.set-agenda button {
   width: 180px;
   border-radius: 10px;
   cursor: pointer;
+}
+@media (max-width: 520px) {
+  main div.set-agenda button {
+    color: black;
+    display: block;
+    margin: 10px auto;
+    padding: 9px;
+    width: auto;
+  }
 }
 
 main div.main-list .btn-create,
@@ -86,8 +96,12 @@ main div.set-agenda {
   }
 }
 main div.set-agenda label[for=agenda] {
-  /*  width: 200px; */
-  font-size: 25pt;
+  /* width: 200px; */
+  font-size: 17pt;
+  text-align: center;
+  font-weight: bold;
+  /* margin: 10px auto; */
+  margin: 25px 0 0 0;
 }
 @media (max-width: 520px) {
   main div.set-agenda label[for=agenda] {
@@ -106,6 +120,10 @@ main div.set-agenda input[type=text] {
 @media (max-width: 520px) {
   main div.set-agenda input[type=text] {
     width: 70%;
+    width: 52%;
+    width: 100%;
+    /* display: block; */
+    margin: 0 auto;
   }
 }
 main div.main-list {

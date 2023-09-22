@@ -32,11 +32,13 @@ function taskNumber(num) {
     return num;
 }
 
+
 // Function to save the task list to local storage
 function saveTaskList() {
     const tasks = Array.from(list.children).map(li => li.firstElementChild.textContent);
     localStorage.setItem('taskList', JSON.stringify(tasks));
 }
+
 
 // Function to load the task list from local storage
 function loadTaskList() {
@@ -46,6 +48,18 @@ function loadTaskList() {
         tasks.forEach(taskText => createLi(taskText));
     }
 }
+
+function updateTaskNumbers() {
+    const taskItems = document.querySelectorAll('.task');
+    let num = 1;
+
+    taskItems.forEach(item => {
+        const span = item.querySelector('span');
+        span.textContent = `Task ${num}: ${span.textContent.slice(span.textContent.indexOf(':') + 2)}`;
+        num++;
+    });
+}
+
 
 function createLi(getText) {
     
@@ -90,8 +104,6 @@ function createLi(getText) {
     taskNumber(0);
 
 }
-
-
 
 
 //ul
@@ -141,6 +153,7 @@ filterCheckBox.addEventListener('change', (e) => {
  
 });
 
+
 //redundant code?
 list.addEventListener('change', (e) => {
     const checkbox = event.target;
@@ -170,12 +183,15 @@ list.addEventListener('click', (e) => {
         const ul = li.parentNode;
 
         if(button.textContent == "Remove") {
-            ul.removeChild(li);
+            
+            ul.removeChild(li);            
+            updateTaskNumbers(); 
+            saveTaskList();
             
             saveTaskList();
         } else if (button.textContent == "Edit Task") {
+            
             //console.log("Edit button was clicked" + input.textContent);
-
             const span = li.firstElementChild;
             const input = document.createElement('input');
             input.type = 'text';

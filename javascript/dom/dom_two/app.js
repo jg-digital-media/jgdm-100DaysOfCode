@@ -131,23 +131,56 @@ function saveTaskToLocalStorage(task) {
 }
 
 
-// Create new task - at the top with prepend
+/* Create new task - at the top with prepend */
 btnCreate.addEventListener('click', () => {
-    const list = document.querySelector('ul');      // parent node
-    const list_item = document.createElement('li'); // child node
-
-    list_item.textContent = addTextInput.value;    
-    list.prepend(list_item);
-    attachRemoveBtn(list_item);
     
-    addTextInput.value = "";
-    addTextInput.placeholder = "Enter a new task...";
-
-    // Save the new task to localStorage
-    saveTaskToLocalStorage(list_item.textContent);
+    createTask();
+    
 });
 
-/// Function to display tasks from localStorage
+addTextInput.addEventListener("keyup", function (event) {
+    
+    if (event.key === "Enter") {
+        
+        createTask();
+    }
+});
+
+function createTask() {
+    const list = document.querySelector('ul'); // parent node
+    const list_item = document.createElement('li'); // child node
+
+    const taskText = addTextInput.value.trim(); // Remove leading/trailing whitespace
+
+    if (taskText === "") {
+        
+        // Input is empty, do nothing and disable the button
+        addTextInput.value = "";
+        addTextInput.placeholder = "Please enter a task...";
+        btnCreate.disabled = true;
+    } else {
+        
+        list_item.textContent = taskText;
+        list.prepend(list_item);
+        attachRemoveBtn(list_item);
+
+        addTextInput.value = "";
+        addTextInput.placeholder = "Enter a new task...";
+
+        // Save the new task to localStorage
+        saveTaskToLocalStorage(taskText);
+    }
+}
+
+// Enable the button when the input box is not empty
+addTextInput.addEventListener("input", function () {
+    if (addTextInput.value.trim() !== "") {
+        btnCreate.disabled = false;
+    }
+});
+
+
+/*  Function to display tasks from localStorage */
 function displayTasksFromLocalStorage() {
     let tasks;
     if (localStorage.getItem('tasks') === null) {

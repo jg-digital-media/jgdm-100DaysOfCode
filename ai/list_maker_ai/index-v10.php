@@ -76,7 +76,6 @@ require "inc/header.php"; ?>
 
 
             function addTask() {
-
                 const taskText = taskInput.value.trim();
 
                 if (taskText !== '') {
@@ -89,20 +88,29 @@ require "inc/header.php"; ?>
                     const taskItem = createTaskItem(taskId, taskText, false, false);
                     taskList.appendChild(taskItem);
                     tasks.push({ id: taskId, text: taskText, editing: false, completed: false });
+
+                    // Reassign IDs and store the updated tasks in localStorage
+                    tasks.forEach((task, index) => {
+                        task.id = index + 1;
+                    });
+
                     saveTasksToLocalStorage();
                     taskInput.value = '';
                     taskId++;
-                    
+
+                    // Update task numbering
                     updateTaskNumbering();
                 }
             }
 
 
+
             function createTaskItem(id, text, editing, completed) {
+                
                 const taskItem = document.createElement('li');
                 taskItem.innerHTML = `
                     <input type="checkbox" class="completedCheckbox" ${completed ? 'checked' : ''}>
-                    <span>${id - 1}. ${text}</span>
+                    <span>${id}. ${text}</span>
                     <button class="editButton">${editing ? 'Save' : 'Edit'}</button>
                     <button class="removeButton">Remove</button>
                 `;
@@ -143,18 +151,26 @@ require "inc/header.php"; ?>
                 });
 
                 removeButton.addEventListener('click', () => {
+                    
                     taskList.removeChild(taskItem);
                     tasks = tasks.filter(task => task.id !== id);
-                    renumberTasks();
+                    updateTaskNumbering(); // Update task numbering
+
+                    // Reassign IDs and store the updated tasks in localStorage
+                    tasks.forEach((task, index) => {
+                        task.id = index + 1;
+                    });
                     saveTasksToLocalStorage();
                     updateTaskVisibility();
                 });
+
 
                 return taskItem;
             }
 
 
             function updateTaskText(id, newText) {
+                
                 tasks.forEach(task => {
                     if (task.id === id) {
                         task.text = newText;
@@ -165,6 +181,7 @@ require "inc/header.php"; ?>
 
 
             function updateTaskCompleted(id, completed) {
+                
                 tasks.forEach(task => {
                     if (task.id === id) {
                         task.completed = completed;
@@ -183,7 +200,9 @@ require "inc/header.php"; ?>
 
                         taskIdSpan.textContent = `${index + 1}. ${taskIdSpan.textContent.slice(taskIdSpan.textContent.indexOf(' ') + 1)}`;
                     }
-                });
+                });               
+                
+                saveTasksToLocalStorage();
             }
 
 
@@ -242,6 +261,7 @@ require "inc/header.php"; ?>
 
 
             function saveTasksToLocalStorage() {
+                
                 localStorage.setItem('tasks', JSON.stringify(tasks));
             }
 

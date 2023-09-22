@@ -1,6 +1,6 @@
 <?php
 
-$version = 9;
+$version = 10;
 $website_title = "Simple List Maker App";
 
 require "inc/header.php"; ?>
@@ -11,6 +11,24 @@ require "inc/header.php"; ?>
     <article class="log">
         
         <h2>List Maker - with AI (changes log)</h2> 
+        
+        <h3>PROMPT: 
+        Consider the following edge case.
+
+        Starting with no task.
+
+        4 Tasks are entered.  The third task is removed.  Another Task is added which is task 5.  
+
+        The new task should be task number 4 to mainting the numbering.  Is there a way to do this based on the number of tasks currently in the list?</h3> 
+        
+        <h3>PROMPT: 
+        It hasn't quite worked. The numbering orders itself correctly when a new task is added or a task is removed. But localstorage isn't saving the changes properly and it reverts to gaps in the ordering.</h3>
+        
+        <ul>
+            <li>v10 (index-v10.php)</li>
+            <li>update task numbering after individual tasks have been removed</li>
+            <li></li>
+        </ul>
         
         <h3>PROMPT: The element with the ID of taskList should have some content that appears only when there are no tasks in the task list</h3>
         

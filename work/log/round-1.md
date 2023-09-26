@@ -1,7 +1,20 @@
 # 100 Days of Code - Round 1  
 
-### **Status:** Day 15 of 100.  **Last Update:** 22 September 2023
+### **Status:** Day 17 of 100.  **Last Update:** 26 September 2023
 
+
+### Day 17**: Tuesday September 26th 2023
+
+Started to build a new "at a glance" budget organiser project.
+
+#### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
+
+### Day 16**: Monday September 25th 2023
+
+
+Update for photography website
+
+#### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
 
 ### Day 15**: Friday September 22nd 2023
 

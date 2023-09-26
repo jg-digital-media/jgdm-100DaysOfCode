@@ -1,12 +1,16 @@
 # 100 Days of Code - Round 1
 
-## **Status:** Day 14 of 100  
-**Last Update:** 21 September 2023
+## **Status:** Day 17 of 100  
+
+**Last Update:** 26 September 2023
 ___
 
 **Directories:** ai | api | css | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### Day 17
+
+...
 
 ### Day 15
 

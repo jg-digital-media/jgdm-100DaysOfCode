@@ -1,7 +1,13 @@
 # 100 Days of Code - Round 1  
 
-### **Status:** Day 17 of 100.  **Last Update:** 26 September 2023
+### **Status:** Day 18 of 100. **Last Update:** 27 September 2023
 
+
+### Day 18**: Wednesday September 26th 2023
+
+....
+
+#### **Tech Used: CSS, HTML5, JavaScript
 
 ### Day 17**: Tuesday September 26th 2023
 

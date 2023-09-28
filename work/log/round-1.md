@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 1  
 
-### **Status:** Day 18 of 100. **Last Update:** 27 September 2023
+### **Status:** Day 19 of 100. **Last Update:** 28 September 2023
 
 
-### Day 18**: Wednesday September 26th 2023
+### Day 19**: Thursday September 28th 2023
 
-....
+Working on the Quote Calculator which now gives you a suggested deposit amount. Again, updating in real time. And take a look at this I started building earlier today  https://staging.jonniegrieve.co.uk/budget_organiser/
+
+#### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
+
+
+### Day 18**: Wednesday September 27th 2023
+
+A set of photo viewer web apps (conceived within the last couple of years and now brought to life) is now online to for all to see.
 
 #### **Tech Used: CSS, HTML5, JavaScript
 

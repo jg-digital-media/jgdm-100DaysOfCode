@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 1: Day 18 of 100. **Last Update:** 27 September 2023 
++ **Status:** Round 1: Day 19 of 100. **Last Update:** 28 September 2023 
 
 ## **Update:** I have recently stripped out react, node and vue js projects. New website coming to https://www.jonniegrieve.co.uk imminently  
 

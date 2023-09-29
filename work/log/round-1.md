@@ -1,6 +1,13 @@
 # 100 Days of Code - Round 1  
 
-### **Status:** Day 19 of 100. **Last Update:** 28 September 2023
+### **Status:** Day 20 of 100. **Last Update:** 29 September 2023
+
+
+### Day 20**: Friday September 29th 2023
+
+Budget Organiser (v1.3) that I introduced yesterday. Now updates the starting budget in real time and makes the "Source" table cells editable and customisable. It'd be better if the Labels at the top would also update. Still working on that.
+
+#### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
 
 
 ### Day 19**: Thursday September 28th 2023
@@ -16,11 +23,13 @@ A set of photo viewer web apps (conceived within the last couple of years and no
 
 #### **Tech Used: CSS, HTML5, JavaScript
 
+
 ### Day 17**: Tuesday September 26th 2023
 
 Started to build a new "at a glance" budget organiser project.
 
 #### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
+
 
 ### Day 16**: Monday September 25th 2023
 
@@ -28,6 +37,7 @@ Started to build a new "at a glance" budget organiser project.
 Update for photography website
 
 #### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
+
 
 ### Day 15**: Friday September 22nd 2023
 
@@ -46,24 +56,26 @@ https://projects.jonniegrieve.co.uk/dom/dom_two/  1.4
 
 Sets and updates the realtime quotes for each individual billing type under each radio button. https://www.jonniegrieve.co.uk/assets/quotes/index.php
 
-
 #### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
 
-### Day 13**: Wednesday September 20th 2023
 
+### Day 13**: Wednesday September 20th 2023
 
 Sets and updates the realtime quotes for each individual billing type under each radio button. https://www.jonniegrieve.co.uk/assets/quotes/index.php
 
 #### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
 
+
 ### Day 12**: Tuesday September 19th 2023
 
 Versions 1 and 2 of a photo viewer app are both functional. I've added links to all 5 with some notes here on this link about how each are getting on. https://staging.jonniegrieve.co.uk/photo_viewer_projects/
+
 
 ### Day 11**: Monday September 18th 2023
 
 Worked with PHP today to update the Quote Calculator (v5.2) and photo viewer app (v1.2) both of which should now be functional and fairly presentable to the eye!
 #### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
+
 
 ### Day 10**: Friday September 15th 2023
 
@@ -71,11 +83,13 @@ Created a fully functional quote calculator (v5.1) with a bit of a markup refesh
 
 #### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
 
+
 ### Day 9**: Thursday September 14th 2023
 
 Today's little project is Photo Viewer which displays a dynamic set of images alongside their image metadata in what is designed to be an at-a-glance interface.  
 
 #### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
+
 
 ### Day 8**: Wednesday September 13th 2023
 
@@ -84,6 +98,7 @@ https://projects.jonniegrieve.co.uk/ai/list_maker_ai/
 
 #### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
 
+
 ### Day 7**: Tuesday September 12th 2023
 
 I've worked on another list generator - setting an agenda for your day that persists in localhost. All the actions work although annoying glitch occurs where the word remove persists in each list. Working on that!  :)
@@ -91,11 +106,13 @@ https://projects.jonniegrieve.co.uk/dom/dom_two/
 
 #### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
 
+
 ### Day 6**: Monday September 11th 2023
 
 I built a theme customiser for the first time.  It's a simple webpage, but it clearly demonstrates how to choose different styles for a website/page and persist those changes. Blog coming up on this soon!
 
 #### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
+
 
 ### Day 5**: Friday September 8th 2023
 
@@ -103,11 +120,13 @@ New page! This is a list of paginated data using DOM Scripting and an array of o
 
 #### **Tech Used: CSS, HTML5, ChatGPT, AI
 
+
 ### Day 4**: Thursday September 7th 2023
 
 I've been working on a Single page application to calculate a quote for web design services using JS with some PHP sprinkled in.  Up to version 4.1 now as  start developing an hourly rate calculator
 
 #### **Tech Used: CSS, HTML5, PHP, ChatGPT, AI
+
 
 ### Day 3**: Wednesday September 6th 2023
 

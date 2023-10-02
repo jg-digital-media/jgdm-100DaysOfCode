@@ -1,6 +1,13 @@
 # 100 Days of Code - Round 1  
 
-### **Status:** Day 20 of 100. **Last Update:** 29 September 2023
+### **Status:** Day 21 of 100. **Last Update:** 02 October 2023
+
+
+### Day 21**: Monday October 2nd 2023
+
+Budget Organiser (v1.4) I've now completed a challenging update which means that edits I make to the Budget "Sources" in the data table are now reflected in the Text Input labels. Have a quick go on the link below. :)
+
+#### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
 
 
 ### Day 20**: Friday September 29th 2023

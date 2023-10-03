@@ -1,6 +1,13 @@
 # 100 Days of Code - Round 1  
 
-### **Status:** Day 21 of 100. **Last Update:** 02 October 2023
+### **Status:** Day 22 of 100. **Last Update:** 03 October 2023
+
+
+### Day 22**: Tuesday October 3rd 2023
+
+Catch up work today with content for my photography website
+
+#### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
 
 
 ### Day 21**: Monday October 2nd 2023

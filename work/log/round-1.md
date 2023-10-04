@@ -1,6 +1,13 @@
 # 100 Days of Code - Round 1  
 
-### **Status:** Day 22 of 100. **Last Update:** 03 October 2023
+### **Status:** Day 23 of 100. **Last Update:** 04 October 2023
+
+
+### Day 23**: Wednesday October 4th 2023
+
+Budget Organiser (v1.5) Functional to 3 customisable lines of data. Work out balances you currently have and how your expenses will affet your balance in a single location. Based on an Excel Spreadsheet I made
+
+#### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
 
 
 ### Day 22**: Tuesday October 3rd 2023

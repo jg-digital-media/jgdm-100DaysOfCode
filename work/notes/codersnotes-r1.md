@@ -1,16 +1,17 @@
 # 100 Days of Code - Round 1
 
-## **Status:** Day 24 of 100  
+## **Status:** Day 25 of 100  
 
-**Last Update:** 05 October 2023
+**Last Update:** 06 October 2023
 ___
 
 **Directories:** ai | api | css | databases | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-### Day 24
+### Day 25
 
-...
+#### Budget organiser 
+Bug:   If ballances in data table are updated first, and not the input labels in the toggled element, the ending balance does not updatr until more interactions wirh the table table. 
 
 ### Day 15
 

@@ -3,11 +3,15 @@
 ### **Status:** Day 24 of 100. **Last Update:** 05 October 2023
 
 
+### Day 25**: Thursday October 5th 2023
+
+Uploaded v1.6 of the Budget organiser to the world!
+
+
 ### Day 24**: Thursday October 5th 2023
 
 General updates to form project website. Had to take some time to work out the complicated structure I'd left it with
 
-#### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
 
 
 ### Day 23**: Wednesday October 4th 2023

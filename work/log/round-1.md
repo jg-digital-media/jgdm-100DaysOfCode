@@ -1,6 +1,15 @@
 # 100 Days of Code - Round 1  
 
-### **Status:** Day 26 of 100. **Last Update:** 09 October 2023
+### **Status:** Day 27 of 100. **Last Update:** 10 October 2023
+
+
+
+### Day 27**: Tuesday October 10th 2023
+
+Updated my Photography Website just now with the latest photos for 2023.  Enjoy!  
+
+#### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
+
 
 ### Day 26**: Monday October 9th 2023
 

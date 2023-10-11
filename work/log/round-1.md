@@ -1,7 +1,14 @@
 # 100 Days of Code - Round 1  
 
-### **Status:** Day 27 of 100. **Last Update:** 10 October 2023
+### **Status:** Day 28 of 100. **Last Update:** 11 October 2023
 
+
+
+### Day 28**: Wednesday October 11th 2023
+
+posyed new blog - budget forecaster  
+
+#### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
 
 
 ### Day 27**: Tuesday October 10th 2023

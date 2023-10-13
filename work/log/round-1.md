@@ -1,7 +1,14 @@
 # 100 Days of Code - Round 1  
 
-### **Status:** Day 29 of 100. **Last Update:** 12 October 2023
+### **Status:** Day 30 of 100. **Last Update:** 13 October 2023
 
+
+
+### Day 30**: Fridays October 13th 2023
+
+Still no luck with the Cashflow forecaster. localstorage not loading data properly, at least not in the way that I need. Making headway in imporovements to the HTML5 Form Project though.
+
+#### **Tech Used: CSS, HTML5, PHP JavaScript, ChatGPT, AI
 
 
 ### Day 29**: Thursday October 12th 2023

@@ -1,14 +1,32 @@
 # 100 Days of Code - Round 1
 
-## **Status:** Day 30 of 100  
+## **Status:** Day 31 of 100  
 
-**Last Update:** 13 October 2023
+**Last Update:** 16 October 2023
 ___
 
 **Directories:** ai | api | css | databases | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-### Day 30
+### Day 31
+
+#### Cashflow Forecaster Current Progress 
+
++ We now have the ability to set a starting balance for your Cashflow Forecast
++ This starting balance updates in the first cell dynamically showing the same valur at the same time
++ The incoming and outgoping boxes update the row balance dynamically
+
+1. When Starting balance is interacted with, the changed balance is reflected on all cells in the "Balance" column
+
+2. Currently only the first balance is persisted.
+
+3. When we edit the #js-starting_balance in the balance cells change according to that value.
+
+4. Changing the in and out number boxes correctly change the balance for that particular row, but not the following cells in rows below.
+
+5. However when we interact with in and out number boxes in new rows the balances changes to the correct calculated value accordingly.
+
+6. Sets the starting balance for the spreadsheet and saves the value to localStorage.
 
 . . . 
 

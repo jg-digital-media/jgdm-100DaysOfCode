@@ -1,7 +1,14 @@
 # 100 Days of Code - Round 1  
 
-### **Status:** Day 30 of 100. **Last Update:** 13 October 2023
+## **Status:** Day 31 of 100. **Last Update:** 16 October 2023
 
+
+
+### Day 31**: Monday October 16th 2023
+
+Making some progress with the JS Cashflow Forecaster. Also spend some time modifying ID's and Classes in the Budget Organiser App getting that ready for expanding the amount of budgeting brackets that can be organised.
+
+#### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
 
 
 ### Day 30**: Fridays October 13th 2023

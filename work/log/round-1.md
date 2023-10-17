@@ -1,8 +1,14 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 31 of 100. **Last Update:** 16 October 2023
+## **Status:** Day 32 of 100. **Last Update:** 17 October 2023
 
 
+
+### Day 32**: Tuesday October 17th 2023
+
+Got data persisting in the Cashflow Forecaster. Next Task is to finish this so the app is fully customisable. 
+
+#### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
 
 ### Day 31**: Monday October 16th 2023
 

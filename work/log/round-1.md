@@ -1,7 +1,14 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 33 of 100. **Last Update:** 18 October 2023
+## **Status:** Day 34 of 100. **Last Update:** 19 October 2023
 
+
+
+### Day 34**: Thursday October 19th 2023
+
+Cashflow Forecaster is coming along nicely. It now lets users indicate where a Forecast is estimated and persists the change, so it doesn't need to be reset on each page load.  v1.4 is out
+
+#### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
 
 
 ### Day 33**: Wednesday October 18th 2023

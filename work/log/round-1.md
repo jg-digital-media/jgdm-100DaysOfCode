@@ -1,7 +1,14 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 32 of 100. **Last Update:** 17 October 2023
+## **Status:** Day 33 of 100. **Last Update:** 18 October 2023
 
+
+
+### Day 33**: Wednesday October 18th 2023
+
+Added the ability to mark a table row as an estimated cashflow forecast 
+
+#### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
 
 
 ### Day 32**: Tuesday October 17th 2023
@@ -9,6 +16,7 @@
 Got data persisting in the Cashflow Forecaster. Next Task is to finish this so the app is fully customisable. 
 
 #### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
+
 
 ### Day 31**: Monday October 16th 2023
 

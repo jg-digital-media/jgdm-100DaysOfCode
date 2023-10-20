@@ -1,17 +1,34 @@
 # 100 Days of Code - Round 1
 
-## **Status:** Day 34 of 100  
+## **Status:** Day 20 of 100  
 
-**Last Update:** 19 October 2023
+**Last Update:** 20 October 2023
 ___
 
 **Directories:** ai | api | css | databases | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-### Day 34
+### Day 35
 
-. . . 
+
+
+javascript
+Copy code
+
+```javascript
+
+   // Save data
+   localStorage.setItem('key', 'value');
+   //yo retrieve data from localStorage:
+```
+
+
+```javascript
+
+   // Get data
+   const data = localStorage.getItem('key');
+```
 
 ### Day 31
 

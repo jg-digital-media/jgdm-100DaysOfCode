@@ -2,6 +2,11 @@
 
 ## **Status:** Day 34 of 100. **Last Update:** 19 October 2023
 
+### Day 35**: Friay October 20th 2023
+
+Presenting Budget Organiser V2 which has expanded to now include the ability to add up to 6 Budget Sources. https://staging.jonniegrieve.co.uk/budget_organiser
+
+#### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
 
 
 ### Day 34**: Thursday October 19th 2023

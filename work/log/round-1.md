@@ -2,6 +2,13 @@
 
 ## **Status:** Day 36 of 100. **Last Update:** 23 October 2023
 
+### Day 37**: Tuesday October 24th 2023
+
+I still have to get the budget organiser fully customisable. The budget brackets are storing key value pairs to localhost but those changes aren't yet appearing. A complex issue. 
+
+#### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
+
+
 ### Day 36**: Monday October 23rd 2023
 
 I still have to get the budget organiser fully customisable. The budget brackets are storing key value pairs to localhost but those changes aren't yet appearing. A complex issue. 

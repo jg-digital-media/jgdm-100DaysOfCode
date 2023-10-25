@@ -1,6 +1,14 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 36 of 100. **Last Update:** 23 October 2023
+## **Status:** Day 38 of 100. **Last Update:** 25 October 2023
+
+### Day 38**: Wednesday October 25th 2023
+
+Budget Organiser v2.1 is out.  Added an instructions modal content area and changed the default starting state of the app.  Explained in the DevLog
+https://projects.jonniegrieve.co.uk/budget_organiser
+
+#### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
+
 
 ### Day 37**: Tuesday October 24th 2023
 

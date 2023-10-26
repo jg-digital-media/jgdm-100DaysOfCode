@@ -1,6 +1,12 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 38 of 100. **Last Update:** 25 October 2023
+## **Status:** Day 39 of 100. **Last Update:** 26 October 2023
+
+
+### Day 39**: Thursday October 26th 2023
+
+Budget Organiser v2.2 is out. I thought it would be better to have edits to Budget Titles in labels instead of the tables.  A much better data flow and makes the table a bit cleaner. 
+https://projects.jonniegrieve.co.uk/budget_organiser
 
 ### Day 38**: Wednesday October 25th 2023
 

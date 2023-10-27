@@ -1,7 +1,12 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 39 of 100. **Last Update:** 26 October 2023
+## **Status:** Day 40 of 100. **Last Update:** 27 October 2023
 
+
+### Day 40**: Friday October 27th 2023
+
+R1D30: Date and comment values now persist. Which means any edits now persist seamlessly
+https://staging.jonniegrieve.co.uk/cashflow_forecaster/
 
 ### Day 39**: Thursday October 26th 2023
 

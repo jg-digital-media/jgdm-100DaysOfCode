@@ -1,17 +1,27 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 40 of 100. **Last Update:** 27 October 2023
+## **Status:** Day 41 of 100. **Last Update:** 30 October 2023
+
+
+### Day 41**: Monday October 30th 2023
+
+Cashflow Forecaster 1.6 is out. Completed the nuts and bolts today.  Will be working on some UX improvements soon!
+https://staging.jonniegrieve.co.uk/cashflow_forecaster/
+#### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
 
 
 ### Day 40**: Friday October 27th 2023
 
-R1D30: Date and comment values now persist. Which means any edits now persist seamlessly
-https://staging.jonniegrieve.co.uk/cashflow_forecaster/
+Date and comment values now persist. Which means any edits now persist seamlessly
+#### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
+
 
 ### Day 39**: Thursday October 26th 2023
 
 Budget Organiser v2.2 is out. I thought it would be better to have edits to Budget Titles in labels instead of the tables.  A much better data flow and makes the table a bit cleaner. 
 https://projects.jonniegrieve.co.uk/budget_organiser
+#### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
+
 
 ### Day 38**: Wednesday October 25th 2023
 

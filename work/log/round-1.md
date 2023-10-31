@@ -1,7 +1,13 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 41 of 100. **Last Update:** 30 October 2023
+## **Status:** Day 42 of 100. **Last Update:** 31 October 2023
 
+
+### Day 42**: Tuesday October 31st 2023
+
+Working on applying some UX improvements to the Cashflow Forecaster app that I've been developing. Having some trouble ensuring styling is added to negative balances. We'll get there though and I think it's a needed feature.
+https://staging.jonniegrieve.co.uk/cashflow_forecaster/
+#### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
 
 ### Day 41**: Monday October 30th 2023
 

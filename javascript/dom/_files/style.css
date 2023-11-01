@@ -1,0 +1,117 @@
+/**
+*   Last Update:  02-09-2021
+*/
+main div.set-agenda button {
+  background: #367bf2;
+  color: white;
+  padding: 14px;
+  text-align: center;
+  width: 180px;
+  border-radius: 10px; }
+
+main div.main-list .btn-toggle, main div.main-list .btn-create,
+main div.main-list .btn-remove,
+main div.main-list .btn-remove-top {
+  background: #f54b4b;
+  color: white;
+  padding: 14px;
+  text-align: center;
+  width: 180px;
+  border-radius: 10px; }
+
+main div.main-list .btn-toggle, main div.main-list .btn-create,
+main div.main-list .btn-remove,
+main div.main-list .btn-remove-top {
+  padding: 5px;
+  background: red;
+  color: white;
+  text-align: center;
+  width: 100px;
+  display: inline-block; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: beige;
+  font-family: arial; }
+
+header {
+  background: darkseagreen;
+  height: 75px; }
+  header h1 {
+    text-align: center; }
+    header h1 .versioning {
+      font-size: 8px;
+      color: white;
+      display: inline-block;
+      padding: 4px;
+      background: #983838;
+      border-radius: 10px;
+      letter-spacing: 1px; }
+
+main {
+  width: 100%; }
+  main h2 {
+    text-align: center;
+    font-size: 30pt;
+    margin-top: 15px; }
+  main .grow {
+    font-size: 30pt; }
+  main div.set-agenda {
+    display: block;
+    margin: 0 auto;
+    width: 50%; }
+    @media (max-width: 520px) {
+      main div.set-agenda {
+        width: 75%; } }
+    main div.set-agenda label[for="agenda"] {
+      /*  width: 200px; */
+      font-size: 25pt; }
+      @media (max-width: 520px) {
+        main div.set-agenda label[for="agenda"] {
+          width: 75%; } }
+    main div.set-agenda input[type="text"] {
+      height: 40px;
+      border-radius: 15px;
+      width: 380px;
+      padding: 0 10px;
+      font-size: 18px;
+      letter-spacing: 3px;
+      color: #1d1d18; }
+      @media (max-width: 520px) {
+        main div.set-agenda input[type="text"] {
+          width: 70%; } }
+  main div.main-list {
+    display: block;
+    margin: 0 auto;
+    width: 50%; }
+    main div.main-list .btn-remove {
+      margin-left: 10px; }
+    main div.main-list .list-container {
+      display: block;
+      margin-top: 20px; }
+      main div.main-list .list-container ul {
+        width: 100%;
+        border: solid 2px yellow; }
+        main div.main-list .list-container ul li {
+          display: block;
+          width: 320px;
+          height: 50px; }
+  main label {
+    margin-top: 20px;
+    display: block; }
+  main input#add-new-text {
+    padding: 5px 5px;
+    background: lightblue;
+    border-radius: 5px; }
+
+hr {
+  width: 130px;
+  display: block;
+  margin: 0 auto;
+  color: purple;
+  margin-top: 20px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,152 @@
+/**
+*   Last Update:  02-09-2021
+*/
+
+@import "config.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: $bg-body;
+    font-family: arial;
+}
+
+header {
+    background: $bg-header;
+    height: 75px;
+
+    h1 {
+        text-align: center;
+
+        .versioning {
+            font-size: 8px;
+            color: white;
+            display: inline-block;
+            padding: 4px;
+            background: #983838;
+            border-radius: 10px;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+main {
+
+    width: 100%;
+
+    h2 {
+        text-align: center;
+        font-size: 30pt;
+        margin-top: 15px;
+    }
+
+    
+    .grow {
+        font-size: 30pt;
+    }
+
+
+    div.set-agenda {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+
+        @media (max-width: $md) {
+            width: 75%;
+        }
+
+        label[for="agenda"] {
+            /*  width: 200px; */
+            font-size: 25pt;
+
+            @media (max-width: $md) {
+                width: 75%;
+            }
+        }
+
+        input[type="text"] {
+            height: 40px;
+            border-radius: 15px;
+            width: 380px;
+            padding: 0 10px;
+            font-size: 18px;
+            letter-spacing: 3px;
+            color: #1d1d18;
+
+            @media (max-width: $md) {
+                width: 70%;
+            }
+            
+        }
+
+        button {
+
+            @extend %agenda_btn;
+        }
+    }
+
+    div.main-list {
+
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+
+        .btn-toggle {
+            @extend %list_btn;
+        }
+
+        .btn-create,
+        .btn-remove,
+        .btn-remove-top {
+            @extend %list_btn;
+        }
+
+        .btn-remove {
+            margin-left: 10px;
+        }
+
+        
+        .list-container {
+            display: block;
+            margin-top: 20px;
+
+            ul {
+
+                width: 100%;
+                border: solid 2px yellow;
+
+
+                li {
+                    display: block;
+                    width:  320px;
+                    height: 50px;
+                }
+            }
+        }
+    }
+
+    
+    label {
+        margin-top: 20px;
+        display: block;
+    }
+
+    input#add-new-text {
+        padding: 5px 5px;
+        background: $bg-input;
+        border-radius: 5px;
+    }
+
+}
+
+hr {
+    width: 130px;
+    display: block;
+    margin: 0 auto;
+    color: purple;
+    margin-top: 20px;
+}
+

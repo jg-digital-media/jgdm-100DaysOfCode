@@ -1,13 +1,22 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 42 of 100. **Last Update:** 31 October 2023
+## **Status:** Day 43 of 100. **Last Update:** 1 November 2023
+
+
+### Day 43**: Wednesday November 1st 2023
+
+The Cashflow Forecaster v1.7 is out. I've added a number of UX improvements. Fully customisable. Make as many forecasts as you need and clear the data when finished.
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript, ChatGPT, AI
 
 
 ### Day 42**: Tuesday October 31st 2023
 
 Working on applying some UX improvements to the Cashflow Forecaster app that I've been developing. Having some trouble ensuring styling is added to negative balances. We'll get there though and I think it's a needed feature.
 https://staging.jonniegrieve.co.uk/cashflow_forecaster/
+
 #### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
+
 
 ### Day 41**: Monday October 30th 2023
 
@@ -19,6 +28,7 @@ https://staging.jonniegrieve.co.uk/cashflow_forecaster/
 ### Day 40**: Friday October 27th 2023
 
 Date and comment values now persist. Which means any edits now persist seamlessly
+
 #### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
 
 
@@ -26,6 +36,7 @@ Date and comment values now persist. Which means any edits now persist seamlessl
 
 Budget Organiser v2.2 is out. I thought it would be better to have edits to Budget Titles in labels instead of the tables.  A much better data flow and makes the table a bit cleaner. 
 https://projects.jonniegrieve.co.uk/budget_organiser
+
 #### **Tech Used: CSS, HTML5, JavaScript, ChatGPT, AI
 
 

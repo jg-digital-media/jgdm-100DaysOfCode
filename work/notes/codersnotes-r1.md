@@ -9,10 +9,23 @@ ___
 ___
 
 
-### Day 43
+### Day 44
 
-. . .
+Filter Counts:
 
+
+```
+85 projects
+
+
+single-page-app		11
+repository		    10  21
+single-page-site	4	25
+wordpress		    15  40
+app			        20  60
+webpage			    7	67
+website             32	99
+```
 
 ### Day 39
 

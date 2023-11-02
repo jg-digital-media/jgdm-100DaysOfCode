@@ -1,6 +1,13 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 43 of 100. **Last Update:** 1 November 2023
+## **Status:** Day 44 of 100. **Last Update:** 2 November 2023
+
+
+### Day 44**: Thursday November 2nd 2023
+
+Today I've mostly been looking at my accounts and updating my portfolio.
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript
 
 
 ### Day 43**: Wednesday November 1st 2023

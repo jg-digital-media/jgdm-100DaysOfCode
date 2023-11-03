@@ -1,6 +1,13 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 44 of 100. **Last Update:** 2 November 2023
+## **Status:** Day 45 of 100. **Last Update:** 3 November 2023
+
+
+### Day 45**: Friday November 3rd 2023
+
+Updated my Photography Website today and released that update. Also started working on a new, exciting and I hope, useful new project. 
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript
 
 
 ### Day 44**: Thursday November 2nd 2023

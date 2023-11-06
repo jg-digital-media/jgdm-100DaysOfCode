@@ -1,6 +1,13 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 45 of 100. **Last Update:** 3 November 2023
+## **Status:** Day 46 of 100. **Last Update:** 6 November 2023
+
+
+### Day 46**: Monday November 6th 2023
+
+Up
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript
 
 
 ### Day 45**: Friday November 3rd 2023

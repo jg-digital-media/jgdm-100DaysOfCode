@@ -1,6 +1,6 @@
 # 100 Days of Code - Round 1
 
-## **Status:** Day 45 of 100  
+## **Status:** Day 46 of 100  
 
 **Last Update:** 3 November 2023
 ___
@@ -9,7 +9,7 @@ ___
 ___
 
 
-### Day 45
+### Day 46
 
 . . . 
 

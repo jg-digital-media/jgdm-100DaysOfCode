@@ -1,7 +1,14 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 46 of 100. **Last Update:** 6 November 2023
+## **Status:** Day 47 of 100. **Last Update:** 7 November 2023
 
+
+### Day 47**: Monday November 7th 2023
+
+Finished the first functional draft of the new project I talked about yesterday. Meaning it's usable and I could release something right now. Want to do more checks and UI enhancements first. :)
+
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript
 
 ### Day 46**: Monday November 6th 2023
 

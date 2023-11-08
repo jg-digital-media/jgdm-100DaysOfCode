@@ -1,20 +1,26 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 47 of 100. **Last Update:** 7 November 2023
+## **Status:** Day 48 of 100. **Last Update:** 8 November 2023
 
 
-### Day 47**: Monday November 7th 2023
+### Day 48**: Wednesday November 8th 2023
+
+A short while ago I unveiled my latest project.  "Build my CV" using JavaScript, HTML and CSS.  Save and/or Print your latest CV when finished.  https://projects.jonniegrieve.co.uk/build_my_cv
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript
+
+
+### Day 47**: Tuesday November 7th 2023
 
 Finished the first functional draft of the new project I talked about yesterday. Meaning it's usable and I could release something right now. Want to do more checks and UI enhancements first. :)
 
+#### **Tech Used: SASS/CSS, HTML5, JavaScript,  ChatGPT, AI
 
-#### **Tech Used: SASS/CSS, HTML5, JavaScript
 
 ### Day 46**: Monday November 6th 2023
 
-Up
 
-#### **Tech Used: SASS/CSS, HTML5, JavaScript
+#### **Tech Used: SASS/CSS, HTML5, JavaScript,  ChatGPT, AI
 
 
 ### Day 45**: Friday November 3rd 2023

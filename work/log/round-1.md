@@ -1,6 +1,13 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 48 of 100. **Last Update:** 8 November 2023
+## **Status:** Day 49 of 100. **Last Update:** 9 November 2023
+
+
+### Day 49**: Thursday November 9th 2023
+
+Updated my latest project to include more Flash messages on user interactions with buttons and refined the PDF and print outputs! https://projects.jonniegrieve.co.uk/build_my_cv
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript
 
 
 ### Day 48**: Wednesday November 8th 2023

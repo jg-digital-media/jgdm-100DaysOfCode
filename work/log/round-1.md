@@ -1,15 +1,23 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 50 of 100. **Last Update:** 10 November 2023
+## **Status:** Day 51 of 100. **Last Update:** 13 November 2023
 
 
 
 
-### Day 50**: Friday November 19 2023
+### Day 51**: Monday November 1w 2023
+
+Working on finishing the Digital Business Card. And I've also been commissioned for a new website which is exciting  :)
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript
+
+
+### Day 50**: Friday November 10th 2023
 
 Usual photography site updates.  Started creating a Digital Business Card. Might be something worth sharing as a customsisable Git Repository, later.  :)
 
 #### **Tech Used: SASS/CSS, HTML5, JavaScript
+
 
 ### Day 49**: Thursday November 9th 2023
 

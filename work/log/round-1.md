@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 51 of 100. **Last Update:** 13 November 2023
+## **Status:** Day 52 of 100. **Last Update:** 14 November 2023
 
 
+### Day 52**: Tueaday November 14th 2023
+
+Ordered a new domain for a new commissioned project and started building initial drafts. 
+
+New websites start from only £200. Check out my website for more information! :)
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript
 
 
-### Day 51**: Monday November 1w 2023
+### Day 51**: Monday November 13th 2023
 
 Working on finishing the Digital Business Card. And I've also been commissioned for a new website which is exciting  :)
 
@@ -14,7 +21,7 @@ Working on finishing the Digital Business Card. And I've also been commissioned 
 
 ### Day 50**: Friday November 10th 2023
 
-Usual photography site updates.  Started creating a Digital Business Card. Might be something worth sharing as a customsisable Git Repository, later.  :)
+Usual photography site updates. Started creating a Digital Business Card. Might be something worth sharing as a customsisable Git Repository, later.  :)
 
 #### **Tech Used: SASS/CSS, HTML5, JavaScript
 
@@ -28,7 +35,7 @@ Updated my latest project to include more Flash messages on user interactions wi
 
 ### Day 48**: Wednesday November 8th 2023
 
-A short while ago I unveiled my latest project.  "Build my CV" using JavaScript, HTML and CSS.  Save and/or Print your latest CV when finished.  https://projects.jonniegrieve.co.uk/build_my_cv
+A short while ago I unveiled my latest project. "Build my CV" using JavaScript, HTML and CSS.  Save and/or Print your latest CV when finished. https://projects.jonniegrieve.co.uk/build_my_cv
 
 #### **Tech Used: SASS/CSS, HTML5, JavaScript
 

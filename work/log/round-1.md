@@ -1,6 +1,15 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 52 of 100. **Last Update:** 14 November 2023
+## **Status:** Day 53 of 100. **Last Update:** 15 November 2023
+
+
+### Day 53**: Wednesday November 15th 2023
+
+Ordered a new domain for a new commissioned project and started building initial drafts. 
+
+New websites start from only £200. Check out my website for more information! :)
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript
 
 
 ### Day 52**: Tueaday November 14th 2023

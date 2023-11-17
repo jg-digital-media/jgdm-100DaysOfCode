@@ -1,6 +1,15 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 54 of 100. **Last Update:** 16 November 2023
+## **Status:** Day 55 of 100. **Last Update:** 17 November 2023
+
+
+### Day 55**: Friday November 17th 2023
+
+Struggling with the web form. We go again on Monday
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
+
+
 
 
 ### Day 54**: Thursday November 16th 2023

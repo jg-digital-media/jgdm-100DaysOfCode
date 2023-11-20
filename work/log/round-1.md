@@ -1,6 +1,16 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 55 of 100. **Last Update:** 17 November 2023
+## **Status:** Day 56 of 100. **Last Update:** 20 November 2023
+
+
+### Day 56**: Monday November 20th 2023
+
+Bingo!
+
+Edging closer to be unveil my latest Commissioned work!
+
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
 
 
 ### Day 55**: Friday November 17th 2023
@@ -8,8 +18,6 @@
 Struggling with the web form. We go again on Monday
 
 #### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
-
-
 
 
 ### Day 54**: Thursday November 16th 2023

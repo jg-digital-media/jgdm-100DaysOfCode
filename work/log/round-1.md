@@ -1,9 +1,17 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 57 of 100. **Last Update:** 21 November 2023
+## **Status:** Day 58 of 100. **Last Update:** 22 November 2023
 
 
-### Day 57**: Tueday November 21st 2023
+### Day 58**: Wednesday November 22nd 2023
+
+Admin Today. Sorted out some meta tags for social media sharing on a few of my projects. Pushed some updates to my photography website to version control.
+
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
+
+
+### Day 57**: Tuesday November 21st 2023
 
 Bingo!
 

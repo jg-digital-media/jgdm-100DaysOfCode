@@ -1,6 +1,14 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 58 of 100. **Last Update:** 22 November 2023
+## **Status:** Day 59 of 100. **Last Update:** 23 November 2023
+
+
+### Day 59**: Thursday November 23rd 2023
+
+Trying to tackle the web form. Can't get rid of error meeeages even when form is successfully sent. 
+
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
 
 
 ### Day 58**: Wednesday November 22nd 2023

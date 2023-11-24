@@ -1,6 +1,14 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 59 of 100. **Last Update:** 23 November 2023
+## **Status:** Day 60 of 100. **Last Update:** 24 November 2023
+
+
+### Day 60**: Friday November 24th 2023
+
+Earlier today I unveiled by latest work  legless11bingo.com.  This is a small but fast growing business and it eas a pleasrure as well as a technical challenge at times to get this done!  Now it's out there! Take a look!
+
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
 
 
 ### Day 59**: Thursday November 23rd 2023

@@ -1,6 +1,13 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 60 of 100. **Last Update:** 24 November 2023
+## **Status:** Day 61 of 100. **Last Update:** 27 November 2023
+
+
+### Day 61**: Monday November 27th 2023
+
+JGDM is the independent website and multimedia design agency based in the North East of England.  I've just updated my GitHub page which now includes some dynamic elements (new things to see on each visit.https://jg-digital-media.github.io/
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
 
 
 ### Day 60**: Friday November 24th 2023

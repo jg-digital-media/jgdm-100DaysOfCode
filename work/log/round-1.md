@@ -1,6 +1,13 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 62 of 100. **Last Update:** 28 November 2023
+## **Status:** Day 63 of 100. **Last Update:** 29 November 2023
+
+
+### Day 63**: Wednesday November 29th 2023
+
+Updates to the Quote Calculator
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
 
 
 ### Day 62**: Tuesday November 28th 2023

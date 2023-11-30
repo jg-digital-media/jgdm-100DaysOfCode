@@ -9,9 +9,113 @@ ___
 ___
 
 
-### Day 63
+### Day 64
 
 . . . 
+
+CSS tool tip code. 
+
+To create a CSS tooltip that will display a small banner with white text and a black background for 4 seconds and then fade out when someone clicks the "Save Details" button, you can use HTML, CSS, and a bit of JavaScript. Here's a sample implementation:
+
+```html
+
+<header>
+    <!-- Your existing HTML content -->
+
+    <div class="tooltip" id="tooltip">Personal Details saved</div>
+
+    <button id="saveDetails" class="no-print">Save</button>
+    <button id="resetDetails" class="no-print">Reset</button>
+</header>
+
+```
+
+```css
+/* Tooltip Styles */
+.tooltip {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Tooltip visible when active */
+.tooltip.active {
+    display: block;
+    opacity: 1;
+}
+```
+
+
+```javascript
+// Add this JavaScript at the bottom of your HTML, before </body>
+
+document.getElementById('saveDetails').addEventListener('click', function () {
+    // Show the tooltip
+    var tooltip = document.getElementById('tooltip');
+    tooltip.classList.add('active');
+
+    // Hide the tooltip after 4 seconds
+    setTimeout(function () {
+        tooltip.classList.remove('active');
+    }, 4000);
+});
+
+
+```
+
+
+##### Multiple Tooltips
+
+// Add this JavaScript at the bottom of your HTML, before </body>
+
+function showTooltip(buttonId, tooltipId, message) {
+    // Show the tooltip
+    var tooltip = document.getElementById(tooltipId);
+    tooltip.textContent = message;
+    tooltip.classList.add('active');
+
+    // Hide the tooltip after 4 seconds
+    setTimeout(function () {
+        tooltip.classList.remove('active');
+    }, 4000);
+}
+
+document.getElementById('saveDetails').addEventListener('click', function () {
+    showTooltip('saveDetails', 'tooltip-saveDetails', 'Personal Details saved');
+});
+
+document.getElementById('resetDetails').addEventListener('click', function () {
+    showTooltip('resetDetails', 'tooltip-resetDetails', 'Details reset');
+});
+
+
+To ensure the message is displayed after the window has finished reloading, you can use the setTimeout function to delay the display of the message. Here's how you can modify your code:
+
+javascript
+Copy code
+function resetHeaderDetails() {
+    localStorage.removeItem('headerData');
+
+    // Reload the page after a short delay
+    setTimeout(function () {
+        location.reload();
+    }, 1000); // 1000 milliseconds (1 second) delay
+
+    // Show the reset message
+    showTooltip('resetDetails', 'tooltip-resetDetails', 'Details reset');
+}
+
+document.getElementById('resetDetails').addEventListener('click', resetHeaderDetails);
+
+
+
 
 ### Day 44
 

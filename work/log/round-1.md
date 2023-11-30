@@ -1,6 +1,13 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 63 of 100. **Last Update:** 29 November 2023
+## **Status:** Day 64 of 100. **Last Update:** 30 November 2023
+
+
+### Day 64**: Thursday November 30th 2023
+
+A behind the scenes edit to my Budgeting Organiser App. A code refactor that changes the label elements in the budget section to be input elements.  v2.3
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
 
 
 ### Day 63**: Wednesday November 29th 2023

@@ -1,11 +1,18 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 64 of 100. **Last Update:** 30 November 2023
+## **Status:** Day 65 of 100. **Last Update:** 1 December 2023
+
+
+### Day 65**: Friday December 1st 2023
+
+Added a black banner to the top of my "Build my CV" App and customised the Print Styling a bit more https://projects.jonniegrieve.co.uk
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
 
 
 ### Day 64**: Thursday November 30th 2023
 
-A behind the scenes edit to my Budgeting Organiser App. A code refactor that changes the label elements in the budget section to be input elements.  v2.3
+A behind the scenes edit to my Budgeting Organiser App. A code refactor that changes the label elements in the budget section to be input elements.  v2.3 https://projects.jonniegrieve.co.uk/budget_organiser/
 
 #### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
 

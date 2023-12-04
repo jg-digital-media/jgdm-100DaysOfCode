@@ -1,6 +1,13 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 65 of 100. **Last Update:** 1 December 2023
+## **Status:** Day 66 of 100. **Last Update:** 4 December 2023
+
+
+### Day 66**: Monday December 4th 2023
+
+Doing some work in the first couple of days in the week building a Digital Profile card! It's functional but tomorrow needs work on a responsive layout.
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
 
 
 ### Day 65**: Friday December 1st 2023

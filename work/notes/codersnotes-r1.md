@@ -1,8 +1,8 @@
 # 100 Days of Code - Round 1
 
-## **Status:** Day 66 of 100  
+## **Status:** Day 67 of 100  
 
-**Last Update:** 04 December 2023
+**Last Update:** 05 December 2023
 ___
 
 **Directories:** ai | api | css | databases | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
@@ -10,9 +10,12 @@ ___
 
 
 
-### Day 66
+### Day 67
 
-. . . 
+
+#### Social media urls 
+https://www.pinterest.co.uk/jgdigitalmedia/
+https://www.youtube.com/@jonniegrieve 
 
 ### Day 65
 

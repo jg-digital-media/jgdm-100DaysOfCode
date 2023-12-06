@@ -1,11 +1,19 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 67 of 100. **Last Update:** 5 December 2023
+## **Status:** Day 68 of 100. **Last Update:** 6 December 2023
+
+
+### Day 68**: Wednesday December 6th 2023
+
+Starting flexing out my Photography Website to cover the new year (2024) which is a tougher job than it sounds but useful as I prepare to add new content in the new year! :)
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
 
 
 ### Day 67**: Tuesday December 5th 2023
 
-Doing.... .
+Flippable Digital Profile Card - Follow my Social Media - Scan my QR Code via your handheld device that takes you to my website!
+https://www.jonniegrieve.co.uk/assets/profile/index.php
 
 #### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
 

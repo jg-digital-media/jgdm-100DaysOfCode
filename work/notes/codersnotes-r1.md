@@ -2,13 +2,15 @@
 
 ## **Status:** Day 67 of 100  
 
-**Last Update:** 05 December 2023
+**Last Update:** 06 December 2023
 ___
 
 **Directories:** ai | api | css | databases | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
+### Day 68
 
+. . .
 
 ### Day 67
 

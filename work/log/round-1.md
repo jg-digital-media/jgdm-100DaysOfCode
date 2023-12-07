@@ -1,6 +1,13 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 68 of 100. **Last Update:** 6 December 2023
+## **Status:** Day 69 of 100. **Last Update:** 7 December 2023
+
+
+### Day 69**: Thursday December 7th 2023
+
+More of the same.  I've modified the build CV application to add new spaces to add and edit college/uversity data rather than rows of one set of data.
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
 
 
 ### Day 68**: Wednesday December 6th 2023

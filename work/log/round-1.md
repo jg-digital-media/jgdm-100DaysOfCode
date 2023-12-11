@@ -1,6 +1,13 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 69 of 100. **Last Update:** 8 December 2023
+## **Status:** Day 71 of 100. **Last Update:** 11 December 2023
+
+
+### Day 71**: Monday December 11th 2023
+
+Updated the "Education Section of the "Build My CV" app. Add as many Educational Establishments and qualifications that you need to complete your Education history.
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
 
 
 ### Day 70**: Friday December 8th 2023

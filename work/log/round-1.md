@@ -1,6 +1,13 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 71 of 100. **Last Update:** 11 December 2023
+## **Status:** Day 72 of 100. **Last Update:** 12 December 2023
+
+
+### Day 72**: Tuesday December 12th 2023
+
+Started a couple of new projects today!
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
 
 
 ### Day 71**: Monday December 11th 2023

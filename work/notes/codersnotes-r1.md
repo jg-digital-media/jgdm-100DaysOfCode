@@ -8,7 +8,7 @@ ___
 **Directories:** ai | api | css | databases | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-### Day 71
+### Day 72
 
 . . .
 

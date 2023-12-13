@@ -1,16 +1,31 @@
 # 100 Days of Code - Round 1
 
-## **Status:** Day 70 of 100  
+## **Status:** Day 73 of 100  
 
-**Last Update:** 08 December 2023
+**Last Update:** 13 December 2023
 ___
 
 **Directories:** ai | api | css | databases | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
-### Day 72
+### Day 73
 
-. . .
+Electric	500
+Gas		1200
+Water		130
+Council Tax	2000
+TV		2300
+Car Insurance	1200
+Car Tax 		300
+Mortgate/Rent	1300
+Home Insurance	1200
+Medical		420
+Gym		600
+Food Shop		
+Car Fuel	
+Personal Care
+Miscelleneous
+
 
 ### Day 67
 

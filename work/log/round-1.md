@@ -1,7 +1,13 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 73 of 100. **Last Update:** 13 December 2023
+## **Status:** Day 74 of 100. **Last Update:** 14 December 2023
 
+
+### Day 73**: Thursday December 14th 2023
+
+The "Million" app I created yesterday works but needs some UI love. So I added a "Jump to Top" link at the bottom of the app that appears when vertical scrolling is needed.
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
 
 ### Day 72**: Wednesday December 13th 2023
 

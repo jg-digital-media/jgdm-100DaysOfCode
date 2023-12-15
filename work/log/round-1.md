@@ -1,20 +1,28 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 74 of 100. **Last Update:** 14 December 2023
+## **Status:** Day 75 of 100. **Last Update:** 15 December 2023
 
 
-### Day 73**: Thursday December 14th 2023
+
+### Day 75**: Friday December 15th 2023
+
+Looking to improve my repertoir by studying and utilising a PWA - Progressive Web App
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
+
+
+### Day 74**: Thursday December 14th 2023
 
 The "Million" app I created yesterday works but needs some UI love. So I added a "Jump to Top" link at the bottom of the app that appears when vertical scrolling is needed.
 
 #### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
 
-### Day 72**: Wednesday December 13th 2023
+
+### Day 73**: Wednesday December 13th 2023
 
 I've been working on a couple of projects in the few days!  This one, for a bit of fun. Discover how long you could live on a £1million based on expenses you provide. 
 
 #### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
-
 
 
 ### Day 72**: Tuesday December 12th 2023

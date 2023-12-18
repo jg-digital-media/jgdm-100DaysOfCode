@@ -1,8 +1,12 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 75 of 100. **Last Update:** 15 December 2023
+## **Status:** Day 76 of 100. **Last Update:** 18 December 2023
 
+### Day 76**: Monday December 18th 2023
 
+Making a professional development page.
+
+#### **Tech Used: SASS/CSS, HTML5, JavaScript, PHP
 
 ### Day 75**: Friday December 15th 2023
 

@@ -1,15 +1,15 @@
 # 100 Days of Code - Round 1
 
-## **Status:** Day 75 of 100  
+## **Status:** Day 76 of 100  
 
-**Last Update:** 15 December 2023
+**Last Update:** 18 December 2023
 ___
 
 **Directories:** ai | api | css | databases | java | javascript | nodeJS | php | project_api | python | react | regex | sonic_pi | svg | vue | work
 ___
 
 
-### Day 75
+### Day 76
 
 . . .
 

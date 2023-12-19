@@ -1,6 +1,10 @@
 # 100 Days of Code - Round 1  
 
-## **Status:** Day 76 of 100. **Last Update:** 18 December 2023
+## **Status:** Day 77 of 100. **Last Update:** 19 December 2023
+
+### Day 77**: Tuesday December 17th 2023
+
+Making a professional development page.
 
 ### Day 76**: Monday December 18th 2023
 

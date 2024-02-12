@@ -12,8 +12,6 @@
 <body>
         
     <h1>Example as returned from ChatGPT</h1>
-    
-    <span class="input"><strong>input: </strong><code>select from a group of elements and then copy the text content of a clicked element</code></span>
         
     <div id="group">
         <div class="item">Item 1</div>

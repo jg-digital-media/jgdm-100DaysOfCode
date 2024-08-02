@@ -1,7 +1,7 @@
 
 /*
 
-Last Update:  09/05/2020 - 13:29
+Last Update:  02/08/2024 - 15:07
 
 */
 
@@ -36,6 +36,21 @@ header {
         text-align: center;
         color: #f2f284;
     }
+
+    #goback {
+
+        display: block;
+        width: 100%;
+        color: white;
+        transition: color .4s;
+        text-align: center;
+        margin: 5px auto;
+
+        &:hover {
+
+            color: #f2f284;;
+        }
+    }
     
     a {
 
@@ -46,11 +61,11 @@ header {
             display: block;
             margin: 0 auto;
             position: relative;
-            top: 20px;
+            top: 0px;
             width: 130px;
             height: 130px;
             border-radius: 50%;
-            padding: 6px;
+            padding: 5px;
         }
     }
 }

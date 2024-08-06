@@ -30,14 +30,22 @@ header {
     }
 
     p {
-        text-align: center;
-        a {
+        
+        text-align: center;        
+        font-size: 12px;
+        
+        #hdr-link  {
+            
             color: white;
+            
+            &:hover {                
+                
+                text-decoration: none;
+            }
         }
     }
 
     #hdr-link {
-        font-size: 10px;
     }
 
     div.header-content {    

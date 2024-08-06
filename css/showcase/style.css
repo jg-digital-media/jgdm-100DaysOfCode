@@ -1,14 +1,8 @@
 /*
-* Authored by: Jonnie Grieve Digital Media @jg_digitalMedia
-* URL:  http://www.jonniegrieve.co.uk
-* Page URL: https://projects.jonniegrieve.co.uk/practice/parallax/index.html
-* Last Update: 27-09-2021: 12:20
-*/
-/*
 
 Extends and Mixins
 */
-.one div, .two div, .three div, .four div, .five div, .six div, .seven div, .eight div {
+.seven div, .five div, .four div, .three div, .two div, .one div {
   height: 20vh;
   height: auto;
   width: 45%;
@@ -19,60 +13,78 @@ Extends and Mixins
   margin: 0 auto;
   padding: 2% 25px;
   border-radius: 5px;
-  line-height: 2; }
-  @media (max-width: 680px) {
-    .one div, .two div, .three div, .four div, .five div, .six div, .seven div, .eight div {
-      width: 85%; } }
+  line-height: 2;
+}
+@media (max-width: 680px) {
+  .seven div, .five div, .four div, .three div, .two div, .one div {
+    width: 60%;
+  }
+}
 
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 body {
   color: white;
   background: black;
-  font-family: 'Cabin', 'Roboto', 'verdana', sans-serif; }
+  font-family: "Cabin", "Roboto", "verdana", sans-serif;
+}
 
 main {
-  background: black; }
+  background: black;
+}
 
 header {
   background: #080749;
   height: auto;
   border-bottom: 8px solid white;
-  color: #cff082; }
+  color: #cff082;
+}
+header h1 {
+  font-size: 3vw;
+  text-align: center;
+}
+@media (max-width: 680px) {
   header h1 {
-    font-size: 3vw;
-    text-align: center; }
-    @media (max-width: 680px) {
-      header h1 {
-        font-size: 5vw; } }
-  header p {
-    text-align: center; }
-    header p a {
-      color: white; }
-  header #hdr-link {
-    font-size: 10px; }
-  header div.header-content {
-    /* margin-top: 20px; */
-    margin: 2% auto;
+    font-size: 5vw;
+  }
+}
+header p {
+  text-align: center;
+  font-size: 12px;
+}
+header p #hdr-link {
+  color: white;
+}
+header p #hdr-link:hover {
+  text-decoration: none;
+}
+header div.header-content {
+  /* margin-top: 20px; */
+  margin: 2% auto;
+  display: block;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+header div.header-content article {
+  display: inline-block;
+  width: 24%;
+  margin: 0 20px;
+  text-align: left;
+  line-height: 2.1;
+  vertical-align: top;
+}
+@media (max-width: 680px) {
+  header div.header-content article {
     display: block;
-    position: relative;
-    width: 100%;
-    text-align: center; }
-    header div.header-content article {
-      display: inline-block;
-      width: 24%;
-      margin: 0 20px;
-      text-align: left;
-      line-height: 2.1;
-      vertical-align: top; }
-      @media (max-width: 680px) {
-        header div.header-content article {
-          display: block;
-          padding: 0 5px;
-          margin: 20px auto;
-          width: 90%; } }
+    padding: 0 5px;
+    margin: 20px auto;
+    width: 90%;
+  }
+}
 
 .parallax {
   /* The image used */
@@ -87,26 +99,33 @@ header {
   background-size: cover;
   color: black;
   padding: 15% 0;
-  margin-bottom: 30%; }
+  margin-bottom: 30%;
+}
 
 .one div {
-  color: #e1bbfa;
-  border: #6b0caa solid 2px;
+  color: #a691f8;
+  border: #a691f8 solid 2px;
   background: #150552;
-  transition: transform .1s, background .2s; }
-  .one div:hover {
-    background: #210882;
-    transform: scale(1.07);
-    transition: transform .1s, background .2s; }
+  transition: transform 0.1s, background 0.2s;
+}
+.one div:hover {
+  background: #27099a;
+  transform: scale(1.07);
+  transition: transform 0.1s, background 0.2s;
+}
 .one h1 {
-  font-size: 16pt; }
+  font-size: 16pt;
+}
 .one p {
-  font-size: 12pt; }
+  font-size: 12pt;
+}
 .one a {
-  color: #e1bbfa;
-  text-decoration: none; }
-  .one a:hover {
-    text-decoration: underline; }
+  color: #a691f8;
+  text-decoration: none;
+}
+.one a:hover {
+  text-decoration: underline;
+}
 
 .parallax-two {
   background: url("img/autoc.png");
@@ -120,27 +139,34 @@ header {
   background-size: cover;
   color: black;
   padding: 15% 0;
-  margin-bottom: 30%; }
+  margin-bottom: 30%;
+}
 
 .two div {
-  color: #9494ff;
-  border: blue solid 2px;
-  background: blue;
-  transition: transform .1s, background .2s; }
-  .two div:hover {
-    background: #3333ff;
-    transform: scale(1.07);
-    transition: transform .1s, background .2s; }
+  color: #ccccff;
+  border: #ccccff solid 2px;
+  background: #0000ff;
+  transition: transform 0.1s, background 0.2s;
+}
+.two div:hover {
+  background: #4d4dff;
+  transform: scale(1.07);
+  transition: transform 0.1s, background 0.2s;
+}
 .two h1 {
   text-align: center;
-  font-size: 16pt; }
+  font-size: 16pt;
+}
 .two p {
-  font-size: 12pt; }
+  font-size: 12pt;
+}
 .two a {
-  color: #9494ff;
-  text-decoration: none; }
-  .two a:hover {
-    text-decoration: underline; }
+  color: #ccccff;
+  text-decoration: none;
+}
+.two a:hover {
+  text-decoration: underline;
+}
 
 .parallax-three {
   background: url("img/elim.png");
@@ -154,32 +180,40 @@ header {
   background-size: cover;
   color: black;
   padding: 15% 0;
-  margin-bottom: 30%; }
+  margin-bottom: 30%;
+}
 
 .three div {
-  color: #e8862b;
-  border: #e8862b solid 2px;
-  background: #fae56f;
-  transition: transform .1s, background .2s; }
-  .three div:hover {
-    background: #fdf2b9;
-    transform: scale(1.07);
-    transition: transform .1s, background .2s; }
+  color: #fbebca;
+  border: #f5d183 solid 2px;
+  background: #ce9211;
+  transition: transform 0.1s, background 0.2s;
+}
+.three div:hover {
+  background: #efb63d;
+  transform: scale(1.07);
+  transition: transform 0.1s, background 0.2s;
+}
 .three h1 {
   text-align: center;
-  font-size: 16pt; }
+  font-size: 16pt;
+}
 .three p {
-  font-size: 12pt; }
+  font-size: 12pt;
+}
 .three a {
-  color: #e8862b;
-  text-decoration: none; }
-  .three a:hover {
-    text-decoration: underline; }
+  color: #fbebca;
+  text-decoration: none;
+}
+.three a:hover {
+  text-decoration: underline;
+}
 
 .parallax-four {
   background: url("img/pm_consulting.png");
   /* Set a specific height */
   height: 500px;
+  height: 100vh;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -187,27 +221,34 @@ header {
   background-size: cover;
   color: black;
   padding: 15% 0;
-  margin-bottom: 30%; }
+  margin-bottom: 30%;
+}
 
 .four div {
-  color: #420fba;
-  border: #310b8b solid 2px;
-  background: #7c7eb8;
-  transition: transform .1s, background .2s; }
-  .four div:hover {
-    background: #aeafd3;
-    transform: scale(1.07);
-    transition: transform .1s, background .2s; }
+  color: #cfd0e8;
+  border: #adafd7 solid 2px;
+  background: #4d509e;
+  transition: transform 0.1s, background 0.2s;
+}
+.four div:hover {
+  background: #7a7cbe;
+  transform: scale(1.07);
+  transition: transform 0.1s, background 0.2s;
+}
 .four h1 {
   text-align: center;
-  font-size: 16pt; }
+  font-size: 16pt;
+}
 .four p {
-  font-size: 12pt; }
+  font-size: 12pt;
+}
 .four a {
-  color: #420fba;
-  text-decoration: none; }
-  .four a:hover {
-    text-decoration: underline; }
+  color: #cfd0e8;
+  text-decoration: none;
+}
+.four a:hover {
+  text-decoration: underline;
+}
 
 .parallax-five {
   background: url("img/mangles.png");
@@ -220,32 +261,40 @@ header {
   background-size: cover;
   color: black;
   padding: 15% 0;
-  margin-bottom: 30%; }
+  margin-bottom: 5%;
+}
 
 .five div {
-  color: #f8d079;
-  border: #f7c65c solid 2px;
+  color: #f5d9c0;
+  border: #eebe94 solid 2px;
   background: #c96f20;
-  transition: transform .1s, background .2s; }
-  .five div:hover {
-    background: #dc7b26;
-    transform: scale(1.07);
-    transition: transform .1s, background .2s; }
+  transition: transform 0.1s, background 0.2s;
+}
+.five div:hover {
+  background: #e39652;
+  transform: scale(1.07);
+  transition: transform 0.1s, background 0.2s;
+}
 .five h1 {
   text-align: center;
-  font-size: 16pt; }
+  font-size: 16pt;
+}
 .five p {
-  font-size: 12pt; }
+  font-size: 12pt;
+}
 .five a {
-  color: #f8d079;
-  text-decoration: none; }
-  .five a:hover {
-    text-decoration: underline; }
+  color: #f5d9c0;
+  text-decoration: none;
+}
+.five a:hover {
+  text-decoration: underline;
+}
 
-.parallax-six {
+.parallax-seven {
   background: url("img/jgrieve.png");
   /* Set a specific height */
   height: 500px;
+  height: 100vh;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -253,95 +302,44 @@ header {
   background-size: cover;
   color: black;
   padding: 15% 0;
-  margin-bottom: 30%; }
-
-.six div {
-  color: #ff9f38;
-  border: #ff8605 solid 2px;
-  background: #edff76;
-  transition: transform .1s, background .2s; }
-  .six div:hover {
-    background: #f4ffa9;
-    transform: scale(1.07);
-    transition: transform .1s, background .2s; }
-.six h1 {
-  text-align: center;
-  font-size: 16pt; }
-.six p {
-  font-size: 12pt; }
-.six a {
-  color: #ff9f38;
-  text-decoration: none; }
-  .six a:hover {
-    text-decoration: underline; }
-
-.parallax-seven {
-  background: url("img/route_office.png");
-  /* Set a specific height */
-  height: 500px;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: black;
-  padding: 15% 0;
-  margin-bottom: 30%; }
+  margin-bottom: 5%;
+}
 
 .seven div {
-  color: #a313b4;
-  border: #3b0741 solid 2px;
-  background: #1a083a;
-  transition: transform .1s, background .2s; }
-  .seven div:hover {
-    background: #2e0e67;
-    transform: scale(1.07);
-    transition: transform .1s, background .2s; }
+  color: #f58c3c;
+  border: #fdfdef solid 2px;
+  background: #f0f063;
+  transition: transform 0.1s, background 0.2s;
+}
+.seven div:hover {
+  background: #f9f9c0;
+  transform: scale(1.07);
+  transition: transform 0.1s, background 0.2s;
+}
 .seven h1 {
   text-align: center;
-  font-size: 16pt; }
+  font-size: 16pt;
+}
 .seven p {
-  font-size: 12pt; }
+  font-size: 12pt;
+}
 .seven a {
-  color: #a313b4;
-  text-decoration: none; }
-  .seven a:hover {
-    text-decoration: underline; }
-
-.parallax-eight {
-  background: url("img/praise_in_park.png");
-  /* Set a specific height */
-  height: 500px;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: black;
-  padding: 15% 0;
-  margin-bottom: 30%; }
-
-.eight div {
-  color: #0fc86f;
-  border: #06512d solid 2px;
-  background: green;
-  transition: transform .1s, background .2s; }
-  .eight div:hover {
-    background: #009a00;
-    transform: scale(1.07);
-    transition: transform .1s, background .2s; }
-.eight h1 {
-  text-align: center;
-  font-size: 16pt; }
-.eight p {
-  font-size: 12pt; }
-.eight a {
-  color: #0fc86f;
-  text-decoration: none; }
-  .eight a:hover {
-    text-decoration: underline; }
+  color: #f58c3c;
+  text-decoration: none;
+}
+.seven a:hover {
+  text-decoration: underline;
+}
 
 footer p {
-  text-align: center; }
+  text-align: center;
+}
+footer p a {
+  color: gold;
+  transition: color 0.3s;
+}
+footer p a:hover {
+  color: white;
+}
 
 /*# sourceMappingURL=style.css.map */

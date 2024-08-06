@@ -1,5 +1,16 @@
 footer {
     p {
         text-align: center;
+        
+        a {
+            
+            color: gold;
+            transition: color .3s;
+            
+            &:hover {
+                
+                color: white;
+            }
+        }
     }
 }

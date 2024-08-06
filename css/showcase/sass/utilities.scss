@@ -4,7 +4,6 @@ Extends and Mixins
 */
 
 %parallax-sections {
-        border: solid red 1px;
 }
 
 %box-styling { 
@@ -22,7 +21,7 @@ Extends and Mixins
     line-height: 2;
 
     @media (max-width: 680px) {
-        width: 85%;
+        width: 60%;
     }
 }
 

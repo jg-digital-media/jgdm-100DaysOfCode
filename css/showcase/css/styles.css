@@ -2,7 +2,7 @@
 
 Extends and Mixins
 */
-.one div, .two div, .three div, .four div, .five div {
+.one div, .two div, .three div, .four div, .five div, .six div, .seven div {
   height: 20vh;
   height: auto;
   width: 45%;
@@ -15,8 +15,8 @@ Extends and Mixins
   border-radius: 5px;
   line-height: 2; }
   @media (max-width: 680px) {
-    .one div, .two div, .three div, .four div, .five div {
-      width: 85%; } }
+    .one div, .two div, .three div, .four div, .five div, .six div, .seven div {
+      width: 60%; } }
 
 * {
   padding: 0;
@@ -84,12 +84,12 @@ header {
   margin-bottom: 30%; }
 
 .one div {
-  color: #e1bbfa;
-  border: #6b0caa solid 2px;
+  color: #a691f8;
+  border: #a691f8 solid 2px;
   background: #150552;
   transition: transform .1s, background .2s; }
   .one div:hover {
-    background: #210882;
+    background: #27099a;
     transform: scale(1.07);
     transition: transform .1s, background .2s; }
 .one h1 {
@@ -97,7 +97,7 @@ header {
 .one p {
   font-size: 12pt; }
 .one a {
-  color: #e1bbfa;
+  color: #a691f8;
   text-decoration: none; }
   .one a:hover {
     text-decoration: underline; }
@@ -117,12 +117,12 @@ header {
   margin-bottom: 30%; }
 
 .two div {
-  color: #9494ff;
-  border: blue solid 2px;
-  background: blue;
+  color: #ccccff;
+  border: #ccccff solid 2px;
+  background: #0000ff;
   transition: transform .1s, background .2s; }
   .two div:hover {
-    background: #3333ff;
+    background: #4d4dff;
     transform: scale(1.07);
     transition: transform .1s, background .2s; }
 .two h1 {
@@ -131,7 +131,7 @@ header {
 .two p {
   font-size: 12pt; }
 .two a {
-  color: #9494ff;
+  color: #ccccff;
   text-decoration: none; }
   .two a:hover {
     text-decoration: underline; }
@@ -151,12 +151,12 @@ header {
   margin-bottom: 30%; }
 
 .three div {
-  color: #f79a43;
-  border: #f7973e solid 2px;
-  background: #fae56f;
+  color: #fbebca;
+  border: #f5d183 solid 2px;
+  background: #ce9211;
   transition: transform .1s, background .2s; }
   .three div:hover {
-    background: #fdf2b9;
+    background: #efb63d;
     transform: scale(1.07);
     transition: transform .1s, background .2s; }
 .three h1 {
@@ -165,15 +165,16 @@ header {
 .three p {
   font-size: 12pt; }
 .three a {
-  color: #f79a43;
+  color: #fbebca;
   text-decoration: none; }
   .three a:hover {
     text-decoration: underline; }
 
 .parallax-four {
-  background: url("../img/apr-training.png");
+  background: url("../img/pm_consulting.png");
   /* Set a specific height */
   height: 500px;
+  height: 100vh;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -184,12 +185,12 @@ header {
   margin-bottom: 30%; }
 
 .four div {
-  color: #420fba;
-  border: #310b8b solid 2px;
-  background: #7c7eb8;
+  color: #cfd0e8;
+  border: #adafd7 solid 2px;
+  background: #4d509e;
   transition: transform .1s, background .2s; }
   .four div:hover {
-    background: #aeafd3;
+    background: #7a7cbe;
     transform: scale(1.07);
     transition: transform .1s, background .2s; }
 .four h1 {
@@ -198,7 +199,7 @@ header {
 .four p {
   font-size: 12pt; }
 .four a {
-  color: #420fba;
+  color: #cfd0e8;
   text-decoration: none; }
   .four a:hover {
     text-decoration: underline; }
@@ -217,12 +218,12 @@ header {
   margin-bottom: 5%; }
 
 .five div {
-  color: #f8d079;
-  border: #f7c65c solid 2px;
+  color: #f5d9c0;
+  border: #eebe94 solid 2px;
   background: #c96f20;
   transition: transform .1s, background .2s; }
   .five div:hover {
-    background: #dc7b26;
+    background: #e39652;
     transform: scale(1.07);
     transition: transform .1s, background .2s; }
 .five h1 {
@@ -231,9 +232,77 @@ header {
 .five p {
   font-size: 12pt; }
 .five a {
-  color: #f8d079;
+  color: #f5d9c0;
   text-decoration: none; }
   .five a:hover {
+    text-decoration: underline; }
+
+.parallax-six {
+  background: url("../img/route_office.png");
+  /* Set a specific height */
+  height: 500px;
+  height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  padding: 15% 0;
+  margin-bottom: 5%; }
+
+.six div {
+  color: #884ef0;
+  border: #5211c7 solid 2px;
+  background: #18053a;
+  transition: transform .1s, background .2s; }
+  .six div:hover {
+    background: #3f0d98;
+    transform: scale(1.07);
+    transition: transform .1s, background .2s; }
+.six h1 {
+  text-align: center;
+  font-size: 16pt; }
+.six p {
+  font-size: 12pt; }
+.six a {
+  color: #884ef0;
+  text-decoration: none; }
+  .six a:hover {
+    text-decoration: underline; }
+
+.parallax-seven {
+  background: url("../img/jgrieve.png");
+  /* Set a specific height */
+  height: 500px;
+  height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  padding: 15% 0;
+  margin-bottom: 5%; }
+
+.seven div {
+  color: #f58c3c;
+  border: #fdfdef solid 2px;
+  background: #f0f063;
+  transition: transform .1s, background .2s; }
+  .seven div:hover {
+    background: #f9f9c0;
+    transform: scale(1.07);
+    transition: transform .1s, background .2s; }
+.seven h1 {
+  text-align: center;
+  font-size: 16pt; }
+.seven p {
+  font-size: 12pt; }
+.seven a {
+  color: #f58c3c;
+  text-decoration: none; }
+  .seven a:hover {
     text-decoration: underline; }
 
 footer p {

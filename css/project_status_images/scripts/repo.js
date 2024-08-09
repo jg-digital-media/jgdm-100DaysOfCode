@@ -4,11 +4,11 @@
  * Authored by:  @jg_digitalMedia
  * Web:          https://www.jonniegrieve.co.uk/assets/project_status_images/
  * 
- * // file path to json file - local  - ../../css/portfolio/data/repositories.json
+ * // file path to json file - local  - ../../databases/repositories.json
  * // file path to json file - server - ../../../data/repositories.json 
  * // absolute path - https://www.jonniegrieve.co.uk/data/repositories.json
  * 
- * Last Update:  14:57 - 12/07/2021
+ * Last Update:  10:26 - 09/08/2021
 */
 
 

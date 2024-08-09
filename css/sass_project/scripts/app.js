@@ -5,10 +5,14 @@
  * Web:          https://projects.jonniegrieve.co.uk/sass_projects
  * 
  * // file path to json file - local   - data/project-list.json
- * // file path to json file - server (assets/lists/)  - ../../../data/project-list.json
- * // file path to json file - server (projects/) - ../../../data/project-list.json
+ * // file path to json file - server (assets/lists/)  - ../../../data/sass---project--list.json
+ * // file path to json file - server (projects/) - ../../../data/sass---project--list.json
  * 
- * Last Update:  12:20 - 21/07/2022
+ * // file path to json file - local  - ../../css/portfolio/data/sass---project--list.json
+ * // file path to json file - server - ../../../data/sass---project--list.json
+ * // absolute path - https://www.jonniegrieve.co.uk/data/project-list.json
+ * 
+ * Last Update: 13:32 - 09/08/2024
  */
 
 console.log("connected to app.js")
@@ -22,8 +26,8 @@ $(document).ready(function() {
 
 
 /* Get project list */
-jQuery.getJSON('../../../data/project-list.json', function(photoData) {     
-// jQuery.getJSON('data/project-list.json', function(photoData) { 
+jQuery.getJSON('../../../data/sass---project--list.json', function(photoData) {     
+// jQuery.getJSON('data/sass---project--list.json', function(photoData) { 
 
 
     // get the dynamic count and display on screen

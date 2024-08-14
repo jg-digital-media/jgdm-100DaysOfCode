@@ -11,10 +11,12 @@
     }    
 
     div.route-slider {
-        /*display: inline-block;*/
-        /*width: 67%;*/
+
+        /* display: inline-block; */
+        /* width: 67%; */
 
         div {
+
             display: inline-block;
             margin: 0 15px;
 
@@ -34,6 +36,32 @@
                 }
             }
         }
+        
+        .slick-list.draggable {
+
+            /*width: 79%;*/
+            width: 100%; 
+        
+            button.slick-prev,        
+            button.slick-next {
+            
+                display: inline-block;
+                background: green;
+            }
+            
+        }
+
+        .slick-list {
+
+            button.slick-prev,        
+            button.slick-next {
+            
+                    display: inline-block;
+                    background: green;
+                }
+        }
+
+       
     }
 }
 
@@ -46,11 +74,6 @@
 
 .slick-slide.slick-cloned {
     display: inline-block;
-}
-  
-.slick-list.draggable {
-    /*width: 79%;*/
-    width: 100%; 
 }
   
 .slick-slider {

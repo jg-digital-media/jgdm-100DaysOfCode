@@ -27,7 +27,7 @@
 
         <h2>About Lockdown</h2>
 
-        <p>Welcome. In March 2020 life changed for me and everyone else on the planet, possibly forever. </p>
+        <p>Welcome. In March 2020 life changed for me and everyone else on the planet. It was a very strange time. </p>
 
         <p>Due to the Covid-19 pandemic, we all had to make changes to our daily lives and our routines. This left me feeling strange and disoriented at what was happening and the loss of some of the freedoms that we enjoy. Loss of freedom with good reasons might I had.</p>
 

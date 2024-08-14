@@ -1,0 +1,35 @@
+
+//head
+@import "sass/inc/head";
+
+//utilities
+@import "sass/utilities/resets";
+@import "sass/utilities/colours";
+@import "sass/utilities/fonts";
+@import "sass/utilities/breakpoints";
+@import "sass/utilities/mixins";
+@import "sass/utilities/modal";
+@import "sass/utilities/slick";
+@import "sass/utilities/buttons";
+@import "sass/utilities/extends";
+
+//inc
+@import "sass/inc/header";
+
+//walks
+@import "sass/walks/walks";
+@import "sass/walks/walk-template";
+
+//pages
+@import "sass/pages/lockdown"; //encompassing slick.scss partial
+@import "sass/pages/dene";
+@import "sass/pages/railway";
+@import "sass/pages/coastal";
+@import "sass/pages/routes";
+
+
+//main
+@import "sass/main";
+
+//footer
+@import "sass/inc/footer";

@@ -153,6 +153,50 @@
                                 border: solid 2px #20ca0d;
                             }
                         }
+
+                        &.tooltip {
+
+                            position: relative;
+                            display: inline-block;
+                            /* border-bottom: 1px dotted black; */
+                        }
+                          
+                        &.tooltip .tooltiptext {
+
+                            visibility: hidden;
+                            opacity: 0;
+                            min-width: 120px;
+                            /* width: 120px; */
+                            background-color: black;
+                            color: #fff;
+                            text-align: center;
+                            border-radius: 6px;
+                            padding: 5px 0;
+                            font-size: 12px;
+                            transition: opacity .4s, visibility .3s;
+                          
+                            /* Position the tooltip */
+                            position: absolute;
+                            z-index: 10000;
+                            /* top: 0; */
+                            left: 5px;
+                            left: 0;
+                            top: 140px;
+
+                            &.tooltip:hover .tooltiptext {
+                            
+                                visibility: visible;
+                                opacity: 1;
+                              }
+
+                            
+                        }
+
+                        &.tooltip:hover .tooltiptext {
+
+                            visibility: visible;
+                            opacity: 1;
+                          }
                     }
 
                 }

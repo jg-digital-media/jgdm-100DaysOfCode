@@ -31,11 +31,11 @@
 
         <p>Due to the Covid-19 pandemic, we all had to make changes to our daily lives and our routines. This left me feeling strange and disoriented at what was happening and the loss of some of the freedoms that we enjoy. Loss of freedom with good reasons might I had.</p>
 
-        <p>This prompted me to change some things. I discovered that being outside was the best way to make myself feel better about life. So I got out and I got walking. I discovered a number of walking trails in and around the area I live in. </p>
+        <p>This prompted me to change some things. I discovered that being outside was the best way to make myself feel better about life. So I got out and I got walking. I discovered a number of walking trails in and around the area I lived in at the time. </p>
 
-        <p>Being around nature really does take you out of the Coronavirus bubble and for a short time at least make you feel that it is all going to be okay.</p>
+        <p>Being around nature really does take you out of the Coronavirus bubble and can, for a short time at least make you feel that it is all going to be okay.</p>
 
-        <p>I feel so lucky that I've had so many safe and green spaces to go to while the UK was in Lockdown. So I created this website as something good to mark this strange period in all of our lives.</p>
+        <p>I feel so lucky that I've had so many safe and green spaces to go to while the UK was in Lockdown. So I created this website as something good to mark out that strange period in all of our lives.</p>
 
         <p>Have a browse and enjoy!</p>
 

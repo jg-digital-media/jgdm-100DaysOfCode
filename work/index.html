@@ -3,11 +3,427 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    copy list page here
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N9WB623MVP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-N9WB623MVP');
+    </script>
+
+
+    <style>
+
+        /* Reset some default styling */
+        body, h1, h2, ul, li, p {
+        margin: 0;
+        padding: 0;
+        }
+
+        /* Body background and font styles */
+        body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+        }
+
+        /* Section styling */
+        section {
+        background-color: #fff;
+        padding: 20px;
+        margin: 20px auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        max-width: 800px;
+        /* Heading styles */
+        }
+
+
+        section .hundred_days_status {
+
+            text-align: center;
+            margin: 10px auto;
+
+            
+        }
+
+        section .hundred_days_status h2 {
+
+            border: none;
+            text-decoration: underline;
+        }
+
+        section #list_last_updated {
+
+            text-align: right;
+            font-size: 12px;
+        }
+
+        section h1 {
+        color: #333;
+        font-size: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+        border-bottom: #333333 solid 4px;
+        }
+        section h1 a {
+        color: #007bff;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+        }
+
+        
+
+      section h1 #goback {
+       
+       font-size: 12px;
+       font-weight: bold;
+       margin: 0 20px;
+     }
+
+        section h1 a:hover {
+        color: #0056b3;
+        }
+        section h2 {
+
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 15px;
+        
+        border-bottom: #333333 solid 3px;
+        width: 240px
+        }
+
+        section .last_update {
+
+          /* font-weight: bold; */
+          font-size: 12px;
+          margin: 15px 0 0 10px;
+          margin: 0px 0 15px 0px;
+          display: block;
+          width: 100%;
+          text-align: center;
+        }
+
+        section #project---list {
+
+            display: block;
+            width: 100%;
+            text-align: center;
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+
+        }        
+
+        /* List styles */
+        ul {
+        list-style: none;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        }
+        ul li {
+        margin-bottom: 10px;
+        font-weight: bold;
+        /* Link styles */
+        }
+        
+        ul li span.project_status {
+            background: beige;
+            padding: 2px;
+            border-radius: 4px;
+        }
+      
+        ul li span.ready {
+        background: #66ec66;
+        padding: 2px;
+        border-radius: 4px;
+      }
+
+      ul li span.review {
+
+        background: yellow;
+
+      }
+
+      ul li span.indev {
+
+        background: #ff6b6b;
+      }
+      
+      ul li span.project_comments {
+
+        background: #d0c5ff;
+        padding: 2px;
+        border-radius: 4px;
+      }
+
+        ul li a {
+        color: #007bff;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+        margin-right: 8px;
+        font-weight: normal;
+        }
+
+      
+        ul li a:hover {
+        color: #0056b3;
+        }
+
+        /* Footer styles */
+        footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        }
+        footer p a {
+        color: #007bff;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+        }
+        footer p a:hover {
+        color: #0056b3;
+        }
+
+        /* Media query for responsiveness */
+        @media (max-width: 768px) {
+        section {
+            padding: 15px;
+        }
+        }
+
+        /*# sourceMappingURL=style.css.map */
+
+    </style>
+
+    <title>JGDM #100daysOfCode</title>
+
+</head>
+
+<body>
+
+    <section>
+      
+        <h1>&quot;100DaysOfCode&quot; Repository on localhost <a id="goback" href="../">Back</a> </h1> 
+
+        
+        <div id="list_last_updated"><strong>List Last Updated:</strong> 09/08/2024 - 13:53 BST</div>       
+
+       
+
+        <div class="hundred_days_status">            
+
+            <h2 style="text-align: center; width: 100%; font-size: 14px;">Project List - <span id="round"><strong>Round</strong> 1</span> - <span class="day"><strong>Day</strong> 1</span> </h2>
+            
+            
+        </div>
+
+        <ul>
+            <li><a href="/server/_archive">Archived/Binned projects</a></li>
+            <li><a href="http://localhost/server/form_project" target="new">Form Project</a> - form_project/ - <span class="project_status ready">ready</span><!--  - <span class="project_comments"></span> --></li> 
+                        
+        </ul>
+        
+        <h2>AI Projects</h2> 
+        
+        <ul>
+            <li><a href="http://localhost/server/form_project" target="new">Form Project</a> - form_project/ - <span class="project_status ready">ready</span><!--  - <span class="project_comments"></span> --></li> 
+                        
+        </ul>
+
+        <!-- 
+         
+                <h3>AI Projects - <a href="http://localhost/jgdm-100daysofcode/ai">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai" target="blank">Link</a></h3>
+                
+                <ul>
+                    
+                    <li><strong>one</strong> - <a href="ai/one/index.html" title="AI Project 1" target="blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/one/index.html" title="AI Project 1" target="blank">Live</a></li>     
+                    <li><strong>checkbox_filtering</strong> - <a href="ai/checkbox_filtering/index.php" title="AI Project: Checkbox Filtering" target="blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/checkbox_filtering/index.php" title="AI Project: Checkbox Filtering" target="blank">Live</a></li>
+                    <li><strong>colour_picker</strong> - <a href="ai/colour_picker/index.html" title="AI Project 4: Colour Picker" target="blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/colour_picker/index.html" title="AI Project 4" target="blank">Live</a></li>
+                    <li><strong>mobile_menu</strong> - <a href="ai/mobile_menu/index.php" title="AI Project 3" target="blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/mobile_menu/index.php" title="AI Project 3" target="blank">Live</a></li> 
+                    <li><strong>Tic Tac Toe (Noughts and Crosses) - <a href="ai/tic_tac_toe/index.html" title="AI Project 4" target="blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/tic_tac_toe/index.html" title="AI Project 4" target="blank">Live</a> </strong></li> 
+                    <li><strong>copy_text</strong> - <a href="ai/copy_text/index.php" title="AI Project 5" target="blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/copy_text/index.php" title="AI Project 5" target="blank">Live</a></li>
+                    <li><strong>list_maker_ai</strong> - <a href="ai/list_maker_ai/index.php" title="AI Project 6" target="blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/list_maker_ai/index.php" title="AI Project 6" target="blank">Live</a></li>
+                    <li><strong>web_checklist</strong> - <a href="ai/web_checklist/index.html" title="AI Project 7" target="blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/web_checklist" title="AI Project 7" target="blank">Live</a></li>
+                    
+                </ul>
+        -->
+
+        <p></p>
+        <h2>API's - Local</h2>
+
+        <!--  <h3>API's - <a href="http://localhost/jgdm-100daysofcode/api" target="blank">Local</a></h3>
+
+                <ul>
+                    <li><strong>basics/index.html</strong> - <a href="api/basic/index.html" title="Basic request to Unsplash API" target="blank">Local</a></li>
+                    <li><strong>fetch_random/index.html</strong> - <a href="api/fetch_random/index.html" title="Random image request to dog.ceo api" target="blank">Local</a></li>
+                    <li><strong>photo_api/index.html</strong> - <a href="api/photo_api/index.html" target="blank">Local</a></li>
+                    <li><strong>project_api/index.html</strong> - <a href="https://projects.jonniegrieve.co.uk/project_api/index.html" target="blank"></a></li>
+                    <li><strong>random_from_user/index.html</strong> - <a href="api/random_from_user/index.html" target="blank">Local</a></li>
+                </ul> -->
+
+        <p></p>
+        <h2>CSS</h2>
+
+        <!-- <h3>CSS - <a href="http://localhost/jgdm-100daysofcode/css" target="blank">Local</a></h3>
+
+                <ul>
+                    <li><strong>css/balloon</strong> - Balloon Flight Experience Website - <a href="https://projects.jonniegrieve.co.uk/balloon/" target="blank">Link</a></li>
+                    <li><strong>css/experiments</strong> - CSS Experiments - <a href="https://projects.jonniegrieve.co.uk/practice/" target="blank"></a></li>
+                    <li><strong>css/form_accessible</strong> - Form Accessible - No Source - [Inactive] </li>
+                    <li><strong>css/modernizr</strong> - Left push navigation for mobiles - <a href="https://projects.jonniegrieve.co.uk/modernizr" target="blank">Link</a></li>
+                    <li><strong>css/portfolio-gallery</strong> - <a href="https://projects.jonniegrieve.co.uk/portfolio-gallery" target="blank">Link</a></li>                    
+                    <li><strong>css/project_status</strong> - <a href="http://localhost/jgdm-100daysofcode/css/project_status/" target="blank">Local</a> - <a href="https://www.jonniegrieve.co.uk/assets/project_status" target="blank">Link</a></li>
+                    <li><strong>css/project_status_images</strong> - <a href="https://www.jonniegrieve.co.uk/assets/project_status_images" target="blank">Link</a></li>
+                    <li><strong>css/pwa</strong> - <a href="https://projects.jonniegrieve.co.uk/pwa" target="blank">Link</a></li>
+                    <li><strong>css/pwa_2</strong> - <a href="https://projects.jonniegrieve.co.uk/pwa_2" target="blank">Link</a></li>
+                    <li><strong>css/sass_project </strong> - Sass Project - <a href="https://projects.jonniegrieve.co.uk/sass_project" target="blank">Link</a></li>
+                    <li><strong>css/semantic_html_example </strong> - Semantic HTML Example - <a href="https://projects.jonniegrieve.co.uk/semantic_html_example" target="blank">Link</a> - Inactive</li>
+                    <li><strong>css/showcase </strong> - Web Design showcase -  <a href="https://projects.jonniegrieve.co.uk/showcase" target="blank">Link</a> - Incomplete</li>
+                    <li><strong>css/web_checklist </strong> - Web Checklist - <a href="https://projects.jonniegrieve.co.uk/web_checklist" target="blank">Link</a> - Incomplete</li>
+                </ul> -->
+
+        <p></p>
+        <h2>JavaScript</h2>
+
+        <!-- <h3>JavaScript - <a href="http://localhost/jgdm-100daysofcode/javascript" target="blank">Local</a></h3>
+
+                <ul>
+                    <li><strong>javascript/ajax</strong> - Fictional Stock Check Application with AJAX - <a href="https://projects.jonniegrieve.co.uk/ajax_project/" target="blank">Link</a> - </li>
+                    <li><strong>javascript/currency_converter</strong> - <a href="https://projects.jonniegrieve.co.uk/currency_converter/" target="blank">Link</a> </li>
+                    <li><strong>javascript/dom</strong> - Simple List Maker App - <a href="javascript/dom/" target="blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/list_maker/" target="blank">Link</a></li>
+                    <li><strong>javascript/four_in_a_row</strong> - Object Oriented JavaScript project that builds version of the "Four in a Row" game. - <a href="https://projects.jonniegrieve.co.uk/four_in_a_row" target="blank">Link</a></li>
+                    <li><strong>javascript/greensock</strong> - Animation Library for JavaScript - No Source</li>
+                    <li><strong>javascript/iteration-methods</strong> - Inactive</li>
+                    <li><strong>javascript/vue/vue-status-project</strong> - Project Status List to update - <a href="https://projects.jonniegrieve.co.uk/vue_project/" target="blank">Link</a></li>
+                    <li><strong>javascript/localstorage</strong> - local storage page <a href="https://projects.jonniegrieve.co.uk/localstorage/" target="blank">Link</a></li>
+                    <li><strong>javascript/scroll_story</strong> - Scroll Story <a href="https://projects.jonniegrieve.co.uk" target="blank">Link</a> - Inactive </li>
+                    <li><strong>javascript/random_number_challenge_js</strong> - Random Number Challenge (JS) - Incomplete
+                    <li><strong>javascript/th_live_pet_directory</strong> - TH Pet Directory <a href="https://projects.jonniegrieve.co.uk" target="blank">Link</a> - Inactive </li>
+                </ul>
+        -->
+
+        <p></p>
+        <h2>Databases</h2>
+
+        <!-- 
+        
+          <h3>Databases - <a href="http://localhost/jgdm-100daysofcode/databases" target="blank">Local</a></h3>
+                
+                <ul>
+                    <li></li>
+                </ul>
+        -->
+
+        <p>None</p>
+        <h2>Java</h2>
+
+        <!-- <h3>Java - <a href="http://localhost/jgdm-100daysofcode/java" target="blank">Local</a></h3>
+
+                <ul>
+                    <li>Generics</li>
+                    <li>interfaces</li>
+                    <li>Lists</li>
+                    <li>Maps</li>
+                    <li>MyFirstApp</li>
+                </ul> -->
+
+        <p></p>
+        <h2>PHP</h2>
+
+        <!--  <h3>PHP - <a href="http://localhost/jgdm-100daysofcode/php" target="blank">Local</a></h3>
+
+                <ul>
+                    <li><strong>php/lockdown</strong> - <a href="https://projects.jonniegrieve.co.uk/lockdown/" target="blank">Link</a></li>
+                    <li><strong>php/php_auth</strong> - PHP Authentication (with Symfony PHP Package) - <a href="https://projects.jonniegrieve.co.uk/php_auth_v4" target="blank"></a> - Inactive</li> 
+                    <li><strong>php/php_boilerplate</strong> - incomplete - <a href="https://projects.jonniegrieve.co.uk/php_auth_v4" target="blank"></a></li>
+                    <li><strong>php/php_website</strong> - Currently empty - A new project in Twig - not yet uploaded - Inactive</li>
+                    <li><strong>php/slim</strong> - Custom Project - A Website built with Slim Routing - <a href="https://projects.jonniegrieve.co.uk/slim" target="blank"></a> - Inactive</li>
+                    <li><strong>php/slimmin</strong> - Single page App with Slim - incomplete - <a href="https://projects.jonniegrieve.co.uk/slim" target="blank"></a> - Inactive</li>      
+
+                </ul> -->
+
+        <p></p>
+        <h2>Python - Local</h2>
+
+        <!-- <h3>Python - <a href="http://localhost/jgdm-100daysofcode/python/">Local</a></h3>
+
+                <ul>
+
+                    <li><strong>python/basics</strong> </li>
+                    <li><strong>python/flask</strong> </li>
+                    <li><strong>python/lists</strong> </li>
+                    <li><strong>python/madlibs</strong> </li>
+                    <li><strong>python/oop</strong> </li>
+
+                </ul> -->
+
+        <p></p>
+        <h2>Regex</h2>
+
+        <!-- <h3>Regex</h3>
+
+                <ul>
+                    <li>Regex - <a href="https://projects.jonniegrieve.co.uk/regex" target="blank">Link</a></li>
+                </ul>    
+        -->
+
+        <p></p>
+        <h2>Sonic Pi - Local</h2>
+
+        <!-- <h3>Sonic Pi - <a href="http://localhost/jgdm-100daysofcode/sonic_pi/">Local</a> </h3>
+                
+                <span style="color: white">. . .</span>
+        -->
+
+        <p></p>
+        <h2>SVG</h2>
+
+        <!--<h3>SVG - <a href="http://localhost/jgdm-100daysofcode/svg/">Local</a></h3>             
+
+                <ul>
+                    <li><strong>icon_example</strong> - <a href="svg/icon_example/index.html" target="blank">Local</a></li>
+                </ul>           -->
+
+        <p></p>
+            
+        <!-- headers
+        AI Projects - Local - Link https://projects.jonniegrieve.co.uk/ai
+        API's - Local - http://localhost/jgdm-100daysofcode/api
+        CSS - Local - http://localhost/jgdm-100daysofcode/css
+        Java - Local - http://localhost/jgdm-100daysofcode/java
+        JavaScript - Local - http://localhost/jgdm-100daysofcode/javascript
+        PHP - Local - http://localhost/jgdm-100daysofcode/php
+        Python - http://localhost/jgdm-100daysofcode/python/
+        Regex  https://projects.jonniegrieve.co.uk/regex
+        Sonic Pi - Local http://localhost/jgdm-100daysofcode/sonic_pi/
+        SVG - Local http://localhost/jgdm-100daysofcode/svg/
+        
+        
+        <script>
+            var date = document.lastModified;
+            document.getElementById("js_lastupdate").innerHTML = "<strong>List Last Updated: The document was last modified on</strong>: " + date;
+        </script> 
+        
+        
+        project list
+        <h2>Project List &amp; Sources</h2>                   
+                
+        -->
+      
+        <ul>
+            <li><a href="/server/_archive">Archived/Binned projects</a></li>
+            <li><a href="http://localhost/server/form_project" target="new">Form Project</a> - form_project/ - <span class="project_status ready">ready</span><!--  - <span class="project_comments"></span> --></li> 
+                        
+        </ul>
+
+    </section>
+
 </body>
-</html>

@@ -60,18 +60,26 @@ header nav {
 header nav ul {
   align-items: baseline;
   text-align: center;
-  margin: 10px auto;
+  margin: 0px auto;
+}
+@media (max-width: 680px) {
+  header nav ul {
+    margin: 10px auto;
+  }
 }
 header nav ul li {
   display: inline-block;
   vertical-align: bottom;
   margin: 0 8px;
+  font-weight: bold;
 }
 header nav ul li a {
-  color: #ffe136;
+  color: #f9ae35;
+  transition: color 0.3s;
+  text-decoration: none;
 }
 header nav ul li a:hover {
-  color: white;
+  color: #ffe136;
 }
 @media (max-width: 680px) {
   header nav {

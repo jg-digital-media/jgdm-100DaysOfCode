@@ -76,21 +76,30 @@ header {
 
             align-items: baseline;
             text-align: center;
-            margin: 10px auto;
+            margin: 0px auto;
+
+            @media (max-width: $breakpoint--md) {
+
+                margin: 10px auto;
+
+            }
 
             li {
 
                 display: inline-block;
                 vertical-align: bottom;
                 margin: 0 8px;
+                font-weight: bold;
 
                 a {
 
-                    color: #ffe136;
+                    color: #f9ae35;
+                    transition: color .3s;
+                    text-decoration: none;
 
                     &:hover {
-
-                        color: white;
+                      
+                        color: #ffe136;
                     }
 
                 }

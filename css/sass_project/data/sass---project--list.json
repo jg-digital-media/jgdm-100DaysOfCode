@@ -127,20 +127,6 @@
             "img_type_data": "data-src"
 
         }, {
-            "project_name": "James Grieve Theatre Director",
-            "project_url": "https://jgrieve.com",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/client_portfolio/james-grieve-theatre-director/",
-            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/jgrieve.png",
-            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/jgrieve.jpg",
-            "project_alt": "James Grieve Theatre Director",
-            "project_type": "Website",
-            "class": "all ",
-            "project_status": "complete",
-            "status": true,
-            "img_type": "data-src",
-            "img_type_data": "data-src"
-
-        }, {
             "project_name": "MyPortfolio Example Site",
             "project_url": "https://projects.jonniegrieve.co.uk/wep/",
             "portfolio_url": "https://portfolio.jonniegrieve.co.uk/legacy_portfolio/example-legacy-project/",

@@ -1,6 +1,8 @@
 /* Last Update: 30-08-2023: 14:22 */
 
 
+$breakpoint--md: 680px;
+
 * {
     
     padding: 0;
@@ -22,10 +24,27 @@ header {
     justify-content: space-evenly;
     box-shadow: black 1px -1px 3px 2px;
 
+    @media (max-width: $breakpoint--md) {
+
+        display: block;
+        height: auto;
+        padding: 0 10px;
+
+    }
+
     img#logo {
 
         width: 70px; 
         height: 70px;
+
+        @media (max-width: $breakpoint--md) {
+
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: 0px auto;
+            padding: 15px 0;
+        }
     }
 
     h1 {
@@ -36,9 +55,52 @@ header {
         position: relative;
         top: 15px;
 
+        @media (max-width: $breakpoint--md) {
+
+            top: 0;
+            width: auto;
+        }
+
         span {
 
             font-size: 14pt;
+        }
+    }
+
+    nav {
+
+        display: flex;
+        align-items: self-end;
+
+        ul {
+
+            align-items: baseline;
+            text-align: center;
+            margin: 10px auto;
+
+            li {
+
+                display: inline-block;
+                vertical-align: bottom;
+                margin: 0 8px;
+
+                a {
+
+                    color: #ffe136;
+
+                    &:hover {
+
+                        color: white;
+                    }
+
+                }
+            }
+        }
+
+
+        @media (max-width: $breakpoint--md) {
+
+            display: block;
         }
     }
 

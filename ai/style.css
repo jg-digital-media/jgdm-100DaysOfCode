@@ -1,4 +1,4 @@
-/* Last Update: 25-08-2023: 12:23 */
+/* Last Update: 30-08-2023: 14:22 */
 * {
   padding: 0;
   margin: 0;
@@ -17,9 +17,25 @@ header {
   justify-content: space-evenly;
   box-shadow: black 1px -1px 3px 2px;
 }
+@media (max-width: 680px) {
+  header {
+    display: block;
+    height: auto;
+    padding: 0 10px;
+  }
+}
 header img#logo {
   width: 70px;
   height: 70px;
+}
+@media (max-width: 680px) {
+  header img#logo {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0px auto;
+    padding: 15px 0;
+  }
 }
 header h1 {
   color: white;
@@ -28,8 +44,39 @@ header h1 {
   position: relative;
   top: 15px;
 }
+@media (max-width: 680px) {
+  header h1 {
+    top: 0;
+    width: auto;
+  }
+}
 header h1 span {
   font-size: 14pt;
+}
+header nav {
+  display: flex;
+  align-items: self-end;
+}
+header nav ul {
+  align-items: baseline;
+  text-align: center;
+  margin: 10px auto;
+}
+header nav ul li {
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 0 8px;
+}
+header nav ul li a {
+  color: #ffe136;
+}
+header nav ul li a:hover {
+  color: white;
+}
+@media (max-width: 680px) {
+  header nav {
+    display: block;
+  }
 }
 
 #container h2 {

@@ -5,7 +5,9 @@ header {
     border-bottom: white solid 3px;
     min-height: 150px;
     color: $header-col;
+
     @media (max-width: $sm) {
+
         min-height: 170px;
     }
 
@@ -49,9 +51,13 @@ header {
             margin-right: 8px;
 
             a {
+
                 color: $nav-col;
                 text-decoration: none;
+                transition: color .3s;
+
                 &:hover {
+
                     color: $nav-col-hover;
                 }
             }

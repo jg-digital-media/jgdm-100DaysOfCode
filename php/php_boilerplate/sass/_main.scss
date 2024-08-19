@@ -29,6 +29,7 @@ body {
         padding: 0 10px;     
 
         p {
+            
             font-size: 12px;
             line-break: 1.9;
             line-height: 1.9;
@@ -38,31 +39,38 @@ body {
         article {
 
             @media(max-width: $md) {
+
                 display: flex;
                 flex-direction: column-reverse;
             }
 
             .main_content {
+
                 display: inline-block;
                 vertical-align: top;
                 width: 63%;
 
                 @media(max-width: $md) {
+
                     width: 90%;
                 }
             }
 
             .sub_content {
+
                 width: 30%;
                 display: inline-block;
                 margin: 0 auto;
 
                 @media(max-width: $md) {
+
                     width: 90%;
                 }
 
                 img {
+
                     @media(max-width: $md) {
+
                         display: block;
                         margin: 0 auto;
                         width: 50%;
@@ -76,7 +84,9 @@ body {
 
 
 footer {
+
     p {
+
         text-align: center;
     }
 }

@@ -1,6 +1,6 @@
-# jgdm_php_boilerplate **Last Update:** 20-04-2023 - 09:28
+# jgdm_php_boilerplate **Last Update:** 18-08-2024 - 09:15
 
-Boilerplate code for a PHP based website. 
+This repository contains Boilerplate code for a PHP based website that you can clone to your Version Control Enabled System. 
 
 
 ## **Sections**
@@ -14,7 +14,7 @@ Boilerplate code for a PHP based website.
 
 ```cd``` to a project root directory and clone repository using ```git clone https://github.com/jg-digital-media/jgdm_php_boilerplate```
 
-Clone to a local server area on your system  [Local](http://localhost/jgdm_php_boilerplate)
+Clone to a local server area on your system  [Local](http://localhost/jgdm_php_boilerplate) e.g. `c:/xampp/htdocs/jgdm_php_boilerplate`
 
 ### Use SASS to generate the styles needed. Precompile Sass with the watch command - ```sass --watch sass.scss:styles.css```
 
@@ -35,6 +35,28 @@ Fill in the variable values of these pages using the files provided, `index.php.
 
 These should be filled in at the top of each page above the require statement for the website header.
 
+```php
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png" type="image/png">
+
+    <!-- meta tags -->
+    <meta name="description" content="<?php echo $meta_description; ?>">
+    <meta name="keywords" content="<?php echo $meta_keywords; ?>"> 
+    <meta name="image" content="<?php echo $meta_image; ?>">
+
+    <!-- etc  -->
+
+```
+
 
 ## Navigation Classes
 
@@ -47,6 +69,17 @@ Using page variables, you can style a "selected page state" that comes into effe
         <a href="index.php" <?php if( $page_name == "home" ) {echo "class=\"selected\"" ;}  ?>>Home</a>
     </li>
 </ul>
-                ...
 
 ```
+
+Use page name variable on a PHP file. 
+
+```php
+
+<?php 
+    //vars
+    $page_name = "page_one";
+
+```
+
+And now you have a CSS class enabled according to the page you're viewing, with PHP and a CSS Class selector,

@@ -1,0 +1,67 @@
+header {
+
+    width: 100%;
+    background: $header-bg;
+    border-bottom: white solid 3px;
+    min-height: 150px;
+    color: $header-col;
+    @media (max-width: $sm) {
+        min-height: 170px;
+    }
+
+    img#main_logo {
+        width: 100px;
+        border: white 2px solid;
+        padding: 10px;
+        position: relative;
+        top: 10px;
+        margin: 0 10px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 10px 0;
+        /* width: 389px; */
+        display: inline-block;
+
+        @media (max-width: $sm) {
+            font-size: 6vw;
+            width: 60%;
+            text-align: center;
+        }
+    }
+
+    .main_nav {
+        width: 100%;
+        text-align: center;
+
+        @media (max-width: $sm) {
+            display: block;
+            top: 20px;
+            position: relative;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 8px;
+
+            a {
+                color: $nav-col;
+                text-decoration: none;
+                &:hover {
+                    color: $nav-col-hover;
+                }
+            }
+
+            .selected {
+                font-weight: bold;
+                color: $nav-col-hover;
+                text-decoration: none;
+            }
+        
+        }
+    }
+}

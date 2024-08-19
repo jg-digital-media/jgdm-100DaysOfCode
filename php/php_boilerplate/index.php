@@ -1,5 +1,4 @@
 <?php
-
     //vars 
     $page_name = "home";
 
@@ -13,15 +12,39 @@
 
 ?>
 
-    
 <?php require "inc/header.php";  ?>
 
-    <main>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor odit qui ducimus adipisci ratione consequatur officiis, hic pariatur mollitia voluptatibus soluta deserunt eveniet sed delectus nihil dignissimos eligendi iste. Dolor!</p>
-    </main>
+        <h2><?php echo $page_title;  ?></h2>
 
-    
+        <section>
+
+            <article>
+                <div class="main_content">
+
+                    <h3>Content.</h3> 
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, corrupti inventore. Illum in molestiae, adipisci quae vero nam quasi amet pariatur expedita deserunt asperiores sapiente accusantium quibusdam, voluptatum exercitationem iusto.</p>
+
+                    <p>content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, corrupti inventore. Illum in molestiae, adipisci quae vero nam quasi amet pariatur expedita deserunt asperiores sapiente accusantium quibusdam, voluptatum exercitationem iusto.</p>
+
+                    <p>content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, corrupti inventore. Illum in molestiae, adipisci quae vero nam quasi amet pariatur expedita deserunt asperiores sapiente accusantium quibusdam, voluptatum exercitationem iusto.</p>
+
+                    <h3>Content.</h3> 
+                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, corrupti inventore. Illum in molestiae, adipisci quae vero nam quasi amet pariatur expedita deserunt asperiores sapiente accusantium quibusdam, voluptatum exercitationem iusto.</p>
+
+                    <p>content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, corrupti inventore. Illum in molestiae, adipisci quae vero nam quasi amet pariatur expedita deserunt asperiores sapiente accusantium quibusdam, voluptatum exercitationem iusto.</p>
+
+                    <p>content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, corrupti inventore. Illum in molestiae, adipisci quae vero nam quasi amet pariatur expedita deserunt asperiores sapiente accusantium quibusdam, voluptatum exercitationem iusto.</p>
+
+                </div>
+
+                <div class="sub_content">
+                    <img src="img/placeholder.png" alt="" id="" />
+                </div>
+                
+            </article>
+
+        </section>
+
 <?php require "inc/footer.php"; ?>
-
-</body>
-</html>

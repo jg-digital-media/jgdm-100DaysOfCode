@@ -1,0 +1,116 @@
+/**
+
+style.css - Last Update: 15/02/2022 114:15
+**/
+header {
+  width: 100%;
+  background: black;
+  border-bottom: white solid 3px;
+  min-height: 150px;
+  color: white; }
+  @media (max-width: 680px) {
+    header {
+      min-height: 170px; } }
+  header img#main_logo {
+    width: 100px;
+    border: white 2px solid;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: top; }
+  header h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    /* width: 389px; */
+    display: inline-block; }
+    @media (max-width: 680px) {
+      header h1 {
+        font-size: 6vw;
+        width: 60%;
+        text-align: center; } }
+  header .main_nav {
+    width: 100%;
+    text-align: center; }
+    @media (max-width: 680px) {
+      header .main_nav {
+        display: block;
+        top: 20px;
+        position: relative; } }
+    header .main_nav li {
+      display: inline-block;
+      margin-right: 8px; }
+      header .main_nav li a {
+        color: white;
+        text-decoration: none; }
+        header .main_nav li a:hover {
+          color: red; }
+      header .main_nav li .selected {
+        font-weight: bold;
+        color: red;
+        text-decoration: none; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: #dfdfdf;
+  font-family: arial; }
+  body main {
+    width: 100%; }
+  body h2 {
+    margin: 20px 20px; }
+  body h3 {
+    margin: 10px 0; }
+  body section {
+    width: 90%;
+    display: block;
+    margin: 10px auto;
+    padding: 0 10px; }
+    body section p {
+      font-size: 12px;
+      line-break: 1.9;
+      line-height: 1.9;
+      margin-top: 15px; }
+    @media (max-width: 760px) {
+      body section article {
+        display: flex;
+        flex-direction: column-reverse; } }
+    body section article .main_content {
+      display: inline-block;
+      vertical-align: top;
+      width: 63%; }
+      @media (max-width: 760px) {
+        body section article .main_content {
+          width: 90%; } }
+    body section article .sub_content {
+      width: 30%;
+      display: inline-block;
+      margin: 0 auto; }
+      @media (max-width: 760px) {
+        body section article .sub_content {
+          width: 90%; } }
+      @media (max-width: 760px) {
+        body section article .sub_content img {
+          display: block;
+          margin: 0 auto;
+          width: 50%; } }
+
+footer p {
+  text-align: center; }
+
+footer {
+  margin-top: 20px; }
+  footer p {
+    text-align: center; }
+    footer p a {
+      color: red;
+      color: #950808;
+      font-size: 11px; }
+      footer p a:hover {
+        text-decoration: none; }
+
+/*# sourceMappingURL=styles.css.map */

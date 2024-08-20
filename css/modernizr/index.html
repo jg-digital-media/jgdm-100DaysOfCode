@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+
+    <script src="scripts/modernizr-all.js" type="text/javascript"></script>  <!-- all -->
+
+
     <title>Integrating Modernizr with Websites</title>
 
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
 
@@ -33,48 +38,53 @@
 
         <h2>Introduction</h2>
 
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, temporibus fugiat nihil dignissimos, aspernatur praesentium iusto voluptatem aperiam cumque rem sunt quas non id, molestiae in odit obcaecati repudiandae autem?</p>
+        <p>This website uses feature detection with Modernizr.js</p>
+
+        <p>Integrating Modernizr into a website is very simple. You add what you want to detect on the Modernizr website and download the generated file. It's process that when applied, enhances the site's ability to handle feature detection, ensuring a smooth experience across different browsers.</p>
 
         <section class="main-content">
 
             <article>
-                    <img src = "img/css.png" />
+
+                    <img src = "img/css.png" class="section---image" />
                     <h3>CSS</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed praesentium, voluptatem id beatae aliquam .</p>
+                    <p>Unlock the full potential of your web designs with our exclusive CSS Mastery Webinar! Whether you're just starting or looking to refine your skills, this session will elevate your understanding of modern CSS techniques.</p>
 
-                    <a href="#" class="read-more">READ MORE</a>
+                    <a href="#" class="read-more">read more</a>
             </article>
 
-
             <article>
-                    <img src = "img/javascript.png" />
+                    <img src = "img/javascript.png" class="section---image" />
                     <h3>JavaScript</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed praesentium, voluptatem id beatae aliquam .</p>
+                    <p>Take your coding skills to the next level with our JavaScript Essentials Webinar! This interactive session is perfect for anyone eager to master the language that powers the web.</p>
 
-                    <a href="#" class="read-more">READ MORE</a>
+                    <a href="#" class="read-more">read more</a>
             </article>
 
-
             <article>
-                    <img src = "img/php.png" />
+                    <img src = "img/php.png" class="section---image" />
                     <h3>PHP</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed praesentium, voluptatem id beatae aliquam .</p>
+                    <p>Supercharge your backend development with our PHP for Web Developers Webinar! PHP remains a cornerstone of web development, and in this webinar, you’ll learn how to harness its power for building robust, scalable applications.</p>
 
-                    <a href="#" class="read-more">READ MORE</a>
+                    <a href="#" class="read-more">read more</a>
             </article>
 
         </section>
 
-        <section>More</section>
+        <!-- <section>More</section> -->
 
         <footer>
             <p>&copy; All Rights Reserved <a href="#"">Jonnie Grieve Digital Media</a></p>
         </footer>
         
     </main>
+
     <!--<script src="scripts/modernizr-all.js" type="text/javascript"></script>  -->  <!-- Add all modernizr classes-->
+   
+    <!--<script src="scripts/modernizr.js" type="text/javascript"></script>   only Minify and CSS Classes-->  
+
+    <!-- main script -->
     <script src="scripts/app.js" type="text/javascript"></script>
-    <script src="scripts/modernizr.js" type="text/javascript"></script>  <!-- only Minify and CSS Classes-->
 
 </body>
 </html>

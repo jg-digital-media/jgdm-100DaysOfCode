@@ -1,0 +1,127 @@
+/*
+Built upon W3Schools example for practice
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push
+*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #9edff3;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/*main site*/
+body {
+  background: #fff564;
+  background: #9edff3;
+  font-family: verdana;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+
+.menu_btn {
+  background: #947e7e;
+  padding: 7px;
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+.main-content {
+  display: flex;
+}
+
+.main-content article {
+  margin: 10px;
+}
+
+.main-content article img {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: auto;
+}
+
+.main-content article img.section---image {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: auto;
+}
+
+.main-content article h3 {
+  text-align: center;
+}
+
+.main-content article a.read-more {
+  text-transform: capitalize;
+}
+
+.read-more {
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  /*
+  position: relative;
+  bottom: 60px;
+  width: 50%;
+  */
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+@media screen and (min-width: 1500px) {
+  .main-content {
+    width: 1170px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 580px) {
+  .main-content {
+    display: block;
+  }
+  .main-content article {
+    display: block;
+  }
+}
+/*780px mobile breakpoint*/
+
+/*# sourceMappingURL=style.css.map */

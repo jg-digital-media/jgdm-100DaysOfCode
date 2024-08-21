@@ -7,16 +7,16 @@ body {
     header {
 
         background: $bg---header;
-        height: 76px;
+        height: 90px;
         border-bottom: $col---border--primary solid 3px;
 
         @media (max-width: 760px) {
 
-            min-height: 70px;
+            min-height: 80px;
             height: auto;
         }
 
-        h1 {
+        h1, h2 {
 
             text-align: center;
             color: $col---secondary;
@@ -24,6 +24,20 @@ body {
             @media (max-width: 760px) {
 
                 font-size: 18pt;
+            }
+        }
+
+        h2 {
+
+            @media (max-width: 760px) {
+
+                font-size: 16pt;
+            }
+
+            #version {
+
+                font-size: 10px;
+                color: $col---tertiary;
             }
         }
         

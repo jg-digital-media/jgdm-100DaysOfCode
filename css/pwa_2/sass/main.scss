@@ -148,7 +148,7 @@ body {
         margin: 20px; 
         /* border: solid black 1px; */
         /* background: lightblue; */
-        background: $bg---main;
+        /* background: $bg---main; */
         display: inline-block;
         width: 250px;
         position: relative;
@@ -168,6 +168,7 @@ body {
         img {
 
             width: 100%;
+            border-radius: 4px;
 
             @media (max-width: 980px) {
                 
@@ -178,7 +179,7 @@ body {
 
                + p {
 
-                    opacity: 1;
+                    opacity: .8;
                 }
 
                 
@@ -206,17 +207,21 @@ body {
         p {
 
             position: absolute;
-            bottom: 0px;
+            bottom: 3px;
             height: 40px;
             width: 100%;
-            opacity: 0;
+            font-size: 12px;
             background: #525151;
             color: white;
             transition: opacity .4s;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+            text-align: center;
+            opacity: 0;
 
             &:hover {
 
-                opacity: 1;
+                opacity: .8;
             }
 
         }

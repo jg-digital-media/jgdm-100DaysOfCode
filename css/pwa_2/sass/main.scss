@@ -174,13 +174,45 @@ body {
                 width: 100%;
             }
 
-        }
+            &:hover {
+
+               + p {
+
+                    opacity: 1;
+                }
+
+                
+            }
+
+           /*  & + p {
+
+                position: absolute;
+                bottom: 0px;
+                height: 40px;
+                width: 100%;
+                opacity: 0;
+                background: #525151;
+                color: white;
+                transition: opacity .4s;
+    
+                &:hover {
+    
+                    opacity: 1;
+                }
+            } */
+
+        }        
+
         p {
 
             position: absolute;
             bottom: 0px;
+            height: 40px;
             width: 100%;
             opacity: 0;
+            background: #525151;
+            color: white;
+            transition: opacity .4s;
 
             &:hover {
 

@@ -37,6 +37,72 @@
 
         <h1>Projects</h1>
 
+        <main>
+
+            <h2>Manifest.json</h2>
+
+            <code>
+                
+
+{
+    "name": "JGDM Projects v2",
+    "icons": [
+
+    ]
+
+}
+            </code>
+
+            <p>Add it to project - <link rel="manifest" href="manifest.json" /></p>
+
+            <h2>Service Worker</h2>
+
+            The service worker can intercept and handle network requests, manage the cache to enable offline support or send push notifications to your users.
+
+            That being said, let's create our very first service worker in the root folder and named it `serviceWorker.js`.
+
+            <h3>Cache assets</h3>
+
+            <code>const staticDevCoffee = "dev-coffee-site-v1"
+                const assets = [
+                  "/",
+                  "/index.html",
+                  "/css/style.css",
+                  "/js/app.js",
+                  "/images/coffee1.jpg",
+                  "/images/coffee2.jpg",
+                  "/images/coffee3.jpg",
+                  "/images/coffee4.jpg",
+                  "/images/coffee5.jpg",
+                  "/images/coffee6.jpg",
+                  "/images/coffee7.jpg",
+                  "/images/coffee8.jpg",
+                  "/images/coffee9.jpg",
+                ]
+                
+                self.addEventListener("install", installEvent => {
+                  installEvent.waitUntil(
+                    caches.open(staticDevCoffee).then(cache => {
+                      cache.addAll(assets)
+                    })
+                  )
+                })</code>
+
+                self. is the service worker
+
+                <h2>Register the Service Worker</h2>
+
+                <code>if ("serviceWorker" in navigator) {
+                    window.addEventListener("load", function() {
+                      navigator.serviceWorker
+                        .register("/serviceWorker.js")
+                        .then(res => console.log("service worker registered"))
+                        .catch(err => console.log("service worker not registered", err))
+                    })
+                  }</code>
+
+        </main>
+
     </main>
 
     <footer>

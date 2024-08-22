@@ -74,7 +74,6 @@
     + MyFirstApp
   + javascript
     + ajax - `javascript/ajax` - `stock list project on server`
-    + currency_converter
     + dom
     + four_in_a_row
     + greensock

@@ -4,10 +4,10 @@
  * Authored by:  @jg_digitalMedia
  * Web:          https://www.jonniegrieve.co.uk
  * 
- * // file path to json file - local   - ../../databases/project-list.json
- * // file path to json file - server  - ../../../data/project-list.json
+ * // file path to json file - local  - ../../databases/project-list.json
+ * // file path to json file - server - ../../../data/project-list.json
  * 
- * Last Update:  10:26 - 09/08/2024
+ * Last Update:  11:39 - 22/08/2024
  */
 
 

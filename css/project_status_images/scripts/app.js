@@ -4,11 +4,11 @@
  * Authored by:  @jg_digitalMedia
  * Web:          https://www.jonniegrieve.co.uk/assets/project_status_images/
  * 
- * // file path to json file - local  - ../../css/portfolio/data/project-list.json
+ * // file path to json file - local  - ../../databases/project-list.json
  * // file path to json file - server - ../../../data/project-list.json
  * // absolute path - https://www.jonniegrieve.co.uk/data/project-list.json
  * 
- * Last Update:  14:34 - 12/07/2021
+ * Last Update:  11:39 - 28/08/2024
 */
 
 
@@ -16,7 +16,7 @@
 const project_count = document.getElementById("count");
 const repo_count = document.getElementById("repo_count");
  
-jQuery.getJSON('../../../data/project-list.json', function(photoData) { 
+jQuery.getJSON('../../databases/project-list.json', function(photoData) { 
     
     let itemAll = photoData.projects.length;
     console.log( photoData.projects.length );

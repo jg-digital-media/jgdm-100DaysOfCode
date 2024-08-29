@@ -125,6 +125,22 @@ section {
         }
     }
 
+    .main_block {
+
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+
+        p {
+
+            color: black;
+        }
+
+        &.modal {
+
+            display: none;
+        }
+    }
 
 
     .last_update {

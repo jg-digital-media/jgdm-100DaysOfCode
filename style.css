@@ -98,6 +98,17 @@ section h2.tech---category a {
 section h2.tech---category a:hover {
   color: #0056b3;
 }
+section .main_block {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+section .main_block p {
+  color: black;
+}
+section .main_block.modal {
+  display: none;
+}
 section .last_update {
   /* font-weight: bold; */
   font-size: 12px;

@@ -5,42 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Python Project List</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N9WB623MVP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    <style>
-    
-        li {
-            margin: 10px 0;
-        }
+        gtag('config', 'G-N9WB623MVP');
+    </script>
 
-        a {
-            color: red;
-            
+    <link rel="stylesheet" tyoe="text/css" href="../../style.css">    
 
-        }
+    <title>JGDM #100daysOfCode</title>
 
-        a:visited {
-
-            color: red;
-        }
-
-    </style>
 </head>
+
 <body>
 
-<h1>Python Project List - #100DaysOfCode</h1>
+        <!-- TODO: build this list and use this page as homepage -->
 
-<a href="../">Back</a>
+        <section>
+      
+      <h1>&quot;100DaysOfCode&quot; Python Project List <a id="goback" href="../">Back</a> </h1> 
 
-<ul>
-    <li>python/basics</li>
-    <li>python/flask</li>
-    <li>python/lists/</li>
-    <li>python/madlibs/</li>
-    <li>python/oop/</li>
-    <li>python/tkinter</li>
-    <li><strong></strong> - <a href="#" target="blank">Local</a> </li>
-</ul>
+
+        <ul>
+            <li>python/basics - <a href="#" target="blank">Local</a> </li>
+            <li>python/flask</li>
+            <li>python/lists/</li>
+            <li>python/madlibs/</li>
+            <li>python/oop/</li>
+            <li>python/tkinter</li>
+            <li><strong></strong></li>
+        </ul>
+ 
     
 </body>
 </html>
+

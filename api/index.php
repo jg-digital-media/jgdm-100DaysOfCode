@@ -15,193 +15,7 @@
         gtag('config', 'G-N9WB623MVP');
     </script>
 
-
-    <style>
-
-        /* Reset some default styling */
-        body, h1, h2, ul, li, p {
-        margin: 0;
-        padding: 0;
-        }
-
-        /* Body background and font styles */
-        body {
-        font-family: Arial, sans-serif;
-        background-color: #f4f4f4;
-        color: #333;
-        line-height: 1.6;
-        }
-
-        /* Section styling */
-        section {
-        background-color: #fff;
-        padding: 20px;
-        margin: 20px auto;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        border-radius: 10px;
-        max-width: 800px;
-        /* Heading styles */
-        }
-
-
-        section .hundred_days_status {
-
-            text-align: center;
-            margin: 10px auto;
-
-            
-        }
-
-        section .hundred_days_status h2 {
-
-            border: none;
-            text-decoration: underline;
-        }
-
-        section #list_last_updated {
-
-            text-align: right;
-            font-size: 12px;
-        }
-
-        section h1 {
-        color: #333;
-        font-size: 20px;
-        margin-bottom: 10px;
-        text-align: center;
-        border-bottom: #333333 solid 4px;
-        }
-        section h1 a {
-        color: #007bff;
-        text-decoration: none;
-        transition: color 0.3s ease-in-out;
-        }
-
-        
-
-      section h1 #goback {
-       
-       font-size: 12px;
-       font-weight: bold;
-       margin: 0 20px;
-     }
-
-        section h1 a:hover {
-        color: #0056b3;
-        }
-        section h2 {
-
-        color: #333;
-        font-size: 24px;
-        margin-bottom: 15px;
-        
-        border-bottom: #333333 solid 3px;
-        width: 240px
-        }
-
-        section .last_update {
-
-          /* font-weight: bold; */
-          font-size: 12px;
-          margin: 15px 0 0 10px;
-          margin: 0px 0 15px 0px;
-          display: block;
-          width: 100%;
-          text-align: center;
-        }
-
-        section #project---list {
-
-            display: block;
-            width: 100%;
-            text-align: center;
-            color: black;
-            font-weight: bold;
-            text-decoration: none;
-
-        }        
-
-        /* List styles */
-        ul {
-        list-style: none;
-        margin-left: 20px;
-        margin-bottom: 20px;
-        }
-        ul li {
-        margin-bottom: 10px;
-        font-weight: bold;
-        /* Link styles */
-        }
-        
-        ul li span.project_status {
-            background: beige;
-            padding: 2px;
-            border-radius: 4px;
-        }
-      
-        ul li span.ready {
-        background: #66ec66;
-        padding: 2px;
-        border-radius: 4px;
-      }
-
-      ul li span.review {
-
-        background: yellow;
-
-      }
-
-      ul li span.indev {
-
-        background: #ff6b6b;
-      }
-      
-      ul li span.project_comments {
-
-        background: #d0c5ff;
-        padding: 2px;
-        border-radius: 4px;
-      }
-
-        ul li a {
-        color: #007bff;
-        text-decoration: none;
-        transition: color 0.3s ease-in-out;
-        margin-right: 8px;
-        font-weight: normal;
-        }
-
-      
-        ul li a:hover {
-        color: #0056b3;
-        }
-
-        /* Footer styles */
-        footer {
-        text-align: center;
-        padding: 10px;
-        background-color: #333;
-        color: #fff;
-        }
-        footer p a {
-        color: #007bff;
-        text-decoration: none;
-        transition: color 0.3s ease-in-out;
-        }
-        footer p a:hover {
-        color: #0056b3;
-        }
-
-        /* Media query for responsiveness */
-        @media (max-width: 768px) {
-        section {
-            padding: 15px;
-        }
-        }
-
-        /*# sourceMappingURL=style.css.map */
-
-    </style>
+    <link rel="stylesheet" tyoe="text/css" href="../../style.css">
 
     <title>JGDM #100daysOfCode</title>
 
@@ -213,17 +27,15 @@
 
     <section>
       
-        <h1>&quot;100DaysOfCode&quot; Repository on localhost <a id="goback" href="../">Back</a> </h1> 
-
-
-<p><a href="../">Back</a></p>
-
-basics/index.html - http://localhost/jgdm-100daysofcode/api/basic/index.html
-fetch_random/index.html - http://localhost/jgdm-100daysofcode/api/fetch_random/index.html
-photo_api/index.html - http://localhost/jgdm-100daysofcode/api/photo_api/index.html
-project_api/index.html - https://localhost/jgdm-100daysofcode/api/project_api
-random_from_user/index.html - http://localhost/jgdm-100daysofcode/api/random_from_user/index.html
-    
+        <h1>&quot;100DaysOfCode&quot; APIs Project List<a id="goback" href="../">Back</a> </h1> 
+       
+        <ul>
+        <li><a href="http://localhost/jgdm-100daysofcode/api/basic/index.html" target="_blank">basics/index.html</a>  - basic/ - <span class="project_status review">review</span></li>
+        <li><a href="http://localhost/jgdm-100daysofcode/api/fetch_random/index.html" target="_blank">fetch_random/index.html</a> - <span class="project_status ready">review</span></li>
+        <li><a href="http://localhost/jgdm-100daysofcode/api/photo_api/index.html" target="_blank">photo_api/index.html</a> - <span class="project_status indev">review</span></li>
+        <li><a href="https://localhost/jgdm-100daysofcode/api/project_api" target="_blank">project_api/index.html</a> - <span class="project_status ready">review</span></li>
+        <li><a href="http://localhost/jgdm-100daysofcode/api/random_from_user/index.html" target="_blank">random_from_user/index.html</a> - <span class="project_status ready">ready</span></li>
+        </ul>    
 
     </section>
 </body>

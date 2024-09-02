@@ -19,7 +19,7 @@ jQuery.getJSON('../../../data/project-list.json', function(photoData) {
 
     for (let i=0; i < itemAll; i++) { 
         
-        //jQuery(`<a href="${photoData.projects[i].project_url}" target="blank"><img src="${photoData.projects[i].img_url}" class="site-images" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" /></a>`).appendTo('.project-status-data');
+        //jQuery(`<a href="${photoData.projects[i].project_url}" target="_blank"><img src="${photoData.projects[i].img_url}" class="site-images" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" /></a>`).appendTo('.project-status-data');
 
         if(photoData.projects[i].status === true) {
             jQuery(`<li> <span class="complete"> &nbsp; </span>  </li>`).appendTo('#project-status');

@@ -28,7 +28,7 @@
         <h1>&quot;100DaysOfCode&quot; /databases on localhost <a id="goback" href="../">Back</a> </h1> 
 
         <ul>
-            <li>databases/ - <a href="#" target="blank">Local</a> </li>
+            <li>databases/ - <a href="#" target="_blank">Local</a> </li>
         </ul>
 
     </section>

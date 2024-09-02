@@ -477,7 +477,7 @@ $data.append("markup ")
 <?php if( $search->have_posts() ) : while( $search->have_posts() ): the_post(); ?>
 
                <h2>  
-                    <a href="<?php the_post_thumbnail(); ?>" target="blank">
+                    <a href="<?php the_post_thumbnail(); ?>" target="_blank">
                         <?php the_title(); ?> 
                     </a> 
                </h2>
@@ -997,7 +997,7 @@ Comment and Search functionality for the blog need to be styled and implemented.
 <?php if( $search->have_posts() ) : while( $search->have_posts() ): the_post(); ?>
 
                <h2>  
-                    <a href="<?php the_post_thumbnail(); ?>" target="blank">
+                    <a href="<?php the_post_thumbnail(); ?>" target="_blank">
                         <?php the_title(); ?> 
                     </a> 
                </h2>
@@ -1351,7 +1351,7 @@ router.post('/', function(req, res, next) {
 
                     <img src="img/articles/article_image_placeholder.png" class="article_image" title="This is an image" alt="This is an image">&nbsp;
 
-                    <a href="https://www.google.co.uk" target="blank">
+                    <a href="https://www.google.co.uk" target="_blank">
                         <div class="article_blurb">
 
                             <h2>This level 2 heading is a long blog title.  Lorem ipsim sit</h2>
@@ -1378,7 +1378,7 @@ router.post('/', function(req, res, next) {
     
                     <img src="img/articles/article_image_placeholder.png" class="article_image" title="This is an image" alt="This is an image">&nbsp;
     
-                    <a href="https://www.google.co.uk" target="blank">
+                    <a href="https://www.google.co.uk" target="_blank">
                         <div class="article_blurb">
     
                             <h2>Title</h2>
@@ -1403,7 +1403,7 @@ router.post('/', function(req, res, next) {
     
                     <img src="img/articles/article_image_placeholder.png" class="article_image" title="This is an image" alt="This is an image">&nbsp;
     
-                    <a href="https://www.google.co.uk" target="blank">
+                    <a href="https://www.google.co.uk" target="_blank">
                         <div class="article_blurb">
     
                             <h2>Title</h2>
@@ -1428,7 +1428,7 @@ router.post('/', function(req, res, next) {
     
                     <img src="img/articles/article_image_placeholder.png" class="article_image" title="This is an image" alt="This is an image">&nbsp;
     
-                    <a href="https://www.google.co.uk" target="blank">
+                    <a href="https://www.google.co.uk" target="_blank">
                         <div class="article_blurb">
     
                             <h2>Title</h2>
@@ -1453,7 +1453,7 @@ router.post('/', function(req, res, next) {
     
                     <img src="img/articles/article_image_placeholder.png" class="article_image" title="This is an image" alt="This is an image">&nbsp;
     
-                    <a href="https://www.google.co.uk" target="blank">
+                    <a href="https://www.google.co.uk" target="_blank">
                         <div class="article_blurb">
     
                             <h2>Title</h2>
@@ -1478,7 +1478,7 @@ router.post('/', function(req, res, next) {
     
                     <img src="img/articles/article_image_placeholder.png" class="article_image" title="This is an image" alt="This is an image">&nbsp;
     
-                    <a href="https://www.google.co.uk" target="blank">
+                    <a href="https://www.google.co.uk" target="_blank">
                         <div class="article_blurb">
     
                             <h2>Title</h2>
@@ -1503,7 +1503,7 @@ router.post('/', function(req, res, next) {
     
                     <img src="img/articles/article_image_placeholder.png" class="article_image" title="This is an image" alt="This is an image">&nbsp;
     
-                    <a href="https://www.google.co.uk" target="blank">
+                    <a href="https://www.google.co.uk" target="_blank">
                         <div class="article_blurb">
     
                             <h2>Title</h2>

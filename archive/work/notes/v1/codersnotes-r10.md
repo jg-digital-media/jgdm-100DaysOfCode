@@ -153,7 +153,7 @@ http://localhost/wordpress/cb_cartoontheme/product-category/events/
 <label>This is the boring consent bit :)<label>
 [checkbox checkbox-497 label_first use_label_element "Click this link to go to Jonnie Grieve Digital Media's data privacy policy (available below)"]
 
-<br /> <a href="http://localhost/jgdm_2023/privacy-policy/" target="blank">data privacy policy</a>.
+<br /> <a href="http://localhost/jgdm_2023/privacy-policy/" target="_blank">data privacy policy</a>.
 
 [submit "Submit"]
 ```

@@ -204,7 +204,7 @@ https://github.com/verlok/vanilla-lazyload/issues/489
 ### all-projects.html (all-projects.html initiator)
 
 ```html
-<a href="https://www.dyspraxia.jonniegrieve.co.uk" target="blank">
+<a href="https://www.dyspraxia.jonniegrieve.co.uk" target="_blank">
                     <img src="img/featured/dyspraxia.jpg" class="site-images lazy" loading="lazy" alt="Go to Dyspraxia Awareness Website " title="Go to Dyspraxia Awareness Website " tabindex="">
                 </a>
 ```
@@ -1397,7 +1397,7 @@ function randomHex() {
 ```javascript
 
        //successful delivery of class and image URL            
-        jQuery(`<a href="${photoData.projects[i].project_url}" target="blank"><img src="${photoData.projects[i].img_url}" class="site-images" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" /></a>`).appendTo('.all');     
+        jQuery(`<a href="${photoData.projects[i].project_url}" target="_blank"><img src="${photoData.projects[i].img_url}" class="site-images" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" /></a>`).appendTo('.all');     
 
 ```
 

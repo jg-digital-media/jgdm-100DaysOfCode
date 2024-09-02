@@ -53,7 +53,7 @@
         <article>
             <div class="title-space">
                 <p class="main-title">The TV &amp; Movie DVD Directory</p>
-                <a href="https://teamtreehouse.com/library/build-a-basic-php-website-2" target="blank">based on material taught by Treehouse</a>
+                <a href="https://teamtreehouse.com/library/build-a-basic-php-website-2" target="_blank">based on material taught by Treehouse</a>
             </div>
         </article>
 

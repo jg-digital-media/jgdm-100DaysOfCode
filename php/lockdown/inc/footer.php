@@ -1,6 +1,6 @@
                     
         <footer>
-            <p> &copy; <a href="https://www.jonniegrieve.co.uk" target="blank">Jonnie Grieve Digital Media (2024)</a> All Rights Reserved </p>
+            <p> &copy; <a href="https://www.jonniegrieve.co.uk" target="_blank">Jonnie Grieve Digital Media (2024)</a> All Rights Reserved </p>
         </footer>
 
         <?php

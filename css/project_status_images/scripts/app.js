@@ -29,7 +29,7 @@ jQuery.getJSON('../../databases/project-list.json', function(photoData) {
         jQuery(`
 
             <li>
-                <a href="${photoData.projects[i].project_url}" target="blank">
+                <a href="${photoData.projects[i].project_url}" target="_blank">
                    <img ${photoData.projects[i].img_type}="${photoData.projects[i].img_url}" src="${photoData.projects[i].img_url}" class="site-images projects lazy" alt="${photoData.projects[i].project_alt}" title="${photoData.projects[i].project_alt}" tabindex="" />
                    
                 </a> 

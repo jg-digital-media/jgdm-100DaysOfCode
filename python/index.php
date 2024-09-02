@@ -28,7 +28,7 @@
         <h1>&quot;100DaysOfCode&quot; Python Project List <a id="goback" href="../">Back</a> </h1> 
 
         <ul>
-            <li>python/basics - <a href="#" target="blank">Local</a> </li>
+            <li>python/basics - <a href="#" target="_blank">Local</a> </li>
             <li>python/flask</li>
             <li>python/lists/</li>
             <li>python/madlibs/</li>

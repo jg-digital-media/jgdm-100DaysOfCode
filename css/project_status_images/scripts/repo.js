@@ -32,7 +32,7 @@ jQuery.getJSON('../../../data/repositories.json', function(repoData) {
                 <p> ${ repoData.repositories[i].repo_url } </p>
         
 
-                <a href=" ${ repoData.repositories[i].repo_url } " target="blank">
+                <a href=" ${ repoData.repositories[i].repo_url } " target="_blank">
                     <img src=" ${ repoData.repositories[i].repo_img }" class="site-images repos lazy" alt=" ${ repoData.repositories[i].repo_alt }" title=" ${ repoData.repositories[i].repo_alt }" />
                 </a>        
         

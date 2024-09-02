@@ -29,7 +29,7 @@
 
 
         <ul>
-            <li>regex/regex_one - <a href="regex_one/" target="blank">Local</a> </li>
+            <li>regex/regex_one - <a href="regex_one/" target="_blank">Local</a> </li>
         </ul>
         
     </section> 

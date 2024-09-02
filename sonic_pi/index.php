@@ -17,20 +17,18 @@
 
     <link rel="stylesheet" type="text/css"href="../../style.css">
 
-    <title>JGDM #100daysOfCode</title>
+    <title>JGDM #100daysOfCode | Sonic Pi</title>
 
 </head>
 
 <body>
-
-    <!-- TODO: build this list and use this page as homepage -->
-
+    
     <section>
       
         <h1>&quot;100DaysOfCode&quot; Sonic Pi Project List - #100DaysOfCode <a id="goback" href="../">Back</a> </h1> 
       
         <ul>
-            <li><strong></strong> - <a href="#" target="blank">Local</a> </li>
+            <li><strong>sonic_pi/</strong> - <a href="#" target="_blank">Local</a> </li>
         </ul>
 
     </section>

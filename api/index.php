@@ -17,26 +17,25 @@
 
     <link rel="stylesheet" type="text/css"href="../../style.css">
 
-    <title>JGDM #100daysOfCode</title>
+    <title>JGDM #100daysOfCode | API's</title>
 
 </head>
 
 <body>
-
-    <!-- TODO: build this list and use this page as homepage -->
 
     <section>
       
         <h1>&quot;100DaysOfCode&quot; APIs Project List<a id="goback" href="../">Back</a> </h1> 
        
         <ul>
-        <li><a href="http://localhost/jgdm-100daysofcode/api/basic/index.html" target="_blank">basics/index.html</a>  - basic/ - <span class="project_status review">review</span></li>
-        <li><a href="http://localhost/jgdm-100daysofcode/api/fetch_random/index.html" target="_blank">fetch_random/index.html</a> - <span class="project_status ready">review</span></li>
-        <li><a href="http://localhost/jgdm-100daysofcode/api/photo_api/index.html" target="_blank">photo_api/index.html</a> - <span class="project_status indev">review</span></li>
-        <li><a href="https://localhost/jgdm-100daysofcode/api/project_api" target="_blank">project_api/index.html</a> - <span class="project_status ready">review</span></li>
-        <li><a href="http://localhost/jgdm-100daysofcode/api/random_from_user/index.html" target="_blank">random_from_user/index.html</a> - <span class="project_status ready">ready</span></li>
+            <li><a href="http://localhost/jgdm-100daysofcode/api/basic/index.html" target="_blank">basics/index.html</a>  - basic/ - <span class="project_status review">review</span></li>
+            <li><a href="http://localhost/jgdm-100daysofcode/api/fetch_random/index.html" target="_blank">fetch_random/index.html</a> - <span class="project_status ready">review</span></li>
+            <li><a href="http://localhost/jgdm-100daysofcode/api/photo_api/index.html" target="_blank">photo_api/index.html</a> - <span class="project_status indev">review</span></li>
+            <li><a href="http://localhost/jgdm-100daysofcode/api/project_api" target="_blank">project_api/index.html</a> - <span class="project_status ready">review</span></li>
+            <li><a href="http://localhost/jgdm-100daysofcode/api/random_from_user/index.html" target="_blank">random_from_user/index.html</a> - <span class="project_status ready">ready</span></li>
         </ul>    
 
     </section>
+
 </body>
 </html>

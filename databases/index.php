@@ -15,18 +15,13 @@
         gtag('config', 'G-N9WB623MVP');
     </script>
 
-    
-
     <link rel="stylesheet" type="text/css"href="../../style.css">    
 
-
-    <title>JGDM #100daysOfCode</title>
+    <title>JGDM #100daysOfCode | Databases</title>
 
 </head>
 
 <body>
-
-    <!-- TODO: build this list and use this page as homepage -->
 
     <section>
       
@@ -38,5 +33,5 @@
 
     </section>
 
-    </body>
+</body>
 </html>

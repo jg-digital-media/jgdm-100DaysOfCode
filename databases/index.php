@@ -17,7 +17,7 @@
 
     
 
-    <link rel="stylesheet" tyoe="text/css" href="../../style.css">    
+    <link rel="stylesheet" type="text/css"href="../../style.css">    
 
 
     <title>JGDM #100daysOfCode</title>

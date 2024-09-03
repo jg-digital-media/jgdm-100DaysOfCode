@@ -1,3 +1,15 @@
+<?php
+
+    // Set the timezone to UK
+    date_default_timezone_set('Europe/London');
+
+    // Get the last modified time of the current file
+    $last_modified_time = filemtime(__FILE__);
+
+    // Format the date and time as DD/MM/YYYY - HH:MM
+    $formatted_time = date('d/m/Y - H:i', $last_modified_time);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,9 +37,9 @@
 
     <section>
       
-        <h1>&quot;100DaysOfCode&quot; Repository on localhost (R1D1)<a id="goback" href="../">Back</a> </h1> 
+        <h1>JGDM | &quot;100DaysOfCode&quot; Repository on localhost (R1D1)<a id="goback" href="../">Back</a> </h1> 
         
-        <div class="last_update"><strong>List Last Updated:</strong> 18/08/2024 - 19:48 BST</div>
+        <div class="last_update" id="js_lastupdate"><strong>List Last Updated:</strong> <?php echo $formatted_time; ?> BST</div>
 
         <!-- <div class="TODO: Implement category jump links">
 
@@ -81,7 +93,8 @@
         
         <ul>
 
-            <li><strong>one</strong> - <a href="ai/one/index.html" title="AI Project 1" target="_blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/one/index.html" title="AI Project 1" target="_blank">Live</a></li>
+            <li><strong><a href="ai/index.html" title="AI Projects Home" target="_blank">AI Projects Home</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/index.html" title="AI Project Home" target="_blank">Live</a> </li>
+            <li><strong><a href="ai/one/index.html" title="AI Project 1" target="_blank">one</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/one/index.html" title="AI Project 1" target="_blank">Live</a></li>
             <li><strong>checkbox_filtering</strong> - <a href="ai/checkbox_filtering/index.php" title="AI Project: Checkbox Filtering" target="_blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/checkbox_filtering/index.php" title="AI Project: Checkbox Filtering" target="_blank">Live</a></li>
             <li><strong>colour_picker</strong> - <a href="ai/colour_picker/index.html" title="AI Project 4: Colour Picker" target="_blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/colour_picker/index.html" title="AI Project 4" target="_blank">Live</a></li>            
             <li><strong>mobile_menu</strong> - <a href="ai/mobile_menu/index.php" title="AI Project 3" target="_blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/mobile_menu/index.php" title="AI Project 3" target="_blank">Live</a></li>

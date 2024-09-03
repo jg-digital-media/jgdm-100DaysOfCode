@@ -61,7 +61,7 @@
 
         <div class="hundred_days_status">            
 
-            <h2 style="text-align: center; width: 100%; font-size: 16px; margin-top: 8px;">Project List - <span id="round"><strong>Round</strong> 1</span> - <span class="day"><strong>Day</strong> 1</span> </h2>
+            <h2>Project List - <span id="round"><strong>Round</strong> 1</span> - <span class="day"><strong>Day</strong> 1</span> </h2>
                         
         </div>
 

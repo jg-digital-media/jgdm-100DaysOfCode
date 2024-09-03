@@ -28,13 +28,12 @@
         <h1>&quot;100DaysOfCode&quot; Python Project List <a id="goback" href="../">Back</a> </h1> 
 
         <ul>
-            <li>python/basics - <a href="#" target="_blank">Local</a> </li>
-            <li>python/flask</li>
-            <li>python/lists/</li>
-            <li>python/madlibs/</li>
-            <li>python/oop/</li>
-            <li>python/tkinter</li>
-            <li><strong></strong></li>
+            <li>python/basics - <span class="project_status indev">review</span></li>
+            <li>python/flask/ - <span class="project_status review">review</span></li>
+            <li>python/lists/ - <span class="project_status review">review</span></li>
+            <li>python/madlibs/ - <span class="project_status review">review</span></li>
+            <li>python/oop/ - <span class="project_status review">review</span></li>
+            <li>python/tkinter/ - <span class="project_status review">review</span></li>
         </ul>
 
     </section> 

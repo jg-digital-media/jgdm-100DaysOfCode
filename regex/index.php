@@ -27,9 +27,8 @@
       
         <h1>&quot;100DaysOfCode&quot; Regex Project List <a id="goback" href="../">Back</a> </h1> 
 
-
         <ul>
-            <li>regex/regex_one - <a href="regex_one/" target="_blank">Local</a> </li>
+            <li><a href="http://localhost/jgdm-100daysofcode/php/lockdown" target="_blank">regex/regex_one</a> - <span class="project_status ready">ready</span> </li>
         </ul>
         
     </section> 

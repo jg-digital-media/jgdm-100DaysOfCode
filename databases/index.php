@@ -25,10 +25,12 @@
 
     <section>
       
-        <h1>&quot;100DaysOfCode&quot; /databases on localhost <a id="goback" href="../">Back</a> </h1> 
+        <h1>&quot;100DaysOfCode&quot; Database Files on localhost <a id="goback" href="../">Back</a> </h1> 
 
         <ul>
-            <li>databases/ - <a href="#" target="_blank">Local</a> </li>
+            <li>project-list.json - json file <span class="project_status review">review</span></li>
+            <li>project-list.sql - sql file <span class="project_status review">review</span></li>
+            <li>repositories.json - json file <span class="project_status review">review</span></li>
         </ul>
 
     </section>

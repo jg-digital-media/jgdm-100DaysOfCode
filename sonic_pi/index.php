@@ -28,7 +28,11 @@
         <h1>&quot;100DaysOfCode&quot; Sonic Pi Project List - #100DaysOfCode <a id="goback" href="../">Back</a> </h1> 
       
         <ul>
-            <li><strong>sonic_pi/</strong> - <a href="#" target="_blank">Local</a> </li>
+            <li>jingles - <span class="project_status review">Review</span></li>
+            <li>laptop_buffers - <span class="project_status review">Review</span></li>
+            <li>live_music_coding_examples - <span class="project_status review">Review</span></li>
+            <li>tunes - <span class="project_status review">Review</span></li>
+            <li>tutorial_buffers - <span class="project_status review">Review</span></li>
         </ul>
 
     </section>

@@ -28,36 +28,14 @@
         <h1>&quot;100DaysOfCode&quot; PHP Project List <a id="goback" href="../">Back</a> </h1> 
 
         <ul>
-            <li><strong>php projects</strong><a href="#" target="_blank">Local</a></li>
+            
+            <li><a href="#">php/lockdown</a> - <a href="#" title="">Link</a> - <span class="project_status indev review ready">ready</span></li>
+            <li><a href="#">php/php_auth</a> - <span class="project_status ready">ready</span> - Inactive</li>
+            <li><a href="#">php/php_boilerplate</a> - <span class="project_status ready">ready</span> - Inactive</li>
+            <li><a href="#">php/php_website</a> - <span class="project_status ready">ready</span> - Currently empty - A new project in Twig - not yet uploaded - Inactive</li>
+            <li><a href="#">php/slim</a> - <span class="project_status ready">ready</span> - Custom Project - A Website built with Slim Routing - Inactive</li>
+            <li><a href="#">php/slimmin</a> - <span class="project_status ready">ready</span> - Slim ProjectSingle page App with Slim - Inactive</li>
         </ul>
-
-        <!--
-
-          AI Projects
-          API's
-          CSS
-          JavaScript
-          PHP
-          Python
-          Regex
-          Sonic Pi 
-          SVG
-          
-          php/lockdown - Link
-          php/php_auth - PHP Authentication (with Symfony PHP Package) - - Inactive
-          php/php_boilerplate - incomplete -
-          php/php_website - Currently empty - A new project in Twig - not yet uploaded - Inactive
-          php/slim - Custom Project - A Website built with Slim Routing - - Inactive
-          php/slimmin - Single page App with Slim - incomplete - - Inactive
-          <li><strong>mvc-framework</strong> - Treehouse Example - Ralph Waldo Emerson. <a href="http://localhost/jgdm-100daysofcode/php/mvc_framework" target="_blank">http://localhost/jgdm-100daysofcode/php/mvc_framework</a> </li>
-          <li><strong>php_auth</strong> - PHP Authentication and Authorisation example. <a href="http://localhost/jgdm-100daysofcode/php/php_auth" target="_blank">http://localhost/jgdm-100daysofcode/php/php_auth</a> </li>
-          <li><strong>php_rest_api</strong> - Using a REST API in PHP with Slim. <a href="http://localhost/jgdm-100daysofcode/php/php_rest_api" target="_blank">http://localhost/jgdm-100daysofcode/php/php_rest_api</a></li>
-          <li><strong>php_test</strong> -  Getting into practice with Unit testing for PHP. <a href="http://localhost/jgdm-100daysofcode/php/php_test" target="_blank">http://localhost/jgdm-100daysofcode/php/php_test</a></li>
-          <li><strong>slim</strong> - Custom Project - A Website built with Slim Routing. <a href="http://localhost/jgdm-100daysofcode/php/slim" target="_blank">http://localhost/jgdm-100daysofcode/php/slim</a></li>
-          <li><strong>slimmin</strong> - Single page App with Slim. <a href="http://localhost/jgdm-100daysofcode/php/slim" target="_blank">http://localhost/jgdm-100daysofcode/php/slim</a></li>
-          <li><strong>twig</strong> - Custom Project with the Twig Template Engine in Slim. <a href="http://localhost/jgdm-100daysofcode/php/twig target="_blank"">http://localhost/jgdm-100daysofcode/php/twig</a></li> 
-          <li><strong>twig_project</strong> - Currently empty - A new project in Twig. <a href="http://localhost/jgdm-100daysofcode/php/twig_project" target="_blank">http://localhost/jgdm-100daysofcode/php/twig_project</a></li> 
-        -->
 
     </section>
 

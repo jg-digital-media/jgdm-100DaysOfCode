@@ -49,7 +49,7 @@
         <a class="project---jumplinks" href="#section---api--projects">API's</a> |
         <a class="project---jumplinks" href="#section---css--projects">CSS</a> | 
         <a class="project---jumplinks" href="#section---javascript--projects">JavaScript</a> | 
-        <a class="project---jumplinks" href="#section---database--projects">Database</a> | 
+        <a class="project---jumplinks" href="#section---database--projects">Databases</a> | 
         <a class="project---jumplinks" href="#section---java--projects">Java</a> | 
         <a class="project---jumplinks" href="#section---npm--projects">NPM</a> | 
         <a class="project---jumplinks" href="#section---node--projects">Node</a> |
@@ -137,29 +137,38 @@
         </ul>
 
         <p id="section---javascript--projects"></p>
-        <h2 class="tech---category">JavaScript - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/javascript" target="_blank">Local</a></h2>
+        <h2 class="tech---category">JavaScript - <a href="http://localhost/jgdm-100daysofcode/javascript" target="_blank">Local</a> - <a href="#top">Top</a></h2>
 
         <ul>
-            <li><strong>javascript/ajax</strong> - Fictional Stock Check Application with AJAX - <a href="https://projects.jonniegrieve.co.uk/ajax_project/" target="_blank">Link</a> - </li>
-            <li><strong>javascript/currency_converter</strong> - <a href="https://projects.jonniegrieve.co.uk/currency_converter/" target="_blank">Link</a> </li>
-            <li><strong>javascript/dom</strong> - Simple List Maker App - <a href="javascript/dom/" target="_blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/list_maker/" target="_blank">Link</a></li>
-            <li><strong>javascript/four_in_a_row</strong> - Object Oriented JavaScript project that builds version of the "Four in a Row" game. - <a href="https://projects.jonniegrieve.co.uk/four_in_a_row" target="_blank">Link</a></li>
-            <li><strong>javascript/greensock</strong> - Animation Library for JavaScript - No Source</li>
-            <li><strong>javascript/iteration-methods</strong> - Inactive</li>
-            <li><strong>javascript/vue/vue-status-project</strong> - Project Status List to update - <a href="https://projects.jonniegrieve.co.uk/vue_project/" target="_blank">Link</a></li>
-            <li><strong>javascript/localstorage</strong> - local storage page - <a href="https://projects.jonniegrieve.co.uk/localstorage/" target="_blank">Link</a></li>
-            <li><strong>javascript/scroll_story</strong> - Scroll Story <a href="https://projects.jonniegrieve.co.uk" target="_blank">Link</a> - Inactive </li>
-            <li><strong>javascript/random_number_challenge_js</strong> - Random Number Challenge (JS) - Incomplete
-            <li><strong>javascript/th_live_pet_directory</strong> - TH Pet Directory <a href="https://projects.jonniegrieve.co.uk" target="_blank">Link</a> </li>
+            <li><strong><a href="javascript/ajax" title="JavaScript - Fictional Stock Check Application with AJAX" target="_blank">javascript/ajax</a></strong> - Fictional Stock Check Application with AJAX - <a href="https://projects.jonniegrieve.co.uk/ajax_project/" title="JavaScript - Fictional Stock Check Application with AJAX" target="_blank">Live</a></li>
+            <li><strong><a href="javascript/currency_converter" title="CSS/JavaScript and API - Currency Converter App" target="_blank">javascript/currency_converter</a></strong> - <a href="https://projects.jonniegrieve.co.uk/currency_converter/" title="CSS/JavaScript and API - Currency Converter App" target="_blank">Link</a> </li>
+            <!-- <li><strong><a href="javascript/dom" title="JavaScript DOM Scripting" target="_blank">javascript/dom</a></strong> - Simple List Maker App - <a href="javascript/dom/" target="_blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/list_maker/" title="JavaScript DOM Scripting" target="_blank">Link</a></li> -->
+            <li><strong><a href="javascript/four_in_a_row" title="OOP JavaScript - Four in a Row Game" target="_blank">javascript/four_in_a_row</a></strong> - Object Oriented JavaScript project that builds version of the "Four in a Row" game. - <a href="https://projects.jonniegrieve.co.uk/four_in_a_row" title="OOP JavaScript - Four in a Row Game" target="_blank">Link</a></li>
+            <li><strong><a href="javascript/greensock" title="Greensock.js - Animation Library for JavaScript" target="_blank">javascript/greensock</a></strong> - Animation Library for JavaScript - <a href="https://projects.jonniegrieve.co.uk/greensock/" title="Animation Library for JavaScript" target="_blank">Live</a></li>
+            <li><strong><a href="javascript/iteration-methods" title="JavaScript Iteration Methods" target="_blank">javascript/iteration-methods</a></strong> - Working with JavaScript Iteration Methods - Live</li>
+            <!-- <li><strong><a href="javascript/vue/vue-status-project" title="" target="_blank">javascript/vue/vue-status-project</a></strong> - Project Status List to update - <a href="https://projects.jonniegrieve.co.uk/vue_project/" title="" target="_blank">Link</a></li> -->
+            <li><strong><a href="javascript/localstorage" title="Working with localstorage" target="_blank">javascript/localstorage</a></strong> - local storage page - <a href="https://projects.jonniegrieve.co.uk/localstorage/" title="Working with localstorage" target="_blank">Link</a></li>
+            <li><strong><a href="javascript/scroll_story" title="Scroll Story (JavaScript)" target="_blank">javascript/scroll_story</a></strong> - Scroll Story - Link</a></li>
+            <li><strong><a href="javascript/random_number_challenge_js" title="" target="_blank">javascript/random_number_challenge_js</a></strong> - Random Number Challenge (JS) - Incomplete - Link
+            <li><strong><a href="javascript/th_live_pet_directory" title="TH Pet Directory (JavaScript)" target="_blank">javascript/th_live_pet_directory</a></strong> - TH Pet Directory - Link</li>
+            <li><strong>boolean-check.js</strong> - </li>
+            <li><strong>card-counting-blackjack.js</strong> - </li>
+            <li><strong>conditional-challenge.js</strong> - </li>
+            <li><strong>find-first-number-in-array.js</strong> - </li>
+            <li><strong>golf-score.js</strong> - </li>
+            <li><strong>profile-lookup.js</strong> - </li>
+            <li><strong>titlecase-a-string.js</strong> - </li>
+            <li><strong>truncase-string.js</strong> - </li>
+            
         </ul>
 
         <p id="section---database--projects"></p>
-        <h2 class="tech---category">Databases - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/databases" target="_blank">Local</a></h2>
+        <h2 class="tech---category">Databases - <a href="http://localhost/jgdm-100daysofcode/databases" target="_blank">Local</a> - <a href="#top">Top</a></h2>
                 
         <ul>
-            <li>project-list.json</li>
-            <li>project-list.sql</li>
-            <li>repositories.json</li>
+            <li>project-list.json - check this file and data is up to date</li>
+            <li>project-list.sql - check this file and data is up to date</li>
+            <li>repositories.json - check this file and data is up to date</li>
             <li>readme.md</li>
         </ul>
 

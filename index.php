@@ -106,14 +106,15 @@
         </ul>
 
         <p id="section---api--projects"></p>  <!-- remove paragragh tags -->
-        <h2 class="tech---category">API's - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/api" target="_blank">Local</a></h2>
+        <h2 class="tech---category">API Projects - <a href="http://localhost/jgdm-100daysofcode/api" target="_blank">Local</a> - <a href="#top">Top</a></h2>
 
         <ul>
-            <li><strong>basics/index.html</strong> - <a href="api/basic/index.html" title="Basic request to Unsplash API" target="_blank">Local</a></li>
-            <li><strong>fetch_random/index.html</strong> - <a href="api/fetch_random/index.html" title="Random image request to dog.ceo api" target="_blank">Local</a></li>
-            <li><strong>photo_api/index.html</strong> - <a href="api/photo_api/index.html" target="_blank">Local</a></li>
-            <li><strong>project_api/index.html</strong> - <a href="https://projects.jonniegrieve.co.uk/project_api/index.html" target="_blank"></a></li>
-            <li><strong>random_from_user/index.html</strong> - <a href="api/random_from_user/index.html" target="_blank">Local</a></li>
+            <li><strong>Fetch Projects</strong>
+            <li><strong>basics/index.html</strong> - <a href="https://projects.jonniegrieve.co.uk/fetch_projects/basic/index.html" title="Basic request to Unsplash API" target="_blank">Live</a></li>
+            <li><strong>fetch_random/index.html</strong> - <a href="https://projects.jonniegrieve.co.uk/fetch_projects/fetch_random/index.html" title="Random image request to dog.ceo api" target="_blank">Live</a></li>
+            <li><strong>photo_api/index.html</strong> - <a href="https://projects.jonniegrieve.co.uk/fetch_projects/photo_api/index.html" title="photo api - Random photo from collection using source.unsplash.com" target="_blank">Live</a></li>
+            <li><strong>project_api/index.html</strong> - <a href="https://projects.jonniegrieve.co.uk/fetch_projects/project_api/index.html"  title="project api - link to youtube course by Craig Dennis" target="_blank">Live</a></li>
+            <li><strong>random_from_user/index.html</strong> - <a href="https://projects.jonniegrieve.co.uk/fetch_projects/random_from_user/index.html"  title="Random photo using source.unsplash.com" target="_blank">Live</a></li>
         </ul>       
 
         <p id="section---css--projects"></p>

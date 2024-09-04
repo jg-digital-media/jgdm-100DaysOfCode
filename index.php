@@ -88,21 +88,20 @@
 
         </article>
         
-        <p id="section---ai--projects"></p>  <!-- remove paragragh tags -->
-        <h2 class="tech---category">AI Projects - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/ai" target="_blank">Local</a></h2> 
+        <p id="section---ai--projects"></p>
+        <h2 class="tech---category">AI Projects -  <a href="http://localhost/jgdm-100daysofcode/ai" target="_blank">Local</a> - <a href="#top">Top</a></h2> 
         
         <ul>
 
             <li><strong><a href="ai/index.html" title="AI Projects Home" target="_blank">AI Projects Home</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/index.html" title="AI Project Home" target="_blank">Live</a> </li>
             <li><strong><a href="ai/one/index.html" title="AI Project 1" target="_blank">one</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/one/index.html" title="AI Project 1" target="_blank">Live</a></li>
-            <li><strong>checkbox_filtering</strong> - <a href="ai/checkbox_filtering/index.php" title="AI Project: Checkbox Filtering" target="_blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/checkbox_filtering/index.php" title="AI Project: Checkbox Filtering" target="_blank">Live</a></li>
-            <li><strong>colour_picker</strong> - <a href="ai/colour_picker/index.html" title="AI Project 4: Colour Picker" target="_blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/colour_picker/index.html" title="AI Project 4" target="_blank">Live</a></li>            
-            <li><strong>mobile_menu</strong> - <a href="ai/mobile_menu/index.php" title="AI Project 3" target="_blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/mobile_menu/index.php" title="AI Project 3" target="_blank">Live</a></li>
-            
-            <li><strong>Tic Tac Toe (Noughts and Crosses) - <a href="ai/tic_tac_toe/index.html" title="AI Project 4" target="_blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/tic_tac_toe/index.html" title="AI Project 4" target="_blank">Live</a> </strong></li> 
-            <li><strong>copy_text</strong> - <a href="ai/copy_text/index.php" title="AI Project 5" target="_blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/copy_text/index.php" title="AI Project 5" target="_blank">Live</a></li>
-            <li><strong>list_maker_ai</strong> - <a href="ai/list_maker_ai/index.php" title="AI Project 5" target="_blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/copy_text/index.php" title="AI Project 5" target="_blank">Live</a></li>
-            <li><strong>web_checklist</strong> - <a href="ai/web_checklist/index.php" title="AI Project 5" target="_blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/ai/copy_text/index.php" title="AI Project 5" target="_blank">Live</a></li>
+            <li><strong><a href="ai/checkbox_filtering/index.php" title="AI Project: Checkbox Filtering" target="_blank">checkbox_filtering</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/checkbox_filtering/index.php" title="AI Project: Checkbox Filtering" target="_blank">Live</a></li>
+            <li><strong><a href="ai/colour_picker/index.html" title="AI Project 4: Colour Picker" target="_blank">colour_picker</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/colour_picker/index.html" title="AI Project 4" target="_blank">Live</a></li>            
+            <li><strong><a href="ai/mobile_menu/index.php" title="AI Project 3: Making a MoBile Menu" target="_blank">mobile_menu</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/mobile_menu/index.php" title="AI Project 3: Making a MoBile Menu" target="_blank">Live</a></li>            
+            <li><strong><a href="ai/tic_tac_toe/index.html" title="AI Project 4: Simple Tic Tac Toe Game" target="_blank">Tic Tac Toe (Noughts and Crosses)</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/tic_tac_toe/index.html" title="AI Project 4: Simple Tic Tac Toe Game" target="_blank">Live</a> </strong></li> 
+            <li><strong><a href="ai/copy_text/index.php" title="AI Project 5: Copy Text" target="_blank">copy_text</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/copy_text/index.php" title="AI Project 5: Copy Text" target="_blank">Live</a></li>
+            <li><strong><a href="ai/list_maker_ai/index.php" title="AI Project 6: List Maker AI" target="_blank">list_maker_ai</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/list_maker_ai/index.php" title="AI Project 6: List Maker AI" target="_blank">Live</a></li>
+            <li><strong><a href="ai/web_checklist/index.php" title="AI Project 7: Web Checklist" target="_blank">web_checklist</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/web_checklist/index.php" title="AI Project 7: Web Checklist" target="_blank">Live</a></li>
         
         </ul>
 

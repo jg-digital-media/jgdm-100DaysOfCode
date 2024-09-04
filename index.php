@@ -48,9 +48,9 @@
         <a class="project---jumplinks" href="#section---ai--projects">AI Projects</a> | 
         <a class="project---jumplinks" href="#section---api--projects">API's</a> |
         <a class="project---jumplinks" href="#section---css--projects">CSS</a> | 
+        <a class="project---jumplinks" href="#section---javascript--projects">JavaScript</a> | 
         <a class="project---jumplinks" href="#section---database--projects">Database</a> | 
         <a class="project---jumplinks" href="#section---java--projects">Java</a> | 
-        <a class="project---jumplinks" href="#section---javascript--projects">JavaScript</a> | 
         <a class="project---jumplinks" href="#section---npm--projects">NPM</a> | 
         <a class="project---jumplinks" href="#section---node--projects">Node</a> |
         <a class="project---jumplinks" href="#section---php--projects">PHP</a> | 
@@ -118,22 +118,22 @@
         </ul>       
 
         <p id="section---css--projects"></p>
-        <h2 class="tech---category">CSS - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/css" target="_blank">Local</a></h2>
+        <h2 class="tech---category">CSS - <a href="http://localhost/jgdm-100daysofcode/css" target="_blank">Local</a> - <a href="#top">Top</a></h2>
 
         <ul>
-            <li><strong>css/balloon</strong> - Balloon Flight Experience Website - <a href="https://projects.jonniegrieve.co.uk/balloon/" target="_blank">Link</a></li>
-            <li><strong>css/experiments</strong> - CSS Experiments - <a href="https://projects.jonniegrieve.co.uk/practice/" target="_blank"></a></li>
-            <li><strong>css/form_accessible</strong> - Form Accessible - No Source - [Inactive] </li>
-            <li><strong>css/modernizr</strong> - Left push navigation for mobiles - <a href="https://projects.jonniegrieve.co.uk/modernizr" target="_blank">Link</a></li>
-            <li><strong>css/portfolio-gallery</strong> - <a href="https://projects.jonniegrieve.co.uk/portfolio-gallery" target="_blank">Link</a></li>                    
-            <li><strong>css/project_status</strong> - <a href="http://localhost/jgdm-100daysofcode/css/project_status/" target="_blank">Local</a> - <a href="https://www.jonniegrieve.co.uk/assets/project_status" target="_blank">Link</a></li>
-            <li><strong>css/project_status_images</strong> - <a href="https://www.jonniegrieve.co.uk/assets/project_status_images" target="_blank">Link</a></li>
-            <li><strong>css/pwa</strong> - <a href="https://projects.jonniegrieve.co.uk/pwa" target="_blank">Link</a></li>
-            <li><strong>css/pwa_2</strong> - <a href="https://projects.jonniegrieve.co.uk/pwa_2" target="_blank">Link</a></li>
-            <li><strong>css/sass_project </strong> - Sass Project - <a href="https://projects.jonniegrieve.co.uk/sass_project" target="_blank">Link</a></li>
-            <li><strong>css/semantic_html_example </strong> - Semantic HTML Example - <a href="https://projects.jonniegrieve.co.uk/semantic_html_example" target="_blank">Link</a> - Inactive</li>
-            <li><strong>css/showcase </strong> - Web Design showcase -  <a href="https://projects.jonniegrieve.co.uk/showcase" target="_blank">Link</a> - Incomplete</li>
-            <li><strong>css/web_checklist </strong> - Web Checklist - <a href="https://projects.jonniegrieve.co.uk/web_checklist" target="_blank">Link</a> - Incomplete</li>
+            <li><strong><a href="css/balloon" title="Balloon Flight Experience Website" target="_blank">css/balloon</a></strong> - Balloon Flight Experience Website - <a href="https://projects.jonniegrieve.co.uk/balloon/" title="Balloon Flight Experience Website" target="_blank">Live</a></li>
+            <li><strong><a href="css/experiments" title="CSS/Front End Experiments Website" target="_blank">css/experiments</a></strong> - CSS Experiments - <a href="https://projects.jonniegrieve.co.uk/practice/" title="CSS and Front End Technologies" target="_blank">Live</a></li>
+            <li><strong><a href="css/form_accessible" title="CSS: Form Accessible Website" target="_blank">css/form_accessible</a></strong> - Form Accessible - No Source - [Inactive] </li>
+            <li><strong><a href="css/modernizr" title="CSS Modernizr Website" target="_blank">css/modernizr</a></strong> - Left push navigation for mobiles with Modernizr - <a href="https://projects.jonniegrieve.co.uk/modernizr" title="Modernizr" target="_blank">Live</a></li>
+            <li><strong><a href="css/portfolio-gallery" title="CSS Portfolio Gallery" target="_blank">css/portfolio-gallery</a></strong> - CSS Portfolio Gallery - <a href="https://projects.jonniegrieve.co.uk/portfolio-gallery" title="CSS Portfolio Gallery" target="_blank">Live</a></li>                    
+            <li><strong><a href="css/project_status" title="CSS: Project Status " target="_blank">css/project_status</a></strong> - Project Status List (JavaScript) - <a href="http://localhost/jgdm-100daysofcode/css/project_status/" target="_blank">Local</a> - <a href="https://jonniegrieve.co.uk/assets/lists/project_status/" title="Project Status Images" target="_blank">Live</a></li>
+            <li><strong><a href="css/project_status_images" title="CSS: Project Status (Images)" target="_blank">css/project_status_images</a></strong> - Project Status Images (JavaScript) - <a href="https://www.jonniegrieve.co.uk/assets/lists/project_status_images" title="Project Status Images" target="_blank">Live</a></li>
+            <li><strong><a href="css/pwa_2" title="Progressive Web App" target="_blank">css/pwa_2</a></strong> - Progressive Web App Example 2 - <a href="https://projects.jonniegrieve.co.uk/pwa_2" title="Progressive Web App" target="_blank">Live</a></li>
+            <li><strong><a href="css/pwa_3" title="Progressive Web App (Example 2)" target="_blank">css/pwa_3</a></strong> - Progressive Web App Example 3 - <a href="https://projects.jonniegrieve.co.uk/pwa_3" title="Progressive Web App" target="_blank">Live</a></li>
+            <li><strong><a href="css/sass_project" title="CSS/Sass Project" target="_blank">css/sass_project</a></strong> - Sass Project - <a href="https://projects.jonniegrieve.co.uk/sass_project" title="Sass Project Example" target="_blank">Live</a></li>
+            <li><strong><a href="css/semantic_html_example" title="CSS/Semantic HTML Example" target="_blank">css/semantic_html_example</a></strong> - Semantic HTML Example - Live</a></li>
+            <li><strong><a href="css/showcase" title="CSS/Showcase" target="_blank">css/showcase</a></strong> - Web Design Showcase - Live</li>
+            <li><strong><a href="css/web_checklist" title="CSS Web Checklist" target="_blank">css/web_checklist</a></strong> - Live
         </ul>
 
         <p id="section---javascript--projects"></p>

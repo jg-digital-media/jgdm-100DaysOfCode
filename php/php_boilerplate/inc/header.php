@@ -56,6 +56,9 @@
                 <li>
                     <a href="page_three.php" <?php if( $page_name == "page_three" ) {echo "class=\"selected\"" ;}  ?>>Page 3</a>
                 </li>
+                <li>
+                    <a href="https://github.com/jg-digital-media/jgdm_php_boilerplate" target="_blank">Repository</a>
+                </li>
             </ul>
 
         </header>      

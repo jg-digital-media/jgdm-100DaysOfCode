@@ -8,6 +8,11 @@
 
     // Format the date and time as DD/MM/YYYY - HH:MM
     $formatted_time = date('d/m/Y - H:i', $last_modified_time);
+	
+	// Round and Day Number
+	
+	$round = 1;
+	$day = 1;
 ?>
 
 <!DOCTYPE html>
@@ -26,10 +31,10 @@
 
         gtag('config', 'G-N9WB623MVP');
     </script>
-    
+		
     <link rel="stylesheet" type="text/css" href="../style.css">
 
-    <title>JGDM #100daysOfCode - R1 D1</title>
+    <title>JGDM #100daysOfCode - R<?php echo $round;?> D<?php echo $day; ?></title>
 
 </head>
 
@@ -37,7 +42,7 @@
 
     <section>
       
-        <h1>JGDM | &quot;100DaysOfCode&quot; Repository on localhost (R1D1)<a id="goback" href="../">Back</a> </h1> 
+        <h1>JGDM | &quot;100DaysOfCode&quot; Repository on localhost (R<?php echo $round;?>D<?php echo $day; ?>)<a id="goback" href="../">Back</a> </h1> 
         
         <div class="last_update" id="js_lastupdate"><strong>List Last Updated:</strong> <?php echo $formatted_time; ?> BST</div>
 
@@ -45,23 +50,25 @@
 
         AI Projects  API's  CSS  Java  JavaScript  Databases  PHP  Python  Regex  Sonic Pi  SVG   </div> -->
          
-        <a class="project---jumplinks" href="#section---ai--projects">AI Projects</a> | 
-        <a class="project---jumplinks" href="#section---api--projects">API's</a> |
-        <a class="project---jumplinks" href="#section---css--projects">CSS</a> | 
-        <a class="project---jumplinks" href="#section---javascript--projects">JavaScript</a> | 
-        <a class="project---jumplinks" href="#section---database--projects">Databases</a> | 
-        <a class="project---jumplinks" href="#section---java--projects">Java</a> | 
-        <a class="project---jumplinks" href="#section---npm--projects">NPM</a> | 
-        <a class="project---jumplinks" href="#section---node--projects">Node</a> |
-        <a class="project---jumplinks" href="#section---php--projects">PHP</a> | 
-        <a class="project---jumplinks" href="#section---python--projects">Python</a> | 
-        <a class="project---jumplinks" href="#section---regex--projects">Regex</a> | 
-        <a class="project---jumplinks" href="#section---sonicpi--projects">Sonic Pi</a> | 
-        <a class="project---jumplinks" href="#section---svg--projects">SVG</a>              
+		<div id="project---jumplinks"> 
+			<a class="project---jumplink" href="#section---ai--projects">AI Projects</a> | 
+			<a class="project---jumplink" href="#section---api--projects">API's</a> |
+			<a class="project---jumplink" href="#section---css--projects">CSS</a> | 
+			<a class="project---jumplink" href="#section---javascript--projects">JavaScript</a> | 
+			<a class="project---jumplink" href="#section---database--projects">Databases</a> | 
+			<a class="project---jumplink" href="#section---java--projects">Java</a> | 
+			<a class="project---jumplink" href="#section---npm--projects">NPM</a> | 
+			<a class="project---jumplink" href="#section---node--projects">Node</a> |
+			<a class="project---jumplink" href="#section---php--projects">PHP</a> | 
+			<a class="project---jumplink" href="#section---python--projects">Python</a> | 
+			<a class="project---jumplink" href="#section---regex--projects">Regex</a> | 
+			<a class="project---jumplink" href="#section---sonicpi--projects">Sonic Pi</a> | 
+			<a class="project---jumplink" href="#section---svg--projects">SVG</a>          
+		</div>		
 
         <div class="hundred_days_status">            
 
-            <h2>Project List - <span id="round"><strong>Round</strong> 1</span> - <span class="day"><strong>Day</strong> 1</span> </h2>
+            <h2>Project List - <span id="round"><strong>Round</strong> <?php echo $round;?></span> - <span class="day"><strong>Day</strong> <?php echo $day;?></span> </h2>
                         
         </div>
 

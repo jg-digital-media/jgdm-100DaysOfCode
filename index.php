@@ -113,7 +113,7 @@
         </ul>
 
         <p id="section---api--projects"></p>  <!-- remove paragragh tags -->
-        <h2 class="tech---category">API Projects - <a href="http://localhost/jgdm-100daysofcode/api" target="_blank">Local</a> - <a href="#top">Top</a></h2>
+        <h2 class="tech---category">API Projects - <a href="http://localhost/jgdm-100daysofcode/api">Local</a> - <a href="#top">Top</a></h2>
 
         <ul>
             <li><strong>Fetch Projects</strong>
@@ -125,7 +125,7 @@
         </ul>       
 
         <p id="section---css--projects"></p>
-        <h2 class="tech---category">CSS - <a href="http://localhost/jgdm-100daysofcode/css" target="_blank">Local</a> - <a href="#top">Top</a></h2>
+        <h2 class="tech---category">CSS - <a href="http://localhost/jgdm-100daysofcode/css">Local</a> - <a href="#top">Top</a></h2>
 
         <ul>
             <li><strong><a href="css/balloon" title="Balloon Flight Experience Website" target="_blank">css/balloon</a></strong> - Balloon Flight Experience Website - <a href="https://projects.jonniegrieve.co.uk/balloon/" title="Balloon Flight Experience Website" target="_blank">Live</a></li>
@@ -144,7 +144,7 @@
         </ul>
 
         <p id="section---javascript--projects"></p>
-        <h2 class="tech---category">JavaScript - <a href="http://localhost/jgdm-100daysofcode/javascript" target="_blank">Local</a> - <a href="#top">Top</a></h2>
+        <h2 class="tech---category">JavaScript - <a href="http://localhost/jgdm-100daysofcode/javascript">Local</a> - <a href="#top">Top</a></h2>
 
         <ul>
             <li><strong><a href="javascript/ajax" title="JavaScript - Fictional Stock Check Application with AJAX" target="_blank">javascript/ajax</a></strong> - Fictional Stock Check Application with AJAX - <a href="https://projects.jonniegrieve.co.uk/ajax_project/" title="JavaScript - Fictional Stock Check Application with AJAX" target="_blank">Live</a></li>
@@ -170,7 +170,7 @@
         </ul>
 
         <p id="section---database--projects"></p>
-        <h2 class="tech---category">Databases - <a href="http://localhost/jgdm-100daysofcode/databases" target="_blank">Local</a> - <a href="#top">Top</a></h2>
+        <h2 class="tech---category">Databases - <a href="http://localhost/jgdm-100daysofcode/databases">Local</a> - <a href="#top">Top</a></h2>
                 
         <ul>
             <li>project-list.json - check this file and data is up to date</li>
@@ -180,7 +180,7 @@
         </ul>
 
         <p id="section---java--projects"></p>
-        <h2 class="tech---category">Java - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/java" target="_blank">Local</a></h2>
+        <h2 class="tech---category">Java - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/java">Local</a></h2>
 
         <ul>
             <li>Generics</li>
@@ -191,21 +191,21 @@
         </ul>
 
         <p id="section---npm--projects"></p>
-        <h2 class="tech---category">NPM - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/npm" target="_blank">Local</a></h2>
+        <h2 class="tech---category">NPM - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/npm">Local</a></h2>
         <ul>
             <li>item</li>
         </ul>
 
 
         <p id="section---node--projects"></p>
-        <h2 class="tech---category">Node - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/node" target="_blank">Local</a></h2>
+        <h2 class="tech---category">Node - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/node">Local</a></h2>
         <ul>
             <li>item</li>
         </ul>
 
 
         <p id="section---php--projects"></p>
-        <h2 class="tech---category">PHP - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/php" target="_blank">Local</a></h2>
+        <h2 class="tech---category">PHP - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/php">Local</a></h2>
         
         <ul>
             <li><strong>php/lockdown</strong> - <a href="https://projects.jonniegrieve.co.uk/lockdown/" target="_blank">Link</a></li>
@@ -217,7 +217,7 @@
         </ul>
 
         <p id="section---python--projects"></p>
-        <h2 class="tech---category">Python - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/python" target="_blank">Local</a></h2>
+        <h2 class="tech---category">Python - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/python">Local</a></h2>
         
         <ul>
 
@@ -230,14 +230,14 @@
         </ul>
 
         <p id="section---regex--projects"></p>
-        <h2 class="tech---category">Regular Expressions (Regex) - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/regex" target="_blank">Local</a></h2>
+        <h2 class="tech---category">Regular Expressions (Regex) - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/regex">Local</a></h2>
       
         <ul>
-            <li><strong>Regex</strong> - <a href="https://projects.jonniegrieve.co.uk/regex" target="_blank">Link</a></li>
+            <li><strong>Regex</strong> - <a href="https://projects.jonniegrieve.co.uk/regex">Link</a></li>
         </ul>    
 
         <p id="section---sonicpi--projects"></p>
-        <h2 class="tech---category">Sonic Pi - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/sonic_pi" target="_blank">Local</a></h2>
+        <h2 class="tech---category">Sonic Pi - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/sonic_pi">Local</a></h2>
        
         <ul>
             <li>    
@@ -246,7 +246,7 @@
         </ul>       
 
         <p id="section---svg--projects"></p>
-        <h2 class="tech---category">SVG - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/svg" target="_blank">Local</a></h2>
+        <h2 class="tech---category">SVG - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/svg">Local</a></h2>
              <!--  -->
         <ul>
             <li><strong>icon_example</strong> - <a href="svg/icon_example/index.html" target="_blank">Local</a></li>

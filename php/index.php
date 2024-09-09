@@ -29,12 +29,12 @@
 
         <ul>
             
-            <li><a href="http://localhost/jgdm-100daysofcode/php/lockdown" target="_blank">php/lockdown</a> - <a href="https://projects.jonniegrieve.co.uk/lockdown" title="PHP Website: Jaunts and Journeys in Lockdown" target="_blank">Link</a> - <span class="project_status indev review ready">ready</span></li>
+            <li><a href="http://localhost/jgdm-100daysofcode/php/lockdown" target="_blank">php/lockdown</a> - <a href="https://projects.jonniegrieve.co.uk/lockdown" title="PHP Website: Jaunts and Journeys in Lockdown" target="_blank">Link</a> - <span class="project_status ready">ready</span></li>
             <li><a href="http://localhost/jgdm-100daysofcode/php/php_auth" target="_blank">php/php_auth</a> - <span class="project_status indev">defunct</span> - Inactive</li>
-            <li><a href="http://localhost/jgdm-100daysofcode/php/php_boilerplate" target="_blank">php/php_boilerplate</a> - Inactive - <span class="project_status review">ready</span></li>
+            <li><a href="http://localhost/jgdm-100daysofcode/php/php_boilerplate" target="_blank">php/php_boilerplate</a> - Inactive - <span class="project_status review">review</span></li>
             <li><a href="http://localhost/jgdm-100daysofcode/php/php_website" target="_blank">php/php_website</a> - <a href="https://projects.jonniegrieve.co.uk/php_website" target="_blank">Link</a> <span class="project_status ready">ready</span></li>
-            <li><a href="http://localhost/jgdm-100daysofcode/php/slim" target="_blank">php/slim</a> - <span class="project_status indev">ready</span> - Custom Project - A Website built with Slim Routing - Inactive</li>
-            <li><a href="http://localhost/jgdm-100daysofcode/php/slimmin" target="_blank">php/slimmin</a> - <span class="project_status indev">ready</span> - Slim ProjectSingle page App with Slim - Inactive</li>
+            <li><a href="http://localhost/jgdm-100daysofcode/php/slim" target="_blank">php/slim</a> - <span class="project_status indev">defunct</span> - Custom Project - A Website built with Slim Routing - Inactive</li>
+            <li><a href="http://localhost/jgdm-100daysofcode/php/slimmin" target="_blank">php/slimmin</a> - <span class="project_status indev">defunct</span> - Slim ProjectSingle page App with Slim - Inactive</li>
         </ul>
 
     </section>

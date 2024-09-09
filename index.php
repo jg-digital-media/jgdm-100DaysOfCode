@@ -206,7 +206,7 @@
 
 
         <p id="section---php--projects"></p>
-        <h2 class="tech---category">PHP - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/php">Local</a></h2>
+        <h2 class="tech---category">PHP - <a href="http://localhost/jgdm-100daysofcode/php">Local</a> - <a href="#top">Top</a></h2>
         
         <ul>
             <li><strong>php/lockdown</strong> - <a href="https://projects.jonniegrieve.co.uk/lockdown/" target="_blank">Link</a></li>
@@ -215,6 +215,7 @@
             <li><strong>php/php_website</strong> - Currently empty - A new project in Twig - not yet uploaded - Inactive</li>
             <li><strong>php/slim</strong> - Custom Project - A Website built with Slim Routing - <a href="https://projects.jonniegrieve.co.uk/slim" target="_blank">Link</a> - Inactive</li>
             <li><strong>php/slimmin</strong> - Slim ProjectSingle page App with Slim - incomplete - <a href="https://projects.jonniegrieve.co.uk/slimmin" target="_blank">Link</a> - Inactive</li>      
+            <li><strong>php/slim-project</strong> - Slim ProjectSingle page App with Slim - incomplete - <a href="https://projects.jonniegrieve.co.uk/slim-project" target="_blank">Link</a> - Inactive</li>
         </ul>
 
         <p id="section---python--projects"></p>

@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /slim-project
+RewriteRule ^$ public/ [L]
+RewriteRule (.*) public/$1 [L]

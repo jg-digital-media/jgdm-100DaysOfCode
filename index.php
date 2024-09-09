@@ -180,7 +180,7 @@
         </ul>
 
         <p id="section---java--projects"></p>
-        <h2 class="tech---category">Java - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/java">Local</a></h2>
+        <h2 class="tech---category">Java - <a href="http://localhost/jgdm-100daysofcode/java">Local</a> - <a href="#top">Top</a></h2>
 
         <ul>
             <li>Generics</li>
@@ -191,16 +191,17 @@
         </ul>
 
         <p id="section---npm--projects"></p>
-        <h2 class="tech---category">NPM - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/npm">Local</a></h2>
+        <h2 class="tech---category">NPM - <a href="http://localhost/jgdm-100daysofcode/npm">Local</a> - <a href="#top">Top</a></h2>
         <ul>
-            <li>item</li>
+            <li>gulp-setup</li>
         </ul>
 
 
         <p id="section---node--projects"></p>
-        <h2 class="tech---category">Node - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/node">Local</a></h2>
+        <h2 class="tech---category">Node - <a href="http://localhost/jgdm-100daysofcode/node">Local</a> - <a href="#top">Top</a></h2>
         <ul>
-            <li>item</li>
+            <li><strong>boilerplate-npm</strong> - <span class="project_status indev">defunct</span></li>
+            <li><strong>fcc</strong> - <span class="project_status indev">defunct</span></li>
         </ul>
 
 
@@ -209,11 +210,11 @@
         
         <ul>
             <li><strong>php/lockdown</strong> - <a href="https://projects.jonniegrieve.co.uk/lockdown/" target="_blank">Link</a></li>
-            <li><strong>php/php_auth</strong> - PHP Authentication (with Symfony PHP Package) - <a href="https://projects.jonniegrieve.co.uk/php_auth_v4" target="_blank"></a> - Inactive</li> 
-            <li><strong>php/php_boilerplate</strong> - incomplete - <a href="https://projects.jonniegrieve.co.uk/php_auth_v4" target="_blank"></a></li>
+            <li><strong>php/php_auth</strong> - PHP Authentication (with Symfony PHP Package) - <a href="https://projects.jonniegrieve.co.uk/php_auth" target="_blank">Link</a> - Inactive</li> 
+            <li><strong>php/php_boilerplate</strong> - incomplete - <a href="https://projects.jonniegrieve.co.uk/php_boilerplate" target="_blank">Link</a></li>
             <li><strong>php/php_website</strong> - Currently empty - A new project in Twig - not yet uploaded - Inactive</li>
-            <li><strong>php/slim</strong> - Custom Project - A Website built with Slim Routing - <a href="https://projects.jonniegrieve.co.uk/slim" target="_blank"></a> - Inactive</li>
-            <li><strong>php/slimmin</strong> - Slim ProjectSingle page App with Slim - incomplete - <a href="https://projects.jonniegrieve.co.uk/slim" target="_blank"></a> - Inactive</li>      
+            <li><strong>php/slim</strong> - Custom Project - A Website built with Slim Routing - <a href="https://projects.jonniegrieve.co.uk/slim" target="_blank">Link</a> - Inactive</li>
+            <li><strong>php/slimmin</strong> - Slim ProjectSingle page App with Slim - incomplete - <a href="https://projects.jonniegrieve.co.uk/slimmin" target="_blank">Link</a> - Inactive</li>      
         </ul>
 
         <p id="section---python--projects"></p>

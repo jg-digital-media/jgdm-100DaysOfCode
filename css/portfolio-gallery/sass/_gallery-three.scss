@@ -32,8 +32,9 @@ SECTION: GALLERY THREE
         .photo {
             display: block;
             line-height: 0;
+
             .caption {
-                width: 100%;
+                width: 98%;
             
                 @media(max-width: $md) {
                     width: 100%;
@@ -81,7 +82,7 @@ SECTION: GALLERY THREE
         }
         
         img {
-            width: 100%;
+            width: 98%;
             position: relative;
     
             @media(max-width: $md) {

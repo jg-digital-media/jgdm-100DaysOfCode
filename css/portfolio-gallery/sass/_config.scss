@@ -4,11 +4,12 @@ $header-bg-col: #585358;
 $border-col: #ffffff;
 
 $main-bg-col: lightgray;
-$main-txt-col: black;
+$main-txt-col: #000000;
 
 $btn-bg-col: white;
 
-$intro-link-col: darkred;
+$intro-link-col: #e20505;
+$intro-link-hover: #000000;
 $intro-link-selected: $main-txt-col;
 
 //Breakpoints: 
@@ -36,7 +37,9 @@ $main-font: verdana;
     text-transform: uppercase;
 
     &:hover {
+
         background: lighten(grey, 10%);
         color: black;
     }
+    
 }

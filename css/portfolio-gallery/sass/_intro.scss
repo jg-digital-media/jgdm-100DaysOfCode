@@ -22,18 +22,51 @@ SECTION: INTRO
         line-height: 1.9;
     }
 
+    .divider {
+
+        width: 130px;
+        display: block;
+        margin: 5px auto;
+        /* color: red; */
+        background: red;
+        height: 2px;
+        border: none;
+    }
+
     .gallery-type {
+
+        text-align: center;
+
         li {
+
             display: inline-block;
             margin: 10px 0;
+            font-size: 12px;
 
             a {
+
                 color: $intro-link-col;
+                text-decoration: none;
+                border-bottom: none;
+                transition: color .3s, border-bottom .1s;
+
+                &:hover {
+
+                    color: $intro-link-hover;
+                    /* border-bottom: solid black 3px; */
+                    border-bottom: solid $intro-link-hover 3px;
+                }
+                
+                &.selected {
+
+                    color: $intro-link-selected;
+                    /* border-bottom: solid black 3px; */
+                }   
+
             }
 
-            a.selected {
-                color: $intro-link-selected;
-            }
         }
+
     }
+
 }

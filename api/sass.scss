@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: orchid;
+}
+
+header {
+
+    background: lightblue;
+    height: 100px;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+
+header h1 a { 
+
+    color: orchid;
+    font-size: 13pt;
+    display: inline-block;
+    margin: 5px auto;
+
+}
+
+header {
+
+    a {
+
+        color: orchid;
+        display: inline-block;
+        font-size: 13pt;
+        margin: 5px auto;
+
+    }
+}
+
+#container {
+   font-family: arial;
+}
+
+#container article {
+    display: block;
+    margin: 10px auto;
+    width: 10px;
+    width: 80%;
+    width: 50%;
+
+}
+
+#container article h2 {
+    color: white;
+    margin: 20px 0;
+}
+
+#container article h2 a {
+    text-decoration: none;
+}
+
+#container article ul {
+    display: block;
+    margin: 10px auto;
+
+}
+
+#container article ul li {
+    /*display: inline-block;*/
+    display: block;
+    color: #fffd79;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0;
+
+}
+
+#container article ul li a {
+    text-decoration: none;
+    color: white;
+    color: black;
+    color: yellow;
+    font-weight: normal;            
+    text-transform:none;
+
+    
+}
+
+#container article ul li a:hover {
+    text-decoration: none;;
+    
+}
+
+/*media queries*/
+
+@media (max-width: 980px) {
+
+    #container {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/*basic*/
+
+#search {
+    margin: 20px 0;
+    height: 30px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+#container article #search_btn {
+    background: yellow;
+    height: 30px;
+    padding: 5px;
+    margin: 0 10px;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+/*fetch_random*/
+
+/*photo_api*/
+#image_container_collection {
+    display: block;
+    margin: 30px auto;
+    width: 55%;
+}
+
+#image_container_collection ul li img {    
+    width: 76%;
+    text-align: ceter;
+    display: block;
+    margin: 0 auto;
+}
+
+/*random_from_user*/
+#image_container_user {
+    display: block;
+    margin: 30px auto;
+    width: 55%;
+}
+
+#image_container_user ul li img {
+    width: 100%;
+}

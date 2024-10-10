@@ -1,0 +1,52 @@
+section {
+
+    h2 {
+
+        text-align: center;
+        color: darkred;
+    }
+}
+
+ main {
+
+    section {
+
+        ul {
+
+            li {
+
+                div {
+
+                    position: relative;
+                    display: block;
+                    line-height: 0;
+                    /* width: 98%; */
+                    border-radius: 5px;
+                    
+                    /*
+
+                    .caption {
+
+                        width: 99%
+                    
+                    } */
+
+                    img {
+
+                        //position: relative;
+                        // border-radius: 5px;
+                        border: solid black 2px;
+                        width: 98%;
+
+                    }                       
+                    
+                }
+
+            }
+
+        }
+             
+    }
+
+}
+ 

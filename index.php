@@ -214,6 +214,7 @@
             <li><strong>php/lockdown</strong> - <a href="https://projects.jonniegrieve.co.uk/lockdown/" target="_blank">Link</a></li>
             <li><strong>php/php_auth</strong> - PHP Authentication (with Symfony PHP Package) - <a href="https://projects.jonniegrieve.co.uk/php_auth" target="_blank">Link</a> - Inactive</li> 
             <li><strong>php/php_boilerplate</strong> - incomplete - <a href="https://projects.jonniegrieve.co.uk/php_boilerplate" target="_blank">Link</a></li>
+            <li><strong>php/php_boilerplate_alt</strong> - incomplete - <a href="https://projects.jonniegrieve.co.uk/php_boilerplate_alt" target="_blank">Link</a></li>
             <li><strong>php/php_website</strong> - Currently empty - A new project in Twig - not yet uploaded - Inactive</li>
             <li><strong>php/slim</strong> - Custom Project - A Website built with Slim Routing - <a href="https://projects.jonniegrieve.co.uk/slim" target="_blank">Link</a> - Inactive</li>
             <li><strong>php/slimmin</strong> - Slim ProjectSingle page App with Slim - incomplete - <a href="https://projects.jonniegrieve.co.uk/slimmin" target="_blank">Link</a> - Inactive</li>      

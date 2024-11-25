@@ -1,7 +1,7 @@
 <?php
 
-$version = 10;
-$website_title = "Simple List Maker App";
+$version = 11;
+$website_title = "TODO List Maker App";
 
 require "inc/header.php"; ?>
 
@@ -11,6 +11,13 @@ require "inc/header.php"; ?>
     <article class="log">
         
         <h2>List Maker - with AI (changes log)</h2> 
+
+        <h3>NO PROMPT: Website Title Change </h3>
+        
+        <ul>
+            <li>v11 (index-v11.php)</li>
+            <li>Updated H1 Title - changed to "TODO List Maker App" from "Simple List Maker App"</li>
+        </ul>
         
         <h3>PROMPT: 
         Consider the following edge case.

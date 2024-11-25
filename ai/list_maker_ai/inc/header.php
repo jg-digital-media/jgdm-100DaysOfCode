@@ -23,7 +23,7 @@
 <body>
     
     
-    <?php if ( $website_title == "Simple List Maker App" ) : ?>
+    <?php if ( $website_title == "TODO List Maker App" ) : ?>
 
     <header>
         <h1><?php echo $website_title; ?> <span id="versioning">v<?php echo $version; ?></span></h1>
@@ -39,6 +39,7 @@
             <li><a href="index-v8.php">v8</a></li>
             <li><a href="index-v9.php">v9</a></li>
             <li><a href="index-v10.php">v10</a></li>
+            <li><a href="index-v11.php">v11</a></li>
             <li><a href="log.php">Log</a></li>
         </ul>
         

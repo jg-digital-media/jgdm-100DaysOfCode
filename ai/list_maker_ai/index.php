@@ -1,7 +1,7 @@
 <?php
 
-$version = 10;
-$website_title = "Simple List Maker App";
+$version = 11;
+$website_title = "TODO List Maker App";
 
 require "inc/header.php"; ?>
 

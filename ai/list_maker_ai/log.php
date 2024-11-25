@@ -16,7 +16,7 @@ require "inc/header.php"; ?>
         
         <ul>
             <li>v11 (index-v11.php)</li>
-            <li>Updated H1 Title - changed to "TODO List Maker App" from "Simple List Maker App"</li>
+            <li>Updated H1 Title - changed to "TODO List Maker App" from "Simple List Maker App" for the purpose of clarity and organisation of projects.</li>
         </ul>
         
         <h3>PROMPT: 

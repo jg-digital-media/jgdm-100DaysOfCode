@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-  </style>
+
+    <link rel="icon" href="../icon.png" type="image/png">
     
     <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>

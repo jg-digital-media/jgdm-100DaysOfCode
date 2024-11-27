@@ -2,6 +2,8 @@
 <html>
     
 <head>
+
+    <link rel="icon" href="../icon.png" type="image/png">
         
     <link rel="stylesheet" href="style.css" />  
     

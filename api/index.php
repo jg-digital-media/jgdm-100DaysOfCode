@@ -15,6 +15,8 @@
         gtag('config', 'G-N9WB623MVP');
     </script>
 
+    <link rel="icon" href="../icon.png" type="image/png">
+
     <link rel="stylesheet" type="text/css"href="../../style.css">
 
     <title>JGDM #100daysOfCode | API's</title>

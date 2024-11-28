@@ -34,7 +34,7 @@
 		
     <link rel="stylesheet" type="text/css" href="../style.css">
 
-    <link rel="icon" type="image/x-icon" href="../favicon.png">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
 
     <title>JGDM #100daysOfCode - R<?php echo $round;?> D<?php echo $day; ?></title>
 

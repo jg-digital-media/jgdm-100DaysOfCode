@@ -94,7 +94,8 @@ header nav ul li a:hover {
 #container ol {
   display: block;
   margin: 20px auto;
-  width: 160px;
+  /* width: 160px; */
+  font-size: 12px;
 }
 #container ol li {
   margin: 10px 0;
@@ -105,6 +106,24 @@ header nav ul li a:hover {
   transition: color 0.3s;
 }
 #container ol li a:hover {
+  color: green;
+}
+#container ol li .projects---link {
+  color: green;
+}
+#container ol li .projects---link:hover {
+  color: red;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+}
+footer a {
+  color: red;
+  transition: color 0.3s;
+}
+footer a:hover {
   color: green;
 }
 

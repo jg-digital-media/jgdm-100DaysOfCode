@@ -127,14 +127,15 @@ header {
 
         display: block;
         margin: 20px auto;
-        width: 160px;
+        /* width: 160px; */
+        font-size: 12px;
 
         li {
 
             margin: 10px 0;
 
             text-align: center;
-             a {
+            a {
 
                 color: red;
                 transition: color .3s;
@@ -144,6 +145,34 @@ header {
                     color: green;
                 }
             }
+
+            .projects---link {
+
+                color: green;
+
+                &:hover {
+
+                    color: red;
+                }
+            }
         }            
+    }
+}
+
+footer {
+
+    text-align: center;
+    
+    font-size: 12px;
+
+    a {
+
+        color: red;
+        transition: color .3s;
+
+        &:hover  { 
+
+            color: green;
+        }
     }
 }

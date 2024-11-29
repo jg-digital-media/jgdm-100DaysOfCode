@@ -29,6 +29,17 @@ body header h1 span {
   margin-left: 10px;
   font-weight: normal;
 }
+body header p {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+body header p a {
+  color: gold;
+}
+body header p a:hover {
+  text-decoration: none;
+}
 body main {
   /*background: $bg-mn;*/
   /* width: 320px; */

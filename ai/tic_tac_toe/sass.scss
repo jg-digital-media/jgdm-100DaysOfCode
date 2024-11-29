@@ -1,7 +1,27 @@
+
+header {
+
+    text-align: center;
+}
+
+.board---container {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+
+    .board {
+
+        margin: 0 auto;
+    }
+
+
+}
+
 .board {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-gap: 2px;
+    justify-content: center;
   }
   .cell {
     width: 100px;
@@ -11,7 +31,10 @@
     vertical-align: middle;
     border: 1px solid #ccc;
     cursor: pointer;
+    position: relative;
+    top: 15px;
   }
+
   .winning-cell {
     background-color: yellow;
   }

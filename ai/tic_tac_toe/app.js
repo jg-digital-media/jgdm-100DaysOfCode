@@ -1,4 +1,4 @@
-console.log("app.js loaded - 03-12-2024 - 13:37");
+console.log("app.js loaded - 03-12-2024 - 15:15");
 
 const cells = document.querySelectorAll('.cell');
 const status = document.getElementById('status');
@@ -38,6 +38,7 @@ if (board[index] === ' ') {
     cells.forEach(cell => cell.removeEventListener('click', handleCellClick));
     } else if (checkDraw()) {
     status.textContent = "It's a draw!";
+    status.classList.add('draw');
     } else {
     currentPlayer = (currentPlayer === 'X') ? 'O' : 'X';
     status.textContent = `Player ${currentPlayer}'s turn`;

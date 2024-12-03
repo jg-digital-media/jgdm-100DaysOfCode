@@ -1,4 +1,4 @@
-console.log("app.js loaded - 03-12-2024 - 15:18");
+console.log("app.js loaded - 03-12-2024 - 15:23");
 
 const cells = document.querySelectorAll('.cell');
 const status = document.getElementById('status');
@@ -50,4 +50,12 @@ if (board[index] === ' ') {
 
 cells.forEach((cell, index) => {
 cell.addEventListener('click', () => handleCellClick(index));
+
+const newGameButton = document.querySelector('.new---game');
+newGameButton.addEventListener('click', (e) => {
+    e.preventDefault(); // Prevent the default anchor behavior
+    location.reload(); // Reload the page
 });
+
+});
+

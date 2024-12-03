@@ -5,7 +5,7 @@ header {
 }
 
 .board---container {
-  
+
     margin: 25px auto;
     width: 500px;
     /* height: 500px; */
@@ -23,6 +23,13 @@ header {
 
   text-align: center;
   font-weight: bold;
+}
+
+.new---game {
+
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .board {

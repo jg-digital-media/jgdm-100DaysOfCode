@@ -28,6 +28,7 @@ if (board[index] === ' ') {
 
     if (checkWin(currentPlayer)) {
     status.innerHTML = `Player <span class="winner">${currentPlayer}</span> wins!`;
+    status.classList.add('winner');
     winCombos.forEach(combo => {
         const isWinningCombo = combo.every(index => board[index] === currentPlayer);
         if (isWinningCombo) {

@@ -3,12 +3,24 @@ header {
 }
 
 .board---container {
-  margin: 0 auto;
+  margin: 25px auto;
   width: 500px;
-  height: 500px;
+  /* height: 500px; */
+  min-height: 130px;
 }
 .board---container .board {
   margin: 0 auto;
+}
+
+#status {
+  text-align: center;
+  font-weight: bold;
+}
+
+.new---game {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .board {

@@ -1,4 +1,4 @@
-console.log("app.js loaded - 03-12-2024 - 15:15");
+console.log("app.js loaded - 03-12-2024 - 15:18");
 
 const cells = document.querySelectorAll('.cell');
 const status = document.getElementById('status');
@@ -29,6 +29,7 @@ if (board[index] === ' ') {
     if (checkWin(currentPlayer)) {
     status.innerHTML = `Player <span class="winner">${currentPlayer}</span> wins!`;
     status.classList.add('winner');
+    status.classList.add('result');
     winCombos.forEach(combo => {
         const isWinningCombo = combo.every(index => board[index] === currentPlayer);
         if (isWinningCombo) {
@@ -39,6 +40,7 @@ if (board[index] === ' ') {
     } else if (checkDraw()) {
     status.textContent = "It's a draw!";
     status.classList.add('draw');
+    status.classList.add('result');
     } else {
     currentPlayer = (currentPlayer === 'X') ? 'O' : 'X';
     status.textContent = `Player ${currentPlayer}'s turn`;

@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 1: Day 77 of 100. **Last Update:** 19 December 2023 
++ **Status:** Round 1: Day 77 of 100. **Last Update:** 04 December 2023 
 
 ## **Update:** I have recently stripped out react, node and vue js projects. New website coming to https://www.jonniegrieve.co.uk imminently  
 
@@ -32,12 +32,14 @@
   + _bin      
       + `Bin contents go here`
   + ai
-      + one
+      + checkbox_filtering
       + colour_picker
       + mobile_menu
       + copy_text
+      + cursor_ai
       + list_maker_ui
       + mobile_menu
+      + one
       + tic_tac_toe
       + web_checklist
   + api
@@ -54,6 +56,7 @@
     + form_accessible `inactive`
     + free-code-camp-2022
     + grid_project
+    + localhost_homepage
     + me
     + modernizr
     + portfolio-gallery
@@ -61,11 +64,15 @@
     + project_status_images
     + pwa `inactive`
     + pwa_2 `inactive`
-    + repositories
+    + pwa_3 `inactive`
     + sass_project
     + semantic_html_example `inactive`
     + showcase `incomplete`
     + web_checklist `incomplete`
+  + databases
+    + project-list.json - `main project list`
+    + project-list.sql - `main project list in sql code`
+    + respositories.json - `main repositories list`
   + java
     + Generics
     + Interfaces
@@ -74,7 +81,6 @@
     + MyFirstApp
   + javascript
     + ajax - `javascript/ajax` - `stock list project on server`
-    + dom
     + four_in_a_row
     + greensock
     + iteration-methods `Inactive`
@@ -93,6 +99,7 @@
     + php_boilerplate
     + php_website
     + slim
+    + slim-project
     + slimmin
   + python
     + basics
@@ -107,8 +114,9 @@
     + lists
     + madlibs
     + oop  
+    + tkinter
   + regex
-    + regex
+    + regex_one
   + sonic_pi
     + jingles
     + laptop_biffers
@@ -118,6 +126,7 @@
   + svg
     + icon_example
   + work
+    + 100daysrevamp-2024
     + log
     + notes
     + status

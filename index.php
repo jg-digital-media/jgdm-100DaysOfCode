@@ -133,7 +133,10 @@
             <li><strong><a href="css/balloon" title="Balloon Flight Experience Website" target="_blank">css/balloon</a></strong> - Balloon Flight Experience Website - <a href="https://projects.jonniegrieve.co.uk/balloon/" title="Balloon Flight Experience Website" target="_blank">Live</a></li>
             <li><strong><a href="css/experiments" title="CSS/Front End Experiments Website" target="_blank">css/experiments</a></strong> - CSS Experiments - <a href="https://projects.jonniegrieve.co.uk/practice/" title="CSS and Front End Technologies" target="_blank">Live</a></li>
             <li><strong><a href="css/form_accessible" title="CSS: Form Accessible Website" target="_blank">css/form_accessible</a></strong> - Form Accessible - No Source - [Inactive] </li>
+            <li><strong><a href="css/grid_project" title="CSS: Grid Project" target="_blank">css/grid_project</a></strong> - Grid Project - <a href="https://projects.jonniegrieve.co.uk/grid_project" title="CSS: Grid Project" target="_blank">Live</a></li>
+            <li><strong><a href="css/localhost_homepage" title="CSS: Localhost Homepage" target="_blank">css/localhost_homepage</a></strong> - Localhost Homepagea</li>
             <li><strong><a href="css/modernizr" title="CSS Modernizr Website" target="_blank">css/modernizr</a></strong> - Left push navigation for mobiles with Modernizr - <a href="https://projects.jonniegrieve.co.uk/modernizr" title="Modernizr" target="_blank">Live</a></li>
+            <li><strong><a href="css/me"></li>    
             <li><strong><a href="css/portfolio-gallery" title="CSS Portfolio Gallery" target="_blank">css/portfolio-gallery</a></strong> - CSS Portfolio Gallery - <a href="https://projects.jonniegrieve.co.uk/portfolio-gallery" title="CSS Portfolio Gallery" target="_blank">Live</a></li>                    
             <li><strong><a href="css/project_status" title="CSS: Project Status " target="_blank">css/project_status</a></strong> - Project Status List (JavaScript) - <a href="http://localhost/jgdm-100daysofcode/css/project_status/" target="_blank">Local</a> - <a href="https://jonniegrieve.co.uk/assets/lists/project_status/" title="Project Status Images" target="_blank">Live</a></li>
             <li><strong><a href="css/project_status_images" title="CSS: Project Status (Images)" target="_blank">css/project_status_images</a></strong> - Project Status Images (JavaScript) - <a href="https://www.jonniegrieve.co.uk/assets/lists/project_status_images" title="Project Status Images" target="_blank">Live</a></li>
@@ -150,8 +153,7 @@
 
         <ul>
             <li><strong><a href="javascript/ajax" title="JavaScript - Fictional Stock Check Application with AJAX" target="_blank">javascript/ajax</a></strong> - Fictional Stock Check Application with AJAX - <a href="https://projects.jonniegrieve.co.uk/ajax_project/" title="JavaScript - Fictional Stock Check Application with AJAX" target="_blank">Live</a></li>
-            <li><strong><a href="javascript/currency_converter" title="CSS/JavaScript and API - Currency Converter App" target="_blank">javascript/currency_converter</a></strong> - <a href="https://projects.jonniegrieve.co.uk/currency_converter/" title="CSS/JavaScript and API - Currency Converter App" target="_blank">Link</a> </li>
-            <!-- <li><strong><a href="javascript/dom" title="JavaScript DOM Scripting" target="_blank">javascript/dom</a></strong> - Simple List Maker App - <a href="javascript/dom/" target="_blank">Local</a> - <a href="https://projects.jonniegrieve.co.uk/list_maker/" title="JavaScript DOM Scripting" target="_blank">Link</a></li> -->
+           
             <li><strong><a href="javascript/four_in_a_row" title="OOP JavaScript - Four in a Row Game" target="_blank">javascript/four_in_a_row</a></strong> - Object Oriented JavaScript project that builds version of the "Four in a Row" game. - <a href="https://projects.jonniegrieve.co.uk/four_in_a_row" title="OOP JavaScript - Four in a Row Game" target="_blank">Link</a></li>
             <li><strong><a href="javascript/greensock" title="Greensock.js - Animation Library for JavaScript" target="_blank">javascript/greensock</a></strong> - Animation Library for JavaScript - <a href="https://projects.jonniegrieve.co.uk/greensock/" title="Animation Library for JavaScript" target="_blank">Live</a></li>
             <li><strong><a href="javascript/iteration-methods" title="JavaScript Iteration Methods" target="_blank">javascript/iteration-methods</a></strong> - Working with JavaScript Iteration Methods - Live</li>
@@ -175,9 +177,9 @@
         <h2 class="tech---category">Databases - <a href="http://localhost/jgdm-100daysofcode/databases">Local</a> - <a href="#top">Top</a></h2>
                 
         <ul>
-            <li>project-list.json - check this file and data is up to date</li>
-            <li>project-list.sql - check this file and data is up to date</li>
-            <li>repositories.json - check this file and data is up to date</li>
+            <li>project-list.json - check this file and ensure data is up to date</li>
+            <li>project-list.sql - check this file and ensure data is up to date</li>
+            <li>repositories.json - check this file and ensure data is up to date</li>
             <li>readme.md</li>
         </ul>
 
@@ -190,14 +192,7 @@
             <li>Lists</li>
             <li>Maps</li>
             <li>MyFirstApp</li>
-        </ul>
-
-        <p id="section---npm--projects"></p>
-        <h2 class="tech---category">NPM - <a href="http://localhost/jgdm-100daysofcode/npm">Local</a> - <a href="#top">Top</a></h2>
-        <ul>
-            <li>gulp-setup</li>
-        </ul>
-
+        </ul> 
 
         <p id="section---node--projects"></p>
         <h2 class="tech---category">Node - <a href="http://localhost/jgdm-100daysofcode/node">Local</a> - <a href="#top">Top</a></h2>
@@ -206,6 +201,11 @@
             <li><strong>fcc</strong> - <span class="project_status indev">defunct</span></li>
         </ul>
 
+        <p id="section---npm--projects"></p>
+        <h2 class="tech---category">NPM - <a href="http://localhost/jgdm-100daysofcode/npm">Local</a> - <a href="#top">Top</a></h2>
+        <ul>
+            <li>gulp-setup</li>
+        </ul>
 
         <p id="section---php--projects"></p>
         <h2 class="tech---category">PHP - <a href="http://localhost/jgdm-100daysofcode/php">Local</a> - <a href="#top">Top</a></h2>

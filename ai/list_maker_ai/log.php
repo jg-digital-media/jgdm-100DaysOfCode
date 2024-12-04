@@ -16,6 +16,7 @@ require "inc/header.php"; ?>
         
         <ul>
             <li>v11 (index-v11.php)</li>
+            <li>Functionality Check - list order numbers seem to function as they should and re-order after any tasks/entries are deleted. There does seem to be a few issues/inconsistencies with localstorage.
             <li>Updated H1 Title - changed to "TODO List Maker App" from "Simple List Maker App" for the purpose of clarity and organisation of projects.</li>
         </ul>
         

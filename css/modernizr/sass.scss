@@ -107,7 +107,13 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push
 
       font-weight: bold;
       text-decoration: none;
-      color: red;
+      color: #680404;
+      transition: color .3s;
+
+      &:hover {
+
+        color: red;
+      }
   }
 
   header {
@@ -123,8 +129,28 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push
         text-align: center;
   }
 
+  #about-modernizr {
+
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    
+  }
+
   footer {
+
       text-align: center;
+
+      a {
+
+        color: red;
+        transition: color .3s;
+
+        &:hover { 
+
+          color: blue;
+        }
+      }
   }
 
   @media screen and (min-width: 1500px) {
@@ -146,3 +172,13 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push
   }
 
   /*780px mobile breakpoint*/
+
+  /* Example of using Modernizr feature detection */
+  .no-flexbox .main-content {
+      /* Fallback for browsers without flexbox support */
+      display: block;
+  }
+
+  .flexbox .main-content {
+      display: flex;
+  }

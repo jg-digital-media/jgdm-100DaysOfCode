@@ -8,3 +8,15 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "0";
     //document.getElementById("main").style.marginLeft= "0";
   }
+
+  // Example of using Modernizr's JavaScript API
+if (Modernizr.flexbox) {
+  // Execute flexbox-specific code
+} else {
+  // Execute fallback code
+}
+
+// You can also test for multiple features
+if (Modernizr.flexbox && Modernizr.rgba) {
+  // Execute code for modern browsers
+}

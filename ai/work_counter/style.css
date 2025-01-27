@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: arial;
+  background: white;
+}
+
+header {
+  min-height: 50px;
+  background: white;
+}
+header h1 {
+  text-align: center;
+  font-size: 30pt;
+}
+
+main#container {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+main#container #input h2 {
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+main#container #input #input---container #input---display input[type=number],
+main#container #input #input---container #input---display #input---display--rate {
+  display: block;
+  margin: 15px auto;
+  /* background: #ffffc1; */
+  border-radius: 8px;
+  /* border: solid 2px black; */
+  /* border-top-right-radius: 0px; */
+  /* border-top-left-radius: 0px; */
+  /*  border-bottom-left-radius: 0px; */
+  /* border-bottom-right-radius: 0px; */
+  text-align: center;
+  padding: 10px;
+  font-size: 28pt;
+  font-size: 30pt;
+  color: red;
+  font-weight: bold;
+  border: none;
+  /* border-bottom: solid 2px black; */
+  transition: background 0.4s;
+  cursor: pointer;
+}
+@media (max-width: 560px) {
+  main#container #input #input---container #input---display input[type=number],
+  main#container #input #input---container #input---display #input---display--rate {
+    padding: 0;
+    margin: 2px auto;
+    width: 100%;
+  }
+}
+main#container #input #input---container #input---display input[type=number]:outline,
+main#container #input #input---container #input---display #input---display--rate:outline {
+  outline: none;
+}
+main#container #input #input---container #input---display input[type=number]:focus,
+main#container #input #input---container #input---display #input---display--rate:focus {
+  outline: none;
+}
+main#container #input #input---container #input---display input[type=number]:hover,
+main#container #input #input---container #input---display #input---display--rate:hover {
+  background: beige;
+}
+main#container #input #input---container #input---display #chosen---hourly--rate {
+  display: block;
+  visibility: hidden;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 11px;
+}
+@media (max-width: 560px) {
+  main#container #input #input---container #input---display #chosen---hourly--rate {
+    margin: 0 auto;
+  }
+}
+main#container #input #input---container #input---display #apply---hourly--rate {
+  display: block;
+  margin: 5px auto;
+  width: 110px;
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+  padding: 9px;
+  background: white;
+  border-radius: 4px;
+  border: solid 1px black;
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background 0.4s;
+}
+@media (max-width: 560px) {
+  main#container #input #input---container #input---display #apply---hourly--rate {
+    /*  margin: 0; */
+  }
+}
+main#container #input #input---container #input---display #apply---hourly--rate:hover {
+  background: #f4edb6;
+  color: rgb(0, 0, 0);
+}
+main#container #timer #timer---container #timer---display {
+  text-align: center;
+  font-size: 47pt;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+main#container #timer #timer---container #timer---display #timer---display--hours, main#container #timer #timer---container #timer---display #timer---display--minutes,
+main#container #timer #timer---container #timer---display #timer---display--seconds {
+  display: inline-block;
+  width: auto;
+  margin: 6px auto;
+}
+main#container #timer #timer---container #timer--controls {
+  text-align: center;
+}
+main#container #timer #timer---container #timer--controls .timer---control--buttons {
+  padding: 2px;
+  background: white;
+  border-radius: 5px;
+  width: 100px;
+  display: inline-block;
+  padding: 7px;
+  background: white;
+  border-radius: 4px;
+  border: solid 1px black;
+  width: 100px;
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+main#container #timer #timer---container #timer--controls .timer---control--buttons:hover {
+  background: #f4edb6;
+  color: rgb(0, 0, 0);
+}
+main#container #fee {
+  width: 100%;
+  margin: 15px auto;
+}
+main#container #fee h2 {
+  /* display: inline; */
+  vertical-align: middle;
+  text-align: center;
+}
+main#container #fee #fee---container {
+  width: auto;
+}
+main#container #fee #fee---container #fee---display #fee---display--amount {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 30pt;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+main#container footer {
+  text-align: center;
+  margin-top: 6px;
+  font-size: 11px;
+}
+main#container footer #reset---application {
+  display: block;
+  margin: 10px auto;
+  width: 120px;
+  padding: 2px;
+  background: white;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 7px;
+  background: white;
+  border-radius: 4px;
+  border: solid 1px black;
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background 0.4s;
+}
+main#container footer #reset---application:hover {
+  background: #f4edb6;
+  color: rgb(0, 0, 0);
+}
+main#container footer h2 {
+  text-align: center;
+}
+main#container footer p {
+  margin-top: 8px;
+}
+main#container footer a {
+  color: red;
+  transition: color 0.3s;
+}
+main#container footer a:hover {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

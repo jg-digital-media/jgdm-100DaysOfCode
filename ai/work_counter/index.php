@@ -140,6 +140,8 @@
     </main> 
 <!--
 
+    TODO: Set up an extend for common button styles
+
     TODO: Type in Hourly rate into a text box and press enter to store number. [£00.00]
 
     TODO: Add a new text box or element that contains a timer in minutes and seconds counting up from 0.  [00:00:00]

@@ -2,11 +2,16 @@
 $bg---body: white;
 $bg---header: white;
 
+$col---primary: black;
+
 $font---size--sm: 11px;
 $font---size--md: 30pt;
 $font---size--xl: 50pt;
 
 $font---size--h1: 30pt;
+
+$col---url--primary: red;
+$col---url--primary-hover: blue;
 
 $breakpoint--lg: 720px;
 $breakpoint--md: 560px;
@@ -328,12 +333,12 @@ main#container {
 
         a {
 
-            color: red; 
+            color: $col---url--primary; 
             transition: color .3s;
 
             &:hover {
 
-                color: blue;
+                color: $col---url--primary-hover;
             }
 
         }

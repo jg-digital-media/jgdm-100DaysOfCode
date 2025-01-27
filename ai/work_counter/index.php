@@ -56,25 +56,26 @@
 
     <header>
 
-        <h1>Work Counter - index.php</h1>
+        <h1>Work Counter</h1>
         
     </header>
 
     <main id="container">
 
-        <secction id="input">
+        <section id="input">
 
-            <h2>Enter Hourly Rate</h2>
+            <h2>Choose Your Hourly Rate</h2>
 
-            <div id="input--container">
+            <div id="input---container">
 
-                <div id="input--display">
-                    
+                <div id="input---display">                    
                 
-                    <input type="number" id="input--display--rate" placeholder="£00.00" id="" title="" value="00.00">
-                    <span id="chosen--hourly--rate">Chosen Hourly Rate: <strong>£00.00</strong></span>
-                </div>
-                 
+                    <input type="number" id="input---display--rate" placeholder="£00.00" id="" title="" value="00.00">
+
+                    <a href="" id="apply---hourly--rate">Apply Rate</a>
+
+                    <span id="chosen---hourly--rate">Chosen Hourly Rate: <strong>£00.00</strong></span>
+                </div>                
                 
             </div>
             
@@ -82,26 +83,26 @@
 
         <section id="timer">
             
-            <h2>Timer</h2>
+            <!-- <h2>Timer</h2> -->
             
-            <div id="timer--container">
+            <div id="timer---container">
                 
-                <div id="timer--display">
+                <div id="timer---display">
                     
-                    <!-- <div id="timer--display--hours">00</div> :
-                    <div id="timer--display--minutes">00</div> :
-                    <div id="timer--display--seconds">00</div> -->
+                    <div id="timer---display--hours">00</div> :
+                    <div id="timer---display--minutes">00</div> :
+                    <div id="timer---display--seconds">00</div>
 
 
-                    <!-- <div id="timer--display--simple">00:00:00</div> -->
+                   <!--  <div id="timer---display--simple">00:00:00</div> -->
                     
                 </div>
                 
                 <div id="timer--controls">
                     
-                    <button id="timer--controls--start">Start</button>
-                    <button id="timer--controls--pause">Pause</button>
-                    <button id="timer--controls--reset">Restart</button>
+                    <a href="" id="timer---controls--start" class="timer---control--buttons">Start</a>
+                    <a href="" id="timer---controls--pause" class="timer---control--buttons">Pause</a>
+                    <a href="" id="timer---controls--reset" class="timer---control--buttons">Restart</a>
                     
                 </div>    
                 
@@ -111,13 +112,13 @@
 
         <section id="fee">
             
-            <h2>Fee</h2>
+            <h2>Your Fee is...</h2>
             
-            <div id="fee--container">
+            <div id="fee---container">
                 
-                <div id="fee--display">
+                <div id="fee---display">
                     
-                    <div id="fee--display--amount">£00.00</div>
+                    <div id="fee---display--amount">£00.00</div>
                     
                 </div>
                 
@@ -128,11 +129,11 @@
 
         <footer>
 
-            <a href="">Reset Application</a>
+            <a href="" id="reset---application">Reset Application</a>
 
-            <h2>Footer</h2>
+            <!-- <h2>Footer</h2> -->
 
-            &copy; 2025 <a href="https://www.jonniegrieve.co.uk" target="_blank">Jonnie Grieve Digital Media</a>
+            <p>&copy; 2025 <a href="https://www.jonniegrieve.co.uk" target="_blank">Jonnie Grieve Digital Media</a></p>
             
         </footer>
 
@@ -148,6 +149,7 @@
     TODO: a link that serves as a button to start the timer. 
     TODO: a link that serves as a button to pause the timer.
     TODO: a link that serves as a button to reset the timer.
+    TODO: a link that serves as a button to stop the timer.
 
     TODO: Add favicon
 

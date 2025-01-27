@@ -1,0 +1,343 @@
+
+$bg---body: white;
+$bg---header: white;
+
+$font---size--sm: 11px;
+$font---size--md: 30pt;
+$font---size--xl: 50pt;
+
+$font---size--h1: 30pt;
+
+$breakpoint--lg: 720px;
+$breakpoint--md: 560px;
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: arial;
+    background: $bg---body;
+
+}
+
+
+header {
+
+    min-height: 50px;
+    background: $bg---header;
+
+    h1 {
+
+        text-align: center;
+        font-size: $font---size--h1;
+    }
+
+}
+
+main#container {
+
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+
+    #input {
+
+        h2 {
+
+            text-align: center;
+            margin: 20px 0 0 0;
+        }
+
+        #input---container {
+
+            #input---display {
+
+                input[type="number"],
+                #input---display--rate {
+
+                    display: block;
+                    margin: 15px auto;
+                    /* background: #ffffc1; */
+                    border-radius: 8px;
+                    /* border: solid 2px black; */
+                    /* border-top-right-radius: 0px; */
+                    /* border-top-left-radius: 0px; */
+                    /*  border-bottom-left-radius: 0px; */
+                    /* border-bottom-right-radius: 0px; */
+                    text-align: center;
+                    padding: 10px;
+                    font-size: 28pt;
+                    font-size: $font---size--md;
+                    color: red;
+                    font-weight: bold;
+                    border: none;
+                    /* border-bottom: solid 2px black; */
+                    transition: background .4s;
+                    cursor: pointer;
+
+                    @media (max-width: $breakpoint--md) {
+
+                        padding: 0;
+                        margin: 2px auto;
+                        width: 100%;
+                    }
+
+                    &:outline {
+
+                        outline: none;
+                    }
+
+                    &:focus {
+
+                        outline: none;
+                    }
+
+                    &:hover {
+
+                        background: beige;
+                    }
+                }
+
+                #chosen---hourly--rate {
+
+                    display: block;
+                    visibility: hidden;
+                    padding: 5px;
+                    margin: 5px;
+                    text-align: center;
+                    background-color: rgb(255, 255, 255);
+                    color: rgb(0, 0, 0);
+                    font-size: $font---size--sm;
+
+                    @media (max-width: $breakpoint--md) {
+
+                        
+                        margin: 0 auto
+                    }
+
+                }
+
+                #apply---hourly--rate {
+
+                    display: block;
+                    margin: 5px auto;
+                    width: 110px;  
+                    text-align: center;        
+
+                    background: white;
+                    border-radius: 5px;
+
+                    padding: 9px;
+                    background: white;
+                    border-radius: 4px;
+                    border: solid 1px black;
+                    text-decoration: none;
+                    color: black;
+                    font-size: $font---size--sm;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    transition: background 0.4s;
+
+                    @media (max-width: $breakpoint--md) {
+
+                       /*  margin: 0; */
+                    }
+
+                    &:hover {
+
+                        background: #f4edb6;
+                        color: rgb(0, 0, 0);
+                    }
+                }
+            }
+        }
+    }
+
+    #timer {
+
+        #timer---container {
+
+            #timer---display {
+
+                text-align: center;
+                font-size: 47pt;
+                font-weight: bold;
+                letter-spacing: 3px;
+                
+                #timer---display--hours,#timer---display--minutes, 
+                #timer---display--seconds {
+
+                    display: inline-block;
+                    width: auto;
+                    margin: 6px auto;
+                    
+                }
+
+                #timer---display--hours {                    
+                    
+                }
+
+                #timer---display--minutes {
+                    
+                }
+
+                #timer---display--seconds {
+                    
+                }
+
+                #timer---display--simple {
+
+
+                }
+
+
+            }
+
+            #timer--controls {
+
+                text-align: center;
+
+                .timer---control--buttons {
+
+                    padding: 2px;
+                    background: white;
+                    border-radius: 5px;
+                    width: 100px;
+
+                    display: inline-block;
+                    padding: 7px;
+                    background: white;
+                    border-radius: 4px;
+                    border: solid 1px black;
+                    width: 100px;
+                    text-decoration: none;
+                    color: black;
+                    font-size: $font---size--sm;
+                    text-transform: uppercase;
+                    font-weight: bold;
+
+                    transition: background 0.3s;
+
+                    &:hover {
+                        background: #f4edb6;
+                        color: rgb(0, 0, 0);
+                    }
+                }
+
+                #timer---controls--start {
+
+                }
+
+                #timer---controls--pause {
+
+                }
+
+                #timer---controls--reset {
+
+                }
+            }
+        }
+    }
+
+
+    #fee {
+
+        width: 100%;
+        margin: 15px auto;
+
+        h2 {
+
+            /* display: inline; */
+            vertical-align: middle;
+            text-align: center;
+            
+        }
+
+
+        #fee---container {
+
+            width: auto;
+
+            #fee---display {
+
+                #fee---display--amount {
+
+                    border-radius: 5px;
+                    background-color: rgb(255, 255, 255);
+                    color: rgb(0, 0, 0);
+                    font-size: $font---size--md;
+                    padding: 5px;
+                    margin: 5px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    footer {
+
+        text-align: center;
+        margin-top: 6px;
+        font-size: $font---size--sm;
+
+        #reset---application {
+
+            display: block;
+            margin: 10px auto;
+            width: 120px;          
+
+            padding: 2px;
+            background: white;
+            border-radius: 5px;
+
+            display: inline-block;
+            padding: 7px;
+            background: white;
+            border-radius: 4px;
+            border: solid 1px black;
+            text-decoration: none;
+            color: black;
+            font-size: $font---size--sm;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: background 0.4s;
+
+            &:hover {
+
+                background: #f4edb6;
+                color: rgb(0, 0, 0);
+            }
+        
+        }
+
+        h2 {
+
+            text-align: center;
+
+        }
+
+        p {
+
+            margin-top: 8px;
+        }
+
+        a {
+
+            color: red; 
+            transition: color .3s;
+
+            &:hover {
+
+                color: blue;
+            }
+
+        }
+
+    }
+
+}

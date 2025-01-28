@@ -1,4 +1,4 @@
-console.log('app.js loaded - 28-01-2025 - 16:17');
+console.log('app.js loaded - 28-01-2025 - 16:54');
 
 // Store DOM elements
 const hourlyRateInput = document.querySelector('#input---display--rate');
@@ -23,6 +23,12 @@ let minutes = 0;
 let hours = 0;
 let isTimerRunning = false;
 
+// Add fee display element
+const feeDisplay = document.querySelector('#fee---display--amount');
+
+// Add reset application button
+const resetAppButton = document.querySelector('#reset---application');
+
 // Format numbers to always show two digits
 const formatNumber = (number) => number.toString().padStart(2, '0');
 
@@ -31,6 +37,18 @@ const updateDisplay = () => {
     hoursDisplay.textContent = formatNumber(hours);
     minutesDisplay.textContent = formatNumber(minutes);
     secondsDisplay.textContent = formatNumber(seconds);
+};
+
+// Calculate fee based on time and rate
+const calculateFee = () => {
+    // Convert current time to hours
+    const timeInHours = hours + (minutes / 60) + (seconds / 3600);
+    
+    // Calculate fee (rate * time)
+    const fee = currentHourlyRate * timeInHours;
+    
+    // Update fee display with 2 decimal places
+    feeDisplay.textContent = `£${fee.toFixed(2)}`;
 };
 
 // Timer logic
@@ -45,6 +63,7 @@ const runTimer = () => {
         }
     }
     updateDisplay();
+    calculateFee(); // Calculate and update fee every second
 };
 
 // Start timer
@@ -78,8 +97,9 @@ resetButton.addEventListener('click', (e) => {
     minutes = 0;
     hours = 0;
     
-    // Update display to show 00:00:00
+    // Update displays
     updateDisplay();
+    calculateFee(); // Reset fee display
     
     // If timer was running, clear and restart it
     if (isTimerRunning) {
@@ -99,9 +119,10 @@ applyRateButton.addEventListener('click', (e) => {
         return;
     }
     
-    // Store the rate and update display
+    // Store the rate and update displays
     currentHourlyRate = inputValue;
     chosenRateDisplay.querySelector('strong').textContent = `£${inputValue.toFixed(2)}`;
+    calculateFee(); // Initialize fee display with new rate
     
     // Add fade-in effect
     chosenRateDisplay.style.opacity = '0';
@@ -114,4 +135,38 @@ applyRateButton.addEventListener('click', (e) => {
         chosenRateDisplay.style.opacity = '1';
         chosenRateDisplay.style.visibility = 'visible';
     }, 400);
+});
+
+// Reset application to initial state
+resetAppButton.addEventListener('click', (e) => {
+    e.preventDefault();
+    
+    // Reset timer values
+    seconds = 0;
+    minutes = 0;
+    hours = 0;
+    
+    // Stop timer if running
+    if (isTimerRunning) {
+        clearInterval(timerInterval);
+        isTimerRunning = false;
+    }
+    
+    // Reset timer display
+    updateDisplay();
+    
+    // Reset start button text
+    startButton.textContent = 'Start';
+    
+    // Reset hourly rate
+    currentHourlyRate = 0;
+    hourlyRateInput.value = '00.00';
+    chosenRateDisplay.querySelector('strong').textContent = '£00.00';
+    
+    // Hide the chosen rate display
+    chosenRateDisplay.style.opacity = '0';
+    chosenRateDisplay.style.visibility = 'hidden';
+    
+    // Reset fee display
+    calculateFee();
 });

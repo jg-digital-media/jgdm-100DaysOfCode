@@ -142,8 +142,6 @@
 
     TODO: Set up an extend for common button styles
 
-    TODO: Type in Hourly rate into a text box and press enter to store number. [£00.00]
-
     TODO: Add a new text box or element that contains a timer in minutes and seconds counting up from 0.  [00:00:00]
 
     TODO: Above the text box/element there should be another element that dynamically shows us the growing number for the fee due based on the timer. It should react to the timer on display. [£00.00]

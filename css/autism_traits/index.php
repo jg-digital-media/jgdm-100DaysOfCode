@@ -46,25 +46,56 @@
 
 
         <div class="intro">
-            <p>On the 28th January 2025, I received my formal diagnsis of Autism.  It's something I think I've known for a long time but only really started the journey for a year.  It feels great to have this formally confirmed.  On this page I want to lay out how Autism manifests in me. </p>
+
+            <p>On the 28th January 2025, I received my formal diagnsis of Autism.  It's something I think I've known for a long time but only really started the journey for a year.  It feels great to have this formally confirmed.</p>
+
+            <p>It's important to reiterate that Autism is not a medical condition. It's not a disease or something that can be cured. It is a brain design difference. It's something that is unique to each person and exists on a spectrum.</p>
+
+            <p>There are co-morbidities that can exist with Autism. e.g. ADHD, Dyspraxia, Dyslexia, Tourette's, etc. These can be investigated alongside a disagnosis of ASD/Autism.</p>
+
+            <p>On this page I want to lay out how Autism manifests in me. </p>
+
         </div>
 
+        <!-- <h2>Traits</h2> -->
+
         <div class="traits">
+
+            <h2>Traits</h2>
+
             <div class="trait">
-                <h2>I am a person who is very self-conscious</h2>
-                <p>I am very self-conscious and I have a hard time being myself. I tend to be very critical of myself and I don't like to admit that I'm wrong.</p>
+                <h2>Sensitive to touch</h2>
+                <p>Especially senitive to unexpected touch. It can be uncomfortable</p>
             </div>
+
             <div class="trait">
-                <h2>I am a person who is very shy</h2>
+                <h2>self-consciousness</h2>
+                <p>I am very self-conscious and I have a hard time being myself. I find myself aware of putting on a performance in social situations rather tham being myself.</p>
+            </div>
+
+            <div class="trait">
+                <!-- <h2>I am a person who is very shy</h2> -->
                 <p>I am very shy and I tend to be very quiet. I don't like to talk to people and I tend to keep to myself.</p>
+            </div>
+            
+            <div class="trait">
+                <!-- <h2>I am a person who is very shy</h2> -->
+                <p>Anxious in social situations. I tend to be very quiet and avoid eye contact unless I force myself to.</p>
             </div>
             
         </div> 
                 
         <div class="resources">
+
             <h2>Resources</h2>
-            <p>I've included some resources below that I found helpful in my journey with Autism.</p>
+
+            <p>My Autism diagnsis is still very new to me. I've included some resources below that I hope will be helpful to myself and others in their journey with Autism.</p>
+
+            <h3>From the National Autistic Society</h3>
+
             <ul>
+                <li>National Autistic Society - <a href="https://www.autism.org.uk" target="_blank">https://www.autism.org.uk</a> - The National Autistic Society is UK's leading charity for autistic people and their families. Since 1962, they have been providing support, guidance, and advice and campaigning for improved rights, services, and opportunities for autistic people.</li>
+                
                 <li><a href="https://www.autism.org.uk/about-autism/what-is-autism" target="_blank">What is Autism?</a></li>
                 <li><a href="https://www.autism.org.uk/about-autism/autism-and-the-law" target="_blank">Autism and the Law</a></li>
                 <li><a href="https://www.autism.org.uk/support-for-autism/resources-and-support" target="_blank">Resources and Support</a></li>
@@ -75,11 +106,41 @@
                 <li><a href="https://www.autism.org.uk/support-for-autism/help-for-students" target="_blank">Help for Students</a></li>
                 <li><a href="https://www.autism.org.uk/support-for-autism/help-for-health-professionals" target="_blank">Help for Health Professionals</a></li>
                 <li><a href="https://www.autism.org.uk/support-for-autism/help-for-people-with-learning-disabilities" target="_blank">Help for People with Learning Disabilities</a></li>
+                <li>Guidance about Autistic workers for employers: <a href="https://www.autism.org.uk/professionals/employers/information-for-employers/managing.aspx" target="_blank">
+                    https://www.autism.org.uk/professionals/employers/information-for-employers/managing.aspx</a></li>
             </ul>
+
+            <h3>Resources for Autism and Neurodiversity</h3>
+
+            <ul>            
+                <li>Talk to other people who have a diagnosis of autism; · Listen to stories of other people with autism (<a href="http://healthtalk.org" target="_blank">http://healthtalk.org</a>);</li>
+
+                <li><a href="http://healthtalk.org" target="_blank">http://healthtalk.org</a></li>
+
+                <li><a href="http://www.autism.org.uk/what-we-do/branches" target="_blank">http://www.autism.org.uk/what-we-do/branches</a></li>
+
+                <li>Video: What is Autism: <a href="http://www.nhs.uk/conditions/autism/what-is-autism/" target="_blank">http://www.nhs.uk/conditions/autism/what-is-autism/</li></a>
+
+                <li><a href="https://tonyattwood.com.au" target="_blank">https://tonyattwood.com.au/</a></li>
+
+                <li>Guidance from NICE - National Institute for Health and Care Excellence: <a href="http://www.nice.ork.uk/guidance/cg142" target="_blank">http://www.nice.ork.uk/guidance/cg142</a></li>
+            </ul>
+
+            <ul>
+
+                <h3>Recommended Reading</h3>
+
+                <li><strong>Exploring Depression and Beating the Blues</strong> by Tony Attwood and Michelle Garnett</li>
+
+                <li><strong>Autism Equality in the Workplace. Removing Barriers and Challenging Discrimination</strong> by Janine Booth</li>
+
+            </ul>            
+
         </div>
 
         <footer>
-            <p><a href="#top">Back to Top</a> &copy; JGDM: <a href="https://www.jonniegrieve.co.uk">Jonnie Grieve Digital Media</a>.</p>
+
+            <p><a href="#top">Back to Top</a> -  Page created by Jonathan Grieve - Sole Proprietor at &copy; JGDM: <a href="https://www.jonniegrieve.co.uk" target="_blank">Jonnie Grieve Digital Media</a>.</p>
         </footer>
 
 

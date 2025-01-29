@@ -1,0 +1,48 @@
+
+
+h1 {
+
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 2em;
+}
+
+.traits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.trait {
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.trait h2 {
+    font-size: 1.5em;
+}
+
+.trait p {
+    font-size: 1.2em;
+}   
+
+.resources {
+    text-align: center;
+    font-size: 1.2em;
+}   
+
+footer {
+    text-align: center;
+}   
+
+footer p {
+    font-size: 1.2em;
+}               

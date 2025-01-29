@@ -47,11 +47,11 @@
 
         <div class="intro">
 
-            <p>On the 28th January 2025, I received my formal diagnsis of Autism.  It's something I think I've known for a long time but only really started the journey for a year.  It feels great to have this formally confirmed.</p>
+            <p>On 28th January 2025, I received my formal diagnosis of Autism.  It's something I think I've known for a long time but only really started the journey for a year. It feels great to have this formally confirmed.</p>
 
             <p>It's important to reiterate that Autism is not a medical condition. It's not a disease or something that can be cured. It is a brain design difference. It's something that is unique to each person and exists on a spectrum.</p>
 
-            <p>There are co-morbidities that can exist with Autism. e.g. ADHD, Dyspraxia, Dyslexia, Tourette's, etc. These can be investigated alongside a disagnosis of ASD/Autism.</p>
+            <p>There are co-morbidities that can exist with Autism. e.g. ADHD, Dyspraxia, Dyslexia, Tourette's, etc. These can be investigated alongside a diagnosis of ASD/Autism.</p>
 
             <p>On this page I want to lay out how Autism manifests in me. </p>
 
@@ -65,12 +65,12 @@
 
             <div class="trait">
                 <h2>Sensitive to touch</h2>
-                <p>Especially senitive to unexpected touch. It can be uncomfortable</p>
+                <p>Especially sensitive to unexpected touch. It can be uncomfortable</p>
             </div>
 
             <div class="trait">
                 <h2>self-consciousness</h2>
-                <p>I am very self-conscious and I have a hard time being myself. I find myself aware of putting on a performance in social situations rather tham being myself.</p>
+                <p>I am very self-conscious and I have a hard time being myself. I find myself being aware of putting on a performance in social situations rather tham being myself.</p>
             </div>
 
             <div class="trait">
@@ -82,6 +82,8 @@
                 <!-- <h2>I am a person who is very shy</h2> -->
                 <p>Anxious in social situations. I tend to be very quiet and avoid eye contact unless I force myself to.</p>
             </div>
+
+            <!-- Can be prone to stare and appear vacant while my brain is processing something -->
             
         </div> 
                 
@@ -89,12 +91,12 @@
 
             <h2>Resources</h2>
 
-            <p>My Autism diagnsis is still very new to me. I've included some resources below that I hope will be helpful to myself and others in their journey with Autism.</p>
+            <p>My Autism diagnosis is still very new to me. I've included some resources below that I hope will be helpful to myself and others in their journey with Autism.</p>
 
             <h3>From the National Autistic Society</h3>
 
             <ul>
-                <li>National Autistic Society - <a href="https://www.autism.org.uk" target="_blank">https://www.autism.org.uk</a> - The National Autistic Society is UK's leading charity for autistic people and their families. Since 1962, they have been providing support, guidance, and advice and campaigning for improved rights, services, and opportunities for autistic people.</li>
+                <li>The National Autistic Society is UK's leading charity for autistic people and their families. Since 1962, they have been providing support, guidance, and advice and campaigning for improved rights, services, and opportunities for autistic people. <a href="https://www.autism.org.uk" target="_blank">https://www.autism.org.uk</a></li>
                 
                 <li><a href="https://www.autism.org.uk/about-autism/what-is-autism" target="_blank">What is Autism?</a></li>
                 <li><a href="https://www.autism.org.uk/about-autism/autism-and-the-law" target="_blank">Autism and the Law</a></li>

@@ -1,27 +1,67 @@
 /* Modal styles */
+/* Head: 29-01-2025:  10:27 */
+body {
+  background: #f4f4f4;
+  font-family: "Times New Roman", Times, serif;
+  font-family: arial;
+}
+
+div {
+  /* font-size: 12px; */
+}
+
 h1 {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
   text-align: center;
+  border-bottom: #007bff solid 4px;
 }
 
 .intro {
-  text-align: center;
-  font-size: 1.5em;
-  margin-bottom: 2em;
+  display: block;
+  /* width: 57%; */
+  width: 368px;
+  margin: 0 auto;
+  /* text-align: center; */
+  font-size: 14px;
+  font-weight: bold;
+  /* margin-bottom: 2em; */
+  line-height: 1.9;
+}
+@media (max-width: 980px) {
+  .intro {
+    width: 35%;
+  }
+}
+@media (max-width: 600px) {
+  .intro {
+    width: 65%;
+  }
 }
 
 .traits {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .trait {
-  width: 30%;
-  margin: 1em;
-  padding: 1em;
-  border: 1px solid #ccc;
-  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+  width: 65%;
+  box-shadow: #c1c1c1 0px 1px 4px 0px;
+}
+@media (max-width: 600px) {
+  .trait {
+    display: block;
+    width: 96%;
+    margin: 6px auto;
+  }
 }
 
 .trait h2 {
@@ -29,12 +69,73 @@ h1 {
 }
 
 .trait p {
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
+  font-size: 14px;
 }
 
 .resources {
   text-align: center;
-  font-size: 1.2em;
+  /* font-size: 1.1em; */
+  display: block;
+  margin: 0 auto;
+}
+.resources p {
+  padding: 18px;
+  /* margin-bottom: 10px; */
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 4px;
+  width: 65%;
+  box-shadow: #c1c1c1 0px 1px 4px 0px;
+}
+@media (max-width: 980px) {
+  .resources p {
+    width: 35%;
+  }
+}
+@media (max-width: 600px) {
+  .resources p {
+    width: 65%;
+  }
+}
+@media (max-width: 600px) {
+  .resources ul {
+    padding: 0;
+  }
+}
+.resources ul li {
+  padding: 10px;
+  background: #eeeeee;
+  border-radius: 6px;
+  margin: 11px auto;
+  list-style: none;
+  min-width: 320px;
+  width: 439px;
+  height: auto;
+  transition: background 0.3s ease-in-out;
+}
+.resources ul li:hover {
+  background: white;
+}
+@media (max-width: 600px) {
+  .resources ul li {
+    padding: 10px 0;
+    width: 96%;
+  }
+}
+.resources ul li a {
+  color: #837e7e;
+  text-decoration: none;
+  word-wrap: break-word;
+  color: color 0.2s;
+}
+.resources ul li a:hover {
+  color: #b00707;
+}
+
+.traits,
+.resources {
+  font-size: 14px;
 }
 
 footer {
@@ -42,7 +143,15 @@ footer {
 }
 
 footer p {
-  font-size: 1.2em;
+  font-size: 12px;
+  margin-top: 10px;
+}
+footer p a {
+  color: red;
+  transition: color 0.3s;
+}
+footer p a:hover {
+  color: #7a0909;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -95,6 +95,8 @@
 
             <h3>From the National Autistic Society</h3>
 
+            <strong style="text-align: center; line-height: 1; color: red; font-size: 10px; width: 360px; display: block; margin: 0 auto; line-height: 1.6;">(I wish to stress that I do not endorse or encourage any reference to Applied Behaviour Analysis (ABA) or any other form of behaviour analysis when relating it's use in "treating" Autism.)</strong>
+            
             <ul>
                 <li>The National Autistic Society is UK's leading charity for autistic people and their families. Since 1962, they have been providing support, guidance, and advice and campaigning for improved rights, services, and opportunities for autistic people. <a href="https://www.autism.org.uk" target="_blank">https://www.autism.org.uk</a></li>
                 

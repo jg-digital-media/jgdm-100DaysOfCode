@@ -96,7 +96,7 @@
             <h3>From the National Autistic Society</h3>
 
             <strong style="text-align: center; line-height: 1; color: red; font-size: 10px; width: 360px; display: block; margin: 0 auto; line-height: 1.6;">(I wish to stress that I do not endorse or encourage any reference to Applied Behaviour Analysis (ABA) or any other form of behaviour analysis when relating it's use in "treating" Autism.)</strong>
-            
+
             <ul>
                 <li>The National Autistic Society is UK's leading charity for autistic people and their families. Since 1962, they have been providing support, guidance, and advice and campaigning for improved rights, services, and opportunities for autistic people. <a href="https://www.autism.org.uk" target="_blank">https://www.autism.org.uk</a></li>
                 
@@ -125,7 +125,6 @@
 
                 <li>Video: What is Autism: <a href="http://www.nhs.uk/conditions/autism/what-is-autism/" target="_blank">http://www.nhs.uk/conditions/autism/what-is-autism/</li></a>
 
-                <li><a href="https://tonyattwood.com.au" target="_blank">https://tonyattwood.com.au/</a></li>
 
                 <li>Guidance from NICE - National Institute for Health and Care Excellence: <a href="http://www.nice.ork.uk/guidance/cg142" target="_blank">http://www.nice.ork.uk/guidance/cg142</a></li>
             </ul>
@@ -133,8 +132,6 @@
             <ul>
 
                 <h3>Recommended Reading</h3>
-
-                <li><strong>Exploring Depression and Beating the Blues</strong> by Tony Attwood and Michelle Garnett</li>
 
                 <li><strong>Autism Equality in the Workplace. Removing Barriers and Challenging Discrimination</strong> by Janine Booth</li>
 

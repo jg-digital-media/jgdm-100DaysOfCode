@@ -114,6 +114,10 @@
                     https://www.autism.org.uk/professionals/employers/information-for-employers/managing.aspx</a></li>
             </ul>
 
+            <ul>
+                <li>Awareness: frequently, I’m either hyper-aware and cognisant of so many details or I’m oblivious because I’m in a world of my own, completely hyperfocused on my current thoughts or task.</li>
+            </ul>
+
             <h3>Resources for Autism and Neurodiversity</h3>
 
             <ul>            

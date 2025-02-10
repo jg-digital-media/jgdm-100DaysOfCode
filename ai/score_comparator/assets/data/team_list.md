@@ -1,4 +1,3 @@
-Liverpool
 AFC Bournemouth
 Arsenal
 Aston Villa
@@ -9,6 +8,7 @@ Chelsea
 Everton
 Fulham
 Ipswich
+Liverpool
 Leicester City
 Manchester City
 Manchester United

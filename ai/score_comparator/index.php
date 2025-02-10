@@ -61,9 +61,9 @@
     </header>
 
     <main id="container">
-
-     
-
+    
+        <?php require "assets/template-parts/home-scores.php"; ?>
+                
     </main> 
 
     <script src="app.js"></script>

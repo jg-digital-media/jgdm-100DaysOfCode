@@ -1,0 +1,95 @@
+{ 
+    "featured_projects": [ 
+        {
+            "project_name": "Auto Cleanse North East",
+            "project_url": "http://www.autoc.co.uk/",
+            "img_url":"https://projects.jonniegrieve.co.uk/assets/img/list/autoc.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/autocleansenortheast.jpg",
+            "project_alt": "Go to Auto Cleanse North East",
+            "project_type": "Website",
+            "project_status": "Complete",
+            "status": true,            
+            "img_type": "src",
+            "img_type_data": "data-src"
+        }, {
+            "project_name": "Kevin Mangles: Entertainer",
+            "project_url": "https://www.kevinmangles-magician.com/",
+            "img_url":"https://projects.jonniegrieve.co.uk/assets/img/list/mangles.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/kevinmangles.jpg",
+            "project_alt": "Go to Kevin Mangles",
+            "project_type": "Website",
+            "project_status": "Complete",
+            "status": true,
+            "img_type": "src",
+            "img_type_data": "data-src"
+        }, {
+            "project_name": "Route Office",
+            "project_url": "https://routeoffice.co.uk",
+            "img_url":"https://projects.jonniegrieve.co.uk/assets/img/list/route_office.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/route_office.jpg",
+            "project_alt": "Go to Route Office",
+            "project_type": "Website",
+            "project_status": "Complete",
+            "status": true,
+            "img_type": "src",
+            "img_type_data": "data-src"
+        }, {
+            "project_name": "Photography",
+            "project_url": "https://photography.jonniegrieve.co.uk",
+            "img_url":"https://projects.jonniegrieve.co.uk/assets/img/list/photography.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/photography.jpg",
+            "project_alt": "Go to Photography",
+            "project_type": "Website",
+            "project_status": "Complete",
+            "status": true,
+            "img_type": "src",
+            "img_type_data": "data-src"
+
+        }, {
+            "project_name": "Fetch API (JavaScript)",
+            "project_url": "https://projects.jonniegrieve.co.uk/fetch/",
+            "img_url":"https://projects.jonniegrieve.co.uk/assets/img/list/fetch.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/fetch.jpg",
+            "project_alt": "Go to Fetch API (JavaScript)",
+            "project_type": "App",
+            "project_status": "incomplete",
+            "status": null,
+            "img_type": "src",
+            "img_type_data": "data-src"
+        }, {
+            "project_name": "Slim - Custom PHP Website",
+            "project_url": "https://projects.jonniegrieve.co.uk/slim/src/public",
+            "img_url":"https://projects.jonniegrieve.co.uk/assets/img/list/slim.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/slim.jpg",
+            "project_alt": "Go to Slim - Custom PHP Website",
+            "project_type": "Website",
+            "project_status": "incomplete",
+            "status": false,            
+            "img_type": "src",
+            "img_type_data": "data-src"
+        }, {
+            "project_name": "PHP Authorisation Project",
+            "project_url": "https://projects.jonniegrieve.co.uk/php_auth_v4",
+            "img_url":"https://projects.jonniegrieve.co.uk/assets/img/list/php_auth.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/php_auth.jpg",
+            "project_alt": "Go to PHP Authorisation Project",
+            "project_type": "Website",
+            "project_status": "incomplete",
+            "status": false,
+            "img_type": "src",
+            "img_type_data": "data-src"
+        }, {
+            "project_name": "Laravel Switch Project",
+            "project_url": "https://jonniegrieve.co.uk/switch_photos",
+            "img_url":"https://projects.jonniegrieve.co.uk/assets/img/list/laravel_basic.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/laravel_basic.jpg",
+            "project_alt": "Go to Laravel Switch Project",
+            "project_type": "Website",
+            "project_status": "incomplete",
+            "status": false,
+            "img_type": "src",
+            "img_type_data": "data-src"
+        }
+    
+    ]
+}

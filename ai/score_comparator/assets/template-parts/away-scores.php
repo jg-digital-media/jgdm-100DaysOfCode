@@ -1,8 +1,3 @@
-<?php 
-
-    echo "away-scores.php"; 
-    
-?>
 <table>
     <tr>
         <th id="column---away--team">Home</th>

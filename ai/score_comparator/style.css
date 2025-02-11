@@ -1,3 +1,80 @@
-/* Stylesheet Upated: 10/02/20 - 08:00:00 */
+/* Stylesheet Upated: 10/02/2024 - 08:00:00 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #353535;
+}
+body header {
+  display: block;
+  width: 100%;
+}
+body header h1 {
+  font-size: 32px;
+  text-align: center;
+}
+body header .tagline {
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+}
+body header .tagline span {
+  color: red;
+  font-weight: bold;
+}
+body section.section---select--score {
+  text-align: center;
+  margin: 15pt auto;
+}
+body section.section---select--score select,
+body section.section---select--score .score---versus,
+body section.section---select--score .comparator---team {
+  display: inline-block;
+}
+body section.section---select--score select {
+  padding: 5px;
+  border-radius: 7px;
+  border: solid 2px;
+  background: lightgreen;
+  margin-right: 6px;
+}
+body section.section---select--score .score---versus {
+  font-weight: bold;
+}
+body section.section---select--score .comparator---team {
+  font-size: 24px;
+  /* font-weight: bold; */
+  margin: 0 5pt;
+  letter-spacing: 1px;
+}
+body .section---selected--teamscore {
+  text-align: center;
+  margin: 15pt 0 0 0;
+  font-size: 20pt;
+  font-size: 24px;
+}
+body .section---selected--teamscore #selected---home--team,
+body .section---selected--teamscore #selected---away--team {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 5pt;
+}
+body .section---selected--teamscore .given---home--score,
+body .section---selected--teamscore .given---away--score {
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 5pt;
+}
+body .text---how--compares {
+  margin: 3px 0 0 0;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+}
 
 /*# sourceMappingURL=style.css.map */

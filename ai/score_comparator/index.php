@@ -56,9 +56,52 @@
 
     <header>
 
-        <h1>Football Score Comparator</h1>
+        <h1 class="main---title">Football Score Comparator</h1>
+        <div class="tagline">Based on Newcastle United <span>v1</span></div>
         
     </header>
+
+    <section class="section---select--score">
+    
+        <select id="select---home--team">
+            <option value="">Select Team...</option>
+            <option id="select---home--bournemouth" value="AFC Bournemouth">AFC Bournemouth</option>
+            <option id="select---home--arsenal" value="Arsenal">Arsenal</option>
+            <option id="select---home--astonvilla" value="Aston Villa">Aston Villa</option>
+            <option id="select---home--brentford" value="Brentford">Brentford</option>
+            <option id="select---home--brighton" value="Brighton and Hove Albion">Brighton &amp; Hove Albion</option>
+            <option id="select---home--crystalpalace" value="Crystal Palace">Crystal Palace</option>
+            <option id="select---home--chelsea" value="Chelsea">Chelsea</option>
+            <option id="select---home--everton" value="Everton">Everton</option>
+            <option id="select---home--fulham" value="Fulham">Fulham</option>
+            <option id="select---home--ipswich" value="Ipswich">Ipswich</option>
+            <option id="select---home--liverpool" value="Liverpool">Liverpool</option>
+            <option id="select---home--leicester" value="Leicester City">Leicester City</option>
+            <option id="select---home--manchestercity" value="Manchester City">Manchester City</option>
+            <option id="select---home--manchesterunited" value="Manchester United">Manchester United</option>
+            <option id="select---home--nottinghamforest" value="Nottingham Forest">Nottingham Forest</option>
+            <option id="select---home--southampton" value="Southampton">Southampton</option>
+            <option id="select---home--spurs" value="Tottenham Hotspur">Tottenham Hotspur</option>
+            <option id="select---home--westham" value="West Ham United">West Ham United</option>
+            <option id="select---home--wolves" value="Wolverhampton Wanderers">Wolverhampton Wanderers</option>
+        <select>
+
+        <div class="score---versus">V</div>
+
+        <div class="comparator---team">Newcastle United</div>
+
+    </section>
+
+    <section class="section---selected--teamscore">
+
+        <div id="selected---home--team">Ipswich Town</div> 
+        <div class="given---home--score">L</div>  
+        <div id="selected---away--team">Newcastle United</div> 
+        <div class="given---home--score">L</div>
+
+    </section>
+    
+    <div class="text---how--compares">How this result compares...</div>
 
     <main id="container">
     

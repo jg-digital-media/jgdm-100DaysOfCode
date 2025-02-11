@@ -1,1 +1,127 @@
-/* Stylesheet Upated: 10/02/20 - 08:00:00 */
+/* Stylesheet Upated: 10/02/2024 - 08:00:00 */
+
+$bg---main: #ffffff;
+$bg---select: lightgreen;
+
+$col---primary: #353535;
+$col---secondary: red;
+
+$font---family: Arial, Helvetica, sans-serif;
+
+$font---size--lg: 32px;
+$font---size--md: 24px;
+$font---size--sm: 12px;
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: $font---family;
+    background: $bg---main;
+    color: $col---primary;
+
+    header {
+
+        display: block;
+        width: 100%;
+
+        h1 {
+
+            font-size: $font---size--lg;
+            text-align: center;
+        }
+
+        .tagline {
+
+            font-size: $font---size--sm;
+            font-style: italic;
+            text-align: center;
+
+            span {
+
+                color: $col---secondary;
+                font-weight: bold;
+            }
+        }
+
+        
+    }
+
+    section.section---select--score {
+
+        text-align: center;
+        margin: 15pt auto;
+
+        select,
+        .score---versus,
+        .comparator---team {
+
+            display: inline-block;
+        }
+
+        select {
+
+            padding: 5px;
+            border-radius: 7px;
+            border: solid 2px;
+            background: $bg---select;
+            margin-right: 6px;
+        }
+
+        .score---versus {
+
+            font-weight: bold;
+        }
+
+        .comparator---team {
+
+            font-size: $font---size--md;
+            /* font-weight: bold; */
+            margin: 0 5pt;
+            letter-spacing: 1px;
+        }
+
+    }
+
+    .section---selected--teamscore {
+
+        text-align: center;
+        margin: 15pt 0 0 0;
+        font-size: 20pt;
+        font-size: $font---size--md;
+
+        #selected---home--team,
+        #selected---away--team {
+
+            display: inline-block;
+            font-weight: bold;
+            margin: 0 5pt;
+        }
+
+        .given---home--score,
+        .given---away--score {
+
+            display: inline-block;
+            font-weight: bold;
+            margin: 0 5pt;
+        }
+    }
+
+    
+    .text---how--compares {
+
+        margin: 3px 0 0 0;
+        font-weight: bold;
+        font-size: $font---size--sm;
+        text-align: center;
+    }
+
+    #container {
+
+    }
+}

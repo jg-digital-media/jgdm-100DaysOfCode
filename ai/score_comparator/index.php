@@ -91,7 +91,7 @@
         <div class="comparator---team">Newcastle United</div>
 
         <br /><br />
-        <input type="checkbox" id="checkbox---switch--teams" name="home-team" value="Switch Teams"><label for="checkbox---switch--teams">Switch Teams</label>
+        <input type="checkbox" id="checkbox---switch--teams" name="home-team" value="Switch Teams"><label for="checkbox---switch--teams">Switch to Away Match</label>
     </section>
 
     <section class="section---selected--teamscore">
@@ -109,7 +109,7 @@
 
     <main id="container">
     
-        <?php require "assets/template-parts/home-scores.php"; ?>
+        <?php require "assets/template-parts/away-scores.php"; ?>
                 
     </main> 
 

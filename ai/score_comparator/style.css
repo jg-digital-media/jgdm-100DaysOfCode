@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 10/02/2024 - 08:00:00 */
+/* Stylesheet Upated: 11/02/2024 - 16:23 */
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +13,9 @@ body {
 body header {
   display: block;
   width: 100%;
+  /* margin: 15px 0px; */
+  padding: 15px 0;
+  background: #ffffff;
 }
 body header h1 {
   font-size: 32px;
@@ -29,7 +32,7 @@ body header .tagline span {
 }
 body section.section---select--score {
   text-align: center;
-  margin: 15pt auto;
+  margin: 10pt auto;
 }
 body section.section---select--score select,
 body section.section---select--score .score---versus,
@@ -52,11 +55,16 @@ body section.section---select--score .comparator---team {
   margin: 0 5pt;
   letter-spacing: 1px;
 }
+body section.section---select--score #checkbox---switch--teams {
+  margin-right: 10px;
+}
 body .section---selected--teamscore {
   text-align: center;
   margin: 15pt 0 0 0;
   font-size: 20pt;
   font-size: 24px;
+  /* visibility: hidden; */
+  visibility: visible;
 }
 body .section---selected--teamscore #selected---home--team,
 body .section---selected--teamscore #selected---away--team {
@@ -75,6 +83,99 @@ body .text---how--compares {
   font-weight: bold;
   font-size: 12px;
   text-align: center;
+}
+body #container {
+  width: 100%;
+  /* table data */
+  /* table footer */
+}
+body #container table {
+  display: table;
+  margin: 3px auto;
+  margin: 10px auto;
+  width: 47%;
+  border: solid 1px #c3c3c3;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 12px;
+  background: #b1a9a9;
+  box-shadow: black 0 0 4px 1px;
+}
+@media (max-width: 768px) {
+  body #container table {
+    display: block;
+    width: 96%;
+  }
+}
+body #container table tr {
+  height: 25px;
+  /* td */
+}
+body #container table tr.score---compares--higher {
+  background: #90ee90;
+  /* border-left: solid 2px $score---compares--higher; */
+}
+body #container table tr.score---compares--equal {
+  background: #fcfc95;
+}
+body #container table tr.score---compares--lower {
+  background: #ff6a80;
+}
+body #container table tr.score---compares--default {
+  background: #b1a9a9;
+}
+body #container table tr th,
+body #container table tr td {
+  text-align: left;
+}
+body #container table tr th {
+  text-decoration: underline;
+}
+body #container table tr th#column---versus {
+  /* width: 10%; */
+  width: 30px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  body #container table tr th#column---versus {
+    width: 4%;
+  }
+}
+body #container table tr #column---home--team,
+body #container table tr #column---home--score,
+body #container table tr #column---versus,
+body #container table tr #column---away--team,
+body #container table tr #column---away--score {
+  width: auto;
+}
+body #container table tr .column---home--score,
+body #container table tr .column---away--score {
+  width: 25px;
+}
+body #container table tr #column---home--team,
+body #container table tr #column---away--team {
+  width: 38%;
+}
+@media (max-width: 768px) {
+  body #container table tr #column---home--team,
+  body #container table tr #column---away--team {
+    width: 45%;
+  }
+}
+body footer {
+  font-size: 12px;
+  text-align: center;
+}
+body footer hr {
+  display: block;
+  margin: 10px 0;
+}
+body footer a {
+  color: red;
+  transition: color 0.4s;
+}
+body footer a:hover {
+  color: #8b0606;
 }
 
 /*# sourceMappingURL=style.css.map */

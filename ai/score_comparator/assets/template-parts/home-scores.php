@@ -38,7 +38,7 @@
         <td>Ipswich Town</td>
         <td>0</td>
         <td>v</td>
-        <td>Brighton & Hove Albion</td>
+        <td>Brighton &amp; Hove Albion</td>
         <td>0</td>
     </tr>
     <tr class="score---compares--equal">

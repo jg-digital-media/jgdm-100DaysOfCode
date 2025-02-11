@@ -74,16 +74,30 @@
             </div>
 
             <div class="trait">
-                <!-- <h2>I am a person who is very shy</h2> -->
+                <h2>I am a person who is very shy</h2>
                 <p>I am very shy and I tend to be very quiet. I don't like to talk to people and I tend to keep to myself.</p>
             </div>
             
             <div class="trait">
-                <!-- <h2>I am a person who is very shy</h2> -->
+                <h2>Social anxiety and awkwardness</h2>
                 <p>Anxious in social situations. I tend to be very quiet and avoid eye contact unless I force myself to.</p>
             </div>
 
-            <!-- Can be prone to stare and appear vacant while my brain is processing something -->
+            
+            <div class="trait">
+                <h2>Brain fog and processing issues</h2>
+                <p>Can be prone to stare and appear vacant while my brain is processing something.</p>
+            </div>
+
+            <div class="trait">
+                <h2>Comfort music - comfort in routine</h2>            
+                <p>I take comfort from familiar music, TV shows and video games and play the same ones obsessvely.</p>
+            </div>
+
+            <div class="trait">                
+                <h2>Comfort music - comfort in routine</h2>
+                <p>I can repeat repetitive task - without thinking about it like my brain is following muslcle memory.</p>
+            </div>
             
         </div> 
                 
@@ -93,23 +107,39 @@
 
             <p>My Autism diagnosis is still very new to me. I've included some resources below that I hope will be helpful to myself and others in their journey with Autism.</p>
 
-            <h3>From the National Autistic Society</h3>
+            <h3>Information and Resources from the National Autistic Society</h3>
 
-            <strong style="text-align: center; line-height: 1; color: red; font-size: 10px; width: 360px; display: block; margin: 0 auto; line-height: 1.6;">(I wish to stress that I do not endorse or encourage any reference to Applied Behaviour Analysis (ABA) or any other form of behaviour analysis when relating it's use in "treating" Autism.)</strong>
+            <strong style="text-align: center; line-height: 1; color: red; font-size: 10px; width: 360px; display: block; margin: 0 auto; line-height: 1.6;">Disclaimer: (I do not control the content of these exteneral links and I wish to stress that I do not endorse or encourage any reference to Applied Behaviour Analysis (ABA) or any other form of behaviour analysis when relating it's use in "treating" Autism.)</strong>
 
             <ul>
                 <li>The National Autistic Society is UK's leading charity for autistic people and their families. Since 1962, they have been providing support, guidance, and advice and campaigning for improved rights, services, and opportunities for autistic people. <a href="https://www.autism.org.uk" target="_blank">https://www.autism.org.uk</a></li>
                 
-                <li><a href="https://www.autism.org.uk/about-autism/what-is-autism" target="_blank">What is Autism?</a></li>
-                <li><a href="https://www.autism.org.uk/about-autism/autism-and-the-law" target="_blank">Autism and the Law</a></li>
+                <li><a href="https://www.autism.org.uk/advice-and-guidance/what-is-autism" target="_blank">What is Autism?</a></li>
+
+                <li><a href="https://www.autism.org.uk/advice-and-guidance" target="_blank">Autism - Advice and Guidance</a></li>
+
+                <li><a href="https://www.autism.org.uk/advice-and-guidance/topics/employment" target="_blank">Autism - Advice and Guidance - Employment</a></li>
+
+                <li>Social care for carers in England - Information on support available to those who care for an autistic person, usually on an unpaid or informal basis. - <a href="https://www.autism.org.uk/advice-and-guidance/topics/employment" target="_blank">https://www.autism.org.uk/advice-and-guidance/topics/social-care/social-care-england-carers</a></li>
+                
+
+                <!-- <li><a href="https://www.autism.org.uk/about-autism/autism-and-the-law" target="_blank">Autism and the Law</a></li>
+                
                 <li><a href="https://www.autism.org.uk/support-for-autism/resources-and-support" target="_blank">Resources and Support</a></li>
+                
                 <li><a href="https://www.autism.org.uk/support-for-autism/help-for-parents" target="_blank">Help for Parents</a></li>
+                
                 <li><a href="https://www.autism.org.uk/support-for-autism/help-for-carers" target="_blank">Help for Carers</a></li>
+                
                 <li><a href="https://www.autism.org.uk/support-for-autism/help-for-friends-and-family" target="_blank">Help for Friends and Family</a></li>
+                
                 <li><a href="https://www.autism.org.uk/support-for-autism/help-for-teachers" target="_blank">Help for Teachers</a></li>
+                
                 <li><a href="https://www.autism.org.uk/support-for-autism/help-for-students" target="_blank">Help for Students</a></li>
+                
                 <li><a href="https://www.autism.org.uk/support-for-autism/help-for-health-professionals" target="_blank">Help for Health Professionals</a></li>
-                <li><a href="https://www.autism.org.uk/support-for-autism/help-for-people-with-learning-disabilities" target="_blank">Help for People with Learning Disabilities</a></li>
+
+                <li><a href="https://www.autism.org.uk/support-for-autism/help-for-people-with-learning-disabilities" target="_blank">Help for People with Learning Disabilities</a></li> -->
                 <li>Guidance about Autistic workers for employers: <a href="https://www.autism.org.uk/professionals/employers/information-for-employers/managing.aspx" target="_blank">
                     https://www.autism.org.uk/professionals/employers/information-for-employers/managing.aspx</a></li>
             </ul>

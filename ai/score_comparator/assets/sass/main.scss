@@ -1,16 +1,27 @@
-/* Stylesheet Upated: 10/02/2024 - 08:00:00 */
+/* Stylesheet Upated: 11/02/2024 - 16:23 */
 
 $bg---main: #ffffff;
 $bg---select: lightgreen;
+$bg---table: #b1a9a9;
 
 $col---primary: #353535;
 $col---secondary: red;
+
+$col---url--primary: red;
+$col---url--primary--hover: #8b0606;
+
+$score---compares--higher: #90ee90;
+$score---compares--equal: #fcfc95;
+$score---compares--lower: #ff6a80;
+$score---compares--default: $bg---table;
 
 $font---family: Arial, Helvetica, sans-serif;
 
 $font---size--lg: 32px;
 $font---size--md: 24px;
 $font---size--sm: 12px;
+
+$break---md: 768px;
 
 * {
 
@@ -26,9 +37,12 @@ body {
     color: $col---primary;
 
     header {
-
+        
         display: block;
         width: 100%;
+        /* margin: 15px 0px; */
+        padding: 15px 0;
+        background: $bg---main;
 
         h1 {
 
@@ -55,7 +69,7 @@ body {
     section.section---select--score {
 
         text-align: center;
-        margin: 15pt auto;
+        margin: 10pt auto;
 
         select,
         .score---versus,
@@ -86,6 +100,11 @@ body {
             letter-spacing: 1px;
         }
 
+        #checkbox---switch--teams {
+
+            margin-right: 10px;
+        }
+
     }
 
     .section---selected--teamscore {
@@ -94,6 +113,8 @@ body {
         margin: 15pt 0 0 0;
         font-size: 20pt;
         font-size: $font---size--md;
+        /* visibility: hidden; */
+        visibility: visible;
 
         #selected---home--team,
         #selected---away--team {
@@ -123,5 +144,135 @@ body {
 
     #container {
 
+        width: 100%;
+
+        /* table data */
+        table {
+
+            display: table;
+            margin: 3px auto;
+            margin: 10px auto;
+            width: 47%;
+            border: solid 1px #c3c3c3;
+            border-radius: 3px;
+            padding: 5px;
+            font-size: $font---size--sm;
+            background: $bg---table;
+
+            box-shadow: black 0 0 4px 1px;
+
+            @media (max-width: $break---md) {
+
+                display: block;
+                width: 96%;
+            }
+
+            tr {
+
+                height: 25px;
+
+                &.score---compares--higher {
+
+                    background: $score---compares--higher;
+                    /* border-left: solid 2px $score---compares--higher; */
+                }
+
+                &.score---compares--equal {
+
+                    background: $score---compares--equal;
+                }
+
+                &.score---compares--lower {
+
+                    background: $score---compares--lower;
+                }
+
+                &.score---compares--default {
+
+                    background: $score---compares--default;
+                }
+
+                th,
+                td {
+
+                    text-align: left;
+                }
+
+                th {
+
+                    text-decoration: underline;
+                }
+
+                th#column---versus {
+
+                    /* width: 10%; */
+                    width: 30px;
+                    text-align: center;
+
+                    @media (max-width: $break---md) {
+
+                        width: 4%;
+                    }
+                }
+
+                #column---home--team,
+                #column---home--score,
+                #column---versus,
+                #column---away--team,
+                #column---away--score {
+
+                    width: auto;
+                }
+
+                .column---home--score,
+                .column---away--score {
+
+                    width: 25px;
+                }
+
+                #column---home--team,
+                #column---away--team {
+
+                    width: 38%;
+
+                    @media (max-width: $break---md) {
+
+                        width: 45%;
+                    }
+
+                }
+
+                /* td */
+            }
+        }
+
+        /* table footer */
+
+
+
+    }
+
+    footer {
+
+
+        font-size: $font---size--sm;
+        text-align: center;
+
+        hr {
+
+            display: block;
+            margin: 10px 0;
+        }
+
+        a {
+
+            color: red;
+            transition: color .4s;
+
+            &:hover {
+
+                color: #8b0606;
+            }
+        }
     }
 }

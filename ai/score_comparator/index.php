@@ -90,6 +90,8 @@
 
         <div class="comparator---team">Newcastle United</div>
 
+        <br /><br />
+        <input type="checkbox" id="checkbox---switch--teams" name="home-team" value="Switch Teams"><label for="checkbox---switch--teams">Switch Teams</label>
     </section>
 
     <section class="section---selected--teamscore">
@@ -99,15 +101,32 @@
         <div id="selected---away--team">Newcastle United</div> 
         <div class="given---home--score">L</div>
 
+        
+        <div class="text---how--compares">How this result compares...</div>
+
     </section>
     
-    <div class="text---how--compares">How this result compares...</div>
 
     <main id="container">
     
         <?php require "assets/template-parts/home-scores.php"; ?>
                 
     </main> 
+
+    
+
+    <footer>
+
+
+        <a href="about.php" target="_blank">About</a>
+
+        <br />
+        <hr />
+        <br />
+        
+        &copy; (2025) Created by <a href="https://www.jonniegrieve.co.uk" target="_blank">Jonnie Grieve Digital Media</a> All Rights Reserved
+        
+    </footer>
 
     <script src="app.js"></script>
 </body>

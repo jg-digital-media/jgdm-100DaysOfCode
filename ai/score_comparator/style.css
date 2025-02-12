@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 11/02/2024 - 16:23 */
+/* Stylesheet Upated: 12/02/2024 - 15:57 */
 * {
   margin: 0;
   padding: 0;
@@ -112,6 +112,7 @@ body #container table {
   padding: 5px;
   font-size: 12px;
   background: #b1a9a9;
+  visibility: hidden;
   box-shadow: black 0 0 4px 1px;
 }
 @media (max-width: 768px) {

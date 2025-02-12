@@ -2,9 +2,10 @@
 
 ### SQLite3 Version
 
-```$ sqlite3 --version
-3.49.0 2025-02-06 11:55:18 4a7dd425dc2a0e5082a9049c9b4a9d4f199a71583d014c24b4cfe276c5a77cde (64-bit)```
-
+```
+$ sqlite3 --version
+3.49.0 2025-02-06 11:55:18 4a7dd425dc2a0e5082a9049c9b4a9d4f199a71583d014c24b4cfe276c5a77cde (64-bit)
+```
 
 
 + **Score:** For now, this app is based around Newcastle United scores over one premier league season.  There is no doubt scope, to widen this out. But as it stands this is how the app will start out.
@@ -78,9 +79,15 @@ Then the age of AI came. I say that as if I'm thinking about it lightly, but I d
 
 + Create a table
 
-`CREATE TABLE teams (
+```sql
+CREATE TABLE teams (
     id INTEGER PRIMARY KEY,
     name TEXT NOT NULL
-);`
+);
+```
 
 `.quit`
+
+### AI Prompt Planning.
+
+focus on .select---home--team 

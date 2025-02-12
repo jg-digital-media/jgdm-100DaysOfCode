@@ -1,5 +1,12 @@
 # Football Score Comparator
 
+### SQLite3 Version
+
+```$ sqlite3 --version
+3.49.0 2025-02-06 11:55:18 4a7dd425dc2a0e5082a9049c9b4a9d4f199a71583d014c24b4cfe276c5a77cde (64-bit)```
+
+
+
 + **Score:** For now, this app is based around Newcastle United scores over one premier league season.  There is no doubt scope, to widen this out. But as it stands this is how the app will start out.
  
 
@@ -56,3 +63,24 @@ However I knew I didn't have the "spoons" to create it on my own. I don't say th
 Then the age of AI came. I say that as if I'm thinking about it lightly, but I don't.  ....  
 
 ## Database Development Planning
+
+#### Some information about database planning
+
++ Make sure  `sqlite3` is installed with `sqlite3 --version`.
+
++ Go to the directory where you want to create the database file.
+
+`mkdir -p jgdm-100daysofcode/ai/score_comparator/assets/data`
+`cd jgdm-100daysofcode/ai/score_comparator/assets/data`
+
++ Write your command and then quit the shell
+`sqlite3 scores.db`
+
++ Create a table
+
+`CREATE TABLE teams (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL
+);`
+
+`.quit`

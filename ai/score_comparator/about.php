@@ -3,21 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N9WB623MVP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-N9WB623MVP');
+    </script>
+
+    <!-- Slick Styling -->
+    <link rel="stylesheet" type="text/css" href ="slick.css" />
+    <link rel="stylesheet" type="text/css" href ="slick-theme.css" />
+    
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href ="style.css" />
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Odibee+Sans|Quicksand&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png" type="image/png">
+
+    <!-- Meta Tags -->
+    <meta name="description" content="">
+    <meta name="keywords" content=""> 
+    <meta name="image" content="">
+
+    <!-- FACEBOOK: Open Graph -->
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+
+    <!-- TWITTER: Open Graph -->
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="">
+    <meta name="twitter:card" content="football_score_comparator">
+
+    <!-- Canonical link -->
+    <link rel="canonical" href="">
+
+
+    <title>Football Score Comparator</title>
+
 </head>
 <body>
-    
-    <h1>About this App</h1>
 
-    <p>Development for this app begun on the 10th February 2024.</p>
-    
-    <p>It has been a brainchild of mine for many years. It was an idea I came up with during, ironically a Web Accessibility module for web design at University.</p> 
+    <header>
 
-    <p>However I knew I didn't have the &quot;spoons&quot; to create it on my own. I don't say that to do myself down. When I say I don't have the &quot;spoons&quot; I mean that I don't have the knowledge or skills; the power or the patience in my head to sit down to be able to create it when I think about the enormity, time and effort it would take.</p>
+        <h1 class="main---title">Football Score Comparator</h1>
+        <div class="tagline">Based on Newcastle United <span>v1</span></div>
+        
+    </header>
 
-    <p>Then the age of AI came. I say that as if I'm thinking about it lightly, but I don't. ....</p>
+    <section class="section---about">
+        
+        <h1>About this App</h1>
 
-    <p>about.php</p>
+        <p>Development for this app begun on the 10th February 2025.</p>
+        
+        <p>It has been a brainchild of mine for many years. It was an idea I came up with during, ironically a Web Accessibility module for web design at University.</p> 
 
+        <p>However I knew I didn't have the &quot;spoons&quot; to create it on my own. I don't say that to do myself down. When I say I don't have the &quot;spoons&quot; I mean that I don't have the knowledge or skills; the power or the patience in my head to sit down to be able to create it when I think about the enormity, time and effort it would take.</p>
+
+        <p>Then the age of AI came. I say that as if I'm thinking about it lightly, but I don't. ....</p>
+
+        <?php date_default_timezone_set('Europe/London'); ?>
+        <p>I've been working on this app for the last 10 years.</p> 
+        
+        <p><?php echo date("dS F, Y"); ?></p>
+
+    </section>
+
+    <footer>
+
+        <br />
+        <hr />
+        <br />
+        
+        &copy; (2025) Created by <a href="https://www.jonniegrieve.co.uk" target="_blank">Jonnie Grieve Digital Media</a> All Rights Reserved
+        
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>

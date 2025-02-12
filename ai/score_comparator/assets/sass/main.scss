@@ -142,6 +142,30 @@ body {
         text-align: center;
     }
 
+
+    // about.php
+
+    .section---about {
+
+        display: block;
+        margin: 10pt auto;
+        width: 85%;
+        width: 420px;
+
+        h1 {
+
+            text-decoration: underline;
+
+
+        }
+
+        p {
+
+            line-height: 1.6;
+            margin-top: 10px;
+        }
+    }
+
     #container {
 
         width: 100%;

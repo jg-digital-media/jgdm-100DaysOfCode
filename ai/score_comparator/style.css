@@ -84,6 +84,19 @@ body .text---how--compares {
   font-size: 12px;
   text-align: center;
 }
+body .section---about {
+  display: block;
+  margin: 10pt auto;
+  width: 85%;
+  width: 420px;
+}
+body .section---about h1 {
+  text-decoration: underline;
+}
+body .section---about p {
+  line-height: 1.6;
+  margin-top: 10px;
+}
 body #container {
   width: 100%;
   /* table data */

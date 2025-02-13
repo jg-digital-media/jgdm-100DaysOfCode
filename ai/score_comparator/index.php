@@ -84,7 +84,7 @@
             <option id="select---home--spurs" value="Tottenham Hotspur">Tottenham Hotspur</option>
             <option id="select---home--westham" value="West Ham United">West Ham United</option>
             <option id="select---home--wolves" value="Wolverhampton Wanderers">Wolverhampton Wanderers</option>
-        <select>
+        </select>
 
         <div class="score---versus">V</div>
 

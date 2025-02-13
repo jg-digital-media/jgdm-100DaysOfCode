@@ -61,7 +61,7 @@ This application has been a brainchild of mine for many years. It was an idea I 
 
 However I knew I didn't have the "spoons" to create it on my own. I don't say that to do myself down. When I say I don't have the "spoons" I mean that I don't have the knowledge or skills; the power or the patience in my head to sit down to be able to create it when I think about the enormity, time and effort it would take.
 
-Then the age of AI came. I say that as if I'm thinking about it lightly, but I don't.  ....  
+Then the age of AI came. I say that as if I'm thinking about it lightly, but I don't.  I have learning difficulties and Autism. So even with AI in my Arsenal it still seemed like a daunting task. Especially with an application like this that has many moving parts like this one.  With the AI, my prompting and <code>claude-3.5-sonnnet</code>'s responses, I was closer than even I thought to even making a start.
 
 ## Database Development Planning
 
@@ -90,4 +90,75 @@ CREATE TABLE teams (
 
 ### AI Prompt Planning.
 
-focus on .select---home--team 
+I've deleted the db file and we're going to try again.  Look at the `.select---home--team` dropdown box.  This is the first dropdown box and one where we select the team in which we're comparing other football matches against. In this edge case assume we'll select AFC Bournemouth. This will bring up a dynamic table, which is created in sqlite3, of all the other teams in the league playing away from home against AFC Bournemouth.  Let's try this out by generating a .db file that contains the table of home bournemouth games. 
+
+Fields should be:  Home, Score , v , Teams, Score
+
+Example of results: 
+
+AFC Bournemouth 0 v Arsenal 0
+AFC Bournemouth 0 v Aston Villa 0
+AFC Bournemouth 0 v Brentford 0
+.....
+
+
+#### SQL Scripts
+
+```sql
+-- First, delete the existing scores.db file
+-- Then create new database and table:
+sqlite3 scores.db
+
+CREATE TABLE home_matches (
+    id INTEGER PRIMARY KEY,
+    home_team TEXT NOT NULL,
+    home_score INTEGER,
+    away_team TEXT NOT NULL,
+    away_score INTEGER
+);
+
+-- Insert AFC Bournemouth's home matches (excluding Newcastle United)
+INSERT INTO home_matches (home_team, home_score, away_team, away_score) VALUES
+    ('AFC Bournemouth', 0, 'Arsenal', 0),
+    ('AFC Bournemouth', 0, 'Aston Villa', 0),
+    ('AFC Bournemouth', 0, 'Brentford', 0),
+    ('AFC Bournemouth', 0, 'Brighton and Hove Albion', 0),
+    ('AFC Bournemouth', 0, 'Chelsea', 0),
+    ('AFC Bournemouth', 0, 'Crystal Palace', 0),
+    ('AFC Bournemouth', 0, 'Everton', 0),
+    ('AFC Bournemouth', 0, 'Fulham', 0),
+    ('AFC Bournemouth', 0, 'Ipswich Town', 0),
+    ('AFC Bournemouth', 0, 'Leicester City', 0),
+    ('AFC Bournemouth', 0, 'Liverpool', 0),
+    ('AFC Bournemouth', 0, 'Manchester City', 0),
+    ('AFC Bournemouth', 0, 'Manchester United', 0),
+    ('AFC Bournemouth', 0, 'Nottingham Forest', 0),
+    ('AFC Bournemouth', 0, 'Southampton', 0),
+    ('AFC Bournemouth', 0, 'Tottenham Hotspur', 0),
+    ('AFC Bournemouth', 0, 'West Ham United', 0),
+    ('AFC Bournemouth', 0, 'Wolverhampton Wanderers', 0);
+
+
+-- Base Scores
+INSERT INTO base_scores (home_team, away_team, home_score, away_score, played) VALUES
+    ('AFC Bournemouth', 'Newcastle United', 2, 3, 1),
+    ('Arsenal', 'Newcastle United', 0, 0, 0),
+    ('Aston Villa', 'Newcastle United', 0, 0, 0),
+    ('Brentford', 'Newcastle United', 0, 0, 0),
+    ('Brighton and Hove Albion', 'Newcastle United', 0, 0, 0),
+    ('Chelsea', 'Newcastle United', 0, 0, 0),
+    ('Crystal Palace', 'Newcastle United', 0, 0, 0),
+    ('Everton', 'Newcastle United', 0, 0, 0),
+    ('Fulham', 'Newcastle United', 0, 0, 0),
+    ('Ipswich Town', 'Newcastle United', 0, 0, 0),
+    ('Leicester City', 'Newcastle United', 0, 0, 0),
+    ('Liverpool', 'Newcastle United', 0, 0, 0),
+    ('Manchester City', 'Newcastle United', 0, 0, 0),
+    ('Manchester United', 'Newcastle United', 0, 0, 0),
+    ('Nottingham Forest', 'Newcastle United', 0, 0, 0),
+    ('Southampton', 'Newcastle United', 0, 0, 0),
+    ('Tottenham Hotspur', 'Newcastle United', 0, 0, 0),
+    ('West Ham United', 'Newcastle United', 0, 0, 0),
+    ('Wolverhampton Wanderers', 'Newcastle United', 0, 0, 0);   
+
+```

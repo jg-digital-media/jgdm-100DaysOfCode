@@ -1,7 +1,7 @@
 <?php
 try {
     $db = new SQLite3('assets/data/scores.db');
-    $results = $db->query('SELECT * FROM home_matches WHERE home_team = "AFC Bournemouth" ORDER BY away_team');
+    $results = $db->query('SELECT * FROM bournemouth_home_matches WHERE home_team = "AFC Bournemouth" ORDER BY away_team');
 
     echo "<h2>AFC Bournemouth Home Matches</h2>";
     

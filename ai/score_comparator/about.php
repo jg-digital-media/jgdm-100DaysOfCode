@@ -81,7 +81,7 @@
         
         <p><?php echo date("dS F, Y"); ?></p>
 
-        <a href="index.php" target="_blank">Back to Score Comparator</a>
+        <a href="index.php">Back to Score Comparator</a>
 
     </section>
 

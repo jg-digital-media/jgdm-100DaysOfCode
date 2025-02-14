@@ -118,7 +118,7 @@
     <footer>
 
 
-        <a href="about.php" target="_blank">About</a>
+        <a href="about.php">About</a>
 
         <br />
         <hr />

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 13/02/2025 - 08:22");
+    console.log("app.js connected - 14/02/2025 - 12:45");
 
     const homeTeamSelect = document.getElementById('select---home--team');
     const resultsTable = document.querySelector('table');
@@ -8,65 +8,29 @@ document.addEventListener('DOMContentLoaded', function() {
     homeTeamSelect.addEventListener('change', function(e) {
         const selectedTeam = e.target.value;
         
-        if (selectedTeam) {
-            console.log('Selected team:', selectedTeam);
+        if (selectedTeam === 'AFC Bournemouth') {
+            // Make the table visible
+            resultsTable.style.visibility = 'visible';
+            selectedTeamScore.style.visibility = 'visible';
+
+            // Update the selected team display
+            document.getElementById('selected---home--team').textContent = 'AFC Bournemouth';
             
-            // Fetch both the base score and the comparison matches
-            Promise.all([
-                fetch(`api/get_base_score.php?team=${encodeURIComponent(selectedTeam)}`).then(r => {
-                    if (!r.ok) throw new Error(`HTTP error! status: ${r.status}`);
-                    return r.text().then(text => {
-                        try {
-                            return JSON.parse(text);
-                        } catch (e) {
-                            console.error('JSON Parse Error:', e);
-                            console.log('Raw response:', text);
-                            throw e;
-                        }
-                    });
-                }),
-                fetch(`api/get_comparison_matches.php?team=${encodeURIComponent(selectedTeam)}`).then(r => {
-                    if (!r.ok) throw new Error(`HTTP error! status: ${r.status}`);
-                    return r.text().then(text => {
-                        try {
-                            return JSON.parse(text);
-                        } catch (e) {
-                            console.error('JSON Parse Error:', e);
-                            console.log('Raw response:', text);
-                            throw e;
-                        }
-                    });
+            // Fetch the match data from our database
+            fetch('api/get_bournemouth_matches.php')
+                .then(response => response.json())
+                .then(matches => {
+                    updateMatchTable(matches);
                 })
-            ])
-            .then(([baseScore, matches]) => {
-                console.log('Base score:', baseScore);
-                console.log('Matches:', matches);
-                updateBaseScore(baseScore);
-                updateMatchTable(matches);
-                
-                resultsTable.style.visibility = 'visible';
-                selectedTeamScore.style.visibility = 'visible';
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                alert('An error occurred while fetching the data. Check the console for details.');
-            });
+                .catch(error => {
+                    console.error('Error fetching matches:', error);
+                });
+        } else {
+            // Hide the table if any other team is selected
+            resultsTable.style.visibility = 'hidden';
+            selectedTeamScore.style.visibility = 'hidden';
         }
     });
-
-    function updateBaseScore(baseScore) {
-        const homeTeamElement = document.getElementById('selected---home--team');
-        const awayTeamElement = document.getElementById('selected---away--team');
-        const homeScoreElement = document.querySelector('.given---home--score');
-        const awayScoreElement = document.querySelector('.given---home--score:last-child');
-
-        homeTeamElement.textContent = baseScore.home_team;
-        awayTeamElement.textContent = baseScore.away_team;
-
-        // If match has been played, show score; otherwise show 'L'
-        homeScoreElement.textContent = baseScore.played ? baseScore.home_score : 'L';
-        awayScoreElement.textContent = baseScore.played ? baseScore.away_score : 'L';
-    }
 
     function updateMatchTable(matches) {
         const tableBody = resultsTable.querySelector('tbody') || resultsTable;

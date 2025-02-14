@@ -1,15 +1,20 @@
 # Football Score Comparator
 
-### SQLite3 Version
+## SQLite3 Version
 
 ```
 $ sqlite3 --version
 3.49.0 2025-02-06 11:55:18 4a7dd425dc2a0e5082a9049c9b4a9d4f199a71583d014c24b4cfe276c5a77cde (64-bit)
 ```
 
+## Requirements
 
-+ **Score:** For now, this app is based around Newcastle United scores over one premier league season.  There is no doubt scope, to widen this out. But as it stands this is how the app will start out.
- 
++ PHP 7.4.x
++ SQLite3
++ Windows/Linux/Mac or other OS
++ A Web Browser and Console/Terminal
+
++ **Note:** For now, this app is based around Newcastle United scores over one premier league season. There is no doubt scope to widen this out in the future. But as it stands this is how the app will start out. 
 
 ## User Flow
 
@@ -17,9 +22,10 @@ $ sqlite3 --version
 
 + Select a team from `#select---home--team` dropdown box.
 
-+ This will trigger a request to database that retrieves a list of matches against all other clubs - other than Newcastle United.
++ This will trigger a request to database that retrieves a list of matches against all other clubs (other than Newcastle United).
  
   + The scoreline will then appear in a container element below:  
+
     ```
         e.g. - Newcastle 0  Liverpool 0
     
@@ -29,7 +35,7 @@ $ sqlite3 --version
     If the match has not been played, the scoreline will be blank.
     
     ```
-        e.g. - Newcastle 0  Liverpool 0
+        e.g. - Newcastle L  Liverpool L
     ```
 
     The list of matches will be displayed in a table but with no score to base on, no colour comparisons will be shown
@@ -37,23 +43,24 @@ $ sqlite3 --version
  
 + Select from 19 opponent teams in dropdown box  (could be a home or away dropdown box)
 
-+ Select whether the comparing result as a home or away team - checkbox - Switch Teams
++ Select whether the comparing result is against a home or away team - [checkbox] - [Switch Teams]
 
   + The elements `.comparator---team` and `.score---versus` will change places to reflect the comparing team. 
 
-+ After a dropdown box has been selected, a data table will appear - perhaps fading into view display with current scores of all other clubs i.e. Selected team against 18 other clubs (Newcastle being the other/base club)
++ After the dropdown box has been selected, a data table will appear - perhaps fading into view display with current scores of all other clubs i.e. Selected team against 18 other clubs (Newcastle being the other/base club)
 	
-  + If Newcastle result matches  - Yellow background on relevant table row
-  + If Newcastle result compares worse - Red background on relevant table row
-  + If Newcastle result compares better - Green background on relevant table row
-
-  + need to be able to somehow calculate these dynamically. 
+  + If Newcastle result matches the base scoreline - The table row will have a yellow background.
+  + If Newcastle result compares worse - Red background on the relevant table row
+  + If Newcastle result compares better - Green background on the relevant table row
+  + need to be able to somehow calculate these scores dynamically in order to get these background colours. 
  
-+ An "About" hyperlink below the data table. will link to a second page about the app and my intentions for it.
++ An "About" hyperlink below the data table. This will link to a second page with more information about the App and my intentions for it.
 
 + A "Clear" button below the data table. will clear the data table and the scoreline for users to select a new team from scratch. 
 
-+ Need to figure out how this data will be stored, retrieved and managed.  - 380 premier league games in a season. 19 selectable teams + the base team.  18 rows of results when the team(s) are selected.
++ Need to figure out how this data will be stored, retrieved and managed. 
+   + 19 selectable teams in an SQL Table.
+   + Each table has 18 records - 380 premier league games in a season. 18 rows of results when the team(s) are selected.
 
 ## About Page
 
@@ -65,37 +72,52 @@ However I knew I didn't have the "spoons" to create it on my own. I don't say th
 
 Then the age of AI came.
 
-I say that as if I'm thinking about it lightly, but I don't.  I have learning difficulties and Autism. So even with AI in my Arsenal it still seemed like a daunting task. Especially with an application like this that has many moving parts like this one.  With the AI, my prompting and <code>claude-3.5-sonnnet</code>'s responses, I was closer than even I thought to even making a start in this apps development. And then as well, as can happen to any developer, I also found myself doing down some rabbit holes and getting ahead of myself and going back on the progress I'd made.
+I say that as if I'm thinking about it lightly, but I don't. I have learning difficulties and Autism. So even with AI in my arsenal it still seemed like a daunting task. Especially with an application like this that has many moving parts like this one.  With the AI, my prompting and <code>claude-3.5-sonnnet</code>'s responses, I was closer than even I thought to even making a start in this apps development. And then as well, as can happen to any developer, I also found myself doing down some rabbit holes and getting ahead of myself and going back on the progress I'd made.
 
-In short, without AI, this app would not be possible - at least for me.
+In short, without AI, this app would not be possible - at least not for me.
 
 ## Database Development Planning
 
-#### Some information about database planning
+### Some information about database planning
 
 + Make sure  `sqlite3` is installed with `sqlite3 --version`.
 
 + Go to the directory where you want to create the database file.
 
-`mkdir -p jgdm-100daysofcode/ai/score_comparator/assets/data`
-`cd jgdm-100daysofcode/ai/score_comparator/assets/data`
+e.g. `mkdir -p path/to/project/assets/data`
+`cd path/to/project/assets/data`
 
-+ Write your command and then quit the shell
++ Write your command(s) and then quit the shell
 `sqlite3 scores.db`
 
-+ Create a table
+  + e.g. Create a table
 
-```sql
-CREATE TABLE teams (
-    id INTEGER PRIMARY KEY,
-    name TEXT NOT NULL
-);
+  ```sql
+  CREATE TABLE teams (
+      id INTEGER PRIMARY KEY,
+      name TEXT NOT NULL
+  );
+
+  ```
+
+  + e.g. insert data into the table
+
+  ```sql
+
+  INSERT INTO teams (name) VALUES ('AFC Bournemouth');
+
+  ```
+
++ `.quit` - To exit the shell
+
++ Make sure PHP's SQLite3 extension is: make sure "extension=sqlite3" in php.ini is uncommented. `claude-3-5-sonnet`
+
++ During development, especially in the early stages, it's very common to delete and regenerate the database as you refine your data structure and requirements. `claude-3-5-sonnet`
+
+
+## AI Prompts.
+
 ```
-
-`.quit`
-
-### AI Prompt Planning.
-
 I've deleted the db file and we're going to try again.  Look at the `.select---home--team` dropdown box.  This is the first dropdown box and one where we select the team in which we're comparing other football matches against. In this edge case assume we'll select AFC Bournemouth. This will bring up a dynamic table, which is created in sqlite3, of all the other teams in the league playing away from home against AFC Bournemouth.  Let's try this out by generating a .db file that contains the table of home bournemouth games. 
 
 Fields should be:  Home, Score , v , Teams, Score
@@ -106,9 +128,25 @@ AFC Bournemouth 0 v Arsenal 0
 AFC Bournemouth 0 v Aston Villa 0
 AFC Bournemouth 0 v Brentford 0
 .....
+```
+
+```
+This is good.  There's a minor detail we've missed.  I don't know if it's worth deleting the database and regenerating the sql for the tables.  Is that a common thing to do in this kind of development?
+
+So the issue is... the row for Bournemouth v Newcastle is not necessary as that is the base match result wr're comparing.  We also need 18 records in this table.   Including missing records for Leicester City, Southampton and Ipswich.  Does this all make sense? 
+```
+
+```
+Let's now talk about the home_matches table. How does that help us differentiate one teams home matches from another.  Should this not be called something like e.g  bournemouth_homematches?
+```
+
+```
+I've reverted back to the state that the application correctly and successfully loads match data for bournemouth home games.   We need to expand this for the other 17 selectable teams. I think this will mean some modifications to app.js and it might also be worth adding a `home` directory to the api endpoint so the directory structure is `api/home/get_bournemouth_matches`.  We can add an away directory later. 
+
+```
 
 
-### SQL Scripts
+## SQL Scripts
 
 ```sql
 -- First, delete the existing scores.db file
@@ -116,7 +154,7 @@ AFC Bournemouth 0 v Brentford 0
 sqlite3 scores.db
 ```
 
-#### Create Match Tables
+### Create Match Tables
 
 ```sql
 
@@ -546,7 +584,7 @@ CREATE TABLE wolverhampton_away_matches (
 ```
 
 
-#### Create Base Scores Tables
+### Create Base Scores Tables
 
 
 ```sql
@@ -574,7 +612,7 @@ CREATE TABLE base_scores_away (
 ```
 
 
-#### Insert Match Data
+### Insert Match Data
 
 ```sql
 
@@ -705,7 +743,6 @@ INSERT INTO crystalpalace_home_matches (home_team, home_score, away_team, away_s
     ('Crystal Palace', 0, 'Brentford', 0),
     ('Crystal Palace', 0, 'Brighton and Hove Albion', 0),
     ('Crystal Palace', 0, 'Chelsea', 0),
-    ('Crystal Palace', 0, 'Crystal Palace', 0),
     ('Crystal Palace', 0, 'Everton', 0),
     ('Crystal Palace', 0, 'Fulham', 0),
     ('Crystal Palace', 0, 'Ipswich Town', 0),
@@ -881,6 +918,7 @@ INSERT INTO manchestercity_home_matches (home_team, home_score, away_team, away_
     ('Manchester City', 0, 'Liverpool', 0),
     ('Manchester City', 0, 'Leicester City', 0)
     ('Manchester City', 0, 'Manchester United', 0),
+    ('Manchester City', 0, 'Nottingham Forest', 0),
     ('Manchester City', 0, 'Southampton', 0),
     ('Manchester City', 0, 'Tottenham Hotspur', 0),
     ('Manchester City', 0, 'West Ham United', 0),
@@ -904,6 +942,7 @@ INSERT INTO manchesterunited_home_matches (home_team, home_score, away_team, awa
     ('Manchester United', 0, 'Liverpool', 0),
     ('Manchester United', 0, 'Leicester City', 0),
     ('Manchester United', 0, 'Manchester City', 0),
+    ('Manchester United', 0, 'Nottingham Forest', 0),
     ('Manchester United', 0, 'Southampton', 0),
     ('Manchester United', 0, 'Tottenham Hotspur', 0),
     ('Manchester United', 0, 'West Ham United', 0),
@@ -1032,7 +1071,7 @@ INSERT INTO wolverhampton_home_matches (home_team, home_score, away_team, away_s
 ```
 
 
-#### Insert Base Score Data
+### Insert Base Score Data
 
 ```sql
 -- Base Scores

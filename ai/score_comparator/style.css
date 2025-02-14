@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 12/02/2024 - 15:57 */
+/* Stylesheet Upated: 14/02/2024 - 17:31 */
 * {
   margin: 0;
   padding: 0;
@@ -87,15 +87,36 @@ body .text---how--compares {
 body .section---about {
   display: block;
   margin: 10pt auto;
-  width: 85%;
+  /* width: 85%; */
   width: 420px;
+  border-radius: 5px;
+  border: solid 1px #d9d9d9;
+  padding: 10px;
+  font-size: 14px;
 }
 body .section---about h1 {
   text-decoration: underline;
+  text-align: center;
 }
 body .section---about p {
-  line-height: 1.6;
-  margin-top: 10px;
+  line-height: 1.7;
+  margin-top: 15px;
+}
+body .section---about p code {
+  padding: 1px 5px;
+  background: #baff60;
+  border-radius: 5px;
+}
+body .section---about a {
+  text-align: center;
+  display: block;
+  margin: 13px auto;
+  color: red;
+  font-size: 10px;
+  transition: color 0.3s;
+}
+body .section---about a:hover {
+  color: blue;
 }
 body #container {
   width: 100%;

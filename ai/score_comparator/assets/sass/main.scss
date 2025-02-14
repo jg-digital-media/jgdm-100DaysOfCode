@@ -149,20 +149,30 @@ body {
 
         display: block;
         margin: 10pt auto;
-        width: 85%;
+        /* width: 85%; */
         width: 420px;
+        border-radius: 5px;
+        border: solid 1px #d9d9d9;
+        padding: 10px;
+        font-size: 14px;
 
         h1 {
 
             text-decoration: underline;
-
-
+            text-align: center;
         }
 
         p {
 
-            line-height: 1.6;
-            margin-top: 10px;
+            line-height: 1.7;
+            margin-top: 15px;
+
+            code {
+
+                padding: 1px 5px;
+                background: #baff60;
+                border-radius: 5px;
+            }
         }
 
         a {

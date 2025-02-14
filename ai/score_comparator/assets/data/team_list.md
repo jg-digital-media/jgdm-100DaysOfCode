@@ -62,6 +62,27 @@ spurs_away_matches
 westham_away_matches
 wolverhampton_away_matches
 
+api/home/get_bournemouth_matches.php
+api/home/get_arsenal_matches.php
+api/home/get_astonvilla_matches.php
+api/home/get_brentford_matches.php
+api/home/get_brighton_matches.php
+api/home/get_chelsea_matches.php
+api/home/get_crystalpalace_matches.php
+api/home/get_everton_matches.php
+api/home/get_fulham_matches.php
+api/home/get_ipswich_matches.php
+api/home/get_liverpool_matches.php
+api/home/get_leicester_matches.php
+api/home/get_manchestercity_matches.php
+api/home/get_manchesterunited_matches.php
+api/home/get_nottinghamforest_matches.php
+api/home/get_southampton_matches.php
+api/home/get_spurs_matches.php
+api/home/get_westham_matches.php
+api/home/get_wolverhampton_matches.php
+
+
 
 
 CREATE TABLE base_scores_home (

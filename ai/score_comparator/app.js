@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'Chelsea': 'get_chelsea_matches.php',
         'Everton': 'get_everton_matches.php',
         'Fulham': 'get_fulham_matches.php',
-        'Ipswich': 'get_ipswich_matches.php',
+        'Ipswich Town': 'get_ipswich_matches.php',
         'Liverpool': 'get_liverpool_matches.php',
         'Leicester City': 'get_leicester_matches.php',
         'Manchester City': 'get_manchestercity_matches.php',

@@ -74,7 +74,7 @@
             <option id="select---home--chelsea" value="Chelsea">Chelsea</option>
             <option id="select---home--everton" value="Everton">Everton</option>
             <option id="select---home--fulham" value="Fulham">Fulham</option>
-            <option id="select---home--ipswich" value="Ipswich">Ipswich</option>
+            <option id="select---home--ipswich" value="Ipswich Town">Ipswich Town</option>
             <option id="select---home--liverpool" value="Liverpool">Liverpool</option>
             <option id="select---home--leicester" value="Leicester City">Leicester City</option>
             <option id="select---home--manchestercity" value="Manchester City">Manchester City</option>

@@ -6,26 +6,17 @@ ini_set('display_errors', 0);
 try {
     $db = new SQLite3('../assets/data/scores.db');
     
-    if (!$db) {
-        throw new Exception("Database connection failed");
+    if (!isset($_GET['team'])) {
+        throw new Exception("Team parameter is required");
     }
+
+    $team = SQLite3::escapeString($_GET['team']);
     
-    $team = isset($_GET['team']) ? SQLite3::escapeString($_GET['team']) : '';
-    
-    if (empty($team)) {
-        throw new Exception("No team specified");
-    }
-    
-    $query = "SELECT * FROM base_scores WHERE home_team = :team";
-    
+    $query = "SELECT * FROM base_scores_home WHERE home_team = :team AND away_team = 'Newcastle United'";
     $stmt = $db->prepare($query);
-    if (!$stmt) {
-        throw new Exception("Query preparation failed");
-    }
-    
     $stmt->bindValue(':team', $team, SQLITE3_TEXT);
-    $result = $stmt->execute();
     
+    $result = $stmt->execute();
     $baseScore = $result->fetchArray(SQLITE3_ASSOC);
     
     if ($baseScore) {
@@ -45,9 +36,7 @@ try {
     http_response_code(500);
     echo json_encode([
         'error' => true,
-        'message' => $e->getMessage(),
-        'file' => basename(__FILE__),
-        'line' => __LINE__
+        'message' => $e->getMessage()
     ]);
 }
 ?> 

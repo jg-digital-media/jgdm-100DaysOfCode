@@ -1,6 +1,6 @@
-/* Last Update: 14/02/2025 - 12:40 */
+/* Last Update: 17/02/2025 - 15:46 */
 
--- Create Match Tables
+-- Create Home Match Tables
 CREATE TABLE bournemouth_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
@@ -153,6 +153,8 @@ CREATE TABLE wolverhampton_home_matches (
     away_score INTEGER
 );
 
+
+-- Create Away Match Tables
 CREATE TABLE bournemouth_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
@@ -347,7 +349,7 @@ CREATE TABLE base_scores_away (
 );
 
 
--- Base Scores for home reports
+-- Insert Base Scores for home reports
 INSERT INTO base_scores_home (home_team, away_team, home_score, away_score, played) VALUES
     ('AFC Bournemouth', 'Newcastle United', 2, 3, 1),
     ('Arsenal', 'Newcastle United', 0, 0, 0),
@@ -369,7 +371,7 @@ INSERT INTO base_scores_home (home_team, away_team, home_score, away_score, play
     ('West Ham United', 'Newcastle United', 0, 0, 0),
     ('Wolverhampton Wanderers', 'Newcastle United', 1, 2, 1);   
 
--- Base Scores for away reports
+-- Insert Base Scores for away reports
 INSERT INTO base_scores_away (away_team, home_team, away_score, home_score, played) VALUES
     ('Newcastle United', 'AFC Bournemouth', 3, 2, 1),
     ('Newcastle United', 'Arsenal', 1, 0, 1),

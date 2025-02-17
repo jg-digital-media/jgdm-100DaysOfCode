@@ -145,8 +145,45 @@ I've reverted back to the state that the application correctly and successfully 
 
 ```
 
+
 ```@codebase -  let's get the base scores up and running.  By this I mean correctly pull up the score data from the base_scores_home table and display it for each time in the .section---selected--teamscore element
 ```
+
+```
+Something is wrong with the Ipswich base score.  It shows L-L as the scoreline even though the match is recorded has having been played.
+```
+
+```
+I've verified that the data is there. Let's look at the code base again.  None of the base scores are showing up any more whether or not a game is specified as having been played.  
+
+e.g. Ipswich Town L Newcastle United L
+```
+
+```
+in the browser page for the endpoint  get_base_score, I get. 
+
+{"error":true,"message":"Team parameter is required"} 
+```
+
+```
+
+okay... you'll have noticed i've reverted back and got the base scores back up. Except for the Ipswich v Newcastle score which remains at L - L
+
+What's interesting is that the base scores mosty work as intended except for the above case.
+
+But the base score endpoint seems to be dodgy. 
+
+api/get_base_score.php?
+{"error":true,"message":"Team parameter is required"} 
+
+api/get_base_score.php?team="Ipswich Town"
+{"home_team":"\"Ipswich Town\"","away_team":"Newcastle United","home_score":0,"away_score":0,"played":0} 
+
+/api/get_base_score.php?team="Arsenal"
+{"home_team":"\"Arsenal\"","away_team":"Newcastle United","home_score":0,"away_score":0,"played":0} 
+
+```
+
 
 
 ## SQL Scripts

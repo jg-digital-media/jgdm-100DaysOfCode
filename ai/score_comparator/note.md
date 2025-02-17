@@ -1126,35 +1126,33 @@ INSERT INTO base_scores_away (away_team, home_team, away_score, home_score, play
 
 ### Bugs
 
-Crystal Palace should not be present in the home match table
-Nottingham Forest missing from the Manchester City home match table
+Crystal Palace should not be present in the Crystal Palace home match table `FIXED`
+Nottingham Forest missing from the Manchester City home match table `FIXED`
 Nottingham Forest missing from the Manchester United home match table
-base_scores_away table is duplicated in the Schema
+base_scores_away table is duplicated in the Schema `FIXED`
 
-#### Using the Sqlite shell. `FIXED`
+#### Using the SQLite shell. `FIXED ISSUE`
 
+```sql
 
-let's debug sqlite lite. 
+-- Note: Assume you're in the directory as your .db file which is e.g. scores.db
 
-I'm in the directory for my db file which is scores.db
+`sqlite3 scores.db` -- Enters SQLite shell in scores.db scope
 
+`.tables`  -- To verify tables are already present or have been created.
 
-```text 
-
-sqlite3 scores.db
-.tables 
 SELECT * from bournemouth_home_matches
 
-Doesn't return records. 
+-- Doesn't return records. 
 
-But this does.  
-SELECT * from bournemouth_home_matches
+-- But this does.  
+SELECT * from bournemouth_home_matches;
 
+`sqlite3 scores.db "select * from bournemouth_home_matches;" ".exit"` -- Performs a query and quits the Shell in the same command
 
+`.schema` -- Shows script and commands used to build.db
 
-sqlite3 scores.db "select * from bournemouth_home_matches;" ".exit"
+-- Note: The  ...> in the shell indicates a REPL loop and bad command used.
 
-.schema - shows script and commands used to build.db
-
-The  ...> in the shell indicates a REPL loop and bad command used.
 ```
+

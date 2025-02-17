@@ -394,24 +394,24 @@ INSERT INTO base_scores_away (away_team, home_team, away_score, home_score, play
 
 -- Insert home match score Data
 INSERT INTO bournemouth_home_matches (home_team, home_score, away_team, away_score) VALUES
-    ('AFC Bournemouth', 0, 'Arsenal', 0),
-    ('AFC Bournemouth', 0, 'Aston Villa', 0),
-    ('AFC Bournemouth', 0, 'Brentford', 0),
-    ('AFC Bournemouth', 0, 'Brighton and Hove Albion', 0),
-    ('AFC Bournemouth', 0, 'Chelsea', 0),
-    ('AFC Bournemouth', 0, 'Crystal Palace', 0),
-    ('AFC Bournemouth', 0, 'Everton', 0),
-    ('AFC Bournemouth', 0, 'Fulham', 0),
-    ('AFC Bournemouth', 0, 'Ipswich Town', 0),
-    ('AFC Bournemouth', 0, 'Leicester City', 0),
-    ('AFC Bournemouth', 0, 'Liverpool', 0),
-    ('AFC Bournemouth', 0, 'Manchester City', 0),
-    ('AFC Bournemouth', 0, 'Manchester United', 0),
-    ('AFC Bournemouth', 0, 'Nottingham Forest', 0),
-    ('AFC Bournemouth', 0, 'Southampton', 0),
-    ('AFC Bournemouth', 0, 'Tottenham Hotspur', 0),
-    ('AFC Bournemouth', 0, 'West Ham United', 0),
-    ('AFC Bournemouth', 0, 'Wolverhampton Wanderers', 0);
+    ('AFC Bournemouth', 1, 'Arsenal', 3),
+    ('AFC Bournemouth', 2, 'Aston Villa', 3),
+    ('AFC Bournemouth', 3, 'Brentford', 0),
+    ('AFC Bournemouth', 2, 'Brighton and Hove Albion', 2),
+    ('AFC Bournemouth', 1, 'Chelsea', 0),
+    ('AFC Bournemouth', 2, 'Crystal Palace', 0),
+    ('AFC Bournemouth', 3, 'Everton', 0),
+    ('AFC Bournemouth', 1, 'Fulham', 2),
+    ('AFC Bournemouth', 6, 'Ipswich Town', 0),
+    ('AFC Bournemouth', 4, 'Leicester City', 1),
+    ('AFC Bournemouth', 0, 'Liverpool', 2),
+    ('AFC Bournemouth', 2, 'Manchester City', 3),
+    ('AFC Bournemouth', 1, 'Manchester United', 1),
+    ('AFC Bournemouth', 1, 'Nottingham Forest', 1),
+    ('AFC Bournemouth', 5, 'Southampton', 1),
+    ('AFC Bournemouth', 2, 'Tottenham Hotspur', 3),
+    ('AFC Bournemouth', 2, 'West Ham United', 0),
+    ('AFC Bournemouth', 3, 'Wolverhampton Wanderers', 1);
 
 INSERT INTO arsenal_home_matches (home_team, home_score, away_team, away_score) VALUES
     ('Arsenal', 0, 'AFC Bournemouth', 0),

@@ -1126,3 +1126,31 @@ INSERT INTO base_scores_away (away_team, home_team, away_score, home_score, play
 Crystal Palace should not be present in the home match table
 Nottingham Forest missing from the Manchester City home match table
 Nottingham Forest missing from the Manchester United home match table
+
+#### Using the Sqlite shell. `FIXED`
+
+
+let's debug sqlite lite. 
+
+I'm in the directory for my db file which is scores.db
+
+
+```text 
+
+sqlite3 scores.db
+.tables 
+SELECT * from bournemouth_home_matches
+
+Doesn't return records. 
+
+But this does.  
+SELECT * from bournemouth_home_matches
+
+
+
+sqlite3 scores.db "select * from bournemouth_home_matches;" ".exit"
+
+.schema - shows script and commands used to build.db
+
+The  ...> in the shell indicates a REPL loop and bad command used.
+```

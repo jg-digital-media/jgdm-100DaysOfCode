@@ -32,36 +32,43 @@ document.addEventListener('DOMContentLoaded', function() {
         const selectedTeam = e.target.value;
         
         if (selectedTeam && teamEndpoints[selectedTeam]) {
-            // Make the table visible
+            // Make elements visible
             resultsTable.style.visibility = 'visible';
             selectedTeamScore.style.visibility = 'visible';
 
-            // Update the selected team display
-            document.getElementById('selected---home--team').textContent = selectedTeam;
-            
-            // Fetch the match data from our database
-            fetch(`api/home/${teamEndpoints[selectedTeam]}`)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! status: ${response.status}`);
-                    }
-                    return response.json();
-                })
-                .then(matches => {
-                    updateMatchTable(matches);
-                })
-                .catch(error => {
-                    console.error('Error fetching matches:', error);
-                    resultsTable.style.visibility = 'hidden';
-                    selectedTeamScore.style.visibility = 'hidden';
-                });
+            // Fetch both base score and matches
+            Promise.all([
+                fetch(`api/get_base_score.php?team=${encodeURIComponent(selectedTeam)}`),
+                fetch(`api/home/${teamEndpoints[selectedTeam]}`)
+            ])
+            .then(responses => Promise.all(responses.map(r => r.json())))
+            .then(([baseScore, matches]) => {
+                updateBaseScore(baseScore);
+                updateMatchTable(matches);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                resultsTable.style.visibility = 'hidden';
+                selectedTeamScore.style.visibility = 'hidden';
+            });
         } else {
-
-            // Hide the table if no team is selected
             resultsTable.style.visibility = 'hidden';
             selectedTeamScore.style.visibility = 'hidden';
         }
     });
+
+    function updateBaseScore(baseScore) {
+        const homeTeamElement = document.getElementById('selected---home--team');
+        const awayTeamElement = document.getElementById('selected---away--team');
+        const homeScoreElements = document.querySelectorAll('.given---home--score');
+
+        homeTeamElement.textContent = baseScore.home_team;
+        awayTeamElement.textContent = baseScore.away_team;
+
+        // Update scores - show actual score if played, 'L' if not
+        homeScoreElements[0].textContent = baseScore.played ? baseScore.home_score : 'L';
+        homeScoreElements[1].textContent = baseScore.played ? baseScore.away_score : 'L';
+    }
 
     function updateMatchTable(matches) {
         const tableBody = resultsTable.querySelector('tbody') || resultsTable;

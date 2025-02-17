@@ -145,6 +145,9 @@ I've reverted back to the state that the application correctly and successfully 
 
 ```
 
+```@codebase -  let's get the base scores up and running.  By this I mean correctly pull up the score data from the base_scores_home table and display it for each time in the .section---selected--teamscore element
+```
+
 
 ## SQL Scripts
 
@@ -1126,6 +1129,7 @@ INSERT INTO base_scores_away (away_team, home_team, away_score, home_score, play
 Crystal Palace should not be present in the home match table
 Nottingham Forest missing from the Manchester City home match table
 Nottingham Forest missing from the Manchester United home match table
+base_scores_away table is duplicated in the Schema
 
 #### Using the Sqlite shell. `FIXED`
 

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 18/02/2025 - 07:47");
+    console.log("app.js connected - 18/02/2025 - 09:37");
 
     const homeTeamSelect = document.getElementById('select---home--team');
     const resultsTable = document.querySelector('table');
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
             .then(responses => Promise.all(responses.map(r => r.json())))
             .then(([baseScore, matches]) => {
                 updateBaseScore(baseScore);
-                updateMatchTable(matches);
+                updateMatchTable(matches, baseScore);
             })
             .catch(error => {
                 console.error('Error:', error);
@@ -70,7 +70,62 @@ document.addEventListener('DOMContentLoaded', function() {
         homeScoreElements[1].textContent = baseScore.played ? baseScore.away_score : 'L';
     }
 
-    function updateMatchTable(matches) {
+    function getComparisonClass(baseScore, matchScore) {
+        // If match hasn't been played yet
+        if (matchScore.home_score === 'N' || matchScore.away_score === 'N') {
+            return 'score---compares--stilltoplay';
+        }
+    
+        // Convert scores to numbers for comparison
+        const baseHome = parseInt(baseScore.home_score);
+        const baseAway = parseInt(baseScore.away_score);
+        const matchHome = parseInt(matchScore.home_score);
+        const matchAway = parseInt(matchScore.away_score);
+    
+        // Exact score match
+        if (matchHome === baseHome && matchAway === baseAway) {
+            return 'score---compares--exactly';
+        }
+    
+        // Handle draws
+        const baseIsDraw = baseHome === baseAway;
+        const matchIsDraw = matchHome === matchAway;
+        if (baseIsDraw && matchIsDraw) {
+            return 'score---matches---result';
+        }
+    
+        // Calculate goal differences
+        const baseGoalDiff = baseHome - baseAway;
+        const matchGoalDiff = matchHome - matchAway;
+    
+        // Base team lost (negative goal difference)
+        if (baseGoalDiff < 0) {
+            // If match has even worse goal difference
+            if (matchGoalDiff < baseGoalDiff) {
+                return 'score---compares--lower';
+            }
+            // If match has better goal difference (including wins)
+            if (matchGoalDiff > baseGoalDiff) {
+                return 'score---compares--higher';
+            }
+        }
+        // Base team won (positive goal difference)
+        else if (baseGoalDiff > 0) {
+            // If match has better goal difference
+            if (matchGoalDiff > baseGoalDiff) {
+                return 'score---compares--higher';
+            }
+            // If match has worse goal difference (including losses)
+            if (matchGoalDiff < baseGoalDiff) {
+                return 'score---compares--lower';
+            }
+        }
+    
+        // Default case
+        return 'score---compares--default';
+    }
+    
+    function updateMatchTable(matches, baseScore) {
         const tableBody = resultsTable.querySelector('tbody') || resultsTable;
         
         // Keep the header row if it exists
@@ -79,12 +134,14 @@ document.addEventListener('DOMContentLoaded', function() {
         if (headerRow) {
             tableBody.appendChild(headerRow);
         }
-
+    
         // Add each match to the table
         matches.forEach(match => {
             const row = document.createElement('tr');
-            row.className = 'score---compares--default'; // Default comparison class
-
+            
+            // Get the comparison class based on scores
+            row.className = getComparisonClass(baseScore, match);
+    
             row.innerHTML = `
                 <td>${match.home_team}</td>
                 <td>${match.home_score}</td>
@@ -92,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <td>${match.away_team}</td>
                 <td>${match.away_score}</td>
             `;
-
+    
             tableBody.appendChild(row);
         });
     }

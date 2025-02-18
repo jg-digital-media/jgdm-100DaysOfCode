@@ -1097,10 +1097,11 @@ INSERT INTO base_scores_away (away_team, home_team, away_score, home_score, play
 
 ## Bugs
 
-+  `FIXED` Crystal Palace should not be present in the Crystal Palace home match table
++ `FIXED` Crystal Palace should not be present in the Crystal Palace home match table
 + `FIXED` Nottingham Forest missing from the Manchester City home match table 
 + Nottingham Forest missing from the Manchester United home match table
 + `FIXED` base_scores_away table is duplicated in the Schema 
++ `FIXED` section---selected--teamscore - visibility - hidden by default.
 
 + Scoreline comparison discrepancy: AFC Bournemouth	1 v Arsenal 3 table row has the `score---compares--lower` class. This is against the Base score of AFC Bournemouth 2 Newcastle 3.
   + This should be a higher class table row because of the bigger goal difference. I think what's fooling the app is that the comparison result has 1 goal for Bournemouth.

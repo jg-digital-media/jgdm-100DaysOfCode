@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 18/02/2025 - 13:51");
+    console.log("app.js connected - 18/02/2025 - 14:17");
 
     const homeTeamSelect = document.getElementById('select---home--team');
     const resultsTable = document.querySelector('table');
@@ -71,8 +71,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function getComparisonClass(baseScore, matchScore) {
-        // Handle unplayed matches (marked with 'N')
-        if (matchScore.home_score === 'N' || matchScore.away_score === 'N') {
+        // If match hasn't been played, return early
+        if (!matchScore.played) {
             return 'score---compares--stilltoplay';
         }
 
@@ -179,16 +179,28 @@ document.addEventListener('DOMContentLoaded', function() {
         matches.forEach(match => {
             const row = document.createElement('tr');
             
-            // Get the comparison class based on scores
-            row.className = getComparisonClass(baseScore, match);
-    
-            row.innerHTML = `
-                <td>${match.home_team}</td>
-                <td>${match.home_score}</td>
-                <td>v</td>
-                <td>${match.away_team}</td>
-                <td>${match.away_score}</td>
-            `;
+            // Check if match has been played
+            if (!match.played) {
+                // For unplayed matches, don't apply comparison class
+                row.className = 'score---compares--stilltoplay';
+                row.innerHTML = `
+                    <td>${match.home_team}</td>
+                    <td>L</td>
+                    <td>v</td>
+                    <td>${match.away_team}</td>
+                    <td>L</td>
+                `;
+            } else {
+                // For played matches, get comparison class and show actual scores
+                row.className = getComparisonClass(baseScore, match);
+                row.innerHTML = `
+                    <td>${match.home_team}</td>
+                    <td>${match.home_score}</td>
+                    <td>v</td>
+                    <td>${match.away_team}</td>
+                    <td>${match.away_score}</td>
+                `;
+            }
     
             tableBody.appendChild(row);
         });

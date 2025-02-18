@@ -28,7 +28,8 @@ I've reverted back to the state that the application correctly and successfully 
 ```
 
 
-```@codebase -  let's get the base scores up and running.  By this I mean correctly pull up the score data from the base_scores_home table and display it for each time in the .section---selected--teamscore element
+```
+@codebase -  let's get the base scores up and running.  By this I mean correctly pull up the score data from the base_scores_home table and display it for each time in the .section---selected--teamscore element
 ```
 
 ```
@@ -105,6 +106,111 @@ We're going to have to do something about the rest of the tables that have no sc
 So... let's see if we can sort that out. 
 
 Add  a new parameter to the rest of the table insertions 'played' where 1 indicates a match has been played.  0 indicates it's still to be played.  Where the table indicates zero the score for that record should be displayed as Team L v Team L. And no class should be applied to that table row. 
+
+```
+
+```
+I think we need to tweak this implementation. 
+
+I've done an audit of the first 4 tables that'll hopefully give an idea of what I need and how to fix
+
+Bournemouth
+-----------
+
+Base Scoreline: AFC Bournemouth 2 Newcastle United 3
+
+AFC Bournemouth	1	v	Arsenal	3 - correctly compares lower - bigger home defeat/goal difference - one home goal scored
+AFC Bournemouth	2	v	Aston Villa 3 - correctly compares exact score match
+AFC Bournemouth	3	v	Brentford 0 - correctly compares higher - home win - bigger goal difference
+AFC Bournemouth	2	v	Brighton and Hove Albion 2 - correctly compares higher; score draw; goal difference bigger
+AFC Bournemouth	1	v	Chelsea	0 - correctly compares higher - win - goal difference bigger
+AFC Bournemouth	2	v	Crystal Palace 0 - correctly compares higher - bigger home win/goal difference
+AFC Bournemouth	3	v	Everton 0 - correctly compares higher - bigger home win/goal difference
+AFC Bournemouth	1	v	Fulham 2 - incorrectly compares default. less goals scored - less goals conceded - same goal difference
+AFC Bournemouth	6	v	Ipswich Town 0 - correctly compares higher - win - home win/goal difference bigger
+AFC Bournemouth	4	v	Leicester City 1 - correctly compares higher - win - home win/goal difference bigger
+AFC Bournemouth	0	v	Liverpool 2 - correctly compares lower - bigger goal difference for a defeat - bournemouth no goal scored
+AFC Bournemouth	2	v	Manchester City 3 - correctly compares exact score match
+AFC Bournemouth	1	v	Manchester United 1 - correctly compares higher; score draw
+AFC Bournemouth	1	v	Nottingham Forest 1 - correctly compares higher; score draw
+AFC Bournemouth	5	v	Southampton 1 - correctly compares higher - home win
+AFC Bournemouth	2	v	Tottenham Hotspur 3 - correctly compares exact score match
+AFC Bournemouth	2	v	West Ham United 0 - correctly compares higher - home win
+AFC Bournemouth	3	v	Wolverhampton Wanderers 1 - correctly compares higher - home win
+
+
+Arsenal
+-------
+
+Base Scoreline: Arsenal 3 Newcastle United 1
+
+Arsenal	1	v	AFC Bournemouth 0 - incorrectly scores lower - home win - lower score  
+Arsenal	2	v	Aston Villa 2 - correctly compares lower - score draw
+Arsenal	4	v	Brentford 0 - correctly scores higher - bigger goal difference - not conceded
+Arsenal	2	v	Brighton and Hove Albion 0 - incorrectly compares default class - less goals scored - goal difference matches
+Arsenal	1	v	Chelsea	1 - correctly compares lower - score draw not a win
+Arsenal	3	v	Crystal Palace 1 - correctly compares matching scoreline 
+Arsenal	3	v	Everton 0 - correctly matches higher - goal difference bigger
+Arsenal	2	v	Fulham 0 -  - incorrectly compares default class - less goals scored - goal difference matches
+Arsenal	4	v	Ipswich Town 0 - correctly matches higher - goal difference bigger
+Arsenal	2	v	Leicester City 0 -  - incorrectly compares default class - less goals scored - goal difference matches
+Arsenal	1	v	Liverpool 3 - correctly matches lower - home defeat
+Arsenal	5	v	Manchester City 1 - correctly matches higher - more home goals - goal difference bigger
+Arsenal	2	v	Manchester United 2 - correctly compares lower - score draw
+Arsenal	3	v	Nottingham Forest 1 - correctly matches higher - goal difference bigger
+Arsenal	1	v	Southampton 0 - incorrectly compares lower class - home win - 1 goal - not onceded
+Arsenal	4	v	Tottenham Hotspur 2 - incorrectly compares default - more home goals - goals conceded biggrer
+Arsenal	4	v	West Ham United 0 - correctly matches higher - more home goals - goal difference bigger 
+Arsenal	3	v	Wolverhampton Wanderers 0 - correctly matches higher - more home goald - goal difference bigger
+
+Aston Villa
+-----------
+
+Base Score: Aston Villa 2 Newcastle United 2
+
+All of of these incorrectly comparing as default classes.  comments below are desired outcomes for comparisons
+Aston Villa	1	v	AFC Bournemouth	1 - lower score draw  - correctly compares matching result
+Aston Villa	2	v	Arsenal	1 - higher - home win
+Aston Villa	3	v	Brentford 1 - higher - home win
+Aston Villa	1	v	Brighton and Hove Albion 2 - lower - home defeat 
+Aston Villa	1	v	Chelsea	4 - lower - home defeat 
+Aston Villa	3	v	Crystal Palace 0 - higher - home win
+Aston Villa	3	v	Everton	0 - higher - home win
+Aston Villa	2	v	Fulham	2 - compares matching exact scoreline
+Aston Villa	4	v	Ipswich Town 0 - higher - home win
+Aston Villa	3	v	Leicester City 0 - higher - home win
+Aston Villa	1	v	Liverpool 1 - lower score draw - correctly compares matching result
+Aston Villa	2	v	Manchester City	1 - higher - home win
+Aston Villa	2	v	Manchester United 0 - higher - home win
+Aston Villa	7	v	Nottingham Forest 0 - higher - home win
+Aston Villa	3	v	Southampton	1 - higher - home win
+Aston Villa	3	v	Tottenham Hotspur 2 - higher - home win
+Aston Villa	3	v	West Ham United	3 - higher score draw - correctly compares matching result
+Aston Villa	5	v	Wolverhampton Wanderers	0 - higher - home win
+
+Brentford
+---------
+
+Base Score: Brentford 4 Newcastle United 0
+
+Brentford	4	v	AFC Bournemouth	0 - correctly compares exact scoreline
+Brentford	4	v	Arsenal	0 - correctly compares exact scoreline
+Brentford	4	v	Aston Villa	1 - incorrectly matches lower - home win - should be matching result
+Brentford	2	v	Brighton and Hove Albion 0
+Brentford	2	v	Chelsea	2 - correctly matches lower - score draw
+Brentford	1	v	Crystal Palace 1 - correctly matches lower - score draw
+Brentford	3	v	Everton	1 - incorrectly matches lower - home win - should be matching result
+Brentford	5	v	Fulham	0 - correctly matches higher - home win - bigger goal difference
+Brentford	1	v	Ipswich Town 3 - correctly matches lower - away win 
+Brentford	2	v	Leicester City	1 - incorrectly matches lower - home win - should be matching result
+Brentford	0	v	Liverpool 4 - correctly matches lower - away win 
+Brentford	0	v	Manchester City	2 - correctly matches lower - away win 
+Brentford	4	v	Manchester United 0 - correctly compares exact scoreline
+Brentford	2	v	Nottingham Forest 0 - incorrectly matches lower - home win - should be matching result
+Brentford	3	v	Southampton	0 - incorrectly matches lower - home win - should be matching result
+Brentford	3	v	Tottenham Hotspur 2 - incorrectly matches lower - home win - should be matching result
+Brentford	1	v	West Ham United	0 - incorrectly matches lower - home win - should be matching result
+Brentford	3	v	Wolverhampton Wanderers	3 - correctly matches lower - home score draw 
 
 ```
 

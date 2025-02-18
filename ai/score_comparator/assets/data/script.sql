@@ -466,7 +466,7 @@ INSERT INTO brentford_home_matches (home_team, home_score, away_team, away_score
     ('Brentford', 5, 'Fulham', 0),
     ('Brentford', 1, 'Ipswich Town', 3),
     ('Brentford', 0, 'Liverpool', 4),
-    ('Brentford', 2 'Leicester City', 1),
+    ('Brentford', 2, 'Leicester City', 1),
     ('Brentford', 0, 'Manchester City', 2),
     ('Brentford', 4, 'Manchester United', 0),
     ('Brentford', 2, 'Nottingham Forest', 0),

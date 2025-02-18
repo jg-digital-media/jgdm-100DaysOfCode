@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 14/02/2024 - 17:31 */
+/* Stylesheet Upated: 18/02/2024 - 13:26 */
 
 $bg---main: #ffffff;
 $bg---select: lightgreen;
@@ -10,10 +10,13 @@ $col---secondary: red;
 $col---url--primary: red;
 $col---url--primary--hover: #8b0606;
 
-$score---compares--higher: #90ee90;
-$score---compares--equal: #fcfc95;
-$score---compares--lower: #ff6a80;
+
 $score---compares--default: $bg---table;
+$score---compares--higher:  #09a519;
+// $score---compares--equal: #fcfc95;
+$score---compares--lower: #ff6a80;
+$score---compares--exactly: #50fa50;
+$score---matches--result: #0a9f0a;
 
 $font---family: Arial, Helvetica, sans-serif;
 
@@ -229,8 +232,10 @@ body {
 
                 &.score---compares--equal {
 
-                    background: $score---compares--equal;
+                    //background: $score---compares--equal;
                 }
+
+
 
                 &.score---compares--lower {
 
@@ -241,6 +246,19 @@ body {
 
                     background: $score---compares--default;
                 }
+
+                
+                &.score---compares--exactly {
+
+                    background: $score---compares--exactly;
+                }
+
+                &.score---matches---result {
+
+                    background: $score---matches--result;
+
+                }
+
 
                 th,
                 td {

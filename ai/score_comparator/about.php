@@ -81,6 +81,16 @@
         
         <p><?php echo date("dS F, Y"); ?></p>
 
+        <h2>Points to take.</h2>
+
+        I've made no secret that I relied on AI to develop the functionality of this app.
+
+        I have tried to keep up with the code that is generated at each step.  so I understand what's being given to me as I go.  That's not always easy or practical. 
+
+        When AI works for you, it's like magic. But like magic, it is an illusion.  When AI understands your codebase it's mor likely to be able to do things for you at the first and only chat prompt.
+
+        But sometimes it doesn't go like that. Sometimes like human web developent it can take breaking things and getting things wrong before you get the outcome you need.
+
         <a href="index.php">Back to the Match Tables</a>
 
     </section>

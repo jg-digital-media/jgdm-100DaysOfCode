@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 18/02/2024 - 16:08 */
+/* Stylesheet Upated: 19/02/2024 - 07:16 */
 
 $bg---main: #ffffff;
 $bg---select: lightgreen;
@@ -23,6 +23,7 @@ $font---family: Arial, Helvetica, sans-serif;
 $font---size--lg: 32px;
 $font---size--md: 24px;
 $font---size--sm: 12px;
+$font---size--xs: 9px;
 
 $break---md: 768px;
 
@@ -61,8 +62,29 @@ body {
 
             span {
 
-                color: $col---secondary;
                 font-weight: bold;
+                color: $col---secondary;
+                font-size: $font---size--xs;
+
+                &#about---this--app,
+                &#back---home {
+
+                    font-weight: normal;
+                    font-style: normal;
+                }
+
+                a {
+
+                    color: $col---secondary;
+                    transition: color .3s;
+
+                    &:hover {
+
+                        color: darken($col---secondary, 20%);
+                        text-decoration: none;
+                    }
+
+                }
             }
         }
 

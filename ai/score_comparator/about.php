@@ -57,7 +57,7 @@
     <header>
 
         <h1 class="main---title">Football Score Comparator</h1>
-        <div class="tagline">Based on Newcastle United <span>v1</span></div>
+        <div class="tagline">Based on Newcastle United <span>(v1)</span> <span id="back---home"><a href="index.php">Back to Homepage</a></span></div>
         
     </header>
 
@@ -81,7 +81,7 @@
         
         <p><?php echo date("dS F, Y"); ?></p>
 
-        <a href="index.php">Back to Score Comparator</a>
+        <a href="index.php">Back to the Match Tables</a>
 
     </section>
 

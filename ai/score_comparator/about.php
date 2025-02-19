@@ -75,7 +75,11 @@
             
         <p>I say that as if I'm taking it lightly, but I don't. I have learning difficulties and Autism. So even with AI in my arsenal it still seemed like a daunting task. Especially with an application like this that has many moving parts like this one.  With the AI, my prompting and <code>claude-3.5-sonnnet</code>'s responses, I was closer than even I thought to even making a start in this apps development. And then as well, as can happen to any developer, I also found myself doing down some rabbit holes and getting ahead of myself and going back on the progress I'd made.</p>
 
-        <p>In short, it's a process even with clever AI Chatbots. And without AI, this app would not be possible - at least for not me.</p> 
+        <p>In short, it's a process. Even with clever AI Chatbots. And without AI, this app would not have been possible - at least for not me.</p>
+        
+        <p>In this app, you get to compare the scorelines of two football teams across a premier league season.  You can choose to compare the home or away matches and see who has performed better at home and away. In the future, I would like to expand this across multiple seasons and to see if I can compare different clubs, not just against Newcastle United.</p>
+
+        <p>But until then, enjoy this app and if you like, let me know what you think.</p>
 
         <?php date_default_timezone_set('Europe/London'); ?>
         

@@ -1,13 +1,68 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 19/02/2025 - 09:27");
+    console.log("app.js connected - 19/02/2025 - 16:29");
 
-    const homeTeamSelect = document.getElementById('select---home--team');
+    const teamSelect = document.getElementById('select---home--team');
     const resultsTable = document.querySelector('table');
     const selectedTeamScore = document.querySelector('.section---selected--teamscore');
+    const switchTeamsCheckbox = document.getElementById('checkbox---switch--teams');
+    const comparatorTeam = document.querySelector('.comparator---team');
+    const versusElement = document.querySelector('.score---versus');
+    const selectScoreSection = document.querySelector('.section---select--score');
+    const checkboxLabel = switchTeamsCheckbox.nextElementSibling;
+    
+    // Store the original select options HTML
+    const originalSelectHtml = teamSelect.innerHTML;
 
-    // Map team names to their API endpoints
+    // Track current match type
+    let isAwayMatch = false;
+
+    // Handle team switching
+    switchTeamsCheckbox.addEventListener('change', function(e) {
+        isAwayMatch = e.target.checked;
+        const parent = versusElement.parentNode;
+        
+        if (isAwayMatch) {
+            // Move Newcastle United to the left of "V"
+            parent.insertBefore(comparatorTeam, versusElement);
+            // Move select box to the right of "V"
+            parent.insertBefore(teamSelect, versusElement.nextSibling);
+        } else {
+            // Store the checkbox and label
+            const checkbox = switchTeamsCheckbox;
+            const label = checkboxLabel;
+            
+            // Clear all elements
+            parent.innerHTML = '';
+            
+            // Rebuild in original order
+            parent.appendChild(teamSelect);
+            parent.appendChild(versusElement);
+            parent.appendChild(comparatorTeam);
+            
+            // Add line breaks
+            parent.appendChild(document.createElement('br'));
+            parent.appendChild(document.createElement('br'));
+            
+            // Restore checkbox and label
+            parent.appendChild(checkbox);
+            parent.appendChild(label);
+        }
+
+        // Restore select options
+        teamSelect.innerHTML = originalSelectHtml;
+        
+        // Clear current selection and results
+        teamSelect.value = '';
+        resultsTable.style.display = 'none';
+        selectedTeamScore.style.display = 'none';
+    });
+
+    // Modify the team endpoints to handle both home and away matches
     const teamEndpoints = {
-        'AFC Bournemouth': 'get_bournemouth_matches.php',
+        'AFC Bournemouth': {
+            home: 'get_bournemouth_matches.php',
+            away: 'get_bournemouth_away_matches.php' // These will be added later
+        },
         'Arsenal': 'get_arsenal_matches.php',
         'Aston Villa': 'get_astonvilla_matches.php',
         'Brentford': 'get_brentford_matches.php',
@@ -28,22 +83,26 @@ document.addEventListener('DOMContentLoaded', function() {
         'Wolverhampton Wanderers': 'get_wolverhampton_matches.php'
     };
 
-    homeTeamSelect.addEventListener('change', function(e) {
+    teamSelect.addEventListener('change', function(e) {
         const selectedTeam = e.target.value;
         
         if (selectedTeam && teamEndpoints[selectedTeam]) {
-            // Make elements visible
             resultsTable.style.display = 'table';
             selectedTeamScore.style.display = 'block';
 
-            // Fetch both base score and matches
+            // Use the appropriate endpoint based on match type
+            const endpoint = isAwayMatch ? 
+                teamEndpoints[selectedTeam].away : 
+                teamEndpoints[selectedTeam].home;
+
+            // Update API calls to use the correct endpoint
             Promise.all([
-                fetch(`api/get_base_score.php?team=${encodeURIComponent(selectedTeam)}`),
-                fetch(`api/home/${teamEndpoints[selectedTeam]}`)
+                fetch(`api/get_base_score.php?team=${encodeURIComponent(selectedTeam)}&away=${isAwayMatch}`),
+                fetch(`api/${isAwayMatch ? 'away' : 'home'}/${endpoint}`)
             ])
             .then(responses => Promise.all(responses.map(r => r.json())))
             .then(([baseScore, matches]) => {
-                updateBaseScore(baseScore);
+                updateBaseScore(baseScore, isAwayMatch);
                 updateMatchTable(matches, baseScore);
             })
             .catch(error => {
@@ -57,17 +116,26 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    function updateBaseScore(baseScore) {
+    function updateBaseScore(baseScore, isAway) {
         const homeTeamElement = document.getElementById('selected---home--team');
         const awayTeamElement = document.getElementById('selected---away--team');
-        const homeScoreElements = document.querySelectorAll('.given---home--score');
+        const scoreElements = document.querySelectorAll('.given---home--score');
 
-        homeTeamElement.textContent = baseScore.home_team;
-        awayTeamElement.textContent = baseScore.away_team;
+        if (isAway) {
 
-        // Update scores - show actual score if played, 'L' if not
-        homeScoreElements[0].textContent = baseScore.played ? baseScore.home_score : 'L';
-        homeScoreElements[1].textContent = baseScore.played ? baseScore.away_score : 'L';
+            // Swap the display order for away matches
+            homeTeamElement.textContent = baseScore.away_team;
+            awayTeamElement.textContent = baseScore.home_team;
+            scoreElements[0].textContent = baseScore.played ? baseScore.away_score : 'L';
+            scoreElements[1].textContent = baseScore.played ? baseScore.home_score : 'L';
+        } else {
+
+            // Normal order for home matches
+            homeTeamElement.textContent = baseScore.home_team;
+            awayTeamElement.textContent = baseScore.away_team;
+            scoreElements[0].textContent = baseScore.played ? baseScore.home_score : 'L';
+            scoreElements[1].textContent = baseScore.played ? baseScore.away_score : 'L';
+        }
     }
 
     function getComparisonClass(baseScore, matchScore) {

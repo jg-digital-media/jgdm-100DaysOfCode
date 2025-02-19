@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 18/02/2024 - 13:26 */
+/* Stylesheet Upated: 19/02/2024 - 16:29 */
 * {
   margin: 0;
   padding: 0;
@@ -27,8 +27,21 @@ body header .tagline {
   text-align: center;
 }
 body header .tagline span {
-  color: red;
   font-weight: bold;
+  color: red;
+  font-size: 9px;
+}
+body header .tagline span#about---this--app, body header .tagline span#back---home {
+  font-weight: normal;
+  font-style: normal;
+}
+body header .tagline span a {
+  color: red;
+  transition: color 0.3s;
+}
+body header .tagline span a:hover {
+  color: #990000;
+  text-decoration: none;
 }
 body section.section---select--score {
   text-align: center;
@@ -44,7 +57,8 @@ body section.section---select--score select {
   border-radius: 7px;
   border: solid 2px;
   background: lightgreen;
-  margin-right: 6px;
+  margin-right: 5pt;
+  margin-left: 5pt;
 }
 body section.section---select--score .score---versus {
   font-weight: bold;
@@ -63,7 +77,8 @@ body .section---selected--teamscore {
   margin: 15pt 0 0 0;
   font-size: 20pt;
   font-size: 24px;
-  visibility: hidden;
+  /* visibility: hidden; */
+  display: none;
   /* visibility: visible; */
 }
 body .section---selected--teamscore #selected---home--team,
@@ -125,6 +140,7 @@ body #container {
 }
 body #container table {
   display: table;
+  display: none;
   margin: 3px auto;
   margin: 10px auto;
   width: 47%;
@@ -133,7 +149,7 @@ body #container table {
   padding: 5px;
   font-size: 12px;
   background: #b1a9a9;
-  visibility: hidden;
+  /* visibility: hidden; */
   box-shadow: black 0 0 4px 1px;
 }
 @media (max-width: 768px) {

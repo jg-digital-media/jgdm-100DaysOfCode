@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 19/02/2024 - 07:16 */
+/* Stylesheet Upated: 19/02/2024 - 09:27 */
 
 $bg---main: #ffffff;
 $bg---select: lightgreen;
@@ -138,7 +138,8 @@ body {
         margin: 15pt 0 0 0;
         font-size: 20pt;
         font-size: $font---size--md;
-        visibility: hidden;
+        /* visibility: hidden; */
+        display: none;
         /* visibility: visible; */
 
         #selected---home--team,
@@ -224,6 +225,7 @@ body {
         table {
 
             display: table;
+            display: none;
             margin: 3px auto;
             margin: 10px auto;
             width: 47%;
@@ -232,7 +234,7 @@ body {
             padding: 5px;
             font-size: $font---size--sm;
             background: $bg---table;
-            visibility: hidden;
+            /* visibility: hidden; */
 
             box-shadow: black 0 0 4px 1px;
 

@@ -223,3 +223,90 @@ So... let's see if we can sort that out.
 
 Add  a new parameter to the rest of the table insertions 'played' where 1 indicates a match has been played.  0 indicates it's still to be played.  Where the table indicates zero the score for that record should be displayed as Team L v Team L. And no class should be applied to that table row. 
 ```
+
+
+```
+@score_comparator The table elements should not be taking up space on the page until they're needed.  That means when the page initially loads or the select team option is clicked. 
+
+How can we achieve this given that visibility is changed with the visibility property so the element takes up the space
+```
+
+```
+
+We now come to a crucial part of this apps' development. 
+
+There's a checkbox input box that has the id `#checkbox---switch--teams`
+
+This is intended to behow we will be able to select away match comparison tables.
+
+The idea is when the box is ticked, the elements .comparator---team and #select---home--team in .section---select--score will switch places. 
+
+
+<section class="section---select--score">	
+
+    <div class="comparator---team">Newcastle United</div>
+
+    <div class="score---versus">V</div>
+
+    <select id="select---home--team">
+        <option id="select---home--placeholder" value="Select Team">Select Team...</option>
+        <option id="select---home--bournemouth" value="AFC Bournemouth">AFC Bournemouth</option>
+        <option id="select---home--arsenal" value="Arsenal">Arsenal</option>
+        <option id="select---home--astonvilla" value="Aston Villa">Aston Villa</option>
+        <option id="select---home--brentford" value="Brentford">Brentford</option>
+        <option id="select---home--brighton" value="Brighton and Hove Albion">Brighton &amp; Hove Albion</option>
+        <option id="select---home--crystalpalace" value="Crystal Palace">Crystal Palace</option>
+        <option id="select---home--chelsea" value="Chelsea">Chelsea</option>
+        <option id="select---home--everton" value="Everton">Everton</option>
+        <option id="select---home--fulham" value="Fulham">Fulham</option>
+        <option id="select---home--ipswich" value="Ipswich Town">Ipswich Town</option>
+        <option id="select---home--liverpool" value="Liverpool">Liverpool</option>
+        <option id="select---home--leicester" value="Leicester City">Leicester City</option>
+        <option id="select---home--manchestercity" value="Manchester City">Manchester City</option>
+        <option id="select---home--manchesterunited" value="Manchester United">Manchester United</option>
+        <option id="select---home--nottinghamforest" value="Nottingham Forest">Nottingham Forest</option>
+        <option id="select---home--southampton" value="Southampton">Southampton</option>
+        <option id="select---home--spurs" value="Tottenham Hotspur">Tottenham Hotspur</option>
+        <option id="select---home--westham" value="West Ham United">West Ham United</option>
+        <option id="select---home--wolves" value="Wolverhampton Wanderers">Wolverhampton Wanderers</option>
+    </select>
+
+
+    <br /><br />
+    <input type="checkbox" id="checkbox---switch--teams" name="home-team" value="Switch Teams"><label for="checkbox---switch--teams">Switch to Away Match</label>
+</section>
+
+That gives us a problem. We probably need to change #select---home--team to something more generic that works for both home and away games.
+
+And we to need find a way to access away match data when the checkbox is ticked. I will provide the sql for the away tables in due course.
+```
+
+```
+The thing that confuses is me is where we get the markup for away matches.  I have template parts for home-scores.php and away-scores.php.  Is this something that can and should be handled with a single template part? 
+```
+
+```
+Having tested the switching of the elements, the implementation isn't quite right. 
+
+When clicking the checkbox the expected behaviour is that #comparator---team will go to the left of score---versus and select---home--team to the right. Return to the original positions when unchecked,
+```
+
+```
+The switch is being handled correctly. The switch back is not.
+
+Before any interaction : [Select Box] V [Newcastle United]
+Checked: [Newcastle United] V [Select Box]
+Unchecked: V [Select Box] [Newcastle United]
+
+
+```
+
+```
+This hasn't fixed it because the select box stays in it's new position when the checkhox id unchecked.  Can you work out what's wrong now? 
+```
+
+```
+That's better. But we still need access to the checkbox at all times. For some reason it disappears after first uncheck of the checkbox. 
+
+ And we've lost the "Select Team" placeholder text on the dropdown box. 
+ ```

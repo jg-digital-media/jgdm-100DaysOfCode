@@ -64,7 +64,7 @@
     <section class="section---select--score">
     
         <select id="select---home--team">
-            <option value="">Select Team...</option>
+            <option id="select---home--placeholder" value="Select Team">Select Team...</option>
             <option id="select---home--bournemouth" value="AFC Bournemouth">AFC Bournemouth</option>
             <option id="select---home--arsenal" value="Arsenal">Arsenal</option>
             <option id="select---home--astonvilla" value="Aston Villa">Aston Villa</option>

@@ -86,10 +86,6 @@
     </section>
 
     <footer>
-
-        <br />
-        <hr />
-        <br />
         
         &copy; (2025) Created by <a href="https://www.jonniegrieve.co.uk" target="_blank">Jonnie Grieve Digital Media</a> All Rights Reserved
         

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 18/02/2025 - 14:17");
+    console.log("app.js connected - 19/02/2025 - 09:27");
 
     const homeTeamSelect = document.getElementById('select---home--team');
     const resultsTable = document.querySelector('table');
@@ -33,8 +33,8 @@ document.addEventListener('DOMContentLoaded', function() {
         
         if (selectedTeam && teamEndpoints[selectedTeam]) {
             // Make elements visible
-            resultsTable.style.visibility = 'visible';
-            selectedTeamScore.style.visibility = 'visible';
+            resultsTable.style.display = 'table';
+            selectedTeamScore.style.display = 'block';
 
             // Fetch both base score and matches
             Promise.all([
@@ -48,12 +48,12 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .catch(error => {
                 console.error('Error:', error);
-                resultsTable.style.visibility = 'hidden';
-                selectedTeamScore.style.visibility = 'hidden';
+                resultsTable.style.display = 'none';
+                selectedTeamScore.style.display = 'none';
             });
         } else {
-            resultsTable.style.visibility = 'hidden';
-            selectedTeamScore.style.visibility = 'hidden';
+            resultsTable.style.display = 'none';
+            selectedTeamScore.style.display = 'none';
         }
     });
 

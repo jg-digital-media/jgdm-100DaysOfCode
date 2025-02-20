@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 19/02/2025 - 16:29");
+    console.log("app.js connected - 20/02/2025 - 07:35");
 
     const teamSelect = document.getElementById('select---home--team');
     const resultsTable = document.querySelector('table');
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const teamEndpoints = {
         'AFC Bournemouth': {
             home: 'get_bournemouth_matches.php',
-            away: 'get_bournemouth_away_matches.php' // These will be added later
+            away: 'get_bournemouth_matches.php' // These will be added later
         },
         'Arsenal': 'get_arsenal_matches.php',
         'Aston Villa': 'get_astonvilla_matches.php',

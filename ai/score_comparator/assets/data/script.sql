@@ -472,7 +472,7 @@ INSERT INTO arsenal_home_matches (home_team, home_score, away_team, away_score, 
     ('Arsenal', 1, 'Southampton', 0, 1),
     ('Arsenal', 4, 'Tottenham Hotspur', 2, 1),
     ('Arsenal', 4, 'West Ham United', 0, 1),    
-    ('Arsenal', 0 'Wolverhampton Wanderers', 2, 1);
+    ('Arsenal', 0, 'Wolverhampton Wanderers', 2, 1);
 
 INSERT INTO astonvilla_home_matches (home_team, home_score, away_team, away_score, played) VALUES
     ('Aston Villa', 1, 'AFC Bournemouth', 1, 1),

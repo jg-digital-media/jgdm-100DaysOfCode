@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 20/02/2025 - 07:35");
+    console.log("app.js connected - 20/02/2025 - 12:58");
 
     const teamSelect = document.getElementById('select---home--team');
     const resultsTable = document.querySelector('table');
@@ -59,28 +59,102 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Modify the team endpoints to handle both home and away matches
     const teamEndpoints = {
+
         'AFC Bournemouth': {
             home: 'get_bournemouth_matches.php',
-            away: 'get_bournemouth_matches.php' // These will be added later
+            away: 'get_bournemouth_matches.php'
         },
-        'Arsenal': 'get_arsenal_matches.php',
-        'Aston Villa': 'get_astonvilla_matches.php',
-        'Brentford': 'get_brentford_matches.php',
-        'Brighton and Hove Albion': 'get_brighton_matches.php',
-        'Crystal Palace': 'get_crystalpalace_matches.php',
-        'Chelsea': 'get_chelsea_matches.php',
-        'Everton': 'get_everton_matches.php',
-        'Fulham': 'get_fulham_matches.php',
-        'Ipswich Town': 'get_ipswich_matches.php',
-        'Liverpool': 'get_liverpool_matches.php',
-        'Leicester City': 'get_leicester_matches.php',
-        'Manchester City': 'get_manchestercity_matches.php',
-        'Manchester United': 'get_manchesterunited_matches.php',
-        'Nottingham Forest': 'get_nottinghamforest_matches.php',
-        'Southampton': 'get_southampton_matches.php',
-        'Tottenham Hotspur': 'get_spurs_matches.php',
-        'West Ham United': 'get_westham_matches.php',
-        'Wolverhampton Wanderers': 'get_wolverhampton_matches.php'
+        
+        'Arsenal': { 
+            home: 'get_arsenal_matches.php',
+            away: 'get_arsenal_matches.php'
+        },
+        
+        'Aston Villa': { 
+            home: 'get_astonvilla_matches.php',
+            away: 'get_astonvilla_matches.php'
+        },
+        
+        'Brentford': { 
+            home: 'get_brentford_matches.php',
+            away: 'get_brentford_matches.php'
+        },
+        
+        'Brighton and Hove Albion': {
+            home: 'get_brighton_matches.php',
+            away: 'get_brighton_matches.php'
+        },
+        
+        'Chelsea': {
+            home: 'get_chelsea_matches.php',
+            away: 'get_chelsea_matches.php',
+        },
+        
+        'Crystal Palace': {
+            home: 'get_crystalpalace_matches.php',
+            away: 'get_crystalpalace_matches.php'
+        },
+
+        'Everton': {
+            home: 'get_everton_matches.php',
+            away: 'get_everton_matches.php'
+        },
+
+        'Fulham': {
+            home: 'get_fulham_matches.php',
+            away: 'get_fulham_matches.php'
+        },
+
+        'Ipswich Town': {
+            home: 'get_ipswich_matches.php',
+            away: 'get_ipswich_matches.php'
+        },
+
+        'Leicester City': {
+            home: 'get_leicester_matches.php',
+            away: 'get_leicester_matches.php'
+        },
+
+        'Liverpool': {
+            home: 'get_liverpool_matches.php',
+            away: 'get_liverpool_matches.php'
+        },
+
+        'Manchester City': {    
+            home: 'get_manchestercity_matches.php',
+            away: 'get_manchestercity_matches.php',
+        },
+
+        'Manchester United': {    
+            home: 'get_manchesterunited_matches.php',
+            away: 'get_manchesterunited_matches.php'
+        },
+
+        'Nottingham Forest': {    
+            home: 'get_nottinghamforest_matches.php',
+            away: 'get_nottinghamforest_matches.php'
+        },
+
+        'Southampton': {
+            home: 'get_southampton_matches.php',
+            away: 'get_southampton_matches.php'
+        },        
+
+        'Tottenham Hotspur': {
+            home: 'get_spurs_matches.php',
+            away: 'get_spurs_matches.php'
+        },           
+
+        'West Ham United': {
+            home: 'get_westham_matches.php',
+            away: 'get_westham_matches.php'
+        },    
+
+        'Wolverhampton Wanderers': {
+            home: 'get_wolverhampton_matches.php',
+            away: 'get_wolverhampton_matches.php'
+        }
+                
     };
 
     teamSelect.addEventListener('change', function(e) {
@@ -94,6 +168,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const endpoint = isAwayMatch ? 
                 teamEndpoints[selectedTeam].away : 
                 teamEndpoints[selectedTeam].home;
+                console.log('Calling endpoint:', `api/${isAwayMatch ? 'away' : 'home'}/${endpoint}`);
+
 
             // Update API calls to use the correct endpoint
             Promise.all([

@@ -1104,7 +1104,7 @@ INSERT INTO base_scores_away (away_team, home_team, away_score, home_score, play
 + `FIXED` section---selected--teamscore - visibility - hidden by default.
 + `FIXED` Scoreline comparison discrepancy: AFC Bournemouth	1 v Arsenal 3 table row has the `score---compares--lower` class. This is against the Base score of AFC Bournemouth 2 Newcastle 3.
   + This should be a higher class table row because of the bigger goal difference. I think what's fooling the app is that the comparison result has 1 goal for Bournemouth.
-
++ Order of columns (home and way teams) incorrect
 + Switching between home and away comparisons does not automatically bring up that set of matches.
 + "Select Team..." value text missing when switch team checkbox is interacted with
 

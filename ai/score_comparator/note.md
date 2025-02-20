@@ -1102,13 +1102,15 @@ INSERT INTO base_scores_away (away_team, home_team, away_score, home_score, play
 + Nottingham Forest missing from the Manchester United home match table
 + `FIXED` base_scores_away table is duplicated in the Schema 
 + `FIXED` section---selected--teamscore - visibility - hidden by default.
-
-+ Scoreline comparison discrepancy: AFC Bournemouth	1 v Arsenal 3 table row has the `score---compares--lower` class. This is against the Base score of AFC Bournemouth 2 Newcastle 3.
++ `FIXED` Scoreline comparison discrepancy: AFC Bournemouth	1 v Arsenal 3 table row has the `score---compares--lower` class. This is against the Base score of AFC Bournemouth 2 Newcastle 3.
   + This should be a higher class table row because of the bigger goal difference. I think what's fooling the app is that the comparison result has 1 goal for Bournemouth.
+
++ Switching between home and away comparisons does not automatically bring up that set of matches.
++ "Select Team..." value text missing when switch team checkbox is interacted with
 
 + Scoreline comparison discrepancy: Arsenal 3 Newcastle United 1 - Base Score Arsenal 3 Newcastle 1 - Scoreline comparison Arsenal 1 v AFC Bournemouth 0 shows `score---compares--lower` class.
 
-Arsenal	1	v	AFC Bournemouth	0
+  + Arsenal	1	v	AFC Bournemouth	0
 
 
 `FIXED ISSUE` 

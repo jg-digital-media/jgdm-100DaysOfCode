@@ -114,6 +114,7 @@ e.g. `mkdir -p path/to/project/assets/data`
 
 + During development, especially in the early stages, it's very common to delete and regenerate the database as you refine your data structure and requirements. `claude-3-5-sonnet`
 
++ Don't assume that just because your script runs in the terminal/commnand line that there are no errors to be found
 
 ## AI Prompts.
 
@@ -1106,7 +1107,9 @@ INSERT INTO base_scores_away (away_team, home_team, away_score, home_score, play
   + This should be a higher class table row because of the bigger goal difference. I think what's fooling the app is that the comparison result has 1 goal for Bournemouth.
 + Order of columns (home and way teams) incorrect
 + Switching between home and away comparisons does not automatically bring up that set of matches.
+  + i.e. if you select Bournemouth as the home team, the Bournemouth away matches should be retrieved when switching.
 + "Select Team..." value text missing when switch team checkbox is interacted with
++ Comparison classes are incorrectly applied for away matches
 
 + Scoreline comparison discrepancy: Arsenal 3 Newcastle United 1 - Base Score Arsenal 3 Newcastle 1 - Scoreline comparison Arsenal 1 v AFC Bournemouth 0 shows `score---compares--lower` class.
 

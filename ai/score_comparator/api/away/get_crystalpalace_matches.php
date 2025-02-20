@@ -11,7 +11,7 @@ try {
         throw new Exception("Database connection failed");
     }
     
-    $query = "SELECT * FROM arsenal_away_matches ORDER BY home_team";
+    $query = "SELECT * FROM crystalpalace_away_matches ORDER BY away_team";
     $results = $db->query($query);
     
     if (!$results) {

@@ -1100,16 +1100,22 @@ INSERT INTO base_scores_away (away_team, home_team, away_score, home_score, play
 
 + `FIXED` Crystal Palace should not be present in the Crystal Palace home match table
 + `FIXED` Nottingham Forest missing from the Manchester City home match table 
-+ Nottingham Forest missing from the Manchester United home match table
 + `FIXED` base_scores_away table is duplicated in the Schema 
 + `FIXED` section---selected--teamscore - visibility - hidden by default.
 + `FIXED` Scoreline comparison discrepancy: AFC Bournemouth	1 v Arsenal 3 table row has the `score---compares--lower` class. This is against the Base score of AFC Bournemouth 2 Newcastle 3.
++ `FIXED`Switching between home and away comparisons does not automatically bring up that set of matches.
   + This should be a higher class table row because of the bigger goal difference. I think what's fooling the app is that the comparison result has 1 goal for Bournemouth.
-+ Order of columns (home and way teams) incorrect
-+ Switching between home and away comparisons does not automatically bring up that set of matches.
-  + i.e. if you select Bournemouth as the home team, the Bournemouth away matches should be retrieved when switching.
-+ "Select Team..." value text missing when switch team checkbox is interacted with
++ `FIXED` Order of columns (home and way teams) incorrect
++ `FIXED` "Select Team..." value text missing when switch team checkbox is interacted with
+  + i.e. if you select Bournemouth as the home team, the Bournemouth away matches should be retrieved when switching  
++ Nottingham Forest missing from the Manchester United home match table
++ The `script.sql` file does not have the up to date and correct match score data
 + Comparison classes are incorrectly applied for away matches
++ Script Data: Update correct comparator teams .e.g. change from "Brentford" to the correct team.
++ Although the match tables are correctly being retrieved... the base score data has errors
+    + Base Scores should always toggle with each click of `#checkbox---switch--teams` 
+        + The home "base scores" are all correct. The away base scores mirror the home base scores. They are not being retrieved from the database.
++ Base scores do not update at all on third switch.        
 
 + Scoreline comparison discrepancy: Arsenal 3 Newcastle United 1 - Base Score Arsenal 3 Newcastle 1 - Scoreline comparison Arsenal 1 v AFC Bournemouth 0 shows `score---compares--lower` class.
 

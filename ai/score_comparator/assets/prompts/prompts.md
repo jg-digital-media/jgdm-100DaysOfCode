@@ -310,3 +310,19 @@ That's better. But we still need access to the checkbox at all times. For some r
 
  And we've lost the "Select Team" placeholder text on the dropdown box. 
  ```
+
+```
+Can you figure out why Bournemouth away match records are not returning? 
+```
+
+
+```
+The directory endpoint is 
+
+root/api/away/endpoints
+root/api/home/endpoints
+
+There is no get_bournemouth_away_matches.php endpoint. The bournemouth endpoint filenames are get_bournemouth_matches.php in both home and away directores.
+```
+
+ In the end, the answer was simply that there were errors in my SQL Script, which fooled both me ands the AI.  All the tables are now working. Never assume that your script or even the AI are right simply because your terminal processes the whole script.

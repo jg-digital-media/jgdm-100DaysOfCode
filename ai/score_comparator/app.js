@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 20/02/2025 - 12:58");
+    console.log("app.js connected - 20/02/2025 - 16:40");
 
     const teamSelect = document.getElementById('select---home--team');
     const resultsTable = document.querySelector('table');
@@ -12,14 +12,18 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Store the original select options HTML
     const originalSelectHtml = teamSelect.innerHTML;
-
-    // Track current match type
+    
+    // Track current match type and selected team
     let isAwayMatch = false;
+    let currentSelectedTeam = '';
 
     // Handle team switching
     switchTeamsCheckbox.addEventListener('change', function(e) {
         isAwayMatch = e.target.checked;
         const parent = versusElement.parentNode;
+        
+        // Remember current selection before switching
+        currentSelectedTeam = teamSelect.value;
         
         if (isAwayMatch) {
             // Move Newcastle United to the left of "V"
@@ -51,129 +55,56 @@ document.addEventListener('DOMContentLoaded', function() {
         // Restore select options
         teamSelect.innerHTML = originalSelectHtml;
         
-        // Clear current selection and results
-        teamSelect.value = '';
-        resultsTable.style.display = 'none';
-        selectedTeamScore.style.display = 'none';
+        // Restore previous selection if there was one
+        if (currentSelectedTeam) {
+            teamSelect.value = currentSelectedTeam;
+            
+            // Trigger data fetch for the restored selection
+            if (teamEndpoints[currentSelectedTeam]) {
+                const endpoint = isAwayMatch ? 
+                    teamEndpoints[currentSelectedTeam].away : 
+                    teamEndpoints[currentSelectedTeam].home;
+
+                Promise.all([
+                    fetch(`api/get_base_score.php?team=${encodeURIComponent(currentSelectedTeam)}&away=${isAwayMatch}`),
+                    fetch(`api/${isAwayMatch ? 'away' : 'home'}/${endpoint}`)
+                ])
+                .then(responses => Promise.all(responses.map(r => r.json())))
+                .then(([baseScore, matches]) => {
+                    updateBaseScore(baseScore);
+                    updateMatchTable(matches, baseScore);
+                    resultsTable.style.display = 'table';
+                    selectedTeamScore.style.display = 'block';
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    resultsTable.style.display = 'none';
+                    selectedTeamScore.style.display = 'none';
+                });
+            }
+        } else {
+            resultsTable.style.display = 'none';
+            selectedTeamScore.style.display = 'none';
+        }
     });
 
-    // Modify the team endpoints to handle both home and away matches
-    const teamEndpoints = {
-
-        'AFC Bournemouth': {
-            home: 'get_bournemouth_matches.php',
-            away: 'get_bournemouth_matches.php'
-        },
-        
-        'Arsenal': { 
-            home: 'get_arsenal_matches.php',
-            away: 'get_arsenal_matches.php'
-        },
-        
-        'Aston Villa': { 
-            home: 'get_astonvilla_matches.php',
-            away: 'get_astonvilla_matches.php'
-        },
-        
-        'Brentford': { 
-            home: 'get_brentford_matches.php',
-            away: 'get_brentford_matches.php'
-        },
-        
-        'Brighton and Hove Albion': {
-            home: 'get_brighton_matches.php',
-            away: 'get_brighton_matches.php'
-        },
-        
-        'Chelsea': {
-            home: 'get_chelsea_matches.php',
-            away: 'get_chelsea_matches.php',
-        },
-        
-        'Crystal Palace': {
-            home: 'get_crystalpalace_matches.php',
-            away: 'get_crystalpalace_matches.php'
-        },
-
-        'Everton': {
-            home: 'get_everton_matches.php',
-            away: 'get_everton_matches.php'
-        },
-
-        'Fulham': {
-            home: 'get_fulham_matches.php',
-            away: 'get_fulham_matches.php'
-        },
-
-        'Ipswich Town': {
-            home: 'get_ipswich_matches.php',
-            away: 'get_ipswich_matches.php'
-        },
-
-        'Leicester City': {
-            home: 'get_leicester_matches.php',
-            away: 'get_leicester_matches.php'
-        },
-
-        'Liverpool': {
-            home: 'get_liverpool_matches.php',
-            away: 'get_liverpool_matches.php'
-        },
-
-        'Manchester City': {    
-            home: 'get_manchestercity_matches.php',
-            away: 'get_manchestercity_matches.php',
-        },
-
-        'Manchester United': {    
-            home: 'get_manchesterunited_matches.php',
-            away: 'get_manchesterunited_matches.php'
-        },
-
-        'Nottingham Forest': {    
-            home: 'get_nottinghamforest_matches.php',
-            away: 'get_nottinghamforest_matches.php'
-        },
-
-        'Southampton': {
-            home: 'get_southampton_matches.php',
-            away: 'get_southampton_matches.php'
-        },        
-
-        'Tottenham Hotspur': {
-            home: 'get_spurs_matches.php',
-            away: 'get_spurs_matches.php'
-        },           
-
-        'West Ham United': {
-            home: 'get_westham_matches.php',
-            away: 'get_westham_matches.php'
-        },    
-
-        'Wolverhampton Wanderers': {
-            home: 'get_wolverhampton_matches.php',
-            away: 'get_wolverhampton_matches.php'
-        }
-                
-    };
-
+    // Update currentSelectedTeam when user changes selection
     teamSelect.addEventListener('change', function(e) {
-        const selectedTeam = e.target.value;
-        
-        if (selectedTeam && teamEndpoints[selectedTeam]) {
+        currentSelectedTeam = e.target.value;
+        if (currentSelectedTeam && teamEndpoints[currentSelectedTeam]) {
             resultsTable.style.display = 'table';
             selectedTeamScore.style.display = 'block';
 
             // Use the appropriate endpoint based on match type
             const endpoint = isAwayMatch ? 
-                teamEndpoints[selectedTeam].away : 
-                teamEndpoints[selectedTeam].home;
+                teamEndpoints[currentSelectedTeam].away : 
+                teamEndpoints[currentSelectedTeam].home;
                 console.log('Calling endpoint:', `api/${isAwayMatch ? 'away' : 'home'}/${endpoint}`);
 
 
             // Update API calls to use the correct endpoint
             Promise.all([
-                fetch(`api/get_base_score.php?team=${encodeURIComponent(selectedTeam)}&away=${isAwayMatch}`),
+                fetch(`api/get_base_score.php?team=${encodeURIComponent(currentSelectedTeam)}&away=${isAwayMatch}`),
                 fetch(`api/${isAwayMatch ? 'away' : 'home'}/${endpoint}`)
             ])
             .then(responses => Promise.all(responses.map(r => r.json())))
@@ -349,4 +280,104 @@ document.addEventListener('DOMContentLoaded', function() {
             tableBody.appendChild(row);
         });
     }
+
+    // Modify the team endpoints to handle both home and away matches
+    const teamEndpoints = {
+
+        'AFC Bournemouth': {
+            home: 'get_bournemouth_matches.php',
+            away: 'get_bournemouth_matches.php'
+        },
+        
+        'Arsenal': { 
+            home: 'get_arsenal_matches.php',
+            away: 'get_arsenal_matches.php'
+        },
+        
+        'Aston Villa': { 
+            home: 'get_astonvilla_matches.php',
+            away: 'get_astonvilla_matches.php'
+        },
+        
+        'Brentford': { 
+            home: 'get_brentford_matches.php',
+            away: 'get_brentford_matches.php'
+        },
+        
+        'Brighton and Hove Albion': {
+            home: 'get_brighton_matches.php',
+            away: 'get_brighton_matches.php'
+        },
+        
+        'Chelsea': {
+            home: 'get_chelsea_matches.php',
+            away: 'get_chelsea_matches.php',
+        },
+        
+        'Crystal Palace': {
+            home: 'get_crystalpalace_matches.php',
+            away: 'get_crystalpalace_matches.php'
+        },
+
+        'Everton': {
+            home: 'get_everton_matches.php',
+            away: 'get_everton_matches.php'
+        },
+
+        'Fulham': {
+            home: 'get_fulham_matches.php',
+            away: 'get_fulham_matches.php'
+        },
+
+        'Ipswich Town': {
+            home: 'get_ipswich_matches.php',
+            away: 'get_ipswich_matches.php'
+        },
+
+        'Leicester City': {
+            home: 'get_leicester_matches.php',
+            away: 'get_leicester_matches.php'
+        },
+
+        'Liverpool': {
+            home: 'get_liverpool_matches.php',
+            away: 'get_liverpool_matches.php'
+        },
+
+        'Manchester City': {    
+            home: 'get_manchestercity_matches.php',
+            away: 'get_manchestercity_matches.php',
+        },
+
+        'Manchester United': {    
+            home: 'get_manchesterunited_matches.php',
+            away: 'get_manchesterunited_matches.php'
+        },
+
+        'Nottingham Forest': {    
+            home: 'get_nottinghamforest_matches.php',
+            away: 'get_nottinghamforest_matches.php'
+        },
+
+        'Southampton': {
+            home: 'get_southampton_matches.php',
+            away: 'get_southampton_matches.php'
+        },        
+
+        'Tottenham Hotspur': {
+            home: 'get_spurs_matches.php',
+            away: 'get_spurs_matches.php'
+        },           
+
+        'West Ham United': {
+            home: 'get_westham_matches.php',
+            away: 'get_westham_matches.php'
+        },    
+
+        'Wolverhampton Wanderers': {
+            home: 'get_wolverhampton_matches.php',
+            away: 'get_wolverhampton_matches.php'
+        }
+                
+    };
 });

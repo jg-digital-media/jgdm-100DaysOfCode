@@ -6,26 +6,40 @@ ini_set('display_errors', 0);
 try {
     $db = new SQLite3('../assets/data/scores.db');
     
-    // Get team parameter and clean it
+    // Get parameters and clean them
     $team = isset($_GET['team']) ? trim($_GET['team'], ' "\'') : '';
-    error_log("Received team parameter (cleaned): " . $team);
+    $isAway = isset($_GET['away']) && $_GET['away'] === '1';
+    error_log("Received parameters - team: " . $team . ", isAway: " . ($isAway ? 'true' : 'false'));
 
     if (empty($team)) {
         throw new Exception("Team parameter is required");
     }
 
-    // Debug: Show what's in the table for this team
-    error_log("Searching for team: " . $team);
-    $debugQuery = "SELECT * FROM base_scores_home WHERE home_team LIKE :team";
-    $debugStmt = $db->prepare($debugQuery);
-    $debugStmt->bindValue(':team', '%' . $team . '%', SQLITE3_TEXT);
-    $debugResult = $debugStmt->execute();
-    while ($row = $debugResult->fetchArray(SQLITE3_ASSOC)) {
-        error_log("Found matching record: " . print_r($row, true));
+    // Select the appropriate table and query based on home/away
+    if ($isAway) {
+        // For away matches, we want Newcastle as home team and selected team as away team
+        $query = "SELECT 
+            home_team,
+            away_team,
+            home_score,
+            away_score,
+            played 
+        FROM base_scores_away 
+        WHERE home_team = 'Newcastle United' 
+        AND away_team = :team";
+    } else {
+        // For home matches, we want the selected team as home team and Newcastle as away team
+        $query = "SELECT 
+            home_team,
+            away_team,
+            home_score,
+            away_score,
+            played 
+        FROM base_scores_home 
+        WHERE home_team = :team 
+        AND away_team = 'Newcastle United'";
     }
-    
-    // Main query
-    $query = "SELECT * FROM base_scores_home WHERE home_team = :team AND away_team = 'Newcastle United'";
+
     $stmt = $db->prepare($query);
     $stmt->bindValue(':team', $team, SQLITE3_TEXT);
     
@@ -38,20 +52,25 @@ try {
         $baseScore['away_score'] = (int)$baseScore['away_score'];
         $baseScore['played'] = (int)$baseScore['played'];
         
+        // Add debug logging
+        error_log("Returning base score: " . print_r($baseScore, true));
+        
         echo json_encode($baseScore);
     } else {
-        // For debugging, let's see what teams we have
-        $allTeamsQuery = "SELECT DISTINCT home_team FROM base_scores_home";
+        // Debug: Show available teams for the relevant table
+        $allTeamsQuery = $isAway ? 
+            "SELECT DISTINCT away_team FROM base_scores_away" :
+            "SELECT DISTINCT home_team FROM base_scores_home";
         $teamsResult = $db->query($allTeamsQuery);
         $teams = [];
         while ($row = $teamsResult->fetchArray(SQLITE3_ASSOC)) {
-            $teams[] = $row['home_team'];
+            $teams[] = $row[$isAway ? 'away_team' : 'home_team'];
         }
         error_log("Available teams in database: " . print_r($teams, true));
         
         $default = [
-            'home_team' => $team,
-            'away_team' => 'Newcastle United',
+            'home_team' => $isAway ? 'Newcastle United' : $team,
+            'away_team' => $isAway ? $team : 'Newcastle United',
             'home_score' => 0,
             'away_score' => 0,
             'played' => 0

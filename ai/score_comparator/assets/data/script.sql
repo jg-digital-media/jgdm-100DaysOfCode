@@ -1,4 +1,4 @@
-/* Last Update: 21/02/2025 - 11:17 */
+/* Last Update: 21/02/2025 - 16:23 */
 
 -- Create Home Match Tables
 CREATE TABLE bournemouth_home_matches (
@@ -410,8 +410,8 @@ INSERT INTO base_scores_home (home_team, away_team, home_score, away_score, play
     ('Wolverhampton Wanderers', 'Newcastle United', 1, 2, 1);   
 
 -- Insert Base Scores for away reports
-INSERT INTO base_scores_away (away_team, home_team, away_score, home_score, played) VALUES
-    ('Newcastle United', 'AFC Bournemouth', 3, 2, 1),
+INSERT INTO base_scores_away (home_team, away_team, home_score, away_score, played) VALUES
+    ('Newcastle United', 'AFC Bournemouth', 1, 4, 1),
     ('Newcastle United', 'Arsenal', 1, 0, 1),
     ('Newcastle United', 'Aston Villa', 4, 0, 1),
     ('Newcastle United', 'Brentford', 0, 0, 0),

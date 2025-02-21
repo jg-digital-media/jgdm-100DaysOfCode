@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 21/02/2025 - 15:37");
+    console.log("app.js connected - 21/02/2025 - 16:23");
 
     const teamSelect = document.getElementById('select---home--team');
     const resultsTable = document.querySelector('table');
@@ -16,6 +16,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Track current match type and selected team
     let isAwayMatch = false;
     let currentSelectedTeam = '';
+
+    // Add currentBaseScore to track the current base score
+    let currentBaseScore = null;
 
     // Handle team switching
     switchTeamsCheckbox.addEventListener('change', function(e) {
@@ -64,39 +67,49 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Update currentSelectedTeam when user changes selection
+    // Handle team selection
     teamSelect.addEventListener('change', function(e) {
-        currentSelectedTeam = e.target.value;
-        if (currentSelectedTeam && teamEndpoints[currentSelectedTeam]) {
-            resultsTable.style.display = 'table';
-            selectedTeamScore.style.display = 'block';
+        const selectedTeam = e.target.value;
+        currentSelectedTeam = selectedTeam;
 
-            // Use the appropriate endpoint based on match type
-            const endpoint = isAwayMatch ? 
-                teamEndpoints[currentSelectedTeam].away : 
-                teamEndpoints[currentSelectedTeam].home;
-                console.log('Calling endpoint:', `api/${isAwayMatch ? 'away' : 'home'}/${endpoint}`);
+        if (selectedTeam === 'Select Team') {
+            resultsTable.style.display = 'none';
+            selectedTeamScore.style.display = 'none';
+            return;
+        }
 
-
-            // Update API calls to use the correct endpoint
-            Promise.all([
-                fetch(`api/get_base_score.php?team=${encodeURIComponent(currentSelectedTeam)}&away=${isAwayMatch}`),
-                fetch(`api/${isAwayMatch ? 'away' : 'home'}/${endpoint}`)
-            ])
-            .then(responses => Promise.all(responses.map(r => r.json())))
-            .then(([baseScore, matches]) => {
+        // Immediately fetch the correct base score based on current mode
+        fetch(`api/get_base_score.php?team=${encodeURIComponent(selectedTeam)}&away=${isAwayMatch ? 1 : 0}`)
+            .then(response => response.json())
+            .then(baseScore => {
+                console.log('Initial base score fetch:', baseScore);
+                currentBaseScore = baseScore; // Store the base score
                 updateBaseScore(baseScore, isAwayMatch);
-                updateMatchTable(matches, baseScore);
+                
+                // Now fetch the match data
+                const endpoint = isAwayMatch ? 
+                    teamEndpoints[selectedTeam].away : 
+                    teamEndpoints[selectedTeam].home;
+                
+                return fetch(`api/${isAwayMatch ? 'away' : 'home'}/${endpoint}`);
+            })
+            .then(response => response.json())
+            .then(matches => {
+                if (currentBaseScore) { // Check if we have a base score
+                    updateMatchTable(matches, currentBaseScore);
+                    resultsTable.style.display = 'table';
+                    selectedTeamScore.style.display = 'block';
+                } else {
+                    console.error('No base score available');
+                    resultsTable.style.display = 'none';
+                    selectedTeamScore.style.display = 'none';
+                }
             })
             .catch(error => {
                 console.error('Error:', error);
                 resultsTable.style.display = 'none';
                 selectedTeamScore.style.display = 'none';
             });
-        } else {
-            resultsTable.style.display = 'none';
-            selectedTeamScore.style.display = 'none';
-        }
     });
 
     function updateBaseScore(baseScore, isAway) {

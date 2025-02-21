@@ -131,6 +131,12 @@ sqlite3 scores.db
 
 + Development script can be found in `/assets/data/script.sql`
 
+## Features
+
++ Remembers selected team and base score when switching between home and away mode
++ Shows base score and match data for selected team
++ Shows match data for selected team against 18 other teams (the other team being Newcastle United)
++ Match tables compare how 18 othr home teams compared through the season against the selected team
 
 ## Bugs & Issues
 

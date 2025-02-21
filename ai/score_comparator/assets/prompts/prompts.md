@@ -1,3 +1,7 @@
+# Prompts used.
+
+Here's a selection of the [] prompts that I used with Cursor AI to build this app.
+
 ```
 I've deleted the db file and we're going to try again.  Look at the `.select---home--team` dropdown box.  This is the first dropdown box and one where we select the team in which we're comparing other football matches against. In this edge case assume we'll select AFC Bournemouth. This will bring up a dynamic table, which is created in sqlite3, of all the other teams in the league playing away from home against AFC Bournemouth.  Let's try this out by generating a .db file that contains the table of home bournemouth games. 
 
@@ -325,4 +329,64 @@ root/api/home/endpoints
 There is no get_bournemouth_away_matches.php endpoint. The bournemouth endpoint filenames are get_bournemouth_matches.php in both home and away directores.
 ```
 
- In the end, the answer was simply that there were errors in my SQL Script, which fooled both me ands the AI.  All the tables are now working. Never assume that your script or even the AI are right simply because your terminal processes the whole script.
+In the end, the answer was simply that there were errors in my SQL Script, which fooled both me ands the AI.  All the tables are now working. Never assume that your script or even the AI are right simply because your terminal processes the whole script.
+
+ 
+ 
+
+### Handling switch between home and away modes
+
+```
+This was not working and only bringing up more bugs.  So I've reverted back but kept the changes to  get_base_score.php 
+
+Now...  
+
+The match score tables are working correctly. 
+There's now no change to the base scores when clicking #checkbox---switch--teams. 
+
+The home "base scores" are all correct
+
+The errors start to happen the moment we click the checkbox.. We've tried preventing the mirroring of this score data. Can't we retrieve this base score data directly from the away base score table?
+```
+
+I was experiencing a lot of frustration at this stage of the development.  Whehter it was the promppts I was using; whether I wasn't giving the right context; whether the AI was getting confused by the codebase; Whether it was some of my mistakes or a combination of all of those things, I don't know.
+
+It's lesson that these things can happen whether you're coding by hanf or using AI.
+
+```
+The selected away team now always says "Newcastle United" and seems to show the number for the reverse fixture. 
+```
+
+```
+It's very hard to pin down where the bugs start in this app but let's try. 
+
+It's imperative that we fix getting the correct base scorelines as there's no away to make away teams interactive and selectable without clicking #checkbox---switch--teams. 
+
+home dropdown interactions before clicking #checkbox---switch--teams are good.
+
+Toggling through #checkbox---switch---teams gives the right base scores but not the right base team. It always returns "Newcastle United".
+
+e.g, away team   Newcastle United 2 Newcastle United 3 not Newcastle United 2 Bournemouth 3
+```
+
+```
+I'll take this as a little win.  The base scores now appear to be correct.  That's a step forward. There is a side effect that I hope we can clear up.
+
+If we select #checkbox---switch--teams first and then choose a team.. e.g Brentford. It takes 2 clicks to bring back the correct base score.  Brentford 4 Newcastle United 2.
+
+That is not the case for selecting the home team. 
+```
+
+
+```
+app.js:99 Error: ReferenceError: currentBaseScore is not defined
+    at app.js:94:43
+
+When in both home and away mode. 
+```
+
+```
+Now we have good handling of base scores in home and away mode.  Thank you!  
+
+Now we need to work out how to get the corresponding match tables showing up when we switch between home and away mode.  It's not a good UX experience to have user select another team, and then go back to the one they want before getting the right results table. 
+```

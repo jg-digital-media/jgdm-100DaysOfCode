@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 21/02/2025 - 16:23");
+    console.log("app.js connected - 21/02/2025 - 16:46");
 
     const teamSelect = document.getElementById('select---home--team');
     const resultsTable = document.querySelector('table');
@@ -47,20 +47,29 @@ document.addEventListener('DOMContentLoaded', function() {
         // Restore select options
         teamSelect.innerHTML = originalSelectHtml;
         
-        // If we have a selected team, fetch the appropriate base score
+        // If we have a selected team, fetch both base score and match data
         if (currentSelectedTeam && currentSelectedTeam !== 'Select Team') {
-            // Fetch fresh base score data based on home/away status
-            fetch(`api/get_base_score.php?team=${encodeURIComponent(currentSelectedTeam)}&away=${isAwayMatch ? 1 : 0}`)
-                .then(response => response.json())
-                .then(baseScore => {
-                    console.log('Fetched base score:', baseScore);
-                    updateBaseScore(baseScore, isAwayMatch);
-                })
-                .catch(error => {
-                    console.error('Error fetching base score:', error);
-                });
-
             teamSelect.value = currentSelectedTeam;
+            
+            // Fetch both base score and matches
+            Promise.all([
+                fetch(`api/get_base_score.php?team=${encodeURIComponent(currentSelectedTeam)}&away=${isAwayMatch ? 1 : 0}`),
+                fetch(`api/${isAwayMatch ? 'away' : 'home'}/${teamEndpoints[currentSelectedTeam][isAwayMatch ? 'away' : 'home']}`)
+            ])
+            .then(responses => Promise.all(responses.map(r => r.json())))
+            .then(([baseScore, matches]) => {
+                console.log('Fetched data:', { baseScore, matches });
+                currentBaseScore = baseScore;
+                updateBaseScore(baseScore, isAwayMatch);
+                updateMatchTable(matches, baseScore);
+                resultsTable.style.display = 'table';
+                selectedTeamScore.style.display = 'block';
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+                resultsTable.style.display = 'none';
+                selectedTeamScore.style.display = 'none';
+            });
         } else {
             resultsTable.style.display = 'none';
             selectedTeamScore.style.display = 'none';

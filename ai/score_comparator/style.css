@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 20/02/2024 - 17:33 */
+/* Stylesheet Upated: 24/02/2024 - 17:25 */
 * {
   margin: 0;
   padding: 0;
@@ -132,6 +132,10 @@ body .section---about a {
 }
 body .section---about a:hover {
   color: blue;
+}
+body .section---about h2 {
+  border-bottom: solid 1px #c32020;
+  margin-top: 10pt;
 }
 body #container {
   width: 100%;

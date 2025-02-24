@@ -67,7 +67,7 @@
 
         <p>Development for this app began on the 10<sup>th</sup> February 2025.</p>
         
-        <p>It has been a brainchild of mine for many years. It was an idea I came up with during, ironically a Web Accessibility module for web design at University.</p> 
+        <p>It has been a brainchild of mine for many years. It was an idea I came up with icronically a Web Accessibility module for web design at University. That was some time in 2010.</p> 
 
         <p>However I knew I didn't have the &quot;spoons&quot; to create it on my own. I don't say that to do myself down. When I say I don't have the &quot;spoons&quot; I mean that I don't have the knowledge or skills; the power or the patience in my head to sit down to be able to create it when I think about the enormity, time and effort it would take.</p>
 
@@ -87,13 +87,13 @@
 
         <h2>Points to take.</h2>
 
-        I've made no secret that I relied on AI to develop the functionality of this app.
+        <p>I've made no secret that I relied on AI to develop the functionality of this app.</p>
 
-        I have tried to keep up with the code that is generated at each step.  so I understand what's being given to me as I go.  That's not always easy or practical. 
+        <p>I have tried to keep up with the code that is generated at each step so I understand what's being given to me as I go.  That's not always easy or practical.</p>
 
-        When AI works for you, it's like magic. But like magic, it is an illusion.  When AI understands your codebase it's mor likely to be able to do things for you at the first and only chat prompt.
+        <p>When AI works for you, it's like magic. But like magic, it is an illusion. When AI understands your codebase it's more likely to be able to do things for you at the first and only chat prompt.</p>
 
-        But sometimes it doesn't go like that. Sometimes like human web developent it can take breaking things and getting things wrong before you get the outcome you need.
+        <p>But sometimes it doesn't go like that. Sometimes like human web development it can take breaking things and getting things wrong before you get the outcome you need.</p>
 
         <a href="index.php">Back to the Match Tables</a>
 

@@ -120,48 +120,7 @@ e.g. `mkdir -p path/to/project/assets/data`
 
 in `/prompts/prompts.md`
 
-
-## SQL Development Script
-
-```sql
--- First, delete the existing scores.db file
--- Then create new database and table:
-sqlite3 scores.db
-```
-
-+ Development script can be found in `/assets/data/script.sql`
-
-## Features
-
-+ Remembers selected team and base score when switching between home and away mode
-+ Shows base score and match data for selected team
-+ Shows match data for selected team against 18 other teams (the other team being Newcastle United)
-+ Match tables compare how 18 othr home teams compared through the season against the selected team
-
-## Bugs & Issues
-
-+ `FIXED` Crystal Palace should not be present in the Crystal Palace home match table
-+ `FIXED` Nottingham Forest missing from the Manchester City home match table 
-+ `FIXED` base_scores_away table is duplicated in the Schema 
-+ `FIXED` section---selected--teamscore - visibility - hidden by default.
-+ `FIXED` Scoreline comparison discrepancy: AFC Bournemouth	1 v Arsenal 3 table row has the `score---compares--lower` class. This is against the Base score of AFC Bournemouth 2 Newcastle 3.
-+ `FIXED`Switching between home and away comparisons does not automatically bring up that set of matches.
-  + This should be a higher class table row because of the bigger goal difference. I think what's fooling the app is that the comparison result has 1 goal for Bournemouth.
-+ `FIXED` Order of columns (home and way teams) incorrect
-+ `FIXED` "Select Team..." value text missing when switch team checkbox is interacted with
-  + i.e. if you select Bournemouth as the home team, the Bournemouth away matches should be retrieved when switching  
-+ `FIXED` Nottingham Forest missing from the Manchester United home match table
-+ `FIXED` Script Data: Update correct comparator teams .e.g. change from "Brentford" to the correct team.
-+ `FIXED` Although the match tables are correctly being retrieved... the base score data has errors
-+ `FIXED` Base Scores should always toggle with each click of `#checkbox---switch--teams` 
-+ `FIXED` The home "base scores" are all correct. The away base scores mirror the home base scores. They are not being retrieved from the database.
-+ `FIXED` Base scores do not update at all on third switch.        
-
-+ `RESTED ISSUE` Scoreline comparison discrepancy: Arsenal 3 Newcastle United 1 - Base Score Arsenal 3 Newcastle 1 - Scoreline comparison Arsenal 1 v AFC Bournemouth 0 shows `score---compares--lower` class.
-  + Arsenal	1	v	AFC Bournemouth	0
-
-`FIXED ISSUE` 
-### Using the SQLite shell. 
+## Using the SQLite shell. 
 
 ```sql
 
@@ -186,22 +145,70 @@ SELECT * from bournemouth_home_matches;
 
 ```
 
-`RESTED ISSUE`
+## SQL Development Script
+
+```sql
+-- First, delete the existing scores.db file
+-- Then create new database and table:
+sqlite3 scores.db
+```
+
++ Development script can be found in `/assets/data/script.sql`
+
+## Features
+
++ Remembers selected team and base score when switching between home and away mode
++ Shows base score and match data for selected team
++ Shows match data for selected team against 18 other teams (the other team being Newcastle United)
++ Match tables compare how 18 other home teams compared through the season against the selected team
+
 ### Comparison Classes - Base Scores versus match scores
 
-score---compares--lower
-score---compares--higher
-score---compares--default
-score---matches---result
-score---compares--exactly
-
 ```
+.score---compares--lower
+.score---compares--higher
+.score---compares--default
+.score---matches---result
+.score---compares--exactly
+```
+
+## Bugs & Issues
+
++ `FIXED` Crystal Palace should not be present in the Crystal Palace home match table
++ `FIXED` Nottingham Forest missing from the Manchester City home match table 
++ `FIXED` base_scores_away table is duplicated in the Schema 
++ `FIXED` section---selected--teamscore - visibility - hidden by default.
++ `FIXED` Scoreline comparison discrepancy: AFC Bournemouth	1 v Arsenal 3 table row has the `score---compares--lower` class. This is against the Base score of AFC Bournemouth 2 Newcastle 3.
++ `FIXED`Switching between home and away comparisons does not automatically bring up that set of matches.
+  + This should be a higher class table row because of the bigger goal difference. I think what's fooling the app is that the comparison result has 1 goal for Bournemouth.
++ `FIXED` Order of columns (home and way teams) incorrect
++ `FIXED` "Select Team..." value text missing when switch team checkbox is interacted with
+  + i.e. if you select Bournemouth as the home team, the Bournemouth away matches should be retrieved when switching  
++ `FIXED` Nottingham Forest missing from the Manchester United home match table
++ `FIXED` Script Data: Update correct comparator teams .e.g. change from "Brentford" to the correct team.
++ `FIXED` Although the match tables are correctly being retrieved... the base score data has errors
++ `FIXED` Base Scores should always toggle with each click of `#checkbox---switch--teams` 
++ `FIXED` The home "base scores" are all correct. The away base scores mirror the home base scores. They are not being retrieved from the database.
++ `FIXED` Base scores do not update at all on third switch.  
++ Score Comparisons should not be applied if the base match has not been played.      
++ When a match has not been played, there should be no scoreline comparison classes
++ Comparison classes are incorrectly applied for away matches
++ The `script.sql` file does not have the up to date and correct match score data
++ Comparison classes need to be checked for accuracy before release and rolling out
+
++ `RESTED ISSUE` Scoreline comparison discrepancy: Arsenal 3 Newcastle United 1 - Base Score Arsenal 3 Newcastle 1 - Scoreline comparison Arsenal 1 v AFC Bournemouth 0 shows `score---compares--lower` class.
+  + Arsenal	1	v	AFC Bournemouth	0
+
+
+`RESTED ISSUE`
+
 The data as it is at the moment (As of 18/02/2025 - 12:26).
 
 I think we need to tweak this implementation  
 
 I've done an audit of the first 4 tables that'll hopefully give an idea of what I need and how to fix
 
+```
 Bournemouth
 -----------
 
@@ -300,11 +307,13 @@ Brentford	3	v	Tottenham Hotspur 2 - incorrectly matches lower - home win - shoul
 Brentford	1	v	West Ham United	0 - incorrectly matches lower - home win - should be matching result
 Brentford	3	v	Wolverhampton Wanderers	3 - correctly matches lower - home score draw 
 
-
-
 ```
 
-+ When a match has not been played, there should be no scoreline comparison classes
-+ Comparison classes are incorrectly applied for away matches
-+ The `script.sql` file does not have the up to date and correct match score data
-+ Comparison classes need to be checked for accuracy before release and rollling out
+### Edge Cases - 24-02-2025
+
+`Open`
+#### Edge Case One 
+Base Scoreline: Newcastle United 1 AFC Bournemouth 4
+
+Arsenal	1	v	AFC Bournemouth	0 - lower - home win
+Nottingham Forest	1	v	AFC Bournemouth	0 - lower - home win

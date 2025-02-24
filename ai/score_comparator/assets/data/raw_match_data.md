@@ -4,6 +4,219 @@ Source: worldfootball.net
 
 ## Match Data - 2024/25 Season
 
+### 1
+
+24/08/2024	12:30	Brighton & Hove Albion	-	Manchester United	2:1 (1:0)	
+15:00	Crystal Palace	-	West Ham United	0:2 (0:0)	
+15:00	Fulham FC	-	Leicester City	2:1 (1:1)	
+15:00	Manchester City	-	Ipswich Town	4:1 (3:1)	
+15:00	Southampton FC	-	Nottingham Forest	0:1 (0:0)	
+15:00	Tottenham Hotspur	-	Everton FC	4:0 (2:0)	
+17:30	Aston Villa	-	Arsenal FC	0:2 (0:0)	
+25/08/2024	14:00	AFC Bournemouth	-	Newcastle United	1:1 (1:0)	
+14:00	Wolverhampton Wanderers	-	Chelsea FC	2:6 (2:2)	
+16:30	Liverpool FC	-	Brentford FC	2:0 (1:0)
+
+### 2
+
+24/08/2024	12:30	Brighton & Hove Albion	-	Manchester United	2:1 (1:0)	
+15:00	Crystal Palace	-	West Ham United	0:2 (0:0)	
+15:00	Fulham FC	-	Leicester City	2:1 (1:1)	
+15:00	Manchester City	-	Ipswich Town	4:1 (3:1)	
+15:00	Southampton FC	-	Nottingham Forest	0:1 (0:0)	
+15:00	Tottenham Hotspur	-	Everton FC	4:0 (2:0)	
+17:30	Aston Villa	-	Arsenal FC	0:2 (0:0)	
+25/08/2024	14:00	AFC Bournemouth	-	Newcastle United	1:1 (1:0)	
+14:00	Wolverhampton Wanderers	-	Chelsea FC	2:6 (2:2)	
+16:30	Liverpool FC	-	Brentford FC	2:0 (1:0)
+
+### 3
+
+31/08/2024	12:30	Arsenal FC	-	Brighton & Hove Albion	1:1 (1:0)	
+15:00	Brentford FC	-	Southampton FC	3:1 (1:0)	
+15:00	Everton FC	-	AFC Bournemouth	2:3 (0:0)	
+15:00	Ipswich Town	-	Fulham FC	1:1 (1:1)	
+15:00	Leicester City	-	Aston Villa	1:2 (0:1)	
+15:00	Nottingham Forest	-	Wolverhampton Wanderers	1:1 (1:1)	
+17:30	West Ham United	-	Manchester City	1:3 (1:2)	
+01/09/2024	13:30	Chelsea FC	-	Crystal Palace	1:1 (1:0)	
+13:30	Newcastle United	-	Tottenham Hotspur	2:1 (1:0)	
+16:00	Manchester United	-	Liverpool FC	0:3 (0:2)
+
+
+### 4
+
+14/09/2024	12:30	Southampton FC	-	Manchester United	0:3 (0:2)	
+15:00	Brighton & Hove Albion	-	Ipswich Town	0:0 (0:0)	
+15:00	Crystal Palace	-	Leicester City	2:2 (0:1)	
+15:00	Fulham FC	-	West Ham United	1:1 (1:0)	
+15:00	Liverpool FC	-	Nottingham Forest	0:1 (0:0)	
+15:00	Manchester City	-	Brentford FC	2:1 (2:1)	
+17:30	Aston Villa	-	Everton FC	3:2 (1:2)	
+20:00	AFC Bournemouth	-	Chelsea FC	0:1 (0:0)	
+15/09/2024	14:00	Tottenham Hotspur	-	Arsenal FC	0:1 (0:0)	
+16:30	Wolverhampton Wanderers	-	Newcastle United	1:2 (1:0)
+
+### 5
+
+21/09/2024	12:30	West Ham United	-	Chelsea FC	0:3 (0:2)	
+15:00	Aston Villa	-	Wolverhampton Wanderers	3:1 (0:1)	
+15:00	Fulham FC	-	Newcastle United	3:1 (2:0)	
+15:00	Leicester City	-	Everton FC	1:1 (0:1)	
+15:00	Liverpool FC	-	AFC Bournemouth	3:0 (3:0)	
+15:00	Southampton FC	-	Ipswich Town	1:1 (1:0)	
+15:00	Tottenham Hotspur	-	Brentford FC	3:1 (2:1)	
+17:30	Crystal Palace	-	Manchester United	0:0 (0:0)	
+22/09/2024	14:00	Brighton & Hove Albion	-	Nottingham Forest	2:2 (2:1)	
+16:30	Manchester City	-	Arsenal FC	2:2 (1:2)
+
+### 6
+
+28/09/2024	12:30	Newcastle United	-	Manchester City	1:1 (0:1)	
+15:00	Arsenal FC	-	Leicester City	4:2 (2:0)	
+15:00	Brentford FC	-	West Ham United	1:1 (1:0)	
+15:00	Chelsea FC	-	Brighton & Hove Albion	4:2 (4:2)	
+15:00	Everton FC	-	Crystal Palace	2:1 (0:1)	
+15:00	Nottingham Forest	-	Fulham FC	0:1 (0:0)	
+17:30	Wolverhampton Wanderers	-	Liverpool FC	1:2 (0:1)	
+29/09/2024	14:00	Ipswich Town	-	Aston Villa	2:2 (1:2)	
+16:30	Manchester United	-	Tottenham Hotspur	0:3 (0:1)	
+30/09/2024	20:00	AFC Bournemouth	-	Southampton FC	3:1 (3:0)
+
+### 7
+
+05/10/2024	12:30	Crystal Palace	-	Liverpool FC	0:1 (0:1)	
+15:00	Arsenal FC	-	Southampton FC	3:1 (0:0)	
+15:00	Brentford FC	-	Wolverhampton Wanderers	5:3 (4:2)	
+15:00	Leicester City	-	AFC Bournemouth	1:0 (1:0)	
+15:00	Manchester City	-	Fulham FC	3:2 (1:1)	
+15:00	West Ham United	-	Ipswich Town	4:1 (2:1)	
+17:30	Everton FC	-	Newcastle United	0:0 (0:0)	
+06/10/2024	14:00	Aston Villa	-	Manchester United	0:0 (0:0)	
+14:00	Chelsea FC	-	Nottingham Forest	1:1 (0:0)	
+16:30	Brighton & Hove Albion	-	Tottenham Hotspur	3:2 (0:2)
+
+### 8
+
+19/10/2024	12:30	Tottenham Hotspur	-	West Ham United	4:1 (1:1)	
+15:00	Fulham FC	-	Aston Villa	1:3 (1:1)	
+15:00	Ipswich Town	-	Everton FC	0:2 (0:2)	
+15:00	Manchester United	-	Brentford FC	2:1 (0:1)	
+15:00	Newcastle United	-	Brighton & Hove Albion	0:1 (0:1)	
+15:00	Southampton FC	-	Leicester City	2:3 (2:0)	
+17:30	AFC Bournemouth	-	Arsenal FC	2:0 (0:0)	
+20/10/2024	14:00	Wolverhampton Wanderers	-	Manchester City	1:2 (1:1)	
+16:30	Liverpool FC	-	Chelsea FC	2:1 (1:0)	
+21/10/2024	20:00	Nottingham Forest	-	Crystal Palace	1:0 (0:0)
+
+### 9
+
+25/10/2024	20:00	Leicester City	-	Nottingham Forest	1:3 (1:1)	
+26/10/2024	15:00	Aston Villa	-	AFC Bournemouth	1:1 (0:0)	
+15:00	Brentford FC	-	Ipswich Town	4:3 (2:2)	
+15:00	Brighton & Hove Albion	-	Wolverhampton Wanderers	2:2 (1:0)	
+15:00	Manchester City	-	Southampton FC	1:0 (1:0)	
+17:30	Everton FC	-	Fulham FC	1:1 (0:0)	
+27/10/2024	14:00	Chelsea FC	-	Newcastle United	2:1 (1:1)	
+14:00	Crystal Palace	-	Tottenham Hotspur	1:0 (1:0)	
+14:00	West Ham United	-	Manchester United	2:1 (0:0)	
+16:30	Arsenal FC	-	Liverpool FC	2:2 (2:1)
+
+### 10
+
+02/11/2024	12:30	Newcastle United	-	Arsenal FC	1:0 (1:0)	
+15:00	AFC Bournemouth	-	Manchester City	2:1 (1:0)	
+15:00	Ipswich Town	-	Leicester City	1:1 (0:0)	
+15:00	Liverpool FC	-	Brighton & Hove Albion	2:1 (0:1)	
+15:00	Nottingham Forest	-	West Ham United	3:0 (1:0)	
+15:00	Southampton FC	-	Everton FC	1:0 (0:0)	
+17:30	Wolverhampton Wanderers	-	Crystal Palace	2:2 (0:0)	
+03/11/2024	14:00	Tottenham Hotspur	-	Aston Villa	4:1 (0:1)	
+16:30	Manchester United	-	Chelsea FC	1:1 (0:0)	
+04/11/2024	20:00	Fulham FC	-	Brentford FC	2:1 (0:1)
+
+
+### 11
+
+09/11/2024	15:00	Brentford FC	-	AFC Bournemouth	3:2 (1:1)	
+15:00	Crystal Palace	-	Fulham FC	0:2 (0:1)	
+15:00	West Ham United	-	Everton FC	0:0 (0:0)	
+15:00	Wolverhampton Wanderers	-	Southampton FC	2:0 (1:0)	
+17:30	Brighton & Hove Albion	-	Manchester City	2:1 (0:1)	
+20:00	Liverpool FC	-	Aston Villa	2:0 (1:0)	
+10/11/2024	14:00	Manchester United	-	Leicester City	3:0 (2:0)	
+14:00	Nottingham Forest	-	Newcastle United	1:3 (1:0)	
+14:00	Tottenham Hotspur	-	Ipswich Town	1:2 (0:2)	
+16:30	Chelsea FC	-	Arsenal FC	1:1 (0:0)	
+
+### 12
+
+23/11/2024	12:30	Leicester City	-	Chelsea FC	1:2 (0:1)	
+15:00	AFC Bournemouth	-	Brighton & Hove Albion	1:2 (0:1)	
+15:00	Arsenal FC	-	Nottingham Forest	3:0 (1:0)	
+15:00	Aston Villa	-	Crystal Palace	2:2 (1:2)	
+15:00	Everton FC	-	Brentford FC	0:0 (0:0)	
+15:00	Fulham FC	-	Wolverhampton Wanderers	1:4 (1:1)	
+17:30	Manchester City	-	Tottenham Hotspur	0:4 (0:2)	
+24/11/2024	14:00	Southampton FC	-	Liverpool FC	2:3 (1:1)	
+16:30	Ipswich Town	-	Manchester United	1:1 (1:1)	
+25/11/2024	20:00	Newcastle United	-	West Ham United	0:2 (0:1)
+
+
+### 13
+
+29/11/2024	20:00	Brighton & Hove Albion	-	Southampton FC	1:1 (1:0)	
+30/11/2024	15:00	Brentford FC	-	Leicester City	4:1 (3:1)	
+15:00	Crystal Palace	-	Newcastle United	1:1 (0:0)	
+15:00	Nottingham Forest	-	Ipswich Town	1:0 (0:0)	
+15:00	Wolverhampton Wanderers	-	AFC Bournemouth	2:4 (1:3)	
+17:30	West Ham United	-	Arsenal FC	2:5 (2:5)	
+01/12/2024	13:30	Chelsea FC	-	Aston Villa	3:0 (2:0)	
+13:30	Manchester United	-	Everton FC	4:0 (2:0)	
+13:30	Tottenham Hotspur	-	Fulham FC	1:1 (0:0)	
+16:00	Liverpool FC	-	Manchester City	2:0 (1:0)
+
+### 14
+
+03/12/2024	19:30	Ipswich Town	-	Crystal Palace	0:1 (0:0)	
+20:15	Leicester City	-	West Ham United	3:1 (1:0)	
+04/12/2024	19:30	Everton FC	-	Wolverhampton Wanderers	4:0 (2:0)	
+19:30	Manchester City	-	Nottingham Forest	3:0 (2:0)	
+19:30	Newcastle United	-	Liverpool FC	3:3 (1:0)	
+19:30	Southampton FC	-	Chelsea FC	1:5 (1:3)	
+20:15	Arsenal FC	-	Manchester United	2:0 (0:0)	
+20:15	Aston Villa	-	Brentford FC	3:1 (3:0)	
+05/12/2024	19:30	Fulham FC	-	Brighton & Hove Albion	3:1 (1:0)	
+20:15	AFC Bournemouth	-	Tottenham Hotspur	1:0 (1:0)
+
+### 15
+
+07/12/2024	15:00	Aston Villa	-	Southampton FC	1:0 (1:0)	
+15:00	Brentford FC	-	Newcastle United	4:2 (2:2)	
+15:00	Crystal Palace	-	Manchester City	2:2 (1:1)	
+17:30	Manchester United	-	Nottingham Forest	2:3 (1:1)	
+08/12/2024	14:00	Fulham FC	-	Arsenal FC	1:1 (1:0)	
+14:00	Ipswich Town	-	AFC Bournemouth	1:2 (1:0)	
+14:00	Leicester City	-	Brighton & Hove Albion	2:2 (0:1)	
+16:30	Tottenham Hotspur	-	Chelsea FC	3:4 (2:1)	
+09/12/2024	20:00	West Ham United	-	Wolverhampton Wanderers	2:1 (0:0)	
+12/02/2025	19:30	Everton FC	-	Liverpool FC	2:2 (1:1)
+
+
+### 16
+
+14/12/2024	15:00	Arsenal FC	-	Everton FC	0:0 (0:0)	
+15:00	Liverpool FC	-	Fulham FC	2:2 (0:1)	
+15:00	Newcastle United	-	Leicester City	4:0 (1:0)	
+15:00	Wolverhampton Wanderers	-	Ipswich Town	1:2 (0:1)	
+17:30	Nottingham Forest	-	Aston Villa	2:1 (0:0)	
+15/12/2024	14:00	Brighton & Hove Albion	-	Crystal Palace	1:3 (0:2)	
+16:30	Manchester City	-	Manchester United	1:2 (1:0)	
+19:00	Chelsea FC	-	Brentford FC	2:1 (1:0)	
+19:00	Southampton FC	-	Tottenham Hotspur	0:5 (0:5)	
+16/12/2024	20:00	AFC Bournemouth	-	West Ham United	1:1 (0:0)	
+
+
 ### 17
 
 Aston Villa -Manchester City	2:1 	
@@ -115,6 +328,16 @@ Tottenham Hotspur	-	Liverpool FC	3:6 (1:3)
 
 ### 25
 
+14/02/2025	20:00	Brighton & Hove Albion	-	Chelsea FC	3:0 (2:0)	
+15/02/2025	12:30	Leicester City	-	Arsenal FC	0:2 (0:0)	
+15:00	Southampton FC	-	AFC Bournemouth	1:3 (0:2)	
+15:00	West Ham United	-	Brentford FC	0:1 (0:1)	
+15:00	Aston Villa	-	Ipswich Town	1:1 (0:0)	
+15:00	Manchester City	-	Newcastle United	4:0 (3:0)	
+15:00	Fulham FC	-	Nottingham Forest	2:1 (1:1)	
+17:30	Crystal Palace	-	Everton FC	1:2 (0:1)	
+16/02/2025	14:00	Liverpool FC	-	Wolverhampton Wanderers	2:1 (2:0)	
+16:30	Tottenham Hotspur	-	Manchester United	1:0 (1:0)	
 
 
 ### 26
@@ -128,5 +351,5 @@ Tottenham Hotspur	-	Liverpool FC	3:6 (1:3)
 15:00	Arsenal FC	-	West Ham United	0:1 (0:1)	
 15:00	AFC Bournemouth	-	Wolverhampton Wanderers	0:1 (0:1)	
 17:30	Aston Villa	-	Chelsea FC	1:1	
-23/02/2025	14:00	Newcastle United	-	Nottingham Forest	-:-	
-16:30	Manchester City	-	Liverpool FC	-:-	
+23/02/2025	14:00	Newcastle United	-	Nottingham Forest	4:3	
+16:30	Manchester City	-	Liverpool FC	0:2	

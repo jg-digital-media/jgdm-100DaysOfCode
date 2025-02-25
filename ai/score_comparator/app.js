@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 21/02/2025 - 16:46");
+    console.log("app.js connected - 25/02/2025 - 14:13");
 
     const teamSelect = document.getElementById('select---home--team');
     const resultsTable = document.querySelector('table');
@@ -154,98 +154,26 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function getComparisonClass(baseScore, matchScore) {
-        // If match hasn't been played, return early
+        // If base score shows 'L', don't apply any comparison classes
+        if (!baseScore.played) {
+            return '';  // Return empty string instead of a comparison class
+        }
+
+        // For played matches, continue with normal comparison
         if (!matchScore.played) {
             return 'score---compares--stilltoplay';
         }
 
-        // Convert all scores to numbers for comparison
-        const baseHome = parseInt(baseScore.home_score);
-        const baseAway = parseInt(baseScore.away_score);
-        const matchHome = parseInt(matchScore.home_score);
-        const matchAway = parseInt(matchScore.away_score);
+        const baseTotal = baseScore.home_score + baseScore.away_score;
+        const matchTotal = matchScore.home_score + matchScore.away_score;
 
-        // Check for exact score matches first (e.g., both 2-3 or both 1-1)
-        if (matchHome === baseHome && matchAway === baseAway) {
+        if (matchTotal > baseTotal) {
+            return 'score---compares--higher';
+        } else if (matchTotal < baseTotal) {
+            return 'score---compares--lower';
+        } else {
             return 'score---compares--exactly';
         }
-
-        // Convert results to simple numbers: 1 (win), 0 (draw), -1 (loss)
-        // This helps us compare the basic match outcomes
-        const baseResult = Math.sign(baseHome - baseAway);
-        const matchResult = Math.sign(matchHome - matchAway);
-
-        // Handle draws (matchResult === 0)
-        if (matchResult === 0) {
-            if (baseResult === 0) {
-                // Both games were draws
-                // For draws, higher scoring draws (2-2) are better than lower scoring ones (0-0)
-                if (matchHome > baseHome) {
-                    return 'score---compares--higher';
-                } else if (matchHome < baseHome) {
-                    return 'score---compares--lower';
-                } else {
-                    // Same scoring draw (both 1-1 or both 2-2 etc.)
-                    return 'score---matches---result';
-                }
-            }
-            // If base game wasn't a draw, then a draw is considered worse
-            // e.g., if base is a 3-1 win, then a 1-1 draw is worse
-            return 'score---compares--lower';
-        }
-
-        // Handle wins (matchResult === 1)
-        if (matchResult === 1) {
-            if (baseResult === 1) {
-                // Both games were wins
-                // Compare the margin of victory
-                const baseGoalDiff = baseHome - baseAway;
-                const matchGoalDiff = matchHome - matchAway;
-                
-                if (matchGoalDiff > baseGoalDiff) {
-                    // Won by more goals (e.g., 3-0 vs base 2-0)
-                    return 'score---compares--higher';
-                } else if (matchGoalDiff < baseGoalDiff) {
-                    // Won by fewer goals (e.g., 1-0 vs base 3-1)
-                    return 'score---compares--lower';
-                } else {
-                    // Same goal difference - compare total goals scored
-                    // e.g., 3-1 is better than 2-0 despite same goal difference
-                    return matchHome > baseHome ? 'score---compares--higher' : 'score---compares--lower';
-                }
-            }
-            // If base game wasn't a win, then any win is better
-            // e.g., if base is a 1-2 loss, then a 1-0 win is better
-            return 'score---compares--higher';
-        }
-
-        // Handle losses (matchResult === -1)
-        if (matchResult === -1) {
-            if (baseResult === -1) {
-                // Both games were losses
-                // Compare the margin of defeat
-                const baseGoalDiff = baseAway - baseHome;
-                const matchGoalDiff = matchAway - matchHome;
-                
-                if (matchGoalDiff < baseGoalDiff) {
-                    // Lost by fewer goals (e.g., 1-2 vs base 0-2)
-                    return 'score---compares--higher';
-                } else if (matchGoalDiff > baseGoalDiff) {
-                    // Lost by more goals (e.g., 0-3 vs base 1-2)
-                    return 'score---compares--lower';
-                } else {
-                    // Same goal difference - compare goals scored
-                    // e.g., 1-3 is better than 0-2 despite same goal difference
-                    return matchHome > baseHome ? 'score---compares--higher' : 'score---compares--lower';
-                }
-            }
-            // If base game wasn't a loss, then any loss is worse
-            // e.g., if base is a 2-2 draw, then a 0-1 loss is worse
-            return 'score---compares--lower';
-        }
-
-        // Fallback for any edge cases we haven't covered
-        return 'score---compares--default';
     }
     
     function updateMatchTable(matches, baseScore) {

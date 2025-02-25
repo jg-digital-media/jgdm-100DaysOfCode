@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 24/02/2024 - 17:25 */
+/* Stylesheet Upated: 25/02/2024 - 14:11 */
 
 $bg---main: #ffffff;
 $bg---select: lightgreen;
@@ -13,7 +13,7 @@ $col---url--primary--hover: #8b0606;
 
 $score---compares--default: $bg---table;
 $score---compares--higher:  #09a519;
-// $score---compares--equal: #fcfc95;
+$score---compares--equal: #fcfc95;
 $score---compares--lower: #ff6a80;
 $score---compares--exactly: #50fa50;
 $score---matches--result: #0a9f0a;
@@ -264,7 +264,7 @@ body {
 
                 &.score---compares--equal {
 
-                    //background: $score---compares--equal;
+                    background: $score---compares--equal;
                 }
 
 

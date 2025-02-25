@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 25/02/2025 - 16:14");
+    console.log("app.js connected - 25/02/2025 - 17:22");
 
     const teamSelect = document.getElementById('select---home--team');
     const resultsTable = document.querySelector('table');
@@ -154,15 +154,15 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function getComparisonClass(baseScore, matchScore) {
-        // If base score shows 'L', don't apply any comparison classes
         if (!baseScore.played) {
             return '';
         }
 
-        // For unplayed matches
         if (!matchScore.played) {
             return 'score---compares--stilltoplay';
         }
+
+        let classes = [];
 
         // Check for exact score match
         if (baseScore.home_score === matchScore.home_score && 
@@ -175,34 +175,47 @@ document.addEventListener('DOMContentLoaded', function() {
         const matchGoalDiff = matchScore.home_score - matchScore.away_score;
 
         // Get match results (win/draw/loss)
-        const baseResult = Math.sign(baseGoalDiff);  // 1 for win, 0 for draw, -1 for loss
+        const baseResult = Math.sign(baseGoalDiff);
         const matchResult = Math.sign(matchGoalDiff);
 
-        // If results differ (e.g., win vs loss)
-        if (baseResult !== matchResult) {
-            return matchResult > baseResult ? 'score---compares--higher' : 'score---compares--lower';
+        // Add match result class
+        if (matchResult === 1) {
+            classes.push('match---win');
+            if (matchScore.away_score === 0) classes.push('match---win--cleansheet');
+        } else if (matchResult === -1) {
+            classes.push('match---loss');
+        } else {
+            classes.push('match---draw');
         }
 
-        // For matches with same result type (both wins, both losses, or both draws)
-        if (baseResult === matchResult) {
-            // For wins (positive goal difference)
+        // Add comparison class
+        if (baseResult !== matchResult) {
+            if (matchResult > baseResult) {
+                classes.push(baseResult === -1 ? 'score---compares--smaller-defeat' : 'score---compares--larger-win');
+            } else {
+                classes.push(baseResult === 1 ? 'score---compares--smaller-win' : 'score---compares--larger-defeat');
+            }
+        } else {
+            // Same result type
             if (baseResult === 1) {
-                return Math.abs(matchGoalDiff) >= Math.abs(baseGoalDiff) ? 
-                    'score---compares--higher' : 'score---compares--lower';
-            }
-            // For losses (negative goal difference)
-            else if (baseResult === -1) {
-                return Math.abs(matchGoalDiff) <= Math.abs(baseGoalDiff) ? 
-                    'score---compares--higher' : 'score---compares--lower';
-            }
-            // For draws
-            else {
+                classes.push(Math.abs(matchGoalDiff) > Math.abs(baseGoalDiff) ? 
+                    'score---compares--larger-win' : 'score---compares--smaller-win');
+            } else if (baseResult === -1) {
+                classes.push(Math.abs(matchGoalDiff) > Math.abs(baseGoalDiff) ? 
+                    'score---compares--larger-defeat' : 'score---compares--smaller-defeat');
+            } else {
                 const baseTotalGoals = baseScore.home_score + baseScore.away_score;
                 const matchTotalGoals = matchScore.home_score + matchScore.away_score;
-                return matchTotalGoals >= baseTotalGoals ? 
-                    'score---compares--higher' : 'score---compares--lower';
+                classes.push(matchTotalGoals >= baseTotalGoals ? 
+                    'score---compares--larger-win' : 'score---compares--smaller-win');
             }
         }
+
+        // Add scoring classes
+        if (matchScore.home_score >= 3) classes.push('match---high-scoring');
+        if (matchScore.home_score === 0) classes.push('match---failed-to-score');
+
+        return classes.join(' ');
     }
     
     function updateMatchTable(matches, baseScore) {

@@ -1,4 +1,4 @@
-/* Last Update: 25/02/2025 - 09:59 */
+/* Last Update: 25/02/2025 - 13:05 */
 
 -- Create Home Match Tables
 CREATE TABLE bournemouth_home_matches (
@@ -962,7 +962,7 @@ INSERT INTO crystalpalace_away_matches (home_team, home_score, away_team, away_s
     ('Wolverhampton Wanderers', 2, 'Crystal Palace', 2, 1);
 
 INSERT INTO everton_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('AFC Bournemouth', 1 'Everton', 0, 1),
+    ('AFC Bournemouth', 1, 'Everton', 0, 1),
     ('Arsenal', 0, 'Everton', 0, 1),
     ('Aston Villa', 3, 'Everton', 2, 1),
     ('Brentford', 0, 'Everton', 0, 0),

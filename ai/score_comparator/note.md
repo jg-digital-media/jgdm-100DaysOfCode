@@ -315,5 +315,20 @@ Brentford	3	v	Wolverhampton Wanderers	3 - correctly matches lower - home score d
 #### Edge Case One 
 Base Scoreline: Newcastle United 1 AFC Bournemouth 4
 
-Arsenal	1	v	AFC Bournemouth	0 - lower - home win
+Arsenal	L	v	AFC Bournemouth	L - still to play
+Aston Villa	1	v	AFC Bournemouth	1 -- compares lower - `incorrect`
+Brentford	3	v	AFC Bournemouth	2 -- compares exactly - `incorrect`
 Nottingham Forest	1	v	AFC Bournemouth	0 - lower - home win
+Brighton and Hove Albion	L	v	AFC Bournemouth	L = still to play
+Chelsea	2	v	AFC Bournemouth	2 - compapers lower - `incorrect`
+
+#### Edge Case Two
+AFC Bournemouth 1 Newcastle United 1
+
+AFC Bournemouth	2	v	Arsenal	0 - `compares exactly` - `incorrect`
+AFC Bournemouth	L	v	Aston Villa	L - still to play `` 
+AFC Bournemouth	L	v	Brentford	L - still to play ``
+AFC Bournemouth	1	v	Brighton and Hove Albion 2 - `compares higher` `incorrect`
+AFC Bournemouth	0	v	Chelsea	1 `compares lower` - `incorrect` 
+AFC Bournemouth	0	v	Crystal Palace	0 - `compares lower` - `correct 0-0` 
+AFC Bournemouth	1	v	Everton	0 - `compares lower` - `incorrect`

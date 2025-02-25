@@ -390,3 +390,57 @@ Now we have good handling of base scores in home and away mode.  Thank you!
 
 Now we need to work out how to get the corresponding match tables showing up when we switch between home and away mode.  It's not a good UX experience to have user select another team, and then go back to the one they want before getting the right results table. 
 ```
+
+
+```
+That does seem to have worked although I have had to change the classes to the following. 
+
+.score---compares--higher
+.score---compares--lower.
+
+We also need to include score-compares--equal when a comparison score exactly matches the correct base score.  This is also missing. 
+```
+
+
+```
+That's not quite right.  We aredisplay the match scores in the match tables as normal.  But let's say a scoreline has a match like  Newcastle L Everton  L ... we don't need to make any colour comparisons because there isn't a match to compare with. 
+
+e.g. 
+<section class="section---select--score">
+
+<!--- Score says Newcastle L Everton  L -->
+</section>
+```
+
+```
+ The match data is now more or less current and up to date. What we now need to do is finalise the match comparion classes.  Let's start by making sure are no match comparion classes when a match base score has not been played.  Do you see what I mean? 
+```
+
+
+```
+Can we be clearer about a comparison result that matches the base score result but is also higher or lower.
+
+e.g. Newcastle United 4 Leicester City 0 is the base score. 
+
+Manchester United	3	v	Leicester City	0 is also a home win even if its a lower goal difference. 
+```
+
+```
+I still think we can do something more with these comparisons.  I'm talking in terms of colour scheme.
+
+How about we do something that differentiates losses and wins.  Say... comparison classes of score---compares--larger-defeat  or .score---comparges--larger-win
+
+.score---compares--smaller-defeat or .score---compares--smaller-win
+
+where smaller and larger refers to goal difference levels.
+
+I also want to explore some way of taking into account goals scored or conceded compared to the base score but i don't know how to integrate that into the comparisons
+```
+
+```
+
+Could we do different colour schemes based on multiple css classes?  
+
+e.g.  .score---compares--larger-win match---win--cleansheet  
+
+```

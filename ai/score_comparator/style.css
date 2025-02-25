@@ -1,4 +1,30 @@
 /* Stylesheet Upated: 25/02/2024 - 14:11 */
+/*
+
+
+                &.score---compares--larger-win &.match---win--cleansheet { 
+                    background-color: #32CD32;
+                    font-weight: bold;
+                }
+
+               High scoring modifier
+                &.score---compares--larger-win &.match---high-scoring {
+                    background-color: #00FF00;
+                    font-style: italic;
+                }
+
+                Failed to score modifier
+                .match---failed-to-score {
+                    opacity: 0.8;
+                }
+
+                    &.match---noscore--draw 
+                    .score---compares--larger-win &.match---win--cleansheet
+                    .score---compares--larger-win 
+                    .match---failed-to-score
+                    .match---high-scoring
+
+*/
 * {
   margin: 0;
   padding: 0;
@@ -164,6 +190,10 @@ body #container table {
 }
 body #container table tr {
   height: 25px;
+  /* Base comparison styles */
+  /* Clean sheet modifier */
+  /* High scoring modifier */
+  /* Failed to score modifier */
   /* td */
 }
 body #container table tr.score---compares--higher {
@@ -184,6 +214,41 @@ body #container table tr.score---compares--exactly {
 }
 body #container table tr.score---matches---result {
   background: #0a9f0a;
+}
+body #container table tr.score---compares--larger-win {
+  background-color: #90EE90;
+}
+body #container table tr.score---compares--smaller-win {
+  background-color: #98FB98;
+}
+body #container table tr.score---compares--larger-defeat {
+  background-color: #FFB6C1;
+}
+body #container table tr.score---compares--smaller-defeat {
+  background-color: #FFC0CB;
+}
+body #container table tr.match---win {
+  background: green;
+}
+body #container table tr.match---draw {
+  background: orange;
+}
+body #container table tr.match---noscore--draw {
+  background: #b87d10;
+}
+body #container table tr.match---win--cleansheet {
+  background: #058305;
+}
+body #container table tr.score---compares--larger-win body #container table tr.match---win--cleansheet {
+  background-color: #32CD32;
+  font-weight: bold;
+}
+body #container table tr.score---compares--larger-win body #container table tr.match---high-scoring {
+  background-color: #00FF00;
+  font-style: italic;
+}
+body #container table tr .match---failed-to-score {
+  opacity: 0.8;
 }
 body #container table tr th,
 body #container table tr td {

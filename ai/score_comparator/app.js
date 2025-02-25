@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 25/02/2025 - 14:13");
+    console.log("app.js connected - 25/02/2025 - 16:14");
 
     const teamSelect = document.getElementById('select---home--team');
     const resultsTable = document.querySelector('table');
@@ -156,23 +156,52 @@ document.addEventListener('DOMContentLoaded', function() {
     function getComparisonClass(baseScore, matchScore) {
         // If base score shows 'L', don't apply any comparison classes
         if (!baseScore.played) {
-            return '';  // Return empty string instead of a comparison class
+            return '';
         }
 
-        // For played matches, continue with normal comparison
+        // For unplayed matches
         if (!matchScore.played) {
             return 'score---compares--stilltoplay';
         }
 
-        const baseTotal = baseScore.home_score + baseScore.away_score;
-        const matchTotal = matchScore.home_score + matchScore.away_score;
+        // Check for exact score match
+        if (baseScore.home_score === matchScore.home_score && 
+            baseScore.away_score === matchScore.away_score) {
+            return 'score---compares--equal';
+        }
 
-        if (matchTotal > baseTotal) {
-            return 'score---compares--higher';
-        } else if (matchTotal < baseTotal) {
-            return 'score---compares--lower';
-        } else {
-            return 'score---compares--exactly';
+        // Calculate goal differences
+        const baseGoalDiff = baseScore.home_score - baseScore.away_score;
+        const matchGoalDiff = matchScore.home_score - matchScore.away_score;
+
+        // Get match results (win/draw/loss)
+        const baseResult = Math.sign(baseGoalDiff);  // 1 for win, 0 for draw, -1 for loss
+        const matchResult = Math.sign(matchGoalDiff);
+
+        // If results differ (e.g., win vs loss)
+        if (baseResult !== matchResult) {
+            return matchResult > baseResult ? 'score---compares--higher' : 'score---compares--lower';
+        }
+
+        // For matches with same result type (both wins, both losses, or both draws)
+        if (baseResult === matchResult) {
+            // For wins (positive goal difference)
+            if (baseResult === 1) {
+                return Math.abs(matchGoalDiff) >= Math.abs(baseGoalDiff) ? 
+                    'score---compares--higher' : 'score---compares--lower';
+            }
+            // For losses (negative goal difference)
+            else if (baseResult === -1) {
+                return Math.abs(matchGoalDiff) <= Math.abs(baseGoalDiff) ? 
+                    'score---compares--higher' : 'score---compares--lower';
+            }
+            // For draws
+            else {
+                const baseTotalGoals = baseScore.home_score + baseScore.away_score;
+                const matchTotalGoals = matchScore.home_score + matchScore.away_score;
+                return matchTotalGoals >= baseTotalGoals ? 
+                    'score---compares--higher' : 'score---compares--lower';
+            }
         }
     }
     

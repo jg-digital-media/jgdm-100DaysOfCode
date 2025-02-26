@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 26/02/2024 - 10:59 */
+/* Stylesheet Upated: 26/02/2024 - 11:10 */
 
 $bg---main: #ffffff;
 $bg---select: lightgreen;
@@ -450,7 +450,7 @@ body {
                 &.score---compares--smaller-win { background-color: $score---compares--smaller-win; }
                 &.score---compares--larger-defeat { background-color: $score---compares--larger-defeat; }
                 &.score---compares--smaller-defeat { background-color: $score---compares--smaller-defeat; }
-                &.score---compares--equal { background-color: #e8e8e8; }
+                &.score---compares--equal { background-color: $score---compares--equal; }
 
                 /* Clean sheet modifier */
                 &.match---win {

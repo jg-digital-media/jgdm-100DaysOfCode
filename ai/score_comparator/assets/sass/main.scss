@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 25/02/2024 - 14:11 */
+/* Stylesheet Upated: 26/02/2024 - 07:55 */
 
 $bg---main: #ffffff;
 $bg---select: lightgreen;
@@ -10,27 +10,32 @@ $col---secondary: red;
 $col---url--primary: red;
 $col---url--primary--hover: #8b0606;
 
+
 // TODO: finalise match comparison background colours
 $score---compares--default: $bg---table; // match still to play
 
 $score---compares--higher:  #09a519;
-$score---compares--equal: #fcfc95;
+$score---compares--larger-win: #0ec50e;
+$score---compares--smaller-win: #089d08;
+$score---compares--equal: #68ff68;
 $score---compares--lower: #ff6a80;
+$score---compares--larger-defeat:  #ff1e3f;
+$score---compares--smaller-defeat: #a40721;
 $score---compares--exactly: #50fa50;
 $score---matches--result: #0a9f0a;
+$score---compares--stilltoplay: #b1a9a9;
 
-$score---compares--larger-win: #60d460;
-$score---compares--smaller-win: #0eb70e;
-$score---compares--larger-defeat:  #ff1e3f;
-$score---compares--smaller-defeat: #f02043;
 
-$match---win: green;
+$match---win: #91fb91;
 $match---draw: orange;
-$match---noscore--draw: #b87d10;
-$match---win--cleansheet: #058305;
+$match---loss: #ff6363;
+$match---noscore--draw: #fba80e;
+$match---score--draw: #fba80e;
+$match---win--cleansheet: #8de104;
 $match---failed-to-score: #00ff00;
 
-$match---high-scoring: #83f983;
+$match---higher--scoring-draw: #83f983;
+$match---lower--scoring-draw: #83f983;
 
 
 /*
@@ -334,42 +339,56 @@ body {
                 }
 
                 /* Base comparison styles */
-                &.score---compares--larger-win { background-color: #90EE90; }
-                &.score---compares--smaller-win { background-color: #98FB98; }
-                &.score---compares--larger-defeat { background-color: #FFB6C1; }
-                &.score---compares--smaller-defeat { background-color: #FFC0CB; }
+                &.score---compares--larger-win { background-color: $score---compares--larger-win; }
+                &.score---compares--smaller-win { background-color: $score---compares--smaller-win; }
+                &.score---compares--larger-defeat { background-color: $score---compares--larger-defeat; }
+                &.score---compares--smaller-defeat { background-color: $score---compares--smaller-defeat; }
 
                 /* Clean sheet modifier */
-
                 &.match---win {
 
-                    background: green;
+                    background: $match---win;
                 }
 
                 &.match---draw {
 
-                    background: orange;
+                    background: $match---draw;
+                }
+
+                &.match---loss {
+
+                    background: $match---loss;
                 }
 
                 &.match---noscore--draw {
 
-                    background: #b87d10;
+                    background: $match---noscore--draw;
                 }
 
+                &.match---score--draw {
+
+                    background: $match---score--draw;
+                }
                 
                 &.match---win--cleansheet {
 
-                    background: #058305;
+                    background: $match---win--cleansheet;
                 }
 
                 &.score---compares--larger-win &.match---win--cleansheet { 
                     background-color: #32CD32;
                     font-weight: bold;
+                    color: $match---win--cleansheet;
                 }
 
-                /* High scoring modifier */
-                &.score---compares--larger-win &.match---high-scoring {
+                /* High scoring draw modifier */
+                &.score---compares--larger-win &.match---higher--scoring-draw {
                     background-color: #00FF00;
+                    font-style: italic;
+                }
+
+                &.score---compares--larger-win &.match---lower--scoring-draw {
+                    background-color: #018001;
                     font-style: italic;
                 }
 

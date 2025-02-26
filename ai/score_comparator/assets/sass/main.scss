@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 26/02/2024 - 08:48 */
+/* Stylesheet Upated: 26/02/2024 - 10:59 */
 
 $bg---main: #ffffff;
 $bg---select: lightgreen;
@@ -143,20 +143,103 @@ body {
         margin: 0 auto;
         /* width: 35%; */
         text-align: center;
+        font-size: 12px;
 
 
         .key {
 
             display: inline-block;
+            border: #c3c3c3 1px solid;
+            width: 29px;
+            height: 29px;
+            border-radius: 4px;
+            margin: 2px;
+            padding-top: 5px;
+
+            font-weight: bold;
+            transition: box-shadow 0.3s;
+
+            &:hover {
+
+                box-shadow: black 0 0 3px 0px;
+            }
         }
 
         .key---match--win {
 
-            border-radius: 50%;
 
-            width: 20px;
-            height: 20px;
             background-color: $match---win;
+
+            color: complement(  $bg---main );
+            color: black;
+        } 
+        
+        .key---match--draw {
+
+
+            background-color: $match---draw;
+
+            color: complement( $match---draw );
+        }
+
+        .key---match--loss {
+
+
+            background-color: $match---loss;
+
+            color: complement( $match---loss );
+        }
+
+        .key---result--compares-higher {
+
+            background: $score---compares--higher;
+
+            color: complement( $score---compares--higher );
+        }
+
+        .key---result--matches-exactly {
+
+            background: $score---matches--result;
+            background: $score---compares--equal;
+
+            color: complement( $score---compares--equal );
+
+        }
+
+        .key---result--compares-lower {
+
+            background: $score---compares--lower;
+
+            color: complement( $score---compares--lower );
+        }
+
+        .key---match--compares-largerwin {
+
+            background: $score---compares--larger-win;
+
+            color: complement( $score---compares--larger-win );
+        }
+
+        .key---match--compares-largerdefeat {
+
+            background: $score---compares--larger-defeat;
+
+            color: complement( $score---compares--larger-defeat );
+        }
+
+        .key---match--compares-smallerdefeat {
+
+            background: $score---compares--smaller-defeat;
+
+            color: complement( $score---compares--smaller-defeat );
+        }
+
+        .key---match--stilltoplay {
+
+            background: $score---compares--stilltoplay;
+
+            // color: complement( $score---compares--stilltoplay );
+            color: black;
         }
 
     }

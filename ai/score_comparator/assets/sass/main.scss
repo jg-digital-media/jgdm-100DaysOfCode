@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 26/02/2024 - 07:55 */
+/* Stylesheet Upated: 26/02/2024 - 08:23 */
 
 $bg---main: #ffffff;
 $bg---select: lightgreen;
@@ -343,6 +343,7 @@ body {
                 &.score---compares--smaller-win { background-color: $score---compares--smaller-win; }
                 &.score---compares--larger-defeat { background-color: $score---compares--larger-defeat; }
                 &.score---compares--smaller-defeat { background-color: $score---compares--smaller-defeat; }
+                &.score---compares--equal { background-color: #e8e8e8; }
 
                 /* Clean sheet modifier */
                 &.match---win {
@@ -372,8 +373,10 @@ body {
                 
                 &.match---win--cleansheet {
 
-                    background: $match---win--cleansheet;
+                    /* background: $match---win--cleansheet; */
                 }
+
+               
 
                 &.score---compares--larger-win &.match---win--cleansheet { 
                     background-color: #32CD32;
@@ -393,15 +396,38 @@ body {
                 }
 
                 /* Failed to score modifier */
-                .match---failed-to-score {
+                &.match---failed-to-score {
                     opacity: 0.8;
                 }
+
+                
+            /* Remove any conflicting background colors */
+            .match---win,
+            .match---loss,
+            .match---draw {
+                
+                /* These classes should only affect text color if needed */
+            }
 
 
                 th,
                 td {
 
                     text-align: left;
+                }
+
+                td {
+
+                    &.match---win--cleansheet { 
+
+                        font-weight: bold;
+                    }
+                    
+                    &.match---failed-to-score {
+                        
+                        font-weight: bold;
+                        opacity: 0.6;
+                    }
                 }
 
                 th {

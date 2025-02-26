@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 25/02/2025 - 17:22");
+    console.log("app.js connected - 26/02/2025 - 08:23");
 
     const teamSelect = document.getElementById('select---home--team');
     const resultsTable = document.querySelector('table');
@@ -232,29 +232,50 @@ document.addEventListener('DOMContentLoaded', function() {
         matches.forEach(match => {
             const row = document.createElement('tr');
             
-            // Check if match has been played
-            if (!match.played) {
-                // For unplayed matches, don't apply comparison class
-                row.className = 'score---compares--stilltoplay';
-                row.innerHTML = `
-                    <td>${match.home_team}</td>
-                    <td>L</td>
-                    <td>v</td>
-                    <td>${match.away_team}</td>
-                    <td>L</td>
-                `;
-            } else {
-                // For played matches, get comparison class and show actual scores
-                row.className = getComparisonClass(baseScore, match);
-                row.innerHTML = `
-                    <td>${match.home_team}</td>
-                    <td>${match.home_score}</td>
-                    <td>v</td>
-                    <td>${match.away_team}</td>
-                    <td>${match.away_score}</td>
-                `;
+            // Create cells
+            const homeTeamCell = document.createElement('td');
+            const homeScoreCell = document.createElement('td');
+            const vsCell = document.createElement('td');
+            const awayTeamCell = document.createElement('td');
+            const awayScoreCell = document.createElement('td');
+
+            // Set content
+            homeTeamCell.textContent = match.home_team;
+            homeScoreCell.textContent = match.played ? match.home_score : 'L';
+            vsCell.textContent = 'v';
+            awayTeamCell.textContent = match.away_team;
+            awayScoreCell.textContent = match.played ? match.away_score : 'L';
+
+            // Add comparison classes to the row
+            row.className = getComparisonClass(baseScore, match);
+
+            // Add specific classes for clean sheets and failed to score
+            if (match.played) {
+                if (match.home_score === 0) {
+                    homeTeamCell.classList.add('match---failed-to-score');
+                    homeScoreCell.classList.add('match---failed-to-score');
+                }
+                if (match.away_score === 0) {
+                    awayTeamCell.classList.add('match---failed-to-score');
+                    awayScoreCell.classList.add('match---failed-to-score');
+                }
+                if (match.home_score > 0 && match.away_score === 0) {
+                    homeTeamCell.classList.add('match---win--cleansheet');
+                    homeScoreCell.classList.add('match---win--cleansheet');
+                }
+                if (match.away_score > 0 && match.home_score === 0) {
+                    awayTeamCell.classList.add('match---win--cleansheet');
+                    awayScoreCell.classList.add('match---win--cleansheet');
+                }
             }
-    
+
+            // Append cells to row
+            row.appendChild(homeTeamCell);
+            row.appendChild(homeScoreCell);
+            row.appendChild(vsCell);
+            row.appendChild(awayTeamCell);
+            row.appendChild(awayScoreCell);
+
             tableBody.appendChild(row);
         });
     }

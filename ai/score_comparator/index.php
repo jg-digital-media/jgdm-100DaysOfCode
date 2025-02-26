@@ -15,39 +15,35 @@
         gtag('config', 'G-N9WB623MVP');
     </script>
 
-    <!-- Slick Styling -->
-    <link rel="stylesheet" type="text/css" href ="slick.css" />
-    <link rel="stylesheet" type="text/css" href ="slick-theme.css" />
-    
-    <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href ="style.css" />
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Odibee+Sans|Quicksand&display=swap" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="icon" href="icon.png" type="image/png">
 
     <!-- Meta Tags -->
-    <meta name="description" content="">
-    <meta name="keywords" content=""> 
-    <meta name="image" content="">
+    <meta name="description" content="Welcome to the Football Score comparator. Match up your teams and see how their results compare over a season">
+    <meta name="keywords" content="Football, Football Results, Football Scores, Football Comparisons, Match Comparions, Match your teams, Compare football results">
+    <meta name="image" content="assets/images/app-image.png">
 
     <!-- FACEBOOK: Open Graph -->
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="">
+    <meta property="og:title" content="Football Score Comparator | JGDM">
+    <meta property="og:description" content="Welcome to the Football Score comparator. Match up your teams and see how their results compare over a season">
+    <meta property="og:image" content="assets/images/app-image.png">
+    <meta property="og:url" content="https://projects.jonniegrieve.co.uk/score_comparator/">
 
     <!-- TWITTER: Open Graph -->
-    <meta name="twitter:title" content="">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:image" content="">
+    <meta name="twitter:title" content="Football Score Comparator | JGDM">
+    <meta name="twitter:description" content="Welcome to the Football Score comparator. Match up your teams and see how their results compare over a season">
+    <meta name="twitter:image" content="assets/images/app-image.png">
     <meta name="twitter:card" content="football_score_comparator">
 
     <!-- Canonical link -->
-    <link rel="canonical" href="">
-
+    <link rel="canonical" href="https://projects.jonniegrieve.co.uk/score_comparator/">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
     <title>Football Score Comparator</title>
 

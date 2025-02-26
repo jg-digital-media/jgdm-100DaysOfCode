@@ -87,7 +87,7 @@
 
         <?php date_default_timezone_set('Europe/London'); ?>
         
-        <p><?php echo date("dS F, Y"); ?></p>
+        <p>26th February, 2025</p>
 
         <h2>Points to take.</h2>
 
@@ -100,6 +100,38 @@
         <p>But sometimes it doesn't go like that. Sometimes like human web development it can take breaking things and getting things wrong before you get the outcome you need.</p>
 
         <a href="index.php">Back to the Match Tables</a>
+
+        <!--
+            <p>Additional Copy
+
+            I'm very excited to roll out a new project in PHP, JavaScript and SQLite - A football score Comparator. Match up your teams and see how their results compare over a season
+
+            Development for this app began on the 10th February 2025.
+
+            However, I knew I didn't have the "spoons" to create it on my own. I don't say that to do myself down. When I say I don't have the "spoons" I mean that I don't have the knowledge or skills; the power or the patience in my head to sit down to be able to create it when I think about the enormity, time and effort it would take.
+
+            This was an idea I came up with icronically a Web Accessibility module for web design at University. That was some time in 2010.
+
+            However I knew I didn't have the "spoons" to create it on my own. I don't say that to do myself down. When I say I don't have the "spoons" I mean that I don't have the knowledge or skills; the power or the patience in my head to sit down to be able to create it when I think about the enormity, time and effort it would take.  
+
+            I have learning difficulties and Autism. So even with AI in my arsenal, it still seemed like a daunting task, especially with an application like this that has many moving parts like this one. With the AI, my prompting and claude-3.5-sonnnet's responses, I was closer than even I thought to even making a start in this apps development. And then as well, as can happen to any developer, I also found myself doing down some rabbit holes and getting ahead of myself and going back on the progress I'd made..
+
+            I say that as if I'm taking it lightly, but I don't.
+
+            In this app, you get to compare the scorelines of two football teams across a premier league season. You can choose to compare the home or away matches and see who has performed better at home and away. In the future, I would like to expand this across multiple seasons and see if I can compare different clubs, not just against Newcastle United.
+
+            In short, it's a process. Even with clever AI Chatbots. And without AI, this app would not have been possible - at least for not me.
+
+            In this app, you get to compare the scorelines of two football teams across a premier league season. You can choose to compare the home or away matches and see who has performed better at home and away. 
+
+            In the future, I would like to expand this across multiple seasons and see if I can compare different clubs, not just against Newcastle United.
+
+            But until then, enjoy this app and if you like, let me know what you think.
+
+            26th February, 2025
+        
+        
+        -->
 
     </section>
 

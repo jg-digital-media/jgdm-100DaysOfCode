@@ -444,3 +444,29 @@ Could we do different colour schemes based on multiple css classes?
 e.g.  .score---compares--larger-win match---win--cleansheet  
 
 ```
+
+
+```
+I think we're getting there with the comparison classes. But there's too many conflicts in there wit one class meaninfully overriding the other.   Let's see if we can get around this be removing background classes from .match---win--cleansheet  and ..match---failed-to-score 
+
+Let's highlight these scenarios instead by putting a font-weight: bold on them which should hopefully prevent these styles from being overridden because they're not useed anywhere else in the table. 
+```
+
+
+```
+
+Can we go further with this.  We only want to highlight the parts of the table rows where a team has failed to score or got a clean sheet.
+
+e.g. Leicester City	1	v	AFC Bournemouth	0
+
+in this case only AFC Bournemouth and 0 should have bold text as the selected away team. Bournemouth lost and failed to score. 
+
+e.g. Aston Villa	0	v	Manchester United	0
+
+Aston Villa is the selected home team.  Both have a clean sheet and have failed to score. 
+
+e.g. Manchester City	3	v	Nottingham Forest	0
+
+Manchester city is the selected home team.  They won the match and did not concede. 
+
+```

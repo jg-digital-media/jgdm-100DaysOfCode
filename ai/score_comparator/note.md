@@ -1,4 +1,6 @@
-# Football Score Comparator
+# Football Score Comparator  
+
+`v1` - `26-02-2025`
 
 ## SQLite3 Version
 
@@ -190,25 +192,24 @@ sqlite3 scores.db
 + `FIXED` Base Scores should always toggle with each click of `#checkbox---switch--teams` 
 + `FIXED` The home "base scores" are all correct. The away base scores mirror the home base scores. They are not being retrieved from the database.
 + `FIXED` Base scores do not update at all on third switch.  
-+ Score Comparisons should not be applied if the base match has not been played.      
-+ When a match has not been played, there should be no scoreline comparison classes
-+ Comparison classes are incorrectly applied for away matches
-+ The `script.sql` file does not have the up to date and correct match score data
-+ Comparison classes need to be checked for accuracy before release and rolling out
++ `FIXED` Score Comparisons should not be applied if the base match has not been played.      
++ `FIXED` When a match has not been played, there should be no scoreline comparison classes
++ `FIXED`Comparison classes are incorrectly applied for away matches
+
++ `ONGOING` The `script.sql` file does not have the up to date and correct match score data
++ `ONGOING ` Comparison classes need to be checked for accuracy before release and rolling out
 
 + `RESTED ISSUE` Scoreline comparison discrepancy: Arsenal 3 Newcastle United 1 - Base Score Arsenal 3 Newcastle 1 - Scoreline comparison Arsenal 1 v AFC Bournemouth 0 shows `score---compares--lower` class.
   + Arsenal	1	v	AFC Bournemouth	0
 
 
-`RESTED ISSUE`
+`ISSUE` - (`25-02-2025`)
 
-The data as it is at the moment (As of 18/02/2025 - 12:26).
+The data as it is as of (25/02/2025 - 12:26).
 
-I think we need to tweak this implementation  
-
-I've done an audit of the first 4 tables that'll hopefully give an idea of what I need and how to fix
 
 ```
+
 Bournemouth
 -----------
 

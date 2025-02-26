@@ -1,6 +1,11 @@
 # Prompts used.
 
-Here's a selection of the [] prompts that I used with Cursor AI to build this app.
+## I don't have an exact number but I suspect that as of 26/02/2025, I've used at least 50 prompts to build this app.
+
+
+### Here's a selection of the [] prompts that I used with Cursor AI to build this app.
+
+Everything from building the script, learning how to manage the Sqlite database, retrieving the data with PHP and even how to "converse" with the AI is in this collection of chat prompts. 
 
 ```
 I've deleted the db file and we're going to try again.  Look at the `.select---home--team` dropdown box.  This is the first dropdown box and one where we select the team in which we're comparing other football matches against. In this edge case assume we'll select AFC Bournemouth. This will bring up a dynamic table, which is created in sqlite3, of all the other teams in the league playing away from home against AFC Bournemouth.  Let's try this out by generating a .db file that contains the table of home bournemouth games. 

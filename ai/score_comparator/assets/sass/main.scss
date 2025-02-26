@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 26/02/2024 - 08:23 */
+/* Stylesheet Upated: 26/02/2024 - 08:48 */
 
 $bg---main: #ffffff;
 $bg---select: lightgreen;
@@ -138,6 +138,29 @@ body {
         
     }
 
+    section.match---comparison--key {
+
+        margin: 0 auto;
+        /* width: 35%; */
+        text-align: center;
+
+
+        .key {
+
+            display: inline-block;
+        }
+
+        .key---match--win {
+
+            border-radius: 50%;
+
+            width: 20px;
+            height: 20px;
+            background-color: $match---win;
+        }
+
+    }
+
     section.section---select--score {
 
         text-align: center;
@@ -210,9 +233,10 @@ body {
     
     .text---how--compares {
 
-        margin: 3px 0 0 0;
+        margin: 18px 0 0 0;
         font-weight: bold;
-        font-size: $font---size--sm;
+        /* font-size: $font---size--sm; */
+        font-size: 20px;
         text-align: center;
     }
 

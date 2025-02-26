@@ -61,6 +61,24 @@
         
     </header>
 
+    <section class="match---comparison--key">
+
+        <h2 id="match---comparison--heading">Match Comparison Key</h2>
+
+        <div class="key key---match--win" title="Win" alt="Win"></div>
+        <!-- <div class="key---match--lose" title="Lose" alt="Lose"></div>
+        <div class="key key---match--draw" title="Draw" alt="Draw"></div>        
+        <div class="key key---result--compares-higher" title="Result Compares Higher" alt="Result key Compares Higher"></div>
+        <div class="key key---result--matches-exactly" title="Result Matches Exactly" alt="Result Matches Exactly"></div>
+        <div class="key key---result--matches-lower" title="Result Matches Lower" alt="Result Matches Lower"></div>
+        <div class="key key---match--compares-largerwin" title="Larger win" alt="Larger win"></div>
+        <div class="key key---match--compares-largerwin" title="Smaller win" alt="Smaller win"></div>
+        <div class="key key---match--compares-largerdefeat" title="larger defeat" alt="larger defeat"></div>
+        <div class="key key---match--compares-smallerdefeat" title="smaller defeat" alt="smaller defeat"></div>
+        <div class="key key---match--stilltoplay" title="Still to play" alt="Still to play"></div>
+        -->
+    </section> 
+
     <section class="section---select--score">
     
         <select id="select---home--team">

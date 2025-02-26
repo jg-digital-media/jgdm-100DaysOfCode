@@ -1,0 +1,1 @@
+-- script.sql - SQLite3 Script - 26/02/2025 - 16:53

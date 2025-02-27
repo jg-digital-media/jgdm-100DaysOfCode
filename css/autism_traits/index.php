@@ -42,16 +42,20 @@
 </head>
 <body>
     
-        <h1>My Traits in my Autism</h1>
+        <h1>First, let me tell you about Autism</h1>
 
 
         <div class="intro">
 
-            <p>On 28th January 2025, I received my formal diagnosis of Autism.  It's something I think I've known for a long time but only really started the journey for a year. It feels great to have this formally confirmed.</p>
+            <p>On 28th January 2025, I received my formal diagnosis of Autism.  It's something that in my heart of hearts I think I've known about for a long time but only really started the journey to diagnosis for a year. It feels great to have this formally confirmed.</p>
+
+            <p>My diagnosis is of Autism Spectrum Disorder (ASD) Level 1. It is the mildest form of Autism that requires some but not the highest level of support.</p>
+
+            <p>This was after completing the initial screening tool; AQ10. My diagnosis confirms I scored 10 out of 10 on the ASD Assessment although I'm sure of the specifics of that. Initial screenning scores were RBQ-2A: 43 and CAT-Q: 120 (CS 34; MS 38; 48)</p>
 
             <p>It's important to reiterate that Autism is not a medical condition. It's not a disease or something that can be cured. It is a brain design difference. It's something that is unique to each person and exists on a spectrum.</p>
 
-            <p>There are co-morbidities that can exist with Autism. e.g. ADHD, Dyspraxia, Dyslexia, Tourette's, etc. These can be investigated alongside a diagnosis of ASD/Autism.</p>
+            <p>There are co-morbidities that can exist with Autism. e.g. ADHD, Dyspraxia, Dyslexia, Tourette's, etc. These can be investigated alongside a diagnosis of ASD/Autism and I do believe that some of these coexist with my Autism.</p>
 
             <p>On this page I want to lay out how Autism manifests in me. </p>
 

@@ -1,5 +1,6 @@
 /* styles.css */
 body {
+
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@ body {
 }
 
 header {
+
     background: #007BFF;
     color: white;
     padding: 20px;
@@ -14,24 +16,57 @@ header {
 }
 
 h1 {
+
     margin: 0;
 }
 
 main {
+
     padding: 20px;
 }
 
 section {
+
     margin-bottom: 20px;
     background: white;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    ul {
+
+        li {
+
+            line-height: 1.6;
+        }
+    }
+}
+
+#section---about--cursor {
+
+        h2 {    
+            text-align: center;
+        }
+}
+
+#section---projects--in--cursor {
+
+        h2 {    
+            text-align: center;
+        }
+}
+
+#section---howit--works {
+
+        h2 {    
+            text-align: center;
+        }
 }
 
 footer {
+
     text-align: center;
-    padding: 10px;
+    padding: 10px 0;
     background: #333;
     color: white;
     position: relative;
@@ -39,6 +74,19 @@ footer {
     width: 100%;
 }
 
+.cursor---featues {
+
+    padding: 10px;
+    list-style: none;
+    background: gray;
+    width: auto;
+    margin: 12px;
+    width: 200px;
+    color: white;
+    text-align: center;
+}
+
+.item---howit--works,
 .projects---in--cursor {
 
     padding: 5px 10px;
@@ -47,4 +95,12 @@ footer {
     text-decoration: none;
     color: red;
     font-size: 12px;
+    font-weight: normal;
+
+    transition: background 0.3s ease;
+
+    &:hover {
+
+        background: darken(#badbe7, 10%);
+    }
 }

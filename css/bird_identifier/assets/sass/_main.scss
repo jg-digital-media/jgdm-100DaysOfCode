@@ -1,1 +1,112 @@
 /* main.scss */
+
+$font---family: 'Arial', sans-serif;
+
+$col---primary: #007bff;
+$col---primary--hover: #054386;
+
+body {
+
+
+    font-family: $font---family;
+
+    header {
+
+        text-align: center;
+
+    }
+
+    main#container {
+
+        section {
+
+            display: block;
+            margin: 17px auto;
+            width: 380px;
+            line-height: 1.8;
+            font-weight: bold;
+
+        }       
+    
+        .introductory-images {
+
+            display: block;
+            margin: 0 auto;
+            width: 45%;
+
+            div {
+
+                /* width: 300px; */
+                /* height: 300px; */
+                width: 100%;
+                margin: 0 auto;
+                /* border: solid 1px red; */
+
+                img {
+
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 6px;
+                }
+            }
+        }
+
+        ul {
+
+            li {
+
+                a {
+
+                    color: $col---primary;
+                    transition: color .2s;
+
+                    &:hover {
+
+                        color: $col---primary--hover;
+                    }
+                }
+            }
+        }
+
+        .nav---container {
+
+            width: 100&;
+            text-align: center;
+            
+            li {
+
+                display: inline-block;
+                margin: 0 10px;
+
+                a {
+
+
+                }
+            }
+        }
+
+    }
+
+    footer {
+
+        font-size: 12px;
+        margin-top: 20pt;
+
+        p {
+
+            text-align: center;
+
+            a {
+
+                color: $col---primary;
+                transition: color .4s;
+
+                &:hover {
+
+                    color: $col---primary--hover;
+                }
+            }
+
+        }
+    }
+}

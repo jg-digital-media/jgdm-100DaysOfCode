@@ -55,16 +55,31 @@
 
     <main id="container">
         
-        <section>LOREM ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</section>
+        <section>Use this space that you can use to identify the bird species that you see when you're out and about.</section>
 
         <!-- Slick Carousel -->  
+        <div class="introductory-images">
+            <div>
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1701.JPG" alt="Robin">
+            </div>
+            <div>
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1692.JPG" alt="Cormorant">
+            </div>
+            <div>
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1419.JPG" alt="House Sparrow">
+            </div>
+        </div>
         
-        <?php include 'assets/template-parts/bird_list.php'; ?>
+        <!-- bird file list -->
+        <?php // include 'assets/template-parts/simple_file_list.php'; ?>
 
-        <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="carousel.php">Carousel</a></li>
-            <li><a href="filterable.php">Filterable</a></li>
+        <!-- nav links -->
+        <ul class="nav---container">
+
+            <!-- <li><a href="index.php">Home</a></li> -->
+            <li><a href="carousel.php">Birds Carousel</a></li>
+            <li><a href="filterable.php">Filterable Birds List</a></li>
+
         </ul>
 
         
@@ -74,7 +89,7 @@
 
     <footer>
 
-        <p>&copy; 2025 - Jonnie Grieve Digital Media</p>        
+        <p>&copy; 2025 - Created by Jonnie Grieve at <a href="https://www.jonniegrieve.co.uk" target="_blank">Jonnie Grieve Digital Media</a></p>
 
     </footer>
 

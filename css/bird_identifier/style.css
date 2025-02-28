@@ -1,4 +1,4 @@
-/* Last Updated: 28/02/2025 - 12:41 */
+/* Last Updated: 28/02/2025 - 15:57 */
 /* main.scss */
 body {
   font-family: "Arial", sans-serif;
@@ -40,6 +40,22 @@ body main#container ul li a {
 body main#container ul li a:hover {
   color: #054386;
 }
+body main#container #back---home {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12pt;
+  font-weight: bold;
+  color: #007bff;
+  transition: color 0.2s;
+}
+body main#container #back---home:hover {
+  color: #054386;
+}
+body main#container h2 {
+  text-align: center;
+}
 body main#container .nav---container {
   width: 100 body main#container .nav---container;
   text-align: center;
@@ -47,6 +63,46 @@ body main#container .nav---container {
 body main#container .nav---container li {
   display: inline-block;
   margin: 0 10px;
+}
+body main#container .birds---carousel--container {
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+}
+body main#container .birds---carousel--container img {
+  width: 100%;
+  border: solid 2px black;
+  border-radius: 6px;
+}
+body main#container .slide {
+  position: relative;
+}
+body main#container .slide-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 10px;
+}
+body main#container .slide-caption h3 {
+  margin: 0 0 5px 0;
+}
+body main#container .slide-caption p {
+  margin: 0;
+  font-size: 0.9em;
+}
+body main#container .slide-caption p.filename {
+  font-size: 0.8em;
+  color: white;
+  text-align: right;
+}
+body main#container .slide-caption p.bird---name {
+  text-align: left;
+}
+body main#container .slide-caption p.date {
+  text-align: left;
 }
 body footer {
   font-size: 12px;

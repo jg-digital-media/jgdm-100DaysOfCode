@@ -57,6 +57,30 @@
         https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0173.JPG
         https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0142.JPG
 
+
+
+        Habitat Type:
+            Water Birds (Cormorant, Grey Heron, White Goose, Duck, Seagull)
+            Garden Birds (Robin, House Sparrow, Bullfinch)
+            Urban Birds (European Jackdaw, House Sparrow)
+            Coastal Birds (Seagull)
+            Countryside Birds (Robin, House Sparrow, Bullfinch, Yellow Hammer)
+            
+        Size Category:
+            Small Birds (Robin, House Sparrow, Bullfinch, Yellow Hammer)
+            Medium Birds (Jackdaw, Cormorant)
+            Large Birds (Grey Heron, White Goose, Seagull)
+            Bird of Prey (Cormorant, Grey Heron, White Goose, Duck, Seagull)
+
+        Color Groups:
+            Red/Orange (Robin, Bullfinch)
+            Grey/Black (Jackdaw, Cormorant)
+            White/Light (Seagull, White Goose)
+            Yellow (Yellow Hammer)
+            Mixed/Brown (House Sparrow)
+            Black (Cormorant, Grey Heron, White Goose, Duck, Seagull)
+            Grey ()
+
     -->
 
     <p>filterable.php</p>

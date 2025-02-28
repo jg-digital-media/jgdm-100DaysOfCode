@@ -5,35 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-
-    <!-- Google Fonts-->
-
-    <link rel="stylesheet" type="text/css" href="media/slick/slick-theme.css" />
-    <link rel="stylesheet" type="text/css" href="media/slick/slick.css" />
-
+    <!-- Google Fonts--> 
     
     <!-- meta tags -->
-    <meta name="description" content="">
-    <meta name="keywords" content=""> 
-    <meta name="image" content="">
+    <meta name="description" content="This website can help you identify the bird species that you see when you're out and about.">
+    <meta name="keywords" content="birds, identify bird, identify birds, bird identification, bird species,  photographs, bird identification app, bird identifier app, search for birds, bird photography, search bird images">
+    <meta name="image" content="https://projects.jonniegrieve.co.uk/bird_identifier">
 
     <!-- FACEBOOK: Open Graph -->
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="">
+    <meta property="og:title" content="Bird Carousel | Bird Identifier">
+    <meta property="og:description" content="This website can help you identify the bird species that you see when you're out and about.">
+    <meta property="og:image" content="https://projects.jonniegrieve.co.uk/bird_identifier/bird.png">
+    <meta property="og:url" content="https://projects.jonniegrieve.co.uk/bird_identifier/carousel.php">
 
     <!-- TWITTER: Open Graph -->
-    <meta name="twitter:title" content="">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:image" content="">
-    <meta name="twitter:card" content="">
-
+    <meta name="twitter:title" content="Bird Carousel | Bird Identifier">
+    <meta name="twitter:description" content="This website can help you identify the bird species that you see when you're out and about.">
+    <meta name="twitter:image" content="https://projects.jonniegrieve.co.uk/bird_identifier/bird.png">
+    <meta name="twitter:card" content="jgdm_bird_identifier">   
     <!-- Favicon -->
     <link rel="icon" href="favicon.png" type="image/png">
 
     <!-- Canonical link -->
-    <link rel="canonical" href="">
+    <link rel="canonical" href="https://projects.jonniegrieve.co.uk/bird_identifier/carousel.php">
 
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" type="text/css" href="style.css" />

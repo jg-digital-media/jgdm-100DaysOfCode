@@ -1,17 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darts Scorer App (AI) by Jonnie Grieve Digital Media</title>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="pdf-downloadable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Font(s) -->
+    <link href="" rel="stylesheet">
+
+    <!-- Meta Tags -->
+    <meta name="description" content="This is a simple web application that you can use to score your Darts matches as they'ew being played. Get a game on">
+    <meta name="keywords" content="darts games, darts app, score, scoring, darts scoring darts scoring app, darts scorer, ai, machine learning">
+    <meta name="image" content="htttps://projects.jonniegrieve.co.uk/darts_scorer_app/assets/images/app-image.png">
+
+    <!-- FACEBOOK: Open Graph -->
+    <meta property="og:title" content="Darts Scorer App (AI) by Jonnie Grieve Digital Media">
+    <meta property="og:description" content="This is a simple web application that you can use to score your Darts matches as they'ew being played. Get a game on">
+    <meta property="og:image" content="htttps://projects.jonniegrieve.co.uk/darts_scorer_app/assets/images/app-image.png">
+    <meta property="og:url" content="https://projects.jonniegrieve.co.uk/darts_scorer_app/log.php">
+
+    <!-- TWITTER: Open Graph -->
+    <meta name="twitter:title" content="Darts Scorer App (AI) by Jonnie Grieve Digital Media">
+    <meta name="twitter:description" content="This is a simple web application that you can use to score your Darts matches as they'ew being played. Get a game on">
+    <meta name="twitter:image" content="htttps://projects.jonniegrieve.co.uk/darts_scorer_app/assets/images/app-image.png">
+    <meta name="twitter:card" content="footbal_score_comparator">
+    
+    <!-- Add Favicon -->
+    <link rel="icon" href="favicon.png" type="image/png">
+    
+    <!-- Canonical link -->
+    <link rel="canonical" href="https://projects.jonniegrieve.co.uk/darts_scorer_app/log.php">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!-- Page Title-->
+    <title>App Log | Darts Scorer App (AI) by Jonnie Grieve Digital Media</title>
+
 </head>
 <body>
 
     <header>
 
-        <h1>Darts Scorer App (AI) <span id="app_version">v1.2.1</span></h1>
+        <h1>Darts Scorer App (AI) <span id="app_version">v1.2.2</span></h1>
         <h2>by Jonnie Grieve Digital Media</h2>
         <a href="https://github.com/jg-digital-media/jgdm_darts_scorer" target="_blank" id="app_repo">Repository</a>
 
@@ -26,6 +60,23 @@
         <article>
 
             <div class="log---header">
+                <span class="log---version">v1.2.2</span>
+                <span class="log---date">28/02/2025</span>
+            </div>
+
+            <ul class="dev---log">
+
+                <li>Add meta tags</li>   
+                <li>Add JGDM logo - favicon</li>
+                <li>Improvements to about.php styling</li>  
+                <li>Seperate blog entry containers - log.php</li>         
+
+            </ul>
+
+        </article>
+
+        <article>
+            <div class="log---header">
                 <span class="log---version">v1.2.1</span>
                 <span class="log---date">13/02/2025</span>
             </div>
@@ -36,6 +87,10 @@
                 <li>Removes filestamps from pages - game.php index.php about.php </li>         
 
             </ul>
+
+        </article>
+
+        <article>    
 
             <div class="log---header">
                 <span class="log---version">v1.1.1</span>
@@ -49,6 +104,10 @@
                 <li>Fixes horizontal scroll on medium breakpoints and lower</li>               
 
             </ul>
+
+        </article>
+
+        <article>    
 
             <div class="log---header">
                 <span class="log---version">v1.1</span>
@@ -72,7 +131,6 @@
                         <li>It even takes into account the 2 checkboxes that double and triple the score values.</li>
                     </ul>
                 </li>
-
                 <li>Basic safeguards against trying a "bust" shot.</li>
                 <li>Basic alert box that announces a "game shot" against trying a "bust" shot.</li>
                 <li>Safeguard against trying to "bust" a score on anything other than a double score.</li>

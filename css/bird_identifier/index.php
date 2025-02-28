@@ -8,8 +8,8 @@
 
     <!-- Google Fonts-->
 
-    <link rel="stylesheet" type="text/css" href="media/slick/slick-theme.css" />
-    <link rel="stylesheet" type="text/css" href="media/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css" />
 
     
     <!-- meta tags -->
@@ -28,6 +28,11 @@
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="">
     <meta name="twitter:card" content="">
+    
+
+    <!-- Slick Styling -->
+    <link rel="stylesheet" type="text/css" href ="assets/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href ="assets/slick/slick-theme.css" />
 
     <!-- Favicon -->
     <link rel="icon" href="favicon.png" type="image/png">
@@ -73,6 +78,13 @@
 
     </footer>
 
+    
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+
+    <script type="text/javascript" src="assets/scripts/app.js"></script>
 
 </body>
 </html>

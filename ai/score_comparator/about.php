@@ -67,9 +67,9 @@
 
         <p>Development for this app began on the 10<sup>th</sup> February 2025.</p>
         
-        <p>It has been a brainchild of mine for many years. The interface and the styling is my design. The functionality was created using AI.
+        <p>The interface and the styling is my design. The functionality was created using AI. It uses <code>SQLite3</code> for the match data, <code>PHP</code> to retrieve it and <code>HTML5/CSS</code> and <code>JavaScript</code> to make it run. - <code>SQLite3</code> is cross-platform and compatible with many web hosts, though not all hosts support it.</p>
             
-        <p>This was an idea I came up with icronically a Web Accessibility module for web design at University. That was some time in 2010.</p> 
+        <p>This idea been a brainchild of mine for many years. This was an idea I came up with ironically a Web Accessibility module for web design at University. That was some time in 2010.</p> 
 
         <p>However I knew I didn't have the &quot;spoons&quot; to create it on my own. I don't say that to do myself down. When I say I don't have the &quot;spoons&quot; I mean that I don't have the knowledge or skills; the power or the patience in my head to sit down to be able to create it when I think about the enormity, time and effort it would take.</p>
 
@@ -77,11 +77,11 @@
             
         <p>I say that as if I'm taking it lightly, but I don't.</p>
         
-        <p>I have learning difficulties and Autism. So even with AI in my arsenal it still seemed like a daunting task. Especially with an application like this that has many moving parts like this one.  With the AI, my prompting and <code>claude-3.5-sonnnet</code>'s responses, I was closer than even I thought to even making a start in this apps development. And then as well, as can happen to any developer, I also found myself doing down some rabbit holes and getting ahead of myself and going back on the progress I'd made.</p>
+        <p>I have learning difficulties and Autism. So even with AI in my arsenal it still seemed like a daunting task. Especially with an application like this that has many moving parts like this one.  With the AI, my prompting and <code>claude-3.5-sonnnet</code>'s responses, I was closer than even I thought to even making a start in the development of this app. And then as well, as can happen to any developer, I also found myself doing down some rabbit holes and getting ahead of myself and going back on the progress I'd made.</p>
 
         <p>In short, it's a process. Even with clever AI Chatbots. And without AI, this app would not have been possible - at least for not me.</p>
         
-        <p>In this app, you get to compare the scorelines of two football teams across a premier league season.  You can choose to compare the home or away matches and see who has performed better at home and away. In the future, I would like to expand this across multiple seasons and to see if I can compare different clubs, not just against Newcastle United.</p>
+        <p>In this app, you can compare the scorelines of two football teams across a premier league season.  You can choose to compare the home or away matches and see who has performed better at home and away. In the future, I would like to expand this across multiple seasons and to see if I can compare different clubs, not just against Newcastle United.</p>
 
         <p>But until then, enjoy this app and if you like, let me know what you think.</p>
 

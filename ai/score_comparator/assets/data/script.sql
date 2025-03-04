@@ -1,4 +1,4 @@
-/* Last Update: 28/02/2025 - 07:41 */
+/* Last Update: 04/03/2025 - 16:03 */
 
 -- Create Home Match Tables
 CREATE TABLE bournemouth_home_matches (
@@ -1010,7 +1010,6 @@ INSERT INTO ipswich_away_matches (home_team, home_score, away_team, away_score, 
     ('Crystal Palace', 0, 'Ipswich Town', 0, 0),
     ('Everton', 0, 'Ipswich Town', 0, 0),
     ('Fulham', 2, 'Ipswich Town', 2, 1),
-    ('Ipswich Town', 0, 'Ipswich Town', 0, 0),
     ('Liverpool', 4, 'Ipswich Town', 1, 1),
     ('Leicester City', 0, 'Ipswich Town', 0, 0),
     ('Manchester City', 4, 'Ipswich Town', 1, 1),

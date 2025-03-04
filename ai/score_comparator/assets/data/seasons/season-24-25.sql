@@ -1,31 +1,7 @@
 -- Season 24/25 (copy) --
-/* Last Update: 04/03/2025 - 16:35 */
+/* Last Update: 04/03/2025 - 16:54 */
 
-/* Match List - Season: 24/25
-
-Base Team: Newcastle United
-
-team1 - Team 1 =  
-team2 - Team 2 = 
-team3 - Team 3 = 
-team4 - Team 4 = 
-team5 - Team 5 = 
-team6 - Team 6 = 
-team7 - Team 7 = 
-team8 - Team 8 = 
-team9 - Team 9 = 
-team10 - Team 10 = 
-team11 - Team 11 = 
-team12 - Team 12 = 
-team13 - Team 13 = 
-team14 - Team 14 = 
-team15 - Team 15 = 
-team16 - Team 16 = 
-team17 - Team 17 = 
-team18 - Team 18 =         
-team19 - Team 19 =    
-
-*/
+/* Match List - Season: 24/25 */
 
 -- Create Home Match Tables
 CREATE TABLE bournemouth_home_matches (

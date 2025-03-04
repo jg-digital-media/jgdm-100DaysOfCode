@@ -194,7 +194,8 @@ sqlite3 scores.db
 + `FIXED` Base scores do not update at all on third switch.  
 + `FIXED` Score Comparisons should not be applied if the base match has not been played.      
 + `FIXED` When a match has not been played, there should be no scoreline comparison classes
-+ `FIXED`Comparison classes are incorrectly applied for away matches
++ `FIXED` Comparison classes are incorrectly applied for away matches
++ `FIXED` Removed duplicated Ipswich Town (away) match duplicate from the table
 
 + `ONGOING` The `script.sql` file does not have the up to date and correct match score data
 + `ONGOING ` Comparison classes need to be checked for accuracy before release and rolling out

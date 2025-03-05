@@ -54,14 +54,16 @@
         <h2>Bird Carousel</h2>
         <a href="carousel.php">Slider</a>
 
-
+        <!-- TODO: Bird filter list -->
         
     
+        <!-- end TODO -->
+         
         <ul class="nav---container">
 
             <li><a href="index.php">Home</a></li>
             <li><a href="carousel.php">Carousel</a></li>
-            
+
         </ul>
 
         <section class="filterable---birds--container">

@@ -52,8 +52,53 @@
         <a href="index.php" id="back---home">Back to Homepage</a>
 
         <h2>Bird Carousel</h2>
-        <a href="carousel.php">Slider</a>
+        <!-- <a href="carousel.php">Slider</a> -->
 
+        <!-- Add toggle button -->
+        <button id="toggle-filters" class="toggle-filters-btn">Show Filters</button>
+
+        <!-- Wrap filter section in a container with closed state -->
+        <div id="filters-container" class="filters-container closed">
+            <div class="filter-section">
+                <div class="filter-group">
+                    <h3>Habitat Type</h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="habitat" value="water"> Water Birds</label>
+                        <label><input type="checkbox" name="habitat" value="garden"> Garden Birds</label>
+                        <label><input type="checkbox" name="habitat" value="urban"> Urban Birds</label>
+                        <label><input type="checkbox" name="habitat" value="coastal"> Coastal Birds</label>
+                        <label><input type="checkbox" name="habitat" value="countryside"> Countryside Birds</label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Size Category</h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="size" value="small"> Small Birds</label>
+                        <label><input type="checkbox" name="size" value="medium"> Medium Birds</label>
+                        <label><input type="checkbox" name="size" value="large"> Large Birds</label>
+                        <label><input type="checkbox" name="size" value="prey"> Bird of Prey</label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Color Groups</h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="color" value="red-orange"> Red/Orange</label>
+                        <label><input type="checkbox" name="color" value="grey-black"> Grey/Black</label>
+                        <label><input type="checkbox" name="color" value="white-light"> White/Light</label>
+                        <label><input type="checkbox" name="color" value="yellow"> Yellow</label>
+                        <label><input type="checkbox" name="color" value="mixed-brown"> Mixed/Brown</label>
+                        <label><input type="checkbox" name="color" value="black"> Black</label>
+                        <label><input type="checkbox" name="color" value="grey"> Grey</label>
+                    </div>
+                </div>
+
+                <button id="apply-filters">Apply Filters</button>
+                <button id="reset-filters">Reset Filters</button>
+            </div>
+        </div>
+        
         <!-- TODO: Bird filter list -->
         
     
@@ -227,5 +272,14 @@
 
     <p>filterable.php</p>
     
+    <!-- Remove or comment out jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <!-- Keep Slick if you're using it elsewhere -->
+    <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+
+    <!-- Update path to your app.js -->
+    <script type="text/javascript" src="assets/scripts/app.js"></script>
 </body>
 </html

@@ -1,4 +1,4 @@
-console.log("app.js connected! - 28-02-2025 - 15:32");
+console.log("app.js connected! - 05-03-2025 - 16:46");
 
 $(document).ready(function() {
 
@@ -26,5 +26,71 @@ $(document).ready(function() {
         cssEase: 'linear',
         dots: false,
         arrows: true
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Toggle filters functionality
+    const toggleBtn = document.getElementById('toggle-filters');
+    const filtersContainer = document.getElementById('filters-container');
+    
+    toggleBtn.addEventListener('click', function() {
+        filtersContainer.classList.toggle('closed');
+        toggleBtn.textContent = filtersContainer.classList.contains('closed') ? 'Show Filters' : 'Hide Filters';
+    });
+
+    // Filter functionality
+    const applyFiltersBtn = document.getElementById('apply-filters');
+    const resetFiltersBtn = document.getElementById('reset-filters');
+    
+    applyFiltersBtn.addEventListener('click', function() {
+        const selectedFilters = {
+            habitat: Array.from(document.querySelectorAll('input[name="habitat"]:checked')).map(cb => cb.value),
+            size: Array.from(document.querySelectorAll('input[name="size"]:checked')).map(cb => cb.value),
+            color: Array.from(document.querySelectorAll('input[name="color"]:checked')).map(cb => cb.value)
+        };
+
+        // Filter the birds
+        const birdItems = document.querySelectorAll('.bird---item');
+        birdItems.forEach(function(bird) {
+            let show = true;
+
+            // Check habitat filters
+            if (selectedFilters.habitat.length > 0) {
+                const birdHabitat = bird.dataset.habitat ? bird.dataset.habitat.split(' ') : [];
+                if (!selectedFilters.habitat.some(h => birdHabitat.includes(h))) {
+                    show = false;
+                }
+            }
+
+            // Check size filters
+            if (selectedFilters.size.length > 0) {
+                const birdSize = bird.dataset.size ? bird.dataset.size.split(' ') : [];
+                if (!selectedFilters.size.some(s => birdSize.includes(s))) {
+                    show = false;
+                }
+            }
+
+            // Check color filters
+            if (selectedFilters.color.length > 0) {
+                const birdColor = bird.dataset.color ? bird.dataset.color.split(' ') : [];
+                if (!selectedFilters.color.some(c => birdColor.includes(c))) {
+                    show = false;
+                }
+            }
+
+            // Show/hide the bird item
+            bird.style.display = show ? 'block' : 'none';
+        });
+    });
+
+    // Reset filters
+    resetFiltersBtn.addEventListener('click', function() {
+        // Uncheck all checkboxes
+        document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
+        
+        // Show all birds
+        document.querySelectorAll('.bird---item').forEach(bird => bird.style.display = 'block');
     });
 });

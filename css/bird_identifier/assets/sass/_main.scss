@@ -22,6 +22,15 @@ body {
         margin: 0 auto;
         width: 95%;
 
+        section.introductory---text {
+
+            display: block;
+            margin: 10px auto;
+            /* width: 95%; */
+            width: 320px;
+            text-align: center;
+        }
+
         section {
 
             display: block;

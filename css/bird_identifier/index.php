@@ -49,7 +49,7 @@
 
     <main id="container">
         
-        <section>Use this space that you can use to identify the bird species that you see when you're out and about.</section>
+        <section class="introductory---text">Use this space that you can use to identify the bird species that you see when you're out and about.</section>
 
         <!-- Slick Carousel -->  
         <div class="introductory-images">

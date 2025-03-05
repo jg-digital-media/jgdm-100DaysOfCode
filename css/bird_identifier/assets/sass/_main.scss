@@ -2,13 +2,19 @@
 
 $font---family: 'Arial', sans-serif;
 
-$col---primary: #007bff;
-$col---primary--hover: #054386;
+$col---primary: black;
+$col---secondary: white;
+
+$col---tertiary: #007bff;
+$col---tertiary--hover: #054386;
+
+$bg---primary: #ffffff;
 
 body {
 
 
     font-family: $font---family;
+    background: $bg---primary;
 
     header {
 
@@ -121,12 +127,12 @@ body {
 
                 a {
 
-                    color: $col---primary;
+                    color: $col---tertiary;
                     transition: color .2s;
 
                     &:hover {
 
-                        color: $col---primary--hover;
+                        color: $col---tertiary--hover;
                     }
                 }
             }
@@ -142,13 +148,13 @@ body {
             text-align: center;
             font-size: 12pt;
             font-weight: bold;
-            color: $col---primary;
+            color: $col---tertiary;
 
             transition: color .2s;
 
             &:hover {
 
-                color: $col---primary--hover;
+                color: $col---tertiary--hover;
             }
 
         }
@@ -247,12 +253,12 @@ body {
 
             a {
 
-                color: $col---primary;
+                color: $col---tertiary;
                 transition: color .4s;
 
                 &:hover {
 
-                    color: $col---primary--hover;
+                    color: $col---tertiary--hover;
                 }
             }
 

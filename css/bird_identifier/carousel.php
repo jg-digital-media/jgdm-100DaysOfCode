@@ -82,13 +82,12 @@
                 </div>
             </div>
         </div>
-
         
         <!-- nav links -->
         <ul class="nav---container">
 
             <!-- <li><a href="index.php">Home</a></li> -->
-            <li><a href="carousel.php">Birds Carousel</a></li>
+            <!-- <li><a href="carousel.php">Birds Carousel</a></li> -->
             <li><a href="filterable.php">Filterable Birds List</a></li>
 
         </ul>

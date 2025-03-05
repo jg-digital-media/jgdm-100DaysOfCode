@@ -41,7 +41,147 @@
 </head>
 <body>
 
-    <h1>Bird Identifier</h1>
+    <header>
+
+        <h1>Bird Identifier</h1>
+        
+    </header>
+
+    <main id="container">
+
+        <a href="index.php" id="back---home">Back to Homepage</a>
+
+        <h2>Bird Carousel</h2>
+        <a href="carousel.php">Slider</a>
+
+
+        
+    
+        <ul class="nav---container">
+
+            <li><a href="index.php">Home</a></li>
+            <li><a href="carousel.php">Carousel</a></li>
+            
+        </ul>
+
+        <section class="filterable---birds--container">
+
+            <div class="bird---item">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1701.JPG" alt="Robin">
+                <div class="bird_name">Name</div>
+                <div class="bird_date">00/00/0000</div>
+            </div>
+
+            <div class="bird---item">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1692.JPG" alt="Cormorant">
+                <div class="bird_name">Name</div>
+                <div class="bird_date">00/00/0000</div>
+
+            </div>
+
+            <div class="bird---item">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1419.JPG" alt="House Sparrow">
+                <div class="bird_name">Name</div>
+                <div class="bird_date">00/00/0000</div>
+
+            </div>
+
+            <div class="bird---item">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1417.JPG" alt="House Sparrows">
+                <div class="bird_name">Name</div>
+                <div class="bird_date">00/00/0000</div>
+
+            </div>
+
+            <div class="bird---item">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0870.JPG" alt="Bullfinch">
+                <div class="bird_name">Name</div>
+                <div class="bird_date">00/00/0000</div>
+
+            </div>            
+
+            <div class="bird---item">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0859.JPG" alt="Grey Heron">
+                <div class="bird_name">Name</div>
+                <div class="bird_date">00/00/0000</div>
+
+            </div>
+
+            <div class="bird---item">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0710.JPG" alt="European Jackdaw">
+                <div class="bird_name">Name</div>
+                <div class="bird_date">00/00/0000</div>
+
+            </div>
+            
+            <div class="bird---item">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0703.JPG" alt="White Goose">
+                <div class="bird_name">Name</div>
+                <div class="bird_date">00/00/0000</div>
+
+            </div>
+            
+            <div class="bird---item">            
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0586.JPG" alt="Duck">
+                <div class="bird_name">Name</div>
+                <div class="bird_date">00/00/0000</div>
+
+            </div>
+            
+            <div class="bird---item">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0173.JPG" alt="Yellow Hammer">
+                <div class="bird_name">Name</div>
+                <div class="bird_date">00/00/0000</div>
+
+            </div>
+
+            <div class="bird---item">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0142.JPG" alt="Seagull">
+                <div class="bird_name">Name</div>
+                <div class="bird_date">00/00/0000</div>            
+
+            </div> 
+            
+            <div class="bird---item">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2313.JPG" alt="Egret">
+                <div class="bird_name">Name</div>
+                <div class="bird_date">00/00/0000</div>
+
+            </div>
+
+            <div class="bird---item">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2298.JPG" alt="Blackbird">
+                <div class="bird_name">Name</div>
+                <div class="bird_date">00/00/0000</div>
+
+            </div>
+
+            <div class="bird---item">            
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2545.JPG" alt="Commmon Blackbird (Female)">
+                <div class="bird_name">Name</div>
+                <div class="bird_date">00/00/0000</div>
+
+            </div>
+
+            <div class="bird---item">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2857.JPG" alt="Magpie">
+                <div class="bird_name">Name</div>
+                <div class="bird_date">00/00/0000</div>
+
+            </div>
+
+            <div class="bird---item">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2442.JPG" alt="Swan">
+                <div class="bird_name">Name</div>
+                <div class="bird_date">00/00/0000</div>
+
+            </div>            
+
+        </section>
+
+    </main>
+
+    
 
     <!--        
         https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1701.JPG
@@ -56,8 +196,9 @@
         https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0173.JPG
         https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0142.JPG
 
+    -->
 
-
+    <!--
         Habitat Type:
             Water Birds (Cormorant, Grey Heron, White Goose, Duck, Seagull)
             Garden Birds (Robin, House Sparrow, Bullfinch)
@@ -83,12 +224,6 @@
     -->
 
     <p>filterable.php</p>
-    
-    <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="carousel.php">Carousel</a></li>
-        <li><a href="filterable.php">Filterable</a></li>
-    </ul>
     
 </body>
 </html

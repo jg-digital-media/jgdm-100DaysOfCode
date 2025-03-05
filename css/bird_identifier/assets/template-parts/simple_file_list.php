@@ -11,4 +11,9 @@
     <li>IMG_0586.JPG - Duck</li>
     <li>IMG_0173.JPG - Yellow Hammer</li>
     <li>IMG_0142.JPG - Seagull</li>
+    <li>IMG_2313.JPG - Egret</li>
+    <li>IMG_2298.JPG - Blackbird</li>
+    <li>IMG_2545.JPG - Commmon Blackbird (Female)</li>
+    <li>IMG_2857.JPG - Magpie</li>
+    <li>IMG_2447.JPG - Swan</li>
 </ul>

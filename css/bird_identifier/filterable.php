@@ -94,9 +94,16 @@
                     </div>
                 </div>
 
-                <button id="apply-filters">Apply Filters</button>
-                <button id="reset-filters">Reset Filters</button>
+                <!-- <button id="apply-filters">Apply Filters</button>
+                <button id="reset-filters">Reset Filters</button> -->
+
+                <div class="filter--btn-group">
+                    <a href="#" id="apply-filters">Apply Filters</a>
+                    <a href="#" id="reset-filters">Reset Filters</a>
+                </div>
+
             </div>
+
         </div>
         
         <!-- TODO: Bird filter list -->

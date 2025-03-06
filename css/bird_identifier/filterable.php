@@ -115,111 +115,111 @@
 
         <section class="filterable---birds--container">
 
-            <div class="bird---item">
+            <div class="bird---item"  data-habitat="water coastal" data-size="large" data-color="grey-black">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1701.JPG" alt="Robin">
                 <div class="bird_name">Robin</div>
                 <div class="bird_date">19/02/2025</div>
             </div>
 
-            <div class="bird---item">
+            <div class="bird---item" data-habitat="" data-size="" data-color="">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1692.JPG" alt="Cormorant">
                 <div class="bird_name">Cormorant</div>
                 <div class="bird_date">19/02/2025</div>
 
             </div>
 
-            <div class="bird---item">
+            <div class="bird---item" data-habitat="" data-size="" data-color="">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1419.JPG" alt="House Sparrow">
                 <div class="bird_name">House Sparrow</div>
                 <div class="bird_date">15/02/2025</div>
 
             </div>
 
-            <div class="bird---item">
+            <div class="bird---item" data-habitat="" data-size="" data-color="">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1417.JPG" alt="House Sparrows">
                 <div class="bird_name">House Sparrows</div>
                 <div class="bird_date">15/02/2025</div>
 
             </div>
 
-            <div class="bird---item">
+            <div class="bird---item" data-habitat="" data-size="" data-color="">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0870.JPG" alt="Bullfinch">
                 <div class="bird_name">Bullfinch</div>
                 <div class="bird_date">25/01/2025</div>
 
             </div>            
 
-            <div class="bird---item">
+            <div class="bird---item" data-habitat="" data-size="" data-color="">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0859.JPG" alt="Grey Heron">
                 <div class="bird_name">Grey Heron</div>
                 <div class="bird_date">25/01/205</div>
 
             </div>
 
-            <div class="bird---item">
+            <div class="bird---item" data-habitat="" data-size="" data-color="">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0710.JPG" alt="European Jackdaw">
                 <div class="bird_name">European Jackdaw</div>
                 <div class="bird_date">18/01/2025</div>
 
             </div>
             
-            <div class="bird---item">
+            <div class="bird---item" data-habitat="" data-size="" data-color="">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0703.JPG" alt="White Goose">
                 <div class="bird_name">White Goose</div>
                 <div class="bird_date">18/01/2025</div>
 
             </div>
             
-            <div class="bird---item">            
+            <div class="bird---item" data-habitat="" data-size="" data-color="">            
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0586.JPG" alt="Duck">
                 <div class="bird_name">Duck</div>
                 <div class="bird_date">17/01/2025</div>
 
             </div>
             
-            <div class="bird---item">
+            <div class="bird---item" data-habitat="" data-size="" data-color="">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0173.JPG" alt="Yellow Hammer">
                 <div class="bird_name">Greenfinch (Yellow Hammer)</div>
                 <div class="bird_date">04/01/2025</div>
 
             </div>
 
-            <div class="bird---item">
+            <div class="bird---item" data-habitat="" data-size="" data-color="">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0142.JPG" alt="Seagull">
                 <div class="bird_name">Seagull</div>
                 <div class="bird_date">04/01/2025</div>            
 
             </div> 
             
-            <div class="bird---item">
+            <div class="bird---item" data-habitat="" data-size="" data-color="">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2313.JPG" alt="Egret">
                 <div class="bird_name">Egret</div>
                 <div class="bird_date">03/03/0303</div>
 
             </div>
 
-            <div class="bird---item">
+            <div class="bird---item" data-habitat="" data-size="" data-color="">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2298.JPG" alt="Blackbird">
                 <div class="bird_name">Blackbird</div>
                 <div class="bird_date">03/03/2025</div>
 
             </div>
 
-            <div class="bird---item">            
+            <div class="bird---item" data-habitat="" data-size="" data-color="">            
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2545.JPG" alt="Commmon Blackbird (Female)">
                 <div class="bird_name">Common Blackbird (Female)</div>
                 <div class="bird_date">04/05/2025</div>
 
             </div>
 
-            <div class="bird---item">
+            <div class="bird---item" data-habitat="" data-size="" data-color="">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2857.JPG" alt="Magpie">
                 <div class="bird_name">Magpie</div>
                 <div class="bird_date">11/05/2025</div>
 
             </div>
 
-            <div class="bird---item">
+            <div class="bird---item" data-habitat="" data-size="" data-color="">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2442.JPG" alt="Swan">
                 <div class="bird_name">Swan</div>
                 <div class="bird_date">24/04/2024</div>
@@ -283,5 +283,17 @@
 
     <!-- Update path to your app.js -->
     <script type="text/javascript" src="assets/scripts/app.js"></script>
+
+    <!-- Add this right before closing body tag -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close">&times;</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightbox-img">
+            <div class="lightbox-caption">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-date"></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html

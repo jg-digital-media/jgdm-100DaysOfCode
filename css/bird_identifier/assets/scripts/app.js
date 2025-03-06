@@ -1,4 +1,4 @@
-console.log("app.js connected! - 06-03-2025 - 10:18");
+console.log("app.js connected! - 06-03-2025 - 11:40");
 
 $(document).ready(function() {
 
@@ -93,6 +93,48 @@ document.addEventListener('DOMContentLoaded', function() {
         // Show all birds
         document.querySelectorAll('.bird---item').forEach(bird => bird.style.display = 'block');
     });
+
+    
+    // Lightbox functionality
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxClose = document.getElementById('lightbox-close');
+    const lightboxTitle = document.getElementById('lightbox-title');
+    const lightboxDate = document.getElementById('lightbox-date');
+
+    // Add click handlers to all gallery images
+    document.querySelectorAll('.bird---item img').forEach(img => {
+        img.addEventListener('click', function() {
+            const parentItem = this.closest('.bird---item');
+            const birdName = parentItem.querySelector('.bird_name').textContent;
+            const birdDate = parentItem.querySelector('.bird_date').textContent;
+            
+            lightboxImg.src = this.src;
+            lightboxImg.alt = this.alt;
+            lightboxTitle.textContent = birdName;
+            lightboxDate.textContent = birdDate;
+            lightbox.classList.add('active');
+        });
+    });
+
+    // Close lightbox when clicking the close button
+    lightboxClose.addEventListener('click', () => {
+        lightbox.classList.remove('active');
+    });
+
+    // Close lightbox when clicking outside the image
+    lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) {
+            lightbox.classList.remove('active');
+        }
+    });
+
+    // Close lightbox with escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+            lightbox.classList.remove('active');
+        }
+    });
 });
 
 /* Filter class list
@@ -117,3 +159,4 @@ document.addEventListener('DOMContentLoaded', function() {
     bird---class--grey
 
 */
+

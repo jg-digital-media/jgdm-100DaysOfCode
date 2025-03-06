@@ -1,4 +1,4 @@
-console.log("app.js connected! - 05-03-2025 - 16:46");
+console.log("app.js connected! - 06-03-2025 - 10:18");
 
 $(document).ready(function() {
 
@@ -94,3 +94,26 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelectorAll('.bird---item').forEach(bird => bird.style.display = 'block');
     });
 });
+
+/* Filter class list
+
+    bird---class--water  
+    bird---class--garden  
+    bird---class--urban  
+    bird---class--coastal  
+    bird---class--countryside
+
+    bird---class--small  
+    bird---class--medium  
+    bird---class--large  
+    bird---class--bird-of-prey
+
+    bird---class--red-orange  
+    bird---class--grey-black  
+    bird---class--white-light 
+    bird---class--yellow  
+    bird---class--mixed-brown  
+    bird---class--black  
+    bird---class--grey
+
+*/

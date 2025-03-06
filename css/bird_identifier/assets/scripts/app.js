@@ -1,4 +1,4 @@
-console.log("app.js connected! - 06-03-2025 - 12:03");
+console.log("app.js connected! - 06-03-2025 - 16:34");
 
 $(document).ready(function() {
 
@@ -31,6 +31,7 @@ $(document).ready(function() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
+
     // Toggle filters functionality
     const toggleBtn = document.getElementById('toggle-filters');
     const filtersContainer = document.getElementById('filters-container');
@@ -51,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
             color: Array.from(document.querySelectorAll('input[name="color"]:checked')).map(cb => cb.value)
         };
 
-        // Filter the birds
+        // Filter the birds list
         const birdItems = document.querySelectorAll('.bird---item');
         birdItems.forEach(function(bird) {
             let show = true;
@@ -85,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Reset filters
+    // Reset filters button
     resetFiltersBtn.addEventListener('click', function() {
         // Uncheck all checkboxes
         document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
@@ -104,7 +105,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Add click handlers to all gallery images
     document.querySelectorAll('.bird---item img').forEach(img => {
+
         img.addEventListener('click', function() {
+
             const parentItem = this.closest('.bird---item');
             const birdName = parentItem.querySelector('.bird_name').textContent;
             const birdDate = parentItem.querySelector('.bird_date').textContent;
@@ -114,16 +117,20 @@ document.addEventListener('DOMContentLoaded', function() {
             lightboxTitle.textContent = birdName;
             lightboxDate.textContent = birdDate;
             lightbox.classList.add('active');
+
         });
+
     });
 
     // Close lightbox when clicking the close button
     lightboxClose.addEventListener('click', () => {
+
         lightbox.classList.remove('active');
     });
 
     // Close lightbox when clicking outside the image
     lightbox.addEventListener('click', (e) => {
+
         if (e.target === lightbox) {
             lightbox.classList.remove('active');
         }
@@ -131,13 +138,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Close lightbox with escape key
     document.addEventListener('keydown', (e) => {
+
         if (e.key === 'Escape' && lightbox.classList.contains('active')) {
             lightbox.classList.remove('active');
         }
     });
+
 });
 
-/* Filter class list
+/* 
+
+    Filter class list
 
     bird---class--water  
     bird---class--garden  

@@ -55,7 +55,7 @@ body {
 
             div {
 
-                border: solid 1px #777171;
+                /* border: solid 1px #777171; */
                 width: 17%;
                 margin: 0 auto;
 
@@ -72,7 +72,17 @@ body {
 
                 img {
 
-                    width: 100%;
+                    width: 100%;                    
+                    border: solid 2px #605f5f;
+                    border-radius: 7px;
+
+                    transition: border .3s ease-in-out;
+
+                    &:hover {
+
+                        border: solid 2px #ffff7c;
+
+                    }
                 }
 
             }

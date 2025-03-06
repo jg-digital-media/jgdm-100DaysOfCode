@@ -1,4 +1,4 @@
-/* Last Updated: 05/03/2025 - 16:48 */
+/* Last Updated: 06/03/2025 - 10:56 */
 /* main.scss */
 body {
   font-family: "Arial", sans-serif;
@@ -32,7 +32,7 @@ body main#container section.filterable---birds--container {
   gap: 5px;
 }
 body main#container section.filterable---birds--container div {
-  border: solid 1px #777171;
+  /* border: solid 1px #777171; */
   width: 17%;
   margin: 0 auto;
 }
@@ -48,6 +48,12 @@ body main#container section.filterable---birds--container div {
 }
 body main#container section.filterable---birds--container div img {
   width: 100%;
+  border: solid 2px #605f5f;
+  border-radius: 7px;
+  transition: border 0.3s ease-in-out;
+}
+body main#container section.filterable---birds--container div img:hover {
+  border: solid 2px #ffff7c;
 }
 body main#container section.filterable---birds--container div.bird---item .bird_name,
 body main#container section.filterable---birds--container div.bird---item .bird_date {

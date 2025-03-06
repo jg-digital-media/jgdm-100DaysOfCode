@@ -59,7 +59,8 @@
             <p><a href="https://projects.jonniegrieve.co.uk/darts_scorer_app" target="_blank" class="projects---in--cursor">Darts Scorer App</a> - This is a simple web application that you can use to score your Darts matches. </p>
             <p><a href="https://projects.jonniegrieve.co.uk/score_comparator" target="_blank" class="projects---in--cursor">Score Comparator - Football</a> - Match up your teams and see how their results compare over a season.</p>
             <p><a href="https://projects.jonniegrieve.co.uk/work_counter" target="_blank" class="projects---in--cursor">Work Counter</a> - Apply your hourly rate and watch the pennies count up until your job is done. (This could make a great standalome app or PWA).</p>    
-            <p><a href="https://projects.jonniegrieve.co.uk/ai/dynamic_list" target="_blank" class="projects---in--cursor">Dynamic List - Sqlite and PHP</a> - A list that persists - going beyond use of localstorage </p>
+            <p><a href="https://projects.jonniegrieve.co.uk/ai/dynamic_list" target="_blank" class="projects---in--cursor">Dynamic List - Sqlite and PHP</a> - A list that persists - going beyond use of localstorage </p>  
+            <p><a href="https://projects.jonniegrieve.co.uk/bird_identifier" target="_blank" class="projects---in--cursor">Bird Identifier</a> - Use this space to search identify the bird species that you see when you're out and about </p>
             <!-- <p>Interactive Todo List with Javascript and PHP - A list that persists - going beyond use of localstorage</p> -->
         </section>
     </main>

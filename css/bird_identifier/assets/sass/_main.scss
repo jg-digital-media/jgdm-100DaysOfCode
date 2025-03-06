@@ -101,6 +101,17 @@ body {
 
             }
 
+
+            div#no-results-message {
+
+                border: solid 1px gray;
+                padding: 3px;
+                text-align: center;
+                border-radius: 6px;
+                background: #ff6a6a;
+                color: white;
+                letter-spacing: 1px;
+            }
         }
     
         .introductory-images {

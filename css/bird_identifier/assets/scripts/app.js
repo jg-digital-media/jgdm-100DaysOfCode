@@ -1,4 +1,4 @@
-console.log("app.js connected! - 06-03-2025 - 16:34");
+console.log("app.js connected! - 06-03-2025 - 16:56");
 
 $(document).ready(function() {
 
@@ -54,6 +54,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Filter the birds list
         const birdItems = document.querySelectorAll('.bird---item');
+
+        
+        let visibleBirds = 0;
+
         birdItems.forEach(function(bird) {
             let show = true;
 
@@ -83,7 +87,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Show/hide the bird item
             bird.style.display = show ? 'block' : 'none';
+            if (show) visibleBirds++;
         });
+
+        // Show/hide no results message
+        let noResultsMsg = document.getElementById('no-results-message');
+        if (!noResultsMsg) {
+            noResultsMsg = document.createElement('div');
+            noResultsMsg.id = 'no-results-message';
+            noResultsMsg.className = 'no-results-message';
+            noResultsMsg.innerHTML = 'There are no birds that match all these filters. Please clear the filters and try another search.';
+            document.querySelector('.filterable---birds--container').appendChild(noResultsMsg);
+        }
+        noResultsMsg.style.display = visibleBirds === 0 ? 'block' : 'none';
     });
 
     // Reset filters button
@@ -93,8 +109,16 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Show all birds
         document.querySelectorAll('.bird---item').forEach(bird => bird.style.display = 'block');
-    });
 
+        // Show all birds
+        document.querySelectorAll('.bird---item').forEach(bird => bird.style.display = 'block');
+
+        // Remove the no results message if it exists
+        const noResultsMsg = document.getElementById('no-results-message');
+        if (noResultsMsg) {
+            noResultsMsg.remove(); // This completely removes the message element
+        }
+    });
     
     // Lightbox functionality
     const lightbox = document.getElementById('lightbox');

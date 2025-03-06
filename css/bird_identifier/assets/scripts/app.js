@@ -1,4 +1,4 @@
-console.log("app.js connected! - 06-03-2025 - 16:56");
+console.log("app.js connected! - 06-03-2025 - 17:16");
 
 $(document).ready(function() {
 
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Show all birds
         document.querySelectorAll('.bird---item').forEach(bird => bird.style.display = 'block');
 
-        // Show all birds
+        // Show all birds - duplicate? 
         document.querySelectorAll('.bird---item').forEach(bird => bird.style.display = 'block');
 
         // Remove the no results message if it exists

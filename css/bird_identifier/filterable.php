@@ -122,20 +122,20 @@
 
         <section class="filterable---birds--container">
 
-            <div class="bird---item bird---class--red-orange"  data-habitat="" data-size="small" data-color="grey-black red">
+            <div class="bird---item bird---class--red-orange"  data-habitat="" data-size="small" data-color="grey-black red-orange">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1701.JPG" alt="Robin">
                 <div class="bird_name">Robin</div>
                 <div class="bird_date">19/02/2025</div>
             </div>
 
-            <div class="bird---item bird---class--water" data-habitat="" data-size="large" data-color="black">
+            <div class="bird---item bird---class--water" data-habitat="" data-size="large" data-color="grey-black">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1692.JPG" alt="Cormorant">
                 <div class="bird_name">Cormorant</div>
                 <div class="bird_date">19/02/2025</div>
 
             </div>
 
-            <div class="bird---item bird---class--garden" data-habitat="" data-size="medium" data-color="grey">
+            <div class="bird---item bird---class--garden" data-habitat="" data-size="medium" data-color="grey-black">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1419.JPG" alt="House Sparrow">
                 <div class="bird_name">House Sparrow</div>
                 <div class="bird_date">15/02/2025</div>
@@ -149,7 +149,7 @@
 
             </div>
 
-            <div class="bird---item bird---class--garden bird---class--small"  data-habitat="garden" data-size="small" data-color="red">
+            <div class="bird---item bird---class--garden bird---class--small"  data-habitat="garden" data-size="small" data-color="red-orange">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0870.JPG" alt="Bullfinch">
                 <div class="bird_name">Bullfinch</div>
                 <div class="bird_date">25/01/2025</div>
@@ -170,63 +170,63 @@
 
             </div>
             
-            <div class="bird---item bird---class--water" data-habitat="water" data-size="" data-color="white">
+            <div class="bird---item bird---class--water" data-habitat="water" data-size="" data-color="white-light">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0703.JPG" alt="White Goose">
                 <div class="bird_name">White Goose</div>
                 <div class="bird_date">18/01/2025</div>
 
             </div>
             
-            <div class="bird---item bird---class--water" data-habitat="water" data-size="medium" data-color="grey">            
+            <div class="bird---item bird---class--water" data-habitat="water" data-size="medium" data-color="grey mixed-brown">            
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0586.JPG" alt="Duck">
                 <div class="bird_name">Duck</div>
                 <div class="bird_date">17/01/2025</div>
 
             </div>
             
-            <div class="bird---item bird---class--yellow" data-habitat="water" data-size="medium" data-color="green">
+            <div class="bird---item bird---class--yellow" data-habitat="garden" data-size="medium" data-color="yellow">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0173.JPG" alt="Yellow Hammer">
                 <div class="bird_name">Greenfinch (Yellow Hammer)</div>
                 <div class="bird_date">04/01/2025</div>
 
             </div>
 
-            <div class="bird---item bird---class--water" data-habitat="water coastal urban" data-size="large" data-color="white">
+            <div class="bird---item bird---class--water" data-habitat="water coastal urban" data-size="large" data-color="white-light">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0142.JPG" alt="Seagull">
                 <div class="bird_name">Seagull</div>
                 <div class="bird_date">04/01/2025</div>            
 
             </div> 
             
-            <div class="bird---item bird---class--water" data-habitat="water" data-size="" data-color="">
+            <div class="bird---item bird---class--water" data-habitat="water" data-size="large" data-color="">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2313.JPG" alt="Egret">
                 <div class="bird_name">Egret</div>
                 <div class="bird_date">03/03/0303</div>
 
             </div>
 
-            <div class="bird---item" data-habitat="urban" data-size="medium" data-color="black">
+            <div class="bird---item" data-habitat="urban" data-size="medium" data-color="black-grey">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2298.JPG" alt="Blackbird">
                 <div class="bird_name">Blackbird</div>
                 <div class="bird_date">03/03/2025</div>
 
             </div>
 
-            <div class="bird---item bird---class--black" data-habitat="urban countryside" data-size="medium" data-color="grey">            
+            <div class="bird---item bird---class--black" data-habitat="urban countryside" data-size="medium" data-color="mixed-brown">            
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2545.JPG" alt="Commmon Blackbird (Female)">
                 <div class="bird_name">Common Blackbird (Female)</div>
                 <div class="bird_date">04/05/2025</div>
 
             </div>
 
-            <div class="bird---item bird---class--countryside" data-habitat="" data-size="medium" data-color="black">
+            <div class="bird---item bird---class--countryside" data-habitat="" data-size="medium" data-color="black-grey">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2857.JPG" alt="Magpie">
                 <div class="bird_name">Magpie</div>
                 <div class="bird_date">11/05/2025</div>
 
             </div>
 
-            <div class="bird---item bird---class--water bird---class--large bird---class--white" data-habitat="water large" data-size="" data-color="">
+            <div class="bird---item bird---class--water bird---class--large bird---class--white" data-habitat="water" data-size="large" data-color="white-light">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2442.JPG" alt="Swan">
                 <div class="bird_name">Swan</div>
                 <div class="bird_date">24/04/2024</div>

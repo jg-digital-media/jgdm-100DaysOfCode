@@ -1,4 +1,4 @@
-console.log("app.js connected! - 07-03-2025 - 13:56");
+console.log("app.js connected! - 07-03-2025 - 14:05");
 
 
 // Slick Carousels - with jQuery

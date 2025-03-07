@@ -1,4 +1,4 @@
-console.log("app.js connected! - 07-03-2025 - 11:38");
+console.log("app.js connected! - 07-03-2025 - 12:27");
 
 
 // Slick Carousels - with jQuery
@@ -159,23 +159,60 @@ document.addEventListener('DOMContentLoaded', function() {
     const lightboxTitle = document.getElementById('lightbox-title');
     const lightboxDate = document.getElementById('lightbox-date');
 
+    
+    // Get all images and store them in an array
+    const allImages = Array.from(document.querySelectorAll('.bird---item img'));
+    let currentImageIndex = 0;
+
     // Add click handlers to all gallery images
-    document.querySelectorAll('.bird---item img').forEach(img => {
 
+     // Function to update lightbox content
+     function updateLightboxContent(index) {
+        const img = allImages[index];
+        const parentItem = img.closest('.bird---item');
+        const birdName = parentItem.querySelector('.bird_name').textContent;
+        const birdDate = parentItem.querySelector('.bird_date').textContent;
+        
+        lightboxImg.src = img.src;
+        lightboxImg.alt = img.alt;
+        lightboxTitle.textContent = birdName;
+        lightboxDate.textContent = birdDate;
+    }
+
+    // Add click handlers to all gallery images
+    allImages.forEach((img, index) => {
         img.addEventListener('click', function() {
-
-            const parentItem = this.closest('.bird---item');
-            const birdName = parentItem.querySelector('.bird_name').textContent;
-            const birdDate = parentItem.querySelector('.bird_date').textContent;
-            
-            lightboxImg.src = this.src;
-            lightboxImg.alt = this.alt;
-            lightboxTitle.textContent = birdName;
-            lightboxDate.textContent = birdDate;
+            currentImageIndex = index;
+            updateLightboxContent(currentImageIndex);
             lightbox.classList.add('active');
-
         });
+    });
 
+    // Function to navigate images
+    function navigateImage(direction) {
+        if (direction === 'next') {
+            currentImageIndex = (currentImageIndex + 1) % allImages.length;
+        } else {
+            currentImageIndex = (currentImageIndex - 1 + allImages.length) % allImages.length;
+        }
+        updateLightboxContent(currentImageIndex);
+    }
+
+     // Handle keyboard navigation
+     document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
+
+        switch(e.key) {
+            case 'ArrowLeft':
+                navigateImage('prev');
+                break;
+            case 'ArrowRight':
+                navigateImage('next');
+                break;
+            case 'Escape':
+                lightbox.classList.remove('active');
+                break;
+        }
     });
 
     // Close lightbox when clicking the close button

@@ -1,4 +1,4 @@
-console.log("app.js connected! - 07-03-2025 - 12:27");
+console.log("app.js connected! - 07-03-2025 - 12:39");
 
 
 // Slick Carousels - with jQuery
@@ -152,23 +152,22 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Lightbox functionality in filterable.php 
 
-    // select lightbox elements
+    // Lightbox functionality
     const lightbox = document.getElementById('lightbox');
     const lightboxImg = document.getElementById('lightbox-img');
     const lightboxClose = document.getElementById('lightbox-close');
     const lightboxTitle = document.getElementById('lightbox-title');
     const lightboxDate = document.getElementById('lightbox-date');
 
-    
-    // Get all images and store them in an array
-    const allImages = Array.from(document.querySelectorAll('.bird---item img'));
-    let currentImageIndex = 0;
+    // Function to get currently visible images
+    function getVisibleImages() {
+        return Array.from(document.querySelectorAll('.bird---item'))
+            .filter(item => item.style.display !== 'none')
+            .map(item => item.querySelector('img'));
+    }
 
-    // Add click handlers to all gallery images
-
-     // Function to update lightbox content
-     function updateLightboxContent(index) {
-        const img = allImages[index];
+    // Function to update lightbox content
+    function updateLightboxContent(img) {
         const parentItem = img.closest('.bird---item');
         const birdName = parentItem.querySelector('.bird_name').textContent;
         const birdDate = parentItem.querySelector('.bird_date').textContent;
@@ -180,26 +179,31 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Add click handlers to all gallery images
-    allImages.forEach((img, index) => {
+    document.querySelectorAll('.bird---item img').forEach(img => {
         img.addEventListener('click', function() {
-            currentImageIndex = index;
-            updateLightboxContent(currentImageIndex);
+            const visibleImages = getVisibleImages();
+            currentImageIndex = visibleImages.indexOf(this);
+            updateLightboxContent(this);
             lightbox.classList.add('active');
         });
     });
 
     // Function to navigate images
     function navigateImage(direction) {
+        const visibleImages = getVisibleImages();
+        if (visibleImages.length === 0) return;
+
         if (direction === 'next') {
-            currentImageIndex = (currentImageIndex + 1) % allImages.length;
+            currentImageIndex = (currentImageIndex + 1) % visibleImages.length;
         } else {
-            currentImageIndex = (currentImageIndex - 1 + allImages.length) % allImages.length;
+            currentImageIndex = (currentImageIndex - 1 + visibleImages.length) % visibleImages.length;
         }
-        updateLightboxContent(currentImageIndex);
+        
+        updateLightboxContent(visibleImages[currentImageIndex]);
     }
 
-     // Handle keyboard navigation
-     document.addEventListener('keydown', (e) => {
+    // Handle keyboard navigation
+    document.addEventListener('keydown', (e) => {
         if (!lightbox.classList.contains('active')) return;
 
         switch(e.key) {
@@ -215,20 +219,17 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Close lightbox when clicking the close button
+    // Keep existing close handlers
     lightboxClose.addEventListener('click', () => {
-
         lightbox.classList.remove('active');
     });
 
-    // Close lightbox when clicking outside the image
     lightbox.addEventListener('click', (e) => {
-
         if (e.target === lightbox) {
-
             lightbox.classList.remove('active');
         }
     });
+
 
     // Close lightbox with escape key
     document.addEventListener('keydown', (e) => {

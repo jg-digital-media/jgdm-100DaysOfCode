@@ -1,7 +1,11 @@
-console.log("app.js connected! - 06-03-2025 - 17:16");
+console.log("app.js connected! - 07-03-2025 - 11:38");
 
+
+// Slick Carousels - with jQuery
 $(document).ready(function() {
 
+
+    // Slick carousel - introductory images index.php
     $('.introductory-images').slick({
 
         slidesToShow: 1,
@@ -15,6 +19,7 @@ $(document).ready(function() {
         arrows: false
     });
 
+    // Slick carousel - birds carousel.php
     $('.birds---carousel--container').slick({
 
         slidesToShow: 1,
@@ -32,11 +37,13 @@ $(document).ready(function() {
 
 document.addEventListener('DOMContentLoaded', function() {
 
-    // Toggle filters functionality
+    // Element Selections for Toggle Filters Button
     const toggleBtn = document.getElementById('toggle-filters');
     const filtersContainer = document.getElementById('filters-container');
     
+    // Toggle Filters Button event listener
     toggleBtn.addEventListener('click', function() {
+
         filtersContainer.classList.toggle('closed');
         toggleBtn.textContent = filtersContainer.classList.contains('closed') ? 'Show Filters' : 'Hide Filters';
     });
@@ -45,65 +52,85 @@ document.addEventListener('DOMContentLoaded', function() {
     const applyFiltersBtn = document.getElementById('apply-filters');
     const resetFiltersBtn = document.getElementById('reset-filters');
     
+    // Apply Filters Button event listener
     applyFiltersBtn.addEventListener('click', function() {
+        
+        // track number of visible birds in filter
+        let visibleBirds = 0;
+
         const selectedFilters = {
+
+            // group filters by habitat, size, and colour
             habitat: Array.from(document.querySelectorAll('input[name="habitat"]:checked')).map(cb => cb.value),
             size: Array.from(document.querySelectorAll('input[name="size"]:checked')).map(cb => cb.value),
             color: Array.from(document.querySelectorAll('input[name="color"]:checked')).map(cb => cb.value)
         };
 
         // Filter the birds list
-        const birdItems = document.querySelectorAll('.bird---item');
-
-        
-        let visibleBirds = 0;
+        const birdItems = document.querySelectorAll('.bird---item');        
 
         birdItems.forEach(function(bird) {
+
             let show = true;
 
             // Check habitat filters
             if (selectedFilters.habitat.length > 0) {
+
                 const birdHabitat = bird.dataset.habitat ? bird.dataset.habitat.split(' ') : [];
+
                 if (!selectedFilters.habitat.some(h => birdHabitat.includes(h))) {
+
                     show = false;
                 }
             }
 
             // Check size filters
             if (selectedFilters.size.length > 0) {
+
                 const birdSize = bird.dataset.size ? bird.dataset.size.split(' ') : [];
+
                 if (!selectedFilters.size.some(s => birdSize.includes(s))) {
+
                     show = false;
                 }
             }
 
             // Check color filters
             if (selectedFilters.color.length > 0) {
+
                 const birdColor = bird.dataset.color ? bird.dataset.color.split(' ') : [];
+
                 if (!selectedFilters.color.some(c => birdColor.includes(c))) {
+
                     show = false;
                 }
             }
 
             // Show/hide the bird item
             bird.style.display = show ? 'block' : 'none';
+
             if (show) visibleBirds++;
         });
 
         // Show/hide no results message
         let noResultsMsg = document.getElementById('no-results-message');
+
         if (!noResultsMsg) {
+
+            // if no images exist, create a new message element explaining this
             noResultsMsg = document.createElement('div');
             noResultsMsg.id = 'no-results-message';
             noResultsMsg.className = 'no-results-message';
-            noResultsMsg.innerHTML = 'There are no birds that match all these filters. Please clear the filters and try another search.';
+            noResultsMsg.innerHTML = 'There are no birds that match all your chosen filters. Please clear the filters and try again.';
             document.querySelector('.filterable---birds--container').appendChild(noResultsMsg);
         }
+
         noResultsMsg.style.display = visibleBirds === 0 ? 'block' : 'none';
     });
 
     // Reset filters button
     resetFiltersBtn.addEventListener('click', function() {
+
         // Uncheck all checkboxes
         document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
         
@@ -115,12 +142,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Remove the no results message if it exists
         const noResultsMsg = document.getElementById('no-results-message');
+
         if (noResultsMsg) {
-            noResultsMsg.remove(); // This completely removes the message element
+
+            // Completely removes the message element
+            noResultsMsg.remove(); 
         }
     });
     
-    // Lightbox functionality
+    // Lightbox functionality in filterable.php 
+
+    // select lightbox elements
     const lightbox = document.getElementById('lightbox');
     const lightboxImg = document.getElementById('lightbox-img');
     const lightboxClose = document.getElementById('lightbox-close');
@@ -156,6 +188,7 @@ document.addEventListener('DOMContentLoaded', function() {
     lightbox.addEventListener('click', (e) => {
 
         if (e.target === lightbox) {
+
             lightbox.classList.remove('active');
         }
     });
@@ -164,6 +197,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.addEventListener('keydown', (e) => {
 
         if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+
             lightbox.classList.remove('active');
         }
     });

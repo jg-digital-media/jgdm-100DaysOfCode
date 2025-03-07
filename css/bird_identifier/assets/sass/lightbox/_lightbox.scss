@@ -28,9 +28,14 @@
     max-width: 100%;
     max-height: 80vh;
     object-fit: contain;
+
+    border-radius: 9px;
+    border: solid wheat 2px;
+    box-shadow: wheat 0 0 7px 2px;
 }
 
 .lightbox-close {
+    
     position: absolute;
     top: 20px;
     right: 20px;
@@ -43,9 +48,20 @@
 }
 
 .lightbox-caption {
+
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+
     color: white;
     text-align: center;
     padding: 10px;
+
+    h3, p {
+
+        margin-top: 0;
+        font-size: 13px;
+    }
 }
 
 /* Make gallery images clickable */

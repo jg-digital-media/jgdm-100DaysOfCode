@@ -96,24 +96,14 @@
 
     </main>
 
-    <!--
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1701.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1692.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1492.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1417.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0870.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0859.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0710.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0703.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0586.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0173.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0142.JPG 
-    -->
+    <p>carousel.php</p>  
 
-    <p>carousel.php</p>    
 
-    
+    <footer>
 
+        <p>&copy; 2025 - Created by Jonnie Grieve at <a href="https://www.jonniegrieve.co.uk" target="_blank">Jonnie Grieve Digital Media</a></p>
+
+    </footer>
     
     <!-- scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

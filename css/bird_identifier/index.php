@@ -79,13 +79,13 @@
 
     </main>
 
+    
     <footer>
 
         <p>&copy; 2025 - Created by Jonnie Grieve at <a href="https://www.jonniegrieve.co.uk" target="_blank">Jonnie Grieve Digital Media</a></p>
 
     </footer>
 
-    
     <!-- scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="assets/slick/slick.min.js"></script>

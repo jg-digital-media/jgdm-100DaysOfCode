@@ -53,7 +53,6 @@
         <a href="index.php" id="back---home">Back to Homepage</a>
 
         <h2>Filtered Bird List</h2>
-        <!-- <a href="carousel.php">Slider</a> -->
 
         <!-- Add toggle button -->
         <button id="toggle-filters" class="toggle-filters-btn">Show Filters</button>
@@ -95,9 +94,6 @@
                     </div>
                 </div>
 
-                <!-- <button id="apply-filters">Apply Filters</button>
-                <button id="reset-filters">Reset Filters</button> -->
-
                 <div class="filter--btn-group">
                     <a href="#" id="apply-filters">Apply Filters</a>
                     <a href="#" id="reset-filters">Reset Filters</a>
@@ -107,17 +103,10 @@
 
         </div>
         
-        <!-- TODO: Bird filter list -->
-        
-            
-
-    
-        <!-- end TODO -->
          
         <ul class="nav---container">
 
-            <li><a href="index.php">Home</a></li>
-            <li><a href="carousel.php">Carousel</a></li>
+            <li><a href="carousel.php">Birds Draggable Carousel</a></li>
 
         </ul>
 
@@ -238,49 +227,14 @@
 
     </main>
 
-    
-
-    <!--        
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1701.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1692.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1492.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1417.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0870.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0859.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0710.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0703.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0586.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0173.JPG
-        https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0142.JPG
-
-    -->
-
-    <!--
-        Habitat Type:
-            Water Birds (Cormorant, Grey Heron, White Goose, Duck, Seagull)
-            Garden Birds (Robin, House Sparrow, Bullfinch)
-            Urban Birds (European Jackdaw, House Sparrow)
-            Coastal Birds (Seagull)
-            Countryside Birds (Robin, House Sparrow, Bullfinch, Yellow Hammer)
-            
-        Size Category:
-            Small Birds (Robin, House Sparrow, Bullfinch, Yellow Hammer)
-            Medium Birds (Jackdaw, Cormorant)
-            Large Birds (Grey Heron, White Goose, Seagull)
-            Bird of Prey (Cormorant, Grey Heron, White Goose, Duck, Seagull)
-
-        Color Groups:
-            Red/Orange (Robin, Bullfinch)
-            Grey/Black (Jackdaw, Cormorant)
-            White/Light (Seagull, White Goose)
-            Yellow (Yellow Hammer)
-            Mixed/Brown (House Sparrow)
-            Black (Cormorant, Grey Heron, White Goose, Duck, Seagull)
-            Grey ()
-
-    -->
-
     <p>filterable.php</p>
+
+    
+    <footer>
+
+        <p>&copy; 2025 - Created by Jonnie Grieve at <a href="https://www.jonniegrieve.co.uk" target="_blank">Jonnie Grieve Digital Media</a></p>
+
+    </footer>
     
     <!-- Remove or comment out jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

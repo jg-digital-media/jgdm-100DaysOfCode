@@ -1,8 +1,8 @@
-/* Last Updated: 06/03/2025 - 16:56 */
+/* Last Updated: 07/03/2025 - 11:52 */
 .toggle-filters-btn {
   display: block;
   padding: 10px 0px;
-  margin: 0 auto;
+  margin: 10px auto;
   background: #333;
   color: white;
   border: none;
@@ -56,6 +56,9 @@
   max-width: 100%;
   max-height: 80vh;
   object-fit: contain;
+  border-radius: 9px;
+  border: solid wheat 2px;
+  box-shadow: wheat 0 0 7px 2px;
 }
 
 .lightbox-close {
@@ -71,9 +74,16 @@
 }
 
 .lightbox-caption {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
   color: white;
   text-align: center;
   padding: 10px;
+}
+.lightbox-caption h3, .lightbox-caption p {
+  margin-top: 0;
+  font-size: 13px;
 }
 
 /* Make gallery images clickable */
@@ -197,7 +207,10 @@ body main#container h2 {
 }
 body main#container .nav---container {
   /* width: 100%; */
+  margin: 0px auto;
   text-align: center;
+  border: solid 1px black;
+  padding: 7px 0px;
 }
 body main#container .nav---container li {
   display: inline-block;
@@ -276,7 +289,7 @@ body footer p a:hover {
 .filter-section {
   padding: 20px;
   font-size: 12px;
-  margin: 4px auto;
+  margin: 10px auto;
 }
 .filter-section .filter--btn-group {
   display: flex;

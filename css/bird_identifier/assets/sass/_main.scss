@@ -20,6 +20,21 @@ body {
 
         text-align: center;
 
+        h1 {
+
+            display: inline-block;
+        }
+
+        .bird-icon {
+
+            width: 45px;
+            vertical-align: top;
+            border-radius: 50%;
+            border: solid 1px #bbbbab;
+            box-shadow: #1e1616 2px 3px 0px 0px;
+            margin: 0 25px;
+        }       
+
     }
 
     main#container {

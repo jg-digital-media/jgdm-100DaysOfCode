@@ -44,14 +44,15 @@
     <header>
 
         <h1>Bird Identifier</h1>
-        
+        <img src="assets/images/bird-image-header.png" alt="Bird Icon" class="bird-icon">
+                
     </header>
 
     <main id="container">
 
         <a href="index.php" id="back---home">Back to Homepage</a>
 
-        <h2>Bird Carousel</h2>
+        <h2>Filtered Bird List</h2>
         <!-- <a href="carousel.php">Slider</a> -->
 
         <!-- Add toggle button -->

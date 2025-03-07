@@ -44,7 +44,8 @@
     <header>
 
         <h1>Bird Identifier</h1>
-        
+        <img src="assets/images/bird-image-header.png" alt="Bird Icon" class="bird-icon">
+                
     </header>
 
     <main id="container">
@@ -54,6 +55,16 @@
         <h2>Bird Carousel</h2>
 
         <!-- <section>Use this space that you can use to identify the bird species that you see when you're out and about.</section> -->
+         
+        
+        <!-- nav links -->
+        <ul class="nav---container">
+
+            <!-- <li><a href="index.php">Home</a></li> -->
+            <!-- <li><a href="carousel.php">Birds Carousel</a></li> -->
+            <li><a href="filterable.php">Filterable Birds List</a></li>
+
+        </ul>
 
         <!-- Slick Carousel -->  
         <div class="birds---carousel--container">
@@ -82,15 +93,6 @@
                 </div>
             </div>
         </div>
-        
-        <!-- nav links -->
-        <ul class="nav---container">
-
-            <!-- <li><a href="index.php">Home</a></li> -->
-            <!-- <li><a href="carousel.php">Birds Carousel</a></li> -->
-            <li><a href="filterable.php">Filterable Birds List</a></li>
-
-        </ul>
 
     </main>
 

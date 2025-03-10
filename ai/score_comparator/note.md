@@ -16,7 +16,7 @@ $ sqlite3 --version
 + Windows/Linux/Mac or other OS
 + A Web Browser and Console/Terminal
 
-+ **Note:** For now, this app is based around Newcastle United scores over one premier league season. There is no doubt scope to widen this out in the future. But as it stands this is how the app will start out. Most Premier League seasons are recorded. Newcastle did not play in the 1922/93, 2008/09 season or the 2016/17 season. Premier league seasons had 38 rounds from the 95/96 season.
++ **Note:** For now, this app is based around Newcastle United scores over one premier league season. There is no doubt scope to widen this out in the future. But as it stands this is how the app will start out. Most Premier League seasons are recorded. Newcastle did not play in the 1922/93, 2008/09 season or the 2016/17 season. Premier league seasons had 38 rounds from the 95/96 season, down from 42 rounds.
 
 ## User Flow
 

@@ -54,7 +54,6 @@
 
         <h2>Filtered Bird List</h2>
 
-
         <!-- Wrap filter section in a container with closed state -->
         <div id="filters-container" class="filters-container closed">
             <div class="filter-section">
@@ -101,6 +100,7 @@
 
         </div>      
                  
+        <!-- nav links -->
         <ul class="nav---container">
 
             <li><a href="carousel.php">Birds Draggable Carousel</a></li>

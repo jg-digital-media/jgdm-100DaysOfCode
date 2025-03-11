@@ -52,16 +52,11 @@
     
         <a href="index.php" id="back---home">Back to Homepage</a>
 
-        <h2>Bird Carousel</h2>
-
-        <!-- <section>Use this space that you can use to identify the bird species that you see when you're out and about.</section> -->
-         
+        <h2>Bird Carousel</h2>      
         
         <!-- nav links -->
         <ul class="nav---container">
 
-            <!-- <li><a href="index.php">Home</a></li> -->
-            <!-- <li><a href="carousel.php">Birds Carousel</a></li> -->
             <li><a href="filterable.php">Filterable Birds List</a></li>
 
         </ul>
@@ -96,8 +91,7 @@
 
     </main>
 
-    <p>carousel.php</p>  
-
+    <p>carousel.php</p>
 
     <footer>
 

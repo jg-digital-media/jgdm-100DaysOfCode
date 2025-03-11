@@ -50,7 +50,7 @@
 
     <main id="container">
         
-        <section class="introductory---text">Use this space that you can use to identify the bird species that you see when you're out and about.</section>
+        <section class="introductory---text">You can use this space to help you identify the bird species that you see when you're out and about.</section>
         
         <!-- nav links -->
         <ul class="nav---container">

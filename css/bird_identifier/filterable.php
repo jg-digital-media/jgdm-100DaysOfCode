@@ -54,8 +54,6 @@
 
         <h2>Filtered Bird List</h2>
 
-        <!-- Add toggle button -->
-        <button id="toggle-filters" class="toggle-filters-btn">Show Filters</button>
 
         <!-- Wrap filter section in a container with closed state -->
         <div id="filters-container" class="filters-container closed">
@@ -101,14 +99,16 @@
 
             </div>
 
-        </div>
-        
-         
+        </div>      
+                 
         <ul class="nav---container">
 
             <li><a href="carousel.php">Birds Draggable Carousel</a></li>
 
         </ul>
+        
+        <!-- Add toggle button -->
+        <button id="toggle-filters" class="toggle-filters-btn">Show Filters</button>
 
         <section class="filterable---birds--container">
 

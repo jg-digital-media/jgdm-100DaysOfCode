@@ -73,7 +73,7 @@
                 <div class="slide-caption">
                     <p class="filename">IMG_1701.JPG</p>
                     <h3 class="bird---name">Robin</h3>
-                    <p class="date">Date: 00/00/0000</p>
+                    <p class="date">Date: 17/02/2025</p>
                 </div>
             </div>
             <div class="slide">
@@ -81,7 +81,7 @@
                 <div class="slide-caption">
                     <p class="filename">IMG_1692.JPG</p>
                     <h3 class="bird---name">Cormorant</h3>
-                    <p class="date">Date: 00/00/0000</p>
+                    <p class="date">Date: 17/02/2025</p>
                 </div>
             </div>
             <div class="slide">
@@ -89,7 +89,7 @@
                 <div class="slide-caption">
                     <p class="filename">IMG_1419.JPG</p>
                     <h3>House Sparrow</h3>
-                    <p class="date">Date: 00/00/0000</p>
+                    <p class="date">Date: 15/02/2025</p>
                 </div>
             </div>
         </div>

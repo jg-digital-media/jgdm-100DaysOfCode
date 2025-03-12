@@ -1,4 +1,4 @@
-/* Last Update: 12/03/2025 - 16:35 */
+/* Last Update: 12/03/2025 - 17:02 */
 
 /* Match List - Season: 94/95
 
@@ -572,7 +572,7 @@ INSERT INTO team2_home_matches (home_team, home_score, away_team, away_score, pl
     ('Team 2', 0, 'Team 19', 0, 0),
     ('Team 2', 0, 'Team 20', 0, 0),
     ('Team 2', 0, 'Team 21', 0, 0),
-    ('Team 2', 0, 'Team 22', 0, 0)
+    ('Team 2', 0, 'Team 22', 0, 0);
 
 INSERT INTO team3_home_matches (home_team, home_score, away_team, away_score, played) VALUES
     ('Team 3', 0, 'Team 1', 0, 0),

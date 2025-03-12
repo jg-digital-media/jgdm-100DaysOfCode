@@ -1,4 +1,4 @@
-/* Last Update: 04/03/2025 - 16:22 */
+/* Last Update: 12/03/2025 - 17:02 */
 
 /* Match List - Season: 23/24
 
@@ -108,7 +108,7 @@ CREATE TABLE team9_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team10,_home_matches (
+CREATE TABLE team10_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -117,7 +117,7 @@ CREATE TABLE team10,_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team11,_home_matches (
+CREATE TABLE team11_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -126,7 +126,7 @@ CREATE TABLE team11,_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team12,_home_matches (
+CREATE TABLE team12_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -290,7 +290,7 @@ CREATE TABLE team9_away_matches (
 
 );
 
-CREATE TABLE team10,_away_matches (    
+CREATE TABLE team10_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -300,7 +300,7 @@ CREATE TABLE team10,_away_matches (
 
 );
 
-CREATE TABLE team11,_away_matches (    
+CREATE TABLE team11_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -310,7 +310,7 @@ CREATE TABLE team11,_away_matches (
 
 );
 
-CREATE TABLE team12,_away_matches (    
+CREATE TABLE team12_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -1044,7 +1044,7 @@ INSERT INTO team10_away_matches (home_team, home_score, away_team, away_score, p
     ('Team 16', 0, 'Team 10', 0, 0),
     ('Team 17', 0, 'Team 10', 0, 0),
     ('Team 18', 0, 'Team 10', 0, 0),
-    ('Team 19', 0, 'Team 10', 0, 0)
+    ('Team 19', 0, 'Team 10', 0, 0);
 
 INSERT INTO team11_away_matches (home_team, home_score, away_team, away_score, played) VALUES
     ('Team 1', 0, 'Team 11', 0, 0),

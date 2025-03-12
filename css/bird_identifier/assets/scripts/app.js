@@ -1,4 +1,4 @@
-console.log("app.js connected! - 07-03-2025 - 14:05");
+console.log("app.js connected! - 12-03-2025 - 11:11");
 
 
 // Slick Carousels - with jQuery
@@ -33,11 +33,11 @@ $(document).ready(function() {
         arrows: true,
 
         // Add these properties
-        adaptiveHeight: true,
-        slide: '.slide',  // specify the slide element
+        //adaptiveHeight: true,
+        //slide: '.slide',  // specify the slide element
         // Prevent content jumping
-        useCSS: true,
-        useTransform: true
+        //useCSS: true,
+        //useTransform: true
     });
 });
 

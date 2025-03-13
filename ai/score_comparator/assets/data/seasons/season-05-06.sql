@@ -2,38 +2,27 @@
 
 /* Match List - Season: 05/06
 
-07/05/2006	15:00	Arsenal FC	-	Wigan Athletic	4:2 (2:2)	
-15:00	Aston Villa	-	Sunderland AFC	2:1 (1:0)	
-15:00	Blackburn Rovers	-	Manchester City	2:0 (1:0)	
-15:00	Bolton Wanderers	-	Birmingham City	1:0 (0:0)	
-15:00	Everton FC	-	West Bromwich Albion	2:2 (0:1)	
-15:00	Fulham FC	-	Middlesbrough FC	1:0 (0:0)	
-15:00	Manchester United	-	Charlton Athletic	4:0 (3:0)	
-15:00	Newcastle United	-	Chelsea FC	1:0 (0:0)	
-15:00	Portsmouth FC	-	Liverpool FC	1:3 (0:0)	
-15:00	West Ham United	-	Tottenham Hotspur	2:1 (1:1)
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (birmingham) - Team 3 = Birmingham City
+    team4 (blackburnrovers) - Team 4 = Blackburn Rovers
+    team5 (boltonwanderers) - Team 5 = Bolton Wanderers
+    team6 (charlton)- Team 6 = Charlton Athletic
+    team7 (chelsea) - Team 7 = Chelsea
+    team8 (everton) - Team 8 = Everton
+    team9 (fulham) - Team 9 = Fulham
+    team10 (liverpool) - Team 10 = Liverpool
+    team11 (manchestercity) - Team 11 = Manchester City
+    team12 (manchesterunited) - Team 12 = Manchester United
+    team13 (middlesbrough) - Team 13 = Middlesbrough
+    team14 (portsmouth) - Team 14 = Portsmouth
+    team15 (sunderland) - Team 15 = Sunderland
+    team16 (spurs) - Team 16 = Tottenham Hotspur
+    team17 (westbrom) - Team 17 = West Bromwich Albion
+    team18 (westham) - Team 18 = West Ham United
+    team19 (wigan) - Team 19 = Wigan Athletic
 
 */
 

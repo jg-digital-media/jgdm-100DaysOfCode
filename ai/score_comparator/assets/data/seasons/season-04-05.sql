@@ -2,38 +2,27 @@
 
 /* Match List - Season: 04/05
 
-15/05/2005	15:00	Birmingham City	-	Arsenal FC	2:1 (2:1)	
-15:00	Bolton Wanderers	-	Everton FC	3:2 (3:2)	
-15:00	Charlton Athletic	-	Crystal Palace	2:2 (2:2)	
-15:00	Fulham FC	-	Norwich City	6:0 (6:0)	
-15:00	Liverpool FC	-	Aston Villa	2:1 (2:1)	
-15:00	Manchester City	-	Middlesbrough FC	1:1 (1:1)	
-15:00	Newcastle United	-	Chelsea FC	1:1 (1:1)	
-15:00	Southampton FC	-	Manchester United	1:2 (1:2)	
-15:00	Tottenham Hotspur	-	Blackburn Rovers	0:0 (0:0)	
-15:00	West Bromwich Albion	-	Portsmouth FC	2:0 (2:0)
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (birmingham) - Team 3 = Birmingham City
+    team4 (blackburnrovers) - Team 4 = Blackburn Rovers
+    team5 (boltonwanderers) - Team 5 = Bolton Wanderers
+    team6 (charlton) - Team 6 = Charlton Athletic
+    team7 (chelsea) - Team 7 = Chelsea
+    team8 (crystalpalace) - Team 8 = Crystal Palace
+    team9 (everton) - Team 9 = Everton
+    team10 (fulham) - Team 10 = Fulham
+    team11 (liverpool) - Team 11 = Liverpool
+    team12 (manchestercity) - Team 12 = Manchester City
+    team13 (manchesterunited) - Team 13 = Manchester United
+    team14 (middlesbrough) - Team 14 = Middlesbrough
+    team15 (norwich) - Team 15 = Norwich City
+    team16 (portsmouth) - Team 16 = Portsmouth
+    team17 (spurs) - Team 17 = Tottenham Hotspur
+    team18 (southampton) - Team 18 = Southampton
+    team19 (westbrom) - Team 19 = West Bromwich Albion
 
 */
 

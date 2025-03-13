@@ -2,39 +2,27 @@
 
 /* Match List - Season: 07/08
 
-11/05/2008	15:00	Birmingham City	-	Blackburn Rovers	4:1 (1:0)	
-15:00	Chelsea FC	-	Bolton Wanderers	1:1 (0:0)	
-15:00	Derby County	-	Reading FC	0:4 (0:1)	
-15:00	Everton FC	-	Newcastle United	3:1 (1:0)	
-15:00	Middlesbrough FC	-	Manchester City	8:1 (2:0)	
-15:00	Portsmouth FC	-	Fulham FC	0:1 (0:0)	
-15:00	Sunderland AFC	-	Arsenal FC	0:1 (0:1)	
-15:00	Tottenham Hotspur	-	Liverpool FC	0:2 (0:0)	
-15:00	West Ham United	-	Aston Villa	2:2 (1:1)	
-15:00	Wigan Athletic	-	Manchester United	0:2 (0:1)	
-
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (birmingham) - Team 3 = Birmingham City
+    team4 (blackburnrovers) - Team 4 = Blackburn Rovers
+    team5 (boltonwanderers) - Team 5 = Bolton Wanderers
+    team6 (chelsea) - Team 6 = Chelsea
+    team7 (derbycounty) - Team 7 = Derby County
+    team8 (everton) - Team 8 = Everton
+    team9 (fulham) - Team 9 = Fulham
+    team10 (liverpool) - Team 10 = Liverpool
+    team11 (manchestercity) - Team 11 = Manchester City
+    team12 (manchesterunited) - Team 12 = Manchester United
+    team13 (middlesbrough) - Team 13 = Middlesbrough
+    team14 (portsmouth) - Team 14 = Portsmouth
+    team15 (reading) - Team 15 = Reading FC
+    team16 (sunderland) - Team 16 = Sunderland
+    team17 (spurs) - Team 17 = Tottenham Hotspur
+    team18 (westham) - Team 18 = West Ham United
+    team19 (wigan) - Team 19 = Wigan Athletic   
 
 */
 

@@ -2,38 +2,27 @@
 
 /* Match List - Season: 03/04
 
-15/05/2004	15:00	Blackburn Rovers	-	Birmingham City	1:1 (1:1)	
-15:00	Wolverhampton Wanderers	-	Tottenham Hotspur	0:2 (0:2)	
-15:00	Manchester City	-	Everton FC	5:1 (5:1)	
-15:00	Bolton Wanderers	-	Fulham FC	0:2 (0:2)	
-15:00	Chelsea FC	-	Leeds United	1:0 (1:0)	
-15:00	Arsenal FC	-	Leicester City	2:1 (2:1)	
-15:00	Aston Villa	-	Manchester United	0:2 (0:2)	
-15:00	Portsmouth FC	-	Middlesbrough FC	5:1 (5:1)	
-15:00	Liverpool FC	-	Newcastle United	1:1 (1:1)	
-15:00	Charlton Athletic	-	Southampton FC	2:1 (2:1)
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal 
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (birmingham) - Team 3 = Birmingham City
+    team4 (blackburnrovers) - Team 4 = Blackburn Rovers
+    team5 (boltonwanderers) - Team 5 = Bolton Wanderers
+    team6 (charlton) - Team 6 = Charlton Athletic
+    team7 (chelsea) - Team 7 = Chelsea
+    team8 (everton) - Team 8 = Everton
+    team9 (fulham) - Team 9 = Fulham
+    team10 (leeds) - Team 10 = Leeds United
+    team11 (leicester) - Team 11 = Leicester City
+    team12 (liverpool) - Team 12 = Liverpool
+    team13 (manchestercity) - Team 13 = Manchester City
+    team14 (manchesterunited) - Team 14 = Manchester United
+    team15 (middlesbrough) - Team 15 = Middlesbrough
+    team16 (portsmouth) - Team 16 = Portsmouth
+    team17 (southampton) - Team 17 = Southampton
+    team18 (spurs) - Team 18 = Tottenham Hotspur
+    team19 (wolverhampton) - Team 19 = Wolverhampton Wanderers   
 
 */
 

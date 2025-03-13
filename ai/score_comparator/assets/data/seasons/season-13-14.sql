@@ -2,38 +2,27 @@
 
 /* Match List - Season: 13/14
 
-11/05/2014	15:00	Cardiff City	-	Chelsea FC	1:2 (1:0)	
-15:00	Fulham FC	-	Crystal Palace	2:2 (0:1)	
-15:00	Hull City	-	Everton FC	0:2 (0:1)	
-15:00	Liverpool FC	-	Newcastle United	2:1 (0:1)	
-15:00	Manchester City	-	West Ham United	2:0 (1:0)	
-15:00	Norwich City	-	Arsenal FC	0:2 (0:0)	
-15:00	Southampton FC	-	Manchester United	1:1 (1:0)	
-15:00	Sunderland AFC	-	Swansea City	1:3 (0:2)	
-15:00	Tottenham Hotspur	-	Aston Villa	3:0 (3:0)	
-15:00	West Bromwich Albion	-	Stoke City	1:2 (0:1)
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal FC
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (cardiff) - Team 3 = Cardiff City
+    team4 (chelsea)- Team 4 = Chelsea FC
+    team5 (crystalpalace)- Team 5 = Crystal Palace
+    team6 (everton) - Team 6 = Everton FC
+    team7 (fulham) - Team 7 = Fulham FC
+    team8 (hullcity) - Team 8 = Hull City
+    team9 (liverpool) - Team 9 = Liverpool
+    team10 (manchestercity) - Team 10 = Manchester City
+    team11 (manchesterunited) - Team 11 = Manchester United
+    team12 (norwich) - Team 12 = Norwich City
+    team13 (southampton) - Team 13 = Southampton FC
+    team14 (stokecity) - Team 14 = Stoke City
+    team15 (sunderland)- Team 15 = Sunderland
+    team16 (swansea) - Team 16 = Swansea City
+    team17 (spurs) - Team 17 = Tottenham Hotspur
+    team18 (westbrom) - Team 18 = West Bromwich Albion
+    team19 (westham) - Team 19 = West Ham United
 
 */
 

@@ -2,38 +2,27 @@
 
 /* Match List - Season: 15/16
 
-15/05/2016	15:00	Arsenal FC	-	Aston Villa	4:0 (1:0)	
-15:00	Chelsea FC	-	Leicester City	1:1 (0:0)	
-15:00	Everton FC	-	Norwich City	3:0 (2:0)	
-15:00	Newcastle United	-	Tottenham Hotspur	5:1 (2:0)	
-15:00	Southampton FC	-	Crystal Palace	4:1 (1:0)	
-15:00	Stoke City	-	West Ham United	2:1 (0:1)	
-15:00	Swansea City	-	Manchester City	1:1 (1:1)	
-15:00	Watford FC	-	Sunderland AFC	2:2 (0:1)	
-15:00	West Bromwich Albion	-	Liverpool FC	1:1 (1:1)	
-17/05/2016	20:00	Manchester United	-	AFC Bournemouth	3:1 (1:0)
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (bournemouth) - Team 1 = AFC Bournemouth 
+    team2 (arsenal) - Team 2 = Arsenal
+    team3 (astonvilla) - Team 3 = Aston Villa
+    team4 (chelsea) - Team 4 = Chelsea
+    team5 (crystalpalace) - Team 5 = Crystal Palace
+    team6 (everton)- Team 6 = Everton
+    team7 (leicester) - Team 7 = Leicester City
+    team8 (liverpool) - Team 8 = Liverpool
+    team9 (manchesterunited) - Team 9 = Manchester United
+    team10 (manchestercity) - Team 10 = Manchester City
+    team11 (norwich) - Team 11 = Norwich City
+    team12 (southampton) - Team 12 = Southampton
+    team13 (stokecity) - Team 13 = Stoke City
+    team14 (sunderland) - Team 14 = Sunderland
+    team15 (swansea) - Team 15 = Swansea City
+    team16 (spurs) - Team 16 = Tottenham Hotspur
+    team17 (watford) - Team 17 = Watford
+    team18 (westbrom) - Team 18 = West Bromwich Albion        
+    team19 (westham) - Team 19 = West Ham United   
 
 */
 

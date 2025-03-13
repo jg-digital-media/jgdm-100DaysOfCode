@@ -4,40 +4,28 @@
 
 /* Match List - Season: 09/10
 
-09/05/2010	16:00	Arsenal FC	-	Fulham FC	4:0 (3:0)	
-16:00	Aston Villa	-	Blackburn Rovers	0:1 (0:0)	
-16:00	Bolton Wanderers	-	Birmingham City	2:1 (1:0)	
-16:00	Burnley FC	-	Tottenham Hotspur	4:2 (1:2)	
-16:00	Chelsea FC	-	Wigan Athletic	8:0 (2:0)	
-16:00	Everton FC	-	Portsmouth FC	1:0 (0:0)	
-16:00	Hull City	-	Liverpool FC	0:0 (0:0)	
-16:00	Manchester United	-	Stoke City	4:0 (2:0)	
-16:00	West Ham United	-	Manchester City	1:1 (1:1)	
-16:00	Wolverhampton Wanderers	-	Sunderland AFC	2:1 (1:1)
-
-
     Base Team: N/A
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 = 
-    team20 - Team 20 =
+    team1 (arsenal) - Team 1 = Arsenal
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (birmingham) - Team 3 = Birmingham City
+    team4 (blackburnrovers) - Team 4 = Blackburn Rovers
+    team5 (boltonwanderers) - Team 5 = Bolton Wanderers
+    team6 (burnley) - Team 6 = Burnley
+    team7 (chelsea) - Team 7 = Chelsea
+    team8 (everton) - Team 8 = Everton
+    team9 (fulham) - Team 9 = Fulham
+    team10 (hullcity) - Team 10 = Hull City
+    team11 (liverpool) - Team 11 = Liverpool
+    team12 (manchestercity) - Team 12 = Manchester City
+    team13 (manchesterunited) - Team 13 = Manchester United
+    team14 (portsmouth) - Team 14 = Portsmouth FC
+    team15 (stokecity) - Team 15 = Stoke City
+    team16 (sunderland) - Team 16 = Sunderland
+    team17 (spurs) - Team 17 = Tottenham Hotspur
+    team18 (westham) - Team 18 = West Ham United
+    team19 (wigan) - Team 19 = Wigan Athletic
+    team20 (wolverhampton) - Team 20 = Wolverhampton Wanderers
 
 */
 

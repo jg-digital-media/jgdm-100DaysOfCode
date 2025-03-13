@@ -2,38 +2,27 @@
 
 /* Match List - Season: 10/11
 
-22/05/2011	16:00	West Ham United	-	Sunderland AFC	0:3 (0:1)	
-16:00	Aston Villa	-	Liverpool FC	1:0 (1:0)	
-16:00	Wolverhampton Wanderers	-	Blackburn Rovers	2:3 (0:3)	
-16:00	Tottenham Hotspur	-	Birmingham City	2:1 (0:0)	
-16:00	Fulham FC	-	Arsenal FC	2:2 (1:1)	
-16:00	Everton FC	-	Chelsea FC	1:0 (0:0)	
-16:00	Manchester United	-	Blackpool FC	4:2 (1:1)	
-16:00	Stoke City	-	Wigan Athletic	0:1 (0:0)	
-16:00	Bolton Wanderers	-	Manchester City	0:2 (0:1)	
-16:00	Newcastle United	-	West Bromwich Albion	3:3 (2:0)	
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (birmingham)- Team 3 = Birmingham City
+    team4 (blackburnrovers) - Team 4 = Blackburn Rovers
+    team6 (blackpool) - Team 5 = Blackpool
+    team6 (boltonwanderers) - Team 6 = Bolton Wanderers
+    team7 (chelsea) - Team 7 = Chelsea
+    team8 (everton) - Team 8 = Everton
+    team9 (fulham) - Team 9 = Fulham
+    team10 (liverpool) - Team 10 = Liverpool
+    team11 (manchestercity) - Team 11 = Manchester City
+    team12 (manchesterunited) - Team 12 = Manchester United
+    team13 (stokecity) - Team 13 = Stoke City
+    team14 (sunderland)- Team 14 = Sunderland
+    team15 (spurs) - Team 15 = Tottenham Hotspur
+    team16 (westbrom) - Team 16 = West Bromwich Albion
+    team17 (westham) - Team 17 = West Ham United
+    team18 (wigan) - Team 18 = Wigan Athletic
+    team19 (wolverhampton) - Team 19 = Wolverhampton Wanderers
 
 */
 

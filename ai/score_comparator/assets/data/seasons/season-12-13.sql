@@ -2,38 +2,27 @@
 
 /* Match List - Season: 12/13
 
-19/05/2013	16:00	Chelsea FC	-	Everton FC	2:1 (1:1)	
-16:00	Liverpool FC	-	Queens Park Rangers	1:0 (1:0)	
-16:00	Manchester City	-	Norwich City	2:3 (1:1)	
-16:00	Newcastle United	-	Arsenal FC	0:1 (0:0)	
-16:00	Southampton FC	-	Stoke City	1:1 (0:0)	
-16:00	Swansea City	-	Fulham FC	0:3 (0:1)	
-16:00	Tottenham Hotspur	-	Sunderland AFC	1:0 (0:0)	
-16:00	West Bromwich Albion	-	Manchester United	5:5 (1:3)	
-16:00	West Ham United	-	Reading FC	4:2 (2:0)	
-16:00	Wigan Athletic	-	Aston Villa	2:2 (2:1)	
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (chelsea) - Team 3 = Chelsea
+    team4 (everton) - Team 4 = Everton
+    team5 (fulham) - Team 5 = Fulham
+    team6 (liverpool) - Team 6 = Liverpool
+    team7 (manchestercity) - Team 7 = Manchester City
+    team8 (manchesterunited) - Team 8 = Manchester United
+    team9 (norwich) - Team 9 = Norwich City
+    team10 (queensparkrangers) - Team 10 = Queens Park Rangers
+    team11 (reading) - Team 11 = Reading FC
+    team12 (southampton) - Team 12 = Southampton FC
+    team13 (stokecity) - Team 13 = Stoke City
+    team14 (sunderland) - Team 14 = Sunderland
+    team15 (swansea) - Team 15 = Swansea City
+    team16 (spurs) - Team 16 = Spurs FC
+    team17 (westbrom) - Team 17 = West Bromwich Albion
+    team18 (westham) - Team 18 = West Ham United
+    team19 (wigan) - Team 19 = Wigan Athletic
 
 */
 

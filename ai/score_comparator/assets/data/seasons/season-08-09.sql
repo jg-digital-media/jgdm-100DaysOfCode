@@ -2,38 +2,27 @@
 
 /* Match List - Season: 08/09
 
-24/05/2009	16:00	Arsenal FC	-	Stoke City	4:1 (4:1)	
-16:00	Aston Villa	-	Newcastle United	1:0 (1:0)	
-16:00	Blackburn Rovers	-	West Bromwich Albion	0:0 (0:0)	
-16:00	Fulham FC	-	Everton FC	0:2 (0:1)	
-16:00	Hull City	-	Manchester United	0:1 (0:1)	
-16:00	Liverpool FC	-	Tottenham Hotspur	3:1 (1:0)	
-16:00	Manchester City	-	Bolton Wanderers	1:0 (1:0)	
-16:00	Sunderland AFC	-	Chelsea FC	2:3 (0:0)	
-16:00	West Ham United	-	Middlesbrough FC	2:1 (1:0)	
-16:00	Wigan Athletic	-	Portsmouth FC	1:0 (1:0
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (blackburnrovers) - Team 3 = Blackburn Rovers
+    team4 (boltonwanderers) - Team 4 = Bolton Wanderers
+    team5 (chelsea) - Team 5 = Chelsea
+    team6 (everton) - Team 6 = Everton
+    team7 (everton) - Team 7 = Fulham
+    team8 (hullcity) - Team 8 = Hull City
+    team9 (liverpool) - Team 9 = Liverpool
+    team10 (manchestercity) - Team 10 = Manchester City
+    team11 (manchesterunited) - Team 11 = Manchester United
+    team12 (middlesbrough) - Team 12 = Middlesbrough
+    team13 (portsmouth) - Team 13 = Portsmouth FC
+    team14 (stokecity) - Team 14 = Stoke City
+    team15 (sunderland) - Team 15 = Sunderland
+    team16 (spurs) - Team 16 = Tottenham Hotspur
+    team17 (westbrom) - Team 17 = West Bromwich Albion
+    team18 (westham)- Team 18 = West Ham United        
+    team19 (wigan) - Team 19 = Wigan Athletic
 
 */
 

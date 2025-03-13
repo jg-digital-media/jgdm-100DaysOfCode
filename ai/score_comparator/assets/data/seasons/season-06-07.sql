@@ -2,38 +2,27 @@
 
 /* Match List - Season: 06/07
 
-13/05/2007	15:00	Blackburn Rovers	-	Reading FC	3:3 (1:1)	
-15:00	Bolton Wanderers	-	Aston Villa	2:2 (1:1)	
-15:00	Chelsea FC	-	Everton FC	1:1 (0:0)	
-15:00	Liverpool FC	-	Charlton Athletic	2:2 (0:1)	
-15:00	Manchester United	-	West Ham United	0:1 (0:1)	
-15:00	Middlesbrough FC	-	Fulham FC	3:1 (2:1)	
-15:00	Portsmouth FC	-	Arsenal FC	0:0 (0:0)	
-15:00	Sheffield United	-	Wigan Athletic	1:2 (1:2)	
-15:00	Tottenham Hotspur	-	Manchester City	2:1 (2:1)	
-15:00	Watford FC	-	Newcastle United	1:1 (0:1)
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (blackburnrovers) - Team 3 = Blackburn Rovers
+    team4 (boltonwanderers) - Team 4 = Bolton Wanderers
+    team5 (charlton) - Team 5 = Charlton Athletic
+    team6 (chelsea) - Team 6 = Chelsea
+    team7 (everton) - Team 7 = Everton
+    team8 (fulham) - Team 8 = Fulham
+    team9 (liverpool) - Team 9 = Liverpool
+    team10 (manchestercity) - Team 10 = Manchester City
+    team11 (manchesterunited) - Team 11 = Manchester United
+    team12 (middlesbrough) - Team 12 = Middlesbrough
+    team13 (portsmouth) - Team 13 = Portsmouth
+    team14 (reading) - Team 14 = Reading
+    team15 (sheffieldunited) - Team 15 = Sheffield United
+    team16 (spurs)- Team 16 = Tottenham Hotspur
+    team17 (watford) - Team 17 = Watford
+    team18 (westham) - Team 18 = West Ham United
+    team19 (wigan) - Team 19 = Wigan Athletic
 
 */
 

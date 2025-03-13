@@ -2,38 +2,27 @@
 
 /* Match List - Season: 11/12
 
-13/05/2012	15:00	Chelsea FC	-	Blackburn Rovers	2:1 (2:0)	
-15:00	Everton FC	-	Newcastle United	3:1 (2:0)	
-15:00	Manchester City	-	Queens Park Rangers	3:2 (1:0)	
-15:00	Norwich City	-	Aston Villa	2:0 (2:0)	
-15:00	Stoke City	-	Bolton Wanderers	2:2 (1:2)	
-15:00	Sunderland AFC	-	Manchester United	0:1 (0:1)	
-15:00	Swansea City	-	Liverpool FC	1:0 (0:0)	
-15:00	Tottenham Hotspur	-	Fulham FC	2:0 (1:0)	
-15:00	West Bromwich Albion	-	Arsenal FC	2:3 (2:2)	
-15:00	Wigan Athletic	-	Wolverhampton Wanderers	3:2 (2:1)
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (blackburnrovers)- Team 3 = Blackburn Rovers
+    team4 (boltonwanderers) - Team 4 = Bolton Wanderers
+    team5 (chelsea) - Team 5 = Chelsea
+    team6 (everton) - Team 6 = Everton
+    team7 (fulham) - Team 7 = Fulham
+    team8 (liverpool) - Team 8 = Liverpool
+    team9 (manchestercity) - Team 9 = Manchester City
+    team10 (manchesterunited) - Team 10 = Manchester United
+    team11 (norwich) - Team 11 = Norwich City
+    team12 (queensparkrangers) - Team 12 = Queens Park Rangers
+    team13 (stokecity) - Team 13 = Stoke City
+    team14 (sunderland) - Team 14 = Sunderland
+    team15 (swansea) - Team 15 = Swansea City
+    team16 (spurs) - Team 16 = Tottenham Hotspur
+    team17 (westbrom) - Team 17 = West Bromwich Albion
+    team18 (westham) - Team 18 = West Ham United
+    team19 (wigan) - Team 19 = Wigan Athletic   
 
 */
 

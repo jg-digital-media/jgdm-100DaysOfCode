@@ -1,28 +1,30 @@
-/* Last Update: 13/03/2025 - 17:02 */
+/* Last Update: 13/03/2025 - 10:46 */
 
 /* Match List - Season: 22/23
 
     Base Team: Newcastle United
 
-    team1 () - Team 1 = AFC Bournemouth
-    team2 () - Team 2 = Arsenal FC
-    team3 () - Team 3 = Aston Villa
-    team4 () - Team 4 = Brentford FC
-    team5 () - Team 5 = Brighton & Hove Albion
-    team6 () - Team 6 = Chelsea FC
-    team7 () - Team 7 = Crystal Palace
-    team8 () - Team 8 = Everton FC
-    team9 () - Team 9 = Fulham FC
-    team10 () - Team 10 = Nottingham Forest
-    team11 () - Team 11 = Manchester City
-    team12 () - Team 12 = Manchester United
-    team13 () - Team 13 = Leeds United
-    team14 () - Team 14 = Leicester City
-    team15 () - Team 15 = Liverpool
-    team16 () - Team 16 = Southampton
-    team17 () - Team 17 = Totthenham Hotspur
-    team18 () - Team 18 = West Ham United        
-    team19 () - Team 19 = Wolverhampton Wanderers   
+    team1 (bournemouth) - Team 1 = AFC Bournemouth
+    team2 (arsenal) - Team 2 = Arsenal FC
+    team3 (astonvilla) - Team 3 = Aston Villa
+    team4 (brentford) - Team 4 = Brentford FC
+    team5 (brighton) - Team 5 = Brighton & Hove Albion
+    team6 (chelsea) - Team 6 = Chelsea FC
+    team7 (crystalpalace) - Team 7 = Crystal Palace
+    team6 (chelsea) - Team 6 = Chelsea FC
+    team7 (crystalpalace) - Team 7 = Crystal Palace
+    team8 (everton) - Team 8 = Everton FC
+    team9 (fulham) - Team 9 = Fulham FC
+    team10 (nottinghamforest) - Team 10 = Nottingham Forest
+    team11 (manchestercity) - Team 11 = Manchester City
+    team12 (manchesterunited) - Team 12 = Manchester United
+    team13 (leeds) - Team 13 = Leeds United
+    team14 (leicester) - Team 14 = Leicester City
+    team15 (liverpool) - Team 15 = Liverpool
+    team16 (southampton) - Team 16 = Southampton
+    team17 (spurs) - Team 17 = Totthenham Hotspur
+    team18 (westham) - Team 18 = West Ham United        
+    team19 (wolverhampton) - Team 19 = Wolverhampton Wanderers   
 
 */
 

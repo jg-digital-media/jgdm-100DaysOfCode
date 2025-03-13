@@ -11,8 +11,6 @@
     team5 (brighton) - Team 5 = Brighton & Hove Albion
     team6 (chelsea) - Team 6 = Chelsea FC
     team7 (crystalpalace) - Team 7 = Crystal Palace
-    team6 (chelsea) - Team 6 = Chelsea FC
-    team7 (crystalpalace) - Team 7 = Crystal Palace
     team8 (everton) - Team 8 = Everton FC
     team9 (fulham) - Team 9 = Fulham FC
     team10 (nottinghamforest) - Team 10 = Nottingham Forest

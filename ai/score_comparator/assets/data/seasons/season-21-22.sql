@@ -1,39 +1,28 @@
-/* Last Update: 13/03/2025 - 09:58 */
+/* Last Update: 13/03/2025 - 11:04 */
 
 /* Match List - Season: 21/22
 
-22/05/2022	16:00	Arsenal FC	-	Everton FC	5:1 (2:1)	
-16:00	Brentford FC	-	Leeds United	1:2 (0:0)	
-16:00	Brighton & Hove Albion	-	West Ham United	3:1 (0:1)	
-16:00	Burnley FC	-	Newcastle United	1:2 (0:1)	
-16:00	Chelsea FC	-	Watford FC	2:1 (1:0)	
-16:00	Crystal Palace	-	Manchester United	1:0 (1:0)	
-16:00	Leicester City	-	Southampton FC	4:1 (0:0)	
-16:00	Liverpool FC	-	Wolverhampton Wanderers	3:1 (1:1)	
-16:00	Manchester City	-	Aston Villa	3:2 (0:1)	
-16:00	Norwich City	-	Tottenham Hotspur	0:5 (0:2)
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 =  Arsenal
+    team2 (astonvilla) - Team 2 =  Aston Villa
+    team3 (brentford) - Team 3 =  Brentford FC
+    team4 (brighton) - Team 4 =  Brighton & Hove Albion
+    team5 (burnley) - Team 5 =  Burnley
+    team6 (chelsea) - Team 6 =  Chelsea FC
+    team7 (crystalpalace) - Team 7 =  Crystal Palace
+    team8 (everton) - Team 8 =  Everton FC
+    team9 (leeds) - Team 9 =  Leeds United
+    team10 (leicester) - Team 10 = Leicester City
+    team11 (liverpool) - Team 11 = Liverpool
+    team12 (manchestercity) - Team 12 = Manchester City
+    team13 (manchesterunited - Team 13 = Manchester United
+    team14 (norwich) - Team 14 = Norwich City
+    team15 (southampton) - Team 15 = Southampton
+    team16 (spurs) - Team 16 = Tottenham Hotspur
+    team17 (watford) - Team 17 = Watford FC
+    team18 (westham) - Team 18 = West Ham United        
+    team19 (wolverhampton) - Team 19 = Wolverhampton Wanderers   
 
 */
 

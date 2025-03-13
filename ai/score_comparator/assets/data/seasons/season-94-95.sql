@@ -2,6 +2,18 @@
 
 /* Match List - Season: 94/95
 
+13/05/1995		Wimbledon FC	-	Nottingham Forest	2:2 (2:1)	
+14/05/1995		Liverpool FC	-	Blackburn Rovers	2:1 (0:1)	
+West Ham United	-	Manchester United	1:1 (1:0)	
+Tottenham Hotspur	-	Leeds United	1:1 (1:0)	
+Southampton FC	-	Leicester City	2:2 (1:0)	
+Sheffield Wednesday	-	Ipswich Town	4:1 (1:0)	
+Norwich City	-	Aston Villa	1:1 (0:1)	
+Coventry City	-	Everton FC	0:0 (0:0)	
+Chelsea FC	-	Arsenal FC	2:1 (1:1)	
+Newcastle United	-	Crystal Palace	3:2 (3:0)	
+Manchester City	-	Queens Park Rangers	2:3 (1:1)
+
     Base Team: Newcastle United
 
     team1 - Team 1 =  

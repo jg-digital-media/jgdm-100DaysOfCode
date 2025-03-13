@@ -1,28 +1,28 @@
-/* Last Update: 12/03/2025 - 17:02 */
+/* Last Update: 13/03/2025 - 17:02 */
 
 /* Match List - Season: 22/23
 
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 () - Team 1 = AFC Bournemouth
+    team2 () - Team 2 = Arsenal FC
+    team3 () - Team 3 = Aston Villa
+    team4 () - Team 4 = Brentford FC
+    team5 () - Team 5 = Brighton & Hove Albion
+    team6 () - Team 6 = Chelsea FC
+    team7 () - Team 7 = Crystal Palace
+    team8 () - Team 8 = Everton FC
+    team9 () - Team 9 = Fulham FC
+    team10 () - Team 10 = Nottingham Forest
+    team11 () - Team 11 = Manchester City
+    team12 () - Team 12 = Manchester United
+    team13 () - Team 13 = Leeds United
+    team14 () - Team 14 = Leicester City
+    team15 () - Team 15 = Liverpool
+    team16 () - Team 16 = Southampton
+    team17 () - Team 17 = Totthenham Hotspur
+    team18 () - Team 18 = West Ham United        
+    team19 () - Team 19 = Wolverhampton Wanderers   
 
 */
 

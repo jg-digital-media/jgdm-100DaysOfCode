@@ -1,6 +1,20 @@
 /* Last Update: 12/03/2025 - 17:02 */
 
+
+
 /* Match List - Season: 09/10
+
+09/05/2010	16:00	Arsenal FC	-	Fulham FC	4:0 (3:0)	
+16:00	Aston Villa	-	Blackburn Rovers	0:1 (0:0)	
+16:00	Bolton Wanderers	-	Birmingham City	2:1 (1:0)	
+16:00	Burnley FC	-	Tottenham Hotspur	4:2 (1:2)	
+16:00	Chelsea FC	-	Wigan Athletic	8:0 (2:0)	
+16:00	Everton FC	-	Portsmouth FC	1:0 (0:0)	
+16:00	Hull City	-	Liverpool FC	0:0 (0:0)	
+16:00	Manchester United	-	Stoke City	4:0 (2:0)	
+16:00	West Ham United	-	Manchester City	1:1 (1:1)	
+16:00	Wolverhampton Wanderers	-	Sunderland AFC	2:1 (1:1)
+
 
     Base Team: N/A
 

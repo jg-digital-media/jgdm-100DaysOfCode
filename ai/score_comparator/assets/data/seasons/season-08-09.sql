@@ -2,6 +2,17 @@
 
 /* Match List - Season: 08/09
 
+24/05/2009	16:00	Arsenal FC	-	Stoke City	4:1 (4:1)	
+16:00	Aston Villa	-	Newcastle United	1:0 (1:0)	
+16:00	Blackburn Rovers	-	West Bromwich Albion	0:0 (0:0)	
+16:00	Fulham FC	-	Everton FC	0:2 (0:1)	
+16:00	Hull City	-	Manchester United	0:1 (0:1)	
+16:00	Liverpool FC	-	Tottenham Hotspur	3:1 (1:0)	
+16:00	Manchester City	-	Bolton Wanderers	1:0 (1:0)	
+16:00	Sunderland AFC	-	Chelsea FC	2:3 (0:0)	
+16:00	West Ham United	-	Middlesbrough FC	2:1 (1:0)	
+16:00	Wigan Athletic	-	Portsmouth FC	1:0 (1:0
+
     Base Team: Newcastle United
 
     team1 - Team 1 =  

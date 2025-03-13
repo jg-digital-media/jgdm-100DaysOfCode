@@ -2,6 +2,18 @@
 
 /* Match List - Season: 93/94
 
+07/05/1994		Sheffield Wednesday	-	Manchester City	1:1 (1:0)	
+West Ham United	-	Southampton FC	3:3 (1:1)	
+Tottenham Hotspur	-	Queens Park Rangers	1:2 (1:1)	
+Swindon Town	-	Leeds United	0:5 (0:2)	
+Newcastle United	-	Arsenal FC	2:0 (0:0)	
+Everton FC	-	Wimbledon FC	3:2 (1:2)	
+Chelsea FC	-	Sheffield United	3:2 (0:1)	
+Aston Villa	-	Liverpool FC	2:1 (0:1)	
+Blackburn Rovers	-	Ipswich Town	0:0 (0:0)	
+Norwich City	-	Oldham Athletic	1:1 (0:1)	
+08/05/1994		Manchester United	-	Coventry City	0:0 (0:0)
+
     Base Team: Newcastle United
 
     team1 - Team 1 =  

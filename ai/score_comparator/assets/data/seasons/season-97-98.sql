@@ -2,6 +2,17 @@
 
 /* Match List - Season: 97/98
 
+10/05/1998	16:00	Aston Villa	-	Arsenal FC	1:0 (1:0)	
+16:00	Barnsley FC	-	Manchester United	0:2 (0:1)	
+16:00	Blackburn Rovers	-	Newcastle United	1:0 (0:0)	
+16:00	Tottenham Hotspur	-	Southampton FC	1:1 (1:1)	
+16:00	Chelsea FC	-	Bolton Wanderers	2:0 (0:0)	
+16:00	West Ham United	-	Leicester City	4:3 (2:0)	
+16:00	Crystal Palace	-	Sheffield Wednesday	1:0 (0:0)	
+16:00	Derby County	-	Liverpool FC	1:0 (0:0)	
+16:00	Everton FC	-	Coventry City	1:1 (1:0)	
+16:00	Leeds United	-	Wimbledon FC	1:1 (0:0)	
+
     Base Team: Newcastle United
 
     team1 - Team 1 =  

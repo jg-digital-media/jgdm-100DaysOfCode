@@ -2,6 +2,17 @@
 
 /* Match List - Season: 99/00
 
+14/05/2000	16:00	Aston Villa	-	Manchester United	0:1 (0:0)	
+16:00	Bradford City	-	Liverpool FC	1:0 (1:0)	
+16:00	Chelsea FC	-	Derby County	4:0 (0:0)	
+16:00	Everton FC	-	Middlesbrough FC	0:2 (0:1)	
+16:00	Newcastle United	-	Arsenal FC	4:2 (2:1)	
+16:00	Sheffield Wednesday	-	Leicester City	4:0 (2:0)	
+16:00	Southampton FC	-	Wimbledon FC	2:0 (0:0)	
+16:00	Tottenham Hotspur	-	Sunderland AFC	3:1 (1:1)	
+16:00	Watford FC	-	Coventry City	1:0 (1:0)	
+16:00	West Ham United	-	Leeds United	0:0 (0:0)
+
     Base Team: Newcastle United
 
     team1 - Team 1 =  

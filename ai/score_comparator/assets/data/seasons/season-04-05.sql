@@ -2,6 +2,17 @@
 
 /* Match List - Season: 04/05
 
+15/05/2005	15:00	Birmingham City	-	Arsenal FC	2:1 (2:1)	
+15:00	Bolton Wanderers	-	Everton FC	3:2 (3:2)	
+15:00	Charlton Athletic	-	Crystal Palace	2:2 (2:2)	
+15:00	Fulham FC	-	Norwich City	6:0 (6:0)	
+15:00	Liverpool FC	-	Aston Villa	2:1 (2:1)	
+15:00	Manchester City	-	Middlesbrough FC	1:1 (1:1)	
+15:00	Newcastle United	-	Chelsea FC	1:1 (1:1)	
+15:00	Southampton FC	-	Manchester United	1:2 (1:2)	
+15:00	Tottenham Hotspur	-	Blackburn Rovers	0:0 (0:0)	
+15:00	West Bromwich Albion	-	Portsmouth FC	2:0 (2:0)
+
     Base Team: Newcastle United
 
     team1 - Team 1 =  

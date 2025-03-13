@@ -2,6 +2,17 @@
 
 /* Match List - Season: 19/20
 
+26/07/2020	16:00	Arsenal FC	-	Watford FC	3:2 (3:1)	
+16:00	Burnley FC	-	Brighton & Hove Albion	1:2 (1:1)	
+16:00	Chelsea FC	-	Wolverhampton Wanderers	2:0 (2:0)	
+16:00	Crystal Palace	-	Tottenham Hotspur	1:1 (0:1)	
+16:00	Everton FC	-	AFC Bournemouth	1:3 (1:2)	
+16:00	Leicester City	-	Manchester United	0:2 (0:0)	
+16:00	Manchester City	-	Norwich City	5:0 (2:0)	
+16:00	Newcastle United	-	Liverpool FC	1:3 (1:1)	
+16:00	Southampton FC	-	Sheffield United	3:1 (0:1)	
+16:00	West Ham United	-	Aston Villa	1:1 (0:0)
+
     Base Team: Newcastle United
 
     team1 - Team 1 =  

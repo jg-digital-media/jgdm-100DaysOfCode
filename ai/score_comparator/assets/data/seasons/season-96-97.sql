@@ -2,6 +2,17 @@
 
 /* Match List - Season: 96/97
 
+11/05/1997		Aston Villa	-	Southampton FC	1:0 (1:0)	
+Blackburn Rovers	-	Leicester City	2:4 (1:1)	
+Derby County	-	Arsenal FC	1:3 (1:0)	
+Everton FC	-	Chelsea FC	1:2 (0:2)	
+Leeds United	-	Middlesbrough FC	1:1 (0:0)	
+Manchester United	-	West Ham United	2:0 (1:0)	
+Newcastle United	-	Nottingham Forest	5:0 (4:0)	
+Sheffield Wednesday	-	Liverpool FC	1:1 (0:0)	
+Tottenham Hotspur	-	Coventry City	1:2 (1:2)	
+Wimbledon FC	-	Sunderland AFC	1:0 (0:0)
+
     Base Team: Newcastle United
 
     team1 - Team 1 =  

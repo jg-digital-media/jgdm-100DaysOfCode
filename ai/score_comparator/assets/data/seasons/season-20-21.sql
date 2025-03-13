@@ -1,6 +1,17 @@
-/* Last Update: 12/03/2025 - 17:02 */
+/* Last Update: 13/03/2025 - 10:14 */
 
 /* Match List - Season: 20/21
+
+23/05/2021	16:00	Arsenal FC	-	Brighton & Hove Albion	2:0 (0:0)	
+16:00	Aston Villa	-	Chelsea FC	2:1 (1:0)	
+16:00	Fulham FC	-	Newcastle United	0:2 (0:1)	
+16:00	Leeds United	-	West Bromwich Albion	3:1 (2:0)	
+16:00	Leicester City	-	Tottenham Hotspur	2:4 (1:1)	
+16:00	Liverpool FC	-	Crystal Palace	2:0 (1:0)	
+16:00	Manchester City	-	Everton FC	5:0 (2:0)	
+16:00	Sheffield United	-	Burnley FC	1:0 (1:0)	
+16:00	West Ham United	-	Southampton FC	3:0 (2:0)	
+16:00	Wolverhampton Wanderers	-	Manchester United	1:2 (1:2)
 
     Base Team: Newcastle United
 

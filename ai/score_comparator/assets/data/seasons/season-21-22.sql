@@ -1,6 +1,17 @@
-/* Last Update: 12/03/2025 - 17:02 */
+/* Last Update: 13/03/2025 - 09:58 */
 
 /* Match List - Season: 21/22
+
+22/05/2022	16:00	Arsenal FC	-	Everton FC	5:1 (2:1)	
+16:00	Brentford FC	-	Leeds United	1:2 (0:0)	
+16:00	Brighton & Hove Albion	-	West Ham United	3:1 (0:1)	
+16:00	Burnley FC	-	Newcastle United	1:2 (0:1)	
+16:00	Chelsea FC	-	Watford FC	2:1 (1:0)	
+16:00	Crystal Palace	-	Manchester United	1:0 (1:0)	
+16:00	Leicester City	-	Southampton FC	4:1 (0:0)	
+16:00	Liverpool FC	-	Wolverhampton Wanderers	3:1 (1:1)	
+16:00	Manchester City	-	Aston Villa	3:2 (0:1)	
+16:00	Norwich City	-	Tottenham Hotspur	0:5 (0:2)
 
     Base Team: Newcastle United
 

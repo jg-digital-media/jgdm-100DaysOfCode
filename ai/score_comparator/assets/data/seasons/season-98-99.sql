@@ -2,6 +2,17 @@
 
 /* Match List - Season: 98/99
 
+16/05/1999	14:00	Manchester United	-	Tottenham Hotspur	2:1 (1:1)	
+14:00	Coventry City	-	Leeds United	2:2 (0:1)	
+14:00	Arsenal FC	-	Aston Villa	1:0 (0:0)	
+14:00	Chelsea FC	-	Derby County	2:1 (1:0)	
+14:00	West Ham United	-	Middlesbrough FC	4:0 (2:0)	
+14:00	Charlton Athletic	-	Sheffield Wednesday	0:1 (0:0)	
+14:00	Liverpool FC	-	Wimbledon FC	3:0 (1:0)	
+14:00	Newcastle United	-	Blackburn Rovers	1:1 (0:1)	
+14:00	Southampton FC	-	Everton FC	2:0 (1:0)	
+14:00	Nottingham Forest	-	Leicester City	1:0 (0:0)
+
     Base Team: Newcastle United
 
     team1 - Team 1 =  

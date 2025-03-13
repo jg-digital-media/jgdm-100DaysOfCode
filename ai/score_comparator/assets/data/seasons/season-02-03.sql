@@ -2,7 +2,19 @@
 
 /* Match List - Season: 02/03
 
+11/05/2003	15:00	West Bromwich Albion	-	Newcastle United	2:2 (0:1)	
+15:00	Manchester City	-	Southampton FC	0:1 (0:1)	
+15:00	Sunderland AFC	-	Arsenal FC	0:4 (0:2)	
+15:00	Tottenham Hotspur	-	Blackburn Rovers	0:4 (0:2)	
+15:00	Chelsea FC	-	Liverpool FC	2:1 (2:1)	
+15:00	Everton FC	-	Manchester United	1:2 (1:1)	
+15:00	Leeds United	-	Aston Villa	3:1 (1:1)	
+15:00	Birmingham City	-	West Ham United	2:2 (0:0)	
+15:00	Bolton Wanderers	-	Middlesbrough FC	2:1 (2:0)	
+15:00	Charlton Athletic	-	Fulham FC	0:1 (0:1)
+
     Base Team: Newcastle United
+    
 
     team1 - Team 1 =  
     team2 - Team 2 = 

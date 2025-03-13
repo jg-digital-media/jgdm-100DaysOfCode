@@ -2,6 +2,18 @@
 
 /* Match List - Season: 07/08
 
+11/05/2008	15:00	Birmingham City	-	Blackburn Rovers	4:1 (1:0)	
+15:00	Chelsea FC	-	Bolton Wanderers	1:1 (0:0)	
+15:00	Derby County	-	Reading FC	0:4 (0:1)	
+15:00	Everton FC	-	Newcastle United	3:1 (1:0)	
+15:00	Middlesbrough FC	-	Manchester City	8:1 (2:0)	
+15:00	Portsmouth FC	-	Fulham FC	0:1 (0:0)	
+15:00	Sunderland AFC	-	Arsenal FC	0:1 (0:1)	
+15:00	Tottenham Hotspur	-	Liverpool FC	0:2 (0:0)	
+15:00	West Ham United	-	Aston Villa	2:2 (1:1)	
+15:00	Wigan Athletic	-	Manchester United	0:2 (0:1)	
+
+
     Base Team: Newcastle United
 
     team1 - Team 1 =  

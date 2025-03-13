@@ -4,6 +4,17 @@
 
     Base Team: Newcastle United
 
+    19/05/2001	15:00	Charlton Athletic	-	Liverpool FC	0:4 (0:0)	
+15:00	Coventry City	-	Bradford City	0:0 (0:0)	
+15:00	Derby County	-	Ipswich Town	1:1 (1:0)	
+15:00	Everton FC	-	Sunderland AFC	2:2 (1:1)	
+15:00	Leeds United	-	Leicester City	3:1 (1:1)	
+15:00	Manchester City	-	Chelsea FC	1:2 (1:1)	
+15:00	Middlesbrough FC	-	West Ham United	2:1 (2:1)	
+15:00	Newcastle United	-	Aston Villa	3:0 (2:0)	
+15:00	Southampton FC	-	Arsenal FC	3:2 (0:1)	
+15:00	Tottenham Hotspur	-	Manchester United	3:1 (1:1)	
+
     team1 - Team 1 =  
     team2 - Team 2 = 
     team3 - Team 3 = 

@@ -2,6 +2,17 @@
 
 /* Match List - Season: 95/96
 
+04/05/1996	14:00	Everton FC	-	Aston Villa	1:0 (0:0)	
+14:00	Chelsea FC	-	Blackburn Rovers	2:3 (1:1)	
+14:00	Arsenal FC	-	Bolton Wanderers	2:1 (0:0)	
+14:00	Coventry City	-	Leeds United	0:0 (0:0)	
+14:00	Manchester City	-	Liverpool FC	2:2 (0:2)	
+14:00	Middlesbrough FC	-	Manchester United	0:3 (0:1)	
+14:00	Nottingham Forest	-	Queens Park Rangers	3:0 (1:0)	
+14:00	West Ham United	-	Sheffield Wednesday	1:1 (0:0)	
+14:00	Newcastle United	-	Tottenham Hotspur	1:1 (0:0)	
+14:00	Southampton FC	-	Wimbledon FC	0:0 (0:0)
+
     Base Team: Newcastle United
 
     team1 - Team 1 =  

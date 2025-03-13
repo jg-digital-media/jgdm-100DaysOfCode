@@ -1,6 +1,17 @@
-/* Last Update: 12/03/2025 - 17:02 */
+/* Last Update: 13/03/2025 - 10:15 */
 
 /* Match List - Season: 18/19
+
+12/05/2019	15:00	Brighton & Hove Albion	-	Manchester City	1:4 (1:2)	
+15:00	Burnley FC	-	Arsenal FC	1:3 (0:0)	
+15:00	Crystal Palace	-	AFC Bournemouth	5:3 (3:1)	
+15:00	Fulham FC	-	Newcastle United	0:4 (0:2)	
+15:00	Leicester City	-	Chelsea FC	0:0 (0:0)	
+15:00	Liverpool FC	-	Wolverhampton Wanderers	2:0 (1:0)	
+15:00	Manchester United	-	Cardiff City	0:2 (0:1)	
+15:00	Southampton FC	-	Huddersfield Town	1:1 (1:0)	
+15:00	Tottenham Hotspur	-	Everton FC	2:2 (1:0)	
+15:00	Watford FC	-	West Ham United	1:4 (0:2)
 
     Base Team: Newcastle United
 

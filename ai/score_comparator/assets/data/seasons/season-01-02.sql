@@ -2,6 +2,17 @@
 
 /* Match List - Season: 01/02
 
+11/05/2002	15:00	Chelsea FC	-	Aston Villa	1:3 (0:1)	
+15:00	Liverpool FC	-	Ipswich Town	5:0 (2:0)	
+15:00	Arsenal FC	-	Everton FC	4:3 (2:2)	
+15:00	Blackburn Rovers	-	Fulham FC	3:0 (0:0)	
+15:00	West Ham United	-	Bolton Wanderers	2:1 (1:0)	
+15:00	Leeds United	-	Middlesbrough FC	1:0 (0:0)	
+15:00	Leicester City	-	Tottenham Hotspur	2:1 (0:0)	
+15:00	Sunderland AFC	-	Derby County	1:1 (1:0)	
+15:00	Manchester United	-	Charlton Athletic	0:0 (0:0)	
+15:00	Southampton FC	-	Newcastle United	3:1 (2:0)
+
     Base Team: Newcastle United
 
     team1 - Team 1 =  

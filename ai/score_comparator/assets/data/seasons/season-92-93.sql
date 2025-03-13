@@ -2,6 +2,18 @@
 
 /* Match List - Season: 92/93
 
+08/05/1993		Arsenal FC	-	Crystal Palace	3:0 (1:0)	
+Blackburn Rovers	-	Sheffield Wednesday	1:0 (0:0)	
+Coventry City	-	Leeds United	3:3 (2:1)	
+Ipswich Town	-	Nottingham Forest	2:1 (1:0)	
+Liverpool FC	-	Tottenham Hotspur	6:2 (2:0)	
+Manchester City	-	Everton FC	2:5 (1:3)	
+Middlesbrough FC	-	Norwich City	3:3 (1:1)	
+Oldham Athletic	-	Southampton FC	4:3 (2:1)	
+Sheffield United	-	Chelsea FC	4:2 (3:0)	
+Queens Park Rangers	-	Aston Villa	2:1 (0:1)	
+Wimbledon FC	-	Manchester United	1:2 (0:0)
+
     Base Team: N/A
 
     team1 - Team 1 =  

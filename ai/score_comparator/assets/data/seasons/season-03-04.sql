@@ -2,6 +2,17 @@
 
 /* Match List - Season: 03/04
 
+15/05/2004	15:00	Blackburn Rovers	-	Birmingham City	1:1 (1:1)	
+15:00	Wolverhampton Wanderers	-	Tottenham Hotspur	0:2 (0:2)	
+15:00	Manchester City	-	Everton FC	5:1 (5:1)	
+15:00	Bolton Wanderers	-	Fulham FC	0:2 (0:2)	
+15:00	Chelsea FC	-	Leeds United	1:0 (1:0)	
+15:00	Arsenal FC	-	Leicester City	2:1 (2:1)	
+15:00	Aston Villa	-	Manchester United	0:2 (0:2)	
+15:00	Portsmouth FC	-	Middlesbrough FC	5:1 (5:1)	
+15:00	Liverpool FC	-	Newcastle United	1:1 (1:1)	
+15:00	Charlton Athletic	-	Southampton FC	2:1 (2:1)
+
     Base Team: Newcastle United
 
     team1 - Team 1 =  

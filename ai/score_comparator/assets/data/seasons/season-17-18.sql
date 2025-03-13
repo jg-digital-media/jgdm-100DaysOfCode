@@ -2,6 +2,17 @@
 
 /* Match List - Season: 17/18
 
+13/05/2018	15:00	Burnley FC	-	AFC Bournemouth	1:2 (1:0)	
+15:00	Crystal Palace	-	West Bromwich Albion	2:0 (0:0)	
+15:00	Huddersfield Town	-	Arsenal FC	0:1 (0:1)	
+15:00	Liverpool FC	-	Brighton & Hove Albion	4:0 (2:0)	
+15:00	Manchester United	-	Watford FC	1:0 (1:0)	
+15:00	Newcastle United	-	Chelsea FC	3:0 (1:0)	
+15:00	Southampton FC	-	Manchester City	0:1 (0:0)	
+15:00	Swansea City	-	Stoke City	1:2 (1:2)	
+15:00	Tottenham Hotspur	-	Leicester City	5:4 (1:2)	
+15:00	West Ham United	-	Everton FC	3:1 (1:0)
+
     Base Team: Newcastle United
 
     team1 - Team 1 =  

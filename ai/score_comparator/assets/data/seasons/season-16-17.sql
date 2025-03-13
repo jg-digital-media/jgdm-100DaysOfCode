@@ -2,6 +2,17 @@
 
 /* Match List - Season: 16/17
 
+21/05/2017	15:00	Arsenal FC	-	Everton FC	3:1 (2:0)	
+15:00	Burnley FC	-	West Ham United	1:2 (1:1)	
+15:00	Chelsea FC	-	Sunderland AFC	5:1 (1:1)	
+15:00	Hull City	-	Tottenham Hotspur	1:7 (0:3)	
+15:00	Leicester City	-	AFC Bournemouth	1:1 (0:1)	
+15:00	Liverpool FC	-	Middlesbrough FC	3:0 (1:0)	
+15:00	Manchester United	-	Crystal Palace	2:0 (2:0)	
+15:00	Southampton FC	-	Stoke City	0:1 (0:0)	
+15:00	Swansea City	-	West Bromwich Albion	2:1 (0:1)	
+15:00	Watford FC	-	Manchester City	0:5 (0:4)
+
     Base Team: N/A
 
     team1 - Team 1 =  

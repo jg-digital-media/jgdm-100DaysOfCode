@@ -2,6 +2,17 @@
 
 /* Match List - Season: 05/06
 
+07/05/2006	15:00	Arsenal FC	-	Wigan Athletic	4:2 (2:2)	
+15:00	Aston Villa	-	Sunderland AFC	2:1 (1:0)	
+15:00	Blackburn Rovers	-	Manchester City	2:0 (1:0)	
+15:00	Bolton Wanderers	-	Birmingham City	1:0 (0:0)	
+15:00	Everton FC	-	West Bromwich Albion	2:2 (0:1)	
+15:00	Fulham FC	-	Middlesbrough FC	1:0 (0:0)	
+15:00	Manchester United	-	Charlton Athletic	4:0 (3:0)	
+15:00	Newcastle United	-	Chelsea FC	1:0 (0:0)	
+15:00	Portsmouth FC	-	Liverpool FC	1:3 (0:0)	
+15:00	West Ham United	-	Tottenham Hotspur	2:1 (1:1)
+
     Base Team: Newcastle United
 
     team1 - Team 1 =  

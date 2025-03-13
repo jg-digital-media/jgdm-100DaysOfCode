@@ -2,6 +2,17 @@
 
 /* Match List - Season: 06/07
 
+13/05/2007	15:00	Blackburn Rovers	-	Reading FC	3:3 (1:1)	
+15:00	Bolton Wanderers	-	Aston Villa	2:2 (1:1)	
+15:00	Chelsea FC	-	Everton FC	1:1 (0:0)	
+15:00	Liverpool FC	-	Charlton Athletic	2:2 (0:1)	
+15:00	Manchester United	-	West Ham United	0:1 (0:1)	
+15:00	Middlesbrough FC	-	Fulham FC	3:1 (2:1)	
+15:00	Portsmouth FC	-	Arsenal FC	0:0 (0:0)	
+15:00	Sheffield United	-	Wigan Athletic	1:2 (1:2)	
+15:00	Tottenham Hotspur	-	Manchester City	2:1 (2:1)	
+15:00	Watford FC	-	Newcastle United	1:1 (0:1)
+
     Base Team: Newcastle United
 
     team1 - Team 1 =  

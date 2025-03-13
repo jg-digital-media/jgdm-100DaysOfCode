@@ -4,25 +4,25 @@
 
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 = (bournemouth) - Team 1 = AFC Bournemouth
+    team2 = (arsenal) - Team 2 = Arsenal
+    team3 = (astonvilla) - Team 3 = Aston Villa
+    team4 = (brentford) - Team 4 = Brentford
+    team5 = (brighton) - Team 5 = Brighton & Hove Albion
+    team6 = (burnley) - Team 6 = Burnley
+    team7 = (chelsea) - Team 7 = Chelsea
+    team8 = (crystalpalace) - Team 8 = Crystal Palace
+    team9 = (everton) - Team 9 = Everton
+    team10 = (fulham) - Team 10 = Fulham
+    team11 = (liverpool) - Team 11 = Liverpool
+    team12 = (luton) - Team 12 = Luton Town
+    team13 = (manchestercity) - Team 13 = Manchester City	
+    team14 = (manchesterunited) - Team 14 = Manchester United
+    team15 = (nottinghamforest) - Team 15 = Nottingham Forest
+    team16 = (sheffieldunited) - Team 16 = Sheffield United
+    team17 = (spurs) - Team 17 = Tottenham Hotspur
+    team18 = (westham) - Team 18 = West Ham United        
+    team19 = (wolverhampton) - Team 19 = Wolverhampton Wanderers   
 
 */
 

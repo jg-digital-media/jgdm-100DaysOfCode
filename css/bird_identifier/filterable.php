@@ -211,7 +211,7 @@
 
             <div class="bird---item bird---class--countryside" data-lightbox="Filterable Birds" data-habitat="" data-size="medium" data-color="black-grey">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2857.JPG" alt="Magpie">
-                <div class="bird_name">Magpie</div>
+                  <div class="bird_name">Magpie</div>
                 <div class="bird_date">11/05/2025</div>
 
             </div>
@@ -221,7 +221,21 @@
                 <div class="bird_name">Swan</div>
                 <div class="bird_date">24/04/2024</div>
 
-            </div>            
+            </div> 
+
+            <div class="bird---item bird---class--water bird---class--large bird---class--white" data-lightbox="Filterable Birds" data-habitat="water" data-size="large" data-color="white-light">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2455.JPG" alt="Common Merganser">
+                <div class="bird_name">Common Merganser</div>
+                <div class="bird_date">01/03/2024</div>
+
+            </div>
+
+            <div class="bird---item bird---class--water bird---class--large bird---class--white" data-lightbox="Filterable Birds" data-habitat="water" data-size="large" data-color="white-light">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2286.JPG" alt="Common Moorhen">
+                <div class="bird_name">Common Moorhen</div>
+                <div class="bird_date">03/03/2024</div>
+
+            </div>
 
         </section>
 

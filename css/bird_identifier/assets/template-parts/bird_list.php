@@ -16,4 +16,6 @@
     <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2545.JPG" class="" id="" target="_blank">IMG_2545.JPG - Commmon Blackbird (Female)</a></li>
     <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2857.JPG" class="" id="" target="_blank">IMG_2857.JPG - Magpie</a></li>
     <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2442.JPG" class="" id="" target="_blank">IMG_2442.JPG - Swan</a></li>
+    <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2442.JPG" class="" id="" target="_blank">IMG_2455.JPG - Common Merganser</a></li>
+    <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2442.JPG" class="" id="" target="_blank">IMG_2286.JPG - Common Moorhen</a></li>
 </ul>

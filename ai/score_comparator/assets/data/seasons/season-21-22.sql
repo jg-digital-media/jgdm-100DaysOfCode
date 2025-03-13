@@ -415,8 +415,8 @@ CREATE TABLE base_scores_away (
 
 -- Insert Base Scores for home reports
 INSERT INTO base_scores_home (home_team, away_team, home_score, away_score, played) VALUES
-    ('team0', 'Newcastle United', 0, 0, 0),
-    ('team0', 'Newcastle United', 0, 0, 0),
+    ('team1', 'Newcastle United', 0, 0, 0),
+    ('team2', 'Newcastle United', 0, 0, 0),
     ('team3', 'Newcastle United', 0, 0, 0),
     ('team4', 'Newcastle United', 0, 0, 0),
     ('team5', 'Newcastle United', 0, 0, 0),
@@ -437,8 +437,8 @@ INSERT INTO base_scores_home (home_team, away_team, home_score, away_score, play
 
 -- Insert Base Scores for away reports
 INSERT INTO base_scores_away (home_team, away_team, home_score, away_score, played) VALUES
-    ('Newcastle United', 'team0', 0, 0, 0),
-    ('Newcastle United', 'team0', 0, 0, 0),
+    ('Newcastle United', 'team1', 0, 0, 0),
+    ('Newcastle United', 'team2', 0, 0, 0),
     ('Newcastle United', 'team3', 0, 0, 0),
     ('Newcastle United', 'team4', 0, 0, 0),
     ('Newcastle United', 'team5', 0, 0, 0),

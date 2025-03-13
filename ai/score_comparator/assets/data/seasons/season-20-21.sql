@@ -1,39 +1,28 @@
-/* Last Update: 13/03/2025 - 10:14 */
+/* Last Update: 13/03/2025 - 11:14 */
 
 /* Match List - Season: 20/21
 
-23/05/2021	16:00	Arsenal FC	-	Brighton & Hove Albion	2:0 (0:0)	
-16:00	Aston Villa	-	Chelsea FC	2:1 (1:0)	
-16:00	Fulham FC	-	Newcastle United	0:2 (0:1)	
-16:00	Leeds United	-	West Bromwich Albion	3:1 (2:0)	
-16:00	Leicester City	-	Tottenham Hotspur	2:4 (1:1)	
-16:00	Liverpool FC	-	Crystal Palace	2:0 (1:0)	
-16:00	Manchester City	-	Everton FC	5:0 (2:0)	
-16:00	Sheffield United	-	Burnley FC	1:0 (1:0)	
-16:00	West Ham United	-	Southampton FC	3:0 (2:0)	
-16:00	Wolverhampton Wanderers	-	Manchester United	1:2 (1:2)
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal  
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (brighton) - Team 3 = Brighton & Hove Albion
+    team4 (burnley) - Team 4 = Burnley
+    team5 (chelsea) - Team 5 = Chelsea
+    team6 (crystalpalace) - Team 6 = Crystal Palace
+    team7 (everton) - Team 7 = Everton
+    team8 (fulham) - Team 8 = Fulham
+    team9 (leeds) - Team 9 = Leeds United
+    team10 (leicester) - Team 10 = Leicester City
+    team11 (liverpool) - Team 11 = Liverpool
+    team12 (manchestercity) - Team 12 = Manchester City
+    team13 (manchesterunited) - Team 13 = Manchester United
+    team14 (sheffieldunited) - Team 14 = Sheffield United
+    team15 (southampton) - Team 15 = Southampton
+    team16 (spurs) - Team 16 = Tottenham Hotspur
+    team17 (westbrom) - Team 17 = West Bromwich Albion
+    team18 (westham) - Team 18 = West Ham United
+    team19 (wolverhampton) - Team 19 = Wolverhampton Wanderers
 
 */
 
@@ -426,8 +415,8 @@ CREATE TABLE base_scores_away (
 
 -- Insert Base Scores for home reports
 INSERT INTO base_scores_home (home_team, away_team, home_score, away_score, played) VALUES
-    ('team0', 'Newcastle United', 0, 0, 0),
-    ('team0', 'Newcastle United', 0, 0, 0),
+    ('team1', 'Newcastle United', 0, 0, 0),
+    ('team2', 'Newcastle United', 0, 0, 0),
     ('team3', 'Newcastle United', 0, 0, 0),
     ('team4', 'Newcastle United', 0, 0, 0),
     ('team5', 'Newcastle United', 0, 0, 0),
@@ -448,8 +437,8 @@ INSERT INTO base_scores_home (home_team, away_team, home_score, away_score, play
 
 -- Insert Base Scores for away reports
 INSERT INTO base_scores_away (home_team, away_team, home_score, away_score, played) VALUES
-    ('Newcastle United', 'team0', 0, 0, 0),
-    ('Newcastle United', 'team0', 0, 0, 0),
+    ('Newcastle United', 'team1', 0, 0, 0),
+    ('Newcastle United', 'team2', 0, 0, 0),
     ('Newcastle United', 'team3', 0, 0, 0),
     ('Newcastle United', 'team4', 0, 0, 0),
     ('Newcastle United', 'team5', 0, 0, 0),

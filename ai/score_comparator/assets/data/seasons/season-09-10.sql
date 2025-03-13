@@ -109,7 +109,7 @@ CREATE TABLE team9_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team10,_home_matches (
+CREATE TABLE team10_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -118,7 +118,7 @@ CREATE TABLE team10,_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team11,_home_matches (
+CREATE TABLE team11_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -127,7 +127,7 @@ CREATE TABLE team11,_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team12,_home_matches (
+CREATE TABLE team12_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -299,7 +299,7 @@ CREATE TABLE team9_away_matches (
 
 );
 
-CREATE TABLE team10,_away_matches (    
+CREATE TABLE team10_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -309,7 +309,7 @@ CREATE TABLE team10,_away_matches (
 
 );
 
-CREATE TABLE team11,_away_matches (    
+CREATE TABLE team11_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -319,7 +319,7 @@ CREATE TABLE team11,_away_matches (
 
 );
 
-CREATE TABLE team12,_away_matches (    
+CREATE TABLE team12_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,

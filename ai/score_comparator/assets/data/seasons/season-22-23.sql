@@ -1,28 +1,8 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 14/03/2025 - 13:34 */
 
 /* Match List - Season: 22/23
 
     Base Team: Newcastle United
-
-    (bournemouth) - Team 1 = AFC Bournemouth
-    (arsenal) - Team 2 = Arsenal FC
-    (astonvilla) - Team 3 = Aston Villa
-    (brentford) - Team 4 = Brentford FC
-    (brighton) - Team 5 = Brighton & Hove Albion
-    (chelsea) - Team 6 = Chelsea FC
-    (crystalpalace) - Team 7 = Crystal Palace
-    (everton) - Team 8 = Everton FC
-    (fulham) - Team 9 = Fulham
-     (nottinghamforest) - Team 10 = Nottingham Forest
-     (manchestercity) - Team 11 = Manchester City
-     (manchesterunited) - Team 12 = Manchester United
-     (leeds) - Team 13 = Leeds United
-     (leicester) - Team 14 = Leicester City
-     (liverpool) - Team 15 = Liverpool
-     (southampton) - Team 16 = Southampton
-     (spurs) - Team 17 = Totthenham Hotspur
-     (westham) - Team 18 = West Ham United        
-     (wolverhampton) - Team 19 = Wolverhampton Wanderers   
 
 */
 
@@ -391,7 +371,6 @@ CREATE TABLE wolverhampton_away_matches (
 );
 
 -- Create Base Scores Tables
-
 CREATE TABLE base_scores_home (
 
     id INTEGER PRIMARY KEY,

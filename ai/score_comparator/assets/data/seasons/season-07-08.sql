@@ -1,4 +1,4 @@
-/* Last Update: 14/03/2025 - 11:30 */
+/* Last Update: 14/03/2025 - 11:58 */
 
 /* Match List - Season: 07/08
 
@@ -415,47 +415,47 @@ CREATE TABLE base_scores_away (
 
 -- Insert Base Scores for home reports
 INSERT INTO base_scores_home (home_team, away_team, home_score, away_score, played) VALUES
-    ('team0', 'Newcastle United', 0, 0, 0),
-    ('team0', 'Newcastle United', 0, 0, 0),
-    ('team3', 'Newcastle United', 0, 0, 0),
-    ('team4', 'Newcastle United', 0, 0, 0),
-    ('team5', 'Newcastle United', 0, 0, 0),
-    ('team6', 'Newcastle United', 0, 0, 0),
-    ('team7', 'Newcastle United', 0, 0, 0),
-    ('team8', 'Newcastle United', 0, 0, 0),
-    ('team9', 'Newcastle United', 0, 0, 0),
-    ('team10', 'Newcastle United', 0, 0, 0),
-    ('team11', 'Newcastle United', 0, 0, 0),        
-    ('team12', 'Newcastle United', 0, 0, 0),
-    ('team13', 'Newcastle United', 0, 0, 0),
-    ('team14', 'Newcastle United', 0, 0, 0), 
-    ('team15', 'Newcastle United', 0, 0, 0),
-    ('team16', 'Newcastle United', 0, 0, 0),
-    ('team17', 'Newcastle United', 0, 0, 0),
-    ('team18', 'Newcastle United', 0, 0, 0),
-    ('team19', 'Newcastle United', 0, 0, 0);
+    ('Team 1', 'Newcastle United', 0, 0, 0),
+    ('Team 2', 'Newcastle United', 0, 0, 0),
+    ('Team 3', 'Newcastle United', 0, 0, 0),
+    ('Team 4', 'Newcastle United', 0, 0, 0),
+    ('Team 5', 'Newcastle United', 0, 0, 0),
+    ('Team 6', 'Newcastle United', 0, 0, 0),
+    ('Team 7', 'Newcastle United', 0, 0, 0),
+    ('Team 8', 'Newcastle United', 0, 0, 0),
+    ('Team 9', 'Newcastle United', 0, 0, 0),
+    ('Team 10', 'Newcastle United', 0, 0, 0),
+    ('Team 11', 'Newcastle United', 0, 0, 0),        
+    ('Team 12', 'Newcastle United', 0, 0, 0),
+    ('Team 13', 'Newcastle United', 0, 0, 0),
+    ('Team 14', 'Newcastle United', 0, 0, 0), 
+    ('Team 15', 'Newcastle United', 0, 0, 0),
+    ('Team 16', 'Newcastle United', 0, 0, 0),
+    ('Team 17', 'Newcastle United', 0, 0, 0),
+    ('Team 18', 'Newcastle United', 0, 0, 0),
+    ('Team 19', 'Newcastle United', 0, 0, 0);
 
 -- Insert Base Scores for away reports
 INSERT INTO base_scores_away (home_team, away_team, home_score, away_score, played) VALUES
-    ('Newcastle United', 'team0', 0, 0, 0),
-    ('Newcastle United', 'team0', 0, 0, 0),
-    ('Newcastle United', 'team3', 0, 0, 0),
-    ('Newcastle United', 'team4', 0, 0, 0),
-    ('Newcastle United', 'team5', 0, 0, 0),
-    ('Newcastle United', 'team6', 0, 0, 0),
-    ('Newcastle United', 'team7', 0, 0, 0),
-    ('Newcastle United', 'team8', 0, 0, 0),
-    ('Newcastle United', 'team9', 0, 0, 0),
-    ('Newcastle United', 'team10', 0, 0, 0),
-    ('Newcastle United', 'team11', 0, 0, 0),
-    ('Newcastle United', 'team12', 0, 0, 0),
-    ('Newcastle United', 'team13', 0, 0, 0),
-    ('Newcastle United', 'team14', 0, 0, 0),
-    ('Newcastle United', 'team15', 0, 0, 0),
-    ('Newcastle United', 'team16', 0, 0, 0),
-    ('Newcastle United', 'team17', 0, 0, 0),
-    ('Newcastle United', 'team18', 0, 0, 0),    
-    ('Newcastle United', 'team19', 0, 0, 0);
+    ('Newcastle United', 'Team 1', 0, 0, 0),
+    ('Newcastle United', 'Team 2', 0, 0, 0),
+    ('Newcastle United', 'Team 3', 0, 0, 0),
+    ('Newcastle United', 'Team 4', 0, 0, 0),
+    ('Newcastle United', 'Team 5', 0, 0, 0),
+    ('Newcastle United', 'Team 6', 0, 0, 0),
+    ('Newcastle United', 'Team 7', 0, 0, 0),
+    ('Newcastle United', 'Team 8', 0, 0, 0),
+    ('Newcastle United', 'Team 9', 0, 0, 0),
+    ('Newcastle United', 'Team 10', 0, 0, 0),
+    ('Newcastle United', 'Team 11', 0, 0, 0),
+    ('Newcastle United', 'Team 12', 0, 0, 0),
+    ('Newcastle United', 'Team 13', 0, 0, 0),
+    ('Newcastle United', 'Team 14', 0, 0, 0),
+    ('Newcastle United', 'Team 15', 0, 0, 0),
+    ('Newcastle United', 'Team 16', 0, 0, 0),
+    ('Newcastle United', 'Team 17', 0, 0, 0),
+    ('Newcastle United', 'Team 18', 0, 0, 0),    
+    ('Newcastle United', 'Team 19', 0, 0, 0);
 
 
 -- Data filled for Match Week 

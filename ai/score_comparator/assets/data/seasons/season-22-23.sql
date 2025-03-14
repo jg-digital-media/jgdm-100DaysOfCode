@@ -4,30 +4,30 @@
 
     Base Team: Newcastle United
 
-    team1 (bournemouth) - Team 1 = AFC Bournemouth
-    team2 (arsenal) - Team 2 = Arsenal FC
-    team3 (astonvilla) - Team 3 = Aston Villa
-    team4 (brentford) - Team 4 = Brentford FC
-    team5 (brighton) - Team 5 = Brighton & Hove Albion
-    team6 (chelsea) - Team 6 = Chelsea FC
-    team7 (crystalpalace) - Team 7 = Crystal Palace
-    team8 (everton) - Team 8 = Everton FC
-    team9 (fulham) - Team 9 = Fulham FC
-    team10 (nottinghamforest) - Team 10 = Nottingham Forest
-    team11 (manchestercity) - Team 11 = Manchester City
-    team12 (manchesterunited) - Team 12 = Manchester United
-    team13 (leeds) - Team 13 = Leeds United
-    team14 (leicester) - Team 14 = Leicester City
-    team15 (liverpool) - Team 15 = Liverpool
-    team16 (southampton) - Team 16 = Southampton
-    team17 (spurs) - Team 17 = Totthenham Hotspur
-    team18 (westham) - Team 18 = West Ham United        
-    team19 (wolverhampton) - Team 19 = Wolverhampton Wanderers   
+    (bournemouth) - Team 1 = AFC Bournemouth
+    (arsenal) - Team 2 = Arsenal FC
+    (astonvilla) - Team 3 = Aston Villa
+    (brentford) - Team 4 = Brentford FC
+    (brighton) - Team 5 = Brighton & Hove Albion
+    (chelsea) - Team 6 = Chelsea FC
+    (crystalpalace) - Team 7 = Crystal Palace
+    (everton) - Team 8 = Everton FC
+    (fulham) - Team 9 = Fulham
+     (nottinghamforest) - Team 10 = Nottingham Forest
+     (manchestercity) - Team 11 = Manchester City
+     (manchesterunited) - Team 12 = Manchester United
+     (leeds) - Team 13 = Leeds United
+     (leicester) - Team 14 = Leicester City
+     (liverpool) - Team 15 = Liverpool
+     (southampton) - Team 16 = Southampton
+     (spurs) - Team 17 = Totthenham Hotspur
+     (westham) - Team 18 = West Ham United        
+     (wolverhampton) - Team 19 = Wolverhampton Wanderers   
 
 */
 
 -- Create Home Match Tables
-CREATE TABLE team1_home_matches (
+CREATE TABLE bournemouth_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -36,7 +36,7 @@ CREATE TABLE team1_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team2_home_matches (
+CREATE TABLE arsenal_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -45,7 +45,7 @@ CREATE TABLE team2_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team3_home_matches (
+CREATE TABLE astonvilla_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -54,7 +54,7 @@ CREATE TABLE team3_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team4_home_matches (
+CREATE TABLE brentford_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -63,7 +63,7 @@ CREATE TABLE team4_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team5_home_matches (
+CREATE TABLE brighton_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -72,7 +72,7 @@ CREATE TABLE team5_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team6_home_matches (
+CREATE TABLE chelsea_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -81,7 +81,7 @@ CREATE TABLE team6_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team7_home_matches (
+CREATE TABLE crystalpalace_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -90,7 +90,7 @@ CREATE TABLE team7_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team8_home_matches (
+CREATE TABLE everton_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -99,7 +99,7 @@ CREATE TABLE team8_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team9_home_matches (
+CREATE TABLE fulham_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -108,7 +108,7 @@ CREATE TABLE team9_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team10_home_matches (
+CREATE TABLE nottinghamforest_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -117,7 +117,7 @@ CREATE TABLE team10_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team11_home_matches (
+CREATE TABLE manchestercity_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -126,7 +126,7 @@ CREATE TABLE team11_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team12_home_matches (
+CREATE TABLE manchesterunited_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -135,7 +135,7 @@ CREATE TABLE team12_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team13_home_matches (
+CREATE TABLE leeds_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -144,7 +144,7 @@ CREATE TABLE team13_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team14_home_matches (
+CREATE TABLE leicester_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -153,7 +153,7 @@ CREATE TABLE team14_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team15_home_matches (
+CREATE TABLE liverpool_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -162,7 +162,7 @@ CREATE TABLE team15_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team16_home_matches (
+CREATE TABLE southampton_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -171,7 +171,7 @@ CREATE TABLE team16_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team17_home_matches (
+CREATE TABLE spurs_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -180,7 +180,7 @@ CREATE TABLE team17_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team18_home_matches (
+CREATE TABLE westham_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -189,7 +189,7 @@ CREATE TABLE team18_home_matches (
     played INTEGER
 );
 
-CREATE TABLE team19_home_matches (
+CREATE TABLE wolverhampton_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -200,7 +200,7 @@ CREATE TABLE team19_home_matches (
 
 
 -- Create Away Match Tables
-CREATE TABLE team1_away_matches (    
+CREATE TABLE bournemouth_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -210,7 +210,7 @@ CREATE TABLE team1_away_matches (
 
 );
 
-CREATE TABLE team2_away_matches (    
+CREATE TABLE arsenal_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -220,7 +220,7 @@ CREATE TABLE team2_away_matches (
 
 );
 
-CREATE TABLE team3_away_matches (    
+CREATE TABLE astonvilla_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -230,7 +230,7 @@ CREATE TABLE team3_away_matches (
 
 );
 
-CREATE TABLE team4_away_matches (    
+CREATE TABLE brentford_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -240,7 +240,7 @@ CREATE TABLE team4_away_matches (
 
 );
 
-CREATE TABLE team5_away_matches (    
+CREATE TABLE brighton_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -250,7 +250,7 @@ CREATE TABLE team5_away_matches (
 
 );
 
-CREATE TABLE team6_away_matches (    
+CREATE TABLE chelsea_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -260,7 +260,7 @@ CREATE TABLE team6_away_matches (
 
 );
 
-CREATE TABLE team7_away_matches (    
+CREATE TABLE crystalpalace_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -270,7 +270,7 @@ CREATE TABLE team7_away_matches (
 
 );
 
-CREATE TABLE team8_away_matches (    
+CREATE TABLE everton_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -280,7 +280,7 @@ CREATE TABLE team8_away_matches (
 
 );
 
-CREATE TABLE team9_away_matches (    
+CREATE TABLE fulham_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -290,7 +290,7 @@ CREATE TABLE team9_away_matches (
 
 );
 
-CREATE TABLE team10_away_matches (    
+CREATE TABLE nottinghamforest_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -300,7 +300,7 @@ CREATE TABLE team10_away_matches (
 
 );
 
-CREATE TABLE team11_away_matches (    
+CREATE TABLE manchestercity_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -310,7 +310,7 @@ CREATE TABLE team11_away_matches (
 
 );
 
-CREATE TABLE team12_away_matches (    
+CREATE TABLE manchesterunited_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -320,7 +320,7 @@ CREATE TABLE team12_away_matches (
 
 );
 
-CREATE TABLE team13_away_matches (    
+CREATE TABLE leeds_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -330,7 +330,7 @@ CREATE TABLE team13_away_matches (
 
 );
 
-CREATE TABLE team14_away_matches (    
+CREATE TABLE leicester_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -340,7 +340,7 @@ CREATE TABLE team14_away_matches (
 
 );
 
-CREATE TABLE team15_away_matches (    
+CREATE TABLE liverpool_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -350,7 +350,7 @@ CREATE TABLE team15_away_matches (
 
 );
 
-CREATE TABLE team16_away_matches (    
+CREATE TABLE southampton_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -360,7 +360,7 @@ CREATE TABLE team16_away_matches (
 
 );
 
-CREATE TABLE team17_away_matches (    
+CREATE TABLE spurs_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -370,7 +370,7 @@ CREATE TABLE team17_away_matches (
 
 );
 
-CREATE TABLE team18_away_matches (    
+CREATE TABLE westham_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -380,7 +380,7 @@ CREATE TABLE team18_away_matches (
 
 );
 
-CREATE TABLE team19_away_matches (    
+CREATE TABLE wolverhampton_away_matches (    
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -415,813 +415,813 @@ CREATE TABLE base_scores_away (
 
 -- Insert Base Scores for home reports
 INSERT INTO base_scores_home (home_team, away_team, home_score, away_score, played) VALUES
-    ('Team 1', 'Newcastle United', 0, 0, 0),
-    ('Team 2', 'Newcastle United', 0, 0, 0),
-    ('Team 3', 'Newcastle United', 0, 0, 0),
-    ('Team 4', 'Newcastle United', 0, 0, 0),
-    ('Team 5', 'Newcastle United', 0, 0, 0),
-    ('Team 6', 'Newcastle United', 0, 0, 0),
-    ('Team 7', 'Newcastle United', 0, 0, 0),
-    ('Team 8', 'Newcastle United', 0, 0, 0),
-    ('Team 9', 'Newcastle United', 0, 0, 0),
-    ('Team 10', 'Newcastle United', 0, 0, 0),
-    ('Team 11', 'Newcastle United', 0, 0, 0),        
-    ('Team 12', 'Newcastle United', 0, 0, 0),
-    ('Team 13', 'Newcastle United', 0, 0, 0),
-    ('Team 14', 'Newcastle United', 0, 0, 0), 
-    ('Team 15', 'Newcastle United', 0, 0, 0),
-    ('Team 16', 'Newcastle United', 0, 0, 0),
-    ('Team 17', 'Newcastle United', 0, 0, 0),
-    ('Team 18', 'Newcastle United', 0, 0, 0),
-    ('Team 19', 'Newcastle United', 0, 0, 0);
+    ('AFC Bournemouth', 'Newcastle United', 0, 0, 0),
+    ('Arsenal', 'Newcastle United', 0, 0, 0),
+    ('Aston Villa', 'Newcastle United', 0, 0, 0),
+    ('Brentford', 'Newcastle United', 0, 0, 0),
+    ('Brighton & Hove Albion', 'Newcastle United', 0, 0, 0),
+    ('Chelsea', 'Newcastle United', 0, 0, 0),
+    ('Crystal Palace', 'Newcastle United', 0, 0, 0),
+    ('Everton', 'Newcastle United', 0, 0, 0),
+    ('Fulham', 'Newcastle United', 0, 0, 0),
+    ('Nottingham Forest', 'Newcastle United', 0, 0, 0),
+    ('Manchester City', 'Newcastle United', 0, 0, 0),        
+    ('Manchester United', 'Newcastle United', 0, 0, 0),
+    ('Leeds United', 'Newcastle United', 0, 0, 0),
+    ('Leicester City', 'Newcastle United', 0, 0, 0), 
+    ('Liverpool', 'Newcastle United', 0, 0, 0),
+    ('Southampton', 'Newcastle United', 0, 0, 0),
+    ('Tottenham Hotspur', 'Newcastle United', 0, 0, 0),
+    ('West Ham United', 'Newcastle United', 0, 0, 0),
+    ('Wolverhampton Wanderers', 'Newcastle United', 0, 0, 0);
 
 -- Insert Base Scores for away reports
 INSERT INTO base_scores_away (home_team, away_team, home_score, away_score, played) VALUES
-    ('Newcastle United', 'Team 1', 0, 0, 0),
-    ('Newcastle United', 'Team 2', 0, 0, 0),
-    ('Newcastle United', 'Team 3', 0, 0, 0),
-    ('Newcastle United', 'Team 4', 0, 0, 0),
-    ('Newcastle United', 'Team 5', 0, 0, 0),
-    ('Newcastle United', 'Team 6', 0, 0, 0),
-    ('Newcastle United', 'Team 7', 0, 0, 0),
-    ('Newcastle United', 'Team 8', 0, 0, 0),
-    ('Newcastle United', 'Team 9', 0, 0, 0),
-    ('Newcastle United', 'Team 10', 0, 0, 0),
-    ('Newcastle United', 'Team 11', 0, 0, 0),
-    ('Newcastle United', 'Team 12', 0, 0, 0),
-    ('Newcastle United', 'Team 13', 0, 0, 0),
-    ('Newcastle United', 'Team 14', 0, 0, 0),
-    ('Newcastle United', 'Team 15', 0, 0, 0),
-    ('Newcastle United', 'Team 16', 0, 0, 0),
-    ('Newcastle United', 'Team 17', 0, 0, 0),
-    ('Newcastle United', 'Team 18', 0, 0, 0),    
-    ('Newcastle United', 'Team 19', 0, 0, 0);
+    ('Newcastle United', 'AFC Bournemouth', 0, 0, 0),
+    ('Newcastle United', 'Arsenal', 0, 0, 0),
+    ('Newcastle United', 'Aston Villa', 0, 0, 0),
+    ('Newcastle United', 'Brentford', 0, 0, 0),
+    ('Newcastle United', 'Brighton & Hove Albion', 0, 0, 0),
+    ('Newcastle United', 'Chelsea', 0, 0, 0),
+    ('Newcastle United', 'Crystal Palace', 0, 0, 0),
+    ('Newcastle United', 'Everton', 0, 0, 0),
+    ('Newcastle United', 'Fulham', 0, 0, 0),
+    ('Newcastle United', 'Nottingham Forest', 0, 0, 0),
+    ('Newcastle United', 'Manchester City', 0, 0, 0),
+    ('Newcastle United', 'Manchester United', 0, 0, 0),
+    ('Newcastle United', 'Leeds United', 0, 0, 0),
+    ('Newcastle United', 'Leicester City', 0, 0, 0),
+    ('Newcastle United', 'Liverpool', 0, 0, 0),
+    ('Newcastle United', 'Southampton', 0, 0, 0),
+    ('Newcastle United', 'Tottenham Hotspur', 0, 0, 0),
+    ('Newcastle United', 'West Ham United', 0, 0, 0),    
+    ('Newcastle United', 'Wolverhampton Wanderers', 0, 0, 0);
 
 
 -- Data filled for Match Week 
 -- Note: Data correct matches up to MW06. Some matches may have been postpone to due fixture scheduling.
 
 -- Insert home match score Data - 
-INSERT INTO team1_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 2', 0, 0),
-    ('Team 1', 0, 'Team 3', 0, 0),
-    ('Team 1', 0, 'Team 4', 0, 0),
-    ('Team 1', 0, 'Team 5', 0, 0),
-    ('Team 1', 0, 'Team 6', 0, 0),
-    ('Team 1', 0, 'Team 7', 0, 0),
-    ('Team 1', 0, 'Team 8', 0, 0),
-    ('Team 1', 0, 'Team 9', 0, 0),
-    ('Team 1', 0, 'Team 10', 0, 0),
-    ('Team 1', 0, 'Team 11', 0, 0),
-    ('Team 1', 0, 'Team 12', 0, 0),
-    ('Team 1', 0, 'Team 13', 0, 0),
-    ('Team 1', 0, 'Team 14', 0, 0),
-    ('Team 1', 0, 'Team 15', 0, 0),
-    ('Team 1', 0, 'Team 16', 0, 0),
-    ('Team 1', 0, 'Team 17', 0, 0),
-    ('Team 1', 0, 'Team 18', 0, 0),
-    ('Team 1', 0, 'Team 19', 0, 0);
+INSERT INTO bournemouth_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'Arsenal', 0, 0),
+    ('AFC Bournemouth', 0, 'Aston Villa', 0, 0),
+    ('AFC Bournemouth', 0, 'Brentford', 0, 0),
+    ('AFC Bournemouth', 0, 'Brighton & Hove Albion', 0, 0),
+    ('AFC Bournemouth', 0, 'Chelsea', 0, 0),
+    ('AFC Bournemouth', 0, 'Crystal Palace', 0, 0),
+    ('AFC Bournemouth', 0, 'Everton', 0, 0),
+    ('AFC Bournemouth', 0, 'Fulham', 0, 0),
+    ('AFC Bournemouth', 0, 'Nottingham Forest', 0, 0),
+    ('AFC Bournemouth', 0, 'Manchester City', 0, 0),
+    ('AFC Bournemouth', 0, 'Manchester United', 0, 0),
+    ('AFC Bournemouth', 0, 'Leeds United', 0, 0),
+    ('AFC Bournemouth', 0, 'Leicester City', 0, 0),
+    ('AFC Bournemouth', 0, 'Liverpool', 0, 0),
+    ('AFC Bournemouth', 0, 'Southampton', 0, 0),
+    ('AFC Bournemouth', 0, 'Tottenham Hotspur', 0, 0),
+    ('AFC Bournemouth', 0, 'West Ham United', 0, 0),
+    ('AFC Bournemouth', 0, 'Wolverhampton Wanderers', 0, 0);
 
-INSERT INTO team2_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 2', 0, 'Team 1', 0, 0),
-    ('Team 2', 0, 'Team 3', 0, 0),
-    ('Team 2', 0, 'Team 4', 0, 0),
-    ('Team 2', 0, 'Team 5', 0, 0),
-    ('Team 2', 0, 'Team 6', 0, 0),
-    ('Team 2', 0, 'Team 7', 0, 0),
-    ('Team 2', 0, 'Team 8', 0, 0),
-    ('Team 2', 0, 'Team 9', 0, 0),
-    ('Team 2', 0, 'Team 10', 0, 0),
-    ('Team 2', 0, 'Team 11', 0, 0),
-    ('Team 2', 0, 'Team 12', 0, 0),
-    ('Team 2', 0, 'Team 13', 0, 0),
-    ('Team 2', 0, 'Team 14', 0, 0),
-    ('Team 2', 0, 'Team 15', 0, 0),
-    ('Team 2', 0, 'Team 16', 0, 0),
-    ('Team 2', 0, 'Team 17', 0, 0),
-    ('Team 2', 0, 'Team 18', 0, 0),    
-    ('Team 2', 0, 'Team 19', 0, 0);
+INSERT INTO arsenal_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('Arsenal', 0, 'AFC Bournemouth', 0, 0),
+    ('Arsenal', 0, 'Aston Villa', 0, 0),
+    ('Arsenal', 0, 'Brentford', 0, 0),
+    ('Arsenal', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Arsenal', 0, 'Chelsea', 0, 0),
+    ('Arsenal', 0, 'Crystal Palace', 0, 0),
+    ('Arsenal', 0, 'Everton', 0, 0),
+    ('Arsenal', 0, 'Fulham', 0, 0),
+    ('Arsenal', 0, 'Nottingham Forest', 0, 0),
+    ('Arsenal', 0, 'Manchester City', 0, 0),
+    ('Arsenal', 0, 'Manchester United', 0, 0),
+    ('Arsenal', 0, 'Leeds United', 0, 0),
+    ('Arsenal', 0, 'Leicester City', 0, 0),
+    ('Arsenal', 0, 'Liverpool', 0, 0),
+    ('Arsenal', 0, 'Southampton', 0, 0),
+    ('Arsenal', 0, 'Tottenham Hotspur', 0, 0),
+    ('Arsenal', 0, 'West Ham United', 0, 0),    
+    ('Arsenal', 0, 'Wolverhampton Wanderers', 0, 0);
 
-INSERT INTO team3_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 3', 0, 'Team 1', 0, 0),
-    ('Team 3', 0, 'Team 2', 0, 0),
-    ('Team 3', 0, 'Team 4', 0, 0),
-    ('Team 3', 0, 'Team 5', 0, 0),
-    ('Team 3', 0, 'Team 6', 0, 0),
-    ('Team 3', 0, 'Team 7', 0, 0),
-    ('Team 3', 0, 'Team 8', 0, 0),
-    ('Team 3', 0, 'Team 9', 0, 0),
-    ('Team 3', 0, 'Team 10', 0, 0),
-    ('Team 3', 0, 'Team 11', 0, 0),
-    ('Team 3', 0, 'Team 12', 0, 0),
-    ('Team 3', 0, 'Team 13', 0, 0),
-    ('Team 3', 0, 'Team 14', 0, 0),
-    ('Team 3', 0, 'Team 15', 0, 0),
-    ('Team 3', 0, 'Team 16', 0, 0),
-    ('Team 3', 0, 'Team 17', 0, 0),
-    ('Team 3', 0, 'Team 18', 0, 0),
-    ('Team 3', 0, 'Team 19', 0, 0);
+INSERT INTO astonvilla_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('Aston Villa', 0, 'AFC Bournemouth', 0, 0),
+    ('Aston Villa', 0, 'Arsenal', 0, 0),
+    ('Aston Villa', 0, 'Brentford', 0, 0),
+    ('Aston Villa', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Aston Villa', 0, 'Chelsea', 0, 0),
+    ('Aston Villa', 0, 'Crystal Palace', 0, 0),
+    ('Aston Villa', 0, 'Everton', 0, 0),
+    ('Aston Villa', 0, 'Fulham', 0, 0),
+    ('Aston Villa', 0, 'Nottingham Forest', 0, 0),
+    ('Aston Villa', 0, 'Manchester City', 0, 0),
+    ('Aston Villa', 0, 'Manchester United', 0, 0),
+    ('Aston Villa', 0, 'Leeds United', 0, 0),
+    ('Aston Villa', 0, 'Leicester City', 0, 0),
+    ('Aston Villa', 0, 'Liverpool', 0, 0),
+    ('Aston Villa', 0, 'Southampton', 0, 0),
+    ('Aston Villa', 0, 'Tottenham Hotspur', 0, 0),
+    ('Aston Villa', 0, 'West Ham United', 0, 0),
+    ('Aston Villa', 0, 'Wolverhampton Wanderers', 0, 0);
 
-INSERT INTO team4_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 4', 0, 'Team 1', 0, 0),
-    ('Team 4', 0, 'Team 2', 0, 0),
-    ('Team 4', 0, 'Team 3', 0, 0),
-    ('Team 4', 0, 'Team 5', 0, 0),
-    ('Team 4', 0, 'Team 6', 0, 0),
-    ('Team 4', 0, 'Team 7', 0, 0),
-    ('Team 4', 0, 'Team 8', 0, 0),
-    ('Team 4', 0, 'Team 9', 0, 0),
-    ('Team 4', 0, 'Team 10', 0, 0),
-    ('Team 4', 0, 'Team 11', 0, 0),
-    ('Team 4', 0, 'Team 12', 0, 0),
-    ('Team 4', 0, 'Team 13', 0, 0),
-    ('Team 4', 0, 'Team 14', 0, 0),
-    ('Team 4', 0, 'Team 15', 0, 0),
-    ('Team 4', 0, 'Team 16', 0, 0),
-    ('Team 4', 0, 'Team 17', 0, 0),
-    ('Team 4', 0, 'Team 18', 0, 0),
-    ('Team 4', 0, 'Team 19', 0, 0);
+INSERT INTO brentford_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('Brentford', 0, 'AFC Bournemouth', 0, 0),
+    ('Brentford', 0, 'Arsenal', 0, 0),
+    ('Brentford', 0, 'Aston Villa', 0, 0),
+    ('Brentford', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Brentford', 0, 'Chelsea', 0, 0),
+    ('Brentford', 0, 'Crystal Palace', 0, 0),
+    ('Brentford', 0, 'Everton', 0, 0),
+    ('Brentford', 0, 'Fulham', 0, 0),
+    ('Brentford', 0, 'Nottingham Forest', 0, 0),
+    ('Brentford', 0, 'Manchester City', 0, 0),
+    ('Brentford', 0, 'Manchester United', 0, 0),
+    ('Brentford', 0, 'Leeds United', 0, 0),
+    ('Brentford', 0, 'Leicester City', 0, 0),
+    ('Brentford', 0, 'Liverpool', 0, 0),
+    ('Brentford', 0, 'Southampton', 0, 0),
+    ('Brentford', 0, 'Tottenham Hotspur', 0, 0),
+    ('Brentford', 0, 'West Ham United', 0, 0),
+    ('Brentford', 0, 'Wolverhampton Wanderers', 0, 0);
    
-INSERT INTO team5_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 5', 0, 'Team 1', 0, 0),
-    ('Team 5', 0, 'Team 2', 0, 0),
-    ('Team 5', 0, 'Team 3', 0, 0),
-    ('Team 5', 0, 'Team 4', 0, 0),
-    ('Team 5', 0, 'Team 6', 0, 0),
-    ('Team 5', 0, 'Team 7', 0, 0),
-    ('Team 5', 0, 'Team 8', 0, 0),
-    ('Team 5', 0, 'Team 9', 0, 0),
-    ('Team 5', 0, 'Team 10', 0, 0),
-    ('Team 5', 0, 'Team 11', 0, 0),
-    ('Team 5', 0, 'Team 12', 0, 0),
-    ('Team 5', 0, 'Team 13', 0, 0),
-    ('Team 5', 0, 'Team 14', 0, 0),
-    ('Team 5', 0, 'Team 15', 0, 0),
-    ('Team 5', 0, 'Team 16', 0, 0),
-    ('Team 5', 0, 'Team 17', 0, 0),
-    ('Team 5', 0, 'Team 18', 0, 0),
-    ('Team 5', 0, 'Team 19', 0, 0);
+INSERT INTO brighton_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('Brighton & Hove Albion', 0, 'AFC Bournemouth', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Arsenal', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Aston Villa', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Brentford', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Chelsea', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Crystal Palace', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Everton', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Fulham', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Nottingham Forest', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Manchester City', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Manchester United', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Leeds United', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Leicester City', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Liverpool', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Southampton', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Tottenham Hotspur', 0, 0),
+    ('Brighton & Hove Albion', 0, 'West Ham United', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Wolverhampton Wanderers', 0, 0);
  
-INSERT INTO team6_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 6', 0, 'Team 1', 0, 0),
-    ('Team 6', 0, 'Team 2', 0, 0),
-    ('Team 6', 0, 'Team 3', 0, 0),
-    ('Team 6', 0, 'Team 4', 0, 0),
-    ('Team 6', 0, 'Team 5', 0, 0),
-    ('Team 6', 0, 'Team 7', 0, 0),
-    ('Team 6', 0, 'Team 8', 0, 0),
-    ('Team 6', 0, 'Team 9', 0, 0),
-    ('Team 6', 0, 'Team 10', 0, 0),
-    ('Team 6', 0, 'Team 11', 0, 0),
-    ('Team 6', 0, 'Team 12', 0, 0),
-    ('Team 6', 0, 'Team 13', 0, 0),
-    ('Team 6', 0, 'Team 14', 0, 0),
-    ('Team 6', 0, 'Team 15', 0, 0),
-    ('Team 6', 0, 'Team 16', 0, 0),
-    ('Team 6', 0, 'Team 17', 0, 0),
-    ('Team 6', 0, 'Team 18', 0, 0),
-    ('Team 6', 0, 'Team 19', 0, 0);
+INSERT INTO chelsea_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('Chelsea', 0, 'AFC Bournemouth', 0, 0),
+    ('Chelsea', 0, 'Arsenal', 0, 0),
+    ('Chelsea', 0, 'Aston Villa', 0, 0),
+    ('Chelsea', 0, 'Brentford', 0, 0),
+    ('Chelsea', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Chelsea', 0, 'Crystal Palace', 0, 0),
+    ('Chelsea', 0, 'Everton', 0, 0),
+    ('Chelsea', 0, 'Fulham', 0, 0),
+    ('Chelsea', 0, 'Nottingham Forest', 0, 0),
+    ('Chelsea', 0, 'Manchester City', 0, 0),
+    ('Chelsea', 0, 'Manchester United', 0, 0),
+    ('Chelsea', 0, 'Leeds United', 0, 0),
+    ('Chelsea', 0, 'Leicester City', 0, 0),
+    ('Chelsea', 0, 'Liverpool', 0, 0),
+    ('Chelsea', 0, 'Southampton', 0, 0),
+    ('Chelsea', 0, 'Tottenham Hotspur', 0, 0),
+    ('Chelsea', 0, 'West Ham United', 0, 0),
+    ('Chelsea', 0, 'Wolverhampton Wanderers', 0, 0);
     
-INSERT INTO team7_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 7', 0, 'Team 1', 0, 0),
-    ('Team 7', 0, 'Team 2', 0, 0),
-    ('Team 7', 0, 'Team 3', 0, 0),
-    ('Team 7', 0, 'Team 4', 0, 0),
-    ('Team 7', 0, 'Team 5', 0, 0),
-    ('Team 7', 0, 'Team 6', 0, 0),
-    ('Team 7', 0, 'Team 8', 0, 0),
-    ('Team 7', 0, 'Team 9', 0, 0),
-    ('Team 7', 0, 'Team 10', 0, 0),
-    ('Team 7', 0, 'Team 11', 0, 0),
-    ('Team 7', 0, 'Team 12', 0, 0),
-    ('Team 7', 0, 'Team 13', 0, 0),
-    ('Team 7', 0, 'Team 14', 0, 0),
-    ('Team 7', 0, 'Team 15', 0, 0),
-    ('Team 7', 0, 'Team 16', 0, 0),
-    ('Team 7', 0, 'Team 17', 0, 0),
-    ('Team 7', 0, 'Team 18', 0, 0),
-    ('Team 7', 0, 'Team 19', 0, 0);  
+INSERT INTO crystalpalace_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('Crystal Palace', 0, 'AFC Bournemouth', 0, 0),
+    ('Crystal Palace', 0, 'Arsenal', 0, 0),
+    ('Crystal Palace', 0, 'Aston Villa', 0, 0),
+    ('Crystal Palace', 0, 'Brentford', 0, 0),
+    ('Crystal Palace', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Crystal Palace', 0, 'Chelsea', 0, 0),
+    ('Crystal Palace', 0, 'Everton', 0, 0),
+    ('Crystal Palace', 0, 'Fulham', 0, 0),
+    ('Crystal Palace', 0, 'Nottingham Forest', 0, 0),
+    ('Crystal Palace', 0, 'Manchester City', 0, 0),
+    ('Crystal Palace', 0, 'Manchester United', 0, 0),
+    ('Crystal Palace', 0, 'Leeds United', 0, 0),
+    ('Crystal Palace', 0, 'Leicester City', 0, 0),
+    ('Crystal Palace', 0, 'Liverpool', 0, 0),
+    ('Crystal Palace', 0, 'Southampton', 0, 0),
+    ('Crystal Palace', 0, 'Tottenham Hotspur', 0, 0),
+    ('Crystal Palace', 0, 'West Ham United', 0, 0),
+    ('Crystal Palace', 0, 'Wolverhampton Wanderers', 0, 0);  
   
-INSERT INTO team8_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 8', 0, 'Team 1', 0, 0),
-    ('Team 8', 0, 'Team 2', 0, 0),
-    ('Team 8', 0, 'Team 3', 0, 0),
-    ('Team 8', 0, 'Team 4', 0, 0),
-    ('Team 8', 0, 'Team 5', 0, 0),
-    ('Team 8', 0, 'Team 6', 0, 0),
-    ('Team 8', 0, 'Team 7', 0, 0),
-    ('Team 8', 0, 'Team 9', 0, 0),
-    ('Team 8', 0, 'Team 10', 0, 0),
-    ('Team 8', 0, 'Team 11', 0, 0),
-    ('Team 8', 0, 'Team 12', 0, 0),
-    ('Team 8', 0, 'Team 13', 0, 0),
-    ('Team 8', 0, 'Team 14', 0, 0),
-    ('Team 8', 0, 'Team 15', 0, 0),
-    ('Team 8', 0, 'Team 16', 0, 0),
-    ('Team 8', 0, 'Team 17', 0, 0),
-    ('Team 8', 0, 'Team 18', 0, 0),
-    ('Team 8', 0, 'Team 19', 0, 0);
+INSERT INTO everton_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('Everton', 0, 'AFC Bournemouth', 0, 0),
+    ('Everton', 0, 'Arsenal', 0, 0),
+    ('Everton', 0, 'Aston Villa', 0, 0),
+    ('Everton', 0, 'Brentford', 0, 0),
+    ('Everton', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Everton', 0, 'Chelsea', 0, 0),
+    ('Everton', 0, 'Crystal Palace', 0, 0),
+    ('Everton', 0, 'Fulham', 0, 0),
+    ('Everton', 0, 'Nottingham Forest', 0, 0),
+    ('Everton', 0, 'Manchester City', 0, 0),
+    ('Everton', 0, 'Manchester United', 0, 0),
+    ('Everton', 0, 'Leeds United', 0, 0),
+    ('Everton', 0, 'Leicester City', 0, 0),
+    ('Everton', 0, 'Liverpool', 0, 0),
+    ('Everton', 0, 'Southampton', 0, 0),
+    ('Everton', 0, 'Tottenham Hotspur', 0, 0),
+    ('Everton', 0, 'West Ham United', 0, 0),
+    ('Everton', 0, 'Wolverhampton Wanderers', 0, 0);
   
-INSERT INTO team9_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 9', 0, 'Team 1', 0, 0),
-    ('Team 9', 0, 'Team 2', 0, 0),
-    ('Team 9', 0, 'Team 3', 0, 0),
-    ('Team 9', 0, 'Team 4', 0, 0),
-    ('Team 9', 0, 'Team 5', 0, 0),
-    ('Team 9', 0, 'Team 6', 0, 0),
-    ('Team 9', 0, 'Team 7', 0, 0),
-    ('Team 9', 0, 'Team 8', 0, 0),
-    ('Team 9', 0, 'Team 10', 0, 0),
-    ('Team 9', 0, 'Team 11', 0, 0),
-    ('Team 9', 0, 'Team 12', 0, 0),
-    ('Team 9', 0, 'Team 13', 0, 0),
-    ('Team 9', 0, 'Team 14', 0, 0),
-    ('Team 9', 0, 'Team 15', 0, 0),
-    ('Team 9', 0, 'Team 16', 0, 0),
-    ('Team 9', 0, 'Team 17', 0, 0),
-    ('Team 9', 0, 'Team 18', 0, 0),
-    ('Team 9', 0, 'Team 19', 0, 0);
+INSERT INTO fulham_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('Fulham', 0, 'AFC Bournemouth', 0, 0),
+    ('Fulham', 0, 'Arsenal', 0, 0),
+    ('Fulham', 0, 'Aston Villa', 0, 0),
+    ('Fulham', 0, 'Brentford', 0, 0),
+    ('Fulham', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Fulham', 0, 'Chelsea', 0, 0),
+    ('Fulham', 0, 'Crystal Palace', 0, 0),
+    ('Fulham', 0, 'Everton', 0, 0),
+    ('Fulham', 0, 'Nottingham Forest', 0, 0),
+    ('Fulham', 0, 'Manchester City', 0, 0),
+    ('Fulham', 0, 'Manchester United', 0, 0),
+    ('Fulham', 0, 'Leeds United', 0, 0),
+    ('Fulham', 0, 'Leicester City', 0, 0),
+    ('Fulham', 0, 'Liverpool', 0, 0),
+    ('Fulham', 0, 'Southampton', 0, 0),
+    ('Fulham', 0, 'Tottenham Hotspur', 0, 0),
+    ('Fulham', 0, 'West Ham United', 0, 0),
+    ('Fulham', 0, 'Wolverhampton Wanderers', 0, 0);
  
-INSERT INTO team10_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 10', 0, 'Team 1', 0, 0),
-    ('Team 10', 0, 'Team 2', 0, 0),
-    ('Team 10', 0, 'Team 3', 0, 0),
-    ('Team 10', 0, 'Team 4', 0, 0),
-    ('Team 10', 0, 'Team 5', 0, 0),
-    ('Team 10', 0, 'Team 6', 0, 0),
-    ('Team 10', 0, 'Team 7', 0, 0),
-    ('Team 10', 0, 'Team 8', 0, 0),
-    ('Team 10', 0, 'Team 9', 0, 0),
-    ('Team 10', 0, 'Team 11', 0, 0),
-    ('Team 10', 0, 'Team 12', 0, 0),
-    ('Team 10', 0, 'Team 13', 0, 0),
-    ('Team 10', 0, 'Team 14', 0, 0),
-    ('Team 10', 0, 'Team 15', 0, 0),
-    ('Team 10', 0, 'Team 16', 0, 0),
-    ('Team 10', 0, 'Team 17', 0, 0),
-    ('Team 10', 0, 'Team 18', 0, 0),
-    ('Team 10', 0, 'Team 19', 0, 0);  
+INSERT INTO nottinghamforest_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('Nottingham Forest', 0, 'AFC Bournemouth', 0, 0),
+    ('Nottingham Forest', 0, 'Arsenal', 0, 0),
+    ('Nottingham Forest', 0, 'Aston Villa', 0, 0),
+    ('Nottingham Forest', 0, 'Brentford', 0, 0),
+    ('Nottingham Forest', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Nottingham Forest', 0, 'Chelsea', 0, 0),
+    ('Nottingham Forest', 0, 'Crystal Palace', 0, 0),
+    ('Nottingham Forest', 0, 'Everton', 0, 0),
+    ('Nottingham Forest', 0, 'Fulham', 0, 0),
+    ('Nottingham Forest', 0, 'Manchester City', 0, 0),
+    ('Nottingham Forest', 0, 'Manchester United', 0, 0),
+    ('Nottingham Forest', 0, 'Leeds United', 0, 0),
+    ('Nottingham Forest', 0, 'Leicester City', 0, 0),
+    ('Nottingham Forest', 0, 'Liverpool', 0, 0),
+    ('Nottingham Forest', 0, 'Southampton', 0, 0),
+    ('Nottingham Forest', 0, 'Tottenham Hotspur', 0, 0),
+    ('Nottingham Forest', 0, 'West Ham United', 0, 0),
+    ('Nottingham Forest', 0, 'Wolverhampton Wanderers', 0, 0);  
   
-INSERT INTO team11_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 11', 0, 'Team 1', 0, 0),
-    ('Team 11', 0, 'Team 2', 0, 0),
-    ('Team 11', 0, 'Team 3', 0, 0),
-    ('Team 11', 0, 'Team 4', 0, 0),
-    ('Team 11', 0, 'Team 5', 0, 0),
-    ('Team 11', 0, 'Team 6', 0, 0),
-    ('Team 11', 0, 'Team 7', 0, 0),
-    ('Team 11', 0, 'Team 8', 0, 0),
-    ('Team 11', 0, 'Team 9', 0, 0),
-    ('Team 11', 0, 'Team 10', 0, 0),
-    ('Team 11', 0, 'Team 12', 0, 0),
-    ('Team 11', 0, 'Team 13', 0, 0),
-    ('Team 11', 0, 'Team 14', 0, 0),
-    ('Team 11', 0, 'Team 15', 0, 0),
-    ('Team 11', 0, 'Team 16', 0, 0),
-    ('Team 11', 0, 'Team 17', 0, 0),
-    ('Team 11', 0, 'Team 18', 0, 0),
-    ('Team 11', 0, 'Team 19', 0, 0);
+INSERT INTO manchestercity_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('Manchester City', 0, 'AFC Bournemouth', 0, 0),
+    ('Manchester City', 0, 'Arsenal', 0, 0),
+    ('Manchester City', 0, 'Aston Villa', 0, 0),
+    ('Manchester City', 0, 'Brentford', 0, 0),
+    ('Manchester City', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Manchester City', 0, 'Chelsea', 0, 0),
+    ('Manchester City', 0, 'Crystal Palace', 0, 0),
+    ('Manchester City', 0, 'Everton', 0, 0),
+    ('Manchester City', 0, 'Fulham', 0, 0),
+    ('Manchester City', 0, 'Nottingham Forest', 0, 0),
+    ('Manchester City', 0, 'Manchester United', 0, 0),
+    ('Manchester City', 0, 'Leeds United', 0, 0),
+    ('Manchester City', 0, 'Leicester City', 0, 0),
+    ('Manchester City', 0, 'Liverpool', 0, 0),
+    ('Manchester City', 0, 'Southampton', 0, 0),
+    ('Manchester City', 0, 'Tottenham Hotspur', 0, 0),
+    ('Manchester City', 0, 'West Ham United', 0, 0),
+    ('Manchester City', 0, 'Wolverhampton Wanderers', 0, 0);
   
-INSERT INTO team12_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 12', 0, 'Team 1', 0, 0),
-    ('Team 12', 0, 'Team 2', 0, 0),
-    ('Team 12', 0, 'Team 3', 0, 0),
-    ('Team 12', 0, 'Team 4', 0, 0),
-    ('Team 12', 0, 'Team 5', 0, 0),
-    ('Team 12', 0, 'Team 6', 0, 0),
-    ('Team 12', 0, 'Team 7', 0, 0),
-    ('Team 12', 0, 'Team 8', 0, 0),
-    ('Team 12', 0, 'Team 9', 0, 0),
-    ('Team 12', 0, 'Team 10', 0, 0),
-    ('Team 12', 0, 'Team 11', 0, 0),
-    ('Team 12', 0, 'Team 13', 0, 0),
-    ('Team 12', 0, 'Team 14', 0, 0),
-    ('Team 12', 0, 'Team 15', 0, 0),
-    ('Team 12', 0, 'Team 16', 0, 0),
-    ('Team 12', 0, 'Team 17', 0, 0),
-    ('Team 12', 0, 'Team 18', 0, 0),
-    ('Team 12', 0, 'Team 19', 0, 0);   
+INSERT INTO manchesterunited_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('Manchester United', 0, 'AFC Bournemouth', 0, 0),
+    ('Manchester United', 0, 'Arsenal', 0, 0),
+    ('Manchester United', 0, 'Aston Villa', 0, 0),
+    ('Manchester United', 0, 'Brentford', 0, 0),
+    ('Manchester United', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Manchester United', 0, 'Chelsea', 0, 0),
+    ('Manchester United', 0, 'Crystal Palace', 0, 0),
+    ('Manchester United', 0, 'Everton', 0, 0),
+    ('Manchester United', 0, 'Fulham', 0, 0),
+    ('Manchester United', 0, 'Nottingham Forest', 0, 0),
+    ('Manchester United', 0, 'Manchester City', 0, 0),
+    ('Manchester United', 0, 'Leeds United', 0, 0),
+    ('Manchester United', 0, 'Leicester City', 0, 0),
+    ('Manchester United', 0, 'Liverpool', 0, 0),
+    ('Manchester United', 0, 'Southampton', 0, 0),
+    ('Manchester United', 0, 'Tottenham Hotspur', 0, 0),
+    ('Manchester United', 0, 'West Ham United', 0, 0),
+    ('Manchester United', 0, 'Wolverhampton Wanderers', 0, 0);   
    
-INSERT INTO team13_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 13', 0, 'Team 1', 0, 0),
-    ('Team 13', 0, 'Team 2', 0, 0),
-    ('Team 13', 0, 'Team 3', 0, 0),
-    ('Team 13', 0, 'Team 4', 0, 0),
-    ('Team 13', 0, 'Team 5', 0, 0),
-    ('Team 13', 0, 'Team 6', 0, 0),
-    ('Team 13', 0, 'Team 7', 0, 0),
-    ('Team 13', 0, 'Team 8', 0, 0),
-    ('Team 13', 0, 'Team 9', 0, 0),
-    ('Team 13', 0, 'Team 10', 0, 0),
-    ('Team 13', 0, 'Team 11', 0, 0),
-    ('Team 13', 0, 'Team 12', 0, 0),
-    ('Team 13', 0, 'Team 14', 0, 0),
-    ('Team 13', 0, 'Team 15', 0, 0),
-    ('Team 13', 0, 'Team 16', 0, 0),
-    ('Team 13', 0, 'Team 17', 0, 0),
-    ('Team 13', 0, 'Team 18', 0, 0),
-    ('Team 13', 0, 'Team 19', 0, 0);  
+INSERT INTO leeds_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('Leeds United', 0, 'AFC Bournemouth', 0, 0),
+    ('Leeds United', 0, 'Arsenal', 0, 0),
+    ('Leeds United', 0, 'Aston Villa', 0, 0),
+    ('Leeds United', 0, 'Brentford', 0, 0),
+    ('Leeds United', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Leeds United', 0, 'Chelsea', 0, 0),
+    ('Leeds United', 0, 'Crystal Palace', 0, 0),
+    ('Leeds United', 0, 'Everton', 0, 0),
+    ('Leeds United', 0, 'Fulham', 0, 0),
+    ('Leeds United', 0, 'Nottingham Forest', 0, 0),
+    ('Leeds United', 0, 'Manchester City', 0, 0),
+    ('Leeds United', 0, 'Manchester United', 0, 0),
+    ('Leeds United', 0, 'Leicester City', 0, 0),
+    ('Leeds United', 0, 'Liverpool', 0, 0),
+    ('Leeds United', 0, 'Southampton', 0, 0),
+    ('Leeds United', 0, 'Tottenham Hotspur', 0, 0),
+    ('Leeds United', 0, 'West Ham United', 0, 0),
+    ('Leeds United', 0, 'Wolverhampton Wanderers', 0, 0);  
   
-INSERT INTO team14_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 14', 0, 'Team 1', 0, 0),
-    ('Team 14', 0, 'Team 2', 0, 0),
-    ('Team 14', 0, 'Team 3', 0, 0),
-    ('Team 14', 0, 'Team 4', 0, 0),
-    ('Team 14', 0, 'Team 5', 0, 0),
-    ('Team 14', 0, 'Team 6', 0, 0),
-    ('Team 14', 0, 'Team 7', 0, 0),
-    ('Team 14', 0, 'Team 8', 0, 0),
-    ('Team 14', 0, 'Team 9', 0, 0),
-    ('Team 14', 0, 'Team 10', 0, 0),
-    ('Team 14', 0, 'Team 11', 0, 0),
-    ('Team 14', 0, 'Team 12', 0, 0),
-    ('Team 14', 0, 'Team 13', 0, 0),
-    ('Team 14', 0, 'Team 15', 0, 0),
-    ('Team 14', 0, 'Team 16', 0, 0),
-    ('Team 14', 0, 'Team 17', 0, 0),
-    ('Team 14', 0, 'Team 18', 0, 0),
-    ('Team 14', 0, 'Team 19', 0, 0);
+INSERT INTO leicester_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('Leicester City', 0, 'AFC Bournemouth', 0, 0),
+    ('Leicester City', 0, 'Arsenal', 0, 0),
+    ('Leicester City', 0, 'Aston Villa', 0, 0),
+    ('Leicester City', 0, 'Brentford', 0, 0),
+    ('Leicester City', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Leicester City', 0, 'Chelsea', 0, 0),
+    ('Leicester City', 0, 'Crystal Palace', 0, 0),
+    ('Leicester City', 0, 'Everton', 0, 0),
+    ('Leicester City', 0, 'Fulham', 0, 0),
+    ('Leicester City', 0, 'Nottingham Forest', 0, 0),
+    ('Leicester City', 0, 'Manchester City', 0, 0),
+    ('Leicester City', 0, 'Manchester United', 0, 0),
+    ('Leicester City', 0, 'Leeds United', 0, 0),
+    ('Leicester City', 0, 'Liverpool', 0, 0),
+    ('Leicester City', 0, 'Southampton', 0, 0),
+    ('Leicester City', 0, 'Tottenham Hotspur', 0, 0),
+    ('Leicester City', 0, 'West Ham United', 0, 0),
+    ('Leicester City', 0, 'Wolverhampton Wanderers', 0, 0);
  
-INSERT INTO team15_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 15', 0, 'Team 1', 0, 0),
-    ('Team 15', 0, 'Team 2', 0, 0),
-    ('Team 15', 0, 'Team 3', 0, 0),
-    ('Team 15', 0, 'Team 4', 0, 0),
-    ('Team 15', 0, 'Team 5', 0, 0),
-    ('Team 15', 0, 'Team 6', 0, 0),
-    ('Team 15', 0, 'Team 7', 0, 0),
-    ('Team 15', 0, 'Team 8', 0, 0),
-    ('Team 15', 0, 'Team 9', 0, 0),
-    ('Team 15', 0, 'Team 10', 0, 0),
-    ('Team 15', 0, 'Team 11', 0, 0),
-    ('Team 15', 0, 'Team 12', 0, 0),
-    ('Team 15', 0, 'Team 13', 0, 0),
-    ('Team 15', 0, 'Team 14', 0, 0),
-    ('Team 15', 0, 'Team 16', 0, 0),
-    ('Team 15', 0, 'Team 17', 0, 0),
-    ('Team 15', 0, 'Team 18', 0, 0),
-    ('Team 15', 0, 'Team 19', 0, 0);
+INSERT INTO liverpool_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('Liverpool', 0, 'AFC Bournemouth', 0, 0),
+    ('Liverpool', 0, 'Arsenal', 0, 0),
+    ('Liverpool', 0, 'Aston Villa', 0, 0),
+    ('Liverpool', 0, 'Brentford', 0, 0),
+    ('Liverpool', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Liverpool', 0, 'Chelsea', 0, 0),
+    ('Liverpool', 0, 'Crystal Palace', 0, 0),
+    ('Liverpool', 0, 'Everton', 0, 0),
+    ('Liverpool', 0, 'Fulham', 0, 0),
+    ('Liverpool', 0, 'Nottingham Forest', 0, 0),
+    ('Liverpool', 0, 'Manchester City', 0, 0),
+    ('Liverpool', 0, 'Manchester United', 0, 0),
+    ('Liverpool', 0, 'Leeds United', 0, 0),
+    ('Liverpool', 0, 'Leicester City', 0, 0),
+    ('Liverpool', 0, 'Southampton', 0, 0),
+    ('Liverpool', 0, 'Tottenham Hotspur', 0, 0),
+    ('Liverpool', 0, 'West Ham United', 0, 0),
+    ('Liverpool', 0, 'Wolverhampton Wanderers', 0, 0);
 
-INSERT INTO team16_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 16', 0, 'Team 1', 0, 0),
-    ('Team 16', 0, 'Team 2', 0, 0),
-    ('Team 16', 0, 'Team 3', 0, 0),
-    ('Team 16', 0, 'Team 4', 0, 0),
-    ('Team 16', 0, 'Team 5', 0, 0),
-    ('Team 16', 0, 'Team 6', 0, 0),
-    ('Team 16', 0, 'Team 7', 0, 0),
-    ('Team 16', 0, 'Team 8', 0, 0),
-    ('Team 16', 0, 'Team 9', 0, 0),
-    ('Team 16', 0, 'Team 10', 0, 0),
-    ('Team 16', 0, 'Team 11', 0, 0),
-    ('Team 16', 0, 'Team 12', 0, 0),
-    ('Team 16', 0, 'Team 13', 0, 0),
-    ('Team 16', 0, 'Team 14', 0, 0),
-    ('Team 16', 0, 'Team 15', 0, 0),
-    ('Team 16', 0, 'Team 17', 0, 0),
-    ('Team 16', 0, 'Team 18', 0, 0),
-    ('Team 16', 0, 'Team 19', 0, 0);
+INSERT INTO southampton_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('Southampton', 0, 'AFC Bournemouth', 0, 0),
+    ('Southampton', 0, 'Arsenal', 0, 0),
+    ('Southampton', 0, 'Aston Villa', 0, 0),
+    ('Southampton', 0, 'Brentford', 0, 0),
+    ('Southampton', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Southampton', 0, 'Chelsea', 0, 0),
+    ('Southampton', 0, 'Crystal Palace', 0, 0),
+    ('Southampton', 0, 'Everton', 0, 0),
+    ('Southampton', 0, 'Fulham', 0, 0),
+    ('Southampton', 0, 'Nottingham Forest', 0, 0),
+    ('Southampton', 0, 'Manchester City', 0, 0),
+    ('Southampton', 0, 'Manchester United', 0, 0),
+    ('Southampton', 0, 'Leeds United', 0, 0),
+    ('Southampton', 0, 'Leicester City', 0, 0),
+    ('Southampton', 0, 'Liverpool', 0, 0),
+    ('Southampton', 0, 'Tottenham Hotspur', 0, 0),
+    ('Southampton', 0, 'West Ham United', 0, 0),
+    ('Southampton', 0, 'Wolverhampton Wanderers', 0, 0);
 
-INSERT INTO team17_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 17', 0, 'Team 1', 0, 0),
-    ('Team 17', 0, 'Team 2', 0, 0),
-    ('Team 17', 0, 'Team 3', 0, 0),
-    ('Team 17', 0, 'Team 4', 0, 0),
-    ('Team 17', 0, 'Team 5', 0, 0),
-    ('Team 17', 0, 'Team 6', 0, 0),
-    ('Team 17', 0, 'Team 7', 0, 0),
-    ('Team 17', 0, 'Team 8', 0, 0),
-    ('Team 17', 0, 'Team 9', 0, 0),
-    ('Team 17', 0, 'Team 10', 0, 0),
-    ('Team 17', 0, 'Team 11', 0, 0),
-    ('Team 17', 0, 'Team 12', 0, 0),
-    ('Team 17', 0, 'Team 13', 0, 0),
-    ('Team 17', 0, 'Team 14', 0, 0),
-    ('Team 17', 0, 'Team 15', 0, 0),
-    ('Team 17', 0, 'Team 16', 0, 0),
-    ('Team 17', 0, 'Team 18', 0, 0),
-    ('Team 17', 0, 'Team 19', 0, 0); 
+INSERT INTO spurs_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('Tottenham Hotspur', 0, 'AFC Bournemouth', 0, 0),
+    ('Tottenham Hotspur', 0, 'Arsenal', 0, 0),
+    ('Tottenham Hotspur', 0, 'Aston Villa', 0, 0),
+    ('Tottenham Hotspur', 0, 'Brentford', 0, 0),
+    ('Tottenham Hotspur', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Tottenham Hotspur', 0, 'Chelsea', 0, 0),
+    ('Tottenham Hotspur', 0, 'Crystal Palace', 0, 0),
+    ('Tottenham Hotspur', 0, 'Everton', 0, 0),
+    ('Tottenham Hotspur', 0, 'Fulham', 0, 0),
+    ('Tottenham Hotspur', 0, 'Nottingham Forest', 0, 0),
+    ('Tottenham Hotspur', 0, 'Manchester City', 0, 0),
+    ('Tottenham Hotspur', 0, 'Manchester United', 0, 0),
+    ('Tottenham Hotspur', 0, 'Leeds United', 0, 0),
+    ('Tottenham Hotspur', 0, 'Leicester City', 0, 0),
+    ('Tottenham Hotspur', 0, 'Liverpool', 0, 0),
+    ('Tottenham Hotspur', 0, 'Southampton', 0, 0),
+    ('Tottenham Hotspur', 0, 'West Ham United', 0, 0),
+    ('Tottenham Hotspur', 0, 'Wolverhampton Wanderers', 0, 0); 
  
-INSERT INTO team18_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 18', 0, 'Team 1', 0, 0),
-    ('Team 18', 0, 'Team 2', 0, 0),
-    ('Team 18', 0, 'Team 3', 0, 0),
-    ('Team 18', 0, 'Team 4', 0, 0),
-    ('Team 18', 0, 'Team 5', 0, 0),
-    ('Team 18', 0, 'Team 6', 0, 0),
-    ('Team 18', 0, 'Team 7', 0, 0),
-    ('Team 18', 0, 'Team 8', 0, 0),
-    ('Team 18', 0, 'Team 9', 0, 0),
-    ('Team 18', 0, 'Team 10', 0, 0),
-    ('Team 18', 0, 'Team 11', 0, 0),
-    ('Team 18', 0, 'Team 12', 0, 0),
-    ('Team 18', 0, 'Team 13', 0, 0),
-    ('Team 18', 0, 'Team 14', 0, 0),
-    ('Team 18', 0, 'Team 15', 0, 0),
-    ('Team 18', 0, 'Team 16', 0, 0),
-    ('Team 18', 0, 'Team 17', 0, 0),
-    ('Team 18', 0, 'Team 18', 0, 0);
+INSERT INTO westham_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('West Ham United', 0, 'AFC Bournemouth', 0, 0),
+    ('West Ham United', 0, 'Arsenal', 0, 0),
+    ('West Ham United', 0, 'Aston Villa', 0, 0),
+    ('West Ham United', 0, 'Brentford', 0, 0),
+    ('West Ham United', 0, 'Brighton & Hove Albion', 0, 0),
+    ('West Ham United', 0, 'Chelsea', 0, 0),
+    ('West Ham United', 0, 'Crystal Palace', 0, 0),
+    ('West Ham United', 0, 'Everton', 0, 0),
+    ('West Ham United', 0, 'Fulham', 0, 0),
+    ('West Ham United', 0, 'Nottingham Forest', 0, 0),
+    ('West Ham United', 0, 'Manchester City', 0, 0),
+    ('West Ham United', 0, 'Manchester United', 0, 0),
+    ('West Ham United', 0, 'Leeds United', 0, 0),
+    ('West Ham United', 0, 'Leicester City', 0, 0),
+    ('West Ham United', 0, 'Liverpool', 0, 0),
+    ('West Ham United', 0, 'Southampton', 0, 0),
+    ('West Ham United', 0, 'Tottenham Hotspur', 0, 0),
+    ('West Ham United', 0, 'West Ham United', 0, 0);
 
-INSERT INTO team19_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 19', 0, 'Team 1', 0, 0),
-    ('Team 19', 0, 'Team 2', 0, 0),
-    ('Team 19', 0, 'Team 3', 0, 0),
-    ('Team 19', 0, 'Team 4', 0, 0),
-    ('Team 19', 0, 'Team 5', 0, 0),
-    ('Team 19', 0, 'Team 6', 0, 0),
-    ('Team 19', 0, 'Team 7', 0, 0),
-    ('Team 19', 0, 'Team 8', 0, 0),
-    ('Team 19', 0, 'Team 9', 0, 0),
-    ('Team 19', 0, 'Team 10', 0, 0),
-    ('Team 19', 0, 'Team 11', 0, 0),
-    ('Team 19', 0, 'Team 12', 0, 0),
-    ('Team 19', 0, 'Team 13', 0, 0),
-    ('Team 19', 0, 'Team 14', 0, 0),
-    ('Team 19', 0, 'Team 15', 0, 0),
-    ('Team 19', 0, 'Team 16', 0, 0),
-    ('Team 19', 0, 'Team 17', 0, 0),
-    ('Team 19', 0, 'Team 18', 0, 0);
+INSERT INTO wolverhampton_home_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('Wolverhampton Wanderers', 0, 'AFC Bournemouth', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Arsenal', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Aston Villa', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Brentford', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Chelsea', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Crystal Palace', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Everton', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Fulham', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Nottingham Forest', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Manchester City', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Manchester United', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Leeds United', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Leicester City', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Liverpool', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Southampton', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Tottenham Hotspur', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'West Ham United', 0, 0);
 
 -- Data filled for Away match comparisons 
 -- Note: Data correct matches for all away teams pending a final check. Some matches may have been postponed to due fixture scheduling.
 
 -- Insert away match score data. 
-INSERT INTO team1_away_matches (home_team, home_score, away_team, away_score, played) VALUES    
-    ('Team 2', 0, 'Team 1', 0, 0),
-    ('Team 3', 0, 'Team 1', 0, 0),
-    ('Team 4', 0, 'Team 1', 0, 0),
-    ('Team 5', 0, 'Team 1', 0, 0),
-    ('Team 6', 0, 'Team 1', 0, 0),
-    ('Team 7', 0, 'Team 1', 0, 0),
-    ('Team 8', 0, 'Team 1', 0, 0),
-    ('Team 9', 0, 'Team 1', 0, 0),
-    ('Team 10', 0, 'Team 1', 0, 0),
-    ('Team 11', 0, 'Team 1', 0, 0),
-    ('Team 12', 0, 'Team 1', 0, 0),
-    ('Team 13', 0, 'Team 1', 0, 0),
-    ('Team 14', 0, 'Team 1', 0, 0),
-    ('Team 15', 0, 'Team 1', 0, 0),
-    ('Team 16', 0, 'Team 1', 0, 0),
-    ('Team 17', 0, 'Team 1', 0, 0),
-    ('Team 18', 0, 'Team 1', 0, 0),
-    ('Team 19', 0, 'Team 1', 0, 0);
+INSERT INTO bournemouth_away_matches (home_team, home_score, away_team, away_score, played) VALUES    
+    ('Arsenal', 0, 'AFC Bournemouth', 0, 0),
+    ('Aston Villa', 0, 'AFC Bournemouth', 0, 0),
+    ('Brentford', 0, 'AFC Bournemouth', 0, 0),
+    ('Brighton & Hove Albion', 0, 'AFC Bournemouth', 0, 0),
+    ('Chelsea', 0, 'AFC Bournemouth', 0, 0),
+    ('Crystal Palace', 0, 'AFC Bournemouth', 0, 0),
+    ('Everton', 0, 'AFC Bournemouth', 0, 0),
+    ('Fulham', 0, 'AFC Bournemouth', 0, 0),
+    ('Nottingham Forest', 0, 'AFC Bournemouth', 0, 0),
+    ('Manchester City', 0, 'AFC Bournemouth', 0, 0),
+    ('Manchester United', 0, 'AFC Bournemouth', 0, 0),
+    ('Leeds United', 0, 'AFC Bournemouth', 0, 0),
+    ('Leicester City', 0, 'AFC Bournemouth', 0, 0),
+    ('Liverpool', 0, 'AFC Bournemouth', 0, 0),
+    ('Southampton', 0, 'AFC Bournemouth', 0, 0),
+    ('Tottenham Hotspur', 0, 'AFC Bournemouth', 0, 0),
+    ('West Ham United', 0, 'AFC Bournemouth', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'AFC Bournemouth', 0, 0);
     
-INSERT INTO team2_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 2', 0, 0),
-    ('Team 3', 0, 'Team 2', 0, 0),
-    ('Team 4', 0, 'Team 2', 0, 0),
-    ('Team 5', 0, 'Team 2', 0, 0),
-    ('Team 6', 0, 'Team 2', 0, 0),
-    ('Team 7', 0, 'Team 2', 0, 0),
-    ('Team 8', 0, 'Team 2', 0, 0),
-    ('Team 9', 0, 'Team 2', 0, 0),
-    ('Team 10', 0, 'Team 2', 0, 0),
-    ('Team 11', 0, 'Team 2', 0, 0),
-    ('Team 12', 0, 'Team 2', 0, 0),
-    ('Team 13', 0, 'Team 2', 0, 0),
-    ('Team 14', 0, 'Team 2', 0, 0),
-    ('Team 15', 0, 'Team 2', 0, 0),
-    ('Team 16', 0, 'Team 2', 0, 0),
-    ('Team 17', 0, 'Team 2', 0, 0),
-    ('Team 18', 0, 'Team 2', 0, 0),
-    ('Team 19', 0, 'Team 2', 0, 0);
+INSERT INTO arsenal_away_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'Arsenal', 0, 0),
+    ('Aston Villa', 0, 'Arsenal', 0, 0),
+    ('Brentford', 0, 'Arsenal', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Arsenal', 0, 0),
+    ('Chelsea', 0, 'Arsenal', 0, 0),
+    ('Crystal Palace', 0, 'Arsenal', 0, 0),
+    ('Everton', 0, 'Arsenal', 0, 0),
+    ('Fulham', 0, 'Arsenal', 0, 0),
+    ('Nottingham Forest', 0, 'Arsenal', 0, 0),
+    ('Manchester City', 0, 'Arsenal', 0, 0),
+    ('Manchester United', 0, 'Arsenal', 0, 0),
+    ('Leeds United', 0, 'Arsenal', 0, 0),
+    ('Leicester City', 0, 'Arsenal', 0, 0),
+    ('Liverpool', 0, 'Arsenal', 0, 0),
+    ('Southampton', 0, 'Arsenal', 0, 0),
+    ('Tottenham Hotspur', 0, 'Arsenal', 0, 0),
+    ('West Ham United', 0, 'Arsenal', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Arsenal', 0, 0);
 
-INSERT INTO team3_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 3', 0, 0),
-    ('Team 2', 0, 'Team 3', 0, 0),
-    ('Team 4', 0, 'Team 3', 0, 0),
-    ('Team 5', 0, 'Team 3', 0, 0),
-    ('Team 6', 0, 'Team 3', 0, 0),
-    ('Team 7', 0, 'Team 3', 0, 0),
-    ('Team 8', 0, 'Team 3', 0, 0),
-    ('Team 9', 0, 'Team 3', 0, 0),
-    ('Team 10', 0, 'Team 3', 0, 0),
-    ('Team 11', 0, 'Team 3', 0, 0),
-    ('Team 12', 0, 'Team 3', 0, 0),
-    ('Team 13', 0, 'Team 3', 0, 0),
-    ('Team 14', 0, 'Team 3', 0, 0),
-    ('Team 15', 0, 'Team 3', 0, 0),
-    ('Team 16', 0, 'Team 3', 0, 0),
-    ('Team 17', 0, 'Team 3', 0, 0),
-    ('Team 18', 0, 'Team 3', 0, 0),
-    ('Team 19', 0, 'Team 3', 0, 0);
+INSERT INTO astonvilla_away_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'Aston Villa', 0, 0),
+    ('Arsenal', 0, 'Aston Villa', 0, 0),
+    ('Brentford', 0, 'Aston Villa', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Aston Villa', 0, 0),
+    ('Chelsea', 0, 'Aston Villa', 0, 0),
+    ('Crystal Palace', 0, 'Aston Villa', 0, 0),
+    ('Everton', 0, 'Aston Villa', 0, 0),
+    ('Fulham', 0, 'Aston Villa', 0, 0),
+    ('Nottingham Forest', 0, 'Aston Villa', 0, 0),
+    ('Manchester City', 0, 'Aston Villa', 0, 0),
+    ('Manchester United', 0, 'Aston Villa', 0, 0),
+    ('Leeds United', 0, 'Aston Villa', 0, 0),
+    ('Leicester City', 0, 'Aston Villa', 0, 0),
+    ('Liverpool', 0, 'Aston Villa', 0, 0),
+    ('Southampton', 0, 'Aston Villa', 0, 0),
+    ('Tottenham Hotspur', 0, 'Aston Villa', 0, 0),
+    ('West Ham United', 0, 'Aston Villa', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Aston Villa', 0, 0);
 
-INSERT INTO team4_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 4', 0, 0),
-    ('Team 2', 0, 'Team 4', 0, 0),
-    ('Team 3', 0, 'Team 4', 0, 0),
-    ('Team 5', 0, 'Team 4', 0, 0),
-    ('Team 6', 0, 'Team 4', 0, 0),
-    ('Team 7', 0, 'Team 4', 0, 0),
-    ('Team 8', 0, 'Team 4', 0, 0),
-    ('Team 9', 0, 'Team 4', 0, 0),
-    ('Team 10', 0, 'Team 4', 0, 0),
-    ('Team 11', 0, 'Team 4', 0, 0),
-    ('Team 12', 0, 'Team 4', 0, 0),
-    ('Team 13', 0, 'Team 4', 0, 0),
-    ('Team 14', 0, 'Team 4', 0, 0),
-    ('Team 15', 0, 'Team 4', 0, 0),
-    ('Team 17', 0, 'Team 4', 0, 0),
-    ('Team 16', 0, 'Team 4', 0, 0),
-    ('Team 18', 0, 'Team 4', 0, 0),
-    ('Team 10', 0, 'Team 4', 0, 0);
+INSERT INTO brentford_away_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'Brentford', 0, 0),
+    ('Arsenal', 0, 'Brentford', 0, 0),
+    ('Aston Villa', 0, 'Brentford', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Brentford', 0, 0),
+    ('Chelsea', 0, 'Brentford', 0, 0),
+    ('Crystal Palace', 0, 'Brentford', 0, 0),
+    ('Everton', 0, 'Brentford', 0, 0),
+    ('Fulham', 0, 'Brentford', 0, 0),
+    ('Nottingham Forest', 0, 'Brentford', 0, 0),
+    ('Manchester City', 0, 'Brentford', 0, 0),
+    ('Manchester United', 0, 'Brentford', 0, 0),
+    ('Leeds United', 0, 'Brentford', 0, 0),
+    ('Leicester City', 0, 'Brentford', 0, 0),
+    ('Liverpool', 0, 'Brentford', 0, 0),
+    ('Tottenham Hotspur', 0, 'Brentford', 0, 0),
+    ('Southampton', 0, 'Brentford', 0, 0),
+    ('West Ham United', 0, 'Brentford', 0, 0),
+    ('Nottingham Forest', 0, 'Brentford', 0, 0);
 
-INSERT INTO team5_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 5', 0, 0),
-    ('Team 2', 0, 'Team 5', 0, 0),
-    ('Team 3', 0, 'Team 5', 0, 0),
-    ('Team 4', 0, 'Team 5', 0, 0),
-    ('Team 6', 0, 'Team 5', 0, 0),
-    ('Team 7', 0, 'Team 5', 0, 0),
-    ('Team 8', 0, 'Team 5', 0, 0),
-    ('Team 9', 0, 'Team 5', 0, 0),
-    ('Team 10', 0, 'Team 5', 0, 0),
-    ('Team 11', 0, 'Team 5', 0, 0),
-    ('Team 12', 0, 'Team 5', 0, 0),
-    ('Team 13', 0, 'Team 5', 0, 0),
-    ('Team 14', 0, 'Team 5', 0, 0),
-    ('Team 15', 0, 'Team 5', 0, 0),
-    ('Team 16', 0, 'Team 5', 0, 0),
-    ('Team 17', 0, 'Team 5', 0, 0),
-    ('Team 18', 0, 'Team 5', 0, 0),
-    ('Team 19', 0, 'Team 5', 0, 0);
+INSERT INTO brighton_away_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Arsenal', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Aston Villa', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Brentford', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Chelsea', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Crystal Palace', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Everton', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Fulham', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Nottingham Forest', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Manchester City', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Manchester United', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Leeds United', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Leicester City', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Liverpool', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Southampton', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Tottenham Hotspur', 0, 'Brighton & Hove Albion', 0, 0),
+    ('West Ham United', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Brighton & Hove Albion', 0, 0);
 
-INSERT INTO team6_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 6', 0, 0),
-    ('Team 2', 0, 'Team 6', 0, 0),
-    ('Team 3', 0, 'Team 6', 0, 0),
-    ('Team 4', 0, 'Team 6', 0, 0),
-    ('Team 5', 0, 'Team 6', 0, 0),
-    ('Team 7', 0, 'Team 6', 0, 0),
-    ('Team 8', 0, 'Team 6', 0, 0),
-    ('Team 9', 0, 'Team 6', 0, 0),
-    ('Team 10', 0, 'Team 6', 0, 0),
-    ('Team 11', 0, 'Team 6', 0, 0),
-    ('Team 12', 0, 'Team 6', 0, 0),
-    ('Team 13', 0, 'Team 6', 0, 0),
-    ('Team 14', 0, 'Team 6', 0, 0),
-    ('Team 15', 0, 'Team 6', 0, 0),
-    ('Team 16', 0, 'Team 6', 0, 0),
-    ('Team 17', 0, 'Team 6', 0, 0),
-    ('Team 18', 0, 'Team 6', 0, 0),
-    ('Team 19', 0, 'Team 6', 0, 0);
+INSERT INTO chelsea_away_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'Chelsea', 0, 0),
+    ('Arsenal', 0, 'Chelsea', 0, 0),
+    ('Aston Villa', 0, 'Chelsea', 0, 0),
+    ('Brentford', 0, 'Chelsea', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Chelsea', 0, 0),
+    ('Crystal Palace', 0, 'Chelsea', 0, 0),
+    ('Everton', 0, 'Chelsea', 0, 0),
+    ('Fulham', 0, 'Chelsea', 0, 0),
+    ('Nottingham Forest', 0, 'Chelsea', 0, 0),
+    ('Manchester City', 0, 'Chelsea', 0, 0),
+    ('Manchester United', 0, 'Chelsea', 0, 0),
+    ('Leeds United', 0, 'Chelsea', 0, 0),
+    ('Leicester City', 0, 'Chelsea', 0, 0),
+    ('Liverpool', 0, 'Chelsea', 0, 0),
+    ('Southampton', 0, 'Chelsea', 0, 0),
+    ('Tottenham Hotspur', 0, 'Chelsea', 0, 0),
+    ('West Ham United', 0, 'Chelsea', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Chelsea', 0, 0);
 
-INSERT INTO team7_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 7', 0, 0),
-    ('Team 2', 0, 'Team 7', 0, 0),
-    ('Team 3', 0, 'Team 7', 0, 0),
-    ('Team 4', 0, 'Team 7', 0, 0),
-    ('Team 5', 0, 'Team 7', 0, 0),
-    ('Team 6', 0, 'Team 7', 0, 0),
-    ('Team 8', 0, 'Team 7', 0, 0),
-    ('Team 9', 0, 'Team 7', 0, 0),
-    ('Team 10', 0, 'Team 7', 0, 0),
-    ('Team 11', 0, 'Team 7', 0, 0),
-    ('Team 12', 0, 'Team 7', 0, 0),
-    ('Team 13', 0, 'Team 7', 0, 0),
-    ('Team 14', 0, 'Team 7', 0, 0),
-    ('Team 15', 0, 'Team 7', 0, 0),
-    ('Team 16', 0, 'Team 7', 0, 0),
-    ('Team 17', 0, 'Team 7', 0, 0),
-    ('Team 18', 0, 'Team 7', 0, 0),
-    ('Team 19', 0, 'Team 7', 0, 0);
+INSERT INTO crystalpalace_away_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'Crystal Palace', 0, 0),
+    ('Arsenal', 0, 'Crystal Palace', 0, 0),
+    ('Aston Villa', 0, 'Crystal Palace', 0, 0),
+    ('Brentford', 0, 'Crystal Palace', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Crystal Palace', 0, 0),
+    ('Chelsea', 0, 'Crystal Palace', 0, 0),
+    ('Everton', 0, 'Crystal Palace', 0, 0),
+    ('Fulham', 0, 'Crystal Palace', 0, 0),
+    ('Nottingham Forest', 0, 'Crystal Palace', 0, 0),
+    ('Manchester City', 0, 'Crystal Palace', 0, 0),
+    ('Manchester United', 0, 'Crystal Palace', 0, 0),
+    ('Leeds United', 0, 'Crystal Palace', 0, 0),
+    ('Leicester City', 0, 'Crystal Palace', 0, 0),
+    ('Liverpool', 0, 'Crystal Palace', 0, 0),
+    ('Southampton', 0, 'Crystal Palace', 0, 0),
+    ('Tottenham Hotspur', 0, 'Crystal Palace', 0, 0),
+    ('West Ham United', 0, 'Crystal Palace', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Crystal Palace', 0, 0);
 
-INSERT INTO team8_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 8', 0, 0),
-    ('Team 2', 0, 'Team 8', 0, 0),
-    ('Team 3', 0, 'Team 8', 0, 0),
-    ('Team 4', 0, 'Team 8', 0, 0),
-    ('Team 5', 0, 'Team 8', 0, 0),
-    ('Team 6', 0, 'Team 8', 0, 0),
-    ('Team 7', 0, 'Team 8', 0, 0),
-    ('Team 9', 0, 'Team 8', 0, 0),
-    ('Team 10', 0, 'Team 8', 0, 0),
-    ('Team 11', 0, 'Team 8', 0, 0),
-    ('Team 12', 0, 'Team 8', 0, 0),
-    ('Team 13', 0, 'Team 8', 0, 0),
-    ('Team 14', 0, 'Team 8', 0, 0),
-    ('Team 15', 0, 'Team 8', 0, 0),
-    ('Team 16', 0, 'Team 8', 0, 0),
-    ('Team 17', 0, 'Team 8', 0, 0),
-    ('Team 18', 0, 'Team 8', 0, 0),
-    ('Team 19', 0, 'Team 8', 0, 0);
+INSERT INTO everton_away_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'Everton', 0, 0),
+    ('Arsenal', 0, 'Everton', 0, 0),
+    ('Aston Villa', 0, 'Everton', 0, 0),
+    ('Brentford', 0, 'Everton', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Everton', 0, 0),
+    ('Chelsea', 0, 'Everton', 0, 0),
+    ('Crystal Palace', 0, 'Everton', 0, 0),
+    ('Fulham', 0, 'Everton', 0, 0),
+    ('Nottingham Forest', 0, 'Everton', 0, 0),
+    ('Manchester City', 0, 'Everton', 0, 0),
+    ('Manchester United', 0, 'Everton', 0, 0),
+    ('Leeds United', 0, 'Everton', 0, 0),
+    ('Leicester City', 0, 'Everton', 0, 0),
+    ('Liverpool', 0, 'Everton', 0, 0),
+    ('Southampton', 0, 'Everton', 0, 0),
+    ('Tottenham Hotspur', 0, 'Everton', 0, 0),
+    ('West Ham United', 0, 'Everton', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Everton', 0, 0);
 
-INSERT INTO team9_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 9', 0, 0),
-    ('Team 2', 0, 'Team 9', 0, 0),
-    ('Team 3', 0, 'Team 9', 0, 0),
-    ('Team 4', 0, 'Team 9', 0, 0),
-    ('Team 5', 0, 'Team 9', 0, 0),
-    ('Team 6', 0, 'Team 9', 0, 0),
-    ('Team 7', 0, 'Team 9', 0, 0),
-    ('Team 8', 0, 'Team 9', 0, 0),
-    ('Team 10', 0, 'Team 9', 0, 0),
-    ('Team 11', 0, 'Team 9', 0, 0),
-    ('Team 12', 0, 'Team 9', 0, 0),
-    ('Team 13', 0, 'Team 9', 0, 0),
-    ('Team 14', 0, 'Team 9', 0, 0),
-    ('Team 15', 0, 'Team 9', 0, 0),
-    ('Team 16', 0, 'Team 9', 0, 0),
-    ('Team 17', 0, 'Team 9', 0, 0),
-    ('Team 18', 0, 'Team 9', 0, 0),
-    ('Team 19', 0, 'Team 9', 0, 0);
+INSERT INTO fulham_away_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'Fulham', 0, 0),
+    ('Arsenal', 0, 'Fulham', 0, 0),
+    ('Aston Villa', 0, 'Fulham', 0, 0),
+    ('Brentford', 0, 'Fulham', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Fulham', 0, 0),
+    ('Chelsea', 0, 'Fulham', 0, 0),
+    ('Crystal Palace', 0, 'Fulham', 0, 0),
+    ('Everton', 0, 'Fulham', 0, 0),
+    ('Nottingham Forest', 0, 'Fulham', 0, 0),
+    ('Manchester City', 0, 'Fulham', 0, 0),
+    ('Manchester United', 0, 'Fulham', 0, 0),
+    ('Leeds United', 0, 'Fulham', 0, 0),
+    ('Leicester City', 0, 'Fulham', 0, 0),
+    ('Liverpool', 0, 'Fulham', 0, 0),
+    ('Southampton', 0, 'Fulham', 0, 0),
+    ('Tottenham Hotspur', 0, 'Fulham', 0, 0),
+    ('West Ham United', 0, 'Fulham', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Fulham', 0, 0);
 
-INSERT INTO team10_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 10', 0, 0),
-    ('Team 2', 0, 'Team 10', 0, 0),
-    ('Team 3', 0, 'Team 10', 0, 0),
-    ('Team 4', 0, 'Team 10', 0, 0),
-    ('Team 5', 0, 'Team 10', 0, 0),
-    ('Team 6', 0, 'Team 10', 0, 0),
-    ('Team 7', 0, 'Team 10', 0, 0),
-    ('Team 8', 0, 'Team 10', 0, 0),
-    ('Team 9', 0, 'Team 10', 0, 0),
-    ('Team 11', 0, 'Team 10', 0, 0),
-    ('Team 12', 0, 'Team 10', 0, 0),
-    ('Team 13', 0, 'Team 10', 0, 0),
-    ('Team 14', 0, 'Team 10', 0, 0),
-    ('Team 15', 0, 'Team 10', 0, 0),
-    ('Team 16', 0, 'Team 10', 0, 0),
-    ('Team 17', 0, 'Team 10', 0, 0),
-    ('Team 18', 0, 'Team 10', 0, 0),
-    ('Team 19', 0, 'Team 10', 0, 0);
+INSERT INTO nottinghamforest_away_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'Nottingham Forest', 0, 0),
+    ('Arsenal', 0, 'Nottingham Forest', 0, 0),
+    ('Aston Villa', 0, 'Nottingham Forest', 0, 0),
+    ('Brentford', 0, 'Nottingham Forest', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Nottingham Forest', 0, 0),
+    ('Chelsea', 0, 'Nottingham Forest', 0, 0),
+    ('Crystal Palace', 0, 'Nottingham Forest', 0, 0),
+    ('Everton', 0, 'Nottingham Forest', 0, 0),
+    ('Fulham', 0, 'Nottingham Forest', 0, 0),
+    ('Manchester City', 0, 'Nottingham Forest', 0, 0),
+    ('Manchester United', 0, 'Nottingham Forest', 0, 0),
+    ('Leeds United', 0, 'Nottingham Forest', 0, 0),
+    ('Leicester City', 0, 'Nottingham Forest', 0, 0),
+    ('Liverpool', 0, 'Nottingham Forest', 0, 0),
+    ('Southampton', 0, 'Nottingham Forest', 0, 0),
+    ('Tottenham Hotspur', 0, 'Nottingham Forest', 0, 0),
+    ('West Ham United', 0, 'Nottingham Forest', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Nottingham Forest', 0, 0);
 
-INSERT INTO team11_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 11', 0, 0),
-    ('Team 2', 0, 'Team 11', 0, 0),
-    ('Team 3', 0, 'Team 11', 0, 0),
-    ('Team 4', 0, 'Team 11', 0, 0),
-    ('Team 5', 0, 'Team 11', 0, 0),
-    ('Team 6', 0, 'Team 11', 0, 0),
-    ('Team 7', 0, 'Team 11', 0, 0),
-    ('Team 8', 0, 'Team 11', 0, 0),
-    ('Team 9', 0, 'Team 11', 0, 0),
-    ('Team 10', 0, 'Team 11', 0, 0),
-    ('Team 12', 0, 'Team 11', 0, 0),
-    ('Team 13', 0, 'Team 11', 0, 0),
-    ('Team 14', 0, 'Team 11', 0, 0),
-    ('Team 15', 0, 'Team 11', 0, 0),
-    ('Team 16', 0, 'Team 11', 0, 0),
-    ('Team 17', 0, 'Team 11', 0, 0),
-    ('Team 18', 0, 'Team 11', 0, 0),
-    ('Team 19', 0, 'Team 11', 0, 0);
+INSERT INTO manchestercity_away_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'Manchester City', 0, 0),
+    ('Arsenal', 0, 'Manchester City', 0, 0),
+    ('Aston Villa', 0, 'Manchester City', 0, 0),
+    ('Brentford', 0, 'Manchester City', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Manchester City', 0, 0),
+    ('Chelsea', 0, 'Manchester City', 0, 0),
+    ('Crystal Palace', 0, 'Manchester City', 0, 0),
+    ('Everton', 0, 'Manchester City', 0, 0),
+    ('Fulham', 0, 'Manchester City', 0, 0),
+    ('Nottingham Forest', 0, 'Manchester City', 0, 0),
+    ('Manchester United', 0, 'Manchester City', 0, 0),
+    ('Leeds United', 0, 'Manchester City', 0, 0),
+    ('Leicester City', 0, 'Manchester City', 0, 0),
+    ('Liverpool', 0, 'Manchester City', 0, 0),
+    ('Southampton', 0, 'Manchester City', 0, 0),
+    ('Tottenham Hotspur', 0, 'Manchester City', 0, 0),
+    ('West Ham United', 0, 'Manchester City', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Manchester City', 0, 0);
 
-INSERT INTO team12_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 12', 0, 0),
-    ('Team 2', 0, 'Team 12', 0, 0),
-    ('Team 3', 0, 'Team 12', 0, 0),
-    ('Team 4', 0, 'Team 12', 0, 0),
-    ('Team 5', 0, 'Team 12', 0, 0),
-    ('Team 6', 0, 'Team 12', 0, 0),
-    ('Team 7', 0, 'Team 12', 0, 0),
-    ('Team 8', 0, 'Team 12', 0, 0),
-    ('Team 9', 0, 'Team 12', 0, 0),
-    ('Team 10', 0, 'Team 12', 0, 0),
-    ('Team 11', 0, 'Team 12', 0, 0),
-    ('Team 13', 0, 'Team 12', 0, 0),
-    ('Team 14', 0, 'Team 12', 0, 0),
-    ('Team 15', 0, 'Team 12', 0, 0),
-    ('Team 16', 0, 'Team 12', 0, 0),
-    ('Team 17', 0, 'Team 12', 0, 0),
-    ('Team 18', 0, 'Team 12', 0, 0),
-    ('Team 19', 0, 'Team 12', 0, 0);
+INSERT INTO manchesterunited_away_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'Manchester United', 0, 0),
+    ('Arsenal', 0, 'Manchester United', 0, 0),
+    ('Aston Villa', 0, 'Manchester United', 0, 0),
+    ('Brentford', 0, 'Manchester United', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Manchester United', 0, 0),
+    ('Chelsea', 0, 'Manchester United', 0, 0),
+    ('Crystal Palace', 0, 'Manchester United', 0, 0),
+    ('Everton', 0, 'Manchester United', 0, 0),
+    ('Fulham', 0, 'Manchester United', 0, 0),
+    ('Nottingham Forest', 0, 'Manchester United', 0, 0),
+    ('Manchester City', 0, 'Manchester United', 0, 0),
+    ('Leeds United', 0, 'Manchester United', 0, 0),
+    ('Leicester City', 0, 'Manchester United', 0, 0),
+    ('Liverpool', 0, 'Manchester United', 0, 0),
+    ('Southampton', 0, 'Manchester United', 0, 0),
+    ('Tottenham Hotspur', 0, 'Manchester United', 0, 0),
+    ('West Ham United', 0, 'Manchester United', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Manchester United', 0, 0);
 
-INSERT INTO team13_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 13', 0, 0),
-    ('Team 2', 0, 'Team 13', 0, 0),
-    ('Team 3', 0, 'Team 13', 0, 0),
-    ('Team 4', 0, 'Team 13', 0, 0),
-    ('Team 5', 0, 'Team 13', 0, 0),
-    ('Team 6', 0, 'Team 13', 0, 0),
-    ('Team 7', 0, 'Team 13', 0, 0),
-    ('Team 8', 0, 'Team 13', 0, 0),
-    ('Team 9', 0, 'Team 13', 0, 0),
-    ('Team 10', 0, 'Team 13', 0, 0),
-    ('Team 11', 0, 'Team 13', 0, 0),
-    ('Team 12', 0, 'Team 13', 0, 0),
-    ('Team 14', 0, 'Team 13', 0, 0),
-    ('Team 15', 0, 'Team 13', 0, 0),
-    ('Team 16', 0, 'Team 13', 0, 0),
-    ('Team 17', 0, 'Team 13', 0, 0),
-    ('Team 18', 0, 'Team 13', 0, 0),
-    ('Team 19', 0, 'Team 13', 0, 0);
+INSERT INTO leeds_away_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'Leeds United', 0, 0),
+    ('Arsenal', 0, 'Leeds United', 0, 0),
+    ('Aston Villa', 0, 'Leeds United', 0, 0),
+    ('Brentford', 0, 'Leeds United', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Leeds United', 0, 0),
+    ('Chelsea', 0, 'Leeds United', 0, 0),
+    ('Crystal Palace', 0, 'Leeds United', 0, 0),
+    ('Everton', 0, 'Leeds United', 0, 0),
+    ('Fulham', 0, 'Leeds United', 0, 0),
+    ('Nottingham Forest', 0, 'Leeds United', 0, 0),
+    ('Manchester City', 0, 'Leeds United', 0, 0),
+    ('Manchester United', 0, 'Leeds United', 0, 0),
+    ('Leicester City', 0, 'Leeds United', 0, 0),
+    ('Liverpool', 0, 'Leeds United', 0, 0),
+    ('Southampton', 0, 'Leeds United', 0, 0),
+    ('Tottenham Hotspur', 0, 'Leeds United', 0, 0),
+    ('West Ham United', 0, 'Leeds United', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Leeds United', 0, 0);
 
-INSERT INTO team14_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 14', 0, 0),
-    ('Team 2', 0, 'Team 14', 0, 0),
-    ('Team 3', 0, 'Team 14', 0, 0),
-    ('Team 4', 0, 'Team 14', 0, 0),
-    ('Team 5', 0, 'Team 14', 0, 0),
-    ('Team 6', 0, 'Team 14', 0, 0),
-    ('Team 7', 0, 'Team 14', 0, 0),
-    ('Team 8', 0, 'Team 14', 0, 0),
-    ('Team 9', 0, 'Team 14', 0, 0),
-    ('Team 10', 0, 'Team 14', 0, 0),
-    ('Team 11', 0, 'Team 14', 0, 0),
-    ('Team 12', 0, 'Team 14', 0, 0),
-    ('Team 13', 0, 'Team 14', 0, 0),
-    ('Team 15', 0, 'Team 14', 0, 0),
-    ('Team 16', 0, 'Team 14', 0, 0),
-    ('Team 17', 0, 'Team 14', 0, 0),
-    ('Team 18', 0, 'Team 14', 0, 0),
-    ('Team 19', 0, 'Team 14', 0, 0);
+INSERT INTO leicester_away_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'Leicester City', 0, 0),
+    ('Arsenal', 0, 'Leicester City', 0, 0),
+    ('Aston Villa', 0, 'Leicester City', 0, 0),
+    ('Brentford', 0, 'Leicester City', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Leicester City', 0, 0),
+    ('Chelsea', 0, 'Leicester City', 0, 0),
+    ('Crystal Palace', 0, 'Leicester City', 0, 0),
+    ('Everton', 0, 'Leicester City', 0, 0),
+    ('Fulham', 0, 'Leicester City', 0, 0),
+    ('Nottingham Forest', 0, 'Leicester City', 0, 0),
+    ('Manchester City', 0, 'Leicester City', 0, 0),
+    ('Manchester United', 0, 'Leicester City', 0, 0),
+    ('Leeds United', 0, 'Leicester City', 0, 0),
+    ('Liverpool', 0, 'Leicester City', 0, 0),
+    ('Southampton', 0, 'Leicester City', 0, 0),
+    ('Tottenham Hotspur', 0, 'Leicester City', 0, 0),
+    ('West Ham United', 0, 'Leicester City', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Leicester City', 0, 0);
 
-INSERT INTO team15_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 15', 0, 0),
-    ('Team 2', 0, 'Team 15', 0, 0),
-    ('Team 3', 0, 'Team 15', 0, 0),
-    ('Team 4', 0, 'Team 15', 0, 0),
-    ('Team 5', 0, 'Team 15', 0, 0),
-    ('Team 6', 0, 'Team 15', 0, 0),
-    ('Team 7', 0, 'Team 15', 0, 0),
-    ('Team 8', 0, 'Team 15', 0, 0),
-    ('Team 9', 0, 'Team 15', 0, 0),
-    ('Team 10', 0, 'Team 15', 0, 0),
-    ('Team 11', 0, 'Team 15', 0, 0),
-    ('Team 12', 0, 'Team 15', 0, 0),
-    ('Team 13', 0, 'Team 15', 0, 0),
-    ('Team 14', 0, 'Team 15', 0, 0),
-    ('Team 16', 0, 'Team 15', 0, 0),
-    ('Team 17', 0, 'Team 15', 0, 0),
-    ('Team 18', 0, 'Team 15', 0, 0),
-    ('Team 19', 0, 'Team 15', 0, 0);
+INSERT INTO liverpool_away_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'Liverpool', 0, 0),
+    ('Arsenal', 0, 'Liverpool', 0, 0),
+    ('Aston Villa', 0, 'Liverpool', 0, 0),
+    ('Brentford', 0, 'Liverpool', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Liverpool', 0, 0),
+    ('Chelsea', 0, 'Liverpool', 0, 0),
+    ('Crystal Palace', 0, 'Liverpool', 0, 0),
+    ('Everton', 0, 'Liverpool', 0, 0),
+    ('Fulham', 0, 'Liverpool', 0, 0),
+    ('Nottingham Forest', 0, 'Liverpool', 0, 0),
+    ('Manchester City', 0, 'Liverpool', 0, 0),
+    ('Manchester United', 0, 'Liverpool', 0, 0),
+    ('Leeds United', 0, 'Liverpool', 0, 0),
+    ('Leicester City', 0, 'Liverpool', 0, 0),
+    ('Southampton', 0, 'Liverpool', 0, 0),
+    ('Tottenham Hotspur', 0, 'Liverpool', 0, 0),
+    ('West Ham United', 0, 'Liverpool', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Liverpool', 0, 0);
 
-INSERT INTO team16_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 16', 0, 0),
-    ('Team 2', 0, 'Team 16', 0, 0),
-    ('Team 3', 0, 'Team 16', 0, 0),
-    ('Team 4', 0, 'Team 16', 0, 0),
-    ('Team 5', 0, 'Team 16', 0, 0),
-    ('Team 6', 0, 'Team 16', 0, 0),
-    ('Team 7', 0, 'Team 16', 0, 0),
-    ('Team 8', 0, 'Team 16', 0, 0),
-    ('Team 9', 0, 'Team 16', 0, 0),
-    ('Team 10', 0, 'Team 16', 0, 0),
-    ('Team 11', 0, 'Team 16', 0, 0),
-    ('Team 12', 0, 'Team 16', 0, 0),
-    ('Team 13', 0, 'Team 16', 0, 0),
-    ('Team 14', 0, 'Team 16', 0, 0),
-    ('Team 15', 0, 'Team 16', 0, 0),
-    ('Team 17', 0, 'Team 16', 0, 0),
-    ('Team 18', 0, 'Team 16', 0, 0),
-    ('Team 19', 0, 'Team 16', 0, 0);
+INSERT INTO southampton_away_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'Southampton', 0, 0),
+    ('Arsenal', 0, 'Southampton', 0, 0),
+    ('Aston Villa', 0, 'Southampton', 0, 0),
+    ('Brentford', 0, 'Southampton', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Southampton', 0, 0),
+    ('Chelsea', 0, 'Southampton', 0, 0),
+    ('Crystal Palace', 0, 'Southampton', 0, 0),
+    ('Everton', 0, 'Southampton', 0, 0),
+    ('Fulham', 0, 'Southampton', 0, 0),
+    ('Nottingham Forest', 0, 'Southampton', 0, 0),
+    ('Manchester City', 0, 'Southampton', 0, 0),
+    ('Manchester United', 0, 'Southampton', 0, 0),
+    ('Leeds United', 0, 'Southampton', 0, 0),
+    ('Leicester City', 0, 'Southampton', 0, 0),
+    ('Liverpool', 0, 'Southampton', 0, 0),
+    ('Tottenham Hotspur', 0, 'Southampton', 0, 0),
+    ('West Ham United', 0, 'Southampton', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Southampton', 0, 0);
 
-INSERT INTO team17_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 17', 0, 0),
-    ('Team 2', 0, 'Team 17', 0, 0),
-    ('Team 3', 0, 'Team 17', 0, 0),
-    ('Team 4', 0, 'Team 17', 0, 0),
-    ('Team 5', 0, 'Team 17', 0, 0),
-    ('Team 6', 0, 'Team 17', 0, 0),
-    ('Team 7', 0, 'Team 17', 0, 0),
-    ('Team 8', 0, 'Team 17', 0, 0),
-    ('Team 9', 0, 'Team 17', 0, 0),
-    ('Team 10', 0, 'Team 17', 0, 0),
-    ('Team 11', 0, 'Team 17', 0, 0),
-    ('Team 12', 0, 'Team 17', 0, 0),
-    ('Team 13', 0, 'Team 17', 0, 0),
-    ('Team 14', 0, 'Team 17', 0, 0),
-    ('Team 15', 0, 'Team 17', 0, 0),
-    ('Team 16', 0, 'Team 17', 0, 0),
-    ('Team 18', 0, 'Team 17', 0, 0),
-    ('Team 19', 0, 'Team 17', 0, 0);
+INSERT INTO spurs_away_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'Tottenham Hotspur', 0, 0),
+    ('Arsenal', 0, 'Tottenham Hotspur', 0, 0),
+    ('Aston Villa', 0, 'Tottenham Hotspur', 0, 0),
+    ('Brentford', 0, 'Tottenham Hotspur', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Tottenham Hotspur', 0, 0),
+    ('Chelsea', 0, 'Tottenham Hotspur', 0, 0),
+    ('Crystal Palace', 0, 'Tottenham Hotspur', 0, 0),
+    ('Everton', 0, 'Tottenham Hotspur', 0, 0),
+    ('Fulham', 0, 'Tottenham Hotspur', 0, 0),
+    ('Nottingham Forest', 0, 'Tottenham Hotspur', 0, 0),
+    ('Manchester City', 0, 'Tottenham Hotspur', 0, 0),
+    ('Manchester United', 0, 'Tottenham Hotspur', 0, 0),
+    ('Leeds United', 0, 'Tottenham Hotspur', 0, 0),
+    ('Leicester City', 0, 'Tottenham Hotspur', 0, 0),
+    ('Liverpool', 0, 'Tottenham Hotspur', 0, 0),
+    ('Southampton', 0, 'Tottenham Hotspur', 0, 0),
+    ('West Ham United', 0, 'Tottenham Hotspur', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'Tottenham Hotspur', 0, 0);
 
-INSERT INTO team18_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 18', 0, 0),
-    ('Team 2', 0, 'Team 18', 0, 0),
-    ('Team 3', 0, 'Team 18', 0, 0),
-    ('Team 4', 0, 'Team 18', 0, 0),
-    ('Team 5', 0, 'Team 18', 0, 0),
-    ('Team 6', 0, 'Team 18', 0, 0),
-    ('Team 7', 0, 'Team 18', 0, 0),
-    ('Team 8', 0, 'Team 18', 0, 0),
-    ('Team 9', 0, 'Team 18', 0, 0),
-    ('Team 10', 0, 'Team 18', 0, 0),
-    ('Team 11', 0, 'Team 18', 0, 0),
-    ('Team 12', 0, 'Team 18', 0, 0),
-    ('Team 13', 0, 'Team 18', 0, 0),
-    ('Team 14', 0, 'Team 18', 0, 0),
-    ('Team 15', 0, 'Team 18', 0, 0),
-    ('Team 16', 0, 'Team 18', 0, 0),
-    ('Team 17', 0, 'Team 18', 0, 0),
-    ('Team 19', 0, 'Team 18', 0, 0);
+INSERT INTO westham_away_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'West Ham United', 0, 0),
+    ('Arsenal', 0, 'West Ham United', 0, 0),
+    ('Aston Villa', 0, 'West Ham United', 0, 0),
+    ('Brentford', 0, 'West Ham United', 0, 0),
+    ('Brighton & Hove Albion', 0, 'West Ham United', 0, 0),
+    ('Chelsea', 0, 'West Ham United', 0, 0),
+    ('Crystal Palace', 0, 'West Ham United', 0, 0),
+    ('Everton', 0, 'West Ham United', 0, 0),
+    ('Fulham', 0, 'West Ham United', 0, 0),
+    ('Nottingham Forest', 0, 'West Ham United', 0, 0),
+    ('Manchester City', 0, 'West Ham United', 0, 0),
+    ('Manchester United', 0, 'West Ham United', 0, 0),
+    ('Leeds United', 0, 'West Ham United', 0, 0),
+    ('Leicester City', 0, 'West Ham United', 0, 0),
+    ('Liverpool', 0, 'West Ham United', 0, 0),
+    ('Southampton', 0, 'West Ham United', 0, 0),
+    ('Tottenham Hotspur', 0, 'West Ham United', 0, 0),
+    ('Wolverhampton Wanderers', 0, 'West Ham United', 0, 0);
 
-INSERT INTO team19_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('Team 1', 0, 'Team 19', 0, 0),
-    ('Team 2', 0, 'Team 19', 0, 0),
-    ('Team 3', 0, 'Team 19', 0, 0),
-    ('Team 4', 0, 'Team 19', 0, 0),
-    ('Team 5', 0, 'Team 19', 0, 0),
-    ('Team 6', 0, 'Team 19', 0, 0),
-    ('Team 7', 0, 'Team 19', 0, 0),
-    ('Team 8', 0, 'Team 19', 0, 0),
-    ('Team 9', 0, 'Team 19', 0, 0),
-    ('Team 10', 0, 'Team 19', 0, 0),
-    ('Team 11', 0, 'Team 19', 0, 0),
-    ('Team 12', 0, 'Team 19', 0, 0),
-    ('Team 13', 0, 'Team 19', 0, 0),
-    ('Team 14', 0, 'Team 19', 0, 0),
-    ('Team 15', 0, 'Team 19', 0, 0),
-    ('Team 16', 0, 'Team 19', 0, 0),
-    ('Team 17', 0, 'Team 19', 0, 0),
-    ('Team 18', 0, 'Team 19', 0, 0);
+INSERT INTO wolverhampton_away_matches (home_team, home_score, away_team, away_score, played) VALUES
+    ('AFC Bournemouth', 0, 'Wolverhampton Wanderers', 0, 0),
+    ('Arsenal', 0, 'Wolverhampton Wanderers', 0, 0),
+    ('Aston Villa', 0, 'Wolverhampton Wanderers', 0, 0),
+    ('Brentford', 0, 'Wolverhampton Wanderers', 0, 0),
+    ('Brighton & Hove Albion', 0, 'Wolverhampton Wanderers', 0, 0),
+    ('Chelsea', 0, 'Wolverhampton Wanderers', 0, 0),
+    ('Crystal Palace', 0, 'Wolverhampton Wanderers', 0, 0),
+    ('Everton', 0, 'Wolverhampton Wanderers', 0, 0),
+    ('Fulham', 0, 'Wolverhampton Wanderers', 0, 0),
+    ('Nottingham Forest', 0, 'Wolverhampton Wanderers', 0, 0),
+    ('Manchester City', 0, 'Wolverhampton Wanderers', 0, 0),
+    ('Manchester United', 0, 'Wolverhampton Wanderers', 0, 0),
+    ('Leeds United', 0, 'Wolverhampton Wanderers', 0, 0),
+    ('Leicester City', 0, 'Wolverhampton Wanderers', 0, 0),
+    ('Liverpool', 0, 'Wolverhampton Wanderers', 0, 0),
+    ('Southampton', 0, 'Wolverhampton Wanderers', 0, 0),
+    ('Tottenham Hotspur', 0, 'Wolverhampton Wanderers', 0, 0),
+    ('West Ham United', 0, 'Wolverhampton Wanderers', 0, 0);

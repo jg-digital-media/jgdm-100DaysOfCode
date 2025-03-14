@@ -2,38 +2,27 @@
 
 /* Match List - Season: 97/98
 
-10/05/1998	16:00	Aston Villa	-	Arsenal FC	1:0 (1:0)	
-16:00	Barnsley FC	-	Manchester United	0:2 (0:1)	
-16:00	Blackburn Rovers	-	Newcastle United	1:0 (0:0)	
-16:00	Tottenham Hotspur	-	Southampton FC	1:1 (1:1)	
-16:00	Chelsea FC	-	Bolton Wanderers	2:0 (0:0)	
-16:00	West Ham United	-	Leicester City	4:3 (2:0)	
-16:00	Crystal Palace	-	Sheffield Wednesday	1:0 (0:0)	
-16:00	Derby County	-	Liverpool FC	1:0 (0:0)	
-16:00	Everton FC	-	Coventry City	1:1 (1:0)	
-16:00	Leeds United	-	Wimbledon FC	1:1 (0:0)	
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal 
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (barnsley) - Team 3 = Barnsley
+    team4 (blackburnrovers) - Team 4 = Blackburn Rovers
+    team5 (boltonwanderers) - Team 5 = Bolton Wanderers
+    team6 (chelsea) - Team 6 = Chelsea
+    team7 (coventry) - Team 7 = Coventry City
+    team8 (crystalpalace) - Team 8 = Crystal Palace
+    team9 (derbycounty) - Team 9 = Derby County
+    team10 (everton) - Team 10 = Everton
+    team11 (leeds) - Team 11 = Leeds United
+    team12 (leicester) - Team 12 = Leicester City
+    team13 (liverpool) - Team 13 = Liverpool
+    team14 (manchesterunited) - Team 14 = Manchester United
+    team15 (sheffieldwednesday) - Team 15 = Sheffield Wednesday
+    team16 (southampton) - Team 16 = Southampton
+    team17 (spurs) - Team 17 = Tottenham Hotspur
+    team18 (westham) - Team 18 = West Ham United
+    team19 (wimbledon) - Team 19 = Wimbledon
 
 */
 

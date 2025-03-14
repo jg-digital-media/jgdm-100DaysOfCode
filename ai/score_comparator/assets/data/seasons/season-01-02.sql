@@ -2,38 +2,27 @@
 
 /* Match List - Season: 01/02
 
-11/05/2002	15:00	Chelsea FC	-	Aston Villa	1:3 (0:1)	
-15:00	Liverpool FC	-	Ipswich Town	5:0 (2:0)	
-15:00	Arsenal FC	-	Everton FC	4:3 (2:2)	
-15:00	Blackburn Rovers	-	Fulham FC	3:0 (0:0)	
-15:00	West Ham United	-	Bolton Wanderers	2:1 (1:0)	
-15:00	Leeds United	-	Middlesbrough FC	1:0 (0:0)	
-15:00	Leicester City	-	Tottenham Hotspur	2:1 (0:0)	
-15:00	Sunderland AFC	-	Derby County	1:1 (1:0)	
-15:00	Manchester United	-	Charlton Athletic	0:0 (0:0)	
-15:00	Southampton FC	-	Newcastle United	3:1 (2:0)
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (blackburnrovers) - Team 3 = Blackburn Rovers
+    team4 (boltonwanderers) - Team 4 = Bolton Wanderers
+    team5 (charlton) - Team 5 = Charlton Athletic
+    team6 (chelsea) - Team 6 = Chelsea
+    team7 (derbycounty) - Team 7 = Derby County
+    team8 (everton) - Team 8 = Everton
+    team9 (fulham) - Team 9 = Fulham
+    team10 (ipswich) - Team 10 = Ipswich Town
+    team11 (leeds) - Team 11 = Leeds United
+    team12 (leicester) - Team 12 = Leicester City
+    team13 (liverpool) - Team 13 = Liverpool
+    team14 (manchesterunited) - Team 14 = Manchester United
+    team15 (middlesbrough) - Team 15 = Middlesbrough
+    team16 (southampton) - Team 16 = Southampton
+    team17 (sunderland) - Team 17 = Sunderland
+    team18 (spurs) - Team 18 = Tottenham Hotspur
+    team19 (westham) - Team 19 = West Ham United
 
 */
 

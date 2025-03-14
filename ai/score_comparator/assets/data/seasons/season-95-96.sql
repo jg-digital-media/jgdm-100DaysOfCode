@@ -2,38 +2,27 @@
 
 /* Match List - Season: 95/96
 
-04/05/1996	14:00	Everton FC	-	Aston Villa	1:0 (0:0)	
-14:00	Chelsea FC	-	Blackburn Rovers	2:3 (1:1)	
-14:00	Arsenal FC	-	Bolton Wanderers	2:1 (0:0)	
-14:00	Coventry City	-	Leeds United	0:0 (0:0)	
-14:00	Manchester City	-	Liverpool FC	2:2 (0:2)	
-14:00	Middlesbrough FC	-	Manchester United	0:3 (0:1)	
-14:00	Nottingham Forest	-	Queens Park Rangers	3:0 (1:0)	
-14:00	West Ham United	-	Sheffield Wednesday	1:1 (0:0)	
-14:00	Newcastle United	-	Tottenham Hotspur	1:1 (0:0)	
-14:00	Southampton FC	-	Wimbledon FC	0:0 (0:0)
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal 
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (blackburnrovers) - Team 3 = Blackburn Rovers
+    team4 (boltonwanderers) - Team 4 = Bolton Wanderers
+    team5 (chelsea) - Team 5 = Chelsea
+    team6 (coventry) - Team 6 = Coventry City
+    team7 (everton) - Team 7 = Everton
+    team8 (leeds) - Team 8 = Leeds United
+    team9 (liverpool) - Team 9 = Liverpool
+    team10 (manchestercity) - Team 10 = Manchester City
+    team11 (manchesterunited) - Team 11 = Manchester United
+    team12 (middlesbrough) - Team 12 = Middlesbrough
+    team13 (nottinghamforest) - Team 13 = Nottingham Forest
+    team14 (queensparkrangers) - Team 14 = Queens Park Rangers
+    team15 (sheffieldwednesday) - Team 15 = Sheffield Wednesday
+    team16 (southampton) - Team 16 = Southampton
+    team17 (spurs) - Team 17 = Tottenham Hotspur
+    team18 (westham) - Team 18 = West Ham United
+    team19 (wimbledon) - Team 19 = Wimbledon
 
 */
 

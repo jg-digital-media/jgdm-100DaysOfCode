@@ -2,42 +2,30 @@
 
 /* Match List - Season: 92/93
 
-08/05/1993		Arsenal FC	-	Crystal Palace	3:0 (1:0)	
-Blackburn Rovers	-	Sheffield Wednesday	1:0 (0:0)	
-Coventry City	-	Leeds United	3:3 (2:1)	
-Ipswich Town	-	Nottingham Forest	2:1 (1:0)	
-Liverpool FC	-	Tottenham Hotspur	6:2 (2:0)	
-Manchester City	-	Everton FC	2:5 (1:3)	
-Middlesbrough FC	-	Norwich City	3:3 (1:1)	
-Oldham Athletic	-	Southampton FC	4:3 (2:1)	
-Sheffield United	-	Chelsea FC	4:2 (3:0)	
-Queens Park Rangers	-	Aston Villa	2:1 (0:1)	
-Wimbledon FC	-	Manchester United	1:2 (0:0)
-
     Base Team: N/A
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =         
-    team20 - Team 20 =         
-    team21 - Team 21 =         
-    team22 - Team 22 =    
+    team1 (arsenal) - Team 1 = Arsenal
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (blackburnrovers) - Team 3 = Blackburn Rovers
+    team4 (chelsea) - Team 4 = Chelsea
+    team5 (coventry) - Team 5 = Coventry City
+    team6 (crystalpalace) - Team 6 = Crystal Palace
+    team7 (everton) - Team 7 = Everton
+    team8 (ipswich) - Team 8 = Ipswich Town
+    team9 (leeds) - Team 9 = Leeds United
+    team10 (liverpool) - Team 10 = Liverpool
+    team11 (manchestercity) - Team 11 = Manchester City
+    team12 (manchesterunited) - Team 12 = Manchester United
+    team13 (middlesbrough) - Team 13 = Middlesbrough
+    team14 (norwich) - Team 14 = Norwich City
+    team15 (nottinghamforest) - Team 15 = Nottingham Forest
+    team16 (oldham) - Team 16 = Oldham Athletic
+    team17 (queensparkrangers) - Team 17 = Queens Park Rangers
+    team18 (sheffieldunited) - Team 18 = Sheffield United
+    team19 (sheffieldwednesday) - Team 19 = Sheffield Wednesday
+    team20 (southampton) - Team 20 = Southampton
+    team21 (spurs) - Team 21 = Tottenham Hotspur
+    team22 (wimbledon) - Team 22 = Wimbledon
 
 */
 

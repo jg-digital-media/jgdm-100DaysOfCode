@@ -2,38 +2,27 @@
 
 /* Match List - Season: 96/97
 
-11/05/1997		Aston Villa	-	Southampton FC	1:0 (1:0)	
-Blackburn Rovers	-	Leicester City	2:4 (1:1)	
-Derby County	-	Arsenal FC	1:3 (1:0)	
-Everton FC	-	Chelsea FC	1:2 (0:2)	
-Leeds United	-	Middlesbrough FC	1:1 (0:0)	
-Manchester United	-	West Ham United	2:0 (1:0)	
-Newcastle United	-	Nottingham Forest	5:0 (4:0)	
-Sheffield Wednesday	-	Liverpool FC	1:1 (0:0)	
-Tottenham Hotspur	-	Coventry City	1:2 (1:2)	
-Wimbledon FC	-	Sunderland AFC	1:0 (0:0)
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal 
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (blackburnrovers) - Team 3 = Blackburn Rovers
+    team4 (coventry) - Team 4 = Coventry City
+    team5 (chelsea) - Team 5 = Chelsea
+    team6 (derbycounty) - Team 6 = Derby County
+    team7 (everton) - Team 7 = Everton
+    team8 (leeds) - Team 8 = Leeds United
+    team9 (leicester) - Team 9 = Leicester City
+    team10 (liverpool) - Team 10 = Liverpool
+    team11 (manchesterunited) - Team 11 = Manchester United
+    team12 (middlesbrough) - Team 12 = Middlesbrough
+    team13 (nottinghamforest) - Team 13 = Nottingham Forest   
+    team14 (sheffieldwednesday) - Team 14 = Sheffield Wednesday
+    team15 (southampton) - Team 15 = Southampton
+    team16 (sunderland) - Team 16 =  Sunderland  
+    team17 (spurs) - Team 17 = Tottenham Hotspur
+    team18 (westham) - Team 18 = West Ham United
+    team19 (wimbledon) - Team 19 = Wimbledon
 
 */
 

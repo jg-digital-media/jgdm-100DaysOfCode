@@ -2,17 +2,6 @@
 
 /* Match List - Season: 14/15
 
-24/05/2015	15:00		-	West Bromwich Albion	4:1 (4:0)	
-15:00		-		0:1 (0:1)	
-15:00		-	 AFC	3:1 (1:1)	
-15:00		-		1:0 (0:0)	
-15:00		-		0:1 (0:1)	
-15:00		-		0:0 (0:0)	
-15:00		-		5:1 (2:0)	
-15:00		-	 FC	2:0 (1:0)	
-15:00		-		2:0 (0:0)	
-15:00		-		6:1 (5:0)
-
     Base Team: Newcastle United
 
     team1 (arsenal) - Team 1 = Arsenal  

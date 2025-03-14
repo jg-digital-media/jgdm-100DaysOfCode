@@ -2,38 +2,27 @@
 
 /* Match List - Season: 99/00
 
-14/05/2000	16:00	Aston Villa	-	Manchester United	0:1 (0:0)	
-16:00	Bradford City	-	Liverpool FC	1:0 (1:0)	
-16:00	Chelsea FC	-	Derby County	4:0 (0:0)	
-16:00	Everton FC	-	Middlesbrough FC	0:2 (0:1)	
-16:00	Newcastle United	-	Arsenal FC	4:2 (2:1)	
-16:00	Sheffield Wednesday	-	Leicester City	4:0 (2:0)	
-16:00	Southampton FC	-	Wimbledon FC	2:0 (0:0)	
-16:00	Tottenham Hotspur	-	Sunderland AFC	3:1 (1:1)	
-16:00	Watford FC	-	Coventry City	1:0 (1:0)	
-16:00	West Ham United	-	Leeds United	0:0 (0:0)
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (bradfordcity) - Team 3 = Bradford City
+    team4 (coventry) - Team 4 = Coventry City
+    team5 (chelsea) - Team 5 = Chelsea
+    team6 (derbycounty) - Team 6 = Derby County
+    team7 (everton) - Team 7 = Everton
+    team8 (leeds) - Team 8 = Leeds United
+    team9 (leicester) - Team 9 = Leicester City
+    team10 (liverpool) - Team 10 = Liverpool
+    team11 (manchesterunited) - Team 11 = Manchester United
+    team12 (middlesbrough) - Team 12 = Middlesbrough
+    team13 (sheffieldwednesday) - Team 13 = Sheffield Wednesday
+    team14 (southampton) - Team 14 = Southampton
+    team15 (sunderland) - Team 15 = Sunderland
+    team16 (spurs) - Team 16 = Tottenham Hotspur
+    team17 (watford) - Team 17 = Watford
+    team18 (westham) - Team 18 = West Ham United
+    team19 (wimbledon) - Team 19 = Wimbledon   
 
 */
 

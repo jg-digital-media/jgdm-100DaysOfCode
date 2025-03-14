@@ -4,36 +4,25 @@
 
     Base Team: Newcastle United
 
-    19/05/2001	15:00	Charlton Athletic	-	Liverpool FC	0:4 (0:0)	
-15:00	Coventry City	-	Bradford City	0:0 (0:0)	
-15:00	Derby County	-	Ipswich Town	1:1 (1:0)	
-15:00	Everton FC	-	Sunderland AFC	2:2 (1:1)	
-15:00	Leeds United	-	Leicester City	3:1 (1:1)	
-15:00	Manchester City	-	Chelsea FC	1:2 (1:1)	
-15:00	Middlesbrough FC	-	West Ham United	2:1 (2:1)	
-15:00	Newcastle United	-	Aston Villa	3:0 (2:0)	
-15:00	Southampton FC	-	Arsenal FC	3:2 (0:1)	
-15:00	Tottenham Hotspur	-	Manchester United	3:1 (1:1)	
-
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal 
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (bradfordcity) - Team 3 = Bradford City
+    team4 (charlton) - Team 4 = Charlton Athletic
+    team5 (chelsea) - Team 5 = Chelsea
+    team6 (coventry) - Team 6 = Coventry City
+    team7 (derbycounty) - Team 7 = Derby County
+    team8 (everton) - Team 8 = Everton
+    team9 (ipswich) - Team 9 = Ipswich Town
+    team10 (leeds) - Team 10 = Leeds United
+    team11 (leicester) - Team 11 = Leicester City
+    team12 (liverpool) - Team 12 = Liverpool
+    team13 (manchestercity) - Team 13 = Manchester City
+    team14 (manchesterunited) - Team 14 = Manchester United
+    team15 (middlesbrough) - Team 15 = Middlesbrough
+    team16 (southampton) - Team 16 = Southampton
+    team17 (sunderland) - Team 17 = Sunderland
+    team18 (tottenhamhotspur) - Team 18 = Tottenham Hotspur
+    team19 (westham) - Team 19 = West Ham United
 
 */
 

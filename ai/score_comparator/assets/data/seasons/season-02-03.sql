@@ -2,39 +2,27 @@
 
 /* Match List - Season: 02/03
 
-11/05/2003	15:00	West Bromwich Albion	-	Newcastle United	2:2 (0:1)	
-15:00	Manchester City	-	Southampton FC	0:1 (0:1)	
-15:00	Sunderland AFC	-	Arsenal FC	0:4 (0:2)	
-15:00	Tottenham Hotspur	-	Blackburn Rovers	0:4 (0:2)	
-15:00	Chelsea FC	-	Liverpool FC	2:1 (2:1)	
-15:00	Everton FC	-	Manchester United	1:2 (1:1)	
-15:00	Leeds United	-	Aston Villa	3:1 (1:1)	
-15:00	Birmingham City	-	West Ham United	2:2 (0:0)	
-15:00	Bolton Wanderers	-	Middlesbrough FC	2:1 (2:0)	
-15:00	Charlton Athletic	-	Fulham FC	0:1 (0:1)
+    Base Team: Newcastle United    
 
-    Base Team: Newcastle United
-    
-
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal 
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (birmingham) - Team 3 = Birmingham City
+    team4 (blackburnrovers) - Team 4 = Blackburn Rovers
+    team5 (boltonwanderers) - Team 5 = Bolton Wanderers
+    team6 (charlton) - Team 6 = Charlton Athletic
+    team7 (chelsea) - Team 7 = Chelsea
+    team8 (everton) - Team 8 = Everton
+    team9 (fulham) - Team 9 = Fulham
+    team10 (leeds) - Team 10 = Leeds United
+    team11 (liverpool) - Team 11 = Liverpool
+    team12 (manchestercity) - Team 12 = Manchester City
+    team13 (manchesterunitrf) - Team 13 = Manchester United
+    team14 (middlesbrough) - Team 14 = Middlesbrough
+    team15 (southampton) - Team 15 = Southampton
+    team16 (sunderland) - Team 16 = Sunderland
+    team17 (spurs) - Team 17 = Tottenham Hotspur
+    team18 (westbrom) - Team 18 = West Bromwich Albion
+    team19 (westham) - Team 19 = West Ham United   
 
 */
 

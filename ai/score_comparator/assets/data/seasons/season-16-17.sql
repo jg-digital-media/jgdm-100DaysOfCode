@@ -2,39 +2,28 @@
 
 /* Match List - Season: 16/17
 
-21/05/2017	15:00	Arsenal FC	-	Everton FC	3:1 (2:0)	
-15:00	Burnley FC	-	West Ham United	1:2 (1:1)	
-15:00	Chelsea FC	-	Sunderland AFC	5:1 (1:1)	
-15:00	Hull City	-	Tottenham Hotspur	1:7 (0:3)	
-15:00	Leicester City	-	AFC Bournemouth	1:1 (0:1)	
-15:00	Liverpool FC	-	Middlesbrough FC	3:0 (1:0)	
-15:00	Manchester United	-	Crystal Palace	2:0 (2:0)	
-15:00	Southampton FC	-	Stoke City	0:1 (0:0)	
-15:00	Swansea City	-	West Bromwich Albion	2:1 (0:1)	
-15:00	Watford FC	-	Manchester City	0:5 (0:4)
-
     Base Team: N/A
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 = 
-    team20 - Team 20 =
+    team1 (bournemouth) - Team 1 = AFC Bournemouth
+    team2 (arsenal) - Team 2 = Arsenal
+    team3 (burnley) - Team 3 = Burnley
+    team4 (chelsea) - Team 4 = Chelsea
+    team5 (crystalpalace) - Team 5 = Crystal Palace
+    team6 (everton) - Team 6 = Everton
+    team7 (hullcity) - Team 7 = Hull City
+    team8 (leicester) - Team 8 = Leicester City
+    team9 (liverpool) - Team 9 = Liverpool
+    team10 (manchestercity) - Team 10 = Manchester City
+    team11 (manchesterunited) - Team 11 = Manchester United
+    team12 (middlesbrough) - Team 12 = Middlesbrough
+    team13 (southampton) - Team 13 = Southampton
+    team14 (stokecity) - Team 14 = Stoke City
+    team15 (sunderland) - Team 15 = Sunderland
+    team16 (swansea) - Team 16 = Swansea City
+    team17 (spurs) - Team 17 = Tottenham Hotspur
+    team18 (watford) - Team 18 = Watford FC
+    team19 (westbrom) - Team 19 = West Bromwich Albion
+    team20 (westham) - Team 20 = West Ham United
 
 */
 

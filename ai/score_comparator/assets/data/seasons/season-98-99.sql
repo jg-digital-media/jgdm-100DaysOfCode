@@ -2,38 +2,27 @@
 
 /* Match List - Season: 98/99
 
-16/05/1999	14:00	Manchester United	-	Tottenham Hotspur	2:1 (1:1)	
-14:00	Coventry City	-	Leeds United	2:2 (0:1)	
-14:00	Arsenal FC	-	Aston Villa	1:0 (0:0)	
-14:00	Chelsea FC	-	Derby County	2:1 (1:0)	
-14:00	West Ham United	-	Middlesbrough FC	4:0 (2:0)	
-14:00	Charlton Athletic	-	Sheffield Wednesday	0:1 (0:0)	
-14:00	Liverpool FC	-	Wimbledon FC	3:0 (1:0)	
-14:00	Newcastle United	-	Blackburn Rovers	1:1 (0:1)	
-14:00	Southampton FC	-	Everton FC	2:0 (1:0)	
-14:00	Nottingham Forest	-	Leicester City	1:0 (0:0)
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =    
+    team1 (arsenal) - Team 1 = Arsenal 
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (blackburnrovers) - Team 3 = Blackburn Rovers
+    team4 (charlton) - Team 4 = Charlton Athletic
+    team5 (chelsea) - Team 5 = Chelsea
+    team6 (coventry) - Team 6 = Coventry City
+    team7 (derbycounty) - Team 7 = Derby County
+    team8 (everton) - Team 8 = Everton
+    team9 (leeds) - Team 9 = Leeds United
+    team10 (leicester) - Team 10 = Leicester City
+    team11 (liverpool) - Team 11 = Liverpool
+    team12 (manchesterunited) - Team 12 = Manchester United
+    team13 (middlesbrough) - Team 13 = Middlesbrough
+    team14 (nottinghamforest) - Team 14 = Nottingham Forest
+    team15 (sheffieldwednesday) - Team 15 = Sheffield Wednesday
+    team16 (southampton) - Team 16 = Southampton
+    team17 (spurs) - Team 17 = Tottenham Hotspur
+    team18 (westham) - Team 18 = West Ham United
+    team19 (wimbledon) - Team 19 = Wimbledon
 
 */
 

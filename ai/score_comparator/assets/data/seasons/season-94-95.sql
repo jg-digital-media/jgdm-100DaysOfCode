@@ -2,42 +2,29 @@
 
 /* Match List - Season: 94/95
 
-13/05/1995		Wimbledon FC	-	Nottingham Forest	2:2 (2:1)	
-14/05/1995		Liverpool FC	-	Blackburn Rovers	2:1 (0:1)	
-West Ham United	-	Manchester United	1:1 (1:0)	
-Tottenham Hotspur	-	Leeds United	1:1 (1:0)	
-Southampton FC	-	Leicester City	2:2 (1:0)	
-Sheffield Wednesday	-	Ipswich Town	4:1 (1:0)	
-Norwich City	-	Aston Villa	1:1 (0:1)	
-Coventry City	-	Everton FC	0:0 (0:0)	
-Chelsea FC	-	Arsenal FC	2:1 (1:1)	
-Newcastle United	-	Crystal Palace	3:2 (3:0)	
-Manchester City	-	Queens Park Rangers	2:3 (1:1)
-
     Base Team: Newcastle United
 
-    team1 - Team 1 =  
-    team2 - Team 2 = 
-    team3 - Team 3 = 
-    team4 - Team 4 = 
-    team5 - Team 5 = 
-    team6 - Team 6 = 
-    team7 - Team 7 = 
-    team8 - Team 8 = 
-    team9 - Team 9 = 
-    team10 - Team 10 = 
-    team11 - Team 11 = 
-    team12 - Team 12 = 
-    team13 - Team 13 = 
-    team14 - Team 14 = 
-    team15 - Team 15 = 
-    team16 - Team 16 = 
-    team17 - Team 17 = 
-    team18 - Team 18 =         
-    team19 - Team 19 =
-    team20 - Team 20 = 
-    team21 - Team 21 =
-    team22 - Team 22 =
+    team1 (arsenal) - Team 1 = Arsenal 
+    team2 (astonvilla) - Team 2 = Aston Villa
+    team3 (blackburnrovers) - Team 3 = Blackburn Rovers
+    team4 (chelsea) - Team 4 = Chelsea
+    team5 (coventry) - Team 5 = Coventry City
+    team6 (crystalpalace) - Team 6 = Crystal Palace
+    team7 (everton) - Team 7 = Everton
+    team8 (ipswich) - Team 8 = Ipswich Town
+    team9 (leeds) - Team 9 = Leeds United
+    team10 (leicester) - Team 10 = Leicester City
+    team11 (liverpool) - Team 11 = Liverpool
+    team12 (manchestercity) - Team 12 = Manchester City
+    team13 (manchesterunited) - Team 13 = Manchester United
+    team14 (norwich) - Team 14 = Norwich City
+    team15 (nottinghamforest) - Team 15 = Nottingham Forest
+    team16 (queensparkrangers) - Team 16 = Queens Park Rangers
+    team17 (sheffieldwednesday) - Team 17 = Sheffield Wednesday
+    team18 (southampton) - Team 18 = Southampton
+    team19 (spurs) - Team 19 = Tottenham Hotspur
+    team20 (westham) - Team 20 = West Ham United
+    team21 (wimbledon) - Team 21 = Wimbledon
 
 */
 

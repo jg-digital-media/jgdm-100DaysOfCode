@@ -1,7 +1,7 @@
 -- Season 24/25 (copy) --
 /* Last Update: 13/03/2025 - 10:47 */
 
-/* Match List - Season: 24/25 */
+/* Match List - Season: 24/25 - in progress */
 
 -- Create Home Match Tables
 CREATE TABLE bournemouth_home_matches (

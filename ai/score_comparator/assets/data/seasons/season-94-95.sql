@@ -1124,10 +1124,10 @@ INSERT INTO team4_away_matches (home_team, home_score, away_team, away_score, pl
     ('Team 13', 0, 'Team 4', 0, 0),
     ('Team 14', 0, 'Team 4', 0, 0),
     ('Team 15', 0, 'Team 4', 0, 0),
-    ('Team 17', 0, 'Team 4', 0, 0),
     ('Team 16', 0, 'Team 4', 0, 0),
+    ('Team 17', 0, 'Team 4', 0, 0),
     ('Team 18', 0, 'Team 4', 0, 0),
-    ('Team 10', 0, 'Team 4', 0, 0),
+    ('Team 19', 0, 'Team 4', 0, 0),
     ('Team 20', 0, 'Team 4', 0, 0),
     ('Team 21', 0, 'Team 4', 0, 0),
     ('Team 22', 0, 'Team 4', 0, 0);

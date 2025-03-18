@@ -921,10 +921,10 @@ INSERT INTO team4_away_matches (home_team, home_score, away_team, away_score, pl
     ('Team 13', 0, 'Team 4', 0, 0),
     ('Team 14', 0, 'Team 4', 0, 0),
     ('Team 15', 0, 'Team 4', 0, 0),
-    ('Team 17', 0, 'Team 4', 0, 0),
     ('Team 16', 0, 'Team 4', 0, 0),
+    ('Team 17', 0, 'Team 4', 0, 0),
     ('Team 18', 0, 'Team 4', 0, 0),
-    ('Team 10', 0, 'Team 4', 0, 0);
+    ('Team 19', 0, 'Team 4', 0, 0);
 
 INSERT INTO team5_away_matches (home_team, home_score, away_team, away_score, played) VALUES
     ('Team 1', 0, 'Team 5', 0, 0),

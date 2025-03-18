@@ -4,6 +4,28 @@
 
     Base Team: Newcastle United
 
+    AFC Bournemouth
+Arsenal
+Aston Villa
+Brighton & Hove Albion
+Burnley
+
+Chelsea
+Crystal Palace	
+Everton
+Leicester City
+Liverpool
+
+Manchester City
+Manchester United
+Norwich City
+Watford
+Southampton
+Sheffield United
+Tottenham Hotspur
+West Ham United
+Wolverhampton Wanderers
+
 */
 
 -- Create Home Match Tables

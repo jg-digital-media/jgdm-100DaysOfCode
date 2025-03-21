@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 26/02/2024 - 11:10 */
+/* Stylesheet Upated: 21/03/2025 - 17:10 */
 /*
 
 
@@ -207,6 +207,18 @@ body .section---about p {
   margin-top: 15px;
 }
 body .section---about p code {
+  padding: 1px 5px;
+  background: #baff60;
+  border-radius: 5px;
+}
+body .section---about ul.development---history {
+  line-height: 1.6;
+}
+body .section---about ul.development---history li {
+  list-style: none;
+  padding: 0 4px;
+}
+body .section---about ul.development---history code {
   padding: 1px 5px;
   background: #baff60;
   border-radius: 5px;

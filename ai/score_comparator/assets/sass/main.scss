@@ -353,7 +353,28 @@ body {
                 padding: 1px 5px;
                 background: #baff60;
                 border-radius: 5px;
+            }            
+
+        }
+
+        ul.development---history {
+            
+            line-height: 1.6;
+
+            li {
+
+                list-style: none;
+                padding: 0 4px;
             }
+            
+    
+            code {
+
+                padding: 1px 5px;
+                background: #baff60;
+                border-radius: 5px;
+            }
+
         }
 
         a {

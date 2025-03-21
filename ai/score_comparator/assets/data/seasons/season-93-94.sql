@@ -1,30 +1,8 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 93/94
 
     Base Team: Newcastle United
-
-    astonvilla (arsenal) - Team 1 = Arsenal
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    blackburnrovers (blackburnrovers) - Team 3 = Blackburn Rovers
-    chelsea (chelsea) - Team 4 = Chelsea
-    coventry (coventry) - Team 5 = Coventry City
-    everton (everton) - Team 6 = Everton
-    ipswich (ipswich) - Team 7 = Ipswich Town
-    leeds (leeds) - Team 8 = Leeds United
-    liverpool (liverpool) - Team 9 = Liverpool 
-    manchestercity (manchestercity) - Team 10 = Manchester City
-    manchesterunited (manchesterunited) - Team 11 = Manchester United
-    norwich (norwich) - Team 12 = Norwich City
-    oldham (oldham) - Team 13 = Oldham Athletic
-    queensparkrangers (queensparkrangers) - Team 14 = Queens Park Rangers
-    sheffieldunited (sheffieldunited) - Team 15 = Sheffield United
-    sheffieldwednesday (sheffieldwednesday) - Team 16 = Sheffield Wednesday
-    southampton (southampton) - Team 17 = Southampton
-    swindontown (swindontown) - Team 18 = Swindon Town
-    spurs (spurs) - Team 19 - Tottenham Hotspur
-    westham (westham) - Team 20 = West Ham United
-    wimbledon (wimbledon) - Team 21 = Wimbledon
 
 */
 

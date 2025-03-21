@@ -1,29 +1,9 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 01/02
 
     Base Team: Newcastle United
-
-    arsenal (arsenal) - Team 1 = Arsenal
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    blackburnrovers (blackburnrovers) - Team 3 = Blackburn Rovers
-    team4 (boltonwanderers) - Team 4 = Bolton Wanderers
-    charlton (charlton) - Team 5 = Charlton Athletic
-    chelsea (chelsea) - Team 6 = Chelsea
-    derbycounty (derbycounty) - Team 7 = Derby County
-    everton (everton) - Team 8 = Everton
-    fulham (fulham) - Team 9 = Fulham
-    ipswich (ipswich) - Team 10 = Ipswich Town
-    leeds (leeds) - Team 11 = Leeds United
-    leicester (leicester) - Team 12 = Leicester City
-    liverpool (liverpool) - Team 13 = Liverpool
-    manchesterunited (manchesterunited) - Team 14 = Manchester United
-    middlesbrough (middlesbrough) - Team 15 = Middlesbrough
-    southampton (southampton) - Team 16 = Southampton
-    sunderland (sunderland) - Team 17 = Sunderland
-    spurs (spurs) - Team 18 = Tottenham Hotspur
-    westham (westham) - Team 19 = West Ham United
-
+    
 */
 
 -- Create Home Match Tables

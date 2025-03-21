@@ -1,28 +1,8 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 10/11
 
     Base Team: Newcastle United
-
-    arsenal (arsenal) - Team 1 = Arsenal
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    birmingham (birmingham)- Team 3 = Birmingham City
-    blackburnrovers (blackburnrovers) - Team 4 = Blackburn Rovers
-    blackpool (blackpool) - Team 5 = Blackpool
-    boltonwanderers (boltonwanderers) - Team 6 = Bolton Wanderers
-    chelsea (chelsea) - Team 7 = Chelsea
-    everton (everton) - Team 8 = Everton
-    fulham (fulham) - Team 9 = Fulham
-    liverpool (liverpool) - Team 10 = Liverpool
-    manchestercity (manchestercity) - Team 11 = Manchester City
-    manchesterunited (manchesterunited) - Team 12 = Manchester United
-    stokecity (stokecity) - Team 13 = Stoke City
-    sunderland (sunderland)- Team 14 = Sunderland
-    spurs (spurs) - Team 15 = Tottenham Hotspur
-    westbrom (westbrom) - Team 16 = West Bromwich Albion
-    westham (westham) - Team 17 = West Ham United
-    wigan (wigan) - Team 18 = Wigan Athletic
-    wolverhampton (wolverhampton) - Team 19 = Wolverhampton Wanderers
 
 */
 

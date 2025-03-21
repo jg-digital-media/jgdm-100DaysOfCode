@@ -1,28 +1,8 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 03/04
 
     Base Team: Newcastle United
-
-    arsenal (arsenal) - Team 1 = Arsenal 
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    birmingham (birmingham) - Team 3 = Birmingham City
-    blackburnrovers (blackburnrovers) - Team 4 = Blackburn Rovers
-    boltonwanderers (boltonwanderers) - Team 5 = Bolton Wanderers
-    charlton (charlton) - Team 6 = Charlton Athletic
-    chelsea (chelsea) - Team 7 = Chelsea
-    everton (everton) - Team 8 = Everton
-    fulham (fulham) - Team 9 = Fulham
-    leeds (leeds) - Team 10 = Leeds United
-    leicester (leicester) - Team 11 = Leicester City
-    liverpool (liverpool) - Team 12 = Liverpool
-    manchestercity (manchestercity) - Team 13 = Manchester City
-    manchesterunited (manchesterunited) - Team 14 = Manchester United
-    middlesbrough (middlesbrough) - Team 15 = Middlesbrough
-    portsmouth (portsmouth) - Team 16 = Portsmouth
-    southampton (southampton) - Team 17 = Southampton
-    spurs (spurs) - Team 18 = Tottenham Hotspur
-    wolverhampton (wolverhampton) - Team 19 = Wolverhampton Wanderers   
 
 */
 

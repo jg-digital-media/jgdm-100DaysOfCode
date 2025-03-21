@@ -1,28 +1,8 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 97/98
 
     Base Team: Newcastle United
-
-    arsenal (arsenal) - Team 1 = Arsenal 
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    barnsley (barnsley) - Team 3 = Barnsley
-    blackburnrovers (blackburnrovers) - Team 4 = Blackburn Rovers
-    boltonwanderers (boltonwanderers) - Team 5 = Bolton Wanderers
-    chelsea (chelsea) - Team 6 = Chelsea
-    coventry (coventry) - Team 7 = Coventry City
-    crystalpalace (crystalpalace) - Team 8 = Crystal Palace
-    derbycounty (derbycounty) - Team 9 = Derby County
-    everton (everton) - Team 10 = Everton
-    leeds (leeds) - Team 11 = Leeds United
-    leicester (leicester) - Team 12 = Leicester City
-    liverpool (liverpool) - Team 13 = Liverpool
-    manchesterunited (manchesterunited) - Team 14 = Manchester United
-    sheffieldwednesday (sheffieldwednesday) - Team 15 = Sheffield Wednesday
-    southampton (southampton) - Team 16 = Southampton
-    spurs (spurs) - Team 17 = Tottenham Hotspur
-    westham (westham) - Team 18 = West Ham United
-    wimbledon (wimbledon) - Team 19 = Wimbledon
 
 */
 

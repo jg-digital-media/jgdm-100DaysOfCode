@@ -1,29 +1,8 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 19/20
 
     Base Team: Newcastle United
-
-    bournemouth (bournemouth) - Team 1 = AFC Bournemouth
-    arsenal (arsenal) - Team 2 = Arsenal
-    astonvilla (astonvilla) - Team 3 = Aston Villa
-    brighton (brighton) - Team 4 = Brighton & Hove Albion
-    burnley (burnley) - Team 5 = Burnley
-    chelsea (chelsea) - Team 6 = Chelsea
-    crystalpalace (crystalpalace) - Team 6 = Crystal Palace
-    everton (everton) - Team 7 = Everton
-    fulham (fulham) - Team 8 = Fulham
-    liverpool (liverpool) - Team 9 = Liverpool
-    leicester (leicester) - Team 10 = Leicester City
-    manchestercity (manchestercity) - Team 11 = Manchester City
-    manchesterunited (manchesterunited) - Team 12 = Manchester United
-    norwich (norwich) - Team 13 = Norwich City
-    sheffieldunited (sheffieldunited) - Team 14 = Sheffield United
-    southampton (southampton) - Team 15 = Southampton
-    spurs (spurs) - Team 16 = Tottenham Hotspur
-    watford (watford) - Team 17 = Watford
-    westham (westham) - Team 18 = West Ham United        
-    wolverhampton (wolverhampton) - Team 19 = Wolverhampton Wanderers
 
 */
 

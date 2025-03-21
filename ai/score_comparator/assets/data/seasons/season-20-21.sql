@@ -1,28 +1,8 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 20/21
 
     Base Team: Newcastle United
-
-    arsenal (arsenal) - Team 1 = Arsenal  
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    brighton (brighton) - Team 3 = Brighton & Hove Albion
-    burnley (burnley) - Team 4 = Burnley
-    chelsea (chelsea) - Team 5 = Chelsea
-    crystalpalace (crystalpalace) - Team 6 = Crystal Palace
-    everton (everton) - Team 7 = Everton
-    fulham (fulham) - Team 8 = Fulham
-    leeds (leeds) - Team 9 = Leeds United
-    leicester (leicester) - Team 10 = Leicester City
-    liverpool (liverpool) - Team 11 = Liverpool
-    manchestercity (manchestercity) - Team 12 = Manchester City
-    manchesterunited (manchesterunited) - Team 13 = Manchester United
-    sheffieldunited (sheffieldunited) - Team 14 = Sheffield United
-    southampton (southampton) - Team 15 = Southampton
-    spurs (spurs) - Team 16 = Tottenham Hotspur
-    westbrom (westbrom) - Team 17 = West Bromwich Albion
-    westham (westham) - Team 18 = West Ham United
-    wolverhampton (wolverhampton) - Team 19 = Wolverhampton Wanderers
 
 */
 

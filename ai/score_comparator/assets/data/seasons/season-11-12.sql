@@ -1,28 +1,8 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 11/12
 
     Base Team: Newcastle United
-
-    arsenal (arsenal) - Team 1 = Arsenal
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    blackburnrovers (blackburnrovers)- Team 3 = Blackburn Rovers
-    boltonwanderers (boltonwanderers) - Team 4 = Bolton Wanderers
-    chelsea (chelsea) - Team 5 = Chelsea
-    everton (everton) - Team 6 = Everton
-    fulham (fulham) - Team 7 = Fulham
-    liverpool (liverpool) - Team 8 = Liverpool
-    manchestercity (manchestercity) - Team 9 = Manchester City
-    manchesterunited (manchesterunited) - Team 10 = Manchester United
-    norwich (norwich) - Team 11 = Norwich City
-    queensparkrangers (queensparkrangers) - Team 12 = Queens Park Rangers
-    stokecity (stokecity) - Team 13 = Stoke City
-    sunderland (sunderland) - Team 14 = Sunderland
-    swansea (swansea) - Team 15 = Swansea City
-    spurs (spurs) - Team 16 = Tottenham Hotspur
-    westbrom (westbrom) - Team 17 = West Bromwich Albion
-    westham (westham) - Team 18 = West Ham United
-    wigan (wigan) - Team 19 = Wigan Athletic   
 
 */
 

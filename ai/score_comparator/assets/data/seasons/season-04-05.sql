@@ -1,28 +1,8 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 04/05
 
     Base Team: Newcastle United
-
-    arsenal (arsenal) - Team 1 = Arsenal
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    birmingham (birmingham) - Team 3 = Birmingham City
-    blackburnrovers (blackburnrovers) - Team 4 = Blackburn Rovers
-    boltonwanderers (boltonwanderers) - Team 5 = Bolton Wanderers
-    charlton (charlton) - Team 6 = Charlton Athletic
-    chelsea (chelsea) - Team 7 = Chelsea
-    crystalpalace (crystalpalace) - Team 8 = Crystal Palace
-    everton (everton) - Team 9 = Everton
-    fulham (fulham) - Team 10 = Fulham
-    liverpool (liverpool) - Team 11 = Liverpool
-    manchestercity (manchestercity) - Team 12 = Manchester City
-    manchesterunited (manchesterunited) - Team 13 = Manchester United
-    middlesbrough (middlesbrough) - Team 14 = Middlesbrough
-    norwich (norwich) - Team 15 = Norwich City
-    portsmouth (portsmouth) - Team 16 = Portsmouth
-    spurs (spurs) - Team 17 = Tottenham Hotspur
-    southampton (southampton) - Team 18 = Southampton
-    westborm (westbrom) - Team 19 = West Bromwich Albion
 
 */
 

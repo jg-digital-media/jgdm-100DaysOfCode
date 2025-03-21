@@ -1,31 +1,8 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 92/93
 
     Base Team: N/A
-
-    arsenal (arsenal) - Team 1 = Arsenal
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    blackburnrovers (blackburnrovers) - Team 3 = Blackburn Rovers
-    chelsea (chelsea) - Team 4 = Chelsea
-    coventry (coventry) - Team 5 = Coventry City
-    crystalpalace (crystalpalace) - Team 6 = Crystal Palace
-    everton (everton) - Team 7 = Everton
-    ipswich (ipswich) - Team 8 = Ipswich Town
-    leeds (leeds) - Team 9 = Leeds United
-    liverpool (liverpool) - Team 10 = Liverpool
-    manchestercity (manchestercity) - Team 11 = Manchester City
-    manchesterunited (manchesterunited) - Team 12 = Manchester United
-    middlesbrough (middlesbrough) - Team 13 = Middlesbrough
-    norwich (norwich) - Team 14 = Norwich City
-    nottinghamforest (nottinghamforest) - Team 15 = Nottingham Forest
-    oldham (oldham) - Team 16 = Oldham Athletic
-    queensparkrangers (queensparkrangers) - Team 17 = Queens Park Rangers
-    sheffieldunited (sheffieldunited) - Team 18 = Sheffield United
-    sheffieldwednesday (sheffieldwednesday) - Team 19 = Sheffield Wednesday
-    southampton (southampton) - Team 20 = Southampton
-    spurs (spurs) - Team 21 = Tottenham Hotspur
-    wimbledon (wimbledon) - Team 22 = Wimbledon
 
 */
 

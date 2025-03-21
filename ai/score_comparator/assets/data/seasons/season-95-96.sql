@@ -1,28 +1,8 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 95/96
 
     Base Team: Newcastle United
-
-    arsenal (arsenal) - Team 1 = Arsenal 
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    blackburnrovers (blackburnrovers) - Team 3 = Blackburn Rovers
-    boltonwanderers (boltonwanderers) - Team 4 = Bolton Wanderers
-    chelsea (chelsea) - Team 5 = Chelsea
-    coventry (coventry) - Team 6 = Coventry City
-    everton (everton) - Team 7 = Everton
-    leeds (leeds) - Team 8 = Leeds United
-    liverpool (liverpool) - Team 9 = Liverpool
-    manchestercity (manchestercity) - Team 10 = Manchester City
-    manchesterunited (manchesterunited) - Team 11 = Manchester United
-    middlesbrough (middlesbrough) - Team 12 = Middlesbrough
-    nottinghamforest (nottinghamforest) - Team 13 = Nottingham Forest
-    queensparkrangers (queensparkrangers) - Team 14 = Queens Park Rangers
-    sheffieldwednesday (sheffieldwednesday) - Team 15 = Sheffield Wednesday
-    southampton (southampton) - Team 16 = Southampton
-    spurs (spurs) - Team 17 = Tottenham Hotspur
-    westham (westham) - Team 18 = West Ham United
-    wimbledon (wimbledon) - Team 19 = Wimbledon
 
 */
 

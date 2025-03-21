@@ -1,28 +1,8 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 13/14
 
     Base Team: Newcastle United
-
-    arsenal (arsenal) - Team 1 = Arsenal FC
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    cardiff (cardiff) - Team 3 = Cardiff City
-    chelsea (chelsea)- Team 4 = Chelsea FC
-    crystalpalace (crystalpalace)- Team 5 = Crystal Palace
-    everton (everton) - Team 6 = Everton FC
-    fulham (fulham) - Team 7 = Fulham FC
-    hullcity (hullcity) - Team 8 = Hull City
-    liverpool (liverpool) - Team 9 = Liverpool
-    manchestercity (manchestercity) - Team 10 = Manchester City
-    manchesterunited (manchesterunited) - Team 11 = Manchester United
-    norwich (norwich) - Team 12 = Norwich City
-    southampton (southampton) - Team 13 = Southampton FC
-    stokecity (stokecity) - Team 14 = Stoke City
-    sunderland (sunderland)- Team 15 = Sunderland
-    swansea (swansea) - Team 16 = Swansea City
-    spurs (spurs) - Team 17 = Tottenham Hotspur
-    westbrom (westbrom) - Team 18 = West Bromwich Albion
-    westham (westham) - Team 19 = West Ham United
 
 */
 

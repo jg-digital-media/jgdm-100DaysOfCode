@@ -1,28 +1,8 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 12/13
 
     Base Team: Newcastle United
-
-    arsenal (arsenal) - Team 1 = Arsenal
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    cardiff (chelsea) - Team 3 = Chelsea
-    chelsea (everton) - Team 4 = Everton
-    crystalpalace (fulham) - Team 5 = Fulham
-    everton (liverpool) - Team 6 = Liverpool
-    fulham (manchestercity) - Team 7 = Manchester City
-    hullcity (manchesterunited) - Team 8 = Manchester United
-    liverpool (norwich) - Team 9 = Norwich City
-    manchestercity (queensparkrangers) - Team 10 = Queens Park Rangers
-    manchesterunited (reading) - Team 11 = Reading FC
-    norwich (southampton) - Team 12 = Southampton FC
-    southampton (stokecity) - Team 13 = Stoke City
-    stokecity (sunderland) - Team 14 = Sunderland
-    swansea (swansea) - Team 15 = Swansea City
-    spurs (spurs) - Team 16 = Spurs FC
-    westbrom (westbrom) - Team 17 = West Bromwich Albion
-    westham (westham) - Team 18 = West Ham United
-    wigan (wigan) - Team 19 = Wigan Athletic
 
 */
 

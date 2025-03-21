@@ -1,30 +1,8 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 94/95
 
     Base Team: Newcastle United
-
-    arsenal (arsenal) - Team 1 = Arsenal 
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    blackburnrovers (blackburnrovers) - Team 3 = Blackburn Rovers
-    chelsea (chelsea) - Team 4 = Chelsea
-    coventry (coventry) - Team 5 = Coventry City
-    crystalpalace (crystalpalace) - Team 6 = Crystal Palace
-    everton (everton) - Team 7 = Everton
-    ipswich (ipswich) - Team 8 = Ipswich Town
-    leeds (leeds) - Team 9 = Leeds United
-    leicester (leicester) - Team 10 = Leicester City
-    liverpool (liverpool) - Team 11 = Liverpool
-    manchestercity (manchestercity) - Team 12 = Manchester City
-    manchesterunited (manchesterunited) - Team 13 = Manchester United
-    norwich (norwich) - Team 14 = Norwich City
-    nottinghamforest (nottinghamforest) - Team 15 = Nottingham Forest
-    queensparkrangers (queensparkrangers) - Team 16 = Queens Park Rangers
-    sheffieldwednesday (sheffieldwednesday) - Team 17 = Sheffield Wednesday
-    southampton (southampton) - Team 18 = Southampton
-    spurs (spurs) - Team 19 = Tottenham Hotspur
-    westham (westham) - Team 20 = West Ham United
-    wimbledon (wimbledon) - Team 21 = Wimbledon
 
 */
 

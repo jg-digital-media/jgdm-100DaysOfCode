@@ -1,31 +1,10 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 
 
 /* Match List - Season: 09/10
 
     Base Team: N/A
-
-    arsenal (arsenal) - Team 1 = Arsenal
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    birmingham (birmingham) - Team 3 = Birmingham City
-    blackburnrovers (blackburnrovers) - Team 4 = Blackburn Rovers
-    boltonwanderers (boltonwanderers) - Team 5 = Bolton Wanderers
-    burnley (burnley) - Team 6 = Burnley
-    chelsea (chelsea) - Team 7 = Chelsea
-    everton (everton) - Team 8 = Everton
-    fulham (fulham) - Team 9 = Fulham
-    hullcity (hullcity) - Team 10 = Hull City
-    liverpool (liverpool) - Team 11 = Liverpool
-    manchestercity (manchestercity) - Team 12 = Manchester City
-    manchesterunited (manchesterunited) - Team 13 = Manchester United
-    portsmouth (portsmouth) - Team 14 = Portsmouth FC
-    stokecity (stokecity) - Team 15 = Stoke City
-    sunderland (sunderland) - Team 16 = Sunderland
-    spurs (spurs) - Team 17 = Tottenham Hotspur
-    westham (westham) - Team 18 = West Ham United
-    wigan (wigan) - Team 19 = Wigan Athletic
-    wolverhampton (wolverhampton) - Team 20 = Wolverhampton Wanderers
 
 */
 

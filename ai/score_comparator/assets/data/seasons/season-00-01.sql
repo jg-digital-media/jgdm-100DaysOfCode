@@ -1,28 +1,8 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 00/01
 
     Base Team: Newcastle United
-
-    arsenal (arsenal) - Team 1 = Arsenal 
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    bradfordcity (bradfordcity) - Team 3 = Bradford City
-    charlton (charlton) - Team 4 = Charlton Athletic
-    chelsea (chelsea) - Team 5 = Chelsea
-    coventry (coventry) - Team 6 = Coventry City
-    derbycounty (derbycounty) - Team 7 = Derby County
-    everton (everton) - Team 8 = Everton
-    ipswich (ipswich) - Team 9 = Ipswich Town
-    leeds (leeds) - Team 10 = Leeds United
-    leicester (leicester) - Team 11 = Leicester City
-    liverpool (liverpool) - Team 12 = Liverpool
-    manchestercity (manchestercity) - Team 13 = Manchester City
-    manchesterunited (manchesterunited) - Team 14 = Manchester United
-    middlesbrough (middlesbrough) - Team 15 = Middlesbrough
-    southampton (southampton) - Team 16 = Southampton
-    sunderland (sunderland) - Team 17 = Sunderland
-    tottenhamhotspur (tottenhamhotspur) - Team 18 = Tottenham Hotspur
-    westham (westham) - Team 19 = West Ham United
 
 */
 

@@ -1,28 +1,8 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 06/07
 
     Base Team: Newcastle United
-
-    arsenal (arsenal) - Team 1 = Arsenal
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    blackburnrovers (blackburnrovers) - Team 3 = Blackburn Rovers
-    boltonwanderers (boltonwanderers) - Team 4 = Bolton Wanderers
-    charlton (charlton) - Team 5 = Charlton Athletic
-    chelsea (chelsea) - Team 6 = Chelsea
-    everton (everton) - Team 7 = Everton
-    fulham (fulham) - Team 8 = Fulham
-    liverpool (liverpool) - Team 9 = Liverpool
-    manchestercity (manchestercity) - Team 10 = Manchester City
-    manchesterunited (manchesterunited) - Team 11 = Manchester United
-    middlesbrough (middlesbrough) - Team 12 = Middlesbrough
-    portsmouth (portsmouth) - Team 13 = Portsmouth
-    reading (reading) - Team 14 = Reading
-    sheffieldunited (sheffieldunited) - Team 15 = Sheffield United
-    spurs (spurs)- Team 16 = Tottenham Hotspur
-    watford (watford) - Team 17 = Watford
-    westham (westham) - Team 18 = West Ham United
-    wigan (wigan) - Team 19 = Wigan Athletic
 
 */
 

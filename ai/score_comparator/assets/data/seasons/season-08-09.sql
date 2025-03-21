@@ -1,28 +1,10 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 08/09
 
     Base Team: Newcastle United
 
-    arsenal (arsenal) - Team 1 = Arsenal
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    blackburnrovers (blackburnrovers) - Team 3 = Blackburn Rovers
-    boltonwanderers (boltonwanderers) - Team 4 = Bolton Wanderers
-    chelsea (chelsea) - Team 5 = Chelsea
-    everton (everton) - Team 6 = Everton
-    everton (everton) - Team 7 = Fulham
-    hullcity (hullcity) - Team 8 = Hull City
-    liverpool (liverpool) - Team 9 = Liverpool
-    manchestercity (manchestercity) - Team 10 = Manchester City
-    manchesterunited (manchesterunited) - Team 11 = Manchester United
-    middlesbrough (middlesbrough) - Team 12 = Middlesbrough
-    portsmouth (portsmouth) - Team 13 = Portsmouth FC
-    stokecity (stokecity) - Team 14 = Stoke City
-    sunderland (sunderland) - Team 15 = Sunderland
-    spurs (spurs) - Team 16 = Tottenham Hotspur
-    westbrom (westbrom) - Team 17 = West Bromwich Albion
-    westham (westham)- Team 18 = West Ham United        
-    wigan (wigan) - Team 19 = Wigan Athletic
+    arsenal (arsenal) - Team 1 = Ars
 
 */
 

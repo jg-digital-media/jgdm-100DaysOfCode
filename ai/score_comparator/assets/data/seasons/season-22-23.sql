@@ -1,30 +1,8 @@
-/* Last Update: 14/03/2025 - 13:34 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 22/23
 
     Base Team: Newcastle United
-
-    AFC Bournemouth
-Arsenal
-Aston Villa
-Brighton & Hove Albion
-Burnley
-
-Chelsea
-Crystal Palace	
-Everton
-Leicester City
-Liverpool
-
-Manchester City
-Manchester United
-Norwich City
-Watford
-Southampton
-Sheffield United
-Tottenham Hotspur
-West Ham United
-Wolverhampton Wanderers
 
 */
 

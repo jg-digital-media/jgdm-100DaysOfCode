@@ -1,28 +1,8 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 99/00
 
     Base Team: Newcastle United
-
-    arsenal (arsenal) - Team 1 = Arsenal
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    bradfordcity (bradfordcity) - Team 3 = Bradford City
-    coventry (coventry) - Team 4 = Coventry City
-    chelsea (chelsea) - Team 5 = Chelsea
-    derbycounty (derbycounty) - Team 6 = Derby County
-    everton (everton) - Team 7 = Everton
-    leeds (leeds) - Team 8 = Leeds United
-    leicester (leicester) - Team 9 = Leicester City
-    liverpool (liverpool) - Team 10 = Liverpool
-    manchesterunited (manchesterunited) - Team 11 = Manchester United
-    middlesbrough (middlesbrough) - Team 12 = Middlesbrough
-    sheffieldwednesday (sheffieldwednesday) - Team 13 = Sheffield Wednesday
-    southampton (southampton) - Team 14 = Southampton
-    sunderland (sunderland) - Team 15 = Sunderland
-    spurs (spurs) - Team 16 = Tottenham Hotspur
-    watford (watford) - Team 17 = Watford
-    westham (westham) - Team 18 = West Ham United
-    wimbledon (wimbledon) - Team 19 = Wimbledon   
 
 */
 

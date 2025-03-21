@@ -1,28 +1,8 @@
-/* Last Update: 14/03/2025 - 11:58 */
+/* Last Update: 21/03/2025 - 15:31 */
 
 /* Match List - Season: 96/97
 
     Base Team: Newcastle United
-
-    arsenal (arsenal) - Team 1 = Arsenal 
-    astonvilla (astonvilla) - Team 2 = Aston Villa
-    blackburnrovers (blackburnrovers) - Team 3 = Blackburn Rovers
-    coventry (coventry) - Team 4 = Coventry City
-    chelsea (chelsea) - Team 5 = Chelsea
-    derbycounty (derbycounty) - Team 6 = Derby County
-    everton (everton) - Team 7 = Everton
-    leeds (leeds) - Team 8 = Leeds United
-    leicester (leicester) - Team 9 = Leicester City
-    liverpool (liverpool) - Team 10 = Liverpool
-    manchesterunited (manchesterunited) - Team 11 = Manchester United
-    middlesbrough (middlesbrough) - Team 12 = Middlesbrough
-    nottinghamforest (nottinghamforest) - Team 13 = Nottingham Forest   
-    sheffieldwednesday (sheffieldwednesday) - Team 14 = Sheffield Wednesday
-    southampton (southampton) - Team 15 = Southampton
-    sunderland (sunderland) - Team 16 =  Sunderland  
-    spurs (spurs) - Team 17 = Tottenham Hotspur
-    westham (westham) - Team 18 = West Ham United
-    wimbledon (wimbledon) - Team 19 = Wimbledon
 
 */
 

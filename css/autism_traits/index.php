@@ -149,7 +149,7 @@
             </ul>
 
             <ul>
-                <li>Awareness: frequently, I’m either hyper-aware and cognisant of so many details or I’m oblivious because I’m in a world of my own, completely hyperfocused on my current thoughts or task.</li>
+                <li>Awareness: frequently, I'm either hyper-aware and cognisant of so many details or I'm oblivious because I'm in a world of my own, completely hyperfocused on my current thoughts or task.</li>
             </ul>
 
             <h3>Resources for Autism and Neurodiversity</h3>
@@ -158,6 +158,8 @@
                 <li>Talk to other people who have a diagnosis of autism; · Listen to stories of other people with autism (<a href="http://healthtalk.org" target="_blank">http://healthtalk.org</a>);</li>
 
                 <li><a href="http://healthtalk.org" target="_blank">http://healthtalk.org</a></li>
+
+                <li><a href="https://embrace-autism.com/" target="_blank">Embrace Autism</a></li>
 
                 <li><a href="http://www.autism.org.uk/what-we-do/branches" target="_blank">http://www.autism.org.uk/what-we-do/branches</a></li>
 

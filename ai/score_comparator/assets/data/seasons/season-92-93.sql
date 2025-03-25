@@ -1210,7 +1210,7 @@ INSERT INTO liverpool_away_matches (home_team, home_score, away_team, away_score
     ('Norwich City', 0, 'Liverpool', 0, 0),
     ('Nottingham Forest', 1, 'Liverpool', 0, 1),
     ('Oldham Athletic', 0, 'Liverpool', 1, 1),
-    ('Queens Park Rangers', 0, 'Liverpool', 0, 0),
+    ('Queens Park Rangers', 0, 'Liverpool', 1, 1),
     ('Sheffield United', 1, 'Liverpool', 0, 1),
     ('Sheffield Wednesday', 0, 'Liverpool', 0, 0),
     ('Southampton', 0, 'Liverpool', 0, 0),

@@ -703,7 +703,7 @@ INSERT INTO liverpool_home_matches (home_team, home_score, away_team, away_score
     ('Liverpool', 0, 'Oldham Athletic', 0, 0),
     ('Liverpool', 0, 'Queens Park Rangers', 0, 0),
     ('Liverpool', 2, 'Sheffield United', 1, 1),
-    ('Liverpool', 1, 'Sheffield Wednesday', 0, 0),
+    ('Liverpool', 1, 'Sheffield Wednesday', 0, 1),
     ('Liverpool', 1, 'Southampton', 1, 1),
     ('Liverpool', 0, 'Tottenham Hotspur', 0, 0),
     ('Liverpool', 2, 'Wimbledon', 3, 1);  
@@ -945,7 +945,7 @@ INSERT INTO spurs_home_matches (home_team, home_score, away_team, away_score, pl
     ('Tottenham Hotspur', 0, 'Chelsea', 0, 0),
     ('Tottenham Hotspur', 0, 'Coventry City', 0, 0),
     ('Tottenham Hotspur', 2, 'Crystal Palace', 2, 1),
-    ('Tottenham Hotspur', 2, 'Everton', 1, 0),
+    ('Tottenham Hotspur', 2, 'Everton', 1, 1),
     ('Tottenham Hotspur', 0, 'Ipswich Town', 0, 0),
     ('Tottenham Hotspur', 0, 'Leeds United', 0, 0),
     ('Tottenham Hotspur', 2, 'Liverpool', 0, 1),
@@ -1145,7 +1145,7 @@ INSERT INTO everton_away_matches (home_team, home_score, away_team, away_score, 
     ('Sheffield United', 0, 'Everton', 0, 0),
     ('Sheffield Wednesday', 1, 'Everton', 1, 1),
     ('Southampton', 0, 'Everton', 0, 0),
-    ('Tottenham Hotspur', 2, 'Everton', 1, 0),
+    ('Tottenham Hotspur', 2, 'Everton', 1, 1),
     ('Wimbledon', 0, 'Everton', 0, 0);
 
 INSERT INTO ipswich_away_matches (home_team, home_score, away_team, away_score, played) VALUES

@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 21/03/2025 - 17:10 */
+/* Stylesheet Upated: 28/03/2025 - 16:49 */
 
 $bg---main: #ffffff;
 $bg---select: lightgreen;
@@ -136,6 +136,24 @@ body {
         }
 
         
+    }
+
+    section.section---select--season {
+
+        display: block;
+        /* display: none; */
+        text-align: right;
+        width: 100%;
+
+        #form---select--season {
+
+            padding: 0 4px;
+            margin: 0 19px;
+            height: 29px;
+            border-radius: 8px;
+            background: $bg---select; // #99fd99;
+        }
+
     }
 
     section.match---comparison--key {

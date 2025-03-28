@@ -57,6 +57,12 @@
         
     </header>
 
+    <section class="section---select--season">
+
+        <?php require "assets/template-parts/select-season--all.php"; ?>
+
+    </section>
+
     <section class="match---comparison--key">
 
         <h2 id="match---comparison--heading">Key: Match Comparison</h2>

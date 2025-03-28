@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 21/03/2025 - 17:10 */
+/* Stylesheet Upated: 28/03/2025 - 16:49 */
 /*
 
 
@@ -68,6 +68,19 @@ body header .tagline span a {
 body header .tagline span a:hover {
   color: #990000;
   text-decoration: none;
+}
+body section.section---select--season {
+  display: block;
+  /* display: none; */
+  text-align: right;
+  width: 100%;
+}
+body section.section---select--season #form---select--season {
+  padding: 0 4px;
+  margin: 0 19px;
+  height: 29px;
+  border-radius: 8px;
+  background: lightgreen;
 }
 body section.match---comparison--key {
   margin: 0 auto;

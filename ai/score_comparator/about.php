@@ -57,7 +57,7 @@
     <header>
 
         <h1 class="main---title">Football Score Comparator</h1>
-        <div class="tagline">Based on Newcastle United <span>(v1)</span> <span id="back---home"><a href="index.php">Back to Homepage</a></span></div>
+        <div class="tagline">Based on Newcastle United <span>(v2)</span> <span id="back---home"><a href="index.php">Back to Homepage</a></span></div>
         
     </header>
 
@@ -91,7 +91,7 @@
         <ul class="development---history">
             <li><code>v1</code> - Initial Release - Season 2024/2025 is in progress - <code><strong>Base Team: Newcastle United</strong></code>. - <code><strong>Phase ends (26/02/2024)</strong></code></li>
             <li>Spent time gathering match and result data for all premier league seasons - <code><strong>Phase ends (21/03/2025)</strong></code>.</li>
-            <li><code>v2</code> - In Development. Adding in Remaining premier league fixtures from the gathered raw match data into SQL Scripts for individual seasons. This covers all premier league seasons other than <strong><code>92/93</code></strong>, <strong><code>09/10</code></strong>, and <strong><code>16/17</code></strong> which Newcastle United did not participate in.</li>
+            <li><code>v2</code> - <strong><em>In Development</em></strong>. Adding in Remaining premier league fixtures from the gathered raw match data into SQL Scripts for individual seasons. This covers all premier league seasons other than <strong><code>92/93</code></strong>, <strong><code>09/10</code></strong>, and <strong><code>16/17</code></strong> which Newcastle United did not participate in.</li>
         </ul>
 
         <h2>Points to take.</h2>

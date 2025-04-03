@@ -422,7 +422,7 @@ INSERT INTO base_scores_away (home_team, away_team, home_score, away_score, play
     ('Newcastle United', 'Brentford', 1, 0, 1),
     ('Newcastle United', 'Brighton & Hove Albion', 1, 1, 1),
     ('Newcastle United', 'Burnley', 2, 0, 1),
-    ('Newcastle United', 'Chelsea', 4, 0, 1),
+    ('Newcastle United', 'Chelsea', 4, 1, 1),
     ('Newcastle United', 'Crystal Palace', 4, 0, 1),
     ('Newcastle United', 'Everton', 1, 1, 1),
     ('Newcastle United', 'Fulham', 3, 0, 1),
@@ -1204,3 +1204,10 @@ INSERT INTO wolverhampton_away_matches (home_team, home_score, away_team, away_s
     ('Sheffield United', 2, 'Wolverhampton Wanderers', 1, 1),
     ('Tottenham Hotspur', 1, 'Wolverhampton Wanderers', 2, 1),
     ('West Ham United', 3, 'Wolverhampton Wanderers', 0, 1);
+
+-- Ensure Brighton vs Newcastle matches are included in the team-specific tables
+INSERT OR IGNORE INTO brighton_home_matches (home_team, away_team, home_score, away_score, played)
+VALUES ('Brighton & Hove Albion', 'Newcastle United', 3, 1, 1);
+
+INSERT OR IGNORE INTO brighton_away_matches (home_team, away_team, home_score, away_score, played)
+VALUES ('Newcastle United', 'Brighton & Hove Albion', 1, 1, 1);

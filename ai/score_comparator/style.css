@@ -74,13 +74,25 @@ body section.section---select--season {
   /* display: none; */
   text-align: right;
   width: 100%;
+  padding: 0 20px;
+  margin-bottom: 8px;
+}
+body section.section---select--season label {
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 8px;
 }
 body section.section---select--season #form---select--season {
   padding: 0 4px;
-  margin: 0 19px;
+  margin: 0 4px;
   height: 29px;
   border-radius: 8px;
   background: lightgreen;
+  cursor: pointer;
+  border: 1px solid #353535;
+}
+body section.section---select--season #form---select--season:hover {
+  background: #a0ffa0;
 }
 body section.match---comparison--key {
   margin: 0 auto;

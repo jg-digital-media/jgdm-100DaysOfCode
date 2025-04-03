@@ -637,7 +637,7 @@ INSERT INTO fulham_home_matches (home_team, home_score, away_team, away_score, p
     ('Fulham', 0, 'Manchester United', 1, 1),
     ('Fulham', 5, 'Nottingham Forest', 0, 1),
     ('Fulham', 3, 'Sheffield United', 1, 1),
-    ('Fulham', 3 'Tottenham Hotspur', 0, 1),
+    ('Fulham', 3, 'Tottenham Hotspur', 0, 1),
     ('Fulham', 5, 'West Ham United', 0, 1),
     ('Fulham', 3, 'Wolverhampton Wanderers', 2, 1);  
   

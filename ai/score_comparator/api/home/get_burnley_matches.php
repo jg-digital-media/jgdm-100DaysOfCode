@@ -31,7 +31,7 @@ try {
         throw new Exception("Database connection failed");
     }
     
-    $query = "SELECT * FROM arsenal_home_matches ORDER BY away_team";
+    $query = "SELECT * FROM burnley_home_matches ORDER BY away_team";
     $results = $db->query($query);
     
     if (!$results) {
@@ -52,4 +52,4 @@ try {
         'message' => $e->getMessage()
     ]);
 }
-?>
+?> 

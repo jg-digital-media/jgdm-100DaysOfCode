@@ -4,8 +4,8 @@ error_reporting(E_ALL);
 ini_set('display_errors', 0);
 
 try {
-    // Get season parameter, default to 2024/2025
-    $season = isset($_GET['season']) ? trim($_GET['season'], ' "\'') : '2025';
+    // Get season parameter, default to current season
+    $season = isset($_GET['season']) ? trim($_GET['season']) : '2025';
     
     // Determine which database to use based on season
     $dbPath = '';
@@ -24,18 +24,18 @@ try {
     if (!file_exists($dbPath)) {
         throw new Exception("Season data not available");
     }
-
+    
     $db = new SQLite3($dbPath);
     
     if (!$db) {
-        throw new Exception("Database connection failed");
+        throw new Exception("Database connection failed: " . $dbPath);
     }
     
-    $query = "SELECT * FROM arsenal_home_matches ORDER BY away_team";
+    $query = "SELECT * FROM newcastle_home_matches ORDER BY away_team";
     $results = $db->query($query);
     
     if (!$results) {
-        throw new Exception("Query failed");
+        throw new Exception("Query failed for database: " . $dbPath);
     }
     
     $matches = [];
@@ -52,4 +52,4 @@ try {
         'message' => $e->getMessage()
     ]);
 }
-?>
+?> 

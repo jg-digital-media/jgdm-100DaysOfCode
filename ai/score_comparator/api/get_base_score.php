@@ -4,17 +4,39 @@ error_reporting(E_ALL);
 ini_set('display_errors', 0);
 
 try {
-    $db = new SQLite3('../assets/data/scores.db');
-    
     // Get parameters and clean them
     $team = isset($_GET['team']) ? trim($_GET['team'], ' "\'') : '';
     $isAway = isset($_GET['away']) && $_GET['away'] === '1';
-    error_log("Received parameters - team: " . $team . ", isAway: " . ($isAway ? 'true' : 'false'));
+    $season = isset($_GET['season']) ? trim($_GET['season'], ' "\'') : '2025'; // Default to 2024/2025
+    error_log("Received parameters - team: " . $team . ", isAway: " . ($isAway ? 'true' : 'false') . ", season: " . $season);
 
     if (empty($team)) {
         throw new Exception("Team parameter is required");
     }
 
+    // Determine which database to use based on season
+    $dbPath = '';
+    if ($season === '2025') {
+        $dbPath = '../assets/data/scores.db'; // Current season (2024/25)
+    } elseif ($season === '2024') {
+        $dbPath = '../assets/data/seasons/season-23-24.db'; // 2023/24 season
+    } else {
+        // Future proofing for other seasons
+        $seasonYear = substr($season, -2); // Get last 2 digits
+        $prevYear = sprintf("%02d", (int)$seasonYear - 1); // Format with leading zero
+        $dbPath = "../assets/data/seasons/season-{$prevYear}-{$seasonYear}.db";
+    }
+    
+    error_log("Using database: " . $dbPath);
+    
+    // Check if database file exists
+    if (!file_exists($dbPath)) {
+        error_log("Database file not found: " . $dbPath);
+        throw new Exception("Season data not available");
+    }
+    
+    $db = new SQLite3($dbPath);
+    
     // Select the appropriate table and query based on home/away
     if ($isAway) {
         // For away matches, we want Newcastle as home team and selected team as away team

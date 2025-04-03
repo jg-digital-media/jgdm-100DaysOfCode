@@ -4,25 +4,43 @@ error_reporting(E_ALL);
 ini_set('display_errors', 0);
 
 try {
-    $db = new SQLite3('../../assets/data/scores.db');
+    // Get season parameter, default to 2024/2025
+    $season = isset($_GET['season']) ? trim($_GET['season'], ' "\'') : '2025';
     
-    $team = isset($_GET['team']) ? trim($_GET['team']) : '';
+    // Determine which database to use based on season
+    $dbPath = '';
+    if ($season === '2025') {
+        $dbPath = '../../assets/data/scores.db'; // Current season (2024/25)
+    } elseif ($season === '2024') {
+        $dbPath = '../../assets/data/seasons/season-23-24.db'; // 2023/24 season
+    } else {
+        // Future proofing for other seasons
+        $seasonYear = substr($season, -2); // Get last 2 digits
+        $prevYear = sprintf("%02d", (int)$seasonYear - 1); // Format with leading zero
+        $dbPath = "../../assets/data/seasons/season-{$prevYear}-{$seasonYear}.db";
+    }
     
-    if (empty($team)) {
-        throw new Exception("Team parameter is required");
+    // Check if database file exists
+    if (!file_exists($dbPath)) {
+        throw new Exception("Season data not available");
     }
 
-    // Include played status in the query
-    $query = "SELECT home_team, home_score, away_team, away_score, played 
-              FROM {$team}_home_matches 
-              ORDER BY away_team";
-              
-    $result = $db->query($query);
+    $db = new SQLite3($dbPath);
+    
+    if (!$db) {
+        throw new Exception("Database connection failed");
+    }
+    
+    // Replace TEAM_NAME with the actual table name
+    $query = "SELECT * FROM TEAM_NAME_home_matches ORDER BY away_team";
+    $results = $db->query($query);
+    
+    if (!$results) {
+        throw new Exception("Query failed");
+    }
     
     $matches = [];
-    while ($row = $result->fetchArray(SQLITE3_ASSOC)) {
-        // Ensure played is treated as a boolean
-        $row['played'] = (bool)$row['played'];
+    while ($row = $results->fetchArray(SQLITE3_ASSOC)) {
         $matches[] = $row;
     }
     
@@ -30,6 +48,9 @@ try {
     
 } catch (Exception $e) {
     http_response_code(500);
-    echo json_encode(['error' => true, 'message' => $e->getMessage()]);
+    echo json_encode([
+        'error' => true,
+        'message' => $e->getMessage()
+    ]);
 }
 ?> 

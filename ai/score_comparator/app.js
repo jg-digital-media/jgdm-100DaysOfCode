@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 28/02/2025 - 07:43");
+    console.log("app.js connected - 03/04/2025 - 16:12");
 
     const teamSelect = document.getElementById('select---home--team');
+    const seasonSelect = document.getElementById('form---select--season');
     const resultsTable = document.querySelector('table');
     const selectedTeamScore = document.querySelector('.section---selected--teamscore');
     const switchTeamsCheckbox = document.getElementById('checkbox---switch--teams');
@@ -9,16 +10,194 @@ document.addEventListener('DOMContentLoaded', function() {
     const versusElement = document.querySelector('.score---versus');
     const selectScoreSection = document.querySelector('.section---select--score');
     const checkboxLabel = switchTeamsCheckbox.nextElementSibling;
+    const selectedSeasonDisplay = document.querySelector('.selected---season');
     
-    // Store the original select options HTML
-    const originalSelectHtml = teamSelect.innerHTML;
-    
-    // Track current match type and selected team
+    // Track current match type and selected team and season
     let isAwayMatch = false;
     let currentSelectedTeam = '';
 
+    // Default the season select to 2024/2025
+    let currentSelectedSeason = seasonSelect.value || '2025'; // Default to 2024/2025 season
+
+    // Define team lists for each season
+    const teamLists = {
+        // 2023/24 Season teams
+        '2024': `
+            <option id="select---home--placeholder" value="Select Team">Select Team...</option>
+            <option id="select---home--bournemouth" value="AFC Bournemouth">AFC Bournemouth</option>
+            <option id="select---home--arsenal" value="Arsenal">Arsenal</option>
+            <option id="select---home--astonvilla" value="Aston Villa">Aston Villa</option>
+            <option id="select---home--brentford" value="Brentford">Brentford</option>
+            <option id="select---home--brighton" value="Brighton and Hove Albion">Brighton &amp; Hove Albion</option>
+            <option id="select---home--burnley" value="Burnley">Burnley</option>
+            <option id="select---home--chelsea" value="Chelsea">Chelsea</option>
+            <option id="select---home--crystalpalace" value="Crystal Palace">Crystal Palace</option>
+            <option id="select---home--everton" value="Everton">Everton</option>
+            <option id="select---home--fulham" value="Fulham">Fulham</option>
+            <option id="select---home--liverpool" value="Liverpool">Liverpool</option>
+            <option id="select---home--luton" value="Luton Town">Luton Town</option>
+            <option id="select---home--manchestercity" value="Manchester City">Manchester City</option>
+            <option id="select---home--manchesterunited" value="Manchester United">Manchester United</option>
+            <option id="select---home--nottinghamforest" value="Nottingham Forest">Nottingham Forest</option>
+            <option id="select---home--sheffieldunited" value="Sheffield United">Sheffield United</option>
+            <option id="select---home--spurs" value="Tottenham Hotspur">Tottenham Hotspur</option>
+            <option id="select---home--westham" value="West Ham United">West Ham United</option>
+            <option id="select---home--wolves" value="Wolverhampton Wanderers">Wolverhampton Wanderers</option>
+        `,
+        // 2024/25 Season teams
+        '2025': `
+            <option id="select---home--placeholder" value="Select Team">Select Team...</option>
+            <option id="select---home--bournemouth" value="AFC Bournemouth">AFC Bournemouth</option>
+            <option id="select---home--arsenal" value="Arsenal">Arsenal</option>
+            <option id="select---home--astonvilla" value="Aston Villa">Aston Villa</option>
+            <option id="select---home--brentford" value="Brentford">Brentford</option>
+            <option id="select---home--brighton" value="Brighton and Hove Albion">Brighton &amp; Hove Albion</option>
+            <option id="select---home--chelsea" value="Chelsea">Chelsea</option>
+            <option id="select---home--crystalpalace" value="Crystal Palace">Crystal Palace</option>
+            <option id="select---home--everton" value="Everton">Everton</option>
+            <option id="select---home--fulham" value="Fulham">Fulham</option>
+            <option id="select---home--ipswich" value="Ipswich Town">Ipswich Town</option>
+            <option id="select---home--liverpool" value="Liverpool">Liverpool</option>
+            <option id="select---home--leicester" value="Leicester City">Leicester City</option>
+            <option id="select---home--manchestercity" value="Manchester City">Manchester City</option>
+            <option id="select---home--manchesterunited" value="Manchester United">Manchester United</option>
+            <option id="select---home--nottinghamforest" value="Nottingham Forest">Nottingham Forest</option>
+            <option id="select---home--southampton" value="Southampton">Southampton</option>
+            <option id="select---home--spurs" value="Tottenham Hotspur">Tottenham Hotspur</option>
+            <option id="select---home--westham" value="West Ham United">West Ham United</option>
+            <option id="select---home--wolves" value="Wolverhampton Wanderers">Wolverhampton Wanderers</option>
+        `
+    };
+
+    // Store the current team list
+    let currentTeamListHtml = teamLists[currentSelectedSeason];
+    teamSelect.innerHTML = currentTeamListHtml;
+
+    // Update the season display when page loads
+    updateSeasonDisplay(currentSelectedSeason);
+
     // Add currentBaseScore to track the current base score
     let currentBaseScore = null;
+
+    // Event Listener that handles season selection change  #form---select--season
+    seasonSelect.addEventListener('change', function(e) {
+        const selectedSeason = e.target.value;
+        currentSelectedSeason = selectedSeason;
+        
+        // Update the displayed season
+        updateSeasonDisplay(selectedSeason);
+        
+        // Update the team dropdown options based on the selected season
+        currentTeamListHtml = teamLists[currentSelectedSeason];
+        teamSelect.innerHTML = currentTeamListHtml;
+        
+        // Reset the team selection and clear the results
+        currentSelectedTeam = '';
+        resultsTable.style.display = 'none';
+        selectedTeamScore.style.display = 'none';
+    });
+
+    // Function to update the season display
+    function updateSeasonDisplay(season) {
+        let displayText;
+        if (season === '2025') {
+            displayText = '2024/2025';
+        } else if (season === '2024') {
+            displayText = '2023/2024';
+        } else {
+            // Handle any future seasons
+            const startYear = parseInt(season) - 1;
+            displayText = `${startYear}/${season}`;
+        }
+        selectedSeasonDisplay.textContent = displayText;
+    }
+
+    // Function to fetch team data (combines the API calls)
+    function fetchTeamData(teamName, isAway, season) {
+        const endpoint = getTeamEndpoint(teamName, isAway);
+        console.log(`Fetching data for ${teamName} (${isAway ? 'away' : 'home'}) for season ${season}`);
+        console.log(`Using endpoint: api/${isAway ? 'away' : 'home'}/${endpoint}?season=${season}`);
+        
+        // Fetch both base score and matches
+        Promise.all([
+            fetch(`api/get_base_score.php?team=${encodeURIComponent(teamName)}&away=${isAway ? 1 : 0}&season=${season}`),
+            fetch(`api/${isAway ? 'away' : 'home'}/${endpoint}?season=${season}`)
+        ])
+        .then(responses => {
+            // Check if any response is not OK
+            const failedResponses = responses.filter(r => !r.ok);
+            if (failedResponses.length > 0) {
+                return Promise.all(failedResponses.map(r => r.text()))
+                    .then(errorTexts => {
+                        throw new Error(`API request failed: ${errorTexts.join(', ')}`);
+                    });
+            }
+            
+            return Promise.all(responses.map(r => r.json()));
+        })
+        .then(([baseScore, matches]) => {
+            console.log('Fetched data:', { baseScore, matches });
+            currentBaseScore = baseScore;
+            updateBaseScore(baseScore, isAway);
+            updateMatchTable(matches, baseScore);
+            resultsTable.style.display = 'table';
+            selectedTeamScore.style.display = 'block';
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+            resultsTable.style.display = 'none';
+            selectedTeamScore.style.display = 'none';
+        });
+    }
+
+    // Function to get the right endpoint based on team name
+    function getTeamEndpoint(teamName, isAway) {
+        // Convert team name to endpoint format (lowercase, no spaces)
+        let endpointName = teamName.toLowerCase()
+            .replace(/\s+/g, '')  // Remove spaces
+            .replace(/&/g, 'and')  // Replace & with and
+            .replace(/[^a-z0-9]/g, '');  // Remove any other non-alphanumeric characters
+            
+        // Special case for some teams
+        if (endpointName === 'tottenhamhotspur') {
+            endpointName = 'spurs';
+        } else if (endpointName === 'brightonandhovealbion') {
+            endpointName = 'brighton';
+        } else if (endpointName === 'afcbournemouth') {
+            endpointName = 'bournemouth';
+        } else if (endpointName === 'leicestercity') {
+            endpointName = 'leicester';
+        } else if (endpointName === 'wolverhamptonwanderers') {
+            endpointName = 'wolverhampton';
+        } else if (endpointName === 'westhamunited') {
+            endpointName = 'westham';
+        } else if (endpointName === 'ipswichtown') {
+            endpointName = 'ipswich';
+        }
+        
+        // Handle specific season-dependent team endpoints
+        if (currentSelectedSeason === '2024') {
+            // Special cases for 2023/24 season
+            if (endpointName === 'leicestercity') {
+                console.warn('Leicester City is not in the 2023/24 season, they were in the Championship');
+            } else if (endpointName === 'ipswichtown') {
+                console.warn('Ipswich Town is not in the 2023/24 season, they were in the Championship');
+            } else if (endpointName === 'southampton') {
+                console.warn('Southampton is not in the 2023/24 season, they were in the Championship');
+            }
+        } else if (currentSelectedSeason === '2025') {
+            // Special cases for 2024/25 season
+            if (endpointName === 'burnley') {
+                console.warn('Burnley is not in the 2024/25 season, they were relegated');
+            } else if (endpointName === 'lutontown') {
+                console.warn('Luton Town is not in the 2024/25 season, they were relegated');
+            } else if (endpointName === 'sheffieldunited') {
+                console.warn('Sheffield United is not in the 2024/25 season, they were relegated');
+            }
+        }
+
+        return `get_${endpointName}_matches.php`;
+    }
 
     // Handle team switching
     switchTeamsCheckbox.addEventListener('change', function(e) {
@@ -44,32 +223,13 @@ document.addEventListener('DOMContentLoaded', function() {
             parent.appendChild(label);
         }
 
-        // Restore select options
-        teamSelect.innerHTML = originalSelectHtml;
+        // Restore select options based on current season
+        teamSelect.innerHTML = teamLists[currentSelectedSeason];
         
-        // If we have a selected team, fetch both base score and match data
+        // If we have a selected team, fetch data for the current season
         if (currentSelectedTeam && currentSelectedTeam !== 'Select Team') {
             teamSelect.value = currentSelectedTeam;
-            
-            // Fetch both base score and matches
-            Promise.all([
-                fetch(`api/get_base_score.php?team=${encodeURIComponent(currentSelectedTeam)}&away=${isAwayMatch ? 1 : 0}`),
-                fetch(`api/${isAwayMatch ? 'away' : 'home'}/${teamEndpoints[currentSelectedTeam][isAwayMatch ? 'away' : 'home']}`)
-            ])
-            .then(responses => Promise.all(responses.map(r => r.json())))
-            .then(([baseScore, matches]) => {
-                console.log('Fetched data:', { baseScore, matches });
-                currentBaseScore = baseScore;
-                updateBaseScore(baseScore, isAwayMatch);
-                updateMatchTable(matches, baseScore);
-                resultsTable.style.display = 'table';
-                selectedTeamScore.style.display = 'block';
-            })
-            .catch(error => {
-                console.error('Error fetching data:', error);
-                resultsTable.style.display = 'none';
-                selectedTeamScore.style.display = 'none';
-            });
+            fetchTeamData(currentSelectedTeam, isAwayMatch, currentSelectedSeason);
         } else {
             resultsTable.style.display = 'none';
             selectedTeamScore.style.display = 'none';
@@ -87,38 +247,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
-        // Immediately fetch the correct base score based on current mode
-        fetch(`api/get_base_score.php?team=${encodeURIComponent(selectedTeam)}&away=${isAwayMatch ? 1 : 0}`)
-            .then(response => response.json())
-            .then(baseScore => {
-                console.log('Initial base score fetch:', baseScore);
-                currentBaseScore = baseScore; // Store the base score
-                updateBaseScore(baseScore, isAwayMatch);
-                
-                // Now fetch the match data
-                const endpoint = isAwayMatch ? 
-                    teamEndpoints[selectedTeam].away : 
-                    teamEndpoints[selectedTeam].home;
-                
-                return fetch(`api/${isAwayMatch ? 'away' : 'home'}/${endpoint}`);
-            })
-            .then(response => response.json())
-            .then(matches => {
-                if (currentBaseScore) { // Check if we have a base score
-                    updateMatchTable(matches, currentBaseScore);
-                    resultsTable.style.display = 'table';
-                    selectedTeamScore.style.display = 'block';
-                } else {
-                    console.error('No base score available');
-                    resultsTable.style.display = 'none';
-                    selectedTeamScore.style.display = 'none';
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                resultsTable.style.display = 'none';
-                selectedTeamScore.style.display = 'none';
-            });
+        fetchTeamData(selectedTeam, isAwayMatch, currentSelectedSeason);
     });
 
     function updateBaseScore(baseScore, isAway) {
@@ -249,23 +378,20 @@ document.addEventListener('DOMContentLoaded', function() {
             // Add comparison classes to the row
             row.className = getComparisonClass(baseScore, match);
 
-            // Add specific classes for clean sheets and failed to score
+            // Add classes to cells
+            homeScoreCell.className = 'column---home--score';
+            awayScoreCell.className = 'column---away--score';
+
+            // High scoring and clean sheet modifiers
             if (match.played) {
+                if (match.home_score >= 3) {
+                    homeScoreCell.classList.add('match---high-scoring');
+                }
                 if (match.home_score === 0) {
-                    homeTeamCell.classList.add('match---failed-to-score');
                     homeScoreCell.classList.add('match---failed-to-score');
                 }
                 if (match.away_score === 0) {
-                    awayTeamCell.classList.add('match---failed-to-score');
                     awayScoreCell.classList.add('match---failed-to-score');
-                }
-                if (match.home_score > 0 && match.away_score === 0) {
-                    homeTeamCell.classList.add('match---win--cleansheet');
-                    homeScoreCell.classList.add('match---win--cleansheet');
-                }
-                if (match.away_score > 0 && match.home_score === 0) {
-                    awayTeamCell.classList.add('match---win--cleansheet');
-                    awayScoreCell.classList.add('match---win--cleansheet');
                 }
             }
 
@@ -276,107 +402,8 @@ document.addEventListener('DOMContentLoaded', function() {
             row.appendChild(awayTeamCell);
             row.appendChild(awayScoreCell);
 
+            // Append row to table
             tableBody.appendChild(row);
         });
     }
-
-    // Modify the team endpoints to handle both home and away matches
-    const teamEndpoints = {
-
-        'AFC Bournemouth': {
-            home: 'get_bournemouth_matches.php',
-            away: 'get_bournemouth_matches.php'
-        },
-        
-        'Arsenal': { 
-            home: 'get_arsenal_matches.php',
-            away: 'get_arsenal_matches.php'
-        },
-        
-        'Aston Villa': { 
-            home: 'get_astonvilla_matches.php',
-            away: 'get_astonvilla_matches.php'
-        },
-        
-        'Brentford': { 
-            home: 'get_brentford_matches.php',
-            away: 'get_brentford_matches.php'
-        },
-        
-        'Brighton and Hove Albion': {
-            home: 'get_brighton_matches.php',
-            away: 'get_brighton_matches.php'
-        },
-        
-        'Chelsea': {
-            home: 'get_chelsea_matches.php',
-            away: 'get_chelsea_matches.php',
-        },
-        
-        'Crystal Palace': {
-            home: 'get_crystalpalace_matches.php',
-            away: 'get_crystalpalace_matches.php'
-        },
-
-        'Everton': {
-            home: 'get_everton_matches.php',
-            away: 'get_everton_matches.php'
-        },
-
-        'Fulham': {
-            home: 'get_fulham_matches.php',
-            away: 'get_fulham_matches.php'
-        },
-
-        'Ipswich Town': {
-            home: 'get_ipswich_matches.php',
-            away: 'get_ipswich_matches.php'
-        },
-
-        'Leicester City': {
-            home: 'get_leicester_matches.php',
-            away: 'get_leicester_matches.php'
-        },
-
-        'Liverpool': {
-            home: 'get_liverpool_matches.php',
-            away: 'get_liverpool_matches.php'
-        },
-
-        'Manchester City': {    
-            home: 'get_manchestercity_matches.php',
-            away: 'get_manchestercity_matches.php',
-        },
-
-        'Manchester United': {    
-            home: 'get_manchesterunited_matches.php',
-            away: 'get_manchesterunited_matches.php'
-        },
-
-        'Nottingham Forest': {    
-            home: 'get_nottinghamforest_matches.php',
-            away: 'get_nottinghamforest_matches.php'
-        },
-
-        'Southampton': {
-            home: 'get_southampton_matches.php',
-            away: 'get_southampton_matches.php'
-        },        
-
-        'Tottenham Hotspur': {
-            home: 'get_spurs_matches.php',
-            away: 'get_spurs_matches.php'
-        },           
-
-        'West Ham United': {
-            home: 'get_westham_matches.php',
-            away: 'get_westham_matches.php'
-        },    
-
-        'Wolverhampton Wanderers': {
-            home: 'get_wolverhampton_matches.php',
-            away: 'get_wolverhampton_matches.php'
-        }
-                
-    };
 });

@@ -84,6 +84,12 @@
 
     </section> 
 
+    <section class="section---selected--season">    
+
+        <div class="selected---season">2024/2025</div>
+        
+    </section>
+
     <section class="section---select--score">
     
         <select id="select---home--team">
@@ -114,6 +120,7 @@
         <div class="comparator---team">Newcastle United</div>
 
         <br /><br />
+
         <input type="checkbox" id="checkbox---switch--teams" name="home-team" value="Switch Teams"><label for="checkbox---switch--teams">Switch to Away Match</label>
     </section>
 

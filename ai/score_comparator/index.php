@@ -59,7 +59,7 @@
 
     <section class="section---select--season">
 
-        <?php require "assets/template-parts/select-season--all.php"; ?>
+        <?php require "assets/template-parts/select-season.php"; ?>
 
     </section>
 
@@ -87,7 +87,7 @@
     <section class="section---selected--season">    
 
         <div class="selected---season">2024/2025</div>
-        
+
     </section>
 
     <section class="section---select--score">

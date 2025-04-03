@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 28/03/2025 - 16:49 */
+/* Stylesheet Upated: 03/04/2025 - 13:44 */
 /*
 
 
@@ -143,6 +143,14 @@ body section.match---comparison--key .key---match--compares-smallerdefeat {
 body section.match---comparison--key .key---match--stilltoplay {
   background: #b1a9a9;
   color: black;
+}
+body section.section---selected--season {
+  text-align: center;
+  font-size: 22pt;
+  font-weight: bold;
+  margin: 15px auto;
+  margin-top: 15px;
+  border-top: 3x solid #ffffff;
 }
 body section.section---select--score {
   text-align: center;

@@ -104,6 +104,8 @@
 
         <p>But sometimes it doesn't go like that. Sometimes like human web development it can take breaking things and getting things wrong before you get the outcome you need.</p>
 
+        <p><strong>Disclaimer: </strong>While every effort has been and will be made to ensure accuracy of the match results some errors are all but inevitable. If you spot an discrpancy or innacuracy in the data, <a href="mailto: mail@jonniegrieve.co.uk">please let me know</a>.</p>
+
         <a href="index.php">Back to the Match Tables</a>
 
         <!--

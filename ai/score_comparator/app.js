@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <option id="select---home--arsenal" value="Arsenal">Arsenal</option>
             <option id="select---home--astonvilla" value="Aston Villa">Aston Villa</option>
             <option id="select---home--brentford" value="Brentford">Brentford</option>
-            <option id="select---home--brighton" value="Brighton and Hove Albion">Brighton &amp; Hove Albion</option>
+            <option id="select---home--brighton" value="Brighton & Hove Albion">Brighton &amp; Hove Albion</option>
             <option id="select---home--burnley" value="Burnley">Burnley</option>
             <option id="select---home--chelsea" value="Chelsea">Chelsea</option>
             <option id="select---home--crystalpalace" value="Crystal Palace">Crystal Palace</option>
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <option id="select---home--arsenal" value="Arsenal">Arsenal</option>
             <option id="select---home--astonvilla" value="Aston Villa">Aston Villa</option>
             <option id="select---home--brentford" value="Brentford">Brentford</option>
-            <option id="select---home--brighton" value="Brighton and Hove Albion">Brighton &amp; Hove Albion</option>
+            <option id="select---home--brighton" value="Brighton & Hove Albion">Brighton &amp; Hove Albion</option>
             <option id="select---home--chelsea" value="Chelsea">Chelsea</option>
             <option id="select---home--crystalpalace" value="Crystal Palace">Crystal Palace</option>
             <option id="select---home--everton" value="Everton">Everton</option>

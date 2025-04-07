@@ -1,0 +1,136 @@
+{
+    "birds": [
+        
+        {
+
+            "name": "Robin",     
+            "scientific_name": "Turdus obscurus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1701.JPG",
+            "description": "Robin is a small, black and white bird. It is a member of the Old World flycatcher family. It is found in Eurasia and North America. Their habitat is woodland and farmland."
+        }, {
+
+            "name": "Cormorant",     
+            "scientific_name": "Phalacrocorax auritus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1692.JPG",
+            "description": "Cormorant is a medium-sized bird. "
+        }, {    
+
+            "name": "House Sparrow",     
+            "scientific_name": "Passer domesticus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1419.JPG",
+            "description": ""
+        }, {
+
+            "name": "House Sparrows",     
+            "scientific_name": "Passer domesticus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1417.JPG",
+            "description": ""
+        }, {
+
+            "name": "Bullfinch",     
+            "scientific_name": "Pyrrhula pyrrhula",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0870.JPG",
+            "description": ""
+        }, {
+
+            "name": "Grey Heron",     
+            "scientific_name": "Ardea cinerea",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0859.JPG",
+            "description": ""
+        }, {
+
+            "name": "European Jackdaw",     
+            "scientific_name": "Corvus monedula",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0710.JPG",
+            "description": ""
+        }, {
+
+            "name": "White Goose",     
+            "scientific_name": "Anser albifrons",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0703.JPG",
+            "description": ""
+        }, {
+
+            "name": "Duck",     
+            "scientific_name": "Anas platyrhynchos",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0586.JPG",
+            "description": ""
+        }, {
+
+            "name": "Yellow Hammer",     
+            "scientific_name": "Prosthemadera novaeseelandiae",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0173.JPG",
+            "description": ""
+        }, {
+            "name": "Seagull",     
+            "scientific_name": "Larus marinus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0142.JPG",
+            "description": ""
+        }, {
+
+            "name": "Egret",     
+            "scientific_name": "Egretta garzetta",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2313.JPG",
+            "description": ""
+        }, {
+
+            "name": "Blackbird",     
+            "scientific_name": "Turdus merula",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2298.JPG",
+            "description": ""
+        }, {
+
+            "name": "Commmon Blackbird (Female)",     
+            "scientific_name": "Turdus merula",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2545.JPG",
+            "description": ""
+        }, {
+
+            "name": "Magpie",     
+            "scientific_name": "Pica pica",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2857.JPG",
+            "description": ""
+        }, {  
+            "name": "Swan",     
+            "scientific_name": "Cygnus columbianus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2442.JPG",
+            "description": ""
+        }, {
+
+            "name": "Common Merganser",     
+            "scientific_name": "Mergus merganser",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2455.JPG",
+            "description": ""
+        }, {
+
+            "name": "Common Moorhen",     
+            "scientific_name": "Gallinula chloropus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2286.JPG",
+            "description": ""
+        }, {
+
+            "name": "Homing Woodpigeon",     
+            "scientific_name": "Columba livia",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2008.JPG",
+            "description": ""
+        }, {
+
+            "name": "White-throated Dipper",     
+            "scientific_name": "Cinclus cinclus",            
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2894.JPG",
+            "description": ""
+        }, {
+
+            "name": "Black-headed Gull",     
+            "scientific_name": "Chroicocephalus ridibundus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2362.JPG",
+            "description": ""
+        }, {
+
+            "name": "Little Grebe",     
+            "scientific_name": "Tachybaptus ruficollis",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2423.JPG",            
+            "description": ""           
+        }
+    ]
+}

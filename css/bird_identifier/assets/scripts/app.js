@@ -1,5 +1,4 @@
-console.log("app.js connected! - 12-03-2025 - 11:11");
-
+console.log("app.js connected! - 07-04-2025 - 13:159");
 
 // Slick Carousels - with jQuery
 $(document).ready(function() {
@@ -42,7 +41,77 @@ $(document).ready(function() {
 });
 
 
+
 document.addEventListener('DOMContentLoaded', function() {
+
+    
+    // ============ TOOLTIP FUNCTIONALITY ============
+    console.log('Setting up tooltips');
+        
+    let activeTooltip = null;
+
+    // Function to close active tooltip
+    function closeTooltip() {
+        if (activeTooltip) {
+            activeTooltip.classList.remove('active');
+            activeTooltip = null;
+        }
+    }
+
+    // Get all bird items
+    const birdItems = document.querySelectorAll('.bird-item');
+    console.log('Found bird items:', birdItems.length);
+
+    // Add click handlers to each bird item
+    birdItems.forEach(item => {
+        item.addEventListener('click', function(e) {
+            console.log('Bird item clicked');
+            
+            // Don't process if clicking close button
+            if (e.target.classList.contains('close-tooltip')) {
+                return;
+            }
+
+            const tooltip = this.querySelector('.tooltip');
+            console.log('Tooltip element:', tooltip);
+
+            // Close any other open tooltip
+            if (activeTooltip && activeTooltip !== tooltip) {
+                closeTooltip();
+            }
+
+            // Toggle current tooltip
+            if (activeTooltip === tooltip) {
+                closeTooltip();
+            } else {
+                tooltip.classList.add('active');
+                activeTooltip = tooltip;
+            }
+        });
+    });
+
+    // Add click handlers to close buttons
+    document.querySelectorAll('.close-tooltip').forEach(button => {
+        button.addEventListener('click', (e) => {
+            e.stopPropagation();
+            closeTooltip();
+        });
+    });
+
+    // Close tooltip when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!e.target.closest('.bird-item')) {
+            closeTooltip();
+        }
+    });
+
+    // Close on escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && activeTooltip) {
+            closeTooltip();
+        }
+    });
+
 
     // Element Selections for Toggle Filters Button
     const toggleBtn = document.getElementById('toggle-filters');
@@ -247,6 +316,74 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    document.addEventListener('DOMContentLoaded', function() {
+        // Debug log to confirm script is running
+        console.log('Script loaded');
+    
+        let activeTooltip = null;
+    
+        // Function to close active tooltip
+        function closeTooltip() {
+            if (activeTooltip) {
+                activeTooltip.classList.remove('active');
+                activeTooltip = null;
+            }
+        }
+    
+        // Get all bird items
+        const birdItems = document.querySelectorAll('.bird-item');
+        console.log('Found bird items:', birdItems.length); // Debug log
+    
+        // Add click handlers to each bird item
+        birdItems.forEach(item => {
+            item.addEventListener('click', function(e) {
+                console.log('Bird item clicked'); // Debug log
+                
+                // Don't process if clicking close button
+                if (e.target.classList.contains('close-tooltip')) {
+                    return;
+                }
+    
+                const tooltip = this.querySelector('.tooltip');
+                console.log('Tooltip element:', tooltip); // Debug log
+    
+                // Close any other open tooltip
+                if (activeTooltip && activeTooltip !== tooltip) {
+                    closeTooltip();
+                }
+    
+                // Toggle current tooltip
+                if (activeTooltip === tooltip) {
+                    closeTooltip();
+                } else {
+                    tooltip.classList.add('active');
+                    activeTooltip = tooltip;
+                }
+            });
+        });
+    
+        // Add click handlers to close buttons
+        document.querySelectorAll('.close-tooltip').forEach(button => {
+            button.addEventListener('click', (e) => {
+                e.stopPropagation();
+                closeTooltip();
+            });
+        });
+    
+        // Close tooltip when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.bird-item')) {
+                closeTooltip();
+            }
+        });
+    
+        // Close on escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && activeTooltip) {
+                closeTooltip();
+            }
+        });
+    });
 });
 
 /* 

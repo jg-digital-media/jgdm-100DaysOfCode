@@ -1,24 +1,35 @@
-<ul>
-    <li>Robin</li>
-    <li>Cormorant</li>
-    <li>House Sparrow</li>
-    <li>House Sparrows</li>
-    <li>Bullfinch</li>
-    <li>Grey Heron</li>
-    <li>European Jackdaw</li>
-    <li>White Goose</li>
-    <li>Duck</li>
-    <li>Yellow Hammer</li>
-    <li>Seagull</li>
-    <li>Egret</li>
-    <li>Blackbird</li>
-    <li>Commmon Blackbird (Female)</li>
-    <li>Magpie</li>
-    <li>Swan</li>  
-    <li>Common Merganser</li>
-    <li>Common Moorhen</li>
-    <li>Homing Woodpigeon</li>
-    <li>White-throated Dipper</li>
-    <li>Black-headed Gull</li>
-    <li>Little Grebe</li>
-</ul>
+<?php
+
+// Read and decode the JSON file
+$jsonFile = file_get_contents('assets/data/birds.json');
+$birdData = json_decode($jsonFile, true);
+
+if ($birdData && isset($birdData['birds'])) {
+
+    echo '<ul class="birds-list">';
+    
+    foreach ($birdData['birds'] as $bird) {
+        echo '<li class="bird-item">
+                ' . htmlspecialchars($bird['name']) . '
+                <div class="tooltip">
+                    <button class="close-tooltip">&times;</button>
+                    <div class="tooltip-content">
+                        <img src="' . htmlspecialchars($bird['image']) . '" 
+                             alt="' . htmlspecialchars($bird['name']) . '">
+                        <h3>' . htmlspecialchars($bird['name']) . '</h3>
+                        <p class="scientific-name">' . htmlspecialchars($bird['scientific_name']) . '</p>
+                        <p class="description">' . 
+                            (empty($bird['description']) ? 'Description coming soon...' : htmlspecialchars($bird['description'])) . 
+                        '</p>
+                    </div>
+                </div>
+              </li>';
+    }
+    
+    echo '</ul>';
+} else {
+
+    echo '<p class="error-message">Unable to load bird data. Please try again later.</p>';
+}
+
+?>

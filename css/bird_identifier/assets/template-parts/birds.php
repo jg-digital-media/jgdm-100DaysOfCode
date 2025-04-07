@@ -16,8 +16,14 @@ if ($birdData && isset($birdData['birds'])) {
                     <div class="tooltip-content">
                         <img src="' . htmlspecialchars($bird['image']) . '" 
                              alt="' . htmlspecialchars($bird['name']) . '">
-                        <h3>' . htmlspecialchars($bird['name']) . '</h3>
-                        <p class="scientific-name">' . htmlspecialchars($bird['scientific_name']) . '</p>
+
+                        <div class="bird-class">
+                            
+                            <h3 class="name">' . htmlspecialchars($bird['name']) . '</h3>
+                            <p class="scientific-name">' . htmlspecialchars($bird['scientific_name']) . '</p>
+
+                        </div>
+                        
                         <p class="description">' . 
                             (empty($bird['description']) ? 'Description coming soon...' : htmlspecialchars($bird['description'])) . 
                         '</p>

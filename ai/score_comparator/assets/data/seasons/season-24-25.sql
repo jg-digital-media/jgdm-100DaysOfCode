@@ -1,5 +1,5 @@
 /* Match List - Season: 24/25 - in progress (copy) */
-/* Last Update: 04/04/2025 - 11:49 */
+/* Last Update: 08/04/2025 - 12:54 */
 
 -- Create Home Match Tables
 CREATE TABLE bournemouth_home_matches (
@@ -400,7 +400,7 @@ INSERT INTO base_scores_home (home_team, away_team, home_score, away_score, play
     ('Everton', 'Newcastle United', 0, 0, 1),
     ('Fulham', 'Newcastle United', 3, 1, 1),
     ('Ipswich Town', 'Newcastle United', 0, 4, 1),
-    ('Leicester City', 'Newcastle United', 0, 0, 0),
+    ('Leicester City', 'Newcastle United', 0, 3, 1),
     ('Liverpool', 'Newcastle United', 2, 0, 1),
     ('Manchester City', 'Newcastle United', 4, 0, 1),
     ('Manchester United', 'Newcastle United', 0, 2, 1),
@@ -491,7 +491,7 @@ INSERT INTO astonvilla_home_matches (home_team, home_score, away_team, away_scor
     ('Aston Villa', 2, 'Leicester City', 1, 1),
     ('Aston Villa', 2, 'Manchester City', 1, 1),
     ('Aston Villa', 0, 'Manchester United', 0, 1),
-    ('Aston Villa', 7, 'Nottingham Forest', 0, 0),
+    ('Aston Villa', 2, 'Nottingham Forest', 1, 1),
     ('Aston Villa', 1, 'Southampton', 0, 1),
     ('Aston Villa', 3, 'Tottenham Hotspur', 2, 0),
     ('Aston Villa', 1, 'West Ham United', 1, 1),
@@ -503,7 +503,7 @@ INSERT INTO brentford_home_matches (home_team, home_score, away_team, away_score
     ('Brentford', 0, 'Aston Villa', 1, 1),
     ('Brentford', 2, 'Brighton & Hove Albion', 0, 0),
     ('Brentford', 2, 'Crystal Palace', 1, 1),
-    ('Brentford', 2, 'Chelsea', 2, 0),
+    ('Brentford', 0, 'Chelsea', 0, 1),
     ('Brentford', 1, 'Everton', 1, 1),
     ('Brentford', 5, 'Fulham', 0, 0),
     ('Brentford', 4, 'Ipswich Town', 3, 1),
@@ -542,7 +542,7 @@ INSERT INTO crystalpalace_home_matches (home_team, home_score, away_team, away_s
     ('Crystal Palace', 1, 'Arsenal', 5, 1),
     ('Crystal Palace', 4, 'Aston Villa', 1, 1),
     ('Crystal Palace', 1, 'Brentford', 2, 1),
-    ('Crystal Palace', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Crystal Palace', 2, 'Brighton & Hove Albion', 1, 1),
     ('Crystal Palace', 1, 'Chelsea', 1, 1),
     ('Crystal Palace', 1, 'Everton', 2, 1),
     ('Crystal Palace', 1, 'Fulham', 2, 1),
@@ -579,7 +579,7 @@ INSERT INTO chelsea_home_matches (home_team, home_score, away_team, away_score, 
   
 INSERT INTO everton_home_matches (home_team, home_score, away_team, away_score, played) VALUES
     ('Everton', 0, 'AFC Bournemouth', 0, 0),
-    ('Everton', 0, 'Arsenal', 0, 0),
+    ('Everton', 1, 'Arsenal', 1, 1),
     ('Everton', 0, 'Aston Villa', 1, 1),
     ('Everton', 0, 'Brentford', 0, 1),
     ('Everton', 0, 'Brighton & Hove Albion', 3, 1),
@@ -607,7 +607,7 @@ INSERT INTO fulham_home_matches (home_team, home_score, away_team, away_score, p
     ('Fulham', 0, 'Crystal Palace', 2, 1),
     ('Fulham', 0, 'Everton', 0, 0),
     ('Fulham', 2, 'Ipswich Town', 2, 1),
-    ('Fulham', 0, 'Liverpool', 0, 0),
+    ('Fulham', 3, 'Liverpool', 2, 1),
     ('Fulham', 2, 'Leicester City', 1, 1),
     ('Fulham', 0, 'Manchester City', 0, 0),
     ('Fulham', 0, 'Manchester United', 1, 1),
@@ -635,7 +635,7 @@ INSERT INTO ipswich_home_matches (home_team, home_score, away_team, away_score, 
     ('Ipswich Town', 1, 'Southampton', 2, 1),
     ('Ipswich Town', 1, 'Tottenham Hotspur', 4, 1),
     ('Ipswich Town', 0, 'West Ham United', 0, 0),
-    ('Ipswich Town', 0, 'Wolverhampton Wanderers', 0, 0);  
+    ('Ipswich Town', 1, 'Wolverhampton Wanderers', 2, 1);  
   
 INSERT INTO liverpool_home_matches (home_team, home_score, away_team, away_score, played) VALUES
     ('Liverpool', 3, 'AFC Bournemouth', 0, 1),
@@ -710,7 +710,7 @@ INSERT INTO manchesterunited_home_matches (home_team, home_score, away_team, awa
     ('Manchester United', 3, 'Ipswich Town', 2, 1),
     ('Manchester United', 0, 'Liverpool', 3, 1),
     ('Manchester United', 3, 'Leicester City', 0, 1),
-    ('Manchester United', 0, 'Manchester City', 0, 0),
+    ('Manchester United', 0, 'Manchester City', 0, 1),
     ('Manchester United', 2, 'Nottingham Forest', 3, 0),
     ('Manchester United', 3, 'Southampton', 1, 1),
     ('Manchester United', 0, 'Tottenham Hotspur', 3, 1),
@@ -773,12 +773,12 @@ INSERT INTO spurs_home_matches (home_team, home_score, away_team, away_score, pl
     ('Tottenham Hotspur', 0, 'Manchester City', 1, 1),
     ('Tottenham Hotspur', 1, 'Manchester United', 0, 1),
     ('Tottenham Hotspur', 0, 'Nottingham Forest', 0, 0),
-    ('Tottenham Hotspur', 0, 'Southampton', 0, 0),
+    ('Tottenham Hotspur', 3, 'Southampton', 1, 1),
     ('Tottenham Hotspur', 4, 'West Ham United', 1, 1),
     ('Tottenham Hotspur', 2, 'Wolverhampton Wanderers', 2, 1); 
  
 INSERT INTO westham_home_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('West Ham United', 0, 'AFC Bournemouth', 0, 0),
+    ('West Ham United', 2, 'AFC Bournemouth', 2, 1),
     ('West Ham United', 2, 'Arsenal', 5, 1),
     ('West Ham United', 1, 'Aston Villa', 2, 1),
     ('West Ham United', 0, 'Brentford', 1, 1),
@@ -838,7 +838,7 @@ INSERT INTO bournemouth_away_matches (home_team, home_score, away_team, away_sco
     ('Nottingham Forest', 1,'AFC Bournemouth', 1, 1),
     ('Southampton', 1, 'AFC Bournemouth', 3, 1),
     ('Tottenham Hotspur', 2, 'AFC Bournemouth', 2, 1),
-    ('West Ham United', 0, 'AFC Bournemouth', 0, 0),
+    ('West Ham United', 2, 'AFC Bournemouth', 2, 1),
     ('Wolverhampton Wanderers', 2, 'AFC Bournemouth', 4, 1);
     
 INSERT INTO arsenal_away_matches (home_team, home_score, away_team, away_score, played) VALUES
@@ -848,7 +848,7 @@ INSERT INTO arsenal_away_matches (home_team, home_score, away_team, away_score, 
     ('Brighton & Hove Albion', 1, 'Arsenal', 1, 1),
     ('Chelsea', 1, 'Arsenal', 1, 1),
     ('Crystal Palace', 1, 'Arsenal', 5, 1),
-    ('Everton', 0, 'Arsenal', 0, 0),
+    ('Everton', 1, 'Arsenal', 1, 1),
     ('Fulham', 1, 'Arsenal', 1, 1),
     ('Ipswich Town', 0, 'Arsenal', 0, 0),
     ('Liverpool', 0, 'Arsenal', 0, 0),
@@ -907,7 +907,7 @@ INSERT INTO brighton_away_matches (home_team, home_score, away_team, away_score,
     ('Aston Villa', 2, 'Brighton & Hove Albion', 2, 1),
     ('Brentford', 0, 'Brighton & Hove Albion', 0, 0),
     ('Chelsea', 4, 'Brighton & Hove Albion', 2, 1),
-    ('Crystal Palace', 0, 'Brighton & Hove Albion', 0, 0),
+    ('Crystal Palace', 2, 'Brighton & Hove Albion', 1, 1),
     ('Everton', 0, 'Brighton & Hove Albion', 3, 1),
     ('Fulham', 3, 'Brighton & Hove Albion', 1, 1),
     ('Ipswich Town', 0, 'Brighton & Hove Albion', 2, 1),
@@ -925,7 +925,7 @@ INSERT INTO chelsea_away_matches (home_team, home_score, away_team, away_score, 
     ('AFC Bournemouth', 0, 'Chelsea', 1, 1),
     ('Arsenal', 1, 'Chelsea', 0, 1),
     ('Aston Villa', 2, 'Chelsea', 1, 1),
-    ('Brentford', 0, 'Chelsea', 0, 0),
+    ('Brentford', 0, 'Chelsea', 0, 1),
     ('Brighton & Hove Albion', 3, 'Chelsea', 0, 1),
     ('Crystal Palace', 1, 'Chelsea', 1, 1),
     ('Everton', 0, 'Chelsea', 0, 1),
@@ -1050,7 +1050,7 @@ INSERT INTO liverpool_away_matches (home_team, home_score, away_team, away_score
     ('Chelsea', 0, 'Liverpool', 0, 0),
     ('Crystal Palace', 0, 'Liverpool', 1, 1),
     ('Everton', 2, 'Liverpool', 2, 1),
-    ('Fulham', 0, 'Liverpool', 0, 0),
+    ('Fulham', 3, 'Liverpool', 2, 1),
     ('Ipswich Town', 0, 'Liverpool', 2, 1),
     ('Leicester City', 0, 'Liverpool', 0, 0),
     ('Manchester City', 0, 'Liverpool', 2, 1),
@@ -1074,7 +1074,7 @@ INSERT INTO manchestercity_away_matches (home_team, home_score, away_team, away_
     ('Ipswich Town', 0, 'Manchester City', 6, 1),
     ('Liverpool', 2, 'Manchester City', 0, 1),
     ('Leicester City', 2, 'Manchester City', 0, 1),
-    ('Manchester United', 0, 'Manchester City', 0, 0),
+    ('Manchester United', 0, 'Manchester City', 0, 1),
     ('Nottingham Forest', 1,'Manchester City', 0, 1),
     ('Southampton', 0, 'Manchester City', 0, 0),
     ('Tottenham Hotspur', 0, 'Manchester City', 1, 1),
@@ -1104,7 +1104,7 @@ INSERT INTO manchesterunited_away_matches (home_team, home_score, away_team, awa
 INSERT INTO nottinghamforest_away_matches (home_team, home_score, away_team, away_score, played) VALUES
     ('AFC Bournemouth', 5, 'Nottingham Forest', 0, 1),
     ('Arsenal', 3, 'Nottingham Forest', 0, 1),
-    ('Aston Villa', 0, 'Nottingham Forest', 0, 0),
+    ('Aston Villa', 2, 'Nottingham Forest', 1, 1),
     ('Brentford', 0, 'Nottingham Forest', 2, 1),
     ('Brighton & Hove Albion', 2, 'Nottingham Forest', 2, 1),
     ('Chelsea', 1, 'Nottingham Forest', 1, 1),
@@ -1137,7 +1137,7 @@ INSERT INTO southampton_away_matches (home_team, home_score, away_team, away_sco
     ('Manchester City', 1, 'Southampton', 0, 1),
     ('Manchester United', 3, 'Southampton', 1, 1),
     ('Nottingham Forest', 3,'Southampton', 2, 1),
-    ('Tottenham Hotspur', 0, 'Southampton', 0, 0),
+    ('Tottenham Hotspur', 3, 'Southampton', 1, 1),
     ('West Ham United', 0, 'Southampton', 0, 0),
     ('Wolverhampton Wanderers', 2, 'Southampton', 0, 1);
 
@@ -1191,7 +1191,7 @@ INSERT INTO wolverhampton_away_matches (home_team, home_score, away_team, away_s
     ('Crystal Palace', 0, 'Wolverhampton Wanderers', 0, 0),
     ('Everton', 4, 'Wolverhampton Wanderers', 0, 1),
     ('Fulham', 1, 'Wolverhampton Wanderers', 4, 1),
-    ('Ipswich Town', 0, 'Wolverhampton Wanderers', 0, 0),
+    ('Ipswich Town', 1, 'Wolverhampton Wanderers', 2, 1),
     ('Liverpool', 2, 'Wolverhampton Wanderers', 1, 1),
     ('Leicester City', 0, 'Wolverhampton Wanderers', 3, 1),
     ('Manchester City', 0, 'Wolverhampton Wanderers', 0, 0),

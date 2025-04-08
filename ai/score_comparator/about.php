@@ -107,6 +107,8 @@
 
         <p><strong>Disclaimer: </strong>While every effort has been and will be made to ensure accuracy of the match results some errors are all but inevitable. If you spot an discrpancy or innacuracy in the data, <a href="mailto: mail@jonniegrieve.co.uk">please let me know</a>.</p>
 
+        <p>Data last updated: <strong>08-04-2025</strong></p>
+
         <a href="index.php" class="back---to--match-tables">Back to the Match Tables</a>
 
         <!--

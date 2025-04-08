@@ -196,6 +196,32 @@ body {
             }
         }
 
+        // index.php
+
+        #featured---birds--btn {
+
+            display: block;
+            width: 320px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 12pt;
+            font-weight: bold;
+            background: lightgreen;
+            color: green;
+            text-decoration: none;
+            border: green solid 1px;
+            padding: 10px;
+            border-radius: 5px;;
+            box-shadow: #858585 1px 2px 4px 1px;
+
+            transition: background .2s;
+
+            &:hover {
+
+                background: #7fc97f;
+            }
+        }
+
         // carousel.php
 
         #back---home {
@@ -244,6 +270,13 @@ body {
 
                     border-right: 2px solid gray;
                     padding-right: 26px;
+                    
+                }
+
+                &:last-child {
+
+                    border-left: 2px solid gray;
+                    padding-left: 26px;
                     
                 }
 

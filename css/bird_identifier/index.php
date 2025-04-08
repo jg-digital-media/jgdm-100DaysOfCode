@@ -52,10 +52,11 @@
         
         <section class="introductory---text">You can use this space to help you identify the bird species that you see when you're out and about.</section>
         
+        
         <!-- nav links -->
         <ul class="nav---container">
 
-            <!-- <li><a href="index.php">Home</a></li> -->
+            <li><a href="featured-birds.php">Featured Birds</a></li>
             <li><a href="carousel.php">Birds Carousel</a></li>
             <li><a href="filterable.php">Filterable Birds List</a></li>
 

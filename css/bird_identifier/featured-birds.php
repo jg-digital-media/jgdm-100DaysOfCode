@@ -48,14 +48,17 @@
 
     </header>
 
-    <main id="container">
+    <main id="container">        
+    
+        <a href="index.php" id="back---home">Back to Homepage</a>
+
+        <h2>Birds Featured on this Website</h2>        
         
-        <section class="introductory---text">You can use this space to help you identify the bird species that you see when you're out and about.</section>
-        
+        <br />
         <!-- nav links -->
         <ul class="nav---container">
-
-            <!-- <li><a href="index.php">Home</a></li> -->
+             
+            <li><a href="featured-birds.php">Featured Birds</a></li>
             <li><a href="carousel.php">Birds Carousel</a></li>
             <li><a href="filterable.php">Filterable Birds List</a></li>
 

@@ -6,131 +6,131 @@
             "name": "Robin",     
             "scientific_name": "Turdus obscurus",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1701.JPG",
-            "description": "Robin is a small, black and white bird. It is a member of the Old World flycatcher family. It is found in Eurasia and North America. Their habitat is woodland and farmland."
+            "description": "A small, friendly songbird with a bright red breast, often seen in gardens."
         }, {
 
             "name": "Cormorant",     
             "scientific_name": "Phalacrocorax auritus",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1692.JPG",
-            "description": "Cormorant is a medium-sized bird. "
+            "description": "A large black waterbird that dives to catch fish and often perches with wings spread to dry."
         }, {    
 
             "name": "House Sparrow",     
             "scientific_name": "Passer domesticus",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1419.JPG",
-            "description": ""
+            "description": "A small, brown-and-grey bird commonly found in towns and gardens, often chirping in groups."
         }, {
 
             "name": "House Sparrows",     
             "scientific_name": "Passer domesticus",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1417.JPG",
-            "description": ""
+            "description": "These sociable birds often feed and nest in flocks near human homes."
         }, {
 
             "name": "Bullfinch",     
             "scientific_name": "Pyrrhula pyrrhula",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0870.JPG",
-            "description": ""
+            "description": "A stocky finch with a black cap and, in males, a bright pinkish-red chest."
         }, {
 
             "name": "Grey Heron",     
             "scientific_name": "Ardea cinerea",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0859.JPG",
-            "description": ""
+            "description": "A tall wading bird with a long neck and legs, often seen standing still in water hunting fish"
         }, {
 
             "name": "European Jackdaw",     
             "scientific_name": "Corvus monedula",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0710.JPG",
-            "description": ""
+            "description": "A small, clever member of the crow family with a grey nape and bright pale eyes."
         }, {
 
             "name": "White Goose",     
             "scientific_name": "Anser albifrons",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0703.JPG",
-            "description": ""
+            "description": "A large white waterbird with an orange beak, often seen on farms or by lakes."
         }, {
 
             "name": "Duck",     
             "scientific_name": "Anas platyrhynchos",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0586.JPG",
-            "description": ""
+            "description": "A common waterbird with a broad bill and webbed feet, often seen paddling in ponds."
         }, {
 
             "name": "Yellow Hammer",     
             "scientific_name": "Prosthemadera novaeseelandiae",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0173.JPG",
-            "description": ""
+            "description": "A bright yellow bird that sings a cheerful \"a-little-bit-of-bread-and-no-cheese\" tune."
         }, {
             "name": "Seagull",     
             "scientific_name": "Larus marinus",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0142.JPG",
-            "description": ""
+            "description": "A familiar coastal bird with a loud cry, often scavenging near beaches and towns."
         }, {
 
             "name": "Egret",     
             "scientific_name": "Egretta garzetta",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2313.JPG",
-            "description": ""
+            "description": "A graceful white heron-like bird with black legs and yellow feet, found near water."
         }, {
 
             "name": "Blackbird",     
             "scientific_name": "Turdus merula",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2298.JPG",
-            "description": ""
+            "description": "A glossy black songbird with a bright yellow beak and a rich, fluting song."
         }, {
 
             "name": "Commmon Blackbird (Female)",     
             "scientific_name": "Turdus merula",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2545.JPG",
-            "description": ""
+            "description": "Unlike the male, the female is brown with a speckled breast but has the same lovely song."
         }, {
 
             "name": "Magpie",     
             "scientific_name": "Pica pica",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2857.JPG",
-            "description": ""
+            "description": "A black-and-white bird with iridescent blue-green feathers, known for its chattering call and love of shiny things."
         }, {  
             "name": "Swan",     
             "scientific_name": "Cygnus columbianus",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2442.JPG",
-            "description": ""
+            "description": "A large, elegant white bird with a curved neck, often seen gliding gracefully on lakes."
         }, {
 
             "name": "Common Merganser",     
             "scientific_name": "Mergus merganser",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2455.JPG",
-            "description": ""
+            "description": "A striking diving duck with a long, narrow bill used for catching fish."
         }, {
 
             "name": "Common Moorhen",     
             "scientific_name": "Gallinula chloropus",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2286.JPG",
-            "description": ""
+            "description": "A dark waterbird with a red and yellow beak and long toes, often seen on ponds and canals."
         }, {
 
             "name": "Homing Woodpigeon",     
             "scientific_name": "Columba livia",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2008.JPG",
-            "description": ""
+            "description": "A plump grey bird with a white neck patch, known for its cooing and strong flight."
         }, {
 
             "name": "White-throated Dipper",     
             "scientific_name": "Cinclus cinclus",            
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2894.JPG",
-            "description": ""
+            "description": "A small, round river bird with a white chest that bobs and dives into streams."
         }, {
 
             "name": "Black-headed Gull",     
             "scientific_name": "Chroicocephalus ridibundus",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2362.JPG",
-            "description": ""
+            "description": "A medium-sized gull with a chocolate-brown head in summer and a sharp, laughing call."
         }, {
 
             "name": "Little Grebe",     
             "scientific_name": "Tachybaptus ruficollis",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2423.JPG",            
-            "description": ""           
+            "description": "A tiny, shy diving bird that often vanishes underwater when disturbed."           
         }
     ]
 }

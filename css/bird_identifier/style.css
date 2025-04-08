@@ -1,4 +1,4 @@
-/* Last Updated: 07/04/2025 - 16:00 */
+/* Last Updated: 08/04/2025 - 17:05 */
 .toggle-filters-btn {
   display: block;
   padding: 10px 0px;
@@ -210,6 +210,25 @@ body main#container ul li a {
 body main#container ul li a:hover {
   color: #054386;
 }
+body main#container #featured---birds--btn {
+  display: block;
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12pt;
+  font-weight: bold;
+  background: lightgreen;
+  color: green;
+  text-decoration: none;
+  border: green solid 1px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: #858585 1px 2px 4px 1px;
+  transition: background 0.2s;
+}
+body main#container #featured---birds--btn:hover {
+  background: #7fc97f;
+}
 body main#container #back---home {
   display: block;
   width: 100%;
@@ -244,6 +263,10 @@ body main#container .nav---container li {
 body main#container .nav---container li:first-child {
   border-right: 2px solid gray;
   padding-right: 26px;
+}
+body main#container .nav---container li:last-child {
+  border-left: 2px solid gray;
+  padding-left: 26px;
 }
 body main#container .nav---container li:only-child {
   border: none;

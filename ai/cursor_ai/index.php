@@ -62,6 +62,7 @@
             <p><a href="https://projects.jonniegrieve.co.uk/ai/dynamic_list" target="_blank" class="projects---in--cursor">Dynamic List - Sqlite and PHP</a> - A list that persists - going beyond use of localstorage </p>  
             <p><a href="https://projects.jonniegrieve.co.uk/bird_identifier" target="_blank" class="projects---in--cursor">Bird Identifier</a> - Use this space to search identify the bird species that you see when you're out and about </p>
             <!-- <p>Interactive Todo List with Javascript and PHP - A list that persists - going beyond use of localstorage</p> -->
+            <!-- <p><a href="">Snooker Scorer</a></p> -->
         </section>
     </main>
     <footer>

@@ -91,8 +91,6 @@
 
     </main>
 
-    <p>carousel.php</p>
-
     <footer>
 
         <p>&copy; 2025 - Created by Jonnie Grieve at <a href="https://www.jonniegrieve.co.uk" target="_blank">Jonnie Grieve Digital Media</a></p>

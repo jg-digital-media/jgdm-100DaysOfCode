@@ -240,9 +240,6 @@
         </section>
 
     </main>
-
-    <p>filterable.php</p>
-
     
     <footer>
 

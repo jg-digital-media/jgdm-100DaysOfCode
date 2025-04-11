@@ -149,7 +149,7 @@
             <div class="bird---item bird---class--countryside bird---class--large bird---class--white" data-lightbox="Filterable Birds" data-habitat="countryside" data-size="large" data-color="grey white">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0859.JPG" alt="Grey Heron">
                 <div class="bird_name">Grey Heron</div>
-                <div class="bird_date">25/01/205</div>
+                <div class="bird_date">25/01/2025</div>
 
             </div>
 
@@ -191,7 +191,7 @@
             <div class="bird---item bird---class--water" data-lightbox="Filterable Birds" data-habitat="water" data-size="large" data-color="">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2313.JPG" alt="Egret">
                 <div class="bird_name">Egret</div>
-                <div class="bird_date">03/03/0303</div>
+                <div class="bird_date">03/03/2025</div>
 
             </div>
 
@@ -219,21 +219,98 @@
             <div class="bird---item bird---class--water bird---class--large bird---class--white" data-lightbox="Filterable Birds" data-habitat="water" data-size="large" data-color="white-light">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2442.JPG" alt="Swan">
                 <div class="bird_name">Swan</div>
-                <div class="bird_date">24/04/2024</div>
+                <div class="bird_date">24/04/2025</div>
 
             </div> 
 
             <div class="bird---item bird---class--water bird---class--large bird---class--white" data-lightbox="Filterable Birds" data-habitat="water" data-size="large" data-color="white-light">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2455.JPG" alt="Common Merganser">
                 <div class="bird_name">Common Merganser</div>
-                <div class="bird_date">01/03/2024</div>
+                <div class="bird_date">01/03/2025</div>
 
             </div>
 
             <div class="bird---item bird---class--water bird---class--large bird---class--white" data-lightbox="Filterable Birds" data-habitat="water" data-size="large" data-color="white-light">
                 <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2286.JPG" alt="Common Moorhen">
                 <div class="bird_name">Common Moorhen</div>
-                <div class="bird_date">03/03/2024</div>
+                <div class="bird_date">03/03/2025</div>
+
+            </div>
+
+            <div class="bird---item bird---class--water bird---class--large bird---class--white" data-lightbox="Filterable Birds" data-habitat="water" data-size="large" data-color="white-light">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2008.JPG" alt="Homing Woodpigeon">
+                <div class="bird_name">Homing Woodpigeon</div>
+                <div class="bird_date">03/03/2025</div>
+
+            </div>
+
+            <div class="bird---item bird---class--water bird---class--large bird---class--white" data-lightbox="Filterable Birds" data-habitat="water" data-size="large" data-color="white-light">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2894.JPG" alt="White-throated Dipper">
+                <div class="bird_name">White-throated Dipper</div>
+                <div class="bird_date">03/03/2025</div>
+
+            </div>
+
+            <div class="bird---item bird---class--water bird---class--large bird---class--white" data-lightbox="Filterable Birds" data-habitat="water" data-size="large" data-color="white-light">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2362.JPG" alt="Black-headed Gull">
+                <div class="bird_name">Black-headed Gull</div>
+                <div class="bird_date">08/03/2025</div>
+
+            </div>
+
+            <div class="bird---item bird---class--water bird---class--large bird---class--white" data-lightbox="Filterable Birds" data-habitat="water" data-size="large" data-color="white-light">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2423.JPG" alt="Little Grebe">
+                <div class="bird_name">Little Grebe</div>
+                <div class="bird_date">00/00/0000</div>
+
+            </div>
+
+            <div class="bird---item" data-lightbox="Filterable Birds" data-habitat="water" data-size="large" data-color="white-light">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2362.JPG" alt="Green Winged Teal">
+                <div class="bird_name">Green-winged Teal</div>
+                <div class="bird_date">04/04/2025</div>
+
+            </div>
+
+            <div class="bird---item" data-lightbox="Filterable Birds" data-habitat="water" data-size="large" data-color="white-light">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3725.JPG" alt="Goldcrest">
+                <div class="bird_name">Goldcrest</div>
+                <div class="bird_date">09/04/2025</div>
+
+            </div>
+
+            <div class="bird---item" data-lightbox="Filterable Birds" data-habitat="water" data-size="large" data-color="white-light">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3696.JPG" alt="Eurasian Chaffinch">
+                <div class="bird_name">Eurasian Chaffinch</div>
+                <div class="bird_date">09/04/2025</div>
+
+            </div>
+
+            <div class="bird---item" data-lightbox="Filterable Birds" data-habitat="water" data-size="large" data-color="white-light">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3676.JPG" alt="Chiffchaff">
+                <div class="bird_name">Chiffchaff</div>
+                <div class="bird_date">09/04/2025</div>
+
+            </div>
+            
+            <div class="bird---item" data-lightbox="Filterable Birds" data-habitat="water" data-size="large" data-color="white-light">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3501.JPG" alt="Long-tailed Tit">
+                <div class="bird_name">Long-tailed Tit</div>
+                <div class="bird_date">04/04/2025</div>
+
+            </div>
+
+            <div class="bird---item" data-lightbox="Filterable Birds" data-habitat="water" data-size="large" data-color="white-light">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3509.JPG" alt="Dunnock">
+                <div class="bird_name">Dunnock</div>
+                <div class="bird_date">04/04/2025</div>
+
+            </div>
+
+            <div class="bird---item" data-lightbox="Filterable Birds" data-habitat="water" data-size="large" data-color="white-light">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3574.JPG" alt="Pied Wagtail">
+                <div class="bird_name">Pied Wagtail</div>
+                <div class="bird_date">05/04/2024</div>
 
             </div>
 

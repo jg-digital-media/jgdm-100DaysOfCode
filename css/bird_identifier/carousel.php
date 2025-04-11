@@ -63,30 +63,32 @@
 
         <!-- Slick Carousel -->  
         <div class="birds---carousel--container">
-            <div class="slide">
-                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1701.JPG" alt="Robin">
-                <div class="slide-caption">
-                    <p class="filename">IMG_1701.JPG</p>
-                    <h3 class="bird---name">Robin</h3>
-                    <p class="date">Date: 17/02/2025</p>
-                </div>
-            </div>
-            <div class="slide">
-                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1692.JPG" alt="Cormorant">
-                <div class="slide-caption">
-                    <p class="filename">IMG_1692.JPG</p>
-                    <h3 class="bird---name">Cormorant</h3>
-                    <p class="date">Date: 17/02/2025</p>
-                </div>
-            </div>
-            <div class="slide">
-                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1419.JPG" alt="House Sparrow">
-                <div class="slide-caption">
-                    <p class="filename">IMG_1419.JPG</p>
-                    <h3>House Sparrow</h3>
-                    <p class="date">Date: 15/02/2025</p>
-                </div>
-            </div>
+
+            <?php 
+
+                // Read and decode the JSON file
+                $jsonFile = file_get_contents('assets/data/birds.json');
+                $birdData = json_decode($jsonFile, true);
+
+                if ($birdData && isset($birdData['birds'])) {
+
+                    foreach ($birdData['birds'] as $bird) {
+                        echo '<div class="slide">
+                                <img src="' . htmlspecialchars($bird['image']) . '" alt="' . htmlspecialchars($bird['name']) . '">
+                                <div class="slide-caption">
+                                    <p class="filename">' . htmlspecialchars($bird['filename']) . '</p>
+                                    <h3 class="bird---name">' . htmlspecialchars($bird['name']) . '</h3>
+                                    <p class="date">Date: ' . htmlspecialchars($bird['photo_date']) . '</p>
+                                </div>
+                            </div>';
+                    }
+                } else {
+
+                    echo '<p class="error-message">Unable to load bird data. Please try again later.</p>';
+                }
+
+            ?>
+
         </div>
 
     </main>

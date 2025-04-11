@@ -1,4 +1,4 @@
-console.log("app.js connected! - 07-04-2025 - 13:159");
+console.log("app.js connected! - 11-04-2025 - 15:41");
 
 // Slick Carousels - with jQuery
 $(document).ready(function() {
@@ -317,6 +317,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     document.addEventListener('DOMContentLoaded', function() {
+
         // Debug log to confirm script is running
         console.log('Script loaded');
     

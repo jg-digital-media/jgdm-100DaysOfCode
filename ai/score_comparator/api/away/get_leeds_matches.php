@@ -36,7 +36,7 @@ try {
         throw new Exception("Database connection failed");
     }
     
-    $query = "SELECT * FROM ipswich_away_matches ORDER BY away_team";
+    $query = "SELECT * FROM leeds_away_matches ORDER BY away_team";
     $results = $db->query($query);
     
     if (!$results) {

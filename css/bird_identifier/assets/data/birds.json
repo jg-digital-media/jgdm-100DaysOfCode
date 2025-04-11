@@ -131,6 +131,48 @@
             "scientific_name": "Tachybaptus ruficollis",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2423.JPG",            
             "description": "A tiny, shy diving bird that often vanishes underwater when disturbed."           
+        }, {
+
+            "name": "Green-winged Teal",
+            "scientific_name": "Anas carolinensis",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3510.JPG",            
+            "description": "A small dabbling duck with a distinctive green patch on its wings."           
+        }, {
+
+            "name": "Goldcrest",
+            "scientific_name": "Regulus regulus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3725.JPG",            
+            "description": "Europe's smallest bird, with a tiny body and a golden stripe on its head, often seen flitting through conifers."           
+        }, {
+
+            "name": "Eurasian Chaffinch",
+            "scientific_name": "Fringilla coelebs",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3696.JPG",            
+            "description": "A colourful finch; males are reddish underneath with blue-grey heads, and they have a loud, cheerful song."           
+        }, {
+
+            "name": "Chiffchaff",
+            "scientific_name": "Phylloscopus collybita",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3676.JPG",            
+            "description": "A small olive-green warbler that sings a simple “chiff-chaff” song and flits about restlessly in trees."           
+        }, {
+
+            "name": "Long-tailed Tit",
+            "scientific_name": "Aegithalos caudatus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3501.JPG",            
+            "description": "A tiny, fluffy bird with a long tail and pinkish flanks, often seen in noisy family flocks in trees and bushes."           
+        }, {
+
+            "name": "Dunnock",
+            "scientific_name": "Prunella modularis",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3509.JPG",            
+            "description": "A shy, brown and grey bird that looks a bit like a sparrow but sings a sweet, gentle song from hedgerows."           
+        }, {
+
+            "name": "Pied Wagtail",
+            "scientific_name": "Motacilla alba yarrellii",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3574.JPG",            
+            "description": "A shy, brown and grey bird that looks a bit like a sparrow but sings a sweet, gentle song from hedgerows."           
         }
     ]
 }

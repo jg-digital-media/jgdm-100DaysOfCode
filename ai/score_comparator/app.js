@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 03/04/2025 - 16:12");
+    console.log("app.js connected - 11/04/2025 - 11:02");
 
     const teamSelect = document.getElementById('select---home--team');
     const seasonSelect = document.getElementById('form---select--season');
@@ -16,11 +16,38 @@ document.addEventListener('DOMContentLoaded', function() {
     let isAwayMatch = false;
     let currentSelectedTeam = '';
 
+
     // Default the season select to 2024/2025
     let currentSelectedSeason = seasonSelect.value || '2025'; // Default to 2024/2025 season
 
+
     // Define team lists for each season
     const teamLists = {
+
+        // 2022/23 Season teams
+        '2023': `
+            <option id="select---home--placeholder" value="Select Team">Select Team...</option>
+            <option id="select---home--bournemouth" value="AFC Bournemouth">AFC Bournemouth</option>
+            <option id="select---home--arsenal" value="Arsenal">Arsenal</option>
+            <option id="select---home--astonvilla" value="Aston Villa">Aston Villa</option>
+            <option id="select---home--brentford" value="Brentford">Brentford</option>
+            <option id="select---home--brighton" value="Brighton & Hove Albion">Brighton &amp; Hove Albion</option>
+            <option id="select---home--chelsea" value="Chelsea">Chelsea</option>
+            <option id="select---home--crystalpalace" value="Crystal Palace">Crystal Palace</option>
+            <option id="select---home--everton" value="Everton">Everton</option>
+            <option id="select---home--fulham" value="Fulham">Fulham</option>            
+            <option id="select---home--leeds" value="Leeds United">Leeds United</option>            
+            <option id="select---home--leicester" value="Leicester City">Leicester City</option>            
+            <option id="select---home--liverpool" value="Liverpool">Liverpool</option>
+            <option id="select---home--manchestercity" value="Manchester City">Manchester City</option>
+            <option id="select---home--manchesterunited" value="Manchester United">Manchester United</option>            
+            <option id="select---home--nottinghamforest" value="Nottingham Forest">Nottingham Forest</option>
+            <option id="select---home--southampton" value="Southampton">Southampton</option>
+            <option id="select---home--tottenhamhotspur" value="Tottenham Hotspur">Tottenham Hotspur</option>
+            <option id="select---home--westham" value="West Ham United">West Ham United</option>
+            <option id="select---home--wolverhampton" value="Wolverhampton Wanderers">Wolverhampton Wanderers</option>
+        `,
+
         // 2023/24 Season teams
         '2024': `
             <option id="select---home--placeholder" value="Select Team">Select Team...</option>
@@ -44,6 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <option id="select---home--westham" value="West Ham United">West Ham United</option>
             <option id="select---home--wolves" value="Wolverhampton Wanderers">Wolverhampton Wanderers</option>
         `,
+        
         // 2024/25 Season teams
         '2025': `
             <option id="select---home--placeholder" value="Select Team">Select Team...</option>
@@ -100,15 +128,20 @@ document.addEventListener('DOMContentLoaded', function() {
     // Function to update the season display
     function updateSeasonDisplay(season) {
         let displayText;
+
         if (season === '2025') {
             displayText = '2024/2025';
         } else if (season === '2024') {
             displayText = '2023/2024';
+        } else if (season === '2023') {
+            displayText = '2022/2023';
         } else {
+
             // Handle any future seasons
             const startYear = parseInt(season) - 1;
             displayText = `${startYear}/${season}`;
         }
+
         selectedSeasonDisplay.textContent = displayText;
     }
 

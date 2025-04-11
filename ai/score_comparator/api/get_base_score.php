@@ -20,7 +20,10 @@ try {
         $dbPath = '../assets/data/scores.db'; // Current season (2024/25)
     } elseif ($season === '2024') {
         $dbPath = '../assets/data/seasons/season-23-24.db'; // 2023/24 season
+    } elseif ($season === '2023') {
+        $dbPath = '../assets/data/seasons/season-22-23.db'; // 2022/23 season
     } else {
+        
         // Future proofing for other seasons
         $seasonYear = substr($season, -2); // Get last 2 digits
         $prevYear = sprintf("%02d", (int)$seasonYear - 1); // Format with leading zero

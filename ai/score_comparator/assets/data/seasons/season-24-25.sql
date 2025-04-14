@@ -1,5 +1,10 @@
-/* Match List - Season: 24/25 - in progress (copy) */
-/* Last Update: 04/04/2025 - 08:15 */
+/* Last Update: 14/04/2025 - 10:48 */
+
+/* Match List - Season: 23/24
+
+    Base Team: Newcastle United    
+
+*/
 
 -- Create Home Match Tables
 CREATE TABLE bournemouth_home_matches (

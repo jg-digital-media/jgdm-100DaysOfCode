@@ -1,4 +1,5 @@
 <?php
+
     // Get season parameter, default to 2024/2025
     $season = isset($_GET['season']) ? trim($_GET['season'], ' "\'') : '2025';
     
@@ -6,7 +7,7 @@
     $dbPath = '';
 
     if ($season === '2025') {
-        $dbPath = '../../assets/data/scores.db'; // Current season (2024/25)
+        $dbPath = '../../assets/data/seasons/season-24-25.db'; // Current season (2024/25)
     } elseif ($season === '2024') {
         $dbPath = '../../assets/data/seasons/season-23-24.db'; // 2023/24 season
     } elseif ($season === '2023') {

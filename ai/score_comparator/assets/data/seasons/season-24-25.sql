@@ -1,4 +1,4 @@
-/* Last Update: 14/04/2025 - 10:48 */
+/* Last Update: 15/04/2025 - 07:29 */
 
 /* Match List - Season: 23/24
 
@@ -450,7 +450,7 @@ INSERT INTO bournemouth_home_matches (home_team, home_score, away_team, away_sco
     ('AFC Bournemouth', 0, 'Chelsea', 1, 1),
     ('AFC Bournemouth', 0, 'Crystal Palace', 0, 1),
     ('AFC Bournemouth', 1, 'Everton', 0, 1),
-    ('AFC Bournemouth', 1, 'Fulham', 2, 0),
+    ('AFC Bournemouth', 1, 'Fulham', 0, 1),
     ('AFC Bournemouth', 1, 'Ipswich Town', 2, 1),
     ('AFC Bournemouth', 4, 'Leicester City', 1, 0),
     ('AFC Bournemouth', 0, 'Liverpool', 2, 1),
@@ -987,7 +987,7 @@ INSERT INTO everton_away_matches (home_team, home_score, away_team, away_score, 
     ('Wolverhampton Wanderers', 1, 'Everton', 1, 1);
 
 INSERT INTO fulham_away_matches (home_team, home_score, away_team, away_score, played) VALUES
-    ('AFC Bournemouth', 0, 'Fulham', 0, 0),
+    ('AFC Bournemouth', 1, 'Fulham', 0, 1),
     ('Arsenal', 2, 'Fulham', 1, 1),
     ('Aston Villa', 0, 'Fulham', 0, 1),
     ('Brentford', 0, 'Fulham', 0, 0),

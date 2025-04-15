@@ -381,18 +381,38 @@ body {
                 padding: 1px 5px;
                 background: #baff60;
                 border-radius: 5px;
-            }            
+            }   
+            
+            &.disclaimer {
 
+                font-size: 12px;
+                border-radius: 4px;
+                padding: 1px 4px;
+                background: #ffe6e6;
+            }
+
+        }
+
+        .version---heading {
+
+            display: inline-block;
+            margin-top: 14pt;
+            padding: 3px;
+            border-bottom: solid red 2px;
+            width: auto;
         }
 
         ul.development---history {
             
-            line-height: 1.6;
+            line-height: 1.9;
+            font-size: 13px;
 
             li {
 
-                list-style: none;
-                padding: 0 4px;
+                position: relative;
+                left: 15px;
+                list-style: disc;
+                padding: 2px 9px;
             }
             
     

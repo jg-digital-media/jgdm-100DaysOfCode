@@ -88,11 +88,32 @@
         <p><strong>26th February, 2025</strong></p>
 
         <br />
+        
+        <code class="version---heading">v1</code>
         <ul class="development---history">
-            <li><code>v1</code> - Initial Release - Season 2024/2025 is in progress - <code><strong>Base Team: Newcastle United</strong></code>. - <code><strong>Phase ends (26/02/2024)</strong></code>.</li>
-            <li><code>v1.1</code> - Spent time gathering match and result data for all premier league seasons - <code><strong>Phase ends (21/03/2025)</strong></code>.</li>
-            <li><code>v2</code> - <strong><em>In Development</em></strong>. Adding in Remaining premier league fixtures from the gathered raw match data into SQL Scripts for individual seasons. This covers all premier league seasons other than <code><strong>92/93</strong></code>, <code><strong>09/10</strong></code>, and <strong><code>16/17</code></strong> which Newcastle United did not participate in. <code><strong>Phase ends (28/03/2025)</strong></code></li>
-            <li><code>v3</code> - Expand the application to include multiple Premier League seasons. This expansion covers the <code><strong>2023/2024</strong></code> and the <code><strong>2024/2025</strong></code> seasons. More seasons will be incrementally added as they are completed. <code><strong>Phase ends (04/04/2025)</strong></code>.</li>
+            <li>Initial Release - Season 2024/2025 is in progress - <code><strong>Base Team: Newcastle United</strong></code>. - <code><strong>Phase ends (26/02/2024)</strong></code>.</li>
+
+        </ul>
+
+        <code class="version---heading">v1.1</code>
+        <ul class="development---history">
+
+            <li>Spent time gathering match and result data for all premier league seasons - <code><strong>Phase ends (21/03/2025)</strong></code>.</li>
+        </ul>
+
+        
+        <code class="version---heading">v2</code>
+        <ul class="development---history">
+            
+            <li><strong><em>In Development</em></strong>. Adding in Remaining premier league fixtures from the gathered raw match data into SQL Scripts for individual seasons. This covers all premier league seasons other than <code><strong>92/93</strong></code>, <code><strong>09/10</strong></code>, and <strong><code>16/17</code></strong> which Newcastle United did not participate in. <code><strong>Phase ends (28/03/2025)</strong></code></li>
+        </ul>
+
+        <code class="version---heading">v3</code>
+
+        <ul class="development---history">            
+            <li>Expand the application to include multiple Premier League seasons. This expansion covers the <code><strong>2023/2024</strong></code> and the <code><strong>2024/2025</strong></code> seasons. 
+            </li>
+            <li>More seasons will be incrementally added as they are completed. <code><strong>Phase ends (04/04/2025)</strong></code>.</li>
         </ul>
 
         <h2>Points to take.</h2>
@@ -105,9 +126,9 @@
 
         <p>But sometimes it doesn't go like that. Sometimes like human web development it can take breaking things and getting things wrong before you get the outcome you need.</p>
 
-        <p><strong>Disclaimer: </strong>While every effort has been and will be made to ensure accuracy of the match results some errors are all but inevitable. If you spot an discrpancy or innacuracy in the data, <a href="mailto: mail@jonniegrieve.co.uk">please let me know</a>.</p>
+        <p class="disclaimer"><strong>Disclaimer: </strong>While every effort has been and will be made to ensure accuracy of the match results some errors are all but inevitable. If you spot a discrepancy or inaccuracy in the data, <a href="mailto: mail@jonniegrieve.co.uk">please let me know</a>.</p>
 
-        <p>Data last updated: <strong>11-04-2025</strong></p>
+        <p>Data last updated: <strong>15-04-2025</strong></p>
 
         <a href="index.php" class="back---to--match-tables">Back to the Match Tables</a>
 

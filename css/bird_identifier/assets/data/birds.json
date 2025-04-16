@@ -289,6 +289,46 @@
             "lightbox": "Filterable Birds",
             "photo_date": "05/04/2025",
             "filter classes": ""           
+        }, {
+
+            "name": "Bonelli's Eagle",
+            "scientific_name": "Aquila fasciata",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1756.JPG",
+            "filename": "IMG_1756.JPG",            
+            "description": "The adult's tail is grey with obscure darker brown thin bars, with a broad blackish subterminal band and creamy white tip.",
+            "lightbox": "Filterable Birds",
+            "photo_date": "22/02/2025",
+            "filter classes": ""           
+        }, {
+
+            "name": "Male Hawk Harrier",
+            "scientific_name": "parabuteo unicinctus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_8924.JPG",
+            "filename": "IMG_8924.JPG",            
+            "description": "A bay-winged hawk or dusky bird of Brey usually found in the southwestern United States and South American Continent.",
+            "lightbox": "Filterable Birds",
+            "photo_date": "05/10/2024",
+            "filter classes": ""           
+        }, {
+
+            "name": "Lapwing",
+            "scientific_name": "vanellinae",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3916.JPG",
+            "filename": "IMG_3916.JPG",            
+            "description": "Nesting birds noted for their slow, irregular wingbeats in flight and a shrill, wailing cry.",
+            "lightbox": "Filterable Birds",
+            "photo_date": "05/04/2025",
+            "filter classes": ""           
+        }, {
+
+            "name": "Thayers Gull",
+            "scientific_name": "Larus Cachinnans",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3584.JPG",
+            "filename": "IMG_3584.JPG",            
+            "description": "a subspecies of the Iceland gull. It is a large gull native to North Americ",
+            "lightbox": "Filterable Birds",
+            "photo_date": "05/04/2025",
+            "filter classes": ""           
         }
     ]
 }

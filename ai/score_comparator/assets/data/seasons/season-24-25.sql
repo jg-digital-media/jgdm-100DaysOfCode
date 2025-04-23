@@ -1,4 +1,4 @@
-/* Last Update: 22/04/2025 - 07:05 */
+/* Last Update: 23/04/2025 - 13:51 */
 
 /* Match List - Season: 24/25
 
@@ -685,7 +685,7 @@ INSERT INTO leicester_home_matches (home_team, home_score, away_team, away_score
 INSERT INTO manchestercity_home_matches (home_team, home_score, away_team, away_score, played) VALUES
     ('Manchester City', 0, 'AFC Bournemouth', 0, 0),
     ('Manchester City', 2, 'Arsenal', 2, 1),
-    ('Manchester City', 0, 'Aston Villa', 0, 0),
+    ('Manchester City', 2, 'Aston Villa', 1, 1),
     ('Manchester City', 2, 'Brentford', 1, 0),
     ('Manchester City', 2, 'Brighton & Hove Albion', 2, 1),
     ('Manchester City', 3, 'Chelsea', 1, 1),
@@ -878,7 +878,7 @@ INSERT INTO astonvilla_away_matches (home_team, home_score, away_team, away_scor
     ('Ipswich Town', 2, 'Aston Villa', 2, 1),
     ('Liverpool', 2, 'Aston Villa', 2, 1),
     ('Leicester City', 1, 'Aston Villa', 2, 1),
-    ('Manchester City', 0, 'Aston Villa', 0, 0),
+    ('Manchester City', 2, 'Aston Villa', 1, 1),
     ('Manchester United', 0, 'Aston Villa', 0, 0),
     ('Nottingham Forest', 2,'Aston Villa', 1, 1),
     ('Southampton', 0, 'Aston Villa', 3, 1),

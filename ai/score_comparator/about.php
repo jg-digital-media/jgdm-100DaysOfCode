@@ -115,7 +115,7 @@
             </li>
             <li>More seasons will be incrementally added as they are completed.
             <li>Season 2024/2025 is in progress. The last added season was Season 2023/24. </li>
-            <li> <!-- <code><strong>Phase ends (04/04/2025)</strong></code>-->
+            <!--<li><code><strong>Phase ends (04/04/2025)</strong></code></li>-->
         </ul>
 
         <h2>Points to take.</h2>

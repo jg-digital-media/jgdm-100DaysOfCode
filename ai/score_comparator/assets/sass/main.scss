@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 04/04/2025 - 15:59 */
+/* Stylesheet Upated: 28/04/2025 - 16:52 */
 
 $bg---main: #ffffff;
 $bg---select: lightgreen;
@@ -532,8 +532,8 @@ body {
                 /* Base comparison styles */
                 &.score---compares--larger-win { background-color: $score---compares--larger-win; }
                 &.score---compares--smaller-win { background-color: $score---compares--smaller-win; }
-                &.score---compares--larger-defeat { background-color: $score---compares--larger-defeat; }
-                &.score---compares--smaller-defeat { background-color: $score---compares--smaller-defeat; }
+                &.score---compares--larger-defeat { background-color: $score---compares--larger-defeat; color: #f5f5f5; }
+                &.score---compares--smaller-defeat { background-color: $score---compares--smaller-defeat; color: #f5f5f5; }
                 &.score---compares--equal { background-color: $score---compares--equal; }
 
                 /* Clean sheet modifier */
@@ -564,7 +564,8 @@ body {
                 
                 &.match---win--cleansheet {
 
-                    /* background: $match---win--cleansheet; */
+                    background: lighten($match---win--cleansheet, 5%);
+                    background: $match---win;
                 }
 
                

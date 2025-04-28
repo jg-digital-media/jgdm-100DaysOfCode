@@ -4,7 +4,7 @@ This application allows users to compare football match results for Newcastle Un
 
 ## Overview
 
-The Football Score Comparator app now supports multiple seasons, with a dropdown menu to switch between different football seasons. The default season is 2024/2025, but the app also supports the 2023/2024 season and is ready for future season additions.
+The Football Score Comparator app (v3) now supports multiple seasons, with a dropdown menu to switch between different football seasons. The default season is 2024/2025, but the app also supports the 2023/2024 season and is ready for future and previous premier league seasons to be added in the future.
 
 ## File Structure
 

@@ -314,6 +314,27 @@
 
             </div>
 
+            <div class="bird---item bird---class--mixed-brown bird---class--medium bird---class--medium bird---class--urban bird---class--garden bird---class--countryside" data-lightbox="Filterable Birds" data-habitat="water" data-size="medium" data-color="white-light black">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_4303.JPG" alt="Pied Wagtail">
+                <div class="bird_name">Pied Avocet</div>
+                <div class="bird_date">23/04/2024</div>
+
+            </div>
+
+            <div class="bird---item bird---class--mixed-brown bird---class--medium bird---class--medium bird---class--urban bird---class--garden bird---class--countryside" data-lightbox="Filterable Birds" data-habitat="water" data-size="medium" data-color="white-light black">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_4341.JPG" alt="Pied Wagtail">
+                <div class="bird_name">Eurasian Oystercatcher</div>
+                <div class="bird_date">23/04/2024</div>
+
+            </div>
+
+            <div class="bird---item bird---class--mixed-brown bird---class--medium bird---class--medium bird---class--urban bird---class--garden bird---class--countryside" data-lightbox="Filterable Birds" data-habitat="water" data-size="medium" data-color="white-light black">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_4335.JPG" alt="Pied Wagtail">
+                <div class="bird_name">Common Shelduck</div>
+                <div class="bird_date">23/04/2024</div>
+
+            </div>
+
         </section>
 
     </main>

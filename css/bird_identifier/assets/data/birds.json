@@ -325,9 +325,39 @@
             "scientific_name": "Larus Cachinnans",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3584.JPG",
             "filename": "IMG_3584.JPG",            
-            "description": "a subspecies of the Iceland gull. It is a large gull native to North Americ",
+            "description": "a subspecies of the Iceland gull. It is a large gull native to North America.",
             "lightbox": "Filterable Birds",
             "photo_date": "05/04/2025",
+            "filter classes": ""           
+        }, {
+
+            "name": "Pied Avocet",
+            "scientific_name": "Recurvirostra avosetta",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_4303.JPG",
+            "filename": "IMG_4303.JPG",            
+            "description": "is a large black and white wader in the avocet and stilt family, Recurvirostridae. Found in eastern and central Europe.",
+            "lightbox": "Filterable Birds",
+            "photo_date": "23/04/2025",
+            "filter classes": ""           
+        }, {
+
+            "name": "Eurasian Oystercatcher",
+            "scientific_name": "haematopus ostralegus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_4341.JPG",
+            "filename": "IMG_4341.JPG",            
+            "description": "a wader in the oystercatcher bird family Haematopodidae. It has striking black and white plumage, a long straight orange-red bill, red eyes and relatively short dull pink legs.",
+            "lightbox": "Filterable Birds",
+            "photo_date": "23/04/2025",
+            "filter classes": ""           
+        }, {
+
+            "name": "Common Shelduck",
+            "scientific_name": "Tadorna Tadorna",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_4335.JPG",
+            "filename": "IMG_4335.JPG",            
+            "description": "a waterfowl species of the shelduck genus, Tadorna. It is widespread and common in the Euro-Siberian region of the Palearctic.",
+            "lightbox": "Filterable Birds",
+            "photo_date": "23/04/2025",
             "filter classes": ""           
         }
     ]

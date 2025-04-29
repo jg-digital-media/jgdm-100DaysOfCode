@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 28/04/2025 - 16:52 */
+/* Stylesheet Upated: 29/04/2025 - 10:49 */
 
 $bg---main: #ffffff;
 $bg---select: lightgreen;
@@ -185,7 +185,6 @@ body {
 
         .key---match--win {
 
-
             background-color: $match---win;
 
             color: complement(  $bg---main );
@@ -236,6 +235,13 @@ body {
             background: $score---compares--larger-win;
 
             color: complement( $score---compares--larger-win );
+        }
+
+        .key---match--compares-smallerwin {
+
+            background: $score---compares--smaller-win;
+
+            color: complement( $score---compares--smaller-win );
         }
 
         .key---match--compares-largerdefeat {

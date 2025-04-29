@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 28/04/2025 - 11:32");
+    console.log("app.js connected - 28/04/2025 - 11:34");
 
     const teamSelect = document.getElementById('select---home--team');
     const seasonSelect = document.getElementById('form---select--season');
@@ -352,91 +352,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     }
 
-   /*  function getComparisonClass(baseScore, matchScore) {
-
-        if (!baseScore.played) {
-
-            return '';
-        }
-
-        if (!matchScore.played) {
-
-            return 'score---compares--stilltoplay';
-        }
-
-        let classes = [];
-
-        // Check for exact score match
-        if (baseScore.home_score === matchScore.home_score && 
-            baseScore.away_score === matchScore.away_score) {
-
-            return 'score---compares--equal';
-        }
-
-        // Calculate goal differences
-        const baseGoalDiff = baseScore.home_score - baseScore.away_score;
-        const matchGoalDiff = matchScore.home_score - matchScore.away_score;
-
-        // Get match results (win/draw/loss)
-        const baseResult = Math.sign(baseGoalDiff);
-        const matchResult = Math.sign(matchGoalDiff);
-
-        // Add match result class
-        if (matchResult === 1) {
-
-            classes.push('match---win');
-
-            if (matchScore.away_score === 0) classes.push('match---win--cleansheet');
-
-        } else if (matchResult === -1) {
-
-            classes.push('match---loss');
-        } else {
-
-            classes.push('match---draw');
-        }
-
-        // Add comparison class
-        if (baseResult !== matchResult) {
-
-            if (matchResult > baseResult) {
-
-                classes.push(baseResult === -1 ? 'score---compares--smaller-defeat' : 'score---compares--larger-win');
-            } else {
-
-                classes.push(baseResult === 1 ? 'score---compares--smaller-win' : 'score---compares--larger-defeat');
-            }
-
-        } else {
-
-            // Same result type
-            if (baseResult === 1) {
-
-                classes.push(Math.abs(matchGoalDiff) > Math.abs(baseGoalDiff) ? 
-
-                    'score---compares--larger-win' : 'score---compares--smaller-win');
-            } else if (baseResult === -1) {
-
-                classes.push(Math.abs(matchGoalDiff) > Math.abs(baseGoalDiff) ? 
-
-                    'score---compares--larger-defeat' : 'score---compares--smaller-defeat');
-            } else {
-
-                const baseTotalGoals = baseScore.home_score + baseScore.away_score;
-                const matchTotalGoals = matchScore.home_score + matchScore.away_score;
-                classes.push(matchTotalGoals >= baseTotalGoals ? 
-
-                    'score---compares--larger-win' : 'score---compares--smaller-win');
-            }
-        }
-
-        // Add scoring classes
-        if (matchScore.home_score >= 3) classes.push('match---high-scoring');
-        if (matchScore.home_score === 0) classes.push('match---failed-to-score');
-
-        return classes.join(' ');
-    } */
-    
+    /* updateMatchTable */
     function updateMatchTable(matches, baseScore) {
 
         const tableBody = resultsTable.querySelector('tbody') || resultsTable;

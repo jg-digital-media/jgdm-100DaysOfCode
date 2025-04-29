@@ -67,7 +67,7 @@
 
         <h2 id="match---comparison--heading">Key: Match Comparison</h2>
 
-        <?php require "assets/template-parts/keys/match-comparison-key.php"; ?>
+        <?php require "assets/template-parts/keys/simple-comparison-key.php"; ?>
 
     </section> 
 

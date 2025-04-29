@@ -1,4 +1,4 @@
-/* Stylesheet Upated: 28/04/2025 - 16:49 */
+/* Stylesheet Upated: 29/04/2025 - 10:42 */
 /*
 
 
@@ -131,6 +131,10 @@ body section.match---comparison--key .key---result--compares-lower {
 body section.match---comparison--key .key---match--compares-largerwin {
   background: #0ec50e;
   color: #c50ec5;
+}
+body section.match---comparison--key .key---match--compares-smallerwin {
+  background: #089d08;
+  color: #9d089d;
 }
 body section.match---comparison--key .key---match--compares-largerdefeat {
   background: #ff1e3f;

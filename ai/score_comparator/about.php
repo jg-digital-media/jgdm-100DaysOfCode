@@ -57,7 +57,7 @@
     <header>
 
         <h1 class="main---title">Football Score Comparator</h1>
-        <div class="tagline">Based on Newcastle United <span>(v3)</span> <span id="back---home"><a href="index.php">Back to Homepage</a></span></div>
+        <div class="tagline">Based on Newcastle United <span>(v3.1)</span> <span id="back---home"><a href="index.php">Back to Homepage</a></span></div>
         
     </header>
 
@@ -115,6 +115,14 @@
             </li>
             <li>More seasons will be incrementally added as they are completed.
             <li>Season <code><strong>2024/2025</strong></code> is in progress. The last added season was <code><strong>Season 2023/24</strong></code>. </li>
+        </ul>
+
+        
+        <code class="version---heading">v3.1</code>
+
+        <ul class="development---history"> 
+            
+            <li><strong><em>In Development</em></strong>. Simply the comparison key and comparison classes that highlight the compared results. 3 colours.<li>
             <!--<li><code><strong>Phase ends (04/04/2025)</strong></code></li>-->
         </ul>
 

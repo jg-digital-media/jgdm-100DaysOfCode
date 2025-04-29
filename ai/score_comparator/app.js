@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 28/04/2025 - 16:50");
+    console.log("app.js connected - 28/04/2025 - 11:32");
 
     const teamSelect = document.getElementById('select---home--team');
     const seasonSelect = document.getElementById('form---select--season');
@@ -352,7 +352,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     }
 
-    function getComparisonClass(baseScore, matchScore) {
+   /*  function getComparisonClass(baseScore, matchScore) {
 
         if (!baseScore.played) {
 
@@ -435,7 +435,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (matchScore.home_score === 0) classes.push('match---failed-to-score');
 
         return classes.join(' ');
-    }
+    } */
     
     function updateMatchTable(matches, baseScore) {
 
@@ -468,9 +468,7 @@ document.addEventListener('DOMContentLoaded', function() {
             vsCell.textContent = 'v';
             awayTeamCell.textContent = match.away_team;
             awayScoreCell.textContent = match.played ? match.away_score : 'L';
-
-            // Add comparison classes to the row
-            row.className = getComparisonClass(baseScore, match);
+          
 
             // Add classes to cells
             homeScoreCell.className = 'column---home--score';

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 28/04/2025 - 11:34");
+    console.log("app.js connected - 29/04/2025 - 13:19");
 
     const teamSelect = document.getElementById('select---home--team');
     const seasonSelect = document.getElementById('form---select--season');
@@ -403,6 +403,29 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (match.away_score === 0) {
 
                     awayScoreCell.classList.add('match---failed-to-score');
+                }
+            }
+
+            // Add comparison classes based on match results
+            if (match.played && baseScore.played) {
+                if (isAwayMatch) {
+                    // For away matches - comparing when selected team is away
+                    if (match.away_score > match.home_score) {
+                        row.classList.add('match---win');
+                    } else if (match.away_score < match.home_score) {
+                        row.classList.add('match---loss');
+                    } else {
+                        row.classList.add('match---draw');
+                    }
+                } else {
+                    // For home matches - comparing when selected team is home
+                    if (match.home_score > match.away_score) {
+                        row.classList.add('match---win');
+                    } else if (match.home_score < match.away_score) {
+                        row.classList.add('match---loss');
+                    } else {
+                        row.classList.add('match---draw');
+                    }
                 }
             }
 

@@ -1,4 +1,4 @@
-/* Last Update 07-12-2021 - 10:58 */
+/* Last Update 30-04-2025 - 12:43 */
 
 @import "sass/partial";
 
@@ -36,14 +36,12 @@ header {
     height: 100vh;
     overflow-x: hidden;
     /* overflow-y: auto; */
-    perspective: 2px;
-
-    
+    perspective: 2px;    
 
     .section { 
 
         position: relative;
-        height: 100vh;
+        /* height: 100vh; */
         display: flex;
         flex-direction: column;
         /* align-items: center; */
@@ -52,7 +50,7 @@ header {
         /* width: 48%; */
         margin: 0 auto;
         color: white;
-        padding: 5% 20px;
+        padding: 15% 20px;
         text-shadow: 0 0 5px #000;
 
         @media(max-width: $lg) {
@@ -368,6 +366,7 @@ header {
     content: "";
 }
 
+// section group selectors
 #intro,
 #my-history,
 #qualifications,
@@ -376,7 +375,9 @@ header {
 #webdesign,
 #photography,
 #christianity,
-#politics {
+#politics,
+#autism,
+#gaming {
 
     text-align: left;
 
@@ -398,11 +399,45 @@ header {
         p {
             /* margin-top: 15px; */
             margin-top: 3%;
+
+            @media (max-width: $sm) {
+
+                width: 85%;
+            }
+        }
+    }
+
+    p {
+        /* margin-top: 15px; */
+        margin-top: 3%;
+
+        @media (max-width: $sm) {
+
+            width: 85%;
         }
     }
 
 }
 
+#intro {
+
+    p {
+
+        display: block;
+        margin: 4px auto;
+        width: 51%;
+
+        @media (max-width: $sm) {
+
+            width: 85%;
+        }
+
+    }
+
+}
+
+
+// background image group selectors
 .bg1,
 .bg2,
 .bg3,
@@ -410,7 +445,9 @@ header {
 .bg5,
 .bg6,
 .bg7,
-.bg8 {
+.bg8,
+.bg9,
+.bg10 {
 
     padding: 3% 0px;
 
@@ -463,6 +500,8 @@ header {
     background-attachment: fixed;
     text-align: left;
 
+    background-position: 20px -43px;
+
     @extend %background-img-styles;
 }
 
@@ -512,11 +551,18 @@ header {
     @extend %background-img-styles;
 }
 
-
-
 .bg9::after {
     
-    background: url('https://jg-photography.s3.eu-west-2.amazonaws.com/photography/images/2021/canon_75_300/birds_in_flight/IMG_2087.JPG')
+    background: url('https://jg-photography.s3.eu-west-2.amazonaws.com/photography/images/2021/canon_75_300/birds_in_flight/IMG_4755.JPG')
+    no-repeat center / cover;
+    background-attachment: fixed;
+
+    @extend %background-img-styles;
+}
+
+.bg10::after {
+    
+    background: url('https://jg-photography.s3.eu-west-2.amazonaws.com/photography/images/2021/canon_75_300/birds_in_flight/IMG_2089.JPG')
     no-repeat center / cover;
     background-attachment: fixed;
 

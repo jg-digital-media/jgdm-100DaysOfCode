@@ -1,4 +1,4 @@
-/* Last Update 30-04-2025 - 12:43 */
+/* Last Update 30-04-2025 - 15:34 */
 
 @import "sass/partial";
 
@@ -380,6 +380,7 @@ header {
 #gaming {
 
     text-align: left;
+    /* height: 800px; */
 
     h2 {
 
@@ -450,6 +451,10 @@ header {
 .bg10 {
 
     padding: 3% 0px;
+    background-attachment: fixed;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    height: auto;
 
     h2 {
 

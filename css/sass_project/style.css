@@ -75,7 +75,7 @@ aside p #image_total_count {
   border-bottom: solid red 3px;
 }
 
-.js-carousel {
+.js---carousel--container {
   width: 42%;
   display: block;
   margin: 0 auto;
@@ -83,12 +83,12 @@ aside p #image_total_count {
   text-align: center;
 }
 @media (max-width: 640px) {
-  .js-carousel {
+  .js---carousel--container {
     border: none;
   }
 }
 
-.js-carousel img {
+.js---carousel--container img {
   width: 70%;
   margin: 0 auto;
   border-radius: 6px;

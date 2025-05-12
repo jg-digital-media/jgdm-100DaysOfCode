@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 29/04/2025 - 16:30");
+    console.log("app.js connected - 12/05/2025 - 10:30");
 
     const teamSelect = document.getElementById('select---home--team');
     const seasonSelect = document.getElementById('form---select--season');
@@ -23,6 +23,30 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Define team lists for each season
     const teamLists = {
+
+        // 2020/21 Season Teams 
+        '2021': `
+            <option id="select---home--placeholder" value="Select Team">Select Team...</option>
+            <option id="select---home--arsenal" value="Arsenal">Arsenal</option>
+            <option id="select---home--astonvilla" value="Aston Villa">Aston Villa</option>
+            <option id="select---home--brighton" value="Brighton & Hove Albion">Brighton & Hove Albion</option>
+            <option id="select---home--burnley" value="Burnley">Burnley</option>
+            <option id="select---home--chelsea" value="Chelsea">Chelsea</option>
+            <option id="select---home--crystalpalace" value="Crystal Palace">Crystal Palace</option>
+            <option id="select---home--everton" value="Everton">Everton</option>
+            <option id="select---home--fulham" value="Fulham">Fulham</option>
+            <option id="select---home--leeds" value="Leeds United">Leeds United</option>
+            <option id="select---home--leicester" value="Leicester City">Leicester City</option>
+            <option id="select---home--liverpool" value="Liverpool">Liverpool</option>
+            <option id="select---home--manchestercity" value="Manchester City">Manchester City</option>
+            <option id="select---home--manchesterunited" value="Manchester United">Manchester United</option>
+            <option id="select---home--sheffieldunited" value="Sheffield United">Sheffield United</option>
+            <option id="select---home--southampton" value="Southampton">Southampton</option>
+            <option id="select---home--tottenhamhotspur" value="Tottenham Hotspur">Tottenham Hotspur</option>
+            <option id="select---home--westbrom" value="West Bromwich Albion">West Bromwich Albion</option>
+            <option id="select---home--westham" value="West Ham United">West Ham United</option>
+            <option id="select---home--wolverhampton" value="Wolverhampton Wanderers">Wolverhampton Wanderers</option>
+        `,
 
         // 2021/22 Season teams
         '2022': `
@@ -158,15 +182,23 @@ document.addEventListener('DOMContentLoaded', function() {
         if (season === '2025') {
 
             displayText = '2024/2025';
+
         } else if (season === '2024') {
 
             displayText = '2023/2024';
+
         } else if (season === '2023') {
 
             displayText = '2022/2023';
+
         } else if (season === '2022') {
 
             displayText = '2021/2022';
+            
+        } else if (season === '2021') {
+
+            displayText = '2020/2021';
+
         } else {
 
             // Handle any future seasons
@@ -247,6 +279,8 @@ document.addEventListener('DOMContentLoaded', function() {
             endpointName = 'wolverhampton';
         } else if (endpointName === 'westhamunited') {
             endpointName = 'westham';
+        } else if (endpointName === 'westbrom') {
+            endpointName = 'westbrom';
         } else if (endpointName === 'ipswichtown') {
             endpointName = 'ipswich';
         }

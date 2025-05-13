@@ -1,4 +1,4 @@
-/* Last Update: 21/03/2025 - 15:31 */
+/* Last Update: 13/05/2025 - 11:37 */
 
 /* Match List - Season: 20/21
 
@@ -395,47 +395,47 @@ CREATE TABLE base_scores_away (
 
 -- Insert Base Scores for home reports
 INSERT INTO base_scores_home (home_team, away_team, home_score, away_score, played) VALUES
-    ('Arsenal', 'Newcastle United', 0, 0, 0),
-    ('Aston Villa', 'Newcastle United', 0, 0, 0),
-    ('Brighton & Hove Albion', 'Newcastle United', 0, 0, 0),
-    ('Burnley', 'Newcastle United', 0, 0, 0),
-    ('Chelsea', 'Newcastle United', 0, 0, 0),
-    ('Crystal Palace', 'Newcastle United', 0, 0, 0),
-    ('Everton', 'Newcastle United', 0, 0, 0),
-    ('Fulham', 'Newcastle United', 0, 0, 0),
-    ('Leeds United', 'Newcastle United', 0, 0, 0),
-    ('Leicester City', 'Newcastle United', 0, 0, 0),
-    ('Liverpool', 'Newcastle United', 0, 0, 0),        
-    ('Manchester City', 'Newcastle United', 0, 0, 0),
-    ('Manchester United', 'Newcastle United', 0, 0, 0),
-    ('Sheffield United', 'Newcastle United', 0, 0, 0), 
-    ('Southampton', 'Newcastle United', 0, 0, 0),
-    ('Tottenham Hotspur', 'Newcastle United', 0, 0, 0),
-    ('West Bromwich Albion', 'Newcastle United', 0, 0, 0),
-    ('West Ham United', 'Newcastle United', 0, 0, 0),
-    ('Wolverhampton Wanderers', 'Newcastle United', 0, 0, 0);
+    ('Arsenal', 'Newcastle United', 3, 0, 1),
+    ('Aston Villa', 'Newcastle United', 2, 0, 1),
+    ('Brighton & Hove Albion', 'Newcastle United', 3, 0, 1),
+    ('Burnley', 'Newcastle United', 1, 2, 1),
+    ('Chelsea', 'Newcastle United', 2, 0, 1),
+    ('Crystal Palace', 'Newcastle United', 0, 2, 1),
+    ('Everton', 'Newcastle United', 0, 2, 1),
+    ('Fulham', 'Newcastle United', 0, 2, 1),
+    ('Leeds United', 'Newcastle United', 5, 2, 1),
+    ('Leicester City', 'Newcastle United', 2, 4, 1),
+    ('Liverpool', 'Newcastle United', 1, 1, 1),        
+    ('Manchester City', 'Newcastle United', 2, 0, 1),
+    ('Manchester United', 'Newcastle United', 3, 1, 1),
+    ('Sheffield United', 'Newcastle United', 1, 0, 1), 
+    ('Southampton', 'Newcastle United', 2, 0, 1),
+    ('Tottenham Hotspur', 'Newcastle United', 1, 1, 1),
+    ('West Bromwich Albion', 'Newcastle United', 0, 0, 1),
+    ('West Ham United', 'Newcastle United', 0, 2, 1),
+    ('Wolverhampton Wanderers', 'Newcastle United', 1, 1, 1);
 
 -- Insert Base Scores for away reports
 INSERT INTO base_scores_away (home_team, away_team, home_score, away_score, played) VALUES
-    ('Newcastle United', 'Arsenal', 0, 0, 0),
-    ('Newcastle United', 'Aston Villa', 0, 0, 0),
-    ('Newcastle United', 'Brighton & Hove Albion', 0, 0, 0),
-    ('Newcastle United', 'Burnley', 0, 0, 0),
-    ('Newcastle United', 'Chelsea', 0, 0, 0),
-    ('Newcastle United', 'Crystal Palace', 0, 0, 0),
-    ('Newcastle United', 'Everton', 0, 0, 0),
-    ('Newcastle United', 'Fulham', 0, 0, 0),
-    ('Newcastle United', 'Leeds United', 0, 0, 0),
-    ('Newcastle United', 'Leicester City', 0, 0, 0),
-    ('Newcastle United', 'Liverpool', 0, 0, 0),
-    ('Newcastle United', 'Manchester City', 0, 0, 0),
-    ('Newcastle United', 'Manchester United', 0, 0, 0),
-    ('Newcastle United', 'Sheffield United', 0, 0, 0),
-    ('Newcastle United', 'Southampton', 0, 0, 0),
-    ('Newcastle United', 'Tottenham Hotspur', 0, 0, 0),
-    ('Newcastle United', 'West Bromwich Albion', 0, 0, 0),
-    ('Newcastle United', 'West Ham United', 0, 0, 0),    
-    ('Newcastle United', 'Wolverhampton Wanderers', 0, 0, 0);
+    ('Newcastle United', 'Arsenal', 0, 2, 1),
+    ('Newcastle United', 'Aston Villa', 1, 1, 1),
+    ('Newcastle United', 'Brighton & Hove Albion', 0, 3, 1),
+    ('Newcastle United', 'Burnley', 3, 1, 1),
+    ('Newcastle United', 'Chelsea', 0, 2, 1),
+    ('Newcastle United', 'Crystal Palace', 1, 2, 1),
+    ('Newcastle United', 'Everton', 2, 1, 1),
+    ('Newcastle United', 'Fulham', 1, 1, 1),
+    ('Newcastle United', 'Leeds United', 1, 2, 1),
+    ('Newcastle United', 'Leicester City', 1, 2, 1),
+    ('Newcastle United', 'Liverpool', 0, 0, 1),
+    ('Newcastle United', 'Manchester City', 3, 4, 1),
+    ('Newcastle United', 'Manchester United', 1, 4, 1),
+    ('Newcastle United', 'Sheffield United', 1, 0, 1),
+    ('Newcastle United', 'Southampton', 3, 2, 1),
+    ('Newcastle United', 'Tottenham Hotspur', 2, 2, 1),
+    ('Newcastle United', 'West Bromwich Albion', 2, 1, 1),
+    ('Newcastle United', 'West Ham United', 3, 2, 1),    
+    ('Newcastle United', 'Wolverhampton Wanderers', 1, 1, 1);
 
 
 -- Data filled for Match Week 

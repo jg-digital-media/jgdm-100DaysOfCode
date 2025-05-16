@@ -57,7 +57,6 @@
     + free-code-camp-2022
     + grid_project
     + localhost_homepage
-    + me
     + modernizr
     + portfolio-gallery
     + project_status

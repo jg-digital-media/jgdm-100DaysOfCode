@@ -1,4 +1,4 @@
-/* Last Update: 22/05/2025 - 10:47 */
+/* Last Update: 23/05/2025 - 15:23 */
 
 /* Match List - Season: 20/21
 
@@ -1100,7 +1100,7 @@ INSERT INTO sheffieldunited_away_matches (home_team, home_score, away_team, away
     ('Liverpool', 2, 'Sheffield United', 1, 1),
     ('Manchester City', 1, 'Sheffield United', 0, 1),
     ('Manchester United', 1, 'Sheffield United', 2, 1),
-    ('Southampton', 3, 'Sheffield United', 0,   ),
+    ('Southampton', 3, 'Sheffield United', 0, 1),
     ('Tottenham Hotspur', 4, 'Sheffield United', 0, 1),
     ('West Bromwich Albion', 1, 'Sheffield United', 0, 1),
     ('West Ham United', 3, 'Sheffield United', 0, 1),

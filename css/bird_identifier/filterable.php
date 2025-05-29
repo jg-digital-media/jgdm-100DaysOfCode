@@ -147,9 +147,9 @@
             </div>            
 
             <div class="bird---item bird---class--white-light bird---class--countryside bird---class--large" data-lightbox="Filterable Birds" data-habitat="countryside" data-size="large" data-color="grey white">
-                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0859.JPG" alt="Grey Heron">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_5015.JPG" alt="Grey Heron">
                 <div class="bird_name">Grey Heron</div>
-                <div class="bird_date">25/01/2025</div>
+                <div class="bird_date">10/05/2025</div>
 
             </div>
 
@@ -315,22 +315,50 @@
             </div>
 
             <div class="bird---item bird---class--black bird---class--white-light bird---class--medium bird---class--medium bird---class--coastal bird---class--countryside" data-lightbox="Filterable Birds" data-habitat="water" data-size="medium" data-color="white-light black">
-                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_4303.JPG" alt="Pied Wagtail">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_4303.JPG" alt="Pied Avocet">
                 <div class="bird_name">Pied Avocet</div>
                 <div class="bird_date">23/04/2024</div>
 
             </div>
 
             <div class="bird---item bird---class--black bird---class--white-light bird---class--medium bird---class--medium bird---class--coastal bird---class--countryside" data-lightbox="Filterable Birds" data-habitat="water" data-size="medium" data-color="white-light black">
-                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_4341.JPG" alt="Pied Wagtail">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_4341.JPG" alt="Eurasian Oystercatcher">
                 <div class="bird_name">Eurasian Oystercatcher</div>
                 <div class="bird_date">23/04/2024</div>
 
             </div>
 
             <div class="bird---item bird---class--black bird---class--white-light bird---class--medium bird---class--medium bird---class--coastal bird---class--countryside" data-lightbox="Filterable Birds" data-habitat="water" data-size="medium" data-color="white-light black">
-                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_4335.JPG" alt="Pied Wagtail">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_4335.JPG" alt="Common Shelduck">
                 <div class="bird_name">Common Shelduck</div>
+                <div class="bird_date">23/04/2024</div>
+
+            </div>
+            
+            <div class="bird---item bird---class--black bird---class--small bird---class--countryside" data-lightbox="Filterable Birds" data-habitat="water" data-size="medium" data-color="white-light black">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_5278.JPG" alt="Common Swift">
+                <div class="bird_name">Common Swift</div>
+                <div class="bird_date">17/05/2024</div>
+
+            </div>            
+            
+            <div class="bird---item bird---class--mixed-brown bird---class--small bird---class--countryside" data-lightbox="Filterable Birds" data-habitat="water" data-size="medium" data-color="white-light black">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_5163.JPG" alt="Eurasian Wren">
+                <div class="bird_name">Eurasian Wren</div>
+                <div class="bird_date">14/05/2024</div>
+
+            </div>
+            
+            <div class="bird---item bird---class--grey bird---class--small bird---class--countryside" data-lightbox="Filterable Birds" data-habitat="water" data-size="medium" data-color="white-light black">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_5254.JPG" alt="Eurasian Collared Dove">
+                <div class="bird_name">Eurasian Collared Dove</div>
+                <div class="bird_date">15/05/2024</div>
+
+            </div>
+
+            <div class="bird---item bird---class--black bird---class--medium bird---class--countryside bird---class--water" data-lightbox="Filterable Birds" data-habitat="water" data-size="medium" data-color="white-light black">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_4231.JPG" alt="Lesser Moorhen">
+                <div class="bird_name">Lesser Moorhen</div>
                 <div class="bird_date">23/04/2024</div>
 
             </div>

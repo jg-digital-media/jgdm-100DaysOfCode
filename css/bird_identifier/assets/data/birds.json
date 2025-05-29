@@ -359,6 +359,48 @@
             "lightbox": "Filterable Birds",
             "photo_date": "23/04/2025",
             "filter classes": ""           
+        },  {
+
+            "name": "Common Swift",
+            "scientific_name": "Apus apus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_5278.JPG",
+            "filename": "IMG_5278.JPG",            
+            "description": "A medium sized Bird. superficially similar to a swallow, but with a long, thin bill and a short, rounded tail.",
+            "lightbox": "Filterable Birds",
+            "photo_date": "17/05/2025",
+            "filter classes": ""           
+        },  {
+
+            "name": "Eurasian Wren",
+            "scientific_name": "Troglodytes troglodytes",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_5163.JPG",
+            "filename": "IMG_5163.JPG",            
+            "description": "A very small insectivorous bird with a long, thin bill and a short, rounded tail.",
+            "lightbox": "Filterable Birds",
+            "photo_date": "14/05/2025",
+            "filter classes": ""           
+        },  {
+
+            "name": "Eurasian Collared Dove",
+            "scientific_name": "Steptopelia decaocto",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_5254.JPG",
+            "filename": "IMG_5254.JPG",            
+            "description": "A species of Dove native to Europe.",
+            "lightbox": "Filterable Birds",
+            "photo_date": "14/05/2025",
+            "filter classes": ""           
+        },  {
+
+            "name": "Lesser Moorhen",
+            "scientific_name": "Gallinula angulata",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_4231.JPG",
+            "filename": "IMG_4231.JPG",            
+            "description": "The lesser Moorhen is a species of bird in the family of Rallidae.",
+            "lightbox": "Filterable Birds",
+            "photo_date": "23/04/2025",
+            "filter classes": ""           
         }
+
+        
     ]
 }

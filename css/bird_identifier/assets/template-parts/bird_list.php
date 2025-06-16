@@ -23,4 +23,13 @@
     <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2894.JPG" class="" id="" target="_blank">IMG_2894.JPG - White-throated Dipper</a></li>
     <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2362.JPG" class="" id="" target="_blank">IMG_2362.JPG - Black-headed Gull</a></li>
     <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2423.JPG" class="" id="" target="_blank">IMG_2423.JPG - Little Grebe</a></li>
+    <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_5606.JPG" class="" id="" target="_blank">IMG_5606.JPG - European Goldfinch</a></li>
+    <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_5603.JPG" class="" id="" target="_blank">IMG_5603.JPG - Wren</a></li>
+    <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_5822.JPG" class="" id="" target="_blank">IMG_5822.JPG - Dunnock</a></li>
+        
+    <!--
+    <li>IMG_5606.JPG - European Goldfinch</li>    
+    <li>IMG_5603.JPG - Wren</li>    
+    <li>IMG_5822.JPG - Dunnock</li>
+    -->
 </ul>

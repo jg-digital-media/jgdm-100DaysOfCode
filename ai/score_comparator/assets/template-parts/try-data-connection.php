@@ -16,6 +16,8 @@
         $dbPath = '../../assets/data/seasons/season-21-22.db'; // 2021/22 season
     } elseif ($season === '2021') {
         $dbPath = '../../assets/data/seasons/season-20-21.db'; // 2020/21 season
+    } elseif ($season === '2020') {
+        $dbPath = '../../assets/data/seasons/season-19-20.db'; // 2019/20 season
     } else {
 
         // Future proofing for other seasons

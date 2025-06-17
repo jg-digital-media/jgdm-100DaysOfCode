@@ -1182,7 +1182,7 @@ INSERT INTO westham_away_matches (home_team, home_score, away_team, away_score, 
     ('Manchester United', 1, 'West Ham United', 0, 1),
     ('Sheffield United', 0, 'West Ham United', 1, 1),
     ('Southampton', 0, 'West Ham United', 0, 1),
-    ('Tottenham Hotspur', 3, 'West Ham United', 3, 3),
+    ('Tottenham Hotspur', 3, 'West Ham United', 3, 1),
     ('West Bromwich Albion', 1, 'West Ham United', 3, 1),
     ('Wolverhampton Wanderers', 2, 'West Ham United', 3, 1);
 

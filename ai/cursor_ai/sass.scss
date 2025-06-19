@@ -40,13 +40,23 @@ section {
             line-height: 1.6;
         }
     }
+
+    p {
+
+        line-height: 1.8;
+    }
 }
 
 #section---about--cursor {
 
-        h2 {    
-            text-align: center;
-        }
+    width: 520px;
+    display: block;
+    margin: 0 auto;
+
+    h2 {    
+        text-align: center;
+    }
+
 }
 
 #section---projects--in--cursor {

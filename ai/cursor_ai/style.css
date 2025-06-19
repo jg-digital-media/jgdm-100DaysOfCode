@@ -31,7 +31,15 @@ section {
 section ul li {
   line-height: 1.6;
 }
+section p {
+  line-height: 1.8;
+}
 
+#section---about--cursor {
+  width: 520px;
+  display: block;
+  margin: 0 auto;
+}
 #section---about--cursor h2 {
   text-align: center;
 }

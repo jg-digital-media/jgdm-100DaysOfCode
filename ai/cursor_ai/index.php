@@ -20,12 +20,47 @@
 
             <h2>About Cursor AI</h2>
 
-            <p>Cursor AI is the leading Text Editor that bundles with AI enhances your browsing experience by providing intelligent suggestions and actions based on your codebase..</p>
+            <p>Cursor AI is the leading Text Editor that bundles with AI enhances your browsing experience by providing intelligent suggestions and actions based on your codebase.</p>
+
+            <p>Using this AI technology, I've been able to build projects that I've previously ever been able to do. It's not that I don't understand programming concepts.  It's more that I have a block in my head that prevents me from putting them togther.  Things like Condition statementws, event listeners, loopps, functions, arguments, parameters. They're all in there to a certain extent in my head.  It's like having the pieces of a jigsaw puzzle and simply not being able to work out what piece goes where. Ever.</p>
+                
+            <p>And this is after over 20 years now of working wirh programming in some form.</p>
+
+            <h3>And this is where Vibe coding comes in.</h3>
+
+            <p>I'm still learning about Vibe coding as I go but I recently realised i've been doing it more and more without really knowing it was a thing. </p>
+            
+            <p>I said it was a "thing" but there's nothing official about the term. I don't think Computer Science approves or recommends the approach yet. But for people like me though it is a God send.  I've always said, Vibe code, or use AI to code, with caution.  You know you rely on it to build projects, but you also know you do have to spend time studying the code and understanding that it all it is doing is relying on assumptions. That is assumptions about your input and the data it scrapes online.
+
+            <h3>Pros and Cons of Vibe Coding</h3>
+
+            <p>Pros:</p>
+            <ul>
+                <li>You can build projects that you've never been able to do before.</li>
+
+                <li><strong>Confidence Boost: </strong> You don't have to fear the blank page — AI can help sketch things out, and you edit/steer.</li>
+
+                <li><strong>Exploration-Friendly: </strong> You can test out ideas fast without worrying about doing it the “proper” way first.</li>
+
+                <li><strong>Pair Programming Feel: </strong> Cursor and tools like me can guide you through thought processes, edge cases, or “what next?” moments.</li>
+                <li><strong>Speed & Flow: </strong> You can go from idea to working code super fast — even if you're fuzzy on the implementation.</li>
+                <li><strong>Learning On the Go: </strong> AI can explain or suggest things as you build, which helps build intuition without deep-diving docs every time. </li>             
+                
+            </ul>
+
+            <p>Cons:</p>
+            <ul>
+                <li>You have to spend time studying the code and understanding that it all it is doing is relying on assumptions. That is assumptions about your input and the data it scrapes online.</li>
+                <li><strong>shallow Understanding Risk: </strong> </li>
+                <li><strong>Overconfidence Trap: </strong>AI-generated code can look right but be subtly wrong — you still need to review and reason through it.</li>
+                <li><strong>Less Structure: </strong>If you're constantly improvising with the AI, your code can become patchy, inconsistent, or hard to scale.</li>
+                <li><strong>AI Echo Chamber: </strong>If your prompts are vague or your direction's unclear, the AI might reinforce bad assumptions instead of challenge them.</li>
 
         </section>
+
         <section>
 
-            <h2>Features</h2>
+            <h2>Features of Cursor AI</h2>
 
             <ul>
                 <li class="cursor---featues">Smart suggestions</li>

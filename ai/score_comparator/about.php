@@ -57,7 +57,7 @@
     <header>
 
         <h1 class="main---title">Football Score Comparator</h1>
-        <div class="tagline">Based on Newcastle United <span>(v3.2)</span> <span id="back---home"><a href="index.php">Back to Homepage</a></span></div>
+        <div class="tagline">Based on Newcastle United <span>(v3.3)</span> <span id="back---home"><a href="index.php">Back to Homepage</a></span></div>
         
     </header>
 
@@ -141,7 +141,7 @@
             
             <li>Expanded the seasons available in the app to include <code><strong>2025/2026</strong></code>. This will be grown in real time as the premier league season develops. (The end of the previous season finally got ahead of me :) )</li>
             <li>Expanded the seasons available in the app to include <code><strong>2019/2020</strong></code>. The start of the set of historic season results data that I've gathered. It'll be updated in the near future.</li>
-            <li>More seasons will be incrementally added as they are completed. Complete seasons include: <strong>2024/2025</strong></code>, and the <code><strong>2023/2024</strong></code>, <code><strong>2022/2023</strong></code>, <code><strong>2021/2022</strong></code> and <code><strong>2020/2021</strong></code>.</li>
+            <li>More seasons will be incrementally added as they are completed. Complete seasons include: <code><strong>2024/2025</strong></code>, and the <code><strong>2023/2024</strong></code>, <code><strong>2022/2023</strong></code>, <code><strong>2021/2022</strong></code> and <code><strong>2020/2021</strong></code>.</li>
             <!-- <li><code><strong>Phase ends (23/05/2025)</strong></code></li> -->
 
         </ul>

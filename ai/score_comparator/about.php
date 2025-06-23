@@ -129,9 +129,21 @@
 
         <ul class="development---history"> 
             
-            <li><strong><em>In Development</em></strong>. Simply the comparison key and comparison classes that highlight the compared results. 3 colours.</li>
+          
             <li> This expansion covers the <code><strong>2024/2025</strong></code>, and the <code><strong>2023/2024</strong></code>, <code><strong>2022/2023</strong></code>, <code><strong>2021/2022</strong></code> and <code><strong>2020/2021</strong></code> seasons.</li>
-            <!--<li><code><strong>Phase ends (23/05/2025)</strong></code></li>-->
+            <li><code><strong>Phase ends (23/05/2025)</strong></code></li>
+        </ul>
+
+
+        <code class="version---heading">v3.3</code>
+
+        <ul class="development---history"> 
+            
+            <li>Expanded the seasons available in the app to include <code><strong>2025/2026</strong></code>. This will be grown in real time as the premier league season develops. (The end of the previous season finally got ahead of me :) )</li>
+            <li>Expanded the seasons available in the app to include <code><strong>2019/2020</strong></code>. The start of the set of historic season results data that I've gathered. It'll be updated in the near future.</li>
+            <li>More seasons will be incrementally added as they are completed. Complete seasons include: <strong>2024/2025</strong></code>, and the <code><strong>2023/2024</strong></code>, <code><strong>2022/2023</strong></code>, <code><strong>2021/2022</strong></code> and <code><strong>2020/2021</strong></code>.</li>
+            <!-- <li><code><strong>Phase ends (23/05/2025)</strong></code></li> -->
+
         </ul>
 
         <h2>Points to take.</h2>
@@ -146,7 +158,7 @@
 
         <p class="disclaimer"><strong>Disclaimer: </strong>While every effort has been and will be made to ensure accuracy of the match results some errors are all but inevitable. If you spot a discrepancy or inaccuracy in the data, <a href="mailto: mail@jonniegrieve.co.uk">please let me know</a>.</p>
 
-        <p>Data last updated: <strong>15-04-2025</strong></p>
+        <p>Data last updated: <strong>23-06-2025</strong></p>
 
         <a href="index.php" class="back---to--match-tables">Back to the Match Tables</a>
 

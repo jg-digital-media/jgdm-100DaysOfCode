@@ -1,4 +1,4 @@
-/* Last Update: 23/06/2025 - 13:08 */
+/* Last Update: 23/06/2025 - 13:42 */
 
 /* Match List - Season: 25/26
 
@@ -97,7 +97,7 @@ CREATE TABLE fulham_home_matches (
     played INTEGER
 );
 
-CREATE TABLE leeds,_home_matches (
+CREATE TABLE leeds_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -1024,7 +1024,7 @@ INSERT INTO fulham_away_matches (home_team, home_score, away_team, away_score, p
     ('Sunderland', 0, 'Fulham', 0, 0),
     ('Tottenham Hotspur', 0, 'Fulham', 0, 0),
     ('West Ham United', 0, 'Fulham', 0, 0),
-    ('Wolverhampton Wanderers', 0, 'Fulham', 0, 0)
+    ('Wolverhampton Wanderers', 0, 'Fulham', 0, 0);
 
 INSERT INTO leeds_away_matches (home_team, home_score, away_team, away_score, played) VALUES
     ('AFC Bournemouth', 0, 'Leeds United', 0, 0),

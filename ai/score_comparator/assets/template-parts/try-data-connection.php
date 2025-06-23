@@ -6,8 +6,10 @@
     // Determine which database to use based on the season selected
     $dbPath = '';
 
-    if ($season === '2025') {
-        $dbPath = '../../assets/data/seasons/season-24-25.db'; // Current season (2024/25)
+    if ($season === '2026') {
+        $dbPath = '../../assets/data/seasons/season-25-26.db'; // Current season (2025/26)
+    } elseif ($season === '2025') {
+        $dbPath = '../../assets/data/seasons/season-24-25.db'; // 2024/25 season
     } elseif ($season === '2024') {
         $dbPath = '../../assets/data/seasons/season-23-24.db'; // 2023/24 season
     } elseif ($season === '2023') {

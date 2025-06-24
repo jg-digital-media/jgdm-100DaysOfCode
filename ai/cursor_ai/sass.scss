@@ -13,12 +13,20 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    
+    h1 {
+
+        margin: 0;
+        font-size: 32px;
+
+        @media (max-width: 640px) {
+
+            font-size: 5vw;
+            
+        }
+    }
 }
 
-h1 {
-
-    margin: 0;
-}
 
 main {
 
@@ -27,23 +35,74 @@ main {
 
 section {
 
+    /* display: block; */
+    /* width: 520px; */
+    /* margin: 20px auto; */
+    width: 520px;
+    display: block;
+    margin: 15px auto;
     margin-bottom: 20px;
     background: white;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
+    @media (max-width: 640px) {
+
+        width: 94%;
+        margin: 0 auto;
+    }
+
     ul {
 
         li {
 
-            line-height: 1.6;
+            line-height: 1.6;   
+            width: 348px;
+            display: block;
+            margin: 20px auto;
         }
     }
 
     p {
 
-        line-height: 1.8;
+        line-height: 1.9;
+        line-height: 1.9;
+        width: 70%;
+        /* display: block; */
+        margin: 20px auto;
+    }
+
+    h3.l3-heading {
+
+        display: block;
+        border-bottom: #007BFF solid 3px;
+    }
+
+    h4.l4-heading {
+
+        display: inline-block;
+        border-radius: 6px;
+        ;
+    }
+
+    #heading-pros {
+
+        padding: 5px;
+        background: #60f560;
+        display: block;
+        width: 53px;
+
+    }
+
+    #heading-cons {
+
+        
+        padding: 5px;
+        background: #ff8686;
+        display: block;
+        width: 53px;
+
     }
 }
 
@@ -51,26 +110,82 @@ section {
 
     width: 520px;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
+
+    @media (max-width: 640px) {
+
+        width: 94%;
+    }
 
     h2 {    
+
         text-align: center;
+        border-bottom: solid 2px #007BFF;
     }
 
 }
 
+#section---cursor--features {
+
+   
+    margin: 20px auto;  
+    text-align: center;
+    
+    h2 {    
+
+            text-align: center;
+            /* display: inline-block; */
+            margin: 0 auto;
+            width: 66%;
+            border-bottom: solid 2px #007BFF;
+    }
+
+
+    ul {
+
+        li {
+
+            display: block;
+            text-align: center;
+            margin: 15px auto;
+            transition: background 0.3s ease;
+
+            &:hover {
+
+                background: lighten($color: gray, $amount: 8%);               
+            }
+        }
+    }
+}
+
 #section---projects--in--cursor {
 
-        h2 {    
-            text-align: center;
-        }
+    h2 {    
+        text-align: center;
+        text-align: center;
+        border-bottom: solid 3px #007BFF;
+        /* display: inline-block; */
+        margin: 0 auto;
+        width: 88%;
+    }
+
+    p {
+
+        width: 58%;
+    }
+
 }
 
 #section---howit--works {
 
-        h2 {    
-            text-align: center;
-        }
+    h2 {    
+        
+        text-align: center;
+        border-bottom: solid 3px #007BFF;
+        /* display: inline-block; */
+        margin: 0 auto;
+        width: 34%;
+    }
 }
 
 footer {

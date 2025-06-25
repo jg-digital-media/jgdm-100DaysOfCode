@@ -22,9 +22,7 @@
     <li>IMG_2894.JPG - White-throated Dipper</li>
     <li>IMG_2362.JPG - Black-headed Gull</li>
     <li>IMG_2423.JPG - Little Grebe</li>
-    <!--
     <li>IMG_5606.JPG - European Goldfinch</li>    
     <li>IMG_5603.JPG - Wren</li>    
     <li>IMG_5822.JPG - Dunnock</li>
-    -->
 </ul>

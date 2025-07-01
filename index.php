@@ -1,5 +1,7 @@
 <?php
 
+    // 01-07-2025 10:33
+
     // Set the timezone to UK
     date_default_timezone_set('Europe/London');
 
@@ -102,35 +104,35 @@
         
         <ul>
 
-            <li><strong><a href="ai/index.html" title="AI Projects Home" target="_blank">AI Projects Home</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/index.html" title="AI Project Home" target="_blank">Live</a> </li>
+            <li><strong><a href="ai/index.html" title="AI Projects Home" target="_blank">AI Projects Home</a></strong> - AI Projects Homepage -  <a href="https://projects.jonniegrieve.co.uk/ai/index.html" title="AI Project Home" target="_blank">Live</a> </li>
 
-            <li><strong><a href="ai/checkbox_filtering/index.php" title="AI Project: Checkbox Filtering" target="_blank">checkbox_filtering</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/checkbox_filtering/index.php" title="AI Project: Checkbox Filtering" target="_blank">Live</a></li>
+            <li><strong><a href="ai/checkbox_filtering/index.php" title="AI Project: Checkbox Filtering" target="_blank">checkbox_filtering</a></strong> - Toggle Child Elements by class - <a href="https://projects.jonniegrieve.co.uk/ai/checkbox_filtering/index.php" title="AI Project: Checkbox Filtering" target="_blank">Live</a></li>
 
-            <li><strong><a href="ai/colour_picker/index.html" title="AI Project: Colour Picker" target="_blank">colour_picker</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/colour_picker/index.html" title="AI Project: Colour Picker" target="_blank">Live</a></li>       
+            <li><strong><a href="ai/colour_picker/index.html" title="AI Project: Colour Picker" target="_blank">colour_picker</a></strong> - A colour picker in JavaScript and CSS - <a href="https://projects.jonniegrieve.co.uk/ai/colour_picker/index.html" title="AI Project: Colour Picker" target="_blank">Live</a></li>       
 
-            <li><strong><a href="ai/copy_text/index.php" title="AI Project: Copy Text" target="_blank">copy_text</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/copy_text/index.php" title="AI Project: Copy Text" target="_blank">Live</a></li>           
+            <li><strong><a href="ai/copy_text/index.php" title="AI Project: Copy Text" target="_blank">copy_text</a></strong> - Copy List Item text -  <a href="https://projects.jonniegrieve.co.uk/ai/copy_text/index.php" title="AI Project: Copy Text" target="_blank">Live</a></li>           
             
-            <li><strong><a href="ai/cursor_ai" title="AI Project: Cursor AI" target="_blank">colour_ai</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/colour_ai/" title="AI Project: Cursor AI" target="_blank">Live</a></li>   
+            <li><strong><a href="ai/cursor_ai" title="AI Project: Cursor AI" target="_blank">colour_ai</a></strong> - Cursor AI Homepage - <a href="https://projects.jonniegrieve.co.uk/ai/colour_ai/" title="AI Project: Cursor AI" target="_blank">Live</a></li>   
 
-            <li><strong><a href="ai/draggable_list" title="AI Project: Draggable List" target="_blank">draggable_list</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/mobile_menu/index.php" title="AI Project: Draggable List" target="_blank">Live</a></li>            
+            <li><strong><a href="ai/draggable_list" title="AI Project: Draggable List" target="_blank">draggable_list</a></strong> - Draggable List - <a href="https://projects.jonniegrieve.co.uk/ai/mobile_menu/index.php" title="AI Project: Draggable List" target="_blank">Live</a></li>            
 
-            <li><strong><a href="ai/dynamic_list/index.php" title="AI Project: Dynamic List" target="_blank">dynamic_list</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/mobile_menu/index.php" title="AI Project: Dynamic List" target="_blank">Live</a></li>    
+            <li><strong><a href="ai/dynamic_list/index.php" title="AI Project: Dynamic List" target="_blank">dynamic_list</a></strong> - Dynamic List - <a href="https://projects.jonniegrieve.co.uk/ai/mobile_menu/index.php" title="AI Project: Dynamic List" target="_blank">Live</a></li>    
 
-            <li><strong><a href="ai/interactive_js_php/index.php" title="AI Project: Interactive JavaScript List (with PHP)" target="_blank">interactive_js_php</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/interactive_js_php/index.php" title="AI Project: Interactive JavaScript List (with PHP)" target="_blank">Live</a></li> 
+            <li><strong><a href="ai/interactive_js_php/index.html" title="AI Project: Interactive JavaScript List (with PHP)" target="_blank">interactive_js_php</a></strong> - Interactive JavaScript List (with PHP) -  <a href="https://projects.jonniegrieve.co.uk/ai/interactive_js_php/index.html" title="AI Project: Interactive JavaScript List (with PHP)" target="_blank">Live</a></li> 
             
-            <li><strong><a href="ai/list_maker_ai/index.php" title="AI Project: List Maker AI" target="_blank">list_maker_ai</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/list_maker_ai/index.php" title="AI Project: List Maker AI" target="_blank">Live</a></li>
+            <li><strong><a href="ai/list_maker_ai/index.php" title="AI Project: List Maker AI" target="_blank">list_maker_ai</a></strong> - ToDo List Maker App - <a href="https://projects.jonniegrieve.co.uk/ai/list_maker_ai/index.php" title="AI Project: List Maker AI" target="_blank">Live</a></li>
 
-            <li><strong><a href="ai/mobile_menu/index.php" title="AI Project: Making a Mobile Menu" target="_blank">mobile_menu</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/mobile_menu/index.php" title="AI Project: Making a Mobile Menu" target="_blank">Live</a></li>    
+            <li><strong><a href="ai/mobile_menu/index.php" title="AI Project: Making a Mobile Menu" target="_blank">mobile_menu</a></strong> - Making a Mobile Menu - <a href="https://projects.jonniegrieve.co.uk/ai/mobile_menu/index.php" title="AI Project: Making a Mobile Menu" target="_blank">Live</a></li>    
             
-            <li><strong><a href="ai/one/index.html" title="AI Project: One" target="_blank">one</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/one/index.html" title="AI Project: One" target="_blank">Live</a></li>
+            <li><strong><a href="ai/one/index.html" title="AI Project: One" target="_blank">one</a></strong> - Web page that with sticky header element - <a href="https://projects.jonniegrieve.co.uk/ai/one/index.html" title="AI Project: One" target="_blank">Live</a></li>
 
-            <li><strong><a href="ai/score_comparator/index.php" title="AI Project: Score Comparator" target="_blank">score_comparator</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/score_comparator/index.php" title="AI Project: Score Comparator" target="_blank">Live</a></li> 
+            <li><strong><a href="ai/score_comparator/index.php" title="AI Project: Score Comparator" target="_blank">score_comparator</a></strong> - Football Score Comparator -  <a href="https://projects.jonniegrieve.co.uk/score_comparator/index.php" title="AI Project: Score Comparator" target="_blank">Live</a></li> 
 
             <li><strong><a href="ai/tic_tac_toe/index.html" title="AI Project: Simple Tic Tac Toe Game" target="_blank">Tic Tac Toe (Noughts and Crosses)</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/tic_tac_toe/index.html" title="AI Project: Simple Tic Tac Toe Game" target="_blank">Live</a> </strong></li> 
             
-            <li><strong><a href="ai/web_checklist/index.php" title="AI Project: Web Checklist" target="_blank">web_checklist</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/web_checklist/index.php" title="AI Project: Web Checklist" target="_blank">Live</a></li>
+            <li><strong><a href="ai/web_checklist/index.html" title="AI Project: SERP (Web Checklist)" target="_blank">web_checklist</a></strong> - SERP (Web) Checklist -  <a href="https://projects.jonniegrieve.co.uk/ai/web_checklist/index.html" title="AI Project: SERP (Web Checklist)" target="_blank">Live</a></li>
 
-            <li><strong><a href="ai/work_counter/index.php" title="AI Project: Work Counter" target="_blank">work_counter</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/work_counter/index.php" title="AI Project: Work Counter" target="_blank">Live</a></li>
+            <li><strong><a href="ai/work_counter/index.php" title="AI Project: Work Counter" target="_blank">work_counter</a></strong> - Work Counter - <a href="https://projects.jonniegrieve.co.uk/work_counter/index.php" title="AI Project: Work Counter" target="_blank">Live</a></li>
         
         </ul>
 

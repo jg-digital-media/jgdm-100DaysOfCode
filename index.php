@@ -258,14 +258,17 @@
         <h2 class="tech---category">Regular Expressions (Regex) - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/regex">Local</a></h2>
       
         <ul>
-            <li><strong>Regex</strong> - <a href="https://projects.jonniegrieve.co.uk/regex">Link</a></li>
+            <li><a href="http://localhost/jgdm-100daysofcode/regex">regex</a> - <strong>Regex</strong> - <a href="https://projects.jonniegrieve.co.uk/regex">Link</a></li>
         </ul>    
 
         <p id="section---sonicpi--projects"></p>
         <h2 class="tech---category">Sonic Pi - <a href="#top">Top</a> - <a href="http://localhost/jgdm-100daysofcode/sonic_pi">Local</a></h2>
        
         <ul>
+            <li><strong><a href="sonic_pi/index.php" title="sonic_pi/index.php">sonic_pi</a></strong> - <a href="https://projects.jonniegrieve.co.uk/sonic_pi/index.php" target="_blank">Link</a></li>
             <li>    
+
+            
                 <span>. . .</span>
             </li>
         </ul>       

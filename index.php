@@ -103,14 +103,34 @@
         <ul>
 
             <li><strong><a href="ai/index.html" title="AI Projects Home" target="_blank">AI Projects Home</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/index.html" title="AI Project Home" target="_blank">Live</a> </li>
-            <li><strong><a href="ai/one/index.html" title="AI Project 1" target="_blank">one</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/one/index.html" title="AI Project 1" target="_blank">Live</a></li>
+
             <li><strong><a href="ai/checkbox_filtering/index.php" title="AI Project: Checkbox Filtering" target="_blank">checkbox_filtering</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/checkbox_filtering/index.php" title="AI Project: Checkbox Filtering" target="_blank">Live</a></li>
-            <li><strong><a href="ai/colour_picker/index.html" title="AI Project 4: Colour Picker" target="_blank">colour_picker</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/colour_picker/index.html" title="AI Project 4" target="_blank">Live</a></li>            
-            <li><strong><a href="ai/mobile_menu/index.php" title="AI Project 3: Making a MoBile Menu" target="_blank">mobile_menu</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/mobile_menu/index.php" title="AI Project 3: Making a MoBile Menu" target="_blank">Live</a></li>            
-            <li><strong><a href="ai/tic_tac_toe/index.html" title="AI Project 4: Simple Tic Tac Toe Game" target="_blank">Tic Tac Toe (Noughts and Crosses)</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/tic_tac_toe/index.html" title="AI Project 4: Simple Tic Tac Toe Game" target="_blank">Live</a> </strong></li> 
-            <li><strong><a href="ai/copy_text/index.php" title="AI Project 5: Copy Text" target="_blank">copy_text</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/copy_text/index.php" title="AI Project 5: Copy Text" target="_blank">Live</a></li>
-            <li><strong><a href="ai/list_maker_ai/index.php" title="AI Project 6: List Maker AI" target="_blank">list_maker_ai</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/list_maker_ai/index.php" title="AI Project 6: List Maker AI" target="_blank">Live</a></li>
-            <li><strong><a href="ai/web_checklist/index.php" title="AI Project 7: Web Checklist" target="_blank">web_checklist</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/web_checklist/index.php" title="AI Project 7: Web Checklist" target="_blank">Live</a></li>
+
+            <li><strong><a href="ai/colour_picker/index.html" title="AI Project: Colour Picker" target="_blank">colour_picker</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/colour_picker/index.html" title="AI Project: Colour Picker" target="_blank">Live</a></li>       
+
+            <li><strong><a href="ai/copy_text/index.php" title="AI Project: Copy Text" target="_blank">copy_text</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/copy_text/index.php" title="AI Project: Copy Text" target="_blank">Live</a></li>           
+            
+            <li><strong><a href="ai/cursor_ai" title="AI Project: Cursor AI" target="_blank">colour_ai</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/colour_ai/" title="AI Project: Cursor AI" target="_blank">Live</a></li>   
+
+            <li><strong><a href="ai/draggable_list" title="AI Project: Draggable List" target="_blank">draggable_list</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/mobile_menu/index.php" title="AI Project: Draggable List" target="_blank">Live</a></li>            
+
+            <li><strong><a href="ai/dynamic_list/index.php" title="AI Project: Dynamic List" target="_blank">dynamic_list</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/mobile_menu/index.php" title="AI Project: Dynamic List" target="_blank">Live</a></li>    
+
+            <li><strong><a href="ai/interactive_js_php/index.php" title="AI Project: Interactive JavaScript List (with PHP)" target="_blank">interactive_js_php</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/interactive_js_php/index.php" title="AI Project: Interactive JavaScript List (with PHP)" target="_blank">Live</a></li> 
+            
+            <li><strong><a href="ai/list_maker_ai/index.php" title="AI Project: List Maker AI" target="_blank">list_maker_ai</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/list_maker_ai/index.php" title="AI Project: List Maker AI" target="_blank">Live</a></li>
+
+            <li><strong><a href="ai/mobile_menu/index.php" title="AI Project: Making a Mobile Menu" target="_blank">mobile_menu</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/mobile_menu/index.php" title="AI Project: Making a Mobile Menu" target="_blank">Live</a></li>    
+            
+            <li><strong><a href="ai/one/index.html" title="AI Project: One" target="_blank">one</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/one/index.html" title="AI Project: One" target="_blank">Live</a></li>
+
+            <li><strong><a href="ai/score_comparator/index.php" title="AI Project: Score Comparator" target="_blank">score_comparator</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/score_comparator/index.php" title="AI Project: Score Comparator" target="_blank">Live</a></li> 
+
+            <li><strong><a href="ai/tic_tac_toe/index.html" title="AI Project: Simple Tic Tac Toe Game" target="_blank">Tic Tac Toe (Noughts and Crosses)</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/tic_tac_toe/index.html" title="AI Project: Simple Tic Tac Toe Game" target="_blank">Live</a> </strong></li> 
+            
+            <li><strong><a href="ai/web_checklist/index.php" title="AI Project: Web Checklist" target="_blank">web_checklist</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/web_checklist/index.php" title="AI Project: Web Checklist" target="_blank">Live</a></li>
+
+            <li><strong><a href="ai/work_counter/index.php" title="AI Project: Work Counter" target="_blank">work_counter</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/work_counter/index.php" title="AI Project: Work Counter" target="_blank">Live</a></li>
         
         </ul>
 
@@ -210,11 +230,10 @@
         <h2 class="tech---category">PHP - <a href="http://localhost/jgdm-100daysofcode/php">Local</a> - <a href="#top">Top</a></h2>
         
         <ul>
-            <li><strong>php/lockdown</strong> - <a href="https://projects.jonniegrieve.co.uk/lockdown/" target="_blank">Link</a></li>
-            <li><strong>php/php_auth</strong> - PHP Authentication (with Symfony PHP Package) - <a href="https://projects.jonniegrieve.co.uk/php_auth" target="_blank">Link</a> - Inactive</li> 
+            <li><strong>php/lockdown</strong> - <a href="https://projects.jonniegrieve.co.uk/lockdown/" target="_blank">Link</a></li>            
             <li><strong>php/php_boilerplate</strong> - incomplete - <a href="https://projects.jonniegrieve.co.uk/php_boilerplate" target="_blank">Link</a></li>
             <li><strong>php/php_boilerplate_alt</strong> - incomplete - <a href="https://projects.jonniegrieve.co.uk/php_boilerplate_alt" target="_blank">Link</a></li>
-            <li><strong>php/php_website</strong> - Currently empty - A new project in Twig - not yet uploaded - Inactive</li>
+            <li><strong>php/php_website</strong> - Currently empty - <a href="https://projects.jonniegrieve.co.uk/php_website/" target="_blank">Link</a></li>
             <li><strong>php/slim</strong> - Custom Project - A Website built with Slim Routing - <a href="https://projects.jonniegrieve.co.uk/slim" target="_blank">Link</a> - Inactive</li>
             <li><strong>php/slimmin</strong> - Slim ProjectSingle page App with Slim - incomplete - <a href="https://projects.jonniegrieve.co.uk/slimmin" target="_blank">Link</a> - Inactive</li>      
             <li><strong>php/slim-project</strong> - Slim ProjectSingle page App with Slim - incomplete - <a href="https://projects.jonniegrieve.co.uk/slim-project" target="_blank">Link</a> - Inactive</li>

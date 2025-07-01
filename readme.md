@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 1: Day 77 of 100. **Last Update:** 04 December 2023 
++ **Status:** Round 1: Day 1 of 100. **Last Update:** 01-07-2025 10:28
 
 ## **Update:** I have recently stripped out react, node and vue js projects. New website coming to https://www.jonniegrieve.co.uk imminently  
 
@@ -20,10 +20,8 @@
 + CSS Experiments - css/experiments - `HTML5 & CSS`
 + Local Storage - javaScript/localstorage   `JavaScript + Localstorage`
 + Photo Viewer App (Multiple Data Points) - css/photos - `HTML5 & CSS & JavaScript`
-+ PHP Authorisation - php/authorisation - `php`
-+ PHP Slim - `php`
-+ Python Flask Websites - python/flask - `python`
-  + Heroku - 
++ JGDM Snooker Scorer App - [https://projects.jonniegrieve.co.uk/snooker_scorer/](https://projects.jonniegrieve.co.uk/snooker_scorer/) 
++ JGDM Darts Scorer App - [https://projects.jonniegrieve.co.uk/darts_scorer_app/](https://projects.jonniegrieve.co.uk/darts_scorer_app/)
 + Gulp and Grunt compilers
 
 
@@ -37,11 +35,16 @@
       + mobile_menu
       + copy_text
       + cursor_ai
+      + draggable_list
+      + dynamic_list
+      + interactive_js_php
       + list_maker_ui
       + mobile_menu
+      + score_comparator
       + one
       + tic_tac_toe
       + web_checklist
+      + work_counter
   + api
       + basic
       + fetch_random
@@ -96,6 +99,7 @@
     + lockdown
     + php_auth
     + php_boilerplate
+    + php_boilerplate_alt
     + php_website
     + slim
     + slim-project

@@ -1,0 +1,94 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body header {
+  background: #3a1313;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+body header h1 {
+  text-align: center;
+  margin: 0;
+}
+body header a {
+  color: gold;
+  text-align: right;
+}
+body #add---more--btn {
+  display: block;
+  margin: 10px auto;
+  width: 180px;
+  background: greenyellow;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+body #list {
+  display: block;
+  margin: 10px auto;
+  width: 460px;
+  background: greenyellow;
+  font-size: 10px;
+  padding: 0 0;
+}
+@media (max-width: 460px) {
+  body #list {
+    width: 65%;
+    margin: 10px 0;
+  }
+  body #list li {
+    margin: 2px 0;
+    padding: 5px 4px;
+  }
+}
+body #list li {
+  background: #7070ff;
+  list-style: none;
+  border: solid darkgray 1px;
+  color: white;
+  margin: 2px 0;
+  padding: 5px 4px;
+}
+body .premier---league--ingo {
+  display: block;
+  margin: 0 auto;
+  width: 360px;
+}
+@media (max-width: 460px) {
+  body .premier---league--ingo {
+    width: 95%;
+  }
+}
+body .premier---league--ingo h2 {
+  text-align: center;
+}
+body .premier---league--ingo p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+/*
+/* Drag and Drop Styles */
+body #list li.dragging {
+  opacity: 0.5;
+  transform: rotate(2deg);
+  z-index: 1000;
+}
+
+body #list li.drag-over {
+  border-top: 3px solid #ff6b6b;
+  margin-top: 10px;
+}
+
+body #list li:hover {
+  background: #5c5cff;
+  transform: translateX(5px);
+}
+
+/*# sourceMappingURL=style.css.map */

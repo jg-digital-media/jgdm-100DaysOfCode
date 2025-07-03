@@ -31,21 +31,60 @@ body {
 
     }
 
+    // Add Item Container Styles
+    .add-item-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 20px auto;
+        width: 460px;
+
+        @media (max-width: 460px) {
+            width: 95%;
+            flex-direction: column;
+            gap: 5px;
+        }
+    }
+
+    #new-item-input {
+        flex: 1;
+        padding: 8px 12px;
+        border: 2px solid #ddd;
+        border-radius: 4px;
+        font-size: 14px;
+        outline: none;
+        transition: border-color 0.3s ease;
+
+        &:focus {
+            border-color: #7070ff;
+        }
+
+        @media (max-width: 460px) {
+            width: 100%;
+            box-sizing: border-box;
+        }
+    }
 
     #add---more--btn {
 
-        display: block;
-        margin: 10px auto;
-        width: 180px;
         background: greenyellow;
         font-weight: bold;
-    
-        padding: 5px;
-    
-        text-align: center;
-        text-decoration: none;
-        
-    
+        padding: 8px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background: #adff2f;
+        }
+
+        @media (max-width: 460px) {
+            width: 100%;
+            padding: 10px;
+        }
     }
 
     #list {
@@ -55,6 +94,8 @@ body {
         width: 460px;
         background: greenyellow;
         font-size: 10px;
+        padding: 0 0;
+        min-height: 50px;
 
         @media (max-width: 460px) {
 
@@ -69,9 +110,19 @@ body {
             }
         }
 
-        
-
-        padding: 0 0;
+        // Empty state styling
+        &.empty {
+            &::before {
+                content: "No items yet. Add some items above!";
+                display: block;
+                text-align: center;
+                color: #666;
+                font-style: italic;
+                padding: 20px;
+                background: rgba(255, 255, 255, 0.8);
+                margin: 2px;
+            }
+        }
 
         li {
 
@@ -79,9 +130,29 @@ body {
             list-style: none;
             border: solid darkgray 1px;
             color: white;
-
             margin: 2px 0;
             padding: 5px 4px;
+            cursor: move;
+            user-select: none;
+            transition: all 0.3s ease;
+            position: relative;
+
+            // Drag and drop states
+            &.dragging {
+                opacity: 0.5;
+                transform: rotate(2deg);
+                z-index: 1000;
+            }
+
+            &.drag-over {
+                border-top: 3px solid #ff6b6b;
+                margin-top: 10px;
+            }
+
+            &:hover {
+                background: #5c5cff;
+                transform: translateX(5px);
+            }
         
         }
 
@@ -135,4 +206,5 @@ body #list li:hover {
   background: #5c5cff;
   transform: translateX(5px);
 }
+
 

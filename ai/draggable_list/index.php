@@ -18,11 +18,13 @@
 
     </header>
 
-    <a href="#" id="add---more--btn">Add Item ></a>
+    <div class="add-item-container">
+        <input type="text" id="new-item-input" placeholder="Enter new item..." maxlength="50">
+        <button id="add---more--btn">Add Item</button>
+    </div>
 
     <ul id="list">     
-
-        
+        <!-- Items will be added here dynamically -->
     </ul>
 
         

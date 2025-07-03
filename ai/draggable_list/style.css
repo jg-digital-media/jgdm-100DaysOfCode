@@ -4,11 +4,12 @@ body {
   padding: 0;
 }
 body header {
+  display: block;
   background: #3a1313;
-  height: auto;
-  padding: 0;
-  margin: 0;
   color: white;
+  text-align: right;
+  width: 100%;
+  padding: 5px 0;
 }
 body header h1 {
   text-align: center;
@@ -17,16 +18,60 @@ body header h1 {
 body header a {
   color: gold;
   text-align: right;
+  padding: 10px;
+  margin: 6px 0 5px 0;
+}
+body .add-item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px auto;
+  width: 460px;
+}
+@media (max-width: 460px) {
+  body .add-item-container {
+    width: 95%;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+body #new-item-input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+body #new-item-input:focus {
+  border-color: #7070ff;
+}
+@media (max-width: 460px) {
+  body #new-item-input {
+    width: 100%;
+    box-sizing: border-box;
+  }
 }
 body #add---more--btn {
-  display: block;
-  margin: 10px auto;
-  width: 180px;
   background: greenyellow;
   font-weight: bold;
-  padding: 5px;
-  text-align: center;
-  text-decoration: none;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+body #add---more--btn:hover {
+  background: #adff2f;
+}
+@media (max-width: 460px) {
+  body #add---more--btn {
+    width: 100%;
+    padding: 10px;
+  }
 }
 body #list {
   display: block;
@@ -35,6 +80,7 @@ body #list {
   background: greenyellow;
   font-size: 10px;
   padding: 0 0;
+  min-height: 50px;
 }
 @media (max-width: 460px) {
   body #list {
@@ -46,6 +92,16 @@ body #list {
     padding: 5px 4px;
   }
 }
+body #list.empty::before {
+  content: "No items yet. Add some items above!";
+  display: block;
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 2px;
+}
 body #list li {
   background: #7070ff;
   list-style: none;
@@ -53,6 +109,23 @@ body #list li {
   color: white;
   margin: 2px 0;
   padding: 5px 4px;
+  cursor: move;
+  user-select: none;
+  transition: all 0.3s ease;
+  position: relative;
+}
+body #list li.dragging {
+  opacity: 0.5;
+  transform: rotate(2deg);
+  z-index: 1000;
+}
+body #list li.drag-over {
+  border-top: 3px solid #ff6b6b;
+  margin-top: 10px;
+}
+body #list li:hover {
+  background: #5c5cff;
+  transform: translateX(5px);
 }
 body .premier---league--ingo {
   display: block;
@@ -71,24 +144,6 @@ body .premier---league--ingo p {
   font-size: 1.2em;
   line-height: 1.5em;
   margin: 0;
-}
-
-/*
-/* Drag and Drop Styles */
-body #list li.dragging {
-  opacity: 0.5;
-  transform: rotate(2deg);
-  z-index: 1000;
-}
-
-body #list li.drag-over {
-  border-top: 3px solid #ff6b6b;
-  margin-top: 10px;
-}
-
-body #list li:hover {
-  background: #5c5cff;
-  transform: translateX(5px);
 }
 
 /*# sourceMappingURL=style.css.map */

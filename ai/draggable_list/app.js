@@ -1,7 +1,8 @@
-console.log('app.js - updated: 03/07/2025 - 16:10');
+console.log('app.js - updated: 03/07/2025 - 17:00');
 
 // Draggable List Implementation
 document.addEventListener('DOMContentLoaded', function() {
+
     const list = document.getElementById('list');
     const addBtn = document.getElementById('add---more--btn');
     const newItemInput = document.getElementById('new-item-input');
@@ -10,15 +11,20 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Check if list is empty and add appropriate class
     function updateListState() {
+
         if (list.children.length === 0) {
+
             list.classList.add('empty');
+
         } else {
+
             list.classList.remove('empty');
         }
     }
     
     // Make all list items draggable
     function makeItemsDraggable() {
+
         const items = list.querySelectorAll('li');
         items.forEach(item => {
             item.draggable = true;
@@ -43,6 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Drag event handlers
     function handleDragStart(e) {
+
         draggedItem = this;
         this.classList.add('dragging');
         e.dataTransfer.effectAllowed = 'move';
@@ -50,6 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     function handleDragEnd(e) {
+
         this.classList.remove('dragging');
         const allItems = list.querySelectorAll('li');
         allItems.forEach(item => {
@@ -59,18 +67,22 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     function handleDragOver(e) {
+
         e.preventDefault();
         e.dataTransfer.dropEffect = 'move';
     }
     
     function handleDragEnter(e) {
+
         e.preventDefault();
         if (this !== draggedItem) {
+
             this.classList.add('drag-over');
         }
     }
     
     function handleDragLeave(e) {
+
         this.classList.remove('drag-over');
     }
     
@@ -78,14 +90,17 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
         
         if (this !== draggedItem) {
+
             const draggedIndex = Array.from(list.children).indexOf(draggedItem);
             const targetIndex = Array.from(list.children).indexOf(this);
             
             draggedItem.remove();
             
             if (draggedIndex < targetIndex) {
+
                 this.parentNode.insertBefore(draggedItem, this.nextSibling);
             } else {
+
                 this.parentNode.insertBefore(draggedItem, this);
             }
         }
@@ -95,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Function to add new items
     function addNewItem(text) {
-        
+
         // Trim whitespace and check if text is not empty
         const trimmedText = text.trim();
         if (trimmedText === '') {

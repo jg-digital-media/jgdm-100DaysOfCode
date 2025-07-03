@@ -1,4 +1,4 @@
-console.log('app.js - updated: 03/07/2025 - 15:49');
+console.log('app.js - updated: 03/07/2025 - 16:10');
 
 // Draggable List Implementation
 document.addEventListener('DOMContentLoaded', function() {
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add more button functionality (if needed in the future)
     const addMoreBtn = document.getElementById('add---more--btn');
     if (addMoreBtn) {
-        
+
         addMoreBtn.addEventListener('click', function(e) {
 
             e.preventDefault();

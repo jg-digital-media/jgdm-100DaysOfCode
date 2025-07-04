@@ -696,7 +696,7 @@ INSERT INTO manchesterunited_home_matches (home_team, home_score, away_team, awa
     ('Manchester United', 4, 'Norwich City', 0, 1),
     ('Manchester United', 2, 'Sheffield United', 0, 1),
     ('Manchester United', 0, 'Southampton', 0, 0),
-    ('Manchester United', 2, 'Tottenham Hotspur', 1, ),
+    ('Manchester United', 2, 'Tottenham Hotspur', 1, 1),
     ('Manchester United', 0, 'Watford', 0, 0),
     ('Manchester United', 0, 'West Ham United', 0, 0),
     ('Manchester United', 0, 'Wolverhampton Wanderers', 0, 0);   

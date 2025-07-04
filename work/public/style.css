@@ -1,0 +1,67 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  /* max-width: 800px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+}
+
+h1 {
+  text-align: center;
+}
+
+#jgdm-100days-logo {
+  display: block;
+  margin: 10px auto;
+  width: 100px;
+  height: 100px;
+}
+
+nav {
+  padding: 0;
+  border: solid 1px black;
+  background: steelblue;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  position: relative;
+  /* left: 17px; */
+  margin: 17px 0 0 21px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #005ea5;
+  color: #fee762;
+}
+
+section {
+  margin-bottom: 3rem;
+  width: 800px;
+  margin: 5px auto;
+}
+
+h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3rem;
+}
+
+select {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.entry {
+  margin-bottom: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */

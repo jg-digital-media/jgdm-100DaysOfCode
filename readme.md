@@ -2,9 +2,9 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 1: Day 1 of 100. **Last Update:** 01-07-2025 11:57
++ **Status:** Round 1: Day 1 of 100. **Last Update:** 07-07-2025 16:54
 
-## **Update:** I have recently stripped out react, node and vue js projects.
+Logging now takes place in the public website for [JGDM 100DaysOfCode](https://landing.jonniegrieve.co.uk/100days_page).  
 
  [Repository Links](#repository-links) | [Focus](#focus) | [Directories](#directories) | [Project Links](#project-links) | [Description](#description) 
 

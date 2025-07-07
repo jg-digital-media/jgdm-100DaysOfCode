@@ -20,26 +20,26 @@
 
     <ul id="list">       
 
-        <li>AFC Bournemouth</li>
-        <li>Arsenal FC</li>
-        <li>Aston Villa</li>
-        <li>Brentford FC</li>
-        <li>Brighton & Hove Albion</li>
-        <li>Burnley FC</li>
-        <li>Chelsea FC</li>
-        <li>Crystal Palace</li>
-        <li>Everton FC</li>
-        <li>Fulham FC</li>
-        <li>Leeds United</li>
         <li>Liverpool FC</li>
+        <li>Arsenal FC</li>
         <li>Manchester City</li>
-        <li>Manchester United</li>
+        <li>Chelsea FC</li>
         <li>Newcastle United</li>
+        <li>Aston Villa</li>
         <li>Nottingham Forest</li>
-        <li>Sunderland AFC</li>
-        <li>Tottenham Hotspur</li>
+        <li>Brighton & Hove Albion</li>
+        <li>AFC Bournemouth</li>
+        <li>Brentford</li>
+        <li>Crystal Palace</li>
+        <li>Fulham</li>
+        <li>Everton</li>
         <li>West Ham United</li>
+        <li>Manchester United</li>
         <li>Wolverhampton Wanderers</li>
+        <li>Tottenham Hotspur</li>
+        <li>Burnley</li>
+        <li>Leeds United</li>
+        <li>Sunderland</li>
     </ul>
 
     <section class="premier---league--ingo">

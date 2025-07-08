@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 1: Day 1 of 100. **Last Update:** 07-07-2025 16:54
++ **Status:** Round 1: Day 2 of 100. **Last Update:** 08-07-2025 16:36
 
 Logging now takes place in the public website for [JGDM 100DaysOfCode](https://landing.jonniegrieve.co.uk/100days_page).  
 
@@ -20,7 +20,7 @@ Logging now takes place in the public website for [JGDM 100DaysOfCode](https://l
 
 ## Focus
 
-+ AI coding with ChatGPT
++ AI coding with ChatGPT - CursorAI
 + API Video link - [https://youtube.com/watch?v=GZvSYJDk-us&feature=youtu.be](https://youtube.com/watch?v=GZvSYJDk-us&feature=youtu.be)
 + Photography Website - [localhost/photography-website/](localhost/photography-website/) - `PHP` 
 + Cartoon Chris Website - [https://www.cartoonchris.co.uk/](https://www.cartoonchris.co.uk/) - cb_cartoom_admin - `WordPress`

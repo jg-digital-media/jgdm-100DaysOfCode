@@ -53,7 +53,7 @@
     <header>
 
         <h1 class="main---title">Football Score Comparator</h1>
-        <div class="tagline">Based on Newcastle United <span>(v3.3)</span> <span id="about---this--app"><a href="about.php">About this app</a></span></div>
+        <div class="tagline">Based on Newcastle United <span>(v3.4)</span> <span id="about---this--app"><a href="about.php">About this app</a></span></div>
         
     </header>
 

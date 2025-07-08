@@ -57,7 +57,7 @@
     <header>
 
         <h1 class="main---title">Football Score Comparator</h1>
-        <div class="tagline">Based on Newcastle United <span>(v3.3)</span> <span id="back---home"><a href="index.php">Back to Homepage</a></span></div>
+        <div class="tagline">Based on Newcastle United <span>(v3.4)</span> <span id="back---home"><a href="index.php">Back to Homepage</a></span></div>
         
     </header>
 
@@ -145,6 +145,14 @@
             <!-- <li><code><strong>Phase ends (23/05/2025)</strong></code></li> -->
 
         </ul>
+
+        <code class="version---heading">v3.4</code>
+
+        <ul class="development---history"> 
+            
+            <li>I've fixed an error with the base development .sql file that caused some tables not to appear after the database for season 19/20 was generated.</li>
+            <li>I added the season 19/20 to the app.</li>
+            <li><code><strong>Phase ends (08/07/2025)</strong></code></li>
 
         <h2>Points to take.</h2>
 

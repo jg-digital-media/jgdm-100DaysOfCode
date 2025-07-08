@@ -1,4 +1,4 @@
-/* Last Update: 02/07/2025 - 16:29 - Script Tables and development file */
+/* Last Update: 08/07/2025 - 15:47 - Script Tables and development file */
 
 /* Match List - Season: 
 
@@ -1044,7 +1044,7 @@ INSERT INTO team10_away_matches (home_team, home_score, away_team, away_score, p
     ('Team 16', 0, 'Team 10', 0, 0),
     ('Team 17', 0, 'Team 10', 0, 0),
     ('Team 18', 0, 'Team 10', 0, 0),
-    ('Team 19', 0, 'Team 10', 0, 0)
+    ('Team 19', 0, 'Team 10', 0, 0);
 
 INSERT INTO team11_away_matches (home_team, home_score, away_team, away_score, played) VALUES
     ('Team 1', 0, 'Team 11', 0, 0),

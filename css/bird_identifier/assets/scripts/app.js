@@ -1,4 +1,4 @@
-console.log("app.js connected! - 11-04-2025 - 17:32");
+console.log("app.js connected! - 14-07-2025 - 12:07");
 
 // Slick Carousels - with jQuery
 $(document).ready(function() {
@@ -112,6 +112,20 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    // ============ FILTER COUNT FUNCTIONALITY ============
+    // Function to update the filter count display
+    function updateFilterCount() {
+        const allBirds = document.querySelectorAll('.bird---item');
+        const visibleBirds = Array.from(allBirds).filter(bird => bird.style.display !== 'none').length;
+        const filterCountElement = document.getElementById('filter---count');
+        
+        if (filterCountElement) {
+            filterCountElement.textContent = visibleBirds;
+        }
+    }
+
+    // Set initial count on page load
+    updateFilterCount();
 
     // Element Selections for Toggle Filters Button
     const toggleBtn = document.getElementById('toggle-filters');
@@ -188,6 +202,9 @@ document.addEventListener('DOMContentLoaded', function() {
             if (show) visibleBirds++;
         });
 
+        // Update the filter count display
+        updateFilterCount();
+
         // Show/hide no results message
         let noResultsMsg = document.getElementById('no-results-message');
 
@@ -215,6 +232,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Show all birds - duplicate? 
         document.querySelectorAll('.bird---item').forEach(bird => bird.style.display = 'block');
+
+        // Update the filter count display
+        updateFilterCount();
 
         // Remove the no results message if it exists
         const noResultsMsg = document.getElementById('no-results-message');

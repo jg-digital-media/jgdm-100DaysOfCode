@@ -52,7 +52,7 @@
 
         <a href="index.php" id="back---home">Back to Homepage</a>
 
-        <h2>Filtered Bird List</h2>
+        <h2>Filtered Bird List (<div id="filter---count">N</div>)</h2>
 
         <!-- Wrap filter section in a container with closed state -->
         <div id="filters-container" class="filters-container closed">

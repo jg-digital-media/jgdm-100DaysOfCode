@@ -248,6 +248,19 @@ body {
 
             text-align: center;
             margin: 20px auto;
+
+            #filter---count {
+
+                display: inline;
+                border: #007bff solid 1px;
+                vertical-align: middle;
+                font-size: 19px;
+                color: #007bff;
+                margin: 0 8px;
+                border-bottom: solid 2px #007bff;
+                border-top: solid 2px #007bff;
+            }
+
         }
 
         .nav---container {

@@ -1,4 +1,4 @@
-console.log("app.js connected! - 14-07-2025 - 12:07");
+console.log("app.js connected! - 14-07-2025 - 13:35");
 
 // Slick Carousels - with jQuery
 $(document).ready(function() {
@@ -156,10 +156,11 @@ document.addEventListener('DOMContentLoaded', function() {
             color: Array.from(document.querySelectorAll('input[name="color"]:checked')).map(cb => cb.value)
         };
 
+
         // Map filter values to CSS class names
         function mapFilterToClass(filterType, value) {
             if (filterType === 'size' && value === 'prey') {
-                return 'bird---class--bird-of-prey';
+                return 'bird---class--birdprey';
             }
             return `bird---class--${value}`;
         }

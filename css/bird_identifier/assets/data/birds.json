@@ -278,7 +278,7 @@
             "description": "A shy, brown and grey bird that looks a bit like a sparrow but sings a sweet, gentle song from hedgerows.",
             "lightbox": "Filterable Birds",
             "photo_date": "04/04/2025",
-            "filter_classes": "bird---class--grey bird---class--garden bird---class--small bird---class--countryside bird---class--garden bird---class--urban"           
+            "filter_classes": "bird---class--grey bird---class--small bird---class--countryside bird---class--garden bird---class--urban"           
         }, {
 
             "name": "Pied Wagtail",
@@ -298,7 +298,7 @@
             "description": "The adult's tail is grey with obscure darker brown thin bars, with a broad blackish subterminal band and creamy white tip.",
             "lightbox": "Filterable Birds",
             "photo_date": "22/02/2025",
-            "filter_classes": "bird---class--large bird---item--countryside"           
+            "filter_classes": "bird---class--large bird---class--countryside bird---class--birdprey"           
         }, {
 
             "name": "Male Hawk Harrier",
@@ -308,7 +308,7 @@
             "description": "A bay-winged hawk or dusky bird of Brey usually found in the southwestern United States and South American Continent.",
             "lightbox": "Filterable Birds",
             "photo_date": "05/10/2024",
-            "filter_classes": "bird---class--large bird---item--countryside"           
+            "filter_classes": "bird---class--large bird---class--countryside bird---class--grey-black"           
         }, {
 
             "name": "Lapwing",
@@ -318,7 +318,7 @@
             "description": "Nesting birds noted for their slow, irregular wingbeats in flight and a shrill, wailing cry.",
             "lightbox": "Filterable Birds",
             "photo_date": "05/04/2025",
-            "filter_classes": "bird---class--large bird---class--white bird---class-black bird---item--countryside"           
+            "filter_classes": "bird---class--large bird---class--white bird---class--black bird---class--countryside"           
         }, {
 
             "name": "Thayers Gull",
@@ -328,7 +328,7 @@
             "description": "a subspecies of the Iceland gull. It is a large gull native to North America.",
             "lightbox": "Filterable Birds",
             "photo_date": "05/04/2025",
-            "filter_classes": "bird---class--medium bird---class--white bird---class-black bird---item--coastal"           
+            "filter_classes": "bird---class--medium bird---class--white bird---class--black bird---class--coastal"           
         }, {
 
             "name": "Pied Avocet",
@@ -429,8 +429,7 @@
             "lightbox": "Filterable Birds",
             "photo_date": "03/06/2025",
             "filter_classes": "bird---class--black bird---class--medium bird---class--countryside bird---class--water"           
-        }
-
+        }  
         
     ]
 }

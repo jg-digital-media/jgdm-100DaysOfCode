@@ -156,6 +156,14 @@ document.addEventListener('DOMContentLoaded', function() {
             color: Array.from(document.querySelectorAll('input[name="color"]:checked')).map(cb => cb.value)
         };
 
+        // Map filter values to CSS class names
+        function mapFilterToClass(filterType, value) {
+            if (filterType === 'size' && value === 'prey') {
+                return 'bird---class--bird-of-prey';
+            }
+            return `bird---class--${value}`;
+        }
+
         // Filter the birds list
         const birdItems = document.querySelectorAll('.bird---item');        
 
@@ -166,10 +174,11 @@ document.addEventListener('DOMContentLoaded', function() {
             // Check habitat filters
             if (selectedFilters.habitat.length > 0) {
 
-                const birdHabitat = bird.dataset.habitat ? bird.dataset.habitat.split(' ') : [];
+                const hasMatchingHabitat = selectedFilters.habitat.some(h => 
+                    bird.classList.contains(mapFilterToClass('habitat', h))
+                );
 
-                if (!selectedFilters.habitat.some(h => birdHabitat.includes(h))) {
-
+                if (!hasMatchingHabitat) {
                     show = false;
                 }
             }
@@ -177,10 +186,11 @@ document.addEventListener('DOMContentLoaded', function() {
             // Check size filters
             if (selectedFilters.size.length > 0) {
 
-                const birdSize = bird.dataset.size ? bird.dataset.size.split(' ') : [];
+                const hasMatchingSize = selectedFilters.size.some(s => 
+                    bird.classList.contains(mapFilterToClass('size', s))
+                );
 
-                if (!selectedFilters.size.some(s => birdSize.includes(s))) {
-
+                if (!hasMatchingSize) {
                     show = false;
                 }
             }
@@ -188,10 +198,11 @@ document.addEventListener('DOMContentLoaded', function() {
             // Check color filters
             if (selectedFilters.color.length > 0) {
 
-                const birdColor = bird.dataset.color ? bird.dataset.color.split(' ') : [];
+                const hasMatchingColor = selectedFilters.color.some(c => 
+                    bird.classList.contains(mapFilterToClass('color', c))
+                );
 
-                if (!selectedFilters.color.some(c => birdColor.includes(c))) {
-
+                if (!hasMatchingColor) {
                     show = false;
                 }
             }

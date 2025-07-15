@@ -47,7 +47,7 @@
 
         <div class="intro">
 
-            <p>On 28th January 2025, I received my formal diagnosis of Autism.  It's something that in my heart of hearts I think I've known about for a long time but only really started the journey to diagnosis for a year. It feels great to have this formally confirmed.</p>
+            <p>On <strong>28th January 2025</strong>, I received my formal diagnosis of Autism.  It's something that in my heart of hearts I think I've known about for a long time but only really started the journey to diagnosis for a year. It feels great to have this formally confirmed.</p>
 
             <p>My diagnosis is of Autism Spectrum Disorder (ASD) Level 1. It is the mildest form of Autism that requires some but not the highest level of support.</p>
 
@@ -68,41 +68,109 @@
             <h2>Traits</h2>
 
             <div class="trait">
+
                 <h2>Sensitive to touch</h2>
                 <p>Especially sensitive to unexpected touch. It can be uncomfortable</p>
             </div>
 
             <div class="trait">
-                <h2>self-consciousness</h2>
+
+                <h2>Self-consciousness</h2>
                 <p>I am very self-conscious and I have a hard time being myself. I find myself being aware of putting on a performance in social situations rather tham being myself.</p>
             </div>
 
             <div class="trait">
+
                 <h2>I am a person who is very shy</h2>
                 <p>I am very shy and I tend to be very quiet. I don't like to talk to people and I tend to keep to myself.</p>
             </div>
             
             <div class="trait">
+
                 <h2>Social anxiety and awkwardness</h2>
                 <p>Anxious in social situations. I tend to be very quiet and avoid eye contact unless I force myself to.</p>
             </div>
 
             
             <div class="trait">
+
                 <h2>Brain fog and processing issues</h2>
                 <p>Can be prone to stare and appear vacant while my brain is processing something.</p>
             </div>
 
             <div class="trait">
+
                 <h2>Comfort music - comfort in routine</h2>            
                 <p>I take comfort from familiar music, TV shows and video games and play the same ones obsessvely.</p>
             </div>
 
-            <div class="trait">                
+            <div class="trait">  
+
                 <h2>Comfort music - comfort in routine</h2>
-                <p>I can repeat repetitive task - without thinking about it like my brain is following muslcle memory.</p>
+                <p>I can repeat task - repetitiously for as long as I feel I need to - sometimes without thinking about it like my brain is following muslcle memory.</p>
+            </div>
+
+            <div class="trait">
+
+                <h2>Deep emotions - sometimes to the point of confusion</h2>
+                <p>Often down to overthinking.  Switching between emotions because I'm thinking of all scenarios and unsure of how I should feel.</p>
+
+            </div>
+
+            <div class="trait">
+
+                <h2>A continual sense of pending damger and doom</h2>
+                
+                <p>This likely due to the amounting of thinking and processing my brain does. I can dwell on any scenario be it positive or negative.</p>
+            </div>  
+
+            <div class="trait">
+
+                <h2>Holding a lot of thoughts/feelings inside</h2>
+            </div>           
+
+
+            <div class="trait">
+
+                <h2>Having a continual dialogue in my head that tells me I have said the wrong thing in a conversation</h2>
+                <p>Often review conversations and trying not to think bad thoughts about what others might be thinking about me.</p>
+            </div>
+
+            <div class="trait">
+
+                <h2>Unwritten or unspoken rules can be incredibly challenging to grasp, remember or apply.</h2>
+
+                <p>Often becasue despite my best efforts, my attention is not 100%.  Hard to keep up with social traditions and dynamics.</p>
+            </div>
+
+            <div class="trait">
+
+                <h2>Feelings of being misplaced & from another planet.</h2>
             </div>
             
+
+            <div class="trait">
+
+                <h2>Continual questioning of who I actually am/what is expected of me.</h2>
+            </div>   
+
+
+            <div class="trait">
+
+                <h2>A constant feeling of trying to communicate "correctly".</h2>
+            </div>            
+
+            <div class="trait">
+
+                <h2>Exerting mental preparation for social outings/appointments days before</h2>
+
+            </div>
+
+            <div class="trait">
+
+                <h2>Experiencing extreme hurt when abilities are doubted.</h2>
+            </div>                
+
         </div> 
                 
         <div class="resources">

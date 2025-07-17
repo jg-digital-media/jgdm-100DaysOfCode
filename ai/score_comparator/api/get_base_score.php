@@ -33,6 +33,8 @@ try {
         $dbPath = '../assets/data/seasons/season-20-21.db'; // 2020/21 season
     } elseif ($season === '2020') {
         $dbPath = '../assets/data/seasons/season-19-20.db'; // 2019/20 season
+    }elseif ($season === '2019') {
+        $dbPath = '../assets/data/seasons/season-18-19.db'; // 2018/19 season
     } else {
         
         // Future proofing for other seasons

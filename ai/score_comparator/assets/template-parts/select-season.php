@@ -8,6 +8,7 @@
     <option class="select---season--option" id="season---2023" value="2023">2022/2023</option>  
     <option class="select---season--option" id="season---2022" value="2022">2021/2022</option>  
     <option class="select---season--option" id="season---2021" value="2021">2020/2021</option>  
-    <option class="select---season--option" id="season---2020" value="2020">2019/2020</option> 
+    <option class="select---season--option" id="season---2020" value="2020">2019/2020</option>   
+    <option class="select---season--option" id="season---2019" value="2019">2018/2019</option> 
 
 </select>

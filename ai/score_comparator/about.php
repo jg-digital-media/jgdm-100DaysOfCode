@@ -153,6 +153,16 @@
             <li>I've fixed an error with the base development .sql file that caused some tables not to appear after the database for season 19/20 was generated.</li>
             <li>I added the season 19/20 to the app.</li>
             <li><code><strong>Phase ends (08/07/2025)</strong></code></li>
+        </ul>
+
+        <code class="version---heading">v3.5</code>
+
+        <ul class="development---history"> 
+            
+            <li>Expanded the app for readiness to add match data for season <code><strong>2018/2010</strong></code>. </li>
+            <!-- <li><code><strong>Phase ends (23/05/2025)</strong></code></li> -->
+
+        </ul>
 
         <h2>Points to take.</h2>
 

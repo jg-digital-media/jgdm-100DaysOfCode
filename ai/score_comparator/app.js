@@ -24,6 +24,29 @@ document.addEventListener('DOMContentLoaded', function() {
     // Define team lists for each season
     const teamLists = {
 
+        // 2018/19 Season Teams 
+        '2019': `
+            <option id="select---home--placeholder" value="Select Team">Select Team...</option>
+            <option id="select---home--bournemouth" value="AFC Bournemouth">AFC Bournemouth</option>
+            <option id="select---home--arsenal" value="Arsenal">Arsenal</option>
+            <option id="select---home--brighton" value="Brighton & Hove Albion">Brighton & Hove Albion</option>
+            <option id="select---home--burnley" value="Burnley">Burnley</option>  
+            <option id="select---home--cardiff" value="Chelsea">Cardiff City</option> 
+            <option id="select---home--chelsea" value="Chelsea">Chelsea</option>           
+            <option id="select---home--crystalpalace" value="Crystal Palace">Crystal Palace</option>  
+            <option id="select---home--everton" value="Everton">Everton</option>
+            <option id="select---home--fulham" value="Fulham">Fulham</option> 
+            <option id="select---home--huddersfield" value="Huddersfield Town">Huddersfield Town</option>
+            <option id="select---home--leicester" value="Leicester City">Leicester City</option>            
+            <option id="select---home--liverpool" value="Liverpool">Liverpool</option>
+            <option id="select---home--manchestercity" value="Manchester City">Manchester City</option>
+            <option id="select---home--manchesterunited" value="Manchester United">Manchester United</option>
+            <option id="select---home--southampton" value="Southampton">Southampton</option>
+            <option id="select---home--tottenhamhotspur" value="Tottenham Hotspur">Tottenham Hotspur</option>
+            <option id="select---home--watford" value="Watford">Watford</option>
+            <option id="select---home--westham" value="West Ham United">West Ham United</option>
+            <option id="select---home--wolverhampton" value="Wolverhampton Wanderers">Wolverhampton Wanderers</option>
+        `,
         
         // 2019/20 Season Teams 
         '2020': `

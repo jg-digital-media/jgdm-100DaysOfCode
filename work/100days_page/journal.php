@@ -1,3 +1,8 @@
+<?php
+
+$page_name = "Journal"; ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +32,7 @@
 
     <section>
 
-        <article class="day---select--container">
+       <!--  <article class="day---select--container">
 
             <label for="daySelect">Jump to a day:</label>
             <select id="daySelect" onchange="jumpToDay()">
@@ -42,9 +47,8 @@
                 <option value="day07">Day 7</option>
                 <option value="day08">Day 8</option>
                 <option value="day09">Day 9</option>
-                <!-- Add more days as you go -->
             </select>
-        </article>
+        </article> -->
 
         <article id="day01" class="entry">
 

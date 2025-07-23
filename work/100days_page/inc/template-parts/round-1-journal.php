@@ -352,8 +352,49 @@
     <div class="links"><strong>Links:</strong>
 
         <ul>
-            <li><a href="https://christianity.jonniegrieve.co.uk" class="100days--links" target="_blank">Christianity Website (WordPress)</a></li>
+            <li><a href="https://christianity.jonniegrieve.co.uk" class="100days--links" target="_blank">Christianity Website (WordPress - Under Construction)</a></li>
             <li><a href="http://photography.jonniegrieve.co.uk" class="100days--links" target="_blank">Photography Website</a></li>
+        </ul>
+
+    </div>
+
+    <a href="#" class="back---to--top">Back to Top</a>
+
+</article>
+
+<article id="day10" class="entry">
+
+    <h2>Day 10: <span>23rd July 2025</span> </h2>            
+
+    <h3><strong>Today's Focus: </strong> Christianity Website local development. And I've made some structural changes to this #100DaysOfCode website</h3>
+
+    <div class="summary" maxchar=280>
+
+        <p>Finding a way to reduce the payload and load times for the image heavy Christianity Website took up most of my time today. It seems to have worked on my local environment which is good. Will be tested online in due course.</p>
+        
+    </div>
+    
+    <a href="#" class="btn-more-info">Expand</a>
+
+    <div class="more-info">
+        
+        <p>AI helped me again today by helping me introduce preloading on images and other optimisations. There's more caching going on which means users, shouldn't be looking at white screen so much when the background images transition. <code class="achievement">Achievement</code> </p>
+
+        <p>I've added a sticky header to this website; an increasingly necessary change as the content on this website grows. </p> 
+
+        <p>I also put the growing list of Round 1 Journal entires into their own template part to make the Journal page more management. So there's now a template part to add in new entries to another template part, and the journal page itself is easier to read amd manage.</p>
+
+    </div>
+
+    <p><strong>Challenges: </strong>  Reducing payload and load times for image heavy Chrisitanity Website, which certainly at a local level has been a success.</p>
+    <p><strong>Technologies Used Today: </strong> <code class="technologies">Cursor AI</code>, <code class="technologies">WordPress UI</code>, <code class="technologies">PHP</code>, <code class="technologies">JavaScript</code>, <code class="technologies">jQuery</code>, <code class="technologies">SCSS</code></p>   
+    <p><strong>Next Time:</strong> We still need to introduce a cross fade effect for transitions between background images so this will be my initial focus. I still want to introduce this theme before the weekend is out..</p>           
+
+    <div class="links"><strong>Links:</strong>
+
+        <ul>
+            <li><a href="https://christianity.jonniegrieve.co.uk" class="100days--links" target="_blank">Christianity Website (Under Construction)</a></li>
+            <li><a href="https://100days.jonniegrieve.co.uk" class="100days--links" target="_blank">#100daysOfCode Website (R1D10)</a></li>
         </ul>
 
     </div>

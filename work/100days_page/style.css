@@ -11,6 +11,12 @@ body {
   color: black;
 }
 body header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 0px;
+  width: 100%;
   padding: 0;
   /* border: solid 1px black; */
   background: steelblue;
@@ -36,8 +42,31 @@ body header nav ul a {
 body header nav ul a:hover {
   color: #efcb00;
 }
+body header nav ul li.day---select--listitem {
+  content: "";
+}
+body header nav .nav---select--container {
+  text-align: center;
+  width: auto;
+}
+body header nav .nav---select--container > label {
+  font-weight: bold;
+  /* font-size: large; */
+  color: #fee762;
+}
+body header nav .nav---select--container select {
+  margin-bottom: 1rem;
+  /* padding: 0.5rem; */
+  background: lightblue;
+  display: inline-block;
+  margin: 9px auto;
+  text-align: center;
+  padding: 4px 11px;
+  border-radius: 11px;
+}
 body header h1 {
   text-align: center;
+  margin: 66px 0 0 0;
 }
 body header #jgdm-100days-logo {
   display: block;
@@ -107,24 +136,6 @@ body section article div ul li .projects---100days--links {
   color: #d6efe7;
   text-decoration: none;
   font-size: 12px;
-}
-body section .day---select--container {
-  text-align: center;
-  width: auto;
-}
-body section .day---select--container > label {
-  font-weight: bold;
-  font-size: large;
-}
-body section .day---select--container select {
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  background: lightblue;
-  display: inline-block;
-  margin: 9px auto;
-  text-align: center;
-  padding: 9px 11px;
-  border-radius: 11px;
 }
 body section .entry {
   width: 680px;

@@ -402,3 +402,39 @@
     <a href="#" class="back---to--top">Back to Top</a>
 
 </article>
+
+<article id="day11" class="entry">
+
+        <h2>Day 11: <span>24 July 2025</span> </h2>            
+
+        <h3><strong>Today's Focus: </strong>Big challenge today getting crossfading sorted out for the background images for my Christianity Website.</h3>
+
+        <div class="summary" maxchar=280>
+
+            <p>Big challenge today getting crossfading sorted out for the background images for my Christianity Website.</p>
+            
+        </div>
+        
+        <a href="#" class="btn-more-info">Expand</a>
+
+        <div class="more-info">
+            
+            <p>It's been a tough one today getting effective crossfading transitions sorted out for these images. But one thing I did get sorted out was more paylod savings with my images by reducing their physical and file sizes. I thought this might help with the crossfade transitions but certainly on my browser they don't show up much at all. I'm keeping this on my to do list but there's more things to be sorted out. </p>
+
+        </div>
+
+        <p><strong>Challenges: </strong> The crossfading stuff has been hard, gruelling and time connsuming with little sign of results.</p>
+        <p><strong>Technologies Used Today: </strong> <code class="technologies">Cursor AI</code>, <code class="technologies">WordPress UI</code>, <code class="technologies">PHP</code>, <code class="technologies">JavaScript</code>, <code class="technologies">jQuery</code>, <code class="technologies">SCSS</code></p>   
+        <p><strong>Next Time: </strong>It's time to start focusing on getting the theme ready to be uploaded with browser sharing images for social media and other meta attributes set up. I'm also planning to upload the next season of data for my Football score comparator website.</p>           
+
+        <div class="links"><strong>Links:</strong>
+
+             <ul>
+                <li><a href="https://christianity.jonniegrieve.co.uk" class="100days--links" target="_blank">Christianity Website (Under Construction)</a></li>
+            </ul>
+
+        </div>
+
+        <a href="#" class="back---to--top">Back to Top</a>
+
+</article>

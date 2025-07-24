@@ -24,6 +24,7 @@
             <option value="day08">Day 8</option>
             <option value="day09">Day 9</option>
             <option value="day10">Day 10</option>
+            <option value="day11">Day 11</option>
             
             <!-- Add more days as you go -->
 

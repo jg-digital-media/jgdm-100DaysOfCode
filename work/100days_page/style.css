@@ -121,19 +121,20 @@ body section article div ul li {
   width: auto;
   padding: 4px;
   border-radius: 10px;
-  background: steelblue;
+  /* background: steelblue; */
   border: solid 1px #d5d5d5;
   list-style: none;
   margin: 5px 0;
   transition: background 0.3s;
 }
 body section article div ul li:hover {
-  background: #5a91bf;
+  /* background: lighten($color: steelblue, $amount: 6%); */
+  background: #99d0ff;
 }
 body section article div ul li .projects---100days--links {
   display: block;
   padding: 6px;
-  color: #d6efe7;
+  color: #db0000;
   text-decoration: none;
   font-size: 12px;
 }
@@ -269,13 +270,16 @@ body section .entry .links {
   transition: background 0.3s;
 }
 body section .entry .links:hover {
-  background: lightblue;
+  /* background: $bg---tertiary; */
+  /* background: #4aa1eb; */
 }
 body section .entry .links ul li a {
   margin: 10px;
   color: #db0000;
-  font-size: 17px;
+  /* font-size: 17px; */
+  font-size: 12px;
   transition: color 0.3s ease-in-out;
+  text-decoration: none;
 }
 body section .entry .links ul li a:hover {
   color: #720808;

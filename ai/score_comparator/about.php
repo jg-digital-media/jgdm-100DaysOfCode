@@ -57,7 +57,7 @@
     <header>
 
         <h1 class="main---title">Football Score Comparator</h1>
-        <div class="tagline">Based on Newcastle United <span>(v3.4)</span> <span id="back---home"><a href="index.php">Back to Homepage</a></span></div>
+        <div class="tagline">Based on Newcastle United <span>(v3.5)</span> <span id="back---home"><a href="index.php">Back to Homepage</a></span></div>
         
     </header>
 
@@ -159,8 +159,8 @@
 
         <ul class="development---history"> 
             
-            <li>Expanded the app for readiness to add match data for season <code><strong>2018/2010</strong></code>. </li>
-            <!-- <li><code><strong>Phase ends (23/05/2025)</strong></code></li> -->
+            <li>Expanded the app for readiness to add match data for season <code><strong>2018/2019</strong></code>. </li><li>More seasons will be incrementally added as they are completed. Complete seasons include: <code><strong>2024/2025</strong></code>, <code><strong>2023/2024</strong></code>, <code><strong>2022/2023</strong></code>, <code><strong>2021/2022</strong></code> <code><strong>2020/2021</strong></code> <code><strong>2019/2020</strong></code>, and <code><strong>2018/2019</strong></code>.</li>
+            <li><code><strong>Phase ends (25/07/2025)</strong></code></li>
 
         </ul>
 

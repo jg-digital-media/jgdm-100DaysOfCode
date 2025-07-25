@@ -93,7 +93,7 @@
 
     <div class="summary">
 
-        <p>Day 3 after a short break, worked on some improvements to this web page. Added a Template Part for an empty journal entry for me to copy over and add to as I go on. And I added a counter of filtered bird photos to the filterable page on my Bird Identifier Website.</p>
+        <p>Day 3 - After a short break, I worked on some improvements to this web page. Added a Template Part for an empty journal entry for me to copy over and add to as I go on. And I added a counter of filtered bird photos to the filterable page on my Bird Identifier Website.</p>
 
     </div>
 
@@ -103,7 +103,7 @@
         
         <p>Bird identifier Website - the main goal of today was to introduce a dynamic count of filtered and unfiltered photos on the filterable page. </p>
 
-        <p>I tested the results of the generated code.  But there's a problem with the check filters. Each time I used one, the total showed  0 and did not show a single photo. And verified that the total count is being counted against data attributes that don't exist.  What we wanted was to get the code to check for the  existence of classes in birds.json and use those to show the relevant images.  <code class="achievement">Achievement</code> </p>
+        <p>I tested the results of the generated code. But there's a problem with the check filters. Each time I used one, the total showed  0 and did not show a single photo. And verified that the total count is being counted against data attributes that don't exist. What we wanted was to get the code to check for the existence of classes in birds.json and use those to show the relevant images.  <code class="achievement">Achievement</code> </p>
 
         <p>So we were supposed to be looking for classes to add to the HTML like this... `bird---class--black`, `bird---class--medium` or `bird---class--countryside` which we put into the JSON property.</p> 
 
@@ -136,7 +136,7 @@
 
     <h2>Day 4: <span>15th July 2025</span> </h2>            
 
-    <h3><strong>Today's Focus:</strong> Starting to draft theme for my new Christianity Subdomain website. Updated my list of Autism Traits.</h3>
+    <h3><strong>Today's Focus:</strong> Starting to draft the theme for my new Christianity Subdomain website. Updated my list of Autism Traits.</h3>
 
     <div class="summary" maxchar=280>
 
@@ -150,17 +150,17 @@
         
         <p>The main challenge today was to finalise a draft design/prototype for my Christianity Website. </p>
 
-        <p>I wanted it to be image-heavy, which is a challenge in itself. But also, I wanted to try and bring to life the design that was in my head. So what I was going for was background images for the header and main element with see-through category tag buttons as a horizontal navigation. These tags links/buttons will link to a list of posts assigned to that category. Eventually. <code class="achievement">Achievement</code></p> 
+        <p>I wanted it to be image-heavy, which is a challenge in itself. But also, I wanted to try and bring to life the design that was in my head. So what I was going for was background images for the header and main element with see-through category tag buttons as a horizontal navigation. These tags, which are links/buttons, will link to a list of posts assigned to that category. Eventually. <code class="achievement">Achievement</code></p> 
 
         <p>The upshot of that effort for today is that although finishing building the draft design was ambitious, I'm happy with what I've done so far, and I can build on it. There isn't anything to link to yet, but it is coming.</p>
 
-        <p>Autism - Added a list of Autism traits to my Autism page - available to look at now..</p>
+        <p>Autism - Added a list of Autism traits to my Autism page - available to look at now.</p>
 
     </div>
 
     <p><strong>Challenges: </strong>Build a new design from my memory. To try and build in one sitting. .</p>
     <p><strong>Technologies Used Today: </strong> <code class="technologies">HTML</code>, <code class="technologies">CSS</code> </p>   
-    <p><strong>Next Time: </strong>3 main points of Focus. To continue building draft new WordPress Theme. Work on the Score comparator website to start building the next seasons' match results. Update Photography Website.</p>           
+    <p><strong>Next Time: </strong>3 main points of Focus. To continue building draft new WordPress Theme. Work on the Score comparator website to start building the next season's match results. Update Photography Website.</p>           
 
     <div class="links"><strong>Links:</strong>
 
@@ -184,7 +184,7 @@
 
     <div class="summary" maxchar=280>
 
-        <p>The main thing I wanted to get done today was to firm more work up with the design of the WordPress Theme I'm building for my Christianity Website. I added the slick slider for the category tags on an infinite slider which will be a big feature of the theme when finished.</p>
+        <p>The main thing I wanted to get done today was to firm up more work with the design of the WordPress Theme I'm building for my Christianity Website. I added the slick slider for the category tags on an infinite slider, which will be a big feature of the theme when finished.</p>
         
     </div>
     
@@ -194,11 +194,11 @@
 
         <p>I used AI to get the slick slider in place. Which was easy with the right prompt. It gave me a solution that understood my design. The challenge is that I was left with a Slick carousel that had arrow buttons that interfaced poorly with the clickable category tags. </p>
         
-        <p>This was nice in the sense that it matched the design I'd already created but does have some design faults.  I decided it would best to accept the amendments Cursor AI gave me and work on fixing the design on my own. Which I was able to do. <code class="achievement">Achievement</code></p>
+        <p>This was nice in the sense that it matched the design I'd already created, but it does have some design faults.  I decided it would be best to accept the amendments Cursor AI gave me and work on fixing the design on my own. Which I was able to do. <code class="achievement">Achievement</code></p>
 
     </div>
 
-    <p><strong>Challenges: </strong>Use of AI to imeplement the slider and then using my knowledge of my design to fix visual errors I was left with.  During this time I've strenghtened the background images in terms of their quality and how they adapt to repsonsive breakponts. .</p>
+    <p><strong>Challenges: </strong>Use of AI to implement the slider, and then using my knowledge of my design to fix the visual errors I was left with.  During this time I've strengthened the background images in terms of their quality and how they adapt to responsive breakpoints.</p>
     <p><strong>Technologies Used Today: </strong> <code class="technologies">HTML</code>, <code class="technologies">CSS/SASS</code>,<code class="technologies">AI</code>,<code class="technologies">jQuery</code>, <code class="technologies">JavaScript</code>,<code class="technologies">PHP</code></p>   
     <p><strong>Next Time: </strong>I didn't have a lot of time to work on my Photography page and Football Comparator site that I mentioned in Day 4. So that's where I'll start tomorrow.</p>           
 
@@ -222,13 +222,13 @@
 
     <div class="summary" maxchar=280>
 
-        <p>I did manage to update the photography website and score comparator website. But the big thing today was working on banner overlay text that live over the header background image. I've added a new SASS partial for this. Needs to be refined but it's a start.</p>
+        <p>I did manage to update the photography website and score comparator website. But the big thing today was working on banner overlay text that lives over the header background image. I've added a new SASS partial for this. Needs to be refined, but it's a start.</p>
         
     </div>  
 
     <p><strong>Challenges: </strong>Try to add an overlay to the header that will go over the header background image.</p>
     <p><strong>Technologies Used Today: </strong> <code class="technologies">HTML</code>, <code class="technologies">CSS/SASS</code>,<code class="technologies">AI</code>,<code class="technologies">jQuery</code>, <code class="technologies">JavaScript</code>,<code class="technologies">PHP</code></p>   
-    <p><strong>Next Time: </strong>The idea for next days work is to finish the draft theme (Christianity Website). For that it means make it ready for adding to a local installation of WordPress which will be worked on next week.</p>           
+    <p><strong>Next Time: </strong>The idea for the next day's work is to finish the draft theme (Christianity Website). For me, that means making it ready for adding to a local installation of WordPress. Ts is something which will be worked on next week..</p>           
 
     <div class="links"><strong>Links:</strong>
 
@@ -251,7 +251,7 @@
 
     <div class="summary" maxchar=280>
 
-        <p>Today is about sorting out the background images of my Christianity WordPress site.  The main image banner is as of today a background image faded carousel with a slight blur effect. </p>                
+        <p>Today is about sorting out the background images of my Christianity WordPress site.  The main image banner is, as of today, a background image faded carousel with a slight blur effect. </p>                
         
     </div>
     
@@ -259,17 +259,17 @@
 
     <div class="more-info">
         
-        <p>This is hard to do because the as I found, background images are part of the main element so anything else that is in it is also given the blur effect, including the text content. It has to be separated in some way in terms of how the filter is selected by the CSS and JavaScript.</p>
+        <p>This is hard to do because the as I found, background images are part of the main element, so anything else that is in it is also given the blur effect, including the text content. It has to be separated in some way in terms of how the filter is selected by the CSS and JavaScript.</p>
 
-        <p>I haven't finished it by any means. I have to implement some some payload savings on the images, for one thing. But there's enough code and enough draft work in there to start putting it into a WordPress theme. So this is what what I will do going forward. <code class="achievement">Achievement</code></p> 
+        <p>I haven't finished it by any means. I have to implement some payload savings on the images, for one thing. But there's enough code and enough draft work in there to start putting it into a WordPress theme. So this is what I will do going forward. <code class="achievement">Achievement</code></p> 
 
-        <p>Before all of this I also compleyed the latest content update for my Photgraphy Website. <code class="achievement">Achievement</code></p>
+        <p>Before all of this I also completed the latest content update for my Photography Website. <code class="achievement">Achievement</code></p>
 
     </div>
 
     <p><strong>Challenges: </strong>Much of my time was spent working out the best way to run a fade transition image slider and applying a blur transition to the images.</p>
     <p><strong>Technologies Used Today: </strong> <code class="technologies">HTML</code>, <code class="technologies">CSS/SASS</code>,<code class="technologies">AI</code>,<code class="technologies">jQuery</code>, <code class="technologies">JavaScript</code>,<code class="technologies">PHP</code></p>   
-    <p><strong>Next Time: </strong>Start work on building the WordPress theme in a WordPress installation.  I'd like to get as much done on this as possible in the early part of next week..</p>           
+    <p><strong>Next Time: </strong>Start work on building the WordPress theme in a WordPress installation.  I'd like to get as much done on this as possible in the early part of next week.</p>           
 
     <div class="links"><strong>Links:</strong>
 
@@ -339,13 +339,13 @@
 
     <div class="more-info">
         
-        <p>I have done this before custom post types and custom fields, but when I'd got to the point of creating the "Thoughts" custom post type I realised I'd build the markup in such a way it wasn't easy for me to add a Custom Post Type and build it to make indivual entries. </p> 
+        <p>I have done this before custom post types and custom fields, but when I'd got to the point of creating the "Thoughts" custom post type, I realised I'd build the markup in such a way it wasn't easy for me to add a Custom Post Type and built it to make individual entries. </p> 
 
-        <p>So I did turn to Cursor using a detailed prompt to tackle the problem for me. I was very impressed with a clean and flawlessly integreated Custom Post Type that was created for me in a few minutes.  The rest of the theme thus far is my own design and works. <code class="achievement">Achievement</code></p> 
+        <p>So I did turn to Cursor using a detailed prompt to tackle the problem for me. I was very impressed with a clean and flawlessly integrated Custom Post Type that was created for me in a few minutes.  The rest of the theme, thus far is my own design and works. <code class="achievement">Achievement</code></p> 
 
     </div>
 
-    <p><strong>Challenges: </strong> Implementing the category carousel, which is a huge part of how this theme will. Why was it such a challenge? Because I took it beyond my capabilities in terms of working out now to integrate the content into list items rather than a single element container. Cursor AI showed me the way.</p>
+    <p><strong>Challenges: </strong> Implementing the category carousel, which is a huge part of how this theme will work. Why was it such a challenge? Because I took it beyond my capabilities in terms of working out now to integrate the content into list items rather than a single element container. Cursor AI showed me the way.</p>
     <p><strong>Technologies Used Today: </strong> <code class="technologies">Cursor AI</code>, <code class="technologies">WordPress UI</code>, <code class="technologies">PHP</code>, <code class="technologies">JavaScript</code>, <code class="technologies">jQuery</code>, <code class="technologies">SCSS</code></p>   
     <p><strong>Next Time: Focusing on page load reductions caused by the many background images I'm using. I'm provements to this ever growing 100days page and other project improvements if there is time. </strong>.</p>           
 
@@ -370,7 +370,7 @@
 
     <div class="summary" maxchar=280>
 
-        <p>Finding a way to reduce the payload and load times for the image heavy Christianity Website took up most of my time today. It seems to have worked on my local environment which is good. Will be tested online in due course.</p>
+        <p>Finding a way to reduce the payload and load times for the image-heavy Christianity Website took up most of my time today. It seems to have worked on my local environment, which is good. It will be tested online in due course.</p>
         
     </div>
     
@@ -378,17 +378,17 @@
 
     <div class="more-info">
         
-        <p>AI helped me again today by helping me introduce preloading on images and other optimisations. There's more caching going on which means users, shouldn't be looking at white screen so much when the background images transition. <code class="achievement">Achievement</code> </p>
+        <p>AI helped me again today by helping me introduce preloading on images and other optimisations. There's more caching going on, which means users shouldn't be looking at a white screen so much when the background images transition. <code class="achievement">Achievement</code> </p>
 
         <p>I've added a sticky header to this website; an increasingly necessary change as the content on this website grows. </p> 
 
-        <p>I also put the growing list of Round 1 Journal entires into their own template part to make the Journal page more management. So there's now a template part to add in new entries to another template part, and the journal page itself is easier to read amd manage.</p>
+        <p>I also put the growing list of Round 1 Journal entries into their own template part to make the Journal page more manageable. So there's now a template part to add in new entries to another template part, and the journal page itself is easier to read and manage..</p>
 
     </div>
 
     <p><strong>Challenges: </strong>  Reducing payload and load times for image heavy Chrisitanity Website, which certainly at a local level has been a success.</p>
     <p><strong>Technologies Used Today: </strong> <code class="technologies">Cursor AI</code>, <code class="technologies">WordPress UI</code>, <code class="technologies">PHP</code>, <code class="technologies">JavaScript</code>, <code class="technologies">jQuery</code>, <code class="technologies">SCSS</code></p>   
-    <p><strong>Next Time:</strong> We still need to introduce a cross fade effect for transitions between background images so this will be my initial focus. I still want to introduce this theme before the weekend is out..</p>           
+    <p><strong>Next Time: </strong>We still need to introduce a cross fade effect for transitions between background images so this will be my initial focus. I still want to introduce this theme before the weekend is out..</p>           
 
     <div class="links"><strong>Links:</strong>
 
@@ -411,7 +411,7 @@
 
         <div class="summary" maxchar=280>
 
-            <p>Big challenge today getting crossfading sorted out for the background images for my Christianity Website.</p>
+            <p>The big challenge today is getting crossfading sorted out for the background images for my Christianity Website.</p>
             
         </div>
         
@@ -419,11 +419,11 @@
 
         <div class="more-info">
             
-            <p>It's been a tough one today getting effective crossfading transitions sorted out for these images. But one thing I did get sorted out was more paylod savings with my images by reducing their physical and file sizes. I thought this might help with the crossfade transitions but certainly on my browser they don't show up much at all. I'm keeping this on my to do list but there's more things to be sorted out. </p>
+            <p>It's been a tough one today getting effective crossfading transitions sorted out for these images. But one thing I did get sorted out was more payload savings with my images by reducing their physical and file sizes. I thought this might help with the crossfade transitions, but certainly on my browser, they don't show up much at all. I'm keeping this on my to-do list, but there are more things to be sorted out. </p>
 
         </div>
 
-        <p><strong>Challenges: </strong> The crossfading stuff has been hard, gruelling and time connsuming with little sign of results.</p>
+        <p><strong>Challenges: </strong> The crossfading stuff has been hard, gruelling and time-consuming with little sign of results.</p>
         <p><strong>Technologies Used Today: </strong> <code class="technologies">Cursor AI</code>, <code class="technologies">WordPress UI</code>, <code class="technologies">PHP</code>, <code class="technologies">JavaScript</code>, <code class="technologies">jQuery</code>, <code class="technologies">SCSS</code></p>   
         <p><strong>Next Time: </strong>It's time to start focusing on getting the theme ready to be uploaded with browser sharing images for social media and other meta attributes set up. I'm also planning to upload the next season of data for my Football score comparator website.</p>           
 
@@ -431,6 +431,47 @@
 
              <ul>
                 <li><a href="https://christianity.jonniegrieve.co.uk" class="100days--links" target="_blank">Christianity Website (Under Construction)</a></li>
+            </ul>
+
+        </div>
+
+        <a href="#" class="back---to--top">Back to Top</a>
+
+</article>
+
+<article id="day12" class="entry">
+
+        <h2>Day 12: <span>25 July 2025</span> </h2>            
+
+        <h3><strong>Today's Focus: </strong> Most of the work today has been on setting up Page variables for pages and templates on the WordPress project.</h3>
+
+        <div class="summary" maxchar=280>
+
+            <p>Today has mainly been about doing some work to make the new WordPress website I'm building fit to be uploaded to the web. That's coming up on Day 13.</p>
+            
+        </div>
+        
+        <a href="#" class="btn-more-info">Expand</a>
+
+        <div class="more-info">            
+           
+            <p>One learning point from today is that it has helped me learn the difference between using <em>include</em> and <em>get_template_part()</em> for including header and footer templates and other template parts.  That took a bit of time before I asked Cursor about it in the same way I might have asked Google not so long ago.  <code class="achievement">Achievement</code></p> 
+
+            <p>Elsewhere I've made some minor stylistic changes to the 100DaysOfCode website (this website). I'm always thinking about ways to improve it. <code class="achievement">Achievement</code></p>
+            
+            <p>And I've finished adding match scoreline data to the ongoing Football Score Comparator Website. The data is complete for the 2018/19 season and all seasons after.<code class="achievement">Achievement</code></p>
+
+        </div>
+
+        <p><strong>Technologies Used Today: </strong> <code class="technologies">Cursor AI</code>, <code class="technologies">WordPress UI</code>, <code class="technologies">PHP</code>, <code class="technologies">JavaScript</code>, <code class="technologies">jQuery</code>, <code class="technologies">SCSS</code></p>   
+        <p><strong>Next Time: </strong>After final checks and tweaks to the WordPress theme, it'll be time to upload the website to the web.</p>
+
+        <div class="links"><strong>Links:</strong>
+
+            <ul>
+                <li><a href="https://christianity.jonniegrieve.co.uk/" class="100days--links" target="_blank">Christianity Website (Under Construction)</a></li>
+                <li><a href="https://projects.jonniegrieve.co.uk/score_comparator/" class="100days--links" target="_blank">Football Score Comparator Website (v3.5)</a></li>
+                <li><a href="https://100days.jonniegrieve.co.uk/" class="100days--links" target="_blank">Football Score Comparator Website (v3.5)</a></li>
             </ul>
 
         </div>

@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <option id="select---home--arsenal" value="Arsenal">Arsenal</option>
             <option id="select---home--brighton" value="Brighton & Hove Albion">Brighton & Hove Albion</option>
             <option id="select---home--burnley" value="Burnley">Burnley</option>  
-            <option id="select---home--cardiff" value="Chelsea">Cardiff City</option> 
+            <option id="select---home--cardiff" value="Cardiff City">Cardiff City</option> 
             <option id="select---home--chelsea" value="Chelsea">Chelsea</option>           
             <option id="select---home--crystalpalace" value="Crystal Palace">Crystal Palace</option>  
             <option id="select---home--everton" value="Everton">Everton</option>

@@ -479,3 +479,45 @@
         <a href="#" class="back---to--top">Back to Top</a>
 
 </article>
+
+<article id="day13" class="entry">
+
+        <h2>Day 13: <span>28 July 2025</span> </h2>            
+
+        <h3><strong>Today's Focus: </strong>I put my Christianity Website out for release at last. Elsewhere I've been thinking about a new approach to coding via AI chat prompt</h3>
+
+        <div class="summary" maxchar=280>
+
+            <p>I talked a lot last week about the new WordPress website I've been working on.  After a few last minute refinements I'm now to put it out for the world to see. Elsewhere I've been thinking about a new approach to coding via AI chat prompt.</p>
+            
+        </div>
+        
+        <a href="#" class="btn-more-info">Expand</a>
+
+        <div class="more-info">
+            
+            <p>This involved examining both databases (local and server) to make sure that the server was fit to receive the new files and mimic the version of the website on my local development server. Thankfully, even though I first made the website in 2019, that process didn't take long, and I could simply extract the text content from the admin area in swfit course. </p>
+
+            <p>I updated the database; uploaded the files to the new theme.</p> 
+
+            <p>Now it's ready.  I have plans for further improvements in the future. I don't often talk faith and religion in relation to my work, but all I want to say is with this project, all I want to share with anyone who reads it is what i]I[/i] think. Not what I think other people should think. <code class="achievement">Achievement</code></p>
+
+            <p>That's it for coding for today's <code>#100DaysOfCode</code>. But one other thing i've done today is a new approach to coding via AI chat prompt where I try to get as much of a project built I can from one prompt. Neither of them are ready yet and I'm not sure they'll work because I haven't tried it before. But I'm excited to try them out and see what happens.</p>
+
+        </div>
+
+        <p><strong>Challenges: </strong>Started drafting a couple of chat prompts for 2 of my projects. Much more challenging than it sounds :).</p>
+        <p><strong>Technologies Used Today: </strong> <code class="technologies">WordPress UI</code>, <code class="technologies">PHP</code></p>   
+        <p><strong>Next Time: More work with the chat prompts and to revisit the Snooker Scoring application</strong>.</p>           
+
+        <div class="links"><strong>Links:</strong>
+
+            <ul>
+               <li><a href="https://christianity.jonniegrieve.co.uk/" class="100days--links" target="_blank">Christianity Website (Now Live as of Today)</a></li>
+            </ul>
+
+        </div>
+
+        <a href="#" class="back---to--top">Back to Top</a>
+
+</article>

@@ -39,7 +39,7 @@
                     <li><a href="https://projects.jonniegrieve.co.uk/bird_identifier" target="_blank" class="projects---100days--links">Bird Identifier</a></li>
                     <li><a href="https://projects.jonniegrieve.co.uk/score_comparator" target="_blank" class="projects---100days--links">Football Score Comparator</a></li>
                     <li><a href="https://projects.jonniegrieve.co.uk/autism_traits" target="_blank" class="projects---100days--links">Autism Traits</a></li>
-                    <li><a href="https://christianity.jonniegrieve.co.uk/" target="_blank" class="projects---100days--links">Christianity Website (Under construction)</a></li>
+                    <li><a href="https://christianity.jonniegrieve.co.uk/" target="_blank" class="projects---100days--links">Christianity Website (Christianity and my Personal Theology)</a></li>
                 </ul>
 
             </div>

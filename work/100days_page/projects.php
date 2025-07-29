@@ -36,6 +36,9 @@
                 <!-- <p>I have done many rounds of <code class="hundred---days--code">#100DaysOfCode</code> in the past. After an extended break, I'm ready to start logging my coding journey again through the <strong>#100DaysOfCode</strong> challenge. </p> -->
 
                 <ul>
+                    <li><a href="https://projects.jonniegrieve.co.uk/snooker_scorer" target="_blank" class="projects---100days--links">Snooker Scorer App</a></li>
+                    <li><a href="https://photography/jonniegrieve.co.uk/" target="_blank" class="projects---100days--links">Photography Website</a></li>
+                    <li><a href="https://projects.jonniegrieve.co.uk/my_expenses" target="_blank" class="projects---100days--links">My Expenses</a></li>
                     <li><a href="https://projects.jonniegrieve.co.uk/bird_identifier" target="_blank" class="projects---100days--links">Bird Identifier</a></li>
                     <li><a href="https://projects.jonniegrieve.co.uk/score_comparator" target="_blank" class="projects---100days--links">Football Score Comparator</a></li>
                     <li><a href="https://projects.jonniegrieve.co.uk/autism_traits" target="_blank" class="projects---100days--links">Autism Traits</a></li>

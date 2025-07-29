@@ -217,7 +217,7 @@ body section .entry .more-info {
   padding: 0;
 }
 body section .entry .more-info.show {
-  max-height: 500px; /* Adjust based on your content */
+  max-height: 750px; /* Adjust based on your content */
   opacity: 1;
   padding: 10px 0;
 }

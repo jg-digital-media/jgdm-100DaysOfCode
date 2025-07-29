@@ -441,83 +441,130 @@
 
 <article id="day12" class="entry">
 
-        <h2>Day 12: <span>25 July 2025</span> </h2>            
+    <h2>Day 12: <span>25 July 2025</span> </h2>            
 
-        <h3><strong>Today's Focus: </strong> Most of the work today has been on setting up Page variables for pages and templates on the WordPress project.</h3>
+    <h3><strong>Today's Focus: </strong> Most of the work today has been on setting up Page variables for pages and templates on the WordPress project.</h3>
 
-        <div class="summary" maxchar=280>
+    <div class="summary" maxchar=280>
 
-            <p>Today has mainly been about doing some work to make the new WordPress website I'm building fit to be uploaded to the web. That's coming up on Day 13.</p>
-            
-        </div>
+        <p>Today has mainly been about doing some work to make the new WordPress website I'm building fit to be uploaded to the web. That's coming up on Day 13.</p>
         
-        <a href="#" class="btn-more-info">Expand</a>
+    </div>
+    
+    <a href="#" class="btn-more-info">Expand</a>
 
-        <div class="more-info">            
-           
-            <p>One learning point from today is that it has helped me learn the difference between using <em>include</em> and <em>get_template_part()</em> for including header and footer templates and other template parts.  That took a bit of time before I asked Cursor about it in the same way I might have asked Google not so long ago.  <code class="achievement">Achievement</code></p> 
+    <div class="more-info">            
+        
+        <p>One learning point from today is that it has helped me learn the difference between using <em>include</em> and <em>get_template_part()</em> for including header and footer templates and other template parts.  That took a bit of time before I asked Cursor about it in the same way I might have asked Google not so long ago.  <code class="achievement">Achievement</code></p> 
 
-            <p>Elsewhere I've made some minor stylistic changes to the 100DaysOfCode website (this website). I'm always thinking about ways to improve it. <code class="achievement">Achievement</code></p>
-            
-            <p>And I've finished adding match scoreline data to the ongoing Football Score Comparator Website. The data is complete for the 2018/19 season and all seasons after.<code class="achievement">Achievement</code></p>
+        <p>Elsewhere I've made some minor stylistic changes to the 100DaysOfCode website (this website). I'm always thinking about ways to improve it. <code class="achievement">Achievement</code></p>
+        
+        <p>And I've finished adding match scoreline data to the ongoing Football Score Comparator Website. The data is complete for the 2018/19 season and all seasons after.<code class="achievement">Achievement</code></p>
 
-        </div>
+    </div>
 
-        <p><strong>Technologies Used Today: </strong> <code class="technologies">Cursor AI</code>, <code class="technologies">WordPress UI</code>, <code class="technologies">PHP</code>, <code class="technologies">JavaScript</code>, <code class="technologies">jQuery</code>, <code class="technologies">SCSS</code></p>   
-        <p><strong>Next Time: </strong>After final checks and tweaks to the WordPress theme, it'll be time to upload the website to the web.</p>
+    <p><strong>Technologies Used Today: </strong> <code class="technologies">Cursor AI</code>, <code class="technologies">WordPress UI</code>, <code class="technologies">PHP</code>, <code class="technologies">JavaScript</code>, <code class="technologies">jQuery</code>, <code class="technologies">SCSS</code></p>   
+    <p><strong>Next Time: </strong>After final checks and tweaks to the WordPress theme, it'll be time to upload the website to the web.</p>
 
-        <div class="links"><strong>Links:</strong>
+    <div class="links"><strong>Links:</strong>
 
-            <ul>
-                <li><a href="https://christianity.jonniegrieve.co.uk/" class="100days--links" target="_blank">Christianity Website (Under Construction)</a></li>
-                <li><a href="https://projects.jonniegrieve.co.uk/score_comparator/" class="100days--links" target="_blank">Football Score Comparator Website (v3.5)</a></li>
-                <li><a href="https://100days.jonniegrieve.co.uk/" class="100days--links" target="_blank">Football Score Comparator Website (v3.5)</a></li>
-            </ul>
+        <ul>
+            <li><a href="https://christianity.jonniegrieve.co.uk/" class="100days--links" target="_blank">Christianity Website (Under Construction)</a></li>
+            <li><a href="https://projects.jonniegrieve.co.uk/score_comparator/" class="100days--links" target="_blank">Football Score Comparator Website (v3.5)</a></li>
+            <li><a href="https://100days.jonniegrieve.co.uk/" class="100days--links" target="_blank">Football Score Comparator Website (v3.5)</a></li>
+        </ul>
 
-        </div>
+    </div>
 
-        <a href="#" class="back---to--top">Back to Top</a>
+    <a href="#" class="back---to--top">Back to Top</a>
 
 </article>
 
 <article id="day13" class="entry">
 
-        <h2>Day 13: <span>28 July 2025</span> </h2>            
+    <h2>Day 13: <span>28 July 2025</span> </h2>            
 
-        <h3><strong>Today's Focus: </strong>I put my Christianity Website out for release at last. Elsewhere I've been thinking about a new approach to coding via AI chat prompt</h3>
+    <h3><strong>Today's Focus: </strong>I put my Christianity Website out for release at last. Elsewhere I've been thinking about a new approach to coding via AI chat prompt</h3>
 
-        <div class="summary" maxchar=280>
+    <div class="summary" maxchar=280>
 
-            <p>I talked a lot last week about the new WordPress website I've been working on.  After a few last minute refinements I'm now to put it out for the world to see. Elsewhere I've been thinking about a new approach to coding via AI chat prompt.</p>
-            
-        </div>
+        <p>I talked a lot last week about the new WordPress website I've been working on.  After a few last minute refinements I'm now to put it out for the world to see. Elsewhere I've been thinking about a new approach to coding via AI chat prompt.</p>
         
-        <a href="#" class="btn-more-info">Expand</a>
+    </div>
+    
+    <a href="#" class="btn-more-info">Expand</a>
 
-        <div class="more-info">
-            
-            <p>This involved examining both databases (local and server) to make sure that the server was fit to receive the new files and mimic the version of the website on my local development server. Thankfully, even though I first made the website in 2019, that process didn't take long, and I could simply extract the text content from the admin area in swfit course. </p>
+    <div class="more-info">
+        
+        <p>This involved examining both databases (local and server) to make sure that the server was fit to receive the new files and mimic the version of the website on my local development server. Thankfully, even though I first made the website in 2019, that process didn't take long, and I could simply extract the text content from the admin area in swfit course. </p>
 
-            <p>I updated the database; uploaded the files to the new theme.</p> 
+        <p>I updated the database; uploaded the files to the new theme.</p> 
 
-            <p>Now it's ready.  I have plans for further improvements in the future. I don't often talk faith and religion in relation to my work, but all I want to say is with this project, all I want to share with anyone who reads it is what i]I[/i] think. Not what I think other people should think. <code class="achievement">Achievement</code></p>
+        <p>Now it's ready.  I have plans for further improvements in the future. I don't often talk faith and religion in relation to my work, but all I want to say is with this project, all I want to share with anyone who reads it is what i]I[/i] think. Not what I think other people should think. <code class="achievement">Achievement</code></p>
 
-            <p>That's it for coding for today's <code>#100DaysOfCode</code>. But one other thing i've done today is a new approach to coding via AI chat prompt where I try to get as much of a project built I can from one prompt. Neither of them are ready yet and I'm not sure they'll work because I haven't tried it before. But I'm excited to try them out and see what happens.</p>
+        <p>That's it for coding for today's <code>#100DaysOfCode</code>. But one other thing i've done today is a new approach to coding via AI chat prompt where I try to get as much of a project built I can from one prompt. Neither of them are ready yet and I'm not sure they'll work because I haven't tried it before. But I'm excited to try them out and see what happens.</p>
 
-        </div>
+    </div>
 
-        <p><strong>Challenges: </strong>Started drafting a couple of chat prompts for 2 of my projects. Much more challenging than it sounds :).</p>
-        <p><strong>Technologies Used Today: </strong> <code class="technologies">WordPress UI</code>, <code class="technologies">PHP</code></p>   
-        <p><strong>Next Time: More work with the chat prompts and to revisit the Snooker Scoring application</strong>.</p>           
+    <p><strong>Challenges: </strong>Started drafting a couple of chat prompts for 2 of my projects. Much more challenging than it sounds :).</p>
+    <p><strong>Technologies Used Today: </strong> <code class="technologies">WordPress UI</code>, <code class="technologies">PHP</code></p>   
+    <p><strong>Next Time: More work with the chat prompts and to revisit the Snooker Scoring application</strong>.</p>           
 
-        <div class="links"><strong>Links:</strong>
+    <div class="links"><strong>Links:</strong>
 
-            <ul>
-               <li><a href="https://christianity.jonniegrieve.co.uk/" class="100days--links" target="_blank">Christianity Website (Now Live as of Today)</a></li>
-            </ul>
+        <ul>
+            <li><a href="https://christianity.jonniegrieve.co.uk/" class="100days--links" target="_blank">Christianity Website (Now Live as of Today)</a></li>
+        </ul>
 
-        </div>
+    </div>
 
-        <a href="#" class="back---to--top">Back to Top</a>
+    <a href="#" class="back---to--top">Back to Top</a>
+
+</article>
+
+<article id="day14" class="entry">
+
+    <h2>Day 14: <span>29 July 2025</span> </h2>            
+
+    <h3><strong>Today's Focus: </strong>I went back to the Snooker Scorer Application and fixed a big bug</h3>
+
+    <div class="summary" maxchar=280>
+
+        <p>I went back to the Snooker Scorer Application and fixed a big bug that would have allowed users to carry on using the app with a big scoring discrepancy. Released <code>v1.1.6</code> today.</p>
+        
+    </div>
+    
+    <a href="#" class="btn-more-info">Expand</a>
+
+    <div class="more-info">
+        
+        <p>There was a bug in the app where a player might select to hit a red ball select that the played Missed the shot.  This means that the tally of red ball pots would go up by 1 or more but a red score is never applied. Points Remaining are therefore missed out on that shouldn't be. <code class="achievement">Achievement</code> </p>
+
+        <p>So what I noticed is that the red ball tally was not being reset to its previous tally if the user clicks it and doesn't apply the number before hitting the MISS button.  So that's 7 points lost from the points available that should not be because of a mistake made.
+
+        <p>I wrote a chat prompt that asked claude to fix this. What was good about this fix was it made me confront the fact that I'd only considered the "Miss" button event handlers. I took care to read its thinking and saw it's response.  It was able to see and describe the problem back to me and tell me what it was going to do to fix it.  It let me fix this by updating the MISS button event listeners to reset the temporary red tallies For both player 1 and player 2.
+
+        <p>But not only that.  By following along with claude as it was coming up with it's solution, I realised that it was't just an issue with the MISS buttons.  I had to apply the same logic to fixing the issues with the FOUL buttons.</p>
+        
+        <p>With that, I was able to push the commit and move the app to <code>v1.1.6</code>.<code class="achievement">Achievement</code></p>
+
+        <p>Beyond this I also made content updates to my Photography website and did some updates to the markup with my "My Expenses" webpage.</p>
+
+    </div>
+
+    <p><strong>Technologies Used Today: </strong> <code class="technologies">PHP</code>, <code class="technologies">JavaScript</code>, <code class="technologies">HTML</code>, <code class="technologies">CSS</code></p>   
+    <p><strong>Next Time: </strong>The goal for Day 15 is to finalise my Starting Prompt for "My Expenses" page, run it, see what happens and review the results. </p>           
+
+    <div class="links"><strong>Links:</strong>
+
+        <ul>
+            <li><a href="https://projects.jonniegrieve.co.uk/snooker_scorer" class="100days--links" target="_blank">Snooker Scorer App (Live)</a> <code>v1.1.6</code></li>
+            <li><a href="https://photography.jonniegrieve.co.uk" class="100days--links" target="_blank">Photography Website</a></li>
+            <li><a href="https://projects.jonniegrieve.co.uk/my_expenses" class="100days--links" target="_blank">My Expenses</a></li>
+        </ul>
+
+    </div>
+
+    <a href="#" class="back---to--top">Back to Top</a>
 
 </article>

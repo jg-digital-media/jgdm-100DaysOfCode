@@ -95,6 +95,7 @@
             <p><a href="https://projects.jonniegrieve.co.uk/bird_identifier" target="_blank" class="projects---in--cursor">Bird Identifier</a> - Use this space to search for and identify the bird species that you see when you're out and about </p>
             <p><a href="https://projects.jonniegrieve.co.uk/snooker_scorer" target="_blank" class="projects---in--cursor">Snooker Scorer</a> - Use this app to score your Snooker Frames as your players play through them.</p>
             <p><a href="https://projects.jonniegrieve.co.uk/draggable_list" target="_blank" class="projects---in--cursor">Draggable List</a> - An example, coded in JavaScript via Cursor AI, of a list that can be sorted and dragged around. Make your own custom list on the homepage.</p>
+            <!-- <p><a href="https://projects.jonniegrieve.co.uk/my_expenses" target="_blank" class="projects---in--cursor">My Expenses</a> - An "expenses" tracking application built with PHP, SQLite, and JavaScript mainly produced with 1 chat prompt to Cursor AI. The first app I've produced in such a way.</p> -->
             <!--<p><a href="https://projects.jonniegrieve.co.uk/todo_list" target="_blank" class="projects---in--cursor">Interactive Todo List with Javascript and PHP</a> - A list that persists - going beyond use of localstorage</p>-->
 
         </section>

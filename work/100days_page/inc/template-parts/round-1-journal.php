@@ -610,3 +610,42 @@
         <a href="#" class="back---to--top">Back to Top</a>
 
 </article>
+
+<article id="day16" class="entry">
+
+        <h2>Day 16: <span>31 July 2025</span></h2>            
+
+        <h3><strong>Today's Focus: </strong>After I added back a couple of WordPress installations, I focused on studying the SASS/CSS code in my "My Expenses" project.</h3>
+
+        <div class="summary" maxchar=280>
+
+            <p>What took up most of my time today was looking at the CSS code that the AI Generated for me and converted that to Sass, mainly by nesting the selectors and making the code more organised. </p>
+            
+        </div>
+        
+        <a href="#" class="btn-more-info">Expand</a>
+
+        <div class="more-info">
+            
+            <p> I added Sass variables for things like colours and fonts and other things to make the styles more maintainable. </p>
+
+            <p>Added a <code>notes.php</code> page to share development notes and clearer instructions for using the App which I'll fill in when the app is complete.</p>
+
+
+        </div>
+
+        <p><strong>Technologies Used Today: </strong> <code class="technologies">WordPress</code>, <code class="technologies">SASS</code>, <code class="technologies">HTML</code> </p>   
+        <p><strong>Next Time: </strong>Now that I've got Xampp work up and running again and it seems to be accepting all my requests... I'll focus tomorrow on the 100days setup in wordpress.</p>           
+
+        <div class="links"><strong>Links:</strong>
+
+            <ul>
+                <li><a href="https://dyspraxia.jonniegrieve.co.uk" class="100days--links" target="_blank">Dyspraxia Website</a></li>
+                <li><a href="https://christianity.jonniegrieve.co.uk" class="100days--links" target="_blank">Christianity Website</a></li>
+            </ul>
+
+        </div>
+
+        <a href="#" class="back---to--top">Back to Top</a>
+
+</article>

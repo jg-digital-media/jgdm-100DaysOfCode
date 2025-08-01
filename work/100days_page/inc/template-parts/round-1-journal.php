@@ -571,81 +571,122 @@
 
 <article id="day15" class="entry">
 
-        <h2>Day 15: <span>30 July 2025</span> </h2>            
+    <h2>Day 15: <span>30 July 2025</span> </h2>            
 
-        <h3><strong>Today's Focus: </strong>Rebuilding my local development environment took up most of my day.</h3>
+    <h3><strong>Today's Focus: </strong>Rebuilding my local development environment took up most of my day.</h3>
 
-        <div class="summary" maxchar=280>
+    <div class="summary" maxchar=280>
 
-            <p>The XAMPP installation and reinstallation rodeo starts again. This was a challenge as Database corruptions meant I had to reinstall my databases. Once that was sorted out I generated my code using my chat prompt. Details below.</p>
-            
-        </div>
+        <p>The XAMPP installation and reinstallation rodeo starts again. This was a challenge as Database corruptions meant I had to reinstall my databases. Once that was sorted out I generated my code using my chat prompt. Details below.</p>
         
-        <a href="#" class="btn-more-info">Expand</a>
+    </div>
+    
+    <a href="#" class="btn-more-info">Expand</a>
 
-        <div class="more-info">
+    <div class="more-info">
 
-            <p>And the XAMPP Installation and Reinstallation Rodeo starts again. Today, I had to reinstall my local development infrastructure after there was some sort of database corruption with phpMyAdmin user accounts, which is a challenge and an annoyance. But that's life.</p>
+        <p>And the XAMPP Installation and Reinstallation Rodeo starts again. Today, I had to reinstall my local development infrastructure after there was some sort of database corruption with phpMyAdmin user accounts, which is a challenge and an annoyance. But that's life.</p>
 
-            <p>Once it was clear no fix was going to work for me, I decided I was not doing anything less than a complete reinstallation, including the `htdocs` folder.</p>
+        <p>Once it was clear no fix was going to work for me, I decided I was not doing anything less than a complete reinstallation, including the `htdocs` folder.</p>
 
-            <p>The problem with doing so much of my local infrastructure on local development is that I'm snookered until it all gets done. And if the reinstallation works, I have to rebuild my WordPress databases again and reassess everything.</p>
+        <p>The problem with doing so much of my local infrastructure on local development is that I'm snookered until it all gets done. And if the reinstallation works, I have to rebuild my WordPress databases again and reassess everything.</p>
 
-            <p>Part of me wishes I didn't bother trying to make this latest WordPress project, but the issue was there behind the scenes for goodness knows how long, and I would have run into it sooner or later anyway. But it is annoying.</p>
+        <p>Part of me wishes I didn't bother trying to make this latest WordPress project, but the issue was there behind the scenes for goodness knows how long, and I would have run into it sooner or later anyway. But it is annoying.</p>
 
-            <p>I thought maybe reinstalling phpMyAdmin specifically would help. It looped me to a login screen every time.</p>
+        <p>I thought maybe reinstalling phpMyAdmin specifically would help. It looped me to a login screen every time.</p>
 
-            <p>It does mean I lost some AI Chat Prompt history.  That's a shame, but there was not much I could do.</p>
+        <p>It does mean I lost some AI Chat Prompt history.  That's a shame, but there was not much I could do.</p>
 
-            <p>Once I'd sorted all of that out, I was able to finalise the chat prompt I was working on for the "My Expenses" page and send it through Cursor AI, and it was a success. Partially. In about 5 minutes, it claimed to give me a fully functional Expense list calculator in PHP/SQLite. Yes, it's fully functional, but it does come with bugs and the need for further development.</p>
-                
-            <p>I'm okay with that. The model demonstrated that it understood my code and my instructions, and that's the take for me. I can go in and improve it from there, but there's still much for me to learn.</p>
+        <p>Once I'd sorted all of that out, I was able to finalise the chat prompt I was working on for the "My Expenses" page and send it through Cursor AI, and it was a success. Partially. In about 5 minutes, it claimed to give me a fully functional Expense list calculator in PHP/SQLite. Yes, it's fully functional, but it does come with bugs and the need for further development.</p>
             
-        </div>
+        <p>I'm okay with that. The model demonstrated that it understood my code and my instructions, and that's the take for me. I can go in and improve it from there, but there's still much for me to learn.</p>
+        
+    </div>
 
-        <p><strong>Challenges: </strong>Sorting out the new local development environment installation.</p>
-        <p><strong>Technologies Used Today: </strong> <code class="technologies">Cursor AI</code>,<code class="technologies">PHP</code>, <code class="technologies">SQLite</code>, <code class="technologies">JavaScript</code>, <code class="technologies">WordPress</code></p>   
-        <p><strong>Next Time: </strong>I will need to spend more time mending my WordPress projects. And I think I'll spend more time getting the "My Expenses" project fit for SASS development and make it fit for viewing.</p>        
+    <p><strong>Challenges: </strong>Sorting out the new local development environment installation.</p>
+    <p><strong>Technologies Used Today: </strong> <code class="technologies">Cursor AI</code>,<code class="technologies">PHP</code>, <code class="technologies">SQLite</code>, <code class="technologies">JavaScript</code>, <code class="technologies">WordPress</code></p>   
+    <p><strong>Next Time: </strong>I will need to spend more time mending my WordPress projects. And I think I'll spend more time getting the "My Expenses" project fit for SASS development and make it fit for viewing.</p>        
 
-        <a href="#" class="back---to--top">Back to Top</a>
+    <a href="#" class="back---to--top">Back to Top</a>
 
 </article>
 
 <article id="day16" class="entry">
 
-        <h2>Day 16: <span>31 July 2025</span></h2>            
+    <h2>Day 16: <span>31 July 2025</span></h2>            
 
-        <h3><strong>Today's Focus: </strong>After I added back a couple of WordPress installations, I focused on studying the SASS/CSS code in my "My Expenses" project.</h3>
+    <h3><strong>Today's Focus: </strong>After I added back a couple of WordPress installations, I focused on studying the SASS/CSS code in my "My Expenses" project.</h3>
 
-        <div class="summary" maxchar=280>
+    <div class="summary" maxchar=280>
 
-            <p>What took up most of my time today was looking at the CSS code that the AI Generated for me and converted that to Sass, mainly by nesting the selectors and making the code more organised. </p>
-            
-        </div>
+        <p>What took up most of my time today was looking at the CSS code that the AI Generated for me and converted that to Sass, mainly by nesting the selectors and making the code more organised. </p>
         
-        <a href="#" class="btn-more-info">Expand</a>
+    </div>
+    
+    <a href="#" class="btn-more-info">Expand</a>
 
-        <div class="more-info">
-            
-            <p> I added Sass variables for things like colours and fonts and other things to make the styles more maintainable. </p>
+    <div class="more-info">
+        
+        <p> I added Sass variables for things like colours and fonts and other things to make the styles more maintainable. </p>
 
-            <p>Added a <code>notes.php</code> page to share development notes and clearer instructions for using the App which I'll fill in when the app is complete.</p>
+        <p>Added a <code>notes.php</code> page to share development notes and clearer instructions for using the App which I'll fill in when the app is complete.</p>
 
 
-        </div>
+    </div>
 
-        <p><strong>Technologies Used Today: </strong> <code class="technologies">WordPress</code>, <code class="technologies">SASS</code>, <code class="technologies">HTML</code> </p>   
-        <p><strong>Next Time: </strong>Now that I've got Xampp work up and running again and it seems to be accepting all my requests... I'll focus tomorrow on the 100days setup in wordpress.</p>           
+    <p><strong>Technologies Used Today: </strong> <code class="technologies">WordPress</code>, <code class="technologies">SASS</code>, <code class="technologies">HTML</code> </p>   
+    <p><strong>Next Time: </strong>Now that I've got Xampp work up and running again and it seems to be accepting all my requests... I'll focus tomorrow on the 100days setup in wordpress.</p>           
 
-        <div class="links"><strong>Links:</strong>
+    <div class="links"><strong>Links:</strong>
 
-            <ul>
-                <li><a href="https://dyspraxia.jonniegrieve.co.uk" class="100days--links" target="_blank">Dyspraxia Website</a></li>
-                <li><a href="https://christianity.jonniegrieve.co.uk" class="100days--links" target="_blank">Christianity Website</a></li>
-            </ul>
+        <ul>
+            <li><a href="https://dyspraxia.jonniegrieve.co.uk" class="100days--links" target="_blank">Dyspraxia Website</a></li>
+            <li><a href="https://christianity.jonniegrieve.co.uk" class="100days--links" target="_blank">Christianity Website</a></li>
+        </ul>
 
-        </div>
+    </div>
 
-        <a href="#" class="back---to--top">Back to Top</a>
+    <a href="#" class="back---to--top">Back to Top</a>
+
+</article>
+
+<article id="day17" class="entry">
+
+    <h2>Day 17: <span>1 August 2025</span> </h2>            
+
+    <h3><strong>Today's Focus: </strong>Creating a new wordpress theme for 100DaysOfCode Website</h3>
+
+    <div class="summary" maxchar=280>
+
+        <p>Today, I used my local development environment to convert the current design of this website into a WordPress theme. This will allow me to make changes to the design swiftly and dynamically without affecting the unique dynamic content.  </p>
+        
+    </div>
+    
+    <a href="#" class="btn-more-info">Expand</a>
+
+    <div class="more-info">
+        
+        <p>The plan was to integrate the existing content into my local theme and then see about getting the data transferred to online at an appropriate day or time. It was relatively straight forward to get everything set up.</p>
+
+        <p>Then I wrote a chat prompt and asked Cursor AI to look at my code base and create a Custom Post Type based on it.  Which it was able to do. There was only one caveat which was sorted out in another chat prompt. And that was to integrate the "more info" section of content as another custom field, which would allow me to mark individual paragraphs in the section as "achievements", in the same way it works as of today. </p>
+
+        <p>Doing this on WordPress will mean I'll be able to make changes to design while leaving the content itself functioning as it does today. This design is functional and works but I do intend to change it later on. This change will allow me to make new designs around the Day selectiosn and CPT fairly swiftly.  <code class="achievement">Achievement</code></p> 
+
+    </div>
+
+    <p><strong>Challenges: </strong>The big challenge was clearly the Custom Post Type. 2 chat prompts sorted it out but the first one was interesting because it left me to make a choice about how to integrate the "more info" section of content for each entry. In the end U persisted and asked the AI to integrated as another field for the CPT. </p>
+    <p><strong>Technologies Used Today: </strong> <code class="technologies">Cursor AI</code>, <code class="technologies">WordPress</code>, <code class="technologies">PHP</code>, <code class="technologies">HTML</code>, <code class="technologies">CSS</code></p>   
+    <p><strong>Next Time: </strong>As well as building the content up on the new local theme I've created, I'll be working on the "My Expenses" page to try and fix some bugs there, doing updates to "Football Score Comparator" website and my Photography Website. .</p>
+
+    <div class="links"><strong>Links:</strong>
+
+        <ul>
+            <li><a href="https://100days.jonniegrieve.co.uk/" class="100days--links" target="_blank">100DaysOfCode Website</a></li>
+            <li><a href="https://staging.jonniegrieve.co.uk/100days_page" class="100days--links" target="_blank">100DaysOfCode Website (Staging)</a></li>
+        </ul>
+
+    </div>
+
+    <a href="#" class="back---to--top">Back to Top</a>
 
 </article>

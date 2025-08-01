@@ -1,6 +1,6 @@
 <article id="day01" class="entry">
 
-        <h2>Day N: <span>0 July 2025</span> </h2>            
+        <h2>Day N: <span> 1 August 2025</span> </h2>            
 
         <h3><strong>Today's Focus: </strong></h3>
 

@@ -1,4 +1,4 @@
-/* Last Update: 21/03/2025 - 15:31 */
+/* Last Update: 04/08/2025 - 16:29 */
 
 /* Match List - Season: 17/18
 
@@ -800,7 +800,7 @@ INSERT INTO westbrom_home_matches (home_team, home_score, away_team, away_score,
     ('West Bromwich Albion', 0, 'Swansea City', 0, 0),
     ('West Bromwich Albion', 0, 'Tottenham Hotspur', 0, 0),
     ('West Bromwich Albion', 0, 'Watford', 0, 0),
-    ('West Bromwich Albion', 0, 'West Bromwich Albion', 0, 0);
+    ('West Bromwich Albion', 0, 'West Ham United', 0, 0);
 
 INSERT INTO westham_home_matches (home_team, home_score, away_team, away_score, played) VALUES
     ('West Ham United', 0, 'AFC Bournemouth', 0, 0),

@@ -20,7 +20,6 @@ try {
         
         $dbPath = '../assets/data/seasons/season-25-26.db'; // Current season (2025/26)
 
-
     } elseif ($season === '2025') {
         $dbPath = '../assets/data/seasons/season-24-25.db'; // 2024/25 season
     } elseif ($season === '2024') {
@@ -33,8 +32,10 @@ try {
         $dbPath = '../assets/data/seasons/season-20-21.db'; // 2020/21 season
     } elseif ($season === '2020') {
         $dbPath = '../assets/data/seasons/season-19-20.db'; // 2019/20 season
-    }elseif ($season === '2019') {
+    } elseif ($season === '2019') {
         $dbPath = '../assets/data/seasons/season-18-19.db'; // 2018/19 season
+    } elseif ($season === '2018') {
+        $dbPath = '../assets/data/seasons/season-17-18.db'; // 2017/18 season
     } else {
         
         // Future proofing for other seasons

@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 25/07/2025 - 10:49");
+    console.log("app.js connected - 04/08/2025 - 16:29");
 
     const teamSelect = document.getElementById('select---home--team');
     const seasonSelect = document.getElementById('form---select--season');
@@ -23,6 +23,32 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Define team lists for each season
     const teamLists = {
+
+        
+        // 2017/18 Season Teams 
+        '2018': `
+
+            <option id="select---home--placeholder" value="Select Team">Select Team...</option>
+            <option id="select---home--bournemouth" value="AFC Bournemouth">AFC Bournemouth</option>
+            <option id="select---home--arsenal" value="Arsenal">Arsenal</option>
+            <option id="select---home--brighton" value="Brighton & Hove Albion">Brighton & Hove Albion</option>
+            <option id="select---home--burnley" value="Burnley">Burnley</option>
+            <option id="select---home--chelsea" value="Chelsea">Chelsea</option>
+            <option id="select---home--crystalpalace" value="Crystal Palace">Crystal Palace</option>
+            <option id="select---home--everton" value="Everton">Everton</option>
+            <option id="select---home--huddersfield" value="Huddersfield Town">Huddersfield Town</option>
+            <option id="select---home--leicester" value="Leicester City">Leicester City</option>
+            <option id="select---home--manchestercity" value="Manchester City">Manchester City</option>
+            <option id="select---home--manchesterunited" value="Manchester United">Manchester United</option>
+            <option id="select---home--liverpool" value="Liverpool">Liverpool</option>
+            <option id="select---home--southampton" value="Southampton">Southampton FC</option>
+            <option id="select---home--stokecity" value="Stoke City">Stoke City</option>
+            <option id="select---home--swansea" value="Swansea City">Swansea City</option>
+            <option id="select---home--tottenhamhotspur" value="Tottenham Hotspur">Tottenham Hotspur</option>
+            <option id="select---home--watford" value="Watford">Watford</option>
+            <option id="select---home--westbrom" value="West Bromwich Albion">West Bromwich Albion</option>
+            <option id="select---home--westham" value="West Ham United">West Ham United</option>
+        `,
 
         // 2018/19 Season Teams 
         '2019': `
@@ -303,7 +329,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
             displayText = '2019/2020';
 
-        } else {
+        } else if (season === '2019') {
+
+            displayText = '2018/2019';
+
+        } else if (season === '2018') {
+
+            displayText = '2017/2018';
+
+        } else  {
 
             // Handle any future seasons
             const startYear = parseInt(season) - 1;

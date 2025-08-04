@@ -1,5 +1,6 @@
 <!-- select-season.php -->
 <label for="form---select--season">Select Season:</label>
+
 <select id="form---select--season" class="select---season">  
 
     <option class="select---season--option" id="option---2026" value="2026">2025/2026</option>
@@ -10,5 +11,6 @@
     <option class="select---season--option" id="season---2021" value="2021">2020/2021</option>  
     <option class="select---season--option" id="season---2020" value="2020">2019/2020</option>   
     <option class="select---season--option" id="season---2019" value="2019">2018/2019</option> 
+    <option class="select---season--option" id="season---2018" value="2018">2017/2018</option>
 
 </select>

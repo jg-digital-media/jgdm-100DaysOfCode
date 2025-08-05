@@ -693,13 +693,61 @@
 
 <article id="day18" class="entry">
 
-        <h2>Day 18: <span> 4 August 2025</span> </h2>            
+    <h2>Day 18: <span> 4 August 2025</span> </h2>            
 
-        <h3><strong>Today's Focus: </strong>3 things main points of focus today</h3>
+    <h3><strong>Today's Focus: </strong>3 things main points of focus today</h3>
+
+    <div class="summary" maxchar=280>
+
+        <p>3 things. Updates to my Photography Website were completed today, catching up the WordPress copy of this website so the content matches up to the present day and Expanding the Football Comparator website.</p>
+        
+    </div>
+    
+    <a href="#" class="btn-more-info">Expand</a>
+
+    <div class="more-info">
+        
+        <p>Today I started out by doing some content updates for my Photography Website and got that update online. So that ongoing effort continued today. <code class="achievement">Achievement</code> </p>
+
+        <p>After that, I moved on to building up the content in my local wordpress installation for this 100 Days of Code Website so now the content matches and can matches is closely as possible with how it is now in the Static PHP files.  That was useful to do and I will be able to migrate online whenever it comes to converting the Website over to my subdomain. <code class="achievement">Achievement</code></p> 
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure dolorum nam pariatur animi ipsam deserunt cumque corporis neque qui aliquam.<code class="achievement">Achievement</code></p>
+
+        <p>The last task for the day ought to have been more straightforward.  I've basically memorised the process of expanding the application for match results, season by season, this time for 2017-2018.  And it is now complete, but not before a lot of toing and froing through the files looking for an obvious solution that wasn't there. </p>
+        
+        <p>The solution turned out to be a technicality. It seemed like there was an issue with the SQLite3 extension on my local server environment. This most likely happened after I had to reinstall Xampp last week. I looked for the line to uncomment the extension in php.ini, but this was already done. And after I switched off Apache and MySQL, and on again everything seemed to work perfectly. </p>
+
+    </div>
+
+    <p><strong>Challenges: </strong>The main challenge was in the Football Comparator Website which wasn't returning any API or match data.  This was found to be a technicality with SQlite, in the end..</p>
+    <p><strong>Technologies Used Today: </strong> <code class="technologies">JavaScript</code>, <code class="technologies">PHP</code>, 
+    <code class="technologies">Cursor AI</code>
+    <code class="technologies">WordPress</code></p>   
+    <p><strong>Next Time: </strong>I might try and look at fixing the Database runtime errors in the "My Expenses" app that are actually modifyng the table data but reporting errors. It'll be intersting to analyse why the errors are triggering and how to fix them..</p>           
+
+    <div class="links"><strong>Links:</strong>
+
+        <ul>
+            <li><a href="https://100days.jonniegrieve.co.uk" class="100days--links" target="_blank">100 Days of Code Website</a></li>
+            <li><a href="https://projects.jonniegrieve.co.uk/score_comparator" class="100days--links" target="_blank">Football Score Comparator Website</a></li>
+            <li><a href="https://photography.jonniegrieve.co.uk" class="100days--links" target="_blank">Photography Website</a></li>
+        </ul>  
+
+    </div>
+
+    <a href="#" class="back---to--top">Back to Top</a>
+
+</article>
+
+<article id="day19" class="entry">
+
+        <h2>Day 19: <span> 5 August 2025</span> </h2>            
+
+        <h3><strong>Today's Focus: </strong>Fixed a UI issue with "My Expenses" App</h3>
 
         <div class="summary" maxchar=280>
 
-            <p>3 things. Updates to my Photography Website were completed today, catching up the WordPress copy of this website so the content matches up to the present day and Expanding the Football Comparator website.</p>
+            <p>Most of my time today I spent with studying My Expenses App and fixing a Major UX experience issue caused by a TypeError. The app was always function but issue caused by a data type confusion in the code.</p>
             
         </div>
         
@@ -707,31 +755,28 @@
 
         <div class="more-info">
             
-            <p>Today I started out by doing some content updates for my Photography Website and got that update online. So that ongoing effort continued today. <code class="achievement">Achievement</code> </p>
+            <p>I decided yesterday that I wanted to do a study and a proper look at the code that "Claude Sonnet Thinking" would write for me in this project. Because I looked at it yesterday, but couldn't find anything in the code base for me to go on in terms of debugging the issues. </p>
 
-            <p>After that, I moved on to building up the content in my local wordpress installation for this 100 Days of Code Website so now the content matches and can matches is closely as possible with how it is now in the Static PHP files.  That was useful to do and I will be able to migrate online whenever it comes to converting the Website over to my subdomain. <code class="achievement">Achievement</code></p> 
+            <p>Today, I looked at it. And... found a TypeError in Chrome DevTools which pointed me to a .toFixed Data Type in a template literal, which was the AI's attempt to display the expense amount as a floating point.  I looked at the TypeError but couldn't really see the issue.</p> 
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure dolorum nam pariatur animi ipsam deserunt cumque corporis neque qui aliquam.<code class="achievement">Achievement</code></p>
-
-            <p>The last task for the day ought to have been more straightforward.  I've basically memorised the process of expanding the application for match results, season by season, this time for 2017-2018.  And it is now complete, but not before a lot of toing and froing through the files looking for an obvious solution that wasn't there. </p>
+            <p>The learning from this problem is this... JavaScript was interpreting the value interpolated as a String but not a floatingt point number, which is why it was coming back with a TypeError.</p>
             
-            <p>The solution turned out to be a technicality. It seemed like there was an issue with the SQLite3 extension on my local server environment. This most likely happened after I had to reinstall Xampp last week. I looked for the line to uncomment the extension in php.ini, but this was already done. And after I switched off Apache and MySQL, and on again everything seemed to work perfectly. </p>
+            <p>The learning from this problem is this... JavaScript was interpreting the value interpolated as a String but not a floatingt point number, which is why it was coming back with a TypeError.</p>
 
         </div>
 
-        <p><strong>Challenges: </strong>The main challenge was in the Football Comparator Website which wasn't returning any API or match data.  This was found to be a technicality with SQlite, in the end..</p>
-        <p><strong>Technologies Used Today: </strong> <code class="technologies">JavaScript</code>, <code class="technologies">PHP</code>, 
-        <code class="technologies">Cursor AI</code>
-        <code class="technologies">WordPress</code></p>   
-        <p><strong>Next Time: </strong>I might try and look at fixing the Database runtime errors in the "My Expenses" app that are actually modifyng the table data but reporting errors. It'll be intersting to analyse why the errors are triggering and how to fix them..</p>           
+        <p><strong>Challenges: </strong>Wrote a blog and spent a lot of time studying the code to work out changes made to code made my Cursor AI's model..</p>
+        <p><strong>Technologies Used Today: </strong> <code class="technologies">Cursor AI</code> <code class="technologies">HTML5</code>, <code class="technologies">JavaScript</code>, <code class="technologies">PHP</code>, <code class="technologies">MySQL</code>,<code class="technologies">WordPress</code>,
+        <code class="technologies"></code></p>   
+        <p><strong>Next Time: </strong>.</p>           
 
         <div class="links"><strong>Links:</strong>
 
             <ul>
-                <li><a href="https://100days.jonniegrieve.co.uk" class="100days--links" target="_blank">100 Days of Code Website</a></li>
-                <li><a href="https://projects.jonniegrieve.co.uk/score_comparator" class="100days--links" target="_blank">Football Score Comparator Website</a></li>
-                <li><a href="https://photography.jonniegrieve.co.uk" class="100days--links" target="_blank">Photography Website</a></li>
-            </ul>  
+                <li><a href="#" class="100days--links" target="_blank"></a></li>
+                <li><a href="#" class="100days--links" target="_blank"></a></li>
+                <li><a href="#" class="100days--links" target="_blank"></a></li>
+            </ul>
 
         </div>
 

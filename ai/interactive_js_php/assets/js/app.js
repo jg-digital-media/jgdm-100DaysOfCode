@@ -1,4 +1,6 @@
- //Problem: User interaction doesn't provide desired results.
+console.log("app.js - 11-08-2025 15:42 - Interactive ToDo List with JavaScript v1 - PHP/SQLite");
+
+//Problem: User interaction doesn't provide desired results.
 //Solution: Add interactivty so the user can manage daily tasks.
 
 var taskInput = document.getElementById("new-task"); //new-task

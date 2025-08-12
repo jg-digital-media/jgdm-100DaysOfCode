@@ -1,16 +1,32 @@
-/* Last Updated: 26/02/2025 - 16:55 */
-/* Basic Style */
+body .container ul button, body .container p button {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  margin: 10px 0 0;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+body .container ul button:hover, body .container p button:hover {
+  color: #333;
+}
+
+p > button:hover {
+  color: #0FC57C;
+}
+
+/* Last Updated: 12/08/2025 - 13:49 */
+/* main app styling */
 body {
   background: #fff;
   color: #333;
   font-family: Lato, sans-serif;
 }
-
 body h1 {
   text-align: center;
 }
-
-#js-print {
+body #js-print {
   /* display: none; */
   display: block;
   margin: 0 auto;
@@ -23,59 +39,104 @@ body h1 {
   text-decoration: none;
   text-align: center;
 }
-
-.container {
+body .container {
   display: block;
   width: 400px;
   margin: 4pc auto 0;
+  /* Heading */
+  /* New Task */
+  /* Completed */
 }
-
-ul {
+@media (max-width: 580px) {
+  body .container {
+    width: 95%;
+  }
+}
+body .container ul {
   margin: 0;
   padding: 0;
+  /* Task list */
+  /* Edit Task */
 }
-
-li * {
+body .container ul li * {
   float: left;
 }
-
-li, h3 {
+body .container ul li, body .container ul h3 {
   clear: both;
   list-style: none;
 }
-
-input, button {
-  outline: none;
+body .container ul li {
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  transition: color 0.3s ease-in-out;
 }
-
-button {
-  background: none;
-  border: 0px;
-  color: #888;
-  font-size: 15px;
-  width: 60px;
-  margin: 10px 0 0;
-  font-family: Lato, sans-serif;
-  cursor: pointer;
+body .container ul li > input[type=checkbox] {
+  margin: 0 10px;
+  position: relative;
+  top: 15px;
 }
-
-button:hover {
+body .container ul li > label {
+  font-size: 18px;
+  line-height: 40px;
+  width: 237px;
+  padding: 0 0 0 11px;
   color: #333;
 }
-
-/* Heading */
-h3,
-label[for=new-task] {
+@media (max-width: 580px) {
+  body .container ul li > label {
+    width: 73%;
+  }
+}
+body .container ul li > input[type=text] {
+  width: 226px;
+}
+body .container ul li > .delete {
+  transition: color 0.3s ease-in-out;
+}
+body .container ul li > .delete:hover {
+  color: #CF2323;
+}
+body .container ul li > .edit {
+  transition: color 0.3s ease-in-out;
+}
+body .container ul li > .edit:hover {
+  color: #eda214;
+}
+body .container ul li input[type=text] {
+  display: none;
+}
+body .container ul li.editMode input[type=text] {
+  display: block;
+  padding: 11px;
+}
+@media (max-width: 580px) {
+  body .container ul li.editMode input[type=text] {
+    width: 73%;
+  }
+}
+body .container ul li.editMode label {
+  display: none;
+}
+@media (max-width: 580px) {
+  body .container ul li.editMode label {
+    width: 73%;
+  }
+}
+body .container ul input, body .container ul button {
+  outline: none;
+}
+body .container h3,
+body .container label[for=new-task] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid #ddd;
   padding: 30px 0 10px;
   margin: 0;
   text-transform: uppercase;
 }
-
-input[type=text] {
+body .container input[type=text] {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -86,72 +147,33 @@ input[type=text] {
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  transition: color 0.2s ease-in-out;
 }
-
-input[type=text]:focus {
+body .container input[type=text]:focus {
   color: #333;
 }
-
-/* New Task */
-label[for=new-task] {
+body .container label[for=new-task] {
   display: block;
   margin: 0 0 20px;
 }
-
-input#new-task {
+body .container input#new-task {
   float: left;
   width: 318px;
 }
-
-p > button:hover {
+@media (max-width: 580px) {
+  body .container input#new-task {
+    width: 95%;
+  }
+}
+body .container p > button {
+  transition: color 0.3s ease-in-out;
+}
+body .container p > button:hover {
   color: #0FC57C;
 }
-
-/* Task list */
-li {
-  overflow: hidden;
-  padding: 20px 0;
-  border-bottom: 1px solid #eee;
-}
-
-li > input[type=checkbox] {
-  margin: 0 10px;
-  position: relative;
-  top: 15px;
-}
-
-li > label {
-  font-size: 18px;
-  line-height: 40px;
-  width: 237px;
-  padding: 0 0 0 11px;
-}
-
-li > input[type=text] {
-  width: 226px;
-}
-
-li > .delete:hover {
-  color: #CF2323;
-}
-
-/* Completed */
-#completed-tasks label {
+body .container #completed-tasks label {
   text-decoration: line-through;
   color: #888;
-}
-
-/* Edit Task */
-ul li input[type=text] {
-  display: none;
-}
-
-ul li.editMode input[type=text] {
-  display: block;
-}
-
-ul li.editMode label {
-  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

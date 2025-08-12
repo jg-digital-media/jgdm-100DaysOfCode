@@ -22,6 +22,8 @@ I created this application to test the capabilities of Cursor AI with `claude-4-
 - `TODO: ` Add and implement a button to clear the TODO LIST.
 - `TODO: ` Add a button to introduce an empty list state which prompts the user to add a first list item.
   - `TODO: ` Might it be possible to remove all rows and started a reset of primary key ID's?
+- `TODO: ` Add a customisable element to place a list Title above the main list.
+- `TODO: ` Fire a warning if the user tries to add a task with no text.
 
 ## Requirements
 

@@ -1,0 +1,23 @@
+// Button main styling @button---main.scss
+%button---main {
+
+    background: none;
+    border: 0px;
+    color: #888;
+    font-size: 15px;
+    width: 60px;
+    margin: 10px 0 0;
+    font-family: $font---main;
+    cursor: pointer;
+
+    &:hover {
+
+        color: $col---primary;
+    }
+
+}
+
+p > button:hover {
+    
+    color: #0FC57C;
+}

@@ -224,4 +224,54 @@ body {
 
     }
 
+    footer {
+
+        display: block;
+        margin: 15px auto;       
+
+        p {
+
+            display: block;
+            margin: 0 auto;
+            width: 480px;
+            font-size: 10px;
+
+            @media ( max-width: $breakpoint--sm ) {
+
+                width: 95%;
+            }
+
+            a {
+
+                color: gray;
+                transition: color .3s ease-in-out;
+
+                &:hover {
+
+                    color: #ddd;
+                    color: $btn---col--deletetask;
+                }
+
+
+            }
+
+            code {
+
+
+            }
+
+            span#app---version {
+
+                display: block;
+                margin: 5px auto;
+                text-align: center;
+                font-weight: bold;
+                border-top: 2px solid #ddd;
+                width: 40px;
+            }
+
+        }
+
+    }
+
 }

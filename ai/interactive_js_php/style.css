@@ -175,5 +175,36 @@ body .container #completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
+body footer {
+  display: block;
+  margin: 15px auto;
+}
+body footer p {
+  display: block;
+  margin: 0 auto;
+  width: 480px;
+  font-size: 10px;
+}
+@media (max-width: 580px) {
+  body footer p {
+    width: 95%;
+  }
+}
+body footer p a {
+  color: gray;
+  transition: color 0.3s ease-in-out;
+}
+body footer p a:hover {
+  color: #ddd;
+  color: #CF2323;
+}
+body footer p span#app---version {
+  display: block;
+  margin: 5px auto;
+  text-align: center;
+  font-weight: bold;
+  border-top: 2px solid #ddd;
+  width: 40px;
+}
 
 /*# sourceMappingURL=style.css.map */

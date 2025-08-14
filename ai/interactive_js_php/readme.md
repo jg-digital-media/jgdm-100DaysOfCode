@@ -1,6 +1,6 @@
 # Interactive ToDo List with JavaScript (v2 - PHP/SQLite)
 
-Updated: `13/08/2025 - 16:20`
+Updated: `14/08/2025 - 16:29`
 
 **Description:** Expanding on a [previous project] first designed as a course project at Treehouse, this verion works with a local SQLite database and is built with PHP, JavaScript, and Cursor AI.
 
@@ -9,7 +9,7 @@ Updated: `13/08/2025 - 16:20`
 
 I created this application to test the capabilities of Cursor AI with `claude-4-sonnet-thinking` to handle a set of intricate tasks.  My starting chat prompt is below.
 
-## Task List  - `5` Tasks Completed
+## Task List  - `7` Tasks Completed
 [Back to Top](#table-of-contents)
 
 <!-- 
@@ -21,14 +21,17 @@ I created this application to test the capabilities of Cursor AI with `claude-4-
 - `COMPLETED: 13-08-2025 ` add a read-only endpoint to load initial project tasks from SQLite database
 - `COMPLETED: 13-08-2025 ` Generate a new database from SQL script that loads initial set of tasks
 - `COMPLETED: 13-08-2025 ` Add a footer with relevant attributions and author information
+- `COMPLETED: 14-08-2025 ` Press Enter when #new-task is in focus to add a new task.
+- `COMPLETED: 14-08-2025  ` Add Link to repo with readme file.  v1.0.1 is the latest version.
+- `TODO: ` Make functionality to save all edits made to tasks to the database.
+    - Tasks saved to db from existing tasks
+    - Tasks saved to db from new tasks
 - `TODO: ` Implement print button to print the todo list in its current form.
 - `TODO: ` Add and implement a button to clear the TODO LIST.
 - `TODO: ` Introduce an empty list state which prompts the user to add a first list item.
   - `TODO: ` Might it be possible to remove all rows and started a reset of primary key ID's?
 - `TODO: ` Add a customisable element to place a list Title above the main list.
 - `TODO: ` Fire a warning if the user tries to add a task with no text.
-- `TODO: ` Add Link to repo with readme file.  v1.0.1 is the latest version.
-- `TODO: ` Press Enter when #new-task is in focus to add a new task.
 
 ## Requirements
 [Back to Top](#table-of-contents)
@@ -38,7 +41,7 @@ I created this application to test the capabilities of Cursor AI with `claude-4-
 ## Development Notes
 [Back to Top](#table-of-contents)
 
-[v1.0.0](#v100) | [v0.0.1](#v101) | [v0.0.2](#v102)
+[v1.0.0](#v100) | [v0.0.1](#v101) | [v0.0.2](#v102) | [v1.0.3](#v103)
 
 ### `v1.0.0` 
 [Back to Top](#development-notes)
@@ -66,7 +69,23 @@ I created this application to test the capabilities of Cursor AI with `claude-4-
 
 + It might be worth adding a new space in the readmemd file as well for testing "Use cases".  For example, clearing the database of all the data from its initial state.  
 
-+ To recap, the project now has 2 development databases, one for the initial state and one for testing. The initial state is loaded to match the tasks supplied in the original markup. The project incluedes a read-only endpoint. No modifications to the front end currently affect the database.
++ To recap, the project now has 2 development databases, one for the initial state and one for testing. The initial state is loaded to match the tasks supplied in the original markup. The project includes a read-only endpoint. No modifications to the front end currently affect the database.
+
+
+### `v1.0.3`
+[Back to Top](#development-notes)
+
++ Added a link to the project as stored on my GitHub Repository.
+
++ Thinking now about moving ahead with adding projects.  We need to add all the elements that go with new tasks to the interface, taken care off at the front end already, and couple that with adding new SQL insert statements to the SQL script.  That involves taking the text from #new-task input box and putting that into SQL insert statement.
+
++ in truth, no changes to the SQL script were made, or needed. Handling of adding new data is handled using the JavaScript fetch() method and a prepared statement in the tasks.php endpoint.  Other than that in handled it in the way I expected in that the endpoing binds the value entered nby the user into a variable bfore executing the query with PHP prepard statement.
+
++ Finally I made sure it was possible to add tasks via the Enter key on the keyboard or via phone virtual keyboard. This will make it easier to add tasks to the list as a nice UX feature.
+
++ A good start for using the database.  The next step is to examine all the instances where data is edited witjin the app and then work out how to save that those changes to the database.
+
++ Tasks for testing: Pay Bills, Go Shopping, See the Doctor, -> New -> Insurance, Buy a DVD, Pay TV Licence
 
 ## Author
 [Back to Top](#table-of-contents)
@@ -78,3 +97,33 @@ Developed by Jonnie Grieve Digital Media using Cursor AI with `claude-4-sonnet-t
 ---
 
 **Note**: This application is optimized for offline/local use. For production deployment, consider adding authentication, CSRF protection, and enhanced security measures.
+
+
+### Adding Tasks to Database: Notes
+
++ Adding tasks to tasks.db — quick summary
+Database file: jgdm-100DaysOfCode/ai/interactive_js_php/assets/data/tasks.db
+Initialize once with:
++ Backend endpoint: jgdm-100DaysOfCode/ai/interactive_js_php/api/tasks.php
+POST /api/tasks.php with JSON { "title": "Your task" }
+Uses a prepared statement to insert:
+title = user input
+is_completed = 0
+is_editing = 0
+Returns 201 with the created task JSON
+Requires PHP PDO SQLite enabled
++ Frontend behavior: jgdm-100DaysOfCode/ai/interactive_js_php/assets/js/app.js
+The Add button triggers addTask() which:
+Validates non-empty input
+POSTs to api/tasks.php
+On success, appends the new task under #incomplete-tasks
+Binds Edit/Delete/Checkbox events so it’s editable “the usual way”
+Logs progress to the console and clears the input
++ Console feedback
+On page load: “[todo] loading tasks...” → “[todo] displaying tasks …”
+On add: “[todo] creating task …” → “[todo] created task …”
++ Error handling
+Empty title → 422 with a message
+DB missing/uninitialized → 503 with guidance to create tasks.db
+Optional direct test (same origin)
+  +   curl -X POST -H "Content-Type: application/json" -d "{\"title\":\"Buy milk\"}" http://localhost/jgdm-100DaysOfCode/ai/interactive_js_php/api/tasks.php

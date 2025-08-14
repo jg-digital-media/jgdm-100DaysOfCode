@@ -90,14 +90,51 @@ var createNewTaskElement = function(taskString) {
 
 //Add a new task
 var addTask = function() {
-  console.log("Add task...");
-  //Create a new list item with the text from #new-task:
-  var listItem = createNewTaskElement(taskInput.value);
-  //Append listItem to incompleteTasksHolder
-  incompleteTasksHolder.appendChild(listItem);
-  bindTaskEvents(listItem, taskCompleted);
-  
-  taskInput.value = "";
+  var title = (taskInput.value || "").trim();
+  if (title === "") { return; }
+  console.log("[todo] creating task...", title);
+  addButton.disabled = true;
+
+  fetch("api/tasks.php", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ title: title })
+  })
+  .then(function(res) { return res.json(); })
+  .then(function(payload) {
+    if (!payload || payload.status !== 'created' || !payload.task) {
+      throw new Error("Unexpected response creating task");
+    }
+
+    var task = payload.task;
+    var listItem = createNewTaskElement(task.title);
+
+    var checkBox = listItem.querySelector("input[type=checkbox]");
+    if (task.is_completed == 1) { checkBox.checked = true; }
+
+    if (task.is_editing == 1) {
+      listItem.classList.add("editMode");
+      var editInput = listItem.querySelector("input[type=text]");
+      editInput.value = task.title;
+    }
+
+    if (task.is_completed == 1) {
+      completedTasksHolder.appendChild(listItem);
+      bindTaskEvents(listItem, taskIncomplete);
+    } else {
+      incompleteTasksHolder.appendChild(listItem);
+      bindTaskEvents(listItem, taskCompleted);
+    }
+
+    console.log("[todo] created task", task);
+    taskInput.value = "";
+  })
+  .catch(function(err) {
+    console.error("[todo] failed to create task", err);
+  })
+  .finally(function() {
+    addButton.disabled = false;
+  });
 }
 
 //Edit an existing task

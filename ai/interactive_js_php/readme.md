@@ -77,11 +77,11 @@ I created this application to test the capabilities of Cursor AI with `claude-4-
 
 + Added a link to the project as stored on my GitHub Repository.
 
-+ Thinking now about moving ahead with adding projects.  We need to add all the elements that go with new tasks to the interface, taken care off at the front end already, and couple that with adding new SQL insert statements to the SQL script.  That involves taking the text from #new-task input box and putting that into SQL insert statement.
++ Thinking now about moving ahead with adding tasks to the project and persisting those changes. We need to add all the elements that go with new tasks to the interface. That is taken care off at the front end already but I had to couple that with adding new SQL insert statements to the SQL script.  That involves taking the text from #new-task input box and putting that into SQL insert statement.
 
-+ in truth, no changes to the SQL script were made, or needed. Handling of adding new data is handled using the JavaScript fetch() method and a prepared statement in the tasks.php endpoint.  Other than that in handled it in the way I expected in that the endpoing binds the value entered nby the user into a variable bfore executing the query with PHP prepard statement.
++ In truth, no changes to the SQL script were made, or needed. Handling of adding new data is handled using the JavaScript fetch() method and a prepared statement in the tasks.php endpoint.  Other than that in handled it in the way I expected in that the endpoing binds the value entered nby the user into a variable bfore executing the query with PHP prepard statement.
 
-+ Finally I made sure it was possible to add tasks via the Enter key on the keyboard or via phone virtual keyboard. This will make it easier to add tasks to the list as a nice UX feature.
++ Finally I made sure it was possible to add tasks via the "Enter" key on the keyboard or via phone virtual keyboard. This will make it easier to add tasks to the list as a nice UX feature.
 
 + A good start for using the database.  The next step is to examine all the instances where data is edited witjin the app and then work out how to save that those changes to the database.
 

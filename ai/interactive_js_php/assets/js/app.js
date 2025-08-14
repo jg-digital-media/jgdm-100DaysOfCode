@@ -1,4 +1,4 @@
-console.log("app.js - 13-08-2025 15:07 - Interactive ToDo List with JavaScript v1 - PHP/SQLite");
+console.log("app.js - 14-08-2025 16:27 - Interactive ToDo List with JavaScript v1 - PHP/SQLite");
 
 // Load tasks from backend and render
 function loadInitialTasks() {
@@ -219,6 +219,14 @@ addButton.addEventListener("click", ajaxRequest);
 
 // Load after wiring DOM and functions
 loadInitialTasks();
+
+// Add via Enter key (desktop and mobile virtual keyboards)
+taskInput.addEventListener('keydown', function(event) {
+  if (event.key === 'Enter' && !event.isComposing) {
+    event.preventDefault();
+    addTask();
+  }
+});
 
 //cycle over incompleteTasksHolder ul list items
 for(var i = 0; i < incompleteTasksHolder.children.length; i++) {

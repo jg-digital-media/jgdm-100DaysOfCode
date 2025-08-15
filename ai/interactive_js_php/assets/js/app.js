@@ -1,4 +1,4 @@
-console.log("app.js - 14-08-2025 16:27 - Interactive ToDo List with JavaScript v1 - PHP/SQLite");
+console.log("app.js - 15-08-2025 13:44 - Interactive ToDo List with JavaScript v1 - PHP/SQLite");
 
 // Load tasks from backend and render
 function loadInitialTasks() {
@@ -15,6 +15,9 @@ function loadInitialTasks() {
 
       payload.tasks.forEach(function(task) {
         var listItem = createNewTaskElement(task.title);
+        
+        // Store task ID in data attribute for database operations
+        listItem.setAttribute('data-task-id', task.id);
 
         // set completion
         var checkBox = listItem.querySelector("input[type=checkbox]");
@@ -88,7 +91,7 @@ var createNewTaskElement = function(taskString) {
   return listItem;
 }
 
-//Add a new task
+// Add a new task
 var addTask = function() {
   var title = (taskInput.value || "").trim();
   if (title === "") { return; }
@@ -108,6 +111,9 @@ var addTask = function() {
 
     var task = payload.task;
     var listItem = createNewTaskElement(task.title);
+    
+    // Store task ID for database operations
+    listItem.setAttribute('data-task-id', task.id);
 
     var checkBox = listItem.querySelector("input[type=checkbox]");
     if (task.is_completed == 1) { checkBox.checked = true; }
@@ -137,11 +143,28 @@ var addTask = function() {
   });
 }
 
-//Edit an existing task
+// Helper function to update task in database
+var updateTask = function(taskId, updates) {
+  return fetch("api/tasks.php", {
+    method: "PUT",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(Object.assign({ id: taskId }, updates))
+  })
+  .then(function(res) { return res.json(); })
+  .then(function(payload) {
+    if (!payload || payload.status !== 'updated') {
+      throw new Error("Failed to update task");
+    }
+    return payload.task;
+  });
+};
+
+// Edit an existing task
 var editTask = function() {
   console.log("Edit task...");
 
   var listItem = this.parentNode;
+  var taskId = parseInt(listItem.getAttribute('data-task-id'));
   
   var editInput = listItem.querySelector("input[type=text]");
   var label = listItem.querySelector("label");
@@ -151,45 +174,113 @@ var editTask = function() {
   //if the class of the parent is .editMode
   if(containsClass) {
     //Switch from .editMode
-    //label text become the input's value
-    label.innerText = editInput.value;
+    var newTitle = editInput.value.trim();
+    if (newTitle === '') {
+      return; // Don't save empty titles
+    }
+    
+    // Update database with new title and exit edit mode
+    console.log("[todo] saving edit for task", taskId, newTitle);
+    updateTask(taskId, { title: newTitle, is_editing: false })
+      .then(function(task) {
+        label.innerText = task.title;
+        listItem.classList.remove("editMode");
+        console.log("[todo] saved edit", task);
+      })
+      .catch(function(err) {
+        console.error("[todo] failed to save edit", err);
+        // Revert to original text on error
+        editInput.value = label.innerText;
+      });
   } else {
     //Switch to .editMode
-    //input value becomes the label's text
     editInput.value = label.innerText;
+    listItem.classList.add("editMode");
+    
+    // Update database to enter edit mode
+    console.log("[todo] entering edit mode for task", taskId);
+    updateTask(taskId, { is_editing: true })
+      .then(function(task) {
+        console.log("[todo] entered edit mode", task);
+      })
+      .catch(function(err) {
+        console.error("[todo] failed to enter edit mode", err);
+        // Revert UI on error
+        listItem.classList.remove("editMode");
+      });
   }
-  
-  //Toggle .editMode on the list item
-  listItem.classList.toggle("editMode");
-  
 }
 
-//Delete an existing task
+// Delete an existing task
 var deleteTask = function() {
   console.log("Delete task...");
   var listItem = this.parentNode;
+  var taskId = parseInt(listItem.getAttribute('data-task-id'));
   var ul = listItem.parentNode;
   
-  //Remove the parent list item from the ul
-  ul.removeChild(listItem);
+  console.log("[todo] deleting task", taskId);
+  fetch("api/tasks.php", {
+    method: "DELETE",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ id: taskId })
+  })
+  .then(function(res) { return res.json(); })
+  .then(function(payload) {
+    if (!payload || payload.status !== 'deleted') {
+      throw new Error("Failed to delete task");
+    }
+    
+    //Remove the parent list item from the ul
+    ul.removeChild(listItem);
+    console.log("[todo] deleted task", taskId);
+  })
+  .catch(function(err) {
+    console.error("[todo] failed to delete task", err);
+  });
 }
 
-//Mark a task as complete
+// Mark a task as complete
 var taskCompleted = function() {
   console.log("Task complete...");
-  //Append the task list item to the #completed-tasks
   var listItem = this.parentNode;
-  completedTasksHolder.appendChild(listItem);
-  bindTaskEvents(listItem, taskIncomplete);
+  var taskId = parseInt(listItem.getAttribute('data-task-id'));
+  
+  console.log("[todo] marking task complete", taskId);
+  updateTask(taskId, { is_completed: true })
+    .then(function(task) {
+      //Append the task list item to the #completed-tasks
+      completedTasksHolder.appendChild(listItem);
+      bindTaskEvents(listItem, taskIncomplete);
+      console.log("[todo] marked complete", task);
+    })
+    .catch(function(err) {
+      console.error("[todo] failed to mark complete", err);
+      // Revert checkbox state on error
+      var checkBox = listItem.querySelector("input[type=checkbox]");
+      checkBox.checked = false;
+    });
 }
 
-//Mark a task as incomplete
+// Mark a task as incomplete
 var taskIncomplete = function() {
   console.log("Task incomplete...");
-  //Append the task list item to the #incomplete-tasks
   var listItem = this.parentNode;
-  incompleteTasksHolder.appendChild(listItem);
-  bindTaskEvents(listItem, taskCompleted);
+  var taskId = parseInt(listItem.getAttribute('data-task-id'));
+  
+  console.log("[todo] marking task incomplete", taskId);
+  updateTask(taskId, { is_completed: false })
+    .then(function(task) {
+      //Append the task list item to the #incomplete-tasks
+      incompleteTasksHolder.appendChild(listItem);
+      bindTaskEvents(listItem, taskCompleted);
+      console.log("[todo] marked incomplete", task);
+    })
+    .catch(function(err) {
+      console.error("[todo] failed to mark incomplete", err);
+      // Revert checkbox state on error
+      var checkBox = listItem.querySelector("input[type=checkbox]");
+      checkBox.checked = true;
+    });
 }
 
 var bindTaskEvents = function(taskListItem, checkBoxEventHandler) {

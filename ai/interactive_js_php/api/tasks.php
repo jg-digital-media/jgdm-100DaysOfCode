@@ -12,6 +12,7 @@ try {
 		$response = [ 'status' => 'ok', 'tasks' => [] ];
 
 		if (!file_exists($dbFile)) {
+            
 			// Fallback to initial seed state if DB file is not present
 			$response['status'] = 'fallback';
 			$response['tasks'] = [
@@ -90,7 +91,178 @@ try {
 		exit;
 	}
 
-	// Method not allowed
+	if ($method === 'PUT' || $method === 'PATCH') {
+		if (!file_exists($dbFile)) {
+			http_response_code(503);
+			echo json_encode([
+				'status' => 'fallback_not_writable',
+				'message' => 'Database not initialized. Create assets/data/tasks.db from script.sql.'
+			]);
+			exit;
+		}
+
+		$pdo = new PDO('sqlite:' . $dbFile, null, null, [
+			PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+			PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+		]);
+
+		// Accept JSON or form-encoded
+		$raw = file_get_contents('php://input');
+		$data = [];
+		$contentType = $_SERVER['CONTENT_TYPE'] ?? ($_SERVER['HTTP_CONTENT_TYPE'] ?? '');
+		if (stripos($contentType, 'application/json') !== false) {
+			$decoded = json_decode($raw, true);
+			if (is_array($decoded)) { $data = $decoded; }
+		} else {
+			$data = $_POST;
+		}
+
+		$id = isset($data['id']) ? (int)$data['id'] : 0;
+		if ($id <= 0) {
+			http_response_code(422);
+			echo json_encode([
+				'status' => 'invalid',
+				'message' => 'Valid task ID is required'
+			]);
+			exit;
+		}
+
+		// Check if task exists
+		$check = $pdo->prepare('SELECT id FROM tasks WHERE id = :id');
+		$check->bindValue(':id', $id, PDO::PARAM_INT);
+		$check->execute();
+		if (!$check->fetch()) {
+			http_response_code(404);
+			echo json_encode([
+				'status' => 'not_found',
+				'message' => 'Task not found'
+			]);
+			exit;
+		}
+
+		// Build update query dynamically based on provided fields
+		$updates = [];
+		$params = ['id' => $id];
+
+		if (isset($data['title'])) {
+			$title = trim((string)$data['title']);
+			if ($title === '') {
+				http_response_code(422);
+				echo json_encode([
+					'status' => 'invalid',
+					'message' => 'Title cannot be empty'
+				]);
+				exit;
+			}
+			$updates[] = 'title = :title';
+			$params['title'] = $title;
+		}
+
+		if (isset($data['is_completed'])) {
+			$updates[] = 'is_completed = :is_completed';
+			$params['is_completed'] = $data['is_completed'] ? 1 : 0;
+		}
+
+		if (isset($data['is_editing'])) {
+			$updates[] = 'is_editing = :is_editing';
+			$params['is_editing'] = $data['is_editing'] ? 1 : 0;
+		}
+
+		if (empty($updates)) {
+			http_response_code(422);
+			echo json_encode([
+				'status' => 'invalid',
+				'message' => 'No valid fields to update'
+			]);
+			exit;
+		}
+
+		// Add updated_at timestamp
+		$updates[] = 'updated_at = :updated_at';
+		$params['updated_at'] = date('Y-m-d H:i:s');
+
+		$sql = 'UPDATE tasks SET ' . implode(', ', $updates) . ' WHERE id = :id';
+		$update = $pdo->prepare($sql);
+		foreach ($params as $key => $value) {
+			$update->bindValue(':' . $key, $value);
+		}
+		$update->execute();
+
+		// Return updated task
+		$select = $pdo->prepare('SELECT id, title, is_completed, is_editing FROM tasks WHERE id = :id');
+		$select->bindValue(':id', $id, PDO::PARAM_INT);
+		$select->execute();
+		$task = $select->fetch();
+
+		echo json_encode([
+			'status' => 'updated',
+			'task' => $task
+		]);
+		exit;
+	}
+
+	if ($method === 'DELETE') {
+		if (!file_exists($dbFile)) {
+			http_response_code(503);
+			echo json_encode([
+				'status' => 'fallback_not_writable',
+				'message' => 'Database not initialized. Create assets/data/tasks.db from script.sql.'
+			]);
+			exit;
+		}
+
+		$pdo = new PDO('sqlite:' . $dbFile, null, null, [
+			PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+			PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+		]);
+
+		// Accept JSON or form-encoded
+		$raw = file_get_contents('php://input');
+		$data = [];
+		$contentType = $_SERVER['CONTENT_TYPE'] ?? ($_SERVER['HTTP_CONTENT_TYPE'] ?? '');
+		if (stripos($contentType, 'application/json') !== false) {
+			$decoded = json_decode($raw, true);
+			if (is_array($decoded)) { $data = $decoded; }
+		} else {
+			$data = $_POST;
+		}
+
+		$id = isset($data['id']) ? (int)$data['id'] : 0;
+		if ($id <= 0) {
+			http_response_code(422);
+			echo json_encode([
+				'status' => 'invalid',
+				'message' => 'Valid task ID is required'
+			]);
+			exit;
+		}
+
+		// Check if task exists
+		$check = $pdo->prepare('SELECT id FROM tasks WHERE id = :id');
+		$check->bindValue(':id', $id, PDO::PARAM_INT);
+		$check->execute();
+		if (!$check->fetch()) {
+			http_response_code(404);
+			echo json_encode([
+				'status' => 'not_found',
+				'message' => 'Task not found'
+			]);
+			exit;
+		}
+
+		// Delete the task
+		$delete = $pdo->prepare('DELETE FROM tasks WHERE id = :id');
+		$delete->bindValue(':id', $id, PDO::PARAM_INT);
+		$delete->execute();
+
+		echo json_encode([
+			'status' => 'deleted',
+			'id' => $id
+		]);
+		exit;
+	}
+
+	// Method not allowed - Error Handling
 	http_response_code(405);
 	echo json_encode([
 		'status' => 'error',

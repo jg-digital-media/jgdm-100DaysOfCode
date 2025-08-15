@@ -1,37 +1,36 @@
 # Interactive ToDo List with JavaScript (v2 - PHP/SQLite)
 
-Updated: `14/08/2025 - 16:29`
+Updated: `15/08/2025 - 13:59`
 
-**Description:** Expanding on a [previous project] first designed as a course project at Treehouse, this verion works with a local SQLite database and is built with PHP, JavaScript, and Cursor AI.
+**Description:** Expanding on a [previous project] first designed as a course project at Treehouse, this version works with a local SQLite database and is built with PHP, JavaScript, and Cursor AI.
 
 ## Table of Contents
 [Task List](#task-list) | [Development Notes](#development-notes) | [Author](#author)
 
 I created this application to test the capabilities of Cursor AI with `claude-4-sonnet-thinking` to handle a set of intricate tasks.  My starting chat prompt is below.
 
-## Task List  - `7` Tasks Completed
+## Task List  - `11` Tasks Completed
 [Back to Top](#table-of-contents)
 
-<!-- 
-`COMPLETED: ` 
-`TODO: ` 
--->
-- `COMPLETED: 12-08-2025 ` Convert existing CSS Code to SASS
-- `COMPLETED: 13-08-2025 ` Add a footer with relevant attributions and author information
-- `COMPLETED: 13-08-2025 ` add a read-only endpoint to load initial project tasks from SQLite database
-- `COMPLETED: 13-08-2025 ` Generate a new database from SQL script that loads initial set of tasks
-- `COMPLETED: 13-08-2025 ` Add a footer with relevant attributions and author information
-- `COMPLETED: 14-08-2025 ` Press Enter when #new-task is in focus to add a new task.
-- `COMPLETED: 14-08-2025  ` Add Link to repo with readme file.  v1.0.1 is the latest version.
-- `TODO: ` Make functionality to save all edits made to tasks to the database.
-    - Tasks saved to db from existing tasks
-    - Tasks saved to db from new tasks
+- `COMPLETED: 12-08-2025` Convert existing CSS Code to SASS
+- `COMPLETED: 13-08-2025` Add a footer with relevant attributions and author information
+- `COMPLETED: 13-08-2025` Add a read-only endpoint to load initial project tasks from SQLite database
+- `COMPLETED: 13-08-2025` Generate a new database from SQL script that loads initial set of tasks
+- `COMPLETED: 13-08-2025` Add a footer with relevant attributions and author information
+- `COMPLETED: 14-08-2025` Press Enter when #new-task is in focus to add a new task.
+- `COMPLETED: 14-08-2025` Add Link to repo with readme file.  v1.0.1 is the latest version.
+- `COMPLETED: 15-08-2025` Empty text boxes do not add to task list in the database
+- `COMPLETED: 15-08-2025` Make functionality to save all edits made to tasks to the database.
+- `COMPLETED: 15-08-2025` Tasks saved to db from existing tasks
+- `COMPLETED: 15-08-2025` Tasks saved to db from new tasks
+- `TODO: ` Disable add button and enter key when the input text box is empty.
 - `TODO: ` Implement print button to print the todo list in its current form.
 - `TODO: ` Add and implement a button to clear the TODO LIST.
 - `TODO: ` Introduce an empty list state which prompts the user to add a first list item.
   - `TODO: ` Might it be possible to remove all rows and started a reset of primary key ID's?
 - `TODO: ` Add a customisable element to place a list Title above the main list.
 - `TODO: ` Fire a warning if the user tries to add a task with no text.
+- `TODO: ` Show tooltips on interface when items are deleted or edited.
 
 ## Requirements
 [Back to Top](#table-of-contents)
@@ -41,7 +40,7 @@ I created this application to test the capabilities of Cursor AI with `claude-4-
 ## Development Notes
 [Back to Top](#table-of-contents)
 
-[v1.0.0](#v100) | [v0.0.1](#v101) | [v0.0.2](#v102) | [v1.0.3](#v103)
+[v1.0.0](#v100) | [v0.0.1](#v101) | [v0.0.2](#v102) | [v1.0.3](#v103) | [v1.0.4](#v104)
 
 ### `v1.0.0` 
 [Back to Top](#development-notes)
@@ -77,7 +76,7 @@ I created this application to test the capabilities of Cursor AI with `claude-4-
 
 + Added a link to the project as stored on my GitHub Repository.
 
-+ Thinking now about moving ahead with adding tasks to the project and persisting those changes. We need to add all the elements that go with new tasks to the interface. That is taken care off at the front end already but I had to couple that with adding new SQL insert statements to the SQL script.  That involves taking the text from #new-task input box and putting that into SQL insert statement.
++ Thinking now about moving ahead with adding tasks to the project and persisting those changes. We need to add all the elements that go with new tasks to the interface. That is taken care of at the front end already but I had to couple that with adding new SQL insert statements to the SQL script.  That involves taking the text from #new-task input box and putting that into SQL insert statement.
 
 + In truth, no changes to the SQL script were made, or needed. Handling of adding new data is handled using the JavaScript fetch() method and a prepared statement in the tasks.php endpoint.  Other than that in handled it in the way I expected in that the endpoing binds the value entered nby the user into a variable bfore executing the query with PHP prepard statement.
 
@@ -86,6 +85,16 @@ I created this application to test the capabilities of Cursor AI with `claude-4-
 + A good start for using the database.  The next step is to examine all the instances where data is edited witjin the app and then work out how to save that those changes to the database.
 
 + Tasks for testing: Pay Bills, Go Shopping, See the Doctor, -> New -> Insurance, Buy a DVD, Pay TV Licence
+
+
+### `v1.0.4`
+[Back to Top](#development-notes)
+
++ So, where we are now is that we can read data (the task list) and we can add new tasks to it.  What we don't have yet is the ability to persist changes to those tasks to the data. That involves more changes than we might realise.
+  
++ We need to be able to persist changes to the edit state of a Task. Persist Save changes to the text as applied when edit button is pressed. Persist the change of "completed" a task so it stays in the "Completed Tasks" list. Persist the change when you change it back (i.e unchecking the associated checkbox). Through all of this, we need to be able to identify which task (which database row) we are editing.
+
++ Well, now. Here's the thing. I had a choice about whether or not to continue with the `GPT-5` model or go back to the `claude-4-sonnet-thinking`. And I went back to the latter. I gave `claude-4-sonnet-thinking` a set of criteria based on the 2 bullet points above, and... whether or not it was the best thing to do, I don't know. But the code it gave me took care of *all* the data persistence. Which is good, yes? It took care of *all* the data persistence, including task deletion. Which I did not ask for. I'm not going to reject it, though. It completes the project in its bare bones form.
 
 ## Author
 [Back to Top](#table-of-contents)

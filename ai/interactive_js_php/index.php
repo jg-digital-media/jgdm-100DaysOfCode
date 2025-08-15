@@ -72,7 +72,7 @@
 
         <p>Created by Jonnie Grieve Digital Media using Cursor AI with <code>claude-4-sonnet-thinking</code> and <code>gpt-5</code>. Adapted from an original designed first created by <a target="_blank" href="https://x.com/chalkers">Andrew Chalkley</a> for Treehouse's <a target="_blank" href="https://www.teamtreehouse.com">Interactive Web Pages with JavaScript Course</a>.<br /><br />
 
-        <span id = "app---version"><a target="_blank" href="https://github.com/jg-digital-media/jgdm-100DaysOfCode/tree/master/ai/interactive_js_php">v1.0.3</a></span>    
+        <span id = "app---version"><a target="_blank" href="https://github.com/jg-digital-media/jgdm-100DaysOfCode/tree/master/ai/interactive_js_php">v1.0.4</a></span>    
         </p>
     </footer>
     <script type="text/javascript" src="assets/js/app.js"></script>

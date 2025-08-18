@@ -23,7 +23,9 @@ partially workedCan't justify cost - for the results they approach gives me.  I 
 So  to end the day, i did that 
 
 
-### Day 25
+### Day 27
 
-
+Photography Website|https://projects.jonniegrieve.co.uk/ai/cursor_ai/
+API Projects|https://projects.jonniegrieve.co.uk/api_projects
+Cursor AI Homepage|https://projects.jonniegrieve.co.uk/ai/cursor_ai/
 

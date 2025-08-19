@@ -27,5 +27,22 @@ So  to end the day, i did that
 
 Photography Website|https://projects.jonniegrieve.co.uk/ai/cursor_ai/
 API Projects|https://projects.jonniegrieve.co.uk/api_projects
+
 Cursor AI Homepage|https://projects.jonniegrieve.co.uk/ai/cursor_ai/
 
+
+### Day 28
+
+Bootstrap learnings.
+
+Most CSS and JS comes from CDN links which can be overridden in CSS or SASS partials.
+
+Utilise the !important flag if you need to.
+
+Don't be afraid to customise the code snippets you're given as and when you need to.
+
+Search functionality is not yet implemented.
+
+### Day 29
+
+. . . 

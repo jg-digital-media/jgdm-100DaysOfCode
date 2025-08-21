@@ -45,4 +45,16 @@ Search functionality is not yet implemented.
 
 ### Day 29
 
-. . . 
+```
+Create tooltip notification system with HTML structure and CSS styling
+Add JavaScript functions to show/hide tooltips and auto-dismiss after 5 seconds
+Integrate tooltip notifications into addNewExpense function (green notification)
+Integrate tooltip notifications into deleteExpense function (red notification)
+```
+
+Football Score Comparator (v3.6)|https://projects.jonniegrieve.co.uk/score_comparator
+Cursor AI|https://projects.jonniegrieve.co.uk/cursor_ai/
+My Expenses (v3)|https://projects.jonniegrieve.co.uk/my_expenses
+Photography Website Reset|https://photography.jonniegrieve.co.uk
+
+### Day 30

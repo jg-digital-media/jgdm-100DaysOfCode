@@ -1,0 +1,59 @@
+// config file for SASS
+
+// background colours
+$bg---body: lightblue;
+$bg---header: #3c9cff;
+$bg---footer: white;
+
+$bg---primary: $bg---body;
+$bg---secondary: #ffefd2;
+$bg---tertiary: darken($bg---primary, 7%);
+
+$bg---section--your-element: none;
+
+$bg---btn: #f3e8e8;
+$bg---boxmodel--border: #ffbe6d;
+$bg---boxmodel--padding: #5fd774;
+$bg---boxmodel--content: #76b8eb; 
+$bg---boxmodel--margin: #ffc49b;
+
+$bkp---lg: 980px;
+$bkp---m: 768px;
+$bkp---md: 584px;
+
+
+// font styles
+$font---body: Arial, sans-serif;
+$font---header: Arial, sans-serif;
+$font---footer: Arial, sans-serif;
+
+
+// font sizes
+$font-size---body: 16px;
+$font-size---header: 16px;
+$font-size---footer: 16px;
+
+// font weights
+$font-weight---body: normal;
+$font-weight---header: normal;
+$font-weight---footer: normal;
+
+// text colours
+$color---body: black;
+$color---header: black;
+$color---footer: black;
+$color---btn: black;
+
+$color---primary: black;
+$color---secondary: white;
+$color---tertiary: white;
+
+
+// link colours
+$color---link: blue;
+$color---link--hover: red;   
+
+$color---link--secondary: blue;
+$color---link--secondary-hover: red;
+
+$color---link--tertiary: white;

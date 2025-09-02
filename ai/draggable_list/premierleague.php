@@ -46,7 +46,7 @@
 
         <h2>When I came up with the idea of doing this list...</h2>
 
-        <p>The idea was that 7 or 8 football clubs doesn't go into 4, where the 4 clubs qualify for the Champions League. So I thought it would be interesting to be able to sort 4 premier league teams... put new culbs into that top 4 and see what happens to the other clubs. </p>
+        <p>The idea was that 7 or 8 football clubs doesn't go into 4, when it comes to the 4 clubs that qualify for the Champions League. So I thought it would be interesting to be able to sort 4 premier league teams... put new clubs into that top 4 and see what happens to the other clubs and visualise who misses out.  Ironically in 24/25, 6 clubs qualified for various reasons. But the premise remains.</p>
 
     </section>
         

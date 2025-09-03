@@ -8,6 +8,9 @@ $font---size--h2: 24px;
 $url---color--primary: #007bff;
 $url---color--primary-hover: #0056b3;
 
+$link---color--primary: red;
+$link---color--primary-hover: blue;
+
 $background---main: #ffffff;
 $background---caption: #404040;
 
@@ -201,6 +204,23 @@ html {
 
         text-align: center;
         margin: 6px 0;
+
+        p {
+
+            a {
+
+                color: $link---color--primary;
+                transition: color .3s ease-in-out;
+                margin: 0 4px;
+                font-size: 11px;
+
+                &:hover {
+
+                    color: $link---color--primary-hover;
+                }
+            }
+        }
     }
+
 
 }

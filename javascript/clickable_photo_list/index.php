@@ -1,6 +1,11 @@
 <?php 
 
-    // echo "<p>index.php</p>";
+    // Load and parse the JSON data
+    $json_data = file_get_contents('photo_list.json');
+    $photos = json_decode($json_data, true);
+    
+    // Get the first photo for default display
+    $default_photo = $photos[0];
 
 ?>
 
@@ -13,7 +18,8 @@
 
             <div id="photos">
 
-                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8194.JPG" alt="Daisy Flower">
+                <?php // parse the main image ?>
+                <img src="<?php echo htmlspecialchars($default_photo['filepath']); ?>" alt="<?php echo htmlspecialchars($default_photo['caption']); ?>">
 
             </div>
 
@@ -22,17 +28,9 @@
         <aside id="url---list">
             
             <ul>
-
-                <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8194.JPG">Daisy Flower</a></li>
-
-                <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8204.JPG">Japanese Anomone</a></li>
-
-                <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8197.JPG">Yarrow (Achillea millefolium)</a></li>
-
-                <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8226.JPG">Echinops</a></li>
-
-                <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8198.JPG">Calendula officinalis</a></li>
-
+                <?php foreach($photos as $photo): ?>
+                <li><a href="#" data-image="<?php echo htmlspecialchars($photo['filepath']); ?>" data-caption="<?php echo htmlspecialchars($photo['caption']); ?>"><?php echo htmlspecialchars($photo['caption']); ?></a></li>
+                <?php endforeach; ?>
             </ul>
 
         </aside>

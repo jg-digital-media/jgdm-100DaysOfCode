@@ -1,0 +1,87 @@
+
+// config variables
+$font---main: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$font---size--h1: 32px;
+$font---size--h2: 24px;
+
+$url---color--primary: #007bff;
+$url---color--primary-hover: #0056b3;
+
+
+// main styles.
+html {
+
+    body {
+
+        font-family: $font---main;
+
+
+        header {
+
+            h1, h2 {
+
+                text-align: center;
+            }
+
+            h1 {
+
+                font-size: $font---size--h1;
+            }
+
+            h2 {
+
+                font-size: $font---size--h2;
+            }
+
+        }
+
+        section.photo---element--container {
+
+            display: inline-block;
+
+            div#photos {
+
+                display: block;
+                margin: 4px auto;
+                width: 85%;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+
+            }
+
+        }
+
+        aside#url---list {
+            
+            ul {
+
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+            
+
+                li {
+
+                    margin: 15px 0;
+
+                    a {
+
+                        color: $url---color--primary;
+                        transition: color .4s ease-in-out;
+
+                        &:hover {
+
+                            color: $url---color--primary-hover;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+}

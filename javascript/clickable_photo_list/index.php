@@ -11,9 +11,8 @@
 
 <?php include_once("template-parts/header.php"); ?>
 
-    <p><a href="notes.php">Notes</a></p>
-
     <div class="main-content">
+        
         <section class="photo---element--container">
 
             <div id="photos">

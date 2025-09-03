@@ -58,12 +58,17 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentPhotoIndex = 0;
     
     document.addEventListener('keydown', function(event) {
-        if (event.key === 'ArrowRight' || event.key === 'ArrowLeft') {
+        if (event.key === 'ArrowRight' || event.key === 'ArrowLeft' || event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+
             event.preventDefault();
             
             if (event.key === 'ArrowRight') {
                 currentPhotoIndex = (currentPhotoIndex + 1) % photoLinks.length;
             } else if (event.key === 'ArrowLeft') {
+                currentPhotoIndex = (currentPhotoIndex - 1 + photoLinks.length) % photoLinks.length;
+            } else if (event.key === 'ArrowDown') {
+                currentPhotoIndex = (currentPhotoIndex + 1) % photoLinks.length;
+            } else if (event.key === 'ArrowUp') {
                 currentPhotoIndex = (currentPhotoIndex - 1 + photoLinks.length) % photoLinks.length;
             }
             

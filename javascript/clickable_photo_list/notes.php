@@ -6,40 +6,64 @@
 
 <?php include_once("template-parts/header.php"); ?>
 
-    <p><a href="index.php">Home</a></p>
+    <div class="notes-container">
 
-    <section>
+        <section class="notes-content">
 
-        <h2>Notes</h2>  
+            <h2>Development Notes <a href="index.php" id="goback">Back</a></h2>
 
+            <article class="technical-summary">
 
-        <article>
+                <h3>Clickable Photo List - Technical Summary</h3>
 
-        Clickable Photo List - Technical Summary
-Purpose: Interactive photo gallery with dynamic image switching and navigation.
-Architecture:
-Backend: PHP loads JSON data (photo_list.json) containing image URLs and captions
-Frontend: JavaScript handles click events and keyboard navigation (arrow keys)
-Styling: SASS/SCSS with responsive design and CSS variables
-Key Features:
-Dynamic content: Photo list generated from JSON data
-Image switching: Click links or use arrow keys to change displayed photo
-Active state highlighting: Visual feedback shows currently selected photo
-Overlay captions: Image titles appear as overlays at bottom of photos
-Responsive layout: Flexbox-based sidebar + main content area
-Viewport-aware sizing: Images constrained to prevent header/footer cutoff
-File Structure:
-index.php - Main page with PHP templating
-photo_list.json - Data source for photos and captions
-app.js - Client-side interactivity and navigation
-_main.scss - Styling with CSS variables and responsive breakpoints
-Technologies: PHP, JavaScript (vanilla), SASS, Flexbox, JSON data binding
+                <div class="summary-section">
+                    <h4>Purpose</h4>
+                    <p>Interactive photo gallery with dynamic image switching and navigation.</p>
+                </div>
 
+                <div class="summary-section">
+                    <h4>Architecture</h4>
+                    <ul>
+                        <li><strong>Backend:</strong> PHP loads JSON data (photo_list.json) containing image URLs and captions</li>
+                        <li><strong>Frontend:</strong> JavaScript handles click events and keyboard navigation (arrow keys)</li>
+                        <li><strong>Styling:</strong> SASS/SCSS with responsive design and CSS variables</li>
+                    </ul>
+                </div>
 
-More photos to be added later.
-        </article>
+                <div class="summary-section">
+                    <h4>Key Features</h4>
+                    <ul>
+                        <li><strong>Dynamic content:</strong> Photo list generated from JSON data</li>
+                        <li><strong>Image switching:</strong> Click links or use arrow keys to change displayed photo</li>
+                        <li><strong>Active state highlighting:</strong> Visual feedback shows currently selected photo</li>
+                        <li><strong>Overlay captions:</strong> Image titles appear as overlays at bottom of photos</li>
+                        <li><strong>Responsive layout:</strong> Flexbox-based sidebar + main content area</li>
+                        <li><strong>Viewport-aware sizing:</strong> Images constrained to prevent header/footer cutoff</li>
+                    </ul>
+                </div>
 
+                <div class="summary-section">
+                    <h4>File Structure</h4>
+                    <ul>
+                        <li><code>index.php</code> - Main page with PHP templating</li>
+                        <li><code>photo_list.json</code> - Data source for photos and captions</li>
+                        <li><code>app.js</code> - Client-side interactivity and navigation</li>
+                        <li><code>_main.scss</code> - Styling with CSS variables and responsive breakpoints</li>
+                    </ul>
+                </div>
 
-    </section>
+                <div class="summary-section">
+                    <h4>Technologies</h4>
+                    <p>PHP, JavaScript (vanilla), SASS, Flexbox, JSON data binding</p>
+                </div>
+
+                <div class="summary-section future-notes">
+                    <h4>Future Development</h4>
+                    <p>More photos to be added later.</p>
+                </div>
+
+            </article>
+
+        </section>
+    </div>
    
-<?php include_once("template-parts/footer.php"); ?>

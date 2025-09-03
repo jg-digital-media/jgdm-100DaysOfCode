@@ -2,7 +2,7 @@
   
   <footer>
         
-        <p>Footer</p>
+        <p>Footer <a href="notes.php">Notes</a></p>
 
         <!-- <a href="notes.php">Notes</a> -->
 

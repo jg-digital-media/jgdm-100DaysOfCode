@@ -95,17 +95,27 @@ html {
                     object-fit: contain;
                     border-radius: 7px;
                     border: solid white 3px;
+
+                    @media (max-width: $breakpoint---sm) {
+
+                        max-height: calc(100vh - 135px);
+                    }
                 }
 
             }
 
             .photo---caption {
                 position: absolute;
-                bottom: 30px;
+                bottom: 67px;
                 left: 50%;
                 transform: translateX(-50%);
                 z-index: 2000;
                 pointer-events: none;
+
+                @media (max-width: $breakpoint---sm) {
+
+                    bottom: 17px;
+                }
 
                 span {
                     background-color: $background---caption;
@@ -185,6 +195,12 @@ html {
             }
         }
 
+    }
+
+    footer {
+
+        text-align: center;
+        margin: 6px 0;
     }
 
 }

@@ -23,6 +23,10 @@
 
             </div>
 
+            <div class="photo---caption">
+                <span><?php echo htmlspecialchars($default_photo['caption']); ?></span>
+            </div>
+
         </section>
 
         <aside id="url---list">

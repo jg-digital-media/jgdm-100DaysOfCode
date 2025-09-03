@@ -3,7 +3,7 @@
 $font---main: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 $font---size--h1: 32px;
-$font---size--h2: 24px;
+$font---size--h2: 14px;
 
 $url---color--primary: #007bff;
 $url---color--primary-hover: #0056b3;
@@ -45,6 +45,7 @@ html {
             /* box-shadow: #000000 0 0 0 0; */
             border-bottom: solid #e5dbdb 1px;
             box-shadow: #e5dbdb 2px 2px 4px 0px;
+            height: 70px;
 
             h1, h2 {
 
@@ -54,11 +55,15 @@ html {
             h1 {
 
                 font-size: $font---size--h1;
+                margin: 3px 0;
             }
 
             h2 {
 
                 font-size: $font---size--h2;
+                font-size: 14px;
+                font-style: italic;
+                color: gray;
             }
 
         }
@@ -112,7 +117,7 @@ html {
 
             .photo---caption {
                 position: absolute;
-                bottom: 67px;
+                bottom: 64px;
                 left: 50%;
                 transform: translateX(-50%);
                 z-index: 2000;

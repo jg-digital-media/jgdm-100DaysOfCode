@@ -1,10 +1,11 @@
-console.log("app.js - connected - 02-09-2025 - 11:16");
+console.log("app.js - connected - 02-09-2025 - 12:06");
 
 // Photo switching functionality
 document.addEventListener('DOMContentLoaded', function() {
     
-    // Get references to the image element and all photo links
+    // Get references to the image element, caption element, and all photo links
     const photoImage = document.querySelector('#photos img');
+    const photoCaption = document.querySelector('.photo---caption span');
     const photoLinks = document.querySelectorAll('#url---list a');
     
     // Function to update active link highlighting
@@ -40,10 +41,15 @@ document.addEventListener('DOMContentLoaded', function() {
             const newImageSrc = this.getAttribute('data-image');
             const newImageCaption = this.getAttribute('data-caption');
             
-            // Update the displayed image
+            // Update the displayed image and caption
             if (photoImage && newImageSrc && newImageCaption) {
                 photoImage.src = newImageSrc;
                 photoImage.alt = newImageCaption;
+                
+                // Update the caption text
+                if (photoCaption) {
+                    photoCaption.textContent = newImageCaption;
+                }
                 
                 // Optional: Add a subtle fade effect
                 photoImage.style.opacity = '0.7';

@@ -1,6 +1,6 @@
 <?php 
 
-echo "<p>notes.php</p>";
+    // echo "<p>notes.php</p>";
 
 ?>
 

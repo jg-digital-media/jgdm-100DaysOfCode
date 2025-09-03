@@ -1,6 +1,6 @@
 <?php 
 
-echo "<p>index.php</p>";
+    // echo "<p>index.php</p>";
 
 ?>
 
@@ -8,32 +8,34 @@ echo "<p>index.php</p>";
 
     <p><a href="notes.php">Notes</a></p>
 
-    <section class="photo---element--container">
+    <div class="main-content">
+        <section class="photo---element--container">
 
-        <div id="photos">
+            <div id="photos">
 
-            <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8194.JPG" alt="Daisy Flower">
+                <img src="https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8194.JPG" alt="Daisy Flower">
 
-        </div>
+            </div>
 
-    </section>
+        </section>
 
-    <aside id="url---list">
-        
-        <ul>
+        <aside id="url---list">
+            
+            <ul>
 
-            <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8194.JPG">Daisy Flower</a></li>
+                <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8194.JPG">Daisy Flower</a></li>
 
-            <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8204.JPG">Japanese Anomone</a></li>
+                <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8204.JPG">Japanese Anomone</a></li>
 
-            <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/<li>clickable_photo_list/flowers/IMG_8197.JPG">Yarrow (Achillea millefolium)</a></li>
+                <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8197.JPG">Yarrow (Achillea millefolium)</a></li>
 
-            <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8226.JPG">Echinops</a></li>
+                <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8226.JPG">Echinops</a></li>
 
-            <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8198.JPG">Calendula officinalis</a></li>
+                <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8198.JPG">Calendula officinalis</a></li>
 
-        </ul>
+            </ul>
 
-    </aside>
+        </aside>
+    </div>
    
 <?php include_once("template-parts/footer.php"); ?>

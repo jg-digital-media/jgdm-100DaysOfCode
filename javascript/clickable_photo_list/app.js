@@ -7,10 +7,34 @@ document.addEventListener('DOMContentLoaded', function() {
     const photoImage = document.querySelector('#photos img');
     const photoLinks = document.querySelectorAll('#url---list a');
     
+    // Function to update active link highlighting
+    function setActiveLink(activeLink) {
+        // Remove active class from all links
+        photoLinks.forEach(function(link) {
+            link.classList.remove('active');
+        });
+        
+        // Add active class to the clicked link
+        if (activeLink) {
+            activeLink.classList.add('active');
+        }
+    }
+    
+    // Set the first link as active by default
+    if (photoLinks.length > 0) {
+        setActiveLink(photoLinks[0]);
+    }
+    
     // Add click event listeners to all photo links
-    photoLinks.forEach(function(link) {
+    photoLinks.forEach(function(link, index) {
         link.addEventListener('click', function(event) {
             event.preventDefault(); // Prevent default link behavior
+            
+            // Update the active link highlighting
+            setActiveLink(this);
+            
+            // Update the current photo index for keyboard navigation
+            currentPhotoIndex = index;
             
             // Get the image data from the clicked link's data attributes
             const newImageSrc = this.getAttribute('data-image');

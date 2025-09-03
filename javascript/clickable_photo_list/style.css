@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*
+
+Last Updated: 22/08/2025 - 09:36
+*/
+html body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+html body header h1, html body header h2 {
+  text-align: center;
+}
+html body header h1 {
+  font-size: 32px;
+}
+html body header h2 {
+  font-size: 24px;
+}
+html body section.photo---element--container {
+  display: inline-block;
+}
+html body section.photo---element--container div#photos {
+  display: block;
+  margin: 4px auto;
+  width: 85%;
+}
+html body section.photo---element--container div#photos img {
+  width: 100%;
+  height: auto;
+}
+html body aside#url---list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+html body aside#url---list ul li {
+  margin: 15px 0;
+}
+html body aside#url---list ul li a {
+  color: #007bff;
+  transition: color 0.4s ease-in-out;
+}
+html body aside#url---list ul li a:hover {
+  color: #0056b3;
+}
+
+/*# sourceMappingURL=style.css.map */

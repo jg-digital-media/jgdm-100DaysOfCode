@@ -99,7 +99,8 @@ html {
                     height: auto;
                     object-fit: contain;
                     border-radius: 7px;
-                    border: solid white 3px;
+                    border: solid white 2px;
+                    box-shadow: black 0 0 5px;
 
                     @media (max-width: $breakpoint---sm) {
 

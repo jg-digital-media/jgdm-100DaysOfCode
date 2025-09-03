@@ -5,8 +5,9 @@ $font---main: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font---size--h1: 32px;
 $font---size--h2: 14px;
 
-$url---color--primary: #007bff;
+$url---color--primary: #820303;
 $url---color--primary-hover: #0056b3;
+$url---color--primary-active: #ec2020;
 
 $link---color--primary: red;
 $link---color--primary-hover: blue;
@@ -192,7 +193,7 @@ html {
 
                         &.active {
 
-                            color: #5a0202;
+                            color: $url---color--primary-active;
                             /* background-color: $url---color--primary; */
                             /* font-weight: bold; */
 

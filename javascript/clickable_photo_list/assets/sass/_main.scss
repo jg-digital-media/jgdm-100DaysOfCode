@@ -29,7 +29,7 @@ html {
 
         header {
 
-            /* border-bottom: solid black 1px; */
+            /* border-bottom: solid #444444 1px; */
             /* box-shadow: #000000 0 0 0 0; */
 
             h1, h2 {
@@ -134,6 +134,18 @@ html {
 
                             color: $url---color--primary-hover;
                             /* background-color: #e9ecef; */
+                        }
+
+                        &.active {
+                            
+                            color: #5a0202;
+                            /* background-color: $url---color--primary; */
+                            /* font-weight: bold; */
+
+                            /* &:hover {
+                                color: #ffffff;
+                                background-color: $url---color--primary-hover;
+                            } */
                         }
                     }
                 }

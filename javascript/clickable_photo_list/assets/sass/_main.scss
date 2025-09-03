@@ -8,6 +8,12 @@ $font---size--h2: 24px;
 $url---color--primary: #007bff;
 $url---color--primary-hover: #0056b3;
 
+$background---main: #ffffff;
+$background---caption: #404040;
+
+$col---main: #000000;
+$col---secondary: #b1b1b1;
+
 $breakpoint---lg: 1028x;
 $breakpoint---md: 980px;
 $breakpoint---sm: 680px;
@@ -20,6 +26,9 @@ html {
 
     body {
 
+        display: block;
+        background: $background---main;
+        color: $col---main;
         height: 100%;
         margin: 0;
         padding: 0;
@@ -137,7 +146,7 @@ html {
                         }
 
                         &.active {
-                            
+
                             color: #5a0202;
                             /* background-color: $url---color--primary; */
                             /* font-weight: bold; */

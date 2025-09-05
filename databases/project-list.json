@@ -1366,7 +1366,94 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
-        }
+        }, {
+            "project_name": "Darts Scorer App",
+            "project_url": "https://projects.jonniegrieve.co.uk/darts_scorer_app",
+            "portfolio_url": "No",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/darts_scorer.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/darts_scorer_app.jpg",
+            "project_alt": "Go To Darts Scorer App page",
+            "project_type": "single-page-app",
+            "project_category": "ai",
+            "class": "all ",
+            "project_status": "complete",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+        }, {
+            "project_name": "Cash Counter",
+            "project_url": "https://projects.jonniegrieve.co.uk/cash_counter",
+            "portfolio_url": "No",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/cash_counter.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/cash_counter.jpg",
+            "project_alt": "Go To Cash Counter Page",
+            "project_type": "single-page-app",
+            "project_category": "ai",
+            "class": "all ",
+            "project_status": "complete",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+        }, {
+            "project_name": "Bird Identifier Website",
+            "project_url": "https://projects.jonniegrieve.co.uk/bird_identifier",
+            "portfolio_url": "No",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/bird_identifier.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/bird_identifier.jpg",
+            "project_alt": "Go To Bird Identifier Page",
+            "project_type": "single-page-app",
+            "project_category": "ai",
+            "class": "all ",
+            "project_status": "complete",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+        }, {
+
+            "project_name": "Budget Organiser",
+            "project_url": "https://projects.jonniegrieve.co.uk/budget_organiser",
+            "portfolio_url": "No",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/budget_organiser.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/budget_organiser.jpg",
+            "project_alt": "Go To Budget Organiser Page",
+            "project_type": "app",
+            "project_category": "app",
+            "class": "all ",
+            "project_status": "complete",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+        }, {
+
+            "project_name": "Build my CV",
+            "project_url": "https://projects.jonniegrieve.co.uk/build_my_cv",
+            "portfolio_url": "No",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/build_my_cv.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/build_my_cv.jpg",
+            "project_alt": "Go To Build My CV Page",
+            "project_type": "app",
+            "project_category": "app",
+            "class": "all ",
+            "project_status": "complete",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+        }  , {
+
+            "project_name": "Football Score Comparator",
+            "project_url": "https://projects.jonniegrieve.co.uk/score_comparator",
+            "portfolio_url": "No",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/score_comparator.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/build_my_cv.jpg",
+            "project_alt": "Go To Football Score Comparator Page",
+            "project_type": "app",
+            "project_category": "app",
+            "class": "all ",
+            "project_status": "under_review",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+        }  
         
     ]
     

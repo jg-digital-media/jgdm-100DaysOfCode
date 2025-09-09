@@ -3,26 +3,103 @@
         "filename": "IMG_8194.JPG",
         "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8194.JPG",
         "caption": "Daisy Flower",
+        "scientific_name": "Daisy Flower",
         "date": "22-08-2025"
     }, {
         "filename": "IMG_8204.JPG",
         "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8204.JPG",
-        "caption": "Japanese Anomone",
+        "caption": "Japanese Anemone",
+        "scientific_name": "Japanese Anemone",
         "date": "22-08-2025"
     }, {
         "filename": "IMG_8197.JPG",
         "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8197.JPG",
         "caption": "Yarrow (Achillea millefolium)",
+        "scientific_name": "Yarrow (Achillea millefolium)",
         "date": "22-08-2025"
     }, {
         "filename": "IMG_8226.JPG",
         "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8226.JPG",
         "caption": "Echinops",
+        "scientific_name": "Echinops",
         "date": "22-08-2025"
     }, {
         "filename": "IMG_8198.JPG",
         "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8198.JPG",
         "caption": "Calendula officinalis",
+        "scientific_name": "Calendula officinalis",
+        "date": "22-08-2025"
+    }, {
+        "filename": "IMG_8265.JPG",
+        "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8265.JPG",
+        "caption": "Evening Sun",
+        "scientific_name": "Helianthus annuus",
+        "date": "22-08-2025"
+    }, {
+        "filename": "IMG_8257.JPG",
+        "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8257.JPG",
+        "caption": "Sunflower",
+        "scientific_name": "Helianthus",
+        "date": "22-08-2025"
+    }, {
+        "filename": "IMG_8252.JPG",
+        "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8252.JPG",
+        "caption": "Dahlia",
+        "scientific_name": "Dahlia Pinnata",
+        "date": "22-08-2025"
+    }, {
+        "filename": "IMG_8254.JPG",
+        "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8254.JPG",
+        "caption": "Dahlia",
+        "scientific_name": "Dahlia imperialis",
+        "date": "22-08-2025"
+    }, {
+        "filename": "IMG_8250.JPG",
+        "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8250.JPG",
+        "caption": "Dahlia",
+        "scientific_name": "Dahlia",
+        "date": "22-08-2025"
+    }, {
+        "filename": "IMG_8249.JPG",
+        "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8249.JPG",
+        "caption": "Red Garden Rose",
+        "scientific_name": "rosacaea",
+        "date": "22-08-2025"
+    }, {
+        "filename": "IMG_8243.JPG",
+        "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8243.JPG",
+        "caption": "African Daisy",
+        "scientific_name": "Osteospermun",
+        "date": "22-08-2025"
+    }, {
+        "filename": "IMG_8227.JPG",
+        "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8227.JPG",
+        "caption": "Globe Thistle",
+        "scientific_name": "Echinops",
+        "date": "22-08-2025"
+    }, {
+        "filename": "IMG_8207.JPG",
+        "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8207.JPG",
+        "caption": "Hydrangea",
+        "scientific_name": "hyadrangea macrophylla",
+        "date": "22-08-2025"
+    }, {
+        "filename": "IMG_8193.JPG",
+        "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8193.JPG",
+        "caption": "Confederate Rose",
+        "scientific_name": "hibiscus mutabilis",
+        "date": "22-08-2025"
+    }, {
+        "filename": "IMG_8200.JPG",
+        "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8200.JPG",
+        "caption": "Pot Marigold",
+        "scientific_name": "Calendula",
+        "date": "22-08-2025"
+    }, {
+        "filename": "IMG_8258.JPG",
+        "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8258.JPG",
+        "caption": "Echinacea",
+        "scientific_name": "asteraceae",
         "date": "22-08-2025"
     }
 ]

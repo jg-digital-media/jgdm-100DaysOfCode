@@ -117,12 +117,16 @@ html {
             }
 
             .photo---caption {
+
                 position: absolute;
                 bottom: 64px;
                 left: 50%;
+                /* color: $background---main; */
+                color: white;
                 transform: translateX(-50%);
                 z-index: 2000;
                 pointer-events: none;
+                font-size: 14px;
 
                 @media (max-width: $breakpoint---sm) {
 
@@ -130,11 +134,13 @@ html {
                 }
 
                 span {
+
                     background-color: $background---caption;
-                    color: $background---main;
+                    /* color: $background---main; */
+                    color: #fff537;
                     padding: 8px 16px;
                     border-radius: 4px;
-                    font-size: 14px;
+                    font-size: 11px;
                     font-weight: 500;
                     text-align: center;
                     display: inline-block;

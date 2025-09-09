@@ -5,7 +5,7 @@
 
 /*
 
-Last Updated: 22/08/2025 - 15:28
+Last Updated: 09/09/2025 - 15:52
 */
 html {
   height: 100%;
@@ -80,8 +80,11 @@ html body section.photo---element--container div#photos img {
   }
 }
 html body section.photo---element--container .photo---caption {
+  background-color: #404040;
   position: absolute;
+  padding: 4px;
   bottom: 64px;
+  border-radius: 6px;
   left: 50%;
   /* color: $background---main; */
   color: white;
@@ -89,6 +92,7 @@ html body section.photo---element--container .photo---caption {
   z-index: 2000;
   pointer-events: none;
   font-size: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 @media (max-width: 680px) {
   html body section.photo---element--container .photo---caption {
@@ -96,18 +100,17 @@ html body section.photo---element--container .photo---caption {
   }
 }
 html body section.photo---element--container .photo---caption span {
-  background-color: #404040;
   /* color: $background---main; */
   color: #fff537;
-  padding: 8px 16px;
+  padding: 8px 4px;
   border-radius: 4px;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 500;
+  font-style: italic;
   text-align: center;
   display: inline-block;
   max-width: 80vw;
   word-wrap: break-word;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 html body aside#url---list {
   /* width: 300px; */

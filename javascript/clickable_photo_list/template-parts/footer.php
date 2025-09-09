@@ -2,7 +2,7 @@
   
   <footer>
         
-        <p>Footer <a href="notes.php">Notes</a></p>
+        <p>A design by &copy; Jonnie Grieve Digital Media (<?php echo date('Y'); ?>) <a href="notes.php">Notes</a></p>
 
         <!-- <a href="notes.php">Notes</a> -->
 

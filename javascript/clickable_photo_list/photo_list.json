@@ -3,20 +3,19 @@
         "filename": "IMG_8194.JPG",
         "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8194.JPG",
         "caption": "Daisy Flower",
-        "scientific_name": "Daisy Flower",
+        "scientific_name": "Bellis perennis",
         "date": "22-08-2025"
     }, {
         "filename": "IMG_8204.JPG",
         "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8204.JPG",
         "caption": "Japanese Anemone",
-        "scientific_name": "Japanese Anemone",
+        "scientific_name": "Anemone hupehensis",
         "date": "22-08-2025"
     }, {
         "filename": "IMG_8197.JPG",
         "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8197.JPG",
-        "caption": "Yarrow (Achillea millefolium)",
-        "scientific_name": "Yarrow (Achillea millefolium)",
-        "date": "22-08-2025"
+        "caption": "Yarrow",
+        "scientific_name": "Achillea millefolium"
     }, {
         "filename": "IMG_8226.JPG",
         "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8226.JPG",
@@ -26,7 +25,7 @@
     }, {
         "filename": "IMG_8198.JPG",
         "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8198.JPG",
-        "caption": "Calendula officinalis",
+        "caption": "Scotch Marigold",
         "scientific_name": "Calendula officinalis",
         "date": "22-08-2025"
     }, {

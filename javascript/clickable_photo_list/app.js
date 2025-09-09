@@ -1,11 +1,11 @@
-console.log("app.js - connected - 02-09-2025 - 12:06");
+console.log("app.js - connected - 09-09-2025 - 15:51");
 
 // Photo switching functionality
 document.addEventListener('DOMContentLoaded', function() {
     
-    // Get references to the image element, caption element, and all photo links
+    // Get references to the image element, caption container, and all photo links
     const photoImage = document.querySelector('#photos img');
-    const photoCaption = document.querySelector('.photo---caption span');
+    const photoCaptionContainer = document.querySelector('.photo---caption');
     const photoLinks = document.querySelectorAll('#url---list a');
     
     // Function to update active link highlighting
@@ -40,15 +40,16 @@ document.addEventListener('DOMContentLoaded', function() {
             // Get the image data from the clicked link's data attributes
             const newImageSrc = this.getAttribute('data-image');
             const newImageCaption = this.getAttribute('data-caption');
+            const newImageScientific = this.getAttribute('data-scientific');
             
             // Update the displayed image and caption
-            if (photoImage && newImageSrc && newImageCaption) {
+            if (photoImage && newImageSrc && newImageCaption && newImageScientific) {
                 photoImage.src = newImageSrc;
                 photoImage.alt = newImageCaption;
                 
-                // Update the caption text
-                if (photoCaption) {
-                    photoCaption.textContent = newImageCaption;
+                // Update the caption with common name and scientific name in span
+                if (photoCaptionContainer) {
+                    photoCaptionContainer.innerHTML = newImageCaption + ' <span>(' + newImageScientific + ')</span>';
                 }
                 
                 // Optional: Add a subtle fade effect

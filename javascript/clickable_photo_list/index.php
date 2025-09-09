@@ -23,7 +23,7 @@
             </div>
 
             <div class="photo---caption">
-                <span><?php echo htmlspecialchars($default_photo['caption']); ?></span>
+                <span><?php echo htmlspecialchars($default_photo['caption'] . " (" . htmlspecialchars($default_photo['scientific_name']) . ")"); ?></span>
             </div>
 
         </section>

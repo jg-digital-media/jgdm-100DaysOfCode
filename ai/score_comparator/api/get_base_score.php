@@ -36,6 +36,8 @@ try {
         $dbPath = '../assets/data/seasons/season-18-19.db'; // 2018/19 season
     } elseif ($season === '2018') {
         $dbPath = '../assets/data/seasons/season-17-18.db'; // 2017/18 season
+    } elseif ($season === '2016') {
+        $dbPath = '../assets/data/seasons/season-15-16.db'; // 2015/16 season
     } else {
         
         // Future proofing for other seasons

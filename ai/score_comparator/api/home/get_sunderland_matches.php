@@ -8,7 +8,7 @@ try {
     // connect to database
     @include '../../assets/template-parts/try-data-connection.php';
     
-    $query = "SELECT * FROM sunderland_away_matches ORDER BY away_team";
+    $query = "SELECT * FROM sunderland_home_matches ORDER BY away_team";
     $results = $db->query($query);
     
     if (!$results) {

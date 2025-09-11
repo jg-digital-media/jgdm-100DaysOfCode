@@ -242,15 +242,15 @@
 
     }, {
 
-        "repo_name":"JGDM: WordPress Theme (2023)",
-        "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_wordpresstheme.png",
-        "repo_alt": "repo alt text 13",
-        "repo_description": "description 13",
-        "repo_url":"https://github.com/jg-digital-media/jgdm_wordpress_theme",
+        "repo_name":"Clickable Photo List",
+        "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_clickablephotolist.png",
+        "repo_alt": "repo alt text 24",
+        "repo_description": "description 24",
+        "repo_url":"https://github.com/jg-digital-media/clickable_photo_list",
         "repo_type": "website",
         "repo_status": "Incomplete",
-        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_wordpress_theme",
-        "repo_privacy": "public"        
+        "repo_clone": "git clone https://github.com/jg-digital-media/clickable_photo_list",
+        "repo_privacy": "public"      
 
     }
 

@@ -1,4 +1,4 @@
-console.log("app.js - connected - 09-09-2025 - 15:51");
+console.log("app.js - connected - 15-09-2025 - 13:26");
 
 // Photo switching functionality
 document.addEventListener('DOMContentLoaded', function() {
@@ -85,3 +85,54 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
 });
+
+/*
+Use flexbox for side by side layout.
+
+load photo title list from JSON 
+
+let's now highlight the correct url that is shown in the main image.   one thing that it took into account the scenario of infinite looping through the list
+
+Let's take the json file in the project root directory and use that to replace the list of links so that it appears as it does now.  We *do* want hyperlinks but we don't want them to link to anywhere yet.
+
+e.g.  instead of the hard coded link text we want to replace those with the text content of the "caption" key. 
+
+Loaded the JSON file using file_get_contents('photo_list.json')
+Parsed the JSON into a PHP array using json_decode($json_data, true)
+Set the first photo as the default displayed image
+
+Created placeholder links with href="#" so they don't navigate anywhere
+
+Used htmlspecialchars() to prevent XSS attacks by escaping HTML special characters
+Dynamic image source and alt text using JSON data for the default displayed image
+
+
+DOM Content Loaded - Ensures all elements are available before adding event listeners
+Event Prevention - preventDefault() stops the default link navigation
+Data Attribute Usage - Leverages the data-image and data-caption attributes from PHP
+Error Handling - Checks for element existence before manipulation
+Circular Navigation - Keyboard navigation loops through all photos
+
+
+let's now highlight the correct url that is shown in the main image.
+
+e.g  if Japanese Anomone link is clicked that link is appriately highligted with an alternative link colour and so on. 
+
+
+Uses a JavaScript function, setActiveLink(activeLink) to handle adding and removing the active class:
+
+
+an image caption at the bottom, that is centralised, along the bottom of the main photo.  It should be centralised but each caption only as wide as the text content.
+
+
+I understand! You want the caption to be positioned absolutely at the bottom of the image itself (like an overlay), and we need to fix the image sizing so it doesn't get cut off by the header and footer. Let me make these adjustments.
+
+[2 tools called]
+
+Now let me also adjust the main content container height to better account for header and footer space:
+
+[2 tools called]
+
+Perfect! I've made the necessary changes to fix both issues you mentioned:
+
+*/

@@ -112,6 +112,31 @@
         "caption": "Madonna Lily",
         "scientific_name": "lilium candidum",
         "date": "26-07-2025"
+    }, {
+        "filename": "IMG_8716.JPG",
+        "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8716.JPG",
+        "caption": "Cornflower",
+        "scientific_name": "Centaurea cyanus",
+        "date": "09-09-2025"
+    }, {
+        "filename": "IMG_8715.JPG",
+        "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8715.JPG",
+        "caption": "Black-eyed Susan",
+        "scientific_name": "Rudbeckia",
+        "date": "09-09-2025"
+    }, {
+        "filename": "IMG_8778.JPG",
+        "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8778.JPG",
+        "caption": "Butterfly Pea",
+        "scientific_name": "Clitoria ternatea",
+        "date": "13-09-2025"
+    }, {
+        "filename": "IMG_8779.JPG",
+        "filepath": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/clickable_photo_list/flowers/IMG_8779.JPG",
+        "caption": "Zonaal Geranium",
+        "scientific_name": "Pelargonium x hortorum",
+        "date": "13-09-2025"
     }
 ]
+
 

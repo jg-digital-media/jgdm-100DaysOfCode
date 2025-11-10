@@ -1438,18 +1438,33 @@
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"
-        }  , {
+        }, {
 
             "project_name": "Football Score Comparator",
             "project_url": "https://projects.jonniegrieve.co.uk/score_comparator",
             "portfolio_url": "No",
             "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/score_comparator.png",
-            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/build_my_cv.jpg",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/score_comparator.jpg",
             "project_alt": "Go To Football Score Comparator Page",
             "project_type": "app",
             "project_category": "app",
             "class": "all ",
-            "project_status": "under_review",
+            "project_status": "ongoing",
+            "status": true,
+            "img_type": "data-src",
+            "img_type_data": "data-src"
+        }, {
+
+            "project_name": "Jobs Pathway App",
+            "project_url": "https://projects.jonniegrieve.co.uk/jobs_pathway",
+            "portfolio_url": "No",
+            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/jobs_pathway.png",
+            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/jobs_pathway.jpg",
+            "project_alt": "Go To Jobs Pathway App",
+            "project_type": "app",
+            "project_category": "app",
+            "class": "all ",
+            "project_status": "complete",
             "status": true,
             "img_type": "data-src",
             "img_type_data": "data-src"

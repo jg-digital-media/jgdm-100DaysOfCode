@@ -106,7 +106,6 @@ body {
 
             div.bird---item {
 
-
                 .bird_name,
                 .bird_date {
 
@@ -115,9 +114,7 @@ body {
                     font-size: 11px;
                 }
 
-
             }
-
 
             div#no-results-message {
 
@@ -138,13 +135,13 @@ body {
             width: 50%;
             border: solid 1px yellow;
 
-            ul {
+            /* ul {
 
                 li {
 
                     
                 }
-            }
+            } */
 
         }
     
@@ -172,6 +169,12 @@ body {
                     border-radius: 6px;
                     
                     border: solid 1px #837d7d;
+
+                    &:focus,
+                    &:focus-visible {
+
+                        outline: none;
+                    }
                 }
             }
         }
@@ -197,7 +200,6 @@ body {
         }
 
         // index.php
-
         #featured---birds--btn {
 
             display: block;
@@ -223,7 +225,6 @@ body {
         }
 
         // carousel.php
-
         #back---home {
 
             display: block;
@@ -306,6 +307,7 @@ body {
         .featured---birds--list {
 
             .birds-list {
+
                 list-style: none;
                 padding: 0;
                 margin: 20px auto;
@@ -313,6 +315,7 @@ body {
             }
             
             .bird-item {
+
                 position: relative;
                 padding: 10px;
                 cursor: pointer;
@@ -328,7 +331,7 @@ body {
             
             .tooltip {
 
-                display: none; /* Hidden by default */
+                display: none; // Hidden by default
                 position: fixed;
                 margin: 0 auto;
                 /* left: 100%; */
@@ -348,6 +351,7 @@ body {
             }
             
             .tooltip.active {
+
                 display: block; /* Show when active */
             }
             
@@ -359,7 +363,6 @@ body {
                 @media (max-width: 968px) {
 
                     flex-direction: column;
-
                 }
                  
                 img {
@@ -391,8 +394,6 @@ body {
                     margin: 0 15px;
                     text-align: center;
                     width: 100%;
-
-
                 }
 
                 p.name {
@@ -415,35 +416,34 @@ body {
                     margin: 20px 20px;
                     text-align: center;
                     font-size: 12px;
-
                 }
 
             }
             
-                .close-tooltip {
-                    position: absolute;
-                    top: 5px;
-                    right: 5px;
-                    background: none;
-                    border: none;
-                    font-size: 20px;
-                    cursor: pointer;
-                    padding: 5px;
-                }
+            .close-tooltip {
+                position: absolute;
+                top: 5px;
+                right: 5px;
+                background: none;
+                border: none;
+                font-size: 20px;
+                cursor: pointer;
+                padding: 5px;
+            }
                 
-                /* Mobile styles */
-                @media (max-width: 768px) {
+            /* Mobile styles */
+            @media (max-width: 768px) {
 
-                    .tooltip {
-                        position: fixed;
-                        left: 50% !important;
-                        top: 50% !important;
-                        transform: translate(-50%, -50%);
-                        width: 90%;
-                        max-width: 300px;
-                        margin: 0;
-                    }
+                .tooltip {
+                    position: fixed;
+                    left: 50% !important;
+                    top: 50% !important;
+                    transform: translate(-50%, -50%);
+                    width: 90%;
+                    max-width: 300px;
+                    margin: 0;
                 }
+            }
         }
 
         .birds---carousel--container {
@@ -475,66 +475,65 @@ body {
 
         .slide {
 
-            position: relative;
-
-            // Remove any margins that might affect positioning
-            margin: 0;
+            position: relative;            
+            margin: 0; // Remove any margins that might affect positioning
             
             img {
 
                 width: 100%;
                 border: solid 2px black;
-                border-radius: 6px;
+                border-radius: 6px;                
                 
-                // Ensure the image stays within its container
-                box-sizing: border-box;
+                box-sizing: border-box; // Ensure the image stays within its container
                 /* display: block; */
             }
 
             
         
-        .slide-caption {
+            .slide-caption {
 
-            position: absolute;
-            bottom: 2px;
-            left: 2px;
-            right: 2px;
-            background: rgba(0, 0, 0, 0.4);
-            box-sizing: border-box;
-            color: white;
-            padding: 10px;
-            
-            // Ensure caption stays within border
-            border-bottom-left-radius: 3px;
-            border-bottom-right-radius: 3px;
-        }
-        
-        .slide-caption h3 {
-            margin: 0 0 5px 0;
-        }
-        
-        .slide-caption p {
-            margin: 0;
-            font-size: 0.9em;
-
-            &.filename {
-
-                font-size: 0.8em;
+                position: absolute;
+                bottom: 2px;
+                left: 2px;
+                right: 2px;
+                background: rgba(0, 0, 0, 0.4);
+                box-sizing: border-box;
                 color: white;
-                text-align: right;
-            }
+                padding: 10px;
+                
+                // Ensure caption stays within border
+                border-bottom-left-radius: 3px;
+                border-bottom-right-radius: 3px;
+
+                h3 {
+
+                        margin: 0 0 5px 0;
+                    }
             
-            &.bird---name {
+                p {
 
-                text-align: left;
+                    margin: 0;
+                    font-size: 0.9em;
+
+                    &.filename {
+
+                        font-size: 0.8em;
+                        color: white;
+                        text-align: right;
+                    }
+                
+                    &.bird---name {
+
+                        text-align: left;
+                    }
+
+                    &.date {
+
+                        text-align: left;
+                    }
+                }
+
             }
-
-            &.date{
-
-                text-align: left;
-            }
-        }
-
         }
 
     }

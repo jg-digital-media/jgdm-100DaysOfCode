@@ -1,4 +1,4 @@
-/* Last Updated: 08/04/2025 - 17:05 */
+/* Last Updated: 11/11/2025 - 10:06 */
 .toggle-filters-btn {
   display: block;
   padding: 10px 0px;
@@ -179,6 +179,13 @@ body main#container .featured---birds--list {
   margin: 0 auto;
   width: 50%;
   border: solid 1px yellow;
+  /* ul {
+
+      li {
+
+
+      }
+  } */
 }
 body main#container .introductory-images {
   display: block;
@@ -199,6 +206,9 @@ body main#container .introductory-images div img {
   height: 100%;
   border-radius: 6px;
   border: solid 1px #837d7d;
+}
+body main#container .introductory-images div img:focus, body main#container .introductory-images div img:focus-visible {
+  outline: none;
 }
 body main#container ul li a {
   color: #007bff;
@@ -302,7 +312,7 @@ body main#container .featured---birds--list .bird-item:hover {
   background-color: #f5f5f5;
 }
 body main#container .featured---birds--list .tooltip {
-  display: none; /* Hidden by default */
+  display: none;
   position: fixed;
   margin: 0 auto;
   /* left: 100%; */

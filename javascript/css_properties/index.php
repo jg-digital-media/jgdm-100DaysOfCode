@@ -5,24 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     
     <!-- Meta Tags -->
-    <meta name="description" content="">
+    <meta name="description" content="Interact by editing property settings and see the results in real time">
     <meta name="keywords" content=""> 
-    <meta name="image" content="">
+    <meta name="image" content="https://projects.jonniegrieve.co.uk/css_properties/image.png">
 
     <!-- FACEBOOK: Open Graph -->
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="">
+    <meta property="og:title" content="CSS Property Manipulator Project (2025)">
+    <meta property="og:description" content="Interact by editing property settings and see the results in real time">
+    <meta property="og:image" content="https://projects.jonniegrieve.co.uk/css_properties/image.png">
+    <meta property="og:url" content="https://projects.jonniegrieve.co.uk/css_properties">
+
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Interact by editing property settings and see the results in real time">
+    <!-- <meta name="keywords" content="">  -->
+    <meta name="image" content="https://projects.jonniegrieve.co.uk/css_properties/image.png">
+
+    <!-- Open Graph: Facebook / Threads / Instagram -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="CSS Properties (2025)">
+    <meta property="og:title" content="CSS Property Manipulator Project (2025)">
+    <meta property="og:description" content="Interact by editing property settings and see the results in real time">
+    <meta property="og:image" content="https://projects.jonniegrieve.co.uk/css_properties/image.png">
+    <meta property="og:url" content="https://projects.jonniegrieve.co.uk/css_properties">
+    <meta property="og:locale" content="en_GB">
 
     <!-- TWITTER: Open Graph -->
-    <!-- <meta name="twitter:title" content="">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:image" content="">
-    <meta name="twitter:card" content=""> -->
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="Interact by editing property settings and see the results in real time">
+    <meta name="twitter:image" content="https://projects.jonniegrieve.co.uk/css_properties/image.png">
+    <meta name="twitter:url" content="http://www.twitter.com/jg_digitalMedia">
+    <meta name="twitter:creator" content="@jg_digitalMedia">
+    <meta name="twitter:card" content="summary">
+
+     <!-- Fallback / General -->
+    <meta name="author" content="Jonnie Grieve at @jg_digitalMedia">
+    <meta name="image" content="https://projects.jonniegrieve.co.uk/css_properties">
 
     <!-- Canonical link -->
-    <link rel="canonical" href="">
+    <link rel="canonical" href="https://projects.jonniegrieve.co.uk/css_properties">
+
 
     <!-- Favicon -->
     <link rel="icon" href="favicon.png" type="image/png">
@@ -36,7 +58,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
      <!-- Page Title-->
-    <title>CSS Project (2025)</title>
+    <title>CSS Property Manipulator Project (2025)</title>
 </head>
 <body id="backtotop">
 

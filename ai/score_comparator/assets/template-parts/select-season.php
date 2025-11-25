@@ -13,5 +13,6 @@
     <option class="select---season--option" id="season---2019" value="2019">2018/2019</option> 
     <option class="select---season--option" id="season---2018" value="2018">2017/2018</option> 
     <option class="select---season--option" id="season---2016" value="2016">2015/2016</option>
+    <option class="select---season--option" id="season---2015" value="2015">2014/2015</option>
 
 </select>

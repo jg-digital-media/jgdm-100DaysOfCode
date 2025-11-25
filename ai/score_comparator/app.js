@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 11/09/2025 - 11:37");
+    console.log("app.js connected - 25/11/2025 - 15:50");
 
     const teamSelect = document.getElementById('select---home--team');
     const seasonSelect = document.getElementById('form---select--season');
@@ -23,6 +23,30 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Define team lists for each season
     const teamLists = {
+
+        // 2014/15 Season Teams 
+        '2014': `        
+            <option id="select---home--placeholder" value="Select Team">Select Team...</option>
+            <option id="select---home--arsenal" value="Arsenal">Arsenal</option>
+            <option id="select---home--astonvilla" value="Aston Villa">Aston Villa</option>
+            <option id="select---home--chelsea" value="Chelsea">Chelsea</option>
+            <option id="select---home--burnley" value="Chelsea">Burnley</option>
+            <option id="select---home--crystalpalace" value="Crystal Palace">Crystal Palace</option>
+            <option id="select---home--everton" value="Everton">Everton</option>
+            <option id="select---home--hullcity" value="Hull City">Hull City</option>
+            <option id="select---home--leicester" value="Leicester City">Leicester City</option>
+            <option id="select---home--liverpool" value="Liverpool">Liverpool</option>
+            <option id="select---home--manchestercity" value="Manchester City">Manchester City</option>
+            <option id="select---home--manchesterunited" value="Manchester United">Manchester United</option>
+            <option id="select---home--queensparkrangers" value="Queens Park Rangers">Queens Park Rangers</option>            
+            <option id="select---home--southampton" value="Southampton">Southampton FC</option>
+            <option id="select---home--stokecity" value="Stoke City">Stoke City</option>
+            <option id="select---home--sunderland" value="Sunderland">Sunderland</option>
+            <option id="select---home--swansea" value="Swansea City">Swansea City</option>
+            <option id="select---home--tottenhamhotspur" value="Tottenham Hotspur">Tottenham Hotspur</option>
+            <option id="select---home--westbrom" value="West Bromwich Albion">West Bromwich Albion</option>
+            <option id="select---home--westham" value="West Ham United">West Ham United</option>
+        `,
 
         // 2015/16 Season Teams 
         '2016': `        
@@ -339,6 +363,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
             displayText = '2015/2016';
 
+        } else if (season === '2015') {
+
+            displayText = '2014/2015';
+
         } else  {
 
             // Handle any future seasons
@@ -377,7 +405,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
             }
             
-            return Promise.all(responses.map(r => r.json()));
         })
         .then(([baseScore, matches]) => {
 

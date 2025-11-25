@@ -179,10 +179,11 @@
 
         <ul class="development---history"> 
 
-            <li>Expanded the app for readiness to add match data for season <code><strong>2015/2017</strong></code>
+            <li>Expanded the app for readiness to add match data for season <code><strong>2015/2016</strong></code>
+            <li>Concurrently, I'm adding the scores incrementally for the <code><strong>2025/2026</strong></code> season which began during this phase. (15/08/2025)</li>
+            <li>Complete seasons include: <code><strong>2024/2025</strong></code>, <code><strong>2023/2024</strong></code>, <code><strong>2022/2023</strong></code>, <code><strong>2021/2022</strong></code> <code><strong>2020/2021</strong></code> <code><strong>2019/2020</strong></code>, <code><strong>2018/2019</strong> </code>, <strong>2017/2018 and <code><strong>2015/2016</strong></code>
             <!-- <li><code><strong>Phase ends (10/09/2025)</strong></code></li> -->
-
-
+            <li><code><strong>Phase ends (25/11/2025)</strong></code></li>
         </ul>    
 
         <h2>Points to take.</h2>

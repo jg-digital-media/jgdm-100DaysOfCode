@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 25/11/2025 - 15:50");
+    console.log("app.js connected - 25/11/2025 - 16:49");
 
     const teamSelect = document.getElementById('select---home--team');
     const seasonSelect = document.getElementById('form---select--season');
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const teamLists = {
 
         // 2014/15 Season Teams 
-        '2014': `        
+        '2015': `        
             <option id="select---home--placeholder" value="Select Team">Select Team...</option>
             <option id="select---home--arsenal" value="Arsenal">Arsenal</option>
             <option id="select---home--astonvilla" value="Aston Villa">Aston Villa</option>
@@ -405,6 +405,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 });
             }
             
+            // Return the parsed JSON responses as a Promise
+            return Promise.all(responses.map(r => r.json()));
         })
         .then(([baseScore, matches]) => {
 

@@ -73,30 +73,30 @@
 
     <section class="section---selected--season">    
 
-        <div class="selected---season">2024/2025</div>
+        <div class="selected---season">2026/2026</div>
 
     </section>
 
     <section class="section---select--score">
     
         <select id="select---home--team">
-            <option id="select---home--placeholder" value="Select Team">Select Team...</option>
+            <option id="select---home--placeholder" value="Select Team">Select Team...</option>           
             <option id="select---home--bournemouth" value="AFC Bournemouth">AFC Bournemouth</option>
             <option id="select---home--arsenal" value="Arsenal">Arsenal</option>
             <option id="select---home--astonvilla" value="Aston Villa">Aston Villa</option>
             <option id="select---home--brentford" value="Brentford">Brentford</option>
-            <option id="select---home--brighton" value="Brighton and Hove Albion">Brighton &amp; Hove Albion</option>
-            <option id="select---home--crystalpalace" value="Crystal Palace">Crystal Palace</option>
+            <option id="select---home--brighton" value="Brighton & Hove Albion">Brighton &amp; Hove Albion</option>
+            <option id="select---home--burnley" value="Burnley">Burnley</option>
             <option id="select---home--chelsea" value="Chelsea">Chelsea</option>
+            <option id="select---home--crystalpalace" value="Crystal Palace">Crystal Palace</option>
             <option id="select---home--everton" value="Everton">Everton</option>
             <option id="select---home--fulham" value="Fulham">Fulham</option>
-            <option id="select---home--ipswich" value="Ipswich Town">Ipswich Town</option>
+            <option id="select---home--leeds" value="Leeds United">Leeds United</option>
             <option id="select---home--liverpool" value="Liverpool">Liverpool</option>
-            <option id="select---home--leicester" value="Leicester City">Leicester City</option>
             <option id="select---home--manchestercity" value="Manchester City">Manchester City</option>
             <option id="select---home--manchesterunited" value="Manchester United">Manchester United</option>
             <option id="select---home--nottinghamforest" value="Nottingham Forest">Nottingham Forest</option>
-            <option id="select---home--southampton" value="Southampton">Southampton</option>
+            <option id="select---home--sunderland" value="Sunderland">Sunderland</option>
             <option id="select---home--spurs" value="Tottenham Hotspur">Tottenham Hotspur</option>
             <option id="select---home--westham" value="West Ham United">West Ham United</option>
             <option id="select---home--wolves" value="Wolverhampton Wanderers">Wolverhampton Wanderers</option>

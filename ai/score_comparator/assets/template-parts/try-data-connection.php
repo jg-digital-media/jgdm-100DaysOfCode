@@ -1,7 +1,7 @@
 <?php
 
-    // Get season parameter, default to 2024/2025
-    $season = isset($_GET['season']) ? trim($_GET['season'], ' "\'') : '2025';
+    // Get season parameter, default to 2025/2026
+    $season = isset($_GET['season']) ? trim($_GET['season'], ' "\'') : '2026';
     
     // Determine which database to use based on the season selected
     $dbPath = '';

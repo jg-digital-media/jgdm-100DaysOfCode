@@ -59,6 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Get all bird items
     const birdItems = document.querySelectorAll('.bird-item');
     console.log('Found bird items:', birdItems.length);
+    
 
     // Add click handlers to each bird item
     birdItems.forEach(item => {
@@ -120,6 +121,9 @@ document.addEventListener('DOMContentLoaded', function() {
         if (filterCountElement) {
             filterCountElement.textContent = visibleBirds;
         }
+        
+        //console.log( "Count: " + visibleBirds );
+        console.log( "Count: " + filterCountElement.textContent );
     }
 
     // ============ UPDATE FILTERED CLASS ON LABELS ============

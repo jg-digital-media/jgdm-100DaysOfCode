@@ -1,4 +1,4 @@
-console.log("app.js connected! - 14-07-2025 - 13:35");
+console.log("app.js connected! - 18-11-2025 - 11:25");
 
 // Slick Carousels - with jQuery
 $(document).ready(function() {
@@ -39,8 +39,6 @@ $(document).ready(function() {
         //useTransform: true
     });
 });
-
-
 
 document.addEventListener('DOMContentLoaded', function() {
 
@@ -124,8 +122,35 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    // ============ UPDATE FILTERED CLASS ON LABELS ============
+    // Function to update the "filtered" class on labels based on checkbox state
+    function updateFilteredLabels() {
+        
+        // Get all filter checkboxes
+        const checkboxes = document.querySelectorAll('input[type="checkbox"][name="habitat"], input[type="checkbox"][name="size"], input[type="checkbox"][name="color"]');
+        
+        checkboxes.forEach(checkbox => {
+            const label = checkbox.closest('label');
+            if (label) {
+                if (checkbox.checked) {
+                    label.classList.add('filtered');
+                } else {
+                    label.classList.remove('filtered');
+                }
+            }
+        });
+    }
+
     // Set initial count on page load
     updateFilterCount();
+
+    // Set initial filtered class state on labels
+    updateFilteredLabels();
+
+    // Add event listeners to all checkboxes to update filtered class
+    document.querySelectorAll('input[type="checkbox"][name="habitat"], input[type="checkbox"][name="size"], input[type="checkbox"][name="color"]').forEach(checkbox => {
+        checkbox.addEventListener('change', updateFilteredLabels);
+    });
 
     // Element Selections for Toggle Filters Button
     const toggleBtn = document.getElementById('toggle-filters');
@@ -247,6 +272,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Update the filter count display
         updateFilterCount();
+
+        // Update filtered class on labels on filter reset
+        updateFilteredLabels();
 
         // Remove the no results message if it exists
         const noResultsMsg = document.getElementById('no-results-message');

@@ -57,8 +57,18 @@ body {
 
                     label {
 
-                        margin: 8px 2px;
                         display: inline-block;
+                        margin: 8px 2px;
+                        padding: 4px;
+
+                        transition: background .2s, color .2s;
+
+                        &.filtered {
+
+                            background: #007bff;
+                            border-radius: 5px;
+                            color: #dbe4ff;
+                        }
                     }
                 }
             }

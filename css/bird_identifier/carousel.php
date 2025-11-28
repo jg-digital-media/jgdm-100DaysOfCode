@@ -91,6 +91,13 @@
 
         </div>
 
+        <div class="caption---hide--container">        
+        
+            <label for="caption_toggle" id="js---caption_toggle" class="caption-toggle-label">Hide Caption: </label>
+            <input type="checkbox" id="caption_toggle" class="caption-toggle">
+        
+        </div>
+
     </main>
 
     <footer>
@@ -105,6 +112,6 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
 
     <script type="text/javascript" src="assets/scripts/app.js"></script>
-    
+
 </body>
 </html

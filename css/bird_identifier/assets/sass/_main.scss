@@ -527,6 +527,34 @@ body {
 
         }
 
+        .caption---hide--container {
+
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+                text-align: center;
+
+            .caption-toggle-label {
+
+                display: inline-block;
+                margin: 6px auto;
+                font-size: 14px;
+                padding: 6px;
+                border-radius: 4px;
+
+                cursor: pointer;
+            }
+
+            #caption-toggle {
+
+                vertical-align: middle;
+                height: 17px;
+                width: 17px;
+                margin: 0 10px;
+            }
+
+        }
+
         // slick carousel styles carousel.php
 
         .slide {

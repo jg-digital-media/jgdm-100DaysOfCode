@@ -1,4 +1,4 @@
-console.log("app.js connected! - 18-11-2025 - 11:25");
+console.log("app.js connected! - 28-11-2025 - 13:46");
 
 // Slick Carousels - with jQuery
 $(document).ready(function() {
@@ -37,6 +37,23 @@ $(document).ready(function() {
         // Prevent content jumping
         //useCSS: true,
         //useTransform: true
+    });
+
+    // ============ CAPTION TOGGLE FUNCTIONALITY (carousel.php) ============
+    // Set up caption toggle after Slick initializes
+    $('#caption_toggle').on('change', function() {
+        const isChecked = $(this).is(':checked');
+        console.log('Caption toggle changed, checked:', isChecked);
+        
+        // Target captions within the carousel container
+        const captions = $('.birds---carousel--container .slide-caption');
+        console.log('Found captions:', captions.length);
+        
+        if (isChecked) {
+            captions.hide();
+        } else {
+            captions.show();
+        }
     });
 });
 
@@ -298,6 +315,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const lightboxClose = document.getElementById('lightbox-close');
     const lightboxTitle = document.getElementById('lightbox-title');
     const lightboxDate = document.getElementById('lightbox-date');
+    
+    // Only proceed with lightbox setup if elements exist
+    if (lightbox && lightboxImg && lightboxClose && lightboxTitle && lightboxDate) {
 
     // Function to get currently visible images
     function getVisibleImages() {
@@ -379,6 +399,7 @@ document.addEventListener('DOMContentLoaded', function() {
             lightbox.classList.remove('active');
         }
     });
+    } // End of lightbox if block
 
     document.addEventListener('DOMContentLoaded', function() {
 

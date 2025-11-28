@@ -10,7 +10,7 @@
             "description": "A small, friendly songbird with a bright red breast, often seen in gardens.",
             "lightbox": "Filterable Birds",
             "photo_date": "19/02/2025",
-            "filter_classes": "bird---class--red-orange bird---class--garden bird---class--urban bird---class--countryside bird---class--coastal"
+            "filter_classes": "bird---class--red-orange bird---class--garden bird---class--small bird---class--urban bird---class--countryside bird---class--coastal"
         }, {
 
             "name": "Cormorant",     
@@ -30,7 +30,7 @@
             "description": "A small, brown-and-grey bird commonly found in towns and gardens, often chirping in groups.",
             "lightbox": "Filterable Birds",
             "photo_date": "15/02/2025",
-            "filter_classes": "bird---class--small bird---class--garden bird---class--urban"
+            "filter_classes": "bird---class--mixed-brown bird---class--small bird---class--garden bird---class--urban"
         }, {
 
             "name": "House Sparrows",     
@@ -50,7 +50,7 @@
             "description": "A stocky finch with a black cap and, in males, a bright pinkish-red chest.",
             "lightbox": "Filterable Birds",
             "photo_date": "25/01/2025",
-            "filter_classes": "bird---class--garden bird---class--countryside bird---class--small"
+            "filter_classes": "bird---class--small bird---class--garden bird---class--countryside"
         }, {
 
             "name": "Grey Heron",     
@@ -60,7 +60,7 @@
             "description": "A tall wading bird with a long neck and legs, often seen standing still in water hunting fish",
             "lightbox": "Filterable Birds",
             "photo_date": "10/05/2025",
-            "filter_classes": "bird---class--white-light bird---class--countryside bird---class--large"
+            "filter_classes": "bird---class--white-light bird---class--countryside bird---class--water bird---class--large"
         }, {
 
             "name": "European Jackdaw",     
@@ -80,7 +80,7 @@
             "description": "A large white waterbird with an orange beak, often seen on farms or by lakes.",
             "lightbox": "Filterable Birds",
             "photo_date": "18/01/2025",
-            "filter_classes": "bird---class--water bird---class--white-light bird---class--large"
+            "filter_classes": "bird---class--water bird---class--white-light bird---class--countryside bird---class--large"
         }, {
 
             "name": "Duck",     
@@ -90,7 +90,7 @@
             "description": "A common waterbird with a broad bill and webbed feet, often seen paddling in ponds.",
             "lightbox": "Filterable Birds",
             "photo_date": "17/01/2025",
-            "filter_classes": "bird---class--water bird---class--small"
+            "filter_classes": "bird---class-green bird---class--black bird---class--water bird---class--small"
         }, {
 
             "name": "Yellow Hammer",     
@@ -109,7 +109,7 @@
             "description": "A familiar coastal bird with a loud cry, often scavenging near beaches and towns.",
             "lightbox": "Filterable Birds",
             "photo_date": "04/01/2025",
-            "filter_classes": "bird---class--water bird---class--coastal bird---class--urban bird---class--water"
+            "filter_classes": "bird---class--medium bird---class--coastal bird---class--urban bird---class--water"
         }, {
 
             "name": "Egret",     
@@ -129,7 +129,7 @@
             "description": "A glossy black songbird with a bright yellow beak and a rich, fluting song.",
             "lightbox": "Filterable Birds",
             "photo_date": "03/03/2025",
-            "filter_classes": "bird---class--medium bird---class--black"
+            "filter_classes": "bird---class--medium bird---class--black bird---class--countryside bird---class--urban"
         }, {
 
             "name": "Commmon Blackbird (Female)",     
@@ -139,7 +139,7 @@
             "description": "Unlike the male, the female is brown with a speckled breast but has the same lovely song.",
             "lightbox": "Filterable Birds",
             "photo_date": "04/05/2025",
-            "filter_classes": "bird---class--medium bird---class--mixed-brown"
+            "filter_classes": "bird---class--medium bird---class--mixed-brown bird---class--countryside bird---class--urban"
         }, {
 
             "name": "Magpie",     
@@ -149,7 +149,7 @@
             "description": "A black-and-white bird with iridescent blue-green feathers, known for its chattering call and love of shiny things.",
             "lightbox": "Filterable Birds",
             "photo_date": "11/05/2025",
-            "filter_classes": "bird---class--black bird---class--white-light bird---class--medium bird---class--countryside bird---class--garden bird---class--countryside bird---class--urban"
+            "filter_classes": "bird---class--black bird---class--white-light bird---class--medium bird---class--countryside bird---class--garden bird---class--urban"
         }, {  
             "name": "Swan",     
             "scientific_name": "Cygnus columbianus",
@@ -158,7 +158,7 @@
             "description": "A large, elegant white bird with a curved neck, often seen gliding gracefully on lakes.",
             "lightbox": "Filterable Birds",
             "photo_date": "24/04/2025",
-            "filter_classes": "bird---class--large bird---class--water bird---class--large bird---class--white"
+            "filter_classes": "bird---class--large bird---class--water bird---class--countryside bird---class--water bird---class--white"
         }, {
 
             "name": "Common Merganser",     
@@ -168,7 +168,7 @@
             "description": "A striking diving duck with a long, narrow bill used for catching fish.",
             "lightbox": "Filterable Birds",
             "photo_date": "01/03/2025",
-            "filter_classes": "bird---class--water bird---class--countryside bird---class--water bird---class--medium bird---class--black"
+            "filter_classes": "bird---class--white bird---class--countryside bird---class--water bird---class--medium bird---class--black"
         }, {
 
             "name": "Common Moorhen",     
@@ -188,7 +188,7 @@
             "description": "A plump grey bird with a white neck patch, known for its cooing and strong flight.",
             "lightbox": "Filterable Birds",
             "photo_date": "03/03/2025",
-            "filter_classes": "bird---class--water bird---class--medium bird---class--blue bird---class--water bird---class--urban"
+            "filter_classes": "bird---class--water bird---class--medium bird---class--blue bird---class--countryside bird---class--urban"
         }, {
 
             "name": "White-throated Dipper",     
@@ -208,7 +208,7 @@
             "description": "A medium-sized gull with a chocolate-brown head in summer and a sharp, laughing call.",
             "lightbox": "Filterable Birds",
             "photo_date": "08/03/2025",
-            "filter_classes": "bird---class--water  bird---class--medium bird---class--white bird---class--urban bird---class--coastal bird---class--water"
+            "filter_classes": "bird---class--white bird---class--medium bird---class--urban bird---class--coastal bird---class--water"
         }, {
 
             "name": "Little Grebe",     
@@ -268,7 +268,7 @@
             "description": "A tiny, fluffy bird with a long tail and pinkish flanks, often seen in noisy family flocks in trees and bushes.",
             "lightbox": "Filterable Birds",
             "photo_date": "04/04/2025",
-            "filter_classes": "bird---class--white-light bird---class--medium bird---class--garden bird---class--countryside"           
+            "filter_classes": "bird---class--white-light bird---class--small bird---class--garden bird---class--countryside"           
         }, {
 
             "name": "Dunnock",
@@ -288,7 +288,7 @@
             "description": "A shy, brown and grey bird that looks a bit like a sparrow but sings a sweet, gentle song from hedgerows.",
             "lightbox": "Filterable Birds",
             "photo_date": "05/04/2025",
-            "filter_classes": "bird---class--mixed-brown bird---class--medium bird---class--medium bird---class--urban bird---class--garden bird---class--countryside"           
+            "filter_classes": "bird---class--mixed-brown bird---class--medium bird---class--small bird---class--urban bird---class--garden bird---class--countryside"           
         }, {
 
             "name": "Bonelli's Eagle",
@@ -308,7 +308,7 @@
             "description": "A bay-winged hawk or dusky bird of Brey usually found in the southwestern United States and South American Continent.",
             "lightbox": "Filterable Birds",
             "photo_date": "05/10/2024",
-            "filter_classes": "bird---class--large bird---class--countryside bird---class--grey-black"           
+            "filter_classes": "bird---class--large bird---class--countryside bird---class--grey-black bird---class--birdprey"           
         }, {
 
             "name": "Lapwing",
@@ -338,7 +338,7 @@
             "description": "is a large black and white wader in the avocet and stilt family, Recurvirostridae. Found in eastern and central Europe.",
             "lightbox": "Filterable Birds",
             "photo_date": "23/04/2025",
-            "filter_classes": "bird---class--black bird---class--white-light bird---class--medium bird---class--medium bird---class--coastal bird---class--countryside"           
+            "filter_classes": "bird---class--black bird---class--white-light bird---class--medium bird---class--coastal bird---class--water bird---class--countryside"           
         }, {
 
             "name": "Eurasian Oystercatcher",
@@ -358,7 +358,7 @@
             "description": "a waterfowl species of the shelduck genus, Tadorna. It is widespread and common in the Euro-Siberian region of the Palearctic.",
             "lightbox": "Filterable Birds",
             "photo_date": "23/04/2025",
-            "filter_classes": "bird---class--black bird---class--white-light bird---class--medium bird---class--medium bird---class--coastal bird---class--countryside"           
+            "filter_classes": "bird---class--black bird---class--white-light bird---class--medium bird---class--coastal bird---class--countryside"           
         }, {
 
             "name": "Common Swift",
@@ -388,7 +388,7 @@
             "description": "A species of Dove native to Europe.",
             "lightbox": "Filterable Birds",
             "photo_date": "14/05/2025",
-            "filter_classes": "bird---class--grey bird---class--small bird---class--countryside"           
+            "filter_classes": "bird---class--grey bird---class--medium bird---class--countryside"           
         }, {
 
             "name": "Lesser Moorhen",
@@ -428,7 +428,17 @@
             "description": "A shy, brown and grey bird that looks a bit like a sparrow but sings a sweet, gentle song from hedgerows.",
             "lightbox": "Filterable Birds",
             "photo_date": "03/06/2025",
-            "filter_classes": "bird---class--black bird---class--medium bird---class--countryside bird---class--water"           
+            "filter_classes": "bird---class--black bird---class--small bird---class--countryside"           
+        }, {
+
+            "name": "Pekin Duck",
+            "scientific_name": "Anas platyrhynchos domesticus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0443.JPG",
+            "filename": "IMG_0443.JPG",            
+            "description": "The Pekin or White Pekin is an American breed of domestic duck.",
+            "lightbox": "Filterable Birds",
+            "photo_date": "08/11/2025",
+            "filter_classes": "bird---class--white bird---class--large bird---class--water"           
         }  
         
     ]

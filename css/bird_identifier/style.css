@@ -1,7 +1,7 @@
-/* Last Updated: 11/11/2025 - 10:06 */
-.toggle-filters-btn {
+/* Last Updated: 28/11/2025 - 11:11 */
+body main#container .filter-section .toggle-filters-btn {
   display: block;
-  padding: 10px 0px;
+  padding: 7px;
   margin: 10px auto;
   background: #333;
   color: white;
@@ -11,7 +11,7 @@
   text-decoration: none;
   cursor: pointer;
 }
-.toggle-filters-btn:hover {
+body main#container .filter-section .toggle-filters-btn:hover {
   background: #444;
 }
 
@@ -116,6 +116,24 @@ body main#container {
   width: 95%;
   padding: 10px 0;
 }
+body main#container .filter-section {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+body main#container .filter-section .filter-group .checkbox-group label {
+  margin: 8px 2px;
+  display: inline-block;
+}
+body main#container .filter-section #toggle-filters {
+  width: 105px;
+  margin: 11px 4px;
+}
+body main#container .filter-section .toggle-filters-btn {
+  display: inline-block;
+  /* width: 115px; */
+  margin: 11px 4px;
+}
 body main#container section.introductory---text {
   display: block;
   margin: 10px auto;
@@ -178,7 +196,6 @@ body main#container .featured---birds--list {
   display: block;
   margin: 0 auto;
   width: 50%;
-  border: solid 1px yellow;
   /* ul {
 
       li {
@@ -254,17 +271,17 @@ body main#container #back---home:hover {
 }
 body main#container h2 {
   text-align: center;
-  margin: 20px auto;
+  margin: 14px 0 0 0;
 }
 body main#container h2 #filter---count {
   display: inline;
-  border: #007bff solid 1px;
+  /* border: #007bff solid 1px; */
   vertical-align: middle;
-  font-size: 19px;
+  font-size: 18px;
   color: #007bff;
-  margin: 0 8px;
-  border-bottom: solid 2px #007bff;
-  border-top: solid 2px #007bff;
+  margin: 0 1px;
+  /* border-bottom: solid 2px #007bff; */
+  /* border-top: solid 2px #007bff; */
 }
 body main#container .nav---container {
   /* width: 100%; */
@@ -274,7 +291,7 @@ body main#container .nav---container {
   border-radius: 7px;
   background: #b5eeff;
   background: #f5f5f5;
-  margin: 0px auto;
+  margin: 8px auto;
 }
 body main#container .nav---container li {
   display: inline-block;
@@ -306,10 +323,17 @@ body main#container .featured---birds--list .bird-item {
   padding: 10px;
   cursor: pointer;
   border-bottom: 1px solid #eee;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, border-bottom 0.3s;
 }
 body main#container .featured---birds--list .bird-item:hover {
   background-color: #f5f5f5;
+  border-bottom: solid 1px #777171;
+}
+body main#container .featured---birds--list .bird-item:first-child {
+  border-top: solid 2px #777171;
+}
+body main#container .featured---birds--list .bird-item:last-child {
+  border-bottom: solid 2px #777171;
 }
 body main#container .featured---birds--list .tooltip {
   display: none;
@@ -478,7 +502,7 @@ body footer p a:hover {
   transition: max-height 0.3s ease-in-out;
   overflow: hidden;
   max-height: 1000px; /* Adjust this value based on your content */
-  margin: 30px auto;
+  margin: 3px auto;
 }
 
 .filters-container.closed {
@@ -486,14 +510,8 @@ body footer p a:hover {
   margin: 0;
 }
 
-#toggle-filters {
-  width: 115px;
-  display: block;
-  margin: 20px auto;
-}
-
 .filter-section {
-  padding: 20px;
+  padding: 0px;
   font-size: 12px;
   /* margin: 10px auto; */
   margin: 0;

@@ -1,4 +1,4 @@
-console.log("app.js connected! - 28-11-2025 - 13:46");
+console.log("app.js connected! - 28-11-2025 - 14:03");
 
 // Slick Carousels - with jQuery
 $(document).ready(function() {
@@ -178,7 +178,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const filtersContainer = document.getElementById('filters-container');
     
     // Toggle Filters Button event listener
-    toggleBtn.addEventListener('click', function() {
+    toggleBtn.addEventListener('click', function(e) {
+        e.preventDefault(); // Prevent default anchor behavior and scroll
 
         filtersContainer.classList.toggle('closed');
         toggleBtn.textContent = filtersContainer.classList.contains('closed') ? 'Show Filters' : 'Hide Filters';
@@ -189,7 +190,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const resetFiltersBtn = document.getElementById('reset-filters');
     
     // Apply Filters Button event listener
-    applyFiltersBtn.addEventListener('click', function() {
+    applyFiltersBtn.addEventListener('click', function(e) {
+        e.preventDefault(); // Prevent default anchor behavior and scroll
         
         // track number of visible birds in filter
         let visibleBirds = 0;
@@ -280,7 +282,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Reset filters button
-    resetFiltersBtn.addEventListener('click', function() {
+    resetFiltersBtn.addEventListener('click', function(e) {
+        e.preventDefault(); // Prevent default anchor behavior and scroll
 
         // Uncheck all checkboxes
         document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);

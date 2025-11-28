@@ -59,9 +59,9 @@
 
         <div class="filter-section">
 
-            <a id="toggle-filters" class="toggle-filters-btn">Show Filters</a>        
-            <a href="#" class="toggle-filters-btn" id="apply-filters">Apply Filters</a>
-            <a href="#" class="toggle-filters-btn" id="reset-filters">Reset Filters</a>
+            <a href="" class="toggle-filters-btn" id="toggle-filters">Show Filters</a>        
+            <a href="" class="toggle-filters-btn" id="apply-filters">Apply Filters</a>
+            <a href="" class="toggle-filters-btn" id="reset-filters">Reset Filters</a>
 
         </div>
        

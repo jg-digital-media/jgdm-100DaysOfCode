@@ -1,4 +1,4 @@
-/* Last Updated: 28/11/2025 - 11:11 */
+/* Last Updated: 28/11/2025 - 11:36 */
 body main#container .filter-section .toggle-filters-btn {
   display: block;
   padding: 7px;
@@ -77,13 +77,14 @@ body main#container .filter-section .toggle-filters-btn:hover {
   display: flex;
   margin: 0 auto;
   justify-content: space-evenly;
-  color: white;
-  text-align: center;
   padding: 10px;
+  font-family: Tahoma;
+  color: #efff9e;
+  text-align: center;
 }
 .lightbox-caption h3, .lightbox-caption p {
   margin-top: 0;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 /* Make gallery images clickable */
@@ -122,8 +123,15 @@ body main#container .filter-section {
   width: 100%;
 }
 body main#container .filter-section .filter-group .checkbox-group label {
-  margin: 8px 2px;
   display: inline-block;
+  margin: 8px 2px;
+  padding: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+body main#container .filter-section .filter-group .checkbox-group label.filtered {
+  background: #007bff;
+  border-radius: 5px;
+  color: #dbe4ff;
 }
 body main#container .filter-section #toggle-filters {
   width: 105px;
@@ -433,6 +441,11 @@ body main#container .birds---carousel--container {
   width: 35%;
   padding: 0 2px;
 }
+@media (max-width: 768px) {
+  body main#container .birds---carousel--container {
+    width: 62%;
+  }
+}
 body main#container .birds---carousel--container img {
   width: 100%;
   border: solid 2px black;
@@ -440,6 +453,26 @@ body main#container .birds---carousel--container img {
 }
 body main#container .birds---carousel--container .slick-slide {
   padding: 0 2px;
+}
+body main#container .caption---hide--container {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+body main#container .caption---hide--container .caption-toggle-label {
+  display: inline-block;
+  margin: 6px auto;
+  font-size: 14px;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+body main#container .caption---hide--container #caption-toggle {
+  vertical-align: middle;
+  height: 17px;
+  width: 17px;
+  margin: 0 10px;
 }
 body main#container .slide {
   position: relative;

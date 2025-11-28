@@ -53,6 +53,18 @@
         <a href="index.php" id="back---home">Back to Homepage</a>
 
         <h2>Filtered Bird List (<div id="filter---count">N</div>)</h2>
+        
+        <!-- Add toggle buttons -->
+
+
+        <div class="filter-section">
+
+            <a id="toggle-filters" class="toggle-filters-btn">Show Filters</a>        
+            <a href="#" class="toggle-filters-btn" id="apply-filters">Apply Filters</a>
+            <a href="#" class="toggle-filters-btn" id="reset-filters">Reset Filters</a>
+
+        </div>
+       
 
         <!-- Wrap filter section in a container with closed state -->
         <div id="filters-container" class="filters-container closed">
@@ -91,11 +103,6 @@
                     </div>
                 </div>
 
-                <div class="filter--btn-group">
-                    <a href="#" id="apply-filters">Apply Filters</a>
-                    <a href="#" id="reset-filters">Reset Filters</a>
-                </div>
-
             </div>
 
         </div>      
@@ -105,10 +112,7 @@
 
             <li><a href="carousel.php">Birds Draggable Carousel</a></li>
 
-        </ul>
-        
-        <!-- Add toggle button -->
-        <button id="toggle-filters" class="toggle-filters-btn">Show Filters</button>
+        </ul>        
 
         <section class="filterable---birds--container">
 

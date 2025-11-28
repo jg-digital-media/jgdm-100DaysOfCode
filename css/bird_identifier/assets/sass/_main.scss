@@ -45,6 +45,41 @@ body {
         width: 95%;
         padding: 10px 0;
 
+        .filter-section {
+
+            display: block;
+            text-align: center;
+            width: 100%;
+
+            .filter-group {
+
+                .checkbox-group {
+
+                    label {
+
+                        margin: 8px 2px;
+                        display: inline-block;
+                    }
+                }
+            }
+           
+            #toggle-filters {
+
+                width: 105px;
+                margin: 11px 4px; // Standardize margin
+            }
+
+            .toggle-filters-btn {
+
+                display: inline-block;
+                /* width: 115px; */
+                margin: 11px 4px;
+                
+                @extend %btn---main;
+            }
+
+        }
+
         section.introductory---text {
 
             display: block;
@@ -247,7 +282,7 @@ body {
         h2 {
 
             text-align: center;
-            margin: 20px auto;
+            margin: 14px 0 0 0;
 
             #filter---count {
 
@@ -272,7 +307,7 @@ body {
             border-radius: 7px;
             background: #b5eeff;
             background: $bg---secondary;
-            margin: 0px auto;
+            margin: 8px auto;
 
             li {
 
@@ -580,7 +615,7 @@ body {
     transition: max-height 0.3s ease-in-out;
     overflow: hidden;
     max-height: 1000px; /* Adjust this value based on your content */
-    margin: 30px auto;
+    margin: 3px auto;
 }
 
 .filters-container.closed {
@@ -589,21 +624,10 @@ body {
     margin: 0;
 }
 
-#toggle-filters {
-
-    width: 115px;
-    display: block;
-    margin: 20px auto; // Standardize margin
-}
-
-.toggle-filters-btn {
-    
-    @extend %btn---main;
-}
 
 .filter-section {
 
-    padding: 20px;
+    padding: 0px;
     font-size: 12px;
     /* margin: 10px auto; */
     margin: 0;

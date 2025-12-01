@@ -1,4 +1,4 @@
-/* Last Update: 01/12/2025 - 12:52 */
+/* Last Update: 01/12/2025 - 13:17 */
 
 /* Match List - Season: 25/26
 
@@ -395,7 +395,7 @@ CREATE TABLE base_scores_away (
 
 -- Insert Base Scores for home reports
 INSERT INTO base_scores_home (home_team, away_team, home_score, away_score, played) VALUES
-    ('AFC Bournemouth', 'Newcastle United', 0, 0, `0`),
+    ('AFC Bournemouth', 'Newcastle United', 0, 0, 1),
     ('Arsenal', 'Newcastle United', 0, 0, 0),
     ('Aston Villa', 'Newcastle United', 0, 0, 1),
     ('Brentford', 'Newcastle United', 3, 1, 1),

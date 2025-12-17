@@ -173,7 +173,10 @@
         <h2 class="tech---category">JavaScript - <a href="http://localhost/jgdm-100daysofcode/javascript">Local</a> - <a href="#top">Top</a></h2>
 
         <ul>
-            <li><strong><a href="javascript/ajax" title="JavaScript - Fictional Stock Check Application with AJAX" target="_blank">javascript/ajax/</a></strong> - Fictional Stock Check Application with AJAX - <a href="https://projects.jonniegrieve.co.uk/ajax_project/" title="JavaScript - Fictional Stock Check Application with AJAX" target="_blank">Live</a></li>
+            <li><strong><a href="javascript/ajax" title="JavaScript - Fictional Stock Check Application with AJAX" target="_blank">javascript/ajax/</a></strong> - Fictional Stock Check Application with AJAX - <a href="https://projects.jonniegrieve.co.uk/ajax_project/" title="JavaScript - Caffeine Calculator" target="_blank">Live</a></li>
+            
+            <li><strong><a href="javascript/caffeine_calculator" title="JavaScript - Caffeine Calculator" target="_blank">javascript/caffeine_calculator/</a></strong> - Fictional Stock Check Application with AJAX - <a href="https://projects.jonniegrieve.co.uk/caffeine_calculator/" title="JavaScript - Fictional Stock Check Application with AJAX" target="_blank">Live</a></li>
+            
             <li><strong><a href="javascript/clickable_photo_list" title="JavaScript - Clickable Photo List" target="_blank">javascript/clickable_photo_list/</a></strong> - Clickable Photo List - <a href="https://projects.jonniegrieve.co.uk/clickable_photo_list/" title="JavaScript - Clickable Photo List" target="_blank">Live</a></li>           
             <li><strong><a href="javascript/css_properties" title="JavaScript - CSS Property Manipulator Page" target="_blank">javascript/css_properties</a></strong> - CSS Property Manipulator Page - <a href="https://projects.jonniegrieve.co.uk/css_properties/" title="JavaScript - CSS Property Manipulator Page" target="_blank">Live</a></li>           
             <li><strong><a href="javascript/four_in_a_row" title="OOP JavaScript - Four in a Row Game" target="_blank">javascript/four_in_a_row</a></strong> - Object Oriented JavaScript project that builds version of the "Four in a Row" game. - <a href="https://projects.jonniegrieve.co.uk/four_in_a_row" title="OOP JavaScript - Four in a Row Game" target="_blank">Link</a></li>

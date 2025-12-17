@@ -1,0 +1,593 @@
+/*
+*
+* Last Update: 20-11-2025 - 16:06
+*/
+/* main */
+body {
+  background: #f6eade;
+  color: #4F372B;
+}
+body header {
+  font-family: Poppins;
+}
+body header .header---inner--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5px auto;
+  width: 40%;
+}
+@media screen and (max-width: 1200px) {
+  body header .header---inner--container {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body header .header---inner--container {
+    width: 90%;
+  }
+}
+body header .header---inner--container h1 {
+  vertical-align: middle;
+  /* align-items: center; */
+  align-self: center;
+}
+@media (max-width: 480px) {
+  body header .header---inner--container h1 {
+    font-size: 9vw;
+  }
+}
+body header .header---inner--container img#caffeine-calculator-logo {
+  display: inline-block;
+  width: 100px;
+  /* border: solid purple 3px; */
+  border-radius: 6px;
+  vertical-align: middle;
+}
+body #header,
+body #created_by,
+body main,
+body footer {
+  font-family: poppins;
+}
+body #created_by {
+  display: block;
+  text-align: right;
+  position: relative;
+  font-size: 12px;
+  width: 100%;
+  font-weight: bold;
+  bottom: 0px;
+  /* right: 19px; */
+  /* width: 280px; */
+  width: 100%;
+  font-weight: bold;
+  bottom: 0px;
+  /* right: 19px; */
+  /* width: 280px; */
+  margin: 5px 0;
+}
+body #created_by p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* margin-right: 50px; */
+  padding-right: 20px;
+  /* border-top: solid 2px black; */
+  border-bottom: solid 3px;
+  text-align: right;
+  width: 280px;
+  display: inline-block;
+  padding: 0px;
+  margin: 10px;
+}
+@media (max-width: 480px) {
+  body #created_by p {
+    width: 95%;
+    font-size: 8px;
+    /* text-align: center; */
+  }
+}
+@media (max-width: 360px) {
+  body #created_by p {
+    text-align: center;
+  }
+}
+body main {
+  display: flex;
+  flex-direction: row;
+  /* width: 90%; */
+  width: 1000px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+@media (max-width: 1024px) {
+  body main {
+    flex-direction: column-reverse;
+    width: 95%;
+    margin: 7px auto;
+  }
+}
+@media (max-width: 480px) {
+  body main {
+    /* display: block; */
+    width: 95%;
+  }
+}
+body main .section---devnote--container {
+  display: block;
+  position: sticky;
+  top: 80px;
+  /* border: solid 1px red; */
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 6px;
+  /* background: wheat; */
+  overflow-y: visible;
+  min-height: 190px;
+  height: 50px;
+}
+@media (max-width: 1024px) {
+  body main .section---devnote--container {
+    display: none;
+  }
+}
+body main .section---devnote--container .caffeine---devnote--navigation {
+  background: #ffe5be;
+  border: solid 1px #c1c2c1;
+  border-radius: 6px;
+  padding: 18px 0;
+  text-align: center;
+  font-size: 7pt;
+  /* overflow-y: scroll; */
+  min-height: 70px;
+  height: 110px;
+  /* overflow-y: visible; */
+  overflow-y: overlay;
+}
+body main .section---devnote--container .caffeine---devnote--navigation ul {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+body main .section---devnote--container .caffeine---devnote--navigation ul li {
+  text-align: left;
+  list-style: none;
+}
+body main .section---devnote--container .caffeine---devnote--navigation ul li a {
+  color: #4F372B;
+  /* color: #912301; */
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+body main .section---devnote--container .caffeine---devnote--navigation ul li a:hover {
+  color: #e3a126;
+}
+body main .section---devnote--container .caffeine---devnote--navigation ul li a.selected {
+  color: #e3a126;
+}
+body main .section---caffeine--level {
+  /* width: auto; */
+}
+body main .section---caffeine--level article {
+  display: block;
+  position: sticky;
+  top: 80px;
+  /* border: solid 1px red; */
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 6px;
+  /* background: wheat; */
+  overflow-y: visible;
+  min-height: 190px;
+  height: 50px;
+}
+@media (max-width: 1024px) {
+  body main .section---caffeine--level article {
+    /* display: none; */
+    height: auto;
+    margin-bottom: 13px;
+  }
+}
+body main .section---caffeine--level article div.caffeine---level--calculation {
+  width: 90%;
+  background: #ffe5be;
+  border: solid 1px #c1c2c1;
+  border-radius: 6px;
+  padding: 18px 5px;
+  text-align: center;
+  font-size: 7pt;
+  min-height: 120px;
+  height: auto;
+}
+@media (max-width: 960px) {
+  body main .section---caffeine--level article div.caffeine---level--calculation {
+    padding: 6px 0;
+    width: 94%;
+    /* width: 46%; */
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  body main .section---caffeine--level article div.caffeine---level--calculation {
+    display: block;
+    width: 95%;
+  }
+}
+@media (max-width: 480px) {
+  body main .section---caffeine--level article div.caffeine---level--calculation h2 {
+    display: inline;
+  }
+}
+body main .section---caffeine--level article div.caffeine---level--calculation .caffeine---value {
+  font-size: 30pt;
+}
+@media (max-width: 480px) {
+  body main .section---caffeine--level article div.caffeine---level--calculation .caffeine---value {
+    display: inline;
+  }
+}
+body main .section---caffeine--level article div.caffeine---level--calculation aside.calculated---drinks--list {
+  display: block;
+  display: none;
+  margin: 7px auto;
+  color: #890a0a;
+  font-weight: bold;
+  width: 90%;
+  padding: 2px 5px;
+  background: wheat;
+  border-radius: 8px;
+}
+body main .section---caffeine--level article div.caffeine---level--calculation aside.calculated---drinks--list h3 {
+  text-align: center;
+}
+body main .section---caffeine--level article div.caffeine---level--calculation aside.calculated---drinks--list ul {
+  padding: 0;
+  text-align: left;
+  /* width: 74%; */
+}
+body main .section---caffeine--level article div.caffeine---level--calculation aside.calculated---drinks--list ul li {
+  list-style: none;
+  line-height: 1.9;
+}
+body main .section---caffeine--level article div.caffeine---level--calculation #js---caffeine_value {
+  color: #a44807;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 4px;
+  font-size: 20pt;
+}
+body main .section---caffeine--level article div.caffeine---devnote--navigation {
+  width: 100%;
+  min-height: 80px;
+  height: auto;
+  /* overflow-y: scroll; */
+  min-height: 189px;
+  height: 90px;
+  /* overflow-y: visible; */
+  overflow-y: overlay;
+}
+@media (max-width: 1024px) {
+  body main .section---caffeine--level article div.caffeine---devnote--navigation {
+    display: none;
+  }
+}
+body main .section---caffeine--level article div.caffeine---devnote--navigation h2 {
+  font-size: 16px;
+}
+body main .section---caffeine--level article div.caffeine---devnote--navigation ul li {
+  line-height: 2;
+  list-style: none;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+body main .section---caffeine--level article div.caffeine---devnote--navigation ul li a {
+  color: #4F372B;
+  /* color: #912301; */
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+body main .section---caffeine--level article div.caffeine---devnote--navigation ul li a:hover {
+  color: #e3a126;
+}
+body main .section---caffeine--level article div.caffeine---devnote--navigation ul li a.selected {
+  color: #e3a126;
+}
+body main .section---caffeine--level article .caffeine---level--buttons {
+  text-align: center;
+  margin: 10px auto;
+}
+body main .section---caffeine--level article .caffeine---level--buttons .caffeine---calculation--button {
+  border-radius: 5px;
+  background: none;
+  border: #c1c2c1 solid 1px;
+  padding: 5px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #5c2b05;
+  transition: color 0.4s, background 0.4s;
+}
+body main .section---caffeine--level article .caffeine---level--buttons .caffeine---calculation--button:hover {
+  background: #ffe5be;
+  color: black;
+}
+@media (max-width: 480px) {
+  body main .section---caffeine--level article .caffeine---level--buttons .caffeine---calculation--button {
+    width: 37%;
+    margin: 10px auto;
+    display: inline-block;
+  }
+}
+body main .section---calculator {
+  width: 100%;
+}
+body main .section---calculator .drink---calculation--instance:first-child,
+body main .section---calculator .drink---calculation--instance:only-child {
+  margin: 0 auto;
+}
+body main .section---calculator .drink---calculation--instance {
+  display: block;
+  position: relative;
+  margin: 15px auto;
+  border: solid 1px #c1c2c1;
+  /* background: none; */
+  background: #ffe5be;
+  padding: 2px;
+  width: 95%;
+  border-radius: 5px;
+  /* box-shadow: #99979b 0 0 4px 0px; */
+}
+body main .section---calculator .drink---calculation--instance .article---select--drink {
+  display: flex;
+  display: block;
+}
+body main .section---calculator .drink---calculation--instance .article---select--drink h2 {
+  text-align: center;
+  font-size: 16px;
+  margin: 23px 0 5px 0;
+}
+body main .section---calculator .drink---calculation--instance .article---select--drink h2 span {
+  color: #8d7706;
+}
+body main .section---calculator .drink---calculation--instance .article---select--drink h2 span#js---selected_drink_name {
+  color: #a44807;
+}
+body main .section---calculator .drink---calculation--instance .article---select--drink select,
+body main .section---calculator .drink---calculation--instance .article---select--drink .form---input--drink {
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  height: 34px;
+  border-radius: 7px;
+  background: #4F372B;
+  background: wheat;
+  transition: background 0.4s;
+}
+body main .section---calculator .drink---calculation--instance .article---select--drink select:hover,
+body main .section---calculator .drink---calculation--instance .article---select--drink .form---input--drink:hover {
+  background: #f2bd5a;
+}
+body main .section---calculator .drink---calculation--instance .article---select--drink .form---input--drink {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 4px;
+  width: 120px;
+  background: #4F372B;
+  color: #7c3605;
+  background: wheat;
+  overflow: scroll;
+  /* scrollbar-color: red; */
+  transition: background 0.4s;
+}
+@media (max-width: 480px) {
+  body main .section---calculator .drink---calculation--instance .article---select--drink .form---input--drink {
+    width: 90%;
+  }
+}
+body main .section---calculator .drink---calculation--instance .article---select--drink .form---input--drink:hover {
+  background: #f2bd5a;
+}
+body main .section---calculator .drink---calculation--instance .article---select--drink .form---input--drink:placeholder-shown {
+  text-align: center;
+  /* margin: 0 4px; */
+  font-size: 16px;
+  color: #b95605;
+}
+body main .section---calculator .drink---calculation--instance .article---select--drink .form---input--drink::placeholder {
+  color: #b95605;
+}
+body main .section---calculator .drink---calculation--instance .article---select--drink .last---drink--controls {
+  text-align: center;
+}
+body main .section---calculator .drink---calculation--instance .article---select--drink .last---drink--controls .caffeine---button {
+  /* padding: 5px; */
+  background: #f2bd5a;
+  color: #a44807;
+  padding: 2px;
+  border: solid 2px gray;
+  font-weight: bold;
+  width: 35px;
+  /* height: 50px; */
+  display: inline-block;
+  /* border-radius: 50%; */
+  border-radius: 7px;
+  margin: 0 2px;
+  vertical-align: middle;
+  transition: background 0.4s;
+  cursor: pointer;
+}
+body main .section---calculator .drink---calculation--instance .article---select--drink .last---drink--controls .caffeine---button:hover {
+  background: wheat;
+}
+body main .section---calculator .drink---calculation--instance .article---select--drink .last---drink--controls .last---drink--input {
+  display: inline-block;
+  width: 65px;
+  font-weight: bold;
+  font-weight: 600;
+  font-size: 30pt;
+  vertical-align: middle;
+  color: #a44807;
+}
+body main .section---dev--articles {
+  width: 65%;
+}
+@media (max-width: 1024px) {
+  body main .section---dev--articles {
+    display: inline;
+    margin: 10px auto;
+    width: 100%;
+  }
+}
+body main .section---dev--articles h2 a {
+  font-size: 10px;
+  color: #931305;
+  font-style: italic;
+  transition: color 0.3s;
+  vertical-align: middle;
+}
+body main .section---dev--articles h2 a:hover {
+  color: #f6b668;
+  color: red;
+}
+body main .section---dev--articles div {
+  display: none;
+  display: block;
+  font-weight: bold;
+  padding: 10px;
+}
+@media (max-width: 1024px) {
+  body main .section---dev--articles div {
+    display: block;
+    margin: 0 auto;
+    padding: 4px;
+    width: 320px;
+    font-size: 12px;
+    line-height: 1.8;
+  }
+}
+body main .section---dev--articles div strong {
+  color: red;
+}
+body main .section---dev--articles div ul {
+  color: red;
+}
+body main .section---dev--articles div ul li {
+  list-style: none;
+}
+body main .section---dev--articles .dev---note {
+  background: #ffe0b9;
+  border-radius: 8px;
+  border: solid 1px #d7d7d7;
+}
+@media (max-width: 1024px) {
+  body main .section---dev--articles .dev---note {
+    display: block;
+    margin: 13px auto;
+    width: 90%;
+  }
+}
+body main .section---dev--articles dl {
+  /* background: none; */
+  background: #ffe0b9;
+  border-radius: 8px;
+  /* padding: 5px; */
+  padding: 10px 1px;
+  margin: 15px 0;
+  border: solid 1px #d7d7d7;
+}
+body main .section---dev--articles dl:first-child {
+  margin: 0 0 15px 0;
+}
+body main .section---dev--articles dl dt {
+  height: 30px;
+  border-bottom: #4F372B solid 3px;
+}
+body main .section---dev--articles dl dt .dev---icon {
+  display: inline-block;
+  padding: 5px;
+  margin: 7px;
+  border-radius: 50%;
+  background: #d7600b;
+  border: solid 1px #4F372B;
+  color: #ffdc8c;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  transition: background 0.4s, color 0.4s;
+}
+body main .section---dev--articles dl dt .dev---icon:hover {
+  background: #ff8a36;
+  color: #ffd677;
+}
+body main .section---dev--articles dl dt strong {
+  margin: 0 5px;
+}
+body main .section---dev--articles dl dd {
+  margin-top: 25px;
+}
+body footer p {
+  margin-top: 14px;
+  text-align: center;
+  font-size: 12px;
+}
+body footer p a {
+  color: #a44807;
+}
+body .flash---message {
+  border: solid 2px #9e6503;
+  display: block;
+  position: fixed;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
+  min-width: 320px;
+  font-weight: bold;
+  background: wheat;
+  box-shadow: #bb934a 0 0 3px 2px;
+  z-index: 9999;
+  font-family: poppins;
+  font-size: 12px;
+  padding: 0 4px;
+  text-align: center;
+  vertical-align: middle;
+}
+body .flash---message.message---add--drink {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+body .flash---message.message---reset--app {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+body .flash---message.show {
+  visibility: visible;
+  opacity: 1;
+}
+body .flash---message p .site---logo--msg {
+  width: 26px;
+  height: 26px;
+  vertical-align: middle;
+  margin: 5px;
+  border: solid 2px #9e6503;
+  border-radius: 50%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

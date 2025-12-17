@@ -1,0 +1,34 @@
+[
+
+  { "name": "Instant coffee", "caffeine_mg": 60 },
+  { "name": "Ground coffee", "caffeine_mg": 110 },
+  { "name": "Espresso", "caffeine_mg": 65 },
+  { "name": "Latte", "caffeine_mg": 65 },
+  { "name": "Cappuccino", "caffeine_mg": 65 },
+  { "name": "Decaf coffee", "caffeine_mg": 4 },
+
+  { "name": "Black tea", "caffeine_mg": 50 },
+  { "name": "Green tea", "caffeine_mg": 30 },
+  { "name": "White tea", "caffeine_mg": 20 },
+  { "name": "Chai latte", "caffeine_mg": 40 },
+  { "name": "Decaf tea", "caffeine_mg": 3 },
+
+  { "name": "Coca-Cola", "caffeine_mg": 33 },
+  { "name": "Diet Coke", "caffeine_mg": 42 },
+  { "name": "Pepsi", "caffeine_mg": 35 },
+  { "name": "Dr Pepper", "caffeine_mg": 38 },
+  { "name": "Lucozade Energy", "caffeine_mg": 46 },
+
+  { "name": "Red Bull", "caffeine_mg": 80 },
+  { "name": "Monster", "caffeine_mg": 160 },
+  { "name": "Rockstar", "caffeine_mg": 160 },
+  { "name": "Relentless", "caffeine_mg": 160 },
+  { "name": "5-Hour Energy", "caffeine_mg": 200 },
+
+  { "name": "Dark chocolate", "caffeine_mg": 25 },
+  { "name": "Milk chocolate", "caffeine_mg": 8 },
+  { "name": "Hot chocolate", "caffeine_mg": 5 },
+  { "name": "Yerba mate", "caffeine_mg": 75 },
+  { "name": "Matcha", "caffeine_mg": 65 }
+
+]

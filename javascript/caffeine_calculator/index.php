@@ -5,31 +5,31 @@
     <!-- Essential Meta Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A simple web app that helps you weigh up pros and cons and make better decisions.">
+    <meta name="description" content="This is your Caffeine Calculator: A JavaScript and PHP Application to help you tally up and manage your caffeine intake.">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://www.jonniegrieve.co.uk/">
+    <link rel="canonical" href="https://projects.jonniegrieve.co.uk/caffeine_calculator">
 
     <!-- Open Graph / Facebook / Threads / Instagram -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.jonniegrieve.co.uk/">
-    <meta property="og:title" content="Weigh up the Pros and Cons">
-    <meta property="og:description" content="A simple web app that helps you weigh up pros and cons and make better decisions.">
-    <meta property="og:image" content="https://www.jonniegrieve.co.uk/assets/images/share-image.jpg">
-    <meta property="og:site_name" content="Weigh up the Pros and Cons">
+    <meta property="og:url" content="https://projects.jonniegrieve.co.uk/caffeine_calculator">
+    <meta property="og:title" content="Caffeine Calculator - By Jonnie Grieve Digital Media">
+    <meta property="og:description" content="This is your Caffeine Calculator: A JavaScript and PHP Application to help you tally up and manage your caffeine intake.">
+    <meta property="og:image" content="assets/images/caffeine-calculator-large">
+    <meta property="og:site_name" content="Caffeine Calculator - By Jonnie Grieve Digital Media">
     <meta property="og:locale" content="en_GB">
 
     <!-- Twitter (X) Cards -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://www.jonniegrieve.co.uk/">
-    <meta name="twitter:title" content="Weigh up the Pros and Cons">
-    <meta name="twitter:description" content="A simple web app that helps you weigh up pros and cons and make better decisions.">
-    <meta name="twitter:image" content="https://www.jonniegrieve.co.uk/assets/images/share-image.jpg">
+    <meta name="twitter:url" content="https://twitter.com/jg_DigitalMedia">
+    <meta name="twitter:title" content="Caffeine Calculator - By Jonnie Grieve Digital Media">
+    <meta name="twitter:description" content="This is your Caffeine Calculator: A JavaScript and PHP Application to help you tally up and manage your caffeine intake.">
+    <meta name="twitter:image" content="assets/images/caffeine-calculator-large">
     <meta name="twitter:creator" content="@jg_digitalMedia">
 
     <!-- Fallback / General -->
-    <meta name="author" content="Jonnie Grieve">
-    <meta name="image" content="https://www.jonniegrieve.co.uk/assets/images/share-image.jpg">
+    <meta name="author" content="Jonnie Grieve at Jonnie Grieve Digital Media">
+    <meta name="image" content="assets/images/caffeine-calculator-large">
 
     <!-- Favicon and App Icons -->
     <link rel="icon" href="favicon.png" type="image/x-icon">

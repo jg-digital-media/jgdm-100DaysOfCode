@@ -28,5 +28,11 @@
     <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3696.JPG" class="" id="" target="_blank">IMG_3696.JPG - Eurasian Chaffinch</a></li>
     <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_5603.JPG" class="" id="" target="_blank">IMG_5603.JPG - Wren</a></li>
     <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_5822.JPG" class="" id="" target="_blank">IMG_5822.JPG - Dunnock</a></li>
+    <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0443.JPG" class="" id="" target="_blank">IMG_0443.JPG - Pekin Duck</a></li>
+    <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1624.JPG" class="" id="" target="_blank">IMG_1624.JPG - Great Tit</a></li>
+    <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1609.JPG" class="" id="" target="_blank">IMG_1609.JPG - Song Thrush</a></li>
+    <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1587.JPG" class="" id="" target="_blank">IMG_1587.JPG - Reed Bunting</a></li>
+    <li><a href="https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0138.JPG" class="" id="" target="_blank">IMG_0138.JPG - Redwing</a></li>
+
     
 </ul>

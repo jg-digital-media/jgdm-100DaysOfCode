@@ -439,6 +439,46 @@
             "lightbox": "Filterable Birds",
             "photo_date": "08/11/2025",
             "filter_classes": "bird---class--white bird---class--large bird---class--water"           
+        }, {
+
+            "name": "Great Tit",
+            "scientific_name": "Parus Major",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1624.JPG",
+            "filename": "IMG_1624.JPG",            
+            "description": "The Great Tit is a large, stocky, black-and-white bird with a long, thin bill.",
+            "lightbox": "Filterable Birds",
+            "photo_date": "26/12/2025",
+            "filter_classes": "bird---class--yellow bird---class--small"           
+        }, {
+
+            "name": "Song Thrush",
+            "scientific_name": "Turdus Philomelos",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1609.JPG",
+            "filename": "IMG_1624.JPG",            
+            "description": "Song thrush description...",
+            "lightbox": "Filterable Birds",
+            "photo_date": "26/12/2025",
+            "filter_classes": "bird---class--mixed-brown bird---class--medium bird---class--countryside bird---class--garden"           
+        }, {
+
+            "name": "Reed Bunting",
+            "scientific_name": "",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1587.JPG",
+            "filename": "IMG_1587.JPG",
+            "description": "",
+            "lightbox": "Filterable Birds",
+            "photo_date": "26/12/2025",
+            "filter_classes": "bird---class--mixed-brown bird---class--medium bird---class--countryside bird---class--garden"           
+        }, {
+
+            "name": "Redwing",
+            "scientific_name": "Turdus iliacus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0138.JPG",
+            "filename": "IMG_0138.JPG",
+            "description": "",
+            "lightbox": "Filterable Birds",
+            "photo_date": "03/01/2026",
+            "filter_classes": ""           
         }  
         
     ]

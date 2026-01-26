@@ -1,0 +1,19 @@
+
+{ 
+   "birds": [
+
+        {
+
+            "name": "",
+            "scientific_name": "",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0000.JPG",
+            "filename": "",            
+            "description": "",
+            "lightbox": "Filterable Birds",
+            "photo_date": "",
+            "filter_classes": ""           
+        }
+
+    ]
+    
+}

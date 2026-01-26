@@ -24,5 +24,9 @@
     <li>IMG_2423.JPG - Little Grebe</li>
     <li>IMG_5606.JPG - European Goldfinch</li>    
     <li>IMG_5603.JPG - Wren</li>    
-    <li>IMG_5822.JPG - Dunnock</li>
+    <li>IMG_5822.JPG - Dunnock</li>    
+    <li>IMG_1624.JPG - Pekin Duck</li>    
+    <li>IMG_1609.JPG - Song Thrush</li>    
+    <li>IMG_1587.JPG - Reed Bunting</li>    
+    <li>IMG_0138.JPG - Redwing</li>
 </ul>

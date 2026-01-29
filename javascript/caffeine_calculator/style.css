@@ -1,6 +1,6 @@
 /*
 *
-* Last Update: 20-11-2025 - 16:06
+* Last Update: 29-01-2026 - 07:42
 */
 /* main */
 body {
@@ -8,7 +8,7 @@ body {
   color: #4F372B;
 }
 body header {
-  font-family: Poppins;
+  font-family: Poppins, verdana, arial, sans-serif;
 }
 body header .header---inner--container {
   display: flex;

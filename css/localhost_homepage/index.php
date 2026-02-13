@@ -61,12 +61,14 @@
     <p>Links to Directories:</p>
     
     <ul>
-        <li><a href="http://localhost/jgdm-100DaysOfCode">#100DaysOfCode</a></li>
-        <li><a href="http://localhost/projects">Projects</a></li>
-        <li><a href="http://localhost/server">Server</a></li>
-        <li><a href="http://localhost/repositories">Repositories</a></li>
-        <li><a href="http://localhost/wordpress">WordPress</a></li>
         <li><a href="http://localhost/jg-digital-media.github.io">GitHub Page</a></li>
+        <li><a href="http://localhost/jgdm-100DaysOfCode">#100DaysOfCode</a></li>
+        <li><a href="http://localhost/server">Server</a></li>
+        <li><a href="http://localhost/projects">Projects</a></li>
+        <li><a href="http://localhost/landing_pages">Landing Pages</a></li>
+        <li><a href="http://localhost/wordpress">WordPress</a></li>
+        <li><a href="http://localhost/android">Android</a></li>
+        <li><a href="http://localhost/subdomains">Subdomains</a></li>
         <li><a href="http://localhost/photography-website">Photography Website</a></li>
     </ul>
 </body>

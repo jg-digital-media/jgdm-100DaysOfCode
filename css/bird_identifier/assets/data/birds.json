@@ -455,17 +455,17 @@
             "scientific_name": "Turdus Philomelos",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1609.JPG",
             "filename": "IMG_1624.JPG",            
-            "description": "Song thrush description...",
+            "description": "Song Thrushes are found in gardens, woodlands, parks and scrub across the UK. Look for them feeding on short grass, at the edge of shrub beds.",
             "lightbox": "Filterable Birds",
             "photo_date": "26/12/2025",
             "filter_classes": "bird---class--mixed-brown bird---class--medium bird---class--countryside bird---class--garden"           
         }, {
 
             "name": "Reed Bunting",
-            "scientific_name": "",
+            "scientific_name": "Emberiza schoeniclus",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1587.JPG",
             "filename": "IMG_1587.JPG",
-            "description": "",
+            "description": "The Reed Bunting is a common, sparrow-sized UK resident found in wetlands, reedbeds, and farmland",
             "lightbox": "Filterable Birds",
             "photo_date": "26/12/2025",
             "filter_classes": "bird---class--mixed-brown bird---class--medium bird---class--countryside bird---class--garden"           
@@ -475,11 +475,24 @@
             "scientific_name": "Turdus iliacus",
             "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0138.JPG",
             "filename": "IMG_0138.JPG",
-            "description": "",
+            "description": "A Redwing is also the UK's smallest true thrush, a common winter visitor identified by its creamy eye stripe and red flank ",
             "lightbox": "Filterable Birds",
             "photo_date": "03/01/2026",
             "filter_classes": ""           
-        }  
+        }, {
+
+            "name": "Hoary headed Grebe [pending] ",
+            "scientific_name": "Poliocephalus Poliocephalus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_0772.JPG",
+            "filename": "IMG_0772.JPG",
+            "description": "The hoary-headed grebe is a fairly small dark grey and white grebe. (Not found in the UK)",
+            "lightbox": "Filterable Birds",
+            "photo_date": "07/02/2026",
+            "filter_classes": ""     
+
+
+        } 
+        
         
     ]
 }

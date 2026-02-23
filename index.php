@@ -120,7 +120,7 @@
 
             <li><strong><a href="ai/interactive_js_php/index.html" title="AI Project: Interactive JavaScript List (with PHP)" target="_blank">interactive_js_php</a></strong> - Interactive JavaScript List (with PHP) -  <a href="https://projects.jonniegrieve.co.uk/ai/interactive_js_php/index.html" title="AI Project: Interactive JavaScript List (with PHP)" target="_blank">Live</a></li> 
             
-            <li><strong><a href="ai/list_maker_ai/index.php" title="AI Project: List Maker AI" target="_blank">list_maker_ai</a></strong> - ToDo List Maker App - <a href="https://projects.jonniegrieve.co.uk/ai/list_maker_ai/index.php" title="AI Project: List Maker AI" target="_blank">Live</a></li>
+            <li><strong><a href="ai/todo_maker_ai/index.php" title="AI Project: TODO Maker AI" target="_blank">todo_maker_ai</a></strong> - ToDo Maker App (AI) - <a href="https://projects.jonniegrieve.co.uk/ai/todo_maker_ai/index.php" title="AI Project: TODO Maker AI" target="_blank">Live</a></li>
 
             <li><strong><a href="ai/mobile_menu/index.php" title="AI Project: Making a Mobile Menu" target="_blank">mobile_menu</a></strong> - Making a Mobile Menu - <a href="https://projects.jonniegrieve.co.uk/ai/mobile_menu/index.php" title="AI Project: Making a Mobile Menu" target="_blank">Live</a></li>    
             
@@ -130,7 +130,7 @@
 
             <li><strong><a href="ai/tic_tac_toe/index.html" title="AI Project: Simple Tic Tac Toe Game" target="_blank">Tic Tac Toe (Noughts and Crosses)</a></strong> - <a href="https://projects.jonniegrieve.co.uk/ai/tic_tac_toe/index.html" title="AI Project: Simple Tic Tac Toe Game" target="_blank">Live</a> </strong></li> 
             
-            <li><strong><a href="ai/web_checklist/index.html" title="AI Project: SERP (Web Checklist)" target="_blank">web_checklist</a></strong> - SERP (Web) Checklist -  <a href="https://projects.jonniegrieve.co.uk/ai/web_checklist/index.html" title="AI Project: SERP (Web Checklist)" target="_blank">Live</a></li>
+            <li><strong><a href="ai/web_completion_checklist/index.html" title="AI Project: SERP: Web Completion Checklist)" target="_blank">web_completion_checklist</a></strong> - SERP: Web Completion Checklist -  <a href="https://projects.jonniegrieve.co.uk/ai/web_completion_checklist/index.html" title="AI Project: SERP (Web Checklist)" target="_blank">Live</a></li>
 
             <li><strong><a href="ai/work_counter/index.php" title="AI Project: Work Counter" target="_blank">work_counter</a></strong> - Work Counter - <a href="https://projects.jonniegrieve.co.uk/work_counter/index.php" title="AI Project: Work Counter" target="_blank">Live</a></li>
         

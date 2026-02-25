@@ -4,8 +4,8 @@
 
         "repo_name":"JGDM GitHub Landing Page",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_jgdmlanding.png",
-        "repo_alt": "repo alt text 2",
-        "repo_description": "description 2",
+        "repo_alt": "Repository for organisation GitHub page site.",
+        "repo_description": "Repository for organisation GitHub page site.",
         "repo_url":"https://github.com/jg-digital-media/jg-digital-media.github.io",
         "repo_type": "website",
         "repo_status": "Complete",
@@ -16,8 +16,8 @@
 
         "repo_name":"JGDM: Projects Directory",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_jgdmprojects_directory.png",
-        "repo_alt": "repo alt text 3",
-        "repo_description": "description 3",
+        "repo_alt": "repository for storing projects on the move.",
+        "repo_description": "repository for storing projects on the move.",
         "repo_url":"https://github.com/jg-digital-media/projects",
         "repo_type": "repo",
         "repo_status": "Ongoing",
@@ -28,8 +28,8 @@
 
         "repo_name":"JGDM: Local Server Project Directory",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/reoo_jgdm_htdocs.png",
-        "repo_alt": "repo alt text 4",
-        "repo_description": "description 4",
+        "repo_alt": "Projects from htdocs folder (Xampp) on local system for backup and on the move working.",        
+        "repo_description": "Projects from htdocs folder (Xampp) on local system for backup and on the move working.",
         "repo_url":"git clone https://github.com/jg-digital-media/server",
         "repo_type": "repo",
         "repo_status": "Ongoing",
@@ -40,8 +40,8 @@
 
         "repo_name":"JGDM: WordPress Projects",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_jgdmwordpress.png",
-        "repo_alt": "repo alt text 5",
-        "repo_description": "description 5",
+        "repo_alt": "WordPress project repository",
+        "repo_description": "WordPress project repository",
         "repo_url":"https://github.com/jg-digital-media/wordpress",
         "repo_type": "repo",
         "repo_status": "Ongoing",
@@ -52,8 +52,8 @@
 
         "repo_name":"JGDM: PHP Boilerplate Website",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_jgdmphpboilerplate.png",
-        "repo_alt": "repo alt text 7",
-        "repo_description": "description 7",
+        "repo_alt": "Boilerplate code for a PHP based website",
+        "repo_description": "Boilerplate code for a PHP based website",
         "repo_url":"https://github.com/jg-digital-media/jgdm_php_boilerplate",
         "repo_type": "website",
         "repo_status": "Complete",
@@ -64,8 +64,8 @@
 
         "repo_name":"JGDM Mobile Hamburger Menu",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_jgdmhamburgermenu.png",
-        "repo_alt": "repo alt text 8",
-        "repo_description": "description 8",
+        "repo_alt": "Setup for a mobile website with a hamburger menu",
+        "repo_description": "Setup for a mobile website with a hamburger menu",
         "repo_url":"https://github.com/jg-digital-media/jgdm_mobile_hamburger_menu",
         "repo_type": "website",
         "repo_status": "Complete",
@@ -76,8 +76,8 @@
 
         "repo_name":"JGDM: Image Gallery",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_jgdmimagegallery.png",
-        "repo_alt": "repo alt text 9",
-        "repo_description": "description 9",
+        "repo_alt": "Starter files for a static image gallery.",
+        "repo_description": "Starter files for a static image gallery.",
         "repo_url":"https://github.com/jg-digital-media/jgdm_image_gallery",
         "repo_type": "website",
         "repo_status": "Complete",
@@ -88,8 +88,8 @@
 
         "repo_name":"JGDM: Web Project Starter",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_jgdmwebprojectstarter.png",
-        "repo_alt": "repo alt text 10",
-        "repo_description": "description 10",
+        "repo_alt": "Starter files for a website or web based project. By JGDM",
+        "repo_description": "Starter files for a website or web based project. By JGDM",
         "repo_url":"https://github.com/jg-digital-media/jgdm_web_project_starter",
         "repo_type": "website",
         "repo_status": "Complete",
@@ -100,8 +100,8 @@
 
         "repo_name":"JGDM: WooCommerce Selectors",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_jgdmwoocommerceselector.png",
-        "repo_alt": "repo alt text 11",
-        "repo_description": "description 11",
+        "repo_alt": "Taking the legwork out of finding the CSS Selectors to style your shop.",
+        "repo_description": "Taking the legwork out of finding the CSS Selectors to style your shop.",
         "repo_url":"https://github.com/jg-digital-media/jgdm-woocommerce-selectors",
         "repo_type": "repo",
         "repo_status": "Incomplete",
@@ -112,8 +112,8 @@
 
         "repo_name":"JGDM: WordPress Starter",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_wordpressstarter.png",
-        "repo_alt": "repo alt text 12",
-        "repo_description": "description 12",
+        "repo_alt": "This Repository contains the theme files you will need to help you get started building your own WordPress Theme.",
+        "repo_description": "This Repository contains the theme files you will need to help you get started building your own WordPress Theme.",
         "repo_url":"https://github.com/jg-digital-media/jgdm_wordpress_starter",
         "repo_type": "website",
         "repo_status": "Complete",
@@ -124,8 +124,8 @@
 
         "repo_name":"JGDM: Flask Project",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_jgdmflaskproject.png",
-        "repo_alt": "repo alt text 13",
-        "repo_description": "description 13",
+        "repo_alt": "Github Repository to serve my project written in Pythons Flask framework.",
+        "repo_description": "Github Repository to serve my project written in Pythons Flask framework.",
         "repo_url":"https://github.com/jg-digital-media/jgdm_flask_project",
         "repo_type": "website",
         "repo_status": "Complete",
@@ -136,8 +136,8 @@
 
         "repo_name":"JGDM: Python SQLAlchemy",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_jgdmpythonapp.png",
-        "repo_alt": "repo alt text 14",
-        "repo_description": "description 14",
+        "repo_alt": "For Python and SQLAlchemy.",
+        "repo_description": "For Python and SQLAlchemy.",
         "repo_url":"https://github.com/jg-digital-media/jgdm-python-app",
         "repo_type": "website",
         "repo_status": "Complete",
@@ -148,8 +148,8 @@
 
         "repo_name":"JGDM: CSS Grid Project",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_gridproject.png",
-        "repo_alt": "repo alt text 15",
-        "repo_description": "description 15",
+        "repo_alt": "A cloneable project designed to use (and teach) CSS Grid using a collection of SASS Partials.",
+        "repo_description": "A cloneable project designed to use (and teach) CSS Grid using a collection of SASS Partials.",
         "repo_url":"https://github.com/jg-digital-media/jgdm_grid_project",
         "repo_type": "website",
         "repo_status": "Complete",
@@ -160,8 +160,8 @@
 
         "repo_name":"JGDM: Laravel Photos REST API",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_jgdmlaravelapi.png",
-        "repo_alt": "repo alt text 16",
-        "repo_description": "description 16",
+        "repo_alt": "Laravel Project based on a project developed for Treehouse",
+        "repo_description": "Laravel Project based on a project developed for Treehouse",
         "repo_url":"https://github.com/jg-digital-media/laravel_photorestapi",
         "repo_type": "website",
         "repo_status": "Complete",
@@ -172,8 +172,8 @@
 
         "repo_name":"JGDM: Laravel Basic",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_jgdmlaravelapi.png",
-        "repo_alt": "repo alt text 17",
-        "repo_description": "description 17",
+        "repo_alt": "Basic Laravel Website",
+        "repo_description": "Basic Laravel Website",
         "repo_url":"https://github.com/jg-digital-media/laravel_basic",
         "repo_type": "website",
         "repo_status": "Complete",
@@ -184,20 +184,20 @@
 
         "repo_name":"JGDM: Laravel Switch Photo Filter App",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_switchphoto.png",
-        "repo_alt": "repo alt text 18",
-        "repo_description": "description 18",
-        "repo_url":"https://github.com/jg-digital-media/switch_photo",
+        "repo_alt": "A Laravel Photo Filtering Application created with Vanilla JavaScript",
+        "repo_description": "A Laravel Photo Filtering Application created with Vanilla JavaScript.",
+        "repo_url":"https://github.com/jg-digital-media/jgdm_switch_photo",
         "repo_type": "website",
         "repo_status": "Incomplete",
-        "repo_clone": "git clone https://github.com/jg-digital-media/switch_photo",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_switch_photo",
         "repo_privacy": "public"        
 
     }, {
 
         "repo_name":"JGDM: Laravel Photos API Repo (duplicate?)",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_photosapi.png",
-        "repo_alt": "repo alt text 19",
-        "repo_description": "description 19",
+        "repo_alt": "Photos API in Laravel",
+        "repo_description": "Photos API in Laravel",
         "repo_url": "https://github.com/jg-digital-media/photos_api",
         "repo_type": "website",
         "repo_status": "Incomplete",
@@ -208,8 +208,8 @@
 
         "repo_name":"JGDM: Node Site",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_nodesite.png",
-        "repo_alt": "repo alt text 20",
-        "repo_description": "description 20",
+        "repo_alt": "Treehouse Node Dynamic site course.",
+        "repo_description": "Treehouse Node Dynamic site course.",
         "repo_url":"https://github.com/jg-digital-media/node-site",
         "repo_type": "node",
         "repo_status": "Incomplete",
@@ -220,8 +220,8 @@
 
         "repo_name":"Simple Express App",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_simpleexpress.png",
-        "repo_alt": "repo alt text 21",
-        "repo_description": "description 21",
+        "repo_alt": "Express project for testing Heroku deployment.",
+        "repo_description": "Express project for testing Heroku deployment.",
         "repo_url":"https://github.com/jg-digital-media/simple_express",
         "repo_type": "website",
         "repo_status": "Complete",
@@ -232,8 +232,8 @@
 
         "repo_name":"Web Checklist with CSS",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_simpleexpress.png",
-        "repo_alt": "repo alt text 22",
-        "repo_description": "description 22",
+        "repo_alt": "Website Checklist (with CSS)",
+        "repo_description": "Website Checklist (with CSS)",
         "repo_url":"https://github.com/jg-digital-media/checklist_with_css",
         "repo_type": "website",
         "repo_status": "Complete",
@@ -244,13 +244,265 @@
 
         "repo_name":"Clickable Photo List",
         "repo_img": "https://projects.jonniegrieve.co.uk/assets/img/repositories/repo_clickablephotolist.png",
-        "repo_alt": "repo alt text 24",
-        "repo_description": "description 24",
+        "repo_alt": "View photos from a list of clickable links - perfect for an image showcase - which you can download and modify for your own needs",
+        "repo_description": "View photos from a list of clickable links - perfect for an image showcase - which you can download and modify for your own needs",
         "repo_url":"https://github.com/jg-digital-media/clickable_photo_list",
         "repo_type": "website",
-        "repo_status": "Incomplete",
+        "repo_status": "Complete",
         "repo_clone": "git clone https://github.com/jg-digital-media/clickable_photo_list",
         "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"Tkinter Project: Python",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/tkinter-python.png",
+        "repo_alt": "Python Projects with the Tkinter GUI Library",
+        "repo_description": "Python Projects with the Tkinter GUI Library",
+        "repo_url":"https://github.com/jg-digital-media/jgdm_tkinter_python",
+        "repo_type": "website",
+        "repo_status": "Incomplete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_tkinter_python",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"Version Control Blog",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-version-control-blog.png",
+        "repo_alt": "Final repository linked to my blog on using version control e.g. Git in your projects",
+        "repo_description": "Final repository linked to my blog on using version control e.g. Git in your projects",
+        "repo_url":"https://github.com/jg-digital-media/version_control_blog",
+        "repo_type": "website",
+        "repo_status": "Complete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/version_control_blog",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"JGDM Wordpress Theme",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-wordpress-theme-repo.png",
+        "repo_alt": "This repository contains the theme files you will need to help to plug into a new WordPress installation",
+        "repo_description": "This repository contains the theme files you will need to help to plug into a new WordPress installation",
+        "repo_url":"https://github.com/jg-digital-media/jgdm_wordpress_theme",
+        "repo_type": "website",
+        "repo_status": "Ongoing",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_wordpress_theme",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"Digital Profile Repository",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-digital-profile-repo.png",
+        "repo_alt": "Customise your digital profile",
+        "repo_description": "Customise your digital profile",
+        "repo_url":"https://github.com/jg-digital-media/digital_profile",
+        "repo_type": "website",
+        "repo_status": "Incomplete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/digital_profile",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"JGDM Switch Repo",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-switch-repo.png",
+        "repo_alt": "A Laravel Photo Filtering Application created with Vanilla JavaScript",
+        "repo_description": "A Laravel Photo Filtering Application created with Vanilla JavaScript",
+        "repo_url":"https://github.com/jg-digital-media/jgdm_switch_photo",
+        "repo_type": "website",
+        "repo_status": "Incomplete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_switch_photo",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"JGDM Laravel Basic App",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-laravel-basic-repo.png",
+        "repo_alt": "Basic Laravel Website",
+        "repo_description": "Basic Laravel Website",
+        "repo_url":"https://github.com/jg-digital-media/jgdm_laravel_basic",
+        "repo_type": "website",
+        "repo_status": "Incomplete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_laravel_basic",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"JGDM Landing Pages",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-landing-pages.png",
+        "repo_alt": "Development of new and existing Landing Pages for Jonnie Grieve Digital Media",
+        "repo_description": "Development of new and existing Landing Pages for Jonnie Grieve Digital Media",
+        "repo_url":"https://github.com/jg-digital-media/landing_pages",
+        "repo_type": "website",
+        "repo_status": "Ongoing",
+        "repo_clone": "git clone https://github.com/jg-digital-media/landing_pages",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"JGDM Darts Scorer App",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-darts-scorerapp.png",
+        "repo_alt": "A Darts Scorer Application and series of blogs created with the aid of AI",
+        "repo_description": "A Darts Scorer Application and series of blogs created with the aid of AI",
+        "repo_url":"https://github.com/jg-digital-media/jgdm_darts_scorer",
+        "repo_type": "website",
+        "repo_status": "Complete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_darts_scorer",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"JGDM Jobs Pathway App",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-jobs-pathway-app.png",
+        "repo_alt": "An application to keep track of your progress with your applications for work",
+        "repo_description": "An application to keep track of your progress with your applications for work",
+        "repo_url":"https://github.com/jg-digital-media/jgdm_jobs_pathway",
+        "repo_type": "website",
+        "repo_status": "Incomplete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_jobs_pathway",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"JGDM Learning Companion App",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-learning-companion-app.png",
+        "repo_alt": "A learning companion, study notes and tracker app",
+        "repo_description": "A learning companion, study notes and tracker app",
+        "repo_url":"https://github.com/jg-digital-media/learning_companion_app",
+        "repo_type": "website",
+        "repo_status": "Incomplete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/learning_companion_app",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"JGDM Snooker Scorer App",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-snooker-scorer-app.png",
+        "repo_alt": "Building a Snooker Scorer Application in PHP, JavaScript and HTML/SASS",
+        "repo_description": "Building a Snooker Scorer Application in PHP, JavaScript and HTML/SASS",
+        "repo_url":"https://github.com/jg-digital-media/jgdm_snooker_scorer",
+        "repo_type": "website",
+        "repo_status": "Complete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_snooker_scorer",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"Express Site Repository",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-express-site.png",
+        "repo_alt": "Simple Express website to be deployed on Heroku",
+        "repo_description": "Simple Express website to be deployed on Heroku",
+        "repo_url":"https://github.com/jg-digital-media/express_site",
+        "repo_type": "website",
+        "repo_status": "Incomplete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/express_site",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"WordPress Block Editing Example",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-block-editing-example.png",
+        "repo_alt": "Starting your WordPress Theme off with a Block Editing Capable them structure",
+        "repo_description": "Starting your WordPress Theme off with a Block Editing Capable them structure",
+        "repo_url":"https://github.com/jg-digital-media/jgdm_block_editing_example",
+        "repo_type": "website",
+        "repo_status": "Incomplete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_block_editing_example",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"Android Repository",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-android.png",
+        "repo_alt": "Respository of android projects",
+        "repo_description": "Respository of android projects",
+        "repo_url":"https://github.com/jg-digital-media/android",
+        "repo_type": "website",
+        "repo_status": "Ongoing",
+        "repo_clone": "git clone https://github.com/jg-digital-media/android",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"Keycodes Repository [FORKED]",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/keycodes-repo.png",
+        "repo_alt": "Easy visualizer for JavaScript KeyCodes",
+        "repo_description": "Easy visualizer for JavaScript KeyCodes",
+        "repo_url":"https://github.com/jg-digital-media/keycodes",
+        "repo_type": "website",
+        "repo_status": "Ongoing",
+        "repo_clone": "git clone https://github.com/jg-digital-media/keycodes",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"ios_summaries Repository [FORKED]",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-ios-summaries-repo.png",
+        "repo_alt": "forked repository",
+        "repo_description": "forked repository",
+        "repo_url":"https://github.com/jg-digital-media/ios_summaries",
+        "repo_type": "website",
+        "repo_status": "Complete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/ios_summaries",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"ugliestcss Repository [FORKED]",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/ugliest-css-repo.png",
+        "repo_alt": "Just a simple web page for people to test out github",
+        "repo_description": "Just a simple web page for people to test out github",
+        "repo_url":"https://github.com/jg-digital-media/ugliestcss",
+        "repo_type": "website",
+        "repo_status": "Incomplete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/ugliestcss",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"Photography Website",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-photography-repo.png",
+        "repo_alt": "Private repository for my Photography website incliding json data, scripts and assets",
+        "repo_description": "Private repository for my Photography website incliding json data, scripts and assets",
+        "repo_url":"https://github.com/jg-digital-media/photography-website",
+        "repo_type": "website",
+        "repo_status": "Ongoing",
+        "repo_clone": "git clone https://github.com/jg-digital-media/photography-website",
+        "repo_privacy": "private"      
+
+    }, {
+
+        "repo_name":"JGDM Personal Dashboard App",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-personal-dashboard-app.png",
+        "repo_alt": "A single-page web app that acts as a mini personal hub to use and practice JavaScript DOM Scripting",
+        "repo_description": "A single-page web app that acts as a mini personal hub to use and practice JavaScript DOM Scripting",
+        "repo_url":"https://github.com/jg-digital-media/jgdm_personal_dashboard_dom",
+        "repo_type": "website",
+        "repo_status": "Incomplete",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm_personal_dashboard_dom",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"JGDM 100 Days of Code Repo",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-100daysofcode.png",
+        "repo_alt": "New repository for 100DaysOfCode",
+        "repo_description": "New repository for 100DaysOfCode",
+        "repo_url":"https://github.com/jg-digital-media/jgdm-100DaysOfCode",
+        "repo_type": "website",
+        "repo_status": "Ongoing",
+        "repo_clone": "git clone https://github.com/jg-digital-media/jgdm-100DaysOfCode",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"JGDM Subdomains Repository",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-subdomains-repo.png",
+        "repo_alt": "Private repository for developing projects on my subdomains",
+        "repo_description": "Private repository for developing projects on my subdomains",
+        "repo_url":"https://github.com/jg-digital-media/subdomains",
+        "repo_type": "website",
+        "repo_status": "Ongoing",
+        "repo_clone": "git clone https://github.com/jg-digital-media/subdomains",
+        "repo_privacy": "private"      
 
     }
 

@@ -2,7 +2,7 @@
 
 ## 100 Days of Code Challenge.
 
-+ **Status:** Round 2: Day 6 of 100. **Last Update:** 17-12-2025 13:39
++ **Status:** Round 2: Day 6 of 100. **Last Update:** 26-02-2026 16:28
 
 Logging now takes place in the public website for [JGDM 100DaysOfCode](https://landing.jonniegrieve.co.uk/100days_page).  
 
@@ -84,7 +84,7 @@ Logging now takes place in the public website for [JGDM 100DaysOfCode](https://l
     + sass_project
     + semantic_html_example 
     + showcase 
-    + web_checklist 
+    + website_checklist 
   + databases
     + project-list.json - `main project list`
     + project-list.sql - `main project list in sql code`

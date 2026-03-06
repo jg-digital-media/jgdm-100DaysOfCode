@@ -7,7 +7,7 @@ try {
     // Get parameters and clean them
     $team = isset($_GET['team']) ? trim($_GET['team'], ' "\'') : '';
     $isAway = isset($_GET['away']) && $_GET['away'] === '1';
-    $season = isset($_GET['season']) ? trim($_GET['season'], ' "\'') : '2025'; // Default to 2024/2025
+    $season = isset($_GET['season']) ? trim($_GET['season'], ' "\'') : '2026'; // Default to 2025/2026
     error_log("Received parameters - team: " . $team . ", isAway: " . ($isAway ? 'true' : 'false') . ", season: " . $season);
 
     if (empty($team)) {
@@ -17,9 +17,7 @@ try {
     // Determine which database to use based on season identifier
     $dbPath = '';
     if ($season === '2026') {
-        
-        $dbPath = '../assets/data/seasons/season-25-26.db'; // Current season (2025/26)
-
+        $dbPath = '../assets/data/seasons/season-25-26.db'; // 2025/26 season - current season
     } elseif ($season === '2025') {
         $dbPath = '../assets/data/seasons/season-24-25.db'; // 2024/25 season
     } elseif ($season === '2024') {

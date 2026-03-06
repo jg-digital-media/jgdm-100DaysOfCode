@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 26/11/2025 - 17:30");
+    console.log("app.js connected - 06/03/2025 - 10:28");
 
     const teamSelect = document.getElementById('select---home--team');
     const seasonSelect = document.getElementById('form---select--season');

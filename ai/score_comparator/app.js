@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 06/03/2025 - 10:42");
+    console.log("app.js connected - 06/03/2025 - 12:58");
 
     const teamSelect = document.getElementById('select---home--team');
     const seasonSelect = document.getElementById('form---select--season');
@@ -398,10 +398,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
             if (failedResponses.length > 0) {
 
-                return Promise.all(failedResponses.map(r => r.text()))
+                return Promise.all(failedResponses.map(async (r) => {
+                    const text = await r.text();
+                    let msg = text || `HTTP ${r.status}`;
+                    try {
+                        const json = JSON.parse(text);
+                        if (json.message) msg = json.message;
+                    } catch (_) {}
+                    return `[${r.url.split('/').pop()}] ${msg}`;
+                }))
                 .then(errorTexts => {
 
-                    throw new Error(`API request failed: ${errorTexts.join(', ')}`);
+                    throw new Error(`API request failed: ${errorTexts.join('; ')}`);
                 });
             }
             

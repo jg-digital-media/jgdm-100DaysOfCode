@@ -6,7 +6,7 @@ ini_set('display_errors', 0);
 try {
     
     // connect to database
-    @include '../../assets/template-parts/try-data-connection.php';
+    include __DIR__ . '/../../assets/template-parts/try-data-connection.php';
     
     $query = "SELECT * FROM bournemouth_away_matches ORDER BY away_team";
     $results = $db->query($query);

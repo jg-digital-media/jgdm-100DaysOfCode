@@ -25,9 +25,9 @@
     } elseif ($season === '2018') {
         $dbPath = '../../assets/data/seasons/season-17-18.db'; // 2017/18 season  
     } elseif ($season === '2016') {
-        $dbPath = '../../assets/data/seasons/season-17-18.db'; // 2015/16 season
+        $dbPath = '../../assets/data/seasons/season-15-16.db'; // 2015/16 season
     } elseif ($season === '2015') {
-        $dbPath = '../../assets/data/seasons/season-17-18.db'; // 2014/15 season
+        $dbPath = '../../assets/data/seasons/season-14-15.db'; // 2014/15 season
     } else {
 
         // Future proofing for other seasons

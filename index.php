@@ -166,7 +166,6 @@
             <li><strong><a href="css/sass_project" title="CSS/Sass Project" target="_blank">css/sass_project</a></strong> - Sass Project - <a href="https://projects.jonniegrieve.co.uk/sass_project" title="Sass Project Example" target="_blank">Live</a></li>
             <li><strong><a href="css/semantic_html_example" title="CSS/Semantic HTML Example" target="_blank">css/semantic_html_example</a></strong> - Semantic HTML Example - Live</a></li>
             <li><strong><a href="css/showcase" title="CSS/Showcase" target="_blank">css/showcase</a></strong> - Web Design Showcase - Live</li>
-            <li><strong><a href="css/website_checklist" title="CSS Website Checklist" target="_blank">css/website_checklist</a></strong> - Live
         </ul>
 
         <p id="section---javascript--projects"></p>

@@ -57,7 +57,6 @@ Logging now takes place in the public website for [JGDM 100DaysOfCode](https://l
       + score_comparator
       + one
       + tic_tac_toe
-      + web_checklist
       + work_counter
   + api
       + basic

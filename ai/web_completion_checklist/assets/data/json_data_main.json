@@ -1,0 +1,80 @@
+{
+  "seoLaunchChecklist": [
+    {
+      "category": "Basic Technical Setup",
+      "items": [
+        { "id": "gsc_verify", "label": "Add and verify site in Google Search Console", "completed": false },
+        { "id": "bing_verify", "label": "Add site to Bing Webmaster Tools", "completed": false },
+        { "id": "submit_sitemap", "label": "Submit XML sitemap", "completed": false },
+        { "id": "robots_check", "label": "Check robots.txt exists and is correct", "completed": false },
+        { "id": "indexable_check", "label": "Ensure site is indexable (no noindex tags)", "completed": false },
+        { "id": "canonical_tags", "label": "Confirm canonical tags are set correctly", "completed": false },
+        { "id": "preferred_domain", "label": "Set preferred domain (www or non-www)", "completed": false },
+        { "id": "https_redirect", "label": "Force HTTPS and check redirects", "completed": false },
+        { "id": "old_url_redirects", "label": "Set 301 redirects from old URLs", "completed": false }
+      ]
+    },
+    {
+      "category": "Page-Level SEO",
+      "items": [
+        { "id": "unique_titles", "label": "Add unique title tag to every page", "completed": false },
+        { "id": "meta_descriptions", "label": "Add meta descriptions to key pages", "completed": false },
+        { "id": "single_h1", "label": "Ensure one H1 per page", "completed": false },
+        { "id": "heading_structure", "label": "Check heading structure (H1 → H2 → H3)", "completed": false },
+        { "id": "clean_urls", "label": "Ensure URLs are clean and readable", "completed": false },
+        { "id": "internal_links", "label": "Add internal links between key pages", "completed": false },
+        { "id": "duplicate_content", "label": "Check for duplicate content", "completed": false }
+      ]
+    },
+    {
+      "category": "Content & Keywords",
+      "items": [
+        { "id": "primary_keyword", "label": "Each page targets a primary keyword/topic", "completed": false },
+        { "id": "keyword_usage", "label": "Keywords used naturally in titles and headings", "completed": false },
+        { "id": "image_alt_text", "label": "Add alt text to images", "completed": false },
+        { "id": "original_content", "label": "Content is original and helpful", "completed": false },
+        { "id": "content_depth", "label": "Important pages have sufficient content", "completed": false }
+      ]
+    },
+    {
+      "category": "Performance & Technical",
+      "items": [
+        { "id": "page_speed", "label": "Test page speed", "completed": false },
+        { "id": "image_optimisation", "label": "Optimise images", "completed": false },
+        { "id": "compression", "label": "Enable compression (Gzip or Brotli)", "completed": false },
+        { "id": "mobile_friendly", "label": "Check mobile friendliness", "completed": false },
+        { "id": "broken_links", "label": "Fix broken links", "completed": false },
+        { "id": "crawl_errors", "label": "Check for crawl errors", "completed": false }
+      ]
+    },
+    {
+      "category": "Structured Data & Social",
+      "items": [
+        { "id": "schema_markup", "label": "Add structured data (Schema markup)", "completed": false },
+        { "id": "open_graph", "label": "Add Open Graph tags", "completed": false },
+        { "id": "twitter_cards", "label": "Add Twitter/X card tags", "completed": false },
+        { "id": "social_preview", "label": "Test social sharing previews", "completed": false }
+      ]
+    },
+    {
+      "category": "Analytics & Tracking",
+      "items": [
+        { "id": "analytics_install", "label": "Install Google Analytics", "completed": false },
+        { "id": "analytics_test", "label": "Confirm analytics tracking works", "completed": false },
+        { "id": "conversion_goals", "label": "Set up conversion goals or events", "completed": false },
+        { "id": "gsc_link", "label": "Link Search Console with Analytics", "completed": false }
+      ]
+    },
+    {
+      "category": "Final Pre-Launch Checks",
+      "items": [
+        { "id": "favicon", "label": "Check favicon appears correctly", "completed": false },
+        { "id": "custom_404", "label": "Create a custom 404 page", "completed": false },
+        { "id": "contact_info", "label": "Ensure contact information is visible", "completed": false },
+        { "id": "privacy_policy", "label": "Add privacy policy", "completed": false },
+        { "id": "cookie_notice", "label": "Add cookie notice if required", "completed": false },
+        { "id": "forms_test", "label": "Test forms and CTAs", "completed": false }
+      ]
+    }
+  ]
+}

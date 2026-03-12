@@ -488,9 +488,17 @@
             "description": "The hoary-headed grebe is a fairly small dark grey and white grebe. (Not found in the UK)",
             "lightbox": "Filterable Birds",
             "photo_date": "07/02/2026",
+            "filter_classes": "" 
+        }, {
+
+            "name": "Common Kestrel",
+            "scientific_name": "Falco Tinnunculus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_1076.JPG",
+            "filename": "IMG_1076.JPG",
+            "description": "Common Kestrel is is a species of predatory bird belonging to the kestrel group of the falcon family Falconidae.",
+            "lightbox": "Filterable Birds",
+            "photo_date": "21/02/2026",
             "filter_classes": ""     
-
-
         } 
         
         

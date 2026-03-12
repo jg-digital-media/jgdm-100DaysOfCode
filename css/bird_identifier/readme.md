@@ -1,9 +1,28 @@
-# Bird Identifer Website (2026) `16-01-2026 15:24`
+# Bird Identifer Website (2026) `12-03-2026 - 12:19`
 
-## Birds to Look out for...
+## Sections
+
+## [Task List](#task-list) | [Bird Watchlist](#bird-watchlist) | [Birds Classes - Filter Class List](#bird-classes---filter-class-list)
+
+### Task List  
+
+### Tasks `3` Completed `0` 
+
+
++ `TODO:` make data searchable on filterable page
++ `TODO:` add filterable page
++ `TODO:` debug console errors - scripts - slick - lightbox
+
+[Back to Top](#)
+
+
+## Bird Watchlist
 
 + Eagle
 + ...
+
+
+[Back to Top](#)
 
 ## Bird Classes - Filter Class List
 
@@ -29,3 +48,5 @@
     bird---class--grey
 
 ```
+
+[Back to Top](#)

@@ -1,0 +1,116 @@
+
+// Last updated: 16-04-2026 - 10:04 AM
+
+$font---main: Georgia, 'Times New Roman', Times, serif;
+$body---bg: #ffffff;
+
+$bg---secondary: #f5f5f5;
+
+$border-color: #ededed;
+
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: $font---main;
+    background: $body---bg;
+
+    h1 {
+
+        text-align: center;
+
+    }
+
+    .main---list--container {
+
+        background: none;
+        display: block;
+        width: 400px;
+        margin: 0 auto;
+
+        h2 {
+
+            text-align: center;
+        }
+
+        .list-item {
+
+            background: none;
+            margin: 29px auto;
+            border: solid 1px $border-color;
+            border-radius: 6px;
+            font-size: 12px;
+            padding: 18px;
+            margin: 12px auto;
+
+            transition: background 0.3s ease-in-out;
+
+            &:hover {
+
+                background: $bg---secondary;
+            }
+
+            h3 {
+
+
+            }
+
+            
+
+            p {
+
+                strong {
+
+
+                }
+            }
+
+            div.links {
+
+                display: flex;
+                justify-content: space-between;
+                font-weight: bold;
+
+                font-size: 10px;
+
+                a {
+
+                    color: #169392;
+                    font-weight: normal;
+
+                    transition: color 0.3s ease-in-out;
+
+                    &:hover {
+
+                        color: red;
+                        text-decoration: underline;
+                    }
+                    
+                }
+
+            }
+
+        }
+
+    }
+
+    /* ul {
+
+        li {
+
+            a {
+
+                color: red;
+
+                &:hover {
+
+                    text-decoration: underline;
+                }
+            }
+        }
+    } */
+}

@@ -504,6 +504,30 @@
         "repo_clone": "git clone https://github.com/jg-digital-media/subdomains",
         "repo_privacy": "private"      
 
+    }, {
+
+        "repo_name":"Slim Project (PHP Daily Quote App)",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-subdomains-repo.png",
+        "repo_alt": "repository description details will go here",
+        "repo_description": "repository description details will go here",
+        "repo_url":"https://github.com/jg-digital-media/slim_project",
+        "repo_type": "website",
+        "repo_status": "Ongoing",
+        "repo_clone": "git clone https://github.com/jg-digital-media/slim_project",
+        "repo_privacy": "public"      
+
+    }, {
+
+        "repo_name":"Express.js Project (Daily Quote App)",
+        "repo_img": "https://repositories.jonniegrieve.co.uk/img/repos/jgdm-subdomains-repo.png",
+        "repo_alt": "repository description details will go here",
+        "repo_description": "repository description details will go here",
+        "repo_url":"https://github.com/jg-digital-media/express_project",
+        "repo_type": "website",
+        "repo_status": "Ongoing",
+        "repo_clone": "git clone https://github.com/jg-digital-media/express_project",
+        "repo_privacy": "public"      
+
     }
 
 ]

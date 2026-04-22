@@ -1,4 +1,4 @@
-console.log("app.js connected! - 28-11-2025 - 14:03");
+console.log("app.js connected! - 22-04-2026 - 13:40");
 
 // Slick Carousels - with jQuery
 $(document).ready(function() {
@@ -162,6 +162,94 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    function mapFilterToClass(filterType, value) {
+        if (filterType === 'size' && value === 'prey') {
+            return 'bird---class--birdprey';
+        }
+        return `bird---class--${value}`;
+    }
+
+    /**
+     * Applies habitat/size/color checkbox filters and optional text search on bird names.
+     * Empty search shows all birds that satisfy the checkbox filters.
+     */
+    function applyBirdFilters() {
+        const birdsContainer = document.querySelector('.filterable---birds--container');
+        if (!birdsContainer) {
+            return;
+        }
+
+        const selectedFilters = {
+            habitat: Array.from(document.querySelectorAll('input[name="habitat"]:checked')).map(cb => cb.value),
+            size: Array.from(document.querySelectorAll('input[name="size"]:checked')).map(cb => cb.value),
+            color: Array.from(document.querySelectorAll('input[name="color"]:checked')).map(cb => cb.value)
+        };
+
+        const searchInput = document.getElementById('search-input');
+        const queryLower = searchInput && searchInput.value.trim()
+            ? searchInput.value.trim().toLowerCase()
+            : '';
+
+        const birdItems = document.querySelectorAll('.bird---item');
+        let visibleBirds = 0;
+
+        birdItems.forEach(function(bird) {
+            let show = true;
+
+            if (selectedFilters.habitat.length > 0) {
+                const hasMatchingHabitat = selectedFilters.habitat.some(h =>
+                    bird.classList.contains(mapFilterToClass('habitat', h))
+                );
+                if (!hasMatchingHabitat) {
+                    show = false;
+                }
+            }
+
+            if (show && selectedFilters.size.length > 0) {
+                const hasMatchingSize = selectedFilters.size.some(s =>
+                    bird.classList.contains(mapFilterToClass('size', s))
+                );
+                if (!hasMatchingSize) {
+                    show = false;
+                }
+            }
+
+            if (show && selectedFilters.color.length > 0) {
+                const hasMatchingColor = selectedFilters.color.some(c =>
+                    bird.classList.contains(mapFilterToClass('color', c))
+                );
+                if (!hasMatchingColor) {
+                    show = false;
+                }
+            }
+
+            if (show && queryLower.length > 0) {
+                const nameEl = bird.querySelector('.bird_name');
+                const nameText = nameEl ? nameEl.textContent.toLowerCase() : '';
+                if (!nameText.includes(queryLower)) {
+                    show = false;
+                }
+            }
+
+            bird.style.display = show ? 'block' : 'none';
+            if (show) {
+                visibleBirds++;
+            }
+        });
+
+        updateFilterCount();
+
+        let noResultsMsg = document.getElementById('no-results-message');
+        if (!noResultsMsg) {
+            noResultsMsg = document.createElement('div');
+            noResultsMsg.id = 'no-results-message';
+            noResultsMsg.className = 'no-results-message';
+            noResultsMsg.innerHTML = 'There are no birds that match all your chosen filters. Please clear the filters and try again.';
+            birdsContainer.appendChild(noResultsMsg);
+        }
+        noResultsMsg.style.display = visibleBirds === 0 ? 'block' : 'none';
+    }
+
     // Set initial count on page load
     updateFilterCount();
 
@@ -173,142 +261,51 @@ document.addEventListener('DOMContentLoaded', function() {
         checkbox.addEventListener('change', updateFilteredLabels);
     });
 
-    // Element Selections for Toggle Filters Button
     const toggleBtn = document.getElementById('toggle-filters');
     const filtersContainer = document.getElementById('filters-container');
-    
-    // Toggle Filters Button event listener
-    toggleBtn.addEventListener('click', function(e) {
-        e.preventDefault(); // Prevent default anchor behavior and scroll
 
-        filtersContainer.classList.toggle('closed');
-        toggleBtn.textContent = filtersContainer.classList.contains('closed') ? 'Show Filters' : 'Hide Filters';
-    });
+    if (toggleBtn && filtersContainer) {
+        toggleBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            filtersContainer.classList.toggle('closed');
+            toggleBtn.textContent = filtersContainer.classList.contains('closed') ? 'Show Filters' : 'Hide Filters';
+        });
+    }
 
-    // Filter functionality
     const applyFiltersBtn = document.getElementById('apply-filters');
     const resetFiltersBtn = document.getElementById('reset-filters');
-    
-    // Apply Filters Button event listener
-    applyFiltersBtn.addEventListener('click', function(e) {
-        e.preventDefault(); // Prevent default anchor behavior and scroll
-        
-        // track number of visible birds in filter
-        let visibleBirds = 0;
+    const searchInput = document.getElementById('search-input');
+    const searchBtn = document.getElementById('search-btn');
 
-        const selectedFilters = {
-
-            // group filters by habitat, size, and colour
-            habitat: Array.from(document.querySelectorAll('input[name="habitat"]:checked')).map(cb => cb.value),
-            size: Array.from(document.querySelectorAll('input[name="size"]:checked')).map(cb => cb.value),
-            color: Array.from(document.querySelectorAll('input[name="color"]:checked')).map(cb => cb.value)
-        };
-
-
-        // Map filter values to CSS class names
-        function mapFilterToClass(filterType, value) {
-            if (filterType === 'size' && value === 'prey') {
-                return 'bird---class--birdprey';
-            }
-            return `bird---class--${value}`;
-        }
-
-        // Filter the birds list
-        const birdItems = document.querySelectorAll('.bird---item');        
-
-        birdItems.forEach(function(bird) {
-
-            let show = true;
-
-            // Check habitat filters
-            if (selectedFilters.habitat.length > 0) {
-
-                const hasMatchingHabitat = selectedFilters.habitat.some(h => 
-                    bird.classList.contains(mapFilterToClass('habitat', h))
-                );
-
-                if (!hasMatchingHabitat) {
-                    show = false;
-                }
-            }
-
-            // Check size filters
-            if (selectedFilters.size.length > 0) {
-
-                const hasMatchingSize = selectedFilters.size.some(s => 
-                    bird.classList.contains(mapFilterToClass('size', s))
-                );
-
-                if (!hasMatchingSize) {
-                    show = false;
-                }
-            }
-
-            // Check color filters
-            if (selectedFilters.color.length > 0) {
-
-                const hasMatchingColor = selectedFilters.color.some(c => 
-                    bird.classList.contains(mapFilterToClass('color', c))
-                );
-
-                if (!hasMatchingColor) {
-                    show = false;
-                }
-            }
-
-            // Show/hide the bird item
-            bird.style.display = show ? 'block' : 'none';
-
-            if (show) visibleBirds++;
+    if (applyFiltersBtn) {
+        applyFiltersBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            applyBirdFilters();
         });
+    }
 
-        // Update the filter count display
-        updateFilterCount();
+    if (resetFiltersBtn) {
+        resetFiltersBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelectorAll('input[type="checkbox"]').forEach(cb => { cb.checked = false; });
+            if (searchInput) {
+                searchInput.value = '';
+            }
+            applyBirdFilters();
+            updateFilteredLabels();
+            const noResultsMsg = document.getElementById('no-results-message');
+            if (noResultsMsg) {
+                noResultsMsg.remove();
+            }
+        });
+    }
 
-        // Show/hide no results message
-        let noResultsMsg = document.getElementById('no-results-message');
-
-        if (!noResultsMsg) {
-
-            // if no images exist, create a new message element explaining this
-            noResultsMsg = document.createElement('div');
-            noResultsMsg.id = 'no-results-message';
-            noResultsMsg.className = 'no-results-message';
-            noResultsMsg.innerHTML = 'There are no birds that match all your chosen filters. Please clear the filters and try again.';
-            document.querySelector('.filterable---birds--container').appendChild(noResultsMsg);
-        }
-
-        noResultsMsg.style.display = visibleBirds === 0 ? 'block' : 'none';
-    });
-
-    // Reset filters button
-    resetFiltersBtn.addEventListener('click', function(e) {
-        e.preventDefault(); // Prevent default anchor behavior and scroll
-
-        // Uncheck all checkboxes
-        document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
-        
-        // Show all birds
-        document.querySelectorAll('.bird---item').forEach(bird => bird.style.display = 'block');
-
-        // Show all birds - duplicate? 
-        document.querySelectorAll('.bird---item').forEach(bird => bird.style.display = 'block');
-
-        // Update the filter count display
-        updateFilterCount();
-
-        // Update filtered class on labels on filter reset
-        updateFilteredLabels();
-
-        // Remove the no results message if it exists
-        const noResultsMsg = document.getElementById('no-results-message');
-
-        if (noResultsMsg) {
-
-            // Completely removes the message element
-            noResultsMsg.remove(); 
-        }
-    });
+    if (searchInput) {
+        searchInput.addEventListener('input', applyBirdFilters);
+    }
+    if (searchBtn) {
+        searchBtn.addEventListener('click', applyBirdFilters);
+    }
     
     // Lightbox functionality in filterable.php 
 

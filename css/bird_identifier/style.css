@@ -1,4 +1,4 @@
-/* Last Updated: 28/11/2025 - 11:36 */
+/* Last Updated: 22/04/2026 - 13:41 */
 body main#container .filter-section .toggle-filters-btn {
   display: block;
   padding: 7px;
@@ -141,6 +141,24 @@ body main#container .filter-section .toggle-filters-btn {
   display: inline-block;
   /* width: 115px; */
   margin: 11px 4px;
+}
+body main#container .search-section {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+body main#container .search-section #search-input {
+  width: auto;
+  border-radius: 5px;
+  padding: 5px;
+  border: solid 1px #bbbaba;
+  transition: background 0.3s;
+}
+body main#container .search-section #search-input:hover {
+  background: #93e9ff;
+}
+body main#container .search-section button {
+  cursor: pointer;
 }
 body main#container section.introductory---text {
   display: block;

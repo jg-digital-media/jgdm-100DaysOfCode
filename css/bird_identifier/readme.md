@@ -1,4 +1,4 @@
-# Bird Identifer Website (2026) `22-04-2026 - 13:40`
+# Bird Identifer Website (2026) `22-04-2026 - 13:48`
 
 ## Sections
 
@@ -6,13 +6,14 @@
 
 ### Task List  
 
-### Tasks `3` Completed `0` 
+### Tasks `4` Completed `0` 
 
 
 + `TODO:` make data searchable on filterable page
 + `TODO:` add filterable page
 + `TODO:` debug console errors - scripts - slick - lightbox
 + `TODO:` Add search for scientific names, add that text in the markup (e.g. a data- attribute from birds.json).
++ `TODO:` Can we preload a slick carousel image to appear until the rest of the images load
 
 [Back to Top](#)
 

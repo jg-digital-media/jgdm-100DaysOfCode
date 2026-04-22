@@ -52,10 +52,7 @@
 
         <a href="index.php" id="back---home">Back to Homepage</a>
 
-        <h2>Filtered Bird List (<div id="filter---count">N</div>)</h2>
-        
-        <!-- Add toggle buttons -->
-
+        <h2>Filtered Bird List (<div id="filter---count">N</div>)</h2>        
 
         <div class="filter-section">
 
@@ -64,7 +61,13 @@
             <a href="" class="toggle-filters-btn" id="reset-filters">Reset Filters</a>
 
         </div>
-       
+
+        <div class="search-section">
+
+            <input type="text" id="search-input" placeholder="Search for a bird...">
+            <button type="button" id="search-btn">Search</button>
+
+        </div>       
 
         <!-- Wrap filter section in a container with closed state -->
         <div id="filters-container" class="filters-container closed">

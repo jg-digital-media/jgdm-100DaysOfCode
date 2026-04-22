@@ -1,4 +1,4 @@
-# Bird Identifer Website (2026) `12-03-2026 - 12:19`
+# Bird Identifer Website (2026) `22-04-2026 - 13:40`
 
 ## Sections
 
@@ -12,6 +12,7 @@
 + `TODO:` make data searchable on filterable page
 + `TODO:` add filterable page
 + `TODO:` debug console errors - scripts - slick - lightbox
++ `TODO:` Add search for scientific names, add that text in the markup (e.g. a data- attribute from birds.json).
 
 [Back to Top](#)
 

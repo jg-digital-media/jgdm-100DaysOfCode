@@ -1,5 +1,20 @@
 $bg---body: #ffffff;
 
+$bg---header: #007bff;
+$col---header: #c0edf9;
+
+$url---colour: #007bff;
+
+$button---bg: #007bff;
+
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
 
     background: $bg---body;
@@ -7,13 +22,16 @@ body {
 
     header {
 
-        margin: 20px auto;
+        background: $bg---header;
+        color: $col---header;
+        padding: 20px 0;
         text-align: center;
 
         h2 {
 
             font-size: 24px;
         }
+
     }
 
     main {
@@ -21,10 +39,27 @@ body {
         nav {
 
             text-align: center;
+            margin: 32px auto;
+
+            a {
+
+                margin: 0 6px;
+            }
 
             a.ajax-nav {
 
-                color: blue;
+                background: #007bff;
+                color: rgb(255, 255, 255);
+                padding: 6px 10px;
+                text-decoration: none;
+                border-radius: 8px;
+
+                transition: background 0.3s ease;
+
+                &:hover {
+
+                    background: #47a0ff;
+                }
                 
             }
 
@@ -35,13 +70,27 @@ body {
             display: block;
             margin: 6px auto;
             text-align: center;
-            padding: 2px;
+            padding: 6px;
+            border-radius: 6px;
+            border: solid 2px blue;
+            background: blue;
+            background: $button---bg;
+            color: white;
+
+            cursor: pointer;
+
+            transition: background 0.3s ease;
+
+            &:hover {
+
+                background: lighten($button---bg, 10%);
+            }
         }
 
         #ajax {
 
             margin: 6px auto;
-            padding: 5px 0;
+            padding: 10px 0;
             text-align: center;
         }
     }
@@ -55,6 +104,15 @@ body {
             a {
 
                 color: blue;
+                color: $url---colour;
+
+                transition: color 0.3s ease;
+
+                &:hover {
+
+                    text-decoration: underline;
+                    color: darken($url---colour, 10%);
+                }
 
             }
         }

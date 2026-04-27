@@ -1,8 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: #ffffff;
 }
 body header {
-  margin: 20px auto;
+  background: #007bff;
+  color: #c0edf9;
+  padding: 20px 0;
   text-align: center;
 }
 body header h2 {
@@ -10,19 +18,41 @@ body header h2 {
 }
 body main nav {
   text-align: center;
+  margin: 32px auto;
+}
+body main nav a {
+  margin: 0 6px;
 }
 body main nav a.ajax-nav {
-  color: blue;
+  background: #007bff;
+  color: rgb(255, 255, 255);
+  padding: 6px 10px;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+body main nav a.ajax-nav:hover {
+  background: #47a0ff;
 }
 body main #load {
   display: block;
   margin: 6px auto;
   text-align: center;
-  padding: 2px;
+  padding: 6px;
+  border-radius: 6px;
+  border: solid 2px blue;
+  background: blue;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+body main #load:hover {
+  background: #3395ff;
 }
 body main #ajax {
   margin: 6px auto;
-  padding: 5px 0;
+  padding: 10px 0;
   text-align: center;
 }
 body footer p {
@@ -30,6 +60,12 @@ body footer p {
 }
 body footer p a {
   color: blue;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+body footer p a:hover {
+  text-decoration: underline;
+  color: #0062cc;
 }
 
 /*# sourceMappingURL=style.css.map */

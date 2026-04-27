@@ -1,0 +1,35 @@
+body {
+  background: #ffffff;
+}
+body header {
+  margin: 20px auto;
+  text-align: center;
+}
+body header h2 {
+  font-size: 24px;
+}
+body main nav {
+  text-align: center;
+}
+body main nav a.ajax-nav {
+  color: blue;
+}
+body main #load {
+  display: block;
+  margin: 6px auto;
+  text-align: center;
+  padding: 2px;
+}
+body main #ajax {
+  margin: 6px auto;
+  padding: 5px 0;
+  text-align: center;
+}
+body footer p {
+  text-align: center;
+}
+body footer p a {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

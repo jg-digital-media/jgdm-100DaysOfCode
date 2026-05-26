@@ -1,4 +1,4 @@
-/* Last Update: 26/05/2026 - 11:36 */
+/* Last Update: 26/05/2026 - 11:46 */
 
 /* Match List - Season: 25/26
 
@@ -480,7 +480,7 @@ INSERT INTO arsenal_home_matches (home_team, home_score, away_team, away_score, 
     ('Arsenal', 3, 'Sunderland', 0, 1),
     ('Arsenal', 4, 'Tottenham Hotspur', 1, 1),
     ('Arsenal', 2, 'West Ham United', 0, 1),    
-    ('Arsenal', 0, 'Wolverhampton Wanderers', 0, 0);
+    ('Arsenal', 2, 'Wolverhampton Wanderers', 1, 1);
 
 INSERT INTO astonvilla_home_matches (home_team, home_score, away_team, away_score, played) VALUES
     ('Aston Villa', 4, 'AFC Bournemouth', 0, 1),
@@ -690,7 +690,7 @@ INSERT INTO manchestercity_home_matches (home_team, home_score, away_team, away_
     ('Manchester City', 1, 'Brighton & Hove Albion', 1, 1),
     ('Manchester City', 5, 'Burnley', 1, 1),
     ('Manchester City', 1, 'Chelsea', 1, 1),
-    ('Manchester City', 0, 'Crystal Palace', 0, 0),
+    ('Manchester City', 3, 'Crystal Palace', 0, 1),
     ('Manchester City', 2, 'Everton', 0, 1),
     ('Manchester City', 3, 'Fulham', 0, 1),
     ('Manchester City', 3, 'Leeds United', 2, 1),
@@ -978,7 +978,7 @@ INSERT INTO crystalpalace_away_matches (home_team, home_score, away_team, away_s
     ('Fulham', 1, 'Crystal Palace', 2, 1),
     ('Leeds United', 4, 'Crystal Palace', 1, 1),
     ('Liverpool', 3, 'Crystal Palace', 1, 1),
-    ('Manchester City', 0, 'Crystal Palace', 0, 0),
+    ('Manchester City', 3, 'Crystal Palace', 0, 1),
     ('Manchester United', 2, 'Crystal Palace', 1, 1),
     ('Nottingham Forest', 1, 'Crystal Palace', 1, 1),
     ('Sunderland', 2, 'Crystal Palace', 1, 1),
@@ -992,7 +992,7 @@ INSERT INTO everton_away_matches (home_team, home_score, away_team, away_score, 
     ('Aston Villa', 0, 'Everton', 1, 1),
     ('Brentford', 2, 'Everton', 2, 1),
     ('Brighton & Hove Albion', 1, 'Everton', 1, 1),
-    ('Burnley', 0, 'Everton', 0, 0),
+    ('Burnley', 0, 'Everton', 0, 1),
     ('Chelsea', 2, 'Everton', 0, 1),
     ('Crystal Palace', 2, 'Everton', 2, 1),
     ('Fulham', 1, 'Everton', 2, 1),

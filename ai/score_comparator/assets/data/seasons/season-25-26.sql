@@ -1,4 +1,4 @@
-/* Last Update: 26/05/2026 - 11:46 */
+/* Last Update: 26/05/2026 - 12:18 */
 
 /* Match List - Season: 25/26
 
@@ -616,7 +616,7 @@ INSERT INTO everton_home_matches (home_team, home_score, away_team, away_score, 
     ('Everton', 1, 'Liverpool', 2, 1),
     ('Everton', 3, 'Manchester City', 3, 1),
     ('Everton', 0, 'Manchester United', 1, 1),
-    ('Everton', 3, 'Nottingham Forest', 1, 1),
+    ('Everton', 3, 'Nottingham Forest', 0, 1),
     ('Everton', 1, 'Sunderland', 3, 1),
     ('Everton', 0, 'Tottenham Hotspur', 3, 1),
     ('Everton', 1, 'West Ham United', 1, 1),
@@ -1033,7 +1033,7 @@ INSERT INTO leeds_away_matches (home_team, home_score, away_team, away_score, pl
     ('Brentford', 1, 'Leeds United', 1, 1),
     ('Brighton & Hove Albion', 3, 'Leeds United', 0, 1),
     ('Burnley', 2, 'Leeds United', 0, 1),
-    ('Chelsea', 1, 'Leeds United', 2, 1),
+    ('Chelsea', 2, 'Leeds United', 2, 1),
     ('Crystal Palace', 0, 'Leeds United', 0, 1),
     ('Everton', 1, 'Leeds United', 1, 1),
     ('Fulham', 1, 'Leeds United', 0, 1),

@@ -57,7 +57,7 @@
     <header>
 
         <h1 class="main---title">Football Score Comparator</h1>
-        <div class="tagline">Based on Newcastle United <span>(v3.7)</span> <span id="back---home"><a href="index.php">Back to Homepage</a></span></div>
+        <div class="tagline">Based on Newcastle United <span>(v3.8)</span> <span id="back---home"><a href="index.php">Back to Homepage</a></span></div>
         
     </header>
 
@@ -179,11 +179,22 @@
 
         <ul class="development---history"> 
 
-            <li>Expanded the app for readiness to add match data for season <code><strong>2015/2016</strong></code>
+            <li>Expanded the app for readiness to add match data for season <code><strong>2015/2016</strong></code></li>
             <li>Concurrently, I'm adding the scores incrementally for the <code><strong>2025/2026</strong></code> season which began during this phase. (15/08/2025)</li>
-            <li>Complete seasons include: <code><strong>2024/2025</strong></code>, <code><strong>2023/2024</strong></code>, <code><strong>2022/2023</strong></code>, <code><strong>2021/2022</strong></code> <code><strong>2020/2021</strong></code> <code><strong>2019/2020</strong></code>, <code><strong>2018/2019</strong> </code>, <strong>2017/2018 and <code><strong>2015/2016</strong></code>
+            <li>Complete seasons include: <code><strong>2024/2025</strong></code>, <code><strong>2023/2024</strong></code>, <code><strong>2022/2023</strong></code>, <code><strong>2021/2022</strong></code> <code><strong>2020/2021</strong></code>, <code><strong>2019/2020</strong></code>, <code><strong>2018/2019</strong></code>, <strong><code>2017/2018</code></strong>, and <code><strong>2015/2016</strong></code>
             <!-- <li><code><strong>Phase ends (10/09/2025)</strong></code></li> -->
             <li><code><strong>Phase ends (25/11/2025)</strong></code></li>
+        </ul>    
+
+         <code class="version---heading">v3.8</code>
+
+        <ul class="development---history"> 
+
+            <li>Following the completion of the <code><strong>2025/2026</strong></code> premier league season, the scores for this season have been added. for season <code><strong>2015/2016</strong></code></li>
+            <li>Concurrently, the work in 3.7 is ongoing for adding scores for <code><strong>2015/2016</strong></code> season.</li>
+            <li>Complete seasons include: <code><strong>2024/2025</strong></code>, <code><strong>2023/2024</strong></code>, <code><strong>2022/2023</strong></code>, <code><strong>2021/2022</strong></code> <code><strong>2020/2021</strong></code>, <code><strong>2019/2020</strong></code>, <code><strong>2018/2019</strong></code>, <strong><code>2017/2018</code></strong>, and <code><strong>2015/2016</strong></code>.
+            <!-- <li><code><strong>Phase ends (10/09/2025)</strong></code></li> -->
+            <!-- <li><code><strong>Phase ends (25/11/2025)</strong></code></li> -->
         </ul>    
 
         <h2>Points to take.</h2>
@@ -198,7 +209,7 @@
 
         <p class="disclaimer"><strong>Disclaimer: </strong>While every effort has been and will be made to ensure accuracy of the match results some errors are all but inevitable. If you spot a discrepancy or inaccuracy in the data, <a href="mailto: mail@jonniegrieve.co.uk">please let me know</a>.</p>
 
-        <p>Data last updated: <strong>23-06-2025</strong></p>
+        <p>Data last updated: <strong>26-05-2026</strong></p>
 
         <a href="index.php" class="back---to--match-tables">Back to the Match Tables</a>
 
@@ -237,7 +248,7 @@
 
     <footer>
         
-        &copy; (2025) Created by <a href="https://www.jonniegrieve.co.uk" target="_blank">Jonnie Grieve Digital Media</a> All Rights Reserved
+        &copy; (2026) Created by <a href="https://www.jonniegrieve.co.uk" target="_blank">Jonnie Grieve Digital Media</a> All Rights Reserved
         
     </footer>
 

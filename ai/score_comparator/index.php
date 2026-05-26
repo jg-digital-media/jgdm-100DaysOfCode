@@ -53,7 +53,7 @@
     <header>
 
         <h1 class="main---title">Football Score Comparator</h1>
-        <div class="tagline">Based on Newcastle United <span>(v3.7)</span> <span id="about---this--app"><a href="about.php">About this app</a></span></div>
+        <div class="tagline">Based on Newcastle United <span>(v3.8)</span> <span id="about---this--app"><a href="about.php">About this app</a></span></div>
         
     </header>
 
@@ -132,7 +132,7 @@
 
     <footer>
         
-        &copy; (2025) Created by <a href="https://www.jonniegrieve.co.uk" target="_blank">Jonnie Grieve Digital Media</a> All Rights Reserved
+        &copy; (2026) Created by <a href="https://www.jonniegrieve.co.uk" target="_blank">Jonnie Grieve Digital Media</a> All Rights Reserved
         
     </footer>
 

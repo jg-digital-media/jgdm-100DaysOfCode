@@ -173,11 +173,11 @@
 
             "name": "Common Moorhen",     
             "scientific_name": "Gallinula chloropus",
-            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_2286.JPG",
-            "filename": "IMG_2286.JPG",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3790.JPG",
+            "filename": "IMG_3790.JPG",
             "description": "A dark waterbird with a red and yellow beak and long toes, often seen on ponds and canals.",
             "lightbox": "Filterable Birds",
-            "photo_date": "03/03/2025",
+            "photo_date": "22/05/2026",
             "filter_classes": "bird---class--water  bird---class--large bird---class--mixed-brown"
         }, {
 
@@ -478,7 +478,7 @@
             "description": "A Redwing is also the UK's smallest true thrush, a common winter visitor identified by its creamy eye stripe and red flank ",
             "lightbox": "Filterable Birds",
             "photo_date": "03/01/2026",
-            "filter_classes": ""           
+            "filter_classes": "bird---class--mixed-brown bird---class--countryside bird---class--garden"           
         }, {
 
             "name": "Hoary headed Grebe [pending] ",
@@ -488,7 +488,7 @@
             "description": "The hoary-headed grebe is a fairly small dark grey and white grebe. (Not found in the UK)",
             "lightbox": "Filterable Birds",
             "photo_date": "07/02/2026",
-            "filter_classes": "" 
+            "filter_classes": "bird---class--grey bird---class--medium bird---class--countryside bird---class--water"
         }, {
 
             "name": "Common Kestrel",
@@ -498,8 +498,49 @@
             "description": "Common Kestrel is is a species of predatory bird belonging to the kestrel group of the falcon family Falconidae.",
             "lightbox": "Filterable Birds",
             "photo_date": "21/02/2026",
-            "filter_classes": ""     
-        } 
+            "filter_classes": "bird---class--bird-of-prey bird---class--large bird---class--countryside"
+        },  {
+
+            "name": "Common Redshank",
+            "scientific_name": "Tringa totanus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3961.JPG",
+            "filename": "IMG_3961",            
+            "description": "A common wading bird of the Scolopacidae family, with bright orange-red legs and bill",
+            "lightbox": "Filterable Birds",
+            "photo_date": "30-05-2026",
+            "filter_classes": "bird---class--red-orange bird---class--garden bird---class--small bird---class--urban bird---class--countryside bird---class--coastal"           
+        }, {
+
+            "name": "Greylag Goose",
+            "scientific_name": "Anser anser",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3920.JPG",
+            "filename": "IMG_3920.JPG",            
+            "description": "The greylag goose is a species of large goose in the waterfowl family Anatidae and the type species of the genus Anser. It has mottled and barred grey and white plumage and an orange beak and pink legs.",
+            "lightbox": "Filterable Birds",
+            "photo_date": "25-05-2026",
+            "filter_classes": "bird---class--mixed-grey bird---class--large bird---class--water bird---class--countryside bird---class--coastal"      
+                 
+        },  {
+
+            "name": "Sedge Warbler",
+            "scientific_name": "Acrocephalus schoenobaenu",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3858.JPG",
+            "filename": "IMG_3858.JPG",            
+            "description": "The Sedge Warbler is a small, quite plump warbler with a striking broad creamy stripe above its eye and greyish-brown legs",
+            "lightbox": "Filterable Birds",
+            "photo_date": "25-05-2026",
+            "filter_classes": "bird---class--white bird---class--large countryside"
+        }, {
+
+            "name": "Blue Tit ",
+            "scientific_name": "Cyanistes caeruleus",
+            "image": "https://jgdm-projects.s3.eu-west-2.amazonaws.com/bird_identifier/IMG_3855.JPG",
+            "filename": "IMG_3855.JPG",            
+            "description": "The Eurasian blue tit is a small passerine bird in the tit family, Paridae. It is easily recognised by its blue and yellow plumage and small size",
+            "lightbox": "Filterable Birds",
+            "photo_date": "25-05-2026",
+            "filter_classes": "bird---class--blue bird---class-yellow bird---class-small bird---class--countryside bird---class--garden"           
+        }
         
         
     ]

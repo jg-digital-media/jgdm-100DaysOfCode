@@ -7,7 +7,7 @@
  * 
  */
 
-console.log("app.js - connected! - 24-06-2026 - 15:19");
+console.log("app.js - connected! - 24-06-2026 - 15:59");
 
 // select navigation menu elements
 const hamburgerIcon = document.querySelector('.hamburger-icon');
@@ -43,6 +43,7 @@ const sampleOpacity = document.getElementById("sample---css--opacity");
 const sampleBackground = document.getElementById("sample---css--backgrounds");
 const sampleBackgroundProperties = document.getElementById("sample---css--background-properties");
 const sampleTransforms = document.getElementById("sample---css--transforms");
+const sampleTextVisibility = document.getElementById("sample---css--visibility");
 
 // Get the real time text style values
 const fontWeightValue = document.getElementById("font---weight");
@@ -87,6 +88,9 @@ const backgroundSizeValue = document.getElementById("background---size");
 const backgroundPositionValue = document.getElementById("background---position");
 const backgroundRepeatValue = document.getElementById("background---repeat");
 const backgroundOriginValue = document.getElementById("background---origin");
+
+// get the visibility value display element (sidebar copy-code panel)
+const visibilityValue = document.getElementById("css---visibility");
 
 
 // Text Formatting buttons
@@ -163,6 +167,12 @@ const transformRotateBtn = document.getElementById("css---transform--rotate");
 const transformScaleBtn = document.getElementById("css---transform--scale");   
 const transformSkewBtn = document.getElementById("css---transform--skew");
 const transformPerspective = document.getElementById("css---transform--perspective");
+
+// CSS Visibility
+const visibilityHiddenBtn = document.getElementById("css---visibility--hidden");
+const visibilityVisibleBtn = document.getElementById("css---visibility--visible");
+const visibilityCollapseBtn = document.getElementById("css---visibility--collapse");
+const visibilityUncollapseBtn = document.getElementById("css---visibility--uncollapse");
 
 //const transformPropertiesTransformOriginBtn = document.getElementById("css---transform--transform-origin");
 
@@ -694,6 +704,25 @@ transformPerspective.addEventListener("click", (e) =>{
     transformValue.textContent = "perspective(50px)";
 })
 
+visibilityHiddenBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    sampleTextVisibility.style.visibility = "hidden";
+    visibilityValue.textContent = "hidden";
+});
+
+visibilityVisibleBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    sampleTextVisibility.style.visibility = "visible";
+    visibilityValue.textContent = "visible";
+});
+
+visibilityCollapseBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    sampleTextVisibility.style.visibility = "collapse";
+    visibilityValue.textContent = "collapse";
+});
+
+
 /* transformPropertiesTransformOriginBtn.addEventListener("click", (e) => {    
     e.preventDefault();
     sampleTransforms.style.transformOrigin = "top left";
@@ -767,6 +796,7 @@ copyButton.addEventListener("click", (e) => {
         textAlign: document.getElementById("text---alignment").textContent,
         fontSize: document.getElementById("font---size").textContent,
         display: document.getElementById("css---display").textContent,
+        visibility: document.getElementById("css---visibility").textContent,
         wordSpacing: document.getElementById("word---spacing").textContent,
         letterSpacing: document.getElementById("letter---spacing").textContent,
         textShadow: document.getElementById("text---shadow").textContent,
@@ -793,6 +823,7 @@ copyButton.addEventListener("click", (e) => {
             text-align: ${styles.textAlign}
             font-size: ${styles.fontSize}
             display: ${styles.display}
+            visibility: ${styles.visibility}
             line-height: ${styles.lineHeight}
             letter-spacing: ${styles.letterSpacing}
             word-spacing: ${styles.wordSpacing}

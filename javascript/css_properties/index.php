@@ -198,6 +198,13 @@
                         <strong>display: </strong>
                         <span class="property---value" id="css---display">block;</span>
                         
+                    </article>               
+
+                    <article class="property">
+
+                        <strong>visibility: </strong>
+                        <span class="property---value" id="css---visibility">visible;</span>
+                        
                     </article>            
 
                     <article class="property">
@@ -525,6 +532,22 @@
                 <a href="#" class="button---manipulate--property" id="css---transform--skew">skew</a> | 
                 <a href="#" class="button---manipulate--property" id="css---transform--perspective">perspective</a>
         
+            </article>
+
+            <article class="css---property" id="section-13">
+
+                <h4>Section 13: CSS Visibility</h4>
+
+                <div class="sample---box sample---box--text" id="sample---css--visibility">
+
+                visible
+               
+                </div>
+
+                <a href="#" class="button---manipulate--property" id="css---visibility--hidden">hidden</a> | 
+                <a href="#" class="button---manipulate--property" id="css---visibility--visible">visible</a> | 
+                <a href="#" class="button---manipulate--property" id="css---visibility--collapse">collapse</a> 
+                
             </article>
 
         </section> 

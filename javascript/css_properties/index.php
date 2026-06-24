@@ -533,7 +533,7 @@
 
     <footer>
 
-        <p>Copyright &copy; (2025) Created by <a href="https://www.jonniegrieve.co.uk" target="_blank" class="footer---url" id="">Jonnie Grieve Digital Media</a> with AI and Supermaven</p>
+        <p>Copyright &copy; (2026) Created by <a href="https://www.jonniegrieve.co.uk" target="_blank" class="footer---url" id="">Jonnie Grieve Digital Media</a> with AI and Supermaven</p>
         
     </footer>
 

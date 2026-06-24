@@ -3,11 +3,11 @@
  * CSS Property Manipulator created by @jg_digitalmedia 
  * with the Supermaven Framework and Cursor AI
  * Website: https://www.jonniegrieve.co.uk
- * Project URL: https://staging.jonniegrieve.co.uk/css_project
+ * Project URL: https://projects.jonniegrieve.co.uk/css_properties
  * 
  */
 
-console.log("app.js - connected! - 07-01-2025 - 11:39");
+console.log("app.js - connected! - 24-06-2026 - 15:19");
 
 // select navigation menu elements
 const hamburgerIcon = document.querySelector('.hamburger-icon');
@@ -766,6 +766,7 @@ copyButton.addEventListener("click", (e) => {
         textTransform: document.getElementById("text---transform").textContent,
         textAlign: document.getElementById("text---alignment").textContent,
         fontSize: document.getElementById("font---size").textContent,
+        display: document.getElementById("css---display").textContent,
         wordSpacing: document.getElementById("word---spacing").textContent,
         letterSpacing: document.getElementById("letter---spacing").textContent,
         textShadow: document.getElementById("text---shadow").textContent,
@@ -791,9 +792,10 @@ copyButton.addEventListener("click", (e) => {
             text-transform: ${styles.textTransform}
             text-align: ${styles.textAlign}
             font-size: ${styles.fontSize}
+            display: ${styles.display}
+            line-height: ${styles.lineHeight}
             letter-spacing: ${styles.letterSpacing}
             word-spacing: ${styles.wordSpacing}
-            line-height: ${styles.lineHeight}
             text-shadow: ${styles.textShadow}
             font-family: ${styles.fontFamily}
             opacity: ${styles.opacity}

@@ -1,4 +1,4 @@
-/* Last Updated: 06-01-2025 - 12:00 */
+/* Last Updated: 24-06-2026 - 16:06 */
 * {
   padding: 0;
   margin: 0;
@@ -20,6 +20,7 @@
   --text-css-syntax: black;
   --text-css-property: black;
   --text-css-value: black;
+  --text-css-visibility: visible;
   --text-btn: black;
   --box-shadow-header-colour: #55a8c3;
   --link-color: blue;
@@ -164,6 +165,7 @@ body header .side-nav {
   transition: left 0.3s ease;
   z-index: 99;
   padding-top: 60px;
+  overflow-y: scroll;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 body header .side-nav.active {

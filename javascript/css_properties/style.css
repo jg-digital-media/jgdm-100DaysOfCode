@@ -1,4 +1,4 @@
-/* Last Updated: 24-06-2026 - 16:06 */
+/* Last Updated: 25-06-2026 - 11:26 */
 * {
   padding: 0;
   margin: 0;
@@ -108,8 +108,9 @@ body header a#reset---settings:hover {
 }
 body header .hamburger-menu {
   position: relative;
-  left: 20px;
-  top: 30px;
+  /* left: 20px; */
+  top: 18px;
+  right: 60px;
   width: 0;
   cursor: pointer;
   z-index: 100;
@@ -119,14 +120,17 @@ body header .hamburger-menu .hamburger-icon {
   height: 20px;
   position: relative;
   transition: color 0.3s ease;
-  bottom: 20px;
+  bottom: 10px;
 }
 body header .hamburger-menu .hamburger-icon span {
   display: block;
   position: absolute;
   height: 3px;
   width: 100%;
-  background: var(--bg-hamburger);
+  /* background: var(--bg-hamburger); */
+  /* background: #000000; */
+  /* background: #236e87; */
+  background: blue;
   /* color: #595454; */
   border-radius: 3px;
   transition: all 0.3s ease;
@@ -141,7 +145,9 @@ body header .hamburger-menu .hamburger-icon span:last-child {
   top: 16px;
 }
 body header .hamburger-menu .hamburger-icon.active span {
-  background: #ff9b34;
+  /* background: #ff9b34; */
+  background: #000000;
+  background: #5858f8;
 }
 body header .hamburger-menu .hamburger-icon.active span:first-child {
   transform: rotate(45deg);

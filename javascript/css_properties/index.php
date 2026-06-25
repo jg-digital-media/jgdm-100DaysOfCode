@@ -139,6 +139,8 @@
 
     <div class="website---titles">
 
+        <!-- TODO: Image on top of H1 Element -->
+
         <h1>CSS Property Manipulator</h1>
 
         <h2>Edit the available property settings and see the results in real time.</h2>

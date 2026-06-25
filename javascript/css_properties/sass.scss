@@ -565,13 +565,18 @@ body {
 				text-align: center;
 				margin: 5px 0;
 			}
+            
+            .css---property:nth-child(2) {
+
+                margin: 6px auto;
+            }
 
 			.css---property {
 
 				color: var(--text-primary);
 				text-align: center;
 				border: solid #bbc7bb 1px;				
-				margin: 6px auto;
+				margin: 40px auto;
 				width: 95%;
 				border-radius: 4px;
 				padding: 6px;
@@ -584,6 +589,7 @@ body {
 					/* background: darken($bg---tertiary, 5%); */
 					background: var(--bg-tertiary-hover);
 				}
+
 
 				scroll-margin-top: 100px;
 

@@ -1,4 +1,4 @@
-/* Last Updated: 25-06-2026 - 11:26 */
+/* Last Updated: 25-06-2026 - 11:38 */
 * {
   padding: 0;
   margin: 0;
@@ -433,11 +433,14 @@ body main .css---properties h3 {
   text-align: center;
   margin: 5px 0;
 }
+body main .css---properties .css---property:nth-child(2) {
+  margin: 6px auto;
+}
 body main .css---properties .css---property {
   color: var(--text-primary);
   text-align: center;
   border: solid #bbc7bb 1px;
-  margin: 6px auto;
+  margin: 40px auto;
   width: 95%;
   border-radius: 4px;
   padding: 6px;

@@ -136,8 +136,9 @@ body {
 		.hamburger-menu {
 
 			position: relative;
-			left: 20px;
-			top: 30px;
+			/* left: 20px; */
+			top: 18px;
+            right: 60px;
 			width: 0;
 			//transform: translateY(-50%);
 			cursor: pointer;
@@ -149,7 +150,7 @@ body {
 				height: 20px;
 				position: relative;
 				transition: color 0.3s ease;
-				bottom: 20px;
+				bottom: 10px;
 
 				span {
 					display: block;
@@ -158,7 +159,10 @@ body {
 					width: 100%;
 					// background: white;
 					// background: #595454;
-					background: var(--bg-hamburger);
+					/* background: var(--bg-hamburger); */
+                    /* background: #000000; */
+                    /* background: #236e87; */
+                    background: blue;
 					/* color: #595454; */
 					border-radius: 3px;
 					transition: all 0.3s ease;
@@ -179,7 +183,9 @@ body {
 				&.active {
 					span {
 
-						background: #ff9b34;
+						/* background: #ff9b34; */
+                        background: #000000;
+                        background: #5858f8;
 
 						&:first-child {
 							transform: rotate(45deg);

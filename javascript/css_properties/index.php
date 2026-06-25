@@ -62,16 +62,7 @@
 </head>
 <body id="backtotop">
 
-    <header>
-
-        <!-- Add this at the start of your header -->
-        <div class="hamburger-menu">
-            <div class="hamburger-icon">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
+    <header>       
 
         <nav class="side-nav">
             <ul>
@@ -87,6 +78,19 @@
                 <li><a href="#section-10">Backgrounds</a></li>
                 <li><a href="#section-11">Background Properties</a></li>
                 <li><a href="#section-12">Transforms</a></li>
+                <li><a href="#section-12">Transforms</a></li>
+                <li><a href="#section-12">Transforms</a></li>
+                <li><a href="#section-12">Transforms</a></li>
+                <li><a href="#section-12">Transforms</a></li>
+                <li><a href="#section-12">Transforms</a></li>
+                <li><a href="#section-12">Transforms</a></li>
+                <li><a href="#section-12">Transforms</a></li>
+                <li><a href="#section-12">Transforms</a></li>
+                <li><a href="#section-12">Transforms</a></li>
+                <li><a href="#section-12">Transforms</a></li>
+                <li><a href="#section-12">Transforms</a></li>
+                <li><a href="#section-12">Transforms</a></li>
+                <li><a href="#section-12">Transforms</a></li>
             </ul>
         </nav>
     
@@ -95,6 +99,15 @@
             <!-- <h1>CSS Project: Property Manipulator</h1> -->
 
             <!-- <p>This is a test page for the CSS project.</p> -->
+
+            <!-- Add this at the start of your header -->
+            <div class="hamburger-menu">
+                <div class="hamburger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
 
             <a href="#" class="top---menu" id="reset---settings">Reset</a>
             <a href="#" class="top---menu" id="app---notes">Notes</a>

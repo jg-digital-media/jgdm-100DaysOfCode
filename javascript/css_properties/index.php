@@ -565,6 +565,24 @@
                 
             </article>
 
+            <article class="css---property" id="section-14">
+
+                <h3>Section 14: </h3>
+
+                <div class="sample---box sample---box--text" id="sample---css--animations">
+
+                Sensors indicate no shuttle or other ships in this sector. According to coordinates, we have travelled 7,000 light years and are located near the system J-25
+
+                </div>
+
+                <a href="#" class="button---manipulate--property" id="css---animation--reset">reset</a> | 
+                <a href="#" class="button---manipulate--property" id="css---animation--animation">animation</a> | 
+                <a href="#" class="button---manipulate--property" id="css---animation--transition">transition</a> | 
+                <a href="#" class="button---manipulate--property" id="css---animation--keyframes">keyframes</a> | 
+                <a href="#" class="button---manipulate--property" id="css---animation--delay">delay</a> | 
+                <a href="#" class="button---manipulate--property" id="css---animation--iteration-count">iteration-count</a> |
+            </article>
+
         </section> 
 
     </main>
@@ -577,11 +595,13 @@
 
     <!--
 
-    
-        TODO: 13 CSS Visibility: visibility: hidden, visible, collapse, uncollapse.
-
-        TODO: 14. CSS Animations Transitions (Animated properties)
-        (e.g opacity, box-shadow, text-shadow, background-color, border-color, border-radius, outline, box-shadow).
+        TODO: 14. border-radius, 
+        
+        TODO: 15. outline, 
+        
+        TODO: 16. box-shadow
+        
+        TODO: 17. Transitions (Animated properties) - easein- ease-in-out etc
        
     -->
 

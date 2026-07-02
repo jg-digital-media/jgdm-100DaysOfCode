@@ -78,6 +78,10 @@
                 <li><a href="#section-10">Backgrounds</a></li>
                 <li><a href="#section-11">Background Properties</a></li>
                 <li><a href="#section-12">Transforms</a></li>
+                <li><a href="#section-13">CSS Visibility</a></li>
+                <li><a href="#section-14">Border Radius</a></li>
+                <li><a href="#section-15">Box Shadow</a></li>
+                <!--<li><a href="#section-12">Transforms</a></li>
                 <li><a href="#section-12">Transforms</a></li>
                 <li><a href="#section-12">Transforms</a></li>
                 <li><a href="#section-12">Transforms</a></li>
@@ -86,11 +90,7 @@
                 <li><a href="#section-12">Transforms</a></li>
                 <li><a href="#section-12">Transforms</a></li>
                 <li><a href="#section-12">Transforms</a></li>
-                <li><a href="#section-12">Transforms</a></li>
-                <li><a href="#section-12">Transforms</a></li>
-                <li><a href="#section-12">Transforms</a></li>
-                <li><a href="#section-12">Transforms</a></li>
-                <li><a href="#section-12">Transforms</a></li>
+                <li><a href="#section-12">Transforms</a></li> -->
             </ul>
         </nav>
     
@@ -212,6 +212,20 @@
 
                         <strong>display: </strong>
                         <span class="property---value" id="css---display">block;</span>
+                        
+                    </article>               
+
+                    <article class="property">
+
+                        <strong>border-radius: </strong>
+                        <span class="property---value" id="css---border--radius">0px;</span>
+                        
+                    </article>                 
+
+                    <article class="property">
+
+                        <strong>box-shadow: </strong>
+                        <span class="property---value" id="css---box--shadow">none;</span>
                         
                     </article>               
 
@@ -567,20 +581,42 @@
 
             <article class="css---property" id="section-14">
 
-                <h3>Section 14: </h3>
+                <h4>Section 14: Border Radius </h4>
 
-                <div class="sample---box sample---box--text" id="sample---css--animations">
+                <div class="sample---box sample---box--text" id="sample---border--radius">
 
                 Sensors indicate no shuttle or other ships in this sector. According to coordinates, we have travelled 7,000 light years and are located near the system J-25
 
                 </div>
 
-                <a href="#" class="button---manipulate--property" id="css---animation--reset">reset</a> | 
-                <a href="#" class="button---manipulate--property" id="css---animation--animation">animation</a> | 
-                <a href="#" class="button---manipulate--property" id="css---animation--transition">transition</a> | 
-                <a href="#" class="button---manipulate--property" id="css---animation--keyframes">keyframes</a> | 
-                <a href="#" class="button---manipulate--property" id="css---animation--delay">delay</a> | 
-                <a href="#" class="button---manipulate--property" id="css---animation--iteration-count">iteration-count</a> |
+                <a href="#" class="button---manipulate--property" id="css---border--radius-0">0px</a> | 
+                <a href="#" class="button---manipulate--property" id="css---border--radius-1">1px</a> | 
+                <a href="#" class="button---manipulate--property" id="css---border--radius-2">2px</a> | 
+                <a href="#" class="button---manipulate--property" id="css---border--radius-3">3px</a> | 
+                <a href="#" class="button---manipulate--property" id="css---border--radius-4">4px</a> | 
+                <a href="#" class="button---manipulate--property" id="css---border--radius-5">5px</a> | 
+                <a href="#" class="button---manipulate--property" id="css---border--radius-10">10px</a> | 
+                <a href="#" class="button---manipulate--property" id="css---border--radius-15">15px</a> | 
+                <a href="#" class="button---manipulate--property" id="css---border--radius-50pc">50%</a> |
+            </article>
+
+            <article class="css---property" id="section-15">
+
+                <h4>Section 15: Box Shadow </h4>
+
+                <div class="sample---box sample---box--text" id="sample---box--shadow">
+
+                Sensors indicate no shuttle or other ships in this sector. According to coordinates, we have travelled 7,000 light years and are located near the system J-25
+
+                </div>
+
+                <a href="#" class="button---manipulate--property" id="css---box--shadow-0">none </a> | 
+                <a href="#" class="button---manipulate--property" id="css---box--shadow-1">black 7 0 0 0 </a> | 
+                <a href="#" class="button---manipulate--property" id="css---box--shadow-2">black 0 7 0 0</a> | 
+                <a href="#" class="button---manipulate--property" id="css---box--shadow-3">black 0 0 7 0</a> | 
+                <a href="#" class="button---manipulate--property" id="css---box--shadow-4">black 0 0 0 7</a> |
+                
+                    <!-- black 2px 1px 12px 0px; -->
             </article>
 
         </section> 
@@ -597,11 +633,9 @@
 
         TODO: 14. border-radius, 
         
-        TODO: 15. outline, 
+        TODO: 15. box-shadow
         
-        TODO: 16. box-shadow
-        
-        TODO: 17. Transitions (Animated properties) - easein- ease-in-out etc
+        TODO: 16. Transitions (Animated properties) - easein- ease-in-out etc
        
     -->
 

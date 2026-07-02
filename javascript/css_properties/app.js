@@ -7,7 +7,7 @@
  * 
  */
 
-console.log("app.js - connected! - 24-06-2026 - 15:59");
+console.log("app.js - connected! - 02-07-2026 - 17:12");
 
 // select navigation menu elements
 const hamburgerIcon = document.querySelector('.hamburger-icon');
@@ -44,6 +44,13 @@ const sampleBackground = document.getElementById("sample---css--backgrounds");
 const sampleBackgroundProperties = document.getElementById("sample---css--background-properties");
 const sampleTransforms = document.getElementById("sample---css--transforms");
 const sampleTextVisibility = document.getElementById("sample---css--visibility");
+const sampleBorderRadius = document.getElementById("sample---border--radius");
+const sampleBoxShadow = document.getElementById("sample---box--shadow");
+
+/*
+
+    Select the real time text style values
+*/
 
 // Get the real time text style values
 const fontWeightValue = document.getElementById("font---weight");
@@ -91,7 +98,8 @@ const backgroundOriginValue = document.getElementById("background---origin");
 
 // get the visibility value display element (sidebar copy-code panel)
 const visibilityValue = document.getElementById("css---visibility");
-
+const borderRadiusValue = document.getElementById("css---border--radius");
+const boxShadowValue = document.getElementById("css---box--shadow");
 
 // Text Formatting buttons
 const normalBtn = document.getElementById("font---normal");
@@ -173,6 +181,24 @@ const visibilityHiddenBtn = document.getElementById("css---visibility--hidden");
 const visibilityVisibleBtn = document.getElementById("css---visibility--visible");
 const visibilityCollapseBtn = document.getElementById("css---visibility--collapse");
 const visibilityUncollapseBtn = document.getElementById("css---visibility--uncollapse");
+
+// Border Radius
+const borderRadius0Btn = document.getElementById("css---border--radius-0");
+const borderRadius1Btn = document.getElementById("css---border--radius-1");
+const borderRadius2Btn = document.getElementById("css---border--radius-2");
+const borderRadius3Btn = document.getElementById("css---border--radius-3");
+const borderRadius4Btn = document.getElementById("css---border--radius-4");
+const borderRadius5Btn = document.getElementById("css---border--radius-5");
+const borderRadius10Btn = document.getElementById("css---border--radius-10");
+const borderRadius15Btn = document.getElementById("css---border--radius-15");   
+const borderRadius50Btn = document.getElementById("css---border--radius-50pc");
+
+// Box Shadow
+const boxShadow0Btn = document.getElementById("css---box--shadow-0");
+const boxShadow1Btn = document.getElementById("css---box--shadow-1");
+const boxShadow2Btn = document.getElementById("css---box--shadow-2");
+const boxShadow3Btn = document.getElementById("css---box--shadow-3");
+const boxShadow4Btn = document.getElementById("css---box--shadow-4");
 
 //const transformPropertiesTransformOriginBtn = document.getElementById("css---transform--transform-origin");
 
@@ -723,6 +749,95 @@ visibilityCollapseBtn.addEventListener("click", (e) => {
 });
 
 
+
+borderRadius0Btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    sampleBorderRadius.style.borderRadius = "0px";
+    borderRadiusValue.textContent = "0px";
+});
+
+borderRadius1Btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    sampleBorderRadius.style.borderRadius = "1px";
+    borderRadiusValue.textContent = "1px";
+});
+
+borderRadius2Btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    sampleBorderRadius.style.borderRadius = "2px";
+    borderRadiusValue.textContent = "2px";
+});
+
+borderRadius3Btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    sampleBorderRadius.style.borderRadius = "3px";
+    borderRadiusValue.textContent = "3px";
+});
+
+borderRadius4Btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    sampleBorderRadius.style.borderRadius = "4px";
+    borderRadiusValue.textContent = "4px";
+});
+
+borderRadius5Btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    sampleBorderRadius.style.borderRadius = "5px";
+    borderRadiusValue.textContent = "5px";
+});
+
+borderRadius10Btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    sampleBorderRadius.style.borderRadius = "10px";
+    borderRadiusValue.textContent = "10px";
+});
+
+borderRadius15Btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    sampleBorderRadius.style.borderRadius = "15px";
+    borderRadiusValue.textContent = "15px";
+});
+
+borderRadius50Btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    sampleBorderRadius.style.borderRadius = "50%";
+    borderRadiusValue.textContent = "50%";
+});
+
+
+
+
+boxShadow0Btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    sampleBoxShadow.style.boxShadow = "none";
+    boxShadowValue.textContent = "none;";
+});
+
+boxShadow1Btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    sampleBoxShadow.style.boxShadow = "7px 0 0 0 black";
+    boxShadowValue.textContent = "7px 0 0 0 black;";
+});
+
+boxShadow2Btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    sampleBoxShadow.style.boxShadow = "0 7px 0 0 black";
+    boxShadowValue.textContent = "7px 0 0 0 black;";
+});
+
+boxShadow3Btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    sampleBoxShadow.style.boxShadow = "0 0 7px 0 black";
+    boxShadowValue.textContent = "0 0 7px 0 black;";
+});
+
+boxShadow4Btn.addEventListener("click", (e) => {
+    e.preventDefault();
+    sampleBoxShadow.style.boxShadow = "0 0 0 7px black";
+    boxShadowValue.textContent = "0 0 0 7px black;";
+});
+
+
 /* transformPropertiesTransformOriginBtn.addEventListener("click", (e) => {    
     e.preventDefault();
     sampleTransforms.style.transformOrigin = "top left";
@@ -796,6 +911,8 @@ copyButton.addEventListener("click", (e) => {
         textAlign: document.getElementById("text---alignment").textContent,
         fontSize: document.getElementById("font---size").textContent,
         display: document.getElementById("css---display").textContent,
+        borderRadius: document.getElementById("css---border--radius").textContent,
+        boxShadow: document.getElementById("css---box--shadow").textContent,
         visibility: document.getElementById("css---visibility").textContent,
         wordSpacing: document.getElementById("word---spacing").textContent,
         letterSpacing: document.getElementById("letter---spacing").textContent,
@@ -823,6 +940,8 @@ copyButton.addEventListener("click", (e) => {
             text-align: ${styles.textAlign}
             font-size: ${styles.fontSize}
             display: ${styles.display}
+            border-radius: ${styles.borderRadius}
+            box-shadow: ${styles.boxShadow}
             visibility: ${styles.visibility}
             line-height: ${styles.lineHeight}
             letter-spacing: ${styles.letterSpacing}

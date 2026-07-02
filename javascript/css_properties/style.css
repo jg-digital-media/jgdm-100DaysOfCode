@@ -1,4 +1,4 @@
-/* Last Updated: 25-06-2026 - 11:38 */
+/* Last Updated: 02-07-2026 - 17:16 */
 * {
   padding: 0;
   margin: 0;
@@ -528,6 +528,7 @@ body .example-box {
 }
 body .sample---box--text {
   border: solid black 3px;
+  box-shadow: none;
   color: var(--text-secondary);
   width: 85%;
   height: auto;

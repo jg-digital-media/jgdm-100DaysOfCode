@@ -7,7 +7,7 @@
  * 
  */
 
-console.log("app.js - connected! - 02-07-2026 - 17:12");
+console.log("app.js - connected! - 07-07-2026 - 13:01");
 
 // select navigation menu elements
 const hamburgerIcon = document.querySelector('.hamburger-icon');
@@ -1045,7 +1045,9 @@ const themes = {
         '--bg-tertiary-hover': '#7ec2d8',
         '--bg-header': '#94c5f7',
         '--bg-body':'lightblue',
-        '--bg-hamburger':'#236e87',
+        '--bg-hamburger':'blue',
+        '--bg-hamburger-hover': 'red',
+        '--bg-hamburger-icon': '#5858f8',
         '--bg-css-sample': '#ffefd2',
         '--bg-syntax-container': '#4da5c9',
         '--bg-btn': '#f3e8e8',      
@@ -1074,6 +1076,8 @@ const themes = {
         '--bg-header': '#0c52a9',
         '--bg-body': '#3c9cff',
         '--bg-hamburger': '#ffee78',
+        '--bg-hamburger-hover': '#96ff60',
+        '--bg-hamburger-icon': '#96ff60',
         '--bg-css-sample': '#fdbf50',
         '--bg-syntax-container': '#3a3a3a',
         '--bg-btn': '#ffdcb1',            
@@ -1101,7 +1105,9 @@ const themes = {
         '--bg-tertiary-hover': '#f2f2f2',
         '--bg-header': '#000000',
         '--bg-body':'#ffffff',
-        '--bg-hamburger': '#ffe14f',
+        '--bg-hamburger': '#ffffff',
+        '--bg-hamburger-hover': '#ffe14f',
+        '--bg-hamburger-icon': '#ffe14f',
         '--bg-css-sample': '#ffffff',
         '--bg-syntax-container': '#ffffff',
         '--bg-btn': '#f3e8e8',     

@@ -15,6 +15,8 @@
 	--bg-tertiary-hover: #7ec2d8;
     --bg-header: #3c9cff;
 	--bg-body: lightblue;
+    --bg-hamburger: blue;
+    --bg-hamburger-hover: blue;
 	--bg-hamburger-icon: #595454;
 	--bg-css-sample: #ffefd2;
 	--bg-syntax-container: '#ffefd2',
@@ -162,7 +164,9 @@ body {
 					/* background: var(--bg-hamburger); */
                     /* background: #000000; */
                     /* background: #236e87; */
-                    background: blue;
+                    /* background: blue; */
+                    /* background: var(--bg-hamburger-icon); */
+                    background: var(--bg-hamburger);
 					/* color: #595454; */
 					border-radius: 3px;
 					transition: all 0.3s ease;
@@ -186,6 +190,7 @@ body {
 						/* background: #ff9b34; */
                         background: #000000;
                         background: #5858f8;
+                        background: var(--bg-hamburger-hover);
 
 						&:first-child {
 							transform: rotate(45deg);

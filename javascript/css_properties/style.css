@@ -1,4 +1,4 @@
-/* Last Updated: 02-07-2026 - 17:16 */
+/* Last Updated: 07-07-2026 - 15:34 */
 * {
   padding: 0;
   margin: 0;
@@ -10,6 +10,8 @@
   --bg-tertiary-hover: #7ec2d8;
   --bg-header: #3c9cff;
   --bg-body: lightblue;
+  --bg-hamburger: blue;
+  --bg-hamburger-hover: blue;
   --bg-hamburger-icon: #595454;
   --bg-css-sample: #ffefd2;
   --bg-syntax-container: "#ffefd2",
@@ -75,7 +77,7 @@ body header .top---menu {
   text-decoration: none;
   transition: all 0.3s ease;
   /* margin-top: 8px; */
-  margin: 8px 6px;
+  margin: 8px 12px;
 }
 body header .top---menu:hover {
   color: red;
@@ -130,7 +132,9 @@ body header .hamburger-menu .hamburger-icon span {
   /* background: var(--bg-hamburger); */
   /* background: #000000; */
   /* background: #236e87; */
-  background: blue;
+  /* background: blue; */
+  /* background: var(--bg-hamburger-icon); */
+  background: var(--bg-hamburger);
   /* color: #595454; */
   border-radius: 3px;
   transition: all 0.3s ease;
@@ -148,6 +152,7 @@ body header .hamburger-menu .hamburger-icon.active span {
   /* background: #ff9b34; */
   background: #000000;
   background: #5858f8;
+  background: var(--bg-hamburger-hover);
 }
 body header .hamburger-menu .hamburger-icon.active span:first-child {
   transform: rotate(45deg);
@@ -252,7 +257,7 @@ body .website---titles h1 {
   text-align: center;
   width: 40%;
   display: block;
-  margin: 6px auto;
+  margin: 16pt auto 0 auto;
 }
 @media (max-width: 584px) {
   body .website---titles h1 {
@@ -260,8 +265,14 @@ body .website---titles h1 {
   }
 }
 body .website---titles > h2 {
+  display: block;
   text-align: center;
-  margin: 15pt 0;
+  width: 200px;
+  margin: 15pt auto;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  padding: 16px;
 }
 body main {
   display: flex;

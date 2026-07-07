@@ -89,7 +89,7 @@ body {
 			text-decoration: none;
 			transition: all 0.3s ease;
 			/* margin-top: 8px; */
-			margin: 8px 6px;
+			margin: 8px 12px;
 
 			&:hover {
 
@@ -333,7 +333,7 @@ body {
 			text-align: center;
 			width: 40%;
 			display: block;
-			margin: 6px auto;
+			margin: 16pt auto 0 auto;
 
 			@media (max-width: $bkp---md) {
 
@@ -344,8 +344,14 @@ body {
 
 		> h2 {
 
-			text-align: center;
-			margin: 15pt 0;
+            display: block;
+            text-align: center;
+            width: 200px;
+            margin: 15pt auto;
+            font-size: 12px;
+            letter-spacing: 1px;
+            line-height: 1.5;
+            padding: 16px;
 		}
 	}
 

@@ -1,4 +1,4 @@
-/* Last Update: 30/06/2026 - 15:00 */
+/* Last Update: 08/07/2026 - 12:21 */
 
 /* Match List - Season: 
 
@@ -111,7 +111,7 @@ CREATE TABLE everton_home_matches (
     played INTEGER
 );
 
-CREATE TABLE fulham,_home_matches (
+CREATE TABLE fulham_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -120,7 +120,7 @@ CREATE TABLE fulham,_home_matches (
     played INTEGER
 );
 
-CREATE TABLE hullcity,_home_matches (
+CREATE TABLE hullcity_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,
@@ -129,7 +129,7 @@ CREATE TABLE hullcity,_home_matches (
     played INTEGER
 );
 
-CREATE TABLE ipswich,_home_matches (
+CREATE TABLE ipswich_home_matches (
     id INTEGER PRIMARY KEY,
     home_team TEXT NOT NULL,
     home_score INTEGER,

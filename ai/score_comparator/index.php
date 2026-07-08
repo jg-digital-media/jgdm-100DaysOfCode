@@ -73,7 +73,7 @@
 
     <section class="section---selected--season">    
 
-        <div class="selected---season">2026/2026</div>
+        <div class="selected---season">2026/2027</div>
 
     </section>
 
@@ -86,11 +86,14 @@
             <option id="select---home--astonvilla" value="Aston Villa">Aston Villa</option>
             <option id="select---home--brentford" value="Brentford">Brentford</option>
             <option id="select---home--brighton" value="Brighton & Hove Albion">Brighton &amp; Hove Albion</option>
-            <option id="select---home--burnley" value="Burnley">Burnley</option>
+            <!-- <option id="select---home--burnley" value="Burnley">Burnley</option> -->
             <option id="select---home--chelsea" value="Chelsea">Chelsea</option>
+            <option id="select---home--coventrycity" value="Coventry City">Coventry City</option>
             <option id="select---home--crystalpalace" value="Crystal Palace">Crystal Palace</option>
             <option id="select---home--everton" value="Everton">Everton</option>
             <option id="select---home--fulham" value="Fulham">Fulham</option>
+            <option id="select---home--hullcity" value="Hull City">Hull City</option>
+            <option id="select---home--ipswich" value="Ipswich Town">Ipswich Town</option>
             <option id="select---home--leeds" value="Leeds United">Leeds United</option>
             <option id="select---home--liverpool" value="Liverpool">Liverpool</option>
             <option id="select---home--manchestercity" value="Manchester City">Manchester City</option>
@@ -98,8 +101,8 @@
             <option id="select---home--nottinghamforest" value="Nottingham Forest">Nottingham Forest</option>
             <option id="select---home--sunderland" value="Sunderland">Sunderland</option>
             <option id="select---home--spurs" value="Tottenham Hotspur">Tottenham Hotspur</option>
-            <option id="select---home--westham" value="West Ham United">West Ham United</option>
-            <option id="select---home--wolves" value="Wolverhampton Wanderers">Wolverhampton Wanderers</option>
+            <!-- <option id="select---home--westham" value="West Ham United">West Ham United</option> -->
+            <!-- <option id="select---home--wolves" value="Wolverhampton Wanderers">Wolverhampton Wanderers</option> -->
         </select>
 
         <div class="score---versus">V</div>

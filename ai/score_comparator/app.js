@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 06/03/2025 - 12:58");
+    console.log("app.js connected - 08/07/2026 - 11:58");
 
     const teamSelect = document.getElementById('select---home--team');
     const seasonSelect = document.getElementById('form---select--season');
@@ -285,7 +285,31 @@ document.addEventListener('DOMContentLoaded', function() {
             <option id="select---home--spurs" value="Tottenham Hotspur">Tottenham Hotspur</option>
             <option id="select---home--westham" value="West Ham United">West Ham United</option>
             <option id="select---home--wolves" value="Wolverhampton Wanderers">Wolverhampton Wanderers</option>
-        `
+        `,
+
+        // 2026/27 Season teams
+        '2027': `
+            <option id="select---home--placeholder" value="Select Team">Select Team...</option>          
+            <option id="select---home--bournemouth" value="AFC Bournemouth">AFC Bournemouth</option>
+            <option id="select---home--arsenal" value="Arsenal">Arsenal</option>
+            <option id="select---home--astonvilla" value="Aston Villa">Aston Villa</option>
+            <option id="select---home--brentford" value="Brentford">Brentford</option>
+            <option id="select---home--brighton" value="Brighton & Hove Albion">Brighton &amp; Hove Albion</option>
+            <option id="select---home--chelsea" value="Chelsea">Chelsea</option>
+            <option id="select---home--coventry" value="Coventry City">Coventry City</option>
+            <option id="select---home--crystalpalace" value="Crystal Palace">Crystal Palace</option>
+            <option id="select---home--everton" value="Everton">Everton</option>
+            <option id="select---home--fulham" value="Fulham">Fulham</option>
+            <option id="select---home--hullcity" value="Hull City">Hull City</option>
+            <option id="select---home--ipswich" value="Ipswich Town">Ipswich Town</option>
+            <option id="select---home--leeds" value="Leeds United">Leeds United</option>
+            <option id="select---home--liverpool" value="Liverpool">Liverpool</option>
+            <option id="select---home--manchestercity" value="Manchester City">Manchester City</option>
+            <option id="select---home--manchesterunited" value="Manchester United">Manchester United</option>
+            <option id="select---home--nottinghamforest" value="Nottingham Forest">Nottingham Forest</option>
+            <option id="select---home--sunderland" value="Sunderland">Sunderland</option>
+            <option id="select---home--spurs" value="Tottenham Hotspur">Tottenham Hotspur</option>
+        ` 
        
     };
 
@@ -323,7 +347,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
         let displayText;
 
-        if (season === '2026') {
+        if (season === '2027') {
+
+            displayText = '2026/2027';
+
+        } else if (season === '2026') {
 
             displayText = '2025/2026';
 
@@ -458,6 +486,8 @@ document.addEventListener('DOMContentLoaded', function() {
             endpointName = 'westham';
         } else if (endpointName === 'westbrom') {
             endpointName = 'westbrom';
+        } else if (endpointName === 'coventrycity') {
+            endpointName = 'coventry';
         } else if (endpointName === 'ipswichtown') {
             endpointName = 'ipswich';
         }

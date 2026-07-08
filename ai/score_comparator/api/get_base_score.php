@@ -14,10 +14,11 @@ register_shutdown_function(function () {
 });
 
 try {
+
     // Get parameters and clean them
     $team = isset($_GET['team']) ? trim($_GET['team'], ' "\'') : '';
     $isAway = isset($_GET['away']) && $_GET['away'] === '1';
-    $season = isset($_GET['season']) ? trim($_GET['season'], ' "\'') : '2026'; // Default to 2025/2026
+    $season = isset($_GET['season']) ? trim($_GET['season'], ' "\'') : '2027'; // Default to 2026/2027
     error_log("Received parameters - team: " . $team . ", isAway: " . ($isAway ? 'true' : 'false') . ", season: " . $season);
 
     $seasonsDir = dirname(__DIR__) . DIRECTORY_SEPARATOR . 'assets' . DIRECTORY_SEPARATOR . 'data' . DIRECTORY_SEPARATOR . 'seasons';
@@ -28,8 +29,10 @@ try {
     }
 
     // Determine which database to use based on season identifier
-    if ($season === '2026') {
-        $dbPath = $seasonsDir . DIRECTORY_SEPARATOR . 'season-25-26.db'; // 2025/26 season - current season
+    if ($season === '2027') {
+        $dbPath = $seasonsDir . DIRECTORY_SEPARATOR . 'season-26-27.db'; // 2026/27 season - current season
+    } elseif ($season === '2026') {
+        $dbPath = $seasonsDir . DIRECTORY_SEPARATOR . 'season-25-26.db'; // 2025/26 season
     } elseif ($season === '2025') {
         $dbPath = $seasonsDir . DIRECTORY_SEPARATOR . 'season-24-25.db'; // 2024/25 season
     } elseif ($season === '2024') {
@@ -51,6 +54,7 @@ try {
     } elseif ($season === '2015') {
         $dbPath = $seasonsDir . DIRECTORY_SEPARATOR . 'season-14-15.db'; // 2014/15 season
     } else {
+        
         // Future proofing for other seasons
         $seasonYear = substr($season, -2); // Get last 2 digits
         $prevYear = sprintf("%02d", (int)$seasonYear - 1); // Format with leading zero

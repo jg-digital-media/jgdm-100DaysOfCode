@@ -1,14 +1,16 @@
 <?php
 
-    // Get season parameter, default to 2025/2026
-    $season = isset($_GET['season']) ? trim($_GET['season'], ' "\'') : '2026';
+    // Get season parameter, default to 2026/2027
+    $season = isset($_GET['season']) ? trim($_GET['season'], ' "\'') : '2027';
     
     // Use __DIR__ for reliable path resolution (this file is in assets/template-parts/)
     $seasonsDir = dirname(__DIR__, 2) . DIRECTORY_SEPARATOR . 'assets' . DIRECTORY_SEPARATOR . 'data' . DIRECTORY_SEPARATOR . 'seasons';
 
     // Determine which database file to use based on the season selected
-    if ($season === '2026') {
-        $dbPath = $seasonsDir . DIRECTORY_SEPARATOR . 'season-25-26.db'; // Current season (2025/26)
+    if ($season === '2027') {
+        $dbPath = $seasonsDir . DIRECTORY_SEPARATOR . 'season-26-27.db'; // Current season (2026/27)
+    } elseif ($season === '2026') {
+        $dbPath = $seasonsDir . DIRECTORY_SEPARATOR . 'season-25-26.db'; // 2024/25 season
     } elseif ($season === '2025') {
         $dbPath = $seasonsDir . DIRECTORY_SEPARATOR . 'season-24-25.db'; // 2024/25 season
     } elseif ($season === '2024') {

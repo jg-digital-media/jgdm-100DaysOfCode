@@ -186,7 +186,7 @@
             <li><code><strong>Phase ends (25/11/2025)</strong></code></li>
         </ul>    
 
-         <code class="version---heading">v3.8</code>
+        <code class="version---heading">v3.8</code>
 
         <ul class="development---history"> 
 
@@ -196,6 +196,16 @@
             <!-- <li><code><strong>Phase ends (10/09/2025)</strong></code></li> -->
             <!-- <li><code><strong>Phase ends (25/11/2025)</strong></code></li> -->
         </ul>    
+
+        <code class="version---heading">v3.9</code>
+
+        <ul class="development---history"> 
+
+            <li>Worked on getting the app ready to begin adding scores for <code><strong>2026/2027</strong></code> season.</li>
+            <li>Development for <code><strong>2014/2015</strong></code> season is ongoing.</li>
+
+        </ul>
+
 
         <h2>Points to take.</h2>
 

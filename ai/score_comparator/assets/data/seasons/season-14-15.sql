@@ -1,4 +1,4 @@
-/* Last Update: 20/07/2026 - 14:34 */
+/* Last Update: 20/07/2026 - 16:10 */
 
 /* Match List - Season: 14/15
 
@@ -857,7 +857,7 @@ INSERT INTO astonvilla_away_matches (home_team, home_score, away_team, away_scor
     ('Liverpool', 0, 'Aston Villa', 1, 1),
     ('Manchester City', 3, 'Aston Villa', 2, 1),
     ('Manchester United', 3, 'Aston Villa', 1, 1),
-    ('Queens Park Rangers', 0, 'Aston Villa', 0, 0),
+    ('Queens Park Rangers', 2, 'Aston Villa', 0, 1),
     ('Southampton', 6, 'Aston Villa', 1, 1),
     ('Stoke City', 0, 'Aston Villa', 1, 1),
     ('Sunderland', 0, 'Aston Villa', 4, 1),

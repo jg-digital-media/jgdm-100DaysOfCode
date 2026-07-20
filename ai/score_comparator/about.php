@@ -191,7 +191,7 @@
         <ul class="development---history"> 
 
             <li>Following the completion of the <code><strong>2025/2026</strong></code> premier league season, the scores for this season have been added. for season <code><strong>2015/2016</strong></code></li>
-            <li>Concurrently, the work in 3.7 is ongoing for adding scores for <code><strong>2015/2016</strong></code> season.</li>
+            <li>Concurrently, the work in 3.8 is ongoing for adding scores for <code><strong>2015/2016</strong></code> season.</li>
             <li>Complete seasons include: <code><strong>2024/2025</strong></code>, <code><strong>2023/2024</strong></code>, <code><strong>2022/2023</strong></code>, <code><strong>2021/2022</strong></code> <code><strong>2020/2021</strong></code>, <code><strong>2019/2020</strong></code>, <code><strong>2018/2019</strong></code>, <strong><code>2017/2018</code></strong>, and <code><strong>2015/2016</strong></code>.
             <!-- <li><code><strong>Phase ends (10/09/2025)</strong></code></li> -->
             <!-- <li><code><strong>Phase ends (25/11/2025)</strong></code></li> -->
@@ -202,9 +202,12 @@
         <ul class="development---history"> 
 
             <li>Worked on getting the app ready to begin adding scores for <code><strong>2026/2027</strong></code> season.</li>
-            <li>Development for <code><strong>2014/2015</strong></code> season is ongoing.</li>
-
-        </ul>
+            <li>Development for <code><strong>2014/2015</strong></code> season is ongoing.</li>               
+            <li>Concurrently, the work in 3.9 is ongoing for adding scores for <code><strong>2014/2015</strong></code> season.</li>
+            <li>Complete seasons include: <code><strong>2024/2025</strong></code>, <code><strong>2023/2024</strong></code>, <code><strong>2022/2023</strong></code>, <code><strong>2021/2022</strong></code> <code><strong>2020/2021</strong></code>, <code><strong>2019/2020</strong></code>, <code><strong>2018/2019</strong></code>, <strong><code>2017/2018</code></strong>, <code><strong>2015/2016</strong></code> and <code><strong>2014/2015</strong></code>.
+            <li><code><strong>Phase ends (20/07/2026)</strong></code></li>
+            <!-- <li><code><strong>Phase ends (25/11/2025)</strong></code></li> -->
+        </ul>    
 
 
         <h2>Points to take.</h2>

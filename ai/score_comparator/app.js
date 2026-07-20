@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("app.js connected - 08/07/2026 - 11:58");
+    console.log("app.js connected - 20/07/2026 - 14:36");
 
     const teamSelect = document.getElementById('select---home--team');
     const seasonSelect = document.getElementById('form---select--season');
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <option id="select---home--arsenal" value="Arsenal">Arsenal</option>
             <option id="select---home--astonvilla" value="Aston Villa">Aston Villa</option>
             <option id="select---home--chelsea" value="Chelsea">Chelsea</option>
-            <option id="select---home--burnley" value="Chelsea">Burnley</option>
+            <option id="select---home--burnley" value="Burnley">Burnley</option>
             <option id="select---home--crystalpalace" value="Crystal Palace">Crystal Palace</option>
             <option id="select---home--everton" value="Everton">Everton</option>
             <option id="select---home--hullcity" value="Hull City">Hull City</option>

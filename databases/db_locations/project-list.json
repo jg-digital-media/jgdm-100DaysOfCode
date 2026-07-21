@@ -241,22 +241,6 @@
             "project_dev_status": "dev-complete"
 
         }, {
-            "project_name": "Psychic Reading Online [PROJECT RETIRED]",
-            "project_url": "https://www.psychic-reading-online.com",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/client_portfolio/psychic-reading-online/",
-            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/psychic-reading-online.png",
-            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/psychicreading-online.jpg",
-            "project_alt": "Go to Psychic Reading Online",
-            "project_type": "Website",
-            "project_category": "website",
-            "class": "all ",
-            "project_status": "incomplete",
-            "status": true,
-            "img_type": "data-src",
-            "img_type_data": "data-src",
-            "project_dev_status": "dev-retired"
-
-        }, {
             "project_name": "Project Status App (in Vue.js)",
             "project_url": "https://projects.jonniegrieve.co.uk/vue_project",
             "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/project-status-app-vue-js/",
@@ -704,22 +688,6 @@
             "project_dev_status": "dev-complete"
 
         }, {
-            "project_name": "JGDM Flask Project",
-            "project_url": "https://aqueous-thicket-63067.herokuapp.com/",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/flask-project/",
-            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/_project_under_review.png",
-            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/_project_under_review.jpg",
-            "project_alt": "Go to JGDM Flask Project",
-            "project_type": "Website",
-            "project_category": "website",
-            "class": "all ",
-            "project_status": "under_review",
-            "status": true,
-            "img_type": "data-src",
-            "img_type_data": "data-src",
-            "project_dev_status": "dev-retired"
-
-        }, {
             "project_name": "Jaunts and Journeys in Lockdown",
             "project_url": "https://projects.jonniegrieve.co.uk/lockdown/index.php",
             "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/jaunts-and-journeys-in-lockdown/",
@@ -728,22 +696,6 @@
             "project_alt": "Go to Jaunts and Journeys in Lockdown website",
             "project_type": "Website",
             "project_category": "website",
-            "class": "all ",
-            "project_status": "complete",
-            "status": true,
-            "img_type": "data-src",
-            "img_type_data": "data-src",
-            "project_dev_status": "dev-complete"
-
-        }, {
-            "project_name": "Currency Converter App",
-            "project_url": "https://projects.jonniegrieve.co.uk/currency_converter/index.html",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/currency-converter-app/",
-            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/currency_converter.png",
-            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/currency_converter.jpg",
-            "project_alt": "Go to Currency Converter App",
-            "project_type": "Single-Page App",
-            "project_category": "app single-page-app",
             "class": "all ",
             "project_status": "complete",
             "status": true,
@@ -799,22 +751,6 @@
             "img_type_data": "data-src",
             "project_dev_status": "dev-retired"
 
-
-        }, {
-            "project_name": "Switch Photo App - Laravel",
-            "project_url": "https://switch-photo-library.herokuapp.com/",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/switch-photo-app-laravel/",
-            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/_project_under_review.png",
-            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/_project_under_review.jpg",
-            "project_alt": "Switch Photo App - Laravel",
-            "project_type": "Website",
-            "project_category": "website app",
-            "class": "all ",
-            "project_status": "under_review",
-            "status": false,
-            "img_type": "data-src",
-            "img_type_data": "data-src",
-            "project_dev_status": "dev-retired"
 
         }, {
             "project_name": "JGDM: PHP Project Starter",
@@ -1087,38 +1023,6 @@
             "img_type": "data-src",
             "img_type_data": "data-src",
             "project_dev_status": "dev-ongoing"
-
-        }, {
-            "project_name": "Flask Project - Instructional",
-            "project_url": "https://aqueous-thicket-63067.herokuapp.com/",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/flask-project/",
-            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/_project_under_review.png",
-            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/_project_under_review.jpg",
-            "project_alt": "Go to Flask Instructional Project",
-            "project_type": "Website",
-            "project_category": "website repository",
-            "class": "all ",
-            "project_status": "under_review",
-            "status": true,
-            "img_type": "data-src",
-            "img_type_data": "data-src",
-            "project_dev_status": "dev-complete"
-
-        }, {
-            "project_name": "Flask and SQLAlchemy Project",
-            "project_url": "https://jgdm-python-app.herokuapp.com/",
-            "portfolio_url": "https://portfolio.jonniegrieve.co.uk/dev_portfolio/flask-sqlalchemy-project/",
-            "img_url": "https://projects.jonniegrieve.co.uk/assets/img/list/_project_under_review.png",
-            "feat_img_url": "https://projects.jonniegrieve.co.uk/assets/img/featured_image_list/_project_under_review.jpg",
-            "project_alt": "Go to Flask and SQLAlchemy Project",
-            "project_type": "Website",
-            "class": "all ",
-            "project_status": "under_review",
-            "project_category": "website repository",
-            "status": true,
-            "img_type": "data-src",
-            "img_type_data": "data-src",
-            "project_dev_status": "dev-complete"
 
         }, {
             "project_name": "SCAA - Saltburn by the Sea Website",

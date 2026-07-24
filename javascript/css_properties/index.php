@@ -143,7 +143,13 @@
 
         <h1>CSS Property Manipulator</h1>
 
-        <h2>Edit the available property settings and see the results in real time.</h2>
+        <div class="logo_and_title">
+
+            <img src="css_properties_logo.png" title="CSS Property Manipulator" alt="CSS Property Manipulator" style="display: block; width: 220px; height: auto; margin: 0 auto";>
+
+            <h2>Edit the available property settings and see the results in real time.</h2>
+
+        </div>
         
     </div>
 

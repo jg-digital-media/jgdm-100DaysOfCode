@@ -353,6 +353,50 @@ body {
             line-height: 1.5;
             padding: 16px;
 		}
+
+        .logo_and_title {
+
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            margin: 28px auto;
+
+            @media (max-width: $bkp---m) {
+
+                width: 90%;
+                flex-direction: column;
+            }
+
+            img {
+
+                display: block;
+                width: 220px;
+                height: auto;
+                margin: 0 auto;
+
+                @media (max-width: $bkp---m) {
+
+                    width: 90%;
+                }
+
+            }
+
+            h2 {
+
+                align-content: center;
+                font-size: 15pt;
+                width: 46%;
+
+                @media (max-width: $bkp---m) {
+
+                    width: 46%;
+                    margin: 0 auto;
+                }
+
+            }
+            
+        }
+
 	}
 
 	main {

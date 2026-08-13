@@ -1,3 +1,80 @@
 /* sass.scss */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #0f172a;
+  color: #fff;
+}
+body header {
+  width: 100%;
+  font-family: Poppins, verdana, arial, sans-serif;
+}
+body header #page_logo {
+  display: block;
+  margin: 0px auto;
+  padding: 6px 0;
+  width: 100px;
+  height: 100px;
+}
+body header h1 {
+  font-size: 22px;
+  text-align: center;
+  font-weight: normal;
+  margin: 6px 0;
+}
+
+main {
+  font-family: Poppins, verdana, arial, sans-serif;
+}
+main .database---location--instance {
+  /* margin: 10px 5px; */
+  border-radius: 10px;
+  /* border: solid 1px #1b4e62; */
+  border: solid 1px #1b4e62;
+  /* color: #89ddff; */
+  color: #89ddff;
+  margin: 25px auto;
+  padding: 25px;
+  background: #1a3352;
+  width: 45%;
+  transition: all 0.3s;
+}
+main .database---location--instance:hover {
+  background: #264b79;
+  /* border: solid 1px #89ddff; */
+  border: solid 1px #89ddff;
+}
+main .database---location--instance h2 {
+  font-size: 16px;
+  margin: 6px 0;
+  font-weight: normal;
+}
+main .database---location--instance h2 .database---project--style {
+  color: #89ddff;
+  font-size: 14px;
+  vertical-align: middle;
+  font-style: italic;
+  color: yellow;
+}
+main .database---location--instance p {
+  color: #fff;
+  font-size: 12px;
+}
+main .database---location--instance .record---count {
+  font-size: 14px;
+  color: #89ddff;
+  margin: 6px 0;
+}
+main .database---location--instance .db---location {
+  font-size: 12px;
+}
+main .database---location--instance .db---location code {
+  font-family: Poppins, verdana, arial, sans-serif;
+  font-style: italic;
+  color: #89ddff;
+}
 
 /*# sourceMappingURL=style.css.map */

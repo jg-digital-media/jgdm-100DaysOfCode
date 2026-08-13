@@ -1,7 +1,0 @@
-"project_status     "status"
-
-
-"under_review"      null
-"upcoming"          "upcoming"
-"complete"          true
-"incomplete"        false

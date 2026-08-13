@@ -44,6 +44,8 @@
         <p>contains 93 items - contains "project-dev-status" key<code>  subdomains/projects/assets/data/project-list.json</code></p>
 
     </main>
+
+    <script src="app.js" type="text/javascript"></script>
     
 </body>
 </html>

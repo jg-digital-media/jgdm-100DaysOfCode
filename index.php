@@ -1,6 +1,6 @@
 <?php
 
-    // 01-07-2025 10:33
+    // 13-08-2026 15:54
 
     // Set the timezone to UK
     date_default_timezone_set('Europe/London');
@@ -200,12 +200,12 @@
         <p id="section---database--projects"></p>
         <h2 class="tech---category">Databases - <a href="http://localhost/jgdm-100daysofcode/databases">Local</a> - <a href="#top">Top</a></h2>
                 
-        <ul>
+        <!-- <ul>
             <li>project-list.json - check this file and ensure data is up to date</li>
             <li>project-list.sql - check this file and ensure data is up to date</li>
             <li>repositories.json - check this file and ensure data is up to date</li>
             <li>readme.md</li>
-        </ul>
+        </ul> -->
 
         <p id="section---java--projects"></p>
         <h2 class="tech---category">Java - <a href="http://localhost/jgdm-100daysofcode/java">Local</a> - <a href="#top">Top</a></h2>

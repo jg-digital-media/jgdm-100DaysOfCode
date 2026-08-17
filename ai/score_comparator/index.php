@@ -15,7 +15,6 @@
         gtag('config', 'G-N9WB623MVP');
     </script>
 
-
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Odibee+Sans|Quicksand&display=swap" rel="stylesheet">
 

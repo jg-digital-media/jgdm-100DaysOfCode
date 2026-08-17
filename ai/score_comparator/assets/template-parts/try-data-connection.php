@@ -31,6 +31,8 @@
         $dbPath = $seasonsDir . DIRECTORY_SEPARATOR . 'season-15-16.db'; // 2015/16 season
     } elseif ($season === '2015') {
         $dbPath = $seasonsDir . DIRECTORY_SEPARATOR . 'season-14-15.db'; // 2014/15 season
+    } elseif ($season === '2014') {
+        $dbPath = $seasonsDir . DIRECTORY_SEPARATOR . 'season-13-14.db'; // 2013/14 season
     } else {
         // Future proofing for other seasons
         $seasonYear = substr($season, -2); // Get last 2 digits

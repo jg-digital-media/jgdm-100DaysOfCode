@@ -48,7 +48,6 @@
     <!-- Canonical link -->
     <link rel="canonical" href="">
 
-
     <title>Football Score Comparator</title>
 
 </head>

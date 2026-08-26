@@ -17,70 +17,16 @@
 
     <header>
         
-        <img src="jg_logo.png" alt="jgdm logo" title="jgdm logo" id="page_logo">
+        <!-- <img src="jg_logo.png" alt="jgdm logo" title="jgdm logo" id="page_logo"> -->
 
-        <h1>Database Locations and Backups (Local)</h1>
+        <!-- <h1>Database Locations and Backups (Local)</h1> -->
 
     </header>
     
 
     <main>
 
-        <article class="database---location--instance">
-
-            <h2>repositories.json <em class="database---project--style">status text - not up to date</em></h2>
-
-            <p>Repository JSON file</p>
-            <p class="record---count">0</p>
-            <p class="db---location">Location: <code>db_locations/db-locations.php</code></p>
-
-        </article>
-
-        <article class="database---location--instance">
-
-            <h2>htdocs JSON data file (Backup) <em class="database---project--style">status text - not up to date</em></h2>
-            <p>contains <strong>44</strong> items <code></code></p>
-            <!-- https://projects.jonniegrieve.co.uk/assets/lists/repositories/repositories.json -->             
-            <p class="record---count">0</p>
-            <p class="db---location">Location: <code>server/_assets/htdocs-backup/repositories.json</code></p>
-      
-        </article>
-
-        <article class="database---location--instance">
-
-            <h2>project---data--dynamic.json <em class="database---project--style">Not up to date</em></h2>
-            <p>DB description - contains <strong>310</strong> items <code> <!-- https://projects.jonniegrieve.co.uk/assets/lists/project_list/project---data--dynamic.json --></code></p>
-            <p class="record---count">0</p>
-            <p class="db---location">Location: <code>server/_assets/htdocs-backup/project---data--dynamic.json</code></p>
-
-        </article>
-
-        <article class="database---location--instance">
-
-            <h2>project_list.json <em class="database---project--style">Not up to date</em></h2>
-            <p>contains 94 items "project-dev-status" key</p>
-            <p class="record---count">0</p>
-            <p class="db---location">Location: <code>subdomains/projects/assets/data/project_list.json</code></p>
-
-        </article>
-
-        <article class="database---location--instance">
-
-            <h2>project_list.php <em class="database---project--style">Not up to date</em></h2>
-            <p>contains 93 items</p>
-            <p class="record---count">0</p>
-            <p class="db---location">Location: <code>jgdm-100daysofcode/databases/db_locations/project-list.json</code></p>
-
-        </article>
-
-        <article class="database---location--instance">
-
-            <h2>project_list.php <em class="database---project--style">Not up to date</em></h2>
-            <p>contains 93 items - contains "project-dev-status" key</p>
-            <p class="record---count">0</p>
-            <p class="db---location">Location: <code>subdomains/projects/assets/data/project-list.json</code></p>
-
-        </article>
+        <p><a href="http://localhost/server/_assets/db_locations/index.php" target="blank">Database Locations and Backups (Local)</a></p>
 
     </main>
 

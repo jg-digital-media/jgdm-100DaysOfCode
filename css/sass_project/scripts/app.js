@@ -12,10 +12,9 @@
  * // file path to json file - server - ../../../data/sass---project--list.json
  * // absolute path - https://www.jonniegrieve.co.uk/data/project-list.json
  * 
- * Last Update: 11:14 - 01/05/2025
  */
 
-console.log("connected to app.js - 01-05-2025 - 11:29");
+console.log("connected to app.js - 29-09-2025 - 14:50");
 
 /* Make the Carousel */ 
 $(document).ready(function() {

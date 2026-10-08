@@ -5,11 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-
-    <!-- Favicon -->
-    <link rel="icon" href="favicon.png" type="image/png">
-
     <!-- Meta Tags -->
     <meta name="description" content="">
     <meta name="keywords" content=""> 
@@ -27,14 +22,14 @@
     <meta name="twitter:image" content="">
     <meta name="twitter:card" content="css_grid_project">
 
-    <!-- Canonical link -->
-    <link rel="canonical" href="https://projects.jonniegrieve.co.uk/index.html">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.png" type="image/png">
 
-    
+    <!-- Canonical link -->
+    <link rel="canonical" href="https://projects.jonniegrieve.co.uk/index.html">   
 
     <!-- Google Font 
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Odibee+Sans|Quicksand&display=swap" rel="stylesheet">-->
-
 
     <title>Local Storage | Jonnie Grieve Digital Media</title>
 
@@ -48,15 +43,32 @@
         <h1>Local Storage</h1>
     </header>
 
+    <div class="theme---options--wrapper">
+
+        <h2>Theme Options</h2>
+        <div class="theme-options">
+
+            <a href="#" class="btn-theme-option" id="btn-theme-option-system">System</a>
+            <a href="#" class="btn-theme-option" id="btn-theme-option-red">Red</a>
+            <a href="#" class="btn-theme-option" id="btn-theme-option-yellow">Yellow</a>
+            <a href="#" class="btn-theme-option" id="btn-theme-option-blue">Blue</a>
+            <a href="#" class="btn-theme-option" id="btn-theme-option-green">Green</a>
+
+            <!-- <button class="btn-theme-option" id="btn-theme-option-light">Light</button> -->
+            <!-- <button class="btn-theme-option" id="btn-theme-option-dark">Dark</button> -->
+
+        </div>
+
+    </div>
+
 
     <section class="wrapper">
-
         
         <p>Local Storage is one way a browser remembers  the state of a web page after it has been closed or reloaded.</p>
 
         <p>Local Storage has certain limits. It is not a secure way to store information and can only store string key value pairs. </p>
 
-        <article>
+        <article class="form---input--wrapper">
 
             <form action="index.html" method="POST" id="form" class="main_form">
 
@@ -77,8 +89,8 @@
 
             <div class="localstorage-form-buttons">
 
-                <button class="btnShow">Click Me!</button>
-                <button class="btnClear">Clear Values!</button>
+                <button class="formBtn btnShow">Click Me!</button>
+                <button class="formBtn btnClear">Clear Values!</button>
             </div>
 
         </article>

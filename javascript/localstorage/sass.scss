@@ -5,8 +5,10 @@
 
 $bg---body: #ffffff;
 
-$bg---form--input: #fffea4;
-$bg---form--btn: #fffea4;
+$bg---form--input: #ffffff;
+$bg---form--input-hvr: #fffea4;
+$bg---form--btn: #ffffff;
+$bg---form--btn-hvr: #fffea4;
 
 $font---main: 'Times New Roman', Times, serif;
 $font---main--two: 'calibri', sans-serif;
@@ -37,7 +39,9 @@ $body---bg--green: #65ff60;
 
     --theme---option--body-bg: #{$body---bg};
     --theme---option--input-bg: #{$bg---form--input};
+    --theme---option--input-bg-hvr: #{$bg---form--input-hvr};
     --theme---option--btn-bg: #{$bg---form--btn};
+    --theme---option--btn-bg-hvr: #{$bg---form--btn-hvr};
 
 }
 
@@ -46,7 +50,9 @@ $body---bg--green: #65ff60;
     /* --theme---option--body-bg: #{$body---bg--red}; */
     --theme---option--body-bg: #ffcaca;
     --theme---option--input-bg: #ffcaca;
+    --theme---option--input-bg-hvr: #f08f8f;
     --theme---option--btn-bg: #ffcaca;
+    --theme---option--btn-bg-hvr: #f08f8f;
 
 }
 
@@ -54,14 +60,18 @@ $body---bg--green: #65ff60;
 
     --theme---option--body-bg: #ffff80;
     --theme---option--input-bg: #ffff80;
+    --theme---option--input-bg-hvr: #fffc53;
     --theme---option--btn-bg: #ffff80;
+    --theme---option--btn-bg-hvr: #fffc53;
 }
 
 [data-theme="theme-option-four"] {
 
     --theme---option--body-bg: #a8bfff;
-    --theme---option--input-bg: #a8bfff; 
-    --theme---option--btn-bg: #a8bfff;  
+    --theme---option--input-bg: #a8bfff;
+    --theme---option--input-bg-hvr: #6c91f7;
+    --theme---option--btn-bg: #a8bfff;
+    --theme---option--btn-bg-hvr: #6c91f7;
 
 }
 
@@ -69,7 +79,9 @@ $body---bg--green: #65ff60;
 
     --theme---option--body-bg: #bbff8e;
     --theme---option--input-bg: #bbff8e;
+    --theme---option--input-bg-hvr: #41f54a;
     --theme---option--btn-bg: #bbff8e;
+    --theme---option--btn-bg-hvr: #41f54a;
 }
 
 // --theme---option--body-bg: ${}
@@ -111,6 +123,11 @@ body {
         /* position: fixed; */
         /* top: 0; */
         /* opacity: 0; */
+
+        h2 {
+
+            margin: 0 0 8px 0;
+        }
 
         .theme-options {
             display: inline-block;
@@ -247,9 +264,11 @@ body {
             .input_form {
 
                 background: white;
+                background: var(--theme---option--input-bg);
                 padding: 12px 5px;
                 /* width: 300px; */
                 width: 100%;
+                font-size: 14pt;
                 border-radius: 5px;
 
                 transition: background 0.3s ease-in-out;
@@ -257,7 +276,7 @@ body {
                 &:hover {
 
                     background: #fff393;
-                    background: var(--theme---option--input-bg);
+                    background: var(--theme---option--input-bg-hvr);
 
                 }
 
@@ -265,7 +284,7 @@ body {
             
             .input_result {
 
-                height: 3px;
+                height: 10px;
                 color: red;
                 margin-bottom: 25px;
                 margin: 12px 0;
@@ -282,27 +301,25 @@ body {
         .formBtn {
 
             display: inline-block;
-            margin: 0 auto;
-            /* width: 30%; */
+            margin: 7px 15px;
             min-width: 100px;
             width: auto;
             padding: 6px;
             border-radius: 6px;
+            border: solid 1px black;
             background: #c8f6b0;
             background: white;
-            /* font-style: inherit; */
-            text-transform: uppercase;
+            background: var(--theme---option--btn-bg);
+            /* text-transform: uppercase; */
             font-weight: bold;
-            letter-spacing: 1px;
-            /* font-size: 12pt; */
-            font-size: $font--size--btn;
+            /* font-size: $font--size--btn; */
 
             transition: background 0.3s ease-in-out;
 
             &:hover {
 
                 background: #fffe93;
-                background: var(--theme---option--btn-bg);
+                background: var(--theme---option--btn-bg-hvr);
                 cursor: pointer;
             }
 

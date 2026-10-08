@@ -89,7 +89,7 @@
 
             <div class="localstorage-form-buttons">
 
-                <button class="formBtn btnShow">Click Me!</button>
+                <button class="formBtn btnShow">Store Text</button>
                 <button class="formBtn btnClear">Clear Values!</button>
             </div>
 

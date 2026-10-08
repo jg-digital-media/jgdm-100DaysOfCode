@@ -40,7 +40,7 @@
 <body>
 
     <header>
-        <h1>Local Storage</h1>
+        <h1>Local Storage Demonstration Page</h1>
     </header>
 
     <div class="theme---options--wrapper">

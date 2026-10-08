@@ -32,6 +32,8 @@ $body---bg--yellow: #ebf870;
 $body---bg--blue: #68b6ff;
 $body---bg--green: #65ff60;
 
+$breakpoint---md: 680px;
+
 // theme option colours - CSS Variables
 
 :root,
@@ -252,6 +254,11 @@ body {
             width: 100%;
             margin: 12px auto;
             width: 40%;
+
+            @media (max-width: $breakpoint---md) {
+
+                width: 85%;
+            }
 
             label {
 

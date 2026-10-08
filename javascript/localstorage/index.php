@@ -48,11 +48,11 @@
         <h2>Theme Options</h2>
         <div class="theme-options">
 
-            <a href="#" class="btn-theme-option" id="btn-theme-option-system">System</a>
-            <a href="#" class="btn-theme-option" id="btn-theme-option-red">Red</a>
-            <a href="#" class="btn-theme-option" id="btn-theme-option-yellow">Yellow</a>
-            <a href="#" class="btn-theme-option" id="btn-theme-option-blue">Blue</a>
-            <a href="#" class="btn-theme-option" id="btn-theme-option-green">Green</a>
+            <a href="#" class="btn-theme-option" id="btn-theme-option-system" data-theme="theme-option-one">System</a>
+            <a href="#" class="btn-theme-option" id="btn-theme-option-red" data-theme="theme-option-two">Red</a>
+            <a href="#" class="btn-theme-option" id="btn-theme-option-yellow" data-theme="theme-option-three">Yellow</a>
+            <a href="#" class="btn-theme-option" id="btn-theme-option-blue" data-theme="theme-option-four">Blue</a>
+            <a href="#" class="btn-theme-option" id="btn-theme-option-green" data-theme="theme-option-five">Green</a>
 
             <!-- <button class="btn-theme-option" id="btn-theme-option-light">Light</button> -->
             <!-- <button class="btn-theme-option" id="btn-theme-option-dark">Dark</button> -->

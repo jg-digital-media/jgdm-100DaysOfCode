@@ -4,6 +4,10 @@
 // SASS Variable Stack
 
 $bg---body: #ffffff;
+
+$bg---form--input: #fffea4;
+$bg---form--btn: #fffea4;
+
 $font---main: 'Times New Roman', Times, serif;
 $font---main--two: 'calibri', sans-serif;
 $font---main--three: 'helvetica', sans-serif;
@@ -32,6 +36,8 @@ $body---bg--green: #65ff60;
 [data-theme="theme-option-one"] {
 
     --theme---option--body-bg: #{$body---bg};
+    --theme---option--input-bg: #{$bg---form--input};
+    --theme---option--btn-bg: #{$bg---form--btn};
 
 }
 
@@ -39,24 +45,31 @@ $body---bg--green: #65ff60;
 
     /* --theme---option--body-bg: #{$body---bg--red}; */
     --theme---option--body-bg: #ffcaca;
+    --theme---option--input-bg: #ffcaca;
+    --theme---option--btn-bg: #ffcaca;
 
 }
 
 [data-theme="theme-option-three"] {
 
     --theme---option--body-bg: #ffff80;
+    --theme---option--input-bg: #ffff80;
+    --theme---option--btn-bg: #ffff80;
 }
 
 [data-theme="theme-option-four"] {
 
     --theme---option--body-bg: #a8bfff;
+    --theme---option--input-bg: #a8bfff; 
+    --theme---option--btn-bg: #a8bfff;  
 
 }
 
 [data-theme="theme-option-five"] {
 
-    --theme---option--body-bg: #{$body---bg--green};
     --theme---option--body-bg: #bbff8e;
+    --theme---option--input-bg: #bbff8e;
+    --theme---option--btn-bg: #bbff8e;
 }
 
 // --theme---option--body-bg: ${}
@@ -144,6 +157,7 @@ body {
                 &:hover {
 
                     background: lighten($color: $theme---background--red, $amount: 10);
+                    background: #ff8080;
                     
                 }
             }
@@ -159,6 +173,7 @@ body {
                 &:hover {
 
                     background: lighten($color: $theme---background--yellow, $amount: 10);
+                    background: #fff67d;
                     
                 }
             
@@ -173,7 +188,7 @@ body {
 
                 &:hover {
 
-                    background: lighten($color: $theme---background--blue, $amount: 10);
+                    background: lighten($color: $theme---background--blue, $amount: 10);background: #38b9f0;
                     
                 }
             }
@@ -188,6 +203,7 @@ body {
                 &:hover {
 
                     background: lighten($color: $theme---background--green, $amount: 10);
+                    background: #65ff7f;
                     
                 }
             }
@@ -241,6 +257,7 @@ body {
                 &:hover {
 
                     background: #fff393;
+                    background: var(--theme---option--input-bg);
 
                 }
 
@@ -285,6 +302,7 @@ body {
             &:hover {
 
                 background: #fffe93;
+                background: var(--theme---option--btn-bg);
                 cursor: pointer;
             }
 

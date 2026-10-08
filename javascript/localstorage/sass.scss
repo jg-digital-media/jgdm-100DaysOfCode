@@ -3,7 +3,7 @@
 
 // SASS Variable Stack
 
-$bg---body: #f2f2f2;
+$bg---body: #ffffff;
 $font---main: 'Times New Roman', Times, serif;
 $font---main--two: 'calibri', sans-serif;
 $font---main--three: 'helvetica', sans-serif;
@@ -19,43 +19,44 @@ $theme---background--yellow: #fff34a;
 $theme---background--blue: #11a5e4;
 $theme---background--green: #32ff54;
 
+// Body background for each theme option
+$body---bg: $bg---body;
+$body---bg--red: #ff9595;
+$body---bg--yellow: #ebf870;
+$body---bg--blue: #68b6ff;
+$body---bg--green: #65ff60;
+
 // theme option colours - CSS Variables
 
 :root,
 [data-theme="theme-option-one"] {
 
-    // comment 1 - 
-    --theme---option--body-bg: {$bg---body}; 
+    --theme---option--body-bg: #{$body---bg};
 
 }
 
-:root,
 [data-theme="theme-option-two"] {
 
-    // comment 2 - 
-    --theme---option--body-bg: #ff9595; 
+    /* --theme---option--body-bg: #{$body---bg--red}; */
+    --theme---option--body-bg: #ffcaca;
 
 }
 
-:root,
 [data-theme="theme-option-three"] {
 
-    // comment 3 - 
-    --theme---option--body-bg: #ebf870;
+    --theme---option--body-bg: #ffff80;
 }
 
-:root,
 [data-theme="theme-option-four"] {
 
-    // comment 3 - 
-    --theme---option--body-bg: #68b6ff;
+    --theme---option--body-bg: #a8bfff;
+
 }
 
-:root,
-[data-theme="theme-option-four"] {
+[data-theme="theme-option-five"] {
 
-    // comment 4 - 
-    --theme---option--body-bg: #65ff60;
+    --theme---option--body-bg: #{$body---bg--green};
+    --theme---option--body-bg: #bbff8e;
 }
 
 // --theme---option--body-bg: ${}
@@ -75,7 +76,7 @@ body {
     font-size: $font--size--md;
     font-size: $font--size--md;
 
-    background: var($bg---body);
+    background: var(--theme---option--body-bg);
 
     header {
 

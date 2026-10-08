@@ -1,4 +1,4 @@
-console.log("using localstorage");
+console.log("using localstorage - app.js");
 
 
 //select input elements
@@ -74,4 +74,41 @@ localStorage.getItem('input_3'); */
 
 // remove an item from localstorage
 // removeItem('input_one');
+
+
+const themeOptionsElement = document.querySelector('.theme-options');
+const themeStorageKey = 'theme';
+
+function applyTheme(themeOption) {
+
+    if (!themeOption) {
+        return;
+    }
+
+    document.body.setAttribute('data-theme', themeOption);
+    localStorage.setItem(themeStorageKey, themeOption);
+
+}
+
+const savedTheme = localStorage.getItem(themeStorageKey);
+
+if (savedTheme) {
+    document.body.setAttribute('data-theme', savedTheme);
+}
+
+themeOptionsElement.addEventListener('click', (e) => {
+
+    const themeButton = e.target.closest('.btn-theme-option');
+
+    if (!themeButton) {
+        return;
+    }
+
+    e.preventDefault();
+
+    const themeOption = themeButton.getAttribute('data-theme');
+    console.log(themeOption);
+    applyTheme(themeOption);
+
+});
 

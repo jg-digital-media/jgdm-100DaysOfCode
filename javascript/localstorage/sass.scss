@@ -1,0 +1,306 @@
+/*local storage - css*/
+
+
+// SASS Variable Stack
+
+$bg---body: #f2f2f2;
+$font---main: 'Times New Roman', Times, serif;
+$font---main--two: 'calibri', sans-serif;
+$font---main--three: 'helvetica', sans-serif;
+
+$font--size--h1: 32px;
+
+$font--size--md: 16px;
+
+$font--size--btn: 12pt;
+
+$theme---background--red: #ff4d4d;
+$theme---background--yellow: #fff34a;
+$theme---background--blue: #11a5e4;
+$theme---background--green: #32ff54;
+
+// theme option colours - CSS Variables
+
+:root,
+[data-theme="theme-option-one"] {
+
+    // comment 1 - 
+    --theme---option--body-bg: {$bg---body}; 
+
+}
+
+:root,
+[data-theme="theme-option-two"] {
+
+    // comment 2 - 
+    --theme---option--body-bg: #ff9595; 
+
+}
+
+:root,
+[data-theme="theme-option-three"] {
+
+    // comment 3 - 
+    --theme---option--body-bg: #ebf870;
+}
+
+:root,
+[data-theme="theme-option-four"] {
+
+    // comment 3 - 
+    --theme---option--body-bg: #68b6ff;
+}
+
+:root,
+[data-theme="theme-option-four"] {
+
+    // comment 4 - 
+    --theme---option--body-bg: #65ff60;
+}
+
+// --theme---option--body-bg: ${}
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+
+    font-family: $font---main;
+    font-family: $font---main--two;
+    font-family: $font---main--three;
+    font-family: $font---main--two;
+    font-size: $font--size--md;
+    font-size: $font--size--md;
+
+    background: var($bg---body);
+
+    header {
+
+        h1 {
+
+            text-align: center;
+            font-size: $font--size--h1;
+            margin: 6px auto;
+        }
+
+    }
+
+    .theme---options--wrapper {
+
+        width: 100%;
+        text-align: center;
+        margin: 20px auto;
+        visibility: visible;
+        /* position: fixed; */
+        /* top: 0; */
+        /* opacity: 0; */
+
+        .theme-options {
+            display: inline-block;
+            margin: 0 auto;
+            width: 100%;
+            text-align: center;
+        }
+
+        .btn-theme-option {
+
+            display: inline-block;
+            /* margin: 0 auto; */
+            margin: 0 5px;
+            /* width: 100%; */
+            min-width: 60px;
+            width: auto;
+            padding: 6px;
+            border-radius: 6px;
+            border: solid 1px black;
+            /* background: #c8f6b0; */
+            background: white;
+            text-decoration: none;
+            font-size: $font--size--btn;
+
+            transition: background 0.3s ease-in-out;
+
+            &:hover {
+
+                background: #fffea4;
+            }
+
+            &#btn-theme-option-system {
+
+                color: black;
+
+            }
+
+            &#btn-theme-option-red {
+
+                background: $theme---background--red;
+                color: white;
+                transition: background 0.3s ease-in-out;
+
+                &:hover {
+
+                    background: lighten($color: $theme---background--red, $amount: 10);
+                    
+                }
+            }
+
+            &#btn-theme-option-yellow {
+
+                background: #fff34a;
+                background: $theme---background--yellow;
+                color: #534e4e;
+                
+                transition: background 0.3s ease-in-out;
+
+                &:hover {
+
+                    background: lighten($color: $theme---background--yellow, $amount: 10);
+                    
+                }
+            
+            }
+
+            &#btn-theme-option-blue {
+
+                background: $theme---background--blue;
+                color: #222020;
+                color: white;
+                transition: background 0.3s ease-in-out;
+
+                &:hover {
+
+                    background: lighten($color: $theme---background--blue, $amount: 10);
+                    
+                }
+            }
+
+            &#btn-theme-option-green {
+
+                background: $theme---background--green;
+                color: #302e2e;
+
+                transition: background 0.3s ease-in-out;
+
+                &:hover {
+
+                    background: lighten($color: $theme---background--green, $amount: 10);
+                    
+                }
+            }
+
+        }
+    }
+
+    .wrapper {
+
+        margin: 0 auto;
+        display: block;
+        width: 75%;
+        border-right: solid black 2px;
+        border-left: solid black 2px;
+        padding: 0 15px;
+
+        p {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    }
+
+    /* Form */
+
+    .form---input--wrapper {
+
+        .main_form {
+
+            width: 100%;
+            margin: 12px auto;
+            width: 40%;
+
+            label {
+
+                width: 30%;
+                /* width: 400px; */
+                display: inline-block;
+                margin: 12px 0;
+            }
+
+            .input_form {
+
+                background: white;
+                padding: 12px 5px;
+                /* width: 300px; */
+                width: 100%;
+                border-radius: 5px;
+
+                transition: background 0.3s ease-in-out;
+
+                &:hover {
+
+                    background: #fff393;
+
+                }
+
+            }
+            
+            .input_result {
+
+                height: 3px;
+                color: red;
+                margin-bottom: 25px;
+                margin: 12px 0;
+            }
+
+        
+        }
+
+        .localstorage-form-buttons {
+
+            text-align: center;
+        }
+
+        .formBtn {
+
+            display: inline-block;
+            margin: 0 auto;
+            /* width: 30%; */
+            min-width: 100px;
+            width: auto;
+            padding: 6px;
+            border-radius: 6px;
+            background: #c8f6b0;
+            background: white;
+            /* font-style: inherit; */
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            /* font-size: 12pt; */
+            font-size: $font--size--btn;
+
+            transition: background 0.3s ease-in-out;
+
+            &:hover {
+
+                background: #fffe93;
+                cursor: pointer;
+            }
+
+        }
+
+        .btnShow,
+        .btnClear {            
+
+            cursor: pointer;
+
+        }
+
+    
+        .submit {
+            padding: 10px;
+            width: 150px;
+            width: 102%;
+        }
+    }
+}

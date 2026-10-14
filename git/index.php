@@ -53,18 +53,29 @@
 
     <p>index.php</p>
 
-    <!--     
-        
-    git push origin new_branding  - push new branch to remote reository
+               
         
     <div class="command-item">
-        <dt>Xampp Directory!</dt>
+        <dt>Git Clone (Example)</dt>
         <dd>
             <code>git clone... example</code>
             <button type="button" class="copy-btn">Copy</button>
         </dd>
-    </div>
+    </div>   
+    
 
-    -->
+    <div class="command-item">
+        <dt>Set up new stream to remote branch</dt>
+        <dd>
+            <code>git push origin new_branding</code>
+            <button type="button" class="copy-btn">Copy</button>
+        </dd>
+    </div>   
+
+     <!-- Clipping feature with CDN via NPM -->
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js" text="text/javascript"></script>   
+
+    <!-- Main Script -->
+    <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
